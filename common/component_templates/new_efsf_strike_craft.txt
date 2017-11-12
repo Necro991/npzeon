@@ -15,24 +15,24 @@ strike_craft_component_template = {
 	regeneration_per_day = 0.034
 	launch_time = 8.0
 
-	damage = { min = 3 max = 15 } #180mm Cannon - Small Autocannon
-	cooldown = 15
+	damage = { min = 53 max = 109 } #180mm Cannon - Small Autocannon
+	cooldown = 35
 	range = 60
-	accuracy = 0.7 #0.82
-	tracking = 0.5 #0.65
+	accuracy = 0.5 #0.82
+	tracking = 0.3 #0.65
 
 	health = 75 #40 - 15 = 25
 	armor = 5 #weak armor
 	shield = 0
-	evasion = 0.5
+	evasion = 0.25
 
 	speed = 6.5 #0.96G
 	rotation_speed = 0.1
 	acceleration = 0.5
 
-	shield_damage = 1.0 #SMALL MASS DRIVER
+	shield_damage = 1.33 #SMALL MASS DRIVER
 	shield_penetration = 0
-	armor_penetration = 0.0
+	armor_penetration = 0.2
 
 	ship_behavior = "fighters_behavior"
 
@@ -58,24 +58,24 @@ strike_craft_component_template = {
 	regeneration_per_day = 0.034
 	launch_time = 8.0
 
-	damage = { min = 3 max = 15 } #180mm Cannon - Small Autocannon
-	cooldown = 15
+	damage = { min = 53 max = 109 } #180mm Cannon - Small Autocannon
+	cooldown = 35
 	range = 60
-	accuracy = 0.7 #0.82
-	tracking = 0.5 #0.65
+	accuracy = 0.5 #0.82
+	tracking = 0.3 #0.65
 
 	health = 78 #40 - 18 = 22
 	armor = 7 #Improved Armor
 	shield = 0
-	evasion = 0.5
+	evasion = 0.25
 
 	speed = 6.5 #0.96G
 	rotation_speed = 0.1
 	acceleration = 0.5
 
-	shield_damage = 1.0 #SMALL MASS DRIVER
+	shield_damage = 1.33 #SMALL MASS DRIVER
 	shield_penetration = 0
-	armor_penetration = 0.0
+	armor_penetration = 0.2
 
 	ship_behavior = "fighters_behavior"
 
@@ -101,24 +101,24 @@ strike_craft_component_template = {
 	regeneration_per_day = 0.034
 	launch_time = 8.0
 
-	damage = { min = 6 max = 30 } #180mm Cannon x2 - Small Autocannon
-	cooldown = 15
-	range = 60
-	accuracy = 0.7 #0.82
-	tracking = 0.5 #0.65
+	damage = { min = 106 max = 218 } #180mm Cannon x2 - Small Autocannon
+	cooldown = 30
+	range = 50
+	accuracy = 0.5 #0.82
+	tracking = 0.3 #0.65
 
 	health = 75 #40 - 15 = 25
 	armor = 5 #weak armor
 	shield = 0
-	evasion = 0.5
+	evasion = 0.25
 
 	speed = 6.5 #0.96G
 	rotation_speed = 0.1
-	acceleration = 0.5
+	acceleration = 0.3
 
-	shield_damage = 1.0 #SMALL MASS DRIVER
+	shield_damage = 1.33 #SMALL MASS DRIVER
 	shield_penetration = 0
-	armor_penetration = 0.0
+	armor_penetration = 0.2
 
 	ship_behavior = "fighters_behavior"
 
@@ -503,9 +503,9 @@ strike_craft_component_template = {
 	rotation_speed = 0.1
 	acceleration = 0.5
 
-	shield_damage = 0.67 #MPC1
+	shield_damage = 0.2 #MPC1
 	shield_penetration = 0
-	armor_penetration = 0.9
+	armor_penetration = 0.95
 
 	ship_behavior = "fighters_behavior"
 
@@ -647,7 +647,7 @@ strike_craft_component_template = {
 }
 
 strike_craft_component_template = {
-	key = "EFSF_MS_STRIKE_CRAFT_RGC_80S_1" #RGC-80-1 GM Cannon - 1x 240mm Cannon
+	key = "EFSF_MS_STRIKE_CRAFT_RGC_80S_1" #RGC-80-1 GM Cannon - 1x 360mm Cannon
 	size = LARGE
 	entity = "scout_1z_entity"
 
@@ -660,7 +660,7 @@ strike_craft_component_template = {
 	regeneration_per_day = 0.034
 	launch_time = 8.0
 
-	damage = { min = 67 max = 150 } #1x 240mm Cannon
+	damage = { min = 100 max = 225 } #1x 360mm Cannon
 	cooldown = 25
 	range = 90
 	accuracy = 0.6
@@ -718,9 +718,9 @@ strike_craft_component_template = {
 	rotation_speed = 0.1
 	acceleration = 0.5
 
-	shield_damage = 0.67 #MPC1
+	shield_damage = 0.2 #MPC1
 	shield_penetration = 0
-	armor_penetration = 0.9
+	armor_penetration = 0.95
 
 	ship_behavior = "fighters_behavior"
 
@@ -761,9 +761,9 @@ strike_craft_component_template = {
 	rotation_speed = 0.1
 	acceleration = 0.5
 
-	shield_damage = 0.67 #MPC1
+	shield_damage = 0.2 #MPC1
 	shield_penetration = 0
-	armor_penetration = 0.9
+	armor_penetration = 0.95
 
 	ship_behavior = "fighters_behavior"
 
@@ -804,9 +804,9 @@ strike_craft_component_template = {
 	rotation_speed = 0.1
 	acceleration = 0.5
 
-	shield_damage = 0.67 #MPC1
+	shield_damage = 0.2 #MPC1
 	shield_penetration = 0
-	armor_penetration = 0.9
+	armor_penetration = 0.95
 
 	ship_behavior = "fighters_behavior"
 
@@ -847,9 +847,9 @@ strike_craft_component_template = {
 	rotation_speed = 0.1
 	acceleration = 0.55 #Increased maneuvrability from experimental magnetic coating
 
-	shield_damage = 0.67 #MPC1
+	shield_damage = 0.2 #MPC1
 	shield_penetration = 0
-	armor_penetration = 0.9
+	armor_penetration = 0.95
 
 	ship_behavior = "fighters_behavior"
 
@@ -890,9 +890,9 @@ strike_craft_component_template = {
 	rotation_speed = 0.1
 	acceleration = 0.5
 
-	shield_damage = 0.67 #MPC1
+	shield_damage = 0.2 #MPC1
 	shield_penetration = 0
-	armor_penetration = 0.9
+	armor_penetration = 0.95
 
 	ship_behavior = "fighters_behavior"
 
@@ -933,9 +933,9 @@ strike_craft_component_template = {
 	rotation_speed = 0.1
 	acceleration = 0.5
 
-	shield_damage = 0.67 #MPC1
+	shield_damage = 0.2 #MPC1
 	shield_penetration = 0
-	armor_penetration = 0.9
+	armor_penetration = 0.95
 
 	ship_behavior = "fighters_behavior"
 
@@ -1105,7 +1105,7 @@ strike_craft_component_template = {
 	rotation_speed = 0.1
 	acceleration = 0.5
 
-	shield_damage = 0.67 #MPC1
+	shield_damage = 0.2 #MPC1
 	shield_penetration = 0
 	armor_penetration = 0.7 #lowered penetration due to weaker weapon
 

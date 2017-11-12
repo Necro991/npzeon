@@ -804,9 +804,9 @@ strike_craft_component_template = {
 	rotation_speed = 0.1
 	acceleration = 0.5
 
-	shield_damage = 0.67 #MPC1
+	shield_damage = 0.2 #MPC1
 	shield_penetration = 0
-	armor_penetration = 0.9
+	armor_penetration = 0.95
 
 	ship_behavior = "fighters_behavior"
 
@@ -890,9 +890,9 @@ strike_craft_component_template = {
 	rotation_speed = 0.1
 	acceleration = 0.5
 
-	shield_damage = 0.67 #MPC1
+	shield_damage = 0.2 #MPC1
 	shield_penetration = 0
-	armor_penetration = 0.9
+	armor_penetration = 0.95
 
 	ship_behavior = "fighters_behavior"
 
@@ -976,9 +976,9 @@ strike_craft_component_template = {
 	rotation_speed = 0.1
 	acceleration = 0.5
 
-	shield_damage = 0.67 #MPC1
+	shield_damage = 0.2 #MPC1
 	shield_penetration = 0
-	armor_penetration = 0.9
+	armor_penetration = 0.95
 
 	ship_behavior = "fighters_behavior"
 
@@ -1062,9 +1062,9 @@ strike_craft_component_template = {
 	rotation_speed = 0.1
 	acceleration = 0.5
 
-	shield_damage = 0.67 #MPC1
+	shield_damage = 0.2 #MPC1
 	shield_penetration = 0
-	armor_penetration = 0.9
+	armor_penetration = 0.95
 
 	ship_behavior = "fighters_behavior"
 
@@ -1148,9 +1148,9 @@ strike_craft_component_template = {
 	rotation_speed = 0.1
 	acceleration = 0.5
 
-	shield_damage = 0.67 #MPC1
+	shield_damage = 0.2 #MPC1
 	shield_penetration = 0
-	armor_penetration = 0.9
+	armor_penetration = 0.95
 
 	ship_behavior = "fighters_behavior"
 
@@ -1234,9 +1234,9 @@ strike_craft_component_template = {
 	rotation_speed = 0.1
 	acceleration = 0.5
 
-	shield_damage = 0.67 #MPC1
+	shield_damage = 0.2 #MPC1
 	shield_penetration = 0
-	armor_penetration = 0.9
+	armor_penetration = 0.95
 
 	ship_behavior = "fighters_behavior"
 
@@ -1750,9 +1750,9 @@ strike_craft_component_template = {
 	rotation_speed = 0.1
 	acceleration = 0.5
 
-	shield_damage = 0.67 #MPC1
+	shield_damage = 0.2 #MPC1
 	shield_penetration = 0
-	armor_penetration = 0.9
+	armor_penetration = 0.95
 
 	ship_behavior = "fighters_behavior"
 
