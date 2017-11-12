@@ -1,0 +1,12 @@
+# Component Tags
+#
+# Component Tags can be given scripted in component_templates and is used to group components together for the use of common modifiers
+#
+
+weapon_type_ms
+weapon_type_z1
+weapon_type_bz
+weapon_type_gel
+weapon_type_zeon
+weapon_type_hue
+weapon_type_ms_shield

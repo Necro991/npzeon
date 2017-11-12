@@ -1,0 +1,46 @@
+# Mobile Suit Armies
+ms_army = {
+	damage = 4.0
+	morale_damage = 3.0
+	health = 5.0
+	morale = 1.25
+	time = 360
+	maintenance = 0.8
+	icon_frame = 2
+	
+	cost = {
+		minerals = 400
+		energy = 200
+	}
+	
+	prerequisites = { "tech_BEAMC_1" }
+	
+	allow = {
+		has_building = "building_ms_factory"
+	}
+	
+}
+
+efsf_ms_army = {
+	damage = 4.0
+	morale_damage = 3.0
+	health = 5.0
+	morale = 1.25
+	time = 360
+	maintenance = 0.8
+	icon_frame = 2
+	
+	cost = {
+		minerals = 400
+		energy = 200
+	}
+	
+	prerequisites = { "tech_EFSF_BEAMC_1" }
+	
+	allow = {
+		has_building = "building_efsf_ms_factory"
+	}
+	
+}
+	
+	

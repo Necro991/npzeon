@@ -1,0 +1,52 @@
+country_event = {
+	id = zeontech.2 #This one is for the ai.
+	title = "zeontecht1"
+	desc = "zeontechd1"
+	picture = "GFX_evt_Zeon1"
+	show_sound = event_structural_collapse
+	fire_only_once = yes
+	hide_window = yes
+	
+	#trigger = {
+	#	this = { is_ai = yes }
+	#	Or = {
+	#		has_country_flag = Zeon_Start
+	#		has_country_flag = Neo_Zeon_Start
+	#		has_country_flag = Axis_Zeon_Start
+	#		has_country_flag = EFSF_Start
+	#		has_country_flag = Titan_Start
+	#	}
+	#}
+	
+	immediate = {
+		any_country = {
+			is_ai = yes
+		}
+		
+		if = {
+			limit = { has_country_flag = Zeon_Start }
+			give_technology = { tech = tech_BEAMC_1 }
+			give_technology = { tech = tech_Zeon_MS_0 }
+		}
+		if = {
+			limit = { has_country_flag = Neo_Zeon_Start }
+			give_technology = { tech = tech_BEAMC_1 }
+			give_technology = { tech = tech_Neo_MS_0 }
+		}
+		if = {
+			limit = { has_country_flag = Axis_Zeon_Start }
+			give_technology = { tech = tech_BEAMC_1 }
+			give_technology = { tech = tech_Axis_MS_0 }
+		}
+		if = {
+			limit = { has_country_flag = EFSF_Start }
+			give_technology = { tech = tech_EFSF_BEAMC_1 }
+			give_technology = { tech = tech_EFSF_MS_0 }
+		}
+		if = {
+			limit = { has_country_flag = Titan_Start }
+			give_technology = { tech = tech_EFSF_BEAMC_1 }
+			give_technology = { tech = tech_Titan_MS_0 }
+		}
+	}
+}

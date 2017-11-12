@@ -1,0 +1,1643 @@
+portraits = {
+	fed_male_01 = {
+		texturefile = "gfx/models/portraits/fed/fed_male_01.dds"
+		clothes_selector = "no_texture"
+		hair_selector = "no_texture"
+	}
+	fed_male_02 = {
+		texturefile = "gfx/models/portraits/fed/fed_male_02.dds"
+		clothes_selector = "no_texture"
+		hair_selector = "no_texture"
+	}
+	fed_male_03 = {
+		texturefile = "gfx/models/portraits/fed/fed_male_03.dds"
+		clothes_selector = "no_texture"
+		hair_selector = "no_texture"
+	}
+	fed_male_04 = {
+		texturefile = "gfx/models/portraits/fed/fed_male_04.dds"
+		clothes_selector = "no_texture"
+		hair_selector = "no_texture"
+	}
+	fed_male_05 = {
+		texturefile = "gfx/models/portraits/fed/fed_male_05.dds"
+		clothes_selector = "no_texture"
+		hair_selector = "no_texture"
+	}
+	fed_male_06 = {
+		texturefile = "gfx/models/portraits/fed/fed_male_06.dds"
+		clothes_selector = "no_texture"
+		hair_selector = "no_texture"
+	}
+	fed_male_07 = {
+		texturefile = "gfx/models/portraits/fed/fed_male_07.dds"
+		clothes_selector = "no_texture"
+		hair_selector = "no_texture"
+	}
+	fed_male_08 = {
+		texturefile = "gfx/models/portraits/fed/fed_male_08.dds"
+		clothes_selector = "no_texture"
+		hair_selector = "no_texture"
+	}
+	fed_male_09 = {
+		texturefile = "gfx/models/portraits/fed/fed_male_09.dds"
+		clothes_selector = "no_texture"
+		hair_selector = "no_texture"
+	}
+	fed_male_10 = {
+		texturefile = "gfx/models/portraits/fed/fed_male_10.dds"
+		clothes_selector = "no_texture"
+		hair_selector = "no_texture"
+	}
+	fed_male_11 = {
+		texturefile = "gfx/models/portraits/fed/fed_male_11.dds"
+		clothes_selector = "no_texture"
+		hair_selector = "no_texture"
+	}
+	fed_male_12 = {
+		texturefile = "gfx/models/portraits/fed/fed_male_12.dds"
+		clothes_selector = "no_texture"
+		hair_selector = "no_texture"
+	}
+	fed_male_13 = {
+		texturefile = "gfx/models/portraits/fed/fed_male_13.dds"
+		clothes_selector = "no_texture"
+		hair_selector = "no_texture"
+	}
+	fed_male_14 = {
+		texturefile = "gfx/models/portraits/fed/fed_male_14.dds"
+		clothes_selector = "no_texture"
+		hair_selector = "no_texture"
+	}
+	fed_male_15 = {
+		texturefile = "gfx/models/portraits/fed/fed_male_15.dds"
+		clothes_selector = "no_texture"
+		hair_selector = "no_texture"
+	}
+	fed_male_16 = {
+		texturefile = "gfx/models/portraits/fed/fed_male_16.dds"
+		clothes_selector = "no_texture"
+		hair_selector = "no_texture"
+	}
+	fed_male_17 = {
+		texturefile = "gfx/models/portraits/fed/fed_male_17.dds"
+		clothes_selector = "no_texture"
+		hair_selector = "no_texture"
+	}
+	fed_male_18 = {
+		texturefile = "gfx/models/portraits/fed/fed_male_18.dds"
+		clothes_selector = "no_texture"
+		hair_selector = "no_texture"
+	}
+	fed_male_19 = {
+		texturefile = "gfx/models/portraits/fed/fed_male_19.dds"
+		clothes_selector = "no_texture"
+		hair_selector = "no_texture"
+	}
+	fed_male_20 = {
+		texturefile = "gfx/models/portraits/fed/fed_male_20.dds"
+		clothes_selector = "no_texture"
+		hair_selector = "no_texture"
+	}
+	fed_male_21 = {
+		texturefile = "gfx/models/portraits/fed/fed_male_21.dds"
+		clothes_selector = "no_texture"
+		hair_selector = "no_texture"
+	}
+	fed_male_22 = {
+		texturefile = "gfx/models/portraits/fed/fed_male_22.dds"
+		clothes_selector = "no_texture"
+		hair_selector = "no_texture"
+	}
+	fed_male_23 = {
+		texturefile = "gfx/models/portraits/fed/fed_male_23.dds"
+		clothes_selector = "no_texture"
+		hair_selector = "no_texture"
+	}
+	fed_male_24 = {
+		texturefile = "gfx/models/portraits/fed/fed_male_24.dds"
+		clothes_selector = "no_texture"
+		hair_selector = "no_texture"
+	}
+	fed_male_25 = {
+		texturefile = "gfx/models/portraits/fed/fed_male_25.dds"
+		clothes_selector = "no_texture"
+		hair_selector = "no_texture"
+	}
+	fed_male_26 = {
+		texturefile = "gfx/models/portraits/fed/fed_male_26.dds"
+		clothes_selector = "no_texture"
+		hair_selector = "no_texture"
+	}
+	fed_male_27 = {
+		texturefile = "gfx/models/portraits/fed/fed_male_27.dds"
+		clothes_selector = "no_texture"
+		hair_selector = "no_texture"
+	}
+	fed_male_28 = {
+		texturefile = "gfx/models/portraits/fed/fed_male_28.dds"
+		clothes_selector = "no_texture"
+		hair_selector = "no_texture"
+	}
+	fed_male_29 = {
+		texturefile = "gfx/models/portraits/fed/fed_male_29.dds"
+		clothes_selector = "no_texture"
+		hair_selector = "no_texture"
+	}
+	fed_male_30 = {
+		texturefile = "gfx/models/portraits/fed/fed_male_30.dds"
+		clothes_selector = "no_texture"
+		hair_selector = "no_texture"
+	}
+	fed_male_31 = {
+		texturefile = "gfx/models/portraits/fed/fed_male_31.dds"
+		clothes_selector = "no_texture"
+		hair_selector = "no_texture"
+	}
+	fed_male_32 = {
+		texturefile = "gfx/models/portraits/fed/fed_male_32.dds"
+		clothes_selector = "no_texture"
+		hair_selector = "no_texture"
+	}
+	fed_male_33 = {
+		texturefile = "gfx/models/portraits/fed/fed_male_33.dds"
+		clothes_selector = "no_texture"
+		hair_selector = "no_texture"
+	}
+	fed_male_34 = {
+		texturefile = "gfx/models/portraits/fed/fed_male_34.dds"
+		clothes_selector = "no_texture"
+		hair_selector = "no_texture"
+	}
+	fed_male_35 = {
+		texturefile = "gfx/models/portraits/fed/fed_male_35.dds"
+		clothes_selector = "no_texture"
+		hair_selector = "no_texture"
+	}
+	fed_male_36 = {
+		texturefile = "gfx/models/portraits/fed/fed_male_36.dds"
+		clothes_selector = "no_texture"
+		hair_selector = "no_texture"
+	}
+	fed_male_37 = {
+		texturefile = "gfx/models/portraits/fed/fed_male_37.dds"
+		clothes_selector = "no_texture"
+		hair_selector = "no_texture"
+	}
+	fed_male_38 = {
+		texturefile = "gfx/models/portraits/fed/fed_male_38.dds"
+		clothes_selector = "no_texture"
+		hair_selector = "no_texture"
+	}
+	fed_male_39 = {
+		texturefile = "gfx/models/portraits/fed/fed_male_39.dds"
+		clothes_selector = "no_texture"
+		hair_selector = "no_texture"
+	}
+	fed_male_40 = {
+		texturefile = "gfx/models/portraits/fed/fed_male_40.dds"
+		clothes_selector = "no_texture"
+		hair_selector = "no_texture"
+	}
+	fed_male_41 = {
+		texturefile = "gfx/models/portraits/fed/fed_male_41.dds"
+		clothes_selector = "no_texture"
+		hair_selector = "no_texture"
+	}
+	fed_male_42 = {
+		texturefile = "gfx/models/portraits/fed/fed_male_42.dds"
+		clothes_selector = "no_texture"
+		hair_selector = "no_texture"
+	}
+	fed_male_43 = {
+		texturefile = "gfx/models/portraits/fed/fed_male_43.dds"
+		clothes_selector = "no_texture"
+		hair_selector = "no_texture"
+	}
+	fed_male_44 = {
+		texturefile = "gfx/models/portraits/fed/fed_male_44.dds"
+		clothes_selector = "no_texture"
+		hair_selector = "no_texture"
+	}
+	fed_male_45 = {
+		texturefile = "gfx/models/portraits/fed/fed_male_45.dds"
+		clothes_selector = "no_texture"
+		hair_selector = "no_texture"
+	}
+	fed_male_46 = {
+		texturefile = "gfx/models/portraits/fed/fed_male_46.dds"
+		clothes_selector = "no_texture"
+		hair_selector = "no_texture"
+	}
+	fed_male_47 = {
+		texturefile = "gfx/models/portraits/fed/fed_male_47.dds"
+		clothes_selector = "no_texture"
+		hair_selector = "no_texture"
+	}
+	fed_male_48 = {
+		texturefile = "gfx/models/portraits/fed/fed_male_48.dds"
+		clothes_selector = "no_texture"
+		hair_selector = "no_texture"
+	}
+	fed_male_49 = {
+		texturefile = "gfx/models/portraits/fed/fed_male_49.dds"
+		clothes_selector = "no_texture"
+		hair_selector = "no_texture"
+	}
+	fed_male_50 = {
+		texturefile = "gfx/models/portraits/fed/fed_male_50.dds"
+		clothes_selector = "no_texture"
+		hair_selector = "no_texture"
+	}
+	fed_male_51 = {
+		texturefile = "gfx/models/portraits/fed/fed_male_51.dds"
+		clothes_selector = "no_texture"
+		hair_selector = "no_texture"
+	}
+	fed_male_52 = {
+		texturefile = "gfx/models/portraits/fed/fed_male_52.dds"
+		clothes_selector = "no_texture"
+		hair_selector = "no_texture"
+	}
+	fed_male_53 = {
+		texturefile = "gfx/models/portraits/fed/fed_male_53.dds"
+		clothes_selector = "no_texture"
+		hair_selector = "no_texture"
+	}
+	fed_male_54 = {
+		texturefile = "gfx/models/portraits/fed/fed_male_54.dds"
+		clothes_selector = "no_texture"
+		hair_selector = "no_texture"
+	}
+	fed_male_55 = {
+		texturefile = "gfx/models/portraits/fed/fed_male_55.dds"
+		clothes_selector = "no_texture"
+		hair_selector = "no_texture"
+	}
+	fed_male_56 = {
+		texturefile = "gfx/models/portraits/fed/fed_male_56.dds"
+		clothes_selector = "no_texture"
+		hair_selector = "no_texture"
+	}
+	fed_male_57 = {
+		texturefile = "gfx/models/portraits/fed/fed_male_57.dds"
+		clothes_selector = "no_texture"
+		hair_selector = "no_texture"
+	}
+	fed_male_58 = {
+		texturefile = "gfx/models/portraits/fed/fed_male_58.dds"
+		clothes_selector = "no_texture"
+		hair_selector = "no_texture"
+	}
+	fed_male_59 = {
+		texturefile = "gfx/models/portraits/fed/fed_male_59.dds"
+		clothes_selector = "no_texture"
+		hair_selector = "no_texture"
+	}
+	fed_male_60 = {
+		texturefile = "gfx/models/portraits/fed/fed_male_60.dds"
+		clothes_selector = "no_texture"
+		hair_selector = "no_texture"
+	}
+	fed_male_61 = {
+		texturefile = "gfx/models/portraits/fed/fed_male_61.dds"
+		clothes_selector = "no_texture"
+		hair_selector = "no_texture"
+	}
+	fed_male_62 = {
+		texturefile = "gfx/models/portraits/fed/fed_male_62.dds"
+		clothes_selector = "no_texture"
+		hair_selector = "no_texture"
+	}
+	fed_male_63 = {
+		texturefile = "gfx/models/portraits/fed/fed_male_63.dds"
+		clothes_selector = "no_texture"
+		hair_selector = "no_texture"
+	}
+	fed_male_64 = {
+		texturefile = "gfx/models/portraits/fed/fed_male_64.dds"
+		clothes_selector = "no_texture"
+		hair_selector = "no_texture"
+	}
+	fed_male_65 = {
+		texturefile = "gfx/models/portraits/fed/fed_male_65.dds"
+		clothes_selector = "no_texture"
+		hair_selector = "no_texture"
+	}
+	fed_male_66 = {
+		texturefile = "gfx/models/portraits/fed/fed_male_66.dds"
+		clothes_selector = "no_texture"
+		hair_selector = "no_texture"
+	}
+	fed_male_67 = {
+		texturefile = "gfx/models/portraits/fed/fed_male_67.dds"
+		clothes_selector = "no_texture"
+		hair_selector = "no_texture"
+	}
+	fed_male_68 = {
+		texturefile = "gfx/models/portraits/fed/fed_male_68.dds"
+		clothes_selector = "no_texture"
+		hair_selector = "no_texture"
+	}
+	fed_male_69 = {
+		texturefile = "gfx/models/portraits/fed/fed_male_69.dds"
+		clothes_selector = "no_texture"
+		hair_selector = "no_texture"
+	}
+	fed_male_70 = {
+		texturefile = "gfx/models/portraits/fed/fed_male_70.dds"
+		clothes_selector = "no_texture"
+		hair_selector = "no_texture"
+	}
+	fed_male_71 = {
+		texturefile = "gfx/models/portraits/fed/fed_male_71.dds"
+		clothes_selector = "no_texture"
+		hair_selector = "no_texture"
+	}
+	fed_male_72 = {
+		texturefile = "gfx/models/portraits/fed/fed_male_72.dds"
+		clothes_selector = "no_texture"
+		hair_selector = "no_texture"
+	}
+	fed_male_73 = {
+		texturefile = "gfx/models/portraits/fed/fed_male_73.dds"
+		clothes_selector = "no_texture"
+		hair_selector = "no_texture"
+	}
+	fed_male_74 = {
+		texturefile = "gfx/models/portraits/fed/fed_male_74.dds"
+		clothes_selector = "no_texture"
+		hair_selector = "no_texture"
+	}
+	fed_male_75 = {
+		texturefile = "gfx/models/portraits/fed/fed_male_75.dds"
+		clothes_selector = "no_texture"
+		hair_selector = "no_texture"
+	}
+	fed_male_76 = {
+		texturefile = "gfx/models/portraits/fed/fed_male_76.dds"
+		clothes_selector = "no_texture"
+		hair_selector = "no_texture"
+	}
+	fed_male_77 = {
+		texturefile = "gfx/models/portraits/fed/fed_male_77.dds"
+		clothes_selector = "no_texture"
+		hair_selector = "no_texture"
+	}
+	fed_male_78 = {
+		texturefile = "gfx/models/portraits/fed/fed_male_78.dds"
+		clothes_selector = "no_texture"
+		hair_selector = "no_texture"
+	}
+	fed_female_01 = {
+		texturefile = "gfx/models/portraits/fed/fed_female_01.dds"
+		clothes_selector = "no_texture"
+		hair_selector = "no_texture"
+	}
+	fed_female_02 = {
+		texturefile = "gfx/models/portraits/fed/fed_female_02.dds"
+		clothes_selector = "no_texture"
+		hair_selector = "no_texture"
+	}
+	fed_female_03 = {
+		texturefile = "gfx/models/portraits/fed/fed_female_03.dds"
+		clothes_selector = "no_texture"
+		hair_selector = "no_texture"
+	}
+	fed_female_04 = {
+		texturefile = "gfx/models/portraits/fed/fed_female_04.dds"
+		clothes_selector = "no_texture"
+		hair_selector = "no_texture"
+	}
+	fed_female_05 = {
+		texturefile = "gfx/models/portraits/fed/fed_female_05.dds"
+		clothes_selector = "no_texture"
+		hair_selector = "no_texture"
+	}
+	fed_female_06 = {
+		texturefile = "gfx/models/portraits/fed/fed_female_06.dds"
+		clothes_selector = "no_texture"
+		hair_selector = "no_texture"
+	}
+	fed_female_07 = {
+		texturefile = "gfx/models/portraits/fed/fed_female_07.dds"
+		clothes_selector = "no_texture"
+		hair_selector = "no_texture"
+	}
+	fed_female_08 = {
+		texturefile = "gfx/models/portraits/fed/fed_female_08.dds"
+		clothes_selector = "no_texture"
+		hair_selector = "no_texture"
+	}
+	fed_female_09 = {
+		texturefile = "gfx/models/portraits/fed/fed_female_09.dds"
+		clothes_selector = "no_texture"
+		hair_selector = "no_texture"
+	}
+	fed_female_10 = {
+		texturefile = "gfx/models/portraits/fed/fed_female_10.dds"
+		clothes_selector = "no_texture"
+		hair_selector = "no_texture"
+	}
+	fed_female_11 = {
+		texturefile = "gfx/models/portraits/fed/fed_female_11.dds"
+		clothes_selector = "no_texture"
+		hair_selector = "no_texture"
+	}
+	fed_female_12 = {
+		texturefile = "gfx/models/portraits/fed/fed_female_12.dds"
+		clothes_selector = "no_texture"
+		hair_selector = "no_texture"
+	}
+	fed_female_13 = {
+		texturefile = "gfx/models/portraits/fed/fed_female_13.dds"
+		clothes_selector = "no_texture"
+		hair_selector = "no_texture"
+	}
+	fed_female_14 = {
+		texturefile = "gfx/models/portraits/fed/fed_female_14.dds"
+		clothes_selector = "no_texture"
+		hair_selector = "no_texture"
+	}
+	fed_female_15 = {
+		texturefile = "gfx/models/portraits/fed/fed_female_15.dds"
+		clothes_selector = "no_texture"
+		hair_selector = "no_texture"
+	}
+	fed_female_16 = {
+		texturefile = "gfx/models/portraits/fed/fed_female_16.dds"
+		clothes_selector = "no_texture"
+		hair_selector = "no_texture"
+	}
+	fed_female_17 = {
+		texturefile = "gfx/models/portraits/fed/fed_female_17.dds"
+		clothes_selector = "no_texture"
+		hair_selector = "no_texture"
+	}
+	fed_female_18 = {
+		texturefile = "gfx/models/portraits/fed/fed_female_18.dds"
+		clothes_selector = "no_texture"
+		hair_selector = "no_texture"
+	}
+	fed_female_19 = {
+		texturefile = "gfx/models/portraits/fed/fed_female_19.dds"
+		clothes_selector = "no_texture"
+		hair_selector = "no_texture"
+	}
+	fed_female_20 = {
+		texturefile = "gfx/models/portraits/fed/fed_female_20.dds"
+		clothes_selector = "no_texture"
+		hair_selector = "no_texture"
+	}
+	fed_female_21 = {
+		texturefile = "gfx/models/portraits/fed/fed_female_21.dds"
+		clothes_selector = "no_texture"
+		hair_selector = "no_texture"
+	}
+	fed_female_22 = {
+		texturefile = "gfx/models/portraits/fed/fed_female_22.dds"
+		clothes_selector = "no_texture"
+		hair_selector = "no_texture"
+	}
+	fed_female_23 = {
+		texturefile = "gfx/models/portraits/fed/fed_female_23.dds"
+		clothes_selector = "no_texture"
+		hair_selector = "no_texture"
+	}
+	fed_female_24 = {
+		texturefile = "gfx/models/portraits/fed/fed_female_24.dds"
+		clothes_selector = "no_texture"
+		hair_selector = "no_texture"
+	}
+	fed_female_25 = {
+		texturefile = "gfx/models/portraits/fed/fed_female_25.dds"
+		clothes_selector = "no_texture"
+		hair_selector = "no_texture"
+	}
+}
+portrait_groups = {
+fed = {
+		default = fed_male_01
+		game_setup = { #will run with a limited country scope. species and government is set but the country does not actually exist
+			add = {
+				trigger = {
+					ruler = { gender = male }
+				}
+				portraits = {
+					fed_male_01
+					fed_male_02
+					fed_male_03
+					fed_male_04
+					fed_male_05
+					fed_male_06
+					fed_male_07
+					fed_male_08
+					fed_male_09
+					fed_male_10
+					fed_male_11
+					fed_male_12
+					fed_male_13
+					fed_male_14
+					fed_male_15
+					fed_male_16
+					fed_male_17
+					fed_male_18
+					fed_male_19
+					fed_male_20
+					fed_male_21
+					fed_male_22
+					fed_male_23
+					fed_male_24
+					fed_male_25
+					fed_male_26
+					fed_male_27
+					fed_male_28
+					fed_male_29
+					fed_male_30
+					fed_male_31
+					fed_male_32
+					fed_male_33
+					fed_male_34
+					fed_male_35
+					fed_male_36
+					fed_male_37
+					fed_male_38
+					fed_male_39
+					fed_male_40
+					fed_male_41
+					fed_male_42
+					fed_male_43
+					fed_male_44
+					fed_male_45
+					fed_male_46
+					fed_male_47
+					fed_male_48
+					fed_male_49
+					fed_male_50
+					fed_male_51
+					fed_male_52
+					fed_male_53
+					fed_male_54
+					fed_male_55
+					fed_male_56
+					fed_male_57
+					fed_male_58
+					fed_male_59
+					fed_male_60
+					fed_male_61
+					fed_male_62
+					fed_male_63
+					fed_male_64
+					fed_male_65
+					fed_male_66
+					fed_male_67
+					fed_male_68
+					fed_male_69
+					fed_male_70
+					fed_male_71
+					fed_male_72
+					fed_male_73
+					fed_male_74
+					fed_male_75
+					fed_male_76
+					fed_male_77
+					fed_male_78
+					}
+				}
+			add = {
+				trigger = {
+					ruler = { gender = female }
+				}
+				portraits = {
+					fed_female_01
+					fed_female_02
+					fed_female_03
+					fed_female_04
+					fed_female_05
+					fed_female_06
+					fed_female_07
+					fed_female_08
+					fed_female_09
+					fed_female_10
+					fed_female_11
+					fed_female_12
+					fed_female_13
+					fed_female_14
+					fed_female_15
+					fed_female_16
+					fed_female_17
+					fed_female_18
+					fed_female_19
+					fed_female_20
+					fed_female_21
+					fed_female_22
+					fed_female_23
+					fed_female_24
+					fed_female_25
+				}
+			}
+		}		
+		
+		#species scope
+		species = { #generic portrait for a species
+				add = {
+					portraits = {
+						fed_male_01
+						fed_male_02
+						fed_male_03
+						fed_male_04
+						fed_male_05
+						fed_male_06
+						fed_male_07
+						fed_male_08
+						fed_male_09
+						fed_male_10
+						fed_male_11
+						fed_male_12
+						fed_male_13
+						fed_male_14
+						fed_male_15
+						fed_male_16
+						fed_male_17
+						fed_male_18
+						fed_male_19
+						fed_male_20
+						fed_male_21
+						fed_male_22
+						fed_male_23
+						fed_male_24
+						fed_male_25
+						fed_male_26
+						fed_male_27
+						fed_male_28
+						fed_male_29
+						fed_male_30
+						fed_male_31
+						fed_male_32
+						fed_male_33
+						fed_male_34
+						fed_male_35
+						fed_male_36
+						fed_male_37
+						fed_male_38
+						fed_male_39
+						fed_male_40
+						fed_male_41
+						fed_male_42
+						fed_male_43
+						fed_male_44
+						fed_male_45
+						fed_male_46
+						fed_male_47
+						fed_male_48
+						fed_male_49
+						fed_male_50
+						fed_male_51
+						fed_male_52
+						fed_male_53
+						fed_male_54
+						fed_male_55
+						fed_male_56
+						fed_male_57
+						fed_male_58
+						fed_male_59
+						fed_male_60
+						fed_male_61
+						fed_male_62
+						fed_male_63
+						fed_male_64
+						fed_male_65
+						fed_male_66
+						fed_male_67
+						fed_male_68
+						fed_male_69
+						fed_male_70
+						fed_male_71
+						fed_male_72
+						fed_male_73
+						fed_male_74
+						fed_male_75
+						fed_male_76
+						fed_male_77
+						fed_male_78
+						fed_female_01
+						fed_female_02
+						fed_female_03
+						fed_female_04
+						fed_female_05
+						fed_female_06
+						fed_female_07
+						fed_female_08
+						fed_female_09
+						fed_female_10
+						fed_female_11
+						fed_female_12
+						fed_female_13
+						fed_female_14
+						fed_female_15
+						fed_female_16
+						fed_female_17
+						fed_female_18
+						fed_female_19
+						fed_female_20
+						fed_female_21
+						fed_female_22
+						fed_female_23
+						fed_female_24
+						fed_female_25
+						}
+					}
+				}
+		pop = { #for a specific pop
+			add = {
+				portraits = {
+					fed_male_01
+					fed_male_02
+					fed_male_03
+					fed_male_04
+					fed_male_05
+					fed_male_06
+					fed_male_07
+					fed_male_08
+					fed_male_09
+					fed_male_10
+					fed_male_11
+					fed_male_12
+					fed_male_13
+					fed_male_14
+					fed_male_15
+					fed_male_16
+					fed_male_17
+					fed_male_18
+					fed_male_19
+					fed_male_20
+					fed_male_21
+					fed_male_22
+					fed_male_23
+					fed_male_24
+					fed_male_25
+					fed_male_26
+					fed_male_27
+					fed_male_28
+					fed_male_29
+					fed_male_30
+					fed_male_31
+					fed_male_32
+					fed_male_33
+					fed_male_34
+					fed_male_35
+					fed_male_36
+					fed_male_37
+					fed_male_38
+					fed_male_39
+					fed_male_40
+					fed_male_41
+					fed_male_42
+					fed_male_43
+					fed_male_44
+					fed_male_45
+					fed_male_46
+					fed_male_47
+					fed_male_48
+					fed_male_49
+					fed_male_50
+					fed_male_51
+					fed_male_52
+					fed_male_53
+					fed_male_54
+					fed_male_55
+					fed_male_56
+					fed_male_57
+					fed_male_58
+					fed_male_59
+					fed_male_60
+					fed_male_61
+					fed_male_62
+					fed_male_63
+					fed_male_64
+					fed_male_65
+					fed_male_66
+					fed_male_67
+					fed_male_68
+					fed_male_69
+					fed_male_70
+					fed_male_71
+					fed_male_72
+					fed_male_73
+					fed_male_74
+					fed_male_75
+					fed_male_76
+					fed_male_77
+					fed_male_78
+					fed_female_01
+					fed_female_02
+					fed_female_03
+					fed_female_04
+					fed_female_05
+					fed_female_06
+					fed_female_07
+					fed_female_08
+					fed_female_09
+					fed_female_10
+					fed_female_11
+					fed_female_12
+					fed_female_13
+					fed_female_14
+					fed_female_15
+					fed_female_16
+					fed_female_17
+					fed_female_18
+					fed_female_19
+					fed_female_20
+					fed_female_21
+					fed_female_22
+					fed_female_23
+					fed_female_24
+					fed_female_25
+					}
+				}
+			}
+		leader = { #scientists, generals, admirals, governor
+			add = {
+				trigger = {
+					gender = female
+				}
+				portraits = {
+					fed_female_01
+					fed_female_02
+					fed_female_03
+					fed_female_04
+					fed_female_05
+					fed_female_06
+					fed_female_07
+					fed_female_08
+					fed_female_09
+					fed_female_10
+					fed_female_11
+					fed_female_12
+					fed_female_13
+					fed_female_14
+					fed_female_15
+					fed_female_16
+					fed_female_17
+					fed_female_18
+					fed_female_19
+					fed_female_20
+					fed_female_21
+					fed_female_22
+					fed_female_23
+					fed_female_24
+					fed_female_25
+				}
+			}
+			add = {
+				trigger = {
+					gender = male
+				}
+				portraits = {
+					fed_male_01
+					fed_male_02
+					fed_male_03
+					fed_male_04
+					fed_male_05
+					fed_male_06
+					fed_male_07
+					fed_male_08
+					fed_male_09
+					fed_male_10
+					fed_male_11
+					fed_male_12
+					fed_male_13
+					fed_male_14
+					fed_male_15
+					fed_male_16
+					fed_male_17
+					fed_male_18
+					fed_male_19
+					fed_male_20
+					fed_male_21
+					fed_male_22
+					fed_male_23
+					fed_male_24
+					fed_male_25
+					fed_male_26
+					fed_male_27
+					fed_male_28
+					fed_male_29
+					fed_male_30
+					fed_male_31
+					fed_male_32
+					fed_male_33
+					fed_male_34
+					fed_male_35
+					fed_male_36
+					fed_male_37
+					fed_male_38
+					fed_male_39
+					fed_male_40
+					fed_male_41
+					fed_male_42
+					fed_male_43
+					fed_male_44
+					fed_male_45
+					fed_male_46
+					fed_male_47
+					fed_male_48
+					fed_male_49
+					fed_male_50
+					fed_male_51
+					fed_male_52
+					fed_male_53
+					fed_male_54
+					fed_male_55
+					fed_male_56
+					fed_male_57
+					fed_male_58
+					fed_male_59
+					fed_male_60
+					fed_male_61
+					fed_male_62
+					fed_male_63
+					fed_male_64
+					fed_male_65
+					fed_male_66
+					fed_male_67
+					fed_male_68
+					fed_male_69
+					fed_male_70
+					fed_male_71
+					fed_male_72
+					fed_male_73
+					fed_male_74
+					fed_male_75
+					fed_male_76
+					fed_male_77
+					fed_male_78
+				}
+			}
+		}
+		
+		#leader scope 
+		ruler = {
+			add = {
+				trigger = {
+					gender = female
+				}
+				portraits = {
+					fed_female_01
+					fed_female_02
+					fed_female_03
+					fed_female_04
+					fed_female_05
+					fed_female_06
+					fed_female_07
+					fed_female_08
+					fed_female_09
+					fed_female_10
+					fed_female_11
+					fed_female_12
+					fed_female_13
+					fed_female_14
+					fed_female_15
+					fed_female_16
+					fed_female_17
+					fed_female_18
+					fed_female_19
+					fed_female_20
+					fed_female_21
+					fed_female_22
+					fed_female_23
+					fed_female_24
+					fed_female_25
+				}	
+			}
+			add = {
+				trigger = {
+					gender = male
+				}
+				portraits = {
+					fed_male_01
+					fed_male_02
+					fed_male_03
+					fed_male_04
+					fed_male_05
+					fed_male_06
+					fed_male_07
+					fed_male_08
+					fed_male_09
+					fed_male_10
+					fed_male_11
+					fed_male_12
+					fed_male_13
+					fed_male_14
+					fed_male_15
+					fed_male_16
+					fed_male_17
+					fed_male_18
+					fed_male_19
+					fed_male_20
+					fed_male_21
+					fed_male_22
+					fed_male_23
+					fed_male_24
+					fed_male_25
+					fed_male_26
+					fed_male_27
+					fed_male_28
+					fed_male_29
+					fed_male_30
+					fed_male_31
+					fed_male_32
+					fed_male_33
+					fed_male_34
+					fed_male_35
+					fed_male_36
+					fed_male_37
+					fed_male_38
+					fed_male_39
+					fed_male_40
+					fed_male_41
+					fed_male_42
+					fed_male_43
+					fed_male_44
+					fed_male_45
+					fed_male_46
+					fed_male_47
+					fed_male_48
+					fed_male_49
+					fed_male_50
+					fed_male_51
+					fed_male_52
+					fed_male_53
+					fed_male_54
+					fed_male_55
+					fed_male_56
+					fed_male_57
+					fed_male_58
+					fed_male_59
+					fed_male_60
+					fed_male_61
+					fed_male_62
+					fed_male_63
+					fed_male_64
+					fed_male_65
+					fed_male_66
+					fed_male_67
+					fed_male_68
+					fed_male_69
+					fed_male_70
+					fed_male_71
+					fed_male_72
+					fed_male_73
+					fed_male_74
+					fed_male_75
+					fed_male_76
+					fed_male_77
+					fed_male_78
+				}
+			}
+		}
+	}
+	titan = {
+		default = fed_male_50
+		game_setup = { #will run with a limited country scope. species and government is set but the country does not actually exist
+			add = {
+				trigger = {
+					ruler = { gender = male }
+				}
+				portraits = {
+					fed_male_39
+					fed_male_40
+					fed_male_41
+					fed_male_42
+					fed_male_43
+					fed_male_44
+					fed_male_45
+					fed_male_46
+					fed_male_47
+					fed_male_48
+					fed_male_49
+					fed_male_50
+					fed_male_51
+					fed_male_52
+					fed_male_53
+					fed_male_54
+					fed_male_55
+					fed_male_56
+					}
+				}
+			add = {
+				trigger = {
+					ruler = { gender = female }
+				}
+				portraits = {
+					fed_female_11
+					fed_female_12
+					fed_female_13
+					fed_female_14
+					fed_female_15
+					fed_female_16
+					fed_female_17
+					fed_female_18
+					fed_female_25
+				}
+			}
+		}		
+		
+		#species scope
+		species = { #generic portrait for a species
+				add = {
+					portraits = {
+					fed_male_39
+					fed_male_40
+					fed_male_41
+					fed_male_42
+					fed_male_43
+					fed_male_44
+					fed_male_45
+					fed_male_46
+					fed_male_47
+					fed_male_48
+					fed_male_49
+					fed_male_50
+					fed_male_51
+					fed_male_52
+					fed_male_53
+					fed_male_54
+					fed_male_55
+					fed_male_56
+					fed_female_11
+					fed_female_12
+					fed_female_13
+					fed_female_14
+					fed_female_15
+					fed_female_16
+					fed_female_17
+					fed_female_18
+					fed_female_25
+						}
+					}
+				}
+		pop = { #for a specific pop
+			add = {
+				portraits = {
+					fed_male_39
+					fed_male_40
+					fed_male_41
+					fed_male_42
+					fed_male_43
+					fed_male_44
+					fed_male_45
+					fed_male_46
+					fed_male_47
+					fed_male_48
+					fed_male_49
+					fed_male_50
+					fed_male_51
+					fed_male_52
+					fed_male_53
+					fed_male_54
+					fed_male_55
+					fed_male_56
+					fed_female_11
+					fed_female_12
+					fed_female_13
+					fed_female_14
+					fed_female_15
+					fed_female_16
+					fed_female_17
+					fed_female_18
+					fed_female_25
+					}
+				}
+			}
+		leader = { #scientists, generals, admirals, governor
+			add = {
+				trigger = {
+					gender = female
+				}
+				portraits = {
+					fed_female_11
+					fed_female_12
+					fed_female_13
+					fed_female_14
+					fed_female_15
+					fed_female_16
+					fed_female_17
+					fed_female_18
+					fed_female_25
+				}
+			}
+			add = {
+				trigger = {
+					gender = male
+				}
+				portraits = {
+					fed_male_39
+					fed_male_40
+					fed_male_41
+					fed_male_42
+					fed_male_43
+					fed_male_44
+					fed_male_45
+					fed_male_46
+					fed_male_47
+					fed_male_48
+					fed_male_49
+					fed_male_50
+					fed_male_51
+					fed_male_52
+					fed_male_53
+					fed_male_54
+					fed_male_55
+					fed_male_56
+				}
+			}
+		}
+		
+		#leader scope 
+		ruler = {
+			add = {
+				trigger = {
+					gender = female
+				}
+				portraits = {
+					fed_female_11
+					fed_female_12
+					fed_female_13
+					fed_female_14
+					fed_female_15
+					fed_female_16
+					fed_female_17
+					fed_female_18
+					fed_female_25
+				}	
+			}
+			add = {
+				trigger = {
+					gender = male
+				}
+				portraits = {
+					fed_male_39
+					fed_male_40
+					fed_male_41
+					fed_male_42
+					fed_male_43
+					fed_male_44
+					fed_male_45
+					fed_male_46
+					fed_male_47
+					fed_male_48
+					fed_male_49
+					fed_male_50
+					fed_male_51
+					fed_male_52
+					fed_male_53
+					fed_male_54
+					fed_male_55
+					fed_male_56
+				}
+			}
+		}
+	}
+	efsf_event_1 = {
+		default = fed_female_05
+		game_setup = { #will run with a limited country scope. species and government is set but the country does not actually exist
+			add = {
+				trigger = {
+					ruler = { gender = male }
+				}
+				portraits = {
+					fed_female_05
+				}
+			}
+			add = {
+				trigger = {
+					ruler = { gender = female }
+				}
+				portraits = {
+					fed_female_05
+				}
+			}
+			#set = {
+			#	trigger = { ... }
+			#	portraits = { ... }
+			#	#using "set =" instead of "add" will first clear any portraits already added
+			#}
+		}		
+		
+		#species scope
+		species = { #generic portrait for a species
+			add = {
+				portraits = {
+					fed_female_05
+				}
+			}
+		}		
+		
+		#pop scope
+		pop = { #for a specific pop
+			add = {
+				portraits = {
+					fed_female_05
+				}
+			}
+		}
+		
+		#leader scope
+		leader = { #scientists, generals, admirals, governor
+			add = {
+				trigger = {
+					gender = female
+				}
+				portraits = {
+					fed_female_05
+				}
+			}
+			add = {
+				trigger = {
+					gender = male
+				}
+				portraits = {
+					fed_female_05
+				}
+			}
+		}
+
+			
+		#leader scope 
+		ruler = {
+			add = {
+				trigger = {
+					gender = female
+				}
+				portraits = {
+					fed_female_05
+				}
+			}
+			add = {
+				trigger = {
+					gender = male
+				}
+				portraits = {
+					fed_female_05
+				}
+			}
+		}
+	}
+	efsf_event_2 = {
+		default = fed_male_78
+		game_setup = { #will run with a limited country scope. species and government is set but the country does not actually exist
+			add = {
+				trigger = {
+					ruler = { gender = male }
+				}
+				portraits = {
+					fed_male_78
+				}
+			}
+			add = {
+				trigger = {
+					ruler = { gender = female }
+				}
+				portraits = {
+					fed_male_78
+				}
+			}
+			#set = {
+			#	trigger = { ... }
+			#	portraits = { ... }
+			#	#using "set =" instead of "add" will first clear any portraits already added
+			#}
+		}		
+		
+		#species scope
+		species = { #generic portrait for a species
+			add = {
+				portraits = {
+					fed_male_78
+				}
+			}
+		}		
+		
+		#pop scope
+		pop = { #for a specific pop
+			add = {
+				portraits = {
+					fed_male_78
+				}
+			}
+		}
+		
+		#leader scope
+		leader = { #scientists, generals, admirals, governor
+			add = {
+				trigger = {
+					gender = female
+				}
+				portraits = {
+					fed_male_78
+				}
+			}
+			add = {
+				trigger = {
+					gender = male
+				}
+				portraits = {
+					fed_male_78
+				}
+			}
+		}
+
+			
+		#leader scope 
+		ruler = {
+			add = {
+				trigger = {
+					gender = female
+				}
+				portraits = {
+					fed_male_78
+				}
+			}
+			add = {
+				trigger = {
+					gender = male
+				}
+				portraits = {
+					fed_male_78
+				}
+			}
+		}
+	}
+	efsf_event_3 = {
+		default = fed_male_42
+		game_setup = { #will run with a limited country scope. species and government is set but the country does not actually exist
+			add = {
+				trigger = {
+					ruler = { gender = male }
+				}
+				portraits = {
+					fed_male_42
+				}
+			}
+			add = {
+				trigger = {
+					ruler = { gender = female }
+				}
+				portraits = {
+					fed_male_42
+				}
+			}
+			#set = {
+			#	trigger = { ... }
+			#	portraits = { ... }
+			#	#using "set =" instead of "add" will first clear any portraits already added
+			#}
+		}		
+		
+		#species scope
+		species = { #generic portrait for a species
+			add = {
+				portraits = {
+					fed_male_42
+				}
+			}
+		}		
+		
+		#pop scope
+		pop = { #for a specific pop
+			add = {
+				portraits = {
+					fed_male_42
+				}
+			}
+		}
+		
+		#leader scope
+		leader = { #scientists, generals, admirals, governor
+			add = {
+				trigger = {
+					gender = female
+				}
+				portraits = {
+					fed_male_42
+				}
+			}
+			add = {
+				trigger = {
+					gender = male
+				}
+				portraits = {
+					fed_male_42
+				}
+			}
+		}
+
+			
+		#leader scope 
+		ruler = {
+			add = {
+				trigger = {
+					gender = female
+				}
+				portraits = {
+					fed_male_42
+				}
+			}
+			add = {
+				trigger = {
+					gender = male
+				}
+				portraits = {
+					fed_male_42
+				}
+			}
+		}
+	}
+	efsf_event_4 = {
+		default = fed_male_49
+		game_setup = { #will run with a limited country scope. species and government is set but the country does not actually exist
+			add = {
+				trigger = {
+					ruler = { gender = male }
+				}
+				portraits = {
+					fed_male_49
+				}
+			}
+			add = {
+				trigger = {
+					ruler = { gender = female }
+				}
+				portraits = {
+					fed_male_49
+				}
+			}
+			#set = {
+			#	trigger = { ... }
+			#	portraits = { ... }
+			#	#using "set =" instead of "add" will first clear any portraits already added
+			#}
+		}		
+		
+		#species scope
+		species = { #generic portrait for a species
+			add = {
+				portraits = {
+					fed_male_49
+				}
+			}
+		}		
+		
+		#pop scope
+		pop = { #for a specific pop
+			add = {
+				portraits = {
+					fed_male_49
+				}
+			}
+		}
+		
+		#leader scope
+		leader = { #scientists, generals, admirals, governor
+			add = {
+				trigger = {
+					gender = female
+				}
+				portraits = {
+					fed_male_49
+				}
+			}
+			add = {
+				trigger = {
+					gender = male
+				}
+				portraits = {
+					fed_male_49
+				}
+			}
+		}
+
+			
+		#leader scope 
+		ruler = {
+			add = {
+				trigger = {
+					gender = female
+				}
+				portraits = {
+					fed_male_49
+				}
+			}
+			add = {
+				trigger = {
+					gender = male
+				}
+				portraits = {
+					fed_male_49
+				}
+			}
+		}
+	}
+}

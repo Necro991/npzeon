@@ -1,0 +1,10 @@
+on_press_begin = {
+	events = {
+		zeontech.1
+		zeontech.2
+		zeontech.3
+		zeontech.4
+		zeontech.5
+		zeontech.6
+	}
+}

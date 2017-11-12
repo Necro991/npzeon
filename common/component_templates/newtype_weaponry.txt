@@ -1,0 +1,194 @@
+###########################
+#Newtype Weapons/Utilities#
+###########################
+
+### Variables ###
+
+@msAuraRange = 40
+
+#################
+
+### Empty Aura-slot
+utility_component_template = {
+	key = "LOW_MS_AURA_EMPTY"
+	size = small
+	icon = "GFX_ship_part_empty_ftl_drive"
+	icon_frame = 1
+	power = 0
+	cost = 0
+	
+	component_set = "low_ms_aura_components"
+	
+	ai_weight = {
+		weight = 1
+	}
+}
+
+utility_component_template = {
+	key = "MS_AURA_EMPTY"
+	size = small
+	icon = "GFX_ship_part_empty_ftl_drive"
+	icon_frame = 1
+	power = 0
+	cost = 0
+	
+	component_set = "ms_aura_components"
+	
+	ai_weight = {
+		weight = 1
+	}
+}
+
+#################
+
+utility_component_template = {
+	key = "psycommu_funnels"
+	size = small
+	icon = "GFX_ship_part_zeon_funnel_1"
+	icon_frame = 1
+	power = -5
+	cost = 30
+	
+	component_set = "low_ms_aura_components"
+	
+	hostile_aura = {
+		name = "aura_funnels"
+		radius = 20
+		apply_on = ships
+		
+		stack_info = {			#A ship can only be affected by one aura of a certain id. If multiple auras have the same ID the one with the highest priority will be applied.
+			id = hostile_minefield_aura
+			priority = 2
+		}
+		
+		damage_per_day = {
+			accuracy = 0.25
+			damage = { min = 1 max = 5 }
+			shield_damage = 1.0
+			armor_penetration = 0.15
+		}
+		
+		graphics = {
+			area_effect = {
+				entity = "circle_area_entity"
+				dynamic_scale = yes
+			}
+		}
+	}
+	
+	prerequisites = { "tech_psycommu" }
+}
+
+utility_component_template = {
+	key = "psycommu_funnels_1"
+	size = small
+	icon = "GFX_ship_part_zeon_funnel_1"
+	icon_frame = 1
+	power = -5
+	cost = 30
+	
+	component_set = "ms_aura_components"
+	
+	hostile_aura = {
+		name = "aura_funnels"
+		radius = 20
+		apply_on = ships
+		
+		stack_info = {			#A ship can only be affected by one aura of a certain id. If multiple auras have the same ID the one with the highest priority will be applied.
+			id = hostile_minefield_aura
+			priority = 2
+		}
+		
+		damage_per_day = {
+			accuracy = 0.25
+			damage = { min = 1 max = 5 }
+			shield_damage = 0.8
+			armor_penetration = 0.15
+		}
+		
+		graphics = {
+			area_effect = {
+				entity = "circle_area_entity"
+				dynamic_scale = yes
+			}
+		}
+	}
+	
+	prerequisites = { "tech_psycommu" }
+}
+
+utility_component_template = {
+	key = "psycommu_funnels_2"
+	size = small
+	icon = "GFX_ship_part_zeon_funnel_2"
+	icon_frame = 1
+	power = -10
+	cost = 45
+	
+	component_set = "ms_aura_components"
+	
+	hostile_aura = {
+		name = "aura_funnels"
+		radius = 20
+		apply_on = ships
+		
+		stack_info = {			#A ship can only be affected by one aura of a certain id. If multiple auras have the same ID the one with the highest priority will be applied.
+			id = hostile_minefield_aura
+			priority = 2
+		}
+		
+		damage_per_day = {
+			accuracy = 0.3
+			damage = { min = 2 max = 8 }
+			shield_damage = 0.8
+			armor_penetration = 0.3
+		}
+		
+		graphics = {
+			area_effect = {
+				entity = "circle_area_entity"
+				dynamic_scale = yes
+			}
+		}
+	}
+	
+	prerequisites = { "tech_Zeon_MA_1" }
+}
+
+utility_component_template = {
+	key = "psycommu_funnels_3"
+	size = small
+	icon = "GFX_ship_part_zeon_funnel_3"
+	icon_frame = 1
+	power = -15
+	cost = 60
+	
+	component_set = "ms_aura_components"
+	
+	hostile_aura = {
+		name = "aura_funnels"
+		radius = 20
+		apply_on = ships
+		
+		stack_info = {			#A ship can only be affected by one aura of a certain id. If multiple auras have the same ID the one with the highest priority will be applied.
+			id = hostile_minefield_aura
+			priority = 2
+		}
+		
+		damage_per_day = {
+			accuracy = 0.35
+			damage = { min = 3 max = 10 }
+			shield_damage = 0.8
+			armor_penetration = 0.6
+		}
+		
+		graphics = {
+			area_effect = {
+				entity = "circle_area_entity"
+				dynamic_scale = yes
+			}
+		}
+	}
+	
+	prerequisites = { "tech_Zeon_MA_2" }
+}

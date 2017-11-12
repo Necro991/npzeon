@@ -1,0 +1,9 @@
+colony_drop_chain = {
+	icon = "gfx/interface/icons/situation_log/situation_log_quest.dds"
+	picture = GFX_evt_asteroid_approaching_planet
+	counter = {
+		hijacked_colony_destroyed = {
+			max = 1
+		}
+	}
+}

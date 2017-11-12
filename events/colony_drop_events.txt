@@ -1,0 +1,419 @@
+namespace = colonydrop
+
+@tier1influencecontact = 7
+@tier1influencecontactxenophile = 8
+@tier1influencecontactmin = 20
+@tier1influencecontactmax = 80
+
+@tier2influencecontact = 10
+@tier2influencecontactxenophile = 12
+@tier2influencecontactmin = 40
+@tier2influencecontactmax = 100
+
+@tier1materialreward = 6
+@tier1materialmin = 100
+@tier1materialmax = 500
+@tier2materialreward = 12
+@tier2materialmin = 150
+@tier2materialmax = 1000
+@tier3materialreward = 18
+@tier3materialmin = 250
+@tier3materialmax = 1500
+@tier4materialreward = 24
+@tier4materialmin = 350
+@tier4materialmax = 2000
+@tier5materialreward = 48
+@tier5materialmin = 700
+@tier5materialmax = 4000
+
+@tier1influencereward = 6
+@tier1influencemin = 40
+@tier1influencemax = 100
+@tier2influencereward = 12
+@tier2influencemin = 80
+@tier2influencemax = 175
+@tier3influencereward = 18
+@tier3influencemin = 125
+@tier3influencemax = 250
+@tier4influencereward = 24
+@tier4influencemin = 150
+@tier4influencemax = 300
+@tier5influencereward = 36
+@tier5influencemin = 250
+@tier5influencemax = 500
+@tier6influencereward = 48
+@tier6influencemin = 300
+@tier6influencemax = 600
+
+@tier1researchreward = 6
+@tier1researchmin = 60
+@tier1researchmax = 150
+@tier2researchreward = 12
+@tier2researchmin = 90
+@tier2researchmax = 250
+@tier3researchreward = 18
+@tier3researchmin = 120
+@tier3researchmax = 350
+@tier4researchreward = 24
+@tier4researchmin = 150
+@tier4researchmax = 500
+@tier5researchreward = 48
+@tier5researchmin = 300
+@tier5researchmax = 1000
+
+### Asteroid Sighted
+planet_event = {
+	id = colonydrop.180
+	title = "colonydrop.180.name"
+	desc = "colonydrop.180.desc"
+	picture = GFX_evt_Colony_Drop
+	show_sound = event_air_raid_siren
+	location = ROOT
+	
+	trigger = {
+		has_owner = yes
+		original_owner = yes
+		is_homeworld = no
+		owner = { is_ai = no }
+		has_ground_combat = no
+		num_pops > 0
+		is_capital = no
+		OR = {
+			has_country_flag = efsf
+			has_country_flag = titans
+			has_technology = tech_EFSF_BEAMC_1
+		}
+		NOR = {
+			is_planet_class = pc_habitat
+			is_planet_class = pc_ringworld_habitable
+			has_planet_flag = asteroid_sighted
+			has_planet_flag = asteroid_collision
+			has_global_flag = asteroid_sighted_global
+			owner = { has_country_flag = asteroid_sighted_country }
+		}
+		NOT = {
+			has_country_flag = zeon_defeated
+		}
+	}
+	
+	is_triggered_only = yes
+	
+	immediate = {
+		owner = {
+			set_country_flag = asteroid_sighted_country
+		}
+		set_global_flag = asteroid_sighted_global
+		set_planet_flag = asteroid_sighted
+		create_country = {
+			name = "Zeon Remnants"
+			type = faction
+			auto_delete = no
+			flag = {
+				icon = {
+					category = "zeon"
+					file = "ReZeon_Gold.dds"
+				}
+				background= {
+					category = "backgrounds"
+					file = "new_dawn.dds"
+				}
+				colors={
+					"black"
+					"black"
+					"null"
+					"null"
+				}
+			}
+			day_zero_contact = no
+			effect = {
+				establish_communications_no_message = root.owner
+			}
+		}
+		last_created_country = {
+			set_country_flag = incoming_asteroid
+			create_fleet = {
+				name = "Hijacked Colony"
+				effect = {
+					set_aggro_range = 0
+					set_fleet_stance = aggressive
+					set_aggro_range_measure_from = self
+					set_owner = PREV
+					set_fleet_flag = asteroid_fleet
+					save_event_target_as = asteroid_fleet_target
+					create_ship = {
+						name = "Hijacked Colony"
+						design = "Hijacked_Colony"
+					}
+					set_location = {
+						target = ROOT
+						distance = 75
+						angle = random
+					}
+					queue_actions = {
+						move_to = ROOT
+						effect = {
+							id = "colonydrop.180.effect.1"
+							ROOT = {
+								planet_event = { id = colonydrop.183 }
+							}
+						}
+					}
+				}
+			}
+			create_fleet = { name = "Zeon Remnants" }
+			last_created_fleet = {
+				set_fleet_stance = aggressive
+				set_aggro_range_measure_from = self
+				set_aggro_range = 150
+				set_owner = PREV
+				create_ship = {
+					name = "Zeon Regulars"
+					design = "Z_Rem_1"
+					ftl = ROOT
+				}
+				create_ship = {
+					name = "Zeon Regulars"
+					design = "Z_Rem_1"
+					ftl = ROOT
+				}
+				create_ship = {
+					name = "Zeon Regulars"
+					design = "Z_Rem_1"
+					ftl = ROOT
+				}
+				create_ship = {
+					name = "Zeon Regulars"
+					design = "Z_Rem_1"
+					ftl = ROOT
+				}
+				create_ship = {
+					name = "Zeon Regulars"
+					design = "Z_Rem_1"
+					ftl = ROOT
+				}
+				create_ship = {
+					name = "Zeon Regulars"
+					design = "Z_Rem_1"
+					ftl = ROOT
+				}
+				create_ship = {
+					name = "Zeon Regulars"
+					design = "Z_Rem_1"
+					ftl = ROOT
+				}
+				create_ship = {
+					name = "Zeon Aces"
+					design = "Z_Rem_2"
+					ftl = ROOT
+				}
+				create_ship = {
+					name = "Zeon Aces"
+					design = "Z_Rem_2"
+					ftl = ROOT
+				}
+				create_ship = {
+					name = "Zeon Aces"
+					design = "Z_Rem_2"
+					ftl = ROOT
+				}
+				create_ship = {
+					name = "Chimera Corps"
+					design = "Z_Rem_3"
+					ftl = ROOT
+				}
+				set_location = {
+					target = ROOT
+					distance = 75
+					angle = random
+				}
+				queue_actions = {
+					follow_order = "Hijacked Colony"
+				}
+			}
+			set_relation_flag = {
+				who = root.owner
+				flag = asteroid_enemy
+			}
+		}
+	}
+	
+	option = {
+		name = colonydrop.180.a
+		begin_event_chain = {
+			event_chain = "colony_drop_chain"
+			target = root.owner
+		}
+	}
+}
+
+# Asteroid Destroyed (HIDDEN)
+country_event = {
+	id = colonydrop.181
+	hide_window = yes
+	
+	is_triggered_only = yes
+	
+	trigger = {
+		exists = from
+		from = { has_country_flag = incoming_asteroid }
+	}
+
+	immediate = {
+		if = {
+			limit = {
+				has_country_flag = asteroid_sighted_country
+				from = {
+					has_relation_flag = {
+						who = root
+						flag = asteroid_enemy
+					}
+				}
+			}
+			random_owned_planet = {
+				limit = { has_planet_flag = asteroid_sighted }
+				planet_event = { id = colonydrop.182 }
+			}
+			else = {
+				random_country = {
+					limit = {
+						reverse_has_relation_flag = {
+							who = from
+							flag = asteroid_enemy
+						}
+						has_country_flag = asteroid_sighted_country
+					}
+					random_owned_planet = {
+						limit = { has_planet_flag = asteroid_sighted }
+						planet_event = { id = colonydrop.182 }
+					}
+				}
+			}
+		}
+	}
+}
+
+# Asteroid Destroyed
+planet_event = {
+	id = colonydrop.182
+	title = "colonydrop.182.name"
+	desc = "colonydrop.182.desc"
+	picture = GFX_evt_Colony_Drop
+	show_sound = event_ship_explosion
+	location = ROOT
+	
+	is_triggered_only = yes
+	
+	immediate = {
+		fromfrom = {
+			remove_relation_flag = { who = root.owner flag = asteroid_enemy }
+			destroy_country = yes
+		}
+		remove_global_flag = asteroid_sighted_global
+		remove_planet_flag = asteroid_sighted
+		set_planet_flag = asteroid_collision
+		set_country_flag = zeon_defeated
+		owner = {
+			add_event_chain_counter = {
+				event_chain = "colony_drop_chain"
+				counter = "hijacked_colony_destroyed"
+				amount = 1
+			}
+		}
+	}
+	
+	option = {
+		name = EXCELLENT
+		owner = {
+			end_event_chain = "colony_drop_chain"
+			add_monthly_resource_mult = {
+				resource = minerals
+				value = @tier2materialreward
+				min = @tier2materialmin
+				max = @tier2materialmax
+			}
+		}
+	}
+}
+
+# Asteroid Impacts Planet
+planet_event = {
+	id = colonydrop.183
+	title = "colonydrop.183.name"
+	desc = "colonydrop.183.desc"
+	picture = GFX_evt_nuclear_explosion
+	show_sound = event_super_explosion
+	location = ROOT
+	
+	is_triggered_only = yes
+	
+	immediate = {
+		owner = {
+			country_event = { id = colonydrop.184 days = 1 }
+		}
+		remove_global_flag = asteroid_sighted_global
+		remove_planet_flag = asteroid_sighted
+		set_planet_flag = asteroid_collision
+		random_tile = {
+			limit = { has_blocker = no }
+			set_blocker = "tb_crater"
+		}
+		owner = { end_event_chain = "colony_drop_chain" }
+	}
+	
+	option = {
+		name = colonydrop.183.a
+		if = {
+			limit = {
+				num_pops < 2
+			}
+			random_owned_pop = { kill_pop = yes }
+			else = {
+				if = {
+					limit = {
+						num_pops > 2
+						num_pops < 6
+					}
+					random_owned_pop = { kill_pop = yes }
+					random_owned_pop = { kill_pop = yes }
+					else = {
+						if = {
+							limit = {
+								num_pops > 6
+							}
+							random_owned_pop = { kill_pop = yes }
+							random_owned_pop = { kill_pop = yes }
+							random_owned_pop = { kill_pop = yes }
+							random_owned_pop = { kill_pop = yes }
+						}
+					}
+				}
+			}
+		}
+	}
+}
+
+# Destroy Asteroid after fleet actions have completed and event fired
+country_event = {
+	id = colonydrop.184
+	hide_window = yes
+
+	is_triggered_only = yes
+
+	immediate = {
+
+		random_country = {
+			limit = {
+				has_relation_flag = {
+					who = root
+					flag = asteroid_enemy
+				}
+			}
+			every_owned_ship = {
+				fleet = {
+					destroy_fleet = this
+				}
+			}
+			destroy_country = yes
+		}
+	}
+}

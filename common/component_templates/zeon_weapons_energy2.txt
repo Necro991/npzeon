@@ -1,0 +1,838 @@
+# ####################
+#  Plasma
+# ####################
+
+# ## Plasma 1
+weapon_component_template = {
+	key = "SMALL_BEAMC_1"
+	size = small
+	entity = "small_beamc_entity"
+	damage = { min = 7.0 max = 12.0 }
+	windup = { min = 2.5 max = 23.5 }
+	total_fire_time = 25
+	range = 40.0
+	accuracy = 0.8
+	tracking  = 0.6
+	type = instant
+	shield_damage = 0.8
+	armor_penetration = 0.15
+	
+	icon = "GFX_ship_part_mass_driver_1"
+	icon_frame = 1
+	color = { 0.1 1.0 0.1 1 }
+	power = -3
+	cost = 2.50
+	size_restriction = { white_base corvette destroyer cruiser battleship military_station_small military_station_medium military_station_large Frigate LightCarrier StrikeCruiser Battlecruiser Carrier Dreadnought Superdreadnought Flagship ScienceCruiser ConstructionCruiser Headquarters SensorStation MiningBase PowerStation Drydock military_station_xlarge }
+	prerequisites = { "tech_BEAMC_1" }
+	component_set = "BEAMC_1"
+	projectile_gfx = "BEAMC_s"
+	tags = { weapon_type_energy }
+	ai_tags = { weapon_role_anti_armor }
+	upgrades_to = "SMALL_BEAMC_2"
+}
+
+weapon_component_template = {
+	key = "MEDIUM_BEAMC_1"
+	size = medium
+	entity = "medium_beamc_entity"
+	damage = { min = 15.0 max = 20.0 }
+	windup = { min = 2.5 max = 23.5 }
+	total_fire_time = 25
+	range = 50.0
+	accuracy = 0.8
+	tracking  = 0.3
+	type = instant
+	shield_damage = 0.8
+	armor_penetration = 0.3
+	
+	icon = "GFX_ship_part_mass_driver_1"
+	icon_frame = 1
+	color = { 0.1 1.0 0.1 1 }
+	power = -5
+	cost = 5
+	size_restriction = { white_base corvette destroyer cruiser battleship military_station_small military_station_medium military_station_large Frigate LightCarrier StrikeCruiser Battlecruiser Carrier Dreadnought Superdreadnought Flagship ScienceCruiser ConstructionCruiser Headquarters SensorStation MiningBase PowerStation Drydock military_station_xlarge }
+	prerequisites = { "tech_BEAMC_1" }
+	component_set = "BEAMC_1"
+	projectile_gfx = "BEAMC_m"
+	tags = { weapon_type_energy }
+	ai_tags = { weapon_role_anti_armor }
+	upgrades_to = "MEDIUM_BEAMC_2"
+}
+
+weapon_component_template = {
+	key = "LARGE_BEAMC_1"
+	size = large
+	entity = "large_beamc_entity"
+	damage = { min = 27.0 max = 43.0 }
+	windup = { min = 2.5 max = 23.5 }
+	total_fire_time = 25
+	range = 60.0
+	accuracy = 0.8
+	tracking  = 0.05
+	type = instant
+	shield_damage = 0.8
+	armor_penetration = 0.6
+	
+	icon = "GFX_ship_part_mass_driver_1"
+	icon_frame = 1
+	color = { 0.1 1.0 0.1 1 }
+	power = -10
+	cost = 10
+	size_restriction = { white_base corvette destroyer cruiser battleship military_station_small military_station_medium military_station_large Frigate LightCarrier StrikeCruiser Battlecruiser Carrier Dreadnought Superdreadnought Flagship ScienceCruiser ConstructionCruiser Headquarters SensorStation MiningBase PowerStation Drydock military_station_xlarge }
+	prerequisites = { "tech_BEAMC_1" }
+	component_set = "BEAMC_1"
+	projectile_gfx = "BEAMC_l"
+	tags = { weapon_type_energy }
+	ai_tags = { weapon_role_anti_armor }
+	upgrades_to = "LARGE_BEAMC_2"
+}
+
+# ## Plasma 2
+weapon_component_template = {
+	key = "SMALL_BEAMC_2"
+	size = small
+	entity = "small_beamc_entity"
+	damage = { min = 15.0 max = 20.0 }
+	windup = { min = 2.5 max = 23.5 }
+	total_fire_time = 25
+	range = 45.0
+	accuracy = 0.8
+	tracking  = 0.65
+	type = instant
+	shield_damage = 0.8
+	armor_penetration = 0.15
+	
+	icon = "GFX_ship_part_mass_driver_2"
+	icon_frame = 1
+	color = { 0.1 1.0 0.1 1 }
+	power = -8
+	cost = 7.50
+	size_restriction = { white_base corvette destroyer cruiser battleship military_station_small military_station_medium military_station_large Frigate LightCarrier StrikeCruiser Battlecruiser Carrier Dreadnought Superdreadnought Flagship ScienceCruiser ConstructionCruiser Headquarters SensorStation MiningBase PowerStation Drydock military_station_xlarge }
+	prerequisites = { "tech_BEAMC_2" }
+	component_set = "BEAMC_2"
+	projectile_gfx = "BEAMC_s2"
+	tags = { weapon_type_energy }
+	ai_tags = { weapon_role_anti_armor }
+	upgrades_to = "SMALL_BEAMC_3"
+}
+
+weapon_component_template = {
+	key = "MEDIUM_BEAMC_2"
+	size = medium
+	entity = "medium_beamc_entity"
+	damage = { min = 23.0 max = 34.0 }
+	windup = { min = 2.5 max = 23.5 }
+	total_fire_time = 25
+	range = 55.0
+	accuracy = 0.8
+	tracking  = 0.35
+	type = instant
+	shield_damage = 0.8
+	armor_penetration = 0.3
+	
+	icon = "GFX_ship_part_mass_driver_2"
+	icon_frame = 1
+	color = { 0.1 1.0 0.1 1 }
+	power = -15
+	cost = 15
+	size_restriction = { white_base corvette destroyer cruiser battleship military_station_small military_station_medium military_station_large Frigate LightCarrier StrikeCruiser Battlecruiser Carrier Dreadnought Superdreadnought Flagship ScienceCruiser ConstructionCruiser Headquarters SensorStation MiningBase PowerStation Drydock military_station_xlarge }
+	prerequisites = { "tech_BEAMC_2" }
+	component_set = "BEAMC_2"
+	projectile_gfx = "BEAMC_m2"
+	tags = { weapon_type_energy }
+	ai_tags = { weapon_role_anti_armor }
+	upgrades_to = "MEDIUM_BEAMC_3"
+}
+
+weapon_component_template = {
+	key = "LARGE_BEAMC_2"
+	size = large
+	entity = "large_beamc_entity"
+	damage = { min = 37.0 max = 59.0 }
+	windup = { min = 2.5 max = 23.5 }
+	total_fire_time = 25
+	range = 65.0
+	accuracy = 0.8
+	tracking  = 0.1
+	type = instant
+	shield_damage = 0.8
+	armor_penetration = 0.6
+	
+	icon = "GFX_ship_part_mass_driver_2"
+	icon_frame = 1
+	color = { 0.1 1.0 0.1 1 }
+	power = -30
+	cost = 30
+	size_restriction = { white_base corvette destroyer cruiser battleship military_station_small military_station_medium military_station_large Frigate LightCarrier StrikeCruiser Battlecruiser Carrier Dreadnought Superdreadnought Flagship ScienceCruiser ConstructionCruiser Headquarters SensorStation MiningBase PowerStation Drydock military_station_xlarge }
+	prerequisites = { "tech_BEAMC_2" }
+	component_set = "BEAMC_2"
+	projectile_gfx = "BEAMC_l2"
+	tags = { weapon_type_energy }
+	ai_tags = { weapon_role_anti_armor }
+	upgrades_to = "LARGE_BEAMC_3"
+}
+
+# ## Plasma 3
+weapon_component_template = {
+	key = "SMALL_BEAMC_3"
+	size = small
+	entity = "small_beamc_entity"
+	damage = { min = 18.0 max = 23.0 }
+	windup = { min = 2.5 max = 23.5 }
+	total_fire_time = 25
+	range = 50.0
+	accuracy = 0.8
+	tracking  = 0.7
+	type = instant
+	shield_damage = 0.8
+	armor_penetration = 0.15
+	
+	icon = "GFX_ship_part_mass_driver_3"
+	icon_frame = 1
+	color = { 0.1 1.0 0.1 1 }
+	power = -13
+	cost = 12
+	size_restriction = { white_base corvette destroyer cruiser battleship military_station_small military_station_medium military_station_large Frigate LightCarrier StrikeCruiser Battlecruiser Carrier Dreadnought Superdreadnought Flagship ScienceCruiser ConstructionCruiser Headquarters SensorStation MiningBase PowerStation Drydock military_station_xlarge }
+	prerequisites = { "tech_BEAMC_3" }
+	component_set = "BEAMC_3"
+	projectile_gfx = "BEAMC_s3"
+	tags = { weapon_type_energy }
+	ai_tags = { weapon_role_anti_armor }
+}
+
+weapon_component_template = {
+	key = "MEDIUM_BEAMC_3"
+	size = medium
+	entity = "medium_beamc_entity"
+	damage = { min = 26.0 max = 43.0 }
+	windup = { min = 2.5 max = 23.5 }
+	total_fire_time = 25
+	range = 60.0
+	accuracy = 0.8
+	tracking  = 0.4
+	type = instant
+	shield_damage = 0.8
+	armor_penetration = 0.3
+	
+	icon = "GFX_ship_part_mass_driver_3"
+	icon_frame = 1
+	color = { 0.1 1.0 0.1 1 }
+	power = -25
+	cost = 25
+	size_restriction = { white_base corvette destroyer cruiser battleship military_station_small military_station_medium military_station_large Frigate LightCarrier StrikeCruiser Battlecruiser Carrier Dreadnought Superdreadnought Flagship ScienceCruiser ConstructionCruiser Headquarters SensorStation MiningBase PowerStation Drydock military_station_xlarge }
+	prerequisites = { "tech_BEAMC_3" }
+	component_set = "BEAMC_3"
+	projectile_gfx = "BEAMC_m3"
+	tags = { weapon_type_energy }
+	ai_tags = { weapon_role_anti_armor }
+}
+
+weapon_component_template = {
+	key = "LARGE_BEAMC_3"
+	size = large
+	entity = "large_beamc_entity"
+	damage = { min = 44.0 max = 78.0 }
+	windup = { min = 2.5 max = 23.5 }
+	total_fire_time = 25
+	range = 70.0
+	accuracy = 0.8
+	tracking  = 0.15
+	type = instant
+	shield_damage = 0.8
+	armor_penetration = 0.6
+	
+	icon = "GFX_ship_part_mass_driver_3"
+	icon_frame = 1
+	color = { 0.1 1.0 0.1 1 }
+	power = -50
+	cost = 50
+	size_restriction = { white_base corvette destroyer cruiser battleship military_station_small military_station_medium military_station_large Frigate LightCarrier StrikeCruiser Battlecruiser Carrier Dreadnought Superdreadnought Flagship ScienceCruiser ConstructionCruiser Headquarters SensorStation MiningBase PowerStation Drydock military_station_xlarge }
+	prerequisites = { "tech_BEAMC_3" }
+	component_set = "BEAMC_3"
+	projectile_gfx = "BEAMC_l3"
+	tags = { weapon_type_energy }
+	ai_tags = { weapon_role_anti_armor }
+}
+
+weapon_component_template = {
+	key = "MEDIUM_MPC_1"
+	size = medium
+	entity = "early_medium_mega_particle_entity"
+	damage = { min = 50.0 max = 150.0 } #damage = { min = 42.0 max = 68.0 }
+	windup = { min = 2.5 max = 27.5 }
+	total_fire_time = 25
+	range = 70.0
+	accuracy = 0.8
+	tracking = 0.1
+	type = instant
+	shield_damage = 0.67
+	armor_penetration = 0.9
+	
+	icon = "mpc1"
+	icon_frame = 1
+	color = { 1.0 1.0 1.0 1 }
+	power = -30
+	cost = 30
+	size_restriction = { white_base corvette destroyer cruiser battleship military_station_small military_station_medium military_station_large Frigate LightCarrier StrikeCruiser Battlecruiser Carrier Dreadnought Superdreadnought Flagship ScienceCruiser ConstructionCruiser Headquarters SensorStation MiningBase PowerStation Drydock military_station_xlarge }
+	prerequisites = { "tech_BEAMC_1" }
+	component_set = "MPC_1"
+	projectile_gfx = "MPC1"
+	tags = { weapon_type_energy }
+	ai_tags = { weapon_role_anti_armor }
+	upgrades_to = "MEDIUM_MPC_2"
+}
+
+weapon_component_template = {
+	key = "LARGE_MPC_1"
+	size = large
+	entity = "early_mega_particle_entity"
+	damage = { min = 100.0 max = 200.0 }
+	windup = { min = 2.5 max = 27.5 }
+	total_fire_time = 25
+	range = 80.0
+	accuracy = 0.8
+	tracking = 0.05
+	type = instant
+	shield_damage = 0.67
+	armor_penetration = 0.9
+	
+	icon = "mpc2"
+	icon_frame = 1
+	color = { 1.0 1.0 1.0 1 }
+	power = -60
+	cost = 60
+	size_restriction = { white_base corvette destroyer cruiser battleship military_station_small military_station_medium military_station_large Frigate LightCarrier StrikeCruiser Battlecruiser Carrier Dreadnought Superdreadnought Flagship ScienceCruiser ConstructionCruiser Headquarters SensorStation MiningBase PowerStation Drydock military_station_xlarge }
+	prerequisites = { "tech_BEAMC_1" }
+	component_set = "MPC_2"
+	projectile_gfx = "MPC1"
+	tags = { weapon_type_energy }
+	ai_tags = { weapon_role_anti_armor }
+	upgrades_to = "LARGE_MPC_2"
+}
+
+weapon_component_template = {
+	key = "MEDIUM_MPC_2"
+	size = medium
+	entity = "mid_medium_mega_particle_entity"
+	damage = { min = 75.0 max = 175.0 } #damage = { min = 42.0 max = 68.0 }
+	windup = { min = 2.5 max = 27.5 }
+	total_fire_time = 25
+	range = 90.0
+	accuracy = 0.85
+	tracking = 0.1
+	type = instant
+	shield_damage = 0.67
+	armor_penetration = 0.9
+	
+	icon = "mpc3"
+	icon_frame = 1
+	color = { 1.0 1.0 1.0 1 }
+	power = -50
+	cost = 45
+	size_restriction = { white_base corvette destroyer cruiser battleship military_station_small military_station_medium military_station_large Frigate LightCarrier StrikeCruiser Battlecruiser Carrier Dreadnought Superdreadnought Flagship ScienceCruiser ConstructionCruiser Headquarters SensorStation MiningBase PowerStation Drydock military_station_xlarge }
+	prerequisites = { "tech_BEAMC_2" }
+	component_set = "MPC_3"
+	projectile_gfx = "MPC1"
+	tags = { weapon_type_energy }
+	ai_tags = { weapon_role_anti_armor }
+	upgrades_to = "MEDIUM_MPC_3"
+}
+
+weapon_component_template = {
+	key = "LARGE_MPC_2"
+	size = large
+	entity = "mid_mega_particle_entity"
+	damage = { min = 125.0 max = 225.0 }
+	windup = { min = 2.5 max = 27.5 }
+	total_fire_time = 25
+	range = 100.0
+	accuracy = 0.85
+	tracking = 0.05
+	type = instant
+	shield_damage = 0.67
+	armor_penetration = 0.9
+	
+	icon = "mpc4"
+	icon_frame = 1
+	color = { 1.0 1.0 1.0 1 }
+	power = -80
+	cost = 75
+	size_restriction = { white_base corvette destroyer cruiser battleship military_station_small military_station_medium military_station_large Frigate LightCarrier StrikeCruiser Battlecruiser Carrier Dreadnought Superdreadnought Flagship ScienceCruiser ConstructionCruiser Headquarters SensorStation MiningBase PowerStation Drydock military_station_xlarge }
+	prerequisites = { "tech_BEAMC_2" }
+	component_set = "MPC_4"
+	projectile_gfx = "MPC1"
+	tags = { weapon_type_energy }
+	ai_tags = { weapon_role_anti_armor }
+	upgrades_to = "LARGE_MPC_3"
+}
+
+weapon_component_template = {
+	key = "MEDIUM_MPC_3"
+	size = medium
+	entity = "late_medium_mega_particle_entity"
+	damage = { min = 100.0 max = 200.0 } #damage = { min = 57.0 max = 83.0 }
+	windup = { min = 2.5 max = 27.5 }
+	total_fire_time = 25
+	range = 110.0
+	accuracy = 0.9
+	tracking = 0.2
+	type = instant
+	shield_damage = 0.67
+	armor_penetration = 0.9
+	
+	icon = "mpc5"
+	icon_frame = 1
+	color = { 1.0 1.0 1.0 1 }
+	power = -70
+	cost = 60
+	size_restriction = { white_base corvette destroyer cruiser battleship military_station_small military_station_medium military_station_large Frigate LightCarrier StrikeCruiser Battlecruiser Carrier Dreadnought Superdreadnought Flagship ScienceCruiser ConstructionCruiser Headquarters SensorStation MiningBase PowerStation Drydock military_station_xlarge }
+	prerequisites = { "tech_BEAMC_3" }
+	component_set = "MPC_5"
+	projectile_gfx = "MPC1"
+	tags = { weapon_type_energy }
+	ai_tags = { weapon_role_anti_armor }
+}
+
+weapon_component_template = {
+	key = "LARGE_MPC_3"
+	size = large
+	entity = "late_mega_particle_entity"
+	damage = { min = 150.0 max = 250.0 }
+	windup = { min = 2.5 max = 27.5 }
+	total_fire_time = 25
+	range = 120.0
+	accuracy = 0.9
+	tracking = 0.1
+	type = instant
+	shield_damage = 0.67
+	armor_penetration = 0.9
+	
+	icon = "mpc6"
+	icon_frame = 1
+	color = { 1.0 1.0 1.0 1 }
+	power = -100
+	cost = 90
+	size_restriction = { white_base corvette destroyer cruiser battleship military_station_small military_station_medium military_station_large Frigate LightCarrier StrikeCruiser Battlecruiser Carrier Dreadnought Superdreadnought Flagship ScienceCruiser ConstructionCruiser Headquarters SensorStation MiningBase PowerStation Drydock military_station_xlarge }
+	prerequisites = { "tech_BEAMC_3" }
+	component_set = "MPC_6"
+	projectile_gfx = "MPC1"
+	tags = { weapon_type_energy }
+	ai_tags = { weapon_role_anti_armor }
+}
+
+weapon_component_template = {
+	key = "EFSF_SMALL_BEAMC_1"
+	size = small
+	entity = "small_beamc_entity"
+	damage = { min = 7.0 max = 12.0 }
+	windup = { min = 2.5 max = 23.5 }
+	total_fire_time = 25
+	range = 40.0
+	accuracy = 0.8
+	tracking  = 0.6
+	type = instant
+	shield_damage = 0.8
+	armor_penetration = 0.15
+	
+	icon = "GFX_ship_part_mass_driver_1"
+	icon_frame = 1
+	color = { 0.1 1.0 0.1 1 }
+	power = -3
+	cost = 2.50
+	size_restriction = { white_base corvette destroyer cruiser battleship military_station_small military_station_medium military_station_large Frigate LightCarrier StrikeCruiser Battlecruiser Carrier Dreadnought Superdreadnought Flagship ScienceCruiser ConstructionCruiser Headquarters SensorStation MiningBase PowerStation Drydock military_station_xlarge }
+	prerequisites = { "tech_EFSF_BEAMC_1" }
+	component_set = "EFSF_BEAMC_1"
+	projectile_gfx = "BEAMC_s"
+	tags = { weapon_type_energy }
+	ai_tags = { weapon_role_anti_armor }
+	upgrades_to = "SMALL_BEAMC_2"
+}
+
+weapon_component_template = {
+	key = "EFSF_MEDIUM_BEAMC_1"
+	size = medium
+	entity = "medium_beamc_entity"
+	damage = { min = 15.0 max = 20.0 }
+	windup = { min = 2.5 max = 23.5 }
+	total_fire_time = 25
+	range = 50.0
+	accuracy = 0.8
+	tracking  = 0.3
+	type = instant
+	shield_damage = 0.8
+	armor_penetration = 0.3
+	
+	icon = "GFX_ship_part_mass_driver_1"
+	icon_frame = 1
+	color = { 0.1 1.0 0.1 1 }
+	power = -5
+	cost = 5
+	size_restriction = { white_base corvette destroyer cruiser battleship military_station_small military_station_medium military_station_large Frigate LightCarrier StrikeCruiser Battlecruiser Carrier Dreadnought Superdreadnought Flagship ScienceCruiser ConstructionCruiser Headquarters SensorStation MiningBase PowerStation Drydock military_station_xlarge }
+	prerequisites = { "tech_EFSF_BEAMC_1" }
+	component_set = "EFSF_BEAMC_1"
+	projectile_gfx = "BEAMC_m"
+	tags = { weapon_type_energy }
+	ai_tags = { weapon_role_anti_armor }
+	upgrades_to = "MEDIUM_BEAMC_2"
+}
+
+weapon_component_template = {
+	key = "EFSF_LARGE_BEAMC_1"
+	size = large
+	entity = "large_beamc_entity"
+	damage = { min = 27.0 max = 43.0 }
+	windup = { min = 2.5 max = 23.5 }
+	total_fire_time = 25
+	range = 60.0
+	accuracy = 0.8
+	tracking  = 0.05
+	type = instant
+	shield_damage = 0.8
+	armor_penetration = 0.6
+	
+	icon = "GFX_ship_part_mass_driver_1"
+	icon_frame = 1
+	color = { 0.1 1.0 0.1 1 }
+	power = -10
+	cost = 10
+	size_restriction = { white_base corvette destroyer cruiser battleship military_station_small military_station_medium military_station_large Frigate LightCarrier StrikeCruiser Battlecruiser Carrier Dreadnought Superdreadnought Flagship ScienceCruiser ConstructionCruiser Headquarters SensorStation MiningBase PowerStation Drydock military_station_xlarge }
+	prerequisites = { "tech_EFSF_BEAMC_1" }
+	component_set = "EFSF_BEAMC_1"
+	projectile_gfx = "BEAMC_l"
+	tags = { weapon_type_energy }
+	ai_tags = { weapon_role_anti_armor }
+	upgrades_to = "LARGE_BEAMC_2"
+}
+
+# ## Plasma 2
+weapon_component_template = {
+	key = "EFSF_SMALL_BEAMC_2"
+	size = small
+	entity = "small_beamc_entity"
+	damage = { min = 15.0 max = 20.0 }
+	windup = { min = 2.5 max = 23.5 }
+	total_fire_time = 25
+	range = 45.0
+	accuracy = 0.8
+	tracking  = 0.65
+	type = instant
+	shield_damage = 0.8
+	armor_penetration = 0.15
+	
+	icon = "GFX_ship_part_mass_driver_2"
+	icon_frame = 1
+	color = { 0.1 1.0 0.1 1 }
+	power = -8
+	cost = 7.50
+	size_restriction = { white_base corvette destroyer cruiser battleship military_station_small military_station_medium military_station_large Frigate LightCarrier StrikeCruiser Battlecruiser Carrier Dreadnought Superdreadnought Flagship ScienceCruiser ConstructionCruiser Headquarters SensorStation MiningBase PowerStation Drydock military_station_xlarge }
+	prerequisites = { "tech_EFSF_BEAMC_2" }
+	component_set = "EFSF_BEAMC_2"
+	projectile_gfx = "BEAMC_s2"
+	tags = { weapon_type_energy }
+	ai_tags = { weapon_role_anti_armor }
+	upgrades_to = "SMALL_BEAMC_3"
+}
+
+weapon_component_template = {
+	key = "EFSF_MEDIUM_BEAMC_2"
+	size = medium
+	entity = "medium_beamc_entity"
+	damage = { min = 23.0 max = 34.0 }
+	windup = { min = 2.5 max = 23.5 }
+	total_fire_time = 25
+	range = 55.0
+	accuracy = 0.8
+	tracking  = 0.35
+	type = instant
+	shield_damage = 0.8
+	armor_penetration = 0.3
+	
+	icon = "GFX_ship_part_mass_driver_2"
+	icon_frame = 1
+	color = { 0.1 1.0 0.1 1 }
+	power = -15
+	cost = 15
+	size_restriction = { white_base corvette destroyer cruiser battleship military_station_small military_station_medium military_station_large Frigate LightCarrier StrikeCruiser Battlecruiser Carrier Dreadnought Superdreadnought Flagship ScienceCruiser ConstructionCruiser Headquarters SensorStation MiningBase PowerStation Drydock military_station_xlarge }
+	prerequisites = { "tech_EFSF_BEAMC_2" }
+	component_set = "EFSF_BEAMC_2"
+	projectile_gfx = "BEAMC_m2"
+	tags = { weapon_type_energy }
+	ai_tags = { weapon_role_anti_armor }
+	upgrades_to = "MEDIUM_BEAMC_3"
+}
+
+weapon_component_template = {
+	key = "EFSF_LARGE_BEAMC_2"
+	size = large
+	entity = "large_beamc_entity"
+	damage = { min = 37.0 max = 59.0 }
+	windup = { min = 2.5 max = 23.5 }
+	total_fire_time = 25
+	range = 65.0
+	accuracy = 0.8
+	tracking  = 0.1
+	type = instant
+	shield_damage = 0.8
+	armor_penetration = 0.6
+	
+	icon = "GFX_ship_part_mass_driver_2"
+	icon_frame = 1
+	color = { 0.1 1.0 0.1 1 }
+	power = -30
+	cost = 30
+	size_restriction = { white_base corvette destroyer cruiser battleship military_station_small military_station_medium military_station_large Frigate LightCarrier StrikeCruiser Battlecruiser Carrier Dreadnought Superdreadnought Flagship ScienceCruiser ConstructionCruiser Headquarters SensorStation MiningBase PowerStation Drydock military_station_xlarge }
+	prerequisites = { "tech_EFSF_BEAMC_2" }
+	component_set = "EFSF_BEAMC_2"
+	projectile_gfx = "BEAMC_l2"
+	tags = { weapon_type_energy }
+	ai_tags = { weapon_role_anti_armor }
+	upgrades_to = "LARGE_BEAMC_3"
+}
+
+# ## Plasma 3
+weapon_component_template = {
+	key = "EFSF_SMALL_BEAMC_3"
+	size = small
+	entity = "small_beamc_entity"
+	damage = { min = 18.0 max = 23.0 }
+	windup = { min = 2.5 max = 23.5 }
+	total_fire_time = 25
+	range = 50.0
+	accuracy = 0.8
+	tracking  = 0.7
+	type = instant
+	shield_damage = 0.8
+	armor_penetration = 0.15
+	
+	icon = "GFX_ship_part_mass_driver_3"
+	icon_frame = 1
+	color = { 0.1 1.0 0.1 1 }
+	power = -13
+	cost = 12
+	size_restriction = { white_base corvette destroyer cruiser battleship military_station_small military_station_medium military_station_large Frigate LightCarrier StrikeCruiser Battlecruiser Carrier Dreadnought Superdreadnought Flagship ScienceCruiser ConstructionCruiser Headquarters SensorStation MiningBase PowerStation Drydock military_station_xlarge }
+	prerequisites = { "tech_EFSF_BEAMC_3" }
+	component_set = "EFSF_BEAMC_3"
+	projectile_gfx = "BEAMC_s3"
+	tags = { weapon_type_energy }
+	ai_tags = { weapon_role_anti_armor }
+}
+
+weapon_component_template = {
+	key = "EFSF_MEDIUM_BEAMC_3"
+	size = medium
+	entity = "medium_beamc_entity"
+	damage = { min = 26.0 max = 43.0 }
+	windup = { min = 2.5 max = 23.5 }
+	total_fire_time = 25
+	range = 60.0
+	accuracy = 0.8
+	tracking  = 0.4
+	type = instant
+	shield_damage = 0.8
+	armor_penetration = 0.3
+	
+	icon = "GFX_ship_part_mass_driver_3"
+	icon_frame = 1
+	color = { 0.1 1.0 0.1 1 }
+	power = -25
+	cost = 25
+	size_restriction = { white_base corvette destroyer cruiser battleship military_station_small military_station_medium military_station_large Frigate LightCarrier StrikeCruiser Battlecruiser Carrier Dreadnought Superdreadnought Flagship ScienceCruiser ConstructionCruiser Headquarters SensorStation MiningBase PowerStation Drydock military_station_xlarge }
+	prerequisites = { "tech_EFSF_BEAMC_3" }
+	component_set = "EFSF_BEAMC_3"
+	projectile_gfx = "BEAMC_m3"
+	tags = { weapon_type_energy }
+	ai_tags = { weapon_role_anti_armor }
+}
+
+weapon_component_template = {
+	key = "EFSF_LARGE_BEAMC_3"
+	size = large
+	entity = "large_beamc_entity"
+	damage = { min = 44.0 max = 78.0 }
+	windup = { min = 2.5 max = 23.5 }
+	total_fire_time = 25
+	range = 70.0
+	accuracy = 0.8
+	tracking  = 0.15
+	type = instant
+	shield_damage = 0.8
+	armor_penetration = 0.6
+	
+	icon = "GFX_ship_part_mass_driver_3"
+	icon_frame = 1
+	color = { 0.1 1.0 0.1 1 }
+	power = -50
+	cost = 50
+	size_restriction = { white_base corvette destroyer cruiser battleship military_station_small military_station_medium military_station_large Frigate LightCarrier StrikeCruiser Battlecruiser Carrier Dreadnought Superdreadnought Flagship ScienceCruiser ConstructionCruiser Headquarters SensorStation MiningBase PowerStation Drydock military_station_xlarge }
+	prerequisites = { "tech_EFSF_BEAMC_3" }
+	component_set = "EFSF_BEAMC_3"
+	projectile_gfx = "BEAMC_l3"
+	tags = { weapon_type_energy }
+	ai_tags = { weapon_role_anti_armor }
+}
+
+weapon_component_template = {
+	key = "EFSF_MEDIUM_MPC_1"
+	size = medium
+	entity = "early_medium_mega_particle_entity"
+	damage = { min = 50.0 max = 150.0 } #damage = { min = 42.0 max = 68.0 }
+	windup = { min = 2.5 max = 27.5 }
+	total_fire_time = 25
+	range = 70.0
+	accuracy = 0.8
+	tracking = 0.1
+	type = instant
+	shield_damage = 0.67
+	armor_penetration = 0.9
+	
+	icon = "efsf_mmpc1"
+	icon_frame = 1
+	color = { 1.0 1.0 1.0 1 }
+	power = -30
+	cost = 30
+	size_restriction = { white_base corvette destroyer cruiser battleship military_station_small military_station_medium military_station_large Frigate LightCarrier StrikeCruiser Battlecruiser Carrier Dreadnought Superdreadnought Flagship ScienceCruiser ConstructionCruiser Headquarters SensorStation MiningBase PowerStation Drydock military_station_xlarge }
+	prerequisites = { "tech_EFSF_BEAMC_1" }
+	component_set = "EFSF_MPC_1"
+	projectile_gfx = "MPC2"
+	tags = { weapon_type_energy }
+	ai_tags = { weapon_role_anti_armor }
+	upgrades_to = "MEDIUM_MPC_2"
+}
+
+weapon_component_template = {
+	key = "EFSF_LARGE_MPC_1"
+	size = large
+	entity = "early_mega_particle_entity"
+	damage = { min = 100.0 max = 200.0 }
+	windup = { min = 2.5 max = 27.5 }
+	total_fire_time = 25
+	range = 80.0
+	accuracy = 0.8
+	tracking = 0.05
+	type = instant
+	shield_damage = 0.67
+	armor_penetration = 0.9
+	
+	icon = "efsf_mpc1"
+	icon_frame = 1
+	color = { 1.0 1.0 1.0 1 }
+	power = -60
+	cost = 60
+	size_restriction = { white_base corvette destroyer cruiser battleship military_station_small military_station_medium military_station_large Frigate LightCarrier StrikeCruiser Battlecruiser Carrier Dreadnought Superdreadnought Flagship ScienceCruiser ConstructionCruiser Headquarters SensorStation MiningBase PowerStation Drydock military_station_xlarge }
+	prerequisites = { "tech_EFSF_BEAMC_1" }
+	component_set = "EFSF_MPC_2"
+	projectile_gfx = "MPC2"
+	tags = { weapon_type_energy }
+	ai_tags = { weapon_role_anti_armor }
+	upgrades_to = "LARGE_MPC_2"
+}
+
+weapon_component_template = {
+	key = "EFSF_MEDIUM_MPC_2"
+	size = medium
+	entity = "mid_medium_mega_particle_entity"
+	damage = { min = 75.0 max = 175.0 } #damage = { min = 42.0 max = 68.0 }
+	windup = { min = 2.5 max = 27.5 }
+	total_fire_time = 25
+	range = 90.0
+	accuracy = 0.85
+	tracking = 0.1
+	type = instant
+	shield_damage = 0.67
+	armor_penetration = 0.9
+	
+	icon = "efsf_mmpc2"
+	icon_frame = 1
+	color = { 1.0 1.0 1.0 1 }
+	power = -50
+	cost = 45
+	size_restriction = { white_base corvette destroyer cruiser battleship military_station_small military_station_medium military_station_large Frigate LightCarrier StrikeCruiser Battlecruiser Carrier Dreadnought Superdreadnought Flagship ScienceCruiser ConstructionCruiser Headquarters SensorStation MiningBase PowerStation Drydock military_station_xlarge }
+	prerequisites = { "tech_EFSF_BEAMC_2" }
+	component_set = "EFSF_MPC_3"
+	projectile_gfx = "MPC2"
+	tags = { weapon_type_energy }
+	ai_tags = { weapon_role_anti_armor }
+	upgrades_to = "MEDIUM_MPC_3"
+}
+
+weapon_component_template = {
+	key = "EFSF_LARGE_MPC_2"
+	size = large
+	entity = "mid_mega_particle_entity"
+	damage = { min = 125.0 max = 225.0 }
+	windup = { min = 2.5 max = 27.5 }
+	total_fire_time = 25
+	range = 100.0
+	accuracy = 0.85
+	tracking = 0.05
+	type = instant
+	shield_damage = 0.67
+	armor_penetration = 0.9
+	
+	icon = "efsf_mpc2"
+	icon_frame = 1
+	color = { 1.0 1.0 1.0 1 }
+	power = -80
+	cost = 75
+	size_restriction = { white_base corvette destroyer cruiser battleship military_station_small military_station_medium military_station_large Frigate LightCarrier StrikeCruiser Battlecruiser Carrier Dreadnought Superdreadnought Flagship ScienceCruiser ConstructionCruiser Headquarters SensorStation MiningBase PowerStation Drydock military_station_xlarge }
+	prerequisites = { "tech_EFSF_BEAMC_2" }
+	component_set = "EFSF_MPC_4"
+	projectile_gfx = "MPC2"
+	tags = { weapon_type_energy }
+	ai_tags = { weapon_role_anti_armor }
+	upgrades_to = "LARGE_MPC_3"
+}
+
+weapon_component_template = {
+	key = "EFSF_MEDIUM_MPC_3"
+	size = medium
+	entity = "late_medium_mega_particle_entity"
+	damage = { min = 100.0 max = 200.0 } #damage = { min = 57.0 max = 83.0 }
+	windup = { min = 2.5 max = 27.5 }
+	total_fire_time = 25
+	range = 110.0
+	accuracy = 0.9
+	tracking = 0.2
+	type = instant
+	shield_damage = 0.67
+	armor_penetration = 0.9
+	
+	icon = "efsf_mmpc3"
+	icon_frame = 1
+	color = { 1.0 1.0 1.0 1 }
+	power = -70
+	cost = 60
+	size_restriction = { white_base corvette destroyer cruiser battleship military_station_small military_station_medium military_station_large Frigate LightCarrier StrikeCruiser Battlecruiser Carrier Dreadnought Superdreadnought Flagship ScienceCruiser ConstructionCruiser Headquarters SensorStation MiningBase PowerStation Drydock military_station_xlarge }
+	prerequisites = { "tech_EFSF_BEAMC_3" }
+	component_set = "EFSF_MPC_5"
+	projectile_gfx = "MPC2"
+	tags = { weapon_type_energy }
+	ai_tags = { weapon_role_anti_armor }
+}
+
+weapon_component_template = {
+	key = "EFSF_LARGE_MPC_3"
+	size = large
+	entity = "late_mega_particle_entity"
+	damage = { min = 150.0 max = 250.0 }
+	windup = { min = 2.5 max = 27.5 }
+	total_fire_time = 25
+	range = 120.0
+	accuracy = 0.9
+	tracking = 0.1
+	type = instant
+	shield_damage = 0.67
+	armor_penetration = 0.9
+	
+	icon = "efsf_mpc3"
+	icon_frame = 1
+	color = { 1.0 1.0 1.0 1 }
+	power = -100
+	cost = 90
+	size_restriction = { white_base corvette destroyer cruiser battleship military_station_small military_station_medium military_station_large Frigate LightCarrier StrikeCruiser Battlecruiser Carrier Dreadnought Superdreadnought Flagship ScienceCruiser ConstructionCruiser Headquarters SensorStation MiningBase PowerStation Drydock military_station_xlarge }
+	prerequisites = { "tech_EFSF_BEAMC_3" }
+	component_set = "EFSF_MPC_6"
+	projectile_gfx = "MPC2"
+	tags = { weapon_type_energy }
+	ai_tags = { weapon_role_anti_armor }
+}

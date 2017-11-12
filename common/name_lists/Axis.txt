@@ -1,0 +1,9166 @@
+﻿Axis = {	
+	
+	### SHIPS
+
+	alias = "Axis_Namelist"
+	ship_names = {
+	
+		generic = { Kanko Kanrin Choyo Kaiyo Kaiten Banryu Chogei Shinsoku Mikaho Yoshun Kasuga Chiyodagata Hiryu Teibo Ryujo Unyo Nisshin Takao Moshun Viina Olut Kirves Terva Hauta Sauna Löyly Puukko Junkkari Surma Murha Saunatonttu Tellervo Karhu Susi Koira Hirvi Poro Kauris Peura Turma Kotka Haukka Jänis Orava Aura Tähti Metso Revontuli Koivu Mänty Kuusi Pohjanmaa "Keski-Suomi" Häme Uusimaa Savo Karjala Lappi Kalevala Pohjola Lintukoto Aarnivalkea Koskenkorva Jaloviina Sisu Turunmaa Ruotsinsalmi Riilahti Saukko Vesikko Isku Hurja Nuoli Syöksy Raju Vinha Hurja Jymy Taisto Vasama Viima Vihuri Loimu Lieska Paukku Ahven Rautu Leuku Kuha Hauki Taimen Harjus Kampela Ankerias Tuuri Onni Ilo Riesa Vapaus Rauha Meri Järvi Joki Salama Puuska Puhuri Tuulispää Sade Tyyni Utu Pohjantähti Wettenhovi "Matti Nykänen" "Teemu Selänne" "Mika Häkkinen" Sonaatti Laulu Aaria Runo Taru Salpa Säilä Äes Kuokka Suo Ajastaika Unilukkari Jalopeura Kalpa Kisälli Nihti Kruunu Markka Sapeli Rälssi Tappara Välskäri Ylimys Torppari "Santeri Alkio" Wettenhovi-Aspa Häyhä Pystykorva Oinas Virvatuli "Spede Pasanen" Lalli "Pentti Linkola" "Hertta Kuusinen" "Jari Litmanen" "Anneli Jäätteenmäki" Fazer Schjerfbeck "Helismaa" "Tapio Rautavaara" "Lauri Törni" "Tauno Palo" Kaurismäki "Kalevi Sorsa" "Jouko Turkka" Edelfelt "Rudolf Koivu"
+	
+		}
+	
+		corvette = { Shimushu Kunashiri Hachijo Ishigaki Etorofu Matsuwa Sado Oki Mutsure Mikura Miyake Awaji Nomi Kurahashi Hiburi Daito Shonan Ohotsu Tomoshiri Ukuru Okinawa Amami Aguni Shinnan Urumi Murotsu Shiga
+"Jael Kaninchen"
+"Bridget von Hammersmark"
+"August Diehl"
+"Major Hellstrom"
+"Diane Kruger"
+"Fredrick Zoller"
+"Hugo Stiglitz"
+"Til Schweiger"
+"Wilhelm Wicki"
+"Hans Brühl"
+"Hans Landa"
+"Christoph Waltz"
+"Klaus Adler"
+"Renate Richter"
+"Wolfgang Kortzfleisch"
+"Adolf Galland"
+"Werner Mölders"
+"Hans-Ulrich Rudel"
+"Hermann Graf"
+"Hanna Reitsch"
+"Leni Riefenstahl"
+"Angela Raubal"
+"Magda Goebbels"
+"Eva Braun"
+"Marlene Dietrich"
+"Otto Skorzeny"
+"Claus von Stauffenberg"
+"Josef 'Sepp' Dietrich"
+"Erwin Rommel"
+"Erich von Manstein"
+"Heinz Guderian"
+"Alfred Jodl"
+"Wilhelm Keitel"
+"Ernst Röhm"
+"Reinhard Heydrich"
+"Rudolf Hess"
+"Martin Bormann"
+"Max Schmeling"
+"Wolfgang Lüth"
+"Graf Strachwitz"
+"Gross-Zauche"
+"Herbert Otto Gille"
+"Hans Hube"
+"Albert Kesselring"
+"Helmut Lent"
+"Josef Dietrich"
+"Walter Model"
+"Erich Hartmann"
+"Hermann Balck"
+"Hermann-Bernhard Ramcke"
+"Heinz-Wolfgang Schnaufe"
+"Albrecht Brandi"
+"Ferdinand Schörner"
+"Eccard von Manteuffel"
+"Theodor Tolsdorff"
+"Karl Mauss"
+"Dietrich von Saucken"
+"Walter Oesau"
+"Günther Lützow"
+"Otto Kretschmer"
+"Heinrich Bär"
+"Herbert Ihlefeld"
+"Max-Hellmuth Ostermann"
+"Leopold Steinbatz"
+"Werner Baumbach"
+"Erich Topp"
+"Reinhard Suhren"
+"Joachim Müncheberg"
+"Joachim Helbig"
+"Wolf-Dietrich Wilcke"
+"Alfred Druschel"
+"Walter Gorn"
+"Dietrich Peltz"
+"Günther Rall"
+"Günther Prien"
+"Hermann Hoth"
+"Josef Harpe"
+"Waldemar von Gazen"
+"August Dieckmann"
+"Günther Hans von Kluge"
+"Gerhard Graf von Schwerin"
+"Hajo Herrmann"
+"Heinrich"
+"Prinz Wittgenstein"
+"Erich Bärenfänger"
+"Hermann Breith"
+"Franz Bäke"
+"Franz Griesbach"
+"Wend von Wietersheim"
+"Hermann Fegelein"
+"Fritz von Rarancze"
+"Paul Hausser"
+"Otto von Knobelsdorff"
+"Maximilian von Edelsheim"
+"Michael Wittmann"
+"Albert Speer"
+"Fritz Todt"
+"Kristoff von Reichenbach"
+"Ernst Günther Röhm"
+"Reinhard Heydrich"
+"Konrad Meyer"
+"Philipp Bouhler"
+"Eduard Dietl"
+"Konstantin Hierl"
+"Albert Leo Schlageter"
+"Friedrich Ludwig Jahn"
+"Theodor Körner"
+"Karl Güstrow"
+"Hanns Kerrl"
+"Kurt Massmann"
+"Rudolf Höss"
+"Hans Aumeier"
+"Richard Baer"
+"Hans Bothmann"
+"Alois Brunner"
+"Arnold Büscher"
+"Anton Burger"
+"Arthur Liebehenschel"
+"Karl Künstler"
+"Maximilian List"
+"Hans Loritz"
+"Hermann Pister"
+"Franz Reichleitner"
+"Arthur Rödl"
+"Josef Schwammberger"
+"Karl-Otto Koch"
+"Max Koegel"
+"Johannes Hassebroek"
+"Adam Grünewald"
+"Wilhelm Göcke"
+"Amon Göth"
+"Karl Brandt"
+"Heinrich Bunke"
+"Friedrich Karl Entress"
+"Eugen Fischer"
+"Fritz Fischer"
+"Martin Hellinger"
+"Günther Hennecke"
+"Alfred Erich Hoche"
+"Ernst Holzlöhner"
+"Waldemar Hoven"
+"Wilhelm Jobst"
+"Hans Wilhelm König"
+"Eduard Krebsbach"
+"Johann Paul Kremer"
+"Herbert Linden"
+"Friedrich Mennecke"
+"Theodor Morell"
+"Hermann Paul Nitsche"
+"Herta Oberheuser"
+"Sigmund Rascher"
+"Hans Conrad"
+"Julius Reiter"
+"Georg Renno"
+"Heinrich Rindfleisch"
+"Robert Ritter"
+"Hans-Wolfgang Romberg"
+"Gerhard Rose"
+"Paul Rostock"
+"Rolf Rosenthal"
+"Siegfried Ruff"
+"Ernst Rüdin"
+"Helmut Rühl"
+"Fritz Sawade"
+"Werner Heyde"
+"Gerhard Schiedlausky"
+"Curt Schmalenbach"
+"Ernst Heinrich Schmidt"
+"Carl Schneider"
+"Walter Schreiber"
+"Oskar Schröder"
+"Horst Schumann"
+"Heinrich Schütz"
+"Hubertus Strughold"
+"Heinz Thilo"
+"Kristoff Treite"
+"Alfred Trzebinski"
+"Marianne Türk"
+"Aquilin Ullrich"
+"Hellmuth Unger"
+"Friedrich Hermann"
+"Fritz Herrmann"
+"Hans Holm"
+"Carl Peter Værnet"
+"Otmar von Verschuer"
+"Werner Villinger"
+"Gerhard Wagner"
+"Erich Wasicky"
+"Bruno Weber"
+"Friedrich Wegener"
+"Georg August Weltz"
+"Ernst Wentzler"
+"Adolf Winkelmann"
+"Eduard Wirths"
+"Gerhard Wischer"
+"Wilhelm Witteler"
+"Waldemar Wolter"
+"Ewald Wortmann"
+"Hannes Wortmann"
+"Dr Richter"
+"Dr Stoiber"
+"Hans Kammler"
+"Kristoff von Reichenbach"
+"Wernher von Braun" "Max Born" "Max Planck" "Werner Heisenberg" "Alexander von Humboldt" "Hermann von Helmholtz" "Rudolf Peierls" "Johannes Kepler" "Otto Lilienthal" "Robert Koch" "Carl Zeiss" "Karl-Friedrich Gauss"		}
+		
+		destroyer = { Aoi Ashi Fuji Hagi Hasu Hishi Kaki Kaya Kiku Kuri Momi Nashi Nire Sumire Susuki Tade Take Tsuga Tsuta Warabi Yomogi Asagao Fuyo Karukaya Kuretaka Sanae Wakatake Akikaze Hakaze Hokaze Minekaze Namikaze Nokaze Numakaze Okikaze Sawakaze Shimakaze Shiokaze Tachikaze Yakaze Yukaze Asakaze Asanagi Harukaze Hatakaze Hayate Kamikaze Matsukaze Oite Yunagi Fumizuki Kikuzuki Kisaragi Mikazuki Minazuki Mochizuki Mutsuki Nagatsuki Satsuki Uzuki Yayoi Yuzuki Akebono Amagiri Asagiri Ayanami Fubuki Hatsuyuki Isonami Miyuki Murakumo Oboro Sagiri Sazanami Shikinami Shinonome Shirakumo Shirayuki Uranami Ushio Usugumo Yugiri Akatsuki Hibiki Ikazuchi Inazuma Ariake Hatsuharu Hatsushimo Nenohi Wakaba Yugure Harusame Kawakaze Murasame Samidare Shigure Shiratsuyu Suzukaze Umikaze Yamakaze Yudachi Arare Arashio Asagumo Asashio Kasumi Michishio Minegumo Natsugumo Oshio Yamagumo Akigumo Amatsukaze Arashi Hagikaze Hamakaze Hatsukaze Hayashio Isokaze Kagero Kuroshio Maikaze Natsushio Nowaki Oyashio Shiranui Tanikaze Tokitsukaze 
+                        Urakaze Yukikaze Akishimo Asashimo Fujinami Hamanami Hayanami Hayashimo Kazagumo Kishinami Kiyonami Kiyoshimo Makigumo Makinami Naganami Okinami Onami Suzunami Takanami Tamanami Yugumo Akizuki Fuyutsuki Hanazuki Harutsuki Hatsuzuki Michizuki Natsuzuki Niizuki Shimotsuki Suzutsuki Teruzuki Wakatsuki Yoizuki Shimakaze Enoki Hagi Hatsume Hatsuzakura Hinoki Kaba Kaede Kaki Kashi Kaya Keyaki Kiri Kusunoki Kuwa Maki Matsu Momi Momo Nara Nashi Nire Odake Sakura Shii Sugi Sumire Tachibana Take Tsubaki Tsuta Ume Yanagi Azusa Enoki Hagi Hatsume Hatsuzakura Hishi Kaba Kagi Katsura Kusunoki Kuzu Nashi Nire Odake Sakaki Shii Sumire Tachibana Tochi Tsuta Wakazakura Yadake Yaezakura
+ Iku-Turso Hiisi Otso Näkki Perkele Tursas Joutsen Vetehinen Ukko Ahti Mielikki Vammatar Ajatar Ilmatar Kullervo Lemminkäinen Louhi Nyyrikki Tapio Tuonetar Väinämöinen
+Kaninchen
+Aach
+Aachen
+Aalen
+Abenberg
+Abensberg
+Achern
+Achim
+Adelsheim
+Adenau
+Adorf
+Ahaus
+Ahlen
+Ahrensburg
+Aichach
+Aichtal
+Aken
+Albstadt
+Alfeld
+Allendorf
+Allstedt
+Alpirsbach
+Alsdorf
+Alsfeld
+Alsleben
+"Altdorf bei Nürnberg"
+Altena
+Altenberg
+Altenburg
+Altenkirchen
+Altensteig
+Altentreptow
+Altlandsberg
+Altötting
+Alzenau
+Alzey
+Amberg
+Amöneburg
+Amorbach
+Andernach
+Angermünde
+Anklam
+"Annaberg-Buchholz"
+Annaburg
+"Annweiler am Trifels"
+Ansbach
+Apolda
+Arendsee
+Arneburg
+Arnis
+Arnsberg
+Arnstadt
+Arnstein
+Arnstein
+Artern
+Unstrut
+Arzberg
+Aschaffenburg
+Aschersleben
+Asperg
+Aßlar
+Attendorn
+Aub
+Aue
+"Auerbach in der Oberpfalz"
+Auerbach
+Augsburg
+Augustusburg
+Aulendorf
+Auma-Weidatal
+Aurich
+Babenhausen
+Bacharach
+Backnang
+Baesweiler
+Baiersdorf
+Balingen
+Ballenstedt
+Balve
+Bamberg
+Barby
+Bargteheide
+Barmstedt
+Bärnau
+Barntrup
+Barsinghausen
+Barth
+Baruth
+Mark
+Bassum
+Battenberg
+Baumholder
+Baunach
+Baunatal
+Bautzen
+Bayreuth
+Bebra
+Beckum
+Bedburg
+Beelitz
+Beerfelden
+Beeskow
+Beilngries
+Beilstein
+Belgern-Schildau
+Bendorf
+Bensheim
+Berching
+Berga
+Elster
+Bergen
+"Bergen auf Rügen"
+Bergheim
+"Bergisch Gladbach"
+Bergkamen
+Bergneustadt
+Berka
+Werra
+Berlin
+"Bernau bei Berlin"
+Bernburg
+Bernkastel-Kues
+Bernsdorf
+"Bernstadt am der Eigen"
+Bersenbrück
+Besigheim
+Betzdorf
+Betzenstein
+Beverungen
+Bexbach
+"Biberach an der Riß"
+Biedenkopf
+Bielefeld
+Biesenthal
+Bietigheim-Bissingen
+Billerbeck
+"Bingen am Rhein"
+Birkenfeld
+"Bischofsheim an der Rhön"
+Bischofswerda
+Bismark
+Altmark
+Bitburg
+Bitterfeld-Wolfen
+Blankenburg
+Blankenhain
+Blaubeuren
+Blaustein
+Bleckede
+Bleicherode
+Blieskastel
+Blomberg
+Blumberg
+Bobingen
+Böblingen
+Bocholt
+Bochum
+Bockenem
+Bodenwerder
+Bogen
+Böhlen
+Boizenburg
+Elbe
+Bonn
+"Bonndorf im Schwarzwald"
+Bönnigheim
+Bopfingen
+Boppard
+Borgentreich
+Borgholzhausen
+Borken
+Borken
+Borkum
+Borna
+Bornheim
+Bottrop
+Boxberg
+Brackenheim
+Brake
+Unterweser
+Brakel
+Bramsche
+"Brandenburg an der Havel"
+Brand-Erbisdorf
+Brandis
+Braubach
+Braunfels
+Braunlage
+Bräunlingen
+Braunsbedra
+Braunschweig
+Breckerfeld
+Bredstedt
+Breisach
+Bremen
+Bremerhaven
+Bremervörde
+Bretten
+Breuberg
+Brilon
+Brotterode-Trusetal
+Bruchköbel
+Bruchsal
+Brück
+Brüel
+Brühl
+Brunsbüttel
+Brüssow
+Buchen
+"Buchholz in der Nordheide"
+Buchloe
+Bückeburg
+Buckow
+Büdelsdorf
+Büdingen
+Bühl
+Bünde
+Büren
+Burg
+Burgau
+Burgbernheim
+Burgdorf
+Bürgel
+Burghausen
+Burgkunstadt
+Burglengenfeld
+Burgstädt
+Burg Stargard
+Burgwedel
+Burladingen
+Burscheid
+Bürstadt
+Buttelstedt
+Buttstädt
+Butzbach
+Bützow
+Buxtehude
+Calau
+Calbe
+Calw
+Castrop-Rauxel
+Celle
+Cham
+Chemnitz
+Clausthal-Zellerfeld
+Clingen
+Cloppenburg
+Coburg
+Cochem
+Coesfeld
+Colditz
+Cologne
+Coswig
+Coswig
+Cottbus
+Crailsheim
+Creglingen
+Creußen
+Creuzburg
+Crimmitschau
+Crivitz
+Cuxhaven
+Dachau
+Dahlen
+Dahme
+Dahn
+Damme
+Dannenberg
+Dargun
+Darmstadt
+Dassel
+Dassow
+Datteln
+Daun
+Deggendorf
+Deidesheim
+Delbrück
+Delitzsch
+Delmenhorst
+Demmin
+Dessau-Roßlau
+Detmold
+Dettelbach
+Dieburg
+Diemelstadt
+Diepholz
+Dierdorf
+Dietenheim
+"Dietfurt an der Altmühl"
+Dietzenbach
+Diez
+Dillenburg
+"Dillingen an der Donau"
+Dillingen
+Saar
+Dingelstädt
+Dingolfing
+Dinkelsbühl
+Dinklage
+Dinslaken
+Dippoldiswalde
+"Dissen am Teutoburger Wald"
+Ditzingen
+Döbeln
+Doberlug-Kirchhain
+Döbern
+Dohna
+Dömitz
+Dommitzsch
+Donaueschingen
+Donauwörth
+Donzdorf
+Dorfen
+Dormagen
+Dornburg-Camburg
+Dornhan
+Dornstetten
+Dorsten
+Dortmund
+Dransfeld
+Drebkau
+Dreieich
+Drensteinfurt
+Dresden
+Drolshagen
+Duderstadt
+Duisburg
+Dülmen
+Düren
+Düsseldorf
+Ebeleben
+Eberbach
+Ebermannstadt
+Ebern
+"Ebersbach an der Fils"
+Ebersbach-Neugersdorf
+Ebersberg
+Eberswalde
+Eckartsberga
+Eckernförde
+Edenkoben
+Egeln
+Eggenfelden
+Eggesin
+Ehingen
+Ehrenfriedersdorf
+Eibelstadt
+Eibenstock
+Eichstätt
+Eilenburg
+Einbeck
+Eisenach
+Eisenberg
+Eisenberg
+Eisenhüttenstadt
+Eisfeld
+Eisleben
+Eislingen
+Ellingen
+Ellrich
+Ellwangen
+Elmshorn
+Elsdorf
+Elsfleth
+Elsterberg
+Elsterwerda
+Elstra
+Elterlein
+Eltmann
+"Eltville am Rhein"
+Elzach
+Elze
+Emden
+Emmelshausen
+Emmendingen
+"Emmerich am Rhein"
+Emsdetten
+Endingen
+Engen
+Enger
+Ennepetal
+Ennigerloh
+Eppelheim
+Eppingen
+Eppstein
+Erbach
+Erbach
+Erbendorf
+Erding
+Erftstadt
+Erfurt
+Erkelenz
+Erkner
+Erkrath
+Erlangen
+"Erlenbach am Main"
+Erlensee
+Erwitte
+Eschborn
+"Eschenbach"
+Eschershausen
+Eschwege
+Eschweiler
+Esens
+Espelkamp
+Essen
+"Esslingen am Neckar"
+Ettenheim
+Ettlingen
+Euskirchen
+Eutin
+Falkenberg
+Falkensee
+Falkenstein
+Fehmarn
+Fellbach
+Felsberg
+Feuchtwangen
+Filderstadt
+Finsterwalde
+Fladungen
+Flensburg
+Flöha
+"Flörsheim am Main"
+Florstadt
+Forchheim
+Forchtenberg
+Forst
+Frankenau
+Frankenberg
+Frankenthal
+"Frankfurt am Main"
+"Frankfurt am Oder"
+Frankfurt
+Franzburg
+Frauenstein
+Frechen
+"Freiberg am Neckar"
+Freiberg
+"Freiburg im Breisgau"
+Freilassing
+Freinsheim
+Freising
+Freital
+Freren
+Freudenberg
+Freudenberg
+Freudenstadt
+Freyburg
+Freystadt
+Freyung
+"Fridingen an der Donau"
+Friedberg
+Friedland
+Friedrichroda
+Friedrichsdorf
+Friedrichshafen
+Friedrichstadt
+Friedrichsthal
+Friesack
+Friesoythe
+Fritzlar
+Frohburg
+Fröndenberg
+Fulda
+Fürstenau
+Fürstenberg
+Havel
+Fürstenfeldbruck
+Fürstenwalde
+Spree
+Fürth
+"Furth im Wald"
+"Furtwangen im Schwarzwald"
+"Füssen"
+Garmisch-Partenkirchen
+Gadebusch
+Gaggenau
+Gaildorf
+Gammertingen
+Garbsen
+"Garching bei München"
+Gardelegen
+Garding
+Gartz
+Garz
+Rügen
+Gau-Algesheim
+Gebesee
+Gedern
+Geesthacht
+Geestland
+Gefell
+Gefrees
+Gehrden
+Gehren
+Geilenkirchen
+Geisa
+Geiselhöring
+Geisenfeld
+Geisenheim
+Geisingen
+"Geislingen bei Balingen"
+"Geislingen an der Steige"
+Geithain
+Geldern
+Gelnhausen
+Gelsenkirchen
+"Gemünden am Main"
+Gemünden
+Gengenbach
+Genthin
+Georgsmarienhütte
+Gera
+Gerabronn
+Gerbstedt
+Geretsried
+Geringswalde
+Gerlingen
+Germering
+Germersheim
+Gernsbach
+Gernsheim
+Gerolstein
+Gerolzhofen
+"Gersfeld am Rhön"
+Gersthofen
+Gescher
+Geseke
+Gevelsberg
+Geyer
+"Giengen an der Brenz"
+Gießen
+Gifhorn
+Ginsheim-Gustavsburg
+Gladbeck
+Gladenbach
+Glashütte
+Glauchau
+Glinde
+Glücksburg
+Glückstadt
+Gnoien
+Goch
+Goldberg
+Goldkronach
+Golßen
+Gommern
+Göppingen
+Görlitz
+Goslar
+Gößnitz
+Gotha
+Göttingen
+Grabow
+Grafenau
+Gräfenberg
+Gräfenhainichen
+Gräfenthal
+Grafenwöhr
+"Grafing bei München"
+Gransee
+Grebenau
+Grebenstein
+Greding
+Greifswald
+Greiz
+Greußen
+Greven
+Grevenbroich
+Grevesmühlen
+Griesheim
+Grimma
+Grimmen
+Gröditz
+Groitzsch
+Gronau
+Gröningen
+Großalmerode
+Groß-Bieberau
+Großbottwar
+Großbreitenbach
+Großenehrich
+Großenhain
+Groß-Gerau
+Großräschen
+Großröhrsdorf
+Großschirma
+Groß-Umstadt
+Grünberg
+Grünhain-Beierfeld
+Grünsfeld
+Grünstadt
+Guben
+Gudensberg
+Güglingen
+Gummersbach
+"Gundelfingen an der Donau"
+Gundelsheim
+Günzburg
+Gunzenhausen
+Güsten
+Güstrow
+Gütersloh
+Gützkow
+Haan
+Hachenburg
+Hadamar
+Hagen
+Hagenbach
+Hagenow
+Haiger
+Haigerloch
+Hainichen
+Haiterbach
+Halberstadt
+Haldensleben
+Halle
+Halle
+Hallenberg
+Hallstadt
+"Haltern am See"
+Halver
+Hamburg
+Hameln
+Hamm
+Hammelburg
+Hamminkeln
+Hanau
+Münden
+Hanover
+Harburg
+Hardegsen
+Haren
+Harsewinkel
+Hartenstein
+Hartha
+Harzgerode
+Haselünne
+"Haslach im Kinzigtal"
+Haßfurt
+"Hattersheim am Main"
+Hattingen
+Hatzfeld
+Hausach
+Hauzenberg
+Havelberg
+Havelsee
+Hayingen
+Hechingen
+Hecklingen
+Heide
+Heideck
+Heidelberg
+Heidenau
+"Heidenheim an der Brenz"
+"Heilbad Heiligenstadt"
+Heilbronn
+Heiligenhafen
+Heiligenhaus
+Heilsbronn
+Heimbach
+Heimsheim
+Heinsberg
+Heitersheim
+Heldrungen
+Helmbrechts
+Helmstedt
+Hemau
+Hemer
+Hemmingen
+Hemmoor
+Hemsbach
+Hennef
+Sieg
+Hennigsdorf
+Heppenheim
+Herbolzheim
+Herborn
+Herbrechtingen
+Herbstein
+Herdecke
+Herdorf
+Herford
+Heringen
+Helme
+Heringen
+Hermeskeil
+Hermsdorf
+Herne
+Herrenberg
+Herrieden
+Herrnhut
+Hersbruck
+Herten
+"Herzberg am Harz"
+Herzberg
+Elster
+Herzogenaurach
+Herzogenrath
+"Hessisch Lichtenau"
+"Hessisch Oldendorf"
+Hettingen
+Hettstedt
+Heubach
+Heusenstamm
+Hilchenbach
+Hildburghausen
+Hilden
+Hildesheim
+Hillesheim
+Hilpoltstein
+Hirschau
+Hirschberg
+Hirschhorn
+Neckar
+Hitzacker
+"Hochheim am Main"
+"Höchstadt an der Aisch"
+"Höchstädt an der Donau"
+Hockenheim
+Hof
+Hofgeismar
+"Hofheim am Taunus"
+Hofheim
+"Hohenberg an der Eger"
+Hohenleuben
+Hohenmölsen
+"Hohen Neuendorf"
+Hohenstein-Ernstthal
+Hohnstein
+Höhr-Grenzhausen
+Hollfeld
+Holzgerlingen
+Holzminden
+Homberg
+"Horb am Neckar"
+Hornbach
+Horn
+"Bad Meinberg"
+Hornberg
+Hörstel
+Horstmar
+Höxter
+Hoya
+Hoyerswerda
+Hückelhoven
+Hückeswagen
+Hüfingen
+Hünfeld
+Hungen
+Hürth
+Husum
+Ibbenbüren
+Ichenhausen
+Idar-Oberstein
+Idstein
+Illertissen
+Ilmenau
+Ilsenburg
+Ilshofen
+Immenhausen
+"Immenstadt im Allgäu"
+Ingelfingen
+"Ingelheim am Rhein"
+Ingolstadt
+Iphofen
+Iserlohn
+"Isny im Allgäu"
+Isselburg
+Itzehoe
+Jarmen
+Jena
+Jerichow
+Jessen
+Jever
+Joachimsthal
+Johanngeorgenstadt
+Jöhstadt
+Jülich
+Jüterbog
+Kaarst
+Kahla
+Kaisersesch
+Kaiserslautern
+Kalbe
+Kalkar
+Kaltenkirchen
+Kaltennordheim
+Kamen
+Kamenz
+Kamp-Lintfort
+Kandel
+Kandern
+Kappeln
+Karben
+Karlsruhe
+Karlstadt
+Kassel
+Kastellaun
+Katzenelnbogen
+Kaub
+Kaufbeuren
+Kehl
+Kelbra
+Kyffhäuser
+Kelheim
+Kelkheim
+Taunus
+Kellinghusen
+Kelsterbach
+Kemberg
+Kemnath
+Kempen
+"Kempten im Allgäu"
+Kenzingen
+Kerpen
+Ketzin
+Havel
+Kevelaer
+Kiel
+Kierspe
+Kindelbrück
+Kirchberg
+"Kirchberg an der Jagst"
+Kirchberg
+Hunsrück
+Kirchen
+Kirchenlamitz
+Kirchhain
+Kirchheimbolanden
+"Kirchheim unter Teck"
+Kirn
+Kirtorf
+Kitzingen
+Kitzscher
+Kleve
+"Klingenberg am Main"
+Klingenthal
+Klötze
+Klütz
+Knittlingen
+Koblenz
+Kohren-Sahlis
+Kolbermoor
+Kölleda
+"Königsberg in Bayern"
+Königsbrück
+Königsbrunn
+Königsee-Rottenbach
+Königslutter
+"Königstein im Taunus"
+Königstein
+Königswinter
+"Königs Wusterhausen"
+Könnern
+Konstanz
+Konz
+Korbach
+Korntal-Münchingen
+Kornwestheim
+Korschenbroich
+Köthen
+Kraichtal
+"Krakow am See"
+Kranichfeld
+Krautheim
+Krefeld
+Kremmen
+Krempe
+Kreuztal
+Kronach
+"Kronberg im Taunus"
+Kröpelin
+Kroppenstedt
+Krumbach
+Kühlungsborn
+Kulmbach
+Külsheim
+Künzelsau
+Kupferberg
+Kuppenheim
+Kusel
+Kyllburg
+Kyritz
+Laage
+Laatzen
+Ladenburg
+Lage
+Lahnstein
+Lahr
+Laichingen
+Lambrecht
+Lampertheim
+"Landau an der Isar"
+"Landau in der Pfalz"
+"Landsberg am Lech"
+Landsberg
+Landshut
+Landstuhl
+Langelsheim
+Langen
+Langenau
+Langenburg
+Langenfeld
+Langenhagen
+Langenselbold
+Langenzenn
+Langewiesen
+Lassan
+Laubach
+"Laucha an der Unstrut"
+Lauchhammer
+Lauchheim
+Lauda-Königshofen
+Lauenburg
+"Lauf an der Pegnitz"
+Laufen
+Laufenburg
+"Lauffen am Neckar"
+Lauingen
+Laupheim
+Lauscha
+Lauta
+Lauter-Bernsbach
+Lauterbach
+Lauterecken
+Lauterstein
+Lebach
+Lebus
+Leer
+Lehesten
+Lehrte
+Leichlingen
+Leimen
+Leinefelde-Worbis
+Leinfelden-Echterdingen
+Leipheim
+Leipzig
+Leisnig
+Lemgo
+Lengenfeld
+Lengerich
+Lennestadt
+Lenzen
+Leonberg
+Leun
+Leuna
+Leutenberg
+Leutershausen
+"Leutkirch im Allgäu"
+Leverkusen
+Lich
+Lichtenau
+Lichtenau
+Lichtenberg
+Lichtenfels
+Lichtenfels
+Lichtenstein
+Liebenau
+Liebenwalde
+Lieberose
+Liebstadt
+Limbach-Oberfrohna
+"Limburg an der Lahn"
+Lindau
+Linden
+"Lindenberg im Allgäu"
+Lindenfels
+Lindow
+Lingen
+Linnich
+"Linz am Rhein"
+Lippstadt
+Löbau
+Löffingen
+Lohmar
+Lohne
+Löhne
+"Lohr am Main"
+Loitz
+Lollar
+Lommatzsch
+Löningen
+Lorch
+Lorch
+Lörrach
+Lorsch
+Lößnitz
+Löwenstein
+Lübbecke
+Lübben
+Spreewald
+Lübbenau
+Lübeck
+Lübtheen
+Lübz
+Lüchow
+Lucka
+Luckau
+Luckenwalde
+Lüdenscheid
+Lüdinghausen
+Ludwigsburg
+Ludwigsfelde
+"Ludwigshafen am Rhein"
+Ludwigslust
+Ludwigsstadt
+Lugau
+Lügde
+Lüneburg
+Lünen
+Lunzenau
+Lütjenburg
+Lützen
+Lychen
+Magdala
+Magdeburg
+Mahlberg
+Mainbernheim
+Mainburg
+Maintal
+Mainz
+Malchin
+Malchow
+Mannheim
+Manderscheid
+Mansfeld
+"Marbach am Neckar"
+Marburg
+Marienberg
+Marienmünster
+Markdorf
+Markgröningen
+"Märkisch Buchholz"
+Markkleeberg
+Markneukirchen
+Markranstädt
+Marktbreit
+Marktheidenfeld
+Marktleuthen
+Marktoberdorf
+Marktredwitz
+Marktsteft
+Marl
+Marlow
+Marne
+Marsberg
+Maulbronn
+Maxhütte-Haidhof
+Mayen
+Mechernich
+Meckenheim
+Medebach
+Meerane
+Meerbusch
+Meersburg
+Meinerzhagen
+Meiningen
+Meisenheim
+Meißen
+Meldorf
+Melle
+Mellrichstadt
+Melsungen
+Memmingen
+Menden
+Mendig
+Mengen
+Meppen
+Merkendorf
+Merseburg
+Merzig
+Meschede
+Meßkirch
+Meßstetten
+Mettmann
+Metzingen
+Meuselwitz
+Meyenburg
+Michelstadt
+Miesbach
+Miltenberg
+Mindelheim
+Minden
+Mirow
+Mittenwalde
+Mitterteich
+Mittweida
+Möckern
+Möckmühl
+Moers
+Mölln
+Mönchengladbach
+"Monheim am Rhein"
+Monheim
+Monschau
+Montabaur
+Moosburg
+Mörfelden-Walldorf
+Moringen
+Mosbach
+Mössingen
+Mücheln
+Geiseltal
+Mügeln
+Mühlacker
+Mühlberg
+Mühldorf
+Mühlhausen
+"Mühlheim am Main"
+"Mühlheim an der Donau"
+"Mülheim an der Ruhr"
+Mülheim-Kärlich
+Müllheim
+Müllrose
+Münchberg
+Müncheberg
+München
+Münchenbernsdorf
+Munderkingen
+Munich
+Münnerstadt
+Münsingen
+Munster
+Münster
+Münstermaifeld
+Münzenberg
+Murrhardt
+Nabburg
+Nagold
+Naila
+Nassau
+Nastätten
+Nauen
+Naumburg
+Naumburg
+Naunhof
+Nebra
+Neckarbischofsheim
+Neckargemünd
+Neckarsteinach
+Neckarsulm
+Neresheim
+Netphen
+Nettetal
+Netzschkau
+Neu-Anspach
+Neubrandenburg
+Neubukow
+Neubulach
+"Neuburg an der Donau"
+Neudenau
+Neuenbürg
+"Neuenburg am Rhein"
+Neuenhaus
+Neuenrade
+"Neuenstadt am Kocher"
+Neuenstein
+Neuerburg
+Neuffen
+"Neuhaus am Rennweg"
+Neu-Isenburg
+Neukalen
+Neukirchen
+Neukirchen-Vluyn
+Neukloster
+Neumark
+"Neumarkt in der Oberpfalz"
+"Neumarkt-Sankt Veit"
+Neumünster
+"Neunburg vorm Wald"
+Neunkirchen
+Neuötting
+Neuruppin
+Neusalza-Spremberg
+Neusäß
+Neuss
+"Neustadt an der Aisch"
+"Neustadt an der Donau"
+"Neustadt an der Waldnaab"
+"Neustadt am Kulm"
+"Neustadt am Rübenberge"
+"Neustadt an der Orla"
+"Wein"
+"Neustadt bei Coburg"
+"Neustadt bei Dosse"
+Neustadt-Glewe
+Neustadt
+"Neustadt in Holstein"
+"Neustadt in Sachsen"
+Neustrelitz
+Neutraubling
+Neu-Ulm
+Neuwied
+Nidda
+Niddatal
+Nidderau
+Nideggen
+Niebüll
+Niedenstein
+Niederkassel
+Niedernhall
+Nieder-Olm
+Niederstetten
+Niederstotzingen
+Nieheim
+Niemegk
+Nienburg
+Nienburg
+Nierstein
+Niesky
+Nittenau
+Norden
+Nordenham
+Norderney
+Norderstedt
+Nordhausen
+Nordhorn
+Nördlingen
+Northeim
+Nortorf
+Nossen
+Nuremberg
+Nürtingen
+Oberasbach
+"Oberharz am Brocken"
+Oberhausen
+Oberhof
+Oberkirch
+Oberkochen
+Oberlungwitz
+Obermoschel
+"Obernburg am Main"
+"Oberndorf am Neckar"
+Obernkirchen
+Ober-Ramstadt
+Oberriexingen
+Obertshausen
+Oberursel
+Oberviechtach
+Oberweißbach
+Oberwesel
+Oberwiesenthal
+Kurort
+Ochsenfurt
+Ochsenhausen
+Ochtrup
+Oderberg
+Oebisfelde-Weferlingen
+Oederan
+Oelde
+Oelsnitz
+Oelsnitz
+Oer-Erkenschwick
+Oerlinghausen
+Oestrich-Winkel
+"Oettingen in Bayern"
+"Offenbach am Main"
+Offenburg
+Ohrdruf
+Öhringen
+Olbernhau
+Olching
+Oldenburg
+"Oldenburg in Holstein"
+Olfen
+Olpe
+Olsberg
+Oppenau
+Oppenheim
+Oranienbaum-Wörlitz
+Oranienburg
+Orlamünde
+Ornbau
+Ortenberg
+Ortrand
+Oschatz
+Oschersleben
+Osnabrück
+Osterburg
+Osterburken
+Osterfeld
+Osterhofen
+Osterholz-Scharmbeck
+"Osterode am Harz"
+Osterwieck
+Ostfildern
+"Ostheim vor der Rhön"
+Osthofen
+Östringen
+Ostritz
+Otterberg
+Otterndorf
+Ottweiler
+Overath
+Owen
+Paderborn
+Papenburg
+Pappenheim
+Parchim
+Parsberg
+Pasewalk
+Passau
+Pattensen
+Pausa-Mühltroff
+Pegau
+Pegnitz
+Peine
+Peitz
+Penig
+Penkun
+Penzberg
+Penzlin
+Perleberg
+Petershagen
+"Pfaffenhofen an der Ilm"
+Pfarrkirchen
+Pforzheim
+Pfreimd
+Pfullendorf
+Pfullingen
+Pfungstadt
+Philippsburg
+Pinneberg
+Pirmasens
+Pirna
+Plattling
+Plau am See
+Plaue
+Plauen
+Plettenberg
+Pleystein
+Plochingen
+Plön
+Pockau-Lengefeld
+Pocking
+Pohlheim
+Polch
+Porta Westfalica
+Pößneck
+Potsdam
+Pottenstein
+Preetz
+Premnitz
+Prenzlau
+Pressath
+"Preußisch Oldendorf"
+Prichsenstadt
+Pritzwalk
+Prüm
+Puchheim
+Pulheim
+Pulsnitz
+Putbus
+Putlitz
+Püttlingen
+Quakenbrück
+Quedlinburg
+Querfurt
+Quickborn
+Rabenau
+Radeberg
+Radebeul
+Radeburg
+Radevormwald
+"Radolfzell am Bodensee"
+Raguhn-Jeßnitz
+Rahden
+Rain
+Ramstein-Miesenbach
+Ranis
+Ransbach-Baumbach
+Rastatt
+Rastenberg
+Rathenow
+Ratingen
+Ratzeburg
+Rauenberg
+Raunheim
+Rauschenberg
+Ravensburg
+Ravenstein
+Recklinghausen
+Rees
+Regen
+Regensburg
+Regis-Breitingen
+Rehau
+Rehburg-Loccum
+Rehna
+Reichelsheim
+Reichenbach
+Reichenbach
+Reinbek
+Reinfeld
+Reinheim
+Remagen
+Remda-Teichel
+Remscheid
+"Remseck am Neckar"
+Renchen
+Rendsburg
+Rennerod
+Renningen
+Rerik
+Rethem
+Reutlingen
+Rheda-Wiedenbrück
+Rhede
+Rheinau
+Rheinbach
+Rheinberg
+Rheinböllen
+Rheine
+Rheinfelden
+Rheinsberg
+Rheinstetten
+Rhens
+Rhinow
+Ribnitz-Damgarten
+Richtenberg
+Riedenburg
+Riedlingen
+Riedstadt
+Rieneck
+Riesa
+Rietberg
+Rinteln
+Röbel
+Müritz
+Rochlitz
+Rockenhausen
+Rodalben
+Rodenberg
+Rödental
+Rödermark
+Rodewisch
+Rodgau
+Roding
+Römhild
+Romrod
+Ronneburg
+Ronnenberg
+"Rosbach vor der Höhe"
+Rosenfeld
+Rosenheim
+Rosenthal
+Rösrath
+Roßleben
+Roßwein
+Rostock
+"Rotenburg an der Fulda"
+"Rotenburg an der Wümme"
+Roth
+Rötha
+"Röthenbach an der Pegnitz"
+Rothenburg
+"Rothenburg ob der Tauber"
+Rothenfels
+"Rottenburg am Neckar"
+"Rottenburg an der Laaber"
+Röttingen
+Rottweil
+Rötz
+Rüdesheim
+Rudolstadt
+Ruhla
+Ruhland
+Runkel
+Rüsselsheim
+Rutesheim
+Rüthen
+Saalburg-Ebersdorf
+Saalfeld
+Saarbrücken
+Saarburg
+Saarlouis
+Sachsenhagen
+Sachsenheim
+Salzgitter
+Salzkotten
+Salzwedel
+Sandau
+Sandersdorf-Brehna
+Sangerhausen
+"Sankt Augustin"
+"Sankt Goar"
+"Sankt Goarshausen"
+Sarstedt
+Sassenberg
+Sassnitz
+Sayda
+Schalkau
+Schauenstein
+Scheer
+Scheibenberg
+Scheinfeld
+Schelklingen
+Schenefeld
+Scheßlitz
+Schieder-Schwalenberg
+Schifferstadt
+Schillingsfürst
+Schiltach
+Schirgiswalde-Kirschau
+Schkeuditz
+Schkölen
+Schleiden
+Schleiz
+Schleswig
+Schlettau
+Schleusingen
+Schlieben
+Schlitz
+"Schloß Holte-Stukenbrock"
+Schlotheim
+Schlüchtern
+Schlüsselfeld
+Schmalkalden
+Schmallenberg
+Schmölln
+Schnackenburg
+Schnaittenbach
+Schneeberg
+Schneverdingen
+Schömberg
+Schönau
+"Schönau im Schwarzwald"
+Schönberg
+Schönebeck
+Schöneck
+Schönewalde
+Schongau
+Schöningen
+Schönsee
+Schönwald
+Schopfheim
+Schöppenstedt
+Schorndorf
+Schortens
+Schotten
+Schramberg
+Schraplau
+Schriesheim
+Schrobenhausen
+Schrozberg
+Schüttorf
+Schwaan
+Schwabach
+"Schwäbisch Gmünd"
+"Schwäbisch Hall"
+Schwabmünchen
+Schwaigern
+"Schwalbach am Taunus"
+Schwalmstadt
+Schwandorf
+Schwanebeck
+"Schwarzenbach am Wald"
+"Schwarzenbach an der Saale"
+Schwarzenbek
+Schwarzenberg
+Schwarzenborn
+Schwarzheide
+Schwedt
+Schweich
+Schweinfurt
+Schwelm
+Schwentinental
+Schwerin
+Schwerte
+Schwetzingen
+Sebnitz
+Seehausen
+Seeland
+Seelow
+Seelze
+Seesen
+Sehnde
+Seifhennersdorf
+Selb
+Selbitz
+Seligenstadt
+Selm
+Selters
+Senden
+Sendenhorst
+Senftenberg
+Seßlach
+Siegburg
+Siegen
+Sigmaringen
+"Simbach am Inn"
+Simmern
+Sindelfingen
+Singen
+Sinsheim
+Sinzig
+Soest
+Solingen
+Solms
+Soltau
+Sömmerda
+Sondershausen
+Sonneberg
+Sonnewalde
+Sonthofen
+Sontra
+Spaichingen
+Spalt
+Spangenberg
+Speicher
+Spenge
+Speyer
+Spremberg
+Springe
+Sprockhövel
+Stade
+Stadtallendorf
+Stadtbergen
+Stadthagen
+Stadtilm
+Stadtlengsfeld
+Stadtlohn
+Stadtoldendorf
+Stadtprozelten
+Stadtroda
+Stadtsteinach
+Stadt Wehlen
+Starnberg
+Staßfurt
+"Staufen im Breisgau"
+Staufenberg
+Stavenhagen
+Reuterstadt
+"Sankt Blasien"
+Stein
+Steinach
+"Steinau an der Straße"
+Steinbach-Hallenberg
+Steinbach
+Steinfurt
+"Steinheim an der Murr"
+Steinheim
+Stendal
+Sternberg
+"Sankt Ingbert"
+"Sankt Georgen"
+Stockach
+Stolberg
+Stollberg
+Stolpen
+Storkow
+Stößen
+Straelen
+Stralsund
+Strasburg
+Straubing
+Strausberg
+Strehla
+Stromberg
+Stühlingen
+Stutensee
+Stuttgart
+"Sankt Wendel"
+"Südliches Anhalt"
+Suhl
+Sulingen
+"Sulz am Neckar"
+Sulzbach
+Sulzbach-Rosenberg
+Sulzburg
+Sundern
+Süßen
+Syke
+Tambach-Dietharz
+Tangerhütte
+Tangermünde
+"Tann am Rhön"
+Tanna
+Tauberbischofsheim
+Taucha
+Taunusstein
+Tecklenburg
+Tegernsee
+Telgte
+Teltow
+Templin
+Tengen
+Tessin
+Teterow
+Tettnang
+Teublitz
+Teuchern
+Teupitz
+Teuschnitz
+Thale
+Thalheim
+Thannhausen
+Tharandt
+Themar
+Thum
+Tirschenreuth
+Titisee-Neustadt
+Tittmoning
+Todtnau
+"Töging am Inn"
+Tönisvorst
+Tönning
+Torgau
+Torgelow
+Tornesch
+Traben-Trarbach
+Traunreut
+Traunstein
+Trebbin
+Trebsen
+Treffurt
+Trendelburg
+Treuchtlingen
+Treuen
+Treuenbrietzen
+"Triberg im Schwarzwald"
+Tribsees
+Trier
+Triptis
+Trochtelfingen
+Troisdorf
+Trossingen
+Trostberg
+Tübingen
+Tuttlingen
+Twistringen
+Übach-Palenberg
+Überlingen
+Uebigau-Wahrenbrück
+Ueckermünde
+Uelzen
+Uetersen
+Uffenheim
+Uhingen
+Ulm
+Ulmen
+Ulrichstein
+Ummerstadt
+Unkel
+Unna
+Unterschleißheim
+Usedom
+Usingen
+Uslar
+Vacha
+"Vaihingen an der Enz"
+Vallendar
+Varel
+Vechta
+Velbert
+Velburg
+Velden
+Velen
+Vellberg
+Vellmar
+Velten
+Verden
+Veringenstadt
+Verl
+Versmold
+Vetschau
+Spreewald
+Viechtach
+Viernheim
+Viersen
+Villingen-Schwenningen
+Vilsbiburg
+Vilseck
+Vilshofen
+Visselhövede
+Vlotho
+Voerde
+"Vogtsburg im Kaiserstuhl"
+"Vohburg an der Donau"
+Vohenstrauß
+Vöhrenbach
+Vöhringen
+Volkach
+Völklingen
+Volkmarsen
+Vreden
+"Wachenheim"
+Wächtersbach
+Wadern
+Waghäusel
+Wahlstedt
+Waiblingen
+Waibstadt
+Waischenfeld
+Waldbröl
+Waldeck
+Waldenbuch
+Waldenburg
+Waldenburg
+Waldershof
+Waldheim
+Waldkappel
+Waldkirch
+Waldkirchen
+Waldkraiburg
+Waldmünchen
+Waldsassen
+Waldshut-Tiengen
+Walldorf
+Walldürn
+Wallenfels
+Walsrode
+Waltershausen
+Waltrop
+Wanfried
+"Wangen im Allgäu"
+Wanzleben-Börde
+Warburg
+Waren
+Warendorf
+Warin
+Warstein
+Wassenberg
+"Wasserburg am Inn"
+Wassertrüdingen
+Wasungen
+Wedel
+Weener
+Wegberg
+Wegeleben
+Wehr
+Weida
+"Weiden in der Oberpfalz"
+Weikersheim
+"Weil am Rhein"
+Weilburg
+"Weil der Stadt"
+"Weilheim an der Teck"
+"Weilheim in Oberbayern"
+Weimar
+Weingarten
+Weinheim
+Weinsberg
+Weinstadt
+Weismain
+Weißenberg
+"Weißenburg in Bayern"
+Weißenfels
+Weißenhorn
+Weißensee
+Weißenstadt
+Weißenthurm
+Weißwasser
+Weiterstadt
+Welzheim
+Welzow
+Wemding
+"Wendlingen am Neckar"
+Werben
+Werdau
+Werder
+Havel
+Werdohl
+Werl
+Wermelskirchen
+Wernau
+Werne
+Werneuchen
+Wernigerode
+Wertheim
+Werther
+Wertingen
+Wesel
+Wesenberg
+Wesselburen
+Wesseling
+Westerburg
+Westerstede
+Wetter
+Ruhr
+Wetter
+Wettin-Löbejün
+Wetzlar
+Widdern
+Wiehe
+Wiehl
+Wiesbaden
+Wiesensteig
+Wiesloch
+Wiesmoor
+Wildau
+Wildberg
+Wildenfels
+Wildeshausen
+Wilhelmshaven
+Wilkau-Haßlau
+Willebadessen
+Willich
+Wilsdruff
+Wilster
+Wilthen
+Windischeschenbach
+Windsbach
+Winnenden
+Winsen
+Winterberg
+Wipperfürth
+Wirges
+Wismar
+Wissen
+Witten
+Wittenberg
+Wittenberge
+Wittenburg
+Wittichenau
+Wittlich
+Wittingen
+Wittmund
+Wittstock
+Dosse
+Witzenhausen
+Woldegk
+Wolfach
+Wolfenbüttel
+Wolfhagen
+Wolframs-Eschenbach
+Wolfratshausen
+Wolfsburg
+Wolfstein
+Wolgast
+Wolkenstein
+Wolmirstedt
+Worms
+Wörrstadt
+"Wörth am Rhein"
+"Wörth an der Donau"
+"Wörth am Main"
+Wriezen
+Wülfrath
+Wunsiedel
+Wunstorf
+Wuppertal
+Würselen
+Wurzbach
+Würzburg
+Wurzen
+Wustrow
+"Wyk auf Föhr"
+Xanten
+Zahna-Elster
+"Zarrentin am Schaalsee"
+Zehdenick
+"Zeil am Main"
+Zeitz
+"Zell am Harmersbach"
+"Zell im Wiesental"
+Zell
+Mosel
+Zella-Mehlis
+Zerbst
+"Zeulenroda-Triebes"
+Zeven
+Ziegenrück
+Zierenberg
+Ziesar
+Zirndorf
+Zittau
+Zörbig
+Zossen
+Zschopau
+Zülpich
+Zweibrücken
+Zwenkau
+Zwickau
+Zwiesel
+Zwingenberg
+Zwönitz
+Gera
+Breslau
+Langenbielau
+Reichenau
+Gottesberg-Rothenbach
+Bunzlau
+Buchwald
+Reichenbach
+Glogau
+Groß-Glogau
+Grebelwitz
+"Hermsdorf Städtisch"
+Jauer
+"Riesengebirge"
+Landeshut
+Kanth
+Glatz
+Liegnitz
+Liebau
+Lüben
+Michelsdorf
+Neurode
+Neisse
+Neiße
+Ohlau
+Oels
+Öls
+Peterswaldau
+Polkwitz
+Heerwegen
+Primkenau
+Zobten
+Striegau
+Strehlen
+Schweidnitz
+"Freiburg in Schlesien"
+Niederschwedeldorf
+Waldenburg
+Wansen
+Breslau
+"Frankenstein in Schlesien"
+Goldberg
+Bielitz
+Beuthen
+Königshütte
+Teschen
+Gleiwitz
+Leobschütz
+"Bad Ziegenhals"
+Kattowitz
+Kandrzin-Cosel
+Kreuzburg
+Krappitz
+"Ober Lazisk"
+Nicolai
+Myslowitz
+Neisse
+Rosenberg
+Oppeln
+Orzesche
+"Deutsch Piekar"
+Pless
+Ratibor
+Ruda
+Laurahütte
+"Groß Strehlitz"
+Schwientochlowitz
+Tarnowitz
+Tichau
+Hindenburg
+Deschowitz
+Sohrau
+Tannenburg
+Brandenburg
+Neidenburg
+Rastenburg
+Samland
+Tapiau
+Braunsberg
+Heilsberg
+Mohrungen
+Ermland
+Gumbinnen
+Gusev
+Insterburg
+Memel
+Olecko
+Ragnit
+Seehesten
+Sensburg
+Tilsit
+Allenburg
+Allenstein 
+Angerburg 
+Arys
+Barten
+Bartenstein
+Bischofsburg
+Bischofstein 
+Braunsberg 
+Darkehmen
+Angerapp 
+Domnau
+Bartenstein 
+Elbing
+Eydtkuhnen 
+Fischhausen 
+Frauenburg
+Friedland
+Gehlenburg
+Johannisburg
+Gerdauen
+Gilgenburg
+Goldap 
+Gumbinnen
+Guttstadt
+Heiligenbeil
+Heilsberg
+Heydekrug
+Hohenstein
+Insterburg
+Johannisburg
+Königsberg
+Kreuzburg 
+Labiau
+"Landsberg in Ostpreußen"
+Liebemühl
+Liebstadt
+Lötzen 
+Lyck
+Treuburg
+"Marienburg in Westpreußen"
+Mehlsack
+Braunsberg 
+Memel 
+Mohrungen
+Mühlhausen
+Neidenburg 
+Nikolaiken
+Sensburg
+Nordenburg
+Gerdauen
+Osterode 
+Passenheim
+Ortelsburg
+Peterswalde
+Osterode 
+Pillau
+Eylau 
+Ragnit
+Neman
+Rastenburg 
+Rhein
+Lötzen 
+Rößel 
+Saalfeld
+Mohrungen 
+Schippenbeil
+Bartenstein 
+Schirwindt
+Pillkallen-Schlossberg 
+Seeburg
+Rößel
+Sensburg 
+Soldau
+Neidenburg 
+Stallupönen
+Tapiau
+Wartenburg
+Allenstein 
+Wehlau 
+Willenberg
+Ortelsburg
+Wielbark
+Wormditt
+Braunsberg 
+Zinten 
+Posen
+Danzig
+Elblag
+Stettin
+Bromberg
+Elbing
+Hela		}
+		
+		cruiser = { Hirado Yahagi Yodo Tenryu Tatsuta Kuma Tama Kitakami Oi Kiso Nagara Isuzu Yura Natori Kinu Abukuma Sendai Jintsu Naka Yubari Ioshima Yasoshima Katori Kashima Kashii Kashiwara Agano Yahagi Noshiro Sakawa Oyodo Niyodo Asama Tokiwa Izumo Iwate Yakumo Azuma Kasuga Nisshin Kongo Hiei Haruna Kirishima Amagi Atago Takao Furutaka Kako Aoba Kinugasa Myoko Nachi Ashigara Haguro Maya Chokai Mogami Mikuma Suzuya Kumano Tone Chikuma Ibuki Haogi   
+ "Mika Waltari" "Minna Canth" "Väinö Linna" "Aleksis Kivi" "Runeberg" "Topelius" "Arvo Ylppö" "Hella Wuolijoki" "Frans Emil Sillanpää" "Paavo Nurmi" "Lasse Virén" "Sibelius" Ehrnrooth Lönnrot "Alvar Aalto" "Eugen Schauman" "Eino Leino" "Gallen-Kallela"
+Aachen
+Nord Rhine
+Westphalia
+Ahrweiler
+Rhineland
+Palatinate
+"Bad Neuenahr"
+Aichach-Friedberg
+Bayern
+Alb-Donau
+Württemberg
+Ulm
+"Altenburger Land"
+Thuringia
+Altenkirchen 
+Altmarkkreis
+Salzwedel
+Anhalt 
+Altötting 
+Alzey-Worms 
+Amberg
+Amberg-Sulzbach 
+Ammerland
+Westerstede 
+Anhalt-Bitterfeld
+Anhalt
+Köthen
+Ansbach 
+Aschaffenburg 
+Augsburg 
+Aurich 
+"Bad Dürkheim"
+"Bad Kissingen" 
+"Bad Kreuznach" 
+"Bad Tölz"
+Wolfratshausen
+Baden-Baden
+Württemberg 
+Bamberg 
+Barnim
+Brandenburg
+Eberswalde 
+Bautzen 
+Bayreuth
+Berchtesgaden
+"Berchtesgadener Land"
+"Bad Reichenhall"
+Bergstraße
+Hesse
+Heppenheim
+Berlin 
+Bernkastel-Wittlich
+Wittlich 
+Biberach 
+Bielefeld
+Birkenfeld
+Böblingen
+Bochum 
+Bodenseekreis
+Friedrichshafen 
+Bonn 
+Börde
+Haldensleben 
+Borken
+Bottrop 
+"Brandenburg an der Havel"
+Brandenburg 
+Braunschweig 
+Breisgau-Hochschwarzwald
+Freiburg
+Bremen
+Bremerhaven
+Burgenlandkreis
+Naumburg 
+Calw
+Celle 
+Cham 
+Chemnitz 
+Kleve
+Cloppenburg 
+Coburg 
+Cochem-Zell
+Cochem 
+Coesfeld
+Köln
+Cottbus 
+Cuxhaven
+Dachau
+Dahme-Spreewald
+Lübben 
+Darmstadt 
+Darmstadt-Dieburg 
+Deggendorf
+Delmenhorst 
+Dessau-Roßlau 
+Diepholz 
+Dillingen
+Dingolfing-Landau 
+Dithmarschen
+Schleswig-Holstein
+Heide 
+Donau-Ries
+Donauwörth 
+Donnersbergkreis
+Kirchheimbolanden 
+Dortmund 
+Dresden
+Duisburg 
+Düren 
+Düsseldorf 
+Ebersberg
+Eichsfeld
+Thuringia
+Heilbad
+Heiligenstadt 
+Eichstätt
+Eifelkreis
+Bitburg-Prüm
+Bitburg 
+Eisenach 
+Elbe-Elster
+Herzberg 
+Emden
+Emmendingen 
+Emsland
+Meppen
+Ennepe-Ruhr-Kreis
+Schwelm 
+Enz
+Pforzheim
+Erding
+Erfurt 
+Erlangen 
+Erlangen-Höchstadt
+Erzgebirgskreis
+Annaberg-Buchholz 
+Essen 
+Esslingen
+Neckar 
+Euskirchen
+Flensburg 
+Forchheim
+Frankenthal 
+Frankfurt 
+Freiburg
+Breisgau 
+Freising 
+Freudenstadt 
+Freyung-Grafenau
+Freyung 
+Friesland
+Jever 
+Fulda
+Fürstenfeldbruck
+Fürth
+Zirndorf 
+Garmisch-Partenkirchen 
+Gelsenkirchen 
+Gera
+Thuringia 
+Germersheim
+Gießen
+Gifhorn 
+Göppingen 
+Görlitz 
+Goslar
+Gotha
+Göttingen 
+Grafschaft
+Bentheim
+Nordhorn 
+Greiz
+Groß-Gerau 
+Günzburg
+Gütersloh 
+Hagen 
+Halle 
+Hamburg 
+Hamelin-Pyrmont
+Hamelin
+Hamm 
+Hanover
+Harburg
+Winsen 
+Harz
+Halberstadt 
+Haßberge
+Haßfurt 
+Havelland
+Rathenow 
+Heidekrei
+"Bad Fallingbostel"
+Heidelberg
+Baden-Württemberg 
+Heidenheim
+Heilbronn 
+Heinsberg
+Helmstedt 
+Herne
+Hersfeld-Rotenburg
+"Bad Hersfeld"
+"Herzogtum Lauenburg"
+Ratzeburg 
+Hildburghausen 
+Hildesheim
+Hochsauerland
+Meschede 
+Hochtaunuskreis
+"Bad Homburg"
+Hof
+Hohenlohe
+Künzelsau 
+Holzminden
+Höxter
+Ilm-Kreis
+Ingolstadt 
+Jena 
+Burg 
+Kaiserslautern
+Karlsruhe 
+Kassel
+Kaufbeuren 
+Kelheim
+Kempte
+Kiel 
+Kitzingen 
+Koblenz 
+Konstanz 
+Krefeld 
+Kronach
+Kulmbach
+Kusel
+Kyffhäuserkreis
+Sondershausen 
+Lahn-Dill
+Wetzlar 
+Landau
+Landsberg
+Landshut
+Leer 
+Leipzig
+Leverkusen 
+Lichtenfels
+Limburg-Weilburg
+Limburg 
+Lindau
+Lippe
+Detmold 
+Lörrach
+Lübeck 
+Lüchow-Dannenberg
+Lüchow 
+Ludwigsburg
+Ludwigshafen 
+Ludwigslust-Parchim
+Mecklenburg
+Vorpommern
+Parchim 
+Lüneburg
+Magdeburg 
+Main-Kinzig
+Gelnhausen 
+Main-Spessart
+Karlstadt
+Main-Tauber
+Tauberbischofsheim 
+Main-Taunus
+Hofheim 
+Mainz
+Mainz-Bingen
+Ingelheim 
+Mannheim
+Mansfeld-Südharz
+Sangerhausen 
+Marburg-Biedenkopf
+Marburg 
+"Märkischer Kreis"
+Lüdenscheid 
+Märkisch-Oderland
+Seelow 
+Mayen-Koblenz
+Koblenz
+Mecklenburgische
+Neubrandenburg 
+Meißen
+Memmingen
+Merzig-Wadern
+Saarland
+Merzig 
+Mettmann
+Miesbach
+Miltenberg 
+Minden-Lübbecke
+Minden 
+Mittelsachsen
+Freiberg 
+Mönchengladbach 
+Mühldorf
+Mülheim
+München
+Münster
+Rhine-Westphalia 
+Neckar-Odenwald
+Mosbach 
+Neuburg-Schrobenhausen
+Neuburg 
+Neumarkt
+Oberpfalz 
+Neumünster
+Schleswig-Holstein 
+Neunkirchen
+Saarland
+Ottweiler 
+Windsheim 
+Weinstraße
+Neu-Ulm
+Neuwied
+Nienburg 
+Nordfriesland
+Nordhausen
+Nordsachsen
+Sachsen
+Nordwestmecklenburg
+Mecklenburg-Vorpommern
+Wismar 
+Northeim
+Nürnberg
+"Nürnberger Land"
+"Lauf an der Pegnitz"
+Oberallgäu
+Sonthofen 
+"Oberbergischer Kreis"
+Rhine-Westphalia
+Gummersbach 
+Oberhausen
+Oberhavel
+Oranienburg 
+Oberspreewald-Lausitz
+Senftenberg 
+Odenwaldkreis
+Erbach 
+Oder-Spree
+Beeskow 
+Offenbach
+Dietzenbach 
+Offenbach
+Hesse 
+Oldenburg
+Wildeshausen 
+Olpe
+Ortenaukreis
+Offenburg 
+Osnabrück
+Ostalbkreis
+Aalen 
+Ostallgäu
+Marktoberdorf 
+Osterholz
+Osterholz-Scharmbeck 
+Osterode
+Ostholstein
+Eutin 
+Ostprignitz-Ruppin
+Neuruppin 
+Paderborn
+Passau 
+Peine
+Pfaffenhofen
+Pforzheim 
+Pinneberg 
+Pirmasens 
+Plön
+Potsdam
+Potsdam-Mittelmark
+Belzig 
+Prignitz
+Perleberg 
+Rastatt
+Ravensburg
+Recklinghausen
+Regen
+Regensburg 
+Rems-Murr 
+Waiblingen 
+Remscheid 
+Rendsburg-Eckernförde
+Rendsburg 
+Reutlingen
+Rhein-Erft-Kreis
+Bergheim 
+Rheingau-Taunus
+Schwalbach 
+Rhein-Hunsrück
+Simmern 
+Rheinisch-Bergischer
+Bergisch-Gladbach 
+"Rheinkreis Neuss"
+Neuss 
+Rhein-Lahn
+Rhein-Neckar
+Heidelberg
+Rhein-Pfalz-Kreis
+Ludwigshafen
+Rhein-Sieg
+Siegburg 
+Rhön-Grabfeld
+Rosenheim
+Rostock
+Güstrow 
+Rostock
+Rotenburg
+Roth
+Rottal-In
+Pfarrkirchen 
+Rottweil
+Saale-Holzland
+Eisenberg 
+Saalekreis
+Merseburg 
+Saale-Orla
+Schleiz 
+Saalfeld-Rudolstadt
+Saalfeld 
+Saarbrücken
+Saarlouis
+Saarpfalz
+Saarland
+Homburg 
+"Schweiz-Osterzgebirge"
+Pirna 
+Salzgitter 
+Salzlandkreis
+Bernburg 
+"Sankt Wendel" 
+Schaumburg
+Stadthagen 
+Schleswig-Flensburg
+Schleswig 
+Schmalkalden-Meiningen
+Meiningen 
+Schwabach 
+"Schwäbisch Hall"
+Schwalm-Eder
+Homberg 
+Schwandorf
+Schwarzwald-Baar
+Villingen-Schwenningen 
+Schweinfurt 
+Schwerin
+Segeberg
+Siegen-Wittgenstei
+Siegen 
+Sigmaringen
+Soest
+Solingen 
+Sömmerda
+Sonneberg
+Speyer
+Spree-Neiße
+Forst 
+Stade
+Starnberg
+Steinburg
+Itzehoe 
+Steinfurt
+Stendal
+Stormarn
+Oldesloe 
+Straubing
+Straubing-Bogen
+Stuttgart
+"Südliche Weinstraße"
+Landau
+Südwestpfalz
+Pirmasens
+Suhl
+Teltow-Fläming
+Luckenwalde 
+Tirschenreuth
+Traunstein
+Trier
+Trier-Saarburg
+Tübingen
+Tuttlingen
+Uckermar
+Prenzlau
+Uelzen
+Ulm
+Unstrut-Hainich
+Mühlhausen 
+Unterallgäu
+Mindelheim 
+Vechta
+Verden
+Viersen
+Vogelsbergkreis
+Lauterbach 
+Vogtlandkreis
+Plauen 
+Vorpommern-Greifswald
+Vorpommern-Rügen
+Stralsund 
+Vulkaneifel
+Daun 
+Waldeck-Frankenberg
+Korbach 
+Waldshut
+Waldshut-Tiengen 
+Warendorf
+Wartburgkreis
+Eisenach 
+"Weiden in der Oberpfalz"
+Weilheim-Schongau
+Weilheim 
+Weimar
+"Weimarer Land"
+Apolda 
+Weißenburg-Gunzenhausen
+Weißenburg 
+Werra-Meißner
+Eschwege 
+Wesel
+Wesermarsch
+Brake 
+Westerwaldkreis
+Montabaur 
+Wetteraukreis
+Wiesbaden
+Wilhelmshaven
+Wittenberg
+Wittmund
+Wolfenbüttel
+Wolfsburg
+Worms 
+Wunsiedel
+Wuppertal
+Würzburg
+Zollernalbkreis
+Balingen 
+Zweibrücken 
+Zwickau
+Böhmen 
+Budweis
+Gumpolds
+Ledetsch
+Pilgrams
+Tabor
+Wittingau 
+Königgrätz
+Chrudim
+Hohenmauth
+Jitschin
+Königgrätz
+Königinhof
+Leitomischl
+Nachod
+Neu-Bidschow
+Neuenburg
+Pardubitz
+Reichenau
+Semil 
+Pilsen
+Klattau
+Kralowitz
+Pilsen-Land
+Pilsen-Stadt
+Pisek
+Schüttenhofen
+Strakonitz
+Taus 
+Prag
+Beneschau
+Beraun
+Böhmisch-Brod
+Brandeis
+Jungbunzlau
+Kladno
+Kolín
+Laun
+Melnik
+Pibrans
+Prag-Land-Nord
+Prag-Land-Süd
+Prag-Stadt
+Rakonitz
+Raudnitz
+Schlan
+Seltschan
+Tschaslau 
+Mähren 
+Brünn
+Boskowitz
+Brünn-Land
+Brünn-Stadt
+Gaya
+Göding
+Ungarisch-Brod
+Ungarisch-Hradisch
+Wischau
+Zline 
+Iglau
+Groß-Meseritsch
+Mährisch-Budwitz
+Neustadtl
+Trebitsch 
+Mährisch-Ostrau
+Friedberg
+Kremsier
+Littau
+Mährisch-Ostrau
+Mährisch-Weißkirchen
+Olmütz-Land
+Olmütz-Stadt
+Prerau
+Proßnitz
+Wallachisch-Meseritsch
+Wesetin		}
+		
+		battleship = { Fuji Shikishima Asahi Mikasa Suwo Mishima Fuso Yamashiro Ise Hyuga Nagato Mutsu Yamato Musashi Shinano Ikoma Aso Kasagi Katsuragi Unryu Amagi Chitose Chiyoda Taiho Ryuho Taiyo Chuyo Unyo Hiyo Zuikaku Shokaku Kaiyo Hiryo Soryu Hosho Kaga Akagi Ryujo
+ Mannerheim Ryti Kallio Kekkonen Ståhlberg Relander Svinhuvfud Paasikivi Koivisto Ahtisaari Halonen Niinistö Väyrynen Tanner
+Nibelungen Tannhäuser Lohengrin "Die Walküre" Siegfried Götterdämmerung "Die Sieger" Tannenburg Reichenbach Reichadler "Der Führer" "Die Adler" Orn Germania Deutschland "Das Reich" Scharnorst Gneisenau "Admiral Hipper" "Admiral Scheer" Brandenburg Tirpitz Bismarck Dönitz "Friedrich der Große" Großdeutschland Hindenburg Ludendorff Molkte "Hermann Göring" "Kurfürst Wilhelm" Weissenburg Wörth "Kaiser Friedrich III" "Kaiser Wilhelm II" "Kaiser Wilhelm der Grosse" "Kaiser Karl der Grosse" "Kaiser Barbarossa" Wittelsbach Wettin Zähringen Schwaben Mecklenburg Braunschweig Elsass Hessen Preußen Lothringen Deutschland Hannover Pommern Schlesien Schleswig-Holstein Nassau Westfalen Rheinland Posen Helgoland Ostfriesland Thüringen Oldenburg Kaiser "Friedrich der Große" Kaiserin "Prinzregent Luitpold" "König Albert" König "Grosser Kurfürst" Markgraf Kronprinz Bayern Baden Württemberg Sachsen "Von der Tann" Mackensen "Prinz Eitel Friedrich" "Prinz Heinrich" "Prinz Adalbert" "Admiral Blücher" "Prinz Eugen" Seydlitz Lützow Königsberg Berlin 
+Baden
+Bayreuth 
+Düsseldorf
+Ostpreußen
+Ost-Hannover
+Kurhessen
+Köln-Aachen
+Essen
+Franken
+Groß-Berlin
+Halle-Merseburg
+Hamburg
+Hessen-Nassau
+Koblenz-Trier
+Magdeburg-Anhalt
+Mainfranken
+"Mark Brandenburg"
+Mecklenburg
+München-Oberbayern
+Pommern
+Saarpfalz
+Sachsen
+Schlesien
+Schleswig-Holstein
+Südhannover-Braunschweig
+Schwaben
+Thüringen
+Weser-Ems
+Westfalen-Nord
+Westfalen-Süd
+Württemberg-Hohenzollern
+Kärnten
+Niederdonau
+Oberdonau
+Salzburg
+Sudetenland
+Steiermark
+Tirol-Vorarlberg
+Wien
+Westpreußen
+Wartheland
+Posen
+Krakau
+Warsaw
+Lublin
+Radom
+Galizien
+Bayerische-Ostmark
+Peipusland
+Ostland
+Dünaland
+Kurland
+Metz
+Gotenland
+"Großgermanisches Reich"
+Liechtenstein
+"Reichsgau Burgund"
+"Gau Westland"
+"Gau Nordmark"
+Großdeutschland
+Küstenland
+Böhmen
+Mähren		}
+		
+		science = { Katsuriki Tsukushi Koshu Settsu Yakaze Wakachi Ohohama "Vilho Väisälä" "Yrjö Väisälä" "A. I. Virtanen" "Esko Valtaoja" "Ilkka Hanski"
+"Dr Richter"
+"Dr Stoiber"
+"Hans Kammler"
+"Kristoff von Reichenbach"
+"Wernher von Braun" "Max Born" "Max Planck" "Werner Heisenberg" "Alexander von Humboldt" "Hermann von Helmholtz" "Rudolf Peierls" "Johannes Kepler" "Otto Lilienthal" "Robert Koch" "Carl Zeiss" "Karl-Friedrich Gauss"
+"Karl Brandt"
+"Heinrich Bunke"
+"Friedrich Karl Entress"
+"Eugen Fischer"
+"Fritz Fischer"
+"Martin Hellinger"
+"Günther Hennecke"
+"Alfred Erich Hoche"
+"Ernst Holzlöhner"
+"Waldemar Hoven"
+"Wilhelm Jobst"
+"Hans Wilhelm König"
+"Eduard Krebsbach"
+"Johann Paul Kremer"
+"Herbert Linden"
+"Friedrich Mennecke"
+"Theodor Morell"
+"Hermann Paul Nitsche"
+"Herta Oberheuser"
+"Sigmund Rascher"
+"Hans Conrad"
+"Julius Reiter"
+"Georg Renno"
+"Heinrich Rindfleisch"
+"Robert Ritter"
+"Hans-Wolfgang Romberg"
+"Gerhard Rose"
+"Paul Rostock"
+"Rolf Rosenthal"
+"Siegfried Ruff"
+"Ernst Rüdin"
+"Helmut Rühl"
+"Fritz Sawade"
+"Werner Heyde"
+"Gerhard Schiedlausky"
+"Curt Schmalenbach"
+"Ernst Heinrich Schmidt"
+"Carl Schneider"
+"Walter Schreiber"
+"Oskar Schröder"
+"Horst Schumann"
+"Heinrich Schütz"
+"Hubertus Strughold"
+"Heinz Thilo"
+"Kristoff Treite"
+"Alfred Trzebinski"
+"Marianne Türk"
+"Aquilin Ullrich"
+"Hellmuth Unger"
+"Friedrich Hermann"
+"Fritz Herrmann"
+"Hans Holm"
+"Carl Peter Værnet"
+"Otmar von Verschuer"
+"Werner Villinger"
+"Gerhard Wagner"
+"Erich Wasicky"
+"Bruno Weber"
+"Friedrich Wegener"
+"Georg August Weltz"
+"Ernst Wentzler"
+"Adolf Winkelmann"
+"Eduard Wirths"
+"Gerhard Wischer"
+"Wilhelm Witteler"
+"Waldemar Wolter"
+"Ewald Wortmann"
+"Hannes Wortmann"		}
+		
+		colonizer = {
+"Shinshu Maru" "Mayasan Maru" "Tamatsu Maru" "Kibitsu Maru" "Settsu Maru" "Akitsu Maru" "Tokitsu Maru" "Kumano Maru" "Nigitsu Maru" "Takatsu Maru" "Graf Zeppelin" "Peter Strasser" Rheingold Siegfried Parsifal Lohengrin Germania Richthofen Leubald "Die Hochzeit" "Die Feen" "Das Liebesverbot" "Die hohe Braut" "Der Fliegende Holländer" "Die Bergwerke" Tannhäuser "Wieland der Schmied" "Das Rheingold" "Die Walküre" Tristan Isolde "Die Meistersinger" Götterdämmerung Nibelungen		}
+		
+		constructor = { Asahi Kanto Akashi Mihara Momotori Hakusa "Kauppisen maansiirtofirma" "Jankon betoni" "Mursu" "Miina" "Pommi"
+"Albert Speer"
+"Fritz Todt"
+"Kristoff von Reichenbach"
+"Ernst Günther Röhm"
+"Reinhard Heydrich"
+"Konrad Meyer"
+"Philipp Bouhler"
+"Eduard Dietl"
+"Konstantin Hierl"
+"Albert Leo Schlageter"
+"Friedrich Ludwig Jahn"
+"Theodor Körner"
+"Karl Güstrow"
+"Hanns Kerrl"
+"Kurt Massmann"
+"Rudolf Höss"
+"Hans Aumeier"
+"Richard Baer"
+"Hans Bothmann"
+"Alois Brunner"
+"Arnold Büscher"
+"Anton Burger"
+"Arthur Liebehenschel"
+"Karl Künstler"
+"Maximilian List"
+"Hans Loritz"
+"Hermann Pister"
+"Franz Reichleitner"
+"Arthur Rödl"
+"Josef Schwammberger"
+"Karl-Otto Koch"
+"Max Koegel"
+"Johannes Hassebroek"
+"Adam Grünewald"
+"Wilhelm Göcke"
+"Amon Göth"		}
+		
+		orbital_station = { Nibelungen Tannhäuser Lohengrin "Die Walküre" Siegfried Götterdämmerung "Die Sieger" Tannenburg Reichenbach Reichadler "Der Führer" "Die Adler" Orn Germania Deutschland "Das Reich" Scharnorst Gneisenau "Admiral Hipper" "Admiral Scheer" Brandenburg Tirpitz Bismarck Dönitz "Friedrich der Große" Großdeutschland Hindenburg Ludendorff Molkte "Hermann Göring" "Kurfürst Wilhelm" Weissenburg Wörth "Kaiser Friedrich III" "Kaiser Wilhelm II" "Kaiser Wilhelm der Grosse" "Kaiser Karl der Grosse" "Kaiser Barbarossa" Wittelsbach Wettin Zähringen Schwaben Mecklenburg Braunschweig Elsass Hessen Preußen Lothringen Deutschland Hannover Pommern Schlesien Schleswig-Holstein Nassau Westfalen Rheinland Posen Helgoland Ostfriesland Thüringen Oldenburg Kaiser "Friedrich der Große" Kaiserin "Prinzregent Luitpold" "König Albert" König "Grosser Kurfürst" Markgraf Kronprinz Bayern Baden Württemberg Sachsen "Von der Tann" Mackensen "Prinz Eitel Friedrich" "Prinz Heinrich" "Prinz Adalbert" "Admiral Blücher" "Prinz Eugen" Seydlitz Lützow Königsberg Berlin 
+Baden
+Bayreuth 
+Düsseldorf
+Ostpreußen
+Ost-Hannover
+Kurhessen
+Köln-Aachen
+Essen
+Franken
+Groß-Berlin
+Halle-Merseburg
+Hamburg
+Hessen-Nassau
+Koblenz-Trier
+Magdeburg-Anhalt
+Mainfranken
+"Mark Brandenburg"
+Mecklenburg
+München-Oberbayern
+Pommern
+Saarpfalz
+Sachsen
+Schlesien
+Schleswig-Holstein
+Südhannover-Braunschweig
+Schwaben
+Thüringen
+Weser-Ems
+Westfalen-Nord
+Westfalen-Süd
+Württemberg-Hohenzollern
+Kärnten
+Niederdonau
+Oberdonau
+Salzburg
+Sudetenland
+Steiermark
+Tirol-Vorarlberg
+Wien
+Danzig
+Westpreußen
+Wartheland
+Posen
+Krakau
+Warsaw
+Lublin
+Radom
+Galizien
+Bayerische-Ostmark
+Peipusland
+Ostland
+Dünaland
+Kurland
+Metz
+Gotenland
+"Großgermanisches Reich"
+Liechtenstein
+"Reichsgau Burgund"
+"Gau Westland"
+"Gau Nordmark"
+Großdeutschland
+Küstenland
+Böhmen
+Mähren
+"Albert Speer"
+"Fritz Todt"
+"Kristoff von Reichenbach"
+"Ernst Günther Röhm"
+"Reinhard Heydrich"
+"Konrad Meyer"
+"Philipp Bouhler"
+"Eduard Dietl"
+"Konstantin Hierl"
+"Albert Leo Schlageter"
+"Friedrich Ludwig Jahn"
+"Theodor Körner"
+"Karl Güstrow"
+"Hanns Kerrl"
+"Kurt Massmann"
+"Rudolf Höss"
+"Hans Aumeier"
+"Richard Baer"
+"Hans Bothmann"
+"Alois Brunner"
+"Arnold Büscher"
+"Anton Burger"
+"Arthur Liebehenschel"
+"Karl Künstler"
+"Maximilian List"
+"Hans Loritz"
+"Hermann Pister"
+"Franz Reichleitner"
+"Arthur Rödl"
+"Josef Schwammberger"
+"Karl-Otto Koch"
+"Max Koegel"
+"Johannes Hassebroek"
+"Adam Grünewald"
+"Wilhelm Göcke"
+"Amon Göth"
+"Dr Richter"
+"Dr Stoiber"
+"Hans Kammler"
+"Kristoff von Reichenbach"
+"Wernher von Braun" "Max Born" "Max Planck" "Werner Heisenberg" "Alexander von Humboldt" "Hermann von Helmholtz" "Rudolf Peierls" "Johannes Kepler" "Otto Lilienthal" "Robert Koch" "Carl Zeiss" "Karl-Friedrich Gauss"
+"Karl Brandt"
+"Heinrich Bunke"
+"Friedrich Karl Entress"
+"Eugen Fischer"
+"Fritz Fischer"
+"Martin Hellinger"
+"Günther Hennecke"
+"Alfred Erich Hoche"
+"Ernst Holzlöhner"
+"Waldemar Hoven"
+"Wilhelm Jobst"
+"Hans Wilhelm König"
+"Eduard Krebsbach"
+"Johann Paul Kremer"
+"Herbert Linden"
+"Friedrich Mennecke"
+"Theodor Morell"
+"Hermann Paul Nitsche"
+"Herta Oberheuser"
+"Sigmund Rascher"
+"Hans Conrad"
+"Julius Reiter"
+"Georg Renno"
+"Heinrich Rindfleisch"
+"Robert Ritter"
+"Hans-Wolfgang Romberg"
+"Gerhard Rose"
+"Paul Rostock"
+"Rolf Rosenthal"
+"Siegfried Ruff"
+"Ernst Rüdin"
+"Helmut Rühl"
+"Fritz Sawade"
+"Werner Heyde"
+"Gerhard Schiedlausky"
+"Curt Schmalenbach"
+"Ernst Heinrich Schmidt"
+"Carl Schneider"
+"Walter Schreiber"
+"Oskar Schröder"
+"Horst Schumann"
+"Heinrich Schütz"
+"Hubertus Strughold"
+"Heinz Thilo"
+"Kristoff Treite"
+"Alfred Trzebinski"
+"Marianne Türk"
+"Aquilin Ullrich"
+"Hellmuth Unger"
+"Friedrich Hermann"
+"Fritz Herrmann"
+"Hans Holm"
+"Carl Peter Værnet"
+"Otmar von Verschuer"
+"Werner Villinger"
+"Gerhard Wagner"
+"Erich Wasicky"
+"Bruno Weber"
+"Friedrich Wegener"
+"Georg August Weltz"
+"Ernst Wentzler"
+"Adolf Winkelmann"
+"Eduard Wirths"
+"Gerhard Wischer"
+"Wilhelm Witteler"
+"Waldemar Wolter"
+"Ewald Wortmann"
+"Hannes Wortmann"	}
+		mining_station = { "Aibling"
+"Arolsen"
+"Belzig"
+"Bentheim"
+"Bergzabern"
+"Berka"
+"Berleburg"
+"Berneck"
+"Fichtelgebirge"
+"Bevensen"
+"Bibra"
+"Blankenburg"
+"Bramstedt"
+"Breisig"
+"Brückenau"
+"Buchau"
+"Camberg"
+"Colberg-Heldburg"
+"Doberan"
+"Driburg"
+"Düben"
+"Dürkheim"
+"Dürrenberg"
+"Dürrheim"
+"Elster"
+"Ems"
+"Fallingbostel"
+"Frankenhausen"
+"Kyffhäuser"
+"Freienwalde"
+"Friedrichshall"
+"Gandersheim"
+"Gottleuba-Berggießhübel"
+"Griesbach im Rottal"
+"Harzburg"
+"Herrenalb"
+"Hersfeld"
+"Homburg vor der Höhe"
+"Honnef"
+"Hönningen"
+"Iburg"
+"Karlshafen"
+"Kissingen"
+"König"
+"Königshofen im Grabfeld"
+"Köstritz"
+"Kötzting"
+"Kreuznach"
+"Krozingen"
+"Laasphe"
+"Langensalza"
+"Lauchstädt"
+"Lausick"
+"Lauterberg im Harz"
+"Liebenstein"
+"Liebenwerda"
+"Liebenzell"
+"Lippspringe"
+"Lobenstein"
+"Marienberg"
+"Mergentheim"
+"Münder am Deister"
+"Münstereifel"
+"Muskau"
+"Nauheim"
+"Nenndorf"
+"Neuenahr-Ahrweiler"
+"Neustadt an der Saale"
+"Oeynhausen"
+"Oldesloe"
+"Orb"
+"Pyrmont"
+"Rappenau"
+"Reichenhall"
+"Rodach"
+"Sachsa"
+"Säckingen"
+"Salzdetfurth"
+"Salzuflen"
+"Salzungen"
+"Saulgau"
+"Schandau"
+"Schmiedeberg"
+"Schussenried"
+"Schwalbach"
+"Schwartau"
+"Segeberg"
+"Sobernheim"
+"Soden am Taunus"
+"Soden-Salmünster"
+"Sooden-Allendorf"
+"Staffelstein"
+"Sulza"
+"Sülze"
+"Teinach-Zavelstein"
+"Tennstedt"
+"Tölz"
+"Urach"
+"Vilbel"
+"Waldsee"
+"Wildbad"
+"Wildungen"
+"Wilsnack"
+"Wimpfen"
+"Windsheim"
+"Wörishofen"
+"Wünnenberg"
+"Wurzach"
+"Baden"
+"Kaninchen"
+"Hammersmark"
+"Diehl"
+"Hellstrom"
+"Kruger"
+"Zoller"
+"Stiglitz"
+"Schweiger"
+"Wicki"
+"Brühl"
+"Landa"
+"Waltz"
+"Adler"
+"Richter"
+"Kortzfleisch"
+"Galland"
+"Mölders"
+"Rudel"
+"Hermann Graf"
+"Reitsch"
+"Riefenstahl"
+"Raubal"
+"Goebbels"
+"Braun"
+"Dietrich"
+"Skorzeny"
+"Stauffenberg"
+"Dietrich"
+"Rommel"
+"Manstein"
+"Guderian"
+"Jodl"
+"Keitel"
+"Röhm"
+"Heydrich"
+"Hess"
+"Bormann"
+"Schmeling"
+"Lüth"
+"Strachwitz"
+"Gross-Zauche"
+"Gille"
+"Hube"
+"Kesselring"
+"Lent"
+"Dietrich"
+"Model"
+"Hartmann"
+"Balck"
+"Hermann"
+"Bernhard"
+"Ramcke"
+"Schnaufe"
+"Albrecht"
+"Brandi"
+"Ferdinand"
+"Schörner"
+"Manteuffel"
+"Tolsdorff"
+"Mauss"
+"Saucken"
+"Oesau"
+"Günther"
+"Lützow"
+"Kretschmer"
+"Bär"
+"Ihlefeld"
+"Ostermann"
+"Leopold"
+"Steinbatz"
+"Baumbach"
+"Topp"
+"Suhren"
+"Müncheberg"
+"Helbig"
+"Wolf"
+"Dietrich"
+"Wilcke"
+"Druschel"
+"Gorn"
+"Peltz"
+"Rall"
+"Prien"
+"Hoth"
+"Harpe"
+"Waldemar"
+"Gazen"
+"Dieckmann"
+"Kluge"
+"Schwerin"
+"Herrmann"
+"Wittgenstein"
+"Bärenfänger"
+"Breith"
+"Bäke"
+"Griesbach"
+"Wietersheim"
+"Fegelein"
+"Rarancze"
+"Hausser"
+"Knobelsdorff"
+"Maximilian"
+"Edelsheim"
+"Wittmann"
+"Speer"
+"Todt"
+"Reichenbach"
+"Röhm"
+"Reinhard"
+"Heydrich"
+"Meyer"
+"Bouhler"
+"Dietl"
+"Hierl"
+"Schlageter"
+"Jahn"
+"Körner"
+"Güstrow"
+"Kerrl"
+"Massmann"
+"Höss"
+"Aumeier"
+"Baer"
+"Bothmann"
+"Brunner"
+"Büscher"
+"Burger"
+"Liebehenschel"
+"Künstler"
+"List"
+"Loritz"
+"Pister"
+"Reichleitner"
+"Rödl"
+"Schwammberger"
+"Koch"
+"Koegel"
+"Hassebroek"
+"Grünewald"
+"Göcke"
+"Göth"
+"Brandt"
+"Bunke"
+"Entress"
+"Eugen"
+"Fischer"
+"Hellinger"
+"Hennecke"
+"Hoche"
+"Holzlöhner"
+"Hoven"
+"Jobst"
+"König"
+"Krebsbach"
+"Kremer"
+"Linden"
+"Mennecke"
+"Morell"
+"Nitsche"
+"Oberheuser"
+"Rascher"
+"Conrad"
+"Reiter"
+"Renno"
+"Rindfleisch"
+"Ritter"
+"Wolfgang"
+"Romberg"
+"Horst Wessel"
+"Rose"
+"Rostock"
+"Rosenthal"
+"Ruff"
+"Rüdin"
+"Rühl"
+"Sawade"
+"Heyde"
+"Schiedlausky"
+"Schmalenbach"
+"Schmidt"
+"Schneider"
+"Schreiber"
+"Schröder"
+"Schumann"
+"Schütz"
+"Strughold"
+"Thilo"
+"Treite"
+"Trzebinski"
+"Türk"
+"Ullrich"
+"Unger"
+"Hermann"
+"Herrmann"
+"Holm"
+"Værnet"
+"Verschuer"
+"Villinger"
+"Wagner"
+"Wasicky"
+"Weber"
+"Wegener"
+"Weltz"
+"Wentzler"
+"Winkelmann"
+"Wirths"
+"Wischer"
+"Witteler"
+"Wolter"
+"Wortmann"
+"Richter"
+"Stoiber"
+"Kammler"
+"Reichenbach"
+"Braun"
+"Born"
+"Planck"
+"Heisenberg"
+"Humboldt"
+"Helmholtz"
+"Peierls"
+"Kepler"
+"Lilienthal"
+"Koch"
+"Zeiss"
+"Gauss" }
+		research_station = { "Aibling"
+"Arolsen"
+"Belzig"
+"Bentheim"
+"Bergzabern"
+"Berka"
+"Berleburg"
+"Berneck"
+"Fichtelgebirge"
+"Bevensen"
+"Bibra"
+"Blankenburg"
+"Bramstedt"
+"Breisig"
+"Brückenau"
+"Buchau"
+"Camberg"
+"Colberg-Heldburg"
+"Doberan"
+"Driburg"
+"Düben"
+"Dürkheim"
+"Dürrenberg"
+"Dürrheim"
+"Elster"
+"Ems"
+"Fallingbostel"
+"Frankenhausen"
+"Kyffhäuser"
+"Freienwalde"
+"Friedrichshall"
+"Gandersheim"
+"Gottleuba-Berggießhübel"
+"Griesbach im Rottal"
+"Harzburg"
+"Herrenalb"
+"Hersfeld"
+"Homburg vor der Höhe"
+"Honnef"
+"Hönningen"
+"Iburg"
+"Karlshafen"
+"Kissingen"
+"König"
+"Königshofen im Grabfeld"
+"Köstritz"
+"Kötzting"
+"Kreuznach"
+"Krozingen"
+"Laasphe"
+"Langensalza"
+"Lauchstädt"
+"Lausick"
+"Lauterberg im Harz"
+"Liebenstein"
+"Liebenwerda"
+"Liebenzell"
+"Lippspringe"
+"Lobenstein"
+"Marienberg"
+"Mergentheim"
+"Münder am Deister"
+"Münstereifel"
+"Muskau"
+"Nauheim"
+"Nenndorf"
+"Neuenahr-Ahrweiler"
+"Neustadt an der Saale"
+"Oeynhausen"
+"Oldesloe"
+"Orb"
+"Pyrmont"
+"Rappenau"
+"Reichenhall"
+"Rodach"
+"Sachsa"
+"Säckingen"
+"Salzdetfurth"
+"Salzuflen"
+"Salzungen"
+"Saulgau"
+"Schandau"
+"Schmiedeberg"
+"Schussenried"
+"Schwalbach"
+"Schwartau"
+"Segeberg"
+"Sobernheim"
+"Soden am Taunus"
+"Soden-Salmünster"
+"Sooden-Allendorf"
+"Staffelstein"
+"Sulza"
+"Sülze"
+"Teinach-Zavelstein"
+"Tennstedt"
+"Tölz"
+"Urach"
+"Vilbel"
+"Waldsee"
+"Wildbad"
+"Wildungen"
+"Wilsnack"
+"Wimpfen"
+"Windsheim"
+"Wörishofen"
+"Wünnenberg"
+"Wurzach"
+"Baden"
+"Kaninchen"
+"Hammersmark"
+"Diehl"
+"Hellstrom"
+"Kruger"
+"Zoller"
+"Stiglitz"
+"Schweiger"
+"Wicki"
+"Brühl"
+"Landa"
+"Waltz"
+"Adler"
+"Richter"
+"Kortzfleisch"
+"Galland"
+"Mölders"
+"Rudel"
+"Hermann Graf"
+"Reitsch"
+"Riefenstahl"
+"Raubal"
+"Goebbels"
+"Braun"
+"Dietrich"
+"Skorzeny"
+"Stauffenberg"
+"Dietrich"
+"Rommel"
+"Manstein"
+"Guderian"
+"Jodl"
+"Keitel"
+"Röhm"
+"Heydrich"
+"Hess"
+"Bormann"
+"Schmeling"
+"Lüth"
+"Strachwitz"
+"Gross-Zauche"
+"Gille"
+"Hube"
+"Kesselring"
+"Lent"
+"Dietrich"
+"Model"
+"Hartmann"
+"Balck"
+"Hermann"
+"Bernhard"
+"Ramcke"
+"Schnaufe"
+"Albrecht"
+"Brandi"
+"Ferdinand"
+"Schörner"
+"Manteuffel"
+"Tolsdorff"
+"Mauss"
+"Saucken"
+"Oesau"
+"Günther"
+"Lützow"
+"Kretschmer"
+"Bär"
+"Ihlefeld"
+"Ostermann"
+"Leopold"
+"Steinbatz"
+"Baumbach"
+"Topp"
+"Suhren"
+"Müncheberg"
+"Helbig"
+"Wolf"
+"Dietrich"
+"Wilcke"
+"Druschel"
+"Gorn"
+"Peltz"
+"Rall"
+"Prien"
+"Hoth"
+"Harpe"
+"Waldemar"
+"Gazen"
+"Dieckmann"
+"Kluge"
+"Schwerin"
+"Herrmann"
+"Wittgenstein"
+"Bärenfänger"
+"Breith"
+"Bäke"
+"Griesbach"
+"Wietersheim"
+"Fegelein"
+"Rarancze"
+"Hausser"
+"Knobelsdorff"
+"Maximilian"
+"Edelsheim"
+"Wittmann"
+"Speer"
+"Todt"
+"Reichenbach"
+"Röhm"
+"Reinhard"
+"Heydrich"
+"Meyer"
+"Bouhler"
+"Dietl"
+"Hierl"
+"Schlageter"
+"Jahn"
+"Körner"
+"Güstrow"
+"Kerrl"
+"Massmann"
+"Höss"
+"Aumeier"
+"Baer"
+"Bothmann"
+"Brunner"
+"Büscher"
+"Burger"
+"Liebehenschel"
+"Künstler"
+"List"
+"Loritz"
+"Pister"
+"Reichleitner"
+"Rödl"
+"Schwammberger"
+"Koch"
+"Koegel"
+"Hassebroek"
+"Grünewald"
+"Göcke"
+"Göth"
+"Brandt"
+"Bunke"
+"Entress"
+"Eugen"
+"Fischer"
+"Hellinger"
+"Hennecke"
+"Hoche"
+"Holzlöhner"
+"Hoven"
+"Jobst"
+"König"
+"Krebsbach"
+"Kremer"
+"Linden"
+"Mennecke"
+"Morell"
+"Nitsche"
+"Oberheuser"
+"Rascher"
+"Conrad"
+"Reiter"
+"Renno"
+"Rindfleisch"
+"Ritter"
+"Wolfgang"
+"Romberg"
+"Horst Wessel"
+"Rose"
+"Rostock"
+"Rosenthal"
+"Ruff"
+"Rüdin"
+"Rühl"
+"Sawade"
+"Heyde"
+"Schiedlausky"
+"Schmalenbach"
+"Schmidt"
+"Schneider"
+"Schreiber"
+"Schröder"
+"Schumann"
+"Schütz"
+"Strughold"
+"Thilo"
+"Treite"
+"Trzebinski"
+"Türk"
+"Ullrich"
+"Unger"
+"Hermann"
+"Herrmann"
+"Holm"
+"Værnet"
+"Verschuer"
+"Villinger"
+"Wagner"
+"Wasicky"
+"Weber"
+"Wegener"
+"Weltz"
+"Wentzler"
+"Winkelmann"
+"Wirths"
+"Wischer"
+"Witteler"
+"Wolter"
+"Wortmann"
+"Richter"
+"Stoiber"
+"Kammler"
+"Reichenbach"
+"Braun"
+"Born"
+"Planck"
+"Heisenberg"
+"Humboldt"
+"Helmholtz"
+"Peierls"
+"Kepler"
+"Lilienthal"
+"Koch"
+"Zeiss"
+"Gauss" }
+		wormhole_station = { "Aibling"
+"Arolsen"
+"Belzig"
+"Bentheim"
+"Bergzabern"
+"Berka"
+"Berleburg"
+"Berneck"
+"Fichtelgebirge"
+"Bevensen"
+"Bibra"
+"Blankenburg"
+"Bramstedt"
+"Breisig"
+"Brückenau"
+"Buchau"
+"Camberg"
+"Colberg-Heldburg"
+"Doberan"
+"Driburg"
+"Düben"
+"Dürkheim"
+"Dürrenberg"
+"Dürrheim"
+"Elster"
+"Ems"
+"Fallingbostel"
+"Frankenhausen"
+"Kyffhäuser"
+"Freienwalde"
+"Friedrichshall"
+"Gandersheim"
+"Gottleuba-Berggießhübel"
+"Griesbach im Rottal"
+"Harzburg"
+"Herrenalb"
+"Hersfeld"
+"Homburg vor der Höhe"
+"Honnef"
+"Hönningen"
+"Iburg"
+"Karlshafen"
+"Kissingen"
+"König"
+"Königshofen im Grabfeld"
+"Köstritz"
+"Kötzting"
+"Kreuznach"
+"Krozingen"
+"Laasphe"
+"Langensalza"
+"Lauchstädt"
+"Lausick"
+"Lauterberg im Harz"
+"Liebenstein"
+"Liebenwerda"
+"Liebenzell"
+"Lippspringe"
+"Lobenstein"
+"Marienberg"
+"Mergentheim"
+"Münder am Deister"
+"Münstereifel"
+"Muskau"
+"Nauheim"
+"Nenndorf"
+"Neuenahr-Ahrweiler"
+"Neustadt an der Saale"
+"Oeynhausen"
+"Oldesloe"
+"Orb"
+"Pyrmont"
+"Rappenau"
+"Reichenhall"
+"Rodach"
+"Sachsa"
+"Säckingen"
+"Salzdetfurth"
+"Salzuflen"
+"Salzungen"
+"Saulgau"
+"Schandau"
+"Schmiedeberg"
+"Schussenried"
+"Schwalbach"
+"Schwartau"
+"Segeberg"
+"Sobernheim"
+"Soden am Taunus"
+"Soden-Salmünster"
+"Sooden-Allendorf"
+"Staffelstein"
+"Sulza"
+"Sülze"
+"Teinach-Zavelstein"
+"Tennstedt"
+"Tölz"
+"Urach"
+"Vilbel"
+"Waldsee"
+"Wildbad"
+"Wildungen"
+"Wilsnack"
+"Wimpfen"
+"Windsheim"
+"Wörishofen"
+"Wünnenberg"
+"Wurzach"
+"Baden"
+"Kaninchen"
+"Hammersmark"
+"Diehl"
+"Hellstrom"
+"Kruger"
+"Zoller"
+"Stiglitz"
+"Schweiger"
+"Wicki"
+"Brühl"
+"Landa"
+"Waltz"
+"Adler"
+"Richter"
+"Kortzfleisch"
+"Galland"
+"Mölders"
+"Rudel"
+"Hermann Graf"
+"Reitsch"
+"Riefenstahl"
+"Raubal"
+"Goebbels"
+"Braun"
+"Dietrich"
+"Skorzeny"
+"Stauffenberg"
+"Dietrich"
+"Rommel"
+"Manstein"
+"Guderian"
+"Jodl"
+"Keitel"
+"Röhm"
+"Heydrich"
+"Hess"
+"Bormann"
+"Schmeling"
+"Lüth"
+"Strachwitz"
+"Gross-Zauche"
+"Gille"
+"Hube"
+"Kesselring"
+"Lent"
+"Dietrich"
+"Model"
+"Hartmann"
+"Balck"
+"Hermann"
+"Bernhard"
+"Ramcke"
+"Schnaufe"
+"Albrecht"
+"Brandi"
+"Ferdinand"
+"Schörner"
+"Manteuffel"
+"Tolsdorff"
+"Mauss"
+"Saucken"
+"Oesau"
+"Günther"
+"Lützow"
+"Kretschmer"
+"Bär"
+"Ihlefeld"
+"Ostermann"
+"Leopold"
+"Steinbatz"
+"Baumbach"
+"Topp"
+"Suhren"
+"Müncheberg"
+"Helbig"
+"Wolf"
+"Dietrich"
+"Wilcke"
+"Druschel"
+"Gorn"
+"Peltz"
+"Rall"
+"Prien"
+"Hoth"
+"Harpe"
+"Waldemar"
+"Gazen"
+"Dieckmann"
+"Kluge"
+"Schwerin"
+"Herrmann"
+"Wittgenstein"
+"Bärenfänger"
+"Breith"
+"Bäke"
+"Griesbach"
+"Wietersheim"
+"Fegelein"
+"Rarancze"
+"Hausser"
+"Knobelsdorff"
+"Maximilian"
+"Edelsheim"
+"Wittmann"
+"Speer"
+"Todt"
+"Reichenbach"
+"Röhm"
+"Reinhard"
+"Heydrich"
+"Meyer"
+"Bouhler"
+"Dietl"
+"Hierl"
+"Schlageter"
+"Jahn"
+"Körner"
+"Güstrow"
+"Kerrl"
+"Massmann"
+"Höss"
+"Aumeier"
+"Baer"
+"Bothmann"
+"Brunner"
+"Büscher"
+"Burger"
+"Liebehenschel"
+"Künstler"
+"List"
+"Loritz"
+"Pister"
+"Reichleitner"
+"Rödl"
+"Schwammberger"
+"Koch"
+"Koegel"
+"Hassebroek"
+"Grünewald"
+"Göcke"
+"Göth"
+"Brandt"
+"Bunke"
+"Entress"
+"Eugen"
+"Fischer"
+"Hellinger"
+"Hennecke"
+"Hoche"
+"Holzlöhner"
+"Hoven"
+"Jobst"
+"König"
+"Krebsbach"
+"Kremer"
+"Linden"
+"Mennecke"
+"Morell"
+"Nitsche"
+"Oberheuser"
+"Rascher"
+"Conrad"
+"Reiter"
+"Renno"
+"Rindfleisch"
+"Ritter"
+"Wolfgang"
+"Romberg"
+"Horst Wessel"
+"Rose"
+"Rostock"
+"Rosenthal"
+"Ruff"
+"Rüdin"
+"Rühl"
+"Sawade"
+"Heyde"
+"Schiedlausky"
+"Schmalenbach"
+"Schmidt"
+"Schneider"
+"Schreiber"
+"Schröder"
+"Schumann"
+"Schütz"
+"Strughold"
+"Thilo"
+"Treite"
+"Trzebinski"
+"Türk"
+"Ullrich"
+"Unger"
+"Hermann"
+"Herrmann"
+"Holm"
+"Værnet"
+"Verschuer"
+"Villinger"
+"Wagner"
+"Wasicky"
+"Weber"
+"Wegener"
+"Weltz"
+"Wentzler"
+"Winkelmann"
+"Wirths"
+"Wischer"
+"Witteler"
+"Wolter"
+"Wortmann"
+"Richter"
+"Stoiber"
+"Kammler"
+"Reichenbach"
+"Braun"
+"Born"
+"Planck"
+"Heisenberg"
+"Humboldt"
+"Helmholtz"
+"Peierls"
+"Kepler"
+"Lilienthal"
+"Koch"
+"Zeiss"
+"Gauss" }
+
+		observation_station = { "Aibling"
+"Arolsen"
+"Belzig"
+"Bentheim"
+"Bergzabern"
+"Berka"
+"Berleburg"
+"Berneck"
+"Fichtelgebirge"
+"Bevensen"
+"Bibra"
+"Blankenburg"
+"Bramstedt"
+"Breisig"
+"Brückenau"
+"Buchau"
+"Camberg"
+"Colberg-Heldburg"
+"Doberan"
+"Driburg"
+"Düben"
+"Dürkheim"
+"Dürrenberg"
+"Dürrheim"
+"Elster"
+"Ems"
+"Fallingbostel"
+"Frankenhausen"
+"Kyffhäuser"
+"Freienwalde"
+"Friedrichshall"
+"Gandersheim"
+"Gottleuba-Berggießhübel"
+"Griesbach im Rottal"
+"Harzburg"
+"Herrenalb"
+"Hersfeld"
+"Homburg vor der Höhe"
+"Honnef"
+"Hönningen"
+"Iburg"
+"Karlshafen"
+"Kissingen"
+"König"
+"Königshofen im Grabfeld"
+"Köstritz"
+"Kötzting"
+"Kreuznach"
+"Krozingen"
+"Laasphe"
+"Langensalza"
+"Lauchstädt"
+"Lausick"
+"Lauterberg im Harz"
+"Liebenstein"
+"Liebenwerda"
+"Liebenzell"
+"Lippspringe"
+"Lobenstein"
+"Marienberg"
+"Mergentheim"
+"Münder am Deister"
+"Münstereifel"
+"Muskau"
+"Nauheim"
+"Nenndorf"
+"Neuenahr-Ahrweiler"
+"Neustadt an der Saale"
+"Oeynhausen"
+"Oldesloe"
+"Orb"
+"Pyrmont"
+"Rappenau"
+"Reichenhall"
+"Rodach"
+"Sachsa"
+"Säckingen"
+"Salzdetfurth"
+"Salzuflen"
+"Salzungen"
+"Saulgau"
+"Schandau"
+"Schmiedeberg"
+"Schussenried"
+"Schwalbach"
+"Schwartau"
+"Segeberg"
+"Sobernheim"
+"Soden am Taunus"
+"Soden-Salmünster"
+"Sooden-Allendorf"
+"Staffelstein"
+"Sulza"
+"Sülze"
+"Teinach-Zavelstein"
+"Tennstedt"
+"Tölz"
+"Urach"
+"Vilbel"
+"Waldsee"
+"Wildbad"
+"Wildungen"
+"Wilsnack"
+"Wimpfen"
+"Windsheim"
+"Wörishofen"
+"Wünnenberg"
+"Wurzach"
+"Baden"
+"Kaninchen"
+"Hammersmark"
+"Diehl"
+"Hellstrom"
+"Kruger"
+"Zoller"
+"Stiglitz"
+"Schweiger"
+"Wicki"
+"Brühl"
+"Landa"
+"Waltz"
+"Adler"
+"Richter"
+"Kortzfleisch"
+"Galland"
+"Mölders"
+"Rudel"
+"Hermann Graf"
+"Reitsch"
+"Riefenstahl"
+"Raubal"
+"Goebbels"
+"Braun"
+"Dietrich"
+"Skorzeny"
+"Stauffenberg"
+"Dietrich"
+"Rommel"
+"Manstein"
+"Guderian"
+"Jodl"
+"Keitel"
+"Röhm"
+"Heydrich"
+"Hess"
+"Bormann"
+"Schmeling"
+"Lüth"
+"Strachwitz"
+"Gross-Zauche"
+"Gille"
+"Hube"
+"Kesselring"
+"Lent"
+"Dietrich"
+"Model"
+"Hartmann"
+"Balck"
+"Hermann"
+"Bernhard"
+"Ramcke"
+"Schnaufe"
+"Albrecht"
+"Brandi"
+"Ferdinand"
+"Schörner"
+"Manteuffel"
+"Tolsdorff"
+"Mauss"
+"Saucken"
+"Oesau"
+"Günther"
+"Lützow"
+"Kretschmer"
+"Bär"
+"Ihlefeld"
+"Ostermann"
+"Leopold"
+"Steinbatz"
+"Baumbach"
+"Topp"
+"Suhren"
+"Müncheberg"
+"Helbig"
+"Wolf"
+"Dietrich"
+"Wilcke"
+"Druschel"
+"Gorn"
+"Peltz"
+"Rall"
+"Prien"
+"Hoth"
+"Harpe"
+"Waldemar"
+"Gazen"
+"Dieckmann"
+"Kluge"
+"Schwerin"
+"Herrmann"
+"Wittgenstein"
+"Bärenfänger"
+"Breith"
+"Bäke"
+"Griesbach"
+"Wietersheim"
+"Fegelein"
+"Rarancze"
+"Hausser"
+"Knobelsdorff"
+"Maximilian"
+"Edelsheim"
+"Wittmann"
+"Speer"
+"Todt"
+"Reichenbach"
+"Röhm"
+"Reinhard"
+"Heydrich"
+"Meyer"
+"Bouhler"
+"Dietl"
+"Hierl"
+"Schlageter"
+"Jahn"
+"Körner"
+"Güstrow"
+"Kerrl"
+"Massmann"
+"Höss"
+"Aumeier"
+"Baer"
+"Bothmann"
+"Brunner"
+"Büscher"
+"Burger"
+"Liebehenschel"
+"Künstler"
+"List"
+"Loritz"
+"Pister"
+"Reichleitner"
+"Rödl"
+"Schwammberger"
+"Koch"
+"Koegel"
+"Hassebroek"
+"Grünewald"
+"Göcke"
+"Göth"
+"Brandt"
+"Bunke"
+"Entress"
+"Eugen"
+"Fischer"
+"Hellinger"
+"Hennecke"
+"Hoche"
+"Holzlöhner"
+"Hoven"
+"Jobst"
+"König"
+"Krebsbach"
+"Kremer"
+"Linden"
+"Mennecke"
+"Morell"
+"Nitsche"
+"Oberheuser"
+"Rascher"
+"Conrad"
+"Reiter"
+"Renno"
+"Rindfleisch"
+"Ritter"
+"Wolfgang"
+"Romberg"
+"Horst Wessel"
+"Rose"
+"Rostock"
+"Rosenthal"
+"Ruff"
+"Rüdin"
+"Rühl"
+"Sawade"
+"Heyde"
+"Schiedlausky"
+"Schmalenbach"
+"Schmidt"
+"Schneider"
+"Schreiber"
+"Schröder"
+"Schumann"
+"Schütz"
+"Strughold"
+"Thilo"
+"Treite"
+"Trzebinski"
+"Türk"
+"Ullrich"
+"Unger"
+"Hermann"
+"Herrmann"
+"Holm"
+"Værnet"
+"Verschuer"
+"Villinger"
+"Wagner"
+"Wasicky"
+"Weber"
+"Wegener"
+"Weltz"
+"Wentzler"
+"Winkelmann"
+"Wirths"
+"Wischer"
+"Witteler"
+"Wolter"
+"Wortmann"
+"Richter"
+"Stoiber"
+"Kammler"
+"Reichenbach"
+"Braun"
+"Born"
+"Planck"
+"Heisenberg"
+"Humboldt"
+"Helmholtz"
+"Peierls"
+"Kepler"
+"Lilienthal"
+"Koch"
+"Zeiss"
+"Gauss" }
+		outpost_station = { "Aibling"
+"Arolsen"
+"Belzig"
+"Bentheim"
+"Bergzabern"
+"Berka"
+"Berleburg"
+"Berneck"
+"Fichtelgebirge"
+"Bevensen"
+"Bibra"
+"Blankenburg"
+"Bramstedt"
+"Breisig"
+"Brückenau"
+"Buchau"
+"Camberg"
+"Colberg-Heldburg"
+"Doberan"
+"Driburg"
+"Düben"
+"Dürkheim"
+"Dürrenberg"
+"Dürrheim"
+"Elster"
+"Ems"
+"Fallingbostel"
+"Frankenhausen"
+"Kyffhäuser"
+"Freienwalde"
+"Friedrichshall"
+"Gandersheim"
+"Gottleuba-Berggießhübel"
+"Griesbach im Rottal"
+"Harzburg"
+"Herrenalb"
+"Hersfeld"
+"Homburg vor der Höhe"
+"Honnef"
+"Hönningen"
+"Iburg"
+"Karlshafen"
+"Kissingen"
+"König"
+"Königshofen im Grabfeld"
+"Köstritz"
+"Kötzting"
+"Kreuznach"
+"Krozingen"
+"Laasphe"
+"Langensalza"
+"Lauchstädt"
+"Lausick"
+"Lauterberg im Harz"
+"Liebenstein"
+"Liebenwerda"
+"Liebenzell"
+"Lippspringe"
+"Lobenstein"
+"Marienberg"
+"Mergentheim"
+"Münder am Deister"
+"Münstereifel"
+"Muskau"
+"Nauheim"
+"Nenndorf"
+"Neuenahr-Ahrweiler"
+"Neustadt an der Saale"
+"Oeynhausen"
+"Oldesloe"
+"Orb"
+"Pyrmont"
+"Rappenau"
+"Reichenhall"
+"Rodach"
+"Sachsa"
+"Säckingen"
+"Salzdetfurth"
+"Salzuflen"
+"Salzungen"
+"Saulgau"
+"Schandau"
+"Schmiedeberg"
+"Schussenried"
+"Schwalbach"
+"Schwartau"
+"Segeberg"
+"Sobernheim"
+"Soden am Taunus"
+"Soden-Salmünster"
+"Sooden-Allendorf"
+"Staffelstein"
+"Sulza"
+"Sülze"
+"Teinach-Zavelstein"
+"Tennstedt"
+"Tölz"
+"Urach"
+"Vilbel"
+"Waldsee"
+"Wildbad"
+"Wildungen"
+"Wilsnack"
+"Wimpfen"
+"Windsheim"
+"Wörishofen"
+"Wünnenberg"
+"Wurzach"
+"Baden"
+"Kaninchen"
+"Hammersmark"
+"Diehl"
+"Hellstrom"
+"Kruger"
+"Zoller"
+"Stiglitz"
+"Schweiger"
+"Wicki"
+"Brühl"
+"Landa"
+"Waltz"
+"Adler"
+"Richter"
+"Kortzfleisch"
+"Galland"
+"Mölders"
+"Rudel"
+"Hermann Graf"
+"Reitsch"
+"Riefenstahl"
+"Raubal"
+"Goebbels"
+"Braun"
+"Dietrich"
+"Skorzeny"
+"Stauffenberg"
+"Dietrich"
+"Rommel"
+"Manstein"
+"Guderian"
+"Jodl"
+"Keitel"
+"Röhm"
+"Heydrich"
+"Hess"
+"Bormann"
+"Schmeling"
+"Lüth"
+"Strachwitz"
+"Gross-Zauche"
+"Gille"
+"Hube"
+"Kesselring"
+"Lent"
+"Dietrich"
+"Model"
+"Hartmann"
+"Balck"
+"Hermann"
+"Bernhard"
+"Ramcke"
+"Schnaufe"
+"Albrecht"
+"Brandi"
+"Ferdinand"
+"Schörner"
+"Manteuffel"
+"Tolsdorff"
+"Mauss"
+"Saucken"
+"Oesau"
+"Günther"
+"Lützow"
+"Kretschmer"
+"Bär"
+"Ihlefeld"
+"Ostermann"
+"Leopold"
+"Steinbatz"
+"Baumbach"
+"Topp"
+"Suhren"
+"Müncheberg"
+"Helbig"
+"Wolf"
+"Dietrich"
+"Wilcke"
+"Druschel"
+"Gorn"
+"Peltz"
+"Rall"
+"Prien"
+"Hoth"
+"Harpe"
+"Waldemar"
+"Gazen"
+"Dieckmann"
+"Kluge"
+"Schwerin"
+"Herrmann"
+"Wittgenstein"
+"Bärenfänger"
+"Breith"
+"Bäke"
+"Griesbach"
+"Wietersheim"
+"Fegelein"
+"Rarancze"
+"Hausser"
+"Knobelsdorff"
+"Maximilian"
+"Edelsheim"
+"Wittmann"
+"Speer"
+"Todt"
+"Reichenbach"
+"Röhm"
+"Reinhard"
+"Heydrich"
+"Meyer"
+"Bouhler"
+"Dietl"
+"Hierl"
+"Schlageter"
+"Jahn"
+"Körner"
+"Güstrow"
+"Kerrl"
+"Massmann"
+"Höss"
+"Aumeier"
+"Baer"
+"Bothmann"
+"Brunner"
+"Büscher"
+"Burger"
+"Liebehenschel"
+"Künstler"
+"List"
+"Loritz"
+"Pister"
+"Reichleitner"
+"Rödl"
+"Schwammberger"
+"Koch"
+"Koegel"
+"Hassebroek"
+"Grünewald"
+"Göcke"
+"Göth"
+"Brandt"
+"Bunke"
+"Entress"
+"Eugen"
+"Fischer"
+"Hellinger"
+"Hennecke"
+"Hoche"
+"Holzlöhner"
+"Hoven"
+"Jobst"
+"König"
+"Krebsbach"
+"Kremer"
+"Linden"
+"Mennecke"
+"Morell"
+"Nitsche"
+"Oberheuser"
+"Rascher"
+"Conrad"
+"Reiter"
+"Renno"
+"Rindfleisch"
+"Ritter"
+"Wolfgang"
+"Romberg"
+"Horst Wessel"
+"Rose"
+"Rostock"
+"Rosenthal"
+"Ruff"
+"Rüdin"
+"Rühl"
+"Sawade"
+"Heyde"
+"Schiedlausky"
+"Schmalenbach"
+"Schmidt"
+"Schneider"
+"Schreiber"
+"Schröder"
+"Schumann"
+"Schütz"
+"Strughold"
+"Thilo"
+"Treite"
+"Trzebinski"
+"Türk"
+"Ullrich"
+"Unger"
+"Hermann"
+"Herrmann"
+"Holm"
+"Værnet"
+"Verschuer"
+"Villinger"
+"Wagner"
+"Wasicky"
+"Weber"
+"Wegener"
+"Weltz"
+"Wentzler"
+"Winkelmann"
+"Wirths"
+"Wischer"
+"Witteler"
+"Wolter"
+"Wortmann"
+"Richter"
+"Stoiber"
+"Kammler"
+"Reichenbach"
+"Braun"
+"Born"
+"Planck"
+"Heisenberg"
+"Humboldt"
+"Helmholtz"
+"Peierls"
+"Kepler"
+"Lilienthal"
+"Koch"
+"Zeiss"
+"Gauss" }
+
+		transport = { "Aibling"
+"Arolsen"
+"Belzig"
+"Bentheim"
+"Bergzabern"
+"Berka"
+"Berleburg"
+"Berneck"
+"Fichtelgebirge"
+"Bevensen"
+"Bibra"
+"Blankenburg"
+"Bramstedt"
+"Breisig"
+"Brückenau"
+"Buchau"
+"Camberg"
+"Colberg-Heldburg"
+"Doberan"
+"Driburg"
+"Düben"
+"Dürkheim"
+"Dürrenberg"
+"Dürrheim"
+"Elster"
+"Ems"
+"Fallingbostel"
+"Frankenhausen"
+"Kyffhäuser"
+"Freienwalde"
+"Friedrichshall"
+"Gandersheim"
+"Gottleuba-Berggießhübel"
+"Griesbach im Rottal"
+"Harzburg"
+"Herrenalb"
+"Hersfeld"
+"Homburg vor der Höhe"
+"Honnef"
+"Hönningen"
+"Iburg"
+"Karlshafen"
+"Kissingen"
+"König"
+"Königshofen im Grabfeld"
+"Köstritz"
+"Kötzting"
+"Kreuznach"
+"Krozingen"
+"Laasphe"
+"Langensalza"
+"Lauchstädt"
+"Lausick"
+"Lauterberg im Harz"
+"Liebenstein"
+"Liebenwerda"
+"Liebenzell"
+"Lippspringe"
+"Lobenstein"
+"Marienberg"
+"Mergentheim"
+"Münder am Deister"
+"Münstereifel"
+"Muskau"
+"Nauheim"
+"Nenndorf"
+"Neuenahr-Ahrweiler"
+"Neustadt an der Saale"
+"Oeynhausen"
+"Oldesloe"
+"Orb"
+"Pyrmont"
+"Rappenau"
+"Reichenhall"
+"Rodach"
+"Sachsa"
+"Säckingen"
+"Salzdetfurth"
+"Salzuflen"
+"Salzungen"
+"Saulgau"
+"Schandau"
+"Schmiedeberg"
+"Schussenried"
+"Schwalbach"
+"Schwartau"
+"Segeberg"
+"Sobernheim"
+"Soden am Taunus"
+"Soden-Salmünster"
+"Sooden-Allendorf"
+"Staffelstein"
+"Sulza"
+"Sülze"
+"Teinach-Zavelstein"
+"Tennstedt"
+"Tölz"
+"Urach"
+"Vilbel"
+"Waldsee"
+"Wildbad"
+"Wildungen"
+"Wilsnack"
+"Wimpfen"
+"Windsheim"
+"Wörishofen"
+"Wünnenberg"
+"Wurzach"
+"Baden"
+"Kaninchen"
+"Hammersmark"
+"Diehl"
+"Hellstrom"
+"Kruger"
+"Zoller"
+"Stiglitz"
+"Schweiger"
+"Wicki"
+"Brühl"
+"Landa"
+"Waltz"
+"Adler"
+"Richter"
+"Kortzfleisch"
+"Galland"
+"Mölders"
+"Rudel"
+"Hermann Graf"
+"Reitsch"
+"Riefenstahl"
+"Raubal"
+"Goebbels"
+"Braun"
+"Dietrich"
+"Skorzeny"
+"Stauffenberg"
+"Dietrich"
+"Rommel"
+"Manstein"
+"Guderian"
+"Jodl"
+"Keitel"
+"Röhm"
+"Heydrich"
+"Hess"
+"Bormann"
+"Schmeling"
+"Lüth"
+"Strachwitz"
+"Gross-Zauche"
+"Gille"
+"Hube"
+"Kesselring"
+"Lent"
+"Dietrich"
+"Model"
+"Hartmann"
+"Balck"
+"Hermann"
+"Bernhard"
+"Ramcke"
+"Schnaufe"
+"Albrecht"
+"Brandi"
+"Ferdinand"
+"Schörner"
+"Manteuffel"
+"Tolsdorff"
+"Mauss"
+"Saucken"
+"Oesau"
+"Günther"
+"Lützow"
+"Kretschmer"
+"Bär"
+"Ihlefeld"
+"Ostermann"
+"Leopold"
+"Steinbatz"
+"Baumbach"
+"Topp"
+"Suhren"
+"Müncheberg"
+"Helbig"
+"Wolf"
+"Dietrich"
+"Wilcke"
+"Druschel"
+"Gorn"
+"Peltz"
+"Rall"
+"Prien"
+"Hoth"
+"Harpe"
+"Waldemar"
+"Gazen"
+"Dieckmann"
+"Kluge"
+"Schwerin"
+"Herrmann"
+"Wittgenstein"
+"Bärenfänger"
+"Breith"
+"Bäke"
+"Griesbach"
+"Wietersheim"
+"Fegelein"
+"Rarancze"
+"Hausser"
+"Knobelsdorff"
+"Maximilian"
+"Edelsheim"
+"Wittmann"
+"Speer"
+"Todt"
+"Reichenbach"
+"Röhm"
+"Reinhard"
+"Heydrich"
+"Meyer"
+"Bouhler"
+"Dietl"
+"Hierl"
+"Schlageter"
+"Jahn"
+"Körner"
+"Güstrow"
+"Kerrl"
+"Massmann"
+"Höss"
+"Aumeier"
+"Baer"
+"Bothmann"
+"Brunner"
+"Büscher"
+"Burger"
+"Liebehenschel"
+"Künstler"
+"List"
+"Loritz"
+"Pister"
+"Reichleitner"
+"Rödl"
+"Schwammberger"
+"Koch"
+"Koegel"
+"Hassebroek"
+"Grünewald"
+"Göcke"
+"Göth"
+"Brandt"
+"Bunke"
+"Entress"
+"Eugen"
+"Fischer"
+"Hellinger"
+"Hennecke"
+"Hoche"
+"Holzlöhner"
+"Hoven"
+"Jobst"
+"König"
+"Krebsbach"
+"Kremer"
+"Linden"
+"Mennecke"
+"Morell"
+"Nitsche"
+"Oberheuser"
+"Rascher"
+"Conrad"
+"Reiter"
+"Renno"
+"Rindfleisch"
+"Ritter"
+"Wolfgang"
+"Romberg"
+"Horst Wessel"
+"Rose"
+"Rostock"
+"Rosenthal"
+"Ruff"
+"Rüdin"
+"Rühl"
+"Sawade"
+"Heyde"
+"Schiedlausky"
+"Schmalenbach"
+"Schmidt"
+"Schneider"
+"Schreiber"
+"Schröder"
+"Schumann"
+"Schütz"
+"Strughold"
+"Thilo"
+"Treite"
+"Trzebinski"
+"Türk"
+"Ullrich"
+"Unger"
+"Hermann"
+"Herrmann"
+"Holm"
+"Værnet"
+"Verschuer"
+"Villinger"
+"Wagner"
+"Wasicky"
+"Weber"
+"Wegener"
+"Weltz"
+"Wentzler"
+"Winkelmann"
+"Wirths"
+"Wischer"
+"Witteler"
+"Wolter"
+"Wortmann"
+"Richter"
+"Stoiber"
+"Kammler"
+"Reichenbach"
+"Braun"
+"Born"
+"Planck"
+"Heisenberg"
+"Humboldt"
+"Helmholtz"
+"Peierls"
+"Kepler"
+"Lilienthal"
+"Koch"
+"Zeiss"
+"Gauss" }
+	
+		military_station_small = { "Aibling"
+"Arolsen"
+"Belzig"
+"Bentheim"
+"Bergzabern"
+"Berka"
+"Berleburg"
+"Berneck"
+"Fichtelgebirge"
+"Bevensen"
+"Bibra"
+"Blankenburg"
+"Bramstedt"
+"Breisig"
+"Brückenau"
+"Buchau"
+"Camberg"
+"Colberg-Heldburg"
+"Doberan"
+"Driburg"
+"Düben"
+"Dürkheim"
+"Dürrenberg"
+"Dürrheim"
+"Elster"
+"Ems"
+"Fallingbostel"
+"Frankenhausen"
+"Kyffhäuser"
+"Freienwalde"
+"Friedrichshall"
+"Gandersheim"
+"Gottleuba-Berggießhübel"
+"Griesbach im Rottal"
+"Harzburg"
+"Herrenalb"
+"Hersfeld"
+"Homburg vor der Höhe"
+"Honnef"
+"Hönningen"
+"Iburg"
+"Karlshafen"
+"Kissingen"
+"König"
+"Königshofen im Grabfeld"
+"Köstritz"
+"Kötzting"
+"Kreuznach"
+"Krozingen"
+"Laasphe"
+"Langensalza"
+"Lauchstädt"
+"Lausick"
+"Lauterberg im Harz"
+"Liebenstein"
+"Liebenwerda"
+"Liebenzell"
+"Lippspringe"
+"Lobenstein"
+"Marienberg"
+"Mergentheim"
+"Münder am Deister"
+"Münstereifel"
+"Muskau"
+"Nauheim"
+"Nenndorf"
+"Neuenahr-Ahrweiler"
+"Neustadt an der Saale"
+"Oeynhausen"
+"Oldesloe"
+"Orb"
+"Pyrmont"
+"Rappenau"
+"Reichenhall"
+"Rodach"
+"Sachsa"
+"Säckingen"
+"Salzdetfurth"
+"Salzuflen"
+"Salzungen"
+"Saulgau"
+"Schandau"
+"Schmiedeberg"
+"Schussenried"
+"Schwalbach"
+"Schwartau"
+"Segeberg"
+"Sobernheim"
+"Soden am Taunus"
+"Soden-Salmünster"
+"Sooden-Allendorf"
+"Staffelstein"
+"Sulza"
+"Sülze"
+"Teinach-Zavelstein"
+"Tennstedt"
+"Tölz"
+"Urach"
+"Vilbel"
+"Waldsee"
+"Wildbad"
+"Wildungen"
+"Wilsnack"
+"Wimpfen"
+"Windsheim"
+"Wörishofen"
+"Wünnenberg"
+"Wurzach"
+"Baden"
+"Kaninchen"
+"Hammersmark"
+"Diehl"
+"Hellstrom"
+"Kruger"
+"Zoller"
+"Stiglitz"
+"Schweiger"
+"Wicki"
+"Brühl"
+"Landa"
+"Waltz"
+"Adler"
+"Richter"
+"Kortzfleisch"
+"Galland"
+"Mölders"
+"Rudel"
+"Hermann Graf"
+"Reitsch"
+"Riefenstahl"
+"Raubal"
+"Goebbels"
+"Braun"
+"Dietrich"
+"Skorzeny"
+"Stauffenberg"
+"Dietrich"
+"Rommel"
+"Manstein"
+"Guderian"
+"Jodl"
+"Keitel"
+"Röhm"
+"Heydrich"
+"Hess"
+"Bormann"
+"Schmeling"
+"Lüth"
+"Strachwitz"
+"Gross-Zauche"
+"Gille"
+"Hube"
+"Kesselring"
+"Lent"
+"Dietrich"
+"Model"
+"Hartmann"
+"Balck"
+"Hermann"
+"Bernhard"
+"Ramcke"
+"Schnaufe"
+"Albrecht"
+"Brandi"
+"Ferdinand"
+"Schörner"
+"Manteuffel"
+"Tolsdorff"
+"Mauss"
+"Saucken"
+"Oesau"
+"Günther"
+"Lützow"
+"Kretschmer"
+"Bär"
+"Ihlefeld"
+"Ostermann"
+"Leopold"
+"Steinbatz"
+"Baumbach"
+"Topp"
+"Suhren"
+"Müncheberg"
+"Helbig"
+"Wolf"
+"Dietrich"
+"Wilcke"
+"Druschel"
+"Gorn"
+"Peltz"
+"Rall"
+"Prien"
+"Hoth"
+"Harpe"
+"Waldemar"
+"Gazen"
+"Dieckmann"
+"Kluge"
+"Schwerin"
+"Herrmann"
+"Wittgenstein"
+"Bärenfänger"
+"Breith"
+"Bäke"
+"Griesbach"
+"Wietersheim"
+"Fegelein"
+"Rarancze"
+"Hausser"
+"Knobelsdorff"
+"Maximilian"
+"Edelsheim"
+"Wittmann"
+"Speer"
+"Todt"
+"Reichenbach"
+"Röhm"
+"Reinhard"
+"Heydrich"
+"Meyer"
+"Bouhler"
+"Dietl"
+"Hierl"
+"Schlageter"
+"Jahn"
+"Körner"
+"Güstrow"
+"Kerrl"
+"Massmann"
+"Höss"
+"Aumeier"
+"Baer"
+"Bothmann"
+"Brunner"
+"Büscher"
+"Burger"
+"Liebehenschel"
+"Künstler"
+"List"
+"Loritz"
+"Pister"
+"Reichleitner"
+"Rödl"
+"Schwammberger"
+"Koch"
+"Koegel"
+"Hassebroek"
+"Grünewald"
+"Göcke"
+"Göth"
+"Brandt"
+"Bunke"
+"Entress"
+"Eugen"
+"Fischer"
+"Hellinger"
+"Hennecke"
+"Hoche"
+"Holzlöhner"
+"Hoven"
+"Jobst"
+"König"
+"Krebsbach"
+"Kremer"
+"Linden"
+"Mennecke"
+"Morell"
+"Nitsche"
+"Oberheuser"
+"Rascher"
+"Conrad"
+"Reiter"
+"Renno"
+"Rindfleisch"
+"Ritter"
+"Wolfgang"
+"Romberg"
+"Horst Wessel"
+"Rose"
+"Rostock"
+"Rosenthal"
+"Ruff"
+"Rüdin"
+"Rühl"
+"Sawade"
+"Heyde"
+"Schiedlausky"
+"Schmalenbach"
+"Schmidt"
+"Schneider"
+"Schreiber"
+"Schröder"
+"Schumann"
+"Schütz"
+"Strughold"
+"Thilo"
+"Treite"
+"Trzebinski"
+"Türk"
+"Ullrich"
+"Unger"
+"Hermann"
+"Herrmann"
+"Holm"
+"Værnet"
+"Verschuer"
+"Villinger"
+"Wagner"
+"Wasicky"
+"Weber"
+"Wegener"
+"Weltz"
+"Wentzler"
+"Winkelmann"
+"Wirths"
+"Wischer"
+"Witteler"
+"Wolter"
+"Wortmann"
+"Richter"
+"Stoiber"
+"Kammler"
+"Reichenbach"
+"Braun"
+"Born"
+"Planck"
+"Heisenberg"
+"Humboldt"
+"Helmholtz"
+"Peierls"
+"Kepler"
+"Lilienthal"
+"Koch"
+"Zeiss"
+"Gauss" }
+	
+		military_station_medium = { "Aibling"
+"Arolsen"
+"Belzig"
+"Bentheim"
+"Bergzabern"
+"Berka"
+"Berleburg"
+"Berneck"
+"Fichtelgebirge"
+"Bevensen"
+"Bibra"
+"Blankenburg"
+"Bramstedt"
+"Breisig"
+"Brückenau"
+"Buchau"
+"Camberg"
+"Colberg-Heldburg"
+"Doberan"
+"Driburg"
+"Düben"
+"Dürkheim"
+"Dürrenberg"
+"Dürrheim"
+"Elster"
+"Ems"
+"Fallingbostel"
+"Frankenhausen"
+"Kyffhäuser"
+"Freienwalde"
+"Friedrichshall"
+"Gandersheim"
+"Gottleuba-Berggießhübel"
+"Griesbach im Rottal"
+"Harzburg"
+"Herrenalb"
+"Hersfeld"
+"Homburg vor der Höhe"
+"Honnef"
+"Hönningen"
+"Iburg"
+"Karlshafen"
+"Kissingen"
+"König"
+"Königshofen im Grabfeld"
+"Köstritz"
+"Kötzting"
+"Kreuznach"
+"Krozingen"
+"Laasphe"
+"Langensalza"
+"Lauchstädt"
+"Lausick"
+"Lauterberg im Harz"
+"Liebenstein"
+"Liebenwerda"
+"Liebenzell"
+"Lippspringe"
+"Lobenstein"
+"Marienberg"
+"Mergentheim"
+"Münder am Deister"
+"Münstereifel"
+"Muskau"
+"Nauheim"
+"Nenndorf"
+"Neuenahr-Ahrweiler"
+"Neustadt an der Saale"
+"Oeynhausen"
+"Oldesloe"
+"Orb"
+"Pyrmont"
+"Rappenau"
+"Reichenhall"
+"Rodach"
+"Sachsa"
+"Säckingen"
+"Salzdetfurth"
+"Salzuflen"
+"Salzungen"
+"Saulgau"
+"Schandau"
+"Schmiedeberg"
+"Schussenried"
+"Schwalbach"
+"Schwartau"
+"Segeberg"
+"Sobernheim"
+"Soden am Taunus"
+"Soden-Salmünster"
+"Sooden-Allendorf"
+"Staffelstein"
+"Sulza"
+"Sülze"
+"Teinach-Zavelstein"
+"Tennstedt"
+"Tölz"
+"Urach"
+"Vilbel"
+"Waldsee"
+"Wildbad"
+"Wildungen"
+"Wilsnack"
+"Wimpfen"
+"Windsheim"
+"Wörishofen"
+"Wünnenberg"
+"Wurzach"
+"Baden"
+"Kaninchen"
+"Hammersmark"
+"Diehl"
+"Hellstrom"
+"Kruger"
+"Zoller"
+"Stiglitz"
+"Schweiger"
+"Wicki"
+"Brühl"
+"Landa"
+"Waltz"
+"Adler"
+"Richter"
+"Kortzfleisch"
+"Galland"
+"Mölders"
+"Rudel"
+"Hermann Graf"
+"Reitsch"
+"Riefenstahl"
+"Raubal"
+"Goebbels"
+"Braun"
+"Dietrich"
+"Skorzeny"
+"Stauffenberg"
+"Dietrich"
+"Rommel"
+"Manstein"
+"Guderian"
+"Jodl"
+"Keitel"
+"Röhm"
+"Heydrich"
+"Hess"
+"Bormann"
+"Schmeling"
+"Lüth"
+"Strachwitz"
+"Gross-Zauche"
+"Gille"
+"Hube"
+"Kesselring"
+"Lent"
+"Dietrich"
+"Model"
+"Hartmann"
+"Balck"
+"Hermann"
+"Bernhard"
+"Ramcke"
+"Schnaufe"
+"Albrecht"
+"Brandi"
+"Ferdinand"
+"Schörner"
+"Manteuffel"
+"Tolsdorff"
+"Mauss"
+"Saucken"
+"Oesau"
+"Günther"
+"Lützow"
+"Kretschmer"
+"Bär"
+"Ihlefeld"
+"Ostermann"
+"Leopold"
+"Steinbatz"
+"Baumbach"
+"Topp"
+"Suhren"
+"Müncheberg"
+"Helbig"
+"Wolf"
+"Dietrich"
+"Wilcke"
+"Druschel"
+"Gorn"
+"Peltz"
+"Rall"
+"Prien"
+"Hoth"
+"Harpe"
+"Waldemar"
+"Gazen"
+"Dieckmann"
+"Kluge"
+"Schwerin"
+"Herrmann"
+"Wittgenstein"
+"Bärenfänger"
+"Breith"
+"Bäke"
+"Griesbach"
+"Wietersheim"
+"Fegelein"
+"Rarancze"
+"Hausser"
+"Knobelsdorff"
+"Maximilian"
+"Edelsheim"
+"Wittmann"
+"Speer"
+"Todt"
+"Reichenbach"
+"Röhm"
+"Reinhard"
+"Heydrich"
+"Meyer"
+"Bouhler"
+"Dietl"
+"Hierl"
+"Schlageter"
+"Jahn"
+"Körner"
+"Güstrow"
+"Kerrl"
+"Massmann"
+"Höss"
+"Aumeier"
+"Baer"
+"Bothmann"
+"Brunner"
+"Büscher"
+"Burger"
+"Liebehenschel"
+"Künstler"
+"List"
+"Loritz"
+"Pister"
+"Reichleitner"
+"Rödl"
+"Schwammberger"
+"Koch"
+"Koegel"
+"Hassebroek"
+"Grünewald"
+"Göcke"
+"Göth"
+"Brandt"
+"Bunke"
+"Entress"
+"Eugen"
+"Fischer"
+"Hellinger"
+"Hennecke"
+"Hoche"
+"Holzlöhner"
+"Hoven"
+"Jobst"
+"König"
+"Krebsbach"
+"Kremer"
+"Linden"
+"Mennecke"
+"Morell"
+"Nitsche"
+"Oberheuser"
+"Rascher"
+"Conrad"
+"Reiter"
+"Renno"
+"Rindfleisch"
+"Ritter"
+"Wolfgang"
+"Romberg"
+"Horst Wessel"
+"Rose"
+"Rostock"
+"Rosenthal"
+"Ruff"
+"Rüdin"
+"Rühl"
+"Sawade"
+"Heyde"
+"Schiedlausky"
+"Schmalenbach"
+"Schmidt"
+"Schneider"
+"Schreiber"
+"Schröder"
+"Schumann"
+"Schütz"
+"Strughold"
+"Thilo"
+"Treite"
+"Trzebinski"
+"Türk"
+"Ullrich"
+"Unger"
+"Hermann"
+"Herrmann"
+"Holm"
+"Værnet"
+"Verschuer"
+"Villinger"
+"Wagner"
+"Wasicky"
+"Weber"
+"Wegener"
+"Weltz"
+"Wentzler"
+"Winkelmann"
+"Wirths"
+"Wischer"
+"Witteler"
+"Wolter"
+"Wortmann"
+"Richter"
+"Stoiber"
+"Kammler"
+"Reichenbach"
+"Braun"
+"Born"
+"Planck"
+"Heisenberg"
+"Humboldt"
+"Helmholtz"
+"Peierls"
+"Kepler"
+"Lilienthal"
+"Koch"
+"Zeiss"
+"Gauss" }
+	
+		military_station_large = { "Aibling"
+"Arolsen"
+"Belzig"
+"Bentheim"
+"Bergzabern"
+"Berka"
+"Berleburg"
+"Berneck"
+"Fichtelgebirge"
+"Bevensen"
+"Bibra"
+"Blankenburg"
+"Bramstedt"
+"Breisig"
+"Brückenau"
+"Buchau"
+"Camberg"
+"Colberg-Heldburg"
+"Doberan"
+"Driburg"
+"Düben"
+"Dürkheim"
+"Dürrenberg"
+"Dürrheim"
+"Elster"
+"Ems"
+"Fallingbostel"
+"Frankenhausen"
+"Kyffhäuser"
+"Freienwalde"
+"Friedrichshall"
+"Gandersheim"
+"Gottleuba-Berggießhübel"
+"Griesbach im Rottal"
+"Harzburg"
+"Herrenalb"
+"Hersfeld"
+"Homburg vor der Höhe"
+"Honnef"
+"Hönningen"
+"Iburg"
+"Karlshafen"
+"Kissingen"
+"König"
+"Königshofen im Grabfeld"
+"Köstritz"
+"Kötzting"
+"Kreuznach"
+"Krozingen"
+"Laasphe"
+"Langensalza"
+"Lauchstädt"
+"Lausick"
+"Lauterberg im Harz"
+"Liebenstein"
+"Liebenwerda"
+"Liebenzell"
+"Lippspringe"
+"Lobenstein"
+"Marienberg"
+"Mergentheim"
+"Münder am Deister"
+"Münstereifel"
+"Muskau"
+"Nauheim"
+"Nenndorf"
+"Neuenahr-Ahrweiler"
+"Neustadt an der Saale"
+"Oeynhausen"
+"Oldesloe"
+"Orb"
+"Pyrmont"
+"Rappenau"
+"Reichenhall"
+"Rodach"
+"Sachsa"
+"Säckingen"
+"Salzdetfurth"
+"Salzuflen"
+"Salzungen"
+"Saulgau"
+"Schandau"
+"Schmiedeberg"
+"Schussenried"
+"Schwalbach"
+"Schwartau"
+"Segeberg"
+"Sobernheim"
+"Soden am Taunus"
+"Soden-Salmünster"
+"Sooden-Allendorf"
+"Staffelstein"
+"Sulza"
+"Sülze"
+"Teinach-Zavelstein"
+"Tennstedt"
+"Tölz"
+"Urach"
+"Vilbel"
+"Waldsee"
+"Wildbad"
+"Wildungen"
+"Wilsnack"
+"Wimpfen"
+"Windsheim"
+"Wörishofen"
+"Wünnenberg"
+"Wurzach"
+"Baden"
+"Kaninchen"
+"Hammersmark"
+"Diehl"
+"Hellstrom"
+"Kruger"
+"Zoller"
+"Stiglitz"
+"Schweiger"
+"Wicki"
+"Brühl"
+"Landa"
+"Waltz"
+"Adler"
+"Richter"
+"Kortzfleisch"
+"Galland"
+"Mölders"
+"Rudel"
+"Hermann Graf"
+"Reitsch"
+"Riefenstahl"
+"Raubal"
+"Goebbels"
+"Braun"
+"Dietrich"
+"Skorzeny"
+"Stauffenberg"
+"Dietrich"
+"Rommel"
+"Manstein"
+"Guderian"
+"Jodl"
+"Keitel"
+"Röhm"
+"Heydrich"
+"Hess"
+"Bormann"
+"Schmeling"
+"Lüth"
+"Strachwitz"
+"Gross-Zauche"
+"Gille"
+"Hube"
+"Kesselring"
+"Lent"
+"Dietrich"
+"Model"
+"Hartmann"
+"Balck"
+"Hermann"
+"Bernhard"
+"Ramcke"
+"Schnaufe"
+"Albrecht"
+"Brandi"
+"Ferdinand"
+"Schörner"
+"Manteuffel"
+"Tolsdorff"
+"Mauss"
+"Saucken"
+"Oesau"
+"Günther"
+"Lützow"
+"Kretschmer"
+"Bär"
+"Ihlefeld"
+"Ostermann"
+"Leopold"
+"Steinbatz"
+"Baumbach"
+"Topp"
+"Suhren"
+"Müncheberg"
+"Helbig"
+"Wolf"
+"Dietrich"
+"Wilcke"
+"Druschel"
+"Gorn"
+"Peltz"
+"Rall"
+"Prien"
+"Hoth"
+"Harpe"
+"Waldemar"
+"Gazen"
+"Dieckmann"
+"Kluge"
+"Schwerin"
+"Herrmann"
+"Wittgenstein"
+"Bärenfänger"
+"Breith"
+"Bäke"
+"Griesbach"
+"Wietersheim"
+"Fegelein"
+"Rarancze"
+"Hausser"
+"Knobelsdorff"
+"Maximilian"
+"Edelsheim"
+"Wittmann"
+"Speer"
+"Todt"
+"Reichenbach"
+"Röhm"
+"Reinhard"
+"Heydrich"
+"Meyer"
+"Bouhler"
+"Dietl"
+"Hierl"
+"Schlageter"
+"Jahn"
+"Körner"
+"Güstrow"
+"Kerrl"
+"Massmann"
+"Höss"
+"Aumeier"
+"Baer"
+"Bothmann"
+"Brunner"
+"Büscher"
+"Burger"
+"Liebehenschel"
+"Künstler"
+"List"
+"Loritz"
+"Pister"
+"Reichleitner"
+"Rödl"
+"Schwammberger"
+"Koch"
+"Koegel"
+"Hassebroek"
+"Grünewald"
+"Göcke"
+"Göth"
+"Brandt"
+"Bunke"
+"Entress"
+"Eugen"
+"Fischer"
+"Hellinger"
+"Hennecke"
+"Hoche"
+"Holzlöhner"
+"Hoven"
+"Jobst"
+"König"
+"Krebsbach"
+"Kremer"
+"Linden"
+"Mennecke"
+"Morell"
+"Nitsche"
+"Oberheuser"
+"Rascher"
+"Conrad"
+"Reiter"
+"Renno"
+"Rindfleisch"
+"Ritter"
+"Wolfgang"
+"Romberg"
+"Horst Wessel"
+"Rose"
+"Rostock"
+"Rosenthal"
+"Ruff"
+"Rüdin"
+"Rühl"
+"Sawade"
+"Heyde"
+"Schiedlausky"
+"Schmalenbach"
+"Schmidt"
+"Schneider"
+"Schreiber"
+"Schröder"
+"Schumann"
+"Schütz"
+"Strughold"
+"Thilo"
+"Treite"
+"Trzebinski"
+"Türk"
+"Ullrich"
+"Unger"
+"Hermann"
+"Herrmann"
+"Holm"
+"Værnet"
+"Verschuer"
+"Villinger"
+"Wagner"
+"Wasicky"
+"Weber"
+"Wegener"
+"Weltz"
+"Wentzler"
+"Winkelmann"
+"Wirths"
+"Wischer"
+"Witteler"
+"Wolter"
+"Wortmann"
+"Richter"
+"Stoiber"
+"Kammler"
+"Reichenbach"
+"Braun"
+"Born"
+"Planck"
+"Heisenberg"
+"Humboldt"
+"Helmholtz"
+"Peierls"
+"Kepler"
+"Lilienthal"
+"Koch"
+"Zeiss"
+"Gauss" }	
+	}
+	
+	fleet_names = {
+		random_names = {
+"Kriegs-Flotte 'Götterdämmerung'"
+"Kriegs-Flotte 'Das Reich'"
+"Kriegs-Flotte 'Großdeutschland'"
+"Kriegs-Flotte 'Polizei'"
+"Kriegs-Flotte 'Wiking'"
+"Kriegs-Flotte 'Germania'"
+"Kriegs-Flotte 'Prinz Eugen'"
+"Kriegs-Flotte 'Florian Geyere'" 
+"Kriegs-Flotte 'Hohenstaufen'"
+"Kriegs-Flotte 'Frundsberg'"
+"Kriegs-Flotte 'Nordland'"
+"Kriegs-Flotte 'Hitler Jungend'"
+"Kriegs-Flotte 'Handschar'"
+"Kriegs-Flotte 'Schirach'"
+"Kriegs-Flotte 'Ostland'"
+"Kriegs-Flotte 'Reichsführer-SS'"
+"Kriegs-Flotte 'Götz von Berlichingen'"
+"Kriegs-Flotte 'Horst Wessel'"
+"Kriegs-Flotte 'Nord'"
+"Kriegs-Flotte 'Reichenbach'"
+"Kriegs-Flotte 'Reichadler'"
+"Kriegs-Flotte 'Der Führer'"
+"Kriegs-Flotte 'Keitel'"
+"Kriegs-Flotte 'Karstjäger'"
+"Kriegs-Flotte 'Adler'"
+"Kriegs-Flotte 'Herrenvolk'"
+"Kriegs-Flotte 'Langemarck'"
+"Kriegs-Flotte 'Heydrich'"
+"Kriegs-Flotte 'Göring'"
+"Kriegs-Flotte 'Kaltenbrunner'"
+"Kriegs-Flotte 'Deutschland'"
+"Kriegs-Flotte '30 Januar'"
+"Kriegs-Flotte 'Raeder'"
+"Kriegs-Flotte 'Landstorm Streicher'"
+"Kriegs-Flotte 'Dönitz'"
+"Kriegs-Flotte 'Dirlewanger'"
+"Kriegs-Flotte 'Lützow'"
+"Kriegs-Flotte 'Nibelungen'"
+"Kriegs-Flotte 'Ribbentrop'"
+"Kriegs-Flotte 'Canaris'"
+"Kriegs-Flotte 'Matzelsberger'"
+"Kriegs-Flotte 'Schicklgruber'"
+"Kriegs-Flotte 'Hiedler'"
+"Kriegs-Flotte 'Lehr'"
+"Kriegs-Flotte 'Hammersmark'"
+"Kriegs-Flotte 'Zoller'"
+"Kriegs-Flotte 'Stiglitz'"
+"Kriegs-Flotte 'Landa'"
+"Kriegs-Flotte 'Brühl'"
+"Kriegs-Flotte 'Renate'"
+"Kriegs-Flotte 'Kortzfleisch'"
+"Kriegs-Flotte 'Galland'"
+"Kriegs-Flotte 'Mölders'"
+"Kriegs-Flotte 'Rudel'"
+"Kriegs-Flotte 'Immelmann'"
+"Kriegs-Flotte 'Reitsch'"
+"Kriegs-Flotte 'Riefenstahl'"
+"Kriegs-Flotte 'Stauffenberg'"
+"Kriegs-Flotte 'Dietrich'"
+"Kriegs-Flotte 'Rommel'"
+"Kriegs-Flotte 'Manstein'"
+"Kriegs-Flotte 'Guderian'"
+"Kriegs-Flotte 'Jodl'"
+"Kriegs-Flotte 'Keitel'"
+"Kriegs-Flotte 'Röhm'"
+"Kriegs-Flotte 'Heydrich'"
+"Kriegs-Flotte 'Hess'"
+		}
+	}
+
+	###ARMIES
+	army_names = {
+	
+		defense_army = {
+			sequential_name = "%O%. Sicherungs-Abteilung"
+		}
+			
+		assault_army = {
+			sequential_name = "%O%. Sturmjäger-Abteilung"
+		}
+		
+		slave_army = {
+			sequential_name = "%O%. Freiwilligen-Abteilung"
+		}
+		
+		clone_army = {
+			sequential_name = "%O%. Klonheimat-Abteilung"
+		}
+		
+		robotic_army = {
+			sequential_name = "%O%. Automatjäger-Abteilung"
+		}
+		
+		android_army = {
+			sequential_name = "%O%. Apparatjäger-Abteilung"
+		}
+		
+		psionic_army = {
+			sequential_name = "%O%. Geheimnisvoll-Abteilung"
+		}
+		
+		xenomorph_army = {
+			sequential_name = "%O%. Außerirdischen-Abteilung"
+		}
+		
+		gene_warrior_army = {
+			sequential_name = "%O%. Veränderten-Abteilung"
+		}
+	}
+	
+	### PLANETS
+	
+	planet_names = {
+	
+		generic = {
+			names = { Shin-Tokyo Shin-Yokohama Shin-Osaka Shin-Nagoya Shin-Sapporo Shin-Kobe Shin-Kyoto Shin-Fukuoka Shin-Kawasaki Shin-Saitama Shin-Hiroshima Shin-Sendai Shin-Kitakyushu Shin-Chiba Shin-Sakai Shin-Niigata Shin-Shizuoka Shin-Kumamoto Shin-Kanagawa Shin-Shizuoka	
+ "Uusi Helsinki" "Uusi Turku" "Uusi Viipuri" "Kaleva" "Pohjola" "Tapiola" "Uusi Tampere" "Uusi Oulu" "Uusi Jyväskylä" "Uusi Lahti" "Uusi Kuopio" "Uusi Pori" "Uusi Joensuu" "Uusi Lappeenranta" "Uusi Hämeenlinna" "Uusi Vaasa" "Uusi Käkisalmi" "Uusi Rauma" "Uusi Kirkkonummi" "Uusi Kotka" "Uusi Kouvola" "Uusi Kannas" "Uusi Petsamo" Koskela Purola Metsälä Ukonkorpi Tuonenlehto Aava Satama Kivi Korpi Korventaus Mäenpää Pallivaha Viinapuro Tulijoki Poukama Turva Väyrysenmaa Kekkonen Hautakumpu "Uusi Maarianhamina" Wettenhovi Autioranta Korkeakoski Hällämö Paavonhovi Impiö Rytky Jylhä Mustamaa Tolkansuo Viitaperä Kurtti Matalainen Akanlahti Varvikko Ounas Puolimäki Pyhältö Suvinotko Matalakorpi Korkeakorpi Tapiontaipale Jyrävä Karhunkierros Karhukoski Kirvu Impilahti "Uusi Sortavala" "Uusi Äyräpää" "Uusi Inari" Pälkjärvi "Uusi Värtsilä" "Uusi Ulvila" "Uusi Rauma" "Uusi Naantali" "Uusi Tammisaari" Uudempikaupunki "Uusi Tornio" "Uusi Kristiinankaupunki" Kurkijoki Viinakoski Kiveskoski Sillanpää Aitta Aittokoski Impivaara Pihtipudas Lemmenjoki Kekkosenmaa Oulanka Pyhä-Luosto Patvinsuo Linnansaari Salamajärvi Kauhaneva Pohjankangas Nuuksio Helvetinjärvi Seitseminen Kolmisoppi Hiidenportti Koli Leivonmäki Kurjenrahka Pyhä-Häkki Hetta Peuranpolku Nuortti Ruostejärvi Revonpää Repola Koivuluoto Ulko-Tammio Tikankolo Karhulahti Seppälä Hiidenmaa Ikolanaho Uitto Hanhikoski Lortikka Kurkela Särkinen Kortesalo Ala-Valkeinen Hämeaho Jämäshovi Pirunkirkko Reimikari Ristiluoma Korouoma Jätkänkuru Aitaniitty Näränkä Ohtonen Taivalköngäs Saunakangas Taimenmutka Lehtovaara Koivuselkä Luotsila 
+"Deutschland" Preußen Brandenburg Österreich Wien Wilhelm Hannover Braunschweig Sachsen Ruhr Artlenburg Saarbrücken Bayern Frankfrurt Stämme Rheiner lsterwerda Grödl Oberucken Stein Nürnberg München Rostock Berlin Bonn Fürth Köln Dortmund Wittelsbach Bubenreuth Neuruppin Osnabrück Hamburg Norddorf Süddorf Bielefeld Koblenz Mainz Wiesbaden Halle Mannheim Paderborn Saarbrücken Neuschwabenland Neurheinland Neubayern Neuschlesien Neuhessen Wilhelmsland Friedrichsland Karlsland Neupommern Welffenland Hohenzollernland Neuschleswig "Neue Pfalz" Neubrandenburg Hohenberg Neubaden Lemberg Pressburg "Neue Mark" Rotbergen Neuenburg Klammtal Breitenbruch Bartenberg Aalsheim Ebersbach Seeland Tannenberg Fichtenberg Wilhelmsruhe Greifenwald Waldesheim Grünheide Kiefernforst "Neue Alb" Auenbach "Neue Aue" Schwanenbach Breitensee Nordland Oldesberg
+Aach
+Aachen
+Aalen
+Abenberg
+Abensberg
+Achern
+Achim
+Adelsheim
+Adenau
+Adorf
+Ahaus
+Ahlen
+Ahrensburg
+Aichach
+Aichtal
+Aken
+Albstadt
+Alfeld
+Allendorf
+Allstedt
+Alpirsbach
+Alsdorf
+Alsfeld
+Alsleben
+"Altdorf bei Nürnberg"
+Altena
+Altenberg
+Altenburg
+Altenkirchen
+Altensteig
+Altentreptow
+Altlandsberg
+Altötting
+Alzenau
+Alzey
+Amberg
+Amöneburg
+Amorbach
+Andernach
+Angermünde
+Anklam
+"Annaberg-Buchholz"
+Annaburg
+"Annweiler am Trifels"
+Ansbach
+Apolda
+Arendsee
+Arneburg
+Arnis
+Arnsberg
+Arnstadt
+Arnstein
+Arnstein
+Artern
+Unstrut
+Arzberg
+Aschaffenburg
+Aschersleben
+Asperg
+Aßlar
+Attendorn
+Aub
+Aue
+"Auerbach in der Oberpfalz"
+Auerbach
+Augsburg
+Augustusburg
+Aulendorf
+Auma-Weidatal
+Aurich
+Babenhausen
+Bacharach
+Backnang
+"Bad Aibling"
+"Bad Arolsen"
+"Bad Belzig"
+"Bad Bentheim"
+"Bad Bergzabern"
+"Bad Berka"
+"Bad Berleburg"
+"Bad Berneck"
+Fichtelgebirge
+"Bad Bevensen"
+"Bad Bibra"
+"Bad Blankenburg"
+"Bad Bramstedt"
+"Bad Breisig"
+"Bad Brückenau"
+"Bad Buchau"
+"Bad Camberg"
+"Bad Colberg-Heldburg"
+"Bad Doberan"
+"Bad Driburg"
+"Bad Düben"
+"Bad Dürkheim"
+"Bad Dürrenberg"
+"Bad Dürrheim"
+"Bad Elster"
+"Bad Ems"
+"Bad Fallingbostel"
+"Bad Frankenhausen"
+Kyffhäuser
+"Bad Freienwalde"
+"Bad Friedrichshall"
+"Bad Gandersheim"
+"Bad Gottleuba-Berggießhübel"
+"Bad Griesbach im Rottal"
+"Bad Harzburg"
+"Bad Herrenalb"
+"Bad Hersfeld"
+"Bad Homburg vor der Höhe"
+"Bad Honnef"
+"Bad Hönningen"
+"Bad Iburg"
+"Bad Karlshafen"
+"Bad Kissingen"
+"Bad König"
+"Bad Königshofen im Grabfeld"
+"Bad Köstritz"
+"Bad Kötzting"
+"Bad Kreuznach"
+"Bad Krozingen"
+"Bad Laasphe"
+"Bad Langensalza"
+"Bad Lauchstädt"
+"Bad Lausick"
+"Bad Lauterberg im Harz"
+"Bad Liebenstein"
+"Bad Liebenwerda"
+"Bad Liebenzell"
+"Bad Lippspringe"
+"Bad Lobenstein"
+"Bad Marienberg"
+"Bad Mergentheim"
+"Bad Münder am Deister"
+"Bad Münstereifel"
+"Bad Muskau"
+"Bad Nauheim"
+"Bad Nenndorf"
+"Bad Neuenahr-Ahrweiler"
+"Bad Neustadt an der Saale"
+"Bad Oeynhausen"
+"Bad Oldesloe"
+"Bad Orb"
+"Bad Pyrmont"
+"Bad Rappenau"
+"Bad Reichenhall"
+"Bad Rodach"
+"Bad Sachsa"
+"Bad Säckingen"
+"Bad Salzdetfurth"
+"Bad Salzuflen"
+"Bad Salzungen"
+"Bad Saulgau"
+"Bad Schandau"
+"Bad Schmiedeberg"
+"Bad Schussenried"
+"Bad Schwalbach"
+"Bad Schwartau"
+"Bad Segeberg"
+"Bad Sobernheim"
+"Bad Soden am Taunus"
+"Bad Soden-Salmünster"
+"Bad Sooden-Allendorf"
+"Bad Staffelstein"
+"Bad Sulza"
+"Bad Sülze"
+"Bad Teinach-Zavelstein"
+"Bad Tennstedt"
+"Bad Tölz"
+"Bad Urach"
+"Bad Vilbel"
+"Bad Waldsee"
+"Bad Wildbad"
+"Bad Wildungen"
+"Bad Wilsnack"
+"Bad Wimpfen"
+"Bad Windsheim"
+"Bad Wörishofen"
+"Bad Wünnenberg"
+"Bad Wurzach"
+"Baden-Baden"
+Baesweiler
+Baiersdorf
+Balingen
+Ballenstedt
+Balve
+Bamberg
+Barby
+Bargteheide
+Barmstedt
+Bärnau
+Barntrup
+Barsinghausen
+Barth
+Baruth
+Mark
+Bassum
+Battenberg
+Baumholder
+Baunach
+Baunatal
+Bautzen
+Bayreuth
+Bebra
+Beckum
+Bedburg
+Beelitz
+Beerfelden
+Beeskow
+Beilngries
+Beilstein
+Belgern-Schildau
+Bendorf
+Bensheim
+Berching
+Berga
+Elster
+Bergen
+"Bergen auf Rügen"
+Bergheim
+"Bergisch Gladbach"
+Bergkamen
+Bergneustadt
+Berka
+Werra
+Berlin
+"Bernau bei Berlin"
+Bernburg
+Bernkastel-Kues
+Bernsdorf
+"Bernstadt am der Eigen"
+Bersenbrück
+Besigheim
+Betzdorf
+Betzenstein
+Beverungen
+Bexbach
+"Biberach an der Riß"
+Biedenkopf
+Bielefeld
+Biesenthal
+Bietigheim-Bissingen
+Billerbeck
+"Bingen am Rhein"
+Birkenfeld
+"Bischofsheim an der Rhön"
+Bischofswerda
+Bismark
+Altmark
+Bitburg
+Bitterfeld-Wolfen
+Blankenburg
+Blankenhain
+Blaubeuren
+Blaustein
+Bleckede
+Bleicherode
+Blieskastel
+Blomberg
+Blumberg
+Bobingen
+Böblingen
+Bocholt
+Bochum
+Bockenem
+Bodenwerder
+Bogen
+Böhlen
+Boizenburg
+Elbe
+Bonn
+"Bonndorf im Schwarzwald"
+Bönnigheim
+Bopfingen
+Boppard
+Borgentreich
+Borgholzhausen
+Borken
+Borken
+Borkum
+Borna
+Bornheim
+Bottrop
+Boxberg
+Brackenheim
+Brake
+Unterweser
+Brakel
+Bramsche
+"Brandenburg an der Havel"
+Brand-Erbisdorf
+Brandis
+Braubach
+Braunfels
+Braunlage
+Bräunlingen
+Braunsbedra
+Braunschweig
+Breckerfeld
+Bredstedt
+Breisach
+Bremen
+Bremerhaven
+Bremervörde
+Bretten
+Breuberg
+Brilon
+Brotterode-Trusetal
+Bruchköbel
+Bruchsal
+Brück
+Brüel
+Brühl
+Brunsbüttel
+Brüssow
+Buchen
+"Buchholz in der Nordheide"
+Buchloe
+Bückeburg
+Buckow
+Büdelsdorf
+Büdingen
+Bühl
+Bünde
+Büren
+Burg
+Burgau
+Burgbernheim
+Burgdorf
+Bürgel
+Burghausen
+Burgkunstadt
+Burglengenfeld
+Burgstädt
+Burg Stargard
+Burgwedel
+Burladingen
+Burscheid
+Bürstadt
+Buttelstedt
+Buttstädt
+Butzbach
+Bützow
+Buxtehude
+Calau
+Calbe
+Calw
+Castrop-Rauxel
+Celle
+Cham
+Chemnitz
+Clausthal-Zellerfeld
+Clingen
+Cloppenburg
+Coburg
+Cochem
+Coesfeld
+Colditz
+Cologne
+Coswig
+Coswig
+Cottbus
+Crailsheim
+Creglingen
+Creußen
+Creuzburg
+Crimmitschau
+Crivitz
+Cuxhaven
+Dachau
+Dahlen
+Dahme
+Dahn
+Damme
+Dannenberg
+Dargun
+Darmstadt
+Dassel
+Dassow
+Datteln
+Daun
+Deggendorf
+Deidesheim
+Delbrück
+Delitzsch
+Delmenhorst
+Demmin
+Dessau-Roßlau
+Detmold
+Dettelbach
+Dieburg
+Diemelstadt
+Diepholz
+Dierdorf
+Dietenheim
+"Dietfurt an der Altmühl"
+Dietzenbach
+Diez
+Dillenburg
+"Dillingen an der Donau"
+Dillingen
+Saar
+Dingelstädt
+Dingolfing
+Dinkelsbühl
+Dinklage
+Dinslaken
+Dippoldiswalde
+"Dissen am Teutoburger Wald"
+Ditzingen
+Döbeln
+Doberlug-Kirchhain
+Döbern
+Dohna
+Dömitz
+Dommitzsch
+Donaueschingen
+Donauwörth
+Donzdorf
+Dorfen
+Dormagen
+Dornburg-Camburg
+Dornhan
+Dornstetten
+Dorsten
+Dortmund
+Dransfeld
+Drebkau
+Dreieich
+Drensteinfurt
+Dresden
+Drolshagen
+Duderstadt
+Duisburg
+Dülmen
+Düren
+Düsseldorf
+Ebeleben
+Eberbach
+Ebermannstadt
+Ebern
+"Ebersbach an der Fils"
+Ebersbach-Neugersdorf
+Ebersberg
+Eberswalde
+Eckartsberga
+Eckernförde
+Edenkoben
+Egeln
+Eggenfelden
+Eggesin
+Ehingen
+Ehrenfriedersdorf
+Eibelstadt
+Eibenstock
+Eichstätt
+Eilenburg
+Einbeck
+Eisenach
+Eisenberg
+Eisenberg
+Eisenhüttenstadt
+Eisfeld
+Eisleben
+Eislingen
+Ellingen
+Ellrich
+Ellwangen
+Elmshorn
+Elsdorf
+Elsfleth
+Elsterberg
+Elsterwerda
+Elstra
+Elterlein
+Eltmann
+"Eltville am Rhein"
+Elzach
+Elze
+Emden
+Emmelshausen
+Emmendingen
+"Emmerich am Rhein"
+Emsdetten
+Endingen
+Engen
+Enger
+Ennepetal
+Ennigerloh
+Eppelheim
+Eppingen
+Eppstein
+Erbach
+Erbach
+Erbendorf
+Erding
+Erftstadt
+Erfurt
+Erkelenz
+Erkner
+Erkrath
+Erlangen
+"Erlenbach am Main"
+Erlensee
+Erwitte
+Eschborn
+"Eschenbach"
+Eschershausen
+Eschwege
+Eschweiler
+Esens
+Espelkamp
+Essen
+"Esslingen am Neckar"
+Ettenheim
+Ettlingen
+Euskirchen
+Eutin
+Falkenberg
+Falkensee
+Falkenstein
+Fehmarn
+Fellbach
+Felsberg
+Feuchtwangen
+Filderstadt
+Finsterwalde
+Fladungen
+Flensburg
+Flöha
+"Flörsheim am Main"
+Florstadt
+Forchheim
+Forchtenberg
+Forst
+Frankenau
+Frankenberg
+Frankenthal
+"Frankfurt am Main"
+"Frankfurt am Oder"
+Frankfurt
+Franzburg
+Frauenstein
+Frechen
+"Freiberg am Neckar"
+Freiberg
+"Freiburg im Breisgau"
+Freilassing
+Freinsheim
+Freising
+Freital
+Freren
+Freudenberg
+Freudenberg
+Freudenstadt
+Freyburg
+Freystadt
+Freyung
+"Fridingen an der Donau"
+Friedberg
+Friedland
+Friedrichroda
+Friedrichsdorf
+Friedrichshafen
+Friedrichstadt
+Friedrichsthal
+Friesack
+Friesoythe
+Fritzlar
+Frohburg
+Fröndenberg
+Fulda
+Fürstenau
+Fürstenberg
+Havel
+Fürstenfeldbruck
+Fürstenwalde
+Spree
+Fürth
+"Furth im Wald"
+"Furtwangen im Schwarzwald"
+"Füssen"
+Garmisch-Partenkirchen
+Gadebusch
+Gaggenau
+Gaildorf
+Gammertingen
+Garbsen
+"Garching bei München"
+Gardelegen
+Garding
+Gartz
+Garz
+Rügen
+Gau-Algesheim
+Gebesee
+Gedern
+Geesthacht
+Geestland
+Gefell
+Gefrees
+Gehrden
+Gehren
+Geilenkirchen
+Geisa
+Geiselhöring
+Geisenfeld
+Geisenheim
+Geisingen
+"Geislingen bei Balingen"
+"Geislingen an der Steige"
+Geithain
+Geldern
+Gelnhausen
+Gelsenkirchen
+"Gemünden am Main"
+Gemünden
+Gengenbach
+Genthin
+Georgsmarienhütte
+Gera
+Gerabronn
+Gerbstedt
+Geretsried
+Geringswalde
+Gerlingen
+Germering
+Germersheim
+Gernsbach
+Gernsheim
+Gerolstein
+Gerolzhofen
+"Gersfeld am Rhön"
+Gersthofen
+Gescher
+Geseke
+Gevelsberg
+Geyer
+"Giengen an der Brenz"
+Gießen
+Gifhorn
+Ginsheim-Gustavsburg
+Gladbeck
+Gladenbach
+Glashütte
+Glauchau
+Glinde
+Glücksburg
+Glückstadt
+Gnoien
+Goch
+Goldberg
+Goldkronach
+Golßen
+Gommern
+Göppingen
+Görlitz
+Goslar
+Gößnitz
+Gotha
+Göttingen
+Grabow
+Grafenau
+Gräfenberg
+Gräfenhainichen
+Gräfenthal
+Grafenwöhr
+"Grafing bei München"
+Gransee
+Grebenau
+Grebenstein
+Greding
+Greifswald
+Greiz
+Greußen
+Greven
+Grevenbroich
+Grevesmühlen
+Griesheim
+Grimma
+Grimmen
+Gröditz
+Groitzsch
+Gronau
+Gröningen
+Großalmerode
+Groß-Bieberau
+Großbottwar
+Großbreitenbach
+Großenehrich
+Großenhain
+Groß-Gerau
+Großräschen
+Großröhrsdorf
+Großschirma
+Groß-Umstadt
+Grünberg
+Grünhain-Beierfeld
+Grünsfeld
+Grünstadt
+Guben
+Gudensberg
+Güglingen
+Gummersbach
+"Gundelfingen an der Donau"
+Gundelsheim
+Günzburg
+Gunzenhausen
+Güsten
+Güstrow
+Gütersloh
+Gützkow
+Haan
+Hachenburg
+Hadamar
+Hagen
+Hagenbach
+Hagenow
+Haiger
+Haigerloch
+Hainichen
+Haiterbach
+Halberstadt
+Haldensleben
+Halle
+Halle
+Hallenberg
+Hallstadt
+"Haltern am See"
+Halver
+Hamburg
+Hameln
+Hamm
+Hammelburg
+Hamminkeln
+Hanau
+Münden
+Hanover
+Harburg
+Hardegsen
+Haren
+Harsewinkel
+Hartenstein
+Hartha
+Harzgerode
+Haselünne
+"Haslach im Kinzigtal"
+Haßfurt
+"Hattersheim am Main"
+Hattingen
+Hatzfeld
+Hausach
+Hauzenberg
+Havelberg
+Havelsee
+Hayingen
+Hechingen
+Hecklingen
+Heide
+Heideck
+Heidelberg
+Heidenau
+"Heidenheim an der Brenz"
+"Heilbad Heiligenstadt"
+Heilbronn
+Heiligenhafen
+Heiligenhaus
+Heilsbronn
+Heimbach
+Heimsheim
+Heinsberg
+Heitersheim
+Heldrungen
+Helmbrechts
+Helmstedt
+Hemau
+Hemer
+Hemmingen
+Hemmoor
+Hemsbach
+Hennef
+Sieg
+Hennigsdorf
+Heppenheim
+Herbolzheim
+Herborn
+Herbrechtingen
+Herbstein
+Herdecke
+Herdorf
+Herford
+Heringen
+Helme
+Heringen
+Hermeskeil
+Hermsdorf
+Herne
+Herrenberg
+Herrieden
+Herrnhut
+Hersbruck
+Herten
+"Herzberg am Harz"
+Herzberg
+Elster
+Herzogenaurach
+Herzogenrath
+"Hessisch Lichtenau"
+"Hessisch Oldendorf"
+Hettingen
+Hettstedt
+Heubach
+Heusenstamm
+Hilchenbach
+Hildburghausen
+Hilden
+Hildesheim
+Hillesheim
+Hilpoltstein
+Hirschau
+Hirschberg
+Hirschhorn
+Neckar
+Hitzacker
+"Hochheim am Main"
+"Höchstadt an der Aisch"
+"Höchstädt an der Donau"
+Hockenheim
+Hof
+Hofgeismar
+"Hofheim am Taunus"
+Hofheim
+"Hohenberg an der Eger"
+Hohenleuben
+Hohenmölsen
+"Hohen Neuendorf"
+Hohenstein-Ernstthal
+Hohnstein
+Höhr-Grenzhausen
+Hollfeld
+Holzgerlingen
+Holzminden
+Homberg
+"Horb am Neckar"
+Hornbach
+Horn
+"Bad Meinberg"
+Hornberg
+Hörstel
+Horstmar
+Höxter
+Hoya
+Hoyerswerda
+Hückelhoven
+Hückeswagen
+Hüfingen
+Hünfeld
+Hungen
+Hürth
+Husum
+Ibbenbüren
+Ichenhausen
+Idar-Oberstein
+Idstein
+Illertissen
+Ilmenau
+Ilsenburg
+Ilshofen
+Immenhausen
+"Immenstadt im Allgäu"
+Ingelfingen
+"Ingelheim am Rhein"
+Ingolstadt
+Iphofen
+Iserlohn
+"Isny im Allgäu"
+Isselburg
+Itzehoe
+Jarmen
+Jena
+Jerichow
+Jessen
+Jever
+Joachimsthal
+Johanngeorgenstadt
+Jöhstadt
+Jülich
+Jüterbog
+Kaarst
+Kahla
+Kaisersesch
+Kaiserslautern
+Kalbe
+Kalkar
+Kaltenkirchen
+Kaltennordheim
+Kamen
+Kamenz
+Kamp-Lintfort
+Kandel
+Kandern
+Kappeln
+Karben
+Karlsruhe
+Karlstadt
+Kassel
+Kastellaun
+Katzenelnbogen
+Kaub
+Kaufbeuren
+Kehl
+Kelbra
+Kyffhäuser
+Kelheim
+Kelkheim
+Taunus
+Kellinghusen
+Kelsterbach
+Kemberg
+Kemnath
+Kempen
+"Kempten im Allgäu"
+Kenzingen
+Kerpen
+Ketzin
+Havel
+Kevelaer
+Kiel
+Kierspe
+Kindelbrück
+Kirchberg
+"Kirchberg an der Jagst"
+Kirchberg
+Hunsrück
+Kirchen
+Kirchenlamitz
+Kirchhain
+Kirchheimbolanden
+"Kirchheim unter Teck"
+Kirn
+Kirtorf
+Kitzingen
+Kitzscher
+Kleve
+"Klingenberg am Main"
+Klingenthal
+Klötze
+Klütz
+Knittlingen
+Koblenz
+Kohren-Sahlis
+Kolbermoor
+Kölleda
+"Königsberg in Bayern"
+Königsbrück
+Königsbrunn
+Königsee-Rottenbach
+Königslutter
+"Königstein im Taunus"
+Königstein
+Königswinter
+"Königs Wusterhausen"
+Könnern
+Konstanz
+Konz
+Korbach
+Korntal-Münchingen
+Kornwestheim
+Korschenbroich
+Köthen
+Kraichtal
+"Krakow am See"
+Kranichfeld
+Krautheim
+Krefeld
+Kremmen
+Krempe
+Kreuztal
+Kronach
+"Kronberg im Taunus"
+Kröpelin
+Kroppenstedt
+Krumbach
+Kühlungsborn
+Kulmbach
+Külsheim
+Künzelsau
+Kupferberg
+Kuppenheim
+Kusel
+Kyllburg
+Kyritz
+Laage
+Laatzen
+Ladenburg
+Lage
+Lahnstein
+Lahr
+Laichingen
+Lambrecht
+Lampertheim
+"Landau an der Isar"
+"Landau in der Pfalz"
+"Landsberg am Lech"
+Landsberg
+Landshut
+Landstuhl
+Langelsheim
+Langen
+Langenau
+Langenburg
+Langenfeld
+Langenhagen
+Langenselbold
+Langenzenn
+Langewiesen
+Lassan
+Laubach
+"Laucha an der Unstrut"
+Lauchhammer
+Lauchheim
+Lauda-Königshofen
+Lauenburg
+"Lauf an der Pegnitz"
+Laufen
+Laufenburg
+"Lauffen am Neckar"
+Lauingen
+Laupheim
+Lauscha
+Lauta
+Lauter-Bernsbach
+Lauterbach
+Lauterecken
+Lauterstein
+Lebach
+Lebus
+Leer
+Lehesten
+Lehrte
+Leichlingen
+Leimen
+Leinefelde-Worbis
+Leinfelden-Echterdingen
+Leipheim
+Leipzig
+Leisnig
+Lemgo
+Lengenfeld
+Lengerich
+Lennestadt
+Lenzen
+Leonberg
+Leun
+Leuna
+Leutenberg
+Leutershausen
+"Leutkirch im Allgäu"
+Leverkusen
+Lich
+Lichtenau
+Lichtenau
+Lichtenberg
+Lichtenfels
+Lichtenfels
+Lichtenstein
+Liebenau
+Liebenwalde
+Lieberose
+Liebstadt
+Limbach-Oberfrohna
+"Limburg an der Lahn"
+Lindau
+Linden
+"Lindenberg im Allgäu"
+Lindenfels
+Lindow
+Lingen
+Linnich
+"Linz am Rhein"
+Lippstadt
+Löbau
+Löffingen
+Lohmar
+Lohne
+Löhne
+"Lohr am Main"
+Loitz
+Lollar
+Lommatzsch
+Löningen
+Lorch
+Lorch
+Lörrach
+Lorsch
+Lößnitz
+Löwenstein
+Lübbecke
+Lübben
+Spreewald
+Lübbenau
+Lübeck
+Lübtheen
+Lübz
+Lüchow
+Lucka
+Luckau
+Luckenwalde
+Lüdenscheid
+Lüdinghausen
+Ludwigsburg
+Ludwigsfelde
+"Ludwigshafen am Rhein"
+Ludwigslust
+Ludwigsstadt
+Lugau
+Lügde
+Lüneburg
+Lünen
+Lunzenau
+Lütjenburg
+Lützen
+Lychen
+Magdala
+Magdeburg
+Mahlberg
+Mainbernheim
+Mainburg
+Maintal
+Mainz
+Malchin
+Malchow
+Mannheim
+Manderscheid
+Mansfeld
+"Marbach am Neckar"
+Marburg
+Marienberg
+Marienmünster
+Markdorf
+Markgröningen
+"Märkisch Buchholz"
+Markkleeberg
+Markneukirchen
+Markranstädt
+Marktbreit
+Marktheidenfeld
+Marktleuthen
+Marktoberdorf
+Marktredwitz
+Marktsteft
+Marl
+Marlow
+Marne
+Marsberg
+Maulbronn
+Maxhütte-Haidhof
+Mayen
+Mechernich
+Meckenheim
+Medebach
+Meerane
+Meerbusch
+Meersburg
+Meinerzhagen
+Meiningen
+Meisenheim
+Meißen
+Meldorf
+Melle
+Mellrichstadt
+Melsungen
+Memmingen
+Menden
+Mendig
+Mengen
+Meppen
+Merkendorf
+Merseburg
+Merzig
+Meschede
+Meßkirch
+Meßstetten
+Mettmann
+Metzingen
+Meuselwitz
+Meyenburg
+Michelstadt
+Miesbach
+Miltenberg
+Mindelheim
+Minden
+Mirow
+Mittenwalde
+Mitterteich
+Mittweida
+Möckern
+Möckmühl
+Moers
+Mölln
+Mönchengladbach
+"Monheim am Rhein"
+Monheim
+Monschau
+Montabaur
+Moosburg
+Mörfelden-Walldorf
+Moringen
+Mosbach
+Mössingen
+Mücheln
+Geiseltal
+Mügeln
+Mühlacker
+Mühlberg
+Mühldorf
+Mühlhausen
+"Mühlheim am Main"
+"Mühlheim an der Donau"
+"Mülheim an der Ruhr"
+Mülheim-Kärlich
+Müllheim
+Müllrose
+Münchberg
+Müncheberg
+München
+Münchenbernsdorf
+Munderkingen
+Munich
+Münnerstadt
+Münsingen
+Munster
+Münster
+Münstermaifeld
+Münzenberg
+Murrhardt
+Nabburg
+Nagold
+Naila
+Nassau
+Nastätten
+Nauen
+Naumburg
+Naumburg
+Naunhof
+Nebra
+Neckarbischofsheim
+Neckargemünd
+Neckarsteinach
+Neckarsulm
+Neresheim
+Netphen
+Nettetal
+Netzschkau
+Neu-Anspach
+Neubrandenburg
+Neubukow
+Neubulach
+"Neuburg an der Donau"
+Neudenau
+Neuenbürg
+"Neuenburg am Rhein"
+Neuenhaus
+Neuenrade
+"Neuenstadt am Kocher"
+Neuenstein
+Neuerburg
+Neuffen
+"Neuhaus am Rennweg"
+Neu-Isenburg
+Neukalen
+Neukirchen
+Neukirchen-Vluyn
+Neukloster
+Neumark
+"Neumarkt in der Oberpfalz"
+"Neumarkt-Sankt Veit"
+Neumünster
+"Neunburg vorm Wald"
+Neunkirchen
+Neuötting
+Neuruppin
+Neusalza-Spremberg
+Neusäß
+Neuss
+"Neustadt an der Aisch"
+"Neustadt an der Donau"
+"Neustadt an der Waldnaab"
+"Neustadt am Kulm"
+"Neustadt am Rübenberge"
+"Neustadt an der Orla"
+"Wein"
+"Neustadt bei Coburg"
+"Neustadt bei Dosse"
+Neustadt-Glewe
+Neustadt
+"Neustadt in Holstein"
+"Neustadt in Sachsen"
+Neustrelitz
+Neutraubling
+Neu-Ulm
+Neuwied
+Nidda
+Niddatal
+Nidderau
+Nideggen
+Niebüll
+Niedenstein
+Niederkassel
+Niedernhall
+Nieder-Olm
+Niederstetten
+Niederstotzingen
+Nieheim
+Niemegk
+Nienburg
+Nienburg
+Nierstein
+Niesky
+Nittenau
+Norden
+Nordenham
+Norderney
+Norderstedt
+Nordhausen
+Nordhorn
+Nördlingen
+Northeim
+Nortorf
+Nossen
+Nuremberg
+Nürtingen
+Oberasbach
+"Oberharz am Brocken"
+Oberhausen
+Oberhof
+Oberkirch
+Oberkochen
+Oberlungwitz
+Obermoschel
+"Obernburg am Main"
+"Oberndorf am Neckar"
+Obernkirchen
+Ober-Ramstadt
+Oberriexingen
+Obertshausen
+Oberursel
+Oberviechtach
+Oberweißbach
+Oberwesel
+Oberwiesenthal
+Kurort
+Ochsenfurt
+Ochsenhausen
+Ochtrup
+Oderberg
+Oebisfelde-Weferlingen
+Oederan
+Oelde
+Oelsnitz
+Oelsnitz
+Oer-Erkenschwick
+Oerlinghausen
+Oestrich-Winkel
+"Oettingen in Bayern"
+"Offenbach am Main"
+Offenburg
+Ohrdruf
+Öhringen
+Olbernhau
+Olching
+Oldenburg
+"Oldenburg in Holstein"
+Olfen
+Olpe
+Olsberg
+Oppenau
+Oppenheim
+Oranienbaum-Wörlitz
+Oranienburg
+Orlamünde
+Ornbau
+Ortenberg
+Ortrand
+Oschatz
+Oschersleben
+Osnabrück
+Osterburg
+Osterburken
+Osterfeld
+Osterhofen
+Osterholz-Scharmbeck
+"Osterode am Harz"
+Osterwieck
+Ostfildern
+"Ostheim vor der Rhön"
+Osthofen
+Östringen
+Ostritz
+Otterberg
+Otterndorf
+Ottweiler
+Overath
+Owen
+Paderborn
+Papenburg
+Pappenheim
+Parchim
+Parsberg
+Pasewalk
+Passau
+Pattensen
+Pausa-Mühltroff
+Pegau
+Pegnitz
+Peine
+Peitz
+Penig
+Penkun
+Penzberg
+Penzlin
+Perleberg
+Petershagen
+"Pfaffenhofen an der Ilm"
+Pfarrkirchen
+Pforzheim
+Pfreimd
+Pfullendorf
+Pfullingen
+Pfungstadt
+Philippsburg
+Pinneberg
+Pirmasens
+Pirna
+Plattling
+Plau am See
+Plaue
+Plauen
+Plettenberg
+Pleystein
+Plochingen
+Plön
+Pockau-Lengefeld
+Pocking
+Pohlheim
+Polch
+Porta Westfalica
+Pößneck
+Potsdam
+Pottenstein
+Preetz
+Premnitz
+Prenzlau
+Pressath
+"Preußisch Oldendorf"
+Prichsenstadt
+Pritzwalk
+Prüm
+Puchheim
+Pulheim
+Pulsnitz
+Putbus
+Putlitz
+Püttlingen
+Quakenbrück
+Quedlinburg
+Querfurt
+Quickborn
+Rabenau
+Radeberg
+Radebeul
+Radeburg
+Radevormwald
+"Radolfzell am Bodensee"
+Raguhn-Jeßnitz
+Rahden
+Rain
+Ramstein-Miesenbach
+Ranis
+Ransbach-Baumbach
+Rastatt
+Rastenberg
+Rathenow
+Ratingen
+Ratzeburg
+Rauenberg
+Raunheim
+Rauschenberg
+Ravensburg
+Ravenstein
+Recklinghausen
+Rees
+Regen
+Regensburg
+Regis-Breitingen
+Rehau
+Rehburg-Loccum
+Rehna
+Reichelsheim
+Reichenbach
+Reichenbach
+Reinbek
+Reinfeld
+Reinheim
+Remagen
+Remda-Teichel
+Remscheid
+"Remseck am Neckar"
+Renchen
+Rendsburg
+Rennerod
+Renningen
+Rerik
+Rethem
+Reutlingen
+Rheda-Wiedenbrück
+Rhede
+Rheinau
+Rheinbach
+Rheinberg
+Rheinböllen
+Rheine
+Rheinfelden
+Rheinsberg
+Rheinstetten
+Rhens
+Rhinow
+Ribnitz-Damgarten
+Richtenberg
+Riedenburg
+Riedlingen
+Riedstadt
+Rieneck
+Riesa
+Rietberg
+Rinteln
+Röbel
+Müritz
+Rochlitz
+Rockenhausen
+Rodalben
+Rodenberg
+Rödental
+Rödermark
+Rodewisch
+Rodgau
+Roding
+Römhild
+Romrod
+Ronneburg
+Ronnenberg
+"Rosbach vor der Höhe"
+Rosenfeld
+Rosenheim
+Rosenthal
+Rösrath
+Roßleben
+Roßwein
+Rostock
+"Rotenburg an der Fulda"
+"Rotenburg an der Wümme"
+Roth
+Rötha
+"Röthenbach an der Pegnitz"
+Rothenburg
+"Rothenburg ob der Tauber"
+Rothenfels
+"Rottenburg am Neckar"
+"Rottenburg an der Laaber"
+Röttingen
+Rottweil
+Rötz
+Rüdesheim
+Rudolstadt
+Ruhla
+Ruhland
+Runkel
+Rüsselsheim
+Rutesheim
+Rüthen
+Saalburg-Ebersdorf
+Saalfeld
+Saarbrücken
+Saarburg
+Saarlouis
+Sachsenhagen
+Sachsenheim
+Salzgitter
+Salzkotten
+Salzwedel
+Sandau
+Sandersdorf-Brehna
+Sangerhausen
+"Sankt Augustin"
+"Sankt Goar"
+"Sankt Goarshausen"
+Sarstedt
+Sassenberg
+Sassnitz
+Sayda
+Schalkau
+Schauenstein
+Scheer
+Scheibenberg
+Scheinfeld
+Schelklingen
+Schenefeld
+Scheßlitz
+Schieder-Schwalenberg
+Schifferstadt
+Schillingsfürst
+Schiltach
+Schirgiswalde-Kirschau
+Schkeuditz
+Schkölen
+Schleiden
+Schleiz
+Schleswig
+Schlettau
+Schleusingen
+Schlieben
+Schlitz
+"Schloß Holte-Stukenbrock"
+Schlotheim
+Schlüchtern
+Schlüsselfeld
+Schmalkalden
+Schmallenberg
+Schmölln
+Schnackenburg
+Schnaittenbach
+Schneeberg
+Schneverdingen
+Schömberg
+Schönau
+"Schönau im Schwarzwald"
+Schönberg
+Schönebeck
+Schöneck
+Schönewalde
+Schongau
+Schöningen
+Schönsee
+Schönwald
+Schopfheim
+Schöppenstedt
+Schorndorf
+Schortens
+Schotten
+Schramberg
+Schraplau
+Schriesheim
+Schrobenhausen
+Schrozberg
+Schüttorf
+Schwaan
+Schwabach
+"Schwäbisch Gmünd"
+"Schwäbisch Hall"
+Schwabmünchen
+Schwaigern
+"Schwalbach am Taunus"
+Schwalmstadt
+Schwandorf
+Schwanebeck
+"Schwarzenbach am Wald"
+"Schwarzenbach an der Saale"
+Schwarzenbek
+Schwarzenberg
+Schwarzenborn
+Schwarzheide
+Schwedt
+Schweich
+Schweinfurt
+Schwelm
+Schwentinental
+Schwerin
+Schwerte
+Schwetzingen
+Sebnitz
+Seehausen
+Seeland
+Seelow
+Seelze
+Seesen
+Sehnde
+Seifhennersdorf
+Selb
+Selbitz
+Seligenstadt
+Selm
+Selters
+Senden
+Sendenhorst
+Senftenberg
+Seßlach
+Siegburg
+Siegen
+Sigmaringen
+"Simbach am Inn"
+Simmern
+Sindelfingen
+Singen
+Sinsheim
+Sinzig
+Soest
+Solingen
+Solms
+Soltau
+Sömmerda
+Sondershausen
+Sonneberg
+Sonnewalde
+Sonthofen
+Sontra
+Spaichingen
+Spalt
+Spangenberg
+Speicher
+Spenge
+Speyer
+Spremberg
+Springe
+Sprockhövel
+Stade
+Stadtallendorf
+Stadtbergen
+Stadthagen
+Stadtilm
+Stadtlengsfeld
+Stadtlohn
+Stadtoldendorf
+Stadtprozelten
+Stadtroda
+Stadtsteinach
+Stadt Wehlen
+Starnberg
+Staßfurt
+"Staufen im Breisgau"
+Staufenberg
+Stavenhagen
+Reuterstadt
+"Sankt Blasien"
+Stein
+Steinach
+"Steinau an der Straße"
+Steinbach-Hallenberg
+Steinbach
+Steinfurt
+"Steinheim an der Murr"
+Steinheim
+Stendal
+Sternberg
+"Sankt Ingbert"
+"Sankt Georgen"
+Stockach
+Stolberg
+Stollberg
+Stolpen
+Storkow
+Stößen
+Straelen
+Stralsund
+Strasburg
+Straubing
+Strausberg
+Strehla
+Stromberg
+Stühlingen
+Stutensee
+Stuttgart
+"Sankt Wendel"
+"Südliches Anhalt"
+Suhl
+Sulingen
+"Sulz am Neckar"
+Sulzbach
+Sulzbach-Rosenberg
+Sulzburg
+Sundern
+Süßen
+Syke
+Tambach-Dietharz
+Tangerhütte
+Tangermünde
+"Tann am Rhön"
+Tanna
+Tauberbischofsheim
+Taucha
+Taunusstein
+Tecklenburg
+Tegernsee
+Telgte
+Teltow
+Templin
+Tengen
+Tessin
+Teterow
+Tettnang
+Teublitz
+Teuchern
+Teupitz
+Teuschnitz
+Thale
+Thalheim
+Thannhausen
+Tharandt
+Themar
+Thum
+Tirschenreuth
+Titisee-Neustadt
+Tittmoning
+Todtnau
+"Töging am Inn"
+Tönisvorst
+Tönning
+Torgau
+Torgelow
+Tornesch
+Traben-Trarbach
+Traunreut
+Traunstein
+Trebbin
+Trebsen
+Treffurt
+Trendelburg
+Treuchtlingen
+Treuen
+Treuenbrietzen
+"Triberg im Schwarzwald"
+Tribsees
+Trier
+Triptis
+Trochtelfingen
+Troisdorf
+Trossingen
+Trostberg
+Tübingen
+Tuttlingen
+Twistringen
+Übach-Palenberg
+Überlingen
+Uebigau-Wahrenbrück
+Ueckermünde
+Uelzen
+Uetersen
+Uffenheim
+Uhingen
+Ulm
+Ulmen
+Ulrichstein
+Ummerstadt
+Unkel
+Unna
+Unterschleißheim
+Usedom
+Usingen
+Uslar
+Vacha
+"Vaihingen an der Enz"
+Vallendar
+Varel
+Vechta
+Velbert
+Velburg
+Velden
+Velen
+Vellberg
+Vellmar
+Velten
+Verden
+Veringenstadt
+Verl
+Versmold
+Vetschau
+Spreewald
+Viechtach
+Viernheim
+Viersen
+Villingen-Schwenningen
+Vilsbiburg
+Vilseck
+Vilshofen
+Visselhövede
+Vlotho
+Voerde
+"Vogtsburg im Kaiserstuhl"
+"Vohburg an der Donau"
+Vohenstrauß
+Vöhrenbach
+Vöhringen
+Volkach
+Völklingen
+Volkmarsen
+Vreden
+"Wachenheim"
+Wächtersbach
+Wadern
+Waghäusel
+Wahlstedt
+Waiblingen
+Waibstadt
+Waischenfeld
+Waldbröl
+Waldeck
+Waldenbuch
+Waldenburg
+Waldenburg
+Waldershof
+Waldheim
+Waldkappel
+Waldkirch
+Waldkirchen
+Waldkraiburg
+Waldmünchen
+Waldsassen
+Waldshut-Tiengen
+Walldorf
+Walldürn
+Wallenfels
+Walsrode
+Waltershausen
+Waltrop
+Wanfried
+"Wangen im Allgäu"
+Wanzleben-Börde
+Warburg
+Waren
+Warendorf
+Warin
+Warstein
+Wassenberg
+"Wasserburg am Inn"
+Wassertrüdingen
+Wasungen
+Wedel
+Weener
+Wegberg
+Wegeleben
+Wehr
+Weida
+"Weiden in der Oberpfalz"
+Weikersheim
+"Weil am Rhein"
+Weilburg
+"Weil der Stadt"
+"Weilheim an der Teck"
+"Weilheim in Oberbayern"
+Weimar
+Weingarten
+Weinheim
+Weinsberg
+Weinstadt
+Weismain
+Weißenberg
+"Weißenburg in Bayern"
+Weißenfels
+Weißenhorn
+Weißensee
+Weißenstadt
+Weißenthurm
+Weißwasser
+Weiterstadt
+Welzheim
+Welzow
+Wemding
+"Wendlingen am Neckar"
+Werben
+Werdau
+Werder
+Havel
+Werdohl
+Werl
+Wermelskirchen
+Wernau
+Werne
+Werneuchen
+Wernigerode
+Wertheim
+Werther
+Wertingen
+Wesel
+Wesenberg
+Wesselburen
+Wesseling
+Westerburg
+Westerstede
+Wetter
+Ruhr
+Wetter
+Wettin-Löbejün
+Wetzlar
+Widdern
+Wiehe
+Wiehl
+Wiesbaden
+Wiesensteig
+Wiesloch
+Wiesmoor
+Wildau
+Wildberg
+Wildenfels
+Wildeshausen
+Wilhelmshaven
+Wilkau-Haßlau
+Willebadessen
+Willich
+Wilsdruff
+Wilster
+Wilthen
+Windischeschenbach
+Windsbach
+Winnenden
+Winsen
+Winterberg
+Wipperfürth
+Wirges
+Wismar
+Wissen
+Witten
+Wittenberg
+Wittenberge
+Wittenburg
+Wittichenau
+Wittlich
+Wittingen
+Wittmund
+Wittstock
+Dosse
+Witzenhausen
+Woldegk
+Wolfach
+Wolfenbüttel
+Wolfhagen
+Wolframs-Eschenbach
+Wolfratshausen
+Wolfsburg
+Wolfstein
+Wolgast
+Wolkenstein
+Wolmirstedt
+Worms
+Wörrstadt
+"Wörth am Rhein"
+"Wörth an der Donau"
+"Wörth am Main"
+Wriezen
+Wülfrath
+Wunsiedel
+Wunstorf
+Wuppertal
+Würselen
+Wurzbach
+Würzburg
+Wurzen
+Wustrow
+"Wyk auf Föhr"
+Xanten
+Zahna-Elster
+"Zarrentin am Schaalsee"
+Zehdenick
+"Zeil am Main"
+Zeitz
+"Zell am Harmersbach"
+"Zell im Wiesental"
+Zell
+Mosel
+Zella-Mehlis
+Zerbst
+"Zeulenroda-Triebes"
+Zeven
+Ziegenrück
+Zierenberg
+Ziesar
+Zirndorf
+Zittau
+Zörbig
+Zossen
+Zschopau
+Zülpich
+Zweibrücken
+Zwenkau
+Zwickau
+Zwiesel
+Zwingenberg
+Zwönitz
+Gera
+Breslau
+Langenbielau
+Reichenau
+Gottesberg-Rothenbach
+Bunzlau
+Buchwald
+Reichenbach
+Glogau
+Groß-Glogau
+Grebelwitz
+"Hermsdorf Städtisch"
+Jauer
+"Riesengebirge"
+Landeshut
+Kanth
+Glatz
+Liegnitz
+Liebau
+Lüben
+Michelsdorf
+Neurode
+Neisse
+Neiße
+Ohlau
+Oels
+Öls
+Peterswaldau
+Polkwitz
+Heerwegen
+Primkenau
+Zobten
+Striegau
+Strehlen
+Schweidnitz
+"Freiburg in Schlesien"
+Niederschwedeldorf
+Waldenburg
+Wansen
+Breslau
+"Frankenstein in Schlesien"
+Goldberg
+Bielitz
+Beuthen
+Königshütte
+Teschen
+Gleiwitz
+Leobschütz
+"Bad Ziegenhals"
+Kattowitz
+Kandrzin-Cosel
+Kreuzburg
+Krappitz
+"Ober Lazisk"
+Nicolai
+Myslowitz
+Neisse
+Rosenberg
+Oppeln
+Orzesche
+"Deutsch Piekar"
+Pless
+Ratibor
+Ruda
+Laurahütte
+"Groß Strehlitz"
+Schwientochlowitz
+Tarnowitz
+Tichau
+Hindenburg
+Deschowitz
+Sohrau
+Tannenburg
+Brandenburg
+Neidenburg
+Rastenburg
+Samland
+Tapiau
+Braunsberg
+Heilsberg
+Mohrungen
+Ermland
+Gumbinnen
+Gusev
+Insterburg
+Memel
+Olecko
+Ragnit
+Seehesten
+Sensburg
+Tilsit
+Allenburg
+Allenstein 
+Angerburg 
+Arys
+Barten
+Bartenstein
+Bischofsburg
+Bischofstein 
+Braunsberg 
+Darkehmen
+Angerapp 
+Domnau
+Bartenstein 
+Elbing
+Eydtkuhnen 
+Fischhausen 
+Frauenburg
+Friedland
+Gehlenburg
+Johannisburg
+Gerdauen
+Gilgenburg
+Goldap 
+Gumbinnen
+Guttstadt
+Heiligenbeil
+Heilsberg
+Heydekrug
+Hohenstein
+Insterburg
+Johannisburg
+Königsberg
+Kreuzburg 
+Labiau
+"Landsberg in Ostpreußen"
+Liebemühl
+Liebstadt
+Lötzen 
+Lyck
+Treuburg
+"Marienburg in Westpreußen"
+Mehlsack
+Braunsberg 
+Memel 
+Mohrungen
+Mühlhausen
+Neidenburg 
+Nikolaiken
+Sensburg
+Nordenburg
+Gerdauen
+Osterode 
+Passenheim
+Ortelsburg
+Peterswalde
+Osterode 
+Pillau
+Eylau 
+Ragnit
+Neman
+Rastenburg 
+Rhein
+Lötzen 
+Rößel 
+Saalfeld
+Mohrungen 
+Schippenbeil
+Bartenstein 
+Schirwindt
+Pillkallen-Schlossberg 
+Seeburg
+Rößel
+Sensburg 
+Soldau
+Neidenburg 
+Stallupönen
+Tapiau
+Wartenburg
+Allenstein 
+Wehlau 
+Willenberg
+Ortelsburg
+Wielbark
+Wormditt
+Braunsberg 
+Zinten 
+Posen
+Danzig
+Elblag
+Stettin
+Bromberg
+Elbing
+Hela
+Böhmen 
+Budweis
+Gumpolds
+Ledetsch
+Pilgrams
+Tabor
+Wittingau 
+Königgrätz
+Chrudim
+Hohenmauth
+Jitschin
+Königgrätz
+Königinhof
+Leitomischl
+Nachod
+Neu-Bidschow
+Neuenburg
+Pardubitz
+Reichenau
+Semil 
+Pilsen
+Klattau
+Kralowitz
+Pilsen-Land
+Pilsen-Stadt
+Pisek
+Schüttenhofen
+Strakonitz
+Taus 
+Prag
+Beneschau
+Beraun
+Böhmisch-Brod
+Brandeis
+Jungbunzlau
+Kladno
+Kolín
+Laun
+Melnik
+Pibrans
+Prag-Land-Nord
+Prag-Land-Süd
+Prag-Stadt
+Rakonitz
+Raudnitz
+Schlan
+Seltschan
+Tschaslau 
+Mähren 
+Brünn
+Boskowitz
+Brünn-Land
+Brünn-Stadt
+Gaya
+Göding
+Ungarisch-Brod
+Ungarisch-Hradisch
+Wischau
+Zline 
+Iglau
+Groß-Meseritsch
+Mährisch-Budwitz
+Neustadtl
+Trebitsch 
+Mährisch-Ostrau
+Friedberg
+Kremsier
+Littau
+Mährisch-Ostrau
+Mährisch-Weißkirchen
+Olmütz-Land
+Olmütz-Stadt
+Prerau
+Proßnitz
+Wallachisch-Meseritsch
+Wesetin 
+			}
+		}
+		
+		pc_desert = {
+			names = { "Uusi Yyteri"
+			}
+		}
+		
+		pc_tropical = {
+			names = {
+			}
+		}
+		
+		pc_arid = {
+			names = {
+			}
+		}
+		
+		pc_continental = {
+			names = {
+			}
+		}
+		
+		pc_ocean = {
+			names = { Saimaa Päijänne Inari Pielinen Oulujärvi Pihlajavesi Orivesi Haukivesi Keitele Kallavesi Puruvesi Pyhäselkä Puula Höytiäinen Näsijärvi Yli-Kitka Suvasvesi Pyhäjärvi Enonvesi Konnevesi Pyhäjärvi
+			}
+		}
+		
+		pc_tundra = {
+			names = { Ailakkavaara Halti Korsa Ounastunturi Saana Saivaara Urtasvaara Valkamapää Kaunispää Peltoaivi Jäkäläpää Pyhätunturi Pallas Levi Ruka Saariselkä Iso-Syöte Sallatunturi Napapiiri Kylmäluoma
+			}
+		}
+		
+		pc_arctic = {
+			names = {
+			}
+		}
+		
+	}
+	
+	### CHARACTERS
+	
+	character_names = {
+		default = {
+			weight = 60
+			# A complete name
+			full_names = {
+
+			}
+			
+			# Always combined with a second name
+			first_names_male = {
+Adolf Albrecht Artur August Benedikt Banne Bruno Christof Claus Dieter Dietmat Dietrich Eberhard Eckart Elias Emil Erich Erwin Franz
+				Friedrich Gerhard Günther Hans Harald Hartmut Hermann Hildebrant Hartmann Hugo Ingelbert Jakob Joachim Johann Julius Karl Karsten Klaus Kurt Konstantin Ludwig
+				Lothar Manfred Markus Maximillian Matthias Moritz Otto Oskar Paul Raimund Rainer Reinhold Rupert Rudolf Rudi Sepp Steffen Thaddäus
+				Theodor Tristan Torben Ulrich Viktor Vincen Volkhardt Walter Wenzel Werner Wilhem Wolf
+Anton Andreas 
+			Bruno Bernhard
+			Carl Carsten Christoph Christian Claus Konrad
+			Dieter Dietrich
+			Erich Eberhard Ernst Eckard Eduard
+			Frank Franz Ferdinand Fritz Friedrich
+			Gustav Gottfried Georg Gerhard Gottlieb
+			Heinrich Hannes Herbert Hans Heinz Hermann Hasso Hugo Helmuth
+			Johann Jakob Joachim Josef Julius 
+			Karl Kurt Kristoff Kris
+			Lothar Lukas Leopold
+			Martin Moritz Max Maximilian
+			Otto Oskar Oswald
+			Rudolf
+			Siegfried Stefan
+			Walter Werner Wolfgang Wolf
+			}
+			
+			first_names_female = {
+Herta Adele Anika Anja Anna Ann-Katrin Anni Astrid Augusta Berta Bernadette Brigitte Brünhilde Carmen Carla Corinna Cathrin Dora Dagmar Edda Elfriede
+				Elsa Ella Emmeline Erika Eva Flora Felizia Frieda Friederike Gabriele Gertrud Gretel Gundula Hanna Helga Hermine Hilda Ida Inga Ingrid Isabelle
+				Juliane Jutta Jana Karla Katarina Kirsten Kunigunde Madeleine Magda Margareta Maria Marta Melissa Monika Natalie Olivia Octavia Rachel Rosa Rita Sabine Sofie Sofia Tabea Trude Ulrike Ursula Veronika Viktoria Wilhemine Zoe Anna Amalie
+		Caroline Catherina Charlotte Kristel 
+		Dorte 
+		Elizabeth Elli Erna Effi Erika Elfriede Eva Edeltraut Else Elsa
+		Franziska Friedericke Franka 
+		Gisela Gerda
+		Hanna Hannelore Helene Helga
+		Irmgard Ingeborg
+		Johanna Julia Jael Jana
+		Liselotte Lotte
+		Marie Margarethe Maria Marianne Margot
+		Petra
+		Regina
+		Ursula
+		Waltraud Wilhelmine
+			}
+			# Always combined with a first name
+			second_names = {
+Hitler Goebles Goering Hess Himmler Heydrich "von Reichenbach" Tritt Speer Adler
+				Albrecht Aufhäuser Bach Beckenbauer Berghardt Blumenbach Bosch Böhm Blumenbach Bott Brandler Kranz Danzig Deichmann Denker Dönitz
+				Doerr Eckhart Engelbrecht Eggers Einsten Feldberg Freud Frankenburg Freund Geller Gessner Gehring Goff Goebbels Gruber Grob Hartmann Hacke Hammerl Handke
+				Hanning Hartwich Heckler Hoelderm Hoehman Herig Huber Huhn Jäger Janke Junkermann Kieber Lichtenberg Lieblein Schree "von Boden"
+				"von Roon" "von Hannover" "von Gebser" Blos Remmele Schmitt Schobber Steeb Voit Ungar Wehner Wexler Wettin Wernicke Möser Mannheimer Martin Olbrich Grimm
+				Gutzeit Haas Hampel Hauser Heiner Kaiser König Krupp Krupper Klein Kunz Landau Leibnitz Mahr Mandelbaum Merkel Müller Neumann Oldenbourg
+				Pfeiffer Porsche Reineke Rommel Schlögl Schwartz Specht Wahl Volkmer Vogel Weiß Wolfram Zuber Kaninchen
+		Schmidt Müller Meier
+		Aahrens Albrechts Anders 
+		Bartels Brahms Briest Böttcher Blum Brath Busch Brandt Burschel Böhmermann
+		Demels Drumpf Dorfmann Doberitz Diedrichs Dörr
+		Ebert Erlmann Evers Erhardt Esser Eckstein
+		Frehse Fischer Fietz Fuchs Feld
+		Gronholz Groener
+		Hohlbaum "Hübbe-Schleiden"
+		Klein Kaufmann Kesten König Krebs Kuhn
+		Lange Linde Lindemann Liebknecht
+		Mantzel Mann
+		Rambold Rath
+		Stamm Stresemann
+		Voss Vogt "von Schlieffen" "von Falkenhayn" "von Müffling" "von Seekt" "von Bloomberg" "von Waldersee" "von Gneisenau" "von Rauch" "von Grolman" "von Mülheim-Rechenberg" "von Schmerling" "von Bethman" "von Hertling" "von Bülow"
+		"von Kleefeld" "von Bernstorff" "von Blumenthal" "von Boehmer" "von Roenne" "von Wartenburg" "von Quirnheim" "von Hardenberg" "von Hirschhausen" "von Guttenberg" "von Haeften" "von Tresckow" "von Trotha" "von Dietze" "von der Groeben"
+Wittmann Winter Wirth
+		"Eulenburg" "Winternsee" "Hohenlohe" "Hohenlohe-Schillingfürst" "Schulenburg"
+			}
+			
+			regnal_first_names_male = {
+Ludolf Maximillian Hans Erich Herbet Adolf Josef Werner Helmut Ernst Otto Viktor Franz Hermann Kurt Karl Dietrich Gottfried Wilhelm Reinhard Emil Matthias Gustav Viktor Erwin Ernst Paul Otto Julius Karl-Maria Karl Hermann Hartmann Rudolf Joachim Felix Augustus Rainer Friedrich Wilhelm Karl Georg Ludwig Albert Heinrich "Friedrich Wilhelm" "Friedrich Karl"
+			}
+			
+			regnal_first_names_female = {
+Jael Angela Erika Gertrud Elsa Anna Frieda Gabriele Gretel Veronika Sofie Ursula Jael Augusta "Auguste Viktoria" Victoria Maria Luise "Viktoria Luise" Adelheid Alexandra "Marie Auguste" "Sophie Charlotte" "Sophie Dorothee" "Friederike Caroline Luise"
+			}
+			
+			regnal_second_names = {
+"von Reichenbach" "von Preußen" "von Bayern" "von Mecklenburg" "von Württemberg" "von Baden" "von Hannover" "von Sachsen" "von Ribbentrop"
+			}
+		}
+		fin1 = {
+			weight = 1
+			first_names_male = {
+				Aadolf Aapeli Aapo Aarne Aarno Aaro Arto Aatu Ahti Aki Aleksi Aleksanteri Alvar Anssi Antti Antero Ari Arttu Artturi Asko Asmo Aulis Auvo Eedvard Eelis Eemil Eemeli Eerik Eerikki Eero Eetu Einari Eevert Elias Elmeri Elmo Erkki Ernesti Erno Esa Esko Frans "Frans Eemil" Hannes Hannu Harri Hans Heikki Heino Hemminki Hemmo Henri Henrikki Herkko Herman Hermanni Iiro Iisakki Iivari Ilkka Ilmari Ilpo Immanuel Ismo Jaakko Jaakoppi Jalmari Jani Janne Jari Jarmo Jarno Jeremias Jesper Jesse Jimi Joel Johannes Joni Jonne Joona Joonas Joonatan Jooseppi Jorma Juha Juhana Juhani Juho Jukka Jussi Julius Jyrki Jyri Kaarle Kaarlo Kaapo Kai Kalevi Kalle Kari Karri Kasperi Keijo Kimi Klaus Kimmo Kullervo Kristian Kustaa Kyösti Lari Lasse Lassi Lauri Leevi Leo Luukas Manu Markku Marko Markus Matti Martti Matias Mauno Mauri Miika Mika Mikko Mikael Nestori Niklas Niko Nikolai Nooa Olavi Olli Onni Oskari Osmo Ossi Otto Otso Paavali Paavo Panu Pasi Patrik Pauli Pekka Pekko Pellervo Pentti Pertti Petri Pietari Petteri Pyry Raimo Rainer Rasmus Rami Reijo Reino Riku Risto Roope Sakari Saku Sami Samu Sampo Santeri Sauli Sebastian Seppo Simo Sulo Taavi Tahvo Taneli Tapani Tatu Tarmo Teemu Teppo Tero Timo Toivo Touko Tuomas Tuomo Turkka Ukko Urho Urmas Uuno Valdemar Valtteri Veijo Veli Vesa Vilho Viljami Ville Väinö Yrjö Yrjänä
+			}
+			first_names_female = {
+				Aada Aila Aino Aliisa Alma Anita Anja Anne Anni Anna Anu Arja Auli Aune Eerika Eeva Eevi Eija Eila Elena Eleonoora Elisa Elisabet Elvi Elviira Emma Emmi Esteri Eveliina Hanna Hannele Heidi Helena Heli Henna Henriikka Hertta Hilja Hilkka Iida Iina Ilona Impi Inka Inkeri Irja Irma Irmeli Jaana Janika Jenna Jenni Julia Jonna Josefiina Jutta Kaija Kaisa Kaisu Kati Katariina Katja Katri Katriina Kerttu Kiira Kirsi Kirsti Krista Kukka-Maaria Kylli Kyllikki Leena Lea Laura Leila Liina Lilja Lotta Linnea Maarit Maiju Maija Maire Maisa Mari Maria Marika Marjatta Marjut Meeri Mervi Merja Minna Milla Minttu Mirva Nelli nea Noora Oona Paula Pauliina Peppi Petra Piia Pinja Pirjo Päivi Raakel Raija Raili Reetta Reija Riikka Riina Roosa Ritva Ruut Saija Salla Sanna Sanni Sara Sari Satu Siiri Sini Sirja Sirkka Sofia Susanna Tanja Tarja Taru Teija Terhi Tiia Tiina Titta Tuija Tuuli Ulla Ulpu Ursula Vappu Veera Venla Viivi Virpi
+			}
+			second_names = {
+				Korhonen Virtanen Mäkinen Nieminen Mäkelä Hämäläinen Laine Heikkinen Koskinen Järvinen Lehtonen Lehtinen Saarinen Salminen Heinonen Niemi Heikkilä Salonen Kinnunen Turunen Salo Laitinen Rantanen Tuominen Karjalainen Jokinen Mattila Lahtinen Savolainen Ahonen Leppänen Ojala Väisänen Hiltunen Miettinen Leinonen Aaltonen Kallio Pitkänen Manninen Honkala Anttila Koivisto Laaksonen Hirvonen Räsänen Laakso Lehto Toivonen Aalto Nurmi Seppälä Saari Lahti Salminen Koskela Suominen Aho Halonen Urpilainen Sipilä Katainen Rehn Ranta Peltola Oksanen Vainio Mäki Määttä Koski Ahmavaara Louhivuori Malmivaara Mannermaa Nevanlinna Häkkinen Hiidenheimo Arajärvi Suolahti Tulenheimo Virkkunen Peurakoski Linkola Vartia Hietala Alanko Saastamoinen Uosoukainen Särkkä Siitoin "Halla-aho" Soini Tammi Koivu Kummola Karhuvaara Saarikangas Mäntymaa Wallinheimo Ahvenjärvi Kärkkäinen Seivästö Rautiainen Itälä Kivitie Ukkola Kanerva Perälä Salovaara Aaltio Kekkonen Mustakallio Saari Juhantalo Lämsä Korkaoja Särkiniemi Uusipaavalniemi Hirvisaari Luoma Louhelainen Turhapuro Väyrynen Wettenhovi-Aspa
+
+			}
+			regnal_first_names_male = {
+				Väinö Urho Kaleva Aadolf Henrik Eerik Kaarle Paavo
+			}
+			regnal_first_names_female = {
+				Anastasia Katariina Anna Elisabet Maria 
+			}
+			regnal_second_names = {
+				Ehrnrooth Adlercreutz Snellman Agricola Stjernvall Mannerheim Armfelt Creutz Väyrynen
+			}	
+		}
+		
+		fin2 = {
+			weight = 1
+			first_names_male = {
+				Adolf Alex Alvar Artur Axel Benjamin Björn Bjarne Börje Daniel Edvard Einar Elias Eliel Elmer Emil Erik Ernst Fredrik Gottfrid Gerhard Gustav Göran Harald Henrik Hemming Hjalmar Håkan Ingvar Ingmar Jan Jonatan Jögen Jörn Kaj Kalle Kennet Kettil Klaus Knut Kristian Kristoffer Lars Lasse Leif Lennart Leo Linus Lukas Magnus Mattias Mikael Mårten Niklas Nils Olav Olof Oskar Otto Patrik Peter Petter Rabbe Ragnar Ragnvald Ralf Rasmus Robert Roger Runar Samuel Sigfrid Sigvard Sigurd Sixten Sture Stefan Staffan Sven Sverker Theo Torbjörn Torsten Tryggve Ulf Ulrik Uno Valdemar Yngve Åke Zacharias
+			}
+			first_names_female = {
+				Ada Agneta Aino Amanda Birgit Berta Birgitta Brita Camilla Carita Carola Cassandra Charlotta Dagmar Dora Ebba Eleonora Elisabet Elise Ellinor Elvira Erin Erika Eva Evelina Fanny Fredrika Frida Gabriella Gertrud Gudrun Gunilla Göta Hanna Heidi Helga Henrietta Henrika Hilda Hjördis Ida Inga Ingrid Janina Jenna Jenny Johanna Julia Jutta Kajsa Katja Kira Kristina Laura Lea Leila Leonora Lilja Lilli Lotta Madeleina Maja Maria Marianne Marit Mette Milla Minna Mirjam Mona Monika Nea Nina Nora Olivia Pamela Paula Paulina Pernilla Petra Rut Rebecka Sandra Sanna Sara Sigrid Siri Sofia Sonja Stella Susanna Sylvia Terese Ulrika Ursula Vanessa Vera Viktoria Veronika Vivian Åsa
+				
+			}
+			second_names = {
+				Ahrne Allen Berg Bergenström Bergholm Biskop Ericson Greve Grenholm Henrikson Holm Holmgren Holmberg Holmqvist Ivarson Kajander Krogarus Kvist Lind Lennartsson Malmgård Malmsten Nygård Präst Qvist Rönnqvist Rönndahl Dahl Stig Sten Stenberg Svanberg Stansgard Trygg Ö Öberg Ehrnrooth Armfelt Estlander Nordenswan Snellman Furuhjelm Lindelöf "af Heurlin" "af Fulkila" "af Ursin" Antell Eneberg
+				
+			}
+			regnal_first_names_male = {
+				Karl "Karl Johan" Oscar Gustaf "Gustaf Adolf" Sigismund Johan Kristian Erik Sten Väinö
+			}
+			regnal_first_names_female = {
+				Ulrika Kristina Anna Maria
+			}
+			regnal_second_names = {
+				Ehrnrooth Adlercreutz Snellman Agricola Stjernvall Mannerheim Armfelt Creutz
+			}
+		}
+
+		fin3 = {
+			weight = 1
+			first_names_male = {
+				Adolf Alex Alvar Artur Axel Benjamin Björn Bjarne Börje Daniel Edvard Einar Elias Eliel Elmer Emil Erik Ernst Fredrik Gottfrid Gerhard Gustav Göran Harald Henrik Hemming Hjalmar Håkan Ingvar Ingmar Jan Jonatan Jögen Jörn Kaj Kalle Kennet Kettil Klaus Knut Kristian Kristoffer Lars Lasse Leif Lennart Leo Linus Lukas Magnus Mattias Mikael Mårten Niklas Nils Olav Olof Oskar Otto Patrik Peter Petter Rabbe Ragnar Ragnvald Ralf Rasmus Robert Roger Runar Samuel Sigfrid Sigvard Sigurd Sixten Sture Stefan Staffan Sven Sverker Theo Torbjörn Torsten Tryggve Ulf Ulrik Uno Valdemar Yngve Åke Zacharias
+			}
+			first_names_female = {
+				Ada Agneta Aino Amanda Birgit Berta Birgitta Brita Camilla Carita Carola Cassandra Charlotta Dagmar Dora Ebba Eleonora Elisabet Elise Ellinor Elvira Erin Erika Eva Evelina Fanny Fredrika Frida Gabriella Gertrud Gudrun Gunilla Göta Hanna Heidi Helga Henrietta Henrika Hilda Hjördis Ida Inga Ingrid Janina Jenna Jenny Johanna Julia Jutta Kajsa Katja Kira Kristina Laura Lea Leila Leonora Lilja Lilli Lotta Madeleina Maja Maria Marianne Marit Mette Milla Minna Mirjam Mona Monika Nea Nina Nora Olivia Pamela Paula Paulina Pernilla Petra Rut Rebecka Sandra Sanna Sara Sigrid Siri Sofia Sonja Stella Susanna Sylvia Terese Ulrika Ursula Vanessa Vera Viktoria Veronika Vivian Åsa
+				
+			}
+			second_names = {
+				Korhonen Virtanen Mäkinen Nieminen Mäkelä Hämäläinen Laine Heikkinen Koskinen Järvinen Lehtonen Lehtinen Saarinen Salminen Heinonen Niemi Heikkilä Salonen Kinnunen Turunen Salo Laitinen Rantanen Tuominen Karjalainen Jokinen Mattila Lahtinen Savolainen Ahonen Leppänen Ojala Väisänen Hiltunen Miettinen Leinonen Aaltonen Kallio Pitkänen Manninen Honkala Anttila Koivisto Laaksonen Hirvonen Räsänen Laakso Lehto Toivonen Aalto Nurmi Seppälä Saari Lahti Salminen Koskela Suominen Aho Halonen Urpilainen Sipilä Katainen Rehn Ranta Peltola Oksanen Vainio Mäki Määttä Koski Ahmavaara Louhivuori Malmivaara Mannermaa Nevanlinna Häkkinen Hiidenheimo Arajärvi Suolahti Tulenheimo Virkkunen Peurakoski Linkola Vartia Hietala Alanko Saastamoinen Uosoukainen Särkkä Siitoin "Halla-aho" Soini Tammi Koivu Kummola Karhuvaara Saarikangas Mäntymaa Wallinheimo Ahvenjärvi Kärkkäinen Seivästö Rautiainen Itälä Kivitie Ukkola Kanerva Perälä Salovaara Aaltio Kekkonen Mustakallio Saari Juhantalo Lämsä Korkaoja Särkiniemi Uusipaavalniemi Hirvisaari Luoma Louhelainen Turhapuro Väyrynen Wettenhovi-Aspa
+
+			}
+			regnal_first_names_male = {
+				Karl "Karl Johan" Oscar Gustaf "Gustaf Adolf" Sigismund Johan Kristian Erik Sten Väinö
+			}
+			regnal_first_names_female = {
+				Ulrika Kristina Anna Maria
+			}
+			regnal_second_names = {
+				Ehrnrooth Adlercreutz Snellman Agricola Stjernvall Mannerheim Armfelt Creutz Väyrynen
+			}
+		}
+
+		fin4 = {
+			weight = 1
+			first_names_male = {
+				Aadolf Aapeli Aapo Aarne Aarno Aaro Arto Aatu Ahti Aki Aleksi Aleksanteri Alvar Anssi Antti Antero Ari Arttu Artturi Asko Asmo Aulis Auvo Eedvard Eelis Eemil Eemeli Eerik Eerikki Eero Eetu Einari Eevert Elias Elmeri Elmo Erkki Ernesti Erno Esa Esko Frans "Frans Eemil" Hannes Hannu Harri Hans Heikki Heino Hemminki Hemmo Henri Henrikki Herkko Herman Hermanni Iiro Iisakki Iivari Ilkka Ilmari Ilpo Immanuel Ismo Jaakko Jaakoppi Jalmari Jani Janne Jari Jarmo Jarno Jeremias Jesper Jesse Jimi Joel Johannes Joni Jonne Joona Joonas Joonatan Jooseppi Jorma Juha Juhana Juhani Juho Jukka Jussi Julius Jyrki Jyri Kaarle Kaarlo Kaapo Kai Kalevi Kalle Kari Karri Kasperi Keijo Kimi Klaus Kimmo Kullervo Kristian Kustaa Kyösti Lari Lasse Lassi Lauri Leevi Leo Luukas Manu Markku Marko Markus Matti Martti Matias Mauno Mauri Miika Mika Mikko Mikael Nestori Niklas Niko Nikolai Nooa Olavi Olli Onni Oskari Osmo Ossi Otto Otso Paavali Paavo Panu Pasi Patrik Pauli Pekka Pekko Pellervo Pentti Pertti Petri Pietari Petteri Pyry Raimo Rainer Rasmus Rami Reijo Reino Riku Risto Roope Sakari Saku Sami Samu Sampo Santeri Sauli Sebastian Seppo Simo Sulo Taavi Tahvo Taneli Tapani Tatu Tarmo Teemu Teppo Tero Timo Toivo Touko Tuomas Tuomo Turkka Ukko Urho Urmas Uuno Valdemar Valtteri Veijo Veli Vesa Vilho Viljami Ville Väinö Yrjö Yrjänä
+			}
+			first_names_female = {
+				Aada Aila Aino Aliisa Alma Anita Anja Anne Anni Anna Anu Arja Auli Aune Eerika Eeva Eevi Eija Eila Elena Eleonoora Elisa Elisabet Elvi Elviira Emma Emmi Esteri Eveliina Hanna Hannele Heidi Helena Heli Henna Henriikka Hertta Hilja Hilkka Iida Iina Ilona Impi Inka Inkeri Irja Irma Irmeli Jaana Janika Jenna Jenni Julia Jonna Josefiina Jutta Kaija Kaisa Kaisu Kati Katariina Katja Katri Katriina Kerttu Kiira Kirsi Kirsti Krista Kukka-Maaria Kylli Kyllikki Leena Lea Laura Leila Liina Lilja Lotta Linnea Maarit Maiju Maija Maire Maisa Mari Maria Marika Marjatta Marjut Meeri Mervi Merja Minna Milla Minttu Mirva Nelli nea Noora Oona Paula Pauliina Peppi Petra Piia Pinja Pirjo Päivi Raakel Raija Raili Reetta Reija Riikka Riina Roosa Ritva Ruut Saija Salla Sanna Sanni Sara Sari Satu Siiri Sini Sirja Sirkka Sofia Susanna Tanja Tarja Taru Teija Terhi Tiia Tiina Titta Tuija Tuuli Ulla Ulpu Ursula Vappu Veera Venla Viivi Virpi
+			}
+			second_names = {
+				Ahrne Allen Berg Bergenström Bergholm Biskop Ericson Greve Grenholm Henrikson Holm Holmgren Holmberg Holmqvist Ivarson Kajander Krogarus Kvist Lind Lennartsson Malmgård Malmsten Nygård Präst Qvist Rönnqvist Rönndahl Dahl Stig Sten Stenberg Svanberg Stansgard Trygg Ö Öberg Ehrnrooth Armfelt Estlander Nordenswan Snellman Furuhjelm Lindelöf "af Heurlin" "af Fulkila" "af Ursin" Antell Eneberg
+				
+			}
+			regnal_first_names_male = {
+				Väinö Urho Kaleva Aadolf Henrik Eerik Kaarle Paavo
+			}
+			regnal_first_names_female = {
+				Anastasia Katariina Anna Elisabet Maria 
+			}
+			regnal_second_names = {
+				Ehrnrooth Adlercreutz Snellman Agricola Stjernvall Mannerheim Armfelt Creutz
+			}	
+		}
+		
+		slavic = {
+			weight = 10
+			first_names_male = {
+				Ivan Nikolai Boris Vladimir Pyotr Alexei Dmitri Sergei Viktor Roman Igor Mikhail Vasily Pavel Fyodor Nikita Valery
+				Vladislav Leonid Maxim Yuri Oleg Andrei Konstantin Vyacheslav Aleksandr Stanislav Anatoli Miroslav Artyom Bogdan
+				Branislav Ilya Jaroslav Radomir Kirill Radoslav Lubomir Ratimir Yegor German
+			}
+			first_names_female = {
+				Anna Yelena Olga Oksana Tatyana Svetlana Nadya Yekaterina Irina Galina Miroslava Anastasia Vera Polina Lyudmila Elena
+				Marina Darya Irma Ksenia Alexandra Nadesja Valentina Arina Alya Galenka Katya Ljuba Radmila Natacha Vlada Nadezhda
+				Tatiana Sonia Mira
+				
+			}
+			second_names = {
+				Grishina Fedorov Komarov Pushkov Petrenko Shatalov Ivanov Kamensky Vasiliev Ulanov Volkov Gryaznov Dudnik Yerzov Zhirov
+				Zhivenkov Kazakov Krutov Ivannikov Kolosov Kuzin Larionov Maksimushkin Markov Ostrovsky Polachev Rychenkov Romanov
+				Sayanovich Statnik Sorokin Turgenev Titov Tvardovsky Antonov Skobelev Lazarev Makarov Dragomirov Alexseyev 
+			} 
+			regnal_first_names_male = {
+				Friedrich Wilhelm "Friedrich Wilhelm" Karl Heinrich Ferdinand Maximilian
+			}
+			regnal_first_names_female = {
+				Luise Auguste Viktoria "Viktoria Luise"
+			}
+			regnal_second_names = {
+				"von Hohenzollern"
+			}
+		}
+		
+		italian1 = {
+			weight = 15
+			first_names_male = {
+				Mario Luigi Giovanni Guiseppe Antonio Roberto Andrea Stefano Marco Franscesco Angelo Vincenzo Pietro Salvatore Carlo Franco
+				Domenico Bruno Paulo Michele Giorgio Sergio Luciano Alessandro Alfonso Benito Fabrizio Cesare Enrico Gustavo Silvio Umberto
+				Nicola Matteo Ignazio Camillo Daniele Cristian Alberto Guido Lorenzo Tommaso Fabio
+			}
+			first_names_female = {
+				Maria Anna Guiseppina Rosa Angela Giovanna Teresa Lucia Carmela Caterina Francesca Antonietta Carla Elena Concetta Rita
+				Margherita Franca Paola Vittoria Arianna Orietta Nicoletta Clara Stefania Gisella Claudia Lorenza Gabriella Isabella Valeria
+				Lucrezia Dina Benedetta Pietra
+			}
+			second_names = {
+				Rossi Russo Ferrari Bianchi Ricci Marino "De Luca" Costa Giordano Mancini Rizzo Lombardi Moretti Ravelli Conti Gallo Bello
+				Albricci Badoglio Cappello "Di Robilant" "Di Savoia" Garibaldi Saletta Pallavicino Pianelli Mambretti Marcuzzi Valeri Pezzaglia
+				Balletti Bianconelli Antonelli Corsini D'Alessandro D'Agostino "De Rosa" "De Sciglio" "Di Chiara" "Di Bartolomei" Delvecchio
+				"Del Grosso" D'Antoni Fazio "Di Bella" "Di Gennaro" Fabbrini Gambadori Galvani Marchetti Mazzitelli Olivieri Pacini Quadrini
+			} 
+			regnal_first_names_male = {
+				Friedrich Wilhelm "Friedrich Wilhelm" Karl Heinrich Ferdinand Maximilian
+			}
+			regnal_first_names_female = {
+				Luise Auguste Viktoria "Viktoria Luise"
+			}
+			regnal_second_names = {
+				"von Hohenzollern"
+			}
+		}
+		
+		japan = {
+			weight = 15
+                        full_names = {
+                                
+                        }
+			first_names_male = {
+				Aki Akihiko Akira Arata Daichi Daiki Daisuke Eiji Fumoi Goro Hajimi Hideaki Hideki Hideo Hiroyuki Hisashi Hitoshi Hotaka Ichiro Isamu Iwao Jiro Jun Juro Katsu Katsumi Katsuno Kazuhiko Kazuhiro Kazuki Keiji Kentai Koji Makoto Mamoru Manabu Masahiro Masaki Masanori Masao Masaru Masashi Masato Mikio Nobuo Borio Osamu Ryo Saburo Ryotai Shoichi Shoji Shou Tadao Takahiro Takayuki Takehiro Takeo Tetsuya Toshiyuki Yasuo Yoshiaki Yoshiro Yutaka
+			}
+
+			first_names_female = {
+				Aika Aiko Aimi Akane Akemi Akiko Aoi Asuka Atsuko Ayako Chie Chieko Chiharu Chinatsu Chiyoko Chiyo Emi Eri Emiko Fumiko Hanako Haru Haruka Harumi Hikari HIkaru Hisako Izumi Junko Kaede Kameko Kaori Kaoru Kasumi Kei Kazumi Kayoko Kotone Maki Manami Mariko Misaki Mitsuru Momoko Moriko Ren Rie Rika Rei Ran Riko Saki Sakino Sakura Sayuri Shigeko Shinju Shiori Shizuka Sumiko Suzu Tomiko Tamiko Tsukiko Yasuko Yoko Yukiko Yuka Yumiko Yuriko
+			}
+			
+			second_names = {
+				Abe Akiyama Fujimoto Fujita Fukui Hamasaki Hashimoto Hayashi Honda Inoue Ishikawa Ito Kato Kawaguchi Kimura Koizumi Maeda Kurosawa Maki Matsumoto Matsuoka Matsushita Minami Miyamoto Mizushima Mori Nakahara Nakajima Nakamura Nakano Nakashima Nishimura Oshiro Saito Sasaki Sato Shimizu Szuiki Tachibana Takahashi Takenaka Tanaka Ueda Ueno Watanabe Yamada Yamaguchi Yamamoto Yamasaki Yamashita Yamauchi Yamazaki Yoshida Yukimura
+			}
+
+			regnal_first_names_male = {
+				Aki Akihiko Akira Arata Daichi Daiki Daisuke Eiji Fumoi Goro Hajimi Hideaki Hideki Hideo Hiroyuki Hisashi Hitoshi Hotaka Ichiro Isamu Iwao Jiro Jun Juro Katsu Katsumi Katsuno Kazuhiko Kazuhiro Kazuki Keiji Kentai Koji Makoto Mamoru Manabu Masahiro Masaki Masanori Masao Masaru Masashi Masato Mikio Nobuo Borio Osamu Ryo Saburo Ryotai Shoichi Shoji Shou Tadao Takahiro Takayuki Takehiro Takeo Tetsuya Toshiyuki Yasuo Yoshiaki Yoshiro Yutaka
+			}
+
+			regnal_first_names_female = {
+				Aika Aiko Aimi Akane Akemi Akiko Aoi Asuka Atsuko Ayako Chie Chieko Chiharu Chinatsu Chiyoko Chiyo Emi Eri Emiko Fumiko Hanako Haru Haruka Harumi Hikari HIkaru Hisako Izumi Junko Kaede Kameko Kaori Kaoru Kasumi Kei Kazumi Kayoko Kotone Maki Manami Mariko Misaki Mitsuru Momoko Moriko Ren Rie Rika Rei Ran Riko Saki Sakino Sakura Sayuri Shigeko Shinju Shiori Shizuka Sumiko Suzu Tomiko Tamiko Tsukiko Yasuko Yoko Yukiko Yuka Yumiko Yuriko
+			}
+
+			regnal_second_names = {
+				Abe Akiyama Fujimoto Fujita Fukui Hamasaki Hashimoto Hayashi Honda Inoue Ishikawa Ito Kato Kawaguchi Kimura Koizumi Maeda Kurosawa Maki Matsumoto Matsuoka Matsushita Minami Miyamoto Mizushima Mori Nakahara Nakajima Nakamura Nakano Nakashima Nishimura Oshiro Saito Sasaki Sato Shimizu Szuiki Tachibana Takahashi Takenaka Tanaka Ueda Ueno Watanabe Yamada Yamaguchi Yamamoto Yamasaki Yamashita Yamauchi Yamazaki Yoshida Yukimura
+			}
+		}
+	}
+}

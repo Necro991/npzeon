@@ -1,0 +1,27 @@
+# zeon
+part = {
+	location = 0
+	localization = "START_SCREEN_Zeon"
+	
+	trigger = {
+		has_country_flag = Zeon_Start
+		}
+}
+
+part = {
+	location = 0
+	localization = "START_SCREEN_NeoZeon"
+	
+	trigger = {
+		has_country_flag = Neo_Zeon_Start
+		}
+}
+
+part = {
+	location = 0
+	localization = "START_SCREEN_Axis"
+	
+	trigger = {
+		has_country_flag = Axis_Zeon_Start
+		}
+}

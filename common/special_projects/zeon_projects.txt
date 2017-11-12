@@ -1,0 +1,23 @@
+special_project = {
+	key = "NEWTYPE_PROJECT"
+	cost = 0
+	days_to_research = 360
+	tech_department = society_technology
+	picture = GFX_evt_Newtypes
+	icon = "gfx/interface/icons/situation_log/situation_log_debris.dds"
+
+	event_scope = country_event
+
+	requirements = {
+		shipclass_science_ship = 1
+		leader = scientist
+		skill > 2
+	}
+	
+	on_success = {
+		event = { id = newtypes.2 }
+	}
+	
+	on_fail = {
+	}
+}

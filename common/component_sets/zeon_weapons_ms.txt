@@ -1,0 +1,280 @@
+# Icons set here are the ones shown in component editor list.
+
+component_set = {
+	key = "100mm"
+	icon = "GFX_ship_part_100mm"
+	icon_frame = 1
+}
+
+component_set = {
+	key = "105mm"
+	icon = "GFX_ship_part_105mm"
+	icon_frame = 1
+}
+
+component_set = {
+	key = "120mm"
+	icon = "GFX_ship_part_120mm"
+	icon_frame = 1
+}
+
+component_set = {
+	key = "80mm"
+	icon = "GFX_ship_part_80mm"
+	icon_frame = 1
+}
+
+component_set = {
+	key = "rifle_1"
+	icon = "GFX_ship_part_rifle_1"
+	icon_frame = 1
+}
+
+component_set = {
+	key = "rifle_2"
+	icon = "GFX_ship_part_rifle_2"
+	icon_frame = 1
+}
+
+component_set = {
+	key = "rifle_3"
+	icon = "GFX_ship_part_rifle_3"
+	icon_frame = 1
+}
+
+component_set = {
+	key = "sturm_faust_1"
+	icon = "GFX_ship_part_sturm_faust_1"
+	icon_frame = 1
+}
+
+component_set = {
+	key = "sturm_faust_2"
+	icon = "GFX_ship_part_sturm_faust_2"
+	icon_frame = 1
+}
+
+component_set = {
+	key = "sturm_faust_3"
+	icon = "GFX_ship_part_sturm_faust_3"
+	icon_frame = 1
+}
+
+component_set = {
+	key = "bazooka_1"
+	icon = "GFX_ship_part_bazooka1"
+	icon_frame = 1
+}
+
+component_set = {
+	key = "bazooka_2"
+	icon = "GFX_ship_part_bazooka2"
+	icon_frame = 1
+}
+
+component_set = {
+	key = "bazooka_3"
+	icon = "GFX_ship_part_bazooka3"
+	icon_frame = 1
+}
+
+component_set = {
+	key = "beam_bazooka"
+	icon = "GFX_ship_part_beam_bazooka"
+	icon_frame = 1
+}
+
+#
+# Axis stuffs
+#
+
+component_set = {
+	key = "Axis_100mm"
+	icon = "GFX_ship_part_100mm"
+	icon_frame = 1
+}
+
+component_set = {
+	key = "Axis_105mm"
+	icon = "GFX_ship_part_105mm"
+	icon_frame = 1
+}
+
+component_set = {
+	key = "Axis_120mm"
+	icon = "GFX_ship_part_120mm"
+	icon_frame = 1
+}
+
+component_set = {
+	key = "Axis_80mm"
+	icon = "GFX_ship_part_80mm"
+	icon_frame = 1
+}
+
+component_set = {
+	key = "Axis_rifle_1"
+	icon = "GFX_ship_part_rifle_1"
+	icon_frame = 1
+}
+
+component_set = {
+	key = "Axis_rifle_2"
+	icon = "GFX_ship_part_rifle_2"
+	icon_frame = 1
+}
+
+component_set = {
+	key = "Axis_rifle_3"
+	icon = "GFX_ship_part_rifle_3"
+	icon_frame = 1
+}
+
+component_set = {
+	key = "Axis_sturm_faust_1"
+	icon = "GFX_ship_part_sturm_faust_1"
+	icon_frame = 1
+}
+
+component_set = {
+	key = "Axis_sturm_faust_2"
+	icon = "GFX_ship_part_sturm_faust_2"
+	icon_frame = 1
+}
+
+component_set = {
+	key = "Axis_sturm_faust_3"
+	icon = "GFX_ship_part_sturm_faust_3"
+	icon_frame = 1
+}
+
+component_set = {
+	key = "Axis_bazooka_1"
+	icon = "GFX_ship_part_bazooka1"
+	icon_frame = 1
+}
+
+component_set = {
+	key = "Axis_bazooka_2"
+	icon = "GFX_ship_part_bazooka2"
+	icon_frame = 1
+}
+
+component_set = {
+	key = "Axis_bazooka_3"
+	icon = "GFX_ship_part_bazooka3"
+	icon_frame = 1
+}
+
+#
+#Neo Zeon
+#
+
+component_set = {
+	key = "Neo_100mm"
+	icon = "GFX_ship_part_100mm"
+	icon_frame = 1
+}
+
+component_set = {
+	key = "Neo_105mm"
+	icon = "GFX_ship_part_105mm"
+	icon_frame = 1
+}
+
+component_set = {
+	key = "Neo_120mm"
+	icon = "GFX_ship_part_120mm"
+	icon_frame = 1
+}
+
+component_set = {
+	key = "Neo_80mm"
+	icon = "GFX_ship_part_80mm"
+	icon_frame = 1
+}
+
+component_set = {
+	key = "Neo_rifle_1"
+	icon = "GFX_ship_part_rifle_1"
+	icon_frame = 1
+}
+
+component_set = {
+	key = "Neo_rifle_2"
+	icon = "GFX_ship_part_rifle_2"
+	icon_frame = 1
+}
+
+component_set = {
+	key = "Neo_rifle_3"
+	icon = "GFX_ship_part_rifle_3"
+	icon_frame = 1
+}
+
+component_set = {
+	key = "Neo_sturm_faust_1"
+	icon = "GFX_ship_part_sturm_faust_1"
+	icon_frame = 1
+}
+
+component_set = {
+	key = "Neo_sturm_faust_2"
+	icon = "GFX_ship_part_sturm_faust_2"
+	icon_frame = 1
+}
+
+component_set = {
+	key = "Neo_sturm_faust_3"
+	icon = "GFX_ship_part_sturm_faust_3"
+	icon_frame = 1
+}
+
+component_set = {
+	key = "Neo_bazooka_1"
+	icon = "GFX_ship_part_bazooka1"
+	icon_frame = 1
+}
+
+component_set = {
+	key = "Neo_bazooka_2"
+	icon = "GFX_ship_part_bazooka2"
+	icon_frame = 1
+}
+
+component_set = {
+	key = "Neo_bazooka_3"
+	icon = "GFX_ship_part_bazooka3"
+	icon_frame = 1
+}
+
+#Old Set
+
+component_set = {
+	key = "beamrifle_1"
+	icon = "GFX_ship_part_beamrifle1"
+	icon_frame = 1
+}
+
+component_set = {
+	key = "beammg_1"
+	icon = "GFX_ship_part_beammg1"
+	icon_frame = 1
+}
+
+component_set = {
+	key = "beamrifle_2"
+	icon = "GFX_ship_part_beamrifle2"
+	icon_frame = 1
+}
+
+component_set = {
+	key = "beammg_2"
+	icon = "GFX_ship_part_beammg2"
+	icon_frame = 1
+}
+
+component_set = {
+	key = "beamrifle_3"
+	icon = "GFX_ship_part_beamrifle3"
+}

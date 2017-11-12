@@ -1,0 +1,279 @@
+soundeffect = {
+	name = BEAMC_fireS
+	falloff = "falloff_weapons_close"
+	sounds = {
+		sound = BEAMC_fire_S
+	}
+	is3d = yes
+	max_audible = 2
+	max_audible_behaviour = fail
+	delay_random_offset = { 0.0 0.15 }
+	volume = 0.3
+}
+soundeffect = {
+	name = BEAMC_fireM
+	falloff = "falloff_weapons_close"
+	sounds = {
+		sound = BEAMC_fire_M
+	}
+	is3d = yes
+	max_audible = 2
+	max_audible_behaviour = fail
+	delay_random_offset = { 0.0 0.15 }
+	volume = 0.25
+}
+soundeffect = {
+	name = BEAMC_fireL
+	falloff = "falloff_weapons_close"
+	sounds = {
+		sound = BEAMC_fire_L
+	}
+	is3d = yes
+	max_audible = 2
+	max_audible_behaviour = fail
+	delay_random_offset = { 0.0 0.15 }
+	volume = 0.3
+}
+soundeffect = {
+	name = BEAMC_hit
+	falloff = "falloff_weapons_close"
+	sounds = {
+		sound = BEAMC_hit_01
+	}
+	is3d = yes
+	max_audible = 2
+	max_audible_behaviour = fail
+	delay_random_offset = { 0.0 0.15 }
+	volume = 0.25
+}
+soundeffect = {
+	name = distance_BEAMC_fireS
+	falloff = "falloff_weapons_distance"
+	sounds = {
+		sound = distance_BEAMC_fire_S
+	}
+	is3d = yes
+	max_audible = 1
+	max_audible_behaviour = fail
+	volume = 0.3
+}
+soundeffect = {
+	name = distance_BEAMC_fireM
+	falloff = "falloff_weapons_distance"
+	sounds = {
+		sound = distance_BEAMC_fire_M
+	}
+	is3d = yes
+	max_audible = 1
+	max_audible_behaviour = fail
+	volume = 0.25
+}
+soundeffect = {
+	name = distance_BEAMC_fireL
+	falloff = "falloff_weapons_distance"
+	sounds = {
+		sound = distance_BEAMC_fire_L
+	}
+	is3d = yes
+	max_audible = 1
+	max_audible_behaviour = fail
+	volume = 0.3
+}
+soundeffect = {
+	name = distance_BEAMC_hit
+	falloff = "falloff_weapons_distance"
+	sounds = {
+		sound = distance_BEAMC_hit_01
+	}
+	is3d = yes
+	max_audible = 1
+	max_audible_behaviour = fail
+	volume = 0.2
+}
+########BEAMC2
+soundeffect = {
+	name = BEAMC_fireS2
+	falloff = "falloff_weapons_close"
+	sounds = {
+		sound = BEAMC_fire_S2
+	}
+	is3d = yes
+	max_audible = 2
+	max_audible_behaviour = fail
+	delay_random_offset = { 0.0 0.15 }
+	volume = 0.2
+}
+soundeffect = {
+	name = BEAMC_fireM2
+	falloff = "falloff_weapons_close"
+	sounds = {
+		sound = BEAMC_fire_M2
+	}
+	is3d = yes
+	max_audible = 2
+	max_audible_behaviour = fail
+	delay_random_offset = { 0.0 0.15 }
+	volume = 0.2
+}
+soundeffect = {
+	name = BEAMC_fireL2
+	falloff = "falloff_weapons_close"
+	sounds = {
+		sound = BEAMC_fire_L2
+	}
+	is3d = yes
+	max_audible = 2
+	max_audible_behaviour = fail
+	delay_random_offset = { 0.0 0.15 }
+	volume = 0.2
+}
+soundeffect = {
+	name = distance_BEAMC_fire_S2
+	falloff = "falloff_weapons_distance"
+	sounds = {
+		sound = distance_BEAMC_fire_S2
+	}
+	is3d = yes
+	max_audible = 1
+	max_audible_behaviour = fail
+	volume = 0.2
+}
+soundeffect = {
+	name = distance_BEAMC_fire_M2
+	falloff = "falloff_weapons_distance"
+	sounds = {
+		sound = distance_BEAMC_fire_M2
+	}
+	is3d = yes
+	max_audible = 1
+	max_audible_behaviour = fail
+	volume = 0.2
+}
+soundeffect = {
+	name = distance_BEAMC_fire_L2
+	falloff = "falloff_weapons_distance"
+	sounds = {
+		sound = distance_BEAMC_fire_L2
+	}
+	is3d = yes
+	max_audible = 1
+	max_audible_behaviour = fail
+	volume = 0.2
+}
+########BEAMC3
+soundeffect = {
+	name = BEAMC_fireS3
+	falloff = "falloff_weapons_close"
+	sounds = {
+		sound = BEAMC_fire_S3
+	}
+	is3d = yes
+	max_audible = 2
+	max_audible_behaviour = fail
+	delay_random_offset = { 0.0 0.15 }
+	volume = 0.2
+}
+soundeffect = {
+	name = BEAMC_fireM3
+	falloff = "falloff_weapons_close"
+	sounds = {
+		sound = BEAMC_fire_M3
+	}
+	is3d = yes
+	max_audible = 2
+	max_audible_behaviour = fail
+	delay_random_offset = { 0.0 0.15 }
+	volume = 0.2
+}
+soundeffect = {
+	name = BEAMC_fireL3
+	falloff = "falloff_weapons_close"
+	sounds = {
+		sound = BEAMC_fire_L3
+	}
+	is3d = yes
+	max_audible = 2
+	max_audible_behaviour = fail
+	delay_random_offset = { 0.0 0.15 }
+	volume = 0.2
+}
+soundeffect = {
+	name = distance_BEAMC_fire_S3
+	falloff = "falloff_weapons_distance"
+	sounds = {
+		sound = distance_BEAMC_fire_S3
+	}
+	is3d = yes
+	max_audible = 1
+	max_audible_behaviour = fail
+	volume = 0.2
+}
+soundeffect = {
+	name = distance_BEAMC_fire_M3
+	falloff = "falloff_weapons_distance"
+	sounds = {
+		sound = distance_BEAMC_fire_M3
+	}
+	is3d = yes
+	max_audible = 1
+	max_audible_behaviour = fail
+	volume = 0.2
+}
+soundeffect = {
+	name = distance_BEAMC_fire_L3
+	falloff = "falloff_weapons_distance"
+	sounds = {
+		sound = distance_BEAMC_fire_L3
+	}
+	is3d = yes
+	max_audible = 1
+	max_audible_behaviour = fail
+	volume = 0.2
+}
+########MPC
+soundeffect = {
+	name = distance_MPC1_fire
+	falloff = "falloff_weapons_distance"
+	sounds = {
+		sound = distance_MPC1_fire_01
+	}
+	is3d = yes
+	max_audible = 1
+	max_audible_behaviour = fail
+	volume = 0.4
+}
+soundeffect = {
+	name = distance_MPC1_hit
+	falloff = "falloff_weapons_distance"
+	sounds = {
+		sound = distance_MPC1_hit_01
+	}
+	is3d = yes
+	max_audible = 1
+	max_audible_behaviour = fail
+	volume = 0.2
+}
+soundeffect = {
+	name = energy_MPC1_fire
+	falloff = "falloff_weapons_close"
+	sounds = {
+		sound = MPC1_fire_01
+	}
+	is3d = yes
+	max_audible = 2
+	max_audible_behaviour = fail
+	delay_random_offset = { 0.0 0.15 }
+	volume = 0.4
+}
+soundeffect = {
+	name = energy_MPC1_hit
+	falloff = "falloff_weapons_close"
+	sounds = {
+		sound = MPC1_hit_01
+	}
+	is3d = yes
+	max_audible = 2
+	max_audible_behaviour = fail
+	delay_random_offset = { 0.0 0.15 }
+	volume = 0.25
+}

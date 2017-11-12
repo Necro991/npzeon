@@ -1,0 +1,7 @@
+# Lines starting with ”#” will be treated as comments.;;;;;;;;;;;;;;
+# This file can be reloaded with the ”reload stats” console command;;;;;;;;;;;;;;
+#;;;;;;;dmg reduction from;;;;;;;
+#;;;;;;% of dmg that will;armor is multiplied ;;100;50;;;time before dmg;
+#;;;;;%bonus dmg;go through shields;with this;;;;;;is applied;
+key;cost;power;min_damage;max_damage;shield_damage;shield_penetration;armor_penetration;min_windup;max_windup;cooldown;range;accuracy;missile_speed;end
+# Lasers;;;;;;;;;;;;;;

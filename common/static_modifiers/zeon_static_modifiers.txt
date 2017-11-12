@@ -1,0 +1,4 @@
+zeon_MS_P_buildtime = {
+	shipsize_zeon_MS_P_construction_speed_mult = -1000
+	country_resource_influence_add = -1
+}

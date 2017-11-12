@@ -1,0 +1,183 @@
+Zeon = {
+	name = "Principality of Zeon"
+	spawn_enabled = yes # yes / no / always
+	
+	name_list = "Zeon"
+	ship_prefix = "ZMF"
+	
+	species_name = "Human"
+	species_plural = "Humans"	#we should localize the names!
+	species_adjective = "Human"
+	species_class = "MAM"
+	trait = "trait_intelligent"
+	trait = "trait_slow_breeders"	
+	trait = "trait_nomadic"	
+	portrait = "zeon"
+	adjective = "Human"
+
+	authority = "auth_dictatorial"
+	civics = { "civic_nationalistic_zeal" "civic_distinguished_admiralty" }
+	government = gov_constitutional_dictatorship
+
+	ethic = "ethic_authoritarian"
+	ethic = "ethic_fanatic_militarist"
+	
+	flags = { Zeon_Start Gundam_Start custom_start_screen }
+	
+	weapon = "tech_missiles_1"
+	ftl = warp
+	
+	planet_name = "Side 3"
+	system_name = "Sol"
+	planet_class = "pc_continental"
+	initializer = "zeon_sol_system_initializer"
+	
+	graphical_culture = "zeon_01"
+	city_graphical_culture = "zeon_01"
+	
+	empire_flag = {
+		icon= {
+			category = "zeon"
+			file = "Zeon.dds"
+		}
+		background= {
+			category = "backgrounds"
+			file = "00_solid.dds"
+		}
+		colors={
+			"red"
+			"black"
+			"null"
+			"null"
+		}
+	}
+	ruler = {
+		name = "Gihren Zabi"
+		portrait = "zeon_male_01"
+		gender = male
+	}
+}
+
+NeoZeon = {
+	name = "Neo Zeon"
+	spawn_enabled = yes # yes / no / always
+	
+	name_list = "Zeon"
+	ship_prefix = "ZMF"
+	
+	species_name = "Human"
+	species_plural = "Humans"	#we should localize the names!
+	species_adjective = "Human"
+	species_class = "MAM"
+	trait = "trait_intelligent"
+	trait = "trait_slow_breeders"	
+	trait = "trait_nomadic"	
+	portrait = "zeon2"
+	adjective = "Human"
+	
+	authority = "auth_dictatorial"
+	civics = { "civic_nationalistic_zeal" "civic_environmentalist" }
+	government = gov_totalitarian_regime
+
+	ethic = "ethic_fanatic_materialist"
+	ethic = "ethic_militarist"
+
+
+	flags = { Neo_Zeon_Start Gundam_Start custom_start_screen }
+	
+	weapon = "tech_missiles_1"
+	ftl = warp
+	
+	planet_name = "Side 3"
+	system_name = "Sol"
+	planet_class = "pc_continental"
+	initializer = "neo_sol_system_initializer"
+	
+	graphical_culture = "zeon_01"
+	city_graphical_culture = "zeon_01"
+	
+	empire_flag = {
+		icon= {
+			category = "zeon"
+			file = "ZeonNewborn.dds"
+		}
+		background= {
+			category = "backgrounds"
+			file = "00_solid.dds"
+		}
+		colors={
+			"red"
+			"black"
+			"null"
+			"null"
+		}
+	}
+	ruler = {
+		name = "Char Aznable"
+		portrait = "zeon_male_108"
+		gender = male
+		trait = leader_trait_newtype
+	}
+}
+
+Axis = {
+	name = "Axis Zeon"
+	spawn_enabled = yes # yes / no / always
+	
+	name_list = "Zeon"
+	ship_prefix = "ZMF"
+	
+	species_name = "Human"
+	species_plural = "Humans"	#we should localize the names!
+	species_adjective = "Human"
+	species_class = "MAM"
+	trait = "trait_intelligent"
+	trait = "trait_slow_breeders"	
+	trait = "trait_nomadic"	
+	portrait = "zeon3"
+	adjective = "Human"
+	
+	authority = "auth_dictatorial"
+	civics = { "civic_nationalistic_zeal" "civic_mining_guilds" }
+	government = gov_military_dictatorship
+
+	ethic = "ethic_materialist"
+	ethic = "ethic_militarist"
+	ethic = "ethic_authoritarian"
+
+	flags = { Axis_Zeon_Start Gundam_Start custom_start_screen }
+	
+	weapon = "tech_missiles_1"
+	ftl = warp
+	
+	planet_name = "Axis"
+	system_name = "Sol"
+	planet_class = "pc_continental"
+	initializer = "axis_sol_system_initializer"
+	
+	graphical_culture = "zeon_01"
+	city_graphical_culture = "zeon_01"
+	
+	empire_flag = {
+		icon= {
+			category = "zeon"
+			file = "NeoZeon.dds"
+		}
+		background= {
+			category = "backgrounds"
+			file = "00_solid.dds"
+		}
+		colors={
+			"red"
+			"black"
+			"null"
+			"null"
+		}
+	}	
+	ruler = {
+		name = "Haman Karn"
+		portrait = "zeon_female_12"
+		gender = female
+		trait = leader_trait_newtype
+	}
+}

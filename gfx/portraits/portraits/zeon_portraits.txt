@@ -1,0 +1,3766 @@
+portraits = {
+	zeon_female_01 = {
+		texturefile = "gfx/models/portraits/zeon/female.dds"
+		clothes_selector = "no_texture"
+		hair_selector = "no_texture"
+	}
+	zeon_female_02 = {
+		texturefile = "gfx/models/portraits/zeon/female2.dds"
+		clothes_selector = "no_texture"
+		hair_selector = "no_texture"
+	}
+	zeon_female_03 = {
+		texturefile = "gfx/models/portraits/zeon/female3.dds"
+		clothes_selector = "no_texture"
+		hair_selector = "no_texture"
+	}
+	zeon_female_04 = {
+		texturefile = "gfx/models/portraits/zeon/female4.dds"
+		clothes_selector = "no_texture"
+		hair_selector = "no_texture"
+	}
+	zeon_female_05 = {
+		texturefile = "gfx/models/portraits/zeon/female5.dds"
+		clothes_selector = "no_texture"
+		hair_selector = "no_texture"
+	}
+	zeon_female_06 = {
+		texturefile = "gfx/models/portraits/zeon/female6.dds"
+		clothes_selector = "no_texture"
+		hair_selector = "no_texture"
+	}
+	zeon_female_07 = {
+		texturefile = "gfx/models/portraits/zeon/female7.dds"
+		clothes_selector = "no_texture"
+		hair_selector = "no_texture"
+	}
+	zeon_female_08 = {
+		texturefile = "gfx/models/portraits/zeon/female8.dds"
+		clothes_selector = "no_texture"
+		hair_selector = "no_texture"
+	}
+	zeon_female_09 = {
+		texturefile = "gfx/models/portraits/zeon/female9.dds"
+		clothes_selector = "no_texture"
+		hair_selector = "no_texture"
+	}
+	zeon_female_10 = {
+		texturefile = "gfx/models/portraits/zeon/female10.dds"
+		clothes_selector = "no_texture"
+		hair_selector = "no_texture"
+	}
+	zeon_female_11 = {
+		texturefile = "gfx/models/portraits/zeon/female11.dds"
+		clothes_selector = "no_texture"
+		hair_selector = "no_texture"
+	}
+	zeon_female_12 = {
+		texturefile = "gfx/models/portraits/zeon/female12.dds"
+		clothes_selector = "no_texture"
+		hair_selector = "no_texture"
+	}
+	zeon_female_13 = {
+		texturefile = "gfx/models/portraits/zeon/female13.dds"
+		clothes_selector = "no_texture"
+		hair_selector = "no_texture"
+	}
+	zeon_female_14 = {
+		texturefile = "gfx/models/portraits/zeon/female14.dds"
+		clothes_selector = "no_texture"
+		hair_selector = "no_texture"
+	}
+	zeon_female_15 = {
+		texturefile = "gfx/models/portraits/zeon/female15.dds"
+		clothes_selector = "no_texture"
+		hair_selector = "no_texture"
+	}
+	zeon_female_16 = {
+		texturefile = "gfx/models/portraits/zeon/female16.dds"
+		clothes_selector = "no_texture"
+		hair_selector = "no_texture"
+	}
+	zeon_female_17 = {
+		texturefile = "gfx/models/portraits/zeon/female17.dds"
+		clothes_selector = "no_texture"
+		hair_selector = "no_texture"
+	}
+	zeon_female_18 = {
+		texturefile = "gfx/models/portraits/zeon/female18.dds"
+		clothes_selector = "no_texture"
+		hair_selector = "no_texture"
+	}
+	zeon_female_19 = {
+		texturefile = "gfx/models/portraits/zeon/female19.dds"
+		clothes_selector = "no_texture"
+		hair_selector = "no_texture"
+	}
+	zeon_female_20 = {
+		texturefile = "gfx/models/portraits/zeon/female20.dds"
+		clothes_selector = "no_texture"
+		hair_selector = "no_texture"
+	}
+	zeon_female_21 = {
+		texturefile = "gfx/models/portraits/zeon/female21.dds"
+		clothes_selector = "no_texture"
+		hair_selector = "no_texture"
+	}
+	zeon_female_22 = {
+		texturefile = "gfx/models/portraits/zeon/female22.dds"
+		clothes_selector = "no_texture"
+		hair_selector = "no_texture"
+	}
+	zeon_female_23 = {
+		texturefile = "gfx/models/portraits/zeon/female23.dds"
+		clothes_selector = "no_texture"
+		hair_selector = "no_texture"
+	}
+	zeon_female_24 = {
+		texturefile = "gfx/models/portraits/zeon/female24.dds"
+		clothes_selector = "no_texture"
+		hair_selector = "no_texture"
+	}
+	zeon_female_25 = {
+		texturefile = "gfx/models/portraits/zeon/female25.dds"
+		clothes_selector = "no_texture"
+		hair_selector = "no_texture"
+	}
+		zeon_female_26 = {
+		texturefile = "gfx/models/portraits/zeon/female26.dds"
+		clothes_selector = "no_texture"
+		hair_selector = "no_texture"
+	}
+		zeon_female_27 = {
+		texturefile = "gfx/models/portraits/zeon/female27.dds"
+		clothes_selector = "no_texture"
+		hair_selector = "no_texture"
+	}
+		zeon_female_28 = {
+		texturefile = "gfx/models/portraits/zeon/female28.dds"
+		clothes_selector = "no_texture"
+		hair_selector = "no_texture"
+	}
+		zeon_female_29 = {
+		texturefile = "gfx/models/portraits/zeon/female29.dds"
+		clothes_selector = "no_texture"
+		hair_selector = "no_texture"
+	}
+		zeon_female_30 = {
+		texturefile = "gfx/models/portraits/zeon/female30.dds"
+		clothes_selector = "no_texture"
+		hair_selector = "no_texture"
+	}
+		zeon_female_31 = {
+		texturefile = "gfx/models/portraits/zeon/female31.dds"
+		clothes_selector = "no_texture"
+		hair_selector = "no_texture"
+	}
+		zeon_female_32 = {
+		texturefile = "gfx/models/portraits/zeon/female32.dds"
+		clothes_selector = "no_texture"
+		hair_selector = "no_texture"
+	}
+		zeon_female_33 = {
+		texturefile = "gfx/models/portraits/zeon/female33.dds"
+		clothes_selector = "no_texture"
+		hair_selector = "no_texture"
+	}
+		zeon_female_34 = {
+		texturefile = "gfx/models/portraits/zeon/female34.dds"
+		clothes_selector = "no_texture"
+		hair_selector = "no_texture"
+	}
+		zeon_female_35 = {
+		texturefile = "gfx/models/portraits/zeon/female35.dds"
+		clothes_selector = "no_texture"
+		hair_selector = "no_texture"
+	}
+	zeon_female_36 = {
+		texturefile = "gfx/models/portraits/zeon/female36.dds"
+		clothes_selector = "no_texture"
+		hair_selector = "no_texture"
+	}
+	zeon_female_37 = {
+		texturefile = "gfx/models/portraits/zeon/female37.dds"
+		clothes_selector = "no_texture"
+		hair_selector = "no_texture"
+	}
+	zeon_female_38 = {
+		texturefile = "gfx/models/portraits/zeon/female38.dds"
+		clothes_selector = "no_texture"
+		hair_selector = "no_texture"
+	}
+	
+	zeon_male_01 = {
+		texturefile = "gfx/models/portraits/zeon/gihren.dds"
+		clothes_selector = "no_texture"
+		hair_selector = "no_texture"
+	}
+	zeon_male_02 = {
+		texturefile = "gfx/models/portraits/zeon/soldier1.dds"
+		clothes_selector = "no_texture"
+		hair_selector = "no_texture"
+	}
+	zeon_male_03 = {
+		texturefile = "gfx/models/portraits/zeon/soldier2.dds"
+		clothes_selector = "no_texture"
+		hair_selector = "no_texture"
+	}
+	zeon_male_04 = {
+		texturefile = "gfx/models/portraits/zeon/soldier3.dds"
+		clothes_selector = "no_texture"
+		hair_selector = "no_texture"
+	}
+	zeon_male_05 = {
+		texturefile = "gfx/models/portraits/zeon/soldier4.dds"
+		clothes_selector = "no_texture"
+		hair_selector = "no_texture"
+	}
+	zeon_male_06 = {
+		texturefile = "gfx/models/portraits/zeon/soldier5.dds"
+		clothes_selector = "no_texture"
+		hair_selector = "no_texture"
+	}
+	zeon_male_07 = {
+		texturefile = "gfx/models/portraits/zeon/soldier6.dds"
+		clothes_selector = "no_texture"
+		hair_selector = "no_texture"
+	}
+	zeon_male_08 = {
+		texturefile = "gfx/models/portraits/zeon/soldier7.dds"
+		clothes_selector = "no_texture"
+		hair_selector = "no_texture"
+	}
+	zeon_male_09 = {
+		texturefile = "gfx/models/portraits/zeon/soldier8.dds"
+		clothes_selector = "no_texture"
+		hair_selector = "no_texture"
+	}
+	zeon_male_10 = {
+		texturefile = "gfx/models/portraits/zeon/soldier9.dds"
+		clothes_selector = "no_texture"
+		hair_selector = "no_texture"
+	}
+	zeon_male_11 = {
+		texturefile = "gfx/models/portraits/zeon/soldier10.dds"
+		clothes_selector = "no_texture"
+		hair_selector = "no_texture"
+	}
+	zeon_male_12 = {
+		texturefile = "gfx/models/portraits/zeon/soldier11.dds"
+		clothes_selector = "no_texture"
+		hair_selector = "no_texture"
+	}
+	zeon_male_13 = {
+		texturefile = "gfx/models/portraits/zeon/soldier12.dds"
+		clothes_selector = "no_texture"
+		hair_selector = "no_texture"
+	}
+	zeon_male_14 = {
+		texturefile = "gfx/models/portraits/zeon/soldier13.dds"
+		clothes_selector = "no_texture"
+		hair_selector = "no_texture"
+	}
+	zeon_male_15 = {
+		texturefile = "gfx/models/portraits/zeon/soldier14.dds"
+		clothes_selector = "no_texture"
+		hair_selector = "no_texture"
+	}
+	zeon_male_16 = {
+		texturefile = "gfx/models/portraits/zeon/soldier15.dds"
+		clothes_selector = "no_texture"
+		hair_selector = "no_texture"
+	}
+	zeon_male_17 = {
+		texturefile = "gfx/models/portraits/zeon/soldier16.dds"
+		clothes_selector = "no_texture"
+		hair_selector = "no_texture"
+	}
+	zeon_male_18 = {
+		texturefile = "gfx/models/portraits/zeon/soldier17.dds"
+		clothes_selector = "no_texture"
+		hair_selector = "no_texture"
+	}
+	zeon_male_19 = {
+		texturefile = "gfx/models/portraits/zeon/soldier18.dds"
+		clothes_selector = "no_texture"
+		hair_selector = "no_texture"
+	}
+	zeon_male_20 = {
+		texturefile = "gfx/models/portraits/zeon/soldier19.dds"
+		clothes_selector = "no_texture"
+		hair_selector = "no_texture"
+	}
+	zeon_male_21 = {
+		texturefile = "gfx/models/portraits/zeon/soldier20.dds"
+		clothes_selector = "no_texture"
+		hair_selector = "no_texture"
+	}
+	zeon_male_22 = {
+		texturefile = "gfx/models/portraits/zeon/soldier21.dds"
+		clothes_selector = "no_texture"
+		hair_selector = "no_texture"
+	}
+	zeon_male_23 = {
+		texturefile = "gfx/models/portraits/zeon/soldier22.dds"
+		clothes_selector = "no_texture"
+		hair_selector = "no_texture"
+	}
+	zeon_male_24 = {
+		texturefile = "gfx/models/portraits/zeon/soldier23.dds"
+		clothes_selector = "no_texture"
+		hair_selector = "no_texture"
+	}
+	zeon_male_25 = {
+		texturefile = "gfx/models/portraits/zeon/soldier24.dds"
+		clothes_selector = "no_texture"
+		hair_selector = "no_texture"
+	}
+	zeon_male_26 = {
+		texturefile = "gfx/models/portraits/zeon/soldier25.dds"
+		clothes_selector = "no_texture"
+		hair_selector = "no_texture"
+	}
+	zeon_male_27 = {
+		texturefile = "gfx/models/portraits/zeon/soldier26.dds"
+		clothes_selector = "no_texture"
+		hair_selector = "no_texture"
+	}
+	zeon_male_28 = {
+		texturefile = "gfx/models/portraits/zeon/soldier27.dds"
+		clothes_selector = "no_texture"
+		hair_selector = "no_texture"
+	}
+	zeon_male_29 = {
+		texturefile = "gfx/models/portraits/zeon/soldier28.dds"
+		clothes_selector = "no_texture"
+		hair_selector = "no_texture"
+	}
+	zeon_male_30 = {
+		texturefile = "gfx/models/portraits/zeon/soldier29.dds"
+		clothes_selector = "no_texture"
+		hair_selector = "no_texture"
+	}
+	zeon_male_31 = {
+		texturefile = "gfx/models/portraits/zeon/soldier30.dds"
+		clothes_selector = "no_texture"
+		hair_selector = "no_texture"
+	}
+	zeon_male_32 = {
+		texturefile = "gfx/models/portraits/zeon/soldier31.dds"
+		clothes_selector = "no_texture"
+		hair_selector = "no_texture"
+	}
+	zeon_male_33 = {
+		texturefile = "gfx/models/portraits/zeon/soldier32.dds"
+		clothes_selector = "no_texture"
+		hair_selector = "no_texture"
+	}
+	zeon_male_34 = {
+		texturefile = "gfx/models/portraits/zeon/soldier33.dds"
+		clothes_selector = "no_texture"
+		hair_selector = "no_texture"
+	}
+	zeon_male_35 = {
+		texturefile = "gfx/models/portraits/zeon/soldier34.dds"
+		clothes_selector = "no_texture"
+		hair_selector = "no_texture"
+	}
+	zeon_male_36 = {
+		texturefile = "gfx/models/portraits/zeon/soldier35.dds"
+		clothes_selector = "no_texture"
+		hair_selector = "no_texture"
+	}
+	zeon_male_37 = {
+		texturefile = "gfx/models/portraits/zeon/soldier36.dds"
+		clothes_selector = "no_texture"
+		hair_selector = "no_texture"
+	}
+	zeon_male_38 = {
+		texturefile = "gfx/models/portraits/zeon/soldier37.dds"
+		clothes_selector = "no_texture"
+		hair_selector = "no_texture"
+	}
+	zeon_male_39 = {
+		texturefile = "gfx/models/portraits/zeon/soldier38.dds"
+		clothes_selector = "no_texture"
+		hair_selector = "no_texture"
+	}
+	zeon_male_40 = {
+		texturefile = "gfx/models/portraits/zeon/soldier39.dds"
+		clothes_selector = "no_texture"
+		hair_selector = "no_texture"
+	}
+	zeon_male_41 = {
+		texturefile = "gfx/models/portraits/zeon/soldier40.dds"
+		clothes_selector = "no_texture"
+		hair_selector = "no_texture"
+	}
+	zeon_male_42 = {
+		texturefile = "gfx/models/portraits/zeon/soldier41.dds"
+		clothes_selector = "no_texture"
+		hair_selector = "no_texture"
+	}
+	zeon_male_43 = {
+		texturefile = "gfx/models/portraits/zeon/soldier42.dds"
+		clothes_selector = "no_texture"
+		hair_selector = "no_texture"
+	}
+	zeon_male_44 = {
+		texturefile = "gfx/models/portraits/zeon/soldier43.dds"
+		clothes_selector = "no_texture"
+		hair_selector = "no_texture"
+	}
+	zeon_male_45 = {
+		texturefile = "gfx/models/portraits/zeon/soldier44.dds"
+		clothes_selector = "no_texture"
+		hair_selector = "no_texture"
+	}
+	zeon_male_46 = {
+		texturefile = "gfx/models/portraits/zeon/soldier45.dds"
+		clothes_selector = "no_texture"
+		hair_selector = "no_texture"
+	}
+	zeon_male_47 = {
+		texturefile = "gfx/models/portraits/zeon/soldier46.dds"
+		clothes_selector = "no_texture"
+		hair_selector = "no_texture"
+	}
+	zeon_male_48 = {
+		texturefile = "gfx/models/portraits/zeon/soldier47.dds"
+		clothes_selector = "no_texture"
+		hair_selector = "no_texture"
+	}
+	zeon_male_49 = {
+		texturefile = "gfx/models/portraits/zeon/soldier48.dds"
+		clothes_selector = "no_texture"
+		hair_selector = "no_texture"
+	}
+	zeon_male_50 = {
+		texturefile = "gfx/models/portraits/zeon/soldier49.dds"
+		clothes_selector = "no_texture"
+		hair_selector = "no_texture"
+	}
+	zeon_male_51 = {
+		texturefile = "gfx/models/portraits/zeon/soldier50.dds"
+		clothes_selector = "no_texture"
+		hair_selector = "no_texture"
+	}
+	zeon_male_52 = {
+		texturefile = "gfx/models/portraits/zeon/soldier51.dds"
+		clothes_selector = "no_texture"
+		hair_selector = "no_texture"
+	}
+	zeon_male_53 = {
+		texturefile = "gfx/models/portraits/zeon/soldier52.dds"
+		clothes_selector = "no_texture"
+		hair_selector = "no_texture"
+	}
+	zeon_male_54 = {
+		texturefile = "gfx/models/portraits/zeon/soldier53.dds"
+		clothes_selector = "no_texture"
+		hair_selector = "no_texture"
+	}
+	zeon_male_55 = {
+		texturefile = "gfx/models/portraits/zeon/soldier54.dds"
+		clothes_selector = "no_texture"
+		hair_selector = "no_texture"
+	}
+	zeon_male_56 = {
+		texturefile = "gfx/models/portraits/zeon/soldier55.dds"
+		clothes_selector = "no_texture"
+		hair_selector = "no_texture"
+	}
+	zeon_male_57 = {
+		texturefile = "gfx/models/portraits/zeon/soldier56.dds"
+		clothes_selector = "no_texture"
+		hair_selector = "no_texture"
+	}
+	zeon_male_58 = {
+		texturefile = "gfx/models/portraits/zeon/soldier57.dds"
+		clothes_selector = "no_texture"
+		hair_selector = "no_texture"
+	}
+	zeon_male_59 = {
+		texturefile = "gfx/models/portraits/zeon/soldier58.dds"
+		clothes_selector = "no_texture"
+		hair_selector = "no_texture"
+	}
+	zeon_male_60 = {
+		texturefile = "gfx/models/portraits/zeon/soldier59.dds"
+		clothes_selector = "no_texture"
+		hair_selector = "no_texture"
+	}
+	zeon_male_61 = {
+		texturefile = "gfx/models/portraits/zeon/soldier60.dds"
+		clothes_selector = "no_texture"
+		hair_selector = "no_texture"
+	}
+	zeon_male_62 = {
+		texturefile = "gfx/models/portraits/zeon/soldier61.dds"
+		clothes_selector = "no_texture"
+		hair_selector = "no_texture"
+	}
+	zeon_male_63 = {
+		texturefile = "gfx/models/portraits/zeon/soldier62.dds"
+		clothes_selector = "no_texture"
+		hair_selector = "no_texture"
+	}
+	zeon_male_64 = {
+		texturefile = "gfx/models/portraits/zeon/soldier63.dds"
+		clothes_selector = "no_texture"
+		hair_selector = "no_texture"
+	}
+	zeon_male_65 = {
+		texturefile = "gfx/models/portraits/zeon/soldier64.dds"
+		clothes_selector = "no_texture"
+		hair_selector = "no_texture"
+	}
+	zeon_male_66 = {
+		texturefile = "gfx/models/portraits/zeon/soldier65.dds"
+		clothes_selector = "no_texture"
+		hair_selector = "no_texture"
+	}
+	zeon_male_67 = {
+		texturefile = "gfx/models/portraits/zeon/soldier66.dds"
+		clothes_selector = "no_texture"
+		hair_selector = "no_texture"
+	}
+	zeon_male_68 = {
+		texturefile = "gfx/models/portraits/zeon/soldier67.dds"
+		clothes_selector = "no_texture"
+		hair_selector = "no_texture"
+	}
+	zeon_male_69 = {
+		texturefile = "gfx/models/portraits/zeon/soldier68.dds"
+		clothes_selector = "no_texture"
+		hair_selector = "no_texture"
+	}
+	zeon_male_70 = {
+		texturefile = "gfx/models/portraits/zeon/soldier69.dds"
+		clothes_selector = "no_texture"
+		hair_selector = "no_texture"
+	}
+	zeon_male_71 = {
+		texturefile = "gfx/models/portraits/zeon/soldier70.dds"
+		clothes_selector = "no_texture"
+		hair_selector = "no_texture"
+	}
+	zeon_male_72 = {
+		texturefile = "gfx/models/portraits/zeon/soldier71.dds"
+		clothes_selector = "no_texture"
+		hair_selector = "no_texture"
+	}
+	zeon_male_73 = {
+		texturefile = "gfx/models/portraits/zeon/soldier72.dds"
+		clothes_selector = "no_texture"
+		hair_selector = "no_texture"
+	}
+		zeon_male_74 = {
+		texturefile = "gfx/models/portraits/zeon/soldier74.dds"
+		clothes_selector = "no_texture"
+		hair_selector = "no_texture"
+	}
+		zeon_male_75 = {
+		texturefile = "gfx/models/portraits/zeon/soldier75.dds"
+		clothes_selector = "no_texture"
+		hair_selector = "no_texture"
+	}
+		zeon_male_76 = {
+		texturefile = "gfx/models/portraits/zeon/soldier76.dds"
+		clothes_selector = "no_texture"
+		hair_selector = "no_texture"
+	}
+		zeon_male_77 = {
+		texturefile = "gfx/models/portraits/zeon/soldier77.dds"
+		clothes_selector = "no_texture"
+		hair_selector = "no_texture"
+	}
+		zeon_male_78 = {
+		texturefile = "gfx/models/portraits/zeon/soldier78.dds"
+		clothes_selector = "no_texture"
+		hair_selector = "no_texture"
+	}
+		zeon_male_79 = {
+		texturefile = "gfx/models/portraits/zeon/soldier79.dds"
+		clothes_selector = "no_texture"
+		hair_selector = "no_texture"
+	}
+		zeon_male_80 = {
+		texturefile = "gfx/models/portraits/zeon/soldier80.dds"
+		clothes_selector = "no_texture"
+		hair_selector = "no_texture"
+	}
+		zeon_male_81 = {
+		texturefile = "gfx/models/portraits/zeon/soldier81.dds"
+		clothes_selector = "no_texture"
+		hair_selector = "no_texture"
+	}
+		zeon_male_82 = {
+		texturefile = "gfx/models/portraits/zeon/soldier82.dds"
+		clothes_selector = "no_texture"
+		hair_selector = "no_texture"
+	}
+		zeon_male_83 = {
+		texturefile = "gfx/models/portraits/zeon/soldier83.dds"
+		clothes_selector = "no_texture"
+		hair_selector = "no_texture"
+	}
+		zeon_male_84 = {
+		texturefile = "gfx/models/portraits/zeon/soldier84.dds"
+		clothes_selector = "no_texture"
+		hair_selector = "no_texture"
+	}
+		zeon_male_85 = {
+		texturefile = "gfx/models/portraits/zeon/soldier85.dds"
+		clothes_selector = "no_texture"
+		hair_selector = "no_texture"
+	}
+		zeon_male_86 = {
+		texturefile = "gfx/models/portraits/zeon/soldier86.dds"
+		clothes_selector = "no_texture"
+		hair_selector = "no_texture"
+	}
+		zeon_male_87 = {
+		texturefile = "gfx/models/portraits/zeon/soldier87.dds"
+		clothes_selector = "no_texture"
+		hair_selector = "no_texture"
+	}
+		zeon_male_88 = {
+		texturefile = "gfx/models/portraits/zeon/soldier88.dds"
+		clothes_selector = "no_texture"
+		hair_selector = "no_texture"
+	}
+		zeon_male_89 = {
+		texturefile = "gfx/models/portraits/zeon/soldier89.dds"
+		clothes_selector = "no_texture"
+		hair_selector = "no_texture"
+	}
+		zeon_male_90 = {
+		texturefile = "gfx/models/portraits/zeon/soldier90.dds"
+		clothes_selector = "no_texture"
+		hair_selector = "no_texture"
+	}
+		zeon_male_91 = {
+		texturefile = "gfx/models/portraits/zeon/soldier91.dds"
+		clothes_selector = "no_texture"
+		hair_selector = "no_texture"
+	}
+		zeon_male_92 = {
+		texturefile = "gfx/models/portraits/zeon/soldier92.dds"
+		clothes_selector = "no_texture"
+		hair_selector = "no_texture"
+	}
+		zeon_male_93 = {
+		texturefile = "gfx/models/portraits/zeon/soldier93.dds"
+		clothes_selector = "no_texture"
+		hair_selector = "no_texture"
+	}
+		zeon_male_94 = {
+		texturefile = "gfx/models/portraits/zeon/soldier94.dds"
+		clothes_selector = "no_texture"
+		hair_selector = "no_texture"
+	}
+		zeon_male_95 = {
+		texturefile = "gfx/models/portraits/zeon/soldier95.dds"
+		clothes_selector = "no_texture"
+		hair_selector = "no_texture"
+	}
+		zeon_male_96 = {
+		texturefile = "gfx/models/portraits/zeon/soldier96.dds"
+		clothes_selector = "no_texture"
+		hair_selector = "no_texture"
+	}
+		zeon_male_97 = {
+		texturefile = "gfx/models/portraits/zeon/soldier97.dds"
+		clothes_selector = "no_texture"
+		hair_selector = "no_texture"
+	}
+		zeon_male_98 = {
+		texturefile = "gfx/models/portraits/zeon/soldier98.dds"
+		clothes_selector = "no_texture"
+		hair_selector = "no_texture"
+	}
+		zeon_male_99 = {
+		texturefile = "gfx/models/portraits/zeon/soldier99.dds"
+		clothes_selector = "no_texture"
+		hair_selector = "no_texture"
+	}
+		zeon_male_100 = {
+		texturefile = "gfx/models/portraits/zeon/soldier100.dds"
+		clothes_selector = "no_texture"
+		hair_selector = "no_texture"
+	}
+		zeon_male_101 = {
+		texturefile = "gfx/models/portraits/zeon/soldier101.dds"
+		clothes_selector = "no_texture"
+		hair_selector = "no_texture"
+	}
+		zeon_male_102 = {
+		texturefile = "gfx/models/portraits/zeon/soldier102.dds"
+		clothes_selector = "no_texture"
+		hair_selector = "no_texture"
+	}
+		zeon_male_103 = {
+		texturefile = "gfx/models/portraits/zeon/soldier103.dds"
+		clothes_selector = "no_texture"
+		hair_selector = "no_texture"
+	}
+		zeon_male_104 = {
+		texturefile = "gfx/models/portraits/zeon/soldier104.dds"
+		clothes_selector = "no_texture"
+		hair_selector = "no_texture"
+	}
+		zeon_male_105 = {
+		texturefile = "gfx/models/portraits/zeon/soldier105.dds"
+		clothes_selector = "no_texture"
+		hair_selector = "no_texture"
+	}
+		zeon_male_106 = {
+		texturefile = "gfx/models/portraits/zeon/soldier106.dds"
+		clothes_selector = "no_texture"
+		hair_selector = "no_texture"
+	}
+		zeon_male_107 = {
+		texturefile = "gfx/models/portraits/zeon/soldier107.dds"
+		clothes_selector = "no_texture"
+		hair_selector = "no_texture"
+	}
+		zeon_male_108 = {
+		texturefile = "gfx/models/portraits/zeon/soldier108.dds"
+		clothes_selector = "no_texture"
+		hair_selector = "no_texture"
+	}
+		zeon_male_109 = {
+		texturefile = "gfx/models/portraits/zeon/soldier109.dds"
+		clothes_selector = "no_texture"
+		hair_selector = "no_texture"
+	}
+		zeon_male_110 = {
+		texturefile = "gfx/models/portraits/zeon/soldier110.dds"
+		clothes_selector = "no_texture"
+		hair_selector = "no_texture"
+	}
+		zeon_male_111 = {
+		texturefile = "gfx/models/portraits/zeon/soldier111.dds"
+		clothes_selector = "no_texture"
+		hair_selector = "no_texture"
+	}
+		zeon_male_112 = {
+		texturefile = "gfx/models/portraits/zeon/soldier112.dds"
+		clothes_selector = "no_texture"
+		hair_selector = "no_texture"
+	}
+		zeon_male_113 = {
+		texturefile = "gfx/models/portraits/zeon/soldier113.dds"
+		clothes_selector = "no_texture"
+		hair_selector = "no_texture"
+	}
+		zeon_male_114 = {
+		texturefile = "gfx/models/portraits/zeon/soldier114.dds"
+		clothes_selector = "no_texture"
+		hair_selector = "no_texture"
+	}
+		zeon_male_115 = {
+		texturefile = "gfx/models/portraits/zeon/soldier115.dds"
+		clothes_selector = "no_texture"
+		hair_selector = "no_texture"
+	}
+		zeon_male_116 = {
+		texturefile = "gfx/models/portraits/zeon/soldier116.dds"
+		clothes_selector = "no_texture"
+		hair_selector = "no_texture"
+	}
+		zeon_male_117 = {
+		texturefile = "gfx/models/portraits/zeon/soldier117.dds"
+		clothes_selector = "no_texture"
+		hair_selector = "no_texture"
+	}
+	zeon_male_118 = {
+		texturefile = "gfx/models/portraits/zeon/soldier118.dds"
+		clothes_selector = "no_texture"
+		hair_selector = "no_texture"
+	}
+	
+}
+portrait_groups = {
+zeon = {
+		default = zeon_male_01
+		game_setup = { #will run with a limited country scope. species and government is set but the country does not actually exist
+			add = {
+				trigger = {
+					ruler = { gender = male }
+				}
+				portraits = {
+					zeon_male_01
+					zeon_male_02
+					zeon_male_03
+					zeon_male_04
+					zeon_male_06
+					zeon_male_07
+					zeon_male_08
+					zeon_male_09
+					zeon_male_10
+					zeon_male_11
+					zeon_male_12
+					zeon_male_13
+					zeon_male_14
+					zeon_male_15
+					zeon_male_16
+					zeon_male_17
+					zeon_male_18
+					zeon_male_19
+					zeon_male_20
+					zeon_male_21
+					zeon_male_22
+					zeon_male_23
+					zeon_male_24
+					zeon_male_25
+					zeon_male_26
+					zeon_male_27
+					zeon_male_28
+					zeon_male_29
+					zeon_male_30
+					zeon_male_31
+					zeon_male_32
+					zeon_male_33
+					zeon_male_34
+					zeon_male_35
+					zeon_male_36
+					zeon_male_37
+					zeon_male_38
+					zeon_male_39
+					zeon_male_40
+					zeon_male_41
+					zeon_male_42
+					zeon_male_43
+					zeon_male_44
+					zeon_male_45
+					zeon_male_46
+					zeon_male_47
+					zeon_male_48
+					zeon_male_49
+					zeon_male_50
+					zeon_male_51
+					zeon_male_52
+					zeon_male_53
+					zeon_male_54
+					zeon_male_55
+					zeon_male_56
+					zeon_male_57
+					zeon_male_58
+					zeon_male_59
+					zeon_male_60
+					zeon_male_61
+					zeon_male_62
+					zeon_male_63
+					zeon_male_64
+					zeon_male_65
+					zeon_male_66
+					zeon_male_67
+					zeon_male_68
+					zeon_male_69
+					zeon_male_70
+					zeon_male_71
+					zeon_male_72
+					zeon_male_73
+					zeon_male_74
+					zeon_male_75
+					zeon_male_76
+					zeon_male_77
+					zeon_male_78
+					zeon_male_79
+					zeon_male_80
+					zeon_male_81
+					zeon_male_82
+					zeon_male_83
+					zeon_male_84
+					zeon_male_85
+					zeon_male_86
+					zeon_male_87
+					zeon_male_88
+					zeon_male_89
+					zeon_male_90
+					zeon_male_91
+					zeon_male_92
+					zeon_male_93
+					zeon_male_94
+					zeon_male_95
+					zeon_male_96
+					zeon_male_97
+					zeon_male_98
+					zeon_male_99
+					zeon_male_100
+					zeon_male_101
+					zeon_male_102
+					zeon_male_103
+					zeon_male_104
+					zeon_male_105
+					zeon_male_106
+					zeon_male_107
+					zeon_male_108
+					zeon_male_109
+					zeon_male_110
+					zeon_male_111
+					zeon_male_112
+					zeon_male_113
+					zeon_male_114
+					zeon_male_115
+					zeon_male_116
+					zeon_male_117
+					zeon_male_118
+				}
+			}
+			add = {
+				trigger = {
+					ruler = { gender = female }
+				}
+				portraits = {
+					zeon_female_01
+					zeon_female_02
+					zeon_female_03
+					zeon_female_04
+					zeon_female_05
+					zeon_female_06
+					zeon_female_07
+					zeon_female_08
+					zeon_female_09
+					zeon_female_10
+					zeon_female_11
+					zeon_female_12
+					zeon_female_13
+					zeon_female_14
+					zeon_female_15
+					zeon_female_16
+					zeon_female_17
+					zeon_female_18
+					zeon_female_19
+					zeon_female_20
+					zeon_female_21
+					zeon_female_22
+					zeon_female_23
+					zeon_female_24
+					zeon_female_25
+					zeon_female_26
+					zeon_female_27
+					zeon_female_28
+					zeon_female_29
+					zeon_female_30
+					zeon_female_31
+					zeon_female_32
+					zeon_female_33
+					zeon_female_34
+					zeon_female_35
+					zeon_female_36
+					zeon_female_37
+					zeon_female_38
+				}
+			}
+			#set = {
+			#	trigger = { ... }
+			#	portraits = { ... }
+			#	#using "set =" instead of "add" will first clear any portraits already added
+			#}
+		}		
+		
+		#species scope
+		species = { #generic portrait for a species
+			add = {
+				portraits = {
+					zeon_male_01
+					zeon_male_02
+					zeon_male_03
+					zeon_male_04
+					zeon_male_06
+					zeon_male_07
+					zeon_male_08
+					zeon_male_09
+					zeon_male_10
+					zeon_male_11
+					zeon_male_12
+					zeon_male_13
+					zeon_male_14
+					zeon_male_15
+					zeon_male_16
+					zeon_male_17
+					zeon_male_18
+					zeon_male_19
+					zeon_male_20
+					zeon_male_21
+					zeon_male_22
+					zeon_male_23
+					zeon_male_24
+					zeon_male_25
+					zeon_male_26
+					zeon_male_27
+					zeon_male_28
+					zeon_male_29
+					zeon_male_30
+					zeon_male_31
+					zeon_male_32
+					zeon_male_33
+					zeon_male_34
+					zeon_male_35
+					zeon_male_36
+					zeon_male_37
+					zeon_male_38
+					zeon_male_39
+					zeon_male_40
+					zeon_male_41
+					zeon_male_42
+					zeon_male_43
+					zeon_male_44
+					zeon_male_45
+					zeon_male_46
+					zeon_male_47
+					zeon_male_48
+					zeon_male_49
+					zeon_male_50
+					zeon_male_51
+					zeon_male_52
+					zeon_male_53
+					zeon_male_54
+					zeon_male_55
+					zeon_male_56
+					zeon_male_57
+					zeon_male_58
+					zeon_male_59
+					zeon_male_60
+					zeon_male_61
+					zeon_male_62
+					zeon_male_63
+					zeon_male_64
+					zeon_male_65
+					zeon_male_66
+					zeon_male_67
+					zeon_male_68
+					zeon_male_69
+					zeon_male_70
+					zeon_male_71
+					zeon_male_72
+					zeon_male_73
+					zeon_male_74
+					zeon_male_75
+					zeon_male_76
+					zeon_male_77
+					zeon_male_78
+					zeon_male_79
+					zeon_male_80
+					zeon_male_81
+					zeon_male_82
+					zeon_male_83
+					zeon_male_84
+					zeon_male_85
+					zeon_male_86
+					zeon_male_87
+					zeon_male_88
+					zeon_male_89
+					zeon_male_90
+					zeon_male_91
+					zeon_male_92
+					zeon_male_93
+					zeon_male_94
+					zeon_male_95
+					zeon_male_96
+					zeon_male_97
+					zeon_male_98
+					zeon_male_99
+					zeon_male_100
+					zeon_male_101
+					zeon_male_102
+					zeon_male_103
+					zeon_male_104
+					zeon_male_105
+					zeon_male_106
+					zeon_male_107
+					zeon_male_108
+					zeon_male_109
+					zeon_male_110
+					zeon_male_111
+					zeon_male_112
+					zeon_male_113
+					zeon_male_114
+					zeon_male_115
+					zeon_male_116
+					zeon_male_117
+					zeon_male_118
+					zeon_female_01
+					zeon_female_02
+					zeon_female_03
+					zeon_female_04
+					zeon_female_05
+					zeon_female_06
+					zeon_female_07
+					zeon_female_08
+					zeon_female_09
+					zeon_female_10
+					zeon_female_11
+					zeon_female_12
+					zeon_female_13
+					zeon_female_14
+					zeon_female_15
+					zeon_female_16
+					zeon_female_17
+					zeon_female_18
+					zeon_female_19
+					zeon_female_20
+					zeon_female_21
+					zeon_female_22
+					zeon_female_23
+					zeon_female_24
+					zeon_female_25
+					zeon_female_26
+					zeon_female_27
+					zeon_female_28
+					zeon_female_29
+					zeon_female_30
+					zeon_female_31
+					zeon_female_32
+					zeon_female_33
+					zeon_female_34
+					zeon_female_35
+					zeon_female_35
+					zeon_female_37
+					zeon_female_38
+				}
+			}
+		}		
+		
+		#pop scope
+		pop = { #for a specific pop
+			add = {
+				portraits = {
+					zeon_male_01
+					zeon_male_02
+					zeon_male_03
+					zeon_male_04
+					zeon_male_06
+					zeon_male_07
+					zeon_male_08
+					zeon_male_09
+					zeon_male_10
+					zeon_male_11
+					zeon_male_12
+					zeon_male_13
+					zeon_male_14
+					zeon_male_15
+					zeon_male_16
+					zeon_male_17
+					zeon_male_18
+					zeon_male_19
+					zeon_male_20
+					zeon_male_21
+					zeon_male_22
+					zeon_male_23
+					zeon_male_24
+					zeon_male_25
+					zeon_male_26
+					zeon_male_27
+					zeon_male_28
+					zeon_male_29
+					zeon_male_30
+					zeon_male_31
+					zeon_male_32
+					zeon_male_33
+					zeon_male_34
+					zeon_male_35
+					zeon_male_36
+					zeon_male_37
+					zeon_male_38
+					zeon_male_39
+					zeon_male_40
+					zeon_male_41
+					zeon_male_42
+					zeon_male_43
+					zeon_male_44
+					zeon_male_45
+					zeon_male_46
+					zeon_male_47
+					zeon_male_48
+					zeon_male_49
+					zeon_male_50
+					zeon_male_51
+					zeon_male_52
+					zeon_male_53
+					zeon_male_54
+					zeon_male_55
+					zeon_male_56
+					zeon_male_57
+					zeon_male_58
+					zeon_male_59
+					zeon_male_60
+					zeon_male_61
+					zeon_male_62
+					zeon_male_63
+					zeon_male_64
+					zeon_male_65
+					zeon_male_66
+					zeon_male_67
+					zeon_male_68
+					zeon_male_69
+					zeon_male_70
+					zeon_male_71
+					zeon_male_72
+					zeon_male_73
+					zeon_male_74
+					zeon_male_75
+					zeon_male_76
+					zeon_male_77
+					zeon_male_78
+					zeon_male_79
+					zeon_male_80
+					zeon_male_81
+					zeon_male_82
+					zeon_male_83
+					zeon_male_84
+					zeon_male_85
+					zeon_male_86
+					zeon_male_87
+					zeon_male_88
+					zeon_male_89
+					zeon_male_90
+					zeon_male_91
+					zeon_male_92
+					zeon_male_93
+					zeon_male_94
+					zeon_male_95
+					zeon_male_96
+					zeon_male_97
+					zeon_male_98
+					zeon_male_99
+					zeon_male_100
+					zeon_male_101
+					zeon_male_102
+					zeon_male_103
+					zeon_male_104
+					zeon_male_105
+					zeon_male_106
+					zeon_male_107
+					zeon_male_108
+					zeon_male_109
+					zeon_male_110
+					zeon_male_111
+					zeon_male_112
+					zeon_male_113
+					zeon_male_114
+					zeon_male_115
+					zeon_male_116
+					zeon_male_117
+					zeon_male_118
+					zeon_female_01
+					zeon_female_02
+					zeon_female_03
+					zeon_female_04
+					zeon_female_05
+					zeon_female_06
+					zeon_female_07
+					zeon_female_08
+					zeon_female_09
+					zeon_female_10
+					zeon_female_11
+					zeon_female_12
+					zeon_female_13
+					zeon_female_14
+					zeon_female_15
+					zeon_female_16
+					zeon_female_17
+					zeon_female_18
+					zeon_female_19
+					zeon_female_20
+					zeon_female_21
+					zeon_female_22
+					zeon_female_23
+					zeon_female_24
+					zeon_female_25
+					zeon_female_26
+					zeon_female_27
+					zeon_female_28
+					zeon_female_29
+					zeon_female_30
+					zeon_female_31
+					zeon_female_32
+					zeon_female_33
+					zeon_female_34
+					zeon_female_35
+					zeon_female_36
+					zeon_female_37
+					zeon_female_38
+				}
+			}
+		}
+		
+		#leader scope
+		leader = { #scientists, generals, admirals, governor
+			add = {
+				trigger = {
+					gender = female
+				}
+				portraits = {
+					zeon_female_01
+					zeon_female_02
+					zeon_female_03
+					zeon_female_04
+					zeon_female_05
+					zeon_female_06
+					zeon_female_07
+					zeon_female_08
+					zeon_female_09
+					zeon_female_10
+					zeon_female_11
+					zeon_female_12
+					zeon_female_13
+					zeon_female_14
+					zeon_female_15
+					zeon_female_16
+					zeon_female_17
+					zeon_female_18
+					zeon_female_19
+					zeon_female_20
+					zeon_female_21
+					zeon_female_22
+					zeon_female_23
+					zeon_female_24
+					zeon_female_25
+					zeon_female_26
+					zeon_female_27
+					zeon_female_28
+					zeon_female_29
+					zeon_female_30
+					zeon_female_31
+					zeon_female_32
+					zeon_female_33
+					zeon_female_34
+					zeon_female_35
+					zeon_female_36
+					zeon_female_37
+					zeon_female_38
+				}
+			}
+			add = {
+				trigger = {
+					gender = male
+				}
+				portraits = {
+					zeon_male_01
+					zeon_male_02
+					zeon_male_03
+					zeon_male_04
+					zeon_male_06
+					zeon_male_07
+					zeon_male_08
+					zeon_male_09
+					zeon_male_10
+					zeon_male_11
+					zeon_male_12
+					zeon_male_13
+					zeon_male_14
+					zeon_male_15
+					zeon_male_16
+					zeon_male_17
+					zeon_male_18
+					zeon_male_19
+					zeon_male_20
+					zeon_male_21
+					zeon_male_22
+					zeon_male_23
+					zeon_male_24
+					zeon_male_25
+					zeon_male_26
+					zeon_male_27
+					zeon_male_28
+					zeon_male_29
+					zeon_male_30
+					zeon_male_31
+					zeon_male_32
+					zeon_male_33
+					zeon_male_34
+					zeon_male_35
+					zeon_male_36
+					zeon_male_37
+					zeon_male_38
+					zeon_male_39
+					zeon_male_40
+					zeon_male_41
+					zeon_male_42
+					zeon_male_43
+					zeon_male_44
+					zeon_male_45
+					zeon_male_46
+					zeon_male_47
+					zeon_male_48
+					zeon_male_49
+					zeon_male_50
+					zeon_male_51
+					zeon_male_52
+					zeon_male_53
+					zeon_male_54
+					zeon_male_55
+					zeon_male_56
+					zeon_male_57
+					zeon_male_58
+					zeon_male_59
+					zeon_male_60
+					zeon_male_61
+					zeon_male_62
+					zeon_male_63
+					zeon_male_64
+					zeon_male_65
+					zeon_male_66
+					zeon_male_67
+					zeon_male_68
+					zeon_male_69
+					zeon_male_70
+					zeon_male_71
+					zeon_male_72
+					zeon_male_73
+					zeon_male_74
+					zeon_male_75
+					zeon_male_76
+					zeon_male_77
+					zeon_male_78
+					zeon_male_79
+					zeon_male_80
+					zeon_male_81
+					zeon_male_82
+					zeon_male_83
+					zeon_male_84
+					zeon_male_85
+					zeon_male_86
+					zeon_male_87
+					zeon_male_88
+					zeon_male_89
+					zeon_male_90
+					zeon_male_91
+					zeon_male_92
+					zeon_male_93
+					zeon_male_94
+					zeon_male_95
+					zeon_male_96
+					zeon_male_97
+					zeon_male_98
+					zeon_male_99
+					zeon_male_100
+					zeon_male_101
+					zeon_male_102
+					zeon_male_103
+					zeon_male_104
+					zeon_male_105
+					zeon_male_106
+					zeon_male_107
+					zeon_male_108
+					zeon_male_109
+					zeon_male_110
+					zeon_male_111
+					zeon_male_112
+					zeon_male_113
+					zeon_male_114
+					zeon_male_115
+					zeon_male_116
+					zeon_male_117
+					zeon_male_118
+				}
+			}
+		}
+
+			
+		#leader scope 
+		ruler = {
+			add = {
+				trigger = {
+					gender = female
+				}
+				portraits = {
+					zeon_female_01
+					zeon_female_02
+					zeon_female_03
+					zeon_female_04
+					zeon_female_05
+					zeon_female_06
+					zeon_female_07
+					zeon_female_08
+					zeon_female_09
+					zeon_female_10
+					zeon_female_11
+					zeon_female_12
+					zeon_female_13
+					zeon_female_14
+					zeon_female_15
+					zeon_female_16
+					zeon_female_17
+					zeon_female_18
+					zeon_female_19
+					zeon_female_20
+					zeon_female_21
+					zeon_female_22
+					zeon_female_23
+					zeon_female_24
+					zeon_female_25
+					zeon_female_26
+					zeon_female_27
+					zeon_female_28
+					zeon_female_29
+					zeon_female_30
+					zeon_female_31
+					zeon_female_32
+					zeon_female_33
+					zeon_female_34
+					zeon_female_35
+					zeon_female_36
+					zeon_female_37
+					zeon_female_38
+				}
+			}
+			add = {
+				trigger = {
+					gender = male
+				}
+				portraits = {
+					zeon_male_01
+					zeon_male_02
+					zeon_male_03
+					zeon_male_04
+					zeon_male_06
+					zeon_male_07
+					zeon_male_08
+					zeon_male_09
+					zeon_male_10
+					zeon_male_11
+					zeon_male_12
+					zeon_male_13
+					zeon_male_14
+					zeon_male_15
+					zeon_male_16
+					zeon_male_17
+					zeon_male_18
+					zeon_male_19
+					zeon_male_20
+					zeon_male_21
+					zeon_male_22
+					zeon_male_23
+					zeon_male_24
+					zeon_male_25
+					zeon_male_26
+					zeon_male_27
+					zeon_male_28
+					zeon_male_29
+					zeon_male_30
+					zeon_male_31
+					zeon_male_32
+					zeon_male_33
+					zeon_male_34
+					zeon_male_35
+					zeon_male_36
+					zeon_male_37
+					zeon_male_38
+					zeon_male_39
+					zeon_male_40
+					zeon_male_41
+					zeon_male_42
+					zeon_male_43
+					zeon_male_44
+					zeon_male_45
+					zeon_male_46
+					zeon_male_47
+					zeon_male_48
+					zeon_male_49
+					zeon_male_50
+					zeon_male_51
+					zeon_male_52
+					zeon_male_53
+					zeon_male_54
+					zeon_male_55
+					zeon_male_56
+					zeon_male_57
+					zeon_male_58
+					zeon_male_59
+					zeon_male_60
+					zeon_male_61
+					zeon_male_62
+					zeon_male_63
+					zeon_male_64
+					zeon_male_65
+					zeon_male_66
+					zeon_male_67
+					zeon_male_68
+					zeon_male_69
+					zeon_male_70
+					zeon_male_71
+					zeon_male_72
+					zeon_male_73
+					zeon_male_74
+					zeon_male_75
+					zeon_male_76
+					zeon_male_77
+					zeon_male_78
+					zeon_male_79
+					zeon_male_80
+					zeon_male_81
+					zeon_male_82
+					zeon_male_83
+					zeon_male_84
+					zeon_male_85
+					zeon_male_86
+					zeon_male_87
+					zeon_male_88
+					zeon_male_89
+					zeon_male_90
+					zeon_male_91
+					zeon_male_92
+					zeon_male_93
+					zeon_male_94
+					zeon_male_95
+					zeon_male_96
+					zeon_male_97
+					zeon_male_98
+					zeon_male_99
+					zeon_male_100
+					zeon_male_101
+					zeon_male_102
+					zeon_male_103
+					zeon_male_104
+					zeon_male_105
+					zeon_male_106
+					zeon_male_107
+					zeon_male_108
+					zeon_male_109
+					zeon_male_110
+					zeon_male_111
+					zeon_male_112
+					zeon_male_113
+					zeon_male_114
+					zeon_male_115
+					zeon_male_116
+					zeon_male_117
+					zeon_male_118
+				}
+			}
+		}
+	}
+	zeon2 = {
+		default = zeon_male_108
+		game_setup = { #will run with a limited country scope. species and government is set but the country does not actually exist
+			add = {
+				trigger = {
+					ruler = { gender = male }
+				}
+				portraits = {
+					zeon_male_01
+					zeon_male_02
+					zeon_male_03
+					zeon_male_04
+					zeon_male_06
+					zeon_male_07
+					zeon_male_08
+					zeon_male_09
+					zeon_male_10
+					zeon_male_11
+					zeon_male_12
+					zeon_male_13
+					zeon_male_14
+					zeon_male_15
+					zeon_male_16
+					zeon_male_17
+					zeon_male_18
+					zeon_male_19
+					zeon_male_20
+					zeon_male_21
+					zeon_male_22
+					zeon_male_23
+					zeon_male_24
+					zeon_male_25
+					zeon_male_26
+					zeon_male_27
+					zeon_male_28
+					zeon_male_29
+					zeon_male_30
+					zeon_male_31
+					zeon_male_32
+					zeon_male_33
+					zeon_male_34
+					zeon_male_35
+					zeon_male_36
+					zeon_male_37
+					zeon_male_38
+					zeon_male_39
+					zeon_male_40
+					zeon_male_41
+					zeon_male_42
+					zeon_male_43
+					zeon_male_44
+					zeon_male_45
+					zeon_male_46
+					zeon_male_47
+					zeon_male_48
+					zeon_male_49
+					zeon_male_50
+					zeon_male_51
+					zeon_male_52
+					zeon_male_53
+					zeon_male_54
+					zeon_male_55
+					zeon_male_56
+					zeon_male_57
+					zeon_male_58
+					zeon_male_59
+					zeon_male_60
+					zeon_male_61
+					zeon_male_62
+					zeon_male_63
+					zeon_male_64
+					zeon_male_65
+					zeon_male_66
+					zeon_male_67
+					zeon_male_68
+					zeon_male_69
+					zeon_male_70
+					zeon_male_71
+					zeon_male_72
+					zeon_male_73
+					zeon_male_74
+					zeon_male_75
+					zeon_male_76
+					zeon_male_77
+					zeon_male_78
+					zeon_male_79
+					zeon_male_80
+					zeon_male_81
+					zeon_male_82
+					zeon_male_83
+					zeon_male_84
+					zeon_male_85
+					zeon_male_86
+					zeon_male_87
+					zeon_male_88
+					zeon_male_89
+					zeon_male_90
+					zeon_male_91
+					zeon_male_92
+					zeon_male_93
+					zeon_male_94
+					zeon_male_95
+					zeon_male_96
+					zeon_male_97
+					zeon_male_98
+					zeon_male_99
+					zeon_male_100
+					zeon_male_101
+					zeon_male_102
+					zeon_male_103
+					zeon_male_104
+					zeon_male_105
+					zeon_male_106
+					zeon_male_107
+					zeon_male_108
+					zeon_male_109
+					zeon_male_110
+					zeon_male_111
+					zeon_male_112
+					zeon_male_113
+					zeon_male_114
+					zeon_male_115
+					zeon_male_116
+					zeon_male_117
+					zeon_male_118
+				}
+			}
+			add = {
+				trigger = {
+					ruler = { gender = female }
+				}
+				portraits = {
+					zeon_female_01
+					zeon_female_02
+					zeon_female_03
+					zeon_female_04
+					zeon_female_05
+					zeon_female_06
+					zeon_female_07
+					zeon_female_08
+					zeon_female_09
+					zeon_female_10
+					zeon_female_11
+					zeon_female_12
+					zeon_female_13
+					zeon_female_14
+					zeon_female_15
+					zeon_female_16
+					zeon_female_17
+					zeon_female_18
+					zeon_female_19
+					zeon_female_20
+					zeon_female_21
+					zeon_female_22
+					zeon_female_23
+					zeon_female_24
+					zeon_female_25
+					zeon_female_26
+					zeon_female_27
+					zeon_female_28
+					zeon_female_29
+					zeon_female_30
+					zeon_female_31
+					zeon_female_32
+					zeon_female_33
+					zeon_female_34
+					zeon_female_35
+					zeon_female_36
+					zeon_female_37
+					zeon_female_38
+				}
+			}
+			#set = {
+			#	trigger = { ... }
+			#	portraits = { ... }
+			#	#using "set =" instead of "add" will first clear any portraits already added
+			#}
+		}		
+		
+		#species scope
+		species = { #generic portrait for a species
+			add = {
+				portraits = {
+					zeon_male_01
+					zeon_male_02
+					zeon_male_03
+					zeon_male_04
+					zeon_male_06
+					zeon_male_07
+					zeon_male_08
+					zeon_male_09
+					zeon_male_10
+					zeon_male_11
+					zeon_male_12
+					zeon_male_13
+					zeon_male_14
+					zeon_male_15
+					zeon_male_16
+					zeon_male_17
+					zeon_male_18
+					zeon_male_19
+					zeon_male_20
+					zeon_male_21
+					zeon_male_22
+					zeon_male_23
+					zeon_male_24
+					zeon_male_25
+					zeon_male_26
+					zeon_male_27
+					zeon_male_28
+					zeon_male_29
+					zeon_male_30
+					zeon_male_31
+					zeon_male_32
+					zeon_male_33
+					zeon_male_34
+					zeon_male_35
+					zeon_male_36
+					zeon_male_37
+					zeon_male_38
+					zeon_male_39
+					zeon_male_40
+					zeon_male_41
+					zeon_male_42
+					zeon_male_43
+					zeon_male_44
+					zeon_male_45
+					zeon_male_46
+					zeon_male_47
+					zeon_male_48
+					zeon_male_49
+					zeon_male_50
+					zeon_male_51
+					zeon_male_52
+					zeon_male_53
+					zeon_male_54
+					zeon_male_55
+					zeon_male_56
+					zeon_male_57
+					zeon_male_58
+					zeon_male_59
+					zeon_male_60
+					zeon_male_61
+					zeon_male_62
+					zeon_male_63
+					zeon_male_64
+					zeon_male_65
+					zeon_male_66
+					zeon_male_67
+					zeon_male_68
+					zeon_male_69
+					zeon_male_70
+					zeon_male_71
+					zeon_male_72
+					zeon_male_73
+					zeon_male_74
+					zeon_male_75
+					zeon_male_76
+					zeon_male_77
+					zeon_male_78
+					zeon_male_79
+					zeon_male_80
+					zeon_male_81
+					zeon_male_82
+					zeon_male_83
+					zeon_male_84
+					zeon_male_85
+					zeon_male_86
+					zeon_male_87
+					zeon_male_88
+					zeon_male_89
+					zeon_male_90
+					zeon_male_91
+					zeon_male_92
+					zeon_male_93
+					zeon_male_94
+					zeon_male_95
+					zeon_male_96
+					zeon_male_97
+					zeon_male_98
+					zeon_male_99
+					zeon_male_100
+					zeon_male_101
+					zeon_male_102
+					zeon_male_103
+					zeon_male_104
+					zeon_male_105
+					zeon_male_106
+					zeon_male_107
+					zeon_male_108
+					zeon_male_109
+					zeon_male_110
+					zeon_male_111
+					zeon_male_112
+					zeon_male_113
+					zeon_male_114
+					zeon_male_115
+					zeon_male_116
+					zeon_male_117
+					zeon_male_118
+					zeon_female_01
+					zeon_female_02
+					zeon_female_03
+					zeon_female_04
+					zeon_female_05
+					zeon_female_06
+					zeon_female_07
+					zeon_female_08
+					zeon_female_09
+					zeon_female_10
+					zeon_female_11
+					zeon_female_12
+					zeon_female_13
+					zeon_female_14
+					zeon_female_15
+					zeon_female_16
+					zeon_female_17
+					zeon_female_18
+					zeon_female_19
+					zeon_female_20
+					zeon_female_21
+					zeon_female_22
+					zeon_female_23
+					zeon_female_24
+					zeon_female_25
+					zeon_female_26
+					zeon_female_27
+					zeon_female_28
+					zeon_female_29
+					zeon_female_30
+					zeon_female_31
+					zeon_female_32
+					zeon_female_33
+					zeon_female_34
+					zeon_female_35
+					zeon_female_36
+					zeon_female_37
+					zeon_female_38
+				}
+			}
+		}		
+		
+		#pop scope
+		pop = { #for a specific pop
+			add = {
+				portraits = {
+					zeon_male_01
+					zeon_male_02
+					zeon_male_03
+					zeon_male_04
+					zeon_male_06
+					zeon_male_07
+					zeon_male_08
+					zeon_male_09
+					zeon_male_10
+					zeon_male_11
+					zeon_male_12
+					zeon_male_13
+					zeon_male_14
+					zeon_male_15
+					zeon_male_16
+					zeon_male_17
+					zeon_male_18
+					zeon_male_19
+					zeon_male_20
+					zeon_male_21
+					zeon_male_22
+					zeon_male_23
+					zeon_male_24
+					zeon_male_25
+					zeon_male_26
+					zeon_male_27
+					zeon_male_28
+					zeon_male_29
+					zeon_male_30
+					zeon_male_31
+					zeon_male_32
+					zeon_male_33
+					zeon_male_34
+					zeon_male_35
+					zeon_male_36
+					zeon_male_37
+					zeon_male_38
+					zeon_male_39
+					zeon_male_40
+					zeon_male_41
+					zeon_male_42
+					zeon_male_43
+					zeon_male_44
+					zeon_male_45
+					zeon_male_46
+					zeon_male_47
+					zeon_male_48
+					zeon_male_49
+					zeon_male_50
+					zeon_male_51
+					zeon_male_52
+					zeon_male_53
+					zeon_male_54
+					zeon_male_55
+					zeon_male_56
+					zeon_male_57
+					zeon_male_58
+					zeon_male_59
+					zeon_male_60
+					zeon_male_61
+					zeon_male_62
+					zeon_male_63
+					zeon_male_64
+					zeon_male_65
+					zeon_male_66
+					zeon_male_67
+					zeon_male_68
+					zeon_male_69
+					zeon_male_70
+					zeon_male_71
+					zeon_male_72
+					zeon_male_73
+					zeon_male_74
+					zeon_male_75
+					zeon_male_76
+					zeon_male_77
+					zeon_male_78
+					zeon_male_79
+					zeon_male_80
+					zeon_male_81
+					zeon_male_82
+					zeon_male_83
+					zeon_male_84
+					zeon_male_85
+					zeon_male_86
+					zeon_male_87
+					zeon_male_88
+					zeon_male_89
+					zeon_male_90
+					zeon_male_91
+					zeon_male_92
+					zeon_male_93
+					zeon_male_94
+					zeon_male_95
+					zeon_male_96
+					zeon_male_97
+					zeon_male_98
+					zeon_male_99
+					zeon_male_100
+					zeon_male_101
+					zeon_male_102
+					zeon_male_103
+					zeon_male_104
+					zeon_male_105
+					zeon_male_106
+					zeon_male_107
+					zeon_male_108
+					zeon_male_109
+					zeon_male_110
+					zeon_male_111
+					zeon_male_112
+					zeon_male_113
+					zeon_male_114
+					zeon_male_115
+					zeon_male_116
+					zeon_male_117
+					zeon_male_118
+					zeon_female_01
+					zeon_female_02
+					zeon_female_03
+					zeon_female_04
+					zeon_female_05
+					zeon_female_06
+					zeon_female_07
+					zeon_female_08
+					zeon_female_09
+					zeon_female_10
+					zeon_female_11
+					zeon_female_12
+					zeon_female_13
+					zeon_female_14
+					zeon_female_15
+					zeon_female_16
+					zeon_female_17
+					zeon_female_18
+					zeon_female_19
+					zeon_female_20
+					zeon_female_21
+					zeon_female_22
+					zeon_female_23
+					zeon_female_24
+					zeon_female_25
+					zeon_female_26
+					zeon_female_27
+					zeon_female_28
+					zeon_female_29
+					zeon_female_30
+					zeon_female_31
+					zeon_female_32
+					zeon_female_33
+					zeon_female_34
+					zeon_female_35
+					zeon_female_36
+					zeon_female_37
+					zeon_female_38
+				}
+			}
+		}
+		
+		#leader scope
+		leader = { #scientists, generals, admirals, governor
+			add = {
+				trigger = {
+					gender = female
+				}
+				portraits = {
+					zeon_female_01
+					zeon_female_02
+					zeon_female_03
+					zeon_female_04
+					zeon_female_05
+					zeon_female_06
+					zeon_female_07
+					zeon_female_08
+					zeon_female_09
+					zeon_female_10
+					zeon_female_11
+					zeon_female_12
+					zeon_female_13
+					zeon_female_14
+					zeon_female_15
+					zeon_female_16
+					zeon_female_17
+					zeon_female_18
+					zeon_female_19
+					zeon_female_20
+					zeon_female_21
+					zeon_female_22
+					zeon_female_23
+					zeon_female_24
+					zeon_female_25
+					zeon_female_26
+					zeon_female_27
+					zeon_female_28
+					zeon_female_29
+					zeon_female_30
+					zeon_female_31
+					zeon_female_32
+					zeon_female_33
+					zeon_female_34
+					zeon_female_35
+					zeon_female_36
+					zeon_female_37
+					zeon_female_38
+				}
+			}
+			add = {
+				trigger = {
+					gender = male
+				}
+				portraits = {
+					zeon_male_01
+					zeon_male_02
+					zeon_male_03
+					zeon_male_04
+					zeon_male_06
+					zeon_male_07
+					zeon_male_08
+					zeon_male_09
+					zeon_male_10
+					zeon_male_11
+					zeon_male_12
+					zeon_male_13
+					zeon_male_14
+					zeon_male_15
+					zeon_male_16
+					zeon_male_17
+					zeon_male_18
+					zeon_male_19
+					zeon_male_20
+					zeon_male_21
+					zeon_male_22
+					zeon_male_23
+					zeon_male_24
+					zeon_male_25
+					zeon_male_26
+					zeon_male_27
+					zeon_male_28
+					zeon_male_29
+					zeon_male_30
+					zeon_male_31
+					zeon_male_32
+					zeon_male_33
+					zeon_male_34
+					zeon_male_35
+					zeon_male_36
+					zeon_male_37
+					zeon_male_38
+					zeon_male_39
+					zeon_male_40
+					zeon_male_41
+					zeon_male_42
+					zeon_male_43
+					zeon_male_44
+					zeon_male_45
+					zeon_male_46
+					zeon_male_47
+					zeon_male_48
+					zeon_male_49
+					zeon_male_50
+					zeon_male_51
+					zeon_male_52
+					zeon_male_53
+					zeon_male_54
+					zeon_male_55
+					zeon_male_56
+					zeon_male_57
+					zeon_male_58
+					zeon_male_59
+					zeon_male_60
+					zeon_male_61
+					zeon_male_62
+					zeon_male_63
+					zeon_male_64
+					zeon_male_65
+					zeon_male_66
+					zeon_male_67
+					zeon_male_68
+					zeon_male_69
+					zeon_male_70
+					zeon_male_71
+					zeon_male_72
+					zeon_male_73
+					zeon_male_74
+					zeon_male_75
+					zeon_male_76
+					zeon_male_77
+					zeon_male_78
+					zeon_male_79
+					zeon_male_80
+					zeon_male_81
+					zeon_male_82
+					zeon_male_83
+					zeon_male_84
+					zeon_male_85
+					zeon_male_86
+					zeon_male_87
+					zeon_male_88
+					zeon_male_89
+					zeon_male_90
+					zeon_male_91
+					zeon_male_92
+					zeon_male_93
+					zeon_male_94
+					zeon_male_95
+					zeon_male_96
+					zeon_male_97
+					zeon_male_98
+					zeon_male_99
+					zeon_male_100
+					zeon_male_101
+					zeon_male_102
+					zeon_male_103
+					zeon_male_104
+					zeon_male_105
+					zeon_male_106
+					zeon_male_107
+					zeon_male_108
+					zeon_male_109
+					zeon_male_110
+					zeon_male_111
+					zeon_male_112
+					zeon_male_113
+					zeon_male_114
+					zeon_male_115
+					zeon_male_116
+					zeon_male_117
+					zeon_male_118
+				}
+			}
+		}
+
+			
+		#leader scope 
+		ruler = {
+			add = {
+				trigger = {
+					gender = female
+				}
+				portraits = {
+					zeon_female_01
+					zeon_female_02
+					zeon_female_03
+					zeon_female_04
+					zeon_female_05
+					zeon_female_06
+					zeon_female_07
+					zeon_female_08
+					zeon_female_09
+					zeon_female_10
+					zeon_female_11
+					zeon_female_12
+					zeon_female_13
+					zeon_female_14
+					zeon_female_15
+					zeon_female_16
+					zeon_female_17
+					zeon_female_18
+					zeon_female_19
+					zeon_female_20
+					zeon_female_21
+					zeon_female_22
+					zeon_female_23
+					zeon_female_24
+					zeon_female_25
+					zeon_female_26
+					zeon_female_27
+					zeon_female_28
+					zeon_female_29
+					zeon_female_30
+					zeon_female_31
+					zeon_female_32
+					zeon_female_33
+					zeon_female_34
+					zeon_female_35
+					zeon_female_36
+					zeon_female_37
+					zeon_female_38
+				}
+			}
+			add = {
+				trigger = {
+					gender = male
+				}
+				portraits = {
+					zeon_male_01
+					zeon_male_02
+					zeon_male_03
+					zeon_male_04
+					zeon_male_06
+					zeon_male_07
+					zeon_male_08
+					zeon_male_09
+					zeon_male_10
+					zeon_male_11
+					zeon_male_12
+					zeon_male_13
+					zeon_male_14
+					zeon_male_15
+					zeon_male_16
+					zeon_male_17
+					zeon_male_18
+					zeon_male_19
+					zeon_male_20
+					zeon_male_21
+					zeon_male_22
+					zeon_male_23
+					zeon_male_24
+					zeon_male_25
+					zeon_male_26
+					zeon_male_27
+					zeon_male_28
+					zeon_male_29
+					zeon_male_30
+					zeon_male_31
+					zeon_male_32
+					zeon_male_33
+					zeon_male_34
+					zeon_male_35
+					zeon_male_36
+					zeon_male_37
+					zeon_male_38
+					zeon_male_39
+					zeon_male_40
+					zeon_male_41
+					zeon_male_42
+					zeon_male_43
+					zeon_male_44
+					zeon_male_45
+					zeon_male_46
+					zeon_male_47
+					zeon_male_48
+					zeon_male_49
+					zeon_male_50
+					zeon_male_51
+					zeon_male_52
+					zeon_male_53
+					zeon_male_54
+					zeon_male_55
+					zeon_male_56
+					zeon_male_57
+					zeon_male_58
+					zeon_male_59
+					zeon_male_60
+					zeon_male_61
+					zeon_male_62
+					zeon_male_63
+					zeon_male_64
+					zeon_male_65
+					zeon_male_66
+					zeon_male_67
+					zeon_male_68
+					zeon_male_69
+					zeon_male_70
+					zeon_male_71
+					zeon_male_72
+					zeon_male_73
+					zeon_male_74
+					zeon_male_75
+					zeon_male_76
+					zeon_male_77
+					zeon_male_78
+					zeon_male_79
+					zeon_male_80
+					zeon_male_81
+					zeon_male_82
+					zeon_male_83
+					zeon_male_84
+					zeon_male_85
+					zeon_male_86
+					zeon_male_87
+					zeon_male_88
+					zeon_male_89
+					zeon_male_90
+					zeon_male_91
+					zeon_male_92
+					zeon_male_93
+					zeon_male_94
+					zeon_male_95
+					zeon_male_96
+					zeon_male_97
+					zeon_male_98
+					zeon_male_99
+					zeon_male_100
+					zeon_male_101
+					zeon_male_102
+					zeon_male_103
+					zeon_male_104
+					zeon_male_105
+					zeon_male_106
+					zeon_male_107
+					zeon_male_108
+					zeon_male_109
+					zeon_male_110
+					zeon_male_111
+					zeon_male_112
+					zeon_male_113
+					zeon_male_114
+					zeon_male_115
+					zeon_male_116
+					zeon_male_117
+					zeon_male_118
+				}
+			}
+		}
+	}
+	zeon3 = {
+		default = zeon_female_12
+		game_setup = { #will run with a limited country scope. species and government is set but the country does not actually exist
+			add = {
+				trigger = {
+					ruler = { gender = male }
+				}
+				portraits = {
+					zeon_male_01
+					zeon_male_02
+					zeon_male_03
+					zeon_male_04
+					zeon_male_06
+					zeon_male_07
+					zeon_male_08
+					zeon_male_09
+					zeon_male_10
+					zeon_male_11
+					zeon_male_12
+					zeon_male_13
+					zeon_male_14
+					zeon_male_15
+					zeon_male_16
+					zeon_male_17
+					zeon_male_18
+					zeon_male_19
+					zeon_male_20
+					zeon_male_21
+					zeon_male_22
+					zeon_male_23
+					zeon_male_24
+					zeon_male_25
+					zeon_male_26
+					zeon_male_27
+					zeon_male_28
+					zeon_male_29
+					zeon_male_30
+					zeon_male_31
+					zeon_male_32
+					zeon_male_33
+					zeon_male_34
+					zeon_male_35
+					zeon_male_36
+					zeon_male_37
+					zeon_male_38
+					zeon_male_39
+					zeon_male_40
+					zeon_male_41
+					zeon_male_42
+					zeon_male_43
+					zeon_male_44
+					zeon_male_45
+					zeon_male_46
+					zeon_male_47
+					zeon_male_48
+					zeon_male_49
+					zeon_male_50
+					zeon_male_51
+					zeon_male_52
+					zeon_male_53
+					zeon_male_54
+					zeon_male_55
+					zeon_male_56
+					zeon_male_57
+					zeon_male_58
+					zeon_male_59
+					zeon_male_60
+					zeon_male_61
+					zeon_male_62
+					zeon_male_63
+					zeon_male_64
+					zeon_male_65
+					zeon_male_66
+					zeon_male_67
+					zeon_male_68
+					zeon_male_69
+					zeon_male_70
+					zeon_male_71
+					zeon_male_72
+					zeon_male_73
+					zeon_male_74
+					zeon_male_75
+					zeon_male_76
+					zeon_male_77
+					zeon_male_78
+					zeon_male_79
+					zeon_male_80
+					zeon_male_81
+					zeon_male_82
+					zeon_male_83
+					zeon_male_84
+					zeon_male_85
+					zeon_male_86
+					zeon_male_87
+					zeon_male_88
+					zeon_male_89
+					zeon_male_90
+					zeon_male_91
+					zeon_male_92
+					zeon_male_93
+					zeon_male_94
+					zeon_male_95
+					zeon_male_96
+					zeon_male_97
+					zeon_male_98
+					zeon_male_99
+					zeon_male_100
+					zeon_male_101
+					zeon_male_102
+					zeon_male_103
+					zeon_male_104
+					zeon_male_105
+					zeon_male_106
+					zeon_male_107
+					zeon_male_108
+					zeon_male_109
+					zeon_male_110
+					zeon_male_111
+					zeon_male_112
+					zeon_male_113
+					zeon_male_114
+					zeon_male_115
+					zeon_male_116
+					zeon_male_117
+					zeon_male_118
+				}
+			}
+			add = {
+				trigger = {
+					ruler = { gender = female }
+				}
+				portraits = {
+					zeon_female_01
+					zeon_female_02
+					zeon_female_03
+					zeon_female_04
+					zeon_female_05
+					zeon_female_06
+					zeon_female_07
+					zeon_female_08
+					zeon_female_09
+					zeon_female_10
+					zeon_female_11
+					zeon_female_12
+					zeon_female_13
+					zeon_female_14
+					zeon_female_15
+					zeon_female_16
+					zeon_female_17
+					zeon_female_18
+					zeon_female_19
+					zeon_female_20
+					zeon_female_21
+					zeon_female_22
+					zeon_female_23
+					zeon_female_24
+					zeon_female_25
+					zeon_female_26
+					zeon_female_27
+					zeon_female_28
+					zeon_female_29
+					zeon_female_30
+					zeon_female_31
+					zeon_female_32
+					zeon_female_33
+					zeon_female_34
+					zeon_female_35
+					zeon_female_36
+					zeon_female_37
+					zeon_female_38
+				}
+			}
+			#set = {
+			#	trigger = { ... }
+			#	portraits = { ... }
+			#	#using "set =" instead of "add" will first clear any portraits already added
+			#}
+		}		
+		
+		#species scope
+		species = { #generic portrait for a species
+			add = {
+				portraits = {
+					zeon_male_01
+					zeon_male_02
+					zeon_male_03
+					zeon_male_04
+					zeon_male_06
+					zeon_male_07
+					zeon_male_08
+					zeon_male_09
+					zeon_male_10
+					zeon_male_11
+					zeon_male_12
+					zeon_male_13
+					zeon_male_14
+					zeon_male_15
+					zeon_male_16
+					zeon_male_17
+					zeon_male_18
+					zeon_male_19
+					zeon_male_20
+					zeon_male_21
+					zeon_male_22
+					zeon_male_23
+					zeon_male_24
+					zeon_male_25
+					zeon_male_26
+					zeon_male_27
+					zeon_male_28
+					zeon_male_29
+					zeon_male_30
+					zeon_male_31
+					zeon_male_32
+					zeon_male_33
+					zeon_male_34
+					zeon_male_35
+					zeon_male_36
+					zeon_male_37
+					zeon_male_38
+					zeon_male_39
+					zeon_male_40
+					zeon_male_41
+					zeon_male_42
+					zeon_male_43
+					zeon_male_44
+					zeon_male_45
+					zeon_male_46
+					zeon_male_47
+					zeon_male_48
+					zeon_male_49
+					zeon_male_50
+					zeon_male_51
+					zeon_male_52
+					zeon_male_53
+					zeon_male_54
+					zeon_male_55
+					zeon_male_56
+					zeon_male_57
+					zeon_male_58
+					zeon_male_59
+					zeon_male_60
+					zeon_male_61
+					zeon_male_62
+					zeon_male_63
+					zeon_male_64
+					zeon_male_65
+					zeon_male_66
+					zeon_male_67
+					zeon_male_68
+					zeon_male_69
+					zeon_male_70
+					zeon_male_71
+					zeon_male_72
+					zeon_male_73
+					zeon_male_74
+					zeon_male_75
+					zeon_male_76
+					zeon_male_77
+					zeon_male_78
+					zeon_male_79
+					zeon_male_80
+					zeon_male_81
+					zeon_male_82
+					zeon_male_83
+					zeon_male_84
+					zeon_male_85
+					zeon_male_86
+					zeon_male_87
+					zeon_male_88
+					zeon_male_89
+					zeon_male_90
+					zeon_male_91
+					zeon_male_92
+					zeon_male_93
+					zeon_male_94
+					zeon_male_95
+					zeon_male_96
+					zeon_male_97
+					zeon_male_98
+					zeon_male_99
+					zeon_male_100
+					zeon_male_101
+					zeon_male_102
+					zeon_male_103
+					zeon_male_104
+					zeon_male_105
+					zeon_male_106
+					zeon_male_107
+					zeon_male_108
+					zeon_male_109
+					zeon_male_110
+					zeon_male_111
+					zeon_male_112
+					zeon_male_113
+					zeon_male_114
+					zeon_male_115
+					zeon_male_116
+					zeon_male_117
+					zeon_male_118
+					zeon_female_01
+					zeon_female_02
+					zeon_female_03
+					zeon_female_04
+					zeon_female_05
+					zeon_female_06
+					zeon_female_07
+					zeon_female_08
+					zeon_female_09
+					zeon_female_10
+					zeon_female_11
+					zeon_female_12
+					zeon_female_13
+					zeon_female_14
+					zeon_female_15
+					zeon_female_16
+					zeon_female_17
+					zeon_female_18
+					zeon_female_19
+					zeon_female_20
+					zeon_female_21
+					zeon_female_22
+					zeon_female_23
+					zeon_female_24
+					zeon_female_25
+					zeon_female_26
+					zeon_female_27
+					zeon_female_28
+					zeon_female_29
+					zeon_female_30
+					zeon_female_31
+					zeon_female_32
+					zeon_female_33
+					zeon_female_34
+					zeon_female_35
+					zeon_female_36
+					zeon_female_37
+					zeon_female_38
+				}
+			}
+		}		
+		
+		#pop scope
+		pop = { #for a specific pop
+			add = {
+				portraits = {
+					zeon_male_01
+					zeon_male_02
+					zeon_male_03
+					zeon_male_04
+					zeon_male_06
+					zeon_male_07
+					zeon_male_08
+					zeon_male_09
+					zeon_male_10
+					zeon_male_11
+					zeon_male_12
+					zeon_male_13
+					zeon_male_14
+					zeon_male_15
+					zeon_male_16
+					zeon_male_17
+					zeon_male_18
+					zeon_male_19
+					zeon_male_20
+					zeon_male_21
+					zeon_male_22
+					zeon_male_23
+					zeon_male_24
+					zeon_male_25
+					zeon_male_26
+					zeon_male_27
+					zeon_male_28
+					zeon_male_29
+					zeon_male_30
+					zeon_male_31
+					zeon_male_32
+					zeon_male_33
+					zeon_male_34
+					zeon_male_35
+					zeon_male_36
+					zeon_male_37
+					zeon_male_38
+					zeon_male_39
+					zeon_male_40
+					zeon_male_41
+					zeon_male_42
+					zeon_male_43
+					zeon_male_44
+					zeon_male_45
+					zeon_male_46
+					zeon_male_47
+					zeon_male_48
+					zeon_male_49
+					zeon_male_50
+					zeon_male_51
+					zeon_male_52
+					zeon_male_53
+					zeon_male_54
+					zeon_male_55
+					zeon_male_56
+					zeon_male_57
+					zeon_male_58
+					zeon_male_59
+					zeon_male_60
+					zeon_male_61
+					zeon_male_62
+					zeon_male_63
+					zeon_male_64
+					zeon_male_65
+					zeon_male_66
+					zeon_male_67
+					zeon_male_68
+					zeon_male_69
+					zeon_male_70
+					zeon_male_71
+					zeon_male_72
+					zeon_male_73
+					zeon_male_74
+					zeon_male_75
+					zeon_male_76
+					zeon_male_77
+					zeon_male_78
+					zeon_male_79
+					zeon_male_80
+					zeon_male_81
+					zeon_male_82
+					zeon_male_83
+					zeon_male_84
+					zeon_male_85
+					zeon_male_86
+					zeon_male_87
+					zeon_male_88
+					zeon_male_89
+					zeon_male_90
+					zeon_male_91
+					zeon_male_92
+					zeon_male_93
+					zeon_male_94
+					zeon_male_95
+					zeon_male_96
+					zeon_male_97
+					zeon_male_98
+					zeon_male_99
+					zeon_male_100
+					zeon_male_101
+					zeon_male_102
+					zeon_male_103
+					zeon_male_104
+					zeon_male_105
+					zeon_male_106
+					zeon_male_107
+					zeon_male_108
+					zeon_male_109
+					zeon_male_110
+					zeon_male_111
+					zeon_male_112
+					zeon_male_113
+					zeon_male_114
+					zeon_male_115
+					zeon_male_116
+					zeon_male_117
+					zeon_male_118
+					zeon_female_01
+					zeon_female_02
+					zeon_female_03
+					zeon_female_04
+					zeon_female_05
+					zeon_female_06
+					zeon_female_07
+					zeon_female_08
+					zeon_female_09
+					zeon_female_10
+					zeon_female_11
+					zeon_female_12
+					zeon_female_13
+					zeon_female_14
+					zeon_female_15
+					zeon_female_16
+					zeon_female_17
+					zeon_female_18
+					zeon_female_19
+					zeon_female_20
+					zeon_female_21
+					zeon_female_22
+					zeon_female_23
+					zeon_female_24
+					zeon_female_25
+					zeon_female_26
+					zeon_female_27
+					zeon_female_28
+					zeon_female_29
+					zeon_female_30
+					zeon_female_31
+					zeon_female_32
+					zeon_female_33
+					zeon_female_34
+					zeon_female_35
+					zeon_female_36
+					zeon_female_37
+					zeon_female_38
+				}
+			}
+		}
+		
+		#leader scope
+		leader = { #scientists, generals, admirals, governor
+			add = {
+				trigger = {
+					gender = female
+				}
+				portraits = {
+					zeon_female_01
+					zeon_female_02
+					zeon_female_03
+					zeon_female_04
+					zeon_female_05
+					zeon_female_06
+					zeon_female_07
+					zeon_female_08
+					zeon_female_09
+					zeon_female_10
+					zeon_female_11
+					zeon_female_12
+					zeon_female_13
+					zeon_female_14
+					zeon_female_15
+					zeon_female_16
+					zeon_female_17
+					zeon_female_18
+					zeon_female_19
+					zeon_female_20
+					zeon_female_21
+					zeon_female_22
+					zeon_female_23
+					zeon_female_24
+					zeon_female_25
+					zeon_female_26
+					zeon_female_27
+					zeon_female_28
+					zeon_female_29
+					zeon_female_30
+					zeon_female_31
+					zeon_female_32
+					zeon_female_33
+					zeon_female_34
+					zeon_female_35
+					zeon_female_36
+					zeon_female_37
+					zeon_female_38
+				}
+			}
+			add = {
+				trigger = {
+					gender = male
+				}
+				portraits = {
+					zeon_male_01
+					zeon_male_02
+					zeon_male_03
+					zeon_male_04
+					zeon_male_06
+					zeon_male_07
+					zeon_male_08
+					zeon_male_09
+					zeon_male_10
+					zeon_male_11
+					zeon_male_12
+					zeon_male_13
+					zeon_male_14
+					zeon_male_15
+					zeon_male_16
+					zeon_male_17
+					zeon_male_18
+					zeon_male_19
+					zeon_male_20
+					zeon_male_21
+					zeon_male_22
+					zeon_male_23
+					zeon_male_24
+					zeon_male_25
+					zeon_male_26
+					zeon_male_27
+					zeon_male_28
+					zeon_male_29
+					zeon_male_30
+					zeon_male_31
+					zeon_male_32
+					zeon_male_33
+					zeon_male_34
+					zeon_male_35
+					zeon_male_36
+					zeon_male_37
+					zeon_male_38
+					zeon_male_39
+					zeon_male_40
+					zeon_male_41
+					zeon_male_42
+					zeon_male_43
+					zeon_male_44
+					zeon_male_45
+					zeon_male_46
+					zeon_male_47
+					zeon_male_48
+					zeon_male_49
+					zeon_male_50
+					zeon_male_51
+					zeon_male_52
+					zeon_male_53
+					zeon_male_54
+					zeon_male_55
+					zeon_male_56
+					zeon_male_57
+					zeon_male_58
+					zeon_male_59
+					zeon_male_60
+					zeon_male_61
+					zeon_male_62
+					zeon_male_63
+					zeon_male_64
+					zeon_male_65
+					zeon_male_66
+					zeon_male_67
+					zeon_male_68
+					zeon_male_69
+					zeon_male_70
+					zeon_male_71
+					zeon_male_72
+					zeon_male_73
+					zeon_male_74
+					zeon_male_75
+					zeon_male_76
+					zeon_male_77
+					zeon_male_78
+					zeon_male_79
+					zeon_male_80
+					zeon_male_81
+					zeon_male_82
+					zeon_male_83
+					zeon_male_84
+					zeon_male_85
+					zeon_male_86
+					zeon_male_87
+					zeon_male_88
+					zeon_male_89
+					zeon_male_90
+					zeon_male_91
+					zeon_male_92
+					zeon_male_93
+					zeon_male_94
+					zeon_male_95
+					zeon_male_96
+					zeon_male_97
+					zeon_male_98
+					zeon_male_99
+					zeon_male_100
+					zeon_male_101
+					zeon_male_102
+					zeon_male_103
+					zeon_male_104
+					zeon_male_105
+					zeon_male_106
+					zeon_male_107
+					zeon_male_108
+					zeon_male_109
+					zeon_male_110
+					zeon_male_111
+					zeon_male_112
+					zeon_male_113
+					zeon_male_114
+					zeon_male_115
+					zeon_male_116
+					zeon_male_117
+					zeon_male_118
+				}
+			}
+		}
+
+			
+		#leader scope 
+		ruler = {
+			add = {
+				trigger = {
+					gender = female
+				}
+				portraits = {
+					zeon_female_01
+					zeon_female_02
+					zeon_female_03
+					zeon_female_04
+					zeon_female_05
+					zeon_female_06
+					zeon_female_07
+					zeon_female_08
+					zeon_female_09
+					zeon_female_10
+					zeon_female_11
+					zeon_female_12
+					zeon_female_13
+					zeon_female_14
+					zeon_female_15
+					zeon_female_16
+					zeon_female_17
+					zeon_female_18
+					zeon_female_19
+					zeon_female_20
+					zeon_female_21
+					zeon_female_22
+					zeon_female_23
+					zeon_female_24
+					zeon_female_25
+					zeon_female_26
+					zeon_female_27
+					zeon_female_28
+					zeon_female_29
+					zeon_female_30
+					zeon_female_31
+					zeon_female_32
+					zeon_female_33
+					zeon_female_34
+					zeon_female_35
+					zeon_female_36
+					zeon_female_37
+					zeon_female_38
+				}
+			}
+			add = {
+				trigger = {
+					gender = male
+				}
+				portraits = {
+					zeon_male_01
+					zeon_male_02
+					zeon_male_03
+					zeon_male_04
+					zeon_male_06
+					zeon_male_07
+					zeon_male_08
+					zeon_male_09
+					zeon_male_10
+					zeon_male_11
+					zeon_male_12
+					zeon_male_13
+					zeon_male_14
+					zeon_male_15
+					zeon_male_16
+					zeon_male_17
+					zeon_male_18
+					zeon_male_19
+					zeon_male_20
+					zeon_male_21
+					zeon_male_22
+					zeon_male_23
+					zeon_male_24
+					zeon_male_25
+					zeon_male_26
+					zeon_male_27
+					zeon_male_28
+					zeon_male_29
+					zeon_male_30
+					zeon_male_31
+					zeon_male_32
+					zeon_male_33
+					zeon_male_34
+					zeon_male_35
+					zeon_male_36
+					zeon_male_37
+					zeon_male_38
+					zeon_male_39
+					zeon_male_40
+					zeon_male_41
+					zeon_male_42
+					zeon_male_43
+					zeon_male_44
+					zeon_male_45
+					zeon_male_46
+					zeon_male_47
+					zeon_male_48
+					zeon_male_49
+					zeon_male_50
+					zeon_male_51
+					zeon_male_52
+					zeon_male_53
+					zeon_male_54
+					zeon_male_55
+					zeon_male_56
+					zeon_male_57
+					zeon_male_58
+					zeon_male_59
+					zeon_male_60
+					zeon_male_61
+					zeon_male_62
+					zeon_male_63
+					zeon_male_64
+					zeon_male_65
+					zeon_male_66
+					zeon_male_67
+					zeon_male_68
+					zeon_male_69
+					zeon_male_70
+					zeon_male_71
+					zeon_male_72
+					zeon_male_73
+					zeon_male_74
+					zeon_male_75
+					zeon_male_76
+					zeon_male_77
+					zeon_male_78
+					zeon_male_79
+					zeon_male_80
+					zeon_male_81
+					zeon_male_82
+					zeon_male_83
+					zeon_male_84
+					zeon_male_85
+					zeon_male_86
+					zeon_male_87
+					zeon_male_88
+					zeon_male_89
+					zeon_male_90
+					zeon_male_91
+					zeon_male_92
+					zeon_male_93
+					zeon_male_94
+					zeon_male_95
+					zeon_male_96
+					zeon_male_97
+					zeon_male_98
+					zeon_male_99
+					zeon_male_100
+					zeon_male_101
+					zeon_male_102
+					zeon_male_103
+					zeon_male_104
+					zeon_male_105
+					zeon_male_106
+					zeon_male_107
+					zeon_male_108
+					zeon_male_109
+					zeon_male_110
+					zeon_male_111
+					zeon_male_112
+					zeon_male_113
+					zeon_male_114
+					zeon_male_115
+					zeon_male_116
+					zeon_male_117
+					zeon_male_118
+				}
+			}
+		}
+	}
+	event_zeon_1 = {
+		default = zeon_male_42
+		game_setup = { #will run with a limited country scope. species and government is set but the country does not actually exist
+			add = {
+				trigger = {
+					ruler = { gender = male }
+				}
+				portraits = {
+					zeon_male_42
+				}
+			}
+			add = {
+				trigger = {
+					ruler = { gender = female }
+				}
+				portraits = {
+					zeon_male_42
+				}
+			}
+			#set = {
+			#	trigger = { ... }
+			#	portraits = { ... }
+			#	#using "set =" instead of "add" will first clear any portraits already added
+			#}
+		}		
+		
+		#species scope
+		species = { #generic portrait for a species
+			add = {
+				portraits = {
+					zeon_male_42
+				}
+			}
+		}		
+		
+		#pop scope
+		pop = { #for a specific pop
+			add = {
+				portraits = {
+					zeon_male_42
+				}
+			}
+		}
+		
+		#leader scope
+		leader = { #scientists, generals, admirals, governor
+			add = {
+				trigger = {
+					gender = female
+				}
+				portraits = {
+					zeon_male_42
+				}
+			}
+			add = {
+				trigger = {
+					gender = male
+				}
+				portraits = {
+					zeon_male_42
+				}
+			}
+		}
+
+			
+		#leader scope 
+		ruler = {
+			add = {
+				trigger = {
+					gender = female
+				}
+				portraits = {
+					zeon_male_42
+				}
+			}
+			add = {
+				trigger = {
+					gender = male
+				}
+				portraits = {
+					zeon_male_42
+				}
+			}
+		}
+	}
+	zeon_event_2 = {
+		default = zeon_female_16
+		game_setup = { #will run with a limited country scope. species and government is set but the country does not actually exist
+			add = {
+				trigger = {
+					ruler = { gender = male }
+				}
+				portraits = {
+					zeon_female_16
+				}
+			}
+			add = {
+				trigger = {
+					ruler = { gender = female }
+				}
+				portraits = {
+					zeon_female_16
+				}
+			}
+			#set = {
+			#	trigger = { ... }
+			#	portraits = { ... }
+			#	#using "set =" instead of "add" will first clear any portraits already added
+			#}
+		}		
+		
+		#species scope
+		species = { #generic portrait for a species
+			add = {
+				portraits = {
+					zeon_female_16
+				}
+			}
+		}		
+		
+		#pop scope
+		pop = { #for a specific pop
+			add = {
+				portraits = {
+					zeon_female_16
+				}
+			}
+		}
+		
+		#leader scope
+		leader = { #scientists, generals, admirals, governor
+			add = {
+				trigger = {
+					gender = female
+				}
+				portraits = {
+					zeon_female_16
+				}
+			}
+			add = {
+				trigger = {
+					gender = male
+				}
+				portraits = {
+					zeon_female_16
+				}
+			}
+		}
+
+			
+		#leader scope 
+		ruler = {
+			add = {
+				trigger = {
+					gender = female
+				}
+				portraits = {
+					zeon_female_16
+				}
+			}
+			add = {
+				trigger = {
+					gender = male
+				}
+				portraits = {
+					zeon_female_16
+				}
+			}
+		}
+	}
+	zeon_event_3 = {
+		default = zeon_male_18
+		game_setup = { #will run with a limited country scope. species and government is set but the country does not actually exist
+			add = {
+				trigger = {
+					ruler = { gender = male }
+				}
+				portraits = {
+					zeon_male_18
+				}
+			}
+			add = {
+				trigger = {
+					ruler = { gender = female }
+				}
+				portraits = {
+					zeon_male_18
+				}
+			}
+			#set = {
+			#	trigger = { ... }
+			#	portraits = { ... }
+			#	#using "set =" instead of "add" will first clear any portraits already added
+			#}
+		}		
+		
+		#species scope
+		species = { #generic portrait for a species
+			add = {
+				portraits = {
+					zeon_male_18
+				}
+			}
+		}		
+		
+		#pop scope
+		pop = { #for a specific pop
+			add = {
+				portraits = {
+					zeon_male_18
+				}
+			}
+		}
+		
+		#leader scope
+		leader = { #scientists, generals, admirals, governor
+			add = {
+				trigger = {
+					gender = female
+				}
+				portraits = {
+					zeon_male_18
+				}
+			}
+			add = {
+				trigger = {
+					gender = male
+				}
+				portraits = {
+					zeon_male_18
+				}
+			}
+		}
+
+			
+		#leader scope 
+		ruler = {
+			add = {
+				trigger = {
+					gender = female
+				}
+				portraits = {
+					zeon_male_18
+				}
+			}
+			add = {
+				trigger = {
+					gender = male
+				}
+				portraits = {
+					zeon_male_18
+				}
+			}
+		}
+	}
+	zeon_event_4 = {
+		default = zeon_male_20
+		game_setup = { #will run with a limited country scope. species and government is set but the country does not actually exist
+			add = {
+				trigger = {
+					ruler = { gender = male }
+				}
+				portraits = {
+					zeon_male_20
+				}
+			}
+			add = {
+				trigger = {
+					ruler = { gender = female }
+				}
+				portraits = {
+					zeon_male_20
+				}
+			}
+			#set = {
+			#	trigger = { ... }
+			#	portraits = { ... }
+			#	#using "set =" instead of "add" will first clear any portraits already added
+			#}
+		}		
+		
+		#species scope
+		species = { #generic portrait for a species
+			add = {
+				portraits = {
+					zeon_male_20
+				}
+			}
+		}		
+		
+		#pop scope
+		pop = { #for a specific pop
+			add = {
+				portraits = {
+					zeon_male_20
+				}
+			}
+		}
+		
+		#leader scope
+		leader = { #scientists, generals, admirals, governor
+			add = {
+				trigger = {
+					gender = female
+				}
+				portraits = {
+					zeon_male_20
+				}
+			}
+			add = {
+				trigger = {
+					gender = male
+				}
+				portraits = {
+					zeon_male_20
+				}
+			}
+		}
+
+			
+		#leader scope 
+		ruler = {
+			add = {
+				trigger = {
+					gender = female
+				}
+				portraits = {
+					zeon_male_20
+				}
+			}
+			add = {
+				trigger = {
+					gender = male
+				}
+				portraits = {
+					zeon_male_20
+				}
+			}
+		}
+	}
+	zeon_event_5 = {
+		default = zeon_male_21
+		game_setup = { #will run with a limited country scope. species and government is set but the country does not actually exist
+			add = {
+				trigger = {
+					ruler = { gender = male }
+				}
+				portraits = {
+					zeon_male_21
+				}
+			}
+			add = {
+				trigger = {
+					ruler = { gender = female }
+				}
+				portraits = {
+					zeon_male_21
+				}
+			}
+			#set = {
+			#	trigger = { ... }
+			#	portraits = { ... }
+			#	#using "set =" instead of "add" will first clear any portraits already added
+			#}
+		}		
+		
+		#species scope
+		species = { #generic portrait for a species
+			add = {
+				portraits = {
+					zeon_male_21
+				}
+			}
+		}		
+		
+		#pop scope
+		pop = { #for a specific pop
+			add = {
+				portraits = {
+					zeon_male_21
+				}
+			}
+		}
+		
+		#leader scope
+		leader = { #scientists, generals, admirals, governor
+			add = {
+				trigger = {
+					gender = female
+				}
+				portraits = {
+					zeon_male_21
+				}
+			}
+			add = {
+				trigger = {
+					gender = male
+				}
+				portraits = {
+					zeon_male_21
+				}
+			}
+		}
+
+			
+		#leader scope 
+		ruler = {
+			add = {
+				trigger = {
+					gender = female
+				}
+				portraits = {
+					zeon_male_21
+				}
+			}
+			add = {
+				trigger = {
+					gender = male
+				}
+				portraits = {
+					zeon_male_21
+				}
+			}
+		}
+	}

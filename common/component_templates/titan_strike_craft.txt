@@ -1,0 +1,469 @@
+strike_craft_component_template = {
+	key = "TITANLARGE_SCOUT_HANGAR_1"
+	size = LARGE
+	entity = "scout_1z_entity"
+	
+	weapon_type = point_defence
+	projectile_gfx = "auto_cannons_s"
+	power = -40
+	cost = 40
+	
+	count = 5
+	regeneration_per_day = 0.034
+	launch_time = 8.0
+	
+	damage = { min = 8 max = 18 }
+	cooldown = 4
+	range = 15
+	accuracy = 0.80
+	tracking = 0.1
+	
+	health = 11
+	armor = 1
+	shield = 0
+	evasion = 0.25
+	
+	speed = 4
+	rotation_speed = 0.1
+	acceleration = 0.5
+	
+	shield_damage = 1.0
+	shield_penetration = 0
+	armor_penetration = 0
+	
+	ship_behavior = "fighters_behavior"
+	
+	icon = "GFX_ship_part_titan_scout"
+	icon_frame = 1
+	component_set = "TITANSCOUT_HANGAR_1"
+	prerequisites = { "tech_Titan_MS_0" }
+	tags = { weapon_type_strike_craft }
+}
+
+strike_craft_component_template = {
+	key = "TITANLARGE_FIGHTERS_HANGAR_1"
+	size = LARGE
+	entity = "fighter_1z_entity"
+	
+	weapon_type = point_defence
+	projectile_gfx = "auto_cannons_s"
+	power = -45
+	cost = 45
+	
+	count = 5
+	regeneration_per_day = 0.034
+	launch_time = 8.0
+	
+	damage = { min = 10 max = 22 }
+	cooldown = 4
+	range = 15
+	accuracy = 0.80
+	tracking = 0.2
+	
+	health = 15
+	armor = 2
+	shield = 0
+	evasion = 0.3
+	
+	speed = 4.75
+	rotation_speed = 0.1
+	acceleration = 0.5
+	
+	shield_damage = 1.0
+	shield_penetration = 0
+	armor_penetration = 0
+	
+	ship_behavior = "fighters_behavior"
+	
+	icon = "GFX_ship_part_titan_fighter_1"
+	icon_frame = 1
+	component_set = "TITANFIGHTERS_HANGAR_1"
+	prerequisites = { "tech_Titan_MS_1" }
+	tags = { weapon_type_strike_craft }
+	upgrades_to = "TITANLARGE_FIGHTERS_HANGAR_2"
+}
+
+strike_craft_component_template = {
+	key = "TITANLARGE_FIGHTERS_HANGAR_2"
+	size = LARGE
+	entity = "fighter_2z_entity"
+	
+	weapon_type = point_defence
+	projectile_gfx = "auto_cannons_s"
+	power = -50
+	cost = 50
+	
+	count = 5
+	regeneration_per_day = 0.034
+	launch_time = 8.0
+	
+	damage = { min = 14 max = 26 }
+	cooldown = 4
+	range = 15
+	accuracy = 0.85
+	tracking = 0.3
+	
+	health = 17
+	armor = 2
+	shield = 0
+	evasion = 0.4
+	
+	speed = 5.75
+	rotation_speed = 0.2
+	acceleration = 0.6
+	
+	shield_damage = 1.0
+	shield_penetration = 0
+	armor_penetration = 0.1
+	
+	ship_behavior = "fighters_behavior"
+	
+	icon = "GFX_ship_part_titan_fighter_2"
+	icon_frame = 1
+	component_set = "TITANFIGHTERS_HANGAR_2"
+	prerequisites = { "tech_Titan_MS_2" }
+	tags = { weapon_type_strike_craft }
+	upgrades_to = "TITANLARGE_FIGHTERS_HANGAR_3"
+}
+
+strike_craft_component_template = {
+	key = "TITANLARGE_FIGHTERS_HANGAR_3"
+	size = LARGE
+	entity = "fighter_3z_entity"
+	
+	weapon_type = instant
+	projectile_gfx = "BEAMC_s"
+	power = -55
+	cost = 55
+	
+	count = 5
+	regeneration_per_day = 0.034
+	launch_time = 8.0
+	
+	damage = { min = 18 max = 30 }
+	cooldown = 4
+	range = 15
+	accuracy = 0.90
+	tracking = 0.4
+	
+	health = 20
+	armor = 3
+	shield = 0
+	evasion = 0.5
+	
+	speed = 6.75
+	rotation_speed = 0.3
+	acceleration = 0.7
+	
+	shield_damage = 1.0
+	shield_penetration = 0.1
+	armor_penetration = 0.2
+	
+	ship_behavior = "fighters_behavior"
+	
+	icon = "GFX_ship_part_titan_fighter_3"
+	icon_frame = 1
+	component_set = "TITANFIGHTERS_HANGAR_3"
+	prerequisites = { "tech_Titan_MS_3" }
+	tags = { weapon_type_strike_craft }
+	upgrades_to = "TITANLARGE_FIGHTERS_HANGAR_4"
+}
+
+strike_craft_component_template = {
+	key = "TITANLARGE_FIGHTERS_HANGAR_4"
+	size = LARGE
+	entity = "fighter_4z_entity"
+	
+	weapon_type = instant
+	projectile_gfx = "BEAMC_s"
+	power = -60
+	cost = 60
+	
+	count = 5
+	regeneration_per_day = 0.034
+	launch_time = 8.0
+	
+	damage = { min = 22 max = 34 }
+	cooldown = 4
+	range = 15
+	accuracy = 0.90
+	tracking = 0.5
+	
+	health = 22
+	armor = 4
+	shield = 0
+	evasion = 0.6
+	
+	speed = 7.75
+	rotation_speed = 0.4
+	acceleration = 0.8
+	
+	shield_damage = 1.0
+	shield_penetration = 0.2
+	armor_penetration = 0.3
+	
+	ship_behavior = "fighters_behavior"
+	
+	icon = "GFX_ship_part_titan_fighter_4"
+	icon_frame = 1
+	component_set = "TITANFIGHTERS_HANGAR_4"
+	prerequisites = { "tech_Titan_MS_4" }
+	tags = { weapon_type_strike_craft }
+	upgrades_to = "TITANLARGE_FIGHTERS_HANGAR_5"
+}
+
+strike_craft_component_template = {
+	key = "TITANLARGE_FIGHTERS_HANGAR_5"
+	size = LARGE
+	entity = "fighter_5z_entity"
+	
+	weapon_type = instant
+	projectile_gfx = "BEAMC_s"
+	power = -65
+	cost = 65
+	
+	count = 5
+	regeneration_per_day = 0.034
+	launch_time = 8.0
+	
+	damage = { min = 26 max = 38 }
+	cooldown = 4
+	range = 15
+	accuracy = 0.90
+	tracking = 0.6
+	
+	health = 25
+	armor = 5
+	shield = 0
+	evasion = 0.7
+	
+	speed = 8.75
+	rotation_speed = 0.5
+	acceleration = 0.9
+	
+	shield_damage = 1.0
+	shield_penetration = 0.3
+	armor_penetration = 0.4
+	
+	ship_behavior = "fighters_behavior"
+	
+	icon = "GFX_ship_part_titan_fighter_5"
+	icon_frame = 1
+	component_set = "TITANFIGHTERS_HANGAR_5"
+	prerequisites = { "tech_Titan_MS_5" }
+	tags = { weapon_type_strike_craft }
+}
+
+strike_craft_component_template = {
+	key = "TITANLARGE_BOMBERS_HANGAR_1"
+	size = LARGE
+	entity = "bomber_1z_entity"
+	power = -45
+	cost = 45
+		
+	count = 5
+	regeneration_per_day = 0.034
+	launch_time = 8.0
+	
+	damage = { min = 18 max = 30 }
+	cooldown = 4
+	range = 15
+	accuracy = 0.8
+	tracking = 0.05
+	
+	health = 15
+	armor = 2
+	shield = 0
+	evasion = 0.2
+	
+	speed = 4
+	rotation_speed = 0.1
+	acceleration = 0.5
+	
+	shield_damage = 1.0
+	shield_penetration = 0.1
+	armor_penetration = 0.2
+	
+	ship_behavior = "bombers_behavior"
+	
+	weapon_type = point_defence
+	projectile_gfx = "auto_cannons_s"
+	
+	icon = "GFX_ship_part_titan_bomber_1"
+	icon_frame = 1
+	component_set = "TITANBOMBERS_HANGAR_1"
+	prerequisites = { "tech_Titan_MS_1" }
+	tags = { weapon_type_strike_craft }
+	upgrades_to = "TITANLARGE_BOMBERS_HANGAR_2"
+}
+
+strike_craft_component_template = {
+	key = "TITANLARGE_BOMBERS_HANGAR_2"
+	size = LARGE
+	entity = "bomber_2z_entity"
+	power = -50
+	cost = 50
+		
+	count = 5
+	regeneration_per_day = 0.034
+	launch_time = 8.0
+	
+	damage = { min = 22 max = 34 }
+	cooldown = 4
+	range = 15
+	accuracy = 0.85
+	tracking = 0.1
+	
+	health = 19
+	armor = 3
+	shield = 0
+	evasion = 0.25
+	
+	speed = 5
+	rotation_speed = 0.1
+	acceleration = 0.5
+	
+	shield_damage = 1.0
+	shield_penetration = 0.1
+	armor_penetration = 0.2
+	
+	ship_behavior = "bombers_behavior"
+	
+	weapon_type = point_defence
+	projectile_gfx = "auto_cannons_s"
+	
+	icon = "GFX_ship_part_titan_bomber_2"
+	icon_frame = 1
+	component_set = "TITANBOMBERS_HANGAR_2"
+	prerequisites = { "tech_Titan_MS_2" }
+	tags = { weapon_type_strike_craft }
+	upgrades_to = "TITANLARGE_BOMBERS_HANGAR_3"
+}
+
+strike_craft_component_template = {
+	key = "TITANLARGE_BOMBERS_HANGAR_3"
+	size = LARGE
+	entity = "bomber_3z_entity"
+	power = -55
+	cost = 55
+		
+	count = 5
+	regeneration_per_day = 0.034
+	launch_time = 8.0
+	
+	damage = { min = 26 max = 38 }
+	cooldown = 4
+	range = 15
+	accuracy = 0.9
+	tracking = 0.15
+	
+	health = 20
+	armor = 3
+	shield = 0
+	evasion = 0.3
+	
+	speed = 6
+	rotation_speed = 0.2
+	acceleration = 0.6
+	
+	shield_damage = 1.0
+	shield_penetration = 0.1
+	armor_penetration = 0.2
+	
+	ship_behavior = "bombers_behavior"
+	
+	weapon_type = instant
+	projectile_gfx = "BEAMC_s"
+	
+	icon = "GFX_ship_part_titan_bomber_3"
+	icon_frame = 1
+	component_set = "TITANBOMBERS_HANGAR_3"
+	prerequisites = { "tech_Titan_MS_3" }
+	tags = { weapon_type_strike_craft }
+	upgrades_to = "TITANLARGE_BOMBERS_HANGAR_4"
+}
+
+strike_craft_component_template = {
+	key = "TITANLARGE_BOMBERS_HANGAR_4"
+	size = LARGE
+	entity = "bomber_4z_entity"
+	power = -60
+	cost = 60
+		
+	count = 5
+	regeneration_per_day = 0.034
+	launch_time = 8.0
+	
+	damage = { min = 30 max = 42 }
+	cooldown = 4
+	range = 15
+	accuracy = 0.9
+	tracking = 0.2
+	
+	health = 22
+	armor = 4
+	shield = 0
+	evasion = 0.35
+	
+	speed = 7
+	rotation_speed = 0.2
+	acceleration = 0.6
+	
+	shield_damage = 1.0
+	shield_penetration = 0.2
+	armor_penetration = 0.3
+	
+	ship_behavior = "bombers_behavior"
+	
+	weapon_type = instant
+	projectile_gfx = "BEAMC_s"
+	
+	icon = "GFX_ship_part_titan_bomber_4"
+	icon_frame = 1
+	component_set = "TITANBOMBERS_HANGAR_4"
+	prerequisites = { "tech_Titan_MS_4" }
+	tags = { weapon_type_strike_craft }
+	upgrades_to = "TITANLARGE_BOMBERS_HANGAR_5"
+}
+
+strike_craft_component_template = {
+	key = "TITANLARGE_BOMBERS_HANGAR_5"
+	size = LARGE
+	entity = "bomber_5z_entity"
+	power = -65
+	cost = 65
+		
+	count = 5
+	regeneration_per_day = 0.034
+	launch_time = 8.0
+	
+	damage = { min = 34 max = 46 }
+	cooldown = 4
+	range = 15
+	accuracy = 0.9
+	tracking = 0.25
+	
+	health = 25
+	armor = 5
+	shield = 0
+	evasion = 0.4
+	
+	speed = 6
+	rotation_speed = 0.2
+	acceleration = 0.6
+	
+	shield_damage = 1.0
+	shield_penetration = 0.3
+	armor_penetration = 0.4
+	
+	ship_behavior = "bombers_behavior"
+	
+	weapon_type = instant
+	projectile_gfx = "BEAMC_s"
+	
+	icon = "GFX_ship_part_titan_bomber_5"
+	icon_frame = 1
+	component_set = "TITANBOMBERS_HANGAR_5"
+	prerequisites = { "tech_Titan_MS_5" }
+	tags = { weapon_type_strike_craft }
+}

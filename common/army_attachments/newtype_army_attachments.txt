@@ -1,0 +1,93 @@
+newtype_brigade = {
+	icon = "gfx/interface/icons/army_attachments/attachment_newtype.dds"
+	cost = { minerals = 100 energy = 250 }
+	
+	modifier = {
+		army_damage_mult = 0.5
+		army_morale = 0.5
+		army_upkeep_mult = 0.1
+	}
+	
+	prerequisites = { "tech_newtype_theory" }
+	
+	ai_weight = {
+		weight = 300
+		modifier = {
+			weight = 0
+			NOT = {
+				has_technology = tech_newtype_theory
+			}
+		}
+	}
+}
+
+cyber_newtype_brigade = {
+	icon = "gfx/interface/icons/army_attachments/attachment_cyber_newtype.dds"
+	cost = { minerals = 100 energy = 350 }
+	
+	modifier = {
+		army_damage_mult = 0.75
+		army_morale_damage_mult = 0.3
+		army_morale = -0.25
+		army_upkeep_mult = 0.1
+	}
+	
+	prerequisites = { "tech_cyber_newtypes" }
+	
+	ai_weight = {
+		weight = 300
+		modifier = {
+			weight = 0
+			NOT = {
+				has_technology = tech_newtype_theory
+			}
+		}
+	}
+}
+
+efsf_newtype_brigade = {
+	icon = "gfx/interface/icons/army_attachments/attachment_newtype.dds"
+	cost = { minerals = 100 energy = 250 }
+	
+	modifier = {
+		army_damage_mult = 0.5
+		army_morale = 0.5
+		army_upkeep_mult = 0.1
+	}
+	
+	prerequisites = { "tech_efsf_newtype_theory" }
+	
+	ai_weight = {
+		weight = 300
+		modifier = {
+			weight = 0
+			NOT = {
+				has_technology = tech_efsf_newtype_theory
+			}
+		}
+	}
+}
+
+efsf_cyber_newtype_brigade = {
+	icon = "gfx/interface/icons/army_attachments/attachment_cyber_newtype.dds"
+	cost = { minerals = 100 energy = 350 }
+	
+	modifier = {
+		army_damage_mult = 0.75
+		army_morale_damage_mult = 0.3
+		army_morale = -0.25
+		army_upkeep_mult = 0.1
+	}
+	
+	prerequisites = { "tech_efsf_cyber_newtypes" }
+	
+	ai_weight = {
+		weight = 300
+		modifier = {
+			weight = 0
+			NOT = {
+				has_technology = tech_efsf_newtype_theory
+			}
+		}
+	}
+}

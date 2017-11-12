@@ -1,0 +1,22 @@
+#namespace = efsftech
+
+#country_event = {
+#	id = efsftech.1
+#	title = "efsftecht"
+#	desc = "efsftechd"
+#	picture = GFX_evt_Zeon5
+#	show_sound = event_structural_collapse
+#	fire_only_once = yes
+#	trigger = { 
+#		OR = {
+#			has_country_flag = EFSF_Start
+#			has_country_flag = Titan_Start
+#		}
+#	}
+#	
+#	option = {
+#		name = FASCINATING
+#		give_technology = tech_BEAMC_1
+#		give_technology = tech_EFSF_MS_0
+#		}
+#	}

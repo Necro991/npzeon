@@ -1,0 +1,26 @@
+ZEO = {
+	archetype = BIOLOGICAL
+
+	possible = { authority = { NOT = { value = auth_machine_intelligence text = SPECIES_CLASS_MUST_NOT_USE_MACHINE_INTELLIGENCE } } }
+	
+	randomized = no
+	portraits = {
+		"zeon"
+	}
+	
+	graphical_culture = zeon_01
+	move_pop_sound_effect = "moving_pop_confirmation"
+}
+FED = {
+	archetype = BIOLOGICAL
+	
+	possible = { authority = { NOT = { value = auth_machine_intelligence text = SPECIES_CLASS_MUST_NOT_USE_MACHINE_INTELLIGENCE } } }
+	
+	randomized = no
+	portraits = {
+		"fed"
+	}
+	graphical_culture = fed_01
+	move_pop_sound_effect = "moving_pop_confirmation"	
+}
+

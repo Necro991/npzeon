@@ -1,0 +1,143 @@
+sound =
+{
+	name = "BEAMC_fire_S"
+	file = "weapons/beamlight.wav"
+	always_load = no
+}
+sound =
+{
+	name = "BEAMC_fire_M"
+	file = "weapons/beammedium.wav"
+	always_load = no
+}
+sound =
+{
+	name = "BEAMC_fire_L"
+	file = "weapons/beamlarge.wav"
+	always_load = no
+}
+sound =
+{
+	name = "BEAMC_hit_01"
+	file = "weapons/plasma_hit_01.wav"
+	always_load = no
+}
+sound =
+{
+	name = "distance_BEAMC_fire_S"
+	file = "weapons/beamlightd.wav"
+	always_load = no
+}
+sound =
+{
+	name = "distance_BEAMC_fire_M"
+	file = "weapons/beammediumd.wav"
+	always_load = no
+}
+sound =
+{
+	name = "distance_BEAMC_fire_L"
+	file = "weapons/beamlarged.wav"
+	always_load = no
+}
+sound =
+{
+	name = "distance_BEAMC_hit_01"
+	file = "weapons/distance_plasma_hit_01.wav"
+	always_load = no
+}
+######BEAMC2
+sound =
+{
+	name = "BEAMC_fire_S2"
+	file = "weapons/beamlight2.wav"
+	always_load = no
+}
+sound =
+{
+	name = "BEAMC_fire_M2"
+	file = "weapons/beammedium2.wav"
+	always_load = no
+}
+sound =
+{
+	name = "BEAMC_fire_L2"
+	file = "weapons/beamlarge2.wav"
+	always_load = no
+}
+sound =
+{
+	name = "distance_BEAMC_fire_S2"
+	file = "weapons/beamlight2d.wav"
+	always_load = no
+}
+sound =
+{
+	name = "distance_BEAMC_fire_M2"
+	file = "weapons/beammedium2d.wav"
+	always_load = no
+}
+sound =
+{
+	name = "distance_BEAMC_fire_L2"
+	file = "weapons/beamlarge2d.wav"
+	always_load = no
+}
+######BEAMC3
+sound =
+{
+	name = "BEAMC_fire_S3"
+	file = "weapons/beamlight3.wav"
+	always_load = no
+}
+sound =
+{
+	name = "BEAMC_fire_M3"
+	file = "weapons/beammedium3.wav"
+	always_load = no
+}
+sound =
+{
+	name = "BEAMC_fire_L3"
+	file = "weapons/beamlarge3.wav"
+	always_load = no
+}
+sound =
+{
+	name = "distance_BEAMC_fire_S3"
+	file = "weapons/beamlight3d.wav"
+	always_load = no
+}
+sound =
+{
+	name = "distance_BEAMC_fire_M3"
+	file = "weapons/beammedium3d.wav"
+	always_load = no
+}
+sound =
+{
+	name = "distance_BEAMC_fire_L3"
+	file = "weapons/beamlarge3d.wav"
+	always_load = no
+}
+######MPC
+sound = 
+{
+	name = "MPC1_fire_01"
+	file = "weapons/MPC1_fire_01.wav"
+}
+sound = 
+{
+	name = "MPC1_hit_01"
+	file = "weapons/MPC1_hit_01.wav"
+}
+sound = 
+{
+	name = "distance_MPC1_fire_01"
+	file = "weapons/distance_MPC1_fire_01.wav"
+}
+sound = 
+{
+	name = "distance_MPC1_hit_01"
+	file = "weapons/distance_MPC1_hit_01.wav"
+}

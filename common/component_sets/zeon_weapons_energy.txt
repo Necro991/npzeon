@@ -1,0 +1,128 @@
+# Plasma
+
+component_set = {
+	key = "BEAMC_1"
+	
+	icon = "GFX_ship_part_mass_driver_1"
+	icon_frame = 1	
+}
+
+component_set = {
+	key = "BEAMC_2"
+	
+	icon = "GFX_ship_part_mass_driver_2"
+	icon_frame = 1	
+}
+
+component_set = {
+	key = "BEAMC_3"
+
+	icon = "GFX_ship_part_mass_driver_3"
+	icon_frame = 1	
+}
+
+component_set = {
+	key = "EFSF_BEAMC_1"
+	
+	icon = "GFX_ship_part_mass_driver_1"
+	icon_frame = 1	
+}
+
+component_set = {
+	key = "EFSF_BEAMC_2"
+	
+	icon = "GFX_ship_part_mass_driver_2"
+	icon_frame = 1	
+}
+
+component_set = {
+	key = "EFSF_BEAMC_3"
+	
+	icon = "GFX_ship_part_mass_driver_3"
+	icon_frame = 1	
+}
+
+component_set = {
+	key = "MPC_1"
+	
+	icon = "mpc1"
+	icon_frame = 1	
+}
+component_set = {
+	key = "MPC_2"
+	
+	icon = "mpc2"
+	icon_frame = 1	
+}
+
+component_set = {
+	key = "MPC_3"
+	
+	icon = "mpc3"
+	icon_frame = 1	
+}
+component_set = {
+	key = "MPC_4"
+	
+	icon = "mpc4"
+	icon_frame = 1	
+}
+
+component_set = {
+	key = "MPC_5"
+	
+	icon = "mpc5"
+	icon_frame = 1	
+}
+component_set = {
+	key = "MPC_6"
+	
+	icon = "mpc6"
+	icon_frame = 1	
+}
+
+component_set = {
+	key = "EFSF_MPC_1"
+	
+	icon = "efsf_mmpc1"
+	icon_frame = 1	
+}
+component_set = {
+	key = "EFSF_MPC_2"
+	
+	icon = "efsf_mpc1"
+	icon_frame = 1	
+}
+
+component_set = {
+	key = "EFSF_MPC_3"
+	
+	icon = "efsf_mmpc2"
+	icon_frame = 1	
+}
+component_set = {
+	key = "EFSF_MPC_4"
+	
+	icon = "efsf_mpc2"
+	icon_frame = 1	
+}
+
+component_set = {
+	key = "EFSF_MPC_5"
+	
+	icon = "efsf_mmpc3"
+	icon_frame = 1	
+}
+component_set = {
+	key = "EFSF_MPC_6"
+	
+	icon = "efsf_mpc3"
+	icon_frame = 1	
+}
+
+component_set = {
+	key = "MSBEAMC_1"
+	
+	icon = "GFX_ship_part_energy_lance_2"
+	icon_frame = 1	
+}

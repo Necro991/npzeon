@@ -1,0 +1,387 @@
+######
+# PLASMA thrower
+######
+
+
+# MUZZLE FLASH
+
+entity = {
+	name = "BEAMC_small_muzzle_flash_entity"
+	cull_radius = 1.0
+	
+	default_state = "idle"
+	state = { name = "idle" state_time = 7 looping = no
+		event = { time = 0 particle = "plasma_thrower_small_muzzle_particle" keep_particle = yes sound = { soundeffect = BEAMC_fireS } }
+		event = { trigger_once = yes sound = { soundeffect = "distance_BEAMC_fireS" } }
+	}
+}
+
+entity = {
+	name = "BEAMC_medium_muzzle_flash_entity"
+	cull_radius = 1.0
+	
+	default_state = "idle"
+	state = { name = "idle" state_time = 7 looping = no
+		event = { time = 0 particle = "plasma_thrower_medium_muzzle_particle" keep_particle = yes sound = { soundeffect = BEAMC_fireM } }
+		event = { trigger_once = yes sound = { soundeffect = "distance_BEAMC_fireM" } }
+	}
+}
+entity = {
+	name = "BEAMC_large_muzzle_flash_entity"
+	cull_radius = 1.0
+	
+	default_state = "idle"
+	state = { name = "idle" state_time = 7 looping = no
+		event = { time = 0 particle = "plasma_thrower_large_muzzle_particle" keep_particle = yes sound = { soundeffect = BEAMC_fireL } }
+		event = { trigger_once = yes sound = { soundeffect = "distance_BEAMC_fireL" } }
+	}
+}
+
+# PROJECTILE
+
+entity = {
+	name = "BEAMC_small_entity"
+	cull_radius = 1.0
+	pdxmesh = "BEAMC_tracer_round_mesh"
+	
+	default_state = idle
+	state = { name = "idle"
+		event = { time = 0 particle = "small_plasma_cannon_idle_drops_particle" keep_particle = yes }
+	}
+	scale = 1.2
+}
+
+entity = {
+	name = "BEAMC_medium_entity"
+	cull_radius = 1.0
+	pdxmesh = "BEAMC_tracer_round_mesh"
+	
+	default_state = idle
+	state = { name = "idle"
+		event = { time = 0 particle = "medium_plasma_cannon_idle_drops_particle" keep_particle = yes }
+	}
+	scale = 1.3
+}
+
+entity = {
+	name = "BEAMC_large_entity"
+	cull_radius = 1.0
+	pdxmesh = "BEAMC_tracer_round_mesh"
+	
+	default_state = idle
+	state = { name = "idle"
+		event = { time = 0 particle = "large_plasma_cannon_idle_drops_particle" keep_particle = yes }
+	}
+	scale = 1.5
+}
+
+# HIT EFFECT
+
+entity = {
+	name = "BEAMC_small_hit_entity"
+	cull_radius = 1.0
+	
+	state = { name = "explode_med_hp" state_time = 0.8 looping = no
+		event = { time = 0.0 node = "root" particle = "plasma_thrower_small_hit_effect" sound = { soundeffect = plasma_hit } }
+		event = { trigger_once = yes sound = { soundeffect = "distance_plasma_hit" } }
+	}
+	state = { name = "explode_med_shield" state_time = 0.8 looping = no
+		event = { time = 0.0 node = "root" particle = "medium_hit_effect_shield" }
+	}
+	default_state = "explode_med_hp"
+}
+
+entity = {
+	name = "BEAMC_medium_hit_entity"
+	cull_radius = 1.0
+	
+	state = { name = "explode_med_hp" state_time = 0.8 looping = no
+		event = { time = 0.0 node = "root" particle = "plasma_thrower_medium_hit_effect" sound = { soundeffect = plasma_hit } }
+		event = { trigger_once = yes sound = { soundeffect = "distance_plasma_hit" } }
+	}
+	state = { name = "explode_med_shield" state_time = 0.8 looping = no
+		event = { time = 0.0 node = "root" particle = "medium_hit_effect_shield" }
+	}
+	default_state = "explode_med_hp"
+}
+
+entity = {
+	name = "BEAMC_large_hit_entity"
+	cull_radius = 1.0
+	
+	state = { name = "explode_med_hp" state_time = 0.8 looping = no
+		event = { time = 0.0 node = "root" particle = "plasma_thrower_large_hit_effect" sound = { soundeffect = plasma_hit } }
+		event = { trigger_once = yes sound = { soundeffect = "distance_plasma_hit" } }
+	}
+	state = { name = "explode_med_shield" state_time = 0.8 looping = no
+		event = { time = 0.0 node = "root" particle = "medium_hit_effect_shield" }
+	}
+	default_state = "explode_med_hp"
+}
+
+entity = {
+	name = "BEAMC_small_shield_hit_entity"
+	cull_radius = 1.0
+	
+	state = { name = "explode_med_hp" state_time = 5 looping = no
+		event = { time = 0.0 node = "root" particle = "plasma_thrower_small_hit_effect"  }
+		event = { time = 0.0 node = "root" particle = "projectile_small_shield_hit_effect" sound = { soundeffect = shield_hit } }
+		event = { trigger_once = yes sound = { soundeffect = "distance_shield_hit" } } 
+	}
+	default_state = "explode_med_hp"
+}
+
+entity = {
+	name = "BEAMC_medium_shield_hit_entity"
+	cull_radius = 1.0
+	
+	state = { name = "explode_med_hp" state_time = 5 looping = no
+		event = { time = 0.0 node = "root" particle = "plasma_thrower_medium_hit_effect" }
+		event = { time = 0.0 node = "root" particle = "projectile_medium_shield_hit_effect" sound = { soundeffect = shield_hit } }
+		event = { trigger_once = yes sound = { soundeffect = "distance_shield_hit" } } 
+	}
+	default_state = "explode_med_hp"
+}
+
+entity = {
+	name = "BEAMC_large_shield_hit_entity"
+	cull_radius = 1.0
+	
+	state = { name = "explode_med_hp" state_time = 5 looping = no
+		event = { time = 0.0 node = "root" particle = "plasma_thrower_large_hit_effect" }
+		event = { time = 0.0 node = "root" particle = "projectile_large_shield_hit_effect" sound = { soundeffect = shield_hit } }
+		event = { trigger_once = yes sound = { soundeffect = "distance_shield_hit" } } 
+	}
+	default_state = "explode_med_hp"
+}
+
+####2
+
+# MUZZLE FLASH
+
+entity = {
+	name = "BEAMC2_small_muzzle_flash_entity"
+	cull_radius = 1.0
+	
+	default_state = "idle"
+	state = { name = "idle" state_time = 7 looping = no
+		event = { time = 0 particle = "plasma_thrower_small_muzzle_particle" keep_particle = yes sound = { soundeffect = BEAMC_fireS2 } }
+		event = { trigger_once = yes sound = { soundeffect = "distance_BEAMC_fire_S2" } }
+	}
+}
+
+entity = {
+	name = "BEAMC2_medium_muzzle_flash_entity"
+	cull_radius = 1.0
+	
+	default_state = "idle"
+	state = { name = "idle" state_time = 7 looping = no
+		event = { time = 0 particle = "plasma_thrower_medium_muzzle_particle" keep_particle = yes sound = { soundeffect = BEAMC_fireM2 } }
+		event = { trigger_once = yes sound = { soundeffect = "distance_BEAMC_fire_M2" } }
+	}
+}
+entity = {
+	name = "BEAMC2_large_muzzle_flash_entity"
+	cull_radius = 1.0
+	
+	default_state = "idle"
+	state = { name = "idle" state_time = 7 looping = no
+		event = { time = 0 particle = "plasma_thrower_large_muzzle_particle" keep_particle = yes sound = { soundeffect = BEAMC_fireL2 } }
+		event = { trigger_once = yes sound = { soundeffect = "distance_BEAMC_fire_L2" } }
+	}
+}
+
+# PROJECTILE
+
+entity = {
+	name = "BEAMC2_small_entity"
+	cull_radius = 1.0
+	pdxmesh = "BEAMC_tracer_round_mesh2"
+	
+	default_state = idle
+	state = { name = "idle"
+		event = { time = 0 particle = "small_plasma_cannon_idle_drops_particle" keep_particle = yes }
+	}
+	scale = 1.2
+}
+
+entity = {
+	name = "BEAMC2_medium_entity"
+	cull_radius = 1.0
+	pdxmesh = "BEAMC_tracer_round_mesh2"
+	
+	default_state = idle
+	state = { name = "idle"
+		event = { time = 0 particle = "medium_plasma_cannon_idle_drops_particle" keep_particle = yes }
+	}
+	scale = 1.3
+}
+
+entity = {
+	name = "BEAMC2_large_entity"
+	cull_radius = 1.0
+	pdxmesh = "BEAMC_tracer_round_mesh2"
+	
+	default_state = idle
+	state = { name = "idle"
+		event = { time = 0 particle = "large_plasma_cannon_idle_drops_particle" keep_particle = yes }
+	}
+	scale = 1.5
+}
+
+####3
+
+# MUZZLE FLASH
+
+entity = {
+	name = "BEAMC3_small_muzzle_flash_entity"
+	cull_radius = 1.0
+	
+	default_state = "idle"
+	state = { name = "idle" state_time = 7 looping = no
+		event = { time = 0 particle = "plasma_thrower_small_muzzle_particle" keep_particle = yes sound = { soundeffect = BEAMC_fireS3 } }
+		event = { trigger_once = yes sound = { soundeffect = "distance_BEAMC_fire_S3" } }
+	}
+}
+
+entity = {
+	name = "BEAMC3_medium_muzzle_flash_entity"
+	cull_radius = 1.0
+	
+	default_state = "idle"
+	state = { name = "idle" state_time = 7 looping = no
+		event = { time = 0 particle = "plasma_thrower_medium_muzzle_particle" keep_particle = yes sound = { soundeffect = BEAMC_fireM3 } }
+		event = { trigger_once = yes sound = { soundeffect = "distance_BEAMC_fire_M3" } }
+	}
+}
+entity = {
+	name = "BEAMC3_large_muzzle_flash_entity"
+	cull_radius = 1.0
+	
+	default_state = "idle"
+	state = { name = "idle" state_time = 7 looping = no
+		event = { time = 0 particle = "plasma_thrower_large_muzzle_particle" keep_particle = yes sound = { soundeffect = BEAMC_fireL3 } }
+		event = { trigger_once = yes sound = { soundeffect = "distance_BEAMC_fire_L3" } }
+	}
+}
+
+# PROJECTILE
+
+entity = {
+	name = "BEAMC3_small_entity"
+	cull_radius = 1.0
+	pdxmesh = "BEAMC_tracer_round_mesh3"
+	
+	default_state = idle
+	state = { name = "idle"
+		event = { time = 0 particle = "small_plasma_cannon_idle_drops_particle" keep_particle = yes }
+	}
+	scale = 1.2
+}
+
+entity = {
+	name = "BEAMC3_medium_entity"
+	cull_radius = 1.0
+	pdxmesh = "BEAMC_tracer_round_mesh3"
+	
+	default_state = idle
+	state = { name = "idle"
+		event = { time = 0 particle = "medium_plasma_cannon_idle_drops_particle" keep_particle = yes }
+	}
+	scale = 1.3
+}
+
+entity = {
+	name = "BEAMC3_large_entity"
+	cull_radius = 1.0
+	pdxmesh = "BEAMC_tracer_round_mesh3"
+	
+	default_state = idle
+	state = { name = "idle"
+		event = { time = 0 particle = "large_plasma_cannon_idle_drops_particle" keep_particle = yes }
+	}
+	scale = 1.5
+}
+
+
+#######
+# ENERGY LANCE
+#######
+
+# MUZZLE FLASHES
+
+entity = {
+	name = "MPC1_muzzle_entity"
+	cull_radius = 1.0
+	
+	default_state = "idle"
+	state = { name = "idle" state_time = 0.8 looping = no
+		event = { time = 0 particle = "plasma_thrower_large_muzzle_particle" keep_particle = yes sound = { soundeffect = energy_MPC1_fire } } #particle_lance_muzzle_particle
+		event = { trigger_once = yes sound = { soundeffect = "distance_energy_lance_fire" } }
+	}
+}
+
+entity = {
+	name = "MPC2_muzzle_entity"
+	cull_radius = 1.0
+	
+	default_state = "idle"
+	state = { name = "idle" state_time = 0.8 looping = no
+		event = { time = 0 particle = "plasma_thrower_large_muzzle_particle" keep_particle = yes sound = { soundeffect = energy_MPC1_fire } } #tachyon_lance_muzzle_particle
+		event = { trigger_once = yes sound = { soundeffect = "distance_energy_lance_fire" } }
+	}
+}
+
+# HIT ENTITIES
+
+entity = {
+	name = "MPC1_hit_entity"
+	cull_radius = 1.0
+	
+	default_state = "idle"
+	state = { name = "idle" state_time = 2 looping = no
+		start_event = { particle = "particle_lance_hit_effect" keep_particle = yes sound = { soundeffect = energy_lance_hit } }
+		start_event = { trigger_once = yes sound = { soundeffect = "distance_energy_lance_hit" } }
+	}
+	state = { name = "stop" state_time = 0.5 looping = no }
+}
+
+entity = {
+	name = "MPC2_hit_entity"
+	cull_radius = 1.0
+	
+	default_state = "idle"
+	state = { name = "idle" state_time = 2 looping = no
+		start_event = { particle = "tachyon_lance_hit_effect" keep_particle = yes sound = { soundeffect = energy_lance_hit } }
+		start_event = { trigger_once = yes sound = { soundeffect = "distance_energy_lance_hit" } }
+	}
+	state = { name = "stop" state_time = 0.5 looping = no }
+}
+
+# SHIELD HIT ENTITIES
+
+entity = {
+	name = "MPC1_shield_hit_entity"
+	cull_radius = 1.0
+	
+	default_state = "idle"
+	state = { name = "idle" 
+		start_event = { particle = "particle_lance_hit_effect" sound = { soundeffect = shield_hit } }
+		start_event = { particle = "projectile_large_shield_hit_effect" }
+		start_event = { trigger_once = yes sound = { soundeffect = "distance_shield_hit" } } 
+	}
+	state = { name = "stop" state_time = 0.5 looping = no }
+}
+
+entity = {
+	name = "MPC2_shield_hit_entity"
+	cull_radius = 1.0
+	
+	default_state = "idle"
+	state = { name = "idle" 
+		start_event = { particle = "tachyon_lance_hit_effect" sound = { soundeffect = shield_hit } }
+		start_event = { particle = "projectile_large_shield_hit_effect" }
+		start_event = { trigger_once = yes sound = { soundeffect = "distance_shield_hit" } } 
+	}
+	state = { name = "stop" state_time = 0.5 looping = no }
+}

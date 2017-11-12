@@ -1,0 +1,35 @@
+
+################## Weapon #############################
+category = {
+ name = "Weapon"
+ soundeffects = {
+		####### WEAPONS
+	
+	####### CLOSE
+	BEAMC_fireS
+	BEAMC_fireM
+	BEAMC_fireL
+	BEAMC_fireS2
+	BEAMC_fireM2
+	BEAMC_fireL2
+	BEAMC_fireS3
+	BEAMC_fireM3
+	BEAMC_fireL3
+	BEAMC_hit
+	energy_MPC1_fire
+	energy_MPC1_hit
+	
+	####### FAR
+	distance_BEAMC_fireS
+	distance_BEAMC_fireM
+	distance_BEAMC_fireL
+	distance_BEAMC_fire_S2
+	distance_BEAMC_fire_M2
+	distance_BEAMC_fire_L2
+	distance_BEAMC_fire_S3
+	distance_BEAMC_fire_M3
+	distance_BEAMC_fire_L3
+	distance_BEAMC_hit
+	distance_MPC1_fire
+	distance_MPC1_hit
+}

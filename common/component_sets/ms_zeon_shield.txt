@@ -1,0 +1,139 @@
+##############
+#Zeon Shields#
+##############
+
+component_set = {
+	key = "ms_zeon_shield"
+	
+	required_component_set = yes
+	icon = "GFX_ship_part_zeon_shield_1"
+	icon_frame = 1	
+}
+
+component_set = {
+	key = "Zeon_Shield_1"
+	
+	show_in_designer = no
+	icon = "GFX_ship_part_zeon_shield_1"
+	icon_frame = 1	
+}
+
+component_set = {
+	key = "Zeon_Shield_2"
+	
+	show_in_designer = no
+	icon = "GFX_ship_part_zeon_shield_1"
+	icon_frame = 1	
+}
+
+component_set = {
+	key = "Zeon_Shield_3"
+	
+	show_in_designer = no
+	icon = "GFX_ship_part_zeon_shield_1"
+	icon_frame = 1	
+}
+
+component_set = {
+	key = "Zeon_Shield_4"
+	
+	show_in_designer = no
+	icon = "GFX_ship_part_zeon_shield_1"
+	icon_frame = 1	
+}
+
+component_set = {
+	key = "Zeon_Shield_5"
+	
+	show_in_designer = no
+	icon = "GFX_ship_part_zeon_shield_1"
+	icon_frame = 1	
+}
+
+component_set = {
+	key = "Axis_Shield_1"
+	
+	show_in_designer = no
+	icon = "GFX_ship_part_zeon_shield_1"
+	icon_frame = 1	
+}
+
+component_set = {
+	key = "Axis_Shield_2"
+	
+	show_in_designer = no
+	icon = "GFX_ship_part_zeon_shield_1"
+	icon_frame = 1	
+}
+
+component_set = {
+	key = "Axis_Shield_3"
+	
+	show_in_designer = no
+	icon = "GFX_ship_part_zeon_shield_1"
+	icon_frame = 1	
+}
+
+component_set = {
+	key = "Axis_Shield_4"
+	
+	show_in_designer = no
+	icon = "GFX_ship_part_zeon_shield_1"
+	icon_frame = 1	
+}
+
+component_set = {
+	key = "Axis_Shield_5"
+	
+	show_in_designer = no
+	icon = "GFX_ship_part_zeon_shield_1"
+	icon_frame = 1	
+}
+
+component_set = {
+	key = "Neo_Shield_1"
+	
+	show_in_designer = no
+	icon = "GFX_ship_part_zeon_shield_1"
+	icon_frame = 1	
+}
+
+component_set = {
+	key = "Neo_Shield_2"
+	
+	show_in_designer = no
+	icon = "GFX_ship_part_zeon_shield_1"
+	icon_frame = 1	
+}
+
+component_set = {
+	key = "Neo_Shield_3"
+	
+	show_in_designer = no
+	icon = "GFX_ship_part_zeon_shield_1"
+	icon_frame = 1	
+}
+
+component_set = {
+	key = "Neo_Shield_4"
+	
+	show_in_designer = no
+	icon = "GFX_ship_part_zeon_shield_1"
+	icon_frame = 1	
+}
+
+component_set = {
+	key = "Neo_Shield_5"
+	
+	show_in_designer = no
+	icon = "GFX_ship_part_zeon_shield_1"
+	icon_frame = 1	
+}
+
+component_set = {
+	key = "ms_efsf_shield"
+	
+	show_in_designer = no
+	icon = "GFX_ship_part_zeon_shield_1"
+	icon_frame = 1	
+}

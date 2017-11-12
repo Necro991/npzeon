@@ -1,0 +1,51 @@
+####################
+#Mobile Suit Pilots#
+####################
+
+component_set = {
+	key = "titan_ms_pilot"
+	
+	required_component_set = yes
+	icon = "GFX_ship_part_ms_pilot_basic"
+	icon_frame = 1	
+}
+
+component_set = {
+	key = "titan_ms_pilot_basic"
+	
+	show_in_designer = no
+	icon = "GFX_ship_part_titan_ms_pilot_basic"
+	icon_frame = 1	
+}
+
+component_set = {
+	key = "titan_ms_pilot_veteran"
+	
+	show_in_designer = no
+	icon = "GFX_ship_part_titan_ms_pilot_veteran"
+	icon_frame = 1	
+}
+
+component_set = {
+	key = "titan_ms_pilot_ace"
+	
+	show_in_designer = no
+	icon = "GFX_ship_part_titan_ms_pilot_ace"
+	icon_frame = 1	
+}
+
+component_set = {
+	key = "titan_ms_pilot_newtype"
+	
+	show_in_designer = no
+	icon = "GFX_ship_part_titan_ms_pilot_newtype"
+	icon_frame = 1	
+}
+
+component_set = {
+	key = "titan_ms_pilot_cyber_newtype"
+	
+	show_in_designer = no
+	icon = "GFX_ship_part_titan_ms_pilot_cyber_newtype"
+	icon_frame = 1	
+}

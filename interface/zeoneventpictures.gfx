@@ -1,0 +1,52 @@
+spriteTypes = {	
+
+
+	spriteType = {
+		name = "GFX_evt_Colony_Drop"
+		texturefile = "gfx/event_pictures/zeon.dds"
+		masking_texture = "gfx/interface/situation_log/event_mask.dds"
+		allwaystransparent = yes		
+	}
+	
+	spriteType = {
+		name = "GFX_evt_Zeon1"
+		texturefile = "gfx/event_pictures/zeon2.dds"
+		masking_texture = "gfx/interface/situation_log/event_mask.dds"
+		allwaystransparent = yes		
+	}
+	
+	spriteType = {
+		name = "GFX_evt_Zeon3"
+		texturefile = "gfx/event_pictures/zeon3.dds"
+		masking_texture = "gfx/interface/situation_log/event_mask.dds"
+		allwaystransparent = yes		
+	}
+	
+	spriteType = {
+		name = "GFX_evt_Zeon5"
+		texturefile = "gfx/event_pictures/zeon5.dds"
+		masking_texture = "gfx/interface/situation_log/event_mask.dds"
+		allwaystransparent = yes		
+	}
+	
+	spriteType = {
+		name = "GFX_evt_Newtypes"
+		texturefile = "gfx/event_pictures/newtypes.dds"
+		masking_texture = "gfx/interface/situation_log/event_mask.dds"
+		allwaystransparent = yes		
+	}
+	
+	spriteType = {
+		name = "GFX_evt_Fed_Remnants"
+		texturefile = "gfx/event_pictures/fed_remnants.dds"
+		masking_texture = "gfx/interface/situation_log/event_mask.dds"
+		allwaystransparent = yes		
+	}
+
+	spriteType = {
+		name = "GFX_evt_Zeon_Remnants"
+		texturefile = "gfx/event_pictures/zeon_remnants.dds"
+		masking_texture = "gfx/interface/situation_log/event_mask.dds"
+		allwaystransparent = yes		
+	}
+}

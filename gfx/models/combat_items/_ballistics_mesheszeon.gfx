@@ -1,0 +1,27 @@
+objectTypes = {
+	
+	pdxmesh = {
+		name = "BEAMC_tracer_round_mesh"
+		file = "gfx/models/combat_items/kinetic_artillery_tracer_round.mesh"
+		scale = 1.0
+				meshsettings = {
+		texture_diffuse = "BEAMC_tracer_round.dds"
+		}
+	}
+		pdxmesh = {
+		name = "BEAMC_tracer_round_mesh2"
+		file = "gfx/models/combat_items/kinetic_artillery_tracer_round.mesh"
+		scale = 1.0
+				meshsettings = {
+		texture_diffuse = "BEAMC_tracer_round2.dds"
+		}
+	}
+		pdxmesh = {
+		name = "BEAMC_tracer_round_mesh3"
+		file = "gfx/models/combat_items/kinetic_artillery_tracer_round.mesh"
+		scale = 1.0
+				meshsettings = {
+		texture_diffuse = "BEAMC_tracer_round3.dds"
+		}
+	}
+}		

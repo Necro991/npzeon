@@ -1,0 +1,474 @@
+
+#100mm Machine Gun
+weapon_component_template = {
+	key = "Axis_100mm"
+	size = small
+	entity = "Zeon_Machine_Gun_01_Entity"
+	damage = { min = 10 max = 15 }
+	windup = { min = 5 max = 10 }
+	total_fire_time = 2
+	range = 12.0 #5
+	accuracy = 0.80
+	tracking = 0.5
+	shield_penetration = 0.1
+	
+	icon = "GFX_ship_part_100mm"
+	icon_frame = 1
+	color = { 0.8 0.1 0.1 1 }
+	power = -1
+	cost = 5
+	size_restriction = { neo_MS_scout neo_MS_1 neo_MS_2 neo_MS_3 neo_MS_4 neo_MS_5 zeon_MS_scout zeon_MS_1 zeon_MS_2 zeon_MS_3 zeon_MS_4 zeon_MS_5 zeon_MS_P axis_MS_scout axis_MS_1 axis_MS_2 axis_MS_3 axis_MS_4 axis_MS_5 ball gm }
+	prerequisites = { "tech_Axis_MS_0" }
+	component_set = "Axis_100mm"
+	type = instant
+	projectile_gfx = "auto_cannons_s"
+	tags = { }
+	ai_tags = { weapon_type_ms }
+	upgrades_to = "105mm"
+}
+
+#weapon_component_template = {
+#	key = "100mm_pd"
+#	size = point_defence
+#	entity = "Zeon_Machine_Gun_01_Entity"
+#	damage = { min = 10 max = 15 }
+#	windup = { min = 5 max = 10 }
+#	total_fire_time = 2
+#	range = 12.0 #5
+#	accuracy = 0.80
+#	shield_penetration = 0.1
+	
+#	icon = "GFX_ship_part_100mm"
+#	icon_frame = 1
+#	color = { 0.8 0.1 0.1 1 }
+#	power = -1
+#	cost = 5
+#	prerequisites = { "tech_Axis_MS_0" }
+#	component_set = "100mm"
+#	type = point_defence
+#	projectile_gfx = "auto_cannons_s"
+#	#tags = { weapon_type_point_defense  }
+#	ai_tags = { weapon_type_ms }
+#	upgrades_to = "105mm_pd"
+#}
+
+#105mm Machine Gun
+weapon_component_template = {
+	key = "Axis_105mm"
+	size = small
+	entity = "Zeon_Machine_Gun_01_Entity"
+	damage = { min = 10 max = 20 }
+	windup = { min = 5 max = 10 }
+	total_fire_time = 2
+	range = 15.0 #5
+	accuracy = 0.80
+	tracking = 0.55
+	shield_penetration = 0.15
+	
+	icon = "GFX_ship_part_105mm"
+	icon_frame = 1
+	color = { 0.8 0.1 0.1 1 }
+	power = -3
+	cost = 10
+	size_restriction = { neo_MS_scout neo_MS_1 neo_MS_2 neo_MS_3 neo_MS_4 neo_MS_5 zeon_MS_scout zeon_MS_1 zeon_MS_2 zeon_MS_3 zeon_MS_4 zeon_MS_5 zeon_MS_P axis_MS_scout axis_MS_1 axis_MS_2 axis_MS_3 axis_MS_4 axis_MS_5 ball gm }
+	prerequisites = { "tech_Axis_MS_1" }
+	component_set = "Axis_105mm"
+	type = instant
+	projectile_gfx = "auto_cannons_s"
+	#tags = { weapon_type_point_defense  }
+	ai_tags = { weapon_type_ms }
+	upgrades_to = "120mm"
+}
+
+#weapon_component_template = {
+#	key = "105mm_pd"
+#	size = point_defence
+#	entity = "Zeon_Machine_Gun_01_Entity"
+#	damage = { min = 10 max = 20 }
+#	windup = { min = 5 max = 10 }
+#	total_fire_time = 2
+#	range = 15.0 #5
+#	accuracy = 0.80
+#	shield_penetration = 0.15
+	
+#	icon = "GFX_ship_part_105mm"
+#	icon_frame = 1
+#	color = { 0.8 0.1 0.1 1 }
+#	power = -3
+#	cost = 10
+#	prerequisites = { "tech_Axis_MS_1" }
+#	component_set = "105mm"
+#	type = point_defence
+#	projectile_gfx = "auto_cannons_s"
+#	#tags = { weapon_type_point_defense  }
+#	ai_tags = { weapon_type_ms }
+#	upgrades_to = "120mm_pd"
+#}
+
+#120mm Machine Gun
+weapon_component_template = {
+	key = "Axis_120mm"
+	size = small
+	entity = "Zeon_Machine_Gun_01_Entity"
+	damage = { min = 10 max = 25 }
+	windup = { min = 5 max = 10 }
+	total_fire_time = 2
+	range = 20.0 #5
+	accuracy = 0.80
+	tracking = 0.6
+	shield_penetration = 0.2
+	
+	icon = "GFX_ship_part_120mm"
+	icon_frame = 1
+	color = { 0.8 0.1 0.1 1 }
+	power = -4
+	cost = 15
+	size_restriction = { neo_MS_scout neo_MS_1 neo_MS_2 neo_MS_3 neo_MS_4 neo_MS_5 zeon_MS_scout zeon_MS_1 zeon_MS_2 zeon_MS_3 zeon_MS_4 zeon_MS_5 zeon_MS_P axis_MS_scout axis_MS_1 axis_MS_2 axis_MS_3 axis_MS_4 axis_MS_5 ball gm }
+	prerequisites = { "tech_Axis_MS_3" }
+	component_set = "Axis_120mm"
+	type = instant
+	projectile_gfx = "auto_cannons_s"
+	#tags = { weapon_type_point_defense  }
+	ai_tags = { weapon_type_ms }
+	upgrades_to = "80mm"
+}
+
+#weapon_component_template = {
+#	key = "120mm_pd"
+#	size = point_defence
+#	entity = "Zeon_Machine_Gun_01_Entity"
+#	damage = { min = 10 max = 25 }
+#	windup = { min = 5 max = 10 }
+#	total_fire_time = 2
+#	range = 20.0 #5
+#	accuracy = 0.80
+#	shield_penetration = 0.2
+	
+#	icon = "GFX_ship_part_120mm"
+#	icon_frame = 1
+#	color = { 0.8 0.1 0.1 1 }
+#	power = -4
+#	cost = 15
+#	prerequisites = { "tech_Axis_MS_3" }
+#	component_set = "120mm"
+#	type = point_defence
+#	projectile_gfx = "auto_cannons_s"
+#	#tags = { weapon_type_point_defense  }
+#	ai_tags = { weapon_type_ms }
+#	upgrades_to = "80mm_pd"
+#}
+
+#80mm Machine Gun
+weapon_component_template = {
+	key = "Axis_80mm"
+	size = small
+	entity = "Zeon_Machine_Gun_01_Entity"
+	damage = { min = 10 max = 30 }
+	windup = { min = 5 max = 10 }
+	total_fire_time = 2
+	range = 25.0 #5
+	accuracy = 0.80
+	tracking = 0.65
+	shield_penetration = 0.25
+	
+	icon = "GFX_ship_part_80mm"
+	icon_frame = 1
+	color = { 0.8 0.1 0.1 1 }
+	power = -5
+	cost = 20
+	size_restriction = { neo_MS_scout neo_MS_1 neo_MS_2 neo_MS_3 neo_MS_4 neo_MS_5 zeon_MS_scout zeon_MS_1 zeon_MS_2 zeon_MS_3 zeon_MS_4 zeon_MS_5 zeon_MS_P axis_MS_scout axis_MS_1 axis_MS_2 axis_MS_3 axis_MS_4 axis_MS_5 ball gm }
+	prerequisites = { "tech_Axis_MS_4" }
+	component_set = "Axis_80mm"
+	type = instant
+	projectile_gfx = "auto_cannons_s"
+	#tags = { weapon_type_point_defense  }
+	ai_tags = { weapon_type_ms }
+}
+
+#weapon_component_template = {
+#	key = "80mm_pd"
+#	size = point_defence
+#	entity = "Zeon_Machine_Gun_01_Entity"
+#	damage = { min = 10 max = 30 }
+#	windup = { min = 5 max = 10 }
+#	total_fire_time = 2
+#	range = 25.0 #5
+#	accuracy = 0.80
+#	shield_penetration = 0.25
+	
+#	icon = "GFX_ship_part_80mm"
+#	icon_frame = 1
+#	color = { 0.8 0.1 0.1 1 }
+#	power = -5
+#	cost = 20
+#	prerequisites = { "tech_Axis_MS_4" }
+#	component_set = "80mm"
+#	type = point_defence
+#	projectile_gfx = "auto_cannons_s"
+#	#tags = { weapon_type_point_defense  }
+#	ai_tags = { weapon_type_ms }
+#}
+
+#Rifle Tier 1
+weapon_component_template = {
+	key = "Axis_rifle_1"
+	size = small
+	entity = "Zeon_Machine_Gun_01_Entity"
+	damage = { min = 30 max = 40 }
+	windup = { min = 5 max = 10 }
+	total_fire_time = 15
+	range = 40.0 #5
+	accuracy = 0.80
+	tracking = 0.6
+	armor_penetration = 0.2
+	
+	icon = "GFX_ship_part_rifle_1"
+	icon_frame = 1
+	color = { 0.8 0.1 0.1 1 }
+	power = -10
+	cost = 30
+	size_restriction = { neo_MS_scout neo_MS_1 neo_MS_2 neo_MS_3 neo_MS_4 neo_MS_5 zeon_MS_scout zeon_MS_1 zeon_MS_2 zeon_MS_3 zeon_MS_4 zeon_MS_5 zeon_MS_P axis_MS_scout axis_MS_1 axis_MS_2 axis_MS_3 axis_MS_4 axis_MS_5 ball gm }
+	prerequisites = { "tech_Axis_MS_2" }
+	component_set = "Axis_rifle_1"
+	type = instant
+	projectile_gfx = "advanced_railgun_s"
+	#tags = { weapon_type_point_defense  }
+	ai_tags = { weapon_type_ms }
+	
+	upgrades_to = "rifle_2"
+}
+
+#Rifle Tier 2
+weapon_component_template = {
+	key = "Axis_rifle_2"
+	size = small
+	entity = "Zeon_Machine_Gun_01_Entity"
+	damage = { min = 35 max = 45 }
+	windup = { min = 4 max = 9 }
+	total_fire_time = 15
+	range = 50.0 #5
+	accuracy = 0.85
+	tracking = 0.7
+	shield_penetration = 0.35
+	
+	icon = "GFX_ship_part_rifle_2"
+	icon_frame = 1
+	color = { 0.8 0.1 0.1 1 }
+	power = -15
+	cost = 40
+	size_restriction = { neo_MS_scout neo_MS_1 neo_MS_2 neo_MS_3 neo_MS_4 neo_MS_5 zeon_MS_scout zeon_MS_1 zeon_MS_2 zeon_MS_3 zeon_MS_4 zeon_MS_5 zeon_MS_P axis_MS_scout axis_MS_1 axis_MS_2 axis_MS_3 axis_MS_4 axis_MS_5 ball gm }
+	prerequisites = { "tech_Axis_MS_3" }
+	component_set = "Axis_rifle_2"
+	type = instant
+	projectile_gfx = "advanced_railgun_s"
+	#tags = { weapon_type_point_defense  }
+	ai_tags = { weapon_type_ms }
+	
+	upgrades_to = "rifle_3"
+}
+
+#Rifle Tier 3
+weapon_component_template = {
+	key = "Axis_rifle_3"
+	size = small
+	entity = "Zeon_Machine_Gun_01_Entity"
+	damage = { min = 40 max = 50 }
+	windup = { min = 3 max = 8 }
+	total_fire_time = 15
+	range = 60.0 #5
+	accuracy = 0.9
+	tracking = 0.8
+	shield_penetration = 0.5
+	
+	icon = "GFX_ship_part_rifle_3"
+	icon_frame = 1
+	color = { 0.8 0.1 0.1 1 }
+	power = -20
+	cost = 50
+	size_restriction = { neo_MS_scout neo_MS_1 neo_MS_2 neo_MS_3 neo_MS_4 neo_MS_5 zeon_MS_scout zeon_MS_1 zeon_MS_2 zeon_MS_3 zeon_MS_4 zeon_MS_5 zeon_MS_P axis_MS_scout axis_MS_1 axis_MS_2 axis_MS_3 axis_MS_4 axis_MS_5 ball gm }
+	prerequisites = { "tech_Axis_MS_4" }
+	component_set = "Axis_rifle_3"
+	type = instant
+	projectile_gfx = "advanced_railgun_s"
+	#tags = { weapon_type_point_defense  }
+	ai_tags = { weapon_type_ms }
+}
+
+#Sturm Faust 1
+weapon_component_template = {
+	key = "Axis_sturm_faust_1"
+	size = medium
+	entity = "Zeon_Bazooka_01_Entity"
+	damage = { min = 20 max = 60 }
+	windup = { min = 20 max = 25 }
+	missile_speed = 6
+	total_fire_time = 7
+	range = 25.0 #8
+	accuracy = 0.6
+	tracking = 0.3
+	armor_penetration = 0.10
+	
+	
+	icon = "GFX_ship_part_sturm_faust_1"
+	icon_frame = 1
+	color = { 0.8 0.1 0.1 1 }
+	power = -2
+	cost = 5
+	size_restriction = { neo_MS_scout neo_MS_1 neo_MS_2 neo_MS_3 neo_MS_4 neo_MS_5 zeon_MS_scout zeon_MS_1 zeon_MS_2 zeon_MS_3 zeon_MS_4 zeon_MS_5 zeon_MS_P axis_MS_scout axis_MS_1 axis_MS_2 axis_MS_3 axis_MS_4 axis_MS_5 ball gm }
+	prerequisites = { "tech_Axis_MS_0" }
+	component_set = "Axis_sturm_faust_1"
+	type = missile
+	projectile_gfx = "small_missile"
+	#tags = { weapon_type_explosive }
+	ai_tags = { weapon_type_bz }
+	upgrades_to = "sturm_faust_2"
+}
+
+#Sturm Faust 2
+weapon_component_template = {
+	key = "Axis_sturm_faust_2"
+	size = medium
+	entity = "Zeon_Bazooka_01_Entity"
+	damage = { min = 25 max = 65 }
+	windup = { min = 20 max = 25 }
+	missile_speed = 6
+	total_fire_time = 7
+	range = 30.0 #8
+	accuracy = 0.65
+	tracking = 0.35
+	armor_penetration = 0.15
+	
+	
+	icon = "GFX_ship_part_sturm_faust_2"
+	icon_frame = 1
+	color = { 0.8 0.1 0.1 1 }
+	power = -3
+	cost = 10
+	size_restriction = { neo_MS_scout neo_MS_1 neo_MS_2 neo_MS_3 neo_MS_4 neo_MS_5 zeon_MS_scout zeon_MS_1 zeon_MS_2 zeon_MS_3 zeon_MS_4 zeon_MS_5 zeon_MS_P axis_MS_scout axis_MS_1 axis_MS_2 axis_MS_3 axis_MS_4 axis_MS_5 ball gm }
+	prerequisites = { "tech_Axis_MS_1" }
+	component_set = "Axis_sturm_faust_2"
+	type = missile
+	projectile_gfx = "small_missile"
+	#tags = { weapon_type_explosive }
+	ai_tags = { weapon_type_bz }
+	upgrades_to = "sturm_faust_3"
+}
+
+#Sturm Faust 3
+weapon_component_template = {
+	key = "Axis_sturm_faust_3"
+	size = medium
+	entity = "Zeon_Bazooka_01_Entity"
+	damage = { min = 30 max = 70 }
+	windup = { min = 20 max = 25 }
+	missile_speed = 6
+	total_fire_time = 7
+	range = 35.0 #8
+	accuracy = 0.7
+	tracking = 0.4
+	armor_penetration = 0.20
+	
+	
+	icon = "GFX_ship_part_sturm_faust_3"
+	icon_frame = 1
+	color = { 0.8 0.1 0.1 1 }
+	power = -5
+	cost = 15
+	size_restriction = { neo_MS_scout neo_MS_1 neo_MS_2 neo_MS_3 neo_MS_4 neo_MS_5 zeon_MS_scout zeon_MS_1 zeon_MS_2 zeon_MS_3 zeon_MS_4 zeon_MS_5 zeon_MS_P axis_MS_scout axis_MS_1 axis_MS_2 axis_MS_3 axis_MS_4 axis_MS_5 ball gm }
+	prerequisites = { "tech_Axis_MS_2" }
+	component_set = "Axis_sturm_faust_3"
+	type = missile
+	projectile_gfx = "small_missile"
+	#tags = { weapon_type_explosive }
+	ai_tags = { weapon_type_bz }
+	upgrades_to = "bazooka_1"
+}
+
+#280mm Bazooka
+weapon_component_template = {
+	key = "Axis_bazooka_1"
+	size = medium
+	entity = "Zeon_Bazooka_01_Entity"
+	damage = { min = 45 max = 80 }
+	windup = { min = 20 max = 25 }
+	missile_speed = 6
+	total_fire_time = 7
+	range = 50.0 #8
+	accuracy = 0.75
+	tracking = 0.2
+	armor_penetration = 0.3
+	
+	
+	icon = "GFX_ship_part_bazooka1"
+	icon_frame = 1
+	color = { 0.8 0.1 0.1 1 }
+	power = -10
+	cost = 20
+	size_restriction = { neo_MS_scout neo_MS_1 neo_MS_2 neo_MS_3 neo_MS_4 neo_MS_5 zeon_MS_scout zeon_MS_1 zeon_MS_2 zeon_MS_3 zeon_MS_4 zeon_MS_5 zeon_MS_P axis_MS_scout axis_MS_1 axis_MS_2 axis_MS_3 axis_MS_4 axis_MS_5 ball gm }
+	prerequisites = { "tech_Axis_MS_3" }
+	component_set = "Axis_bazooka_1"
+	type = missile
+	projectile_gfx = "small_missile"
+	#tags = { weapon_type_explosive }
+	ai_tags = { weapon_type_bz }
+	upgrades_to = "bazooka_2"
+}
+
+#360mm Bazooka 1
+weapon_component_template = {
+	key = "Axis_bazooka_2"
+	size = medium
+	entity = "Zeon_Bazooka_01_Entity"
+	damage = { min = 50 max = 90 }
+	windup = { min = 20 max = 25 }
+	missile_speed = 6
+	total_fire_time = 7
+	range = 60.0 #8
+	accuracy = 0.80
+	tracking = 0.25
+	armor_penetration = 0.4
+	
+	
+	icon = "GFX_ship_part_bazooka2"
+	icon_frame = 1
+	color = { 0.8 0.1 0.1 1 }
+	power = -15
+	cost = 25
+	size_restriction = { neo_MS_scout neo_MS_1 neo_MS_2 neo_MS_3 neo_MS_4 neo_MS_5 zeon_MS_scout zeon_MS_1 zeon_MS_2 zeon_MS_3 zeon_MS_4 zeon_MS_5 zeon_MS_P axis_MS_scout axis_MS_1 axis_MS_2 axis_MS_3 axis_MS_4 axis_MS_5 ball gm }
+	prerequisites = { "tech_Axis_MS_4" }
+	component_set = "Axis_bazooka_2"
+	type = missile
+	projectile_gfx = "small_missile"
+	#tags = { weapon_type_explosive }
+	ai_tags = { weapon_type_bz }
+	upgrades_to = "bazooka_3"
+}
+
+#360mm Bazooka 2
+weapon_component_template = {
+	key = "Axis_bazooka_3"
+	size = medium
+	entity = "Zeon_Bazooka_01_Entity"
+	damage = { min = 60 max = 100 }
+	windup = { min = 20 max = 25 }
+	missile_speed = 6
+	total_fire_time = 7
+	range = 70.0 #8
+	accuracy = 0.85
+	tracking = 0.3
+	armor_penetration = 0.5
+	
+	
+	icon = "GFX_ship_part_bazooka3"
+	icon_frame = 1
+	color = { 0.8 0.1 0.1 1 }
+	power = -20
+	cost = 30
+	size_restriction = { neo_MS_scout neo_MS_1 neo_MS_2 neo_MS_3 neo_MS_4 neo_MS_5 zeon_MS_scout zeon_MS_1 zeon_MS_2 zeon_MS_3 zeon_MS_4 zeon_MS_5 zeon_MS_P axis_MS_scout axis_MS_1 axis_MS_2 axis_MS_3 axis_MS_4 axis_MS_5 ball gm }
+	prerequisites = { "tech_Axis_MS_5" }
+	component_set = "Axis_bazooka_3"
+	type = missile
+	projectile_gfx = "small_missile"
+	#tags = { weapon_type_explosive }
+	ai_tags = { weapon_type_bz }
+}

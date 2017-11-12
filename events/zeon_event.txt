@@ -1,0 +1,1428 @@
+namespace = zeontech
+
+country_event = {
+	id = zeontech.1
+	title = "zeontecht1"
+	desc = "zeontechd1"
+	picture = "GFX_evt_Zeon1"
+	show_sound = event_structural_collapse
+	is_triggered_only = yes
+	
+	immediate = {
+		set_country_flag = muh_zeon
+	}
+	
+	#trigger = { 
+	#	And = {
+	#		is_ai = no
+	#	}
+	#	Not = {
+	#		has_country_flag = muh_zeon
+	#	}
+	#}
+	
+	option = {
+		name = zeontech_dialogue_1
+		give_technology = { tech = tech_BEAMC_1 }
+		give_technology = { tech = tech_Zeon_MS_0 }
+		create_species = {
+			name = "Human"
+			class = MAM
+			portrait = "event_zeon_1"
+			trait = "trait_intelligent"
+			trait = "trait_slow_breeders"	
+			trait = "trait_nomadic"	
+		}
+		create_leader = {
+			type = admiral
+			species = last_created_species
+			name = "Taylor Yang"
+			gender = male
+			skill = 100
+		}
+		last_created_leader = {
+			add_trait = leader_trait_newtype
+		}
+	}
+	
+	option = {
+		name = zeontech_dialogue_2
+		give_technology = { tech = tech_BEAMC_1 }
+		give_technology = { tech = tech_Axis_MS_0 }
+		create_species = {
+			name = "Human"
+			class = MAM
+			portrait = "event_zeon_1"
+			trait = "trait_intelligent"
+			trait = "trait_slow_breeders"	
+			trait = "trait_nomadic"	
+		}
+		create_leader = {
+			type = admiral
+			species = last_created_species
+			name = "Taylor Yang"
+			gender = male
+			skill = 100
+		}
+		last_created_leader = {
+			add_trait = leader_trait_newtype
+		}
+	}
+	
+	option = {
+		name = zeontech_dialogue_3
+		give_technology = { tech = tech_BEAMC_1 }
+		give_technology = { tech = tech_Neo_MS_0 }
+		create_species = {
+			name = "Human"
+			class = MAM
+			portrait = "event_zeon_1"
+			trait = "trait_intelligent"
+			trait = "trait_slow_breeders"	
+			trait = "trait_nomadic"	
+		}
+		create_leader = {
+			type = admiral
+			species = last_created_species
+			name = "Taylor Yang"
+			gender = male
+			skill = 100
+		}
+		last_created_leader = {
+			add_trait = leader_trait_newtype
+		}
+	}
+	
+	option = {
+		name = zeontech_dialogue_4
+		give_technology = { tech = tech_EFSF_BEAMC_1 }
+		give_technology = { tech = tech_EFSF_MS_0 }
+		create_species = {
+			name = "Human"
+			class = MAM
+			portrait = "efsf_event_1"
+			trait = "trait_intelligent"
+			trait = "trait_slow_breeders"	
+			trait = "trait_nomadic"	
+		}
+		create_leader = {
+			type = admiral
+			species = last_created_species
+			name = "Artorias Bai"
+			gender = female
+			skill = 100
+		}
+		last_created_leader = {
+			add_trait = leader_trait_newtype
+		}
+	}
+	
+	option = {
+		name = zeontech_dialogue_7
+		give_technology = { tech = tech_EFSF_BEAMC_1 }
+		give_technology = { tech = tech_Titan_MS_0 }
+		create_species = {
+			name = "Human"
+			class = MAM
+			portrait = "efsf_event_1"
+			trait = "trait_intelligent"
+			trait = "trait_slow_breeders"	
+			trait = "trait_nomadic"	
+		}
+		create_leader = {
+			type = admiral
+			species = last_created_species
+			name = "Artorias Bai"
+			gender = female
+			skill = 100
+		}
+		last_created_leader = {
+			add_trait = leader_trait_newtype
+		}
+	}
+	
+	option = {
+		name = zeontech_dialogue_8
+		give_technology = { tech = tech_BEAMC_1 }
+		give_technology = { tech = tech_Zeon_MS_0 }
+		give_technology = { tech = tech_Axis_MS_0 }
+		give_technology = { tech = tech_Neo_MS_0 }
+		create_species = {
+			name = "Human"
+			class = MAM
+			portrait = "event_zeon_1"
+			trait = "trait_intelligent"
+			trait = "trait_slow_breeders"	
+			trait = "trait_nomadic"	
+		}
+		create_leader = {
+			type = admiral
+			species = last_created_species
+			name = "Taylor Yang"
+			gender = male
+			skill = 100
+		}
+		last_created_leader = {
+			add_trait = leader_trait_newtype
+		}
+	}
+		
+	option = {
+		name = zeontech_dialogue_9
+		give_technology = { tech = tech_EFSF_BEAMC_1 }
+		give_technology = { tech = tech_EFSF_MS_0 }
+		give_technology = { tech = tech_Titan_MS_0 }
+		create_species = {
+			name = "Human"
+			class = MAM
+			portrait = "efsf_event_1"
+			trait = "trait_intelligent"
+			trait = "trait_slow_breeders"	
+			trait = "trait_nomadic"	
+		}
+		create_leader = {
+			type = admiral
+			species = last_created_species
+			name = "Artorias Bai"
+			gender = female
+			skill = 100
+		}
+		last_created_leader = {
+			add_trait = leader_trait_newtype
+		}
+	}
+	
+	option = {
+		name = zeontech_dialogue_5
+		give_technology = { tech = tech_BEAMC_1 }
+		give_technology = { tech = tech_EFSF_BEAMC_1 }
+		give_technology = { tech = tech_Zeon_MS_0 }
+		give_technology = { tech = tech_Axis_MS_0 }
+		give_technology = { tech = tech_Neo_MS_0 }
+		give_technology = { tech = tech_EFSF_MS_0 }
+		give_technology = { tech = tech_Titan_MS_0 }
+		create_species = {
+			name = "Human"
+			class = MAM
+			portrait = "event_zeon_1"
+			trait = "trait_intelligent"
+			trait = "trait_slow_breeders"	
+			trait = "trait_nomadic"	
+		}
+		create_leader = {
+			type = admiral
+			species = last_created_species
+			name = "Taylor Yang"
+			gender = male
+			skill = 100
+		}
+		last_created_leader = {
+			add_trait = leader_trait_newtype
+		}
+		create_species = {
+			name = "Human"
+			class = MAM
+			portrait = "efsf_event_1"
+			trait = "trait_intelligent"
+			trait = "trait_slow_breeders"	
+			trait = "trait_nomadic"	
+		}
+		create_leader = {
+			type = admiral
+			species = last_created_species
+			name = "Artorias Bai"
+			gender = female
+			skill = 100
+		}
+		last_created_leader = {
+			add_trait = leader_trait_newtype
+		}
+	}
+	
+	option = {
+		name = zeontech_dialogue_6
+	}
+	
+	mean_time_to_happen = { 
+		days = 1 
+	}
+}
+
+country_event = { #Player has picked Zeon
+	id = zeontech.2 
+	title = "oyw_title_1"
+	desc = "oyw_desc_1"
+	picture = "GFX_evt_Zeon1"
+	show_sound = event_structural_collapse
+	hide_window = yes
+	is_triggered_only = yes
+	
+	trigger = {	
+		and = {
+			any_system_within_border  = { has_star_flag = Zeon_Start }
+		}
+	}
+	
+	immediate = {
+		create_species = {
+			name = "Human"
+			class = MAM
+			portrait = "fed"
+			trait = "trait_intelligent"
+			trait = "trait_slow_breeders"	
+			trait = "trait_nomadic"	
+		}
+		create_country = {
+			name = "Earth Federation"
+			authority = "auth_democratic"
+			civics = { 
+				civic = civic_citizen_service
+				civic = civic_idealistic_foundation
+			}
+			species = last_created_species
+			name_list = "HUM3"
+			ship_prefix="EFS"
+			ethos = {
+				ethic = "ethic_egalitarian"
+				ethic = "ethic_materialist"
+				ethic = "ethic_militarist"
+			}
+			flag = {
+				icon= {
+					category = "efsf"
+					file = "NBA_ReBoot.dds"
+				}
+				background= {
+					category = "backgrounds"
+					file = "00_solid.dds"
+				}
+				colors={
+					"dark_teal"
+					"black"
+					"null"
+					"null"
+				}
+			}
+			type = default
+		}
+		last_created_country = {
+			set_graphical_culture = "fed_01"
+			set_country_flag = gundamu
+			create_species = {
+				name = "Human"
+				class = MAM
+				portrait = "efsf_event_2"
+				trait = "trait_intelligent"
+				trait = "trait_slow_breeders"	
+				trait = "trait_nomadic"	
+			}
+			create_leader = {
+				type = admiral
+				species = last_created_species
+				name = "Johann Ibrahim Revil"
+				gender = male
+				skill = 500
+			}
+		}
+		capital_scope = {
+			surveyed = {
+				set_surveyed = yes
+				surveyor = root
+			}
+			prevent_anomaly = yes
+			# terraforming_candidate_category
+			if = {
+				limit = {
+					NOT = { has_modifier = terraforming_candidate }
+					OR = {
+						is_planet_class = pc_barren
+						is_planet_class = pc_barren_cold
+					}
+				}
+				add_modifier = {
+					modifier = "terraforming_candidate"
+					days = -1
+				}
+			}
+		}
+		every_planet_within_border  = {
+			limit = {
+				and = {
+					is_colonizable = yes
+					or = {
+						has_planet_flag = side16
+						has_planet_flag = side25
+						has_planet_flag = side4
+						has_planet_flag = side7
+						has_planet_flag = planet_earth
+					}
+				}
+				not = {
+					has_planet_flag = side3
+				}
+			}
+			create_colony = {
+				owner = last_created_country
+				species = owner_main_species
+				ethos = owner
+			}
+		}
+		every_planet_within_border = {
+			if = {
+				limit = {
+					 has_planet_flag = side16
+				}
+				set_name = "Side 1/6"
+				create_pop = { 
+					species = owner_main_species
+				}
+				create_pop = { 
+					species = owner_main_species
+				}
+				create_pop = { 
+					species = owner_main_species
+				}
+				create_pop = { 
+					species = owner_main_species
+				}
+				create_pop = { 
+					species = owner_main_species
+				}
+			}
+			if = {
+				limit = {
+					 has_planet_flag = side25
+				}
+				set_name = "Side 2/5"
+				create_pop = { 
+					species = owner_main_species
+				}
+				create_pop = { 
+					species = owner_main_species
+				}
+				create_pop = { 
+					species = owner_main_species
+				}
+				create_pop = { 
+					species = owner_main_species
+				}
+				create_pop = { 
+					species = owner_main_species
+				}
+			}
+			if = {
+				limit = {
+					 has_planet_flag = side4
+				}
+				set_name = "Side 4"
+				create_pop = { 
+					species = owner_main_species
+				}
+				create_pop = { 
+					species = owner_main_species
+				}
+			}
+			if = {
+				limit = {
+					 has_planet_flag = side7
+				}
+				set_name = "Side 7"
+				create_pop = { 
+					species = owner_main_species
+				}
+			}
+			if = {
+				limit = {
+					 has_planet_flag = planet_earth
+				}
+				create_spaceport = {
+					owner = controller
+					initial_module = "missile_weapon"
+				}
+				set_name = "Earth"
+				create_pop = { 
+					species = owner_main_species
+				}
+				create_pop = { 
+					species = owner_main_species
+				}
+				create_pop = { 
+					species = owner_main_species
+				}
+				create_pop = { 
+					species = owner_main_species
+				}
+				create_pop = { 
+					species = owner_main_species
+				}
+				create_pop = { 
+					species = owner_main_species
+				}
+				create_pop = { 
+					species = owner_main_species
+				}
+			}
+		}
+		every_country = {
+			limit = {
+				has_country_flag = gundamu
+			}
+			establish_communications_no_message = root
+		}
+	}
+}
+
+country_event = { #Player has picked Axis
+	id = zeontech.3 
+	title = "oyw_title_1"
+	desc = "oyw_desc_1"
+	picture = "GFX_evt_Zeon1"
+	show_sound = event_structural_collapse
+	hide_window = yes
+	is_triggered_only = yes
+	
+	trigger = {	
+		and = {
+			any_system_within_border  = { has_star_flag = Axis_Zeon_Start }
+		}
+	}
+	
+	immediate = {
+		capital_scope = {
+			surveyed = {
+				set_surveyed = yes
+				surveyor = root
+			}
+			prevent_anomaly = yes
+			# terraforming_candidate_category
+			if = {
+				limit = {
+					NOT = { has_modifier = terraforming_candidate }
+					OR = {
+						is_planet_class = pc_barren
+						is_planet_class = pc_barren_cold
+					}
+				}
+				add_modifier = {
+					modifier = "terraforming_candidate"
+					days = -1
+				}
+			}
+		}
+		every_planet_within_border  = {
+			limit = {
+				and = {
+					is_colonizable = yes
+					or = {
+						has_planet_flag = side3
+					}
+				}
+				not = {
+					has_planet_flag = side16
+					has_planet_flag = side25
+					has_planet_flag = side4
+					has_planet_flag = side7
+					has_planet_flag = planet_earth
+				}
+			}
+			create_colony = {
+				owner = root
+				species = owner_main_species
+				ethos = owner
+			}
+		}
+		create_species = {
+			name = "Human"
+			class = MAM
+			portrait = "titan"
+			trait = "trait_intelligent"
+			trait = "trait_slow_breeders"	
+			trait = "trait_nomadic"	
+		}
+		create_country = {
+			name = "The Titans"
+			authority = "auth_dictatorial"
+			civics = { 
+				civic = civic_nationalistic_zeal
+				civic = civic_cutthroat_politics
+			}
+			species = last_created_species
+			name_list = "HUM3"
+			ship_prefix="EFS"
+			ethos = {
+				ethic = "ethic_fanatic_militarist"
+				ethic = "ethic_authoritarian"
+			}
+			flag = {
+				icon= {
+					category = "efsf"
+					file = "Titans.dds"
+				}
+				background= {
+					category = "backgrounds"
+					file = "00_solid.dds"
+				}
+				colors={
+					"black"
+					"blue"
+					"null"
+					"null"
+				}
+			}
+			type = default
+		}
+		last_created_country = {
+			set_graphical_culture = "fed_01"
+			set_country_flag = gundamu
+			random_list = {
+				50 = {
+					create_species = {
+						name = "Human"
+						class = MAM
+						portrait = "efsf_event_3"
+						trait = "trait_intelligent"
+						trait = "trait_slow_breeders"	
+						trait = "trait_nomadic"	
+					}
+					create_leader = {
+						type = admiral
+						species = last_created_species
+						name = "Jamitov Hymen"
+						gender = male
+						skill = 500
+					}
+				}
+				50 = {
+					create_species = {
+						name = "Human"
+						class = MAM
+						portrait = "efsf_event_4"
+						trait = "trait_intelligent"
+						trait = "trait_slow_breeders"	
+						trait = "trait_nomadic"	
+					}
+					create_leader = {
+						type = admiral
+						species = last_created_species
+						name = "Paptimus Scirocco"
+						gender = male
+						skill = 500
+					}
+				}
+			}
+			kill_leader = {
+				type = ruler
+			}
+		}
+		every_planet_within_border  = {
+			limit = {
+				and = {
+					is_colonizable = yes
+					or = {
+						has_planet_flag = side16
+						has_planet_flag = side25
+						has_planet_flag = side4
+						has_planet_flag = side7
+						has_planet_flag = planet_earth
+					}
+				}
+				not = {
+					has_planet_flag = side3
+				}
+			}
+			create_colony = {
+				owner = last_created_country
+				species = owner_main_species
+				ethos = owner
+			}
+		}
+		every_planet_within_border = {
+			if = {
+				limit = {
+					 has_planet_flag = side16
+				}
+				set_name = "Side 1/6"
+				create_pop = { 
+					species = owner_main_species
+				}
+				create_pop = { 
+					species = owner_main_species
+				}
+				create_pop = { 
+					species = owner_main_species
+				}
+				create_pop = { 
+					species = owner_main_species
+				}
+				create_pop = { 
+					species = owner_main_species
+				}
+			}
+			if = {
+				limit = {
+					 has_planet_flag = side25
+				}
+				set_name = "Side 2/5"
+				create_pop = { 
+					species = owner_main_species
+				}
+				create_pop = { 
+					species = owner_main_species
+				}
+				create_pop = { 
+					species = owner_main_species
+				}
+				create_pop = { 
+					species = owner_main_species
+				}
+				create_pop = { 
+					species = owner_main_species
+				}
+			}
+			if = {
+				limit = {
+					 has_planet_flag = side4
+				}
+				set_name = "Side 4"
+				create_pop = { 
+					species = owner_main_species
+				}
+				create_pop = { 
+					species = owner_main_species
+				}
+			}
+			if = {
+				limit = {
+					 has_planet_flag = side7
+				}
+				set_name = "Side 7"
+				create_pop = { 
+					species = owner_main_species
+				}
+			}
+			if = {
+				limit = {
+					 has_planet_flag = planet_earth
+				}
+				create_spaceport = {
+					owner = controller
+					initial_module = "missile_weapon"
+				}
+				set_name = "Earth"
+				create_pop = { 
+					species = owner_main_species
+				}
+				create_pop = { 
+					species = owner_main_species
+				}
+				create_pop = { 
+					species = owner_main_species
+				}
+				create_pop = { 
+					species = owner_main_species
+				}
+				create_pop = { 
+					species = owner_main_species
+				}
+				create_pop = { 
+					species = owner_main_species
+				}
+				create_pop = { 
+					species = owner_main_species
+				}
+			}
+			if = {
+				limit = {
+					 has_planet_flag = side3
+				}
+				set_name = "Side 3"
+				create_pop = { 
+					species = owner_main_species
+				}
+				create_pop = { 
+					species = owner_main_species
+				}
+				create_pop = { 
+					species = owner_main_species
+				}
+				create_pop = { 
+					species = owner_main_species
+				}
+				create_pop = { 
+					species = owner_main_species
+				}
+				create_pop = { 
+					species = owner_main_species
+				}
+				create_pop = { 
+					species = owner_main_species
+				}
+			}
+		}
+		every_country = {
+			limit = {
+				has_country_flag = gundamu
+			}
+			establish_communications_no_message = root
+		}
+	}
+}
+
+country_event = { #Player has picked EFSF
+	id = zeontech.4 
+	title = "oyw_title_1"
+	desc = "oyw_desc_1"
+	picture = "GFX_evt_Zeon1"
+	show_sound = event_structural_collapse
+	hide_window = yes
+	is_triggered_only = yes
+	
+	trigger = {	
+		and = {
+			any_system_within_border  = { has_star_flag = EFSF_Start }
+		}
+	}
+	
+	immediate = {
+		capital_scope = {
+			surveyed = {
+				set_surveyed = yes
+				surveyor = root
+			}
+			prevent_anomaly = yes
+			# terraforming_candidate_category
+			if = {
+				limit = {
+					NOT = { has_modifier = terraforming_candidate }
+					OR = {
+						is_planet_class = pc_barren
+						is_planet_class = pc_barren_cold
+					}
+				}
+				add_modifier = {
+					modifier = "terraforming_candidate"
+					days = -1
+				}
+			}
+		}
+		every_planet_within_border  = {
+			limit = {
+				and = {
+					is_colonizable = yes
+					or = {
+						has_planet_flag = side16
+						has_planet_flag = side25
+						has_planet_flag = side4
+						has_planet_flag = side7
+						has_planet_flag = planet_earth
+					}
+				}
+				not = {
+					has_planet_flag = side3
+				}
+			}
+			create_colony = {
+				owner = root
+				species = owner_main_species
+				ethos = owner
+			}
+		}
+		create_species = {
+			name = "Human"
+			class = MAM
+			portrait = "zeon"
+			trait = "trait_intelligent"
+			trait = "trait_slow_breeders"	
+			trait = "trait_nomadic"	
+		}
+		create_country = {
+			name = "Principality"
+			authority = "auth_dictatorial"
+			civics = { 
+				civic = civic_nationalistic_zeal
+				civic = civic_distinguished_admiralty
+			}
+			species = last_created_species
+			name_list = "Zeon"
+			ship_prefix="ZMF"
+			ethos = {
+				ethic = "ethic_authoritarian"
+				ethic = "ethic_fanatic_militarist"
+			}
+			flag = {
+				icon= {
+					category = "zeon"
+					file = "Zeon.dds"
+				}
+				background= {
+					category = "backgrounds"
+					file = "00_solid.dds"
+				}
+				colors={
+					"red"
+					"black"
+					"null"
+					"null"
+				}
+			}
+			type = default
+		}
+		last_created_country = {
+			set_graphical_culture = "zeon_01"
+			set_country_flag = gundamu
+			create_species = {
+				name = "Human"
+				class = MAM
+				portrait = "zeon_event_5"
+				trait = "trait_intelligent"
+				trait = "trait_slow_breeders"	
+				trait = "trait_nomadic"	
+			}
+			create_leader = {
+				type = admiral
+				species = last_created_species
+				name = "Degwin Sodo Zabi"
+				gender = male
+				skill = 500
+			}
+			kill_leader = {
+				type = ruler
+			}
+		}
+		every_planet_within_border  = {
+			limit = {
+				and = {
+					is_colonizable = yes
+					or = {
+						has_planet_flag = side3
+					}
+				}
+				not = {
+					has_planet_flag = side16
+					has_planet_flag = side25
+					has_planet_flag = side4
+					has_planet_flag = side7
+					has_planet_flag = planet_earth
+				}
+			}
+			create_colony = {
+				owner = last_created_country
+				species = owner_main_species
+				ethos = owner
+			}
+		}
+		every_planet_within_border = {
+			if = {
+				limit = {
+					 has_planet_flag = side16
+				}
+				set_name = "Side 1/6"
+				create_pop = { 
+					species = owner_main_species
+				}
+				create_pop = { 
+					species = owner_main_species
+				}
+				create_pop = { 
+					species = owner_main_species
+				}
+				create_pop = { 
+					species = owner_main_species
+				}
+				create_pop = { 
+					species = owner_main_species
+				}
+			}
+			if = {
+				limit = {
+					 has_planet_flag = side25
+				}
+				set_name = "Side 2/5"
+				create_pop = { 
+					species = owner_main_species
+				}
+				create_pop = { 
+					species = owner_main_species
+				}
+				create_pop = { 
+					species = owner_main_species
+				}
+				create_pop = { 
+					species = owner_main_species
+				}
+				create_pop = { 
+					species = owner_main_species
+				}
+			}
+			if = {
+				limit = {
+					 has_planet_flag = side4
+				}
+				set_name = "Side 4"
+				create_pop = { 
+					species = owner_main_species
+				}
+				create_pop = { 
+					species = owner_main_species
+				}
+			}
+			if = {
+				limit = {
+					 has_planet_flag = side7
+				}
+				set_name = "Side 7"
+				create_pop = { 
+					species = owner_main_species
+				}
+			}
+			if = {
+				limit = {
+					 has_planet_flag = planet_earth
+				}
+				create_spaceport = {
+					owner = controller
+					initial_module = "missile_weapon"
+				}
+				set_name = "Earth"
+				create_pop = { 
+					species = owner_main_species
+				}
+				create_pop = { 
+					species = owner_main_species
+				}
+				create_pop = { 
+					species = owner_main_species
+				}
+				create_pop = { 
+					species = owner_main_species
+				}
+				create_pop = { 
+					species = owner_main_species
+				}
+				create_pop = { 
+					species = owner_main_species
+				}
+				create_pop = { 
+					species = owner_main_species
+				}
+			}
+			if = {
+				limit = {
+					 has_planet_flag = side3
+				}
+				create_spaceport = {
+					owner = controller
+					initial_module = "missile_weapon"
+				}
+				set_name = "Side 3"
+				create_pop = { 
+					species = owner_main_species
+				}
+				create_pop = { 
+					species = owner_main_species
+				}
+				create_pop = { 
+					species = owner_main_species
+				}
+				create_pop = { 
+					species = owner_main_species
+				}
+				create_pop = { 
+					species = owner_main_species
+				}
+				create_pop = { 
+					species = owner_main_species
+				}
+				create_pop = { 
+					species = owner_main_species
+				}
+			}
+		}
+		every_country = {
+			limit = {
+				has_country_flag = gundamu
+			}
+			establish_communications_no_message = root
+		}
+	}
+}
+
+country_event = { #Player has picked Neo
+	id = zeontech.5 
+	title = "oyw_title_1"
+	desc = "oyw_desc_1"
+	picture = "GFX_evt_Zeon1"
+	show_sound = event_structural_collapse
+	hide_window = yes
+	is_triggered_only = yes
+	
+	trigger = {	
+		and = {
+			any_system_within_border  = { has_star_flag = Neo_Zeon_Start }
+		}
+	}
+	
+	immediate = {
+		capital_scope = {
+			surveyed = {
+				set_surveyed = yes
+				surveyor = root
+			}
+			prevent_anomaly = yes
+			# terraforming_candidate_category
+			if = {
+				limit = {
+					NOT = { has_modifier = terraforming_candidate }
+					OR = {
+						is_planet_class = pc_barren
+						is_planet_class = pc_barren_cold
+					}
+				}
+				add_modifier = {
+					modifier = "terraforming_candidate"
+					days = -1
+				}
+			}
+		}
+		every_planet_within_border  = {
+			limit = {
+				and = {
+					is_colonizable = yes
+					or = {
+						has_planet_flag = side3
+						has_planet_flag = side16
+						has_planet_flag = side25
+						has_planet_flag = side4
+						has_planet_flag = side7
+						#has_planet_flag = planet_earth
+					}
+				}
+				#not = {
+				#	has_planet_flag = side3
+				#}
+			}
+			create_colony = {
+				owner = root
+				species = owner_main_species
+				ethos = owner
+			}
+		}
+		every_planet_within_border = {
+			if = {
+				limit = {
+					 has_planet_flag = side16
+				}
+				set_name = "Side 1/6"
+				create_pop = { 
+					species = owner_main_species
+				}
+				create_pop = { 
+					species = owner_main_species
+				}
+				create_pop = { 
+					species = owner_main_species
+				}
+				create_pop = { 
+					species = owner_main_species
+				}
+				create_pop = { 
+					species = owner_main_species
+				}
+			}
+			if = {
+				limit = {
+					 has_planet_flag = side25
+				}
+				set_name = "Side 2/5"
+				create_pop = { 
+					species = owner_main_species
+				}
+				create_pop = { 
+					species = owner_main_species
+				}
+				create_pop = { 
+					species = owner_main_species
+				}
+				create_pop = { 
+					species = owner_main_species
+				}
+				create_pop = { 
+					species = owner_main_species
+				}
+			}
+			if = {
+				limit = {
+					 has_planet_flag = side4
+				}
+				set_name = "Side 4"
+				create_pop = { 
+					species = owner_main_species
+				}
+				create_pop = { 
+					species = owner_main_species
+				}
+			}
+			if = {
+				limit = {
+					 has_planet_flag = side7
+				}
+				set_name = "Side 7"
+				create_pop = { 
+					species = owner_main_species
+				}
+			}
+			if = {
+				limit = {
+					 has_planet_flag = planet_earth
+				}
+				create_spaceport = {
+					owner = controller
+					initial_module = "missile_weapon"
+				}
+				set_name = "Earth"
+				create_pop = { 
+					species = owner_main_species
+				}
+				create_pop = { 
+					species = owner_main_species
+				}
+				create_pop = { 
+					species = owner_main_species
+				}
+				create_pop = { 
+					species = owner_main_species
+				}
+				create_pop = { 
+					species = owner_main_species
+				}
+				create_pop = { 
+					species = owner_main_species
+				}
+				create_pop = { 
+					species = owner_main_species
+				}
+			}
+			if = {
+				limit = {
+					 has_planet_flag = side3
+				}
+				create_spaceport = {
+					owner = controller
+					initial_module = "missile_weapon"
+				}
+				set_name = "Side 3"
+				create_pop = { 
+					species = owner_main_species
+				}
+				create_pop = { 
+					species = owner_main_species
+				}
+				create_pop = { 
+					species = owner_main_species
+				}
+				create_pop = { 
+					species = owner_main_species
+				}
+				create_pop = { 
+					species = owner_main_species
+				}
+				create_pop = { 
+					species = owner_main_species
+				}
+				create_pop = { 
+					species = owner_main_species
+				}
+			}
+		}
+	}
+}
+
+country_event = { #Player has picked Gundamu
+	id = zeontech.6 
+	title = "oyw_title_1"
+	desc = "oyw_desc_1"
+	picture = "GFX_evt_Zeon1"
+	show_sound = event_structural_collapse
+	hide_window = yes
+	is_triggered_only = yes
+	
+	trigger = {	
+		and = {
+			any_system_within_border  = { has_star_flag = Gundamu_Start }
+		}
+	}
+	
+	immediate = {
+		capital_scope = {
+			surveyed = {
+				set_surveyed = yes
+				surveyor = root
+			}
+			prevent_anomaly = yes
+			# terraforming_candidate_category
+			if = {
+				limit = {
+					NOT = { has_modifier = terraforming_candidate }
+					OR = {
+						is_planet_class = pc_barren
+						is_planet_class = pc_barren_cold
+					}
+				}
+				add_modifier = {
+					modifier = "terraforming_candidate"
+					days = -1
+				}
+			}
+		}
+		every_planet_within_border  = {
+			limit = {
+				and = {
+					is_colonizable = yes
+					or = {
+						has_planet_flag = side3
+						has_planet_flag = side16
+						has_planet_flag = side25
+						has_planet_flag = side4
+						has_planet_flag = side7
+						has_planet_flag = planet_earth
+					}
+				}
+				#not = {
+				#	has_planet_flag = side3
+				#}
+			}
+			create_colony = {
+				owner = root
+				species = owner_main_species
+				ethos = owner
+			}
+		}
+		every_planet_within_border = {
+			if = {
+				limit = {
+					 has_planet_flag = side16
+				}
+				set_name = "Side 1/6"
+				create_pop = { 
+					species = owner_main_species
+				}
+				create_pop = { 
+					species = owner_main_species
+				}
+				create_pop = { 
+					species = owner_main_species
+				}
+				create_pop = { 
+					species = owner_main_species
+				}
+				create_pop = { 
+					species = owner_main_species
+				}
+			}
+			if = {
+				limit = {
+					 has_planet_flag = side25
+				}
+				set_name = "Side 2/5"
+				create_pop = { 
+					species = owner_main_species
+				}
+				create_pop = { 
+					species = owner_main_species
+				}
+				create_pop = { 
+					species = owner_main_species
+				}
+				create_pop = { 
+					species = owner_main_species
+				}
+				create_pop = { 
+					species = owner_main_species
+				}
+			}
+			if = {
+				limit = {
+					 has_planet_flag = side4
+				}
+				set_name = "Side 4"
+				create_pop = { 
+					species = owner_main_species
+				}
+				create_pop = { 
+					species = owner_main_species
+				}
+			}
+			if = {
+				limit = {
+					 has_planet_flag = side7
+				}
+				set_name = "Side 7"
+				create_pop = { 
+					species = owner_main_species
+				}
+			}
+			if = {
+				limit = {
+					 has_planet_flag = planet_earth
+				}
+				create_spaceport = {
+					owner = controller
+					initial_module = "missile_weapon"
+				}
+				set_name = "Earth"
+				create_pop = { 
+					species = owner_main_species
+				}
+				create_pop = { 
+					species = owner_main_species
+				}
+				create_pop = { 
+					species = owner_main_species
+				}
+				create_pop = { 
+					species = owner_main_species
+				}
+				create_pop = { 
+					species = owner_main_species
+				}
+				create_pop = { 
+					species = owner_main_species
+				}
+				create_pop = { 
+					species = owner_main_species
+				}
+			}
+			if = {
+				limit = {
+					 has_planet_flag = side3
+				}
+				create_spaceport = {
+					owner = controller
+					initial_module = "missile_weapon"
+				}
+				set_name = "Side 3"
+				create_pop = { 
+					species = owner_main_species
+				}
+				create_pop = { 
+					species = owner_main_species
+				}
+				create_pop = { 
+					species = owner_main_species
+				}
+				create_pop = { 
+					species = owner_main_species
+				}
+				create_pop = { 
+					species = owner_main_species
+				}
+				create_pop = { 
+					species = owner_main_species
+				}
+				create_pop = { 
+					species = owner_main_species
+				}
+			}
+		}
+	}
+}
