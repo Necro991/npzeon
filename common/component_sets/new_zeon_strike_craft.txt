@@ -1,0 +1,288 @@
+# Icons set here are the ones shown in compnent editor list.
+
+component_set = {
+	key = "MS_05B_HANGAR_1"
+
+	icon = "GFX_ship_part_ms_05b"
+	icon_frame = 1
+}
+
+component_set = {
+	key = "MS_05B_HANGAR_2"
+
+	icon = "GFX_ship_part_ms_05b"
+	icon_frame = 1
+}
+
+component_set = {
+	key = "MS_06A_HANGAR_1"
+
+	icon = "GFX_ship_part_ms_06a"
+	icon_frame = 1
+}
+
+component_set = {
+	key = "MS_06A_HANGAR_2"
+
+	icon = "GFX_ship_part_ms_06a"
+	icon_frame = 1
+}
+
+component_set = {
+	key = "MS_06C_HANGAR_1"
+
+	icon = "GFX_ship_part_ms_06c"
+	icon_frame = 1
+}
+
+component_set = {
+	key = "MS_06C_HANGAR_2"
+
+	icon = "GFX_ship_part_ms_06c"
+	icon_frame = 1
+}
+
+component_set = {
+	key = "MS_06F_HANGAR_1"
+
+	icon = "GFX_ship_part_ms_06f"
+	icon_frame = 1
+}
+
+component_set = {
+	key = "MS_06F_HANGAR_2"
+
+	icon = "GFX_ship_part_ms_06f"
+	icon_frame = 1
+}
+
+component_set = {
+	key = "MS_06F2_HANGAR_1"
+
+	icon = "GFX_ship_part_ms_06f2"
+	icon_frame = 1
+}
+
+component_set = {
+	key = "MS_06F2_HANGAR_2"
+
+	icon = "GFX_ship_part_ms_06f2"
+	icon_frame = 1
+}
+
+component_set = {
+	key = "MS_06FZ_HANGAR_1"
+
+	icon = "GFX_ship_part_ms_06fz"
+	icon_frame = 1
+}
+
+component_set = {
+	key = "MS_06FZ_HANGAR_2"
+
+	icon = "GFX_ship_part_ms_06fz"
+	icon_frame = 1
+}
+
+component_set = {
+	key = "MS_06R_1A_HANGAR_1"
+
+	icon = "GFX_ship_part_ms_06r_1a"
+	icon_frame = 1
+}
+
+component_set = {
+	key = "MS_06R_1A_HANGAR_2"
+
+	icon = "GFX_ship_part_ms_06r_1a"
+	icon_frame = 1
+}
+
+component_set = {
+	key = "MS_06R_2_HANGAR_1"
+
+	icon = "GFX_ship_part_ms_06r_2"
+	icon_frame = 1
+}
+
+component_set = {
+	key = "MS_06R_2_HANGAR_2"
+
+	icon = "GFX_ship_part_ms_06r_2"
+	icon_frame = 1
+}
+
+component_set = {
+	key = "MS_06R_2P_HANGAR_1"
+
+	icon = "GFX_ship_part_ms_06r_2p"
+	icon_frame = 1
+}
+
+component_set = {
+	key = "MS_06R_2P_HANGAR_2"
+
+	icon = "GFX_ship_part_ms_06r_2p"
+	icon_frame = 1
+}
+
+component_set = {
+	key = "MS_06R_3S_HANGAR_1"
+
+	icon = "GFX_ship_part_ms_06r_3s"
+	icon_frame = 1
+}
+
+component_set = {
+	key = "MS_06R_3S_HANGAR_2"
+
+	icon = "GFX_ship_part_ms_06r_3s"
+	icon_frame = 1
+}
+
+component_set = {
+	key = "MS_14A_HANGAR_1"
+
+	icon = "GFX_ship_part_ms_14a"
+	icon_frame = 1
+}
+
+component_set = {
+	key = "MS_14A_HANGAR_2"
+
+	icon = "GFX_ship_part_ms_14a"
+	icon_frame = 1
+}
+
+component_set = {
+	key = "MS_14B_HANGAR_1"
+
+	icon = "GFX_ship_part_ms_14b"
+	icon_frame = 1
+}
+
+component_set = {
+	key = "MS_14B_HANGAR_2"
+
+	icon = "GFX_ship_part_ms_14b"
+	icon_frame = 1
+}
+
+component_set = {
+	key = "MS_14BR_HANGAR_1"
+
+	icon = "GFX_ship_part_ms_14br"
+	icon_frame = 1
+}
+
+component_set = {
+	key = "MS_14BR_HANGAR_2"
+
+	icon = "GFX_ship_part_ms_14br"
+	icon_frame = 1
+}
+
+component_set = {
+	key = "MS_14F_HANGAR_1"
+
+	icon = "GFX_ship_part_ms_14f"
+	icon_frame = 1
+}
+
+component_set = {
+	key = "MS_14F_HANGAR_2"
+
+	icon = "GFX_ship_part_ms_14f"
+	icon_frame = 1
+}
+
+component_set = {
+	key = "MS_14JG_HANGAR_1"
+
+	icon = "GFX_ship_part_ms_14jg"
+	icon_frame = 1
+}
+
+component_set = {
+	key = "MS_14JG_HANGAR_2"
+
+	icon = "GFX_ship_part_ms_14jg"
+	icon_frame = 1
+}
+
+component_set = {
+	key = "MS_06RD_4_HANGAR_1"
+
+	icon = "GFX_ship_part_ms_06rd_4"
+	icon_frame = 1
+}
+
+component_set = {
+	key = "MS_06RD_4_HANGAR_2"
+
+	icon = "GFX_ship_part_ms_06rd_4"
+	icon_frame = 1
+}
+
+component_set = {
+	key = "MS_09R_HANGAR_1"
+
+	icon = "GFX_ship_part_ms_09r"
+	icon_frame = 1
+}
+
+component_set = {
+	key = "MS_09R_HANGAR_2"
+
+	icon = "GFX_ship_part_ms_09r"
+	icon_frame = 1
+}
+
+component_set = {
+	key = "MS_09R_2_HANGAR_1"
+
+	icon = "GFX_ship_part_ms_09r_2"
+	icon_frame = 1
+}
+
+component_set = {
+	key = "MS_09R_2_HANGAR_2"
+
+	icon = "GFX_ship_part_ms_09r_2"
+	icon_frame = 1
+}
+
+component_set = {
+	key = "MS_06K_HANGAR_1"
+
+	icon = "GFX_ship_part_ms_06k"
+	icon_frame = 1
+}
+
+component_set = {
+	key = "MS_06K_G_HANGAR_1"
+
+	icon = "GFX_ship_part_ms_06k_g"
+	icon_frame = 1
+}
+
+component_set = {
+	key = "MS_09K_1_HANGAR_1"
+
+	icon = "GFX_ship_part_ms_09k_1"
+	icon_frame = 1
+}
+
+component_set = {
+	key = "MS_09K_2_HANGAR_1"
+
+	icon = "GFX_ship_part_ms_09k_2"
+	icon_frame = 1
+}
+
+component_set = {
+	key = "MS_14C_HANGAR_1"
+
+	icon = "GFX_ship_part_ms_14c"
+	icon_frame = 1
+}

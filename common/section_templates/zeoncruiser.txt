@@ -7,7 +7,7 @@ ship_section_template = {
 	entity = "white_base_bow_entity"
 	icon = "GFX_ship_part_core_bow"
 	icon_frame = 1
-	
+
 	# Big guns
 	weapon_preferences = { weapon_role_anti_shield }
 	ai_weight = {
@@ -27,28 +27,28 @@ ship_section_template = {
 		slot_type = weapon
 		locatorname = "medium_gun_01"
 	}
-	
+
 	component_slot = {
 		name = "MEDIUM_GUN_02"
 		slot_size = medium
 		slot_type = weapon
 		locatorname = "medium_gun_02"
 	}
-	
+
 	component_slot = {
 		name = "MEDIUM_GUN_03"
 		slot_size = medium
 		slot_type = weapon
 		locatorname = "medium_gun_03"
 	}
-	
+
 	component_slot = {
 		name = "MEDIUM_GUN_04"
 		slot_size = medium
 		slot_type = weapon
 		locatorname = "medium_gun_04"
 	}
-	
+
 	component_slot = {
 		name = "STRIKE_CRAFT_01"
 		slot_size = large
@@ -56,7 +56,7 @@ ship_section_template = {
 		rotation = 90
 		locatorname = "strike_craft_locator_01"
 	}
-	
+
 	component_slot = {
 		name = "STRIKE_CRAFT_02"
 		slot_size = large
@@ -64,11 +64,11 @@ ship_section_template = {
 		rotation = 90
 		locatorname = "strike_craft_locator_02"
 	}
-	
+
 	small_utility_slots = 1
 	medium_utility_slots = 2
 	large_utility_slots = 2
-	
+
 	cost = 240
 }
 
@@ -78,7 +78,7 @@ ship_section_template = {
 	fits_on_slot = mid
 	entity = "white_base_mid_entity"
 	icon = "GFX_ship_part_core_mid"
-	
+
 	# Lasers & Strike Craft
 	weapon_preferences = { weapon_role_anti_armor }
 	ai_weight = {
@@ -87,11 +87,11 @@ ship_section_template = {
 			OR = {
 				has_ai_personality = federation_builders
 				has_ai_personality = erudite_explorers
-				has_ai_personality = xenophobic_isolationists				
+				has_ai_personality = xenophobic_isolationists
 			}
 		}
 	}
-	
+
 	component_slot = {
 		name = "LARGE_GUN_01"
 		slot_size = large
@@ -110,19 +110,19 @@ ship_section_template = {
 		slot_type = weapon
 		locatorname = "large_gun_03"
 	}
-	
+
 	component_slot = {
 		name = "STRIKE_CRAFT_01"
 		slot_size = large
 		slot_type = strike_craft
 		rotation = 90
 		locatorname = "strike_craft_locator_01"
-	}	
-	
+	}
+
 	small_utility_slots = 1
 	medium_utility_slots = 1
 	large_utility_slots = 2
-	
+
 	cost = 240
 }
 
@@ -132,7 +132,7 @@ ship_section_template = {
 	fits_on_slot = mid
 	entity = "grey_phantom_mid_entity"
 	icon = "GFX_ship_part_core_mid"
-	
+
 	# Lasers & Strike Craft
 	weapon_preferences = { weapon_role_anti_armor }
 	ai_weight = {
@@ -141,11 +141,11 @@ ship_section_template = {
 			OR = {
 				has_ai_personality = federation_builders
 				has_ai_personality = erudite_explorers
-				has_ai_personality = xenophobic_isolationists				
+				has_ai_personality = xenophobic_isolationists
 			}
 		}
 	}
-	
+
 	component_slot = {
 		name = "LARGE_GUN_01"
 		slot_size = large
@@ -164,19 +164,19 @@ ship_section_template = {
 		slot_type = weapon
 		locatorname = "large_gun_03"
 	}
-	
+
 	component_slot = {
 		name = "STRIKE_CRAFT_01"
 		slot_size = large
 		slot_type = strike_craft
 		rotation = 90
 		locatorname = "strike_craft_locator_01"
-	}	
-	
+	}
+
 	small_utility_slots = 1
 	medium_utility_slots = 1
 	large_utility_slots = 2
-	
+
 	cost = 240
 }
 
@@ -186,7 +186,7 @@ ship_section_template = {
 	fits_on_slot = mid
 	entity = "albion_mid_entity"
 	icon = "GFX_ship_part_core_mid"
-	
+
 	# Lasers & Strike Craft
 	weapon_preferences = { weapon_role_anti_armor }
 	ai_weight = {
@@ -195,11 +195,11 @@ ship_section_template = {
 			OR = {
 				has_ai_personality = federation_builders
 				has_ai_personality = erudite_explorers
-				has_ai_personality = xenophobic_isolationists				
+				has_ai_personality = xenophobic_isolationists
 			}
 		}
 	}
-	
+
 	component_slot = {
 		name = "LARGE_GUN_01"
 		slot_size = large
@@ -218,19 +218,19 @@ ship_section_template = {
 		slot_type = weapon
 		locatorname = "large_gun_03"
 	}
-	
+
 	component_slot = {
 		name = "STRIKE_CRAFT_01"
 		slot_size = large
 		slot_type = strike_craft
 		rotation = 90
 		locatorname = "strike_craft_locator_01"
-	}	
-	
+	}
+
 	small_utility_slots = 1
 	medium_utility_slots = 1
 	large_utility_slots = 2
-	
+
 	cost = 240
 }
 
@@ -240,7 +240,7 @@ ship_section_template = {
 	fits_on_slot = stern
 	entity = "white_base_stern_entity"
 	icon = "GFX_ship_part_core_stern"
-	
+
 	# Point Defense
 	weapon_preferences = { weapon_role_point_defense }
 	ai_weight = {
@@ -248,41 +248,41 @@ ship_section_template = {
 		modifier = {
 			factor = 100.0
 			has_ai_personality = migrating_flock
-		}		
+		}
 	}
-	
+
 	component_slot = {
 		name = "SMALL_GUN_01"
 		slot_size = point_defence
 		slot_type = weapon
 		locatorname = "small_gun_01"
 	}
-	
+
 	component_slot = {
 		name = "SMALL_GUN_02"
 		slot_size = point_defence
 		slot_type = weapon
 		locatorname = "small_gun_02"
-	}	
-	
+	}
+
 	component_slot = {
 		name = "SMALL_GUN_03"
 		slot_size = point_defence
 		slot_type = weapon
 		locatorname = "small_gun_03"
 	}
-	
+
 	component_slot = {
 		name = "SMALL_GUN_04"
 		slot_size = point_defence
 		slot_type = weapon
 		locatorname = "small_gun_04"
 	}
-	
+
 	small_utility_slots = 2
 	medium_utility_slots = 1
 	large_utility_slots = 3
-	
+
 	cost = 240
 }
 
@@ -292,9 +292,9 @@ ship_section_template = { #Gagaul Hangar Rear
 	fits_on_slot = stern
 	entity = "destroyer_stern_M1_entity"
 	icon = "GFX_ship_part_core_stern"
-	
+
 	prerequisites = {tech_BEAMC_1}
-	
+
 	# Missiles
 	weapon_preferences = { weapon_type_zeon }
 	ai_weight = {
@@ -302,14 +302,14 @@ ship_section_template = { #Gagaul Hangar Rear
 			factor = 10.0
 		}
 	}
-	
+
 	component_slot = {
 		name = "MEDIUM_GUN_01"
 		slot_size = medium
 		slot_type = weapon
 		locatorname = "medium_gun_01"
 	}
-	
+
 	component_slot = {
 		name = "STRIKE_CRAFT_01"
 		slot_size = large
@@ -317,11 +317,11 @@ ship_section_template = { #Gagaul Hangar Rear
 		rotation = 90
 		locatorname = "strike_craft_locator_01"
 	}
-	
+
 	small_utility_slots = 2
 	medium_utility_slots = 2
 	large_utility_slots = 0
-	
+
 	cost = 120
 }
 
@@ -331,9 +331,9 @@ ship_section_template = {
 	fits_on_slot = bow
 	entity = "salamis_bow_entity"
 	icon = "GFX_ship_part_core_bow"
-	
+
 	prerequisites = { tech_EFSF_MS_1}
-	
+
 	ai_weight = {
 		modifier = {
 			factor = 10.0
@@ -346,30 +346,30 @@ ship_section_template = {
 			}
 		}
 	}
-	
+
 	component_slot = {
 		name = "MEDIUM_GUN_01"
 		slot_size = medium
 		slot_type = weapon
 		locatorname = "medium_gun_01"
-	}	
-	
+	}
+
 	component_slot = {
 		name = "SMALL_GUN_01"
 		slot_size = point_defence
 		slot_type = weapon
 		locatorname = "small_gun_01"
-	}	
-	
+	}
+
 	component_slot = {
 		name = "SMALL_GUN_02"
 		slot_size = point_defence
 		slot_type = weapon
 		locatorname = "small_gun_02"
 	}
-	
+
 	medium_utility_slots = 4
-	
+
 	cost = 60
 }
 
@@ -381,7 +381,7 @@ ship_section_template = {
 	fits_on_slot = mid
 	entity = "zaku1_body_S3_entity"
 	icon = "GFX_ship_part_core_mid"
-	
+
 	# Guns
 	weapon_preferences = { weapon_type_z1 }
 	ai_weight = {
@@ -389,30 +389,30 @@ ship_section_template = {
 			factor = 10.0
 		}
 	}
-	
+
 	component_slot = {
 		name = "SMALL_GUN_01"
 		slot_size = small
 		slot_type = weapon
 		locatorname = "small_gun_01"
 	}
-	
+
 	component_slot = {
 		name = "SMALL_GUN_02"
 		slot_size = small
 		slot_type = weapon
 		locatorname = "small_gun_02"
 	}
-	
+
 	component_slot = {
 		name = "SMALL_GUN_03"
 		slot_size = small
 		slot_type = weapon
 		locatorname = "small_gun_03"
 	}
-	
+
 	small_utility_slots = 2
-	
+
 	cost = 15
 }
 
@@ -422,7 +422,7 @@ ship_section_template = {
 	fits_on_slot = mid
 	entity = "zaku1_body_M1S2_entity"
 	icon = "GFX_ship_part_core_mid"
-	
+
 	# Guns
 	weapon_preferences = { weapon_type_z1 }
 	ai_weight = {
@@ -430,30 +430,30 @@ ship_section_template = {
 			factor = 10.0
 		}
 	}
-	
+
 	component_slot = {
 		name = "MEDIUM_GUN_01"
 		slot_size = medium
 		slot_type = weapon
 		locatorname = "medium_gun_01"
 	}
-	
+
 	component_slot = {
 		name = "SMALL_GUN_01"
 		slot_size = small
 		slot_type = weapon
 		locatorname = "small_gun_01"
 	}
-	
+
 	component_slot = {
 		name = "SMALL_GUN_02"
 		slot_size = small
 		slot_type = weapon
 		locatorname = "small_gun_02"
 	}
-	
+
 	small_utility_slots = 2
-	
+
 	cost = 15
 }
 
@@ -463,7 +463,7 @@ ship_section_template = {
 	fits_on_slot = mid
 	entity = "zaku1_body_M2_entity"
 	icon = "GFX_ship_part_core_mid"
-	
+
 	# Guns
 	weapon_preferences = { weapon_type_z1 }
 	ai_weight = {
@@ -471,23 +471,23 @@ ship_section_template = {
 			factor = 10.0
 		}
 	}
-	
+
 	component_slot = {
 		name = "MEDIUM_GUN_01"
 		slot_size = medium
 		slot_type = weapon
 		locatorname = "medium_gun_01"
 	}
-	
+
 	component_slot = {
 		name = "MEDIUM_GUN_02"
 		slot_size = medium
 		slot_type = weapon
 		locatorname = "medium_gun_02"
 	}
-	
+
 	small_utility_slots = 2
-	
+
 	cost = 15
 }
 
@@ -497,7 +497,7 @@ ship_section_template = {
 	fits_on_slot = mid
 	entity = "zeon_ms_1_S3_entity"
 	icon = "GFX_ship_part_core_mid"
-	
+
 	# Guns
 	weapon_preferences = { weapon_type_ms }
 	ai_weight = {
@@ -505,31 +505,31 @@ ship_section_template = {
 			factor = 10.0
 		}
 	}
-	
+
 	component_slot = {
 		name = "SMALL_GUN_01"
 		slot_size = small
 		slot_type = weapon
 		locatorname = "small_gun_01"
 	}
-	
+
 	component_slot = {
 		name = "SMALL_GUN_02"
 		slot_size = small
 		slot_type = weapon
 		locatorname = "small_gun_02"
 	}
-	
+
 	component_slot = {
 		name = "SMALL_GUN_03"
 		slot_size = small
 		slot_type = weapon
 		locatorname = "small_gun_03"
 	}
-	
+
 	small_utility_slots = 1
 	medium_utility_slots = 1
-	
+
 	cost = 20
 }
 
@@ -539,7 +539,7 @@ ship_section_template = {
 	fits_on_slot = mid
 	entity = "zeon_ms_1_M1S2_entity"
 	icon = "GFX_ship_part_core_mid"
-	
+
 	# Guns
 	weapon_preferences = { weapon_type_ms }
 	ai_weight = {
@@ -547,31 +547,31 @@ ship_section_template = {
 			factor = 10.0
 		}
 	}
-	
+
 	component_slot = {
 		name = "MEDIUM_GUN_01"
 		slot_size = medium
 		slot_type = weapon
 		locatorname = "medium_gun_01"
 	}
-	
+
 	component_slot = {
 		name = "SMALL_GUN_01"
 		slot_size = small
 		slot_type = weapon
 		locatorname = "small_gun_01"
 	}
-	
+
 	component_slot = {
 		name = "SMALL_GUN_02"
 		slot_size = small
 		slot_type = weapon
 		locatorname = "small_gun_02"
 	}
-	
+
 	small_utility_slots = 1
 	medium_utility_slots = 1
-	
+
 	cost = 20
 }
 
@@ -581,7 +581,7 @@ ship_section_template = {
 	fits_on_slot = mid
 	entity = "zeon_ms_1_M2_entity"
 	icon = "GFX_ship_part_core_mid"
-	
+
 	# Guns
 	weapon_preferences = { weapon_type_ms }
 	ai_weight = {
@@ -589,24 +589,24 @@ ship_section_template = {
 			factor = 10.0
 		}
 	}
-	
+
 	component_slot = {
 		name = "MEDIUM_GUN_01"
 		slot_size = medium
 		slot_type = weapon
 		locatorname = "medium_gun_01"
 	}
-	
+
 	component_slot = {
 		name = "MEDIUM_GUN_02"
 		slot_size = medium
 		slot_type = weapon
 		locatorname = "medium_gun_02"
 	}
-	
+
 	small_utility_slots = 1
 	medium_utility_slots = 1
-	
+
 	cost = 20
 }
 
@@ -616,7 +616,7 @@ ship_section_template = {
 	fits_on_slot = mid
 	entity = "zeon_ms_2_S3_entity"
 	icon = "GFX_ship_part_core_mid"
-	
+
 	# Guns
 	weapon_preferences = { weapon_type_ms }
 	ai_weight = {
@@ -624,31 +624,31 @@ ship_section_template = {
 			factor = 10.0
 		}
 	}
-	
+
 	component_slot = {
 		name = "SMALL_GUN_01"
 		slot_size = small
 		slot_type = weapon
 		locatorname = "small_gun_01"
 	}
-	
+
 	component_slot = {
 		name = "SMALL_GUN_02"
 		slot_size = small
 		slot_type = weapon
 		locatorname = "small_gun_02"
 	}
-	
+
 	component_slot = {
 		name = "SMALL_GUN_03"
 		slot_size = small
 		slot_type = weapon
 		locatorname = "small_gun_03"
 	}
-	
+
 	small_utility_slots = 1
 	medium_utility_slots = 1
-	
+
 	cost = 20
 }
 
@@ -658,7 +658,7 @@ ship_section_template = {
 	fits_on_slot = mid
 	entity = "zeon_ms_2_M1S2_entity"
 	icon = "GFX_ship_part_core_mid"
-	
+
 	# Guns
 	weapon_preferences = { weapon_type_ms }
 	ai_weight = {
@@ -666,31 +666,31 @@ ship_section_template = {
 			factor = 10.0
 		}
 	}
-	
+
 	component_slot = {
 		name = "MEDIUM_GUN_01"
 		slot_size = medium
 		slot_type = weapon
 		locatorname = "medium_gun_01"
 	}
-	
+
 	component_slot = {
 		name = "SMALL_GUN_01"
 		slot_size = small
 		slot_type = weapon
 		locatorname = "small_gun_01"
 	}
-	
+
 	component_slot = {
 		name = "SMALL_GUN_02"
 		slot_size = small
 		slot_type = weapon
 		locatorname = "small_gun_02"
 	}
-	
+
 	small_utility_slots = 1
 	medium_utility_slots = 1
-	
+
 	cost = 20
 }
 
@@ -700,7 +700,7 @@ ship_section_template = {
 	fits_on_slot = mid
 	entity = "zeon_ms_2_M2_entity"
 	icon = "GFX_ship_part_core_mid"
-	
+
 	# Guns
 	weapon_preferences = { weapon_type_ms }
 	ai_weight = {
@@ -708,24 +708,24 @@ ship_section_template = {
 			factor = 10.0
 		}
 	}
-	
+
 	component_slot = {
 		name = "MEDIUM_GUN_01"
 		slot_size = medium
 		slot_type = weapon
 		locatorname = "medium_gun_01"
 	}
-	
+
 	component_slot = {
 		name = "MEDIUM_GUN_02"
 		slot_size = medium
 		slot_type = weapon
 		locatorname = "medium_gun_02"
 	}
-	
+
 	small_utility_slots = 1
 	medium_utility_slots = 1
-	
+
 	cost = 20
 }
 
@@ -735,7 +735,7 @@ ship_section_template = {
 	fits_on_slot = mid
 	entity = "zeon_ms_3_S3_entity"
 	icon = "GFX_ship_part_core_mid"
-	
+
 	# Guns
 	weapon_preferences = { weapon_type_bz }
 	ai_weight = {
@@ -743,31 +743,31 @@ ship_section_template = {
 			factor = 10.0
 		}
 	}
-	
+
 	component_slot = {
 		name = "SMALL_GUN_01"
 		slot_size = small
 		slot_type = weapon
 		locatorname = "small_gun_01"
 	}
-	
+
 	component_slot = {
 		name = "SMALL_GUN_02"
 		slot_size = small
 		slot_type = weapon
 		locatorname = "small_gun_02"
 	}
-	
+
 	component_slot = {
 		name = "SMALL_GUN_03"
 		slot_size = small
 		slot_type = weapon
 		locatorname = "small_gun_03"
 	}
-	
+
 	small_utility_slots = 2
 	medium_utility_slots = 1
-	
+
 	cost = 25
 }
 
@@ -777,7 +777,7 @@ ship_section_template = {
 	fits_on_slot = mid
 	entity = "zeon_ms_3_M1S2_entity"
 	icon = "GFX_ship_part_core_mid"
-	
+
 	# Guns
 	weapon_preferences = { weapon_type_bz }
 	ai_weight = {
@@ -785,31 +785,31 @@ ship_section_template = {
 			factor = 10.0
 		}
 	}
-	
+
 	component_slot = {
 		name = "MEDIUM_GUN_01"
 		slot_size = medium
 		slot_type = weapon
 		locatorname = "medium_gun_01"
 	}
-	
+
 	component_slot = {
 		name = "SMALL_GUN_01"
 		slot_size = small
 		slot_type = weapon
 		locatorname = "small_gun_01"
 	}
-	
+
 	component_slot = {
 		name = "SMALL_GUN_02"
 		slot_size = small
 		slot_type = weapon
 		locatorname = "small_gun_02"
 	}
-	
+
 	small_utility_slots = 2
 	medium_utility_slots = 1
-	
+
 	cost = 25
 }
 
@@ -819,7 +819,7 @@ ship_section_template = {
 	fits_on_slot = mid
 	entity = "zeon_ms_3_M2_entity"
 	icon = "GFX_ship_part_core_mid"
-	
+
 	# Guns
 	weapon_preferences = { weapon_type_bz }
 	ai_weight = {
@@ -827,24 +827,24 @@ ship_section_template = {
 			factor = 10.0
 		}
 	}
-	
+
 	component_slot = {
 		name = "MEDIUM_GUN_01"
 		slot_size = medium
 		slot_type = weapon
 		locatorname = "medium_gun_01"
 	}
-	
+
 	component_slot = {
 		name = "MEDIUM_GUN_02"
 		slot_size = medium
 		slot_type = weapon
 		locatorname = "medium_gun_02"
 	}
-	
+
 	small_utility_slots = 2
 	medium_utility_slots = 1
-	
+
 	cost = 25
 }
 
@@ -854,7 +854,7 @@ ship_section_template = {
 	fits_on_slot = mid
 	entity = "zeon_ms_4_S3_entity"
 	icon = "GFX_ship_part_core_mid"
-	
+
 	# Guns
 	weapon_preferences = { weapon_type_gel }
 	ai_weight = {
@@ -862,31 +862,31 @@ ship_section_template = {
 			factor = 10.0
 		}
 	}
-	
+
 	component_slot = {
 		name = "SMALL_GUN_01"
 		slot_size = small
 		slot_type = weapon
 		locatorname = "small_gun_01"
 	}
-	
+
 	component_slot = {
 		name = "SMALL_GUN_02"
 		slot_size = small
 		slot_type = weapon
 		locatorname = "small_gun_02"
 	}
-	
+
 	component_slot = {
 		name = "SMALL_GUN_03"
 		slot_size = small
 		slot_type = weapon
 		locatorname = "small_gun_03"
 	}
-	
+
 	small_utility_slots = 3
 	medium_utility_slots = 1
-	
+
 	cost = 30
 }
 
@@ -896,7 +896,7 @@ ship_section_template = {
 	fits_on_slot = mid
 	entity = "zeon_ms_4_M1S2_entity"
 	icon = "GFX_ship_part_core_mid"
-	
+
 	# Guns
 	weapon_preferences = { weapon_type_gel }
 	ai_weight = {
@@ -904,31 +904,31 @@ ship_section_template = {
 			factor = 10.0
 		}
 	}
-	
+
 	component_slot = {
 		name = "MEDIUM_GUN_01"
 		slot_size = medium
 		slot_type = weapon
 		locatorname = "medium_gun_01"
 	}
-	
+
 	component_slot = {
 		name = "SMALL_GUN_01"
 		slot_size = small
 		slot_type = weapon
 		locatorname = "small_gun_01"
 	}
-	
+
 	component_slot = {
 		name = "SMALL_GUN_02"
 		slot_size = small
 		slot_type = weapon
 		locatorname = "small_gun_02"
 	}
-	
+
 	small_utility_slots = 3
 	medium_utility_slots = 1
-	
+
 	cost = 30
 }
 
@@ -938,7 +938,7 @@ ship_section_template = {
 	fits_on_slot = mid
 	entity = "zeon_ms_4_M2_entity"
 	icon = "GFX_ship_part_core_mid"
-	
+
 	# Guns
 	weapon_preferences = { weapon_type_gel }
 	ai_weight = {
@@ -946,24 +946,24 @@ ship_section_template = {
 			factor = 10.0
 		}
 	}
-	
+
 	component_slot = {
 		name = "MEDIUM_GUN_01"
 		slot_size = medium
 		slot_type = weapon
 		locatorname = "medium_gun_01"
 	}
-	
+
 	component_slot = {
 		name = "MEDIUM_GUN_02"
 		slot_size = medium
 		slot_type = weapon
 		locatorname = "medium_gun_02"
 	}
-	
+
 	small_utility_slots = 3
 	medium_utility_slots = 1
-	
+
 	cost = 30
 }
 
@@ -973,7 +973,7 @@ ship_section_template = {
 	fits_on_slot = mid
 	entity = "zeon_ms_5_S3_entity"
 	icon = "GFX_ship_part_core_mid"
-	
+
 	# Guns
 	weapon_preferences = { weapon_type_gel }
 	ai_weight = {
@@ -981,31 +981,31 @@ ship_section_template = {
 			factor = 10.0
 		}
 	}
-	
+
 	component_slot = {
 		name = "SMALL_GUN_01"
 		slot_size = small
 		slot_type = weapon
 		locatorname = "small_gun_01"
 	}
-	
+
 	component_slot = {
 		name = "SMALL_GUN_02"
 		slot_size = small
 		slot_type = weapon
 		locatorname = "small_gun_02"
 	}
-	
+
 	component_slot = {
 		name = "SMALL_GUN_03"
 		slot_size = small
 		slot_type = weapon
 		locatorname = "small_gun_03"
 	}
-	
+
 	small_utility_slots = 3
 	medium_utility_slots = 1
-	
+
 	cost = 30
 }
 
@@ -1015,7 +1015,7 @@ ship_section_template = {
 	fits_on_slot = mid
 	entity = "zeon_ms_5_M1S2_entity"
 	icon = "GFX_ship_part_core_mid"
-	
+
 	# Guns
 	weapon_preferences = { weapon_type_gel }
 	ai_weight = {
@@ -1023,31 +1023,31 @@ ship_section_template = {
 			factor = 10.0
 		}
 	}
-	
+
 	component_slot = {
 		name = "MEDIUM_GUN_01"
 		slot_size = medium
 		slot_type = weapon
 		locatorname = "medium_gun_01"
 	}
-	
+
 	component_slot = {
 		name = "SMALL_GUN_01"
 		slot_size = small
 		slot_type = weapon
 		locatorname = "small_gun_01"
 	}
-	
+
 	component_slot = {
 		name = "SMALL_GUN_02"
 		slot_size = small
 		slot_type = weapon
 		locatorname = "small_gun_02"
 	}
-	
+
 	small_utility_slots = 3
 	medium_utility_slots = 1
-	
+
 	cost = 30
 }
 
@@ -1057,7 +1057,7 @@ ship_section_template = {
 	fits_on_slot = mid
 	entity = "zeon_ms_5_M2_entity"
 	icon = "GFX_ship_part_core_mid"
-	
+
 	# Guns
 	weapon_preferences = { weapon_type_gel }
 	ai_weight = {
@@ -1065,24 +1065,24 @@ ship_section_template = {
 			factor = 10.0
 		}
 	}
-	
+
 	component_slot = {
 		name = "MEDIUM_GUN_01"
 		slot_size = medium
 		slot_type = weapon
 		locatorname = "medium_gun_01"
 	}
-	
+
 	component_slot = {
 		name = "MEDIUM_GUN_02"
 		slot_size = medium
 		slot_type = weapon
 		locatorname = "medium_gun_02"
 	}
-	
+
 	small_utility_slots = 3
 	medium_utility_slots = 1
-	
+
 	cost = 30
 }
 
@@ -1092,7 +1092,7 @@ ship_section_template = { #FrAsh Thunderbolt Zaku II Reuse P Psycho Zaku
 	fits_on_slot = mid
 	entity = "nt_ms_3_entity"
 	icon = "GFX_ship_part_core_mid"
-	
+
 	# Guns
 	weapon_preferences = { weapon_type_gel }
 	ai_weight = {
@@ -1100,61 +1100,61 @@ ship_section_template = { #FrAsh Thunderbolt Zaku II Reuse P Psycho Zaku
 			factor = 10.0
 		}
 	}
-	
+
 	component_slot = {
 		name = "SMALL_GUN_01"
 		slot_size = small
 		slot_type = weapon
 		locatorname = "small_gun_01"
 	}
-	
+
 	component_slot = {
 		name = "SMALL_GUN_02"
 		slot_size = small
 		slot_type = weapon
 		locatorname = "small_gun_02"
 	}
-	
+
 	component_slot = {
 		name = "MEDIUM_GUN_01"
 		slot_size = medium
 		slot_type = weapon
 		locatorname = "medium_gun_01"
 	}
-	
+
 	component_slot = {
 		name = "MEDIUM_GUN_02"
 		slot_size = medium
 		slot_type = weapon
 		locatorname = "medium_gun_02"
 	}
-	
+
 	component_slot = {
 		name = "MEDIUM_GUN_03"
 		slot_size = medium
 		slot_type = weapon
 		locatorname = "medium_gun_03"
 	}
-	
+
 	component_slot = {
 		name = "MEDIUM_GUN_04"
 		slot_size = medium
 		slot_type = weapon
 		locatorname = "medium_gun_04"
 	}
-	
+
 	component_slot = {
 		name = "LARGE_GUN_01"
 		slot_size = large
 		slot_type = weapon
 		locatorname = "large_gun_01"
 	}
-	
+
 	small_utility_slots = 3
 	medium_utility_slots = 3
 	large_utility_slots = 2
 	aux_utility_slots = 1
-	
+
 	cost = 300
 }
 
@@ -1166,7 +1166,7 @@ ship_section_template = {
 	fits_on_slot = mid
 	entity = "ball_entity"
 	icon = "GFX_ship_part_core_mid"
-	
+
 	# Guns
 	weapon_preferences = { weapon_type_z1 }
 	ai_weight = {
@@ -1174,16 +1174,16 @@ ship_section_template = {
 			factor = 10.0
 		}
 	}
-	
+
 	component_slot = {
 		name = "SMALL_GUN_01"
 		slot_size = small
 		slot_type = weapon
 		locatorname = "small_gun_01"
 	}
-	
+
 	small_utility_slots = 2
-	
+
 	cost = 15
 }
 
@@ -1193,7 +1193,7 @@ ship_section_template = {
 	fits_on_slot = mid
 	entity = "gm_entity"
 	icon = "GFX_ship_part_core_mid"
-	
+
 	# Guns
 	weapon_preferences = { weapon_type_ms }
 	ai_weight = {
@@ -1201,17 +1201,17 @@ ship_section_template = {
 			factor = 10.0
 		}
 	}
-	
+
 	component_slot = {
 		name = "SMALL_GUN_01"
 		slot_size = small
 		slot_type = weapon
 		locatorname = "small_gun_01"
 	}
-	
+
 	small_utility_slots = 1
 	medium_utility_slots = 1
-	
+
 	cost = 20
 }
 
@@ -1225,7 +1225,7 @@ ship_section_template = {
 	fits_on_slot = mid
 	entity = "zaku1_body_S3_entity"
 	icon = "GFX_ship_part_core_mid"
-	
+
 	# Guns
 	weapon_preferences = { weapon_type_z1 }
 	ai_weight = {
@@ -1233,30 +1233,30 @@ ship_section_template = {
 			factor = 10.0
 		}
 	}
-	
+
 	component_slot = {
 		name = "SMALL_GUN_01"
 		slot_size = small
 		slot_type = weapon
 		locatorname = "small_gun_01"
 	}
-	
+
 	component_slot = {
 		name = "SMALL_GUN_02"
 		slot_size = small
 		slot_type = weapon
 		locatorname = "small_gun_02"
 	}
-	
+
 	component_slot = {
 		name = "SMALL_GUN_03"
 		slot_size = small
 		slot_type = weapon
 		locatorname = "small_gun_03"
 	}
-	
+
 	small_utility_slots = 2
-	
+
 	cost = 15
 }
 
@@ -1266,7 +1266,7 @@ ship_section_template = {
 	fits_on_slot = mid
 	entity = "zaku1_body_M1S2_entity"
 	icon = "GFX_ship_part_core_mid"
-	
+
 	# Guns
 	weapon_preferences = { weapon_type_z1 }
 	ai_weight = {
@@ -1274,30 +1274,30 @@ ship_section_template = {
 			factor = 10.0
 		}
 	}
-	
+
 	component_slot = {
 		name = "MEDIUM_GUN_01"
 		slot_size = medium
 		slot_type = weapon
 		locatorname = "medium_gun_01"
 	}
-	
+
 	component_slot = {
 		name = "SMALL_GUN_01"
 		slot_size = small
 		slot_type = weapon
 		locatorname = "small_gun_01"
 	}
-	
+
 	component_slot = {
 		name = "SMALL_GUN_02"
 		slot_size = small
 		slot_type = weapon
 		locatorname = "small_gun_02"
 	}
-	
+
 	small_utility_slots = 2
-	
+
 	cost = 15
 }
 
@@ -1307,7 +1307,7 @@ ship_section_template = {
 	fits_on_slot = mid
 	entity = "zaku1_body_M2_entity"
 	icon = "GFX_ship_part_core_mid"
-	
+
 	# Guns
 	weapon_preferences = { weapon_type_z1 }
 	ai_weight = {
@@ -1315,23 +1315,23 @@ ship_section_template = {
 			factor = 10.0
 		}
 	}
-	
+
 	component_slot = {
 		name = "MEDIUM_GUN_01"
 		slot_size = medium
 		slot_type = weapon
 		locatorname = "medium_gun_01"
 	}
-	
+
 	component_slot = {
 		name = "MEDIUM_GUN_02"
 		slot_size = medium
 		slot_type = weapon
 		locatorname = "medium_gun_02"
 	}
-	
+
 	small_utility_slots = 2
-	
+
 	cost = 15
 }
 
@@ -1341,7 +1341,7 @@ ship_section_template = {
 	fits_on_slot = mid
 	entity = "zeon_ms_1_S3_entity"
 	icon = "GFX_ship_part_core_mid"
-	
+
 	# Guns
 	weapon_preferences = { weapon_type_ms }
 	ai_weight = {
@@ -1349,31 +1349,31 @@ ship_section_template = {
 			factor = 10.0
 		}
 	}
-	
+
 	component_slot = {
 		name = "SMALL_GUN_01"
 		slot_size = small
 		slot_type = weapon
 		locatorname = "small_gun_01"
 	}
-	
+
 	component_slot = {
 		name = "SMALL_GUN_02"
 		slot_size = small
 		slot_type = weapon
 		locatorname = "small_gun_02"
 	}
-	
+
 	component_slot = {
 		name = "SMALL_GUN_03"
 		slot_size = small
 		slot_type = weapon
 		locatorname = "small_gun_03"
 	}
-	
+
 	small_utility_slots = 1
 	medium_utility_slots = 1
-	
+
 	cost = 20
 }
 
@@ -1383,7 +1383,7 @@ ship_section_template = {
 	fits_on_slot = mid
 	entity = "zeon_ms_1_M1S2_entity"
 	icon = "GFX_ship_part_core_mid"
-	
+
 	# Guns
 	weapon_preferences = { weapon_type_ms }
 	ai_weight = {
@@ -1391,31 +1391,31 @@ ship_section_template = {
 			factor = 10.0
 		}
 	}
-	
+
 	component_slot = {
 		name = "MEDIUM_GUN_01"
 		slot_size = medium
 		slot_type = weapon
 		locatorname = "medium_gun_01"
 	}
-	
+
 	component_slot = {
 		name = "SMALL_GUN_01"
 		slot_size = small
 		slot_type = weapon
 		locatorname = "small_gun_01"
 	}
-	
+
 	component_slot = {
 		name = "SMALL_GUN_02"
 		slot_size = small
 		slot_type = weapon
 		locatorname = "small_gun_02"
 	}
-	
+
 	small_utility_slots = 1
 	medium_utility_slots = 1
-	
+
 	cost = 20
 }
 
@@ -1425,7 +1425,7 @@ ship_section_template = {
 	fits_on_slot = mid
 	entity = "zeon_ms_1_M2_entity"
 	icon = "GFX_ship_part_core_mid"
-	
+
 	# Guns
 	weapon_preferences = { weapon_type_ms }
 	ai_weight = {
@@ -1433,24 +1433,24 @@ ship_section_template = {
 			factor = 10.0
 		}
 	}
-	
+
 	component_slot = {
 		name = "MEDIUM_GUN_01"
 		slot_size = medium
 		slot_type = weapon
 		locatorname = "medium_gun_01"
 	}
-	
+
 	component_slot = {
 		name = "MEDIUM_GUN_02"
 		slot_size = medium
 		slot_type = weapon
 		locatorname = "medium_gun_02"
 	}
-	
+
 	small_utility_slots = 1
 	medium_utility_slots = 1
-	
+
 	cost = 20
 }
 
@@ -1460,7 +1460,7 @@ ship_section_template = {
 	fits_on_slot = mid
 	entity = "zeon_ms_2_S3_entity"
 	icon = "GFX_ship_part_core_mid"
-	
+
 	# Guns
 	weapon_preferences = { weapon_type_ms }
 	ai_weight = {
@@ -1468,31 +1468,31 @@ ship_section_template = {
 			factor = 10.0
 		}
 	}
-	
+
 	component_slot = {
 		name = "SMALL_GUN_01"
 		slot_size = small
 		slot_type = weapon
 		locatorname = "small_gun_01"
 	}
-	
+
 	component_slot = {
 		name = "SMALL_GUN_02"
 		slot_size = small
 		slot_type = weapon
 		locatorname = "small_gun_02"
 	}
-	
+
 	component_slot = {
 		name = "SMALL_GUN_03"
 		slot_size = small
 		slot_type = weapon
 		locatorname = "small_gun_03"
 	}
-	
+
 	small_utility_slots = 1
 	medium_utility_slots = 1
-	
+
 	cost = 20
 }
 
@@ -1502,7 +1502,7 @@ ship_section_template = {
 	fits_on_slot = mid
 	entity = "zeon_ms_2_M1S2_entity"
 	icon = "GFX_ship_part_core_mid"
-	
+
 	# Guns
 	weapon_preferences = { weapon_type_ms }
 	ai_weight = {
@@ -1510,31 +1510,31 @@ ship_section_template = {
 			factor = 10.0
 		}
 	}
-	
+
 	component_slot = {
 		name = "MEDIUM_GUN_01"
 		slot_size = medium
 		slot_type = weapon
 		locatorname = "medium_gun_01"
 	}
-	
+
 	component_slot = {
 		name = "SMALL_GUN_01"
 		slot_size = small
 		slot_type = weapon
 		locatorname = "small_gun_01"
 	}
-	
+
 	component_slot = {
 		name = "SMALL_GUN_02"
 		slot_size = small
 		slot_type = weapon
 		locatorname = "small_gun_02"
 	}
-	
+
 	small_utility_slots = 1
 	medium_utility_slots = 1
-	
+
 	cost = 20
 }
 
@@ -1544,7 +1544,7 @@ ship_section_template = {
 	fits_on_slot = mid
 	entity = "zeon_ms_2_M2_entity"
 	icon = "GFX_ship_part_core_mid"
-	
+
 	# Guns
 	weapon_preferences = { weapon_type_ms }
 	ai_weight = {
@@ -1552,24 +1552,24 @@ ship_section_template = {
 			factor = 10.0
 		}
 	}
-	
+
 	component_slot = {
 		name = "MEDIUM_GUN_01"
 		slot_size = medium
 		slot_type = weapon
 		locatorname = "medium_gun_01"
 	}
-	
+
 	component_slot = {
 		name = "MEDIUM_GUN_02"
 		slot_size = medium
 		slot_type = weapon
 		locatorname = "medium_gun_02"
 	}
-	
+
 	small_utility_slots = 1
 	medium_utility_slots = 1
-	
+
 	cost = 20
 }
 
@@ -1579,7 +1579,7 @@ ship_section_template = {
 	fits_on_slot = mid
 	entity = "zeon_ms_3_S3_entity"
 	icon = "GFX_ship_part_core_mid"
-	
+
 	# Guns
 	weapon_preferences = { weapon_type_bz }
 	ai_weight = {
@@ -1587,31 +1587,31 @@ ship_section_template = {
 			factor = 10.0
 		}
 	}
-	
+
 	component_slot = {
 		name = "SMALL_GUN_01"
 		slot_size = small
 		slot_type = weapon
 		locatorname = "small_gun_01"
 	}
-	
+
 	component_slot = {
 		name = "SMALL_GUN_02"
 		slot_size = small
 		slot_type = weapon
 		locatorname = "small_gun_02"
 	}
-	
+
 	component_slot = {
 		name = "SMALL_GUN_03"
 		slot_size = small
 		slot_type = weapon
 		locatorname = "small_gun_03"
 	}
-	
+
 	small_utility_slots = 2
 	medium_utility_slots = 1
-	
+
 	cost = 25
 }
 
@@ -1621,7 +1621,7 @@ ship_section_template = {
 	fits_on_slot = mid
 	entity = "zeon_ms_3_M1S2_entity"
 	icon = "GFX_ship_part_core_mid"
-	
+
 	# Guns
 	weapon_preferences = { weapon_type_bz }
 	ai_weight = {
@@ -1629,31 +1629,31 @@ ship_section_template = {
 			factor = 10.0
 		}
 	}
-	
+
 	component_slot = {
 		name = "MEDIUM_GUN_01"
 		slot_size = medium
 		slot_type = weapon
 		locatorname = "medium_gun_01"
 	}
-	
+
 	component_slot = {
 		name = "SMALL_GUN_01"
 		slot_size = small
 		slot_type = weapon
 		locatorname = "small_gun_01"
 	}
-	
+
 	component_slot = {
 		name = "SMALL_GUN_02"
 		slot_size = small
 		slot_type = weapon
 		locatorname = "small_gun_02"
 	}
-	
+
 	small_utility_slots = 2
 	medium_utility_slots = 1
-	
+
 	cost = 25
 }
 
@@ -1663,7 +1663,7 @@ ship_section_template = {
 	fits_on_slot = mid
 	entity = "zeon_ms_3_M2_entity"
 	icon = "GFX_ship_part_core_mid"
-	
+
 	# Guns
 	weapon_preferences = { weapon_type_bz }
 	ai_weight = {
@@ -1671,24 +1671,24 @@ ship_section_template = {
 			factor = 10.0
 		}
 	}
-	
+
 	component_slot = {
 		name = "MEDIUM_GUN_01"
 		slot_size = medium
 		slot_type = weapon
 		locatorname = "medium_gun_01"
 	}
-	
+
 	component_slot = {
 		name = "MEDIUM_GUN_02"
 		slot_size = medium
 		slot_type = weapon
 		locatorname = "medium_gun_02"
 	}
-	
+
 	small_utility_slots = 2
 	medium_utility_slots = 1
-	
+
 	cost = 25
 }
 
@@ -1698,7 +1698,7 @@ ship_section_template = {
 	fits_on_slot = mid
 	entity = "zeon_ms_4_S3_entity"
 	icon = "GFX_ship_part_core_mid"
-	
+
 	# Guns
 	weapon_preferences = { weapon_type_gel }
 	ai_weight = {
@@ -1706,31 +1706,31 @@ ship_section_template = {
 			factor = 10.0
 		}
 	}
-	
+
 	component_slot = {
 		name = "SMALL_GUN_01"
 		slot_size = small
 		slot_type = weapon
 		locatorname = "small_gun_01"
 	}
-	
+
 	component_slot = {
 		name = "SMALL_GUN_02"
 		slot_size = small
 		slot_type = weapon
 		locatorname = "small_gun_02"
 	}
-	
+
 	component_slot = {
 		name = "SMALL_GUN_03"
 		slot_size = small
 		slot_type = weapon
 		locatorname = "small_gun_03"
 	}
-	
+
 	small_utility_slots = 3
 	medium_utility_slots = 1
-	
+
 	cost = 30
 }
 
@@ -1740,7 +1740,7 @@ ship_section_template = {
 	fits_on_slot = mid
 	entity = "zeon_ms_4_M1S2_entity"
 	icon = "GFX_ship_part_core_mid"
-	
+
 	# Guns
 	weapon_preferences = { weapon_type_gel }
 	ai_weight = {
@@ -1748,31 +1748,31 @@ ship_section_template = {
 			factor = 10.0
 		}
 	}
-	
+
 	component_slot = {
 		name = "MEDIUM_GUN_01"
 		slot_size = medium
 		slot_type = weapon
 		locatorname = "medium_gun_01"
 	}
-	
+
 	component_slot = {
 		name = "SMALL_GUN_01"
 		slot_size = small
 		slot_type = weapon
 		locatorname = "small_gun_01"
 	}
-	
+
 	component_slot = {
 		name = "SMALL_GUN_02"
 		slot_size = small
 		slot_type = weapon
 		locatorname = "small_gun_02"
 	}
-	
+
 	small_utility_slots = 3
 	medium_utility_slots = 1
-	
+
 	cost = 30
 }
 
@@ -1782,7 +1782,7 @@ ship_section_template = {
 	fits_on_slot = mid
 	entity = "zeon_ms_4_M2_entity"
 	icon = "GFX_ship_part_core_mid"
-	
+
 	# Guns
 	weapon_preferences = { weapon_type_gel }
 	ai_weight = {
@@ -1790,24 +1790,24 @@ ship_section_template = {
 			factor = 10.0
 		}
 	}
-	
+
 	component_slot = {
 		name = "MEDIUM_GUN_01"
 		slot_size = medium
 		slot_type = weapon
 		locatorname = "medium_gun_01"
 	}
-	
+
 	component_slot = {
 		name = "MEDIUM_GUN_02"
 		slot_size = medium
 		slot_type = weapon
 		locatorname = "medium_gun_02"
 	}
-	
+
 	small_utility_slots = 3
 	medium_utility_slots = 1
-	
+
 	cost = 30
 }
 
@@ -1817,7 +1817,7 @@ ship_section_template = {
 	fits_on_slot = mid
 	entity = "zeon_ms_5_S3_entity"
 	icon = "GFX_ship_part_core_mid"
-	
+
 	# Guns
 	weapon_preferences = { weapon_type_gel }
 	ai_weight = {
@@ -1825,31 +1825,31 @@ ship_section_template = {
 			factor = 10.0
 		}
 	}
-	
+
 	component_slot = {
 		name = "SMALL_GUN_01"
 		slot_size = small
 		slot_type = weapon
 		locatorname = "small_gun_01"
 	}
-	
+
 	component_slot = {
 		name = "SMALL_GUN_02"
 		slot_size = small
 		slot_type = weapon
 		locatorname = "small_gun_02"
 	}
-	
+
 	component_slot = {
 		name = "SMALL_GUN_03"
 		slot_size = small
 		slot_type = weapon
 		locatorname = "small_gun_03"
 	}
-	
+
 	small_utility_slots = 3
 	medium_utility_slots = 1
-	
+
 	cost = 30
 }
 
@@ -1859,7 +1859,7 @@ ship_section_template = {
 	fits_on_slot = mid
 	entity = "zeon_ms_5_M1S2_entity"
 	icon = "GFX_ship_part_core_mid"
-	
+
 	# Guns
 	weapon_preferences = { weapon_type_gel }
 	ai_weight = {
@@ -1867,31 +1867,31 @@ ship_section_template = {
 			factor = 10.0
 		}
 	}
-	
+
 	component_slot = {
 		name = "MEDIUM_GUN_01"
 		slot_size = medium
 		slot_type = weapon
 		locatorname = "medium_gun_01"
 	}
-	
+
 	component_slot = {
 		name = "SMALL_GUN_01"
 		slot_size = small
 		slot_type = weapon
 		locatorname = "small_gun_01"
 	}
-	
+
 	component_slot = {
 		name = "SMALL_GUN_02"
 		slot_size = small
 		slot_type = weapon
 		locatorname = "small_gun_02"
 	}
-	
+
 	small_utility_slots = 3
 	medium_utility_slots = 1
-	
+
 	cost = 30
 }
 
@@ -1901,7 +1901,7 @@ ship_section_template = {
 	fits_on_slot = mid
 	entity = "zeon_ms_5_M2_entity"
 	icon = "GFX_ship_part_core_mid"
-	
+
 	# Guns
 	weapon_preferences = { weapon_type_gel }
 	ai_weight = {
@@ -1909,24 +1909,24 @@ ship_section_template = {
 			factor = 10.0
 		}
 	}
-	
+
 	component_slot = {
 		name = "MEDIUM_GUN_01"
 		slot_size = medium
 		slot_type = weapon
 		locatorname = "medium_gun_01"
 	}
-	
+
 	component_slot = {
 		name = "MEDIUM_GUN_02"
 		slot_size = medium
 		slot_type = weapon
 		locatorname = "medium_gun_02"
 	}
-	
+
 	small_utility_slots = 3
 	medium_utility_slots = 1
-	
+
 	cost = 30
 }
 
@@ -1940,7 +1940,7 @@ ship_section_template = {
 	fits_on_slot = mid
 	entity = "zaku1_body_S3_entity"
 	icon = "GFX_ship_part_core_mid"
-	
+
 	# Guns
 	weapon_preferences = { weapon_type_z1 }
 	ai_weight = {
@@ -1948,30 +1948,30 @@ ship_section_template = {
 			factor = 10.0
 		}
 	}
-	
+
 	component_slot = {
 		name = "SMALL_GUN_01"
 		slot_size = small
 		slot_type = weapon
 		locatorname = "small_gun_01"
 	}
-	
+
 	component_slot = {
 		name = "SMALL_GUN_02"
 		slot_size = small
 		slot_type = weapon
 		locatorname = "small_gun_02"
 	}
-	
+
 	component_slot = {
 		name = "SMALL_GUN_03"
 		slot_size = small
 		slot_type = weapon
 		locatorname = "small_gun_03"
 	}
-	
+
 	small_utility_slots = 2
-	
+
 	cost = 15
 }
 
@@ -1981,7 +1981,7 @@ ship_section_template = {
 	fits_on_slot = mid
 	entity = "zaku1_body_M1S2_entity"
 	icon = "GFX_ship_part_core_mid"
-	
+
 	# Guns
 	weapon_preferences = { weapon_type_z1 }
 	ai_weight = {
@@ -1989,30 +1989,30 @@ ship_section_template = {
 			factor = 10.0
 		}
 	}
-	
+
 	component_slot = {
 		name = "MEDIUM_GUN_01"
 		slot_size = medium
 		slot_type = weapon
 		locatorname = "medium_gun_01"
 	}
-	
+
 	component_slot = {
 		name = "SMALL_GUN_01"
 		slot_size = small
 		slot_type = weapon
 		locatorname = "small_gun_01"
 	}
-	
+
 	component_slot = {
 		name = "SMALL_GUN_02"
 		slot_size = small
 		slot_type = weapon
 		locatorname = "small_gun_02"
 	}
-	
+
 	small_utility_slots = 2
-	
+
 	cost = 15
 }
 
@@ -2022,7 +2022,7 @@ ship_section_template = {
 	fits_on_slot = mid
 	entity = "zaku1_body_M2_entity"
 	icon = "GFX_ship_part_core_mid"
-	
+
 	# Guns
 	weapon_preferences = { weapon_type_z1 }
 	ai_weight = {
@@ -2030,23 +2030,23 @@ ship_section_template = {
 			factor = 10.0
 		}
 	}
-	
+
 	component_slot = {
 		name = "MEDIUM_GUN_01"
 		slot_size = medium
 		slot_type = weapon
 		locatorname = "medium_gun_01"
 	}
-	
+
 	component_slot = {
 		name = "MEDIUM_GUN_02"
 		slot_size = medium
 		slot_type = weapon
 		locatorname = "medium_gun_02"
 	}
-	
+
 	small_utility_slots = 2
-	
+
 	cost = 15
 }
 
@@ -2056,7 +2056,7 @@ ship_section_template = {
 	fits_on_slot = mid
 	entity = "zeon_ms_1_S3_entity"
 	icon = "GFX_ship_part_core_mid"
-	
+
 	# Guns
 	weapon_preferences = { weapon_type_ms }
 	ai_weight = {
@@ -2064,31 +2064,31 @@ ship_section_template = {
 			factor = 10.0
 		}
 	}
-	
+
 	component_slot = {
 		name = "SMALL_GUN_01"
 		slot_size = small
 		slot_type = weapon
 		locatorname = "small_gun_01"
 	}
-	
+
 	component_slot = {
 		name = "SMALL_GUN_02"
 		slot_size = small
 		slot_type = weapon
 		locatorname = "small_gun_02"
 	}
-	
+
 	component_slot = {
 		name = "SMALL_GUN_03"
 		slot_size = small
 		slot_type = weapon
 		locatorname = "small_gun_03"
 	}
-	
+
 	small_utility_slots = 1
 	medium_utility_slots = 1
-	
+
 	cost = 20
 }
 
@@ -2098,7 +2098,7 @@ ship_section_template = {
 	fits_on_slot = mid
 	entity = "zeon_ms_1_M1S2_entity"
 	icon = "GFX_ship_part_core_mid"
-	
+
 	# Guns
 	weapon_preferences = { weapon_type_ms }
 	ai_weight = {
@@ -2106,31 +2106,31 @@ ship_section_template = {
 			factor = 10.0
 		}
 	}
-	
+
 	component_slot = {
 		name = "MEDIUM_GUN_01"
 		slot_size = medium
 		slot_type = weapon
 		locatorname = "medium_gun_01"
 	}
-	
+
 	component_slot = {
 		name = "SMALL_GUN_01"
 		slot_size = small
 		slot_type = weapon
 		locatorname = "small_gun_01"
 	}
-	
+
 	component_slot = {
 		name = "SMALL_GUN_02"
 		slot_size = small
 		slot_type = weapon
 		locatorname = "small_gun_02"
 	}
-	
+
 	small_utility_slots = 1
 	medium_utility_slots = 1
-	
+
 	cost = 20
 }
 
@@ -2140,7 +2140,7 @@ ship_section_template = {
 	fits_on_slot = mid
 	entity = "zeon_ms_1_M2_entity"
 	icon = "GFX_ship_part_core_mid"
-	
+
 	# Guns
 	weapon_preferences = { weapon_type_ms }
 	ai_weight = {
@@ -2148,24 +2148,24 @@ ship_section_template = {
 			factor = 10.0
 		}
 	}
-	
+
 	component_slot = {
 		name = "MEDIUM_GUN_01"
 		slot_size = medium
 		slot_type = weapon
 		locatorname = "medium_gun_01"
 	}
-	
+
 	component_slot = {
 		name = "MEDIUM_GUN_02"
 		slot_size = medium
 		slot_type = weapon
 		locatorname = "medium_gun_02"
 	}
-	
+
 	small_utility_slots = 1
 	medium_utility_slots = 1
-	
+
 	cost = 20
 }
 
@@ -2175,7 +2175,7 @@ ship_section_template = {
 	fits_on_slot = mid
 	entity = "zeon_ms_2_S3_entity"
 	icon = "GFX_ship_part_core_mid"
-	
+
 	# Guns
 	weapon_preferences = { weapon_type_ms }
 	ai_weight = {
@@ -2183,31 +2183,31 @@ ship_section_template = {
 			factor = 10.0
 		}
 	}
-	
+
 	component_slot = {
 		name = "SMALL_GUN_01"
 		slot_size = small
 		slot_type = weapon
 		locatorname = "small_gun_01"
 	}
-	
+
 	component_slot = {
 		name = "SMALL_GUN_02"
 		slot_size = small
 		slot_type = weapon
 		locatorname = "small_gun_02"
 	}
-	
+
 	component_slot = {
 		name = "SMALL_GUN_03"
 		slot_size = small
 		slot_type = weapon
 		locatorname = "small_gun_03"
 	}
-	
+
 	small_utility_slots = 1
 	medium_utility_slots = 1
-	
+
 	cost = 20
 }
 
@@ -2217,7 +2217,7 @@ ship_section_template = {
 	fits_on_slot = mid
 	entity = "zeon_ms_2_M1S2_entity"
 	icon = "GFX_ship_part_core_mid"
-	
+
 	# Guns
 	weapon_preferences = { weapon_type_ms }
 	ai_weight = {
@@ -2225,31 +2225,31 @@ ship_section_template = {
 			factor = 10.0
 		}
 	}
-	
+
 	component_slot = {
 		name = "MEDIUM_GUN_01"
 		slot_size = medium
 		slot_type = weapon
 		locatorname = "medium_gun_01"
 	}
-	
+
 	component_slot = {
 		name = "SMALL_GUN_01"
 		slot_size = small
 		slot_type = weapon
 		locatorname = "small_gun_01"
 	}
-	
+
 	component_slot = {
 		name = "SMALL_GUN_02"
 		slot_size = small
 		slot_type = weapon
 		locatorname = "small_gun_02"
 	}
-	
+
 	small_utility_slots = 1
 	medium_utility_slots = 1
-	
+
 	cost = 20
 }
 
@@ -2259,7 +2259,7 @@ ship_section_template = {
 	fits_on_slot = mid
 	entity = "zeon_ms_2_M2_entity"
 	icon = "GFX_ship_part_core_mid"
-	
+
 	# Guns
 	weapon_preferences = { weapon_type_ms }
 	ai_weight = {
@@ -2267,24 +2267,24 @@ ship_section_template = {
 			factor = 10.0
 		}
 	}
-	
+
 	component_slot = {
 		name = "MEDIUM_GUN_01"
 		slot_size = medium
 		slot_type = weapon
 		locatorname = "medium_gun_01"
 	}
-	
+
 	component_slot = {
 		name = "MEDIUM_GUN_02"
 		slot_size = medium
 		slot_type = weapon
 		locatorname = "medium_gun_02"
 	}
-	
+
 	small_utility_slots = 1
 	medium_utility_slots = 1
-	
+
 	cost = 20
 }
 
@@ -2294,7 +2294,7 @@ ship_section_template = {
 	fits_on_slot = mid
 	entity = "zeon_ms_3_S3_entity"
 	icon = "GFX_ship_part_core_mid"
-	
+
 	# Guns
 	weapon_preferences = { weapon_type_bz }
 	ai_weight = {
@@ -2302,31 +2302,31 @@ ship_section_template = {
 			factor = 10.0
 		}
 	}
-	
+
 	component_slot = {
 		name = "SMALL_GUN_01"
 		slot_size = small
 		slot_type = weapon
 		locatorname = "small_gun_01"
 	}
-	
+
 	component_slot = {
 		name = "SMALL_GUN_02"
 		slot_size = small
 		slot_type = weapon
 		locatorname = "small_gun_02"
 	}
-	
+
 	component_slot = {
 		name = "SMALL_GUN_03"
 		slot_size = small
 		slot_type = weapon
 		locatorname = "small_gun_03"
 	}
-	
+
 	small_utility_slots = 2
 	medium_utility_slots = 1
-	
+
 	cost = 25
 }
 
@@ -2336,7 +2336,7 @@ ship_section_template = {
 	fits_on_slot = mid
 	entity = "zeon_ms_3_M1S2_entity"
 	icon = "GFX_ship_part_core_mid"
-	
+
 	# Guns
 	weapon_preferences = { weapon_type_bz }
 	ai_weight = {
@@ -2344,31 +2344,31 @@ ship_section_template = {
 			factor = 10.0
 		}
 	}
-	
+
 	component_slot = {
 		name = "MEDIUM_GUN_01"
 		slot_size = medium
 		slot_type = weapon
 		locatorname = "medium_gun_01"
 	}
-	
+
 	component_slot = {
 		name = "SMALL_GUN_01"
 		slot_size = small
 		slot_type = weapon
 		locatorname = "small_gun_01"
 	}
-	
+
 	component_slot = {
 		name = "SMALL_GUN_02"
 		slot_size = small
 		slot_type = weapon
 		locatorname = "small_gun_02"
 	}
-	
+
 	small_utility_slots = 2
 	medium_utility_slots = 1
-	
+
 	cost = 25
 }
 
@@ -2378,7 +2378,7 @@ ship_section_template = {
 	fits_on_slot = mid
 	entity = "zeon_ms_3_M2_entity"
 	icon = "GFX_ship_part_core_mid"
-	
+
 	# Guns
 	weapon_preferences = { weapon_type_bz }
 	ai_weight = {
@@ -2386,24 +2386,24 @@ ship_section_template = {
 			factor = 10.0
 		}
 	}
-	
+
 	component_slot = {
 		name = "MEDIUM_GUN_01"
 		slot_size = medium
 		slot_type = weapon
 		locatorname = "medium_gun_01"
 	}
-	
+
 	component_slot = {
 		name = "MEDIUM_GUN_02"
 		slot_size = medium
 		slot_type = weapon
 		locatorname = "medium_gun_02"
 	}
-	
+
 	small_utility_slots = 2
 	medium_utility_slots = 1
-	
+
 	cost = 25
 }
 
@@ -2413,7 +2413,7 @@ ship_section_template = {
 	fits_on_slot = mid
 	entity = "zeon_ms_4_S3_entity"
 	icon = "GFX_ship_part_core_mid"
-	
+
 	# Guns
 	weapon_preferences = { weapon_type_gel }
 	ai_weight = {
@@ -2421,31 +2421,31 @@ ship_section_template = {
 			factor = 10.0
 		}
 	}
-	
+
 	component_slot = {
 		name = "SMALL_GUN_01"
 		slot_size = small
 		slot_type = weapon
 		locatorname = "small_gun_01"
 	}
-	
+
 	component_slot = {
 		name = "SMALL_GUN_02"
 		slot_size = small
 		slot_type = weapon
 		locatorname = "small_gun_02"
 	}
-	
+
 	component_slot = {
 		name = "SMALL_GUN_03"
 		slot_size = small
 		slot_type = weapon
 		locatorname = "small_gun_03"
 	}
-	
+
 	small_utility_slots = 3
 	medium_utility_slots = 1
-	
+
 	cost = 30
 }
 
@@ -2455,7 +2455,7 @@ ship_section_template = {
 	fits_on_slot = mid
 	entity = "zeon_ms_4_M1S2_entity"
 	icon = "GFX_ship_part_core_mid"
-	
+
 	# Guns
 	weapon_preferences = { weapon_type_gel }
 	ai_weight = {
@@ -2463,31 +2463,31 @@ ship_section_template = {
 			factor = 10.0
 		}
 	}
-	
+
 	component_slot = {
 		name = "MEDIUM_GUN_01"
 		slot_size = medium
 		slot_type = weapon
 		locatorname = "medium_gun_01"
 	}
-	
+
 	component_slot = {
 		name = "SMALL_GUN_01"
 		slot_size = small
 		slot_type = weapon
 		locatorname = "small_gun_01"
 	}
-	
+
 	component_slot = {
 		name = "SMALL_GUN_02"
 		slot_size = small
 		slot_type = weapon
 		locatorname = "small_gun_02"
 	}
-	
+
 	small_utility_slots = 3
 	medium_utility_slots = 1
-	
+
 	cost = 30
 }
 
@@ -2497,7 +2497,7 @@ ship_section_template = {
 	fits_on_slot = mid
 	entity = "zeon_ms_4_M2_entity"
 	icon = "GFX_ship_part_core_mid"
-	
+
 	# Guns
 	weapon_preferences = { weapon_type_gel }
 	ai_weight = {
@@ -2505,24 +2505,24 @@ ship_section_template = {
 			factor = 10.0
 		}
 	}
-	
+
 	component_slot = {
 		name = "MEDIUM_GUN_01"
 		slot_size = medium
 		slot_type = weapon
 		locatorname = "medium_gun_01"
 	}
-	
+
 	component_slot = {
 		name = "MEDIUM_GUN_02"
 		slot_size = medium
 		slot_type = weapon
 		locatorname = "medium_gun_02"
 	}
-	
+
 	small_utility_slots = 3
 	medium_utility_slots = 1
-	
+
 	cost = 30
 }
 
@@ -2532,7 +2532,7 @@ ship_section_template = {
 	fits_on_slot = mid
 	entity = "zeon_ms_5_S3_entity"
 	icon = "GFX_ship_part_core_mid"
-	
+
 	# Guns
 	weapon_preferences = { weapon_type_gel }
 	ai_weight = {
@@ -2540,31 +2540,31 @@ ship_section_template = {
 			factor = 10.0
 		}
 	}
-	
+
 	component_slot = {
 		name = "SMALL_GUN_01"
 		slot_size = small
 		slot_type = weapon
 		locatorname = "small_gun_01"
 	}
-	
+
 	component_slot = {
 		name = "SMALL_GUN_02"
 		slot_size = small
 		slot_type = weapon
 		locatorname = "small_gun_02"
 	}
-	
+
 	component_slot = {
 		name = "SMALL_GUN_03"
 		slot_size = small
 		slot_type = weapon
 		locatorname = "small_gun_03"
 	}
-	
+
 	small_utility_slots = 3
 	medium_utility_slots = 1
-	
+
 	cost = 30
 }
 
@@ -2574,7 +2574,7 @@ ship_section_template = {
 	fits_on_slot = mid
 	entity = "zeon_ms_5_M1S2_entity"
 	icon = "GFX_ship_part_core_mid"
-	
+
 	# Guns
 	weapon_preferences = { weapon_type_gel }
 	ai_weight = {
@@ -2582,31 +2582,31 @@ ship_section_template = {
 			factor = 10.0
 		}
 	}
-	
+
 	component_slot = {
 		name = "MEDIUM_GUN_01"
 		slot_size = medium
 		slot_type = weapon
 		locatorname = "medium_gun_01"
 	}
-	
+
 	component_slot = {
 		name = "SMALL_GUN_01"
 		slot_size = small
 		slot_type = weapon
 		locatorname = "small_gun_01"
 	}
-	
+
 	component_slot = {
 		name = "SMALL_GUN_02"
 		slot_size = small
 		slot_type = weapon
 		locatorname = "small_gun_02"
 	}
-	
+
 	small_utility_slots = 3
 	medium_utility_slots = 1
-	
+
 	cost = 30
 }
 
@@ -2616,7 +2616,7 @@ ship_section_template = {
 	fits_on_slot = mid
 	entity = "zeon_ms_5_M2_entity"
 	icon = "GFX_ship_part_core_mid"
-	
+
 	# Guns
 	weapon_preferences = { weapon_type_gel }
 	ai_weight = {
@@ -2624,23 +2624,23 @@ ship_section_template = {
 			factor = 10.0
 		}
 	}
-	
+
 	component_slot = {
 		name = "MEDIUM_GUN_01"
 		slot_size = medium
 		slot_type = weapon
 		locatorname = "medium_gun_01"
 	}
-	
+
 	component_slot = {
 		name = "MEDIUM_GUN_02"
 		slot_size = medium
 		slot_type = weapon
 		locatorname = "medium_gun_02"
 	}
-	
+
 	small_utility_slots = 3
 	medium_utility_slots = 1
-	
+
 	cost = 30
 }

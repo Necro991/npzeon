@@ -1,0 +1,1335 @@
+#Some rules: Health starts at 100. For every point of cost over 40, add 1 to it. Increase armor only when improved armor mentioned. Same for speed/acceleration etc. Weapons are to be based on MS weapon damage, with main game effects
+#BASE ALL CALCULATIONS OFF MS-05Bs VALUES! IT IS THE BASE -40 #899kW #65 tons = 40
+
+strike_craft_component_template = {
+	key = "EFSF_MS_STRIKE_CRAFT_RB_79" #RB-79 Ball
+	size = LARGE
+	entity = "scout_1z_entity"
+
+	weapon_type = point_defence
+	projectile_gfx = "mass_driver_s"
+	power = -36 #400kW = 18 / 3 = 6 * 6 = 36
+	cost = 35 #25 tons = 15 /3 = 5 * 6 = 30 + 5 for gun
+
+	count = 6
+	regeneration_per_day = 0.034
+	launch_time = 8.0
+
+	damage = { min = 3 max = 15 } #180mm Cannon - Small Autocannon
+	cooldown = 15
+	range = 60
+	accuracy = 0.7 #0.82
+	tracking = 0.5 #0.65
+
+	health = 75 #40 - 15 = 25
+	armor = 5 #weak armor
+	shield = 0
+	evasion = 0.5
+
+	speed = 6.5 #0.96G
+	rotation_speed = 0.1
+	acceleration = 0.5
+
+	shield_damage = 1.0 #SMALL MASS DRIVER
+	shield_penetration = 0
+	armor_penetration = 0.0
+
+	ship_behavior = "fighters_behavior"
+
+	icon = "GFX_ship_part_rb_79"
+	icon_frame = 1
+	component_set = "RB_79_HANGAR_1"
+	prerequisites = { "tech_RB_79" }
+	tags = { weapon_type_strike_craft }
+	upgrades_to = "EFSF_MS_STRIKE_CRAFT_RB_79F"
+}
+
+strike_craft_component_template = {
+	key = "EFSF_MS_STRIKE_CRAFT_RB_79F" #RB-79 Ball
+	size = LARGE
+	entity = "scout_1z_entity"
+
+	weapon_type = point_defence
+	projectile_gfx = "mass_driver_s"
+	power = -36 #400kW = 18 / 3 = 6 * 6 = 36
+	cost = 41 #29.3 tons = 18 / 3 = 6 * 36 = 36 + 5 for gun
+
+	count = 6
+	regeneration_per_day = 0.034
+	launch_time = 8.0
+
+	damage = { min = 3 max = 15 } #180mm Cannon - Small Autocannon
+	cooldown = 15
+	range = 60
+	accuracy = 0.7 #0.82
+	tracking = 0.5 #0.65
+
+	health = 78 #40 - 18 = 22
+	armor = 7 #Improved Armor
+	shield = 0
+	evasion = 0.5
+
+	speed = 6.5 #0.96G
+	rotation_speed = 0.1
+	acceleration = 0.5
+
+	shield_damage = 1.0 #SMALL MASS DRIVER
+	shield_penetration = 0
+	armor_penetration = 0.0
+
+	ship_behavior = "fighters_behavior"
+
+	icon = "GFX_ship_part_rb_79f"
+	icon_frame = 1
+	component_set = "RB_79F_HANGAR_1"
+	prerequisites = { "tech_RB_79F" }
+	tags = { weapon_type_strike_craft }
+	upgrades_to = "EFSF_MS_STRIKE_CRAFT_RB_79"
+}
+
+strike_craft_component_template = {
+	key = "EFSF_MS_STRIKE_CRAFT_RB_79K" #RB-79 Ball
+	size = LARGE
+	entity = "scout_1z_entity"
+
+	weapon_type = point_defence
+	projectile_gfx = "mass_driver_s"
+	power = -36 #400kW = 18 / 3 = 6 * 6 = 36
+	cost = 40 #25 tons = 15 /3 = 5 * 6 = 30 + 10 for guns
+
+	count = 6
+	regeneration_per_day = 0.034
+	launch_time = 8.0
+
+	damage = { min = 6 max = 30 } #180mm Cannon x2 - Small Autocannon
+	cooldown = 15
+	range = 60
+	accuracy = 0.7 #0.82
+	tracking = 0.5 #0.65
+
+	health = 75 #40 - 15 = 25
+	armor = 5 #weak armor
+	shield = 0
+	evasion = 0.5
+
+	speed = 6.5 #0.96G
+	rotation_speed = 0.1
+	acceleration = 0.5
+
+	shield_damage = 1.0 #SMALL MASS DRIVER
+	shield_penetration = 0
+	armor_penetration = 0.0
+
+	ship_behavior = "fighters_behavior"
+
+	icon = "GFX_ship_part_rb_79k"
+	icon_frame = 1
+	component_set = "RB_79K_HANGAR_1"
+	prerequisites = { "tech_RB_79K" }
+	tags = { weapon_type_strike_craft }
+	#upgrades_to = "EFSF_MS_STRIKE_CRAFT_RB_79F"
+}
+
+strike_craft_component_template = {
+	key = "EFSF_MS_STRIKE_CRAFT_RX_75_1" #RX-75 Guntank
+	size = LARGE
+	entity = "scout_1z_entity"
+
+	weapon_type = point_defence
+	projectile_gfx = "mass_driver_s"
+	power = -13 #878kW = 39 / 3 = 13
+	cost = 57 #80 tons = 49 / 3 = 16 * 2 for Gundamium cost + 25 for gun
+
+	count = 1
+	regeneration_per_day = 0.034
+	launch_time = 8.0
+
+	damage = { min = 106 max = 218 } #Cannon - supposedly able to destroy MS in single hit
+	cooldown = 60
+	range = 70
+	accuracy = 0.70
+	tracking = 0.0
+
+	health = 109
+	armor = 20 #Lunar Titanium
+	shield = 0
+	evasion = 0.3 #Bad evasion due to ground-based design
+
+	speed = 7.5 #1.1G
+	rotation_speed = 0.1
+	acceleration = 0.5
+
+	shield_damage = 1.33 #KINETIC ARTILLERY
+	shield_penetration = 0
+	armor_penetration = 0.2
+
+	ship_behavior = "fighters_behavior"
+
+	icon = "GFX_ship_part_rx_75_1"
+	icon_frame = 1
+	component_set = "RX_75_HANGAR_1"
+	prerequisites = { "tech_RX_75_1" }
+	tags = { weapon_type_strike_craft }
+	upgrades_to = "EFSF_MS_STRIKE_CRAFT_RX_75_2"
+}
+
+strike_craft_component_template = {
+	key = "EFSF_MS_STRIKE_CRAFT_RX_75_2" #RX-75 Guntank MPT
+	size = LARGE
+	entity = "scout_1z_entity"
+
+	weapon_type = point_defence
+	projectile_gfx = "mass_driver_s"
+	power = -39 #878kW = 39
+	cost = 106 #80 tons = 49 * 2 for Gundamium cost + 20 for gun
+
+	count = 3
+	regeneration_per_day = 0.034
+	launch_time = 8.0
+
+	damage = { min = 71 max = 145 } #Cannon - supposedly able to destroy MS in single hit
+	cooldown = 50
+	range = 60
+	accuracy = 0.75
+	tracking = 0.0
+
+	health = 109
+	armor = 20 #Lunar Titanium/Gundamium
+	shield = 0
+	evasion = 0.3 #Bad evasion due to ground-based design
+
+	speed = 7.5 #1.1G
+	rotation_speed = 0.1
+	acceleration = 0.5
+
+	shield_damage = 1.33 #KINETIC ARTILLERY
+	shield_penetration = 0
+	armor_penetration = 0.2
+
+	ship_behavior = "fighters_behavior"
+
+	icon = "GFX_ship_part_rx_75_2"
+	icon_frame = 1
+	component_set = "RX_75_HANGAR_2"
+	prerequisites = { "tech_RX_75_2" }
+	tags = { weapon_type_strike_craft }
+	upgrades_to = "EFSF_MS_STRIKE_CRAFT_D_50C_1"
+}
+
+strike_craft_component_template = {
+	key = "EFSF_MS_STRIKE_CRAFT_D_50C_1" #D-50C Loto
+	size = LARGE
+	entity = "scout_1z_entity"
+
+	weapon_type = point_defence
+	projectile_gfx = "mass_driver_s"
+	power = -44 #980kW = 44
+	cost = 44 #22.1 tons = 14 cost + 30 for gun
+
+	count = 3
+	regeneration_per_day = 0.034
+	launch_time = 8.0
+
+	damage = { min = 116 max = 240 } #Cannon - supposedly able to destroy MS in single hit
+	cooldown = 65
+	range = 80
+	accuracy = 0.65
+	tracking = 0.0
+
+	health = 74 #40 - 14 = 26
+	armor = 10 #Titanium ALloy
+	shield = 0
+	evasion = 0.45 #Improved, but still not good.
+
+	speed = 10.0 #1.47G
+	rotation_speed = 0.1
+	acceleration = 0.5
+
+	shield_damage = 1.33 #KINETIC ARTILLERY
+	shield_penetration = 0
+	armor_penetration = 0.2
+
+	ship_behavior = "fighters_behavior"
+
+	icon = "GFX_ship_part_d_50c"
+	icon_frame = 1
+	component_set = "D_50C_HANGAR_1"
+	prerequisites = { "tech_D_50C" }
+	tags = { weapon_type_strike_craft }
+	upgrades_to = "EFSF_MS_STRIKE_CRAFT_F_50D"
+}
+
+#strike_craft_component_template = {
+	#key = "EFSF_MS_STRIKE_CRAFT_D_50C_2" #D-50C Loto Gatling Version
+	#size = LARGE
+	#entity = "scout_1z_entity"
+
+	#weapon_type = point_defence
+	#projectile_gfx = "mass_driver_s"
+	#power = -44 #980kW = 44
+	#cost = 44 #22.1 tons = 14 cost + 30 for gun
+
+	#count = 3
+	#regeneration_per_day = 0.034
+	#launch_time = 8.0
+
+	#damage = { min = 116 max = 240 } #Gatling version, stats not done
+	#cooldown = 65
+	#range = 80
+	#accuracy = 0.65
+	#tracking = 0.0
+
+	#health = 74 #40 - 14 = 26
+	#armor = 10 #Titanium ALloy
+	#shield = 0
+	#evasion = 0.45 #Improved, but still not good.
+
+	#speed = 10.0 #1.47G
+	#rotation_speed = 0.1
+	#acceleration = 0.5
+
+	#shield_damage = 1.33 #KINETIC ARTILLERY
+	#shield_penetration = 0
+	#armor_penetration = 0.2
+
+	#ship_behavior = "fighters_behavior"
+
+	#icon = "GFX_ship_part_d_50c"
+	#icon_frame = 1
+	#component_set = "D_50C_HANGAR_2"
+	#prerequisites = { "tech_New_EFSF_MS_0" }
+	#tags = { weapon_type_strike_craft }
+	#upgrades_to = "EFSF_MS_STRIKE_CRAFT_RB_79F"
+#}
+
+strike_craft_component_template = {
+	key = "EFSF_MS_STRIKE_CRAFT_F_50D_1" #F-50D Guntank
+	size = LARGE
+	entity = "scout_1z_entity"
+
+	weapon_type = point_defence
+	projectile_gfx = "mass_driver_s"
+	power = -16 #1050kW = 47 / 3 = 16
+	cost = 12 #11.8 tons = 7 cost + 30 for gun / 3 = 12
+
+	count = 1
+	regeneration_per_day = 0.034
+	launch_time = 8.0
+
+	damage = { min = 116 max = 240 } #Cannon - supposedly able to destroy MS in single hit
+	cooldown = 65
+	range = 80
+	accuracy = 0.65
+	tracking = 0.0
+
+	health = 67 #40 - 7 = 33
+	armor = 10 #Titanium ALloy
+	shield = 0
+	evasion = 0.45 #Improved, but still not good.
+
+	speed = 8.1 #1.19G
+	rotation_speed = 0.1
+	acceleration = 0.5
+
+	shield_damage = 1.33 #KINETIC ARTILLERY
+	shield_penetration = 0
+	armor_penetration = 0.2
+
+	ship_behavior = "fighters_behavior"
+
+	icon = "GFX_ship_part_f_50d"
+	icon_frame = 1
+	component_set = "F_50D_HANGAR_1"
+	prerequisites = { "tech_F_50D" }
+	tags = { weapon_type_strike_craft }
+	#upgrades_to = "EFSF_MS_STRIKE_CRAFT_F_50D"
+}
+
+strike_craft_component_template = {
+	key = "EFSF_MS_STRIKE_CRAFT_RX_77_1A" #RX-77-1A Guncannon Prototype
+	size = LARGE
+	entity = "scout_1z_entity"
+
+	weapon_type = point_defence
+	projectile_gfx = "mass_driver_s"
+	power = -20 #1380kW = 61 / 3 = 20
+	cost = 43 #72 tons = 44 * 2 gundamium = 88 cost + 40 for gun / 3 = 43
+
+	count = 1
+	regeneration_per_day = 0.034
+	launch_time = 8.0
+
+	damage = { min = 133 max = 300 } #240mm Cannon * 2
+	cooldown = 75
+	range = 90
+	accuracy = 0.6
+	tracking = 0.0
+
+	health = 104
+	armor = 20 #Gundamium
+	shield = 0
+	evasion = 0.4
+
+	speed = 4.9 #0.72G
+	rotation_speed = 0.1
+	acceleration = 0.5
+
+	shield_damage = 1.33 #KINETIC ARTILLERY
+	shield_penetration = 0
+	armor_penetration = 0.2
+
+	ship_behavior = "fighters_behavior"
+
+	icon = "GFX_ship_part_rx_77_1a"
+	icon_frame = 1
+	component_set = "RX_77_1A_HANGAR_1"
+	prerequisites = { "tech_RX_77_1A" }
+	tags = { weapon_type_strike_craft }
+	upgrades_to = "EFSF_MS_STRIKE_CRAFT_RX_77_2"
+}
+
+strike_craft_component_template = {
+	key = "EFSF_MS_STRIKE_CRAFT_RX_77_2" #RX-77-2 Guncannon
+	size = LARGE
+	entity = "scout_1z_entity"
+
+	weapon_type = point_defence
+	projectile_gfx = "mass_driver_s"
+	power = -61 #1380kW = 61
+	cost = 218 #144.8 tons = 89 *2 = 178 cost + 40 for gun
+
+	count = 3
+	regeneration_per_day = 0.034
+	launch_time = 8.0
+
+	damage = { min = 133 max = 300 } #240mm Cannon * 2
+	cooldown = 75
+	range = 90
+	accuracy = 0.6
+	tracking = 0.0
+
+	health = 149
+	armor = 25 #Gundamium and it's better than the Gundam
+	shield = 0
+	evasion = 0.4
+
+	speed = 5.0 #0.74G
+	rotation_speed = 0.1
+	acceleration = 0.5
+
+	shield_damage = 1.33 #KINETIC ARTILLERY
+	shield_penetration = 0
+	armor_penetration = 0.2
+
+	ship_behavior = "fighters_behavior"
+
+	icon = "GFX_ship_part_rx_77_2"
+	icon_frame = 1
+	component_set = "RX_77_2_HANGAR_1"
+	prerequisites = { "tech_RX_77_2" }
+	tags = { weapon_type_strike_craft }
+	upgrades_to = "EFSF_MS_STRIKE_CRAFT_RX_77_3"
+}
+
+strike_craft_component_template = {
+	key = "EFSF_MS_STRIKE_CRAFT_RX_77_3" #RX-77-3 Guncannon
+	size = LARGE
+	entity = "scout_1z_entity"
+
+	weapon_type = point_defence
+	projectile_gfx = "mass_driver_s"
+	power = -61 #1380kW = 61
+	cost = 138 #79.1 tons = 49 * 2 = 98 cost + 40 for gun
+
+	count = 3
+	regeneration_per_day = 0.034
+	launch_time = 8.0
+
+	damage = { min = 133 max = 300 } #240mm Cannon * 2
+	cooldown = 70
+	range = 90
+	accuracy = 0.6
+	tracking = 0.0
+
+	health = 109
+	armor = 25 #Gundamium and it's better than the Gundam
+	shield = 0
+	evasion = 0.4
+
+	speed = 5.0 #0.74G
+	rotation_speed = 0.1
+	acceleration = 0.5
+
+	shield_damage = 1.33 #KINETIC ARTILLERY
+	shield_penetration = 0
+	armor_penetration = 0.2
+
+	ship_behavior = "fighters_behavior"
+
+	icon = "GFX_ship_part_rx_77_3"
+	icon_frame = 1
+	component_set = "RX_77_3_HANGAR_1"
+	prerequisites = { "tech_RX_77_3" }
+	tags = { weapon_type_strike_craft }
+	upgrades_to = "EFSF_MS_STRIKE_CRAFT_F_50D"
+}
+
+strike_craft_component_template = {
+	key = "EFSF_MS_STRIKE_CRAFT_RX_77_4" #RX-77-4 Guncannon II
+	size = LARGE
+	entity = "scout_1z_entity"
+
+	weapon_type = point_defence
+	projectile_gfx = "mass_driver_s"
+	power = -61 #1380kW = 61
+	cost = 140 #73.1 tons = 45 * 2 = 90 cost + 50 for gun
+
+	count = 3
+	regeneration_per_day = 0.034
+	launch_time = 8.0
+
+	damage = { min = 100 max = 200 } #Beam Cannon - Large MPC
+	cooldown = 25
+	range = 60
+	accuracy = 0.9 #Has targeting sensor
+	tracking = 0.25 #See above
+
+	health = 105
+	armor = 25 #Gundamium and it's better than the Gundam
+	shield = 0
+	evasion = 0.4
+
+	speed = 5.8 #0.85G
+	rotation_speed = 0.1
+	acceleration = 0.5
+
+	shield_damage = 0.67 #MPC1
+	shield_penetration = 0
+	armor_penetration = 0.9
+
+	ship_behavior = "fighters_behavior"
+
+	icon = "GFX_ship_part_rx_77_4"
+	icon_frame = 1
+	component_set = "RX_77_4_HANGAR_1"
+	prerequisites = { "tech_RX_77_4" }
+	tags = { weapon_type_strike_craft }
+	upgrades_to = "EFSF_MS_STRIKE_CRAFT_RX_77D_1"
+}
+
+strike_craft_component_template = {
+	key = "EFSF_MS_STRIKE_CRAFT_RX_77D_1" #RX-77D Guncannon MPT 1x 240mm Cannon
+	size = LARGE
+	entity = "scout_1z_entity"
+
+	weapon_type = point_defence
+	projectile_gfx = "mass_driver_s"
+	power = -63 #1410kW = 63
+	cost = 63 #70.2 tons = 43 cost + 20 for gun
+
+	count = 3
+	regeneration_per_day = 0.034
+	launch_time = 8.0
+
+	damage = { min = 67 max = 150 } #1x 240mm Cannon
+	cooldown = 70
+	range = 90
+	accuracy = 0.7 #Has a targeter, accuracy and tracking increased
+	tracking = 0.2
+
+	health = 103
+	armor = 10 #Titanium alloy
+	shield = 0
+	evasion = 0.5
+
+	speed = 9.0 #1.33G
+	rotation_speed = 0.1
+	acceleration = 0.5
+
+	shield_damage = 1.33 #KINETIC ARTILLERY
+	shield_penetration = 0
+	armor_penetration = 0.2
+
+	ship_behavior = "fighters_behavior"
+
+	icon = "GFX_ship_part_rx_77d"
+	icon_frame = 1
+	component_set = "RX_77D_HANGAR_1"
+	prerequisites = { "tech_RX_77D" }
+	tags = { weapon_type_strike_craft }
+	#upgrades_to = "EFSF_MS_STRIKE_CRAFT_F_50D"
+}
+
+strike_craft_component_template = {
+	key = "EFSF_MS_STRIKE_CRAFT_RX_77D_2" #RX-77D Guncannon MPT 2x 240mm Cannon
+	size = LARGE
+	entity = "scout_1z_entity"
+
+	weapon_type = point_defence
+	projectile_gfx = "mass_driver_s"
+	power = -63 #1410kW = 63
+	cost = 83 #70.2 tons = 43 cost + 40 for gun
+
+	count = 3
+	regeneration_per_day = 0.034
+	launch_time = 8.0
+
+	damage = { min = 133 max = 300 } #2x 240mm Cannon
+	cooldown = 70
+	range = 90
+	accuracy = 0.6 #No extra targeter, accuracy and tracking back to normal
+	tracking = 0.0
+
+	health = 103
+	armor = 10 #Titanium alloy
+	shield = 0
+	evasion = 0.5
+
+	speed = 9.0 #1.33G
+	rotation_speed = 0.1
+	acceleration = 0.5
+
+	shield_damage = 1.33 #KINETIC ARTILLERY
+	shield_penetration = 0
+	armor_penetration = 0.2
+
+	ship_behavior = "fighters_behavior"
+
+	icon = "GFX_ship_part_rx_77d"
+	icon_frame = 1
+	component_set = "RX_77D_HANGAR_2"
+	prerequisites = { "tech_RX_77D" }
+	tags = { weapon_type_strike_craft }
+	#upgrades_to = "EFSF_MS_STRIKE_CRAFT_F_50D"
+}
+
+strike_craft_component_template = {
+	key = "EFSF_MS_STRIKE_CRAFT_RGC_80_1" #RGC-80-1 GM Cannon Test Type - 2x 360mm Cannon
+	size = LARGE
+	entity = "scout_1z_entity"
+
+	weapon_type = point_defence
+	projectile_gfx = "mass_driver_s"
+	power = -19 #1250kW = 56 / 3 = 19
+	cost = 34 #66.5 tons = 41 cost + 60 for gun / 3 = 34
+
+	count = 1
+	regeneration_per_day = 0.034
+	launch_time = 8.0
+
+	damage = { min = 200 max = 450 } #2x 360mm Cannon
+	cooldown = 80
+	range = 100
+	accuracy = 0.5
+	tracking = 0.0
+
+	health = 101
+	armor = 10 #Titanium alloy
+	shield = 0
+	evasion = 0.25 #Super unwieldy due to overly heavy weapons
+
+	speed = 5.6 #0.83G
+	rotation_speed = 0.1
+	acceleration = 0.5
+
+	shield_damage = 1.33 #KINETIC ARTILLERY
+	shield_penetration = 0
+	armor_penetration = 0.2
+
+	ship_behavior = "fighters_behavior"
+
+	icon = "GFX_ship_part_rgc_80_1"
+	icon_frame = 1
+	component_set = "RGC_80_1_HANGAR_1"
+	prerequisites = { "tech_RGC_80" }
+	tags = { weapon_type_strike_craft }
+	upgrades_to = "EFSF_MS_STRIKE_CRAFT_RGC_80S_1"
+}
+
+strike_craft_component_template = {
+	key = "EFSF_MS_STRIKE_CRAFT_RGC_80S_1" #RGC-80-1 GM Cannon - 1x 240mm Cannon
+	size = LARGE
+	entity = "scout_1z_entity"
+
+	weapon_type = point_defence
+	projectile_gfx = "mass_driver_s"
+	power = -43 #976kW = 43
+	cost = 57 #60.3 tons = 37 cost + 20 for gun
+
+	count = 3
+	regeneration_per_day = 0.034
+	launch_time = 8.0
+
+	damage = { min = 67 max = 150 } #1x 240mm Cannon
+	cooldown = 70
+	range = 90
+	accuracy = 0.6
+	tracking = 0.0
+
+	health = 97 #40 - 37 = 3
+	armor = 10 #Titanium alloy
+	shield = 0
+	evasion = 0.5
+
+	speed = 6.6 #0.97G
+	rotation_speed = 0.1
+	acceleration = 0.5
+
+	shield_damage = 1.33 #KINETIC ARTILLERY
+	shield_penetration = 0
+	armor_penetration = 0.2
+
+	ship_behavior = "fighters_behavior"
+
+	icon = "GFX_ship_part_rgc_80S"
+	icon_frame = 1
+	component_set = "RGC_80S_HANGAR_1"
+	prerequisites = { "tech_RGC_80S" }
+	tags = { weapon_type_strike_craft }
+	upgrades_to = "EFSF_MS_STRIKE_CRAFT_F_50D"
+}
+
+strike_craft_component_template = {
+	key = "EFSF_MS_STRIKE_CRAFT_RGC_83" #RGC-83 GM Cannon II - 2x Beam Cannon
+	size = LARGE
+	entity = "scout_1z_entity"
+
+	weapon_type = point_defence
+	projectile_gfx = "MPC2"
+	power = -63 #1420kW = 63
+	cost = 162 #66.9 tons = 41 cost + 5 for armor + 100 for gun
+
+	count = 3
+	regeneration_per_day = 0.034
+	launch_time = 8.0
+
+	damage = { min = 200 max = 400 } #2x Beam Cannon - Large MPC
+	cooldown = 25
+	range = 60
+	accuracy = 0.8
+	tracking = 0.05
+
+	health = 101
+	armor = 15 #Titanium alloy + 5 for Chobham Armor
+	shield = 0
+	evasion = 0.25 #Terrible evasion
+
+	speed = 6.0 #0.89G
+	rotation_speed = 0.1
+	acceleration = 0.5
+
+	shield_damage = 0.67 #MPC1
+	shield_penetration = 0
+	armor_penetration = 0.9
+
+	ship_behavior = "fighters_behavior"
+
+	icon = "GFX_ship_part_rgc_83"
+	icon_frame = 1
+	component_set = "RGC_83_HANGAR_1"
+	prerequisites = { "tech_RGC_83" }
+	tags = { weapon_type_strike_craft }
+	#upgrades_to = "EFSF_MS_STRIKE_CRAFT_F_50D"
+}
+
+strike_craft_component_template = {
+	key = "EFSF_MS_STRIKE_CRAFT_RX_78_1" #RX-78-1 Gundam Prototype
+	size = LARGE
+	entity = "scout_1z_entity"
+
+	weapon_type = point_defence
+	projectile_gfx = "MPC2"
+	power = -20 #1380kW = 61 / 3 = 20
+	cost = 37 #59 tons = 36 * 2 cost + 40 for gun / 3 = 37
+
+	count = 1
+	regeneration_per_day = 0.034
+	launch_time = 8.0
+
+	damage = { min = 100 max = 200 } #1 Beam Rifle - Large MPC
+	cooldown = 25
+	range = 30
+	accuracy = 0.82
+	tracking = 0.65
+
+	health = 96 # 40 - 36 = 4
+	armor = 20 #Gundamium
+	shield = 0
+	evasion = 0.5
+
+	speed = 6.4 #0.94G
+	rotation_speed = 0.1
+	acceleration = 0.5
+
+	shield_damage = 0.67 #MPC1
+	shield_penetration = 0
+	armor_penetration = 0.9
+
+	ship_behavior = "fighters_behavior"
+
+	icon = "GFX_ship_part_rx_78_1"
+	icon_frame = 1
+	component_set = "RX_78_1_HANGAR_1"
+	prerequisites = { "tech_RX_78_1" }
+	tags = { weapon_type_strike_craft }
+	upgrades_to = "EFSF_MS_STRIKE_CRAFT_RX_78_2"
+}
+
+strike_craft_component_template = {
+	key = "EFSF_MS_STRIKE_CRAFT_RX_78_2" #RX-78-2 Gundam
+	size = LARGE
+	entity = "scout_1z_entity"
+
+	weapon_type = point_defence
+	projectile_gfx = "MPC2"
+	power = -20 #1380kW = 61 / 3 = 20
+	cost = 38 #60 tons = 37 * 2 cost + 40 for gun / 3 = 38
+
+	count = 1
+	regeneration_per_day = 0.034
+	launch_time = 8.0
+
+	damage = { min = 100 max = 200 } #1 Beam Rifle - Large MPC
+	cooldown = 25
+	range = 30
+	accuracy = 0.82
+	tracking = 0.65
+
+	health = 97 # 40 - 37 = 3
+	armor = 20 #Gundamium
+	shield = 0
+	evasion = 0.5
+
+	speed = 6.3 #0.93G
+	rotation_speed = 0.1
+	acceleration = 0.5
+
+	shield_damage = 0.67 #MPC1
+	shield_penetration = 0
+	armor_penetration = 0.9
+
+	ship_behavior = "fighters_behavior"
+
+	icon = "GFX_ship_part_rx_78_2"
+	icon_frame = 1
+	component_set = "RX_78_2_HANGAR_1"
+	prerequisites = { "tech_RX_78_2" }
+	tags = { weapon_type_strike_craft }
+	upgrades_to = "EFSF_MS_STRIKE_CRAFT_RX_78_3"
+}
+
+strike_craft_component_template = {
+	key = "EFSF_MS_STRIKE_CRAFT_RX_78_3" #RX-78-3 Gundam G-3
+	size = LARGE
+	entity = "scout_1z_entity"
+
+	weapon_type = point_defence
+	projectile_gfx = "MPC2"
+	power = -20 #1380kW = 61 / 3 = 20
+	cost = 38 #60 tons = 37 * 2 cost + 40 for gun / 3 = 38
+
+	count = 1
+	regeneration_per_day = 0.034
+	launch_time = 8.0
+
+	damage = { min = 100 max = 200 } #1 Beam Rifle - Large MPC
+	cooldown = 25
+	range = 30
+	accuracy = 0.82
+	tracking = 0.65
+
+	health = 97 # 40 - 37 = 3
+	armor = 20 #Gundamium
+	shield = 50 #Experimental Beam Coating
+	evasion = 0.5
+
+	speed = 6.3 #0.93G
+	rotation_speed = 0.1
+	acceleration = 0.55 #Increased maneuvrability from experimental magnetic coating
+
+	shield_damage = 0.67 #MPC1
+	shield_penetration = 0
+	armor_penetration = 0.9
+
+	ship_behavior = "fighters_behavior"
+
+	icon = "GFX_ship_part_rx_78_3"
+	icon_frame = 1
+	component_set = "RX_78_3_HANGAR_1"
+	prerequisites = { "tech_RX_78_3" }
+	tags = { weapon_type_strike_craft }
+	upgrades_to = "EFSF_MS_STRIKE_CRAFT_RX_78NT_1"
+}
+
+strike_craft_component_template = {
+	key = "EFSF_MS_STRIKE_CRAFT_RX_78NT_1" #RX-78NT-1 Gundam Alex
+	size = LARGE
+	entity = "scout_1z_entity"
+
+	weapon_type = point_defence
+	projectile_gfx = "MPC2"
+	power = -21 #1420kW = 63 / 3 = 21
+	cost = 43 #72.5 tons = 45 * 2 cost + 40 for gun / 3 = 43
+
+	count = 1
+	regeneration_per_day = 0.034
+	launch_time = 8.0
+
+	damage = { min = 100 max = 200 } #1 Beam Rifle - Large MPC
+	cooldown = 25
+	range = 30
+	accuracy = 0.82
+	tracking = 0.65
+
+	health = 105
+	armor = 20 #Gundamium
+	shield = 0
+	evasion = 0.6 #Really maneuvrable
+
+	speed = 12.3 #1.82G
+	rotation_speed = 0.1
+	acceleration = 0.5
+
+	shield_damage = 0.67 #MPC1
+	shield_penetration = 0
+	armor_penetration = 0.9
+
+	ship_behavior = "fighters_behavior"
+
+	icon = "GFX_ship_part_rx_78nt_1"
+	icon_frame = 1
+	component_set = "RX_78NT_1_HANGAR_1"
+	prerequisites = { "tech_RX_78NT_1" }
+	tags = { weapon_type_strike_craft }
+	upgrades_to = "EFSF_MS_STRIKE_CRAFT_RX_78NT_1FA"
+}
+
+strike_craft_component_template = {
+	key = "EFSF_MS_STRIKE_CRAFT_RX_78NT_1FA" #RX-78NT-1 Gundam Alex Chobham
+	size = LARGE
+	entity = "scout_1z_entity"
+
+	weapon_type = point_defence
+	projectile_gfx = "MPC2"
+	power = -21 #1420kW = 63 / 3 = 21
+	cost = 50 #90.0 tons = 55 * 2 cost + 40 for gun / 3 = 50
+
+	count = 1
+	regeneration_per_day = 0.034
+	launch_time = 8.0
+
+	damage = { min = 100 max = 200 } #1 Beam Rifle - Large MPC
+	cooldown = 25
+	range = 30
+	accuracy = 0.82
+	tracking = 0.65
+
+	health = 115
+	armor = 25 #Gundamium + Chobham
+	shield = 0
+	evasion = 0.5 #Normal mobility due to increased armor
+
+	speed = 12.3 #1.82G
+	rotation_speed = 0.1
+	acceleration = 0.5
+
+	shield_damage = 0.67 #MPC1
+	shield_penetration = 0
+	armor_penetration = 0.9
+
+	ship_behavior = "fighters_behavior"
+
+	icon = "GFX_ship_part_rx_78nt_1fa"
+	icon_frame = 1
+	component_set = "RX_78NT_1FA_HANGAR_1"
+	prerequisites = { "tech_RX_78NT_1FA" }
+	tags = { weapon_type_strike_craft }
+	#upgrades_to = "EFSF_MS_STRIKE_CRAFT_RX_78_3"
+}
+
+strike_craft_component_template = {
+	key = "EFSF_MS_STRIKE_CRAFT_RGM_79_E" #RGM-79[E] GM Early Type
+	size = LARGE
+	entity = "scout_1z_entity"
+
+	weapon_type = point_defence
+	projectile_gfx = "auto_cannons_s"
+	power = -62 #1390kW = 62
+	cost = 50 #65.8 tons = 40 cost + 10 for gun
+
+	count = 3
+	regeneration_per_day = 0.034
+	launch_time = 8.0
+
+	damage = { min = 10 max = 20 } #90mm
+	cooldown = 5
+	range = 25
+	accuracy = 0.82
+	tracking = 0.65
+
+	health = 100
+	armor = 10
+	shield = 0
+	evasion = 0.5
+
+	speed = 5.8 #0.85G
+	rotation_speed = 0.1
+	acceleration = 0.5
+
+	shield_damage = 1.0 #MEDIUM AUTOCANNON
+	shield_penetration = 0
+	armor_penetration = 0.1
+
+	ship_behavior = "fighters_behavior"
+
+	icon = "GFX_ship_part_rgm_79e"
+	icon_frame = 1
+	component_set = "RGM_79E_HANGAR_1"
+	prerequisites = { "tech_RGM_79E" }
+	tags = { weapon_type_strike_craft }
+	upgrades_to = "EFSF_MS_STRIKE_CRAFT_RGM_79_1"
+}
+
+strike_craft_component_template = {
+	key = "EFSF_MS_STRIKE_CRAFT_RGM_79_1" #RGM-79 GM
+	size = LARGE
+	entity = "scout_1z_entity"
+
+	weapon_type = point_defence
+	projectile_gfx = "auto_cannons_s"
+	power = -56 #1250kW = 62
+	cost = 46 #58.8 tons = 36 cost + 10 for gun
+
+	count = 3
+	regeneration_per_day = 0.034
+	launch_time = 8.0
+
+	damage = { min = 10 max = 20 } #90mm
+	cooldown = 5
+	range = 25
+	accuracy = 0.82
+	tracking = 0.65
+
+	health = 96 #40 -36 = 4
+	armor = 10
+	shield = 0
+	evasion = 0.5
+
+	speed = 6.4 #0.94G
+	rotation_speed = 0.1
+	acceleration = 0.5
+
+	shield_damage = 1.0 #MEDIUM AUTOCANNON
+	shield_penetration = 0
+	armor_penetration = 0.1
+
+	ship_behavior = "fighters_behavior"
+
+	icon = "GFX_ship_part_rgm_79"
+	icon_frame = 1
+	component_set = "RGM_79_HANGAR_1"
+	prerequisites = { "tech_RGM_79" }
+	tags = { weapon_type_strike_craft }
+	upgrades_to = "EFSF_MS_STRIKE_CRAFT_RGM_79C_1"
+}
+
+strike_craft_component_template = {
+	key = "EFSF_MS_STRIKE_CRAFT_RGM_79_2" #RGM-79 GM
+	size = LARGE
+	entity = "scout_1z_entity"
+
+	weapon_type = missile
+	projectile_gfx = "small_missile"
+	power = -56 #1250kW = 62
+	cost = 61 #58.8 tons = 36 cost + 25 for gun
+
+	count = 3
+	regeneration_per_day = 0.034
+	launch_time = 8.0
+
+	damage = { min = 55 max = 100 } #380mm Bazooka
+	cooldown = 20
+	range = 60
+	accuracy = 0.8
+	tracking = 0.2
+
+	health = 96 #40 - 36 = 4
+	armor = 10
+	shield = 0
+	evasion = 0.5
+
+	speed = 6.4 #0.94G
+	rotation_speed = 0.1
+	acceleration = 0.5
+
+	shield_damage = 1.15 #MEDIUM MISSILE
+	shield_penetration = 0
+	armor_penetration = 0.25
+
+	ship_behavior = "fighters_behavior"
+
+	icon = "GFX_ship_part_rgm_79"
+	icon_frame = 1
+	component_set = "RGM_79_HANGAR_2"
+	prerequisites = { "tech_RGM_79" }
+	tags = { weapon_type_strike_craft }
+	upgrades_to = "EFSF_MS_STRIKE_CRAFT_RGM_79C_2"
+}
+
+strike_craft_component_template = {
+	key = "EFSF_MS_STRIKE_CRAFT_RGM_79C_1" #RGM-79C GM Kai
+	size = LARGE
+	entity = "scout_1z_entity"
+
+	weapon_type = point_defence
+	projectile_gfx = "MPC2"
+	power = -56 #1250kW = 62
+	cost = 56 #58.8 tons = 36 cost + 20 for gun
+
+	count = 3
+	regeneration_per_day = 0.034
+	launch_time = 8.0
+
+	damage = { min = 10 max = 25 } #Beam Scatter Gun
+	cooldown = 5
+	range = 15
+	accuracy = 0.82
+	tracking = 0.65
+
+	health = 96 #40 -36 = 4
+	armor = 10
+	shield = 0
+	evasion = 0.5
+
+	speed = 6.6 #0.98G
+	rotation_speed = 0.1
+	acceleration = 0.5
+
+	shield_damage = 0.67 #MPC1
+	shield_penetration = 0
+	armor_penetration = 0.7 #lowered penetration due to weaker weapon
+
+	ship_behavior = "fighters_behavior"
+
+	icon = "GFX_ship_part_rgm_79c"
+	icon_frame = 1
+	component_set = "RGM_79C_HANGAR_1"
+	prerequisites = { "tech_RGM_79C" }
+	tags = { weapon_type_strike_craft }
+	upgrades_to = "EFSF_MS_STRIKE_CRAFT_RGM_79C_POWERED_1"
+}
+
+strike_craft_component_template = {
+	key = "EFSF_MS_STRIKE_CRAFT_RGM_79C_2" #RGM-79C GM Kai
+	size = LARGE
+	entity = "scout_1z_entity"
+
+	weapon_type = missile
+	projectile_gfx = "small_missile"
+	power = -56 #1250kW = 62
+	cost = 61 #58.8 tons = 36 cost + 25 for gun
+
+	count = 3
+	regeneration_per_day = 0.034
+	launch_time = 8.0
+
+	damage = { min = 55 max = 100 } #380mm Bazooka
+	cooldown = 20
+	range = 60
+	accuracy = 0.8
+	tracking = 0.2
+
+	health = 96 #40 - 36 = 4
+	armor = 10
+	shield = 0
+	evasion = 0.5
+
+	speed = 6.6 #0.98G
+	rotation_speed = 0.1
+	acceleration = 0.5
+
+	shield_damage = 1.15 #MEDIUM MISSILE
+	shield_penetration = 0
+	armor_penetration = 0.25
+
+	ship_behavior = "fighters_behavior"
+
+	icon = "GFX_ship_part_rgm_79c"
+	icon_frame = 1
+	component_set = "RGM_79C_HANGAR_2"
+	prerequisites = { "tech_RGM_79C" }
+	tags = { weapon_type_strike_craft }
+	upgrades_to = "EFSF_MS_STRIKE_CRAFT_RGM_79C_POWERED_2"
+}
+
+strike_craft_component_template = {
+	key = "EFSF_MS_STRIKE_CRAFT_RGM_79C_POWERED_1" #RGM-79C GM Powered
+	size = LARGE
+	entity = "scout_1z_entity"
+
+	weapon_type = point_defence
+	projectile_gfx = "auto_cannons_s"
+	power = -73 #1650kW = 73
+	cost = 50 #64.2 tons = 40 cost + 10 for gun
+
+	count = 3
+	regeneration_per_day = 0.034
+	launch_time = 8.0
+
+	damage = { min = 10 max = 20 } #90mm
+	cooldown = 5
+	range = 25
+	accuracy = 0.82
+	tracking = 0.65
+
+	health = 100
+	armor = 10
+	shield = 0
+	evasion = 0.5 #Maybe improved by thrusters?
+
+	speed = 7.5 #1.11G
+	rotation_speed = 0.1
+	acceleration = 0.5
+
+	shield_damage = 1.0 #MEDIUM AUTOCANNON
+	shield_penetration = 0
+	armor_penetration = 0.1
+
+	ship_behavior = "fighters_behavior"
+
+	icon = "GFX_ship_part_rgm_79cpowered"
+	icon_frame = 1
+	component_set = "RGM_79C_POWERED_HANGAR_1"
+	prerequisites = { "tech_RGM_79C_POWERED" }
+	tags = { weapon_type_strike_craft }
+	upgrades_to = "EFSF_MS_STRIKE_CRAFT_RGM_79N_1"
+}
+
+strike_craft_component_template = {
+	key = "EFSF_MS_STRIKE_CRAFT_RGM_79C_POWERED_2" #RGM-79C GM Powered
+	size = LARGE
+	entity = "scout_1z_entity"
+
+	weapon_type = missile
+	projectile_gfx = "small_missile"
+	power = -73 #1650kW = 73
+	cost = 65 #64.2 tons = 40 cost + 25 for gun
+
+	count = 3
+	regeneration_per_day = 0.034
+	launch_time = 8.0
+
+	damage = { min = 55 max = 100 } #380mm Bazooka
+	cooldown = 20
+	range = 60
+	accuracy = 0.8
+	tracking = 0.2
+
+	health = 100
+	armor = 10
+	shield = 0
+	evasion = 0.5
+
+	speed = 7.5 #1.11G
+	rotation_speed = 0.1
+	acceleration = 0.5
+
+	shield_damage = 1.15 #MEDIUM MISSILE
+	shield_penetration = 0
+	armor_penetration = 0.25
+
+	ship_behavior = "fighters_behavior"
+
+	icon = "GFX_ship_part_rgm_79cpowered"
+	icon_frame = 1
+	component_set = "RGM_79C_POWERED_HANGAR_2"
+	prerequisites = { "tech_RGM_79C_POWERED" }
+	tags = { weapon_type_strike_craft }
+	upgrades_to = "EFSF_MS_STRIKE_CRAFT_RGM_79N_2"
+}
+
+strike_craft_component_template = {
+	key = "EFSF_MS_STRIKE_CRAFT_RGM_79N_1" #RGM-79N GM Custom
+	size = LARGE
+	entity = "scout_1z_entity"
+
+	weapon_type = point_defence
+	projectile_gfx = "auto_cannons_s"
+	power = -63 #1420kW = 63
+	cost = 45 #57.6 tons = 35 cost + 10 for gun
+
+	count = 3
+	regeneration_per_day = 0.034
+	launch_time = 8.0
+
+	damage = { min = 10 max = 20 } #90mm
+	cooldown = 5
+	range = 25
+	accuracy = 0.82
+	tracking = 0.65
+
+	health = 95 #40 - 35 = 5
+	armor = 10
+	shield = 0
+	evasion = 0.6 #Greatly improved performance
+
+	speed = 7.9 #1.17G
+	rotation_speed = 0.1
+	acceleration = 0.5
+
+	shield_damage = 1.0 #MEDIUM AUTOCANNON
+	shield_penetration = 0
+	armor_penetration = 0.2 #GM Rifle improved over bullpup
+
+	ship_behavior = "fighters_behavior"
+
+	icon = "GFX_ship_part_rgm_79n"
+	icon_frame = 1
+	component_set = "RGM_79N_HANGAR_1"
+	prerequisites = { "tech_RGM_79N" }
+	tags = { weapon_type_strike_craft }
+	#upgrades_to = "EFSF_MS_STRIKE_CRAFT_RX_78_3"
+}
+
+strike_craft_component_template = {
+	key = "EFSF_MS_STRIKE_CRAFT_RGM_79N_2" #RGM-79N GM Custom
+	size = LARGE
+	entity = "scout_1z_entity"
+
+	weapon_type = missile
+	projectile_gfx = "small_missile"
+	power = -63 #1420kW = 63
+	cost = 60 #57.6 tons = 35 cost + 25 for gun
+
+	count = 3
+	regeneration_per_day = 0.034
+	launch_time = 8.0
+
+	damage = { min = 55 max = 100 } #380mm Bazooka
+	cooldown = 20
+	range = 60
+	accuracy = 0.8
+	tracking = 0.2
+
+	health = 95 #40 - 35 = 5
+	armor = 10
+	shield = 0
+	evasion = 0.6 #Greatly improved performance
+
+	speed = 7.9 #1.17G
+	rotation_speed = 0.1
+	acceleration = 0.5
+
+	shield_damage = 1.15 #MEDIUM MISSILE
+	shield_penetration = 0
+	armor_penetration = 0.25
+
+	ship_behavior = "fighters_behavior"
+
+	icon = "GFX_ship_part_rgm_79n"
+	icon_frame = 1
+	component_set = "RGM_79N_HANGAR_2"
+	prerequisites = { "tech_RGM_79N" }
+	tags = { weapon_type_strike_craft }
+	#upgrades_to = "EFSF_MS_STRIKE_CRAFT_RX_78_3"
+}

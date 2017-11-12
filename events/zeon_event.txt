@@ -7,12 +7,12 @@ country_event = {
 	picture = "GFX_evt_Zeon1"
 	show_sound = event_structural_collapse
 	is_triggered_only = yes
-	
+
 	immediate = {
 		set_country_flag = muh_zeon
 	}
-	
-	#trigger = { 
+
+	#trigger = {
 	#	And = {
 	#		is_ai = no
 	#	}
@@ -20,18 +20,18 @@ country_event = {
 	#		has_country_flag = muh_zeon
 	#	}
 	#}
-	
+
 	option = {
 		name = zeontech_dialogue_1
 		give_technology = { tech = tech_BEAMC_1 }
-		give_technology = { tech = tech_Zeon_MS_0 }
+		give_technology = { tech = tech_MS_05B } #tech_Zeon_MS_0
 		create_species = {
 			name = "Human"
 			class = MAM
 			portrait = "event_zeon_1"
 			trait = "trait_intelligent"
-			trait = "trait_slow_breeders"	
-			trait = "trait_nomadic"	
+			trait = "trait_slow_breeders"
+			trait = "trait_nomadic"
 		}
 		create_leader = {
 			type = admiral
@@ -44,7 +44,7 @@ country_event = {
 			add_trait = leader_trait_newtype
 		}
 	}
-	
+
 	option = {
 		name = zeontech_dialogue_2
 		give_technology = { tech = tech_BEAMC_1 }
@@ -54,8 +54,8 @@ country_event = {
 			class = MAM
 			portrait = "event_zeon_1"
 			trait = "trait_intelligent"
-			trait = "trait_slow_breeders"	
-			trait = "trait_nomadic"	
+			trait = "trait_slow_breeders"
+			trait = "trait_nomadic"
 		}
 		create_leader = {
 			type = admiral
@@ -68,7 +68,7 @@ country_event = {
 			add_trait = leader_trait_newtype
 		}
 	}
-	
+
 	option = {
 		name = zeontech_dialogue_3
 		give_technology = { tech = tech_BEAMC_1 }
@@ -78,8 +78,8 @@ country_event = {
 			class = MAM
 			portrait = "event_zeon_1"
 			trait = "trait_intelligent"
-			trait = "trait_slow_breeders"	
-			trait = "trait_nomadic"	
+			trait = "trait_slow_breeders"
+			trait = "trait_nomadic"
 		}
 		create_leader = {
 			type = admiral
@@ -92,18 +92,18 @@ country_event = {
 			add_trait = leader_trait_newtype
 		}
 	}
-	
+
 	option = {
 		name = zeontech_dialogue_4
 		give_technology = { tech = tech_EFSF_BEAMC_1 }
-		give_technology = { tech = tech_EFSF_MS_0 }
+		give_technology = { tech = tech_RB_79 } #tech_EFSF_MS_0
 		create_species = {
 			name = "Human"
 			class = MAM
 			portrait = "efsf_event_1"
 			trait = "trait_intelligent"
-			trait = "trait_slow_breeders"	
-			trait = "trait_nomadic"	
+			trait = "trait_slow_breeders"
+			trait = "trait_nomadic"
 		}
 		create_leader = {
 			type = admiral
@@ -116,7 +116,7 @@ country_event = {
 			add_trait = leader_trait_newtype
 		}
 	}
-	
+
 	option = {
 		name = zeontech_dialogue_7
 		give_technology = { tech = tech_EFSF_BEAMC_1 }
@@ -126,8 +126,8 @@ country_event = {
 			class = MAM
 			portrait = "efsf_event_1"
 			trait = "trait_intelligent"
-			trait = "trait_slow_breeders"	
-			trait = "trait_nomadic"	
+			trait = "trait_slow_breeders"
+			trait = "trait_nomadic"
 		}
 		create_leader = {
 			type = admiral
@@ -140,7 +140,7 @@ country_event = {
 			add_trait = leader_trait_newtype
 		}
 	}
-	
+
 	option = {
 		name = zeontech_dialogue_8
 		give_technology = { tech = tech_BEAMC_1 }
@@ -152,8 +152,8 @@ country_event = {
 			class = MAM
 			portrait = "event_zeon_1"
 			trait = "trait_intelligent"
-			trait = "trait_slow_breeders"	
-			trait = "trait_nomadic"	
+			trait = "trait_slow_breeders"
+			trait = "trait_nomadic"
 		}
 		create_leader = {
 			type = admiral
@@ -166,7 +166,7 @@ country_event = {
 			add_trait = leader_trait_newtype
 		}
 	}
-		
+
 	option = {
 		name = zeontech_dialogue_9
 		give_technology = { tech = tech_EFSF_BEAMC_1 }
@@ -177,8 +177,8 @@ country_event = {
 			class = MAM
 			portrait = "efsf_event_1"
 			trait = "trait_intelligent"
-			trait = "trait_slow_breeders"	
-			trait = "trait_nomadic"	
+			trait = "trait_slow_breeders"
+			trait = "trait_nomadic"
 		}
 		create_leader = {
 			type = admiral
@@ -191,7 +191,7 @@ country_event = {
 			add_trait = leader_trait_newtype
 		}
 	}
-	
+
 	option = {
 		name = zeontech_dialogue_5
 		give_technology = { tech = tech_BEAMC_1 }
@@ -206,8 +206,8 @@ country_event = {
 			class = MAM
 			portrait = "event_zeon_1"
 			trait = "trait_intelligent"
-			trait = "trait_slow_breeders"	
-			trait = "trait_nomadic"	
+			trait = "trait_slow_breeders"
+			trait = "trait_nomadic"
 		}
 		create_leader = {
 			type = admiral
@@ -224,8 +224,8 @@ country_event = {
 			class = MAM
 			portrait = "efsf_event_1"
 			trait = "trait_intelligent"
-			trait = "trait_slow_breeders"	
-			trait = "trait_nomadic"	
+			trait = "trait_slow_breeders"
+			trait = "trait_nomadic"
 		}
 		create_leader = {
 			type = admiral
@@ -238,44 +238,44 @@ country_event = {
 			add_trait = leader_trait_newtype
 		}
 	}
-	
+
 	option = {
 		name = zeontech_dialogue_6
 	}
-	
-	mean_time_to_happen = { 
-		days = 1 
+
+	mean_time_to_happen = {
+		days = 1
 	}
 }
 
 country_event = { #Player has picked Zeon
-	id = zeontech.2 
+	id = zeontech.2
 	title = "oyw_title_1"
 	desc = "oyw_desc_1"
 	picture = "GFX_evt_Zeon1"
 	show_sound = event_structural_collapse
 	hide_window = yes
 	is_triggered_only = yes
-	
-	trigger = {	
+
+	trigger = {
 		and = {
 			any_system_within_border  = { has_star_flag = Zeon_Start }
 		}
 	}
-	
+
 	immediate = {
 		create_species = {
 			name = "Human"
 			class = MAM
 			portrait = "fed"
 			trait = "trait_intelligent"
-			trait = "trait_slow_breeders"	
-			trait = "trait_nomadic"	
+			trait = "trait_slow_breeders"
+			trait = "trait_nomadic"
 		}
 		create_country = {
 			name = "Earth Federation"
 			authority = "auth_democratic"
-			civics = { 
+			civics = {
 				civic = civic_citizen_service
 				civic = civic_idealistic_foundation
 			}
@@ -313,8 +313,8 @@ country_event = { #Player has picked Zeon
 				class = MAM
 				portrait = "efsf_event_2"
 				trait = "trait_intelligent"
-				trait = "trait_slow_breeders"	
-				trait = "trait_nomadic"	
+				trait = "trait_slow_breeders"
+				trait = "trait_nomadic"
 			}
 			create_leader = {
 				type = admiral
@@ -373,19 +373,19 @@ country_event = { #Player has picked Zeon
 					 has_planet_flag = side16
 				}
 				set_name = "Side 1/6"
-				create_pop = { 
+				create_pop = {
 					species = owner_main_species
 				}
-				create_pop = { 
+				create_pop = {
 					species = owner_main_species
 				}
-				create_pop = { 
+				create_pop = {
 					species = owner_main_species
 				}
-				create_pop = { 
+				create_pop = {
 					species = owner_main_species
 				}
-				create_pop = { 
+				create_pop = {
 					species = owner_main_species
 				}
 			}
@@ -394,19 +394,19 @@ country_event = { #Player has picked Zeon
 					 has_planet_flag = side25
 				}
 				set_name = "Side 2/5"
-				create_pop = { 
+				create_pop = {
 					species = owner_main_species
 				}
-				create_pop = { 
+				create_pop = {
 					species = owner_main_species
 				}
-				create_pop = { 
+				create_pop = {
 					species = owner_main_species
 				}
-				create_pop = { 
+				create_pop = {
 					species = owner_main_species
 				}
-				create_pop = { 
+				create_pop = {
 					species = owner_main_species
 				}
 			}
@@ -415,10 +415,10 @@ country_event = { #Player has picked Zeon
 					 has_planet_flag = side4
 				}
 				set_name = "Side 4"
-				create_pop = { 
+				create_pop = {
 					species = owner_main_species
 				}
-				create_pop = { 
+				create_pop = {
 					species = owner_main_species
 				}
 			}
@@ -427,7 +427,7 @@ country_event = { #Player has picked Zeon
 					 has_planet_flag = side7
 				}
 				set_name = "Side 7"
-				create_pop = { 
+				create_pop = {
 					species = owner_main_species
 				}
 			}
@@ -440,25 +440,25 @@ country_event = { #Player has picked Zeon
 					initial_module = "missile_weapon"
 				}
 				set_name = "Earth"
-				create_pop = { 
+				create_pop = {
 					species = owner_main_species
 				}
-				create_pop = { 
+				create_pop = {
 					species = owner_main_species
 				}
-				create_pop = { 
+				create_pop = {
 					species = owner_main_species
 				}
-				create_pop = { 
+				create_pop = {
 					species = owner_main_species
 				}
-				create_pop = { 
+				create_pop = {
 					species = owner_main_species
 				}
-				create_pop = { 
+				create_pop = {
 					species = owner_main_species
 				}
-				create_pop = { 
+				create_pop = {
 					species = owner_main_species
 				}
 			}
@@ -473,20 +473,20 @@ country_event = { #Player has picked Zeon
 }
 
 country_event = { #Player has picked Axis
-	id = zeontech.3 
+	id = zeontech.3
 	title = "oyw_title_1"
 	desc = "oyw_desc_1"
 	picture = "GFX_evt_Zeon1"
 	show_sound = event_structural_collapse
 	hide_window = yes
 	is_triggered_only = yes
-	
-	trigger = {	
+
+	trigger = {
 		and = {
 			any_system_within_border  = { has_star_flag = Axis_Zeon_Start }
 		}
 	}
-	
+
 	immediate = {
 		capital_scope = {
 			surveyed = {
@@ -536,13 +536,13 @@ country_event = { #Player has picked Axis
 			class = MAM
 			portrait = "titan"
 			trait = "trait_intelligent"
-			trait = "trait_slow_breeders"	
-			trait = "trait_nomadic"	
+			trait = "trait_slow_breeders"
+			trait = "trait_nomadic"
 		}
 		create_country = {
 			name = "The Titans"
 			authority = "auth_dictatorial"
-			civics = { 
+			civics = {
 				civic = civic_nationalistic_zeal
 				civic = civic_cutthroat_politics
 			}
@@ -581,8 +581,8 @@ country_event = { #Player has picked Axis
 						class = MAM
 						portrait = "efsf_event_3"
 						trait = "trait_intelligent"
-						trait = "trait_slow_breeders"	
-						trait = "trait_nomadic"	
+						trait = "trait_slow_breeders"
+						trait = "trait_nomadic"
 					}
 					create_leader = {
 						type = admiral
@@ -598,8 +598,8 @@ country_event = { #Player has picked Axis
 						class = MAM
 						portrait = "efsf_event_4"
 						trait = "trait_intelligent"
-						trait = "trait_slow_breeders"	
-						trait = "trait_nomadic"	
+						trait = "trait_slow_breeders"
+						trait = "trait_nomadic"
 					}
 					create_leader = {
 						type = admiral
@@ -642,19 +642,19 @@ country_event = { #Player has picked Axis
 					 has_planet_flag = side16
 				}
 				set_name = "Side 1/6"
-				create_pop = { 
+				create_pop = {
 					species = owner_main_species
 				}
-				create_pop = { 
+				create_pop = {
 					species = owner_main_species
 				}
-				create_pop = { 
+				create_pop = {
 					species = owner_main_species
 				}
-				create_pop = { 
+				create_pop = {
 					species = owner_main_species
 				}
-				create_pop = { 
+				create_pop = {
 					species = owner_main_species
 				}
 			}
@@ -663,19 +663,19 @@ country_event = { #Player has picked Axis
 					 has_planet_flag = side25
 				}
 				set_name = "Side 2/5"
-				create_pop = { 
+				create_pop = {
 					species = owner_main_species
 				}
-				create_pop = { 
+				create_pop = {
 					species = owner_main_species
 				}
-				create_pop = { 
+				create_pop = {
 					species = owner_main_species
 				}
-				create_pop = { 
+				create_pop = {
 					species = owner_main_species
 				}
-				create_pop = { 
+				create_pop = {
 					species = owner_main_species
 				}
 			}
@@ -684,10 +684,10 @@ country_event = { #Player has picked Axis
 					 has_planet_flag = side4
 				}
 				set_name = "Side 4"
-				create_pop = { 
+				create_pop = {
 					species = owner_main_species
 				}
-				create_pop = { 
+				create_pop = {
 					species = owner_main_species
 				}
 			}
@@ -696,7 +696,7 @@ country_event = { #Player has picked Axis
 					 has_planet_flag = side7
 				}
 				set_name = "Side 7"
-				create_pop = { 
+				create_pop = {
 					species = owner_main_species
 				}
 			}
@@ -709,25 +709,25 @@ country_event = { #Player has picked Axis
 					initial_module = "missile_weapon"
 				}
 				set_name = "Earth"
-				create_pop = { 
+				create_pop = {
 					species = owner_main_species
 				}
-				create_pop = { 
+				create_pop = {
 					species = owner_main_species
 				}
-				create_pop = { 
+				create_pop = {
 					species = owner_main_species
 				}
-				create_pop = { 
+				create_pop = {
 					species = owner_main_species
 				}
-				create_pop = { 
+				create_pop = {
 					species = owner_main_species
 				}
-				create_pop = { 
+				create_pop = {
 					species = owner_main_species
 				}
-				create_pop = { 
+				create_pop = {
 					species = owner_main_species
 				}
 			}
@@ -736,25 +736,25 @@ country_event = { #Player has picked Axis
 					 has_planet_flag = side3
 				}
 				set_name = "Side 3"
-				create_pop = { 
+				create_pop = {
 					species = owner_main_species
 				}
-				create_pop = { 
+				create_pop = {
 					species = owner_main_species
 				}
-				create_pop = { 
+				create_pop = {
 					species = owner_main_species
 				}
-				create_pop = { 
+				create_pop = {
 					species = owner_main_species
 				}
-				create_pop = { 
+				create_pop = {
 					species = owner_main_species
 				}
-				create_pop = { 
+				create_pop = {
 					species = owner_main_species
 				}
-				create_pop = { 
+				create_pop = {
 					species = owner_main_species
 				}
 			}
@@ -769,20 +769,20 @@ country_event = { #Player has picked Axis
 }
 
 country_event = { #Player has picked EFSF
-	id = zeontech.4 
+	id = zeontech.4
 	title = "oyw_title_1"
 	desc = "oyw_desc_1"
 	picture = "GFX_evt_Zeon1"
 	show_sound = event_structural_collapse
 	hide_window = yes
 	is_triggered_only = yes
-	
-	trigger = {	
+
+	trigger = {
 		and = {
 			any_system_within_border  = { has_star_flag = EFSF_Start }
 		}
 	}
-	
+
 	immediate = {
 		capital_scope = {
 			surveyed = {
@@ -832,13 +832,13 @@ country_event = { #Player has picked EFSF
 			class = MAM
 			portrait = "zeon"
 			trait = "trait_intelligent"
-			trait = "trait_slow_breeders"	
-			trait = "trait_nomadic"	
+			trait = "trait_slow_breeders"
+			trait = "trait_nomadic"
 		}
 		create_country = {
 			name = "Principality"
 			authority = "auth_dictatorial"
-			civics = { 
+			civics = {
 				civic = civic_nationalistic_zeal
 				civic = civic_distinguished_admiralty
 			}
@@ -875,8 +875,8 @@ country_event = { #Player has picked EFSF
 				class = MAM
 				portrait = "zeon_event_5"
 				trait = "trait_intelligent"
-				trait = "trait_slow_breeders"	
-				trait = "trait_nomadic"	
+				trait = "trait_slow_breeders"
+				trait = "trait_nomadic"
 			}
 			create_leader = {
 				type = admiral
@@ -917,19 +917,19 @@ country_event = { #Player has picked EFSF
 					 has_planet_flag = side16
 				}
 				set_name = "Side 1/6"
-				create_pop = { 
+				create_pop = {
 					species = owner_main_species
 				}
-				create_pop = { 
+				create_pop = {
 					species = owner_main_species
 				}
-				create_pop = { 
+				create_pop = {
 					species = owner_main_species
 				}
-				create_pop = { 
+				create_pop = {
 					species = owner_main_species
 				}
-				create_pop = { 
+				create_pop = {
 					species = owner_main_species
 				}
 			}
@@ -938,19 +938,19 @@ country_event = { #Player has picked EFSF
 					 has_planet_flag = side25
 				}
 				set_name = "Side 2/5"
-				create_pop = { 
+				create_pop = {
 					species = owner_main_species
 				}
-				create_pop = { 
+				create_pop = {
 					species = owner_main_species
 				}
-				create_pop = { 
+				create_pop = {
 					species = owner_main_species
 				}
-				create_pop = { 
+				create_pop = {
 					species = owner_main_species
 				}
-				create_pop = { 
+				create_pop = {
 					species = owner_main_species
 				}
 			}
@@ -959,10 +959,10 @@ country_event = { #Player has picked EFSF
 					 has_planet_flag = side4
 				}
 				set_name = "Side 4"
-				create_pop = { 
+				create_pop = {
 					species = owner_main_species
 				}
-				create_pop = { 
+				create_pop = {
 					species = owner_main_species
 				}
 			}
@@ -971,7 +971,7 @@ country_event = { #Player has picked EFSF
 					 has_planet_flag = side7
 				}
 				set_name = "Side 7"
-				create_pop = { 
+				create_pop = {
 					species = owner_main_species
 				}
 			}
@@ -984,25 +984,25 @@ country_event = { #Player has picked EFSF
 					initial_module = "missile_weapon"
 				}
 				set_name = "Earth"
-				create_pop = { 
+				create_pop = {
 					species = owner_main_species
 				}
-				create_pop = { 
+				create_pop = {
 					species = owner_main_species
 				}
-				create_pop = { 
+				create_pop = {
 					species = owner_main_species
 				}
-				create_pop = { 
+				create_pop = {
 					species = owner_main_species
 				}
-				create_pop = { 
+				create_pop = {
 					species = owner_main_species
 				}
-				create_pop = { 
+				create_pop = {
 					species = owner_main_species
 				}
-				create_pop = { 
+				create_pop = {
 					species = owner_main_species
 				}
 			}
@@ -1015,25 +1015,25 @@ country_event = { #Player has picked EFSF
 					initial_module = "missile_weapon"
 				}
 				set_name = "Side 3"
-				create_pop = { 
+				create_pop = {
 					species = owner_main_species
 				}
-				create_pop = { 
+				create_pop = {
 					species = owner_main_species
 				}
-				create_pop = { 
+				create_pop = {
 					species = owner_main_species
 				}
-				create_pop = { 
+				create_pop = {
 					species = owner_main_species
 				}
-				create_pop = { 
+				create_pop = {
 					species = owner_main_species
 				}
-				create_pop = { 
+				create_pop = {
 					species = owner_main_species
 				}
-				create_pop = { 
+				create_pop = {
 					species = owner_main_species
 				}
 			}
@@ -1048,20 +1048,20 @@ country_event = { #Player has picked EFSF
 }
 
 country_event = { #Player has picked Neo
-	id = zeontech.5 
+	id = zeontech.5
 	title = "oyw_title_1"
 	desc = "oyw_desc_1"
 	picture = "GFX_evt_Zeon1"
 	show_sound = event_structural_collapse
 	hide_window = yes
 	is_triggered_only = yes
-	
-	trigger = {	
+
+	trigger = {
 		and = {
 			any_system_within_border  = { has_star_flag = Neo_Zeon_Start }
 		}
 	}
-	
+
 	immediate = {
 		capital_scope = {
 			surveyed = {
@@ -1113,19 +1113,19 @@ country_event = { #Player has picked Neo
 					 has_planet_flag = side16
 				}
 				set_name = "Side 1/6"
-				create_pop = { 
+				create_pop = {
 					species = owner_main_species
 				}
-				create_pop = { 
+				create_pop = {
 					species = owner_main_species
 				}
-				create_pop = { 
+				create_pop = {
 					species = owner_main_species
 				}
-				create_pop = { 
+				create_pop = {
 					species = owner_main_species
 				}
-				create_pop = { 
+				create_pop = {
 					species = owner_main_species
 				}
 			}
@@ -1134,19 +1134,19 @@ country_event = { #Player has picked Neo
 					 has_planet_flag = side25
 				}
 				set_name = "Side 2/5"
-				create_pop = { 
+				create_pop = {
 					species = owner_main_species
 				}
-				create_pop = { 
+				create_pop = {
 					species = owner_main_species
 				}
-				create_pop = { 
+				create_pop = {
 					species = owner_main_species
 				}
-				create_pop = { 
+				create_pop = {
 					species = owner_main_species
 				}
-				create_pop = { 
+				create_pop = {
 					species = owner_main_species
 				}
 			}
@@ -1155,10 +1155,10 @@ country_event = { #Player has picked Neo
 					 has_planet_flag = side4
 				}
 				set_name = "Side 4"
-				create_pop = { 
+				create_pop = {
 					species = owner_main_species
 				}
-				create_pop = { 
+				create_pop = {
 					species = owner_main_species
 				}
 			}
@@ -1167,7 +1167,7 @@ country_event = { #Player has picked Neo
 					 has_planet_flag = side7
 				}
 				set_name = "Side 7"
-				create_pop = { 
+				create_pop = {
 					species = owner_main_species
 				}
 			}
@@ -1180,25 +1180,25 @@ country_event = { #Player has picked Neo
 					initial_module = "missile_weapon"
 				}
 				set_name = "Earth"
-				create_pop = { 
+				create_pop = {
 					species = owner_main_species
 				}
-				create_pop = { 
+				create_pop = {
 					species = owner_main_species
 				}
-				create_pop = { 
+				create_pop = {
 					species = owner_main_species
 				}
-				create_pop = { 
+				create_pop = {
 					species = owner_main_species
 				}
-				create_pop = { 
+				create_pop = {
 					species = owner_main_species
 				}
-				create_pop = { 
+				create_pop = {
 					species = owner_main_species
 				}
-				create_pop = { 
+				create_pop = {
 					species = owner_main_species
 				}
 			}
@@ -1211,25 +1211,25 @@ country_event = { #Player has picked Neo
 					initial_module = "missile_weapon"
 				}
 				set_name = "Side 3"
-				create_pop = { 
+				create_pop = {
 					species = owner_main_species
 				}
-				create_pop = { 
+				create_pop = {
 					species = owner_main_species
 				}
-				create_pop = { 
+				create_pop = {
 					species = owner_main_species
 				}
-				create_pop = { 
+				create_pop = {
 					species = owner_main_species
 				}
-				create_pop = { 
+				create_pop = {
 					species = owner_main_species
 				}
-				create_pop = { 
+				create_pop = {
 					species = owner_main_species
 				}
-				create_pop = { 
+				create_pop = {
 					species = owner_main_species
 				}
 			}
@@ -1238,20 +1238,20 @@ country_event = { #Player has picked Neo
 }
 
 country_event = { #Player has picked Gundamu
-	id = zeontech.6 
+	id = zeontech.6
 	title = "oyw_title_1"
 	desc = "oyw_desc_1"
 	picture = "GFX_evt_Zeon1"
 	show_sound = event_structural_collapse
 	hide_window = yes
 	is_triggered_only = yes
-	
-	trigger = {	
+
+	trigger = {
 		and = {
 			any_system_within_border  = { has_star_flag = Gundamu_Start }
 		}
 	}
-	
+
 	immediate = {
 		capital_scope = {
 			surveyed = {
@@ -1303,19 +1303,19 @@ country_event = { #Player has picked Gundamu
 					 has_planet_flag = side16
 				}
 				set_name = "Side 1/6"
-				create_pop = { 
+				create_pop = {
 					species = owner_main_species
 				}
-				create_pop = { 
+				create_pop = {
 					species = owner_main_species
 				}
-				create_pop = { 
+				create_pop = {
 					species = owner_main_species
 				}
-				create_pop = { 
+				create_pop = {
 					species = owner_main_species
 				}
-				create_pop = { 
+				create_pop = {
 					species = owner_main_species
 				}
 			}
@@ -1324,19 +1324,19 @@ country_event = { #Player has picked Gundamu
 					 has_planet_flag = side25
 				}
 				set_name = "Side 2/5"
-				create_pop = { 
+				create_pop = {
 					species = owner_main_species
 				}
-				create_pop = { 
+				create_pop = {
 					species = owner_main_species
 				}
-				create_pop = { 
+				create_pop = {
 					species = owner_main_species
 				}
-				create_pop = { 
+				create_pop = {
 					species = owner_main_species
 				}
-				create_pop = { 
+				create_pop = {
 					species = owner_main_species
 				}
 			}
@@ -1345,10 +1345,10 @@ country_event = { #Player has picked Gundamu
 					 has_planet_flag = side4
 				}
 				set_name = "Side 4"
-				create_pop = { 
+				create_pop = {
 					species = owner_main_species
 				}
-				create_pop = { 
+				create_pop = {
 					species = owner_main_species
 				}
 			}
@@ -1357,7 +1357,7 @@ country_event = { #Player has picked Gundamu
 					 has_planet_flag = side7
 				}
 				set_name = "Side 7"
-				create_pop = { 
+				create_pop = {
 					species = owner_main_species
 				}
 			}
@@ -1370,25 +1370,25 @@ country_event = { #Player has picked Gundamu
 					initial_module = "missile_weapon"
 				}
 				set_name = "Earth"
-				create_pop = { 
+				create_pop = {
 					species = owner_main_species
 				}
-				create_pop = { 
+				create_pop = {
 					species = owner_main_species
 				}
-				create_pop = { 
+				create_pop = {
 					species = owner_main_species
 				}
-				create_pop = { 
+				create_pop = {
 					species = owner_main_species
 				}
-				create_pop = { 
+				create_pop = {
 					species = owner_main_species
 				}
-				create_pop = { 
+				create_pop = {
 					species = owner_main_species
 				}
-				create_pop = { 
+				create_pop = {
 					species = owner_main_species
 				}
 			}
@@ -1401,25 +1401,25 @@ country_event = { #Player has picked Gundamu
 					initial_module = "missile_weapon"
 				}
 				set_name = "Side 3"
-				create_pop = { 
+				create_pop = {
 					species = owner_main_species
 				}
-				create_pop = { 
+				create_pop = {
 					species = owner_main_species
 				}
-				create_pop = { 
+				create_pop = {
 					species = owner_main_species
 				}
-				create_pop = { 
+				create_pop = {
 					species = owner_main_species
 				}
-				create_pop = { 
+				create_pop = {
 					species = owner_main_species
 				}
-				create_pop = { 
+				create_pop = {
 					species = owner_main_species
 				}
-				create_pop = { 
+				create_pop = {
 					species = owner_main_species
 				}
 			}

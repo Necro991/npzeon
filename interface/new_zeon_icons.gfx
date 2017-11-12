@@ -1,0 +1,117 @@
+spriteTypes = {
+
+	spriteType = {
+		name = "GFX_ship_part_ms_05b"
+		texturefile = "gfx/interface/icons/ship_parts/MS-05B.dds"
+	}
+
+	spriteType = {
+		name = "GFX_ship_part_ms_06a"
+		texturefile = "gfx/interface/icons/ship_parts/MS-06A.dds"
+	}
+
+	spriteType = {
+		name = "GFX_ship_part_ms_06c"
+		texturefile = "gfx/interface/icons/ship_parts/MS-06C.dds"
+	}
+
+	spriteType = {
+		name = "GFX_ship_part_ms_06f"
+		texturefile = "gfx/interface/icons/ship_parts/MS-06F.dds"
+	}
+
+	spriteType = {
+		name = "GFX_ship_part_ms_06f2"
+		texturefile = "gfx/interface/icons/ship_parts/MS-06F2.dds"
+	}
+
+	spriteType = {
+		name = "GFX_ship_part_ms_06fz"
+		texturefile = "gfx/interface/icons/ship_parts/MS-06FZ.dds"
+	}
+
+	spriteType = {
+		name = "GFX_ship_part_ms_06r_1a"
+		texturefile = "gfx/interface/icons/ship_parts/MS-06R-1A.dds"
+	}
+
+	spriteType = {
+		name = "GFX_ship_part_ms_06r_2"
+		texturefile = "gfx/interface/icons/ship_parts/MS-06R-2.dds"
+	}
+
+	spriteType = {
+		name = "GFX_ship_part_ms_06r_2p"
+		texturefile = "gfx/interface/icons/ship_parts/MS-06R-2P.dds"
+	}
+
+	spriteType = {
+		name = "GFX_ship_part_ms_06r_3s"
+		texturefile = "gfx/interface/icons/ship_parts/MS-06R-3S.dds"
+	}
+
+	spriteType = {
+		name = "GFX_ship_part_ms_14a"
+		texturefile = "gfx/interface/icons/ship_parts/MS-14A.dds"
+	}
+
+	spriteType = {
+		name = "GFX_ship_part_ms_14b"
+		texturefile = "gfx/interface/icons/ship_parts/MS-14B.dds"
+	}
+
+	spriteType = {
+		name = "GFX_ship_part_ms_14br"
+		texturefile = "gfx/interface/icons/ship_parts/MS-14BR.dds"
+	}
+
+	spriteType = {
+		name = "GFX_ship_part_ms_14f"
+		texturefile = "gfx/interface/icons/ship_parts/MS-14F.dds"
+	}
+
+	spriteType = {
+		name = "GFX_ship_part_ms_14jg"
+		texturefile = "gfx/interface/icons/ship_parts/MS-14Jg.dds"
+	}
+
+	spriteType = {
+		name = "GFX_ship_part_ms_06rd_4"
+		texturefile = "gfx/interface/icons/ship_parts/MS-06RD-4.dds"
+	}
+
+	spriteType = {
+		name = "GFX_ship_part_ms_09r"
+		texturefile = "gfx/interface/icons/ship_parts/MS-09R.dds"
+	}
+
+	spriteType = {
+		name = "GFX_ship_part_ms_09r_2"
+		texturefile = "gfx/interface/icons/ship_parts/MS-09R-2.dds"
+	}
+
+	spriteType = {
+		name = "GFX_ship_part_ms_06k"
+		texturefile = "gfx/interface/icons/ship_parts/MS-06K.dds"
+	}
+
+	spriteType = {
+		name = "GFX_ship_part_ms_06k_g"
+		texturefile = "gfx/interface/icons/ship_parts/MS-06K-G.dds"
+	}
+
+	spriteType = {
+		name = "GFX_ship_part_ms_09k_1"
+		texturefile = "gfx/interface/icons/ship_parts/MS-09K-1.dds"
+	}
+
+	spriteType = {
+		name = "GFX_ship_part_ms_09k_2"
+		texturefile = "gfx/interface/icons/ship_parts/MS-09K-2.dds"
+	}
+
+	spriteType = {
+		name = "GFX_ship_part_ms_14c"
+		texturefile = "gfx/interface/icons/ship_parts/MS-14C.dds"
+	}
+}

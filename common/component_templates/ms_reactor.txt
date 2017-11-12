@@ -3,7 +3,7 @@ utility_component_template = {
 	size = small
 	icon = "GFX_ship_part_ms_reactor"
 	icon_frame = 1
-	power = 0
+	power = 100000
 	cost = 0
 	
 	component_set = "ms_reactor"
@@ -39,7 +39,7 @@ utility_component_template = {
 	size = small
 	icon = "GFX_ship_part_ms_reactor"
 	icon_frame = 1
-	power = 0
+	power = 100000
 	cost = 0
 	
 	component_set = "ms_reactor"

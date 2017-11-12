@@ -1,0 +1,211 @@
+# Icons set here are the ones shown in compnent editor list.
+
+component_set = {
+	key = "RB_79_HANGAR_1"
+
+	icon = "GFX_ship_part_rb_79"
+	icon_frame = 1
+}
+
+component_set = {
+	key = "RB_79F_HANGAR_1"
+
+	icon = "GFX_ship_part_rb_79f"
+	icon_frame = 1
+}
+
+component_set = {
+	key = "RB_79K_HANGAR_1"
+
+	icon = "GFX_ship_part_rb_79k"
+	icon_frame = 1
+}
+
+component_set = {
+	key = "RX_75_HANGAR_1"
+
+	icon = "GFX_ship_part_rx_75_1"
+	icon_frame = 1
+}
+
+component_set = {
+	key = "RX_75_HANGAR_2"
+
+	icon = "GFX_ship_part_rx_75_2"
+	icon_frame = 1
+}
+
+component_set = {
+	key = "D_50C_HANGAR_1"
+
+	icon = "GFX_ship_part_d_50c"
+	icon_frame = 1
+}
+
+component_set = {
+	key = "F_50D_HANGAR_1"
+
+	icon = "GFX_ship_part_f_50d"
+	icon_frame = 1
+}
+
+component_set = {
+	key = "RX_77_1A_HANGAR_1"
+
+	icon = "GFX_ship_part_rx_77_1a"
+	icon_frame = 1
+}
+
+component_set = {
+	key = "RX_77_2_HANGAR_1"
+
+	icon = "GFX_ship_part_rx_77_2"
+	icon_frame = 1
+}
+
+component_set = {
+	key = "RX_77_3_HANGAR_1"
+
+	icon = "GFX_ship_part_rx_77_3"
+	icon_frame = 1
+}
+
+component_set = {
+	key = "RX_77_4_HANGAR_1"
+
+	icon = "GFX_ship_part_rx_77_4"
+	icon_frame = 1
+}
+
+component_set = {
+	key = "RX_77D_HANGAR_1"
+
+	icon = "GFX_ship_part_rx_77d"
+	icon_frame = 1
+}
+
+component_set = {
+	key = "RX_77D_HANGAR_2"
+
+	icon = "GFX_ship_part_rx_77d"
+	icon_frame = 1
+}
+
+component_set = {
+	key = "RGC_80_1_HANGAR_1"
+
+	icon = "GFX_ship_part_rgc_80_1"
+	icon_frame = 1
+}
+
+component_set = {
+	key = "RGC_80S_HANGAR_1"
+
+	icon = "GFX_ship_part_rgc_80S"
+	icon_frame = 1
+}
+
+component_set = {
+	key = "RGC_83_HANGAR_1"
+
+	icon = "GFX_ship_part_rgc_83"
+	icon_frame = 1
+}
+
+component_set = {
+	key = "RX_78_1_HANGAR_1"
+
+	icon = "GFX_ship_part_rx_78_1"
+	icon_frame = 1
+}
+
+component_set = {
+	key = "RX_78_2_HANGAR_1"
+
+	icon = "GFX_ship_part_rx_78_2"
+	icon_frame = 1
+}
+
+component_set = {
+	key = "RX_78_3_HANGAR_1"
+
+	icon = "GFX_ship_part_rx_78_3"
+	icon_frame = 1
+}
+
+component_set = {
+	key = "RX_78NT_1_HANGAR_1"
+
+	icon = "GFX_ship_part_rx_78nt_1"
+	icon_frame = 1
+}
+
+component_set = {
+	key = "RX_78NT_1FA_HANGAR_1"
+
+	icon = "GFX_ship_part_rx_78nt_1fa"
+	icon_frame = 1
+}
+
+component_set = {
+	key = "RGM_79E_HANGAR_1"
+
+	icon = "GFX_ship_part_rgm_79e"
+	icon_frame = 1
+}
+
+component_set = {
+	key = "RGM_79_HANGAR_1"
+
+	icon = "GFX_ship_part_rgm_79"
+	icon_frame = 1
+}
+
+component_set = {
+	key = "RGM_79_HANGAR_2"
+
+	icon = "GFX_ship_part_rgm_79"
+	icon_frame = 1
+}
+
+component_set = {
+	key = "RGM_79C_HANGAR_1"
+
+	icon = "GFX_ship_part_rgm_79c"
+	icon_frame = 1
+}
+
+component_set = {
+	key = "RGM_79C_HANGAR_2"
+
+	icon = "GFX_ship_part_rgm_79c"
+	icon_frame = 1
+}
+
+component_set = {
+	key = "RGM_79C_POWERED_HANGAR_1"
+
+	icon = "GFX_ship_part_rgm_79cpowered"
+	icon_frame = 1
+}
+
+component_set = {
+	key = "RGM_79C_POWERED_HANGAR_2"
+
+	icon = "GFX_ship_part_rgm_79cpowered"
+	icon_frame = 1
+}
+
+component_set = {
+	key = "RGM_79N_HANGAR_1"
+
+	icon = "GFX_ship_part_rgm_79n"
+	icon_frame = 1
+}
+
+component_set = {
+	key = "RGM_79N_HANGAR_2"
+
+	icon = "GFX_ship_part_rgm_79n"
+	icon_frame = 1
+}

@@ -1,0 +1,1765 @@
+#Some rules: Health starts at 100. For every point of cost over 40, add 1 to it. Increase armor only when improved armor mentioned. Same for speed/acceleration etc. Weapons are to be based on MS weapon damage, with main game effects
+#BASE ALL CALCULATIONS OFF MS-05Bs VALUES! IT IS THE BASE
+
+strike_craft_component_template = {
+	key = "ZEON_MS_STRIKE_CRAFT_MS_05B_1" #MS-05B Zaku I B
+	size = LARGE
+	entity = "scout_1z_entity"
+
+	weapon_type = point_defence
+	projectile_gfx = "auto_cannons_s"
+	power = -40 #899kW
+	cost = 45 #65 tons = 40 + 5 for gun
+
+	count = 3
+	regeneration_per_day = 0.034
+	launch_time = 8.0
+
+	damage = { min = 10 max = 15 } #100mm
+	cooldown = 5
+	range = 12
+	accuracy = 0.82
+	tracking = 0.65
+
+	health = 100
+	armor = 10 #Steel Alloy
+	shield = 0
+	evasion = 0.5
+
+	speed = 4 #0.59G
+	rotation_speed = 0.1
+	acceleration = 0.5
+
+	shield_damage = 1.0 #MEDIUM AUTOCANNON
+	shield_penetration = 0
+	armor_penetration = 0.1
+
+	ship_behavior = "fighters_behavior"
+
+	icon = "GFX_ship_part_ms_05b"
+	icon_frame = 1
+	component_set = "MS_05B_HANGAR_1"
+	prerequisites = { "tech_MS_05B" }
+	tags = { weapon_type_strike_craft }
+	upgrades_to = "ZEON_MS_STRIKE_CRAFT_MS_06A_1"
+}
+
+strike_craft_component_template = {
+	key = "ZEON_MS_STRIKE_CRAFT_MS_05B_2" #MS-05B Zaku I B
+	size = LARGE
+	entity = "scout_1z_entity"
+
+	weapon_type = missile
+	projectile_gfx = "small_missile"
+	power = -40 #899kW
+	cost = 45 #65 tons = 40 + 5 for gun
+
+	count = 3
+	regeneration_per_day = 0.034
+	launch_time = 8.0
+
+	damage = { min = 20 max = 60 } #Sturmfaust 1
+	cooldown = 15
+	range = 25.0 #8
+	accuracy = 0.6
+	tracking = 0.3
+
+	health = 100
+	armor = 10 #Steel Alloy
+	shield = 0
+	evasion = 0.5
+
+	speed = 4 #0.59G
+	rotation_speed = 0.1
+	acceleration = 0.5
+
+	shield_damage = 1.15 #SMALL MISSILE
+	shield_penetration = 0
+	armor_penetration = 0.15
+
+	ship_behavior = "fighters_behavior"
+
+	icon = "GFX_ship_part_ms_05b"
+	icon_frame = 1
+	component_set = "MS_05B_HANGAR_2"
+	prerequisites = { "tech_MS_05B" }
+	tags = { weapon_type_strike_craft }
+	upgrades_to = "ZEON_MS_STRIKE_CRAFT_MS_06A_2"
+}
+
+strike_craft_component_template = {
+	key = "ZEON_MS_STRIKE_CRAFT_MS_06A_1" #MS-06A Zaku II A
+	size = LARGE
+	entity = "fighter_1z_entity"
+
+	weapon_type = point_defence
+	projectile_gfx = "auto_cannons_s"
+	power = -40 #899kW
+	cost = 54 #70.9 tons = 44 tons + 10 for gun
+
+	count = 3
+	regeneration_per_day = 0.034
+	launch_time = 8.0
+
+	damage = { min = 10 max = 20 } #105mm
+	cooldown = 5
+	range = 15
+	accuracy = 0.82
+	tracking = 0.65
+
+	health = 104
+	armor = 10
+	shield = 0
+	evasion = 0.5
+
+	speed = 4 #0.59G
+	rotation_speed = 0.1
+	acceleration = 0.5
+
+	shield_damage = 1.0 #MEDIUM AUTOCANNON
+	shield_penetration = 0
+	armor_penetration = 0.1
+
+	ship_behavior = "fighters_behavior"
+
+	icon = "GFX_ship_part_ms_06a"
+	icon_frame = 1
+	component_set = "MS_06A_HANGAR_1"
+	prerequisites = { "tech_MS_06A" }
+	tags = { weapon_type_strike_craft }
+	upgrades_to = "ZEON_MS_STRIKE_CRAFT_MS_06C_1"
+}
+
+strike_craft_component_template = {
+	key = "ZEON_MS_STRIKE_CRAFT_MS_06A_2" #MS-06A Zaku II A
+	size = LARGE
+	entity = "fighter_1z_entity"
+
+	weapon_type = missile
+	projectile_gfx = "small_missile"
+	power = -40 #899kW
+	cost = 64 #70.9 tons = 44 tons + 20 for bazooka
+
+	count = 3
+	regeneration_per_day = 0.034
+	launch_time = 8.0
+
+	damage = { min = 45 max = 80 } #Early 280mm Bazooka, slower fire rate
+	cooldown = 25
+	range = 50
+	accuracy = 0.75
+	tracking = 0.2
+
+	health = 104
+	armor = 10
+	shield = 0
+	evasion = 0.5
+
+	speed = 4 #0.59G
+	rotation_speed = 0.1
+	acceleration = 0.5
+
+	shield_damage = 1.15 #MEDIUM MISSILE
+	shield_penetration = 0
+	armor_penetration = 0.25
+
+	ship_behavior = "fighters_behavior"
+
+	icon = "GFX_ship_part_ms_06a"
+	icon_frame = 1
+	component_set = "MS_06A_HANGAR_2"
+	prerequisites = { "tech_MS_06A" }
+	tags = { weapon_type_strike_craft }
+	upgrades_to = "ZEON_MS_STRIKE_CRAFT_MS_06C_2"
+}
+
+strike_craft_component_template = {
+	key = "ZEON_MS_STRIKE_CRAFT_MS_06C_1" #MS-06C Zaku II C
+	size = LARGE
+	entity = "fighter_1z_entity"
+
+	weapon_type = point_defence
+	projectile_gfx = "auto_cannons_s"
+	power = -40 #899kW
+	cost = 59 #70.9 tons = 44 tons + 15 for gun
+
+	count = 3
+	regeneration_per_day = 0.034
+	launch_time = 8.0
+
+	damage = { min = 10 max = 25 } #120mm
+	cooldown = 5
+	range = 20
+	accuracy = 0.82
+	tracking = 0.65
+
+	health = 104
+	armor = 10
+	shield = 0
+	evasion = 0.5
+
+	speed = 4 #0.59G
+	rotation_speed = 0.1
+	acceleration = 0.5
+
+	shield_damage = 1.0 #MEDIUM AUTOCANNON
+	shield_penetration = 0
+	armor_penetration = 0.1
+
+	ship_behavior = "fighters_behavior"
+
+	icon = "GFX_ship_part_ms_06c"
+	icon_frame = 1
+	component_set = "MS_06C_HANGAR_1"
+	prerequisites = { "tech_MS_06C" }
+	tags = { weapon_type_strike_craft }
+	upgrades_to = "ZEON_MS_STRIKE_CRAFT_MS_06F_1"
+}
+
+strike_craft_component_template = {
+	key = "ZEON_MS_STRIKE_CRAFT_MS_06C_2" #MS-06C Zaku II C
+	size = LARGE
+	entity = "fighter_1z_entity"
+
+	weapon_type = missile
+	projectile_gfx = "small_missile"
+	power = -40 #899kW
+	cost = 64 #70.9 tons = 44 tons + 20 for gun
+
+	count = 3
+	regeneration_per_day = 0.034
+	launch_time = 8.0
+
+	damage = { min = 45 max = 80 } #280mm bazooka, normal fire rate
+	cooldown = 20
+	range = 50
+	accuracy = 0.75
+	tracking = 0.2
+
+	health = 104
+	armor = 10
+	shield = 0
+	evasion = 0.5
+
+	speed = 4 #0.59G
+	rotation_speed = 0.1
+	acceleration = 0.5
+
+	shield_damage = 1.15 #MEDIUM MISSILE
+	shield_penetration = 0
+	armor_penetration = 0.25
+
+	ship_behavior = "fighters_behavior"
+
+	icon = "GFX_ship_part_ms_06c"
+	icon_frame = 1
+	component_set = "MS_06C_HANGAR_2"
+	prerequisites = { "tech_MS_06C" }
+	tags = { weapon_type_strike_craft }
+	upgrades_to = "ZEON_MS_STRIKE_CRAFT_MS_06F_2"
+}
+
+strike_craft_component_template = {
+	key = "ZEON_MS_STRIKE_CRAFT_MS_06F_1" #MS-06F Zaku II F
+	size = LARGE
+	entity = "fighter_1z_entity"
+
+	weapon_type = point_defence
+	projectile_gfx = "auto_cannons_s"
+	power = -42 #951kW
+	cost = 60 #73.3 tons = 45 tons + 15 for gun
+
+	count = 3
+	regeneration_per_day = 0.034
+	launch_time = 8.0
+
+	damage = { min = 10 max = 25 } #120mm
+	cooldown = 5
+	range = 20
+	accuracy = 0.82
+	tracking = 0.65
+
+	health = 105
+	armor = 10
+	shield = 0
+	evasion = 0.5
+
+	speed = 4 #0.59G
+	rotation_speed = 0.1
+	acceleration = 0.5
+
+	shield_damage = 1.0 #MEDIUM AUTOCANNON
+	shield_penetration = 0
+	armor_penetration = 0.1
+
+	ship_behavior = "fighters_behavior"
+
+	icon = "GFX_ship_part_ms_06f"
+	icon_frame = 1
+	component_set = "MS_06F_HANGAR_1"
+	prerequisites = { "tech_MS_06F" }
+	tags = { weapon_type_strike_craft }
+	upgrades_to = "ZEON_MS_STRIKE_CRAFT_MS_06F2_1"
+}
+
+strike_craft_component_template = {
+	key = "ZEON_MS_STRIKE_CRAFT_MS_06F_2" #MS-06F Zaku II F
+	size = LARGE
+	entity = "fighter_1z_entity"
+
+	weapon_type = missile
+	projectile_gfx = "small_missile"
+	power = -42 #951kW
+	cost = 65 #73.3 tons = 45 tons + 20 for bazooka
+
+	count = 3
+	regeneration_per_day = 0.034
+	launch_time = 8.0
+
+	damage = { min = 45 max = 80 } #280mm Bazooka
+	cooldown = 20
+	range = 50
+	accuracy = 0.75
+	tracking = 0.2
+
+	health = 105
+	armor = 10
+	shield = 0
+	evasion = 0.5
+
+	speed = 4 #0.59G
+	rotation_speed = 0.1
+	acceleration = 0.5
+
+	shield_damage = 1.15 #MEDIUM MISSILE
+	shield_penetration = 0
+	armor_penetration = 0.25
+
+	ship_behavior = "fighters_behavior"
+
+	icon = "GFX_ship_part_ms_06f"
+	icon_frame = 1
+	component_set = "MS_06F_HANGAR_2"
+	prerequisites = { "tech_MS_06F" }
+	tags = { weapon_type_strike_craft }
+	upgrades_to = "ZEON_MS_STRIKE_CRAFT_MS_06F2_2"
+}
+
+strike_craft_component_template = {
+	key = "ZEON_MS_STRIKE_CRAFT_MS_06F2_1" #MS-06F2 Zaku II F2
+	size = LARGE
+	entity = "fighter_1z_entity"
+
+	weapon_type = point_defence
+	projectile_gfx = "auto_cannons_s"
+	power = -44 #986kW
+	cost = 60 #70.3 tons = 43 + 2 for improved armor + 15 for gun
+
+	count = 3
+	regeneration_per_day = 0.034
+	launch_time = 8.0
+
+	damage = { min = 10 max = 25 } #120mm
+	cooldown = 5
+	range = 20
+	accuracy = 0.82
+	tracking = 0.65
+
+	health = 103
+	armor = 12 #Improved Chest Armor
+	shield = 0
+	evasion = 0.50
+
+	speed = 5.15 #0.76G
+	rotation_speed = 0.1
+	acceleration = 0.5
+
+	shield_damage = 1.0 #MEDIUM AUTOCANNON
+	shield_penetration = 0
+	armor_penetration = 0.1
+
+	ship_behavior = "fighters_behavior"
+
+	icon = "GFX_ship_part_ms_06f2"
+	icon_frame = 1
+	component_set = "MS_06F2_HANGAR_1"
+	prerequisites = { "tech_MS_06F2" }
+	tags = { weapon_type_strike_craft }
+	upgrades_to = "ZEON_MS_STRIKE_CRAFT_MS_06FZ_1"
+}
+
+strike_craft_component_template = {
+	key = "ZEON_MS_STRIKE_CRAFT_MS_06F2_2" #MS-06F2 Zaku II F2
+	size = LARGE
+	entity = "fighter_1z_entity"
+
+	weapon_type = missile
+	projectile_gfx = "small_missile"
+	power = -44 #986kW
+	cost = 65 #70.3 tons = 43 + 2 for improved armor + 20 for bazooka
+
+	count = 3
+	regeneration_per_day = 0.034
+	launch_time = 8.0
+
+	damage = { min = 45 max = 80 } #280mm Bazooka
+	cooldown = 20
+	range = 50
+	accuracy = 0.75
+	tracking = 0.2
+
+	health = 103
+	armor = 12 #Improved Chest Armor
+	shield = 0
+	evasion = 0.50
+
+	speed = 5.15 #0.76G
+	rotation_speed = 0.1
+	acceleration = 0.5
+
+	shield_damage = 1.15 #MEDIUM MISSILE
+	shield_penetration = 0
+	armor_penetration = 0.25
+
+	ship_behavior = "fighters_behavior"
+
+	icon = "GFX_ship_part_ms_06f2"
+	icon_frame = 1
+	component_set = "MS_06F2_HANGAR_2"
+	prerequisites = { "tech_MS_06F2" }
+	tags = { weapon_type_strike_craft }
+	upgrades_to = "ZEON_MS_STRIKE_CRAFT_MS_06FZ_2"
+}
+
+strike_craft_component_template = {
+	key = "ZEON_MS_STRIKE_CRAFT_MS_06FZ_1" #MS-06FZ Zaku II Kai
+	size = LARGE
+	entity = "fighter_1z_entity"
+
+	weapon_type = point_defence
+	projectile_gfx = "auto_cannons_s"
+	power = -43 #976kW
+	cost = 50 #74.5 tons, cost should be 51. But it's UMP, so 45. + 5 for gun
+
+	count = 3
+	regeneration_per_day = 0.034
+	launch_time = 8.0
+
+	damage = { min = 10 max = 20 } #90mm
+	cooldown = 3 #Improved rate of fire
+	range = 25
+	accuracy = 0.82
+	tracking = 0.65
+
+	health = 106
+	armor = 15 #Titanium-Ceramic
+	shield = 0
+	evasion = 0.52
+
+	speed = 7.25 #1.07G
+	rotation_speed = 0.1
+	acceleration = 0.5
+
+	shield_damage = 1.0 #MEDIUM AUTOCANNON
+	shield_penetration = 0
+	armor_penetration = 0.2 #Improved penetration from 90mm
+
+	ship_behavior = "fighters_behavior"
+
+	icon = "GFX_ship_part_ms_06fz"
+	icon_frame = 1
+	component_set = "MS_06FZ_HANGAR_1"
+	prerequisites = { "tech_MS_06FZ" }
+	tags = { weapon_type_strike_craft }
+	#upgrades_to = "LARGE_FIGHTERS_HANGAR_3"
+}
+
+strike_craft_component_template = {
+	key = "ZEON_MS_STRIKE_CRAFT_MS_06FZ_2" #MS-06FZ Zaku II Kai
+	size = LARGE
+	entity = "fighter_1z_entity"
+
+	weapon_type = missile
+	projectile_gfx = "small_missile"
+	power = -43 #976kW
+	cost = 55 #74.5 tons, cost should be 51. But it's UMP, so 45. + 10 for bazooka
+
+	count = 3
+	regeneration_per_day = 0.034
+	launch_time = 8.0
+
+	damage = { min = 45 max = 80 } #280mm Bazooka
+	cooldown = 20
+	range = 50
+	accuracy = 0.75
+	tracking = 0.2
+
+	health = 106
+	armor = 15 #Titanium-Ceramic
+	shield = 0
+	evasion = 0.52
+
+	speed = 7.25 #1.07G
+	rotation_speed = 0.1
+	acceleration = 0.5
+
+	shield_damage = 1.15 #MEDIUM MISSILE
+	shield_penetration = 0
+	armor_penetration = 0.25
+
+	ship_behavior = "fighters_behavior"
+
+	icon = "GFX_ship_part_ms_06fz"
+	icon_frame = 1
+	component_set = "MS_06FZ_HANGAR_2"
+	prerequisites = { "tech_MS_06FZ" }
+	tags = { weapon_type_strike_craft }
+	#upgrades_to = "LARGE_FIGHTERS_HANGAR_3"
+}
+
+strike_craft_component_template = {
+	key = "ZEON_MS_STRIKE_CRAFT_MS_06R_1A_1" #MS-06R-1A Zaku II HMT
+	size = LARGE
+	entity = "fighter_1z_entity"
+
+	weapon_type = point_defence
+	projectile_gfx = "auto_cannons_s"
+	power = -15 #1012kW / 3 because 1 suit only
+	cost = 22 #76.8 tons = 47 + 3 for improved armor + 15 for gun / 3 because 1 suit only
+
+	count = 1
+	regeneration_per_day = 0.034
+	launch_time = 8.0
+
+	damage = { min = 10 max = 25 } #120mm
+	cooldown = 5
+	range = 20
+	accuracy = 0.82
+	tracking = 0.65
+
+	health = 107
+	armor = 13
+	shield = 0
+	evasion = 0.5
+
+	speed = 4.6 #0.68G
+	rotation_speed = 0.1
+	acceleration = 0.5
+
+	shield_damage = 1.0 #MEDIUM AUTOCANNON
+	shield_penetration = 0
+	armor_penetration = 0.1
+
+	ship_behavior = "fighters_behavior"
+
+	icon = "GFX_ship_part_ms_06r_1a"
+	icon_frame = 1
+	component_set = "MS_06R_1A_HANGAR_1"
+	prerequisites = { "tech_MS_06R_1A" }
+	tags = { weapon_type_strike_craft }
+	upgrades_to = "ZEON_MS_STRIKE_CRAFT_MS_06R_2_1"
+}
+
+strike_craft_component_template = {
+	key = "ZEON_MS_STRIKE_CRAFT_MS_06R_1A_2" #MS-06R-1A Zaku II HMT
+	size = LARGE
+	entity = "fighter_1z_entity"
+
+	weapon_type = missile
+	projectile_gfx = "small_missile"
+	power = -15 #1012kW / 3, single suit
+	cost = 23 #76.8 tons = 47 + 3 for improved armor + 20 for bazooka / 3, single suit
+
+	count = 1
+	regeneration_per_day = 0.034
+	launch_time = 8.0
+
+	damage = { min = 45 max = 80 } #280mm Bazooka
+	cooldown = 20
+	range = 50
+	accuracy = 0.75
+	tracking = 0.2
+
+	health = 107
+	armor = 13
+	shield = 0
+	evasion = 0.5
+
+	speed = 4.6 #0.68G
+	rotation_speed = 0.1
+	acceleration = 0.5
+
+	shield_damage = 1.15 #MEDIUM MISSILE
+	shield_penetration = 0
+	armor_penetration = 0.25
+
+	ship_behavior = "fighters_behavior"
+
+	icon = "GFX_ship_part_ms_06r_1a"
+	icon_frame = 1
+	component_set = "MS_06R_1A_HANGAR_2"
+	prerequisites = { "tech_MS_06R_1A" }
+	tags = { weapon_type_strike_craft }
+	upgrades_to = "ZEON_MS_STRIKE_CRAFT_MS_06R_2_2"
+}
+
+strike_craft_component_template = {
+	key = "ZEON_MS_STRIKE_CRAFT_MS_06R_2_1" #MS-06R-2 Zaku II HMT
+	size = LARGE
+	entity = "fighter_1z_entity"
+
+	weapon_type = point_defence
+	projectile_gfx = "auto_cannons_s"
+	power = -20 #1340kW / 3, single suit
+	cost = 22 #75 tons = 46 + 4 for improved armor + 15 for gun / 3, single suit
+
+	count = 1
+	regeneration_per_day = 0.034
+	launch_time = 8.0
+
+	damage = { min = 10 max = 25 } #120mm
+	cooldown = 5
+	range = 20
+	accuracy = 0.82
+	tracking = 0.65
+
+	health = 106
+	armor = 14 #Improved legs
+	shield = 0
+	evasion = 0.5
+
+	speed = 5.4 #0.80G
+	rotation_speed = 0.1
+	acceleration = 0.5
+
+	shield_damage = 1.0 #MEDIUM AUTOCANNON
+	shield_penetration = 0
+	armor_penetration = 0.1
+
+	ship_behavior = "fighters_behavior"
+
+	icon = "GFX_ship_part_ms_06r_2"
+	icon_frame = 1
+	component_set = "MS_06R_2_HANGAR_1"
+	prerequisites = { "tech_MS_06R_2" }
+	tags = { weapon_type_strike_craft }
+	upgrades_to = "ZEON_MS_STRIKE_CRAFT_MS_06R_2P_1"
+}
+
+strike_craft_component_template = {
+	key = "ZEON_MS_STRIKE_CRAFT_MS_06R_2_2" #MS-06R-2 Zaku II HMT
+	size = LARGE
+	entity = "fighter_1z_entity"
+
+	weapon_type = missile
+	projectile_gfx = "small_missile"
+	power = -20 #1340kW / 3, single suit
+	cost = 23 #75 tons = 46 + 4 for improved armor + 20 for gun / 3, single suit
+
+	count = 1
+	regeneration_per_day = 0.034
+	launch_time = 8.0
+
+	damage = { min = 45 max = 80 } #280mm Bazooka
+	cooldown = 20
+	range = 50
+	accuracy = 0.75
+	tracking = 0.2
+
+	health = 106
+	armor = 14 #Improved legs
+	shield = 0
+	evasion = 0.5
+
+	speed = 5.4 #0.80G
+	rotation_speed = 0.1
+	acceleration = 0.5
+
+	shield_damage = 1.15 #MEDIUM MISSILE
+	shield_penetration = 0
+	armor_penetration = 0.25
+
+	ship_behavior = "fighters_behavior"
+
+	icon = "GFX_ship_part_ms_06r_2"
+	icon_frame = 1
+	component_set = "MS_06R_2_HANGAR_2"
+	prerequisites = { "tech_MS_06R_2" }
+	tags = { weapon_type_strike_craft }
+	upgrades_to = "ZEON_MS_STRIKE_CRAFT_MS_06R_2P_2"
+}
+
+strike_craft_component_template = {
+	key = "ZEON_MS_STRIKE_CRAFT_MS_06R_2P_1" #MS-06R-2P Zaku II HMT
+	size = LARGE
+	entity = "fighter_1z_entity"
+
+	weapon_type = point_defence
+	projectile_gfx = "auto_cannons_s"
+	power = -21 #1440kW
+	cost = 22 #76.8 tons = 47 + 3 for improved armor + 15 for gun
+
+	count = 1
+	regeneration_per_day = 0.034
+	launch_time = 8.0
+
+	damage = { min = 10 max = 25 } #120mm
+	cooldown = 5
+	range = 20
+	accuracy = 0.82
+	tracking = 0.65
+
+	health = 107
+	armor = 13
+	shield = 0
+	evasion = 0.5
+
+	speed = 5.7 #0.84375G
+	rotation_speed = 0.1
+	acceleration = 0.5
+
+	shield_damage = 1.0 #MEDIUM AUTOCANNON
+	shield_penetration = 0
+	armor_penetration = 0.1
+
+	ship_behavior = "fighters_behavior"
+
+	icon = "GFX_ship_part_ms_06r_2p"
+	icon_frame = 1
+	component_set = "MS_06R_2P_HANGAR_1"
+	prerequisites = { "tech_MS_06R_2P" }
+	tags = { weapon_type_strike_craft }
+	upgrades_to = "ZEON_MS_STRIKE_CRAFT_MS_06R_3S_1"
+}
+
+strike_craft_component_template = {
+	key = "ZEON_MS_STRIKE_CRAFT_MS_06R_2P_2" #MS-06R-2P Zaku II HMT
+	size = LARGE
+	entity = "fighter_1z_entity"
+
+	weapon_type = missile
+	projectile_gfx = "small_missile"
+	power = -21 #1440kW
+	cost = 23 #76.8 tons = 47 + 3 for improved armor + 20 for gun
+
+	count = 1
+	regeneration_per_day = 0.034
+	launch_time = 8.0
+
+	damage = { min = 45 max = 80 } #280mm Bazooka
+	cooldown = 20
+	range = 50
+	accuracy = 0.75
+	tracking = 0.2
+
+	health = 107
+	armor = 13
+	shield = 0
+	evasion = 0.5
+
+	speed = 5.7 #0.84375G
+	rotation_speed = 0.1
+	acceleration = 0.5
+
+	shield_damage = 1.15 #MEDIUM MISSILE
+	shield_penetration = 0
+	armor_penetration = 0.25
+
+	ship_behavior = "fighters_behavior"
+
+	icon = "GFX_ship_part_ms_06r_2p"
+	icon_frame = 1
+	component_set = "MS_06R_2P_HANGAR_2"
+	prerequisites = { "tech_MS_06R_2P" }
+	tags = { weapon_type_strike_craft }
+	upgrades_to = "ZEON_MS_STRIKE_CRAFT_MS_06R_3S_2"
+}
+
+strike_craft_component_template = {
+	key = "ZEON_MS_STRIKE_CRAFT_MS_06R_3S_1" #MS-06R-3S Zaku II HMT
+	size = LARGE
+	entity = "fighter_1z_entity"
+
+	weapon_type = point_defence
+	projectile_gfx = "MPC1" #Find beam gfx
+	power = -21 #1390kW
+	cost = 26 #73.7 tons = 45 + 4 for improved armor + 30 for gun
+
+	count = 1
+	regeneration_per_day = 0.034
+	launch_time = 8.0
+
+	damage = { min = 50 max = 150 } #Beam Rifle/MPC 1
+	cooldown = 25
+	range = 30
+	accuracy = 0.82
+	tracking = 0.65
+
+	health = 105
+	armor = 14
+	shield = 0
+	evasion = 0.5
+
+	speed = 5.2 #0.77G
+	rotation_speed = 0.1
+	acceleration = 0.5
+
+	shield_damage = 0.67 #MPC1
+	shield_penetration = 0
+	armor_penetration = 0.9
+
+	ship_behavior = "fighters_behavior"
+
+	icon = "GFX_ship_part_ms_06r_3s"
+	icon_frame = 1
+	component_set = "MS_06R_3S_HANGAR_1"
+	prerequisites = { "tech_MS_06R_3S" }
+	tags = { weapon_type_strike_craft }
+	upgrades_to = "ZEON_MS_STRIKE_CRAFT_MS_14A_1"
+}
+
+strike_craft_component_template = {
+	key = "ZEON_MS_STRIKE_CRAFT_MS_06R_3S_2" #MS-06R-3S Zaku II HMT
+	size = LARGE
+	entity = "fighter_1z_entity"
+
+	weapon_type = missile
+	projectile_gfx = "small_missile" #Find beam gfx
+	power = -21 #1390kW
+	cost = 25 #73.7 tons = 45 + 4 for improved armor + 25 for gun
+
+	count = 1
+	regeneration_per_day = 0.034
+	launch_time = 8.0
+
+	damage = { min = 50 max = 90 } #360mm Bazooka
+	cooldown = 20
+	range = 60
+	accuracy = 0.80
+	tracking = 0.2
+
+	health = 105
+	armor = 14
+	shield = 0
+	evasion = 0.5
+
+	speed = 5.2 #0.77G
+	rotation_speed = 0.1
+	acceleration = 0.5
+
+	shield_damage = 1.15 #MEDIUM MISSILE
+	shield_penetration = 0
+	armor_penetration = 0.25
+
+	ship_behavior = "fighters_behavior"
+
+	icon = "GFX_ship_part_ms_06r_3s"
+	icon_frame = 1
+	component_set = "MS_06R_3S_HANGAR_2"
+	prerequisites = { "tech_MS_06R_3S" }
+	tags = { weapon_type_strike_craft }
+	upgrades_to = "ZEON_MS_STRIKE_CRAFT_MS_14A_2"
+}
+
+strike_craft_component_template = {
+	key = "ZEON_MS_STRIKE_CRAFT_MS_14A_1" #MS-14A Gelgoog A
+	size = LARGE
+	entity = "fighter_1z_entity"
+
+	weapon_type = point_defence
+	projectile_gfx = "MPC1" #Find beam gfx
+	power = -64 #1440kW
+	cost = 80 #73.3 tons = 45 + 5 for improved armor + 30 for gun
+
+	count = 3
+	regeneration_per_day = 0.034
+	launch_time = 8.0
+
+	damage = { min = 50 max = 150 } #Beam Rifle/MPC 1
+	cooldown = 25
+	range = 30
+	accuracy = 0.82
+	tracking = 0.65
+
+	health = 105
+	armor = 15
+	shield = 0
+	evasion = 0.5
+
+	speed = 5.7 #0.84G
+	rotation_speed = 0.1
+	acceleration = 0.5
+
+	shield_damage = 0.67 #MPC1
+	shield_penetration = 0
+	armor_penetration = 0.9
+
+	ship_behavior = "fighters_behavior"
+
+	icon = "GFX_ship_part_ms_14a"
+	icon_frame = 1
+	component_set = "MS_14A_HANGAR_1"
+	prerequisites = { "tech_MS_14A" }
+	tags = { weapon_type_strike_craft }
+	upgrades_to = "ZEON_MS_STRIKE_CRAFT_MS_14F_1"
+}
+
+strike_craft_component_template = {
+	key = "ZEON_MS_STRIKE_CRAFT_MS_14A_2" #MS-14A Gelgoog A
+	size = LARGE
+	entity = "fighter_1z_entity"
+
+	weapon_type = missile
+	projectile_gfx = "small_missile" #Find beam gfx
+	power = -64 #1440kW
+	cost = 75 #73.3 tons = 45 + 5 for improved armor + 25 for gun
+
+	count = 3
+	regeneration_per_day = 0.034
+	launch_time = 8.0
+
+	damage = { min = 50 max = 90 } #360mm Bazooka
+	cooldown = 20
+	range = 60
+	accuracy = 0.8
+	tracking = 0.25
+
+	health = 105
+	armor = 15
+	shield = 0
+	evasion = 0.5
+
+	speed = 5.7 #0.84G
+	rotation_speed = 0.1
+	acceleration = 0.5
+
+	shield_damage = 1.15 #MEDIUM MISSILE
+	shield_penetration = 0
+	armor_penetration = 0.25
+
+	ship_behavior = "fighters_behavior"
+
+	icon = "GFX_ship_part_ms_14a"
+	icon_frame = 1
+	component_set = "MS_14A_HANGAR_2"
+	prerequisites = { "tech_MS_14A" }
+	tags = { weapon_type_strike_craft }
+	upgrades_to = "ZEON_MS_STRIKE_CRAFT_MS_14F_2"
+}
+
+strike_craft_component_template = {
+	key = "ZEON_MS_STRIKE_CRAFT_MS_14B_1" #MS-14B Gelgoog B
+	size = LARGE
+	entity = "fighter_1z_entity"
+
+	weapon_type = point_defence
+	projectile_gfx = "MPC1" #Find beam gfx
+	power = -64 #1440kW
+	cost = 82 #76.8 tons = 47 + 5 for improved armor + 30 for gun
+
+	count = 3
+	regeneration_per_day = 0.034
+	launch_time = 8.0
+
+	damage = { min = 50 max = 150 } #Beam Rifle/MPC 1
+	cooldown = 25
+	range = 30
+	accuracy = 0.82
+	tracking = 0.65
+
+	health = 107
+	armor = 15
+	shield = 0
+	evasion = 0.5
+
+	speed = 7.1 #1.04G
+	rotation_speed = 0.1
+	acceleration = 0.5
+
+	shield_damage = 0.67 #MPC1
+	shield_penetration = 0
+	armor_penetration = 0.9
+
+	ship_behavior = "fighters_behavior"
+
+	icon = "GFX_ship_part_ms_14b"
+	icon_frame = 1
+	component_set = "MS_14B_HANGAR_1"
+	prerequisites = { "tech_MS_14B" }
+	tags = { weapon_type_strike_craft }
+	upgrades_to = "ZEON_MS_STRIKE_CRAFT_MS_14BR_1"
+}
+
+strike_craft_component_template = {
+	key = "ZEON_MS_STRIKE_CRAFT_MS_14B_2" #MS-14B Gelgoog B
+	size = LARGE
+	entity = "fighter_1z_entity"
+
+	weapon_type = missile
+	projectile_gfx = "small_missile" #Find beam gfx
+	power = -64 #1440kW
+	cost = 78 #76.8 tons = 47 + 5 for improved armor + 25 for gun
+
+	count = 3
+	regeneration_per_day = 0.034
+	launch_time = 8.0
+
+	damage = { min = 50 max = 90 } #360mm Bazooka
+	cooldown = 20
+	range = 60
+	accuracy = 0.8
+	tracking = 0.25
+
+	health = 107
+	armor = 15
+	shield = 0
+	evasion = 0.5
+
+	speed = 7.1 #1.04G
+	rotation_speed = 0.1
+	acceleration = 0.5
+
+	shield_damage = 1.15 #MEDIUM MISSILE
+	shield_penetration = 0
+	armor_penetration = 0.25
+
+	ship_behavior = "fighters_behavior"
+
+	icon = "GFX_ship_part_ms_14b"
+	icon_frame = 1
+	component_set = "MS_14B_HANGAR_2"
+	prerequisites = { "tech_MS_14B" }
+	tags = { weapon_type_strike_craft }
+	upgrades_to = "ZEON_MS_STRIKE_CRAFT_MS_14BR_2"
+}
+
+strike_craft_component_template = {
+	key = "ZEON_MS_STRIKE_CRAFT_MS_14BR_1" #MS-14BR Gelgoog BR
+	size = LARGE
+	entity = "fighter_1z_entity"
+
+	weapon_type = point_defence
+	projectile_gfx = "MPC1" #Find beam gfx
+	power = -64 #1440kW
+	cost = 85 #76.8 tons = 47 + 5 for improved armor + 3 for improved thrusters + 30 for gun
+
+	count = 3
+	regeneration_per_day = 0.034
+	launch_time = 8.0
+
+	damage = { min = 50 max = 150 } #Beam Rifle/MPC 1
+	cooldown = 25
+	range = 30
+	accuracy = 0.82
+	tracking = 0.65
+
+	health = 107
+	armor = 14 #Lost leg armor
+	shield = 0
+	evasion = 0.6 #Improved thrusters and shite
+
+	speed = 7.1 #1.04G
+	rotation_speed = 0.1
+	acceleration = 0.5
+
+	shield_damage = 0.67 #MPC1
+	shield_penetration = 0
+	armor_penetration = 0.9
+
+	ship_behavior = "fighters_behavior"
+
+	icon = "GFX_ship_part_ms_14br"
+	icon_frame = 1
+	component_set = "MS_14BR_HANGAR_1"
+	prerequisites = { "tech_MS_14BR" }
+	tags = { weapon_type_strike_craft }
+	#upgrades_to = "ZEON_MS_STRIKE_CRAFT_MS_06F2"
+}
+
+strike_craft_component_template = {
+	key = "ZEON_MS_STRIKE_CRAFT_MS_14BR_2" #MS-14BR Gelgoog BR
+	size = LARGE
+	entity = "fighter_1z_entity"
+
+	weapon_type = missile
+	projectile_gfx = "small_missile" #Find beam gfx
+	power = -64 #1440kW
+	cost = 80 #76.8 tons = 47 + 5 for improved armor + 3 for improved thrusters + 25 for gun
+
+	count = 3
+	regeneration_per_day = 0.034
+	launch_time = 8.0
+
+	damage = { min = 50 max = 90 } #360mm Bazooka
+	cooldown = 20
+	range = 60
+	accuracy = 0.8
+	tracking = 0.25
+
+	health = 107
+	armor = 14 #Lost leg armor
+	shield = 0
+	evasion = 0.6 #Improved thrusters and shite
+
+	speed = 7.1 #1.04G
+	rotation_speed = 0.1
+	acceleration = 0.5
+
+	shield_damage = 1.15 #MEDIUM MISSILE
+	shield_penetration = 0
+	armor_penetration = 0.25
+
+	ship_behavior = "fighters_behavior"
+
+	icon = "GFX_ship_part_ms_14br"
+	icon_frame = 1
+	component_set = "MS_14BR_HANGAR_2"
+	prerequisites = { "tech_MS_14BR" }
+	tags = { weapon_type_strike_craft }
+	#upgrades_to = "ZEON_MS_STRIKE_CRAFT_MS_06F2"
+}
+
+strike_craft_component_template = {
+	key = "ZEON_MS_STRIKE_CRAFT_MS_14F_1" #MS-14F Gelgoog Marine
+	size = LARGE
+	entity = "fighter_1z_entity"
+
+	weapon_type = point_defence
+	projectile_gfx = "MPC1" #Find beam gfx
+	power = -64 #1440kW
+	cost = 86 #81.3 tons = 50 + 6 for improved armor + 30 for gun
+
+	count = 3
+	regeneration_per_day = 0.034
+	launch_time = 8.0
+
+	damage = { min = 50 max = 150 } #Beam Rifle/MPC 1
+	cooldown = 25
+	range = 30
+	accuracy = 0.82
+	tracking = 0.65
+
+	health = 110
+	armor = 16 #Improved over A
+	shield = 0
+	evasion = 0.55 #Weird camo
+
+	speed = 4.6 #0.68G
+	rotation_speed = 0.1
+	acceleration = 0.5
+
+	shield_damage = 0.67 #MPC1
+	shield_penetration = 0
+	armor_penetration = 0.9
+
+	ship_behavior = "fighters_behavior"
+
+	icon = "GFX_ship_part_ms_14f"
+	icon_frame = 1
+	component_set = "MS_14F_HANGAR_1"
+	prerequisites = { "tech_MS_14F" }
+	tags = { weapon_type_strike_craft }
+	upgrades_to = "ZEON_MS_STRIKE_CRAFT_MS_14JG_1"
+}
+
+strike_craft_component_template = {
+	key = "ZEON_MS_STRIKE_CRAFT_MS_14F_2" #MS-14F Gelgoog Marine
+	size = LARGE
+	entity = "fighter_1z_entity"
+
+	weapon_type = missile
+	projectile_gfx = "small_missile" #Find beam gfx
+	power = -64 #1440kW
+	cost = 86 #81.3 tons = 50 + 6 for improved armor + 30 for gun
+
+	count = 3
+	regeneration_per_day = 0.034
+	launch_time = 8.0
+
+	damage = { min = 60 max = 100 } #360mm Bazooka II
+	cooldown = 20
+	range = 70
+	accuracy = 0.85
+	tracking = 0.3
+
+	health = 110
+	armor = 16 #Improved over A
+	shield = 0
+	evasion = 0.55 #Weird camo
+
+	speed = 4.6 #0.68G
+	rotation_speed = 0.1
+	acceleration = 0.5
+
+	shield_damage = 1.15 #MEDIUM MISSILE
+	shield_penetration = 0
+	armor_penetration = 0.25
+
+	ship_behavior = "fighters_behavior"
+
+	icon = "GFX_ship_part_ms_14f"
+	icon_frame = 1
+	component_set = "MS_14F_HANGAR_2"
+	prerequisites = { "tech_MS_14F" }
+	tags = { weapon_type_strike_craft }
+	upgrades_to = "ZEON_MS_STRIKE_CRAFT_MS_14JG_2"
+}
+
+strike_craft_component_template = {
+	key = "ZEON_MS_STRIKE_CRAFT_MS_14JG_1" #MS-14Jg Gelgoog Jäger
+	size = LARGE
+	entity = "fighter_1z_entity"
+
+	weapon_type = point_defence
+	projectile_gfx = "MPC1" #Find beam gfx
+	power = -66 #1490
+	cost = 79 #80.3 tons = 49 + 5 for improved armor + 30 for gun - (tonnage over 40 + armor / 2 for UMP)
+
+	count = 3
+	regeneration_per_day = 0.034
+	launch_time = 8.0
+
+	damage = { min = 50 max = 150 } #Beam Rifle/MPC 1
+	cooldown = 25
+	range = 30
+	accuracy = 0.82
+	tracking = 0.65
+
+	health = 109
+	armor = 15
+	shield = 0
+	evasion = 0.6 #Fast as fuck
+
+	speed = 15.1 #2.22G
+	rotation_speed = 0.1
+	acceleration = 0.5
+
+	shield_damage = 0.67 #MPC1
+	shield_penetration = 0
+	armor_penetration = 0.9
+
+	ship_behavior = "fighters_behavior"
+
+	icon = "GFX_ship_part_ms_14jg"
+	icon_frame = 1
+	component_set = "MS_14JG_HANGAR_1"
+	prerequisites = { "tech_MS_14JG" }
+	tags = { weapon_type_strike_craft }
+	#upgrades_to = "ZEON_MS_STRIKE_CRAFT_MS_06F2"
+}
+
+strike_craft_component_template = {
+	key = "ZEON_MS_STRIKE_CRAFT_MS_14JG_2" #MS-14Jg Gelgoog Jäger
+	size = LARGE
+	entity = "fighter_1z_entity"
+
+	weapon_type = missile
+	projectile_gfx = "small_missile"
+	power = -66 #1490
+	cost = 64 #80.3 tons = 49 + 5 for improved armor + 15 for gun - (tonnage over 40 + armor / 2 for UMP)
+
+	count = 3
+	regeneration_per_day = 0.034
+	launch_time = 8.0
+
+	damage = { min = 60 max = 100 } #360mm Bazooka II
+	cooldown = 20
+	range = 70
+	accuracy = 0.85
+	tracking = 0.3
+
+	health = 109
+	armor = 15
+	shield = 0
+	evasion = 0.6 #Fast as fuck
+
+	speed = 15.1 #2.22G
+	rotation_speed = 0.1
+	acceleration = 0.5
+
+	shield_damage = 1.15 #MEDIUM MISSILE
+	shield_penetration = 0
+	armor_penetration = 0.25
+
+	ship_behavior = "fighters_behavior"
+
+	icon = "GFX_ship_part_ms_14jg"
+	icon_frame = 1
+	component_set = "MS_14JG_HANGAR_2"
+	prerequisites = { "tech_MS_14JG" }
+	tags = { weapon_type_strike_craft }
+	#upgrades_to = "ZEON_MS_STRIKE_CRAFT_MS_06F2"
+}
+
+strike_craft_component_template = {
+	key = "ZEON_MS_STRIKE_CRAFT_MS_06RD_4_1" #MS-06RD-4 Zaku HMT
+	size = LARGE
+	entity = "fighter_1z_entity"
+
+	weapon_type = point_defence
+	projectile_gfx = "auto_cannons_s"
+	power = -15 #986kW
+	cost = 21 #77.5 tons = 48 tons + 15 for gun
+
+	count = 1
+	regeneration_per_day = 0.034
+	launch_time = 8.0
+
+	damage = { min = 10 max = 25 } #120mm
+	cooldown = 5
+	range = 20
+	accuracy = 0.82
+	tracking = 0.65
+
+	health = 108
+	armor = 10
+	shield = 0
+	evasion = 0.5
+
+	speed = 4.6 #0.68G
+	rotation_speed = 0.1
+	acceleration = 0.5
+
+	shield_damage = 1.0 #MEDIUM AUTOCANNON
+	shield_penetration = 0
+	armor_penetration = 0.1
+
+	ship_behavior = "fighters_behavior"
+
+	icon = "GFX_ship_part_ms_06rd_4"
+	icon_frame = 1
+	component_set = "MS_06RD_4_HANGAR_1"
+	prerequisites = { "tech_MS_06RD_4" }
+	tags = { weapon_type_strike_craft }
+	upgrades_to = "ZEON_MS_STRIKE_CRAFT_MS_09R_1"
+}
+
+strike_craft_component_template = {
+	key = "ZEON_MS_STRIKE_CRAFT_MS_06RD_4_2" #MS-06RD-4 Zaku HMT
+	size = LARGE
+	entity = "fighter_1z_entity"
+
+	weapon_type = missile
+	projectile_gfx = "small_missile"
+	power = -15 #986kW
+	cost = 23 #77.5 tons = 48 tons + 20 for gun
+
+	count = 1
+	regeneration_per_day = 0.034
+	launch_time = 8.0
+
+	damage = { min = 45 max = 80 } #280mm Bazooka
+	cooldown = 20
+	range = 50
+	accuracy = 0.8275
+	tracking = 0.2
+
+	health = 108
+	armor = 10
+	shield = 0
+	evasion = 0.5
+
+	speed = 4.6 #0.68G
+	rotation_speed = 0.1
+	acceleration = 0.5
+
+	shield_damage = 1.15 #MEDIUM MISSILE
+	shield_penetration = 0
+	armor_penetration = 0.25
+
+	ship_behavior = "fighters_behavior"
+
+	icon = "GFX_ship_part_ms_06rd_4"
+	icon_frame = 1
+	component_set = "MS_06RD_4_HANGAR_2"
+	prerequisites = { "tech_MS_06RD_4" }
+	tags = { weapon_type_strike_craft }
+	upgrades_to = "ZEON_MS_STRIKE_CRAFT_MS_09R_2"
+}
+
+strike_craft_component_template = {
+	key = "ZEON_MS_STRIKE_CRAFT_MS_09R_1" #MS-09R Rick Dom
+	size = LARGE
+	entity = "fighter_1z_entity"
+
+	weapon_type = point_defence
+	projectile_gfx = "auto_cannons_s"
+	power = -53 #1199kW
+	cost = 67 #78.6 tons = 48 tons + 15 for gun + 5 for armor
+
+	count = 3
+	regeneration_per_day = 0.034
+	launch_time = 8.0
+
+	damage = { min = 10 max = 25 } #120mm
+	cooldown = 5
+	range = 20
+	accuracy = 0.82
+	tracking = 0.65
+
+	health = 108
+	armor = 15 #Superior armor to Zaku, same as Kai
+	shield = 0
+	evasion = 0.55 #Improved maneuvrability
+
+	speed = 4.6 #0.67G
+	rotation_speed = 0.1
+	acceleration = 0.5
+
+	shield_damage = 1.0 #MEDIUM AUTOCANNON
+	shield_penetration = 0
+	armor_penetration = 0.1
+
+	ship_behavior = "fighters_behavior"
+
+	icon = "GFX_ship_part_ms_09r"
+	icon_frame = 1
+	component_set = "MS_09R_HANGAR_1"
+	prerequisites = { "tech_MS_09R" }
+	tags = { weapon_type_strike_craft }
+	upgrades_to = "ZEON_MS_STRIKE_CRAFT_MS_09R_2_1"
+}
+
+strike_craft_component_template = {
+	key = "ZEON_MS_STRIKE_CRAFT_MS_09R_2" #MS-09R Rick Dom
+	size = LARGE
+	entity = "fighter_1z_entity"
+
+	weapon_type = missile
+	projectile_gfx = "small_missile"
+	power = -53 #1199kW
+	cost = 77 #78.6 tons = 48 tons + 25 for gun + 5 for armor
+
+	count = 3
+	regeneration_per_day = 0.034
+	launch_time = 8.0
+
+	damage = { min = 50 max = 90 } #360mm Bazooka
+	cooldown = 20
+	range = 60
+	accuracy = 0.8
+	tracking = 0.25
+
+	health = 108
+	armor = 15 #Superior armor to Zaku, same as Kai
+	shield = 0
+	evasion = 0.55 #Improved maneuvrability
+
+	speed = 4.6 #0.67G
+	rotation_speed = 0.1
+	acceleration = 0.5
+
+	shield_damage = 1.15 #MEDIUM MISSILE
+	shield_penetration = 0
+	armor_penetration = 0.25
+
+	ship_behavior = "fighters_behavior"
+
+	icon = "GFX_ship_part_ms_09r"
+	icon_frame = 1
+	component_set = "MS_09R_HANGAR_2"
+	prerequisites = { "tech_MS_09R" }
+	tags = { weapon_type_strike_craft }
+	upgrades_to = "ZEON_MS_STRIKE_CRAFT_MS_09R_2_2"
+}
+
+strike_craft_component_template = {
+	key = "ZEON_MS_STRIKE_CRAFT_MS_09R_2_1" #MS-09R-2 Rick Dom
+	size = LARGE
+	entity = "fighter_1z_entity"
+
+	weapon_type = point_defence
+	projectile_gfx = "auto_cannons_s"
+	power = -54 #1219
+	cost = 60 #79.9 tons = 49 tons + 5 for gun + 5 for armor -7 for UMP costs
+
+	count = 3
+	regeneration_per_day = 0.034
+	launch_time = 8.0
+
+	damage = { min = 10 max = 20 } #90mm
+	cooldown = 3 #Improved rate of fire
+	range = 25
+	accuracy = 0.82
+	tracking = 0.65
+
+	health = 109
+	armor = 15 #Superior armor to Zaku, same as Kai
+	shield = 0
+	evasion = 0.6 #Improved maneuvrability
+
+	speed = 9.4 #1.38G
+	rotation_speed = 0.1
+	acceleration = 0.5
+
+	shield_damage = 1.0 #MEDIUM AUTOCANNON
+	shield_penetration = 0
+	armor_penetration = 0.2 #Improved penetration from 90mm
+
+	ship_behavior = "fighters_behavior"
+
+	icon = "GFX_ship_part_ms_09r_2"
+	icon_frame = 1
+	component_set = "MS_09R_2_HANGAR_1"
+	prerequisites = { "tech_MS_09R_2" }
+	tags = { weapon_type_strike_craft }
+	#upgrades_to = "ZEON_MS_STRIKE_CRAFT_MS_06F2"
+}
+
+strike_craft_component_template = {
+	key = "ZEON_MS_STRIKE_CRAFT_MS_09R_2_2" #MS-09R-2 Rick Dom
+	size = LARGE
+	entity = "fighter_1z_entity"
+
+	weapon_type = point_defence
+	projectile_gfx = "auto_cannons_s"
+	power = -54 #1219
+	cost = 70 #79.9 tons = 49 tons + 15 for gun + 5 for armor -7 for UMP costs
+
+	count = 3
+	regeneration_per_day = 0.034
+	launch_time = 8.0
+
+	damage = { min = 60 max = 100 } #360mm Bazooka II
+	cooldown = 20
+	range = 70
+	accuracy = 0.85
+	tracking = 0.3
+
+	health = 109
+	armor = 15 #Superior armor to Zaku, same as Kai
+	shield = 0
+	evasion = 0.6 #Improved maneuvrability
+
+	speed = 9.4 #1.38G
+	rotation_speed = 0.1
+	acceleration = 0.5
+
+	shield_damage = 1.15 #MEDIUM MISSILE
+	shield_penetration = 0
+	armor_penetration = 0.25
+
+	ship_behavior = "fighters_behavior"
+
+	icon = "GFX_ship_part_ms_09r_2"
+	icon_frame = 1
+	component_set = "MS_09R_2_HANGAR_2"
+	prerequisites = { "tech_MS_09R_2" }
+	tags = { weapon_type_strike_craft }
+	#upgrades_to = "ZEON_MS_STRIKE_CRAFT_MS_06F2"
+}
+
+strike_craft_component_template = {
+	key = "ZEON_MS_STRIKE_CRAFT_MS_06K" #MS-06K Zaku Cannon
+	size = LARGE
+	entity = "fighter_1z_entity"
+
+	weapon_type = point_defence
+	projectile_gfx = "mass_driver_s"
+	power = -43 #976kW
+	cost = 76 #83.2 tons = 51 tons + 25 for cannon
+
+	count = 3
+	regeneration_per_day = 0.034
+	launch_time = 8.0
+
+	damage = { min = 106 max = 218 } #Cannon - supposedly able to destroy MS in single hit
+	cooldown = 60
+	range = 70
+	accuracy = 0.70
+	tracking = 0.0
+
+	health = 111
+	armor = 10
+	shield = 0
+	evasion = 0.45 #Poor balance and not easy to use
+
+	speed = 3.3 #0.49G
+	rotation_speed = 0.1
+	acceleration = 0.5
+
+	shield_damage = 1.33 #KINETIC ARTILLERY
+	shield_penetration = 0
+	armor_penetration = 0.2
+
+	ship_behavior = "fighters_behavior"
+
+	icon = "GFX_ship_part_ms_06k"
+	icon_frame = 1
+	component_set = "MS_06K_HANGAR_1"
+	prerequisites = { "tech_MS_06K" }
+	tags = { weapon_type_strike_craft }
+	upgrades_to = "ZEON_MS_STRIKE_CRAFT_MS_09K_1"
+}
+
+strike_craft_component_template = {
+	key = "ZEON_MS_STRIKE_CRAFT_MS_06K_G" #MS-06K Zaku Gatling Cannon
+	size = LARGE
+	entity = "fighter_1z_entity"
+
+	weapon_type = point_defence
+	projectile_gfx = "auto_cannons_s"
+	power = -43 #976kW
+	cost = 71 #83.2 tons = 51 tons + 20 for cannon
+
+	count = 3
+	regeneration_per_day = 0.034
+	launch_time = 8.0
+
+	damage = { min = 10 max = 25 } #120mm Gatling, same damage, higher fire rate, longer range, less accuracy
+	cooldown = 1
+	range = 40
+	accuracy = 0.7
+	tracking = 0.65
+
+	health = 111
+	armor = 10
+	shield = 0
+	evasion = 0.45 #Poor balance and not easy to use
+
+	speed = 3.3 #0.49G
+	rotation_speed = 0.1
+	acceleration = 0.5
+
+	shield_damage = 1.0 #MEDIUM AUTOCANNON
+	shield_penetration = 0
+	armor_penetration = 0.1
+
+	ship_behavior = "fighters_behavior"
+
+	icon = "GFX_ship_part_ms_06k_g"
+	icon_frame = 1
+	component_set = "MS_06K_G_HANGAR_1"
+	prerequisites = { "tech_MS_06K" }
+	tags = { weapon_type_strike_craft }
+	#upgrades_to = "ZEON_MS_STRIKE_CRAFT_MS_06F2"
+}
+
+strike_craft_component_template = {
+	key = "ZEON_MS_STRIKE_CRAFT_MS_09K_1" #MS-09K-1 Dom Cannon
+	size = LARGE
+	entity = "fighter_1z_entity"
+
+	weapon_type = point_defence
+	projectile_gfx = "mass_driver_s"
+	power = -56 #1269
+	cost = 68 #69.2 tons = 43 tons + 25 for gun
+
+	count = 3
+	regeneration_per_day = 0.034
+	launch_time = 8.0
+
+	damage = { min = 106 max = 218 } #Cannon - supposedly able to destroy MS in single hit
+	cooldown = 60
+	range = 70
+	accuracy = 0.70
+	tracking = 0.0
+
+	health = 103
+	armor = 10
+	shield = 0
+	evasion = 0.55 #Improved maneuvrability
+
+	speed = 4.8 #0.71G
+	rotation_speed = 0.1
+	acceleration = 0.5
+
+	shield_damage = 1.33 #KINETIC ARTILLERY
+	shield_penetration = 0
+	armor_penetration = 0.2
+
+	ship_behavior = "fighters_behavior"
+
+	icon = "GFX_ship_part_ms_09k_1"
+	icon_frame = 1
+	component_set = "MS_09K_1_HANGAR_1"
+	prerequisites = { "tech_MS_09K" }
+	tags = { weapon_type_strike_craft }
+	upgrades_to = "ZEON_MS_STRIKE_CRAFT_MS_09K_2"
+}
+
+strike_craft_component_template = {
+	key = "ZEON_MS_STRIKE_CRAFT_MS_09K_2" #MS-09K-2 Dom Cannon
+	size = LARGE
+	entity = "fighter_1z_entity"
+
+	weapon_type = point_defence
+	projectile_gfx = "mass_driver_s"
+	power = -56 #1269
+	cost = 68 #69.2 tons = 43 tons + 25 for gun
+
+	count = 3
+	regeneration_per_day = 0.034
+	launch_time = 8.0
+
+	damage = { min = 41 max = 109 } #Double Cannon hit
+	cooldown = 25
+	range = 40
+	accuracy = 0.67
+	tracking = 0.05
+
+	health = 103
+	armor = 10
+	shield = 0
+	evasion = 0.55 #Improved maneuvrability
+
+	speed = 4.8 #0.71G
+	rotation_speed = 0.1
+	acceleration = 0.5
+
+	shield_damage = 1.33 #LARGE MASS DRIVER
+	shield_penetration = 0
+	armor_penetration = 0.3
+
+	ship_behavior = "fighters_behavior"
+
+	icon = "GFX_ship_part_ms_09k_2"
+	icon_frame = 1
+	component_set = "MS_09K_2_HANGAR_1"
+	prerequisites = { "tech_MS_09K" }
+	tags = { weapon_type_strike_craft }
+	upgrades_to = "ZEON_MS_STRIKE_CRAFT_MS_14C"
+}
+
+strike_craft_component_template = {
+	key = "ZEON_MS_STRIKE_CRAFT_MS_14C" #MS-14C Gelgoog Cannon
+	size = LARGE
+	entity = "fighter_1z_entity"
+
+	weapon_type = point_defence
+	projectile_gfx = "MPC1" #Find beam gfx
+	power = -64 #1440kW
+	cost = 104 #79.8 tons = 49 + 5 for improved armor + 50 for gun
+
+	count = 3
+	regeneration_per_day = 0.034
+	launch_time = 8.0
+
+	damage = { min = 100 max = 200 } #Beam Cannon - Large MPC
+	cooldown = 25
+	range = 60
+	accuracy = 0.8
+	tracking = 0.05
+
+	health = 109
+	armor = 15
+	shield = 0
+	evasion = 0.5
+
+	speed = 6.8 #1.00G
+	rotation_speed = 0.1
+	acceleration = 0.5
+
+	shield_damage = 0.67 #MPC1
+	shield_penetration = 0
+	armor_penetration = 0.9
+
+	ship_behavior = "fighters_behavior"
+
+	icon = "GFX_ship_part_ms_14c"
+	icon_frame = 1
+	component_set = "MS_14C_HANGAR_1"
+	prerequisites = { "tech_MS_14C" }
+	tags = { weapon_type_strike_craft }
+	#upgrades_to = "ZEON_MS_STRIKE_CRAFT_MS_14F"
+}

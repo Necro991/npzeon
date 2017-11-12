@@ -1,52 +1,52 @@
 objectTypes = {
 
-	
+
 	########################################################################
 	########														########
 	########					Test stuff							########
 	########														########
 	########################################################################
-			
+
 #	pdxmesh = {
 #		name = "mammalian_01_missile_mesh"
 #		file = "gfx/models/ships/mammalian_01/mammalian_01_missile_medium.mesh"
 #		scale = 1
 #		meshsettings = {
 #			shader = "PdxMeshShip"
-#			
+#
 #		}
 #	}
-		
+
 	####### EFSF Ships #######
-	
+
 	pdxmesh = { #Antietam-class MS Carrier
 		name = "Antietam_mesh"
 		file = "gfx/models/ships/fed_01/Antietam.mesh"
 		#	animation = { id = "idle"		type = "turret_projectile_large_idle_animation" }
-		#	animation = { id = "attack"		type = "turret_projectile_large_attack_animation" }	
+		#	animation = { id = "attack"		type = "turret_projectile_large_attack_animation" }
 		scale = 1.0
 		meshsettings = {
-			texture_diffuse = "Antietam_Diffuse.dds" 
-			texture_normal = "Antietam_Normal.dds" 
-			texture_specular = "Antietam_Specular.dds" 
+			texture_diffuse = "Antietam_Diffuse.dds"
+			texture_normal = "Antietam_Normal.dds"
+			texture_specular = "Antietam_Specular.dds"
 			shader = "PdxMeshShip"
 		}
 	}
-	
+
 	pdxmesh = { #Columbus
 		name = "Columbus_mesh"
 		file = "gfx/models/ships/fed_01/Columbus_Closed.mesh"
 		#	animation = { id = "idle"		type = "turret_projectile_large_idle_animation" }
-		#	animation = { id = "attack"		type = "turret_projectile_large_attack_animation" }	
+		#	animation = { id = "attack"		type = "turret_projectile_large_attack_animation" }
 		scale = 0.09
 		meshsettings = {
-			texture_diffuse = "Columbus_Close_Diffuse.dds" 
-			texture_normal = "Columbus_Close_Normal.dds" 
-			texture_specular = "Columbus_Close_Specular.dds" 
+			texture_diffuse = "Columbus_Close_Diffuse.dds"
+			texture_normal = "Columbus_Close_Normal.dds"
+			texture_specular = "Columbus_Close_Specular.dds"
 			shader = "PdxMeshShip"
 		}
 	}
-	
+
 	pdxmesh = { #Lepanto-class
 		name = "Lepanto_mesh"
 		file = "gfx/models/ships/fed_01/Lepanto.mesh"
@@ -54,9 +54,9 @@ objectTypes = {
 		#	animation = { id = "attack"		type = "turret_projectile_large_attack_animation" }
 		scale = 0.09
 		meshsettings = {
-			texture_diffuse = "Lepanto_Diffuse.dds" 
-			texture_normal = "Lepanto_Normal.dds" 
-			texture_specular = "Lepanto_Specular.dds" 
+			texture_diffuse = "Lepanto_Diffuse.dds"
+			texture_normal = "Lepanto_Normal.dds"
+			texture_specular = "Lepanto_Specular.dds"
 			shader = "PdxMeshShip"
 		}
 	}
@@ -65,68 +65,68 @@ objectTypes = {
 		name = "Salamis_mesh"
 		file = "gfx/models/ships/fed_01/Salamis.mesh"
 		#	animation = { id = "idle"		type = "turret_projectile_large_idle_animation" }
-		#	animation = { id = "attack"		type = "turret_projectile_large_attack_animation" }	
+		#	animation = { id = "attack"		type = "turret_projectile_large_attack_animation" }
 		scale = 0.09
 		meshsettings = {
-			texture_diffuse = "Salamis_Diffuse.dds" 
-			texture_normal = "Salamis_Normal.dds" 
-			texture_specular = "Salamis_Specular.dds" 
+			texture_diffuse = "Salamis_Diffuse.dds"
+			texture_normal = "Salamis_Normal.dds"
+			texture_specular = "Salamis_Specular.dds"
 			shader = "PdxMeshShip"
 		}
 	}
-	
+
 	pdxmesh = { #Salamis Kai-class Cruiser
 		name = "Salamis_Kai_mesh"
 		file = "gfx/models/ships/fed_01/Salamis_Kai.mesh"
 		#	animation = { id = "idle"		type = "turret_projectile_large_idle_animation" }
-		#	animation = { id = "attack"		type = "turret_projectile_large_attack_animation" }	
+		#	animation = { id = "attack"		type = "turret_projectile_large_attack_animation" }
 		scale = 0.09
 		meshsettings = {
-			texture_diffuse = "Salamis_Kai_Diffuse.dds" 
-			texture_normal = "Salamis_Kai_Normal.dds" 
-			texture_specular = "Salamis_Kai_Specular.dds" 
+			texture_diffuse = "Salamis_Kai_Diffuse.dds"
+			texture_normal = "Salamis_Kai_Normal.dds"
+			texture_specular = "Salamis_Kai_Specular.dds"
 			shader = "PdxMeshShip"
 		}
 	}
-	
+
 	pdxmesh = { #Salamis Fuji-class Cruiser
 		name = "Salamis_Fuji_mesh"
 		file = "gfx/models/ships/fed_01/Salamis_Fuji.mesh"
 		#	animation = { id = "idle"		type = "turret_projectile_large_idle_animation" }
-		#	animation = { id = "attack"		type = "turret_projectile_large_attack_animation" }	
+		#	animation = { id = "attack"		type = "turret_projectile_large_attack_animation" }
 		scale = 0.09
 		meshsettings = {
-			texture_diffuse = "Salamis_Fuji_Diffuse.dds" 
-			texture_normal = "Salamis_Fuji_Normal.dds" 
-			texture_specular = "Salamis_Fuji_Specular.dds" 
+			texture_diffuse = "Salamis_Fuji_Diffuse.dds"
+			texture_normal = "Salamis_Fuji_Normal.dds"
+			texture_specular = "Salamis_Fuji_Specular.dds"
 			shader = "PdxMeshShip"
 		}
 	}
-	
+
 	pdxmesh = { #Nelson-class Cruiser
 		name = "Nelson_mesh"
 		file = "gfx/models/ships/fed_01/Nelson.mesh"
 		#	animation = { id = "idle"		type = "turret_projectile_large_idle_animation" }
-		#	animation = { id = "attack"		type = "turret_projectile_large_attack_animation" }	
+		#	animation = { id = "attack"		type = "turret_projectile_large_attack_animation" }
 		scale = 1.2
 		meshsettings = {
-			texture_diffuse = "Nelson_Diffuse.dds" 
-			texture_normal = "Nelson_Normal.dds" 
-			texture_specular = "Nelson_Specular.dds" 
+			texture_diffuse = "Nelson_Diffuse.dds"
+			texture_normal = "Nelson_Normal.dds"
+			texture_specular = "Nelson_Specular.dds"
 			shader = "PdxMeshShip"
 		}
 	}
-	
+
 	pdxmesh = { #Clop-class Cruiser
 		name = "Clop_mesh"
 		file = "gfx/models/ships/fed_01/Clop.mesh"
 		#	animation = { id = "idle"		type = "turret_projectile_large_idle_animation" }
-		#	animation = { id = "attack"		type = "turret_projectile_large_attack_animation" }	
+		#	animation = { id = "attack"		type = "turret_projectile_large_attack_animation" }
 		scale = 2.0
 		meshsettings = {
-			texture_diffuse = "Magellan.dds" 
-			texture_normal = "musai_normal.dds" 
-			texture_specular = "musai_specular.dds" 
+			texture_diffuse = "Magellan.dds"
+			texture_normal = "musai_normal.dds"
+			texture_specular = "musai_specular.dds"
 			shader = "PdxMeshShip"
 		}
 	}
@@ -135,163 +135,163 @@ objectTypes = {
 		name = "Magellan_Kai_Blue_mesh"
 		file = "gfx/models/ships/fed_01/Magellan_Kai.mesh"
 		#	animation = { id = "idle"		type = "turret_projectile_large_idle_animation" }
-		#	animation = { id = "attack"		type = "turret_projectile_large_attack_animation" }	
+		#	animation = { id = "attack"		type = "turret_projectile_large_attack_animation" }
 		scale = 0.09
 		meshsettings = {
-			texture_diffuse = "Magellan_Kai_Blue_Diffuse.dds" 
-			texture_normal = "Magellan_Kai_Blue_Normal.dds" 
-			texture_specular = "Magellan_Kai_Blue_Specular.dds" 
+			texture_diffuse = "Magellan_Kai_Blue_Diffuse.dds"
+			texture_normal = "Magellan_Kai_Blue_Normal.dds"
+			texture_specular = "Magellan_Kai_Blue_Specular.dds"
 			shader = "PdxMeshShip"
 		}
 	}
-	
+
 	pdxmesh = { #Magellan Kai-class Battleship
 		name = "Magellan_Kai_White_mesh"
 		file = "gfx/models/ships/fed_01/Magellan_Kai.mesh"
 		#	animation = { id = "idle"		type = "turret_projectile_large_idle_animation" }
-		#	animation = { id = "attack"		type = "turret_projectile_large_attack_animation" }	
+		#	animation = { id = "attack"		type = "turret_projectile_large_attack_animation" }
 		scale = 0.09
 		meshsettings = {
-			texture_diffuse = "Magellan_Kai_White_Diffuse.dds" 
-			texture_normal = "Magellan_Kai_White_Normal.dds" 
-			texture_specular = "Magellan_Kai_White_Specular.dds" 
+			texture_diffuse = "Magellan_Kai_White_Diffuse.dds"
+			texture_normal = "Magellan_Kai_White_Normal.dds"
+			texture_specular = "Magellan_Kai_White_Specular.dds"
 			shader = "PdxMeshShip"
 		}
 	}
-	
+
 	pdxmesh = { #Magellan Kai-class Battleship
 		name = "Magellan_Kai_Green_mesh"
 		file = "gfx/models/ships/fed_01/Magellan_Kai.mesh"
 		#	animation = { id = "idle"		type = "turret_projectile_large_idle_animation" }
-		#	animation = { id = "attack"		type = "turret_projectile_large_attack_animation" }	
+		#	animation = { id = "attack"		type = "turret_projectile_large_attack_animation" }
 		scale = 0.09
 		meshsettings = {
-			texture_diffuse = "Magellan_Kai_Green_Diffuse.dds" 
-			texture_normal = "Magellan_Kai_Green_Normal.dds" 
-			texture_specular = "Magellan_Kai_Green_Specular.dds" 
+			texture_diffuse = "Magellan_Kai_Green_Diffuse.dds"
+			texture_normal = "Magellan_Kai_Green_Normal.dds"
+			texture_specular = "Magellan_Kai_Green_Specular.dds"
 			shader = "PdxMeshShip"
 		}
 	}
-	
+
 	pdxmesh = { #Magellan Origin-class Battleship
 		name = "Magellan_Origin_mesh"
 		file = "gfx/models/ships/fed_01/Magellan_Origin.mesh"
 		#	animation = { id = "idle"		type = "turret_projectile_large_idle_animation" }
-		#	animation = { id = "attack"		type = "turret_projectile_large_attack_animation" }	
+		#	animation = { id = "attack"		type = "turret_projectile_large_attack_animation" }
 		scale = 0.09
 		meshsettings = {
-			texture_diffuse = "Magellan_Origin_diffuse.dds" 
+			texture_diffuse = "Magellan_Origin_diffuse.dds"
 			texture_normal = "Magellan_Origin_normal.dds" #Magellan_Origin_normal
 			texture_specular = "Magellan_Origin_specular.dds" #Magellan_Origin_specular
 			shader = "PdxMeshShip"
 		}
 	}
-	
+
 	pdxmesh = { #Magellan Origin-class Battleship
 		name = "Magellan_Origin_Flagship_mesh"
 		file = "gfx/models/ships/fed_01/Magellan_Origin.mesh"
 		#	animation = { id = "idle"		type = "turret_projectile_large_idle_animation" }
-		#	animation = { id = "attack"		type = "turret_projectile_large_attack_animation" }	
+		#	animation = { id = "attack"		type = "turret_projectile_large_attack_animation" }
 		scale = 0.09
 		meshsettings = {
-			texture_diffuse = "Magellan_Origin_Flagship_diffuse.dds" 
+			texture_diffuse = "Magellan_Origin_Flagship_diffuse.dds"
 			texture_normal = "Magellan_Origin_Flagship_normal.dds" #Magellan_Origin_normal
 			texture_specular = "Magellan_Origin_Flagship_specular.dds" #Magellan_Origin_specular
 			shader = "PdxMeshShip"
 		}
 	}
-	
+
 	pdxmesh = { #Trafalgar
 		name = "Trafalgar_mesh"
 		file = "gfx/models/ships/fed_01/Trafalgar.mesh"
 		#	animation = { id = "idle"		type = "turret_projectile_large_idle_animation" }
-		#	animation = { id = "attack"		type = "turret_projectile_large_attack_animation" }	
+		#	animation = { id = "attack"		type = "turret_projectile_large_attack_animation" }
 		scale = 0.09
 		meshsettings = {
-			texture_diffuse = "Trafalgar_Diffuse.dds" 
+			texture_diffuse = "Trafalgar_Diffuse.dds"
 			texture_normal = "Trafalgar_Normal.dds" #Trafalgar_Normal
 			texture_specular = "Trafalgar_Specular.dds"
 			shader = "PdxMeshShip"
 		}
 	}
-	
+
 	pdxmesh = { #White Base
 		name = "White_Base_mesh"
 		file = "gfx/models/ships/fed_01/White_Base.mesh"
 		#	animation = { id = "idle"		type = "turret_projectile_large_idle_animation" }
-		#	animation = { id = "attack"		type = "turret_projectile_large_attack_animation" }	
+		#	animation = { id = "attack"		type = "turret_projectile_large_attack_animation" }
 		scale = 1.5
 		meshsettings = {
-			texture_diffuse = "White_Base_Diffuse.dds" 
-			texture_normal = "White_Base_Normal.dds" 
-			texture_specular = "White_Base_Specular.dds" 
+			texture_diffuse = "White_Base_Diffuse.dds"
+			texture_normal = "White_Base_Normal.dds"
+			texture_specular = "White_Base_Specular.dds"
 			shader = "PdxMeshShip"
 		}
 	}
-	
+
 	pdxmesh = { #Grey Phantom
 		name = "Grey_Phantom_mesh"
 		file = "gfx/models/ships/fed_01/Grey_Phantom.mesh"
 		#	animation = { id = "idle"		type = "turret_projectile_large_idle_animation" }
-		#	animation = { id = "attack"		type = "turret_projectile_large_attack_animation" }	
+		#	animation = { id = "attack"		type = "turret_projectile_large_attack_animation" }
 		scale = 0.06
 		meshsettings = {
-			texture_diffuse = "Grey_Phantom_Diffuse.dds" 
-			texture_normal = "Grey_Phantom_Normal.dds" 
-			texture_specular = "Grey_Phantom_Specular.dds" 
+			texture_diffuse = "Grey_Phantom_Diffuse.dds"
+			texture_normal = "Grey_Phantom_Normal.dds"
+			texture_specular = "Grey_Phantom_Specular.dds"
 			shader = "PdxMeshShip"
 		}
 	}
-	
+
 	pdxmesh = { #Albion
 		name = "Albion_mesh"
 		file = "gfx/models/ships/fed_01/Albion.mesh"
 		#	animation = { id = "idle"		type = "turret_projectile_large_idle_animation" }
-		#	animation = { id = "attack"		type = "turret_projectile_large_attack_animation" }	
+		#	animation = { id = "attack"		type = "turret_projectile_large_attack_animation" }
 		scale = 0.07
 		meshsettings = {
-			texture_diffuse = "Albion_Diffuse.dds" 
-			texture_normal = "Albion_Normal.dds" 
-			texture_specular = "Albion_Specular.dds" 
+			texture_diffuse = "Albion_Diffuse.dds"
+			texture_normal = "Albion_Normal.dds"
+			texture_specular = "Albion_Specular.dds"
 			shader = "PdxMeshShip"
 		}
 	}
-	
+
 	####### EFSF Turrets  #######
-	
+
 	pdxmesh = { #Salamis Main Turret
 		name = "Salamis_Main_Turret_mesh"
 		file = "gfx/models/ships/fed_01/Salamis_MainCannon.mesh"
 		#	animation = { id = "idle"		type = "turret_projectile_large_idle_animation" }
-		#	animation = { id = "attack"		type = "turret_projectile_large_attack_animation" }	
+		#	animation = { id = "attack"		type = "turret_projectile_large_attack_animation" }
 		scale = 0.03
 		meshsettings = {
-			texture_diffuse = "Salamis.dds" 
-			texture_normal = "musai_normal.dds" 
-			texture_specular = "musai_specular.dds" 
+			texture_diffuse = "Salamis.dds"
+			texture_normal = "musai_normal.dds"
+			texture_specular = "musai_specular.dds"
 			shader = "PdxMeshShip"
 		}
 	}
-	
+
 	pdxmesh = { #Point Defence
 		name = "Salamis_Ball_Turret_mesh"
 		file = "gfx/models/ships/fed_01/Magellan_Lepanto_Salamis_Secondary.mesh" #Salamis_Ball_Turret
 		#	animation = { id = "idle"		type = "turret_projectile_large_idle_animation" }
-		#	animation = { id = "attack"		type = "turret_projectile_large_attack_animation" }	
+		#	animation = { id = "attack"		type = "turret_projectile_large_attack_animation" }
 		scale = 0.4 #1.0
 		meshsettings = {
 			texture_diffuse = "Magellan_Lepanto_Salamis_Secondary_Diffuse.dds" #Salamis
-			texture_normal = "Magellan_Lepanto_Salamis_Secondary_Normal.dds" 
-			texture_specular = "Magellan_Lepanto_Salamis_Secondary_Specular.dds" 
+			texture_normal = "Magellan_Lepanto_Salamis_Secondary_Normal.dds"
+			texture_specular = "Magellan_Lepanto_Salamis_Secondary_Specular.dds"
 			shader = "PdxMeshShip"
 		}
 	}
-	
+
 	pdxmesh = { #Magellan Yamato Turret
 		name = "Magellan_Turret_mesh"
 		file = "gfx/models/ships/fed_01/Magellan_Yamato_Turret.mesh" #Magellan_Main_Battery
 		#	animation = { id = "idle"		type = "turret_projectile_large_idle_animation" }
-		#	animation = { id = "attack"		type = "turret_projectile_large_attack_animation" }	
+		#	animation = { id = "attack"		type = "turret_projectile_large_attack_animation" }
 		scale = 1.0 #0.5
 		meshsettings = {
 			texture_diffuse = "Magellan.dds" #Magellan_Main_Battery_Diffuse
@@ -300,218 +300,231 @@ objectTypes = {
 			shader = "PdxMeshShip"
 		}
 	}
-	
+
 	pdxmesh = { #Lepanto Main Turret
 		name = "Lepanto_Salamis_Main_Battery_mesh"
 		file = "gfx/models/ships/fed_01/Lepanto_Salamis_Main_Battery.mesh"
 		#	animation = { id = "idle"		type = "turret_projectile_large_idle_animation" }
-		#	animation = { id = "attack"		type = "turret_projectile_large_attack_animation" }	
+		#	animation = { id = "attack"		type = "turret_projectile_large_attack_animation" }
 		scale = 0.6
 		meshsettings = {
-			texture_diffuse = "Lepanto_Salamis_Main_Battery_Diffuse.dds" 
-			texture_normal = "Lepanto_Salamis_Main_Battery_Normal.dds" 
-			texture_specular = "Lepanto_Salamis_Main_Battery_Specular.dds" 
+			texture_diffuse = "Lepanto_Salamis_Main_Battery_Diffuse.dds"
+			texture_normal = "Lepanto_Salamis_Main_Battery_Normal.dds"
+			texture_specular = "Lepanto_Salamis_Main_Battery_Specular.dds"
 			shader = "PdxMeshShip"
 		}
 	}
-	
+
 	pdxmesh = { #Magellan Non-Yamato Turret
 		name = "Magellan_Main_Battery_mesh"
 		file = "gfx/models/ships/fed_01/Magellan_Main_Battery.mesh"
 		#	animation = { id = "idle"		type = "turret_projectile_large_idle_animation" }
-		#	animation = { id = "attack"		type = "turret_projectile_large_attack_animation" }	
+		#	animation = { id = "attack"		type = "turret_projectile_large_attack_animation" }
 		scale = 0.6
 		meshsettings = {
-			texture_diffuse = "Magellan_Main_Battery_Diffuse.dds" 
-			texture_normal = "Magellan_Main_Battery_Normal.dds" 
-			texture_specular = "Magellan_Main_Battery_Specular.dds" 
+			texture_diffuse = "Magellan_Main_Battery_Diffuse.dds"
+			texture_normal = "Magellan_Main_Battery_Normal.dds"
+			texture_specular = "Magellan_Main_Battery_Specular.dds"
 			shader = "PdxMeshShip"
 		}
 	}
-	
+
 	pdxmesh = { #Magellan Secondary Turret
 		name = "Magellan_Secondary_Battery_mesh"
 		file = "gfx/models/ships/fed_01/Magellan_Secondary_Battery.mesh"
 		#	animation = { id = "idle"		type = "turret_projectile_large_idle_animation" }
-		#	animation = { id = "attack"		type = "turret_projectile_large_attack_animation" }	
+		#	animation = { id = "attack"		type = "turret_projectile_large_attack_animation" }
 		scale = 0.6
 		meshsettings = {
-			texture_diffuse = "Magellan_Secondary_Battery_Diffuse.dds" 
-			texture_normal = "Magellan_Secondary_Battery_Normal.dds" 
-			texture_specular = "Magellan_Secondary_Battery_Specular.dds" 
+			texture_diffuse = "Magellan_Secondary_Battery_Diffuse.dds"
+			texture_normal = "Magellan_Secondary_Battery_Normal.dds"
+			texture_specular = "Magellan_Secondary_Battery_Specular.dds"
 			shader = "PdxMeshShip"
 		}
 	}
-	
+
 	pdxmesh = { #Missile Turret
 		name = "Salamis_Lepanto_Secondary_Missile_mesh"
 		file = "gfx/models/ships/fed_01/Salamis_Lepanto_Secondary_Missile.mesh"
 		#	animation = { id = "idle"		type = "turret_projectile_large_idle_animation" }
-		#	animation = { id = "attack"		type = "turret_projectile_large_attack_animation" }	
+		#	animation = { id = "attack"		type = "turret_projectile_large_attack_animation" }
 		scale = 0.6
 		meshsettings = {
-			texture_diffuse = "Salamis_Lepanto_Secondary_Missile_Diffuse.dds" 
-			texture_normal = "Salamis_Lepanto_Secondary_Missile_Normal.dds" 
-			texture_specular = "Salamis_Lepanto_Secondary_Missile_Specular.dds" 
+			texture_diffuse = "Salamis_Lepanto_Secondary_Missile_Diffuse.dds"
+			texture_normal = "Salamis_Lepanto_Secondary_Missile_Normal.dds"
+			texture_specular = "Salamis_Lepanto_Secondary_Missile_Specular.dds"
 			shader = "PdxMeshShip"
 		}
 	}
-	
-	#######  Turrets  #######	
-	
+
+	pdxmesh = { #Saberfish EFSF
+		name = "Saberfish_1_mesh"
+		file = "gfx/models/ships/fed_01/Saberfish_II.mesh"
+
+		scale = 1.0
+		meshsettings = {
+			texture_diffuse = "Saberfish_Diffuse_2.dds" 
+			texture_normal = "Saberfish_Normal.dds" 
+			texture_specular = "Saberfish_Specular.dds" 
+			shader = "PdxMeshShip"
+		}
+	}
+
+	#######  Turrets  #######
+
 	pdxmesh = {
 		name = "mammalian_01_turret_projectile_large_mesh"
 		file = "gfx/models/ships/mammalian_01/mammalian_01_turret_projectile_large.mesh"
 		#	animation = { id = "idle"		type = "turret_projectile_large_idle_animation" }
-		#	animation = { id = "attack"		type = "turret_projectile_large_attack_animation" }	
-		scale = 1.0
-		meshsettings = {
-			shader = "PdxMeshShip"
-		}
-	}	
-	
-	pdxmesh = {
-		name = "mammalian_01_turret_projectile_medium_mesh"
-		file = "gfx/models/ships/mammalian_01/mammalian_01_turret_projectile_medium.mesh"
-		#	animation = { id = "idle"		type = "turret_projectile_medium_idle_animation" }
-		#	animation = { id = "attack"		type = "turret_projectile_medium_attack_animation" }	
-		scale = 1.0
-		meshsettings = {
-			shader = "PdxMeshShip"
-		}
-	}	
-	
-	pdxmesh = {
-		name = "mammalian_01_turret_projectile_small_mesh"
-		file = "gfx/models/ships/mammalian_01/mammalian_01_turret_projectile_small.mesh"
-		#	animation = { id = "idle"		type = "turret_projectile_small_idle_animation" }
-		#	animation = { id = "attack"		type = "turret_projectile_small_attack_animation" }	
-		scale = 1.0
-		meshsettings = {
-			shader = "PdxMeshShip"
-		}
-	}	
-	
-	pdxmesh = {
-		name = "mammalian_01_turret_missile_large_mesh"
-		file = "gfx/models/ships/mammalian_01/mammalian_01_turret_missile_large.mesh"
-		#	animation = { id = "idle"		type = "turret_projectile_large_idle_animation" }
-		#	animation = { id = "attack"		type = "turret_projectile_large_attack_animation" }	
-		scale = 1.0
-		meshsettings = {
-			shader = "PdxMeshShip"
-		}
-	}	
-	
-	pdxmesh = {
-		name = "mammalian_01_turret_missile_medium_mesh"
-		file = "gfx/models/ships/mammalian_01/mammalian_01_turret_missile_medium.mesh"
-		#	animation = { id = "idle"		type = "turret_projectile_medium_idle_animation" }
-		#	animation = { id = "attack"		type = "turret_projectile_medium_attack_animation" }	
-		scale = 1.0
-		meshsettings = {
-			shader = "PdxMeshShip"
-		}
-	}	
-	
-	pdxmesh = {
-		name = "mammalian_01_turret_missile_small_mesh"
-		file = "gfx/models/ships/mammalian_01/mammalian_01_turret_missile_small.mesh"
-		#	animation = { id = "idle"		type = "turret_projectile_small_idle_animation" }
-		#	animation = { id = "attack"		type = "turret_projectile_small_attack_animation" }	
-		scale = 1.0
-		meshsettings = {
-			shader = "PdxMeshShip"
-		}
-	}	
-	
-	pdxmesh = {
-		name = "mammalian_01_turret_point_defence_mesh"
-		file = "gfx/models/ships/mammalian_01/mammalian_01_turret_point_defence.mesh"
-		#	animation = { id = "idle"		type = "turret_projectile_small_idle_animation" }
-		#	animation = { id = "attack"		type = "turret_projectile_small_attack_animation" }	
+		#	animation = { id = "attack"		type = "turret_projectile_large_attack_animation" }
 		scale = 1.0
 		meshsettings = {
 			shader = "PdxMeshShip"
 		}
 	}
-		
+
+	pdxmesh = {
+		name = "mammalian_01_turret_projectile_medium_mesh"
+		file = "gfx/models/ships/mammalian_01/mammalian_01_turret_projectile_medium.mesh"
+		#	animation = { id = "idle"		type = "turret_projectile_medium_idle_animation" }
+		#	animation = { id = "attack"		type = "turret_projectile_medium_attack_animation" }
+		scale = 1.0
+		meshsettings = {
+			shader = "PdxMeshShip"
+		}
+	}
+
+	pdxmesh = {
+		name = "mammalian_01_turret_projectile_small_mesh"
+		file = "gfx/models/ships/mammalian_01/mammalian_01_turret_projectile_small.mesh"
+		#	animation = { id = "idle"		type = "turret_projectile_small_idle_animation" }
+		#	animation = { id = "attack"		type = "turret_projectile_small_attack_animation" }
+		scale = 1.0
+		meshsettings = {
+			shader = "PdxMeshShip"
+		}
+	}
+
+	pdxmesh = {
+		name = "mammalian_01_turret_missile_large_mesh"
+		file = "gfx/models/ships/mammalian_01/mammalian_01_turret_missile_large.mesh"
+		#	animation = { id = "idle"		type = "turret_projectile_large_idle_animation" }
+		#	animation = { id = "attack"		type = "turret_projectile_large_attack_animation" }
+		scale = 1.0
+		meshsettings = {
+			shader = "PdxMeshShip"
+		}
+	}
+
+	pdxmesh = {
+		name = "mammalian_01_turret_missile_medium_mesh"
+		file = "gfx/models/ships/mammalian_01/mammalian_01_turret_missile_medium.mesh"
+		#	animation = { id = "idle"		type = "turret_projectile_medium_idle_animation" }
+		#	animation = { id = "attack"		type = "turret_projectile_medium_attack_animation" }
+		scale = 1.0
+		meshsettings = {
+			shader = "PdxMeshShip"
+		}
+	}
+
+	pdxmesh = {
+		name = "mammalian_01_turret_missile_small_mesh"
+		file = "gfx/models/ships/mammalian_01/mammalian_01_turret_missile_small.mesh"
+		#	animation = { id = "idle"		type = "turret_projectile_small_idle_animation" }
+		#	animation = { id = "attack"		type = "turret_projectile_small_attack_animation" }
+		scale = 1.0
+		meshsettings = {
+			shader = "PdxMeshShip"
+		}
+	}
+
+	pdxmesh = {
+		name = "mammalian_01_turret_point_defence_mesh"
+		file = "gfx/models/ships/mammalian_01/mammalian_01_turret_point_defence.mesh"
+		#	animation = { id = "idle"		type = "turret_projectile_small_idle_animation" }
+		#	animation = { id = "attack"		type = "turret_projectile_small_attack_animation" }
+		scale = 1.0
+		meshsettings = {
+			shader = "PdxMeshShip"
+		}
+	}
+
 	#######  corvette frame  #######
-	
+
 	#pdxmesh = {
 	#	name = "mammalian_01_corvette_frame_mesh"
 	#	file = "gfx/models/ships/mammalian_01/mammalian_01_corvette_frame.mesh"
 	#			animation = { id = "idle"			type = "mammalian_01_corvette_frame_idle_animation" }
 	#			animation = { id = "death"			type = "mammalian_01_corvette_frame_death_animation" }
-	#			animation = { id = "attack"			type = "mammalian_01_corvette_frame_idle_animation" }				
+	#			animation = { id = "attack"			type = "mammalian_01_corvette_frame_idle_animation" }
 	#	scale = 1.0
 	#}
-	
-	#######  corvette sections  #######	
-	
+
+	#######  corvette sections  #######
+
 	pdxmesh = {
 		name = "mammalian_01_corvette_M1S1_mesh"
 		file = "gfx/models/ships/mammalian_01/mammalian_01_corvette_M1S1.mesh"
 		scale = 1.0
 		meshsettings = {
 			shader = "PdxMeshShip"
-		
+
 		#Mipmap tweaking
 		#texture_diffuse = "512x512.dds"
 		}
 	}
-		
+
 	pdxmesh = {
 		name = "mammalian_01_corvette_S3_mesh"
 		file = "gfx/models/ships/mammalian_01/mammalian_01_corvette_S3.mesh"
 		scale = 1.0
 		meshsettings = {
 			shader = "PdxMeshShip"
-			
+
 		#Mipmap tweaking
 		#texture_diffuse = "512x512.dds"
 		}
-	}	
-	
+	}
+
 		pdxmesh = {
 		name = "mammalian_01_corvette_S1_mesh"
 		file = "gfx/models/ships/mammalian_01/mammalian_01_corvette_S1.mesh"
 		scale = 1.0
 		meshsettings = {
 			shader = "PdxMeshShip"
-			
+
 		#Mipmap tweaking
 		#texture_diffuse = "512x512.dds"
 		}
-	}	
-	
-	
-	
+	}
+
+
+
 	#######  destroyer frame  #######
-	
+
 	#pdxmesh = {
 	#	name = "mammalian_01_destroyer_frame_mesh"
 	#	file = "gfx/models/ships/mammalian_01/mammalian_01_destroyer_frame.mesh"
 	#			animation = { id = "idle"			type = "mammalian_01_destroyer_frame_idle_animation" }
 	#			animation = { id = "death"			type = "mammalian_01_destroyer_frame_death_animation" }
-	#			animation = { id = "attack"			type = "mammalian_01_destroyer_frame_idle_animation" }				
+	#			animation = { id = "attack"			type = "mammalian_01_destroyer_frame_idle_animation" }
 	#	scale = 1.0
 	#}
-	
-	#######  destroyer bow sections  #######	
-	
+
+	#######  destroyer bow sections  #######
+
 	pdxmesh = {
 		name = "mammalian_01_destroyer_bow_L1_mesh"
 		file = "gfx/models/ships/mammalian_01/mammalian_01_destroyer_bow_L1.mesh"
 		scale = 0.0
 		meshsettings = {
 			shader = "PdxMeshShip"
-			
+
 		#Mipmap tweaking
 		#texture_diffuse = "1x512.dds"
 		}
-	}	
-	
+	}
+
 	pdxmesh = {
 		name = "mammalian_01_destroyer_bow_M1S2_mesh"
 		file = "gfx/models/ships/mammalian_01/mammalian_01_destroyer_bow_M1S2.mesh"
@@ -522,7 +535,7 @@ objectTypes = {
 		#texture_diffuse = "1x512.dds"
 		}
 	}
-		
+
 	pdxmesh = {
 		name = "mammalian_01_destroyer_bow_S3_mesh"
 		file = "gfx/models/ships/mammalian_01/mammalian_01_destroyer_bow_S3.mesh"
@@ -533,9 +546,9 @@ objectTypes = {
 		#texture_diffuse = "1x512.dds"
 		}
 	}
-	
-	#######  destroyer stern sections  #######	
-		
+
+	#######  destroyer stern sections  #######
+
 	pdxmesh = {
 		name = "mammalian_01_destroyer_stern_S2_mesh"
 		file = "gfx/models/ships/mammalian_01/mammalian_01_destroyer_stern_S2.mesh"
@@ -546,7 +559,7 @@ objectTypes = {
 		#texture_diffuse = "1x512.dds"
 		}
 	}
-	
+
 	pdxmesh = {
 		name = "mammalian_01_destroyer_stern_M1_mesh"
 		file = "gfx/models/ships/mammalian_01/mammalian_01_destroyer_stern_M1.mesh"
@@ -556,11 +569,11 @@ objectTypes = {
 		#Mipmap tweaking
 		#texture_diffuse = "1x512.dds"
 		}
-	}	
-	
-	
+	}
+
+
 	#######  cruiser frame  #######
-	
+
 	pdxmesh = {
 		name = "mammalian_01_cruiser_frame_mesh"
 		file = "gfx/models/ships/mammalian_01/mammalian_01_cruiser_frame.mesh"
@@ -568,19 +581,19 @@ objectTypes = {
 				animation = { id = "death"			type = "mammalian_01_cruiser_frame_death_animation" }
 				animation = { id = "death2"			type = "mammalian_01_cruiser_frame_death2_animation" }
 				animation = { id = "death3"			type = "mammalian_01_cruiser_frame_death3_animation" }
-				animation = { id = "attack"			type = "mammalian_01_cruiser_frame_idle_animation" }				
-				animation = { id = "moving"			type = "mammalian_01_cruiser_frame_idle_animation" }				
+				animation = { id = "attack"			type = "mammalian_01_cruiser_frame_idle_animation" }
+				animation = { id = "moving"			type = "mammalian_01_cruiser_frame_idle_animation" }
 		scale = 1.0
 		meshsettings = {
 			shader = "PdxMeshShip"
-			
+
 			#Mipmap tweaking
 			#texture_diffuse = "1x1.dds"
 		}
 	}
-	
-	#######  cruiser bow sections  #######	
-	
+
+	#######  cruiser bow sections  #######
+
 	pdxmesh = {
 		name = "mammalian_01_cruiser_bow_L1_mesh"
 		file = "gfx/models/ships/mammalian_01/mammalian_01_cruiser_bow_L1.mesh"
@@ -591,7 +604,7 @@ objectTypes = {
 			#texture_diffuse = "1x1.dds"
 		}
 	}
-		
+
 	pdxmesh = {
 		name = "mammalian_01_cruiser_bow_M1S2_mesh"
 		file = "gfx/models/ships/mammalian_01/mammalian_01_cruiser_bow_M1S2.mesh"
@@ -601,8 +614,8 @@ objectTypes = {
 			#Mipmap tweaking
 			#texture_diffuse = "1x1.dds"
 		}
-	}	
-	
+	}
+
 	pdxmesh = {
 		name = "mammalian_01_cruiser_bow_M2_mesh"
 		file = "gfx/models/ships/mammalian_01/mammalian_01_cruiser_bow_M2.mesh"
@@ -613,10 +626,10 @@ objectTypes = {
 			#texture_diffuse = "1x1.dds"
 		}
 	}
-		
-	#######  cruiser mid sections  #######			
-		
-	
+
+	#######  cruiser mid sections  #######
+
+
 	pdxmesh = {
 		name = "mammalian_01_cruiser_mid_S2HB_mesh"
 		file = "gfx/models/ships/mammalian_01/mammalian_01_cruiser_mid_S2HB.mesh"
@@ -627,7 +640,7 @@ objectTypes = {
 			#texture_diffuse = "1x1.dds"
 		}
 	}
-	
+
 	pdxmesh = {
 		name = "mammalian_01_cruiser_mid_L1M1_mesh"
 		file = "gfx/models/ships/mammalian_01/mammalian_01_cruiser_mid_L1M1.mesh"
@@ -638,7 +651,7 @@ objectTypes = {
 			#texture_diffuse = "1x1.dds"
 		}
 	}
-				
+
 	pdxmesh = {
 		name = "mammalian_01_cruiser_mid_M3_mesh"
 		file = "gfx/models/ships/mammalian_01/mammalian_01_cruiser_mid_M3.mesh"
@@ -648,8 +661,8 @@ objectTypes = {
 			#Mipmap tweaking
 			#texture_diffuse = "1x1.dds"
 		}
-	}		
-	
+	}
+
 	pdxmesh = {
 		name = "mammalian_01_cruiser_mid_M2S2_mesh"
 		file = "gfx/models/ships/mammalian_01/mammalian_01_cruiser_mid_M2S2.mesh"
@@ -660,9 +673,9 @@ objectTypes = {
 			#texture_diffuse = "1x1.dds"
 		}
 	}
-	
-	#######  cruiser stern sections  #######	
-		
+
+	#######  cruiser stern sections  #######
+
 	pdxmesh = {
 		name = "mammalian_01_cruiser_stern_M1_mesh"
 		file = "gfx/models/ships/mammalian_01/mammalian_01_cruiser_stern_M1.mesh"
@@ -673,7 +686,7 @@ objectTypes = {
 			#texture_diffuse = "1x1.dds"
 		}
 	}
-	
+
 	pdxmesh = {
 		name = "mammalian_01_cruiser_stern_S2_mesh"
 		file = "gfx/models/ships/mammalian_01/mammalian_01_cruiser_stern_S2.mesh"
@@ -683,12 +696,12 @@ objectTypes = {
 			#Mipmap tweaking
 			#texture_diffuse = "1x1.dds"
 		}
-	}		
-	
-	
-	
+	}
+
+
+
 	#######  Battleship frame  #######
-	
+
 	pdxmesh = {
 		name = "mammalian_01_battleship_frame_mesh"
 		file = "gfx/models/ships/mammalian_01/mammalian_01_battleship_frame.mesh"
@@ -696,15 +709,15 @@ objectTypes = {
 				animation = { id = "death"			type = "mammalian_01_battleship_frame_death_animation" }
 				animation = { id = "death2"			type = "mammalian_01_battleship_frame_death2_animation" }
 				animation = { id = "death3"			type = "mammalian_01_battleship_frame_death3_animation" }
-		#		animation = { id = "attack"			type = "mammalian_01_battleship_frame_idle_animation" }				
+		#		animation = { id = "attack"			type = "mammalian_01_battleship_frame_idle_animation" }
 		scale = 1.0
 		meshsettings = {
 			shader = "PdxMeshShip"
 		}
 	}
-	
-	#######  Battleship bow sections  #######	
-	
+
+	#######  Battleship bow sections  #######
+
 	pdxmesh = {
 		name = "mammalian_01_battleship_bow_L1M1S2_mesh"
 		file = "gfx/models/ships/mammalian_01/mammalian_01_battleship_bow_L1M1S2.mesh"
@@ -715,7 +728,7 @@ objectTypes = {
 		#texture_diffuse = "2x2.dds"
 		}
 	}
-		
+
 	pdxmesh = {
 		name = "mammalian_01_battleship_bow_L1S4_mesh"
 		file = "gfx/models/ships/mammalian_01/mammalian_01_battleship_bow_L1S4.mesh"
@@ -726,7 +739,7 @@ objectTypes = {
 		#texture_diffuse = "2x2.dds"
 		}
 	}
-		
+
 	pdxmesh = {
 		name = "mammalian_01_battleship_bow_L2_mesh"
 		file = "gfx/models/ships/mammalian_01/mammalian_01_battleship_bow_L2.mesh"
@@ -737,7 +750,7 @@ objectTypes = {
 		#texture_diffuse = "2x2.dds"
 		}
 	}
-		
+
 	pdxmesh = {
 		name = "mammalian_01_battleship_bow_M1S2SHB_mesh"
 		file = "gfx/models/ships/mammalian_01/mammalian_01_battleship_bow_M1S2SHB.mesh"
@@ -748,7 +761,7 @@ objectTypes = {
 		#texture_diffuse = "2x2.dds"
 		}
 	}
-		
+
 	pdxmesh = {
 		name = "mammalian_01_battleship_bow_M2S4_mesh"
 		file = "gfx/models/ships/mammalian_01/mammalian_01_battleship_bow_M2S4.mesh"
@@ -759,7 +772,7 @@ objectTypes = {
 		#texture_diffuse = "2x2.dds"
 		}
 	}
-		
+
 	pdxmesh = {
 		name = "mammalian_01_battleship_bow_M3S2_mesh"
 		file = "gfx/models/ships/mammalian_01/mammalian_01_battleship_bow_M3S2.mesh"
@@ -769,10 +782,10 @@ objectTypes = {
 			#Mipmap tweaking
 		#texture_diffuse = "2x2.dds"
 		}
-	}	
-		
-	#######  Battleship mid sections  #######			
-		
+	}
+
+	#######  Battleship mid sections  #######
+
 	pdxmesh = {
 		name = "mammalian_01_battleship_mid_L2S4_mesh"
 		file = "gfx/models/ships/mammalian_01/mammalian_01_battleship_mid_L2S4.mesh"
@@ -783,7 +796,7 @@ objectTypes = {
 		#texture_diffuse = "2x2.dds"
 		}
 	}
-		
+
 	pdxmesh = {
 		name = "mammalian_01_battleship_mid_L1M4_mesh"
 		file = "gfx/models/ships/mammalian_01/mammalian_01_battleship_mid_L1M4.mesh"
@@ -794,7 +807,7 @@ objectTypes = {
 		#texture_diffuse = "2x2.dds"
 		}
 	}
-		
+
 	pdxmesh = {
 		name = "mammalian_01_battleship_mid_L2M2_mesh"
 		file = "gfx/models/ships/mammalian_01/mammalian_01_battleship_mid_L2M2.mesh"
@@ -805,7 +818,7 @@ objectTypes = {
 		#texture_diffuse = "2x2.dds"
 		}
 	}
-		
+
 	pdxmesh = {
 		name = "mammalian_01_battleship_mid_L3_mesh"
 		file = "gfx/models/ships/mammalian_01/mammalian_01_battleship_mid_L3.mesh"
@@ -816,7 +829,7 @@ objectTypes = {
 		#texture_diffuse = "2x2.dds"
 		}
 	}
-		
+
 	pdxmesh = {
 		name = "mammalian_01_battleship_mid_M4SHB_mesh"
 		file = "gfx/models/ships/mammalian_01/mammalian_01_battleship_mid_M4SHB.mesh"
@@ -827,7 +840,7 @@ objectTypes = {
 		#texture_diffuse = "2x2.dds"
 		}
 	}
-		
+
 	pdxmesh = {
 		name = "mammalian_01_battleship_mid_S4LHB_mesh"
 		file = "gfx/models/ships/mammalian_01/mammalian_01_battleship_mid_S4LHB.mesh"
@@ -838,10 +851,10 @@ objectTypes = {
 		#texture_diffuse = "2x2.dds"
 		}
 	}
-		
-		
-	#######  Battleship stern sections  #######	
-		
+
+
+	#######  Battleship stern sections  #######
+
 	pdxmesh = {
 		name = "mammalian_01_battleship_stern_L1_mesh"
 		file = "gfx/models/ships/mammalian_01/mammalian_01_battleship_stern_L1.mesh"
@@ -852,7 +865,7 @@ objectTypes = {
 		#texture_diffuse = "2x2.dds"
 		}
 	}
-	
+
 	pdxmesh = {
 		name = "mammalian_01_battleship_stern_M1S2_mesh"
 		file = "gfx/models/ships/mammalian_01/mammalian_01_battleship_stern_M1S2.mesh"
@@ -862,8 +875,8 @@ objectTypes = {
 			#Mipmap tweaking
 		#texture_diffuse = "2x2.dds"
 		}
-	}		
-		
+	}
+
 	pdxmesh = {
 		name = "mammalian_01_battleship_stern_M2_mesh"
 		file = "gfx/models/ships/mammalian_01/mammalian_01_battleship_stern_M2.mesh"
@@ -873,8 +886,8 @@ objectTypes = {
 			#Mipmap tweaking
 		#texture_diffuse = "2x2.dds"
 		}
-	}	
-	
+	}
+
 	pdxmesh = {
 		name = "mammalian_01_battleship_stern_S4_mesh"
 		file = "gfx/models/ships/mammalian_01/mammalian_01_battleship_stern_S4.mesh"
@@ -884,11 +897,11 @@ objectTypes = {
 			#Mipmap tweaking
 		#texture_diffuse = "2x2.dds"
 		}
-	}	
-	
+	}
+
 	#######  civilian frame  #######
-	
-	####### small ships  #######	
+
+	####### small ships  #######
 	pdxmesh = {
 		name = "mammalian_01_bomber_mesh"
 		file = "gfx/models/ships/mammalian_01/mammalian_01_bomber.mesh"
@@ -897,7 +910,7 @@ objectTypes = {
 			shader = "PdxMeshShip"
 		}
 	}
-	
+
 	pdxmesh = {
 		name = "mammalian_01_launcher_mesh"
 		file = "gfx/models/ships/mammalian_01/mammalian_01_launcher.mesh"
@@ -906,7 +919,7 @@ objectTypes = {
 			shader = "PdxMeshShip"
 		}
 	}
-	
+
 		pdxmesh = {
 		name = "mammalian_01_fighter_mesh"
 		file = "gfx/models/ships/mammalian_01/mammalian_01_fighter.mesh"
@@ -915,14 +928,14 @@ objectTypes = {
 			shader = "PdxMeshShip"
 		}
 	}
-	
-	####### stations #######	
-	
+
+	####### stations #######
+
 	pdxmesh = {
 		name = "fed_01_orbital_station_frame_mesh"
 		file = "gfx/models/ships/fed_01/Colony_Open.mesh"
 		scale = 1.0
-		
+
 		meshsettings = {
 			texture_diffuse = "Colony.dds"
 			texture_normal = "musai_normal.dds"
@@ -935,7 +948,7 @@ objectTypes = {
 		name = "fed_01_orbital_station_habitat_section_mesh"
 		file = "gfx/models/ships/fed_01/Colony_Open.mesh"
 		scale = 4.5
-		
+
 		meshsettings = {
 			texture_diffuse = "Colony_Open_Diffuse.dds"
 			texture_normal = "Colony_Open_Normal.dds"
@@ -960,8 +973,8 @@ objectTypes = {
 		#	texture_specular = "Colony_Open_Specular.dds"
 		#	shader = "PdxMeshTerraAlphaBlend"
 		#}
-	}	
-	
+	}
+
 	pdxmesh = {
 		name = "fed_01_terraforming_station_mesh"
 		file = "gfx/models/ships/mammalian_01/mammalian_01_terraforming_station.mesh"
@@ -970,61 +983,61 @@ objectTypes = {
 			shader = "PdxMeshShip"
 		}
 	}
-		
+
 	pdxmesh = {
 		name = "fed_01_orbital_station_frame_mesh"
 		file = "gfx/models/ships/mammalian_01/mammalian_01_orbital_station_frame.mesh"
 		scale = 0.0
-	}		
-		
+	}
+
 	pdxmesh = {
 		name = "fed_01_orbital_station_mesh"
 		file = "gfx/models/ships/mammalian_01/mammalian_01_orbital_station_main.mesh"
-		
-		animation = { id = "idle"			type = "mammalian_01_orbital_station_main_idle_animation" }				
-		animation = { id = "death"			type = "mammalian_01_orbital_station_main_death_animation" }				
-		
+
+		animation = { id = "idle"			type = "mammalian_01_orbital_station_main_idle_animation" }
+		animation = { id = "death"			type = "mammalian_01_orbital_station_main_death_animation" }
+
 		scale = 0.0
-	}	
-	
+	}
+
 	pdxmesh = {
 		name = "fed_01_orbital_station_assemblyyard_section_mesh"
 		file = "gfx/models/ships/mammalian_01/mammalian_01_orbital_station_assemblyyard_section.mesh"
 		scale = 0.0
 	}
-	
+
 	pdxmesh = {
 		name = "fed_01_orbital_station_hangarbay_section_mesh"
 		file = "gfx/models/ships/mammalian_01/mammalian_01_orbital_station_hangarbay_section.mesh"
 		scale = 0.0
 	}
-	
+
 	pdxmesh = {
 		name = "fed_01_orbital_station_refinery_section_mesh"
 		file = "gfx/models/ships/mammalian_01/mammalian_01_orbital_station_refinery_section.mesh"
 		scale = 0.0
 	}
-	
+
 	pdxmesh = {
 		name = "fed_01_orbital_station_science_section_mesh"
 		file = "gfx/models/ships/mammalian_01/mammalian_01_orbital_station_science_section.mesh"
 		scale = 0.0
 	}
-	
+
 	pdxmesh = {
 		name = "fed_01_science_station_mesh"
 		file = "gfx/models/ships/mammalian_01/mammalian_01_science_station.mesh"
 		scale = 0.0
-		
-		animation = { id = "idle"			type = "mammalian_01_science_station_idle_animation" }				
-		animation = { id = "death"			type = "mammalian_01_science_station_death_animation" }				
-		
-		
+
+		animation = { id = "idle"			type = "mammalian_01_science_station_idle_animation" }
+		animation = { id = "death"			type = "mammalian_01_science_station_death_animation" }
+
+
 		meshsettings = {
 			shader = "PdxMeshShip"
 		}
 	}
-	
+
 	pdxmesh = {
 		name = "fed_01_military_station_mesh"
 		file = "gfx/models/ships/mammalian_01/mammalian_01_military_station.mesh"
@@ -1033,10 +1046,10 @@ objectTypes = {
 			shader = "PdxMeshShip"
 		}
 	}
-	
-	
-	
-	
+
+
+
+
 	pdxmesh = {
 		name = "fed_01_military_station_large_mesh"
 		file = "gfx/models/ships/mammalian_01/mammalian_01_military_station_large.mesh"
@@ -1044,8 +1057,8 @@ objectTypes = {
 		meshsettings = {
 			shader = "PdxMeshShip"
 		}
-	}	
-	
+	}
+
 	pdxmesh = {
 		name = "fed_01_military_station_medium_mesh"
 		file = "gfx/models/ships/mammalian_01/mammalian_01_military_station_medium.mesh"
@@ -1053,8 +1066,8 @@ objectTypes = {
 		meshsettings = {
 			shader = "PdxMeshShip"
 		}
-	}	
-	
+	}
+
 	pdxmesh = {
 		name = "fed_01_military_station_small_mesh"
 		file = "gfx/models/ships/mammalian_01/mammalian_01_military_station_small.mesh"
@@ -1062,8 +1075,8 @@ objectTypes = {
 		meshsettings = {
 			shader = "PdxMeshShip"
 		}
-	}	
-	
+	}
+
 	pdxmesh = {
 		name = "fed_01_military_station_section_heavy_mesh"
 		file = "gfx/models/ships/mammalian_01/mammalian_01_military_station_section_heavy.mesh"
@@ -1071,8 +1084,8 @@ objectTypes = {
 		meshsettings = {
 			shader = "PdxMeshShip"
 		}
-	}	
-	
+	}
+
 	pdxmesh = {
 		name = "fed_01_military_station_section_medium_mesh"
 		file = "gfx/models/ships/mammalian_01/mammalian_01_military_station_section_medium.mesh"
@@ -1081,7 +1094,7 @@ objectTypes = {
 			shader = "PdxMeshShip"
 		}
 	}
-	
+
 	pdxmesh = {
 		name = "fed_01_military_station_section_light_mesh"
 		file = "gfx/models/ships/mammalian_01/mammalian_01_military_station_section_light.mesh"
@@ -1090,7 +1103,7 @@ objectTypes = {
 			shader = "PdxMeshShip"
 		}
 	}
-	
+
 	pdxmesh = {
 		name = "fed_01_mining_station_mesh"
 		file = "gfx/models/ships/mammalian_01/mammalian_01_mining_station.mesh"
@@ -1099,9 +1112,9 @@ objectTypes = {
 			shader = "PdxMeshShip"
 		}
 	}
-	
-	####### civilian ships  #######	
-	
+
+	####### civilian ships  #######
+
 	pdxmesh = {
 		name = "fed_01_science_mesh"
 		file = "gfx/models/ships/mammalian_01/mammalian_01_science.mesh"
@@ -1111,33 +1124,33 @@ objectTypes = {
 			#Mipmap tweaking
 		#texture_diffuse = "512x512.dds"
 		}
-		
+
 		scale = 2.8
 	}
-	
+
 	pdxmesh = {
 		name = "fed_01_construction_mesh"
 		file = "gfx/models/ships/mammalian_01/mammalian_01_construction.mesh"
 		scale = 1.0
-		
+
 		animation = { id = "idle"						type = "mammalian_01_construction_idle_animation" }
 		animation = { id = "working"					type = "mammalian_01_construction_working_animation" }
 		animation = { id = "working_looping"			type = "mammalian_01_construction_working_looping_animation" }
-		
+
 		#meshsettings = {
 			#shader = "PdxMeshShip"
 			#Mipmap tweaking
 		#texture_diffuse = "1x512.dds"
 		#}
 	}
-	
+
 	pdxmesh = {
 		name = "fed_01_construction_window_mesh"
 		file = "gfx/models/ships/mammalian_01/mammalian_01_construction_window.mesh"
 		scale = 1.0
 	}
-	
-	
+
+
 	pdxmesh = {
 		name = "fed_01_transport_mesh"
 		file = "gfx/models/ships/mammalian_01/mammalian_01_transport.mesh"
@@ -1146,7 +1159,7 @@ objectTypes = {
 			shader = "PdxMeshShip"
 		}
 	}
-	
+
 		pdxmesh = {
 		name = "fed_01_colony_mesh"
 		file = "gfx/models/ships/mammalian_01/mammalian_01_colony.mesh"
@@ -1155,30 +1168,30 @@ objectTypes = {
 			#shader = "PdxMeshShip"
 			#Mipmap tweaking
 		#texture_diffuse = "1x1.dds"
-		#}	
+		#}
 	}
-	
+
 	###        ###
 	#Mobile Suits#
 	###        ###
-	
+
 	pdxmesh = { #Ball
 		name = "fed_01_ball_mesh"
 		file = "gfx/models/ships/fed_01/Ball.mesh"
-			
+
 		scale = 1.0
 			meshsettings = {
-				texture_diffuse = "Ball_Diffuse.dds" 
-				texture_normal = "Ball_Normal.dds" 
-				texture_specular = "Ball_Specular.dds" 
+				texture_diffuse = "Ball_Diffuse.dds"
+				texture_normal = "Ball_Normal.dds"
+				texture_specular = "Ball_Specular.dds"
 				shader = "PdxMeshShip"
 		}
 	}
-		
+
 	pdxmesh = { #GM
 		name = "fed_01_GM_mesh"
 		file = "gfx/models/ships/fed_01/GM.mesh"
-			
+
 		scale = 1.0
 			meshsettings = {
 				texture_diffuse = "GM_Diffuse.dds"
@@ -1187,11 +1200,11 @@ objectTypes = {
 				shader = "PdxMeshShip"
 		}
 	}
-		
+
 	pdxmesh = { #GM Group
 		name = "fed_01_GM_Group_mesh"
 		file = "gfx/models/ships/fed_01/GM_Group.mesh"
-			
+
 		scale = 1.0
 			meshsettings = {
 				texture_diffuse = "GM_Diffuse.dds"
@@ -1200,11 +1213,11 @@ objectTypes = {
 				shader = "PdxMeshShip"
 		}
 	}
-	
+
 	pdxmesh = { #Guntank
 		name = "fed_01_Guntank_mesh"
 		file = "gfx/models/ships/fed_01/Guntank.mesh"
-			
+
 		scale = 0.09
 			meshsettings = {
 				texture_diffuse = "Guntank_Diffuse.dds"
@@ -1213,11 +1226,11 @@ objectTypes = {
 				shader = "PdxMeshShip"
 		}
 	}
-	
+
 	pdxmesh = { #Titan Mk2
 		name = "mk2_mesh"
 		file = "gfx/models/ships/fed_01/GundamMk2Titan.mesh"
-			
+
 		scale = 0.35
 			meshsettings = {
 				texture_diffuse = "GundamMk2Titan.dds"
@@ -1226,5 +1239,5 @@ objectTypes = {
 				shader = "PdxMeshShip"
 		}
 	}
-		
+
 }

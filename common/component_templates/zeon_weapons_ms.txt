@@ -4,14 +4,14 @@ weapon_component_template = {
 	key = "100mm"
 	size = small
 	entity = "Zeon_Machine_Gun_01_Entity"
-	damage = { min = 10 max = 15 }
+	damage = { min = 10 max = 15 } #REDO RANGE/ACCURACY/TRACKING BASED ON KINETIC WEAPONS SMALL OR MEDIUM
 	windup = { min = 5 max = 10 }
 	total_fire_time = 2
 	range = 12.0 #5
 	accuracy = 0.80
 	tracking = 0.5
 	shield_penetration = 0.1
-	
+
 	icon = "GFX_ship_part_100mm"
 	icon_frame = 1
 	color = { 0.8 0.1 0.1 1 }
@@ -37,7 +37,7 @@ weapon_component_template = {
 #	range = 12.0 #5
 #	accuracy = 0.80
 #	shield_penetration = 0.1
-	
+
 #	icon = "GFX_ship_part_100mm"
 #	icon_frame = 1
 #	color = { 0.8 0.1 0.1 1 }
@@ -64,7 +64,7 @@ weapon_component_template = {
 	accuracy = 0.80
 	tracking = 0.55
 	shield_penetration = 0.15
-	
+
 	icon = "GFX_ship_part_105mm"
 	icon_frame = 1
 	color = { 0.8 0.1 0.1 1 }
@@ -90,7 +90,7 @@ weapon_component_template = {
 #	range = 15.0 #5
 #	accuracy = 0.80
 #	shield_penetration = 0.15
-	
+
 #	icon = "GFX_ship_part_105mm"
 #	icon_frame = 1
 #	color = { 0.8 0.1 0.1 1 }
@@ -117,7 +117,7 @@ weapon_component_template = {
 	accuracy = 0.80
 	tracking = 0.6
 	shield_penetration = 0.2
-	
+
 	icon = "GFX_ship_part_120mm"
 	icon_frame = 1
 	color = { 0.8 0.1 0.1 1 }
@@ -143,7 +143,7 @@ weapon_component_template = {
 #	range = 20.0 #5
 #	accuracy = 0.80
 #	shield_penetration = 0.2
-	
+
 #	icon = "GFX_ship_part_120mm"
 #	icon_frame = 1
 #	color = { 0.8 0.1 0.1 1 }
@@ -170,7 +170,7 @@ weapon_component_template = {
 	accuracy = 0.80
 	tracking = 0.65
 	shield_penetration = 0.25
-	
+
 	icon = "GFX_ship_part_80mm"
 	icon_frame = 1
 	color = { 0.8 0.1 0.1 1 }
@@ -195,7 +195,7 @@ weapon_component_template = {
 #	range = 25.0 #5
 #	accuracy = 0.80
 #	shield_penetration = 0.25
-	
+
 #	icon = "GFX_ship_part_80mm"
 #	icon_frame = 1
 #	color = { 0.8 0.1 0.1 1 }
@@ -221,7 +221,7 @@ weapon_component_template = {
 	accuracy = 0.80
 	tracking = 0.6
 	armor_penetration = 0.2
-	
+
 	icon = "GFX_ship_part_rifle_1"
 	icon_frame = 1
 	color = { 0.8 0.1 0.1 1 }
@@ -234,7 +234,7 @@ weapon_component_template = {
 	projectile_gfx = "advanced_railgun_s"
 	#tags = { weapon_type_point_defense weapon_type_kinetic }
 	ai_tags = { weapon_type_ms }
-	
+
 	upgrades_to = "rifle_2"
 }
 
@@ -250,7 +250,7 @@ weapon_component_template = {
 	accuracy = 0.85
 	tracking = 0.7
 	shield_penetration = 0.35
-	
+
 	icon = "GFX_ship_part_rifle_2"
 	icon_frame = 1
 	color = { 0.8 0.1 0.1 1 }
@@ -263,7 +263,7 @@ weapon_component_template = {
 	projectile_gfx = "advanced_railgun_s"
 	#tags = { weapon_type_point_defense weapon_type_kinetic }
 	ai_tags = { weapon_type_ms }
-	
+
 	upgrades_to = "rifle_3"
 }
 
@@ -279,7 +279,7 @@ weapon_component_template = {
 	accuracy = 0.9
 	tracking = 0.8
 	shield_penetration = 0.5
-	
+
 	icon = "GFX_ship_part_rifle_3"
 	icon_frame = 1
 	color = { 0.8 0.1 0.1 1 }
@@ -307,8 +307,8 @@ weapon_component_template = {
 	accuracy = 0.6
 	tracking = 0.3
 	armor_penetration = 0.10
-	
-	
+
+
 	icon = "GFX_ship_part_sturm_faust_1"
 	icon_frame = 1
 	color = { 0.8 0.1 0.1 1 }
@@ -337,8 +337,8 @@ weapon_component_template = {
 	accuracy = 0.65
 	tracking = 0.35
 	armor_penetration = 0.15
-	
-	
+
+
 	icon = "GFX_ship_part_sturm_faust_2"
 	icon_frame = 1
 	color = { 0.8 0.1 0.1 1 }
@@ -367,8 +367,8 @@ weapon_component_template = {
 	accuracy = 0.7
 	tracking = 0.4
 	armor_penetration = 0.20
-	
-	
+
+
 	icon = "GFX_ship_part_sturm_faust_3"
 	icon_frame = 1
 	color = { 0.8 0.1 0.1 1 }
@@ -397,8 +397,8 @@ weapon_component_template = {
 	accuracy = 0.75
 	tracking = 0.2
 	armor_penetration = 0.3
-	
-	
+
+
 	icon = "GFX_ship_part_bazooka1"
 	icon_frame = 1
 	color = { 0.8 0.1 0.1 1 }
@@ -427,8 +427,8 @@ weapon_component_template = {
 	accuracy = 0.80
 	tracking = 0.25
 	armor_penetration = 0.4
-	
-	
+
+
 	icon = "GFX_ship_part_bazooka2"
 	icon_frame = 1
 	color = { 0.8 0.1 0.1 1 }
@@ -457,8 +457,8 @@ weapon_component_template = {
 	accuracy = 0.85
 	tracking = 0.3
 	armor_penetration = 0.5
-	
-	
+
+
 	icon = "GFX_ship_part_bazooka3"
 	icon_frame = 1
 	color = { 0.8 0.1 0.1 1 }
@@ -486,7 +486,7 @@ weapon_component_template = {
 	type = instant
 	shield_damage = 0.67
 	armor_penetration = 0.9
-	
+
 	icon = "GFX_ship_part_beam_bazooka"
 	icon_frame = 1
 	color = { 1.0 1.0 1.0 1 }
