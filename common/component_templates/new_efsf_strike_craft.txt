@@ -145,7 +145,7 @@ strike_craft_component_template = {
 	launch_time = 8.0
 
 	damage = { min = 106 max = 218 } #Cannon - supposedly able to destroy MS in single hit
-	cooldown = 60
+	cooldown = 30
 	range = 70
 	accuracy = 0.70
 	tracking = 0.0
@@ -188,7 +188,7 @@ strike_craft_component_template = {
 	launch_time = 8.0
 
 	damage = { min = 71 max = 145 } #Cannon - supposedly able to destroy MS in single hit
-	cooldown = 50
+	cooldown = 30
 	range = 60
 	accuracy = 0.75
 	tracking = 0.0
@@ -231,7 +231,7 @@ strike_craft_component_template = {
 	launch_time = 8.0
 
 	damage = { min = 116 max = 240 } #Cannon - supposedly able to destroy MS in single hit
-	cooldown = 65
+	cooldown = 30
 	range = 80
 	accuracy = 0.65
 	tracking = 0.0
@@ -317,7 +317,7 @@ strike_craft_component_template = {
 	launch_time = 8.0
 
 	damage = { min = 116 max = 240 } #Cannon - supposedly able to destroy MS in single hit
-	cooldown = 65
+	cooldown = 30
 	range = 80
 	accuracy = 0.65
 	tracking = 0.0
@@ -360,7 +360,7 @@ strike_craft_component_template = {
 	launch_time = 8.0
 
 	damage = { min = 133 max = 300 } #240mm Cannon * 2
-	cooldown = 75
+	cooldown = 25
 	range = 90
 	accuracy = 0.6
 	tracking = 0.0
@@ -403,7 +403,7 @@ strike_craft_component_template = {
 	launch_time = 8.0
 
 	damage = { min = 133 max = 300 } #240mm Cannon * 2
-	cooldown = 75
+	cooldown = 25
 	range = 90
 	accuracy = 0.6
 	tracking = 0.0
@@ -446,7 +446,7 @@ strike_craft_component_template = {
 	launch_time = 8.0
 
 	damage = { min = 133 max = 300 } #240mm Cannon * 2
-	cooldown = 70
+	cooldown = 25
 	range = 90
 	accuracy = 0.6
 	tracking = 0.0
@@ -532,7 +532,7 @@ strike_craft_component_template = {
 	launch_time = 8.0
 
 	damage = { min = 67 max = 150 } #1x 240mm Cannon
-	cooldown = 70
+	cooldown = 25
 	range = 90
 	accuracy = 0.7 #Has a targeter, accuracy and tracking increased
 	tracking = 0.2
@@ -575,7 +575,7 @@ strike_craft_component_template = {
 	launch_time = 8.0
 
 	damage = { min = 133 max = 300 } #2x 240mm Cannon
-	cooldown = 70
+	cooldown = 25
 	range = 90
 	accuracy = 0.6 #No extra targeter, accuracy and tracking back to normal
 	tracking = 0.0
@@ -618,7 +618,7 @@ strike_craft_component_template = {
 	launch_time = 8.0
 
 	damage = { min = 200 max = 450 } #2x 360mm Cannon
-	cooldown = 80
+	cooldown = 25
 	range = 100
 	accuracy = 0.5
 	tracking = 0.0
@@ -661,7 +661,7 @@ strike_craft_component_template = {
 	launch_time = 8.0
 
 	damage = { min = 67 max = 150 } #1x 240mm Cannon
-	cooldown = 70
+	cooldown = 25
 	range = 90
 	accuracy = 0.6
 	tracking = 0.0
@@ -747,7 +747,7 @@ strike_craft_component_template = {
 	launch_time = 8.0
 
 	damage = { min = 100 max = 200 } #1 Beam Rifle - Large MPC
-	cooldown = 25
+	cooldown = 20
 	range = 30
 	accuracy = 0.82
 	tracking = 0.65
@@ -790,7 +790,7 @@ strike_craft_component_template = {
 	launch_time = 8.0
 
 	damage = { min = 100 max = 200 } #1 Beam Rifle - Large MPC
-	cooldown = 25
+	cooldown = 20
 	range = 30
 	accuracy = 0.82
 	tracking = 0.65
@@ -833,7 +833,7 @@ strike_craft_component_template = {
 	launch_time = 8.0
 
 	damage = { min = 100 max = 200 } #1 Beam Rifle - Large MPC
-	cooldown = 25
+	cooldown = 20
 	range = 30
 	accuracy = 0.82
 	tracking = 0.65
@@ -876,7 +876,7 @@ strike_craft_component_template = {
 	launch_time = 8.0
 
 	damage = { min = 100 max = 200 } #1 Beam Rifle - Large MPC
-	cooldown = 25
+	cooldown = 20
 	range = 30
 	accuracy = 0.82
 	tracking = 0.65
@@ -919,7 +919,7 @@ strike_craft_component_template = {
 	launch_time = 8.0
 
 	damage = { min = 100 max = 200 } #1 Beam Rifle - Large MPC
-	cooldown = 25
+	cooldown = 20
 	range = 30
 	accuracy = 0.82
 	tracking = 0.65
