@@ -3696,7 +3696,7 @@ entity = {
 	name = "fed_01_Dreadnought_stern_M2_entity"
 	pdxmesh = "fed_01_battleship_stern_m2_mesh"
 	
-		\locator = { name = "medium_gun_01" 			position = { 2.9	0.0 	4.0	} 	rotation = { 0.0 180.0 -90.0 } scale = 2.0} #X,Up/Down,Forward/Back
+	locator = { name = "medium_gun_01" 			position = { 2.9	0.0 	4.0	} 	rotation = { 0.0 180.0 -90.0 } scale = 2.0} #X,Up/Down,Forward/Back
 	locator = { name = "medium_gun_02" 			position = { -2.9 	0.0 	4.0	} 	rotation = { 0.0 180.0 90.0 } scale = 2.0} #X,Up/Down,Forward/Back
 	
 	default_state = "idle"

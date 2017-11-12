@@ -1936,7 +1936,7 @@ ship_section_template = {
 
 ship_section_template = {
 	key = "NEO_SCOUT_MID_S3"
-	ship_size = neo_MS_scout
+	ship_size = neo_MS_scout #neo_MS_scout
 	fits_on_slot = mid
 	entity = "zaku1_body_S3_entity"
 	icon = "GFX_ship_part_core_mid"

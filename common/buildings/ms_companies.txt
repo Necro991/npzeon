@@ -6,20 +6,20 @@ zeonic = {
 	capital = yes
 	empire_unique = yes
 	level = 1
-	
+
 	cost = {
 		minerals = 1000
 	}
-	
+
 	produced_resources = {
 		engineering_research = 10
 		unity = 3
 	}
-	
+
 	required_resources = {
 		energy = 10
 	}
-	
+
 	country_modifier = {
 		navy_size_add = 50
 		shipsize_zeon_MS_P_construction_speed_mult = 0.1
@@ -43,7 +43,7 @@ zeonic = {
 		shipsize_axis_MS_4_construction_speed_mult = 0.1
 		shipsize_axis_MS_5_construction_speed_mult = 0.1
 	}
-	
+
 	#produced_resource_trigger = {
 	#	modifier = {
 	#		has_tradition = tr_expansion_colonization_fever
@@ -52,28 +52,28 @@ zeonic = {
 	#		}
 	#	}
 	#}
-	
+
 	#adjacency_bonus = {
 	#	tile_building_resource_minerals_add = 3
 	#	tile_building_resource_food_add = 3
 	#	tile_building_resource_energy_add = 3
 	#}
-	
+
 	#planet_modifier = {
 	#	pop_government_ethic_attraction = 0.15
 	#}
-	
+
 	potential = {
 		planet = {
 			is_capital = yes
 			NOT = { is_planet_class = pc_habitat }
 		}
 	}
-	
+
 	destroy_if = {
 		planet = { is_capital = no }
-	}	
-	
+	}
+
 	prerequisites = {
 		"tech_Zeon_MS_0"
 	}
@@ -88,20 +88,20 @@ zimmad = {
 	capital = yes
 	empire_unique = yes
 	level = 1
-	
+
 	cost = {
 		minerals = 1000
 	}
-	
+
 	produced_resources = {
 		engineering_research = 10
 		unity = 3
 	}
-	
+
 	required_resources = {
 		energy = 10
 	}
-	
+
 	country_modifier = {
 		navy_size_add = 50
 		shipsize_zeon_MS_P_build_cost_mult = -0.1
@@ -125,7 +125,7 @@ zimmad = {
 		shipsize_axis_MS_4_build_cost_mult = -0.1
 		shipsize_axis_MS_5_build_cost_mult = -0.1
 	}
-	
+
 	#produced_resource_trigger = {
 	#	modifier = {
 	#		has_tradition = tr_expansion_colonization_fever
@@ -134,28 +134,28 @@ zimmad = {
 	#		}
 	#	}
 	#}
-	
+
 	#adjacency_bonus = {
 	#	tile_building_resource_minerals_add = 3
 	#	tile_building_resource_food_add = 3
 	#	tile_building_resource_energy_add = 3
 	#}
-	
+
 	#planet_modifier = {
 	#	pop_government_ethic_attraction = 0.15
 	#}
-	
+
 	potential = {
 		planet = {
 			is_capital = yes
 			NOT = { is_planet_class = pc_habitat }
 		}
 	}
-	
+
 	destroy_if = {
 		planet = { is_capital = no }
-	}	
-	
+	}
+
 	prerequisites = {
 		"tech_Zeon_MS_0"
 	}
@@ -170,27 +170,27 @@ mip = {
 	capital = yes
 	empire_unique = yes
 	level = 1
-	
+
 	cost = {
 		minerals = 1000
 	}
-	
+
 	produced_resources = {
 		engineering_research = 10
 		unity = 3
 	}
-	
+
 	required_resources = {
 		energy = 10
 	}
-	
+
 	country_modifier = {
 		navy_size_add = 50
 		ship_fire_rate_mult = 0.1
 		ship_weapon_damage = 0.1
 		ship_weapon_range_mult = 0.1
 	}
-	
+
 	#produced_resource_trigger = {
 	#	modifier = {
 	#		has_tradition = tr_expansion_colonization_fever
@@ -199,28 +199,28 @@ mip = {
 	#		}
 	#	}
 	#}
-	
+
 	#adjacency_bonus = {
 	#	tile_building_resource_minerals_add = 3
 	#	tile_building_resource_food_add = 3
 	#	tile_building_resource_energy_add = 3
 	#}
-	
+
 	#planet_modifier = {
 	#	pop_government_ethic_attraction = 0.15
 	#}
-	
+
 	potential = {
 		planet = {
 			is_capital = yes
 			NOT = { is_planet_class = pc_habitat }
 		}
 	}
-	
+
 	destroy_if = {
 		planet = { is_capital = no }
-	}	
-	
+	}
+
 	prerequisites = {
 		"tech_Zeon_MA_1"
 	}
@@ -235,21 +235,21 @@ anaheim = {
 	capital = yes
 	empire_unique = yes
 	level = 1
-	
+
 	cost = {
 		minerals = 1500
 	}
-	
+
 	produced_resources = {
 		engineering_research = 10
 		physics_research = 5
 		unity = 5
 	}
-	
+
 	required_resources = {
 		energy = 10
 	}
-	
+
 	country_modifier = {
 		navy_size_add = 150
 		shipsize_ball_construction_speed_mult = 0.1
@@ -260,7 +260,7 @@ anaheim = {
 		ship_weapon_damage = 0.1
 		ship_weapon_range_mult = 0.1
 	}
-	
+
 	#produced_resource_trigger = {
 	#	modifier = {
 	#		has_tradition = tr_expansion_colonization_fever
@@ -269,28 +269,28 @@ anaheim = {
 	#		}
 	#	}
 	#}
-	
+
 	#adjacency_bonus = {
 	#	tile_building_resource_minerals_add = 3
 	#	tile_building_resource_food_add = 3
 	#	tile_building_resource_energy_add = 3
 	#}
-	
+
 	#planet_modifier = {
 	#	pop_government_ethic_attraction = 0.15
 	#}
-	
+
 	potential = {
 		planet = {
 			is_capital = yes
 			NOT = { is_planet_class = pc_habitat }
 		}
 	}
-	
+
 	destroy_if = {
 		planet = { is_capital = no }
-	}	
-	
+	}
+
 	prerequisites = {
 		"tech_EFSF_BEAMC_1"
 	}

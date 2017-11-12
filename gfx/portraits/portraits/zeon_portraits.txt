@@ -779,8 +779,7 @@ portraits = {
 		texturefile = "gfx/models/portraits/zeon/soldier118.dds"
 		clothes_selector = "no_texture"
 		hair_selector = "no_texture"
-	}
-	
+	}	
 }
 portrait_groups = {
 zeon = {
@@ -3764,3 +3763,4 @@ zeon = {
 			}
 		}
 	}
+}

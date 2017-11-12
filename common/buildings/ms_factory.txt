@@ -1,43 +1,31 @@
 building_ms_factory = {
-	base_buildtime = 360	
+	base_buildtime = 360
 	planet_unique = yes
-	
+
 	cost = {
 		minerals = 200
 	}
-	
+
 	produced_resources = {
 		engineering_research = 4
 	}
-	
+
 	required_resources = {
 		energy = 2
 	}
-	
+
 	potential = {
 		planet = {
-			NOT = { is_planet_class = pc_habitat }	
-		}
-	}	
-	
-	allow = {
-		custom_tooltip = {
-			text = "requires_building_capital_2"
-			planet = {
-				OR = {
-					has_building = "building_capital_2"
-					has_building = "building_capital_3"
-				}
-			}
+			NOT = { is_planet_class = pc_habitat }
 		}
 	}
-	
+
 	prerequisites = {
 		"tech_BEAMC_1"
 	}
-	
+
 	ai_special_building = yes
-	
+
 	ai_allow = {
 		AND = {
 			fromfrom = {
@@ -59,7 +47,7 @@ building_ms_factory = {
 			}
 		}
 	}
-	
+
 	ai_weight = {
 		weight = 700
 		modifier = {
@@ -81,45 +69,33 @@ building_ms_factory = {
 }
 
 building_efsf_ms_factory = {
-	base_buildtime = 360	
+	base_buildtime = 360
 	planet_unique = yes
-	
+
 	cost = {
 		minerals = 200
 	}
-	
+
 	produced_resources = {
 		engineering_research = 4
 	}
-	
+
 	required_resources = {
 		energy = 2
 	}
-	
+
 	potential = {
 		planet = {
-			NOT = { is_planet_class = pc_habitat }	
-		}
-	}	
-	
-	allow = {
-		custom_tooltip = {
-			text = "requires_building_capital_2"
-			planet = {
-				OR = {
-					has_building = "building_capital_2"
-					has_building = "building_capital_3"
-				}
-			}
+			NOT = { is_planet_class = pc_habitat }
 		}
 	}
-	
+
 	prerequisites = {
 		"tech_EFSF_BEAMC_1"
 	}
-	
+
 	ai_special_building = yes
-	
+
 	ai_allow = {
 		AND = {
 			fromfrom = {
@@ -141,7 +117,7 @@ building_efsf_ms_factory = {
 			}
 		}
 	}
-	
+
 	ai_weight = {
 		weight = 700
 		modifier = {

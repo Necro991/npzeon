@@ -524,84 +524,9 @@ fed = {
 					ruler = { gender = male }
 				}
 				portraits = {
-					fed_male_01
-					fed_male_02
-					fed_male_03
-					fed_male_04
-					fed_male_05
-					fed_male_06
-					fed_male_07
-					fed_male_08
-					fed_male_09
-					fed_male_10
-					fed_male_11
-					fed_male_12
-					fed_male_13
-					fed_male_14
-					fed_male_15
-					fed_male_16
-					fed_male_17
-					fed_male_18
-					fed_male_19
-					fed_male_20
-					fed_male_21
-					fed_male_22
-					fed_male_23
-					fed_male_24
-					fed_male_25
-					fed_male_26
-					fed_male_27
-					fed_male_28
-					fed_male_29
-					fed_male_30
-					fed_male_31
-					fed_male_32
-					fed_male_33
-					fed_male_34
-					fed_male_35
-					fed_male_36
-					fed_male_37
-					fed_male_38
-					fed_male_39
-					fed_male_40
-					fed_male_41
-					fed_male_42
-					fed_male_43
-					fed_male_44
-					fed_male_45
-					fed_male_46
-					fed_male_47
-					fed_male_48
-					fed_male_49
+					
 					fed_male_50
-					fed_male_51
-					fed_male_52
-					fed_male_53
-					fed_male_54
-					fed_male_55
-					fed_male_56
-					fed_male_57
-					fed_male_58
-					fed_male_59
-					fed_male_60
-					fed_male_61
-					fed_male_62
-					fed_male_63
-					fed_male_64
-					fed_male_65
-					fed_male_66
-					fed_male_67
-					fed_male_68
-					fed_male_69
-					fed_male_70
-					fed_male_71
-					fed_male_72
-					fed_male_73
-					fed_male_74
-					fed_male_75
-					fed_male_76
-					fed_male_77
-					fed_male_78
+
 					}
 				}
 			add = {
@@ -609,31 +534,7 @@ fed = {
 					ruler = { gender = female }
 				}
 				portraits = {
-					fed_female_01
-					fed_female_02
-					fed_female_03
-					fed_female_04
-					fed_female_05
-					fed_female_06
-					fed_female_07
-					fed_female_08
-					fed_female_09
-					fed_female_10
-					fed_female_11
-					fed_female_12
-					fed_female_13
-					fed_female_14
-					fed_female_15
-					fed_female_16
-					fed_female_17
-					fed_female_18
-					fed_female_19
-					fed_female_20
-					fed_female_21
-					fed_female_22
-					fed_female_23
-					fed_female_24
-					fed_female_25
+			
 				}
 			}
 		}		
@@ -642,164 +543,16 @@ fed = {
 		species = { #generic portrait for a species
 				add = {
 					portraits = {
-						fed_male_01
-						fed_male_02
-						fed_male_03
-						fed_male_04
-						fed_male_05
-						fed_male_06
-						fed_male_07
-						fed_male_08
-						fed_male_09
-						fed_male_10
-						fed_male_11
-						fed_male_12
-						fed_male_13
-						fed_male_14
-						fed_male_15
-						fed_male_16
-						fed_male_17
-						fed_male_18
-						fed_male_19
-						fed_male_20
-						fed_male_21
-						fed_male_22
-						fed_male_23
-						fed_male_24
-						fed_male_25
-						fed_male_26
-						fed_male_27
-						fed_male_28
-						fed_male_29
-						fed_male_30
-						fed_male_31
-						fed_male_32
-						fed_male_33
-						fed_male_34
-						fed_male_35
-						fed_male_36
-						fed_male_37
-						fed_male_38
-						fed_male_39
-						fed_male_40
-						fed_male_41
-						fed_male_42
-						fed_male_43
-						fed_male_44
-						fed_male_45
-						fed_male_46
-						fed_male_47
-						fed_male_48
-						fed_male_49
+						
 						fed_male_50
-						fed_male_51
-						fed_male_52
-						fed_male_53
-						fed_male_54
-						fed_male_55
-						fed_male_56
-						fed_male_57
-						fed_male_58
-						fed_male_59
-						fed_male_60
-						fed_male_61
-						fed_male_62
-						fed_male_63
-						fed_male_64
-						fed_male_65
-						fed_male_66
-						fed_male_67
-						fed_male_68
-						fed_male_69
-						fed_male_70
-						fed_male_71
-						fed_male_72
-						fed_male_73
-						fed_male_74
-						fed_male_75
-						fed_male_76
-						fed_male_77
-						fed_male_78
-						fed_female_01
-						fed_female_02
-						fed_female_03
-						fed_female_04
-						fed_female_05
-						fed_female_06
-						fed_female_07
-						fed_female_08
-						fed_female_09
-						fed_female_10
-						fed_female_11
-						fed_female_12
-						fed_female_13
-						fed_female_14
-						fed_female_15
-						fed_female_16
-						fed_female_17
-						fed_female_18
-						fed_female_19
-						fed_female_20
-						fed_female_21
-						fed_female_22
-						fed_female_23
-						fed_female_24
-						fed_female_25
+						
 						}
 					}
 				}
 		pop = { #for a specific pop
 			add = {
 				portraits = {
-					fed_male_01
-					fed_male_02
-					fed_male_03
-					fed_male_04
-					fed_male_05
-					fed_male_06
-					fed_male_07
-					fed_male_08
-					fed_male_09
-					fed_male_10
-					fed_male_11
-					fed_male_12
-					fed_male_13
-					fed_male_14
-					fed_male_15
-					fed_male_16
-					fed_male_17
-					fed_male_18
-					fed_male_19
-					fed_male_20
-					fed_male_21
-					fed_male_22
-					fed_male_23
-					fed_male_24
-					fed_male_25
-					fed_male_26
-					fed_male_27
-					fed_male_28
-					fed_male_29
-					fed_male_30
-					fed_male_31
-					fed_male_32
-					fed_male_33
-					fed_male_34
-					fed_male_35
-					fed_male_36
-					fed_male_37
-					fed_male_38
-					fed_male_39
-					fed_male_40
-					fed_male_41
-					fed_male_42
-					fed_male_43
-					fed_male_44
-					fed_male_45
-					fed_male_46
-					fed_male_47
-					fed_male_48
-					fed_male_49
+					
 					fed_male_50
 					fed_male_51
 					fed_male_52
@@ -1106,24 +859,9 @@ fed = {
 					ruler = { gender = male }
 				}
 				portraits = {
-					fed_male_39
-					fed_male_40
-					fed_male_41
-					fed_male_42
-					fed_male_43
-					fed_male_44
-					fed_male_45
-					fed_male_46
-					fed_male_47
-					fed_male_48
-					fed_male_49
+					
 					fed_male_50
-					fed_male_51
-					fed_male_52
-					fed_male_53
-					fed_male_54
-					fed_male_55
-					fed_male_56
+					
 					}
 				}
 			add = {
@@ -1131,15 +869,7 @@ fed = {
 					ruler = { gender = female }
 				}
 				portraits = {
-					fed_female_11
-					fed_female_12
-					fed_female_13
-					fed_female_14
-					fed_female_15
-					fed_female_16
-					fed_female_17
-					fed_female_18
-					fed_female_25
+					
 				}
 			}
 		}		
@@ -1148,66 +878,18 @@ fed = {
 		species = { #generic portrait for a species
 				add = {
 					portraits = {
-					fed_male_39
-					fed_male_40
-					fed_male_41
-					fed_male_42
-					fed_male_43
-					fed_male_44
-					fed_male_45
-					fed_male_46
-					fed_male_47
-					fed_male_48
-					fed_male_49
+					
 					fed_male_50
-					fed_male_51
-					fed_male_52
-					fed_male_53
-					fed_male_54
-					fed_male_55
-					fed_male_56
-					fed_female_11
-					fed_female_12
-					fed_female_13
-					fed_female_14
-					fed_female_15
-					fed_female_16
-					fed_female_17
-					fed_female_18
-					fed_female_25
+					
 						}
 					}
 				}
 		pop = { #for a specific pop
 			add = {
 				portraits = {
-					fed_male_39
-					fed_male_40
-					fed_male_41
-					fed_male_42
-					fed_male_43
-					fed_male_44
-					fed_male_45
-					fed_male_46
-					fed_male_47
-					fed_male_48
-					fed_male_49
+					
 					fed_male_50
-					fed_male_51
-					fed_male_52
-					fed_male_53
-					fed_male_54
-					fed_male_55
-					fed_male_56
-					fed_female_11
-					fed_female_12
-					fed_female_13
-					fed_female_14
-					fed_female_15
-					fed_female_16
-					fed_female_17
-					fed_female_18
-					fed_female_25
+					
 					}
 				}
 			}
@@ -1217,15 +899,7 @@ fed = {
 					gender = female
 				}
 				portraits = {
-					fed_female_11
-					fed_female_12
-					fed_female_13
-					fed_female_14
-					fed_female_15
-					fed_female_16
-					fed_female_17
-					fed_female_18
-					fed_female_25
+					
 				}
 			}
 			add = {
@@ -1233,24 +907,9 @@ fed = {
 					gender = male
 				}
 				portraits = {
-					fed_male_39
-					fed_male_40
-					fed_male_41
-					fed_male_42
-					fed_male_43
-					fed_male_44
-					fed_male_45
-					fed_male_46
-					fed_male_47
-					fed_male_48
-					fed_male_49
+					
 					fed_male_50
-					fed_male_51
-					fed_male_52
-					fed_male_53
-					fed_male_54
-					fed_male_55
-					fed_male_56
+					
 				}
 			}
 		}
@@ -1262,15 +921,7 @@ fed = {
 					gender = female
 				}
 				portraits = {
-					fed_female_11
-					fed_female_12
-					fed_female_13
-					fed_female_14
-					fed_female_15
-					fed_female_16
-					fed_female_17
-					fed_female_18
-					fed_female_25
+					
 				}	
 			}
 			add = {
@@ -1278,24 +929,9 @@ fed = {
 					gender = male
 				}
 				portraits = {
-					fed_male_39
-					fed_male_40
-					fed_male_41
-					fed_male_42
-					fed_male_43
-					fed_male_44
-					fed_male_45
-					fed_male_46
-					fed_male_47
-					fed_male_48
-					fed_male_49
+					
 					fed_male_50
-					fed_male_51
-					fed_male_52
-					fed_male_53
-					fed_male_54
-					fed_male_55
-					fed_male_56
+					
 				}
 			}
 		}

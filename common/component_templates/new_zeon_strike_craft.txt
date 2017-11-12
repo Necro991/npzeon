@@ -1564,7 +1564,7 @@ strike_craft_component_template = {
 	launch_time = 8.0
 
 	damage = { min = 106 max = 218 } #Cannon - supposedly able to destroy MS in single hit
-	cooldown = 60
+	cooldown = 30
 	range = 70
 	accuracy = 0.70
 	tracking = 0.0
@@ -1650,7 +1650,7 @@ strike_craft_component_template = {
 	launch_time = 8.0
 
 	damage = { min = 106 max = 218 } #Cannon - supposedly able to destroy MS in single hit
-	cooldown = 60
+	cooldown = 25
 	range = 70
 	accuracy = 0.70
 	tracking = 0.0
