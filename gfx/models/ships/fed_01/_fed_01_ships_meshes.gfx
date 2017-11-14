@@ -363,9 +363,9 @@ objectTypes = {
 
 		scale = 1.0
 		meshsettings = {
-			texture_diffuse = "Saberfish_Diffuse_2.dds" 
-			texture_normal = "Saberfish_Normal.dds" 
-			texture_specular = "Saberfish_Specular.dds" 
+			texture_diffuse = "Saberfish_Diffuse_2.dds"
+			texture_normal = "Saberfish_Normal.dds"
+			texture_specular = "Saberfish_Specular.dds"
 			shader = "PdxMeshShip"
 		}
 	}
@@ -1227,11 +1227,37 @@ objectTypes = {
 		}
 	}
 
+	pdxmesh = { #Guncannon
+		name = "fed_01_Guncannon_mesh"
+		file = "gfx/models/ships/fed_01/Guncannon.mesh"
+
+		scale = 0.25
+			meshsettings = {
+				texture_diffuse = "Guncannon.dds"
+				texture_normal = "GM_Normal.dds"
+				texture_specular = "GM_Specular.dds"
+				shader = "PdxMeshShip"
+		}
+	}
+
+	pdxmesh = { #Gundam Alex Chobham
+		name = "fed_01_Alex_Chobham_mesh"
+		file = "gfx/models/ships/fed_01/Gundam_Alex.mesh"
+
+		scale = 0.25
+			meshsettings = {
+				texture_diffuse = "Gundam_Alex.dds"
+				texture_normal = "GM_Normal.dds"
+				texture_specular = "GM_Specular.dds"
+				shader = "PdxMeshShip"
+		}
+	}
+
 	pdxmesh = { #Titan Mk2
 		name = "mk2_mesh"
 		file = "gfx/models/ships/fed_01/GundamMk2Titan.mesh"
 
-		scale = 0.35
+		scale = 0.25
 			meshsettings = {
 				texture_diffuse = "GundamMk2Titan.dds"
 				texture_normal = "GM_Normal.dds"
