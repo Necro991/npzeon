@@ -1511,8 +1511,8 @@ strike_craft_component_template = {
 	size = LARGE
 	entity = "bomber_2z_entity"
 
-	weapon_type = point_defence
-	projectile_gfx = "auto_cannons_s"
+	weapon_type = missile
+	projectile_gfx = "small_missile"
 	power = -54 #1219
 	cost = 70 #79.9 tons = 49 tons + 15 for gun + 5 for armor -7 for UMP costs
 
@@ -1762,4 +1762,133 @@ strike_craft_component_template = {
 	prerequisites = { "tech_MS_14C" }
 	tags = { weapon_type_strike_craft }
 	#upgrades_to = "ZEON_MS_STRIKE_CRAFT_MS_14F"
+}
+
+strike_craft_component_template = {
+	key = "ZEON_MS_STRIKE_CRAFT_MS_21C" #MS-21C Dra-C
+	size = LARGE
+	entity = "fighter_1z_entity"
+
+	weapon_type = point_defence
+	projectile_gfx = "auto_cannons_s"
+	power = -50 #569kW = -25 * 2 = 50
+	cost = 70 #49.0 tons = 30 + 5 for gun * 2 = 70
+
+	count = 6
+	regeneration_per_day = 0.034
+	launch_time = 8.0
+
+	damage = { min = 5 max = 20 } #40mm Vulcan
+	cooldown = 5
+	range = 20
+	accuracy = 0.82
+	tracking = 0.65
+
+	health = 90 # 40 - 30 = 10
+	armor = 10
+	shield = 0
+	evasion = 0.4 #Lacks AMBAC
+
+	speed = 16.3 #2.40G
+	rotation_speed = 0.1
+	acceleration = 0.5
+
+	shield_damage = 1.0 #MEDIUM AUTOCANNON
+	shield_penetration = 0
+	armor_penetration = 0.05
+
+	ship_behavior = "fighters_behavior"
+
+	icon = "GFX_ship_part_ms_21c"
+	icon_frame = 1
+	component_set = "MS_21C_HANGAR_1"
+	prerequisites = { "tech_MS_21C" }
+	tags = { weapon_type_strike_craft }
+	upgrades_to = "ZEON_MS_STRIKE_CRAFT_MS_21D1_1"
+}
+
+strike_craft_component_template = {
+	key = "ZEON_MS_STRIKE_CRAFT_MS_21D1_1" #MS-21D1 Dra-C Custom
+	size = LARGE
+	entity = "fighter_1z_entity"
+
+	weapon_type = point_defence
+	projectile_gfx = "auto_cannons_s"
+	power = -50 #569kW = -25 * 2 = 50
+	cost = 102 #49.9 tons = 31 + 20 for gun * 2 = 102
+
+	count = 6
+	regeneration_per_day = 0.034
+	launch_time = 8.0
+
+	damage = { min = 10 max = 25 } #120mm Gatling, same damage, higher fire rate, longer range, less accuracy
+	cooldown = 1
+	range = 40
+	accuracy = 0.7
+	tracking = 0.65
+
+	health = 90 # 40 - 30 = 10
+	armor = 10
+	shield = 0
+	evasion = 0.4 #Lacks AMBAC
+
+	speed = 16.3 #2.40G
+	rotation_speed = 0.1
+	acceleration = 0.5
+
+	shield_damage = 1.0 #MEDIUM AUTOCANNON
+	shield_penetration = 0
+	armor_penetration = 0.1
+
+	ship_behavior = "fighters_behavior"
+
+	icon = "GFX_ship_part_ms_21d1"
+	icon_frame = 1
+	component_set = "MS_21D1_HANGAR_1"
+	prerequisites = { "tech_MS_21D1" }
+	tags = { weapon_type_strike_craft }
+	#upgrades_to = "ZEON_MS_STRIKE_CRAFT_MS_06FZ_1"
+}
+
+strike_craft_component_template = {
+	key = "ZEON_MS_STRIKE_CRAFT_MS_21D1_2" #MS-21D1 Dra-C Custom
+	size = LARGE
+	entity = "fighter_1z_entity"
+
+	weapon_type = missile
+	projectile_gfx = "swarmer_missiles"
+	power = -50 #569kW = -25 * 2 = 50
+	cost = 92 #49.9 tons = 31 + 15 for gun * 2 = 92
+
+	count = 6
+	regeneration_per_day = 0.034
+	launch_time = 8.0
+
+	damage = { min = 8 max = 12 } #Missile Pods
+	cooldown = 16
+	range = 100
+	accuracy = 1.0
+	tracking = 0.5
+
+	health = 90 # 40 - 30 = 10
+	armor = 10
+	shield = 0
+	evasion = 0.4 #Lacks AMBAC
+
+	speed = 16.3 #2.40G
+	rotation_speed = 0.1
+	acceleration = 0.5
+
+	shield_damage = 1.1 #Swarmer Missiles
+	shield_penetration = 0
+	armor_penetration = 0.3
+
+	ship_behavior = "fighters_behavior"
+
+	icon = "GFX_ship_part_ms_21d1"
+	icon_frame = 1
+	component_set = "MS_21D1_HANGAR_2"
+	prerequisites = { "tech_MS_21D1" }
+	tags = { weapon_type_strike_craft }
+	#upgrades_to = "ZEON_MS_STRIKE_CRAFT_MS_06FZ_1"
 }
