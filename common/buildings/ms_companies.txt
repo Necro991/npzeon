@@ -75,7 +75,7 @@ zeonic = {
 	}
 
 	prerequisites = {
-		"tech_Zeon_MS_0"
+		"tech_Zeonic"
 	}
 
 	ai_replace = no
@@ -157,7 +157,7 @@ zimmad = {
 	}
 
 	prerequisites = {
-		"tech_Zeon_MS_0"
+		"tech_Zimmad"
 	}
 
 	ai_replace = no
@@ -222,7 +222,7 @@ mip = {
 	}
 
 	prerequisites = {
-		"tech_Zeon_MA_1"
+		"tech_MIP"
 	}
 
 	ai_replace = no
@@ -292,7 +292,7 @@ anaheim = {
 	}
 
 	prerequisites = {
-		"tech_EFSF_BEAMC_1"
+		"tech_Anaheim"
 	}
 
 	ai_replace = no

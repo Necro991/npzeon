@@ -1,0 +1,65 @@
+namespace = gundam_tech_event
+
+country_event = {
+	id = gundam_tech_event.1
+	title = "gundam_tech_event_t1"
+	desc = "gundam_tech_event_d1"
+	picture = "GFX_evt_Zeon1"
+	show_sound = event_structural_collapse
+
+	trigger = {
+	  Not = {
+			has_country_flag = axis_tech_given
+		}
+		has_technology = "tech_Principality"
+		Or = {
+		   has_technology = "tech_MS_14JG"
+			 has_technology = "tech_MS_06FZ"
+			 has_technology = "tech_MS_09R_2"
+	  }
+		Or = {
+			And = {
+				has_technology = "tech_MS_09R"
+				has_technology = "tech_MS_06F"
+			}
+			And = {
+				has_technology = "tech_MS_06F"
+				has_technology = "tech_MS_14A"
+			}
+			And = {
+				has_technology = "tech_MS_09R"
+				has_technology = "tech_MS_14A"
+			}
+	  }
+	}
+
+	mean_time_to_happen = {
+		months = 3
+	}
+
+	immediate = {
+		set_country_flag = axis_tech_given
+		give_technology = { tech = tech_Axis }
+	}
+}
+
+country_event = {
+	id = gundam_tech_event.2
+	title = "gundam_tech_event_t1"
+	desc = "gundam_tech_event_d1"
+	picture = "GFX_evt_Zeon1"
+	show_sound = event_structural_collapse
+	is_triggered_only = yes
+
+	immediate = {
+		#set_country_flag = axis_tech_given
+		give_technology = { tech = tech_Principality }
+		give_technology = { tech = tech_MS_14JG }
+		give_technology = { tech = tech_MS_06FZ }
+		give_technology = { tech = tech_MS_09R_2 }
+		give_technology = { tech = tech_MS_09R }
+		give_technology = { tech = tech_MS_06F }
+		give_technology = { tech = tech_MS_14A }
+		#give_technology = { tech = tech_Axis }
+	}
+}
