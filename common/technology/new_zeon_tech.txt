@@ -362,3 +362,101 @@ tech_MS_21D1 = {
 		factor = 2		#weapons are good
 	}
 }
+
+tech_MS_17 = {
+	area = engineering
+	cost = @tier1cost1
+	tier = 1
+	category = { materials }
+	ai_update_type = military
+	prerequisites = { "tech_MS_14A" "tech_Zimmad" }
+	weight = @tier1weight1
+
+	ai_weight = {
+		factor = 2		#weapons are good
+	}
+}
+
+tech_MS_17R = {
+	area = engineering
+	cost = @tier1cost1
+	tier = 1
+	category = { materials }
+	ai_update_type = military
+	prerequisites = { "tech_MS_17" }
+	weight = @tier1weight1
+
+	ai_weight = {
+		factor = 2		#weapons are good
+	}
+}
+
+tech_AMX_009 = {
+	area = engineering
+	cost = @tier1cost1
+	tier = 1
+	category = { materials }
+	ai_update_type = military
+	prerequisites = { "tech_MS_09R_2" "tech_Axis" }
+	weight = @tier1weight1
+
+	ai_weight = {
+		factor = 2		#weapons are good
+	}
+}
+
+tech_AMX_003C = {
+	area = engineering
+	cost = @tier1cost1
+	tier = 1
+	category = { materials }
+	ai_update_type = military
+	prerequisites = { "tech_Axis" }
+	weight = @tier1weight1
+
+	ai_weight = {
+		factor = 2		#weapons are good
+	}
+}
+
+tech_AMX_006 = {
+	area = engineering
+	cost = @tier1cost1
+	tier = 1
+	category = { materials }
+	ai_update_type = military
+	prerequisites = { "tech_AMX_003C" }
+	weight = @tier1weight1
+
+	ai_weight = {
+		factor = 2		#weapons are good
+	}
+}
+
+tech_AMX_007 = {
+	area = engineering
+	cost = @tier1cost1
+	tier = 1
+	category = { materials }
+	ai_update_type = military
+	prerequisites = { "tech_AMX_006" }
+	weight = @tier1weight1
+
+	ai_weight = {
+		factor = 2		#weapons are good
+	}
+}
+
+tech_AMX_008 = {
+	area = engineering
+	cost = @tier1cost1
+	tier = 1
+	category = { materials }
+	ai_update_type = military
+	prerequisites = { "tech_AMX_003C" }
+	weight = @tier1weight1
+
+	ai_weight = {
+		factor = 2		#weapons are good
+	}
+}

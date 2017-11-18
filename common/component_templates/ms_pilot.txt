@@ -10,7 +10,7 @@ utility_component_template = {
 	power = 0
 	cost = 5
 	ship_behavior = "mobile_suit_behavior"
-	
+
 	modifier = {
 		ship_evasion_add = 5
 		ship_combat_speed_mult = 0.05
@@ -18,14 +18,14 @@ utility_component_template = {
 	ship_modifier = {
 		ship_weapon_damage = 0.01
 	}
-	
+
 	ai_weight = {
 		weight = 1
 	}
-	
+
 	prerequisites = { "tech_Zeon_MS_0" }
 	component_set = "ms_pilot"
-	
+
 	upgrades_to = "ms_pilot_veteran"
 }
 
@@ -37,23 +37,23 @@ utility_component_template = {
 	power = 0
 	cost = 10
 	ship_behavior = "mobile_suit_behavior"
-	
+
 	modifier = {
 		ship_evasion_add = 7
 		ship_combat_speed_mult = 0.10
 	}
 	ship_modifier = {
 		ship_weapon_damage = 0.05
-		
+
 	}
-	
+
 	ai_weight = {
 		weight = 1
 	}
-	
+
 	prerequisites = { "tech_Zeon_MS_2" }
 	component_set = "ms_pilot"
-	
+
 	upgrades_to = "ms_pilot_ace"
 }
 
@@ -65,7 +65,7 @@ utility_component_template = {
 	power = 0
 	cost = 15
 	ship_behavior = "mobile_suit_behavior"
-	
+
 	modifier = {
 		ship_evasion_add = 10
 		ship_combat_speed_mult = 0.15
@@ -75,14 +75,14 @@ utility_component_template = {
 		ship_accuracy_add = 3
 		ship_fire_rate_mult = 0.05
 	}
-	
+
 	ai_weight = {
 		weight = 1
 	}
-	
+
 	prerequisites = { "tech_Zeon_MS_4" }
 	component_set = "ms_pilot"
-	
+
 	upgrades_to = "ms_pilot_newtype"
 }
 
@@ -94,7 +94,7 @@ utility_component_template = {
 	power = 0
 	cost = 30
 	ship_behavior = "mobile_suit_behavior"
-	
+
 	modifier = {
 		ship_evasion_add = 12
 		ship_combat_speed_mult = 0.2
@@ -104,11 +104,11 @@ utility_component_template = {
 		ship_accuracy_add = 5
 		ship_fire_rate_mult = 0.1
 	}
-	
+
 	ai_weight = {
 		weight = 1
 	}
-	
+
 	prerequisites = { "tech_newtype_theory" }
 	component_set = "ms_pilot"
 }
@@ -121,7 +121,7 @@ utility_component_template = {
 	power = -5
 	cost = 40
 	ship_behavior = "mobile_suit_behavior"
-	
+
 	modifier = {
 		ship_evasion_add = 10
 		ship_combat_speed_mult = 0.25
@@ -131,11 +131,11 @@ utility_component_template = {
 		ship_accuracy_add = 5
 		ship_fire_rate_mult = 0.15
 	}
-	
+
 	ai_weight = {
 		weight = 1
 	}
-	
+
 	prerequisites = { "tech_cyber_newtypes" }
 	component_set = "ms_pilot"
 }
@@ -148,7 +148,7 @@ utility_component_template = {
 	power = 0
 	cost = 120
 	ship_behavior = "mobile_suit_behavior"
-	
+
 	modifier = {
 		ship_evasion_add = 12
 		ship_combat_speed_mult = 0.2
@@ -158,11 +158,11 @@ utility_component_template = {
 		ship_accuracy_add = 5
 		ship_fire_rate_mult = 0.1
 	}
-	
+
 	ai_weight = {
 		weight = 1
 	}
-	
+
 	prerequisites = { "tech_Zeon_MS_5" }
 	component_set = "zeon_p_ms_pilot"
 }

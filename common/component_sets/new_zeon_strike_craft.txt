@@ -307,3 +307,101 @@ component_set = {
 	icon = "GFX_ship_part_ms_21d1"
 	icon_frame = 1
 }
+
+component_set = {
+	key = "MS_17_HANGAR_1"
+
+	icon = "GFX_ship_part_ms_17"
+	icon_frame = 1
+}
+
+component_set = {
+	key = "MS_17_HANGAR_2"
+
+	icon = "GFX_ship_part_ms_17"
+	icon_frame = 1
+}
+
+component_set = {
+	key = "MS_17R_HANGAR_1"
+
+	icon = "GFX_ship_part_ms_17r"
+	icon_frame = 1
+}
+
+component_set = {
+	key = "MS_17R_HANGAR_2"
+
+	icon = "GFX_ship_part_ms_17r"
+	icon_frame = 1
+}
+
+component_set = {
+	key = "AMX_009_HANGAR_1"
+
+	icon = "GFX_ship_part_amx_009"
+	icon_frame = 1
+}
+
+component_set = {
+	key = "AMX_009_HANGAR_2"
+
+	icon = "GFX_ship_part_amx_009"
+	icon_frame = 1
+}
+
+component_set = {
+	key = "AMX_003C_HANGAR_1"
+
+	icon = "GFX_ship_part_amx_003c"
+	icon_frame = 1
+}
+
+component_set = {
+	key = "AMX_003C_HANGAR_2"
+
+	icon = "GFX_ship_part_amx_003c"
+	icon_frame = 1
+}
+
+component_set = {
+	key = "AMX_006_HANGAR_1"
+
+	icon = "GFX_ship_part_amx_006"
+	icon_frame = 1
+}
+
+component_set = {
+	key = "AMX_006_HANGAR_2"
+
+	icon = "GFX_ship_part_amx_006"
+	icon_frame = 1
+}
+
+component_set = {
+	key = "AMX_007_HANGAR_1"
+
+	icon = "GFX_ship_part_amx_007"
+	icon_frame = 1
+}
+
+component_set = {
+	key = "AMX_007_HANGAR_2"
+
+	icon = "GFX_ship_part_amx_007"
+	icon_frame = 1
+}
+
+component_set = {
+	key = "AMX_008_HANGAR_1"
+
+	icon = "GFX_ship_part_amx_008"
+	icon_frame = 1
+}
+
+component_set = {
+	key = "AMX_008_HANGAR_2"
+
+	icon = "GFX_ship_part_amx_008"
+	icon_frame = 1
+}
