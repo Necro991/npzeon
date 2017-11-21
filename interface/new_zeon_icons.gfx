@@ -159,4 +159,134 @@ spriteTypes = {
 		name = "GFX_ship_part_amx_008"
 		texturefile = "gfx/interface/icons/ship_parts/AMX-008.dds"
 	}
+
+	spriteType = {
+		name = "GFX_ship_part_amx_011"
+		texturefile = "gfx/interface/icons/ship_parts/AMX-011.dds"
+	}
+
+	spriteType = {
+		name = "GFX_ship_part_amx_011s"
+		texturefile = "gfx/interface/icons/ship_parts/AMX-011S.dds"
+	}
+
+	spriteType = {
+		name = "GFX_ship_part_amx_011c"
+		texturefile = "gfx/interface/icons/ship_parts/AMX-011C.dds"
+	}
+
+	spriteType = {
+		name = "GFX_ship_part_amx_101"
+		texturefile = "gfx/interface/icons/ship_parts/AMX-101.dds"
+	}
+
+	spriteType = {
+		name = "GFX_ship_part_amx_101k"
+		texturefile = "gfx/interface/icons/ship_parts/AMX-101K.dds"
+	}
+
+	spriteType = {
+		name = "GFX_ship_part_amx_102"
+		texturefile = "gfx/interface/icons/ship_parts/AMX-102.dds"
+	}
+
+	spriteType = {
+		name = "GFX_ship_part_amx_102c"
+		texturefile = "gfx/interface/icons/ship_parts/AMX-102C.dds"
+	}
+
+	spriteType = {
+		name = "GFX_ship_part_amx_015"
+		texturefile = "gfx/interface/icons/ship_parts/AMX-015.dds"
+	}
+
+	spriteType = {
+		name = "GFX_ship_part_ms_14j"
+		texturefile = "gfx/interface/icons/ship_parts/MS-14J.dds"
+	}
+
+	spriteType = {
+		name = "GFX_ship_part_amx_004"
+		texturefile = "gfx/interface/icons/ship_parts/AMX-004.dds"
+	}
+
+	spriteType = {
+		name = "GFX_ship_part_amx_004g"
+		texturefile = "gfx/interface/icons/ship_parts/AMX-004G.dds"
+	}
+
+	spriteType = {
+		name = "GFX_ship_part_amx_104"
+		texturefile = "gfx/interface/icons/ship_parts/AMX-104.dds"
+	}
+
+	spriteType = {
+		name = "GFX_ship_part_amx_107"
+		texturefile = "gfx/interface/icons/ship_parts/AMX-107.dds"
+	}
+
+	spriteType = {
+		name = "GFX_ship_part_amx_107r"
+		texturefile = "gfx/interface/icons/ship_parts/AMX-107R.dds"
+	}
+
+	spriteType = {
+		name = "GFX_ship_part_nz_000"
+		texturefile = "gfx/interface/icons/ship_parts/NZ-000.dds"
+	}
+
+	spriteType = {
+		name = "GFX_ship_part_nz_666"
+		texturefile = "gfx/interface/icons/ship_parts/NZ-666.dds"
+	}
+
+	spriteType = {
+		name = "GFX_ship_part_amx_103"
+		texturefile = "gfx/interface/icons/ship_parts/AMX-103.dds"
+	}
+
+	spriteType = {
+		name = "GFX_ship_part_amx_014"
+		texturefile = "gfx/interface/icons/ship_parts/AMX-014.dds"
+	}
+
+	spriteType = {
+		name = "GFX_ship_part_ams_119"
+		texturefile = "gfx/interface/icons/ship_parts/AMS-119.dds"
+	}
+
+	spriteType = {
+		name = "GFX_ship_part_ams_120x"
+		texturefile = "gfx/interface/icons/ship_parts/AMS-120X.dds"
+	}
+
+	spriteType = {
+		name = "GFX_ship_part_msn_03"
+		texturefile = "gfx/interface/icons/ship_parts/MSN-03.dds"
+	}
+
+	spriteType = {
+		name = "GFX_ship_part_msn_04"
+		texturefile = "gfx/interface/icons/ship_parts/MSN-04.dds"
+	}
+
+	spriteType = {
+		name = "GFX_ship_part_msn_x4"
+		texturefile = "gfx/interface/icons/ship_parts/MSN-X4.dds"
+	}
+
+	spriteType = {
+		name = "GFX_ship_part_ams_119_heavy"
+		texturefile = "gfx/interface/icons/ship_parts/AMS-119-Heavy.dds"
+	}
+
+	spriteType = {
+		name = "GFX_ship_part_ams_119s"
+		texturefile = "gfx/interface/icons/ship_parts/AMS-119S.dds"
+	}
+
+	spriteType = {
+		name = "GFX_ship_part_ams_129"
+		texturefile = "gfx/interface/icons/ship_parts/AMS-129.dds"
+	}
 }

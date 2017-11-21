@@ -405,3 +405,227 @@ component_set = {
 	icon = "GFX_ship_part_amx_008"
 	icon_frame = 1
 }
+
+component_set = {
+	key = "AMX_011_HANGAR_1"
+
+	icon = "GFX_ship_part_amx_011"
+	icon_frame = 1
+}
+
+component_set = {
+	key = "AMX_011_HANGAR_2"
+
+	icon = "GFX_ship_part_amx_011"
+	icon_frame = 1
+}
+
+component_set = {
+	key = "AMX_011S_HANGAR_1"
+
+	icon = "GFX_ship_part_amx_011s"
+	icon_frame = 1
+}
+
+component_set = {
+	key = "AMX_011S_HANGAR_2"
+
+	icon = "GFX_ship_part_amx_011s"
+	icon_frame = 1
+}
+
+component_set = {
+	key = "AMX_011C_HANGAR_1"
+
+	icon = "GFX_ship_part_amx_011c"
+	icon_frame = 1
+}
+
+component_set = {
+	key = "AMX_011C_HANGAR_2"
+
+	icon = "GFX_ship_part_amx_011c"
+	icon_frame = 1
+}
+
+component_set = {
+	key = "AMX_101_HANGAR_1"
+
+	icon = "GFX_ship_part_amx_101"
+	icon_frame = 1
+}
+
+component_set = {
+	key = "AMX_101K_HANGAR_1"
+
+	icon = "GFX_ship_part_amx_101k"
+	icon_frame = 1
+}
+
+component_set = {
+	key = "AMX_102_HANGAR_1"
+
+	icon = "GFX_ship_part_amx_102"
+	icon_frame = 1
+}
+
+component_set = {
+	key = "AMX_102C_HANGAR_1"
+
+	icon = "GFX_ship_part_amx_102c"
+	icon_frame = 1
+}
+
+component_set = {
+	key = "AMX_015_HANGAR_1"
+
+	icon = "GFX_ship_part_amx_015"
+	icon_frame = 1
+}
+
+component_set = {
+	key = "MS_14J_HANGAR_1"
+
+	icon = "GFX_ship_part_ms_14j"
+	icon_frame = 1
+}
+
+component_set = {
+	key = "MS_14J_HANGAR_2"
+
+	icon = "GFX_ship_part_ms_14j"
+	icon_frame = 1
+}
+
+component_set = {
+	key = "AMX_004_HANGAR_1"
+
+	icon = "GFX_ship_part_amx_004"
+	icon_frame = 1
+}
+
+component_set = {
+	key = "AMX_004G_HANGAR_1"
+
+	icon = "GFX_ship_part_amx_004g"
+	icon_frame = 1
+}
+
+component_set = {
+	key = "AMX_104_HANGAR_1"
+
+	icon = "GFX_ship_part_amx_104"
+	icon_frame = 1
+}
+
+component_set = {
+	key = "AMX_107_HANGAR_1"
+
+	icon = "GFX_ship_part_amx_107"
+	icon_frame = 1
+}
+
+component_set = {
+	key = "AMX_107R_HANGAR_1"
+
+	icon = "GFX_ship_part_amx_107r"
+	icon_frame = 1
+}
+
+component_set = {
+	key = "NZ_000_HANGAR_1"
+
+	icon = "GFX_ship_part_nz_000"
+	icon_frame = 1
+}
+
+component_set = {
+	key = "NZ_666_HANGAR_1"
+
+	icon = "GFX_ship_part_nz_666"
+	icon_frame = 1
+}
+
+component_set = {
+	key = "AMX_103_HANGAR_1"
+
+	icon = "GFX_ship_part_amx_103"
+	icon_frame = 1
+}
+
+component_set = {
+	key = "AMX_014_HANGAR_1"
+
+	icon = "GFX_ship_part_amx_014"
+	icon_frame = 1
+}
+
+component_set = {
+	key = "AMS_119_HANGAR_1"
+
+	icon = "GFX_ship_part_ams_119"
+	icon_frame = 1
+}
+
+component_set = {
+	key = "AMS_119_HANGAR_2"
+
+	icon = "GFX_ship_part_ams_119"
+	icon_frame = 1
+}
+
+component_set = {
+	key = "AMS_120X_HANGAR_1"
+
+	icon = "GFX_ship_part_ams_120x"
+	icon_frame = 1
+}
+
+component_set = {
+	key = "MSN_03_HANGAR_1"
+
+	icon = "GFX_ship_part_msn_03"
+	icon_frame = 1
+}
+
+component_set = {
+	key = "MSN_04_HANGAR_1"
+
+	icon = "GFX_ship_part_msn_04"
+	icon_frame = 1
+}
+
+component_set = {
+	key = "MSN_X4_HANGAR_1"
+
+	icon = "GFX_ship_part_msn_x4"
+	icon_frame = 1
+}
+
+component_set = {
+	key = "AMS_119_HEAVY_HANGAR_1"
+
+	icon = "GFX_ship_part_ams_119_heavy"
+	icon_frame = 1
+}
+
+component_set = {
+	key = "AMS_119S_HANGAR_1"
+
+	icon = "GFX_ship_part_ams_119s"
+	icon_frame = 1
+}
+
+component_set = {
+	key = "AMS_129_HANGAR_1"
+
+	icon = "GFX_ship_part_ams_129"
+	icon_frame = 1
+}
+
+component_set = {
+	key = "AMS_129_HANGAR_2"
+
+	icon = "GFX_ship_part_ams_129"
+	icon_frame = 1
+}

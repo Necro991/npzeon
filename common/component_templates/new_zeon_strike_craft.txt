@@ -471,7 +471,7 @@ strike_craft_component_template = {
 	component_set = "MS_06FZ_HANGAR_1"
 	prerequisites = { "tech_MS_06FZ" }
 	tags = { weapon_type_strike_craft }
-	#upgrades_to = "LARGE_FIGHTERS_HANGAR_3"
+	upgrades_to = "ZEON_MS_STRIKE_CRAFT_AMX_011_1"
 }
 
 strike_craft_component_template = {
@@ -514,7 +514,7 @@ strike_craft_component_template = {
 	component_set = "MS_06FZ_HANGAR_2"
 	prerequisites = { "tech_MS_06FZ" }
 	tags = { weapon_type_strike_craft }
-	#upgrades_to = "LARGE_FIGHTERS_HANGAR_3"
+	upgrades_to = "ZEON_MS_STRIKE_CRAFT_AMX_011_2"
 }
 
 strike_craft_component_template = {
@@ -1245,7 +1245,7 @@ strike_craft_component_template = {
 	component_set = "MS_14JG_HANGAR_1"
 	prerequisites = { "tech_MS_14JG" }
 	tags = { weapon_type_strike_craft }
-	#upgrades_to = "ZEON_MS_STRIKE_CRAFT_MS_06F2"
+	upgrades_to = "ZEON_MS_STRIKE_CRAFT_MS_14J_1"
 }
 
 strike_craft_component_template = {
@@ -1288,7 +1288,7 @@ strike_craft_component_template = {
 	component_set = "MS_14JG_HANGAR_2"
 	prerequisites = { "tech_MS_14JG" }
 	tags = { weapon_type_strike_craft }
-	#upgrades_to = "ZEON_MS_STRIKE_CRAFT_MS_06F2"
+	upgrades_to = "ZEON_MS_STRIKE_CRAFT_MS_14J_1"
 }
 
 strike_craft_component_template = {
@@ -1761,7 +1761,7 @@ strike_craft_component_template = {
 	component_set = "MS_14C_HANGAR_1"
 	prerequisites = { "tech_MS_14C" }
 	tags = { weapon_type_strike_craft }
-	#upgrades_to = "ZEON_MS_STRIKE_CRAFT_MS_14F"
+	upgrades_to = "ZEON_MS_STRIKE_CRAFT_AMX_101K"
 }
 
 strike_craft_component_template = {
@@ -2493,4 +2493,1380 @@ strike_craft_component_template = {
 	prerequisites = { "tech_AMX_008" }
 	tags = { weapon_type_strike_craft }
 	#upgrades_to = "ZEON_MS_STRIKE_CRAFT_AMX_007_2"
+}
+
+strike_craft_component_template = {
+	key = "ZEON_MS_STRIKE_CRAFT_AMX_011_1" #AMX-011 Zaku III
+	size = LARGE
+	entity = "bomber_5z_entity"
+
+	weapon_type = point_defence
+	projectile_gfx = "MPC1" #Find beam gfx
+	power = -96 #2150
+	cost = 114 #68.3 tons = 42 * 2 lunar titanium + 30 for gun
+
+	count = 3
+	regeneration_per_day = 0.034
+	launch_time = 8.0
+
+	damage = { min = 100 max = 200 } #Beam Rifle/MPC 1
+	cooldown = 10
+	range = 30
+	accuracy = 0.82
+	tracking = 0.65
+
+	health = 102
+	armor = 20
+	shield = 0
+	evasion = 0.5
+
+	speed = 17.2 #2.53G
+	rotation_speed = 0.1
+	acceleration = 0.5
+
+	shield_damage = 0.2 #MPC1
+	shield_penetration = 0
+	armor_penetration = 0.95
+
+	ship_behavior = "fighters_behavior"
+
+	icon = "GFX_ship_part_amx_011"
+	icon_frame = 1
+	component_set = "AMX_011_HANGAR_1"
+	prerequisites = { "tech_AMX_011" }
+	tags = { weapon_type_strike_craft }
+	upgrades_to = "ZEON_MS_STRIKE_CRAFT_AMX_011C_1"
+}
+
+strike_craft_component_template = {
+	key = "ZEON_MS_STRIKE_CRAFT_AMX_011_2" #AMX-011 Zaku III
+	size = LARGE
+	entity = "bomber_5z_entity"
+
+	weapon_type = missile
+	projectile_gfx = "small_missile"
+	power = -96 #2150
+	cost = 99 #68.3 tons = 42 * 2 lunar titanium + 15 for gun
+
+	count = 3
+	regeneration_per_day = 0.034
+	launch_time = 8.0
+
+	damage = { min = 70 max = 120 } #420mm Bazooka
+	cooldown = 20
+	range = 70
+	accuracy = 0.85
+	tracking = 0.3
+
+	health = 102
+	armor = 20
+	shield = 0
+	evasion = 0.5
+
+	speed = 17.2 #2.53G
+	rotation_speed = 0.1
+	acceleration = 0.5
+
+	shield_damage = 1.15 #MEDIUM MISSILE
+	shield_penetration = 0
+	armor_penetration = 0.25
+
+	ship_behavior = "fighters_behavior"
+
+	icon = "GFX_ship_part_amx_011"
+	icon_frame = 1
+	component_set = "AMX_011_HANGAR_2"
+	prerequisites = { "tech_AMX_011" }
+	tags = { weapon_type_strike_craft }
+	upgrades_to = "ZEON_MS_STRIKE_CRAFT_AMX_011C_2"
+}
+
+strike_craft_component_template = {
+	key = "ZEON_MS_STRIKE_CRAFT_AMX_011S_1" #AMX-011S Zaku III Custom
+	size = LARGE
+	entity = "bomber_5z_entity"
+
+	weapon_type = point_defence
+	projectile_gfx = "MPC1" #Find beam gfx
+	power = -127 #2860
+	cost = 118 #71.4 tons = 44 * 2 lunar titanium + 30 for gun
+
+	count = 3
+	regeneration_per_day = 0.034
+	launch_time = 8.0
+
+	damage = { min = 100 max = 200 } #Beam Rifle/MPC 1
+	cooldown = 10
+	range = 30
+	accuracy = 0.82
+	tracking = 0.65
+
+	health = 104
+	armor = 20
+	shield = 0
+	evasion = 0.5
+
+	speed = 20.1 #2.96G
+	rotation_speed = 0.1
+	acceleration = 0.5
+
+	shield_damage = 0.2 #MPC1
+	shield_penetration = 0
+	armor_penetration = 0.95
+
+	ship_behavior = "fighters_behavior"
+
+	icon = "GFX_ship_part_amx_011s"
+	icon_frame = 1
+	component_set = "AMX_011S_HANGAR_1"
+	prerequisites = { "tech_AMX_011S" }
+	tags = { weapon_type_strike_craft }
+	upgrades_to = "ZEON_MS_STRIKE_CRAFT_AMX_011C_1"
+}
+
+strike_craft_component_template = {
+	key = "ZEON_MS_STRIKE_CRAFT_AMX_011S_2" #AMX-011S Zaku III Custom
+	size = LARGE
+	entity = "bomber_5z_entity"
+
+	weapon_type = missile
+	projectile_gfx = "small_missile"
+	power = -127 #2860
+	cost = 103 #71.4 tons = 44 * 2 lunar titanium + 15 for gun
+
+	count = 3
+	regeneration_per_day = 0.034
+	launch_time = 8.0
+
+	damage = { min = 70 max = 120 } #420mm Bazooka
+	cooldown = 20
+	range = 70
+	accuracy = 0.85
+	tracking = 0.3
+
+	health = 104
+	armor = 20
+	shield = 0
+	evasion = 0.5
+
+	speed = 20.1 #2.96G
+	rotation_speed = 0.1
+	acceleration = 0.5
+
+	shield_damage = 1.15 #MEDIUM MISSILE
+	shield_penetration = 0
+	armor_penetration = 0.25
+
+	ship_behavior = "fighters_behavior"
+
+	icon = "GFX_ship_part_amx_011s"
+	icon_frame = 1
+	component_set = "AMX_011S_HANGAR_2"
+	prerequisites = { "tech_AMX_011S" }
+	tags = { weapon_type_strike_craft }
+	upgrades_to = "ZEON_MS_STRIKE_CRAFT_AMX_011C_2"
+}
+
+strike_craft_component_template = {
+	key = "ZEON_MS_STRIKE_CRAFT_AMX_011C_1" #AMX-011C Zaku III Late Type
+	size = LARGE
+	entity = "bomber_5z_entity"
+
+	weapon_type = point_defence
+	projectile_gfx = "MPC1" #Find beam gfx
+	power = -131 #2950
+	cost = 116 #69.2 tons = 43 * 2 lunar titanium + 30 for gun
+
+	count = 3
+	regeneration_per_day = 0.034
+	launch_time = 8.0
+
+	damage = { min = 100 max = 200 } #Beam Rifle/MPC 1
+	cooldown = 10
+	range = 30
+	accuracy = 0.82
+	tracking = 0.65
+
+	health = 103
+	armor = 20
+	shield = 0
+	evasion = 0.5
+
+	speed = 20.9 #3.08G
+	rotation_speed = 0.1
+	acceleration = 0.5
+
+	shield_damage = 0.2 #MPC1
+	shield_penetration = 0
+	armor_penetration = 0.95
+
+	ship_behavior = "fighters_behavior"
+
+	icon = "GFX_ship_part_amx_011c"
+	icon_frame = 1
+	component_set = "AMX_011C_HANGAR_1"
+	prerequisites = { "tech_AMX_011C" }
+	tags = { weapon_type_strike_craft }
+	upgrades_to = "ZEON_MS_STRIKE_CRAFT_AMS_119_1"
+}
+
+strike_craft_component_template = {
+	key = "ZEON_MS_STRIKE_CRAFT_AMX_011C_2" #AMX-011C Zaku III Late Type
+	size = LARGE
+	entity = "bomber_5z_entity"
+
+	weapon_type = missile
+	projectile_gfx = "small_missile"
+	power = -127 #2860
+	cost = 101 #69.2 tons = 43 * 2 lunar titanium + 15 for gun
+
+	count = 3
+	regeneration_per_day = 0.034
+	launch_time = 8.0
+
+	damage = { min = 70 max = 120 } #420mm Bazooka
+	cooldown = 20
+	range = 70
+	accuracy = 0.85
+	tracking = 0.3
+
+	health = 103
+	armor = 20
+	shield = 0
+	evasion = 0.5
+
+	speed = 20.9 #3.08G
+	rotation_speed = 0.1
+	acceleration = 0.5
+
+	shield_damage = 1.15 #MEDIUM MISSILE
+	shield_penetration = 0
+	armor_penetration = 0.25
+
+	ship_behavior = "fighters_behavior"
+
+	icon = "GFX_ship_part_amx_011c"
+	icon_frame = 1
+	component_set = "AMX_011C_HANGAR_2"
+	prerequisites = { "tech_AMX_011C" }
+	tags = { weapon_type_strike_craft }
+	upgrades_to = "ZEON_MS_STRIKE_CRAFT_AMS_119_2"
+}
+
+strike_craft_component_template = {
+	key = "ZEON_MS_STRIKE_CRAFT_AMX_101" #AMX-101 Galluss-J
+	size = LARGE
+	entity = "bomber_5z_entity"
+
+	weapon_type = point_defence
+	projectile_gfx = "MPC1" #Find beam gfx
+	power = -82 #1840
+	cost = 126 #78.3 tons = 48 * 2 lunar titanium + 30 for gun
+
+	count = 3
+	regeneration_per_day = 0.034
+	launch_time = 8.0
+
+	damage = { min = 100 max = 200 } #Beam Rifle/MPC 1
+	cooldown = 10
+	range = 30
+	accuracy = 0.82
+	tracking = 0.65
+
+	health = 108
+	armor = 20
+	shield = 0
+	evasion = 0.5
+
+	speed = 10.6 #1.56G
+	rotation_speed = 0.1
+	acceleration = 0.5
+
+	shield_damage = 0.2 #MPC1
+	shield_penetration = 0
+	armor_penetration = 0.95
+
+	ship_behavior = "fighters_behavior"
+
+	icon = "GFX_ship_part_amx_101"
+	icon_frame = 1
+	component_set = "AMX_101_HANGAR_1"
+	prerequisites = { "tech_AMX_101" }
+	tags = { weapon_type_strike_craft }
+	#upgrades_to = "ZEON_MS_STRIKE_CRAFT_AMX_007_1"
+}
+
+strike_craft_component_template = {
+	key = "ZEON_MS_STRIKE_CRAFT_AMX_101K" #AMX-101K Galluss-K
+	size = LARGE
+	entity = "bomber_5z_entity"
+
+	weapon_type = point_defence
+	projectile_gfx = "MPC1" #Find beam gfx
+	power = -126 #2840
+	cost = 126 #78.3 tons = 48 * 2 lunar titanium + 30 for gun
+
+	count = 3
+	regeneration_per_day = 0.034
+	launch_time = 8.0
+
+	damage = { min = 100 max = 200 } #Beam Cannon - Large MPC
+	cooldown = 25
+	range = 60
+	accuracy = 0.8
+	tracking = 0.05
+
+	health = 108
+	armor = 20
+	shield = 0
+	evasion = 0.5
+
+	speed = 10.6 #1.56G
+	rotation_speed = 0.1
+	acceleration = 0.5
+
+	shield_damage = 0.2 #MPC1
+	shield_penetration = 0
+	armor_penetration = 0.95
+
+	ship_behavior = "fighters_behavior"
+
+	icon = "GFX_ship_part_amx_101k"
+	icon_frame = 1
+	component_set = "AMX_101K_HANGAR_1"
+	prerequisites = { "tech_AMX_101K" }
+	tags = { weapon_type_strike_craft }
+	#upgrades_to = "ZEON_MS_STRIKE_CRAFT_AMX_007_1"
+}
+
+strike_craft_component_template = {
+	key = "ZEON_MS_STRIKE_CRAFT_AMX_102" #AMX-102 Zssa Booster Version
+	size = LARGE
+	entity = "bomber_5z_entity"
+
+	weapon_type = missile
+	projectile_gfx = "swarmer_missiles" #Find beam gfx
+	power = -81 #1820
+	cost = 107 #74.5 tons = 46 * 2 lunar titanium + 15 for gun
+
+	count = 3
+	regeneration_per_day = 0.034
+	launch_time = 8.0
+
+	damage = { min = 8 max = 12 } #Missile Pods
+	cooldown = 16
+	range = 100
+	accuracy = 1.0
+	tracking = 0.5
+
+	health = 106
+	armor = 20
+	shield = 0
+	evasion = 0.5
+
+	speed = 7.8 #1.15G
+	rotation_speed = 0.1
+	acceleration = 0.5
+
+	shield_damage = 1.1 #Swarmer Missiles
+	shield_penetration = 0
+	armor_penetration = 0.3
+
+	ship_behavior = "fighters_behavior"
+
+	icon = "GFX_ship_part_amx_102"
+	icon_frame = 1
+	component_set = "AMX_102_HANGAR_1"
+	prerequisites = { "tech_AMX_102" }
+	tags = { weapon_type_strike_craft }
+	#upgrades_to = "ZEON_MS_STRIKE_CRAFT_AMX_007_1"
+}
+
+strike_craft_component_template = {
+	key = "ZEON_MS_STRIKE_CRAFT_AMX_102C" #AMX-102C Zssa Kai
+	size = LARGE
+	entity = "bomber_5z_entity"
+
+	weapon_type = point_defence
+	projectile_gfx = "MPC1" #Find beam gfx
+	power = -33 #2250 / 3
+	cost = 42 #61.8 tons = 38 * 2 lunar titanium + 50 for gun / 3
+
+	count = 1
+	regeneration_per_day = 0.034
+	launch_time = 8.0
+
+	damage = { min = 200 max = 400 } #2x Beam Cannon - Large MPC
+	cooldown = 25
+	range = 60
+	accuracy = 0.8
+	tracking = 0.05
+
+	health = 98
+	armor = 20
+	shield = 0
+	evasion = 0.5
+
+	speed = 14.0 #2.1G
+	rotation_speed = 0.1
+	acceleration = 0.5
+
+	shield_damage = 0.2 #MPC1
+	shield_penetration = 0
+	armor_penetration = 0.95
+
+	ship_behavior = "fighters_behavior"
+
+	icon = "GFX_ship_part_amx_102c"
+	icon_frame = 1
+	component_set = "AMX_102C_HANGAR_1"
+	prerequisites = { "tech_AMX_102C" }
+	tags = { weapon_type_strike_craft }
+	#upgrades_to = "ZEON_MS_STRIKE_CRAFT_AMX_007_1"
+}
+
+strike_craft_component_template = {
+	key = "ZEON_MS_STRIKE_CRAFT_AMX_015" #AMX-015 Geymalk
+	size = LARGE
+	entity = "bomber_5z_entity"
+
+	weapon_type = point_defence
+	projectile_gfx = "MPC1" #Find beam gfx
+	power = -123 #8320 / 3
+	cost = 99 #78.7 tons = 48 * 2 lunar titanium + 200 for gun / 3
+
+	count = 1
+	regeneration_per_day = 0.034
+	launch_time = 8.0
+
+	damage = { min = 400 max = 800 } #4x Beam Cannon - Large MPC
+	cooldown = 25
+	range = 60
+	accuracy = 0.8
+	tracking = 0.05
+
+	health = 108
+	armor = 20
+	shield = 0
+	evasion = 0.5
+
+	speed = 7.9 #1.17G
+	rotation_speed = 0.1
+	acceleration = 0.5
+
+	shield_damage = 0.2 #MPC1
+	shield_penetration = 0
+	armor_penetration = 0.95
+
+	ship_behavior = "fighters_behavior"
+
+	icon = "GFX_ship_part_amx_015"
+	icon_frame = 1
+	component_set = "AMX_015_HANGAR_1"
+	prerequisites = { "tech_AMX_015" }
+	tags = { weapon_type_strike_craft }
+	#upgrades_to = "ZEON_MS_STRIKE_CRAFT_AMX_007_1"
+}
+
+strike_craft_component_template = {
+	key = "ZEON_MS_STRIKE_CRAFT_MS_14J_1" #MS-14J ReGelgu
+	size = LARGE
+	entity = "bomber_5z_entity"
+
+	weapon_type = point_defence
+	projectile_gfx = "MPC1" #Find beam gfx
+	power = -84 #1890
+	cost = 86 #82.6 tons = 51 + 5 for improved armor + 30 for gun
+
+	count = 3
+	regeneration_per_day = 0.034
+	launch_time = 8.0
+
+	damage = { min = 100 max = 200 } #Beam Rifle/MPC 1
+	cooldown = 10
+	range = 30
+	accuracy = 0.82
+	tracking = 0.65
+
+	health = 111
+	armor = 15
+	shield = 0
+	evasion = 0.6 #Improved maneuvrability
+
+	speed = 12.4 #1.83G
+	rotation_speed = 0.1
+	acceleration = 0.5
+
+	shield_damage = 0.2 #MPC1
+	shield_penetration = 0
+	armor_penetration = 0.95
+
+	ship_behavior = "fighters_behavior"
+
+	icon = "GFX_ship_part_ms_14j"
+	icon_frame = 1
+	component_set = "MS_14J_HANGAR_1"
+	prerequisites = { "tech_MS_14J" }
+	tags = { weapon_type_strike_craft }
+	#upgrades_to = "ZEON_MS_STRIKE_CRAFT_AMX_007_1"
+}
+
+strike_craft_component_template = {
+	key = "ZEON_MS_STRIKE_CRAFT_MS_14J_2" #MS-14J ReGelgu
+	size = LARGE
+	entity = "bomber_5z_entity"
+
+	weapon_type = missile
+	projectile_gfx = "small_missile"
+	power = -84 #1890
+	cost = 71 #82.6 tons = 51 + 5 for improved armor + 15 for gun
+
+	count = 3
+	regeneration_per_day = 0.034
+	launch_time = 8.0
+
+	damage = { min = 60 max = 100 } #360mm Bazooka II
+	cooldown = 20
+	range = 70
+	accuracy = 0.85
+	tracking = 0.3
+
+	health = 111
+	armor = 15
+	shield = 0
+	evasion = 0.6 #Improved maneuvrability
+
+	speed = 12.4 #1.83G
+	rotation_speed = 0.1
+	acceleration = 0.5
+
+	shield_damage = 1.15 #MEDIUM MISSILE
+	shield_penetration = 0
+	armor_penetration = 0.25
+
+	ship_behavior = "fighters_behavior"
+
+	icon = "GFX_ship_part_ms_14j"
+	icon_frame = 1
+	component_set = "MS_14J_HANGAR_2"
+	prerequisites = { "tech_MS_14J" }
+	tags = { weapon_type_strike_craft }
+	#upgrades_to = "ZEON_MS_STRIKE_CRAFT_AMX_007_2"
+}
+
+strike_craft_component_template = {
+	key = "ZEON_MS_STRIKE_CRAFT_AMX_004" #AMX-004 Qubeley
+	size = LARGE
+	entity = "bomber_5z_entity"
+
+	weapon_type = point_defence
+	projectile_gfx = "MPC1" #Find beam gfx
+	power = -27 #1820 / 3
+	cost = 40 #57.2 tons = 35 * 2 lunar titanium + 50 for gun / 3
+
+	count = 1
+	regeneration_per_day = 0.034
+	launch_time = 8.0
+
+	damage = { min = 100 max = 200 } #Beam Rifle/MPC 1
+	cooldown = 5
+	range = 30
+	accuracy = 0.9
+	tracking = 0.9
+
+	health = 95
+	armor = 20
+	shield = 0
+	evasion = 0.5
+
+	speed = 7.3 #1.08G
+	rotation_speed = 0.1
+	acceleration = 0.5
+
+	shield_damage = 0.2 #MPC1
+	shield_penetration = 0
+	armor_penetration = 0.95
+
+	ship_behavior = "fighters_behavior"
+
+	icon = "GFX_ship_part_amx_004"
+	icon_frame = 1
+	component_set = "AMX_004_HANGAR_1"
+	prerequisites = { "tech_AMX_004" }
+	tags = { weapon_type_strike_craft }
+	upgrades_to = "ZEON_MS_STRIKE_CRAFT_AMX_004G"
+}
+
+strike_craft_component_template = {
+	key = "ZEON_MS_STRIKE_CRAFT_AMX_004G" #AMX-004G Qubeley MPT
+	size = LARGE
+	entity = "bomber_5z_entity"
+
+	weapon_type = point_defence
+	projectile_gfx = "MPC1" #Find beam gfx
+	power = -81 #1820
+	cost = 220 #57.2 tons = 35 * 2 lunar titanium + 150 for gun
+
+	count = 3
+	regeneration_per_day = 0.034
+	launch_time = 8.0
+
+	damage = { min = 100 max = 200 } #Beam Rifle/MPC 1
+	cooldown = 5
+	range = 30
+	accuracy = 0.9
+	tracking = 0.9
+
+	health = 95
+	armor = 20
+	shield = 0
+	evasion = 0.5
+
+	speed = 6.7 #0.99G
+	rotation_speed = 0.1
+	acceleration = 0.5
+
+	shield_damage = 0.2 #MPC1
+	shield_penetration = 0
+	armor_penetration = 0.95
+
+	ship_behavior = "fighters_behavior"
+
+	icon = "GFX_ship_part_amx_004g"
+	icon_frame = 1
+	component_set = "AMX_004G_HANGAR_1"
+	prerequisites = { "tech_AMX_004G" }
+	tags = { weapon_type_strike_craft }
+	#upgrades_to = "ZEON_MS_STRIKE_CRAFT_AMX_007_1"
+}
+
+strike_craft_component_template = {
+	key = "ZEON_MS_STRIKE_CRAFT_AMX_104" #AMX-104 R-Jarja
+	size = LARGE
+	entity = "bomber_5z_entity"
+
+	weapon_type = point_defence
+	projectile_gfx = "MPC1" #Find beam gfx
+	power = -34 #2320
+	cost = 37 #67.5 tons = 42 * 2 lunar titanium + 30 for gun
+
+	count = 1
+	regeneration_per_day = 0.034
+	launch_time = 8.0
+
+	damage = { min = 100 max = 200 } #Beam Rifle/MPC 1
+	cooldown = 25
+	range = 30
+	accuracy = 0.82
+	tracking = 0.65
+
+	health = 102
+	armor = 20
+	shield = 0
+	evasion = 0.5
+
+	speed = 7.3 #1.07G
+	rotation_speed = 0.1
+	acceleration = 0.5
+
+	shield_damage = 0.2 #MPC1
+	shield_penetration = 0
+	armor_penetration = 0.95
+
+	ship_behavior = "fighters_behavior"
+
+	icon = "GFX_ship_part_amx_104"
+	icon_frame = 1
+	component_set = "AMX_104_HANGAR_1"
+	prerequisites = { "tech_AMX_104" }
+	tags = { weapon_type_strike_craft }
+	#upgrades_to = "ZEON_MS_STRIKE_CRAFT_AMX_007_1"
+}
+
+strike_craft_component_template = {
+	key = "ZEON_MS_STRIKE_CRAFT_AMX_107" #AMX-107 Bawoo
+	size = LARGE
+	entity = "bomber_5z_entity"
+
+	weapon_type = point_defence
+	projectile_gfx = "MPC1" #Find beam gfx
+	power = -107 #2410
+	cost = 114 #67.5 tons = 42 * 2 lunar titanium + 30 for gun
+
+	count = 3
+	regeneration_per_day = 0.034
+	launch_time = 8.0
+
+	damage = { min = 100 max = 200 } #Beam Rifle/MPC 1
+	cooldown = 25
+	range = 30
+	accuracy = 0.82
+	tracking = 0.65
+
+	health = 102
+	armor = 20
+	shield = 0
+	evasion = 0.5
+
+	speed = 7.5 #1.11G
+	rotation_speed = 0.1
+	acceleration = 0.5
+
+	shield_damage = 0.2 #MPC1
+	shield_penetration = 0
+	armor_penetration = 0.95
+
+	ship_behavior = "fighters_behavior"
+
+	icon = "GFX_ship_part_amx_107"
+	icon_frame = 1
+	component_set = "AMX_107_HANGAR_1"
+	prerequisites = { "tech_AMX_107" }
+	tags = { weapon_type_strike_craft }
+	upgrades_to = "ZEON_MS_STRIKE_CRAFT_AMX_107R"
+}
+
+strike_craft_component_template = {
+	key = "ZEON_MS_STRIKE_CRAFT_AMX_107R" #AMX-107R ReBawoo
+	size = LARGE
+	entity = "bomber_5z_entity"
+
+	weapon_type = point_defence
+	projectile_gfx = "MPC1" #Find beam gfx
+	power = -134 #3070
+	cost = 118 #71.2 tons = 44 * 2 lunar titanium + 30 for gun
+
+	count = 3
+	regeneration_per_day = 0.034
+	launch_time = 8.0
+
+	damage = { min = 100 max = 200 } #Beam Rifle/MPC 1
+	cooldown = 25
+	range = 30
+	accuracy = 0.82
+	tracking = 0.65
+
+	health = 104
+	armor = 20
+	shield = 0
+	evasion = 0.5
+
+	speed = 10.7 #1.58G
+	rotation_speed = 0.1
+	acceleration = 0.5
+
+	shield_damage = 0.2 #MPC1
+	shield_penetration = 0
+	armor_penetration = 0.95
+
+	ship_behavior = "fighters_behavior"
+
+	icon = "GFX_ship_part_amx_107r"
+	icon_frame = 1
+	component_set = "AMX_107R_HANGAR_1"
+	prerequisites = { "tech_AMX_107R" }
+	tags = { weapon_type_strike_craft }
+	#upgrades_to = "ZEON_MS_STRIKE_CRAFT_AMX_007_1"
+}
+
+strike_craft_component_template = {
+	key = "ZEON_MS_STRIKE_CRAFT_NZ_000" #NZ-000 Queen Mansa
+	size = LARGE
+	entity = "bomber_5z_entity"
+
+	weapon_type = point_defence
+	projectile_gfx = "MPC1" #Find beam gfx
+	power = -317 #21370
+	cost = 125 #264.7 tons = 163 * 2 lunar titanium + 50 for gun
+
+	count = 1
+	regeneration_per_day = 0.034
+	launch_time = 8.0
+
+	damage = { min = 100 max = 200 } #Beam Rifle/MPC 1
+	cooldown = 5
+	range = 30
+	accuracy = 0.9
+	tracking = 0.9
+
+	health = 223
+	armor = 20
+	shield = 0
+	evasion = 0.5
+
+	speed = 7.4 #1.09G
+	rotation_speed = 0.1
+	acceleration = 0.5
+
+	shield_damage = 0.2 #MPC1
+	shield_penetration = 0
+	armor_penetration = 0.95
+
+	ship_behavior = "fighters_behavior"
+
+	icon = "GFX_ship_part_nz_000"
+	icon_frame = 1
+	component_set = "NZ_000_HANGAR_1"
+	prerequisites = { "tech_NZ_000" }
+	tags = { weapon_type_strike_craft }
+	upgrades_to = "ZEON_MS_STRIKE_CRAFT_NZ_666"
+}
+
+strike_craft_component_template = {
+	key = "ZEON_MS_STRIKE_CRAFT_NZ_666" #NZ-666 Kshatriya
+	size = LARGE
+	entity = "bomber_5z_entity"
+
+	weapon_type = point_defence
+	projectile_gfx = "MPC1" #Find beam gfx
+	power = -244 #16540
+	cost = 47 #74.02 tons = 46 * 2 lunar titanium + 50 for gun
+
+	count = 1
+	regeneration_per_day = 0.034
+	launch_time = 8.0
+
+	damage = { min = 100 max = 200 } #Beam Rifle/MPC 1
+	cooldown = 5
+	range = 30
+	accuracy = 0.9
+	tracking = 0.9
+
+	health = 106
+	armor = 20
+	shield = 0
+	evasion = 0.5
+
+	speed = 18.2 #2.86G
+	rotation_speed = 0.1
+	acceleration = 0.5
+
+	shield_damage = 0.2 #MPC1
+	shield_penetration = 0
+	armor_penetration = 0.95
+
+	ship_behavior = "fighters_behavior"
+
+	icon = "GFX_ship_part_nz_666"
+	icon_frame = 1
+	component_set = "NZ_666_HANGAR_1"
+	prerequisites = { "tech_NZ_666" }
+	tags = { weapon_type_strike_craft }
+	#upgrades_to = "ZEON_MS_STRIKE_CRAFT_AMX_007_1"
+}
+
+strike_craft_component_template = {
+	key = "ZEON_MS_STRIKE_CRAFT_AMX_103" #AMX-103 Hamma Hamma
+	size = LARGE
+	entity = "bomber_5z_entity"
+
+	weapon_type = point_defence
+	projectile_gfx = "MPC1" #Find beam gfx
+	power = -57 #3820
+	cost = 49 #79.4 tons = 49 * 2 lunar titanium + 50 for gun
+
+	count = 1
+	regeneration_per_day = 0.034
+	launch_time = 8.0
+
+	damage = { min = 100 max = 200 } #Beam Rifle/MPC 1
+	cooldown = 5
+	range = 30
+	accuracy = 0.9
+	tracking = 0.9
+
+	health = 109
+	armor = 20
+	shield = 0
+	evasion = 0.5
+
+	speed = 18.2 #2.86G
+	rotation_speed = 0.1
+	acceleration = 0.5
+
+	shield_damage = 0.2 #MPC1
+	shield_penetration = 0
+	armor_penetration = 0.95
+
+	ship_behavior = "fighters_behavior"
+
+	icon = "GFX_ship_part_amx_103"
+	icon_frame = 1
+	component_set = "AMX_103_HANGAR_1"
+	prerequisites = { "tech_AMX_103" }
+	tags = { weapon_type_strike_craft }
+	#upgrades_to = "ZEON_MS_STRIKE_CRAFT_AMX_007_1"
+}
+
+strike_craft_component_template = {
+	key = "ZEON_MS_STRIKE_CRAFT_AMX_014" #AMX-014 Döven Wolf
+	size = LARGE
+	entity = "bomber_5z_entity"
+
+	weapon_type = point_defence
+	projectile_gfx = "MPC1" #Find beam gfx
+	power = -234 #5250
+	cost = 142 #74.5 tons = 46 * 2 lunar titanium + 50 for gun
+
+	count = 3
+	regeneration_per_day = 0.034
+	launch_time = 8.0
+
+	damage = { min = 100 max = 200 } #Beam Rifle/MPC 1
+	cooldown = 25
+	range = 30
+	accuracy = 0.82
+	tracking = 0.65
+
+	health = 106
+	armor = 20
+	shield = 0
+	evasion = 0.5
+
+	speed = 7.9 #1.17G
+	rotation_speed = 0.1
+	acceleration = 0.5
+
+	shield_damage = 0.2 #MPC1
+	shield_penetration = 0
+	armor_penetration = 0.95
+
+	ship_behavior = "fighters_behavior"
+
+	icon = "GFX_ship_part_amx_014"
+	icon_frame = 1
+	component_set = "AMX_014_HANGAR_1"
+	prerequisites = { "tech_AMX_014" }
+	tags = { weapon_type_strike_craft }
+	#upgrades_to = "ZEON_MS_STRIKE_CRAFT_AMX_007_1"
+}
+
+strike_craft_component_template = {
+	key = "ZEON_MS_STRIKE_CRAFT_AMS_119_1" #AMS-119 Geara Doga
+	size = LARGE
+	entity = "bomber_5z_entity"
+
+	weapon_type = point_defence
+	projectile_gfx = "MPC1" #Find beam MG gfx
+	power = -96 #2160
+	cost = 66 #50.8 tons = 31 + 5 improved armor + 30 for gun
+
+	count = 3
+	regeneration_per_day = 0.034
+	launch_time = 8.0
+
+	damage = { min = 100 max = 200 } #Beam Machine Gun/MPC 1
+	cooldown = 15
+	range = 30
+	accuracy = 0.82
+	tracking = 0.65
+
+	health = 91
+	armor = 15
+	shield = 0
+	evasion = 0.5
+
+	speed = 7.2 #1.06G
+	rotation_speed = 0.1
+	acceleration = 0.5
+
+	shield_damage = 0.2 #MPC1
+	shield_penetration = 0
+	armor_penetration = 0.95
+
+	ship_behavior = "fighters_behavior"
+
+	icon = "GFX_ship_part_ams_119"
+	icon_frame = 1
+	component_set = "AMS_119_HANGAR_1"
+	prerequisites = { "tech_AMS_119" }
+	tags = { weapon_type_strike_craft }
+	upgrades_to = "ZEON_MS_STRIKE_CRAFT_AMS_129_1"
+}
+
+strike_craft_component_template = {
+	key = "ZEON_MS_STRIKE_CRAFT_AMS_119_2" #AMS-119 Geara Doga
+	size = LARGE
+	entity = "bomber_5z_entity"
+
+	weapon_type = missile
+	projectile_gfx = "small_missile" #Find beam MG gfx
+	power = -96 #2160
+	cost = 51 #50.8 tons = 31 + 5 improved armor + 15 for gun
+
+	count = 3
+	regeneration_per_day = 0.034
+	launch_time = 8.0
+
+	damage = { min = 70 max = 120 } #420mm Bazooka
+	cooldown = 20
+	range = 70
+	accuracy = 0.85
+	tracking = 0.3
+
+	health = 91
+	armor = 15
+	shield = 0
+	evasion = 0.5
+
+	speed = 7.2 #1.06G
+	rotation_speed = 0.1
+	acceleration = 0.5
+
+	shield_damage = 1.15 #MEDIUM MISSILE
+	shield_penetration = 0
+	armor_penetration = 0.25
+
+	ship_behavior = "fighters_behavior"
+
+	icon = "GFX_ship_part_ams_119"
+	icon_frame = 1
+	component_set = "AMS_119_HANGAR_2"
+	prerequisites = { "tech_AMS_119" }
+	tags = { weapon_type_strike_craft }
+	upgrades_to = "ZEON_MS_STRIKE_CRAFT_AMS_129_2"
+}
+
+strike_craft_component_template = {
+	key = "ZEON_MS_STRIKE_CRAFT_AMS_120X" #AMS-120X Geara Doga Psycommu
+	size = LARGE
+	entity = "bomber_5z_entity"
+
+	weapon_type = point_defence
+	projectile_gfx = "MPC1" #Find beam MG gfx
+	power = -32 #2160
+	cost = 22 #50.8 tons = 31 + 5 improved armor + 30 for gun
+
+	count = 1
+	regeneration_per_day = 0.034
+	launch_time = 8.0
+
+	damage = { min = 100 max = 200 } #Beam Rifle/MPC 1 Intentionally high accuracy
+	cooldown = 25
+	range = 30
+	accuracy = 0.9
+	tracking = 0.9
+
+	health = 91
+	armor = 15
+	shield = 0
+	evasion = 0.5
+
+	speed = 7.2 #1.06G
+	rotation_speed = 0.1
+	acceleration = 0.5
+
+	shield_damage = 0.2 #MPC1
+	shield_penetration = 0
+	armor_penetration = 0.95
+
+	ship_behavior = "fighters_behavior"
+
+	icon = "GFX_ship_part_ams_120x"
+	icon_frame = 1
+	component_set = "AMS_120X_HANGAR_1"
+	prerequisites = { "tech_AMS_120X" }
+	tags = { weapon_type_strike_craft }
+	upgrades_to = "ZEON_MS_STRIKE_CRAFT_MSN_03"
+}
+
+strike_craft_component_template = {
+	key = "ZEON_MS_STRIKE_CRAFT_MSN_03" #MSN-03 Jagd Doga
+	size = LARGE
+	entity = "bomber_5z_entity"
+
+	weapon_type = point_defence
+	projectile_gfx = "MPC1" #Find beam MG gfx
+	power = -50 #3340
+	cost = 37 #64.6 tons = 40 * 2 lunar titanium + 30 for gun
+
+	count = 1
+	regeneration_per_day = 0.034
+	launch_time = 8.0
+
+	damage = { min = 100 max = 200 } #Beam Rifle/MPC 1 Intentionally high accuracy
+	cooldown = 25
+	range = 30
+	accuracy = 0.9
+	tracking = 0.9
+
+	health = 100
+	armor = 20
+	shield = 0
+	evasion = 0.7
+
+	speed = 8.6 #1.27G
+	rotation_speed = 0.1
+	acceleration = 0.5
+
+	shield_damage = 0.2 #MPC1
+	shield_penetration = 0
+	armor_penetration = 0.95
+
+	ship_behavior = "fighters_behavior"
+
+	icon = "GFX_ship_part_msn_03"
+	icon_frame = 1
+	component_set = "MSN_03_HANGAR_1"
+	prerequisites = { "tech_MSN_03" }
+	tags = { weapon_type_strike_craft }
+	upgrades_to = "ZEON_MS_STRIKE_CRAFT_MSN_04"
+}
+
+strike_craft_component_template = {
+	key = "ZEON_MS_STRIKE_CRAFT_MSN_04" #MSN-04 Sazabi
+	size = LARGE
+	entity = "bomber_5z_entity"
+
+	weapon_type = point_defence
+	projectile_gfx = "MPC1" #Find beam MG gfx
+	power = -59 #3960
+	cost = 39 #71.2 tons = 44 * 2 lunar titanium + 30 for gun
+
+	count = 1
+	regeneration_per_day = 0.034
+	launch_time = 8.0
+
+	damage = { min = 100 max = 200 } #Beam Rifle/MPC 1 Intentionally high accuracy
+	cooldown = 25
+	range = 30
+	accuracy = 0.9
+	tracking = 0.9
+
+	health = 104
+	armor = 20
+	shield = 0
+	evasion = 0.75
+
+	speed = 12.7 #1.87G
+	rotation_speed = 0.1
+	acceleration = 0.5
+
+	shield_damage = 0.2 #MPC1
+	shield_penetration = 0
+	armor_penetration = 0.95
+
+	ship_behavior = "fighters_behavior"
+
+	icon = "GFX_ship_part_msn_04"
+	icon_frame = 1
+	component_set = "MSN_04_HANGAR_1"
+	prerequisites = { "tech_MSN_04" }
+	tags = { weapon_type_strike_craft }
+	#upgrades_to = "ZEON_MS_STRIKE_CRAFT_AMS_129_1"
+}
+
+strike_craft_component_template = {
+	key = "ZEON_MS_STRIKE_CRAFT_MSN_X4" #MSN-X4 Bagwi Doga
+	size = LARGE
+	entity = "bomber_5z_entity"
+
+	weapon_type = point_defence
+	projectile_gfx = "MPC1" #Find beam MG gfx
+	power = -32 #2160
+	cost = 30 #48.3 tons = 30 * 2 lunar titanium + 30 for gun
+
+	count = 1
+	regeneration_per_day = 0.034
+	launch_time = 8.0
+
+	damage = { min = 100 max = 200 } #Beam Rifle/MPC 1
+	cooldown = 25
+	range = 30
+	accuracy = 0.82
+	tracking = 0.65
+
+	health = 90
+	armor = 20
+	shield = 0
+	evasion = 0.65
+
+	speed = 10.1 #1.49G
+	rotation_speed = 0.1
+	acceleration = 0.5
+
+	shield_damage = 0.2 #MPC1
+	shield_penetration = 0
+	armor_penetration = 0.95
+
+	ship_behavior = "fighters_behavior"
+
+	icon = "GFX_ship_part_msn_x4"
+	icon_frame = 1
+	component_set = "MSN_X4_HANGAR_1"
+	prerequisites = { "tech_MSN_X4" }
+	tags = { weapon_type_strike_craft }
+	#upgrades_to = "ZEON_MS_STRIKE_CRAFT_AMS_129_1"
+}
+
+strike_craft_component_template = {
+	key = "ZEON_MS_STRIKE_CRAFT_AMS_119_HEAVY" #AMS-119 Geara Doga Heavy
+	size = LARGE
+	entity = "bomber_5z_entity"
+
+	weapon_type = point_defence
+	projectile_gfx = "MPC1" #Find beam MG gfx
+	power = -96 #2160
+	cost = 66 #62.1 tons = 38 + 5 improved armor + 30 for gun
+
+	count = 3
+	regeneration_per_day = 0.034
+	launch_time = 8.0
+
+	damage = { min = 100 max = 200 } #Beam Machine Gun/MPC 1
+	cooldown = 15
+	range = 30
+	accuracy = 0.82
+	tracking = 0.65
+
+	health = 98
+	armor = 15
+	shield = 0
+	evasion = 0.6
+
+	speed = 8.2 #1.21G
+	rotation_speed = 0.1
+	acceleration = 0.5
+
+	shield_damage = 0.2 #MPC1
+	shield_penetration = 0
+	armor_penetration = 0.95
+
+	ship_behavior = "fighters_behavior"
+
+	icon = "GFX_ship_part_ams_119_heavy"
+	icon_frame = 1
+	component_set = "AMS_119_HEAVY_HANGAR_1"
+	prerequisites = { "tech_AMS_119_Heavy" }
+	tags = { weapon_type_strike_craft }
+	#upgrades_to = "ZEON_MS_STRIKE_CRAFT_AMS_129_1"
+}
+
+strike_craft_component_template = {
+	key = "ZEON_MS_STRIKE_CRAFT_AMS_119S" #AMS-119S Geara Doga Kai
+	size = LARGE
+	entity = "bomber_5z_entity"
+
+	weapon_type = point_defence
+	projectile_gfx = "MPC1" #Find beam MG gfx
+	power = -32 #2160
+	cost = 31 #50.8 tons = 31 * 2 Gundarium + 30 for gun
+
+	count = 1
+	regeneration_per_day = 0.034
+	launch_time = 8.0
+
+	damage = { min = 100 max = 200 } #Beam Machine Gun/MPC 1
+	cooldown = 15
+	range = 30
+	accuracy = 0.82
+	tracking = 0.65
+
+	health = 91
+	armor = 20
+	shield = 0
+	evasion = 0.6
+
+	speed = 7.2 #1.06G
+	rotation_speed = 0.1
+	acceleration = 0.5
+
+	shield_damage = 0.2 #MPC1
+	shield_penetration = 0
+	armor_penetration = 0.95
+
+	ship_behavior = "fighters_behavior"
+
+	icon = "GFX_ship_part_ams_119s"
+	icon_frame = 1
+	component_set = "AMS_119S_HANGAR_1"
+	prerequisites = { "tech_AMS_119S" }
+	tags = { weapon_type_strike_craft }
+	#upgrades_to = "ZEON_MS_STRIKE_CRAFT_AMS_129_1"
+}
+
+strike_craft_component_template = {
+	key = "ZEON_MS_STRIKE_CRAFT_AMS_129_1" #AMS-129 Geara Zulu
+	size = LARGE
+	entity = "bomber_5z_entity"
+
+	weapon_type = point_defence
+	projectile_gfx = "MPC1" #Find beam MG gfx
+	power = -110 #2470
+	cost = 69 #55.2 tons = 34 + 5 improved armor + 30 for gun
+
+	count = 3
+	regeneration_per_day = 0.034
+	launch_time = 8.0
+
+	damage = { min = 100 max = 200 } #Beam Machine Gun/MPC 1
+	cooldown = 15
+	range = 30
+	accuracy = 0.82
+	tracking = 0.65
+
+	health = 94
+	armor = 15
+	shield = 0
+	evasion = 0.5
+
+	speed = 7.2 #1.06G
+	rotation_speed = 0.1
+	acceleration = 0.5
+
+	shield_damage = 0.2 #MPC1
+	shield_penetration = 0
+	armor_penetration = 0.95
+
+	ship_behavior = "fighters_behavior"
+
+	icon = "GFX_ship_part_ams_129"
+	icon_frame = 1
+	component_set = "AMS_129_HANGAR_1"
+	prerequisites = { "tech_AMS_129" }
+	tags = { weapon_type_strike_craft }
+	#upgrades_to = "ZEON_MS_STRIKE_CRAFT_AMX_011C_1"
+}
+
+strike_craft_component_template = {
+	key = "ZEON_MS_STRIKE_CRAFT_AMS_129_2" #AMS-129 Geara Zulu
+	size = LARGE
+	entity = "bomber_5z_entity"
+
+	weapon_type = missile
+	projectile_gfx = "small_missile" #Find beam MG gfx
+	power = -110 #2470
+	cost = 54 #55.2 tons = 34 + 5 improved armor + 15 for gun
+
+	count = 3
+	regeneration_per_day = 0.034
+	launch_time = 8.0
+
+	damage = { min = 70 max = 120 } #420mm Bazooka
+	cooldown = 20
+	range = 70
+	accuracy = 0.85
+	tracking = 0.3
+
+	health = 94
+	armor = 15
+	shield = 0
+	evasion = 0.5
+
+	speed = 7.2 #1.06G
+	rotation_speed = 0.1
+	acceleration = 0.5
+
+	shield_damage = 1.15 #MEDIUM MISSILE
+	shield_penetration = 0
+	armor_penetration = 0.25
+
+	ship_behavior = "fighters_behavior"
+
+	icon = "GFX_ship_part_ams_129"
+	icon_frame = 1
+	component_set = "AMS_129_HANGAR_2"
+	prerequisites = { "tech_AMS_129" }
+	tags = { weapon_type_strike_craft }
+	#upgrades_to = "ZEON_MS_STRIKE_CRAFT_AMX_011C_2"
 }

@@ -29,6 +29,7 @@ country_event = {
 		give_technology = { tech = tech_Zeonic }
 		give_technology = { tech = tech_Zimmad }
 		give_technology = { tech = tech_MIP }
+		give_technology = { tech = tech_Anaheim }
 		create_species = {
 			name = "Human"
 			class = MAM

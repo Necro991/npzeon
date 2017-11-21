@@ -997,7 +997,7 @@ strike_craft_component_template = {
 
 	weapon_type = point_defence
 	projectile_gfx = "auto_cannons_s"
-	power = -56 #1250kW = 62
+	power = -56 #1250kW = 56
 	cost = 46 #58.8 tons = 36 cost + 10 for gun
 
 	count = 3
