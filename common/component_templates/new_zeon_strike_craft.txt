@@ -789,7 +789,7 @@ strike_craft_component_template = {
 	regeneration_per_day = 0.034
 	launch_time = 8.0
 
-	damage = { min = 50 max = 150 } #Beam Rifle/MPC 1
+	damage = { min = 111 max = 222 } #Beam Rifle/MPC 1
 	cooldown = 25
 	range = 30
 	accuracy = 0.82
@@ -875,7 +875,7 @@ strike_craft_component_template = {
 	regeneration_per_day = 0.034
 	launch_time = 8.0
 
-	damage = { min = 50 max = 150 } #Beam Rifle/MPC 1
+	damage = { min = 115 max = 230 } #Beam Rifle/MPC 1
 	cooldown = 25
 	range = 30
 	accuracy = 0.82
@@ -961,7 +961,7 @@ strike_craft_component_template = {
 	regeneration_per_day = 0.034
 	launch_time = 8.0
 
-	damage = { min = 50 max = 150 } #Beam Rifle/MPC 1
+	damage = { min = 115 max = 230 } #Beam Rifle/MPC 1
 	cooldown = 25
 	range = 30
 	accuracy = 0.82
@@ -1047,7 +1047,7 @@ strike_craft_component_template = {
 	regeneration_per_day = 0.034
 	launch_time = 8.0
 
-	damage = { min = 50 max = 150 } #Beam Rifle/MPC 1
+	damage = { min = 115 max = 230 } #Beam Rifle/MPC 1
 	cooldown = 25
 	range = 30
 	accuracy = 0.82
@@ -1133,7 +1133,7 @@ strike_craft_component_template = {
 	regeneration_per_day = 0.034
 	launch_time = 8.0
 
-	damage = { min = 100 max = 200 } #Beam Rifle/MPC 1
+	damage = { min = 115 max = 230 } #Beam Rifle/MPC 1
 	cooldown = 25
 	range = 30
 	accuracy = 0.82
@@ -1219,7 +1219,7 @@ strike_craft_component_template = {
 	regeneration_per_day = 0.034
 	launch_time = 8.0
 
-	damage = { min = 100 max = 200 } #Beam Rifle/MPC 1
+	damage = { min = 119 max = 238 } #Beam Rifle/MPC 1
 	cooldown = 25
 	range = 30
 	accuracy = 0.82
@@ -1735,7 +1735,7 @@ strike_craft_component_template = {
 	regeneration_per_day = 0.034
 	launch_time = 8.0
 
-	damage = { min = 100 max = 200 } #Beam Cannon - Large MPC
+	damage = { min = 115 max = 230 } #Beam Cannon - Large MPC
 	cooldown = 25
 	range = 60
 	accuracy = 0.8
@@ -1907,7 +1907,7 @@ strike_craft_component_template = {
 	regeneration_per_day = 0.034
 	launch_time = 8.0
 
-	damage = { min = 50 max = 150 } #Beam Rifle/MPC 1
+	damage = { min = 112 max = 224 } #Beam Rifle/MPC 1
 	cooldown = 25
 	range = 30
 	accuracy = 0.82
@@ -1993,9 +1993,9 @@ strike_craft_component_template = {
 	regeneration_per_day = 0.034
 	launch_time = 8.0
 
-	damage = { min = 100 max = 300 } #Beam Sniper/MPC 1
+	damage = { min = 114 max = 227 } #Beam Sniper/MPC 1
 	cooldown = 35
-	range = 70
+	range = 90
 	accuracy = 0.9
 	tracking = 0.8
 
@@ -2008,7 +2008,7 @@ strike_craft_component_template = {
 	rotation_speed = 0.1
 	acceleration = 0.5
 
-	shield_damage = 0.2 #MPC1
+	shield_damage = 0.3 #MPC1
 	shield_penetration = 0
 	armor_penetration = 0.95
 
@@ -2079,7 +2079,7 @@ strike_craft_component_template = {
 	regeneration_per_day = 0.034
 	launch_time = 8.0
 
-	damage = { min = 25 max = 75 } #Triple Beam Arm
+	damage = { min = 48 max = 143 } #Triple Beam Arm
 	cooldown = 5
 	range = 40
 	accuracy = 0.8
@@ -2165,8 +2165,8 @@ strike_craft_component_template = {
 	regeneration_per_day = 0.034
 	launch_time = 8.0
 
-	damage = { min = 25 max = 75 } #Beam Rifle/MPC 1
-	cooldown = 10
+	damage = { min = 138 max = 275 } #Beam Rifle/MPC 1
+	cooldown = 25
 	range = 30
 	accuracy = 0.82
 	tracking = 0.65
@@ -2251,8 +2251,8 @@ strike_craft_component_template = {
 	regeneration_per_day = 0.034
 	launch_time = 8.0
 
-	damage = { min = 25 max = 75 } #Beam Rifle/MPC 1
-	cooldown = 10
+	damage = { min = 171 max = 342 } #Beam Rifle/MPC 1
+	cooldown = 25
 	range = 30
 	accuracy = 0.82
 	tracking = 0.65
@@ -2337,8 +2337,8 @@ strike_craft_component_template = {
 	regeneration_per_day = 0.034
 	launch_time = 8.0
 
-	damage = { min = 100 max = 200 } #Beam Rifle/MPC 1
-	cooldown = 10
+	damage = { min = 182 max = 365 } #Beam Rifle/MPC 1
+	cooldown = 25
 	range = 30
 	accuracy = 0.82
 	tracking = 0.65
@@ -2423,8 +2423,8 @@ strike_craft_component_template = {
 	regeneration_per_day = 0.034
 	launch_time = 8.0
 
-	damage = { min = 100 max = 200 } #Beam Rifle/MPC 1
-	cooldown = 10
+	damage = { min = 147 max = 294 } #Beam Rifle/MPC 1
+	cooldown = 25
 	range = 30
 	accuracy = 0.82
 	tracking = 0.65
@@ -2509,8 +2509,8 @@ strike_craft_component_template = {
 	regeneration_per_day = 0.034
 	launch_time = 8.0
 
-	damage = { min = 100 max = 200 } #Beam Rifle/MPC 1
-	cooldown = 10
+	damage = { min = 172 max = 344 } #Beam Rifle/MPC 1
+	cooldown = 25
 	range = 30
 	accuracy = 0.82
 	tracking = 0.65
@@ -2595,8 +2595,8 @@ strike_craft_component_template = {
 	regeneration_per_day = 0.034
 	launch_time = 8.0
 
-	damage = { min = 100 max = 200 } #Beam Rifle/MPC 1
-	cooldown = 10
+	damage = { min = 229 max = 458 } #Beam Rifle/MPC 1
+	cooldown = 25
 	range = 30
 	accuracy = 0.82
 	tracking = 0.65
@@ -2681,8 +2681,8 @@ strike_craft_component_template = {
 	regeneration_per_day = 0.034
 	launch_time = 8.0
 
-	damage = { min = 100 max = 200 } #Beam Rifle/MPC 1
-	cooldown = 10
+	damage = { min = 236 max = 472 } #Beam Rifle/MPC 1
+	cooldown = 25
 	range = 30
 	accuracy = 0.82
 	tracking = 0.65
@@ -2767,8 +2767,8 @@ strike_craft_component_template = {
 	regeneration_per_day = 0.034
 	launch_time = 8.0
 
-	damage = { min = 100 max = 200 } #Beam Rifle/MPC 1
-	cooldown = 10
+	damage = { min = 147 max = 294 } #Beam Rifle/MPC 1
+	cooldown = 25
 	range = 30
 	accuracy = 0.82
 	tracking = 0.65
@@ -2810,7 +2810,7 @@ strike_craft_component_template = {
 	regeneration_per_day = 0.034
 	launch_time = 8.0
 
-	damage = { min = 100 max = 200 } #Beam Cannon - Large MPC
+	damage = { min = 227 max = 454 } #Beam Cannon - Large MPC
 	cooldown = 25
 	range = 60
 	accuracy = 0.8
@@ -2896,7 +2896,7 @@ strike_craft_component_template = {
 	regeneration_per_day = 0.034
 	launch_time = 8.0
 
-	damage = { min = 200 max = 400 } #2x Beam Cannon - Large MPC
+	damage = { min = 180 max = 360 } #2x Beam Cannon - Large MPC
 	cooldown = 25
 	range = 60
 	accuracy = 0.8
@@ -2939,7 +2939,7 @@ strike_craft_component_template = {
 	regeneration_per_day = 0.034
 	launch_time = 8.0
 
-	damage = { min = 400 max = 800 } #4x Beam Cannon - Large MPC
+	damage = { min = 666 max = 1331 } #Beam Cannon - Large MPC
 	cooldown = 25
 	range = 60
 	accuracy = 0.8
@@ -2948,7 +2948,7 @@ strike_craft_component_template = {
 	health = 108
 	armor = 20
 	shield = 0
-	evasion = 0.5
+	evasion = 0.25
 
 	speed = 7.9 #1.17G
 	rotation_speed = 0.1
@@ -2982,7 +2982,7 @@ strike_craft_component_template = {
 	regeneration_per_day = 0.034
 	launch_time = 8.0
 
-	damage = { min = 100 max = 200 } #Beam Rifle/MPC 1
+	damage = { min = 151 max = 302 } #Beam Rifle/MPC 1
 	cooldown = 10
 	range = 30
 	accuracy = 0.82
@@ -3068,7 +3068,7 @@ strike_craft_component_template = {
 	regeneration_per_day = 0.034
 	launch_time = 8.0
 
-	damage = { min = 100 max = 200 } #Beam Rifle/MPC 1
+	damage = { min = 146 max = 291 } #Beam Rifle/MPC 1
 	cooldown = 5
 	range = 30
 	accuracy = 0.9
@@ -3111,7 +3111,7 @@ strike_craft_component_template = {
 	regeneration_per_day = 0.034
 	launch_time = 8.0
 
-	damage = { min = 100 max = 200 } #Beam Rifle/MPC 1
+	damage = { min = 146 max = 291 } #Beam Rifle/MPC 1
 	cooldown = 5
 	range = 30
 	accuracy = 0.9
@@ -3154,7 +3154,7 @@ strike_craft_component_template = {
 	regeneration_per_day = 0.034
 	launch_time = 8.0
 
-	damage = { min = 100 max = 200 } #Beam Rifle/MPC 1
+	damage = { min = 186 max = 371 } #Beam Rifle/MPC 1
 	cooldown = 25
 	range = 30
 	accuracy = 0.82
@@ -3197,7 +3197,7 @@ strike_craft_component_template = {
 	regeneration_per_day = 0.034
 	launch_time = 8.0
 
-	damage = { min = 100 max = 200 } #Beam Rifle/MPC 1
+	damage = { min = 193 max = 386 } #Beam Rifle/MPC 1
 	cooldown = 25
 	range = 30
 	accuracy = 0.82
@@ -3240,7 +3240,7 @@ strike_craft_component_template = {
 	regeneration_per_day = 0.034
 	launch_time = 8.0
 
-	damage = { min = 100 max = 200 } #Beam Rifle/MPC 1
+	damage = { min = 246 max = 491 } #Beam Rifle/MPC 1
 	cooldown = 25
 	range = 30
 	accuracy = 0.82
@@ -3283,7 +3283,7 @@ strike_craft_component_template = {
 	regeneration_per_day = 0.034
 	launch_time = 8.0
 
-	damage = { min = 100 max = 200 } #Beam Rifle/MPC 1
+	damage = { min = 1710 max = 3419 } #Beam Rifle/MPC 1
 	cooldown = 5
 	range = 30
 	accuracy = 0.9
@@ -3326,7 +3326,7 @@ strike_craft_component_template = {
 	regeneration_per_day = 0.034
 	launch_time = 8.0
 
-	damage = { min = 100 max = 200 } #Beam Rifle/MPC 1
+	damage = { min = 1323 max = 2646 } #Beam Rifle/MPC 1
 	cooldown = 5
 	range = 30
 	accuracy = 0.9
@@ -3369,7 +3369,7 @@ strike_craft_component_template = {
 	regeneration_per_day = 0.034
 	launch_time = 8.0
 
-	damage = { min = 100 max = 200 } #Beam Rifle/MPC 1
+	damage = { min = 306 max = 611 } #Beam Rifle/MPC 1
 	cooldown = 5
 	range = 30
 	accuracy = 0.9
@@ -3412,7 +3412,7 @@ strike_craft_component_template = {
 	regeneration_per_day = 0.034
 	launch_time = 8.0
 
-	damage = { min = 100 max = 200 } #Beam Rifle/MPC 1
+	damage = { min = 420 max = 840 } #Beam Rifle/MPC 1
 	cooldown = 25
 	range = 30
 	accuracy = 0.82
@@ -3455,8 +3455,8 @@ strike_craft_component_template = {
 	regeneration_per_day = 0.034
 	launch_time = 8.0
 
-	damage = { min = 100 max = 200 } #Beam Machine Gun/MPC 1
-	cooldown = 15
+	damage = { min = 43 max = 130 } #Beam Machine Gun/MPC 1
+	cooldown = 5
 	range = 30
 	accuracy = 0.82
 	tracking = 0.65
@@ -3541,7 +3541,7 @@ strike_craft_component_template = {
 	regeneration_per_day = 0.034
 	launch_time = 8.0
 
-	damage = { min = 100 max = 200 } #Beam Rifle/MPC 1 Intentionally high accuracy
+	damage = { min = 173 max = 346 } #Beam Rifle/MPC 1 Intentionally high accuracy
 	cooldown = 25
 	range = 30
 	accuracy = 0.9
@@ -3584,7 +3584,7 @@ strike_craft_component_template = {
 	regeneration_per_day = 0.034
 	launch_time = 8.0
 
-	damage = { min = 100 max = 200 } #Beam Rifle/MPC 1 Intentionally high accuracy
+	damage = { min = 267 max = 534 } #Beam Rifle/MPC 1 Intentionally high accuracy
 	cooldown = 25
 	range = 30
 	accuracy = 0.9
@@ -3627,7 +3627,7 @@ strike_craft_component_template = {
 	regeneration_per_day = 0.034
 	launch_time = 8.0
 
-	damage = { min = 100 max = 200 } #Beam Rifle/MPC 1 Intentionally high accuracy
+	damage = { min = 317 max = 634 } #Beam Rifle/MPC 1 Intentionally high accuracy
 	cooldown = 25
 	range = 30
 	accuracy = 0.9
@@ -3670,7 +3670,7 @@ strike_craft_component_template = {
 	regeneration_per_day = 0.034
 	launch_time = 8.0
 
-	damage = { min = 100 max = 200 } #Beam Rifle/MPC 1
+	damage = { min = 173 max = 346 } #Beam Rifle/MPC 1
 	cooldown = 25
 	range = 30
 	accuracy = 0.82
@@ -3713,8 +3713,8 @@ strike_craft_component_template = {
 	regeneration_per_day = 0.034
 	launch_time = 8.0
 
-	damage = { min = 100 max = 200 } #Beam Machine Gun/MPC 1
-	cooldown = 15
+	damage = { min = 43 max = 130 } #Beam Machine Gun/MPC 1
+	cooldown = 10
 	range = 30
 	accuracy = 0.82
 	tracking = 0.65
@@ -3756,8 +3756,8 @@ strike_craft_component_template = {
 	regeneration_per_day = 0.034
 	launch_time = 8.0
 
-	damage = { min = 100 max = 200 } #Beam Machine Gun/MPC 1
-	cooldown = 15
+	damage = { min = 43 max = 130 } #Beam Machine Gun/MPC 1
+	cooldown = 10
 	range = 30
 	accuracy = 0.82
 	tracking = 0.65
@@ -3799,7 +3799,7 @@ strike_craft_component_template = {
 	regeneration_per_day = 0.034
 	launch_time = 8.0
 
-	damage = { min = 100 max = 200 } #Beam Machine Gun/MPC 1
+	damage = { min = 198 max = 395 } #Beam Machine Gun/MPC 1
 	cooldown = 15
 	range = 30
 	accuracy = 0.82

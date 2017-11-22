@@ -488,7 +488,7 @@ strike_craft_component_template = {
 	regeneration_per_day = 0.034
 	launch_time = 8.0
 
-	damage = { min = 100 max = 200 } #Beam Cannon - Large MPC
+	damage = { min = 110 max = 221 } #Beam Cannon - Large MPC
 	cooldown = 25
 	range = 60
 	accuracy = 0.9 #Has targeting sensor
@@ -703,7 +703,7 @@ strike_craft_component_template = {
 	regeneration_per_day = 0.034
 	launch_time = 8.0
 
-	damage = { min = 200 max = 400 } #2x Beam Cannon - Large MPC
+	damage = { min = 114 max = 227 } #2x Beam Cannon - Large MPC
 	cooldown = 25
 	range = 60
 	accuracy = 0.8
@@ -746,7 +746,7 @@ strike_craft_component_template = {
 	regeneration_per_day = 0.034
 	launch_time = 8.0
 
-	damage = { min = 100 max = 200 } #1 Beam Rifle - Large MPC
+	damage = { min = 110 max = 221 } #1 Beam Rifle - Large MPC
 	cooldown = 20
 	range = 30
 	accuracy = 0.82
@@ -789,7 +789,7 @@ strike_craft_component_template = {
 	regeneration_per_day = 0.034
 	launch_time = 8.0
 
-	damage = { min = 100 max = 200 } #1 Beam Rifle - Large MPC
+	damage = { min = 110 max = 221 } #1 Beam Rifle - Large MPC
 	cooldown = 20
 	range = 30
 	accuracy = 0.82
@@ -832,7 +832,7 @@ strike_craft_component_template = {
 	regeneration_per_day = 0.034
 	launch_time = 8.0
 
-	damage = { min = 100 max = 200 } #1 Beam Rifle - Large MPC
+	damage = { min = 110 max = 221 } #1 Beam Rifle - Large MPC
 	cooldown = 20
 	range = 30
 	accuracy = 0.82
@@ -875,7 +875,7 @@ strike_craft_component_template = {
 	regeneration_per_day = 0.034
 	launch_time = 8.0
 
-	damage = { min = 100 max = 200 } #1 Beam Rifle - Large MPC
+	damage = { min = 114 max = 227 } #1 Beam Rifle - Large MPC
 	cooldown = 20
 	range = 30
 	accuracy = 0.82
@@ -918,7 +918,7 @@ strike_craft_component_template = {
 	regeneration_per_day = 0.034
 	launch_time = 8.0
 
-	damage = { min = 100 max = 200 } #1 Beam Rifle - Large MPC
+	damage = { min = 114 max = 227 } #1 Beam Rifle - Large MPC
 	cooldown = 20
 	range = 30
 	accuracy = 0.82
@@ -1090,11 +1090,11 @@ strike_craft_component_template = {
 	regeneration_per_day = 0.034
 	launch_time = 8.0
 
-	damage = { min = 10 max = 25 } #Beam Scatter Gun
+	damage = { min = 25 max = 75 } #Beam Scatter Gun
 	cooldown = 5
-	range = 15
-	accuracy = 0.82
-	tracking = 0.65
+	range = 40
+	accuracy = 0.8
+	tracking = 0.6
 
 	health = 96 #40 -36 = 4
 	armor = 10
@@ -1107,7 +1107,7 @@ strike_craft_component_template = {
 
 	shield_damage = 0.2 #MPC1
 	shield_penetration = 0
-	armor_penetration = 0.7 #lowered penetration due to weaker weapon
+	armor_penetration = 0.95 #lowered penetration due to weaker weapon
 
 	ship_behavior = "fighters_behavior"
 
