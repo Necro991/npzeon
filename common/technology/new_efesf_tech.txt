@@ -390,3 +390,73 @@ tech_RGM_79N = {
 		factor = 2		#weapons are good
 	}
 }
+
+tech_RGM_79Q = {
+	area = engineering
+	cost = @tier1cost1
+	tier = 1
+	category = { materials }
+	ai_update_type = military
+	prerequisites = { "tech_Titans" "tech_RGM_79N" }
+	weight = @tier1weight1
+
+	ai_weight = {
+		factor = 2		#weapons are good
+	}
+}
+
+tech_RGM_79Q_Hazel = {
+	area = engineering
+	cost = @tier1cost1
+	tier = 1
+	category = { materials }
+	ai_update_type = military
+	prerequisites = { "tech_RGM_79Q" }
+	weight = @tier1weight1
+
+	ai_weight = {
+		factor = 2		#weapons are good
+	}
+}
+
+#tech_RX_121_TR_1 = { #Undone
+#	area = engineering
+#	cost = @tier1cost1
+#	tier = 1
+#	category = { materials }
+#	ai_update_type = military
+#	prerequisites = { "tech_RGM_79Q_Hazel" }
+#	weight = @tier1weight1
+
+#	ai_weight = {
+#		factor = 2		#weapons are good
+#	}
+#}
+
+tech_RX_178 = {
+	area = engineering
+	cost = @tier1cost1
+	tier = 1
+	category = { materials }
+	ai_update_type = military
+	prerequisites = { "tech_RX_121_TR_1" }
+	weight = @tier1weight1
+
+	ai_weight = {
+		factor = 2		#weapons are good
+	}
+}
+
+tech_RGM_79CR = {
+	area = engineering
+	cost = @tier1cost1
+	tier = 1
+	category = { materials }
+	ai_update_type = military
+	prerequisites = { "tech_Titans" "tech_RGM_79C" }
+	weight = @tier1weight1
+
+	ai_weight = {
+		factor = 2		#weapons are good
+	}
+}

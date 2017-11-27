@@ -3284,7 +3284,7 @@ strike_craft_component_template = {
 	launch_time = 8.0
 
 	damage = { min = 1710 max = 3419 } #Beam Rifle/MPC 1
-	cooldown = 5
+	cooldown = 15
 	range = 30
 	accuracy = 0.9
 	tracking = 0.9
@@ -3327,7 +3327,7 @@ strike_craft_component_template = {
 	launch_time = 8.0
 
 	damage = { min = 1323 max = 2646 } #Beam Rifle/MPC 1
-	cooldown = 5
+	cooldown = 15
 	range = 30
 	accuracy = 0.9
 	tracking = 0.9
@@ -3456,7 +3456,7 @@ strike_craft_component_template = {
 	launch_time = 8.0
 
 	damage = { min = 43 max = 130 } #Beam Machine Gun/MPC 1
-	cooldown = 5
+	cooldown = 10
 	range = 30
 	accuracy = 0.82
 	tracking = 0.65
@@ -3800,7 +3800,7 @@ strike_craft_component_template = {
 	launch_time = 8.0
 
 	damage = { min = 198 max = 395 } #Beam Machine Gun/MPC 1
-	cooldown = 15
+	cooldown = 10
 	range = 30
 	accuracy = 0.82
 	tracking = 0.65

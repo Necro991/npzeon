@@ -8,3 +8,10 @@ on_press_begin = {
 		zeontech.6
 	}
 }
+
+on_tech_increased = {
+	events = {
+		gundam_tech_event.1
+		gundam_tech_event.2
+	}
+}

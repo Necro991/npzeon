@@ -19,12 +19,12 @@ spriteTypes = {
 		name = "GFX_ship_part_strike_craft_fighter_3z"
 		texturefile = "gfx/interface/icons/ship_parts/ship_part_strike_craft_fighter_3z.dds"
 	}
-	
+
 	spriteType = {
 		name = "GFX_ship_part_strike_craft_fighter_4z"
 		texturefile = "gfx/interface/icons/ship_parts/ship_part_strike_craft_fighter_4z.dds"
 	}
-	
+
 	spriteType = {
 		name = "GFX_ship_part_strike_craft_fighter_5z"
 		texturefile = "gfx/interface/icons/ship_parts/ship_part_strike_craft_fighter_5z.dds"
@@ -44,7 +44,7 @@ spriteTypes = {
 		name = "GFX_ship_part_strike_craft_bomber_3z"
 		texturefile = "gfx/interface/icons/ship_parts/ship_part_strike_craft_bomber_3z.dds"
 	}
-	
+
 	spriteType = {
 		name = "GFX_ship_part_strike_craft_bomber_4z"
 		texturefile = "gfx/interface/icons/ship_parts/ship_part_strike_craft_bomber_4z.dds"
@@ -54,37 +54,37 @@ spriteTypes = {
 		name = "GFX_ship_part_strike_craft_bomber_5z"
 		texturefile = "gfx/interface/icons/ship_parts/ship_part_strike_craft_bomber_5z.dds"
 	}
-	
+
 	spriteType = {
 		name = "GFX_ship_part_strike_craft_ma_1"
 		texturefile = "gfx/interface/icons/ship_parts/zeon_ma_1.dds"
 	}
-	
+
 	spriteType = {
 		name = "GFX_ship_part_strike_craft_ma_2"
 		texturefile = "gfx/interface/icons/ship_parts/zeon_ma_2.dds"
 	}
-	
+
 	spriteType = {
 		name = "GFX_ship_part_strike_craft_nt_ms_1"
 		texturefile = "gfx/interface/icons/ship_parts/zeon_nt_ms_1.dds"
 	}
-	
+
 	spriteType = {
 		name = "GFX_ship_part_strike_craft_nt_ms_2"
 		texturefile = "gfx/interface/icons/ship_parts/zeon_nt_ms_2.dds"
 	}
-	
+
 	spriteType = {
 		name = "GFX_ship_part_strike_craft_nt_ma_1"
 		texturefile = "gfx/interface/icons/ship_parts/zeon_nt_ma_1.dds"
 	}
-	
+
 	spriteType = {
 		name = "GFX_ship_part_100mm"
 		texturefile = "gfx/interface/icons/ship_parts/100mm.dds"
 	}
-	
+
 	spriteType = {
 		name = "GFX_ship_part_105mm"
 		texturefile = "gfx/interface/icons/ship_parts/105mm.dds"
@@ -94,27 +94,27 @@ spriteTypes = {
 		name = "GFX_ship_part_120mm"
 		texturefile = "gfx/interface/icons/ship_parts/120mm.dds"
 	}
-	
+
 	spriteType = {
 		name = "GFX_ship_part_80mm"
 		texturefile = "gfx/interface/icons/ship_parts/80mm.dds"
 	}
-	
+
 	spriteType = {
 		name = "GFX_ship_part_rifle_1"
 		texturefile = "gfx/interface/icons/ship_parts/rifle1.dds"
 	}
-	
+
 	spriteType = {
 		name = "GFX_ship_part_rifle_2"
 		texturefile = "gfx/interface/icons/ship_parts/rifle2.dds"
 	}
-	
+
 	spriteType = {
 		name = "GFX_ship_part_rifle_3"
 		texturefile = "gfx/interface/icons/ship_parts/rifle3.dds"
 	}
-	
+
 	spriteType = {
 		name = "GFX_ship_part_sturm_faust_1"
 		texturefile = "gfx/interface/icons/ship_parts/sturm_faust1.dds"
@@ -123,8 +123,8 @@ spriteTypes = {
 	spriteType = {
 		name = "GFX_ship_part_sturm_faust_2"
 		texturefile = "gfx/interface/icons/ship_parts/sturm_faust2.dds"
-	}	
-	
+	}
+
 	spriteType = {
 		name = "GFX_ship_part_sturm_faust_3"
 		texturefile = "gfx/interface/icons/ship_parts/sturm_faust3.dds"
@@ -139,17 +139,17 @@ spriteTypes = {
 		name = "GFX_ship_part_bazooka2"
 		texturefile = "gfx/interface/icons/ship_parts/bazooka2.dds"
 	}
-	
+
 	spriteType = {
 		name = "GFX_ship_part_bazooka3"
 		texturefile = "gfx/interface/icons/ship_parts/bazooka3.dds"
 	}
-	
+
 	spriteType = {
 		name = "GFX_ship_part_beam_bazooka"
 		texturefile = "gfx/interface/icons/ship_parts/beam_bazooka.dds"
 	}
-	
+
 	spriteType = {
 		name = "GFX_ship_part_beamrifle1"
 		texturefile = "gfx/interface/icons/ship_parts/beam1.dds"
@@ -204,7 +204,7 @@ spriteTypes = {
 		name = "mpc6"
 		texturefile = "gfx/interface/icons/ship_parts/mpc3a.dds"
 	}
-	
+
 	spriteType = {
 		name = "efsf_mpc1"
 		texturefile = "gfx/interface/icons/ship_parts/efsf_mpc_1.dds"
@@ -234,91 +234,91 @@ spriteTypes = {
 		name = "efsf_mmpc3"
 		texturefile = "gfx/interface/icons/ship_parts/efsf_mmpc_3.dds"
 	}
-	
+
 	spriteType = {
 		name = "GFX_ship_part_ms_pilot_basic"
-		texturefile = "gfx/interface/icons/ship_parts/ship_part_ms_pilot_basic.dds"
+		texturefile = "gfx/interface/icons/ship_parts/ship_part_ms_pilot_basic.dds" #ship_part_ms_pilot_basic
 	}
-	
+
 	spriteType = {
 		name = "GFX_ship_part_ms_pilot_veteran"
-		texturefile = "gfx/interface/icons/ship_parts/ship_part_ms_pilot_veteran.dds"
+		texturefile = "gfx/interface/icons/ship_parts/ship_part_ms_pilot_veteran.dds" #ship_part_ms_pilot_veteran
 	}
-	
+
 	spriteType = {
 		name = "GFX_ship_part_ms_pilot_ace"
-		texturefile = "gfx/interface/icons/ship_parts/ship_part_ms_pilot_ace.dds"
+		texturefile = "gfx/interface/icons/ship_parts/ship_part_ms_pilot_ace.dds" #ship_part_ms_pilot_ace
 	}
 	spriteType = {
 		name = "GFX_ship_part_ms_pilot_newtype"
-		texturefile = "gfx/interface/icons/ship_parts/ship_part_ms_pilot_newtype.dds"
+		texturefile = "gfx/interface/icons/ship_parts/ship_part_ms_pilot_newtype.dds" #ship_part_ms_pilot_newtype
 	}
-	
+
 	spriteType = {
 		name = "GFX_ship_part_ms_pilot_cyber_newtype"
-		texturefile = "gfx/interface/icons/ship_parts/ship_part_ms_pilot_cyber_newtype.dds"
+		texturefile = "gfx/interface/icons/ship_parts/ship_part_ms_pilot_cyber_newtype.dds" #ship_part_ms_pilot_cyber_newtype
 	}
-	
+
 	spriteType = {
 		name = "GFX_ship_part_zeon_shield_1"
 		texturefile = "gfx/interface/icons/ship_parts/Zeon_Shield_1.dds"
 	}
-	
+
 	spriteType = {
 		name = "GFX_ship_part_zeon_shield_2"
 		texturefile = "gfx/interface/icons/ship_parts/Zeon_Shield_2.dds"
 	}
-	
+
 	spriteType = {
 		name = "GFX_ship_part_zeon_shield_3"
 		texturefile = "gfx/interface/icons/ship_parts/Zeon_Shield_3.dds"
 	}
-	
+
 	spriteType = {
 		name = "GFX_ship_part_zeon_shield_4"
 		texturefile = "gfx/interface/icons/ship_parts/Zeon_Shield_4.dds"
 	}
-	
+
 	spriteType = {
 		name = "GFX_ship_part_zeon_shield_5"
 		texturefile = "gfx/interface/icons/ship_parts/Zeon_Shield_5.dds"
 	}
-	
+
 	spriteType = {
 		name = "GFX_ship_part_zeon_funnel_1"
 		texturefile = "gfx/interface/icons/ship_parts/Zeon_Funnel_1_1.dds"
 	}
-	
+
 	spriteType = {
 		name = "GFX_ship_part_zeon_funnel_2"
 		texturefile = "gfx/interface/icons/ship_parts/Zeon_Funnel_2_2.dds"
 	}
-	
+
 	spriteType = {
 		name = "GFX_ship_part_zeon_funnel_3"
 		texturefile = "gfx/interface/icons/ship_parts/Zeon_Funnel_3_3.dds"
 	}
-	
+
 	spriteType = {
 		name = "GFX_ship_part_ms_reactor"
 		texturefile = "gfx/interface/icons/ship_parts/MS_Reactor.dds"
 	}
-	
-	
+
+
 	###                   ###
 	#NOW ENTERING Axis ICONS#
 	###                   ###
-	
+
 	spriteType = {
 		name = "GFX_ship_part_axis_ms_pilot_basic"
 		texturefile = "gfx/interface/icons/ship_parts/ship_part_axis_ms_pilot_basic.dds"
 	}
-	
+
 	spriteType = {
 		name = "GFX_ship_part_axis_ms_pilot_veteran"
 		texturefile = "gfx/interface/icons/ship_parts/ship_part_axis_ms_pilot_veteran.dds"
 	}
-	
+
 	spriteType = {
 		name = "GFX_ship_part_axis_ms_pilot_ace"
 		texturefile = "gfx/interface/icons/ship_parts/ship_part_axis_ms_pilot_ace.dds"
@@ -327,12 +327,12 @@ spriteTypes = {
 		name = "GFX_ship_part_axis_ms_pilot_newtype"
 		texturefile = "gfx/interface/icons/ship_parts/ship_part_axis_ms_pilot_newtype.dds"
 	}
-	
+
 	spriteType = {
 		name = "GFX_ship_part_axis_ms_pilot_cyber_newtype"
 		texturefile = "gfx/interface/icons/ship_parts/ship_part_axis_ms_pilot_cyber_newtype.dds"
 	}
-	
+
 	spriteType = {
 		name = "GFX_ship_part_axis_strike_craft_scout_1z"
 		texturefile = "gfx/interface/icons/ship_parts/ship_part_axis_strike_craft_scout_1z.dds"
@@ -352,12 +352,12 @@ spriteTypes = {
 		name = "GFX_ship_part_axis_strike_craft_fighter_3z"
 		texturefile = "gfx/interface/icons/ship_parts/ship_part_axis_strike_craft_fighter_3z.dds"
 	}
-	
+
 	spriteType = {
 		name = "GFX_ship_part_axis_strike_craft_fighter_4z"
 		texturefile = "gfx/interface/icons/ship_parts/ship_part_axis_strike_craft_fighter_4z.dds"
 	}
-	
+
 	spriteType = {
 		name = "GFX_ship_part_axis_strike_craft_fighter_5z"
 		texturefile = "gfx/interface/icons/ship_parts/ship_part_axis_strike_craft_fighter_5z.dds"
@@ -377,7 +377,7 @@ spriteTypes = {
 		name = "GFX_ship_part_axis_strike_craft_bomber_3z"
 		texturefile = "gfx/interface/icons/ship_parts/ship_part_axis_strike_craft_bomber_3z.dds"
 	}
-	
+
 	spriteType = {
 		name = "GFX_ship_part_axis_strike_craft_bomber_4z"
 		texturefile = "gfx/interface/icons/ship_parts/ship_part_axis_strike_craft_bomber_4z.dds"
@@ -387,12 +387,12 @@ spriteTypes = {
 		name = "GFX_ship_part_axis_strike_craft_bomber_5z"
 		texturefile = "gfx/interface/icons/ship_parts/ship_part_axis_strike_craft_bomber_5z.dds"
 	}
-	
+
 	spriteType = {
 		name = "GFX_ship_part_strike_craft_axis_nt_ms_1"
 		texturefile = "gfx/interface/icons/ship_parts/axis_nt_ms_1.dds"
 	}
-	
+
 	spriteType = {
 		name = "GFX_ship_part_strike_craft_axis_nt_ms_2"
 		texturefile = "gfx/interface/icons/ship_parts/axis_nt_ms_2.dds"
@@ -402,12 +402,12 @@ spriteTypes = {
 		name = "GFX_ship_part_strike_craft_axis_nt_ms_3"
 		texturefile = "gfx/interface/icons/ship_parts/axis_nt_ms_3.dds"
 	}
-	
+
 	spriteType = {
 		name = "GFX_ship_part_strike_craft_axis_ma_1"
 		texturefile = "gfx/interface/icons/ship_parts/axis_ma_1.dds"
 	}
-	
+
 	spriteType = {
 		name = "GFX_ship_part_strike_craft_axis_ma_2"
 		texturefile = "gfx/interface/icons/ship_parts/axis_ma_2.dds"
@@ -417,21 +417,21 @@ spriteTypes = {
 		name = "GFX_ship_part_strike_craft_axis_ma_3"
 		texturefile = "gfx/interface/icons/ship_parts/axis_ma_3.dds"
 	}
-	
+
 	###                   ###
 	#NOW ENTERING NeoZ ICONS#
 	###                   ###
-	
+
 	spriteType = {
 		name = "GFX_ship_part_neo_ms_pilot_basic"
 		texturefile = "gfx/interface/icons/ship_parts/ship_part_neo_ms_pilot_basic.dds"
 	}
-	
+
 	spriteType = {
 		name = "GFX_ship_part_neo_ms_pilot_veteran"
 		texturefile = "gfx/interface/icons/ship_parts/ship_part_neo_ms_pilot_veteran.dds"
 	}
-	
+
 	spriteType = {
 		name = "GFX_ship_part_neo_ms_pilot_ace"
 		texturefile = "gfx/interface/icons/ship_parts/ship_part_neo_ms_pilot_ace.dds"
@@ -440,12 +440,12 @@ spriteTypes = {
 		name = "GFX_ship_part_neo_ms_pilot_newtype"
 		texturefile = "gfx/interface/icons/ship_parts/ship_part_neo_ms_pilot_newtype.dds"
 	}
-	
+
 	spriteType = {
 		name = "GFX_ship_part_neo_ms_pilot_cyber_newtype"
 		texturefile = "gfx/interface/icons/ship_parts/ship_part_neo_ms_pilot_cyber_newtype.dds"
 	}
-	
+
 	spriteType = {
 		name = "GFX_ship_part_neo_strike_craft_scout_1z"
 		texturefile = "gfx/interface/icons/ship_parts/ship_part_neo_strike_craft_scout_1z.dds"
@@ -465,12 +465,12 @@ spriteTypes = {
 		name = "GFX_ship_part_neo_strike_craft_fighter_3z"
 		texturefile = "gfx/interface/icons/ship_parts/ship_part_neo_strike_craft_fighter_3z.dds"
 	}
-	
+
 	spriteType = {
 		name = "GFX_ship_part_neo_strike_craft_fighter_4z"
 		texturefile = "gfx/interface/icons/ship_parts/ship_part_neo_strike_craft_fighter_4z.dds"
 	}
-	
+
 	spriteType = {
 		name = "GFX_ship_part_neo_strike_craft_fighter_5z"
 		texturefile = "gfx/interface/icons/ship_parts/ship_part_neo_strike_craft_fighter_5z.dds"
@@ -490,7 +490,7 @@ spriteTypes = {
 		name = "GFX_ship_part_neo_strike_craft_bomber_3z"
 		texturefile = "gfx/interface/icons/ship_parts/ship_part_neo_strike_craft_bomber_3z.dds"
 	}
-	
+
 	spriteType = {
 		name = "GFX_ship_part_neo_strike_craft_bomber_4z"
 		texturefile = "gfx/interface/icons/ship_parts/ship_part_neo_strike_craft_bomber_4z.dds"
@@ -500,12 +500,12 @@ spriteTypes = {
 		name = "GFX_ship_part_neo_strike_craft_bomber_5z"
 		texturefile = "gfx/interface/icons/ship_parts/ship_part_neo_strike_craft_bomber_5z.dds"
 	}
-	
+
 	spriteType = {
 		name = "GFX_ship_part_neo_ma_1"
 		texturefile = "gfx/interface/icons/ship_parts/neo_ma_1.dds"
 	}
-	
+
 	spriteType = {
 		name = "GFX_ship_part_neo_nt_ms_1"
 		texturefile = "gfx/interface/icons/ship_parts/neo_ms_nt_1.dds"
@@ -515,26 +515,26 @@ spriteTypes = {
 		name = "GFX_ship_part_neo_nt_ms_2"
 		texturefile = "gfx/interface/icons/ship_parts/neo_ms_nt_2.dds"
 	}
-	
+
 	spriteType = {
 		name = "GFX_ship_part_neo_nt_ms_3"
 		texturefile = "gfx/interface/icons/ship_parts/neo_ms_nt_3.dds"
 	}
-	
+
 	spriteType = {
 		name = "GFX_ship_part_neo_nt_ms_4"
 		texturefile = "gfx/interface/icons/ship_parts/neo_ms_nt_4.dds"
 	}
-	
+
 	spriteType = {
 		name = "GFX_ship_part_neo_nt_ms_5"
 		texturefile = "gfx/interface/icons/ship_parts/neo_ms_nt_5.dds"
 	}
-	
+
 	###                   ###
 	#NOW ENTERING EFSF ICONS#
 	###                   ###
-	
+
 	spriteType = {
 		name = "GFX_ship_part_efsf_scout"
 		texturefile = "gfx/interface/icons/ship_parts/efsf_scout.dds"
@@ -583,12 +583,12 @@ spriteTypes = {
 		name = "GFX_ship_part_efsf_ms_pilot_basic"
 		texturefile = "gfx/interface/icons/ship_parts/ship_part_efsf_ms_pilot_basic.dds"
 	}
-	
+
 	spriteType = {
 		name = "GFX_ship_part_efsf_ms_pilot_veteran"
 		texturefile = "gfx/interface/icons/ship_parts/ship_part_efsf_ms_pilot_veteran.dds"
 	}
-	
+
 	spriteType = {
 		name = "GFX_ship_part_efsf_ms_pilot_ace"
 		texturefile = "gfx/interface/icons/ship_parts/ship_part_efsf_ms_pilot_ace.dds"
@@ -597,16 +597,16 @@ spriteTypes = {
 		name = "GFX_ship_part_efsf_ms_pilot_newtype"
 		texturefile = "gfx/interface/icons/ship_parts/ship_part_efsf_ms_pilot_newtype.dds"
 	}
-	
+
 	spriteType = {
 		name = "GFX_ship_part_efsf_ms_pilot_cyber_newtype"
 		texturefile = "gfx/interface/icons/ship_parts/ship_part_efsf_ms_pilot_cyber_newtype.dds"
 	}
-	
+
 	###                    ###
 	#NOW ENTERING TITAN ICONS#
 	###                    ###
-	
+
 	spriteType = {
 		name = "GFX_ship_part_titan_scout"
 		texturefile = "gfx/interface/icons/ship_parts/titan_scout.dds"
@@ -651,17 +651,17 @@ spriteTypes = {
 		name = "GFX_ship_part_titan_bomber_5"
 		texturefile = "gfx/interface/icons/ship_parts/titan_bomber_5.dds"
 	}
-	
+
 	spriteType = {
 		name = "GFX_ship_part_titan_ms_pilot_basic"
 		texturefile = "gfx/interface/icons/ship_parts/ship_part_titan_ms_pilot_basic.dds"
 	}
-	
+
 	spriteType = {
 		name = "GFX_ship_part_titan_ms_pilot_veteran"
 		texturefile = "gfx/interface/icons/ship_parts/ship_part_titan_ms_pilot_veteran.dds"
 	}
-	
+
 	spriteType = {
 		name = "GFX_ship_part_titan_ms_pilot_ace"
 		texturefile = "gfx/interface/icons/ship_parts/ship_part_titan_ms_pilot_ace.dds"
@@ -670,21 +670,21 @@ spriteTypes = {
 		name = "GFX_ship_part_titan_ms_pilot_newtype"
 		texturefile = "gfx/interface/icons/ship_parts/ship_part_titan_ms_pilot_newtype.dds"
 	}
-	
+
 	spriteType = {
 		name = "GFX_ship_part_titan_ms_pilot_cyber_newtype"
 		texturefile = "gfx/interface/icons/ship_parts/ship_part_titan_ms_pilot_cyber_newtype.dds"
 	}
-	
+
 	###                      ###
 	#NOW ENTERING TESTING ICONS#
 	###                      ###
-	
+
 	spriteType = {
 		name = "GFX_ship_counter_zeon_MS_scout"
 		textureFile = "gfx/interface/system/icon_zeon_MS_scout.dds"
 	}
-	
+
 	spriteType = {
 		name = "GFX_ship_counter_zeon_MS_1"
 		textureFile = "gfx/interface/system/icon_zeon_MS_1.dds"
@@ -693,28 +693,28 @@ spriteTypes = {
 	spriteType = {
 		name = "GFX_ship_counter_zeon_MS_2"
 		textureFile = "gfx/interface/system/icon_zeon_MS_2.dds"
-	}	
-	
+	}
+
 	spriteType = {
 		name = "GFX_ship_counter_zeon_MS_3"
 		textureFile = "gfx/interface/system/icon_zeon_MS_3.dds"
-	}	
-	
+	}
+
 	spriteType = {
 		name = "GFX_ship_counter_zeon_MS_4"
 		textureFile = "gfx/interface/system/icon_zeon_MS_4.dds"
 	}
-	
+
 	spriteType = {
 		name = "GFX_ship_counter_zeon_MS_5"
 		textureFile = "gfx/interface/system/icon_zeon_MS_5.dds"
 	}
-	
+
 	spriteType = {
 		name = "GFX_ship_counter_axis_MS_scout"
 		textureFile = "gfx/interface/system/icon_axis_MS_scout.dds"
-	}	
-	
+	}
+
 	spriteType = {
 		name = "GFX_ship_counter_axis_MS_1"
 		textureFile = "gfx/interface/system/icon_axis_MS_1.dds"
@@ -723,28 +723,28 @@ spriteTypes = {
 	spriteType = {
 		name = "GFX_ship_counter_axis_MS_2"
 		textureFile = "gfx/interface/system/icon_axis_MS_2.dds"
-	}	
-	
+	}
+
 	spriteType = {
 		name = "GFX_ship_counter_axis_MS_3"
 		textureFile = "gfx/interface/system/icon_axis_MS_3.dds"
-	}	
-	
+	}
+
 	spriteType = {
 		name = "GFX_ship_counter_axis_MS_4"
 		textureFile = "gfx/interface/system/icon_axis_MS_4.dds"
 	}
-	
+
 	spriteType = {
 		name = "GFX_ship_counter_axis_MS_5"
 		textureFile = "gfx/interface/system/icon_axis_MS_5.dds"
 	}
-	
+
 	spriteType = {
 		name = "GFX_ship_counter_neo_MS_scout"
 		textureFile = "gfx/interface/system/icon_neo_MS_scout.dds"
-	}	
-	
+	}
+
 	spriteType = {
 		name = "GFX_ship_counter_neo_MS_1"
 		textureFile = "gfx/interface/system/icon_neo_MS_1.dds"
@@ -753,21 +753,21 @@ spriteTypes = {
 	spriteType = {
 		name = "GFX_ship_counter_neo_MS_2"
 		textureFile = "gfx/interface/system/icon_neo_MS_2.dds"
-	}	
-	
+	}
+
 	spriteType = {
 		name = "GFX_ship_counter_neo_MS_3"
 		textureFile = "gfx/interface/system/icon_neo_MS_3.dds"
-	}	
-	
+	}
+
 	spriteType = {
 		name = "GFX_ship_counter_neo_MS_4"
 		textureFile = "gfx/interface/system/icon_neo_MS_4.dds"
 	}
-	
+
 	spriteType = {
 		name = "GFX_ship_counter_neo_MS_5"
 		textureFile = "gfx/interface/system/icon_neo_MS_5.dds"
 	}
-	
+
 }

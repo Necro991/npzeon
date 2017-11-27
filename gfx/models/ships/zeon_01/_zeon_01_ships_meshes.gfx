@@ -954,6 +954,71 @@ objectTypes = {
 			shader = "PdxMeshShip"
 		}
 	}
+	
+	pdxmesh = {
+		name = "Argama_Mesh"
+		file = "gfx/models/ships/zeon_01/argama.mesh"
+    
+			scale = 0.1
+					meshsettings = {
+						texture_diffuse = "Big_Zam_Diffuse.dds"
+						texture_normal = "Musai_Normal.dds"
+						texture_specular = "generic_specular.dds"
+			shader = "PdxMeshShip"
+		}
+	}
+	
+	pdxmesh = {
+		name = "burning_Mesh"
+		file = "gfx/models/ships/zeon_01/build burning.mesh"
+    
+			scale = 0.1
+					meshsettings = {
+						texture_diffuse = "Big_Zam_Diffuse.dds"
+						texture_normal = "Musai_Normal.dds"
+						texture_specular = "generic_specular.dds"
+			shader = "PdxMeshShip"
+		}
+	}
+	
+	pdxmesh = {
+		name = "strike_Mesh"
+		file = "gfx/models/ships/zeon_01/build strike.mesh"
+    
+			scale = 0.1
+					meshsettings = {
+						texture_diffuse = "Big_Zam_Diffuse.dds"
+						texture_normal = "Musai_Normal.dds"
+						texture_specular = "generic_specular.dds"
+			shader = "PdxMeshShip"
+		}
+	}
+	
+	pdxmesh = {
+		name = "master_Mesh"
+		file = "gfx/models/ships/zeon_01/master gundam.mesh"
+    
+			scale = 0.1
+					meshsettings = {
+						texture_diffuse = "Big_Zam_Diffuse.dds"
+						texture_normal = "Musai_Normal.dds"
+						texture_specular = "generic_specular.dds"
+			shader = "PdxMeshShip"
+		}
+	}
+	
+	pdxmesh = {
+		name = "zam_Mesh"
+		file = "gfx/models/ships/zeon_01/big zam.mesh"
+    
+			scale = 0.1
+					meshsettings = {
+						texture_diffuse = "Big_Zam_Diffuse.dds"
+						texture_normal = "Musai_Normal.dds"
+						texture_specular = "generic_specular.dds"
+			shader = "PdxMeshShip"
+		}
+	}
 		
 	#######  corvette frame  #######
 	
