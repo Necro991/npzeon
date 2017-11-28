@@ -439,7 +439,7 @@ tech_RX_178 = {
 	tier = 1
 	category = { materials }
 	ai_update_type = military
-	prerequisites = { "tech_RX_121_TR_1" }
+	prerequisites = { "tech_RGM_79Q_Hazel" } #tech_RX_121_TR_1
 	weight = @tier1weight1
 
 	ai_weight = {
