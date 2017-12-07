@@ -6,7 +6,7 @@ ZEO = {
 	randomized = no
 	portraits = {
 		"zeon"
-		"test"
+		#"test"
 	}
 	
 	graphical_culture = zeon_01
@@ -20,6 +20,7 @@ FED = {
 	randomized = no
 	portraits = {
 		"fed"
+		"titan"
 	}
 	graphical_culture = fed_01
 	move_pop_sound_effect = "moving_pop_confirmation"	

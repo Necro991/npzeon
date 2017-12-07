@@ -10,4 +10,4 @@ tags={
 }
 picture="MSG.png"
 remote_file_id="717060367"
-supported_version="1.8.*"
+supported_version="1.9.*"

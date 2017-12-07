@@ -1744,7 +1744,7 @@ strike_craft_component_template = {
 	health = 109
 	armor = 15
 	shield = 0
-	evasion = 0.5
+	evasion = 0.6
 
 	speed = 6.8 #1.00G
 	rotation_speed = 0.1
@@ -2002,7 +2002,7 @@ strike_craft_component_template = {
 	health = 110
 	armor = 15
 	shield = 0
-	evasion = 0.5
+	evasion = 0.55
 
 	speed = 7.1 #1.04G
 	rotation_speed = 0.1
@@ -2045,7 +2045,7 @@ strike_craft_component_template = {
 	health = 110
 	armor = 15
 	shield = 0
-	evasion = 0.5
+	evasion = 0.55
 
 	speed = 7.1 #1.04G
 	rotation_speed = 0.1
@@ -2088,7 +2088,7 @@ strike_craft_component_template = {
 	health = 101
 	armor = 20 #lunar titanium
 	shield = 0
-	evasion = 0.5
+	evasion = 0.65
 
 	speed = 10.9 #1.61G
 	rotation_speed = 0.1
@@ -2131,7 +2131,7 @@ strike_craft_component_template = {
 	health = 101
 	armor = 20 #lunar titanium
 	shield = 0
-	evasion = 0.5
+	evasion = 0.65
 
 	speed = 10.9 #1.61G
 	rotation_speed = 0.1
@@ -2346,7 +2346,7 @@ strike_craft_component_template = {
 	health = 102
 	armor = 20
 	shield = 0
-	evasion = 0.5
+	evasion = 0.6
 
 	speed = 5.9 #0.87G
 	rotation_speed = 0.1
@@ -2389,7 +2389,7 @@ strike_craft_component_template = {
 	health = 102
 	armor = 20
 	shield = 0
-	evasion = 0.5
+	evasion = 0.6
 
 	speed = 5.9 #0.87G
 	rotation_speed = 0.1
@@ -2432,7 +2432,7 @@ strike_craft_component_template = {
 	health = 96
 	armor = 20
 	shield = 0
-	evasion = 0.5
+	evasion = 0.55
 
 	speed = 10.8 #1.59G
 	rotation_speed = 0.1
@@ -2475,7 +2475,7 @@ strike_craft_component_template = {
 	health = 96
 	armor = 20
 	shield = 0
-	evasion = 0.5
+	evasion = 0.55
 
 	speed = 10.8 #1.59G
 	rotation_speed = 0.1
@@ -2518,7 +2518,7 @@ strike_craft_component_template = {
 	health = 102
 	armor = 20
 	shield = 0
-	evasion = 0.5
+	evasion = 0.65
 
 	speed = 17.2 #2.53G
 	rotation_speed = 0.1
@@ -2561,7 +2561,7 @@ strike_craft_component_template = {
 	health = 102
 	armor = 20
 	shield = 0
-	evasion = 0.5
+	evasion = 0.65
 
 	speed = 17.2 #2.53G
 	rotation_speed = 0.1
@@ -2604,7 +2604,7 @@ strike_craft_component_template = {
 	health = 104
 	armor = 20
 	shield = 0
-	evasion = 0.5
+	evasion = 0.7
 
 	speed = 20.1 #2.96G
 	rotation_speed = 0.1
@@ -2647,7 +2647,7 @@ strike_craft_component_template = {
 	health = 104
 	armor = 20
 	shield = 0
-	evasion = 0.5
+	evasion = 0.7
 
 	speed = 20.1 #2.96G
 	rotation_speed = 0.1
@@ -2690,7 +2690,7 @@ strike_craft_component_template = {
 	health = 103
 	armor = 20
 	shield = 0
-	evasion = 0.5
+	evasion = 0.65
 
 	speed = 20.9 #3.08G
 	rotation_speed = 0.1
@@ -2733,7 +2733,7 @@ strike_craft_component_template = {
 	health = 103
 	armor = 20
 	shield = 0
-	evasion = 0.5
+	evasion = 0.65
 
 	speed = 20.9 #3.08G
 	rotation_speed = 0.1
@@ -2776,7 +2776,7 @@ strike_craft_component_template = {
 	health = 108
 	armor = 20
 	shield = 0
-	evasion = 0.5
+	evasion = 0.6
 
 	speed = 10.6 #1.56G
 	rotation_speed = 0.1
@@ -2819,7 +2819,7 @@ strike_craft_component_template = {
 	health = 108
 	armor = 20
 	shield = 0
-	evasion = 0.5
+	evasion = 0.55
 
 	speed = 10.6 #1.56G
 	rotation_speed = 0.1
@@ -2862,7 +2862,7 @@ strike_craft_component_template = {
 	health = 106
 	armor = 20
 	shield = 0
-	evasion = 0.5
+	evasion = 0.65
 
 	speed = 7.8 #1.15G
 	rotation_speed = 0.1
@@ -2905,7 +2905,7 @@ strike_craft_component_template = {
 	health = 98
 	armor = 20
 	shield = 0
-	evasion = 0.5
+	evasion = 0.6
 
 	speed = 14.0 #2.1G
 	rotation_speed = 0.1
@@ -2991,7 +2991,7 @@ strike_craft_component_template = {
 	health = 111
 	armor = 15
 	shield = 0
-	evasion = 0.6 #Improved maneuvrability
+	evasion = 0.65 #Improved maneuvrability
 
 	speed = 12.4 #1.83G
 	rotation_speed = 0.1
@@ -3034,7 +3034,7 @@ strike_craft_component_template = {
 	health = 111
 	armor = 15
 	shield = 0
-	evasion = 0.6 #Improved maneuvrability
+	evasion = 0.65 #Improved maneuvrability
 
 	speed = 12.4 #1.83G
 	rotation_speed = 0.1
@@ -3077,7 +3077,7 @@ strike_craft_component_template = {
 	health = 95
 	armor = 20
 	shield = 0
-	evasion = 0.5
+	evasion = 0.75
 
 	speed = 7.3 #1.08G
 	rotation_speed = 0.1
@@ -3120,7 +3120,7 @@ strike_craft_component_template = {
 	health = 95
 	armor = 20
 	shield = 0
-	evasion = 0.5
+	evasion = 0.7
 
 	speed = 6.7 #0.99G
 	rotation_speed = 0.1
@@ -3163,7 +3163,7 @@ strike_craft_component_template = {
 	health = 102
 	armor = 20
 	shield = 0
-	evasion = 0.5
+	evasion = 0.6
 
 	speed = 7.3 #1.07G
 	rotation_speed = 0.1
@@ -3206,7 +3206,7 @@ strike_craft_component_template = {
 	health = 102
 	armor = 20
 	shield = 0
-	evasion = 0.5
+	evasion = 0.75
 
 	speed = 7.5 #1.11G
 	rotation_speed = 0.1
@@ -3249,7 +3249,7 @@ strike_craft_component_template = {
 	health = 104
 	armor = 20
 	shield = 0
-	evasion = 0.5
+	evasion = 0.8
 
 	speed = 10.7 #1.58G
 	rotation_speed = 0.1
@@ -3335,7 +3335,7 @@ strike_craft_component_template = {
 	health = 106
 	armor = 20
 	shield = 0
-	evasion = 0.5
+	evasion = 0.65
 
 	speed = 18.2 #2.86G
 	rotation_speed = 0.1
@@ -3378,7 +3378,7 @@ strike_craft_component_template = {
 	health = 109
 	armor = 20
 	shield = 0
-	evasion = 0.5
+	evasion = 0.65
 
 	speed = 18.2 #2.86G
 	rotation_speed = 0.1
@@ -3421,7 +3421,7 @@ strike_craft_component_template = {
 	health = 106
 	armor = 20
 	shield = 0
-	evasion = 0.5
+	evasion = 0.75
 
 	speed = 7.9 #1.17G
 	rotation_speed = 0.1
@@ -3464,7 +3464,7 @@ strike_craft_component_template = {
 	health = 91
 	armor = 15
 	shield = 0
-	evasion = 0.5
+	evasion = 0.6
 
 	speed = 7.2 #1.06G
 	rotation_speed = 0.1
@@ -3507,7 +3507,7 @@ strike_craft_component_template = {
 	health = 91
 	armor = 15
 	shield = 0
-	evasion = 0.5
+	evasion = 0.6
 
 	speed = 7.2 #1.06G
 	rotation_speed = 0.1
@@ -3550,7 +3550,7 @@ strike_craft_component_template = {
 	health = 91
 	armor = 15
 	shield = 0
-	evasion = 0.5
+	evasion = 0.5 #Lacks mobility
 
 	speed = 7.2 #1.06G
 	rotation_speed = 0.1
@@ -3593,7 +3593,7 @@ strike_craft_component_template = {
 	health = 100
 	armor = 20
 	shield = 0
-	evasion = 0.7
+	evasion = 0.75
 
 	speed = 8.6 #1.27G
 	rotation_speed = 0.1
@@ -3636,7 +3636,7 @@ strike_craft_component_template = {
 	health = 104
 	armor = 20
 	shield = 0
-	evasion = 0.75
+	evasion = 0.8
 
 	speed = 12.7 #1.87G
 	rotation_speed = 0.1
@@ -3722,7 +3722,7 @@ strike_craft_component_template = {
 	health = 98
 	armor = 15
 	shield = 0
-	evasion = 0.6
+	evasion = 0.65
 
 	speed = 8.2 #1.21G
 	rotation_speed = 0.1
@@ -3765,7 +3765,7 @@ strike_craft_component_template = {
 	health = 91
 	armor = 20
 	shield = 0
-	evasion = 0.6
+	evasion = 0.65
 
 	speed = 7.2 #1.06G
 	rotation_speed = 0.1
@@ -3808,7 +3808,7 @@ strike_craft_component_template = {
 	health = 94
 	armor = 15
 	shield = 0
-	evasion = 0.5
+	evasion = 0.6
 
 	speed = 7.2 #1.06G
 	rotation_speed = 0.1
@@ -3851,7 +3851,7 @@ strike_craft_component_template = {
 	health = 94
 	armor = 15
 	shield = 0
-	evasion = 0.5
+	evasion = 0.6
 
 	speed = 7.2 #1.06G
 	rotation_speed = 0.1
