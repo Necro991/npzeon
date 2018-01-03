@@ -13,15 +13,18 @@ leader_trait_newtype = {
 		pop_happiness = 0.1
 	}
 	leader_trait = yes
+	leader_potential_add = {
+		NOT = { from = { has_authority = "auth_machine_intelligence" } }
+	}
 	opposites = { "leader_trait_cyber_newtype" }
-	
+
 	ai_categories = {
 		engineering
 		physics
 		society
 		survey
 	}
-	
+
 	ai_weight = {
 		weight = 200
 	}
@@ -37,17 +40,20 @@ leader_trait_cyber_newtype = {
 		species_leader_exp_gain = 2
 		leader_skill_levels = 1
 	}
-	
+
 	leader_trait = yes
+	leader_potential_add = {
+		NOT = { from = { has_authority = "auth_machine_intelligence" } }
+	}
 	opposites = { "leader_trait_newtype" }
-	
+
 	ai_categories = {
 		engineering
 		physics
 		society
 		survey
 	}
-	
+
 	ai_weight = {
 		weight = 175
 	}

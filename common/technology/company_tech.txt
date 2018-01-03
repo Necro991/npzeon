@@ -78,7 +78,22 @@ tech_Titans = {
 	tier = 1
 	category = { industry }
 	ai_update_type = military
-	prerequisites = { "tech_Titans" }
+	prerequisites = { "tech_RGM_79N" }
+	weight = @tier1weight1
+
+	ai_weight = {
+		factor = 2		#weapons are good
+	}
+}
+
+tech_AEUG = {
+	area = engineering
+	cost = @tier1cost1
+	is_reverse_engineerable = no
+	tier = 1
+	category = { industry }
+	ai_update_type = military
+	prerequisites = { "tech_RGM_79SP" }
 	weight = @tier1weight1
 
 	ai_weight = {
@@ -198,7 +213,7 @@ tech_Axis = {
 	tier = 1
 	category = { industry }
 	ai_update_type = military
-	prerequisites = { "tech_Axis" }
+	prerequisites = { "tech_MS_06FZ" }
 	weight = @tier1weight1
 
 	ai_weight = {
@@ -213,7 +228,7 @@ tech_Neo_Zeon = {
 	tier = 1
 	category = { industry }
 	ai_update_type = military
-	prerequisites = { "tech_Neo_Zeon" }
+	prerequisites = { "tech_AMX_014" }
 	weight = @tier1weight1
 
 	ai_weight = {

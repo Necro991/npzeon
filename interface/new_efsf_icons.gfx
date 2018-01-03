@@ -7,7 +7,7 @@ spriteTypes = {
 
 	spriteType = {
 		name = "GFX_ship_part_rb_79f"
-		texturefile = "gfx/interface/icons/ship_parts/RB-79.dds"
+		texturefile = "gfx/interface/icons/ship_parts/RB-79F.dds"
 	}
 
 	spriteType = {
@@ -37,7 +37,7 @@ spriteTypes = {
 
 	spriteType = {
 		name = "GFX_ship_part_rx_77_1a"
-		texturefile = "gfx/interface/icons/ship_parts/RX-77-2.dds"
+		texturefile = "gfx/interface/icons/ship_parts/RX-77-1A.dds"
 	}
 
 	spriteType = {
@@ -88,6 +88,26 @@ spriteTypes = {
 	spriteType = {
 		name = "GFX_ship_part_rx_78_3"
 		texturefile = "gfx/interface/icons/ship_parts/RX-78-3.dds"
+	}
+
+	spriteType = {
+		name = "GFX_ship_part_rx_78_4"
+		texturefile = "gfx/interface/icons/ship_parts/RX-78-4.dds"
+	}
+
+	spriteType = {
+		name = "GFX_ship_part_rx_78_5"
+		texturefile = "gfx/interface/icons/ship_parts/RX-78-5.dds"
+	}
+
+	spriteType = {
+		name = "GFX_ship_part_rx_78_6"
+		texturefile = "gfx/interface/icons/ship_parts/RX-78-6.dds"
+	}
+
+	spriteType = {
+		name = "GFX_ship_part_rx_78_7"
+		texturefile = "gfx/interface/icons/ship_parts/RX-78-7.dds"
 	}
 
 	spriteType = {
@@ -143,5 +163,115 @@ spriteTypes = {
 	spriteType = {
 		name = "GFX_ship_part_rgm_79cr"
 		texturefile = "gfx/interface/icons/ship_parts/RGM-79CR.dds"
+	}
+
+	spriteType = {
+		name = "GFX_ship_part_rgm_79sc"
+		texturefile = "gfx/interface/icons/ship_parts/RGM-79SC.dds"
+	}
+
+	spriteType = {
+		name = "GFX_ship_part_rgm_79sp"
+		texturefile = "gfx/interface/icons/ship_parts/RGM-79SP.dds"
+	}
+
+	spriteType = {
+		name = "GFX_ship_part_rgm_79sr"
+		texturefile = "gfx/interface/icons/ship_parts/RGM-79SR.dds"
+	}
+
+	spriteType = {
+		name = "GFX_ship_part_rgm_79sr_hmt"
+		texturefile = "gfx/interface/icons/ship_parts/RGM-79CR-HMT.dds"
+	}
+
+	spriteType = {
+		name = "GFX_ship_part_msa_003"
+		texturefile = "gfx/interface/icons/ship_parts/MSA-003.dds"
+	}
+
+	spriteType = {
+		name = "GFX_ship_part_msa_004"
+		texturefile = "gfx/interface/icons/ship_parts/MSA-004.dds"
+	}
+
+	spriteType = {
+		name = "GFX_ship_part_rms_179"
+		texturefile = "gfx/interface/icons/ship_parts/RMS-179.dds"
+	}
+
+	spriteType = {
+		name = "GFX_ship_part_rgm_86r"
+		texturefile = "gfx/interface/icons/ship_parts/RGM-86R.dds"
+	}
+
+	spriteType = {
+		name = "GFX_ship_part_rgm_86r_nouvel"
+		texturefile = "gfx/interface/icons/ship_parts/RGM-86R-Nouvel.dds"
+	}
+
+	spriteType = {
+		name = "GFX_ship_part_rgm_89"
+		texturefile = "gfx/interface/icons/ship_parts/RGM-89.dds"
+	}
+
+	spriteType = {
+		name = "GFX_ship_part_rms_106"
+		texturefile = "gfx/interface/icons/ship_parts/RMS-106.dds"
+	}
+
+	spriteType = {
+		name = "GFX_ship_part_rms_106cs"
+		texturefile = "gfx/interface/icons/ship_parts/RMS-106CS.dds"
+	}
+
+	spriteType = {
+		name = "GFX_ship_part_rms_106c"
+		texturefile = "gfx/interface/icons/ship_parts/RMS-106C.dds"
+	}
+
+	spriteType = {
+		name = "GFX_ship_part_rx_107"
+		texturefile = "gfx/interface/icons/ship_parts/RX-107.dds"
+	}
+
+	spriteType = {
+		name = "GFX_ship_part_rms_108"
+		texturefile = "gfx/interface/icons/ship_parts/RMS-108.dds"
+	}
+
+	spriteType = {
+		name = "GFX_ship_part_rms_156"
+		texturefile = "gfx/interface/icons/ship_parts/RMS-156.dds"
+	}
+
+	spriteType = {
+		name = "GFX_ship_part_rx_78gp01fb"
+		texturefile = "gfx/interface/icons/ship_parts/GP01.dds"
+	}
+
+	spriteType = {
+		name = "GFX_ship_part_rx_78gp01fa"
+		texturefile = "gfx/interface/icons/ship_parts/GP01Fa.dds"
+	}
+
+	spriteType = {
+		name = "GFX_ship_part_rx_78gp02a"
+		texturefile = "gfx/interface/icons/ship_parts/GP02.dds"
+	}
+
+	spriteType = {
+		name = "GFX_ship_part_rx_78gp02a_mlrs"
+		texturefile = "gfx/interface/icons/ship_parts/GP02MLRS.dds"
+	}
+
+	spriteType = {
+		name = "GFX_ship_part_rx_78gp03s"
+		texturefile = "gfx/interface/icons/ship_parts/GP03.dds"
+	}
+
+	spriteType = {
+		name = "GFX_ship_part_rx_78gp04g"
+		texturefile = "gfx/interface/icons/ship_parts/GP04.dds"
 	}
 }

@@ -1220,12 +1220,12 @@ objectTypes = {
 	
 	pdxmesh = {
 		name = "zeon_01_jicco_mesh"
-		file = "gfx/models/ships/zeon_01/Jicco.mesh"
+		file = "gfx/models/ships/zeon_01/Jicco.mesh" #Jicco
 		scale = 1.0
 		meshsettings = {
-			texture_diffuse = "Jicco_Diffuse.dds" 
-			texture_normal = "Jicco_Normal.dds" 
-			texture_specular = "Jicco_Specular.dds" 
+			texture_diffuse = "Jicco_Diffuse.dds" #
+			texture_normal = "Jicco_Normal.dds" #
+			texture_specular = "Jicco_Specular.dds" #
 			shader = "PdxMeshShip"
 		}
 	}

@@ -113,6 +113,13 @@ component_set = {
 }
 
 component_set = {
+	key = "RMS_106C_HANGAR_1"
+
+	icon = "GFX_ship_part_rms_106c"
+	icon_frame = 1
+}
+
+component_set = {
 	key = "RX_78_1_HANGAR_1"
 
 	icon = "GFX_ship_part_rx_78_1"
@@ -134,6 +141,34 @@ component_set = {
 }
 
 component_set = {
+	key = "RX_78_4_HANGAR_1"
+
+	icon = "GFX_ship_part_rx_78_4"
+	icon_frame = 1
+}
+
+component_set = {
+	key = "RX_78_5_HANGAR_1"
+
+	icon = "GFX_ship_part_rx_78_5"
+	icon_frame = 1
+}
+
+component_set = {
+	key = "RX_78_6_HANGAR_1"
+
+	icon = "GFX_ship_part_rx_78_6"
+	icon_frame = 1
+}
+
+component_set = {
+	key = "RX_78_7_HANGAR_1"
+
+	icon = "GFX_ship_part_rx_78_7"
+	icon_frame = 1
+}
+
+component_set = {
 	key = "RX_78NT_1_HANGAR_1"
 
 	icon = "GFX_ship_part_rx_78nt_1"
@@ -144,6 +179,55 @@ component_set = {
 	key = "RX_78NT_1FA_HANGAR_1"
 
 	icon = "GFX_ship_part_rx_78nt_1fa"
+	icon_frame = 1
+}
+
+component_set = {
+	key = "RX_78GP01Fb_HANGAR_1"
+
+	icon = "GFX_ship_part_rx_78gp01fb"
+	icon_frame = 1
+}
+
+component_set = {
+	key = "RX_78GP01Fa_HANGAR_1"
+
+	icon = "GFX_ship_part_rx_78gp01fa"
+	icon_frame = 1
+}
+
+component_set = {
+	key = "RX_78GP02A_HANGAR_1"
+
+	icon = "GFX_ship_part_rx_78gp02a"
+	icon_frame = 1
+}
+
+component_set = {
+	key = "RX_78GP02A_HANGAR_2"
+
+	icon = "GFX_ship_part_rx_78gp02a_mlrs"
+	icon_frame = 1
+}
+
+component_set = {
+	key = "RX_78GP02A_HANGAR_3"
+
+	icon = "GFX_ship_part_rx_78gp02a"
+	icon_frame = 1
+}
+
+component_set = {
+	key = "RX_78GP03S_HANGAR_1"
+
+	icon = "GFX_ship_part_rx_78gp03s"
+	icon_frame = 1
+}
+
+component_set = {
+	key = "RX_78GP04G_HANGAR_1"
+
+	icon = "GFX_ship_part_rx_78gp04g"
 	icon_frame = 1
 }
 
@@ -242,5 +326,166 @@ component_set = {
 	key = "RGM_79Q_HAZEL_HANGAR_1"
 
 	icon = "GFX_ship_part_rgm_79q_hazel"
+	icon_frame = 1
+}
+
+component_set = {
+	key = "RMS_179_HANGAR_1"
+
+	icon = "GFX_ship_part_rms_179"
+	icon_frame = 1
+}
+
+component_set = {
+	key = "RMS_179_HANGAR_2"
+
+	icon = "GFX_ship_part_rms_179"
+	icon_frame = 1
+}
+
+component_set = {
+	key = "MSA_003_HANGAR_1"
+
+	icon = "GFX_ship_part_msa_003"
+	icon_frame = 1
+}
+
+component_set = {
+	key = "MSA_003_HANGAR_2"
+
+	icon = "GFX_ship_part_msa_003"
+	icon_frame = 1
+}
+
+component_set = {
+	key = "MSA_004_HANGAR_1"
+
+	icon = "GFX_ship_part_msa_004"
+	icon_frame = 1
+}
+
+component_set = {
+	key = "RGM_86R_HANGAR_1"
+
+	icon = "GFX_ship_part_rgm_86r"
+	icon_frame = 1
+}
+
+component_set = {
+	key = "RGM_86R_HANGAR_2"
+
+	icon = "GFX_ship_part_rgm_86r"
+	icon_frame = 1
+}
+
+component_set = {
+	key = "RGM_86R_NOUVEL_HANGAR_1"
+
+	icon = "GFX_ship_part_rgm_86r_nouvel"
+	icon_frame = 1
+}
+
+component_set = {
+	key = "RGM_86R_NOUVEL_HANGAR_2"
+
+	icon = "GFX_ship_part_rgm_86r_nouvel"
+	icon_frame = 1
+}
+
+component_set = {
+	key = "RGM_89_HANGAR_1"
+
+	icon = "GFX_ship_part_rgm_89"
+	icon_frame = 1
+}
+
+component_set = {
+	key = "RGM_89_HANGAR_2"
+
+	icon = "GFX_ship_part_rgm_89"
+	icon_frame = 1
+}
+
+component_set = {
+	key = "RMS_106_HANGAR_1"
+
+	icon = "GFX_ship_part_rms_106"
+	icon_frame = 1
+}
+
+component_set = {
+	key = "RMS_106_HANGAR_2"
+
+	icon = "GFX_ship_part_rms_106"
+	icon_frame = 1
+}
+
+component_set = {
+	key = "RMS_106CS_HANGAR_1"
+
+	icon = "GFX_ship_part_rms_106cs"
+	icon_frame = 1
+}
+
+component_set = {
+	key = "RMS_106CS_HANGAR_2"
+
+	icon = "GFX_ship_part_rms_106cs"
+	icon_frame = 1
+}
+
+component_set = {
+	key = "RX_107_HANGAR_1"
+
+	icon = "GFX_ship_part_rx_107"
+	icon_frame = 1
+}
+
+component_set = {
+	key = "RMS_108_HANGAR_1"
+
+	icon = "GFX_ship_part_rms_108"
+	icon_frame = 1
+}
+
+component_set = {
+	key = "RMS_108_HANGAR_2"
+
+	icon = "GFX_ship_part_rms_108"
+	icon_frame = 1
+}
+
+component_set = {
+	key = "RMS_156_HANGAR_1"
+
+	icon = "GFX_ship_part_rms_156"
+	icon_frame = 1
+}
+
+component_set = {
+	key = "RGM_79SC_HANGAR_1"
+
+	icon = "GFX_ship_part_rgm_79sc"
+	icon_frame = 1
+}
+
+component_set = {
+	key = "RGM_79SP_HANGAR_1"
+
+	icon = "GFX_ship_part_rgm_79sp"
+	icon_frame = 1
+}
+
+component_set = {
+	key = "RGM_79SR_HANGAR_1"
+
+	icon = "GFX_ship_part_rgm_79sr"
+	icon_frame = 1
+}
+
+component_set = {
+	key = "RGM_79SR_HMT_HANGAR_1"
+
+	icon = "GFX_ship_part_rgm_79sr"
 	icon_frame = 1
 }

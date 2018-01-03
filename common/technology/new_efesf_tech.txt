@@ -293,6 +293,62 @@ tech_RX_78_3 = {
 	}
 }
 
+tech_RX_78_4 = {
+	area = engineering
+	cost = @tier1cost1
+	tier = 1
+	category = { materials }
+	ai_update_type = military
+	prerequisites = { "tech_RX_78_2" }
+	weight = @tier1weight1
+
+	ai_weight = {
+		factor = 2		#weapons are good
+	}
+}
+
+tech_RX_78_5 = {
+	area = engineering
+	cost = @tier1cost1
+	tier = 1
+	category = { materials }
+	ai_update_type = military
+	prerequisites = { "tech_RX_78_2" }
+	weight = @tier1weight1
+
+	ai_weight = {
+		factor = 2		#weapons are good
+	}
+}
+
+tech_RX_78_6 = {
+	area = engineering
+	cost = @tier1cost1
+	tier = 1
+	category = { materials }
+	ai_update_type = military
+	prerequisites = { "tech_RX_78_2" "tech_RX_77_2" }
+	weight = @tier1weight1
+
+	ai_weight = {
+		factor = 2		#weapons are good
+	}
+}
+
+tech_RX_78_7 = {
+	area = engineering
+	cost = @tier1cost1
+	tier = 1
+	category = { materials }
+	ai_update_type = military
+	prerequisites = { "tech_RX_78NT_1" "tech_RX_78_6" }
+	weight = @tier1weight1
+
+	ai_weight = {
+		factor = 2		#weapons are good
+	}
+}
+
 tech_RX_78NT_1 = {
 	area = engineering
 	cost = @tier1cost1
@@ -460,3 +516,353 @@ tech_RGM_79CR = {
 		factor = 2		#weapons are good
 	}
 }
+
+tech_RGM_79SC = { #GM Sniper Custom
+	area = engineering
+	cost = @tier1cost1
+	tier = 1
+	category = { materials }
+	ai_update_type = military
+	prerequisites = { "tech_RGM_79" }
+	weight = @tier1weight1
+
+	ai_weight = {
+		factor = 2		#weapons are good
+	}
+}
+
+tech_RGM_79SP = { #GM Sniper II
+	area = engineering
+	cost = @tier1cost1
+	tier = 1
+	category = { materials }
+	ai_update_type = military
+	prerequisites = { "tech_RGM_79SC" }
+	weight = @tier1weight1
+
+	ai_weight = {
+		factor = 2		#weapons are good
+	}
+}
+
+tech_RGM_79SR = { #GM Sniper III
+	area = engineering
+	cost = @tier1cost1
+	tier = 1
+	category = { materials }
+	ai_update_type = military
+	prerequisites = { "tech_RGM_79CR" "tech_RGM_79SP" }
+	weight = @tier1weight1
+
+	ai_weight = {
+		factor = 2		#weapons are good
+	}
+}
+
+tech_RGM_79SR_HMT = { #GM Sniper III HMT
+	area = engineering
+	cost = @tier1cost1
+	tier = 1
+	category = { materials }
+	ai_update_type = military
+	prerequisites = { "tech_RGM_79SR" }
+	weight = @tier1weight1
+
+	ai_weight = {
+		factor = 2		#weapons are good
+	}
+}
+
+tech_MSA_003 = { #Nemo
+	area = engineering
+	cost = @tier1cost1
+	tier = 1
+	category = { materials }
+	ai_update_type = military
+	prerequisites = { "tech_RGM_79SP" "tech_AEUG" }
+	weight = @tier1weight1
+
+	ai_weight = {
+		factor = 2		#weapons are good
+	}
+}
+
+tech_MSA_004 = { #Nemo II
+	area = engineering
+	cost = @tier1cost1
+	tier = 1
+	category = { materials }
+	ai_update_type = military
+	prerequisites = { "tech_MSA_003" }
+	weight = @tier1weight1
+
+	ai_weight = {
+		factor = 2		#weapons are good
+	}
+}
+
+tech_RMS_179 = { #GM II
+	area = engineering
+	cost = @tier1cost1
+	tier = 1
+	category = { materials }
+	ai_update_type = military
+	prerequisites = { "tech_RGM_79C" }
+	weight = @tier1weight1
+
+	ai_weight = {
+		factor = 2		#weapons are good
+	}
+}
+
+tech_RGM_86R = { #GM III
+	area = engineering
+	cost = @tier1cost1
+	tier = 1
+	category = { materials }
+	ai_update_type = military
+	prerequisites = { "tech_RMS_179" "tech_RX_178" }
+	weight = @tier1weight1
+
+	ai_weight = {
+		factor = 2		#weapons are good
+	}
+}
+
+tech_RGM_86R_Nouvel = { #GM III Nouvel
+	area = engineering
+	cost = @tier1cost1
+	tier = 1
+	category = { materials }
+	ai_update_type = military
+	prerequisites = { "tech_RGM_86R" }
+	weight = @tier1weight1
+
+	ai_weight = {
+		factor = 2		#weapons are good
+	}
+}
+
+tech_RGM_89 = { #Jegan
+	area = engineering
+	cost = @tier1cost1
+	tier = 1
+	category = { materials }
+	ai_update_type = military
+	prerequisites = { "tech_MSA_003" "tech_RGM_86R" }
+	weight = @tier1weight1
+
+	ai_weight = {
+		factor = 2		#weapons are good
+	}
+}
+
+tech_RMS_106 = { #Hizack
+	area = engineering
+	cost = @tier1cost1
+	tier = 1
+	category = { materials }
+	ai_update_type = military
+	prerequisites = { "tech_Titans" "tech_Anaheim" "tech_Zeonic" }
+	weight = @tier1weight1
+
+	ai_weight = {
+		factor = 2		#weapons are good
+	}
+}
+
+tech_RMS_106CS = { #Hizack Custom
+	area = engineering
+	cost = @tier1cost1
+	tier = 1
+	category = { materials }
+	ai_update_type = military
+	prerequisites = { "tech_RMS_106" }
+	weight = @tier1weight1
+
+	ai_weight = {
+		factor = 2		#weapons are good
+	}
+}
+
+tech_RMS_106C = { #Hizack Cannon
+	area = engineering
+	cost = @tier1cost1
+	tier = 1
+	category = { materials }
+	ai_update_type = military
+	prerequisites = { "tech_RMS_106" }
+	weight = @tier1weight1
+
+	ai_weight = {
+		factor = 2		#weapons are good
+	}
+}
+
+tech_RX_107 = { #Rosette
+	area = engineering
+	cost = @tier1cost1
+	tier = 1
+	category = { materials }
+	ai_update_type = military
+	prerequisites = { "tech_RMS_106" }
+	weight = @tier1weight1
+
+	ai_weight = {
+		factor = 2		#weapons are good
+	}
+}
+
+tech_RMS_108 = { #Marasai
+	area = engineering
+	cost = @tier1cost1
+	tier = 1
+	category = { materials }
+	ai_update_type = military
+	prerequisites = { "tech_RMS_106" "tech_RX_107" }
+	weight = @tier1weight1
+
+	ai_weight = {
+		factor = 2		#weapons are good
+	}
+}
+
+tech_RMS_156 = { #Griffin
+	area = engineering
+	cost = @tier1cost1
+	tier = 1
+	category = { materials }
+	ai_update_type = military
+	prerequisites = { "tech_RMS_108" }
+	weight = @tier1weight1
+
+	ai_weight = {
+		factor = 2		#weapons are good
+	}
+}
+
+tech_RX_78GP01Fb = {
+	area = engineering
+	cost = @tier1cost1
+	tier = 1
+	category = { materials }
+	ai_update_type = military
+	prerequisites = { "tech_RX_78NT_1" }
+	weight = @tier1weight1
+
+	ai_weight = {
+		factor = 2		#weapons are good
+	}
+}
+
+tech_RX_78GP01Fa = {
+	area = engineering
+	cost = @tier1cost1
+	tier = 1
+	category = { materials }
+	ai_update_type = military
+	prerequisites = { "tech_RX_78GP01Fb" }
+	weight = @tier1weight1
+
+	ai_weight = {
+		factor = 2		#weapons are good
+	}
+}
+
+tech_RX_78GP02 = {
+	area = engineering
+	cost = @tier1cost1
+	tier = 1
+	category = { materials }
+	ai_update_type = military
+	prerequisites = { "tech_RX_78GP01Fb" }
+	weight = @tier1weight1
+
+	ai_weight = {
+		factor = 2		#weapons are good
+	}
+}
+
+tech_RX_78GP03S = {
+	area = engineering
+	cost = @tier1cost1
+	tier = 1
+	category = { materials }
+	ai_update_type = military
+	prerequisites = { "tech_RX_78GP02" }
+	weight = @tier1weight1
+
+	ai_weight = {
+		factor = 2		#weapons are good
+	}
+}
+
+#tech_RX_78GP03D = {
+#	area = engineering
+#	cost = @tier1cost1
+#	tier = 1
+#	category = { materials }
+#	ai_update_type = military
+#	prerequisites = { "tech_RX_78GP03S" }
+#	weight = @tier1weight1
+
+#	ai_weight = {
+#		factor = 2		#weapons are good
+#	}
+#}
+
+#tech_GP03_2 = {
+#	area = engineering
+#	cost = @tier1cost1
+#	tier = 1
+#	category = { materials }
+#	ai_update_type = military
+#	prerequisites = { "tech_RX_78GP03D" }
+#	weight = @tier1weight1
+
+#	ai_weight = {
+#		factor = 2		#weapons are good
+#	}
+#}
+
+tech_RX_78GP04G = {
+	area = engineering
+	cost = @tier1cost1
+	tier = 1
+	category = { materials }
+	ai_update_type = military
+	prerequisites = { "tech_RX_78GP03S" }
+	weight = @tier1weight1
+
+	ai_weight = {
+		factor = 2		#weapons are good
+	}
+}
+
+#tech_AGX_04 = {
+#	area = engineering
+#	cost = @tier1cost1
+#	tier = 1
+#	category = { materials }
+#	ai_update_type = military
+#	prerequisites = { "tech_RX_78GP04G" }
+#	weight = @tier1weight1
+
+#	ai_weight = {
+#		factor = 2		#weapons are good
+#	}
+#}
+
+#tech_AGX_04A1 = {
+#	area = engineering
+#	cost = @tier1cost1
+#	tier = 1
+#	category = { materials }
+#	ai_update_type = military
+#	prerequisites = { "tech_AGX_04" }
+#	weight = @tier1weight1
+
+#	ai_weight = {
+#		factor = 2		#weapons are good
+#	}
+#}

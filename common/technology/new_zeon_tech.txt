@@ -747,7 +747,7 @@ tech_AMX_014 = {
 	tier = 1
 	category = { materials }
 	ai_update_type = military
-	prerequisites = { "tech_Axis" "tech_Anaheim"}
+	prerequisites = { "tech_Axis" "tech_Anaheim" "tech_AMX_103" }
 	weight = @tier1weight1
 
 	ai_weight = {

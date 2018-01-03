@@ -9,9 +9,9 @@ on_press_begin = {
 	}
 }
 
-on_tech_increased = {
-	events = {
-		gundam_tech_event.1
-		gundam_tech_event.2
-	}
-}
+#on_tech_increased = {
+#	events = {
+#		gundam_tech_event.1
+#		gundam_tech_event.2
+#	}
+#}

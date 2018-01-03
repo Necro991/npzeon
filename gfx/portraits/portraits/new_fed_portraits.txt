@@ -1,0 +1,467 @@
+portraits = {
+	efsf_female_01 = {
+		texturefile = "gfx/models/portraits/new_fed/efsf_female_01.dds"
+		clothes_selector = "no_texture"
+		hair_selector = "no_texture"
+	}
+	efsf_female_02 = {
+	  texturefile = "gfx/models/portraits/new_fed/efsf_female_02.dds"
+		 clothes_selector = "no_texture"
+		hair_selector = "no_texture"
+	}
+	efsf_female_pilot_01 = {
+		texturefile = "gfx/models/portraits/new_fed/efsf_female_pilot_01.dds"
+		clothes_selector = "no_texture"
+		hair_selector = "no_texture"
+	}
+	efsf_female_pilot_02 = {
+		texturefile = "gfx/models/portraits/new_fed/efsf_female_pilot_02.dds"
+		clothes_selector = "no_texture"
+		hair_selector = "no_texture"
+	}
+	efsf_male_01 = {
+		texturefile = "gfx/models/portraits/new_fed/efsf_male_01.dds"
+		clothes_selector = "no_texture"
+		hair_selector = "no_texture"
+	}
+	efsf_male_02 = {
+		texturefile = "gfx/models/portraits/new_fed/efsf_male_02.dds"
+		clothes_selector = "no_texture"
+		hair_selector = "no_texture"
+	}
+	efsf_male_03 = {
+		texturefile = "gfx/models/portraits/new_fed/efsf_male_03.dds"
+		clothes_selector = "no_texture"
+		hair_selector = "no_texture"
+	}
+	efsf_male_pilot_01 = {
+		texturefile = "gfx/models/portraits/new_fed/efsf_male_pilot_01.dds"
+		clothes_selector = "no_texture"
+		hair_selector = "no_texture"
+	}
+	efsf_male_pilot_02 = {
+		texturefile = "gfx/models/portraits/new_fed/efsf_male_pilot_02.dds"
+		clothes_selector = "no_texture"
+		hair_selector = "no_texture"
+	}
+	efsf_male_pilot_03 = {
+		texturefile = "gfx/models/portraits/new_fed/efsf_male_pilot_03.dds"
+		clothes_selector = "no_texture"
+		hair_selector = "no_texture"
+	}
+	filtered_efsf_female_01 = {
+		texturefile = "gfx/models/portraits/new_fed/filtered_efsf_female_01.dds"
+		clothes_selector = "no_texture"
+		hair_selector = "no_texture"
+	}
+	filtered_efsf_female_02 = {
+		texturefile = "gfx/models/portraits/new_fed/filtered_efsf_female_02.dds"
+		clothes_selector = "no_texture"
+		hair_selector = "no_texture"
+	}
+	filtered_efsf_female_pilot_01 = {
+		texturefile = "gfx/models/portraits/new_fed/filtered_efsf_female_pilot_01.dds"
+		clothes_selector = "no_texture"
+		hair_selector = "no_texture"
+	}
+	filtered_efsf_female_pilot_02 = {
+		texturefile = "gfx/models/portraits/new_fed/filtered_efsf_female_pilot_02.dds"
+		clothes_selector = "no_texture"
+		hair_selector = "no_texture"
+	}
+	filtered_efsf_male_01 = {
+		texturefile = "gfx/models/portraits/new_fed/filtered_efsf_male_01.dds"
+		clothes_selector = "no_texture"
+		hair_selector = "no_texture"
+	}
+	filtered_efsf_male_02 = {
+		texturefile = "gfx/models/portraits/new_fed/filtered_efsf_male_02.dds"
+		clothes_selector = "no_texture"
+		hair_selector = "no_texture"
+	}
+	filtered_efsf_male_03 = {
+		texturefile = "gfx/models/portraits/new_fed/filtered_efsf_male_03.dds"
+		clothes_selector = "no_texture"
+		hair_selector = "no_texture"
+	}
+	filtered_efsf_male_pilot_01 = {
+		texturefile = "gfx/models/portraits/new_fed/filtered_efsf_male_pilot_01.dds"
+		clothes_selector = "no_texture"
+		hair_selector = "no_texture"
+	}
+	filtered_efsf_male_pilot_02 = {
+		texturefile = "gfx/models/portraits/new_fed/filtered_efsf_male_pilot_02.dds"
+		clothes_selector = "no_texture"
+		hair_selector = "no_texture"
+	}
+	filtered_efsf_male_pilot_03 = {
+		texturefile = "gfx/models/portraits/new_fed/filtered_efsf_male_pilot_03.dds"
+		clothes_selector = "no_texture"
+		hair_selector = "no_texture"
+	}
+}
+
+portrait_groups = {
+	fed2 = {
+		default = efsf_female_01
+		game_setup = { #will run with a limited country scope. species and government is set but the country does not actually exist
+			add = {
+				trigger = {
+					ruler = { gender = male }
+				}
+				portraits = {
+					efsf_male_01
+					efsf_male_02
+					efsf_male_03
+				}
+			}
+			add = {
+				trigger = {
+					ruler = { gender = female }
+				}
+				portraits = {
+					efsf_female_01
+					efsf_female_02
+
+				}
+			}
+		}
+
+		#species scope
+		species = { #generic portrait for a species
+			add = {
+				portraits = {
+					   efsf_female_01
+						 efsf_female_02
+						 efsf_female_pilot_01
+						 efsf_female_pilot_02
+						 efsf_male_01
+						 efsf_male_02
+	 					 efsf_male_03
+						 efsf_male_pilot_01
+						 efsf_male_pilot_02
+						 efsf_male_pilot_03
+				}
+			}
+		}
+
+		#pop scope
+		pop = { #for a specific pop
+			add = {
+				portraits = {
+					efsf_female_01
+					efsf_female_02
+					efsf_female_pilot_01
+					efsf_female_pilot_02
+					efsf_male_01
+					efsf_male_02
+					efsf_male_03
+					efsf_male_pilot_01
+					efsf_male_pilot_02
+					efsf_male_pilot_03
+				}
+			}
+		}
+
+		#leader scope
+		leader = { #scientists, generals, admirals, governor
+			add = {
+				trigger = {
+					gender = female
+					leader_class = scientist
+				}
+				portraits = {
+					efsf_female_01
+					efsf_female_02
+				}
+			}
+			add = {
+				trigger = {
+					gender = male
+					leader_class = scientist
+				}
+				portraits = {
+					efsf_male_01
+					efsf_male_02
+					efsf_male_03
+				}
+			}
+			add = {
+				trigger = {
+					gender = female
+					leader_class = general
+				}
+				portraits = {
+					efsf_female_01
+					efsf_female_02
+
+				}
+			}
+			add = {
+				trigger = {
+					gender = male
+					leader_class = general
+				}
+				portraits = {
+					efsf_male_01
+					efsf_male_02
+					efsf_male_03
+				}
+			}
+			add = {
+				trigger = {
+					gender = female
+					leader_class = admiral
+				}
+				portraits = {
+					efsf_female_pilot_01
+					efsf_female_pilot_02
+				}
+			}
+			add = {
+				trigger = {
+					gender = male
+					leader_class = admiral
+				}
+				portraits = {
+					efsf_male_01
+					efsf_male_02
+					efsf_male_03
+					efsf_male_pilot_01
+					efsf_male_pilot_02
+					efsf_male_pilot_03
+				}
+			}
+			add = {
+				trigger = {
+					gender = female
+					leader_class = governor
+				}
+				portraits = {
+					efsf_female_01
+					efsf_female_02
+
+				}
+			}
+			add = {
+				trigger = {
+					gender = male
+					leader_class = governor
+				}
+				portraits = {
+					efsf_male_01
+					efsf_male_02
+					efsf_male_03
+				}
+			}
+
+		}
+
+		#leader scope
+		ruler = {
+			add = {
+				trigger = {
+					gender = female
+				}
+				portraits = {
+				efsf_female_01
+				efsf_female_02
+				}
+			}
+			add = {
+				trigger = {
+					gender = male
+				}
+				portraits = {
+					efsf_male_01
+					efsf_male_02
+					efsf_male_03
+				}
+			}
+		}
+
+	}
+	fed3 = {
+		default = filtered_efsf_female_01
+		game_setup = { #will run with a limited country scope. species and government is set but the country does not actually exist
+			add = {
+				trigger = {
+					ruler = { gender = male }
+				}
+				portraits = {
+					filtered_efsf_male_01
+					filtered_efsf_male_02
+					filtered_efsf_male_03
+				}
+			}
+			add = {
+				trigger = {
+					ruler = { gender = female }
+				}
+				portraits = {
+					filtered_efsf_female_01
+					filtered_efsf_female_02
+
+				}
+			}
+		}
+
+		#species scope
+		species = { #generic portrait for a species
+			add = {
+				portraits = {
+					filtered_efsf_female_01
+					filtered_efsf_female_02
+					filtered_efsf_female_pilot_01
+					filtered_efsf_female_pilot_02
+					filtered_efsf_male_01
+					filtered_efsf_male_02
+					filtered_efsf_male_03
+					filtered_efsf_male_pilot_01
+					filtered_efsf_male_pilot_02
+					filtered_efsf_male_pilot_03
+				}
+			}
+		}
+
+		#pop scope
+		pop = { #for a specific pop
+			add = {
+				portraits = {
+					filtered_efsf_female_01
+					filtered_efsf_female_02
+					filtered_efsf_female_pilot_01
+					filtered_efsf_female_pilot_02
+					filtered_efsf_male_01
+					filtered_efsf_male_02
+					filtered_efsf_male_03
+					filtered_efsf_male_pilot_01
+					filtered_efsf_male_pilot_02
+					filtered_efsf_male_pilot_03
+				}
+			}
+		}
+
+		#leader scope
+		leader = { #scientists, generals, admirals, governor
+			add = {
+				trigger = {
+					gender = female
+					leader_class = scientist
+				}
+				portraits = {
+					filtered_efsf_female_01
+					filtered_efsf_female_02
+
+				}
+			}
+			add = {
+				trigger = {
+					gender = male
+					leader_class = scientist
+				}
+				portraits = {
+					filtered_efsf_male_01
+					filtered_efsf_male_02
+					filtered_efsf_male_03
+				}
+			}
+			add = {
+				trigger = {
+					gender = female
+					leader_class = general
+				}
+				portraits = {
+					filtered_efsf_female_01
+					filtered_efsf_female_02
+
+				}
+			}
+			add = {
+				trigger = {
+					gender = male
+					leader_class = general
+				}
+				portraits = {
+					filtered_efsf_male_01
+					filtered_efsf_male_02
+					filtered_efsf_male_03
+				}
+			}
+			add = {
+				trigger = {
+					gender = female
+					leader_class = admiral
+				}
+				portraits = {
+					filtered_efsf_female_01
+					filtered_efsf_female_02
+					filtered_efsf_female_pilot_01
+					filtered_efsf_female_pilot_02
+
+				}
+			}
+			add = {
+				trigger = {
+					gender = male
+					leader_class = admiral
+				}
+				portraits = {
+					filtered_efsf_male_01
+					filtered_efsf_male_02
+					filtered_efsf_male_03
+					filtered_efsf_male_pilot_01
+					filtered_efsf_male_pilot_02
+					filtered_efsf_male_pilot_03
+				}
+			}
+			add = {
+				trigger = {
+					gender = female
+					leader_class = governor
+				}
+				portraits = {
+					filtered_efsf_female_01
+					filtered_efsf_female_02
+
+				}
+			}
+			add = {
+				trigger = {
+					gender = male
+					leader_class = governor
+				}
+				portraits = {
+					filtered_efsf_male_01
+					filtered_efsf_male_02
+					filtered_efsf_male_03
+				}
+			}
+
+		}
+
+		#leader scope
+		ruler = {
+			add = {
+				trigger = {
+					gender = female
+				}
+				portraits = {
+					filtered_efsf_female_01
+					filtered_efsf_female_02
+				}
+			}
+			add = {
+				trigger = {
+					gender = male
+				}
+				portraits = {
+					filtered_efsf_male_01
+					filtered_efsf_male_02
+					filtered_efsf_male_03
+
+				}
+			}
+		}
+	}
+}
