@@ -293,7 +293,7 @@ ship_section_template = { #Gagaul Hangar Rear
 	entity = "destroyer_stern_M1_entity"
 	icon = "GFX_ship_part_core_stern"
 
-	prerequisites = {tech_BEAMC_1}
+	prerequisites = { tech_Principality }
 
 	# Missiles
 	weapon_preferences = { weapon_type_zeon }
