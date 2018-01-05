@@ -51,16 +51,16 @@ white_base = {
 	required_spaceport_level = 6
 	can_have_federation_design = yes
 	enable_default_design = yes	#if yes, countries will have an auto-generated design at start
-	
-	prerequisites = {"tech_EFSF_MS_3"}
-	
+
+	prerequisites = {"tech_EFSF_BEAMC_2"}
+
 	class = shipclass_military
 	required_component_set = "ftl_components"
 	required_component_set = "combat_computers"
 	required_component_set = "thruster_components"
 	required_component_set = "ship_sensor_components"
 	required_component_set = "powerstation_components"
-	
+
 }
 
 ball = {
@@ -87,9 +87,9 @@ ball = {
 	required_spaceport_level = 1
 	can_have_federation_design = yes
 	enable_default_design = yes	#if yes, countries will have an auto-generated design at start
-	
+
 	prerequisites = {"tech_EFSF_MS_0"}
-	
+
 	class = shipclass_military
 	required_component_set = "ftl_components"
 	required_component_set = "efsf_ms_pilot"
@@ -123,9 +123,9 @@ gm = {
 	required_spaceport_level = 2
 	can_have_federation_design = yes
 	enable_default_design = yes	#if yes, countries will have an auto-generated design at start
-	
+
 	prerequisites = {"tech_EFSF_MS_1"}
-	
+
 	class = shipclass_military
 	required_component_set = "ftl_components"
 	required_component_set = "efsf_ms_pilot"
