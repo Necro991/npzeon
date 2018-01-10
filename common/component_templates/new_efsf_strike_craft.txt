@@ -2843,7 +2843,7 @@ strike_craft_component_template = {
 strike_craft_component_template = {
 	key = "EFSF_MS_STRIKE_CRAFT_RX_78GP02A" #RX-78GP02A
 	size = LARGE
-	entity = "gundam_alex_entity"
+	entity = "gp02_entity"
 
 	weapon_type = missile
 	projectile_gfx = "small_missile" #Find beam gfx
@@ -2886,7 +2886,7 @@ strike_craft_component_template = {
 strike_craft_component_template = {
 	key = "EFSF_MS_STRIKE_CRAFT_RX_78GP02A_MLRS" #RX-78GP02A
 	size = LARGE
-	entity = "gundam_alex_entity"
+	entity = "gp02_entity"
 
 	weapon_type = missile
 	projectile_gfx = "swarmer_missiles" #Find beam gfx
@@ -2929,7 +2929,7 @@ strike_craft_component_template = {
 strike_craft_component_template = {
 	key = "EFSF_MS_STRIKE_CRAFT_RX_78GP02A_BEAM" #RX-78GP02A
 	size = LARGE
-	entity = "gundam_alex_entity"
+	entity = "gp02_entity"
 
 	weapon_type = point_defence
 	projectile_gfx = "MPC1" #Find beam gfx
@@ -2972,7 +2972,7 @@ strike_craft_component_template = {
 strike_craft_component_template = {
 	key = "EFSF_MS_STRIKE_CRAFT_RX_78GP03S" #RX-78GP03S
 	size = LARGE
-	entity = "gundam_alex_entity"
+	entity = "gp03_entity"
 
 	weapon_type = point_defence
 	projectile_gfx = "MPC1" #Find beam gfx
@@ -3015,7 +3015,7 @@ strike_craft_component_template = {
 strike_craft_component_template = {
 	key = "EFSF_MS_STRIKE_CRAFT_RX_78GP04G" #RX-78GP04G
 	size = LARGE
-	entity = "gundam_alex_entity"
+	entity = "gp03_entity"
 
 	weapon_type = point_defence
 	projectile_gfx = "MPC1" #Find beam gfx

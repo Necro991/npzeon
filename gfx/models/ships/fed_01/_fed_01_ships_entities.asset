@@ -2478,6 +2478,18 @@ entity = {
 		pdxmesh = "fed_01_Alex_Chobham_mesh"
 		scale = 1.0
 	}
+	
+	entity = {
+		name = "gp02_entity" #GP02
+		pdxmesh = "fed_01_GP02_mesh"
+		scale = 1.0
+	}
+	
+	entity = {
+		name = "gp03_entity" #GP03
+		pdxmesh = "fed_01_GP03_mesh"
+		scale = 1.0
+	}
 
 	entity = {
 		name = "efsf_scout_1_entity" #Ball Strike Craft

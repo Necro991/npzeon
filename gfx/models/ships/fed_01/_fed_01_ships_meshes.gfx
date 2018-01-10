@@ -1252,6 +1252,32 @@ objectTypes = {
 				shader = "PdxMeshShip"
 		}
 	}
+	
+	pdxmesh = { #GP02
+		name = "fed_01_GP02_mesh"
+		file = "gfx/models/ships/fed_01/GP02.mesh"
+
+		scale = 0.25
+			meshsettings = {
+				texture_diffuse = "GP02.dds"
+				texture_normal = "GM_Normal.dds"
+				texture_specular = "GM_Specular.dds"
+				shader = "PdxMeshShip"
+		}
+	}
+	
+	pdxmesh = { #GP03
+		name = "fed_01_GP03_mesh"
+		file = "gfx/models/ships/fed_01/GP03.mesh"
+
+		scale = 0.25
+			meshsettings = {
+				texture_diffuse = "GP03.dds"
+				texture_normal = "GM_Normal.dds"
+				texture_specular = "GM_Specular.dds"
+				shader = "PdxMeshShip"
+		}
+	}
 
 	pdxmesh = { #Titan Mk2
 		name = "mk2_mesh"
