@@ -104,6 +104,11 @@ portraits = {
 		clothes_selector = "no_texture"
 		hair_selector = "no_texture"
 	}
+	filtered_efsf_pop_02 = {
+		texturefile = "gfx/models/portraits/new_fed/filtered_efsf_pop_02.dds"
+		clothes_selector = "no_texture"
+		hair_selector = "no_texture"
+	}
 }
 
 portrait_groups = {
@@ -295,6 +300,7 @@ portrait_groups = {
 				}
 				portraits = {
 					filtered_efsf_pop_01
+					filtered_efsf_pop_02
 					#filtered_efsf_male_01
 					filtered_efsf_male_02
 					filtered_efsf_male_03
@@ -335,6 +341,7 @@ portrait_groups = {
 			add = {
 				portraits = {
 					filtered_efsf_pop_01
+					filtered_efsf_pop_02
 					#filtered_efsf_female_01
 					#filtered_efsf_female_02
 					#filtered_efsf_female_pilot_01
@@ -369,6 +376,7 @@ portrait_groups = {
 				}
 				portraits = {
 					filtered_efsf_pop_01
+					filtered_efsf_pop_02
 					#filtered_efsf_male_01
 					filtered_efsf_male_02
 					filtered_efsf_male_03
@@ -392,6 +400,7 @@ portrait_groups = {
 				}
 				portraits = {
 					filtered_efsf_pop_01
+					filtered_efsf_pop_02
 					#filtered_efsf_male_01
 					filtered_efsf_male_02
 					filtered_efsf_male_03
@@ -417,6 +426,7 @@ portrait_groups = {
 				}
 				portraits = {
 					filtered_efsf_pop_01
+					filtered_efsf_pop_02
 					#filtered_efsf_male_01
 					filtered_efsf_male_02
 					filtered_efsf_male_03
@@ -443,6 +453,7 @@ portrait_groups = {
 				}
 				portraits = {
 					filtered_efsf_pop_01
+					filtered_efsf_pop_02
 					#filtered_efsf_male_01
 					filtered_efsf_male_02
 					filtered_efsf_male_03
@@ -468,6 +479,7 @@ portrait_groups = {
 				}
 				portraits = {
 					filtered_efsf_pop_01
+					filtered_efsf_pop_02
 					#filtered_efsf_male_01
 					filtered_efsf_male_02
 					filtered_efsf_male_03
