@@ -55,6 +55,7 @@ country_event = {
 		give_technology = { tech = tech_EFSF_BEAMC_1 }
 		give_technology = { tech = tech_RB_79 }
 		give_technology = { tech = tech_EFSF }
+		give_technology = { tech = tech_Zeonic }
 		give_technology = { tech = tech_Anaheim }
 		give_technology = { tech = tech_SNRI }
 		give_technology = { tech = tech_Hervic }
