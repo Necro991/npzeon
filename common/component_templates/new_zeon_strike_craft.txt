@@ -49,8 +49,8 @@ strike_craft_component_template = {
 	size = LARGE
 	entity = "scout_1z_entity"
 
-	weapon_type = missile
-	projectile_gfx = "small_missile"
+	weapon_type = instant
+	projectile_gfx = "gundam_missile"
 	power = -40 #899kW
 	cost = 45 #65 tons = 40 + 5 for gun
 
@@ -135,8 +135,8 @@ strike_craft_component_template = {
 	size = LARGE
 	entity = "fighter_1z_entity"
 
-	weapon_type = missile
-	projectile_gfx = "small_missile"
+	weapon_type = instant
+	projectile_gfx = "gundam_missile"
 	power = -40 #899kW
 	cost = 64 #70.9 tons = 44 tons + 20 for bazooka
 
@@ -221,8 +221,8 @@ strike_craft_component_template = {
 	size = LARGE
 	entity = "fighter_1z_entity"
 
-	weapon_type = missile
-	projectile_gfx = "small_missile"
+	weapon_type = instant
+	projectile_gfx = "gundam_missile"
 	power = -40 #899kW
 	cost = 64 #70.9 tons = 44 tons + 20 for gun
 
@@ -307,8 +307,8 @@ strike_craft_component_template = {
 	size = LARGE
 	entity = "fighter_1z_entity"
 
-	weapon_type = missile
-	projectile_gfx = "small_missile"
+	weapon_type = instant
+	projectile_gfx = "gundam_missile"
 	power = -42 #951kW
 	cost = 65 #73.3 tons = 45 tons + 20 for bazooka
 
@@ -393,8 +393,8 @@ strike_craft_component_template = {
 	size = LARGE
 	entity = "fighter_1z_entity"
 
-	weapon_type = missile
-	projectile_gfx = "small_missile"
+	weapon_type = instant
+	projectile_gfx = "gundam_missile"
 	power = -44 #986kW
 	cost = 65 #70.3 tons = 43 + 2 for improved armor + 20 for bazooka
 
@@ -479,8 +479,8 @@ strike_craft_component_template = {
 	size = LARGE
 	entity = "fighter_1z_entity"
 
-	weapon_type = missile
-	projectile_gfx = "small_missile"
+	weapon_type = instant
+	projectile_gfx = "gundam_missile"
 	power = -43 #976kW
 	cost = 55 #74.5 tons, cost should be 51. But it's UMP, so 45. + 10 for bazooka
 
@@ -565,8 +565,8 @@ strike_craft_component_template = {
 	size = LARGE
 	entity = "bomber_1z_entity"
 
-	weapon_type = missile
-	projectile_gfx = "small_missile"
+	weapon_type = instant
+	projectile_gfx = "gundam_missile"
 	power = -15 #1012kW / 3, single suit
 	cost = 23 #76.8 tons = 47 + 3 for improved armor + 20 for bazooka / 3, single suit
 
@@ -651,8 +651,8 @@ strike_craft_component_template = {
 	size = LARGE
 	entity = "bomber_1z_entity"
 
-	weapon_type = missile
-	projectile_gfx = "small_missile"
+	weapon_type = instant
+	projectile_gfx = "gundam_missile"
 	power = -20 #1340kW / 3, single suit
 	cost = 23 #75 tons = 46 + 4 for improved armor + 20 for gun / 3, single suit
 
@@ -737,8 +737,8 @@ strike_craft_component_template = {
 	size = LARGE
 	entity = "bomber_1z_entity"
 
-	weapon_type = missile
-	projectile_gfx = "small_missile"
+	weapon_type = instant
+	projectile_gfx = "gundam_missile"
 	power = -21 #1440kW
 	cost = 23 #76.8 tons = 47 + 3 for improved armor + 20 for gun
 
@@ -823,8 +823,8 @@ strike_craft_component_template = {
 	size = LARGE
 	entity = "bomber_3z_entity"
 
-	weapon_type = missile
-	projectile_gfx = "small_missile" #Find beam gfx
+	weapon_type = instant
+	projectile_gfx = "gundam_missile" #Find beam gfx
 	power = -21 #1390kW
 	cost = 25 #73.7 tons = 45 + 4 for improved armor + 25 for gun
 
@@ -909,8 +909,8 @@ strike_craft_component_template = {
 	size = LARGE
 	entity = "bomber_3z_entity"
 
-	weapon_type = missile
-	projectile_gfx = "small_missile" #Find beam gfx
+	weapon_type = instant
+	projectile_gfx = "gundam_missile" #Find beam gfx
 	power = -64 #1440kW
 	cost = 75 #73.3 tons = 45 + 5 for improved armor + 25 for gun
 
@@ -995,8 +995,8 @@ strike_craft_component_template = {
 	size = LARGE
 	entity = "bomber_3z_entity"
 
-	weapon_type = missile
-	projectile_gfx = "small_missile" #Find beam gfx
+	weapon_type = instant
+	projectile_gfx = "gundam_missile" #Find beam gfx
 	power = -64 #1440kW
 	cost = 78 #76.8 tons = 47 + 5 for improved armor + 25 for gun
 
@@ -1081,8 +1081,8 @@ strike_craft_component_template = {
 	size = LARGE
 	entity = "bomber_3z_entity"
 
-	weapon_type = missile
-	projectile_gfx = "small_missile" #Find beam gfx
+	weapon_type = instant
+	projectile_gfx = "gundam_missile" #Find beam gfx
 	power = -64 #1440kW
 	cost = 80 #76.8 tons = 47 + 5 for improved armor + 3 for improved thrusters + 25 for gun
 
@@ -1167,8 +1167,8 @@ strike_craft_component_template = {
 	size = LARGE
 	entity = "bomber_3z_entity"
 
-	weapon_type = missile
-	projectile_gfx = "small_missile" #Find beam gfx
+	weapon_type = instant
+	projectile_gfx = "gundam_missile" #Find beam gfx
 	power = -64 #1440kW
 	cost = 86 #81.3 tons = 50 + 6 for improved armor + 30 for gun
 
@@ -1253,8 +1253,8 @@ strike_craft_component_template = {
 	size = LARGE
 	entity = "bomber_5z_entity"
 
-	weapon_type = missile
-	projectile_gfx = "small_missile"
+	weapon_type = instant
+	projectile_gfx = "gundam_missile"
 	power = -66 #1490
 	cost = 64 #80.3 tons = 49 + 5 for improved armor + 15 for gun - (tonnage over 40 + armor / 2 for UMP)
 
@@ -1339,8 +1339,8 @@ strike_craft_component_template = {
 	size = LARGE
 	entity = "bomber_1z_entity"
 
-	weapon_type = missile
-	projectile_gfx = "small_missile"
+	weapon_type = instant
+	projectile_gfx = "gundam_missile"
 	power = -15 #986kW
 	cost = 23 #77.5 tons = 48 tons + 20 for gun
 
@@ -1425,8 +1425,8 @@ strike_craft_component_template = {
 	size = LARGE
 	entity = "bomber_2z_entity"
 
-	weapon_type = missile
-	projectile_gfx = "small_missile"
+	weapon_type = instant
+	projectile_gfx = "gundam_missile"
 	power = -53 #1199kW
 	cost = 77 #78.6 tons = 48 tons + 25 for gun + 5 for armor
 
@@ -1511,8 +1511,8 @@ strike_craft_component_template = {
 	size = LARGE
 	entity = "bomber_2z_entity"
 
-	weapon_type = missile
-	projectile_gfx = "small_missile"
+	weapon_type = instant
+	projectile_gfx = "gundam_missile"
 	power = -54 #1219
 	cost = 70 #79.9 tons = 49 tons + 15 for gun + 5 for armor -7 for UMP costs
 
@@ -1855,8 +1855,8 @@ strike_craft_component_template = {
 	size = LARGE
 	entity = "fighter_1z_entity"
 
-	weapon_type = missile
-	projectile_gfx = "swarmer_missiles"
+	weapon_type = instant
+	projectile_gfx = "gundam_missile_swarm"
 	power = -50 #569kW = -25 * 2 = 50
 	cost = 92 #49.9 tons = 31 + 15 for gun * 2 = 92
 
@@ -1941,8 +1941,8 @@ strike_craft_component_template = {
 	size = LARGE
 	entity = "bomber_5z_entity"
 
-	weapon_type = missile
-	projectile_gfx = "small_missile"
+	weapon_type = instant
+	projectile_gfx = "gundam_missile"
 	power = -62 #1400
 	cost = 65 #72.9 tons = 45 + 5 for improved armor + 15 for gun
 
@@ -2027,8 +2027,8 @@ strike_craft_component_template = {
 	size = LARGE
 	entity = "bomber_5z_entity"
 
-	weapon_type = missile
-	projectile_gfx = "small_missile"
+	weapon_type = instant
+	projectile_gfx = "gundam_missile"
 	power = -63 #1420
 	cost = 70 #81.1 tons = 50 + 5 for improved armor + 15 for gun
 
@@ -2113,8 +2113,8 @@ strike_craft_component_template = {
 	size = LARGE
 	entity = "bomber_5z_entity"
 
-	weapon_type = missile
-	projectile_gfx = "small_missile"
+	weapon_type = instant
+	projectile_gfx = "gundam_missile"
 	power = -106 #2380
 	cost = 107 #66.8 tons = 41 *2 lunar titanium + 15 for gun
 
@@ -2199,8 +2199,8 @@ strike_craft_component_template = {
 	size = LARGE
 	entity = "bomber_5z_entity"
 
-	weapon_type = missile
-	projectile_gfx = "small_missile"
+	weapon_type = instant
+	projectile_gfx = "gundam_missile"
 	power = -154 #1720
 	cost = 130 #72.5 tons = 45 * 2 lunar titanium + 15 for gun * 2
 
@@ -2285,8 +2285,8 @@ strike_craft_component_template = {
 	size = LARGE
 	entity = "bomber_5z_entity"
 
-	weapon_type = missile
-	projectile_gfx = "small_missile"
+	weapon_type = instant
+	projectile_gfx = "gundam_missile"
 	power = -95 #2140
 	cost = 99 #68.4 tons = 42 * 2 lunar titanium + 15 for gun
 
@@ -2371,8 +2371,8 @@ strike_craft_component_template = {
 	size = LARGE
 	entity = "bomber_5z_entity"
 
-	weapon_type = missile
-	projectile_gfx = "small_missile"
+	weapon_type = instant
+	projectile_gfx = "gundam_missile"
 	power = -101 #2280
 	cost = 99 #68.2 tons = 42 * 2 lunar titanium + 15 for gun
 
@@ -2457,8 +2457,8 @@ strike_craft_component_template = {
 	size = LARGE
 	entity = "bomber_5z_entity"
 
-	weapon_type = missile
-	projectile_gfx = "small_missile"
+	weapon_type = instant
+	projectile_gfx = "gundam_missile"
 	power = -82 #1840
 	cost = 87 #58.2 tons = 36 * 2 lunar titanium + 15 for gun
 
@@ -2543,8 +2543,8 @@ strike_craft_component_template = {
 	size = LARGE
 	entity = "bomber_5z_entity"
 
-	weapon_type = missile
-	projectile_gfx = "small_missile"
+	weapon_type = instant
+	projectile_gfx = "gundam_missile"
 	power = -96 #2150
 	cost = 99 #68.3 tons = 42 * 2 lunar titanium + 15 for gun
 
@@ -2629,8 +2629,8 @@ strike_craft_component_template = {
 	size = LARGE
 	entity = "bomber_5z_entity"
 
-	weapon_type = missile
-	projectile_gfx = "small_missile"
+	weapon_type = instant
+	projectile_gfx = "gundam_missile"
 	power = -127 #2860
 	cost = 103 #71.4 tons = 44 * 2 lunar titanium + 15 for gun
 
@@ -2715,8 +2715,8 @@ strike_craft_component_template = {
 	size = LARGE
 	entity = "bomber_5z_entity"
 
-	weapon_type = missile
-	projectile_gfx = "small_missile"
+	weapon_type = instant
+	projectile_gfx = "gundam_missile"
 	power = -127 #2860
 	cost = 101 #69.2 tons = 43 * 2 lunar titanium + 15 for gun
 
@@ -2844,8 +2844,8 @@ strike_craft_component_template = {
 	size = LARGE
 	entity = "bomber_5z_entity"
 
-	weapon_type = missile
-	projectile_gfx = "swarmer_missiles" #Find beam gfx
+	weapon_type = instant
+	projectile_gfx = "gundam_missile_swarm" #Find beam gfx
 	power = -81 #1820
 	cost = 107 #74.5 tons = 46 * 2 lunar titanium + 15 for gun
 
@@ -3016,8 +3016,8 @@ strike_craft_component_template = {
 	size = LARGE
 	entity = "bomber_5z_entity"
 
-	weapon_type = missile
-	projectile_gfx = "small_missile"
+	weapon_type = instant
+	projectile_gfx = "gundam_missile"
 	power = -84 #1890
 	cost = 71 #82.6 tons = 51 + 5 for improved armor + 15 for gun
 
@@ -3489,8 +3489,8 @@ strike_craft_component_template = {
 	size = LARGE
 	entity = "bomber_5z_entity"
 
-	weapon_type = missile
-	projectile_gfx = "small_missile" #Find beam MG gfx
+	weapon_type = instant
+	projectile_gfx = "gundam_missile" #Find beam MG gfx
 	power = -96 #2160
 	cost = 51 #50.8 tons = 31 + 5 improved armor + 15 for gun
 
@@ -3833,8 +3833,8 @@ strike_craft_component_template = {
 	size = LARGE
 	entity = "bomber_5z_entity"
 
-	weapon_type = missile
-	projectile_gfx = "small_missile" #Find beam MG gfx
+	weapon_type = instant
+	projectile_gfx = "gundam_missile" #Find beam MG gfx
 	power = -110 #2470
 	cost = 54 #55.2 tons = 34 + 5 improved armor + 15 for gun
 

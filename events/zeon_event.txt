@@ -132,11 +132,6 @@ country_event = {
 	}
 
 	option = {
-		name = zeontech_dialogue_10
-		country_event = { id = outdated.1 }
-	}
-
-	option = {
 		name = zeontech_dialogue_6
 	}
 

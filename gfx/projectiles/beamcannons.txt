@@ -259,3 +259,41 @@ projectile_gfx_beam = {
 		delay = 0.1
 	}
 }
+
+projectile_gfx_ballistic = {
+	#common for all types of projectiles
+	name = "gundam_missile"
+	color = { 1.0	1.0		1.0		1.0 }
+	hit_entity = "torpedo_small_hit_entity"
+	shield_hit_entity = "missile_small_shield_hit_entity"
+	muzzle_flash_entity = "torpedo_small_muzzle_entity"
+	
+	shield_impact = {
+		size = medium
+		delay = 0.0
+	}
+	
+	#ballistic specific
+	entity = "torpedo_small_entity"
+	speed = 50.0			#preferred speed of the projectile
+	max_duration = 30.0		#Speed of projectile might be scaled up in order to guarantee reaching the target within <max_duration> seconds
+}
+
+projectile_gfx_ballistic = {
+	#common for all types of projectiles
+	name = "gundam_missile_swarm"
+	color = { 1.0	1.0		1.0		1.0 }
+	hit_entity = "swarmer_missiles_hit_entity"
+	shield_hit_entity = "swarmer_missiles_shield_hit_entity"
+	muzzle_flash_entity = "swarmer_missiles_muzzle_flash_entity"
+	
+	shield_impact = {
+		size = medium
+		delay = 0.0
+	}
+	
+	#ballistic specific
+	entity = "swarmer_missiles_entity"
+	speed = 50.0			#preferred speed of the projectile
+	max_duration = 30.0		#Speed of projectile might be scaled up in order to guarantee reaching the target within <max_duration> seconds
+}

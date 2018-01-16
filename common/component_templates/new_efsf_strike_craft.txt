@@ -6,7 +6,7 @@ strike_craft_component_template = {
 	size = LARGE
 	entity = "ball_entity"
 
-	weapon_type = point_defence
+	weapon_type = instant
 	projectile_gfx = "mass_driver_s"
 	power = -36 #400kW = 18 / 3 = 6 * 6 = 36
 	cost = 35 #25 tons = 15 /3 = 5 * 6 = 30 + 5 for gun
@@ -16,7 +16,7 @@ strike_craft_component_template = {
 	launch_time = 8.0
 
 	damage = { min = 53 max = 109 } #180mm Cannon - Small Autocannon
-	cooldown = 35
+	cooldown = 10 #35
 	range = 60
 	accuracy = 0.5 #0.82
 	tracking = 0.3 #0.65
@@ -1254,8 +1254,8 @@ strike_craft_component_template = {
 	size = LARGE
 	entity = "gm_entity"
 
-	weapon_type = missile
-	projectile_gfx = "small_missile"
+	weapon_type = instant
+	projectile_gfx = "gundam_missile"
 	power = -56 #1250kW = 62
 	cost = 61 #58.8 tons = 36 cost + 25 for gun
 
@@ -1340,8 +1340,8 @@ strike_craft_component_template = {
 	size = LARGE
 	entity = "gm_entity"
 
-	weapon_type = missile
-	projectile_gfx = "small_missile"
+	weapon_type = instant
+	projectile_gfx = "gundam_missile"
 	power = -56 #1250kW = 62
 	cost = 61 #58.8 tons = 36 cost + 25 for gun
 
@@ -1426,8 +1426,8 @@ strike_craft_component_template = {
 	size = LARGE
 	entity = "gm_entity"
 
-	weapon_type = missile
-	projectile_gfx = "small_missile"
+	weapon_type = instant
+	projectile_gfx = "gundam_missile"
 	power = -73 #1650kW = 73
 	cost = 65 #64.2 tons = 40 cost + 25 for gun
 
@@ -1512,8 +1512,8 @@ strike_craft_component_template = {
 	size = LARGE
 	entity = "gm_entity"
 
-	weapon_type = missile
-	projectile_gfx = "small_missile"
+	weapon_type = instant
+	projectile_gfx = "gundam_missile"
 	power = -63 #1420kW = 63
 	cost = 60 #57.6 tons = 35 cost + 25 for gun
 
@@ -1598,8 +1598,8 @@ strike_craft_component_template = {
 	size = LARGE
 	entity = "gm_entity"
 
-	weapon_type = missile
-	projectile_gfx = "small_missile"
+	weapon_type = instant
+	projectile_gfx = "gundam_missile"
 	power = -63 #1420kW = 63
 	cost = 60 #56.3 tons = 35 cost + 25 for gun
 
@@ -1886,7 +1886,7 @@ strike_craft_component_template = {
 
 	ship_behavior = "fighters_behavior"
 
-	icon = "GFX_ship_part_rgm_79sr_hmt"
+	icon = "GFX_ship_part_rgm_79sr"
 	icon_frame = 1
 	component_set = "RGM_79SR_HMT_HANGAR_1"
 	prerequisites = { "tech_RGM_79SR_HMT" }
@@ -2071,8 +2071,8 @@ strike_craft_component_template = {
 	size = LARGE
 	entity = "gm_entity"
 
-	weapon_type = missile
-	projectile_gfx = "small_missile"
+	weapon_type = instant
+	projectile_gfx = "gundam_missile"
 	power = -68 #1518 = 68
 	cost = 64 #58.7 tons = 36 + 3 for armor + 25 for gun
 
@@ -2157,8 +2157,8 @@ strike_craft_component_template = {
 	size = LARGE
 	entity = "gm_entity"
 
-	weapon_type = missile
-	projectile_gfx = "swarmer_missiles"
+	weapon_type = instant
+	projectile_gfx = "gundam_missile_swarm"
 	power = -69 #1560 = 69
 	cost = 99 #68.22 tons = 42 * 2 for armor + 15 for gun
 
@@ -2243,8 +2243,8 @@ strike_craft_component_template = {
 	size = LARGE
 	entity = "gm_entity"
 
-	weapon_type = missile
-	projectile_gfx = "swarmer_missiles"
+	weapon_type = instant
+	projectile_gfx = "gundam_missile_swarm"
 	power = -72 #1620 = 72
 	cost = 99 #68.22 tons = 42 * 2 for armor + 15 for gun
 
@@ -2329,8 +2329,8 @@ strike_craft_component_template = {
 	size = LARGE
 	entity = "gm_entity"
 
-	weapon_type = missile
-	projectile_gfx = "swarmer_missiles"
+	weapon_type = instant
+	projectile_gfx = "gundam_missile_swarm"
 	power = -83 #1870 = 83
 	cost = 49 #47.3 tons = 29 + 5 for armor + 15 for gun
 
@@ -2415,8 +2415,8 @@ strike_craft_component_template = {
 	size = LARGE
 	entity = "fighter_1z_entity"
 
-	weapon_type = missile
-	projectile_gfx = "small_missile"
+	weapon_type = instant
+	projectile_gfx = "gundam_missile"
 	power = -64 #1428
 	cost = 67 #59.6 tons = 37 + 5 for improved armor + 25 for gun
 
@@ -2845,8 +2845,8 @@ strike_craft_component_template = {
 	size = LARGE
 	entity = "gp02_entity"
 
-	weapon_type = missile
-	projectile_gfx = "small_missile" #Find beam gfx
+	weapon_type = instant
+	projectile_gfx = "gundam_missile" #Find beam gfx
 	power = -28 #1860 / 3
 	cost = 61 #83.0 tons = 51 * 2 Gundarium + 50 for gun / 3 + 10 for Shield and Armor
 
@@ -2888,8 +2888,8 @@ strike_craft_component_template = {
 	size = LARGE
 	entity = "gp02_entity"
 
-	weapon_type = missile
-	projectile_gfx = "swarmer_missiles" #Find beam gfx
+	weapon_type = instant
+	projectile_gfx = "gundam_missile_swarm" #Find beam gfx
 	power = -28 #1860 / 3
 	cost = 63 #105.0 tons = 65 * 2 Gundarium + 30 for gun / 3 + 10 for Shield and Armor
 
