@@ -1,0 +1,387 @@
+utility_component_template = {
+	key = "zeon_grenade_aura_0"
+	size = small
+	icon = "GFX_ship_part_empty_ftl_drive"
+	icon_frame = 1
+	power = 0
+	cost = 0
+
+	prerequisites = { "tech_MS_05B" }
+
+	component_set = "zeon_grenade_aura"
+	#upgrades_to = "oyw_zeon_pilot_putv_veteran"
+
+	ai_weight = {
+		weight = 1
+	}
+}
+
+utility_component_template = {
+	key = "zeon_grenade_aura_1"
+	size = small
+	icon = "zeon_grenade_01"
+	icon_frame = 1
+	power = 0
+	cost = 10
+
+	hostile_aura = {
+		name = "zeon_grenade_1"
+		radius = 10
+		apply_on = ships
+
+		stack_info = {			#A ship can only be affected by one aura of a certain id. If multiple auras have the same ID the one with the highest priority will be applied.
+			id = zeon_grenade_001
+			priority = 2
+		}
+
+		damage_per_day = { #Small Missile
+			accuracy = 0.15
+			damage = { min = 8 max = 12 }
+			shield_damage = 1.15
+			armor_penetration = 0.15
+		}
+
+		graphics = {
+			area_effect = {
+				entity = "circle_area_entity"
+				dynamic_scale = yes
+			}
+		}
+	}
+
+	prerequisites = { "tech_MS_06F" }
+
+	component_set = "zeon_grenade_aura"
+	#upgrades_to = "oyw_zeon_pilot_putv_veteran"
+
+	ai_weight = {
+		weight = 1
+	}
+}
+
+utility_component_template = {
+	key = "zeon_grenade_aura_2"
+	size = small
+	icon = "zeon_grenade_02"
+	icon_frame = 1
+	power = 0
+	cost = 10
+
+	hostile_aura = {
+		name = "zeon_grenade_2"
+		radius = 10
+		apply_on = ships
+
+		stack_info = {			#A ship can only be affected by one aura of a certain id. If multiple auras have the same ID the one with the highest priority will be applied.
+			id = zeon_grenade_002
+			priority = 2
+		}
+
+		damage_per_day = { #Medium Missile
+			accuracy = 0.15
+			damage = { min = 13 max = 27 }
+			shield_damage = 1.15
+			armor_penetration = 0.25
+		}
+
+		graphics = {
+			area_effect = {
+				entity = "circle_area_entity"
+				dynamic_scale = yes
+			}
+		}
+	}
+
+	prerequisites = { "tech_MS_06F2" }
+
+	component_set = "zeon_grenade_aura"
+	#upgrades_to = "oyw_zeon_pilot_putv_veteran"
+
+	ai_weight = {
+		weight = 1
+	}
+}
+
+utility_component_template = {
+	key = "zeon_melee_aura_0"
+	size = small
+	icon = "GFX_ship_part_empty_ftl_drive"
+	icon_frame = 1
+	power = 0
+	cost = 0
+
+	prerequisites = { "tech_MS_05B" }
+
+	component_set = "zeon_melee_aura"
+	#upgrades_to = "oyw_zeon_pilot_putv_veteran"
+
+	ai_weight = {
+		weight = 1
+	}
+}
+
+utility_component_template = {
+	key = "zeon_melee_aura_1"
+	size = small
+	icon = "zeon_melee_01"
+	icon_frame = 1
+	power = 0
+	cost = 15
+
+	hostile_aura = {
+		name = "zeon_melee_1"
+		radius = 5
+		apply_on = ships
+
+		stack_info = {			#A ship can only be affected by one aura of a certain id. If multiple auras have the same ID the one with the highest priority will be applied.
+			id = zeon_melee_001
+			priority = 2
+		}
+
+		damage_per_day = {
+			accuracy = 0.15
+			damage = { min = 8 max = 34 }
+			shield_damage = 1.33
+			armor_penetration = 0.15
+		}
+
+		graphics = {
+			area_effect = {
+				entity = "circle_area_entity"
+				dynamic_scale = yes
+			}
+		}
+	}
+
+	prerequisites = { "tech_MS_05B" }
+
+	component_set = "zeon_melee_aura"
+	#upgrades_to = "oyw_zeon_pilot_putv_veteran"
+
+	ai_weight = {
+		weight = 1
+	}
+}
+
+utility_component_template = {
+	key = "zeon_melee_aura_2"
+	size = small
+	icon = "zeon_melee_02"
+	icon_frame = 1
+	power = 0
+	cost = 20
+
+	modifier = {
+		ship_armor_add = 5
+	}
+
+	hostile_aura = {
+		name = "zeon_melee_2"
+		radius = 5
+		apply_on = ships
+
+		stack_info = {			#A ship can only be affected by one aura of a certain id. If multiple auras have the same ID the one with the highest priority will be applied.
+			id = zeon_melee_002
+			priority = 2
+		}
+
+		damage_per_day = {
+			accuracy = 0.2
+			damage = { min = 8 max = 20 }
+			shield_damage = 1.33
+			armor_penetration = 0.0
+		}
+
+		graphics = {
+			area_effect = {
+				entity = "circle_area_entity"
+				dynamic_scale = yes
+			}
+		}
+	}
+
+	prerequisites = { "tech_MS_06C" }
+
+	component_set = "zeon_melee_aura"
+	#upgrades_to = "oyw_zeon_pilot_putv_veteran"
+
+	ai_weight = {
+		weight = 1
+	}
+}
+
+utility_component_template = {
+	key = "zeon_melee_aura_3"
+	size = small
+	icon = "zeon_melee_03"
+	icon_frame = 1
+	power = 0
+	cost = 20
+
+	hostile_aura = {
+		name = "zeon_melee_3"
+		radius = 5
+		apply_on = ships
+
+		stack_info = {			#A ship can only be affected by one aura of a certain id. If multiple auras have the same ID the one with the highest priority will be applied.
+			id = zeon_melee_003
+			priority = 2
+		}
+
+		damage_per_day = {
+			accuracy = 0.15
+			damage = { min = 16 max = 34 }
+			shield_damage = 1.33
+			armor_penetration = 0.3
+		}
+
+		graphics = {
+			area_effect = {
+				entity = "circle_area_entity"
+				dynamic_scale = yes
+			}
+		}
+	}
+
+	prerequisites = { "tech_MS_06F" }
+
+	component_set = "zeon_melee_aura"
+	#upgrades_to = "oyw_zeon_pilot_putv_veteran"
+
+	ai_weight = {
+		weight = 1
+	}
+}
+
+utility_component_template = {
+	key = "zeon_melee_aura_4"
+	size = small
+	icon = "zeon_melee_04"
+	icon_frame = 1
+	power = 0
+	cost = 20
+
+	hostile_aura = {
+		name = "zeon_melee_4"
+		radius = 5
+		apply_on = ships
+
+		stack_info = {			#A ship can only be affected by one aura of a certain id. If multiple auras have the same ID the one with the highest priority will be applied.
+			id = zeon_melee_004
+			priority = 2
+		}
+
+		damage_per_day = {
+			accuracy = 0.15
+			damage = { min = 20 max = 34 }
+			shield_damage = 1.33
+			armor_penetration = 0.4
+		}
+
+		graphics = {
+			area_effect = {
+				entity = "circle_area_entity"
+				dynamic_scale = yes
+			}
+		}
+	}
+
+	prerequisites = { "tech_MS_09R" }
+
+	component_set = "zeon_melee_aura"
+	#upgrades_to = "oyw_zeon_pilot_putv_veteran"
+
+	ai_weight = {
+		weight = 1
+	}
+}
+
+utility_component_template = {
+	key = "zeon_melee_aura_5"
+	size = small
+	icon = "zeon_melee_05"
+	icon_frame = 1
+	power = 0
+	cost = 30
+
+	modifier = {
+		ship_evasion_add = -10
+	}
+
+	hostile_aura = {
+		name = "zeon_melee_5"
+		radius = 5
+		apply_on = ships
+
+		stack_info = {			#A ship can only be affected by one aura of a certain id. If multiple auras have the same ID the one with the highest priority will be applied.
+			id = zeon_melee_005
+			priority = 2
+		}
+
+		damage_per_day = {
+			accuracy = 0.1
+			damage = { min = 34 max = 68 }
+			shield_damage = 1.33
+			armor_penetration = 0.5
+		}
+
+		graphics = {
+			area_effect = {
+				entity = "circle_area_entity"
+				dynamic_scale = yes
+			}
+		}
+	}
+
+	prerequisites = { "tech_MS_09R_2" }
+
+	component_set = "zeon_melee_aura"
+	#upgrades_to = "oyw_zeon_pilot_putv_veteran"
+
+	ai_weight = {
+		weight = 1
+	}
+}
+
+utility_component_template = {
+	key = "zeon_melee_aura_6"
+	size = small
+	icon = "zeon_melee_06"
+	icon_frame = 1
+	power = 0
+	cost = 15
+
+	hostile_aura = {
+		name = "zeon_melee_6"
+		radius = 5
+		apply_on = ships
+
+		stack_info = {			#A ship can only be affected by one aura of a certain id. If multiple auras have the same ID the one with the highest priority will be applied.
+			id = zeon_melee_006
+			priority = 2
+		}
+
+		damage_per_day = {
+			accuracy = 0.15
+			damage = { min = 34 max = 68 }
+			shield_damage = 0.2
+			armor_penetration = 0.95
+		}
+
+		graphics = {
+			area_effect = {
+				entity = "circle_area_entity"
+				dynamic_scale = yes
+			}
+		}
+	}
+
+	prerequisites = { "tech_MS_14A" }
+
+	component_set = "zeon_melee_aura"
+	#upgrades_to = "oyw_zeon_pilot_putv_veteran"
+
+	ai_weight = {
+		weight = 1
+	}
+}

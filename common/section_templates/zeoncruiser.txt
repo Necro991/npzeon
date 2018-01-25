@@ -332,7 +332,7 @@ ship_section_template = {
 	entity = "salamis_bow_entity"
 	icon = "GFX_ship_part_core_bow"
 
-	prerequisites = { tech_EFSF_MS_1}
+	prerequisites = { tech_EFSF_BEAMC_1 }
 
 	ai_weight = {
 		modifier = {

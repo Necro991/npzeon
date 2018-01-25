@@ -1,0 +1,25 @@
+#OYW Zeon Pilots (green to veteran) Components
+
+component_set = {
+	key = "oyw_zeon_pilot_putv"
+
+	required_component_set = yes
+	icon = "oyw_zeon_pilot_green"
+	icon_frame = 1
+}
+
+component_set = {
+	key = "oyw_zeon_pilot_vuta"
+
+	required_component_set = yes
+	icon = "oyw_zeon_pilot_veteran"
+	icon_frame = 1
+}
+
+component_set = {
+	key = "oyw_zeon_commander_aura"
+
+	required_component_set = yes
+	icon = "zeon_commander_01"
+	icon_frame = 1
+}

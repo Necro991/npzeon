@@ -1,0 +1,195 @@
+weapon_component_template = {
+	key = "OYW_ZEON_100MM"
+	size = point_defence
+	entity = "Zeon_Machine_Gun_01_Entity"
+	damage = { min = 10.0 max = 15.0 }
+	windup = { min = 2.5 max = 5.0 }
+	total_fire_time = 5
+	range = 12.0
+	accuracy = 0.82
+	tracking  = 0.65
+	type = point_defence
+	shield_damage = 1.0
+	armor_penetration = 0.1
+
+	icon = "GFX_ship_part_mass_driver_1"
+	icon_frame = 1
+	color = { 0.1 1.0 0.1 1 }
+	power = -3000
+	cost = 5
+	size_restriction = { MS_05B MS_05S MS_06 MS_06S }
+	prerequisites = { "tech_MS_05B" }
+	component_set = "OYW_ZEON_100MM"
+	projectile_gfx = "auto_cannons_s"
+	tags = { weapon_type_kinetic }
+	ai_tags = { weapon_role_anti_shield }
+	upgrades_to = "OYW_ZEON_105MM"
+}
+
+weapon_component_template = {
+	key = "OYW_ZEON_105MM"
+	size = point_defence
+	entity = "Zeon_Machine_Gun_01_Entity"
+	damage = { min = 10.0 max = 20.0 }
+	windup = { min = 2.5 max = 5.0 }
+	total_fire_time = 5
+	range = 15.0
+	accuracy = 0.82
+	tracking  = 0.65
+	type = point_defence
+	shield_damage = 1.0
+	armor_penetration = 0.1
+
+	icon = "GFX_ship_part_mass_driver_1"
+	icon_frame = 1
+	color = { 0.1 1.0 0.1 1 }
+	power = -3000
+	cost = 10
+	size_restriction = { MS_05B MS_05S MS_06 MS_06S }
+	prerequisites = { "tech_MS_06A" }
+	component_set = "OYW_ZEON_105MM"
+	projectile_gfx = "auto_cannons_s"
+	tags = { weapon_type_kinetic }
+	ai_tags = { weapon_role_anti_shield }
+	upgrades_to = "OYW_ZEON_120MM"
+}
+
+weapon_component_template = {
+	key = "OYW_ZEON_120MM"
+	size = point_defence
+	entity = "Zeon_Machine_Gun_01_Entity"
+	damage = { min = 10.0 max = 25.0 }
+	windup = { min = 2.5 max = 5.0 }
+	total_fire_time = 5
+	range = 20.0
+	accuracy = 0.82
+	tracking  = 0.65
+	type = point_defence
+	shield_damage = 1.0
+	armor_penetration = 0.1
+
+	icon = "GFX_ship_part_mass_driver_1"
+	icon_frame = 1
+	color = { 0.1 1.0 0.1 1 }
+	power = -3000
+	cost = 15
+	size_restriction = { MS_05B MS_05S MS_06 MS_06S }
+	prerequisites = { "tech_MS_06A" }
+	component_set = "OYW_ZEON_120MM"
+	projectile_gfx = "auto_cannons_s"
+	tags = { weapon_type_kinetic }
+	ai_tags = { weapon_role_anti_shield }
+	upgrades_to = "OYW_ZEON_90MM"
+}
+
+weapon_component_template = {
+	key = "OYW_ZEON_120MM_UMP"
+	size = point_defence
+	entity = "Zeon_Machine_Gun_01_Entity"
+	damage = { min = 10.0 max = 25.0 }
+	windup = { min = 2.5 max = 5.0 }
+	total_fire_time = 5
+	range = 20.0
+	accuracy = 0.82
+	tracking  = 0.65
+	type = point_defence
+	shield_damage = 1.0
+	armor_penetration = 0.1
+
+	icon = "GFX_ship_part_mass_driver_1"
+	icon_frame = 1
+	color = { 0.1 1.0 0.1 1 }
+	power = -3000
+	cost = 5
+	size_restriction = { MS_05B MS_05S MS_06 MS_06S }
+	prerequisites = { "tech_MS_06FZ" }
+	component_set = "OYW_ZEON_120MM_UMP"
+	projectile_gfx = "auto_cannons_s"
+	tags = { weapon_type_kinetic }
+	ai_tags = { weapon_role_anti_shield }
+	#upgrades_to = "SMALL_BEAMC_2"
+}
+
+weapon_component_template = {
+	key = "OYW_ZEON_90MM"
+	size = point_defence
+	entity = "Zeon_Machine_Gun_01_Entity"
+	damage = { min = 10.0 max = 20.0 }
+	windup = { min = 2.5 max = 5.0 }
+	total_fire_time = 3
+	range = 25.0
+	accuracy = 0.82
+	tracking  = 0.65
+	type = point_defence
+	shield_damage = 1.0
+	armor_penetration = 0.2
+
+	icon = "GFX_ship_part_mass_driver_1"
+	icon_frame = 1
+	color = { 0.1 1.0 0.1 1 }
+	power = -3000
+	cost = 5
+	size_restriction = { MS_05B MS_05S MS_06 MS_06S }
+	prerequisites = { "tech_MS_06FZ" }
+	component_set = "OYW_ZEON_90MM"
+	projectile_gfx = "auto_cannons_s"
+	tags = { weapon_type_kinetic }
+	ai_tags = { weapon_role_anti_shield }
+	#upgrades_to = "SMALL_BEAMC_2"
+}
+
+weapon_component_template = {
+	key = "OYW_ZEON_SHOTGUN"
+	size = point_defence
+	entity = "Zeon_Machine_Gun_01_Entity"
+	damage = { min = 5.0 max = 100.0 }
+	windup = { min = 5.0 max = 10.0 }
+	total_fire_time = 3
+	range = 15.0
+	accuracy = 0.82
+	tracking  = 0.65
+	type = point_defence
+	shield_damage = 1.5
+	armor_penetration = 0.05
+
+	icon = "GFX_ship_part_mass_driver_1"
+	icon_frame = 1
+	color = { 0.1 1.0 0.1 1 }
+	power = -3000
+	cost = 15
+	size_restriction = { MS_05B MS_05S MS_06 MS_06S }
+	prerequisites = { "tech_MS_06FZ" }
+	component_set = "OYW_ZEON_SHOTGUN"
+	projectile_gfx = "auto_cannons_s"
+	tags = { weapon_type_kinetic }
+	ai_tags = { weapon_role_anti_shield }
+	#upgrades_to = "SMALL_BEAMC_2"
+}
+
+weapon_component_template = {
+	key = "OYW_ZEON_STURMFAUST"
+	size = point_defence
+	entity = "Zeon_Machine_Gun_01_Entity"
+	damage = { min = 20.0 max = 60.0 }
+	#windup = { min = 5.0 max = 10.0 }
+	total_fire_time = 15
+	range = 15.0
+	accuracy = 0.6
+	tracking  = 0.3
+	type = point_defence
+	shield_damage = 1.15
+	armor_penetration = 0.15
+
+	icon = "GFX_ship_part_mass_driver_1"
+	icon_frame = 1
+	color = { 0.1 1.0 0.1 1 }
+	power = -3000
+	cost = 5
+	size_restriction = { MS_05B MS_05S MS_06 MS_06S }
+	prerequisites = { "tech_MS_05B" }
+	component_set = "OYW_ZEON_STURMFAUST"
+	projectile_gfx = "gundam_missile"
+	tags = { weapon_type_explosive }
+	ai_tags = { weapon_role_anti_shield }
+	#upgrades_to = "SMALL_BEAMC_2"
+}

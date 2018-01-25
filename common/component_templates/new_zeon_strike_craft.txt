@@ -90,7 +90,7 @@ strike_craft_component_template = {
 strike_craft_component_template = {
 	key = "ZEON_MS_STRIKE_CRAFT_MS_06A_1" #MS-06A Zaku II A
 	size = LARGE
-	entity = "fighter_1z_entity"
+	entity = "Zaku_II_A_entity"
 
 	weapon_type = point_defence
 	projectile_gfx = "auto_cannons_s"
@@ -133,7 +133,7 @@ strike_craft_component_template = {
 strike_craft_component_template = {
 	key = "ZEON_MS_STRIKE_CRAFT_MS_06A_2" #MS-06A Zaku II A
 	size = LARGE
-	entity = "fighter_1z_entity"
+	entity = "Zaku_II_A_entity"
 
 	weapon_type = instant
 	projectile_gfx = "gundam_missile"
@@ -262,7 +262,7 @@ strike_craft_component_template = {
 strike_craft_component_template = {
 	key = "ZEON_MS_STRIKE_CRAFT_MS_06F_1" #MS-06F Zaku II F
 	size = LARGE
-	entity = "fighter_1z_entity"
+	entity = "fighter_2z_entity"
 
 	weapon_type = point_defence
 	projectile_gfx = "auto_cannons_s"
@@ -305,7 +305,7 @@ strike_craft_component_template = {
 strike_craft_component_template = {
 	key = "ZEON_MS_STRIKE_CRAFT_MS_06F_2" #MS-06F Zaku II F
 	size = LARGE
-	entity = "fighter_1z_entity"
+	entity = "fighter_2z_entity"
 
 	weapon_type = instant
 	projectile_gfx = "gundam_missile"
@@ -348,7 +348,7 @@ strike_craft_component_template = {
 strike_craft_component_template = {
 	key = "ZEON_MS_STRIKE_CRAFT_MS_06F2_1" #MS-06F2 Zaku II F2
 	size = LARGE
-	entity = "fighter_1z_entity"
+	entity = "fighter_3z_entity"
 
 	weapon_type = point_defence
 	projectile_gfx = "auto_cannons_s"
@@ -391,7 +391,7 @@ strike_craft_component_template = {
 strike_craft_component_template = {
 	key = "ZEON_MS_STRIKE_CRAFT_MS_06F2_2" #MS-06F2 Zaku II F2
 	size = LARGE
-	entity = "fighter_1z_entity"
+	entity = "fighter_3z_entity"
 
 	weapon_type = instant
 	projectile_gfx = "gundam_missile"
@@ -434,7 +434,7 @@ strike_craft_component_template = {
 strike_craft_component_template = {
 	key = "ZEON_MS_STRIKE_CRAFT_MS_06FZ_1" #MS-06FZ Zaku II Kai
 	size = LARGE
-	entity = "fighter_1z_entity"
+	entity = "fighter_5z_entity"
 
 	weapon_type = point_defence
 	projectile_gfx = "auto_cannons_s"
@@ -477,7 +477,7 @@ strike_craft_component_template = {
 strike_craft_component_template = {
 	key = "ZEON_MS_STRIKE_CRAFT_MS_06FZ_2" #MS-06FZ Zaku II Kai
 	size = LARGE
-	entity = "fighter_1z_entity"
+	entity = "fighter_5z_entity"
 
 	weapon_type = instant
 	projectile_gfx = "gundam_missile"

@@ -28,6 +28,8 @@
 # STANDARD #
 ############
 
+
+
 zeon_MS_P = { #Psycho Zaku II Thunderbolt
 	entity = nt_ms_3_entity
 	max_speed = 7.5
@@ -51,9 +53,9 @@ zeon_MS_P = { #Psycho Zaku II Thunderbolt
 	required_spaceport_level = 5
 	can_have_federation_design = yes
 	enable_default_design = yes	#if yes, countries will have an auto-generated design at start
-	
-	prerequisites = {"tech_Zeon_MS_5"}
-	
+
+	prerequisites = {"tech_MS_06FZ"}
+
 	class = shipclass_military
 	required_component_set = "ftl_components"
 	required_component_set = "zeon_p_ms_pilot"

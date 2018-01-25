@@ -1,0 +1,48 @@
+spriteTypes = {
+
+	spriteType = {
+		name = "radiation_armor"
+		texturefile = "gfx/interface/icons/ship_parts/ship_part_armor_radiation.dds"
+	}
+
+	spriteType = {
+		name = "zeon_melee_01"
+		texturefile = "gfx/interface/icons/ship_parts/zeon_melee_01.dds"
+	}
+
+	spriteType = {
+		name = "zeon_melee_02"
+		texturefile = "gfx/interface/icons/ship_parts/zeon_melee_02.dds"
+	}
+
+	spriteType = {
+		name = "zeon_melee_03"
+		texturefile = "gfx/interface/icons/ship_parts/zeon_melee_03.dds"
+	}
+
+	spriteType = {
+		name = "zeon_melee_04"
+		texturefile = "gfx/interface/icons/ship_parts/zeon_melee_04.dds"
+	}
+
+	spriteType = {
+		name = "zeon_melee_05"
+		texturefile = "gfx/interface/icons/ship_parts/zeon_melee_05.dds"
+	}
+
+	spriteType = {
+		name = "zeon_melee_06"
+		texturefile = "gfx/interface/icons/ship_parts/zeon_melee_06.dds"
+	}
+
+	spriteType = {
+		name = "zeon_grenade_01"
+		texturefile = "gfx/interface/icons/ship_parts/zeon_grenade_01.dds"
+	}
+
+	spriteType = {
+		name = "zeon_grenade_02"
+		texturefile = "gfx/interface/icons/ship_parts/zeon_grenade_02.dds"
+	}
+
+}

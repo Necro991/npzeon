@@ -7,12 +7,12 @@ projectile_gfx_ballistic = {
 	hit_entity = "BEAMC_small_hit_entity"
 	shield_hit_entity = "BEAMC_small_shield_hit_entity"
 	muzzle_flash_entity = "BEAMC_small_muzzle_flash_entity"
-	
+
 	#ballistic specific
 	entity = "BEAMC_small_entity"
 	speed = 290.0			#preferred speed of the projectile
 	max_duration = 3.0		#Speed of projectile might be scaled up in order to guarantee reaching the target within <max_duration> seconds
-	
+
 	shield_impact = {
 		size = small
 		delay = 0.0
@@ -26,12 +26,12 @@ projectile_gfx_ballistic = {
 	hit_entity = "BEAMC_medium_hit_entity"
 	shield_hit_entity = "BEAMC_medium_shield_hit_entity"
 	muzzle_flash_entity = "BEAMC_medium_muzzle_flash_entity"
-	
+
 	#ballistic specific
 	entity = "BEAMC_medium_entity"
 	speed = 290.0			#preferred speed of the projectile
 	max_duration = 3.0		#Speed of projectile might be scaled up in order to guarantee reaching the target within <max_duration> seconds
-	
+
 	shield_impact = {
 		size = medium
 		delay = 0.0
@@ -45,12 +45,12 @@ projectile_gfx_ballistic = {
 	hit_entity = "BEAMC_large_hit_entity"
 	shield_hit_entity = "BEAMC_large_shield_hit_entity"
 	muzzle_flash_entity = "BEAMC_large_muzzle_flash_entity"
-	
+
 	#ballistic specific
 	entity = "BEAMC_large_entity"
 	speed = 290.0			#preferred speed of the projectile
 	max_duration = 3.0		#Speed of projectile might be scaled up in order to guarantee reaching the target within <max_duration> seconds
-	
+
 	shield_impact = {
 		size = large
 		delay = 0.0
@@ -64,12 +64,12 @@ projectile_gfx_ballistic = {
 	hit_entity = "BEAMC_small_hit_entity"
 	shield_hit_entity = "BEAMC_small_shield_hit_entity"
 	muzzle_flash_entity = "BEAMC2_small_muzzle_flash_entity"
-	
+
 	#ballistic specific
 	entity = "BEAMC2_small_entity"
 	speed = 290.0			#preferred speed of the projectile
 	max_duration = 3.0		#Speed of projectile might be scaled up in order to guarantee reaching the target within <max_duration> seconds
-	
+
 	shield_impact = {
 		size = small
 		delay = 0.0
@@ -83,12 +83,12 @@ projectile_gfx_ballistic = {
 	hit_entity = "BEAMC_medium_hit_entity"
 	shield_hit_entity = "BEAMC_medium_shield_hit_entity"
 	muzzle_flash_entity = "BEAMC2_medium_muzzle_flash_entity"
-	
+
 	#ballistic specific
 	entity = "BEAMC2_medium_entity"
 	speed = 290.0			#preferred speed of the projectile
 	max_duration = 3.0		#Speed of projectile might be scaled up in order to guarantee reaching the target within <max_duration> seconds
-	
+
 	shield_impact = {
 		size = medium
 		delay = 0.0
@@ -102,12 +102,12 @@ projectile_gfx_ballistic = {
 	hit_entity = "BEAMC_large_hit_entity"
 	shield_hit_entity = "BEAMC_large_shield_hit_entity"
 	muzzle_flash_entity = "BEAMC2_large_muzzle_flash_entity"
-	
+
 	#ballistic specific
 	entity = "BEAMC2_large_entity"
 	speed = 290.0			#preferred speed of the projectile
 	max_duration = 3.0		#Speed of projectile might be scaled up in order to guarantee reaching the target within <max_duration> seconds
-	
+
 	shield_impact = {
 		size = large
 		delay = 0.0
@@ -120,12 +120,12 @@ projectile_gfx_ballistic = {
 	hit_entity = "BEAMC_small_hit_entity"
 	shield_hit_entity = "BEAMC_small_shield_hit_entity"
 	muzzle_flash_entity = "BEAMC3_small_muzzle_flash_entity"
-	
+
 	#ballistic specific
 	entity = "BEAMC3_small_entity"
 	speed = 290.0			#preferred speed of the projectile
 	max_duration = 3.0		#Speed of projectile might be scaled up in order to guarantee reaching the target within <max_duration> seconds
-	
+
 	shield_impact = {
 		size = small
 		delay = 0.0
@@ -139,12 +139,12 @@ projectile_gfx_ballistic = {
 	hit_entity = "BEAMC_medium_hit_entity"
 	shield_hit_entity = "BEAMC_medium_shield_hit_entity"
 	muzzle_flash_entity = "BEAMC3_medium_muzzle_flash_entity"
-	
+
 	#ballistic specific
 	entity = "BEAMC3_medium_entity"
 	speed = 290.0			#preferred speed of the projectile
 	max_duration = 3.0		#Speed of projectile might be scaled up in order to guarantee reaching the target within <max_duration> seconds
-	
+
 	shield_impact = {
 		size = medium
 		delay = 0.0
@@ -158,12 +158,12 @@ projectile_gfx_ballistic = {
 	hit_entity = "BEAMC_large_hit_entity"
 	shield_hit_entity = "BEAMC_large_shield_hit_entity"
 	muzzle_flash_entity = "BEAMC3_large_muzzle_flash_entity"
-	
+
 	#ballistic specific
 	entity = "BEAMC3_large_entity"
 	speed = 290.0			#preferred speed of the projectile
 	max_duration = 3.0		#Speed of projectile might be scaled up in order to guarantee reaching the target within <max_duration> seconds
-	
+
 	shield_impact = {
 		size = large
 		delay = 0.0
@@ -175,18 +175,18 @@ projectile_gfx_ballistic = {
 projectile_gfx_beam = {
 	#common for all types of projectiles
 	name = "MPC1"
-	color = { 0.43 		1.0		0.35 	0.03 } #The last number controls intensity. 0 makes it non-existant. 1.0 		0.45		0.15 	1.0 
+	color = { 0.43 		1.0		0.35 	0.03 } #The last number controls intensity. 0 makes it non-existant. 1.0 		0.45		0.15 	1.0
 	hit_entity = "MPC1_hit_entity"
 	shield_hit_entity = "MPC1_shield_hit_entity"
 	muzzle_flash_entity = "MPC1_muzzle_entity"
-	
+
 	#beam specific data
 	width = 2.0
 	texture_scroll_speed = 2.5
 	texture_tiling = 5.5
-	
+
 	hit = {
-		alpha_curve = { 
+		alpha_curve = {
 			0.0 	0.0
 			0.05	0.0
 			0.1		100.0
@@ -197,7 +197,7 @@ projectile_gfx_beam = {
 		duration = 2.0
 	}
 	miss = {
-		alpha_curve = { 
+		alpha_curve = {
 			0.0 	0.0
 			0.05	0.0
 			0.1		100.0
@@ -208,7 +208,7 @@ projectile_gfx_beam = {
 		duration = 1.5
 	}
 	texture = "gfx/models/combat_items/energy_lance_diffuse.dds"
-	
+
 	shield_impact = {
 		size = large
 		loop_duration = 0.5
@@ -223,14 +223,14 @@ projectile_gfx_beam = {
 	hit_entity = "MPC2_hit_entity"
 	shield_hit_entity = "MPC2_shield_hit_entity"
 	muzzle_flash_entity = "MPC2_muzzle_entity"
-	
+
 	#beam specific data
 	width = 2.0
 	texture_scroll_speed = 2.5
 	texture_tiling = 5.5
-	
+
 	hit = {
-		alpha_curve = { 
+		alpha_curve = {
 			0.0 	0.0
 			0.05	0.0
 			0.1		100.0
@@ -241,7 +241,7 @@ projectile_gfx_beam = {
 		duration = 2.0
 	}
 	miss = {
-		alpha_curve = { 
+		alpha_curve = {
 			0.0 	0.0
 			0.05	0.0
 			0.1		100.0
@@ -252,13 +252,15 @@ projectile_gfx_beam = {
 		duration = 1.5
 	}
 	texture = "gfx/models/combat_items/energy_lance_diffuse.dds"
-	
+
 	shield_impact = {
 		size = large
 		loop_duration = 0.5
 		delay = 0.1
 	}
 }
+
+#JURY RIGGED MISSILE GFX
 
 projectile_gfx_ballistic = {
 	#common for all types of projectiles
@@ -267,12 +269,12 @@ projectile_gfx_ballistic = {
 	hit_entity = "torpedo_small_hit_entity"
 	shield_hit_entity = "missile_small_shield_hit_entity"
 	muzzle_flash_entity = "torpedo_small_muzzle_entity"
-	
+
 	shield_impact = {
-		size = medium
+		size = small
 		delay = 0.0
 	}
-	
+
 	#ballistic specific
 	entity = "torpedo_small_entity"
 	speed = 50.0			#preferred speed of the projectile
@@ -286,12 +288,12 @@ projectile_gfx_ballistic = {
 	hit_entity = "swarmer_missiles_hit_entity"
 	shield_hit_entity = "swarmer_missiles_shield_hit_entity"
 	muzzle_flash_entity = "swarmer_missiles_muzzle_flash_entity"
-	
+
 	shield_impact = {
-		size = medium
+		size = small
 		delay = 0.0
 	}
-	
+
 	#ballistic specific
 	entity = "swarmer_missiles_entity"
 	speed = 50.0			#preferred speed of the projectile

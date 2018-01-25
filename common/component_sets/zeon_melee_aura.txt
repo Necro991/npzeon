@@ -1,0 +1,17 @@
+#OYW Zeon Pilots (green to veteran) Components
+
+component_set = {
+	key = "zeon_melee_aura"
+
+	required_component_set = yes
+	icon = "zeon_melee_01"
+	icon_frame = 1
+}
+
+component_set = {
+	key = "zeon_melee_aura_1"
+
+	show_in_designer = no
+	icon = "zeon_melee_01"
+	icon_frame = 1
+}

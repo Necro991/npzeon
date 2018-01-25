@@ -1,19 +1,19 @@
 objectTypes = {
 
-	
+
 	########################################################################
 	########														########
 	########					Test stuff							########
 	########														########
 	########################################################################
-	
+
 #	pdxmesh = {
 #		name = "test_fighter_mesh"
 #		file = "gfx/models/test_fighter.mesh"
 #		scale = 1.0
-#	}	
-	
-		
+#	}
+
+
 #	pdxmesh = {
 #		name = "zeon_01_missile_mesh"
 #		file = "gfx/models/ships/reptilian_01/reptilian_01_missile_medium.mesh"
@@ -22,7 +22,7 @@ objectTypes = {
 #			shader = "PdxMeshShip"
 #		}
 #	}
-		
+
 	#	pdxmesh = {
 	#		name = "one_part_ship_frame_mesh"
 	#		file = "gfx/models/ships/reptilian_01/one_part_ship_frame.mesh"
@@ -30,7 +30,7 @@ objectTypes = {
 	#				animation = { id = "death"			type = "one_part_ship_frame_death_animation" }
 	#		scale = 1.0
 	#	}
-		
+
 	#	pdxmesh = {
 	#		name = "two_part_ship_frame_mesh"
 	#		file = "gfx/models/ships/reptilian_01/two_part_ship_frame.mesh"
@@ -38,89 +38,89 @@ objectTypes = {
 	#				animation = { id = "death"			type = "two_part_ship_frame_death_animation" }
 	#		scale = 1.0
 	#	}
-		
+
 	#	pdxmesh = {
 	#		name = "two_part_ship_front_mesh"
 	#		file = "gfx/models/ships/reptilian_01/two_part_ship_front.mesh"
 	#		scale = 1.0
 	#	}
-	
+
 	#	pdxmesh = {
 	#		name = "two_part_ship_back_mesh"
 	#		file = "gfx/models/ships/reptilian_01/two_part_ship_back.mesh"
 	#		scale = 1.0
-	#	}	
-	
+	#	}
+
 	#	pdxmesh = {
 	#		name = "turret_mesh"
 	#		file = "gfx/models/ships/reptilian_01/turret.mesh"
 	#		scale = 1.0
 	#	}
-		
+
 	#######  Civilian Ships  ########
-	
+
 	pdxmesh = {
 		name = "zeon_01_science_mesh"
 		file = "gfx/models/ships/zeon_01/Papua.mesh"
 		scale = 1.0
 		meshsettings = {
-			texture_diffuse = "papua_diffuse.dds" 
-			texture_normal = "papua_normal.dds" 
-			texture_specular = "papua_specular.dds" 
+			texture_diffuse = "papua_diffuse.dds"
+			texture_normal = "papua_normal.dds"
+			texture_specular = "papua_specular.dds"
 			shader = "PdxMeshShip"
 		}
-	}	
-		
+	}
+
 	pdxmesh = {
 		name = "zeon_01_construction_mesh"
 		file = "gfx/models/ships/zeon_01/Pazock.mesh"
 		scale = 6.0
-		
+
 		animation = { id = "idle"						type = "reptilian_01_construction_idle_animation" }
 		animation = { id = "working"					type = "reptilian_01_construction_working_start_animation" }
 		animation = { id = "working_looping"			type = "reptilian_01_construction_working_looping_animation" }
 
 		meshsettings = {
-			texture_diffuse = "Pazock_Diffuse.dds" 
-			texture_normal = "Pazock_Normal.dds" 
-			texture_specular = "Pazock_Specular.dds" 
+			texture_diffuse = "Pazock_Diffuse.dds"
+			texture_normal = "Pazock_Normal.dds"
+			texture_specular = "Pazock_Specular.dds"
 			shader = "PdxMeshShip"
 		}
-	}	
-			
+	}
+
 	pdxmesh = {
 		name = "zeon_01_colony_mesh"
 		file = "gfx/models/ships/zeon_01/Papua.mesh"
 		scale = 1.0
 		meshsettings = {
-			texture_diffuse = "papua_diffuse.dds" 
-			texture_normal = "papua_normal.dds" 
-			texture_specular = "papua_specular.dds" 
+			texture_diffuse = "papua_diffuse.dds"
+			texture_normal = "papua_normal.dds"
+			texture_specular = "papua_specular.dds"
 			shader = "PdxMeshShip"
 		}
-	}	
-				
+	}
+
 	pdxmesh = {
 		name = "zeon_01_transport_mesh"
 		file = "gfx/models/ships/zeon_01/Pazock.mesh"
 		scale = 6.0
 		meshsettings = {
-			texture_diffuse = "Pazock_Diffuse.dds" 
-			texture_normal = "Pazock_Normal.dds" 
-			texture_specular = "Pazock_Specular.dds" 
+			texture_diffuse = "Pazock_Diffuse.dds"
+			texture_normal = "Pazock_Normal.dds"
+			texture_specular = "Pazock_Specular.dds"
 			shader = "PdxMeshShip"
 		}
-	}	
-	
-	
-	#######  Turrets  #######	
-	
+	}
+
+
+	#######  Turrets  #######
+
 	pdxmesh = {
 		name = "zeon_01_turret_projectile_large_mesh"
 		file = "gfx/models/ships/zeon_01/Gagaul_turret.mesh"
 		#	animation = { id = "idle"		type = "turret_projectile_large_idle_animation" }
-		#	animation = { id = "attack"		type = "turret_projectile_large_attack_animation" }	
-		scale = 1 
+		#	animation = { id = "attack"		type = "turret_projectile_large_attack_animation" }
+		scale = 1
 		meshsettings = {
 		texture_diffuse = "Gagaul_turret.dds"
 		texture_normal = "Gagaul_turret_Normal.dds" #reptilian_01_turret_normal
@@ -128,12 +128,12 @@ objectTypes = {
 			shader = "PdxMeshShip"
 		}
 	}
-	
+
 	pdxmesh = {
 		name = "zeon_01_turret_projectile_medium_mesh"
 		file = "gfx/models/ships/zeon_01/Gagaul_turret.mesh"
 		#	animation = { id = "idle"		type = "turret_projectile_medium_idle_animation" }
-		#	animation = { id = "attack"		type = "turret_projectile_medium_attack_animation" }	
+		#	animation = { id = "attack"		type = "turret_projectile_medium_attack_animation" }
 		scale = 1
 		meshsettings = {
 			texture_diffuse = "Gagaul_turret.dds"
@@ -141,29 +141,29 @@ objectTypes = {
 			texture_specular = "musai_specular.dds"
 			shader = "PdxMeshShip"
 		}
-	}	
-	
+	}
+
 	pdxmesh = {
 		name = "zeon_01_turret_projectile_small_mesh"
-		file = "gfx/models/ships/zeon_01/Gagaul_turret.mesh" 
+		file = "gfx/models/ships/zeon_01/Gagaul_turret.mesh"
 		#	animation = { id = "idle"		type = "turret_projectile_small_idle_animation" }
-		#	animation = { id = "attack"		type = "turret_projectile_small_attack_animation" }	
-		scale = 1 
+		#	animation = { id = "attack"		type = "turret_projectile_small_attack_animation" }
+		scale = 1
 		meshsettings = {
 			texture_diffuse = "Gagaul_turret.dds"
 			texture_normal = "musai_normal.dds"
 			texture_specular = "musai_specular.dds"
 			shader = "PdxMeshShip"
 		}
-	}	
-	
+	}
+
 	#Musai#
-	
+
 	pdxmesh = {
 		name = "zeon_01_turret_musai_large_mesh"
 		file = "gfx/models/ships/zeon_01/Musai_Turret.mesh" #musaigunlarge or Ball_Musai_Turret
 		#	animation = { id = "idle"		type = "turret_projectile_large_idle_animation" }
-		#	animation = { id = "attack"		type = "turret_projectile_large_attack_animation" }	
+		#	animation = { id = "attack"		type = "turret_projectile_large_attack_animation" }
 		scale = 1.5 #3 or 20
 		meshsettings = {
 		texture_diffuse = "temp_turret.dds"
@@ -172,12 +172,12 @@ objectTypes = {
 			shader = "PdxMeshShip"
 		}
 	}
-	
+
 	pdxmesh = {
 		name = "zeon_01_turret_musai_medium_mesh"
 		file = "gfx/models/ships/zeon_01/Musai_Turret.mesh" #musaigunmedium or Ball_Musai_Turret
 		#	animation = { id = "idle"		type = "turret_projectile_medium_idle_animation" }
-		#	animation = { id = "attack"		type = "turret_projectile_medium_attack_animation" }	
+		#	animation = { id = "attack"		type = "turret_projectile_medium_attack_animation" }
 		scale = 1.2 #2
 		meshsettings = {
 		texture_diffuse = "temp_turret.dds"
@@ -185,13 +185,13 @@ objectTypes = {
 		texture_specular = "musai_specular.dds"
 			shader = "PdxMeshShip"
 		}
-	}	
-	
+	}
+
 	pdxmesh = {
 		name = "zeon_01_turret_musai_small_mesh" ### CURRENTLY IN USE ###
 		file = "gfx/models/ships/zeon_01/Musai_Turret.mesh" #musaigunsmall or Ball_Musai_Turret
 		#	animation = { id = "idle"		type = "turret_projectile_small_idle_animation" }
-		#	animation = { id = "attack"		type = "turret_projectile_small_attack_animation" }	
+		#	animation = { id = "attack"		type = "turret_projectile_small_attack_animation" }
 		scale = 1.0 #1.5
 		meshsettings = {
 		texture_diffuse = "Musai_Turret_Diffuse.dds"
@@ -200,14 +200,14 @@ objectTypes = {
 			shader = "PdxMeshShip"
 		}
 	}
-	
+
 	#Iowa Variant#
-	
+
 	pdxmesh = {
 		name = "zeon_01_turret_musai_iowa_large_mesh"
 		file = "gfx/models/ships/zeon_01/Musai_Iowa_Turret.mesh" #musaigunlarge or Ball_Musai_Turret
 		#	animation = { id = "idle"		type = "turret_projectile_large_idle_animation" }
-		#	animation = { id = "attack"		type = "turret_projectile_large_attack_animation" }	
+		#	animation = { id = "attack"		type = "turret_projectile_large_attack_animation" }
 		scale = 1.2 #3 or 20
 		meshsettings = {
 		texture_diffuse = "temp_turret.dds"
@@ -216,12 +216,12 @@ objectTypes = {
 			shader = "PdxMeshShip"
 		}
 	}
-	
+
 	pdxmesh = {
 		name = "zeon_01_turret_musai_iowa_medium_mesh" ### CURRENTLY IN USE ###
 		file = "gfx/models/ships/zeon_01/Musai_Iowa_Turret.mesh" #musaigunmedium or Ball_Musai_Turret
 		#	animation = { id = "idle"		type = "turret_projectile_medium_idle_animation" }
-		#	animation = { id = "attack"		type = "turret_projectile_medium_attack_animation" }	
+		#	animation = { id = "attack"		type = "turret_projectile_medium_attack_animation" }
 		scale = 3 #2
 		meshsettings = {
 		texture_diffuse = "Musai_Turret_Diffuse.dds"
@@ -230,12 +230,12 @@ objectTypes = {
 			shader = "PdxMeshShip"
 		}
 	}
-	
+
 	pdxmesh = {
 		name = "zeon_01_turret_musai_iowa_small_mesh"
 		file = "gfx/models/ships/zeon_01/Musai_Iowa_Turret.mesh" #musaigunsmall or Ball_Musai_Turret
 		#	animation = { id = "idle"		type = "turret_projectile_small_idle_animation" }
-		#	animation = { id = "attack"		type = "turret_projectile_small_attack_animation" }	
+		#	animation = { id = "attack"		type = "turret_projectile_small_attack_animation" }
 		scale = 0.0 #0.75 and prior to that 1.5
 		meshsettings = {
 		texture_diffuse = "temp_turret.dds"
@@ -244,15 +244,15 @@ objectTypes = {
 			shader = "PdxMeshShip"
 		}
 	}
-	
+
 	#Ball Variants#
-	
+
 	pdxmesh = {
 		name = "zeon_01_ball_turret_projectile_large_mesh"
-		file = "gfx/models/ships/zeon_01/Ball_Musai_Turret.mesh" 
+		file = "gfx/models/ships/zeon_01/Ball_Musai_Turret.mesh"
 		#	animation = { id = "idle"		type = "turret_projectile_large_idle_animation" }
-		#	animation = { id = "attack"		type = "turret_projectile_large_attack_animation" }	
-		scale = 20 
+		#	animation = { id = "attack"		type = "turret_projectile_large_attack_animation" }
+		scale = 20
 		meshsettings = {
 		texture_diffuse = "zeon_01_turret_diffuse.dds"
 		texture_normal = "reptilian_01_turret_normal.dds"
@@ -260,26 +260,26 @@ objectTypes = {
 			shader = "PdxMeshShip"
 		}
 	}
-	
+
 	pdxmesh = {
 		name = "zeon_01_ball_turret_projectile_medium_mesh"
 		file = "gfx/models/ships/zeon_01/Ball_Musai_Turret.mesh"
 		#	animation = { id = "idle"		type = "turret_projectile_medium_idle_animation" }
-		#	animation = { id = "attack"		type = "turret_projectile_medium_attack_animation" }	
-		scale = 15 
+		#	animation = { id = "attack"		type = "turret_projectile_medium_attack_animation" }
+		scale = 15
 		meshsettings = {
 		texture_diffuse = "zeon_01_turret_diffuse.dds"
 		texture_normal = "reptilian_01_turret_normal.dds"
 		texture_specular = "reptilian_01_turret_specular.dds"
 			shader = "PdxMeshShip"
 		}
-	}	
-	
+	}
+
 	pdxmesh = {
 		name = "zeon_01_ball_turret_projectile_small_mesh"
-		file = "gfx/models/ships/zeon_01/Ball_Musai_Turret.mesh" 
+		file = "gfx/models/ships/zeon_01/Ball_Musai_Turret.mesh"
 		#	animation = { id = "idle"		type = "turret_projectile_small_idle_animation" }
-		#	animation = { id = "attack"		type = "turret_projectile_small_attack_animation" }	
+		#	animation = { id = "attack"		type = "turret_projectile_small_attack_animation" }
 		scale = 7.5
 		meshsettings = {
 		texture_diffuse = "zeon_01_turret_diffuse.dds"
@@ -288,13 +288,13 @@ objectTypes = {
 			shader = "PdxMeshShip"
 		}
 	}
-	
+
 	#Musai Kai Turrets#
-	
+
 	pdxmesh = {
 		name = "zeon_01_Musai_Kai_Turret_mesh"
-		file = "gfx/models/ships/zeon_01/Musai_Kai_Turret.mesh" 
-		
+		file = "gfx/models/ships/zeon_01/Musai_Kai_Turret.mesh"
+
 		scale = 1.0
 		meshsettings = {
 		texture_diffuse = "Musai_Kai_Turret_Diffuse.dds"
@@ -303,13 +303,13 @@ objectTypes = {
 			shader = "PdxMeshShip"
 		}
 	}
-	
+
 	#Chivvay/Artillery Turrets#
-	
+
 	pdxmesh = {
 		name = "zeon_01_Artillery_Turret_mesh"
-		file = "gfx/models/ships/zeon_01/Artillery_Cannon.mesh" 
-		
+		file = "gfx/models/ships/zeon_01/Artillery_Cannon.mesh"
+
 		scale = 0.5
 		meshsettings = {
 		texture_diffuse = "Artillery_Cannon_Diffuse.dds"
@@ -318,13 +318,13 @@ objectTypes = {
 			shader = "PdxMeshShip"
 		}
 	}
-	
+
 	#Musaka Rewloola Turrets#
-	
+
 	pdxmesh = {
 		name = "zeon_01_Musaka_Rewloola_Turret_mesh"
-		file = "gfx/models/ships/zeon_01/Musaka_Rewloola_Turret.mesh" 
-		
+		file = "gfx/models/ships/zeon_01/Musaka_Rewloola_Turret.mesh"
+
 		scale = 0.5
 		meshsettings = {
 		texture_diffuse = "Musaka_Rewloola_Turret_Diffuse.dds"
@@ -333,14 +333,14 @@ objectTypes = {
 			shader = "PdxMeshShip"
 		}
 	}
-	
+
 	#Missile Variants#
-	
+
 	pdxmesh = {
 		name = "zeon_01_turret_missile_large_mesh"
 		file = "gfx/models/ships/zeon_01/Gagaul_missile.mesh" #reptilian_01/reptilian_01_turret_missile_large
 		#	animation = { id = "idle"		type = "turret_projectile_large_idle_animation" }
-		#	animation = { id = "attack"		type = "turret_projectile_large_attack_animation" }	
+		#	animation = { id = "attack"		type = "turret_projectile_large_attack_animation" }
 		scale = 1.5
 		meshsettings = {
 		texture_diffuse = "Gagaul_turret.dds"
@@ -348,13 +348,13 @@ objectTypes = {
 		texture_specular = "musai_specular.dds"
 			shader = "PdxMeshShip"
 		}
-	}	
-	
+	}
+
 	pdxmesh = {
 		name = "zeon_01_turret_missile_medium_mesh"
 		file = "gfx/models/ships/zeon_01/Gagaul_missile.mesh" #reptilian_01/reptilian_01_turret_missile_medium
 		#	animation = { id = "idle"		type = "turret_projectile_medium_idle_animation" }
-		#	animation = { id = "attack"		type = "turret_projectile_medium_attack_animation" }	
+		#	animation = { id = "attack"		type = "turret_projectile_medium_attack_animation" }
 		scale = 1.2
 		meshsettings = {
 		texture_diffuse = "Gagaul_turret.dds"
@@ -362,13 +362,13 @@ objectTypes = {
 		texture_specular = "musai_specular.dds"
 			shader = "PdxMeshShip"
 		}
-	}	
-	
+	}
+
 	pdxmesh = {
 		name = "zeon_01_turret_missile_small_mesh"
 		file = "gfx/models/ships/zeon_01/Gagaul_missile.mesh" #reptilian_01/reptilian_01_turret_missile_small
 		#	animation = { id = "idle"		type = "turret_projectile_small_idle_animation" }
-		#	animation = { id = "attack"		type = "turret_projectile_small_attack_animation" }	
+		#	animation = { id = "attack"		type = "turret_projectile_small_attack_animation" }
 		scale = 1
 		meshsettings = {
 		texture_diffuse = "Gagaul_turret.dds"
@@ -376,27 +376,27 @@ objectTypes = {
 		texture_specular = "musai_specular.dds"
 			shader = "PdxMeshShip"
 		}
-	}	
-	
+	}
+
 	pdxmesh = {
-		name = "zeon_01_turret_point_defence_mesh" 
+		name = "zeon_01_turret_point_defence_mesh"
 		file = "gfx/models/ships/zeon_01/Ball_Musai_Turret.mesh"
 		#	animation = { id = "idle"		type = "turret_projectile_small_idle_animation" }
-		#	animation = { id = "attack"		type = "turret_projectile_small_attack_animation" }	
+		#	animation = { id = "attack"		type = "turret_projectile_small_attack_animation" }
 		scale = 7.5 #1
 		meshsettings = {
 		texture_diffuse = "zeon_01_turret_diffuse.dds"
 			shader = "PdxMeshShip"
 		}
 	}
-	
+
 	#Gagaul Variants#
-	
+
 	pdxmesh = {
-		name = "zeon_01_gagaul_turret_mesh" 
+		name = "zeon_01_gagaul_turret_mesh"
 		file = "gfx/models/ships/zeon_01/Gagaul_turret.mesh"
 		#	animation = { id = "idle"		type = "turret_projectile_small_idle_animation" }
-		#	animation = { id = "attack"		type = "turret_projectile_small_attack_animation" }	
+		#	animation = { id = "attack"		type = "turret_projectile_small_attack_animation" }
 		scale = 1
 		meshsettings = {
 			texture_diffuse = "Gagaul_turret.dds"
@@ -405,7 +405,7 @@ objectTypes = {
 			shader = "PdxMeshShip"
 		}
 	}
-	
+
 	pdxmesh = {
 		name = "zeon_01_gagaul_missile_turret_mesh"
 		file = "gfx/models/ships/zeon_01/Gagaul_missile.mesh"
@@ -417,9 +417,9 @@ objectTypes = {
 			shader = "PdxMeshShip"
 		}
 	}
-	
+
 	#Gwazine Turret#
-	
+
 	pdxmesh = {
 		name = "zeon_01_gwazine_turret_mesh"
 		file = "gfx/models/ships/zeon_01/gwazine_turret.mesh"
@@ -431,9 +431,9 @@ objectTypes = {
 			shader = "PdxMeshShip"
 		}
 	}
-	
+
 	#######  missile  ########
-	
+
 	#	pdxmesh = {
 	#		name = "missilerig_mesh"
 	#		file = "gfx/models/ships/reptilian_01/missilerig.mesh"
@@ -441,20 +441,20 @@ objectTypes = {
 	#				animation = { id = "launch" type = "missilerig_launch_animation" }
 	#		scale = 1.0
 	#	}
-		
+
 	#######  escorts  ########
-	
+
 	pdxmesh = {
 		name = "zeon_01_droppod_mesh"
 		file = "gfx/models/ships/reptilian_01/reptilian_01_droppod.mesh"
-   
+
 		scale = 1.0
 	}
-		
+
 	pdxmesh = {
 		name = "zeon_01_fighter_mesh"
 		file = "gfx/models/ships/zeon_01/dopp.mesh"
-			
+
 		scale = 2.5
 		meshsettings = {
 			texture_diffuse = "dopp.dds"
@@ -463,11 +463,11 @@ objectTypes = {
 				shader = "PdxMeshShip"
 		}
 	}
-		
+
 	pdxmesh = {
 		name = "zeon_01_bomber_mesh"
 		file = "gfx/models/ships/zeon_01/dodai.mesh"
-    
+
 		scale = 1.0
 		meshsettings = {
 			texture_diffuse = "dodai.dds"
@@ -478,10 +478,10 @@ objectTypes = {
 	}
 
 	####### MOBILE SUIT FRAMES #########
-	
+
 		pdxmesh = {
 		name = "zaku1_frame_mesh"
-		file = "gfx/models/ships/molluscoid_01/molluscoid_01_corvette_frame.mesh"				
+		file = "gfx/models/ships/molluscoid_01/molluscoid_01_corvette_frame.mesh"
 		scale = 1.0
 		meshsettings = {
 		texture_diffuse = "zaku1.dds"
@@ -492,7 +492,7 @@ objectTypes = {
 	}
 	pdxmesh = {
 		name = "zakuII_frame_mesh"
-		file = "gfx/models/ships/molluscoid_01/molluscoid_01_corvette_frame.mesh"				
+		file = "gfx/models/ships/molluscoid_01/molluscoid_01_corvette_frame.mesh"
 		scale = 1.0
 		meshsettings = {
 		texture_diffuse = "zakuII.dds"
@@ -501,10 +501,10 @@ objectTypes = {
 			shader = "PdxMeshShip"
 		}
 	}
-	
+
 	pdxmesh = {
 		name = "zakuIIr2_frame_mesh"
-		file = "gfx/models/ships/molluscoid_01/molluscoid_01_corvette_frame.mesh"				
+		file = "gfx/models/ships/molluscoid_01/molluscoid_01_corvette_frame.mesh"
 		scale = 1.0
 		meshsettings = {
 		texture_diffuse = "zaku2r.dds"
@@ -513,10 +513,10 @@ objectTypes = {
 			shader = "PdxMeshShip"
 		}
 	}
-	
+
 	pdxmesh = {
 		name = "dom_frame_mesh"
-		file = "gfx/models/ships/molluscoid_01/molluscoid_01_corvette_frame.mesh"				
+		file = "gfx/models/ships/molluscoid_01/molluscoid_01_corvette_frame.mesh"
 		scale = 1.0
 		meshsettings = {
 		texture_diffuse = "dom.dds"
@@ -525,10 +525,10 @@ objectTypes = {
 			shader = "PdxMeshShip"
 		}
 	}
-	
+
 	pdxmesh = {
 		name = "gelgoog_frame_mesh"
-		file = "gfx/models/ships/molluscoid_01/molluscoid_01_corvette_frame.mesh"				
+		file = "gfx/models/ships/molluscoid_01/molluscoid_01_corvette_frame.mesh"
 		scale = 1.0
 		meshsettings = {
 		texture_diffuse = "gelgoog.dds"
@@ -537,52 +537,52 @@ objectTypes = {
 			shader = "PdxMeshShip"
 		}
 	}
-	
+
 	####### FrAsh's Suits #######
-	
+
 	pdxmesh = {
 			name = "Zaku_I_mesh"
 			file = "gfx/models/ships/zeon_01/Zaku_I.mesh"
-   
-			scale = 1.0
-			meshsettings = {	
+
+			scale = 3.0
+			meshsettings = {
 				texture_diffuse = "Zaku_Diffuse.dds"
 				texture_normal = "zakuII_normal.dds"
 				texture_specular = "zakuII_specular.dds"
 				shader = "PdxMeshShip"
 		}
 	}
-	
+
 	pdxmesh = {
 			name = "Zaku_II_mesh"
 			file = "gfx/models/ships/zeon_01/ZakuII_Equipped.mesh"
-   
-			scale = 3.0
-			meshsettings = {	
+
+			scale = 4.0
+			meshsettings = {
 				texture_diffuse = "ZakuII_Diffuse.dds"
 				texture_normal = "zakuII_normal.dds"
 				texture_specular = "zakuII_specular.dds"
 				shader = "PdxMeshShip"
 		}
 	}
-	
+
 	pdxmesh = {
 			name = "Zaku_II_HMT_mesh"
 			file = "gfx/models/ships/zeon_01/ZakuII_HMT.mesh"
-   
-			scale = 3.0
-			meshsettings = {	
+
+			scale = 4.0
+			meshsettings = {
 				texture_diffuse = "ZakuII_HMT_Diffuse.dds"
 				texture_normal = "zakuII_normal.dds"
 				texture_specular = "zakuII_specular.dds"
 				shader = "PdxMeshShip"
 		}
 	}
-	
-	pdxmesh = { 
+
+	pdxmesh = {
 			name = "Rick_Dom_mesh"
 			file = "gfx/models/ships/zeon_01/Rick_Dom.mesh"
-			
+
 			scale = 1.0
 				meshsettings = {
 					texture_diffuse = "Dom_Diffuse.dds"
@@ -591,89 +591,287 @@ objectTypes = {
 					shader = "PdxMeshShip"
 			}
 		}
-	
+
 	pdxmesh = {
 			name = "Gelgoog_A_mesh" #Gelgoog A
 			file = "gfx/models/ships/zeon_01/Gelgoog_A.mesh"
-   
+
 			scale = 1.0
-			meshsettings = {	
+			meshsettings = {
 				texture_diffuse = "Gelgoog_A_Diffuse.dds"
 				texture_normal = "zakuII_normal.dds"
 				texture_specular = "zakuII_specular.dds"
 				shader = "PdxMeshShip"
 		}
 	}
-	
+
 	pdxmesh = {
 			name = "Kampfer_mesh" #BLUE LIGHTNING FUCK
 			file = "gfx/models/ships/zeon_01/Kampfer.mesh"
-   
+
 			scale = 1.0
-			meshsettings = {	
+			meshsettings = {
 				texture_diffuse = "Kampfer.dds"
 				texture_normal = "zakuII_normal.dds"
 				texture_specular = "zakuII_specular.dds"
 				shader = "PdxMeshShip"
 		}
 	}
-	
+
 	pdxmesh = {
 			name = "Gelgoog_Jg_mesh" #Gelgoog Jaegar
 			file = "gfx/models/ships/zeon_01/Gelgoog_Jg.mesh"
-   
+
 			scale = 1.0
-			meshsettings = {	
+			meshsettings = {
 				texture_diffuse = "Gelgoog_Jg_Diffuse.dds"
 				texture_normal = "zakuII_normal.dds"
 				texture_specular = "zakuII_specular.dds"
 				shader = "PdxMeshShip"
 		}
 	}
-	
+
 	pdxmesh = {
 			name = "Zaku_II_HMT_Reuse_mesh" #THUNDERBOLT
 			file = "gfx/models/ships/zeon_01/Zaku_II_HMT_Reuse.mesh"
-   
+
 			scale = 1.0
-			meshsettings = {	
+			meshsettings = {
 				texture_diffuse = "Zaku_II_HMT_Reuse_Diffuse.dds"
 				texture_normal = "zakuII_normal.dds"
 				texture_specular = "zakuII_specular.dds"
 				shader = "PdxMeshShip"
 		}
 	}
-	
+
 	pdxmesh = {
 			name = "Perfection_mesh" #God has abandoned us
 			file = "gfx/models/ships/zeon_01/Perfection.mesh"
-   
+
 			scale = 1.0
-			meshsettings = {	
+			meshsettings = {
 				texture_diffuse = "Perfection.dds"
 				texture_normal = "zakuII_normal.dds"
 				texture_specular = "zakuII_specular.dds"
 				shader = "PdxMeshShip"
 		}
 	}
-		
+
 	####### MS Groups #######
-	
+
+	pdxmesh = { #ZAKU I S
+		name = "zeon_ms_05s_group_S3_mesh"
+		file = "gfx/models/ships/zeon_01/Z_Tier0_01.mesh"
+		scale = 5.0
+		meshsettings = {
+		texture_diffuse = "Zaku_Diffuse_5.dds"
+		texture_normal = "Zaku_Normal.dds"
+		texture_specular = "Zaku_Specular.dds"
+			shader = "PdxMeshShip"
+		}
+	}
+
+		pdxmesh = { #ZAKU I PARATROOPER
+		name = "zeon_partrooper_group_S3_mesh"
+		file = "gfx/models/ships/zeon_01/Z_Tier1_01.mesh"
+		scale = 5.0
+		meshsettings = {
+		texture_diffuse = "ZakuII_Paratrooper_Diffuse.dds"
+		texture_normal = "zakuII_normal.dds" #Zaku_Normal
+		texture_specular = "Zaku_Specular.dds"
+			shader = "PdxMeshShip"
+		}
+	}
+
+	pdxmesh = { #ZAKU II A
+		name = "zeon_ms_06_a_group_S3_mesh"
+		file = "gfx/models/ships/zeon_01/Z_Tier0_01.mesh"
+		scale = 5.0
+		meshsettings = {
+		texture_diffuse = "Zaku_Diffuse_3.dds"
+		texture_normal = "Zaku_Normal.dds"
+		texture_specular = "Zaku_Specular.dds"
+			shader = "PdxMeshShip"
+		}
+	}
+
+	pdxmesh = {
+			name = "Zaku_II_A_mesh"
+			file = "gfx/models/ships/zeon_01/Zaku_I.mesh"
+
+			scale = 3.0
+			meshsettings = {
+				texture_diffuse = "Zaku_Diffuse_3.dds"
+				texture_normal = "zakuII_normal.dds"
+				texture_specular = "zakuII_specular.dds"
+				shader = "PdxMeshShip"
+		}
+	}
+
+	pdxmesh = { #ZAKU II A
+		name = "zeon_polar_group_S3_mesh"
+		file = "gfx/models/ships/zeon_01/Z_Tier0_01.mesh"
+		scale = 5.0
+		meshsettings = {
+		texture_diffuse = "Zaku_Diffuse_4.dds"
+		texture_normal = "Zaku_Normal.dds"
+		texture_specular = "Zaku_Specular.dds"
+			shader = "PdxMeshShip"
+		}
+	}
+
+	pdxmesh = { #ZAKU II F
+		name = "zeon_ms_06_f_group_S3_mesh"
+		file = "gfx/models/ships/zeon_01/Z_Tier1_01.mesh"
+		scale = 5.0
+		meshsettings = {
+		texture_diffuse = "ZakuII_F_Diffuse.dds"
+		texture_normal = "zakuII_normal.dds" #Zaku_Normal
+		texture_specular = "Zaku_Specular.dds"
+			shader = "PdxMeshShip"
+		}
+	}
+
+	pdxmesh = {
+			name = "Zaku_II_F_mesh"
+			file = "gfx/models/ships/zeon_01/ZakuII_Equipped.mesh"
+
+			scale = 4.0
+			meshsettings = {
+				texture_diffuse = "ZakuII_F_Diffuse.dds"
+				texture_normal = "zakuII_normal.dds"
+				texture_specular = "zakuII_specular.dds"
+				shader = "PdxMeshShip"
+		}
+	}
+
+	pdxmesh = { #ZAKU II F2
+		name = "zeon_ms_06_f2_group_S3_mesh"
+		file = "gfx/models/ships/zeon_01/Z_Tier1_01.mesh"
+		scale = 5.0
+		meshsettings = {
+		texture_diffuse = "ZakuII_F2_Diffuse.dds"
+		texture_normal = "zakuII_normal.dds" #Zaku_Normal
+		texture_specular = "Zaku_Specular.dds"
+			shader = "PdxMeshShip"
+		}
+	}
+
+	pdxmesh = {
+			name = "Zaku_II_F2_mesh"
+			file = "gfx/models/ships/zeon_01/ZakuII_Equipped.mesh"
+
+			scale = 4.0
+			meshsettings = {
+				texture_diffuse = "ZakuII_F2_Diffuse.dds"
+				texture_normal = "zakuII_normal.dds"
+				texture_specular = "zakuII_specular.dds"
+				shader = "PdxMeshShip"
+		}
+	}
+
+	pdxmesh = { #ZAKU II Kai
+		name = "zeon_ms_06_kai_group_S3_mesh"
+		file = "gfx/models/ships/zeon_01/Z_Tier1_01.mesh"
+		scale = 5.0
+		meshsettings = {
+		texture_diffuse = "ZakuII_Kai_Diffuse.dds"
+		texture_normal = "zakuII_normal.dds" #Zaku_Normal
+		texture_specular = "Zaku_Specular.dds"
+			shader = "PdxMeshShip"
+		}
+	}
+
+	pdxmesh = {
+			name = "Zaku_II_FZ_mesh"
+			file = "gfx/models/ships/zeon_01/ZakuII_Equipped.mesh"
+
+			scale = 4.0
+			meshsettings = {
+				texture_diffuse = "ZakuII_Kai_Diffuse.dds"
+				texture_normal = "zakuII_normal.dds"
+				texture_specular = "zakuII_specular.dds"
+				shader = "PdxMeshShip"
+		}
+	}
+
+	pdxmesh = { #ZAKU II Ace Test
+		name = "zeon_ms_06_s_group_S3_mesh"
+		file = "gfx/models/ships/zeon_01/ZakuIIS.mesh"
+		scale = 5.0
+		meshsettings = {
+		texture_diffuse = "ZakuIIS_Diffuse.dds"
+		texture_normal = "zakuII_normal.dds" #Zaku_Normal
+		texture_specular = "Zaku_Specular.dds"
+			shader = "PdxMeshShip"
+		}
+	}
+
+	pdxmesh = { #ZAKU II VALKYRIE
+		name = "zeon_valkyrie_group_S3_mesh"
+		file = "gfx/models/ships/zeon_01/Z_Tier1_01.mesh"
+		scale = 5.0
+		meshsettings = {
+		texture_diffuse = "ZakuII_Valkyrie_Diffuse.dds"
+		texture_normal = "zakuII_normal.dds" #Zaku_Normal
+		texture_specular = "Zaku_Specular.dds"
+			shader = "PdxMeshShip"
+		}
+	}
+
+	pdxmesh = { #ZAKU II Tristars UNIMPLEMENTED
+		name = "zeon_tristars_group_S3_mesh"
+		file = "gfx/models/ships/zeon_01/Z_Tier1_01.mesh"
+		scale = 5.0
+		meshsettings = {
+		texture_diffuse = "ZakuII_Tristars_Diffuse.dds"
+		texture_normal = "zakuII_normal.dds" #Zaku_Normal
+		texture_specular = "Zaku_Specular.dds"
+			shader = "PdxMeshShip"
+		}
+	}
+
+	pdxmesh = { #ZAKU II Neuen Bitters
+		name = "zeon_neuen_group_S3_mesh"
+		file = "gfx/models/ships/zeon_01/Z_Tier1_01.mesh"
+		scale = 5.0
+		meshsettings = {
+		texture_diffuse = "ZakuII_Neuen_Diffuse.dds"
+		texture_normal = "zakuII_normal.dds" #Zaku_Normal
+		texture_specular = "Zaku_Specular.dds"
+			shader = "PdxMeshShip"
+		}
+	}
+
+	pdxmesh = { #ZAKU II EFSF
+		name = "zeon_efsf_group_S3_mesh"
+		file = "gfx/models/ships/zeon_01/Z_Tier1_01.mesh"
+		scale = 5.0
+		meshsettings = {
+		texture_diffuse = "ZakuII_EFSF_Diffuse.dds"
+		texture_normal = "zakuII_normal.dds" #Zaku_Normal
+		texture_specular = "Zaku_Specular.dds"
+			shader = "PdxMeshShip"
+		}
+	}
+
+	###### OLD SHITE ######
+
 	pdxmesh = { #TIER 0 SUITS
 		name = "zaku1_group_S3_mesh"
-		file = "gfx/models/ships/zeon_01/Z_Tier0_01.mesh"				
+		file = "gfx/models/ships/zeon_01/Z_Tier0_01.mesh"
 		scale = 5.0
 		meshsettings = {
 		texture_diffuse = "Zaku_Diffuse.dds"
-		texture_normal = "Zaku_Normal.dds"
+		texture_normal = "zakuII_normal.dds" #Zaku_Normal
 		texture_specular = "Zaku_Specular.dds"
 			shader = "PdxMeshShip"
 		}
 	}
-	
+
 	pdxmesh = {
 		name = "zaku1_group_M1S2_mesh"
-		file = "gfx/models/ships/zeon_01/Z_Tier0_02.mesh"				
+		file = "gfx/models/ships/zeon_01/Z_Tier0_02.mesh"
 		scale = 5.0
 		meshsettings = {
 		texture_diffuse = "Zaku_Diffuse.dds"
@@ -682,10 +880,10 @@ objectTypes = {
 			shader = "PdxMeshShip"
 		}
 	}
-	
+
 	pdxmesh = {
 		name = "zaku1_group_M2_mesh"
-		file = "gfx/models/ships/zeon_01/Z_Tier0_03.mesh"				
+		file = "gfx/models/ships/zeon_01/Z_Tier0_03.mesh"
 		scale = 5.0
 		meshsettings = {
 		texture_diffuse = "Zaku_Diffuse.dds"
@@ -694,22 +892,22 @@ objectTypes = {
 			shader = "PdxMeshShip"
 		}
 	}
-	
+
 	pdxmesh = { #TIER 1 SUITS
 		name = "zeon_ms_1_group_S3_mesh"
-		file = "gfx/models/ships/zeon_01/Z_Tier1_01.mesh"				
+		file = "gfx/models/ships/zeon_01/Z_Tier1_01.mesh"
 		scale = 5.0
 		meshsettings = {
 		texture_diffuse = "ZakuII_Diffuse.dds"
-		texture_normal = "Zaku_Normal.dds"
+		texture_normal = "zakuII_normal.dds" #Zaku_Normal
 		texture_specular = "Zaku_Specular.dds"
 			shader = "PdxMeshShip"
 		}
 	}
-	
+
 	pdxmesh = {
 		name = "zeon_ms_1_group_M1S2_mesh"
-		file = "gfx/models/ships/zeon_01/Z_Tier1_02.mesh"				
+		file = "gfx/models/ships/zeon_01/Z_Tier1_02.mesh"
 		scale = 5.0
 		meshsettings = {
 		texture_diffuse = "Z_Tier1_02_Diffuse.dds"
@@ -718,10 +916,10 @@ objectTypes = {
 			shader = "PdxMeshShip"
 		}
 	}
-	
+
 	pdxmesh = {
 		name = "zeon_ms_1_group_M2_mesh"
-		file = "gfx/models/ships/zeon_01/Z_Tier1_03.mesh"				
+		file = "gfx/models/ships/zeon_01/Z_Tier1_03.mesh"
 		scale = 5.0
 		meshsettings = {
 		texture_diffuse = "Z_Tier1_03_Diffuse.dds"
@@ -730,10 +928,10 @@ objectTypes = {
 			shader = "PdxMeshShip"
 		}
 	}
-	
+
 	pdxmesh = { #TIER 2 SUITS
 		name = "zeon_ms_2_group_S3_mesh"
-		file = "gfx/models/ships/zeon_01/Z_Tier2_01.mesh"				
+		file = "gfx/models/ships/zeon_01/Z_Tier2_01.mesh"
 		scale = 5.0
 		meshsettings = {
 		texture_diffuse = "ZakuII_Diffuse.dds"
@@ -742,10 +940,10 @@ objectTypes = {
 			shader = "PdxMeshShip"
 		}
 	}
-	
+
 	pdxmesh = {
 		name = "zeon_ms_2_group_M1S2_mesh"
-		file = "gfx/models/ships/zeon_01/Z_Tier2_02.mesh"				
+		file = "gfx/models/ships/zeon_01/Z_Tier2_02.mesh"
 		scale = 5.0
 		meshsettings = {
 		texture_diffuse = "Z_Tier2_02_Diffuse.dds"
@@ -754,10 +952,10 @@ objectTypes = {
 			shader = "PdxMeshShip"
 		}
 	}
-	
+
 	pdxmesh = {
 		name = "zeon_ms_2_group_M2_mesh"
-		file = "gfx/models/ships/zeon_01/Z_Tier2_03.mesh"				
+		file = "gfx/models/ships/zeon_01/Z_Tier2_03.mesh"
 		scale = 5.0
 		meshsettings = {
 		texture_diffuse = "Dom_Diffuse.dds"
@@ -766,10 +964,10 @@ objectTypes = {
 			shader = "PdxMeshShip"
 		}
 	}
-	
+
 	pdxmesh = { #TIER 3 SUITS
 		name = "zeon_ms_3_group_S3_mesh"
-		file = "gfx/models/ships/zeon_01/Z_Tier3_01.mesh"				
+		file = "gfx/models/ships/zeon_01/Z_Tier3_01.mesh"
 		scale = 5.0
 		meshsettings = {
 		texture_diffuse = "ZakuII_Diffuse.dds"
@@ -778,10 +976,10 @@ objectTypes = {
 			shader = "PdxMeshShip"
 		}
 	}
-	
+
 	pdxmesh = {
 		name = "zeon_ms_3_group_M1S2_mesh"
-		file = "gfx/models/ships/zeon_01/Z_Tier3_02.mesh"				
+		file = "gfx/models/ships/zeon_01/Z_Tier3_02.mesh"
 		scale = 5.0
 		meshsettings = {
 		texture_diffuse = "Z_Tier3_02_Diffuse.dds"
@@ -790,22 +988,22 @@ objectTypes = {
 			shader = "PdxMeshShip"
 		}
 	}
-	
+
 	pdxmesh = {
 		name = "zeon_ms_3_group_M2_mesh"
-		file = "gfx/models/ships/zeon_01/Z_Tier3_03.mesh"				
+		file = "gfx/models/ships/zeon_01/Z_Tier3_03.mesh"
 		scale = 5.0
 		meshsettings = {
 		texture_diffuse = "Gelgoog_A_Diffuse.dds"
-		texture_normal = "Zaku_Normal.dds"
+		texture_normal = "zakuII_normal.dds"
 		texture_specular = "Zaku_Specular.dds"
 			shader = "PdxMeshShip"
 		}
 	}
-	
+
 	pdxmesh = { #TIER 4 SUITS
 		name = "zeon_ms_4_group_S3_mesh"
-		file = "gfx/models/ships/zeon_01/Z_Tier4_01.mesh"				
+		file = "gfx/models/ships/zeon_01/Z_Tier4_01.mesh"
 		scale = 5.0
 		meshsettings = {
 		texture_diffuse = "Dom_Diffuse.dds"
@@ -814,10 +1012,10 @@ objectTypes = {
 			shader = "PdxMeshShip"
 		}
 	}
-	
+
 	pdxmesh = {
 		name = "zeon_ms_4_group_M1S2_mesh"
-		file = "gfx/models/ships/zeon_01/Z_Tier4_02.mesh"				
+		file = "gfx/models/ships/zeon_01/Z_Tier4_02.mesh"
 		scale = 5.0
 		meshsettings = {
 		texture_diffuse = "Z_Tier4_02_Diffuse.dds"
@@ -826,10 +1024,10 @@ objectTypes = {
 			shader = "PdxMeshShip"
 		}
 	}
-	
+
 	pdxmesh = {
 		name = "zeon_ms_4_group_M2_mesh"
-		file = "gfx/models/ships/zeon_01/Z_Tier4_03.mesh"				
+		file = "gfx/models/ships/zeon_01/Z_Tier4_03.mesh"
 		scale = 5.0
 		meshsettings = {
 		texture_diffuse = "Kampfer.dds"
@@ -838,10 +1036,10 @@ objectTypes = {
 			shader = "PdxMeshShip"
 		}
 	}
-	
+
 	pdxmesh = { #TIER 5 SUITS
 		name = "zeon_ms_5_group_S3_mesh"
-		file = "gfx/models/ships/zeon_01/Z_Tier5_01.mesh"				
+		file = "gfx/models/ships/zeon_01/Z_Tier5_01.mesh"
 		scale = 5.0
 		meshsettings = {
 		texture_diffuse = "ZakuII_Diffuse.dds"
@@ -850,10 +1048,10 @@ objectTypes = {
 			shader = "PdxMeshShip"
 		}
 	}
-	
+
 	pdxmesh = {
 		name = "zeon_ms_5_group_M1S2_mesh"
-		file = "gfx/models/ships/zeon_01/Z_Tier5_02.mesh"				
+		file = "gfx/models/ships/zeon_01/Z_Tier5_02.mesh"
 		scale = 5.0
 		meshsettings = {
 		texture_diffuse = "Z_Tier5_02_Diffuse.dds"
@@ -862,25 +1060,25 @@ objectTypes = {
 			shader = "PdxMeshShip"
 		}
 	}
-	
+
 	pdxmesh = {
 		name = "zeon_ms_5_group_M2_mesh"
-		file = "gfx/models/ships/zeon_01/Z_Tier5_03.mesh"				
+		file = "gfx/models/ships/zeon_01/Z_Tier5_03.mesh"
 		scale = 5.0
 		meshsettings = {
 		texture_diffuse = "Gelgoog_Jg_Diffuse.dds"
-		texture_normal = "Zaku_Normal.dds"
+		texture_normal = "zakuII_normal.dds"
 		texture_specular = "Zaku_Specular.dds"
 			shader = "PdxMeshShip"
 		}
 	}
-	
+
 	####### Mobile Armors #######
-	
+
 	pdxmesh = {
 		name = "Psycommu_Zaku_Mesh"
 		file = "gfx/models/ships/zeon_01/Psycommu_Zaku.mesh"
-    
+
 			scale = 1.0
 					meshsettings = {
 		texture_diffuse = "Psycommu_Temp.dds"
@@ -889,11 +1087,11 @@ objectTypes = {
 			shader = "PdxMeshShip"
 		}
 	}
-	
+
 	pdxmesh = {
 		name = "Zeong_Mesh"
 		file = "gfx/models/ships/zeon_01/Zeong.mesh"
-    
+
 			scale = 1.0
 					meshsettings = {
 		texture_diffuse = "Zeong_Diffuse.dds"
@@ -902,11 +1100,11 @@ objectTypes = {
 			shader = "PdxMeshShip"
 		}
 	}
-	
+
 	pdxmesh = {
 		name = "Elmeth_Mesh"
 		file = "gfx/models/ships/zeon_01/Elmeth.mesh"
-    
+
 			scale = 1.0
 					meshsettings = {
 		texture_diffuse = "Elmeth_Diffuse.dds"
@@ -915,11 +1113,11 @@ objectTypes = {
 			shader = "PdxMeshShip"
 		}
 	}
-	
+
 	pdxmesh = {
 		name = "Val_Varo_Mesh"
 		file = "gfx/models/ships/zeon_01/Val_Varo.mesh"
-    
+
 			scale = 1.0
 					meshsettings = {
 		texture_diffuse = "Val_Varo_Diffuse.dds"
@@ -928,11 +1126,11 @@ objectTypes = {
 			shader = "PdxMeshShip"
 		}
 	}
-	
+
 	pdxmesh = {
 		name = "Big_Zam_Mesh"
 		file = "gfx/models/ships/zeon_01/Big_Zam.mesh"
-    
+
 			scale = 1.0
 					meshsettings = {
 		texture_diffuse = "Big_Zam_Diffuse.dds"
@@ -941,11 +1139,11 @@ objectTypes = {
 			shader = "PdxMeshShip"
 		}
 	}
-	
+
 	pdxmesh = {
 		name = "Big_Zam_Strike_Mesh"
 		file = "gfx/models/ships/zeon_01/Big_Zam_Strike.mesh"
-    
+
 			scale = 1.0
 					meshsettings = {
 						texture_diffuse = "Big_Zam_Diffuse.dds"
@@ -954,11 +1152,11 @@ objectTypes = {
 			shader = "PdxMeshShip"
 		}
 	}
-	
+
 	pdxmesh = {
 		name = "Argama_Mesh"
 		file = "gfx/models/ships/zeon_01/argama.mesh"
-    
+
 			scale = 0.1
 					meshsettings = {
 						texture_diffuse = "Big_Zam_Diffuse.dds"
@@ -967,11 +1165,11 @@ objectTypes = {
 			shader = "PdxMeshShip"
 		}
 	}
-	
+
 	pdxmesh = {
 		name = "burning_Mesh"
 		file = "gfx/models/ships/zeon_01/build burning.mesh"
-    
+
 			scale = 0.1
 					meshsettings = {
 						texture_diffuse = "Big_Zam_Diffuse.dds"
@@ -980,11 +1178,11 @@ objectTypes = {
 			shader = "PdxMeshShip"
 		}
 	}
-	
+
 	pdxmesh = {
 		name = "strike_Mesh"
 		file = "gfx/models/ships/zeon_01/build strike.mesh"
-    
+
 			scale = 0.1
 					meshsettings = {
 						texture_diffuse = "Big_Zam_Diffuse.dds"
@@ -993,11 +1191,11 @@ objectTypes = {
 			shader = "PdxMeshShip"
 		}
 	}
-	
+
 	pdxmesh = {
 		name = "master_Mesh"
 		file = "gfx/models/ships/zeon_01/master gundam.mesh"
-    
+
 			scale = 0.1
 					meshsettings = {
 						texture_diffuse = "Big_Zam_Diffuse.dds"
@@ -1006,11 +1204,11 @@ objectTypes = {
 			shader = "PdxMeshShip"
 		}
 	}
-	
+
 	pdxmesh = {
 		name = "zam_Mesh"
 		file = "gfx/models/ships/zeon_01/big zam.mesh"
-    
+
 			scale = 0.1
 					meshsettings = {
 						texture_diffuse = "Big_Zam_Diffuse.dds"
@@ -1019,23 +1217,23 @@ objectTypes = {
 			shader = "PdxMeshShip"
 		}
 	}
-		
+
 	#######  corvette frame  #######
-	
+
 	#pdxmesh = {
 	#	name = "zeon_01_corvette_frame_mesh"
 	#	file = "gfx/models/ships/reptilian_01/reptilian_01_corvette_frame.mesh"
 	#			animation = { id = "idle"			type = "reptilian_01_corvette_frame_idle_animation" }
 	#			animation = { id = "death"			type = "reptilian_01_corvette_frame_death_animation" }
-	#			animation = { id = "attack"			type = "reptilian_01_corvette_frame_idle_animation" }				
+	#			animation = { id = "attack"			type = "reptilian_01_corvette_frame_idle_animation" }
 	#	scale = 1.0
 	#	meshsettings = {
 	#		shader = "PdxMeshShip"
 	#	}
 	#}
-	
-	#######  corvette sections  #######	
-	
+
+	#######  corvette sections  #######
+
 	pdxmesh = {
 		name = "zeon_01_corvette_test_mesh"
 		file = "gfx/models/ships/reptilian_01/reptilian_01_corvette_s1.mesh"
@@ -1045,7 +1243,7 @@ objectTypes = {
 			shader = "PdxMeshShip"
 		}
 	}
-	
+
 	pdxmesh = {
 		name = "zeon_01_corvette_M1S1_mesh"
 		file = "gfx/models/ships/reptilian_01/reptilian_01_corvette_M1S1.mesh"
@@ -1055,7 +1253,7 @@ objectTypes = {
 			shader = "PdxMeshShip"
 		}
 	}
-		
+
 	pdxmesh = {
 		name = "zeon_01_corvette_S3_mesh"
 		file = "gfx/models/ships/reptilian_01/reptilian_01_corvette_S3.mesh"
@@ -1065,7 +1263,7 @@ objectTypes = {
 			shader = "PdxMeshShip"
 		}
 	}
-	
+
 	pdxmesh = {
 		name = "zeon_01_corvette_S1_mesh"
 		file = "gfx/models/ships/reptilian_01/reptilian_01_corvette_s1.mesh"
@@ -1074,38 +1272,38 @@ objectTypes = {
 			texture_diffuse = "zeon_01_corvette_diffuse.dds"
 			shader = "PdxMeshShip"
 		}
-	}	
-	
+	}
 
-	
-	
-	
+
+
+
+
 	#######  destroyer frame  #######
-	
+
 	#pdxmesh = {
 	#	name = "zeon_01_destroyer_frame_mesh"
 	#	file = "gfx/models/ships/reptilian_01/reptilian_01_destroyer_frame.mesh"
 	#			animation = { id = "idle"			type = "reptilian_01_destroyer_frame_idle_animation" }
 	#			animation = { id = "death"			type = "reptilian_01_destroyer_frame_death_animation" }
-	#			animation = { id = "attack"			type = "reptilian_01_destroyer_frame_idle_animation" }				
+	#			animation = { id = "attack"			type = "reptilian_01_destroyer_frame_idle_animation" }
 	#	scale = 1.0
 	#	meshsettings = {
 	#		shader = "PdxMeshShip"
 	#	}
 	#}
-	
+
 	pdxmesh = {
 		name = "zeon_01_destroyer_mesh"
-		file = "gfx/models/ships/reptilian_01/reptilian_01_destroyer.mesh"			
+		file = "gfx/models/ships/reptilian_01/reptilian_01_destroyer.mesh"
 		scale = 1.0
 		meshsettings = {
 		texture_diffuse = "zeon_01_destroyer_diffuse.dds"
 			shader = "PdxMeshShip"
 		}
 	}
-	
-	#######  destroyer bow sections  #######	
-	
+
+	#######  destroyer bow sections  #######
+
 	pdxmesh = {
 		name = "zeon_01_destroyer_bow_L1_mesh"
 		file = "gfx/models/ships/reptilian_01/reptilian_01_destroyer_bow_L1.mesh"
@@ -1114,8 +1312,8 @@ objectTypes = {
 		texture_diffuse = "zeon_01_destroyer_diffuse.dds"
 			shader = "PdxMeshShip"
 		}
-	}	
-	
+	}
+
 	pdxmesh = {
 		name = "zeon_01_destroyer_bow_M1S2_mesh"
 		file = "gfx/models/ships/reptilian_01/reptilian_01_destroyer_bow_M1S2.mesh"
@@ -1125,7 +1323,7 @@ objectTypes = {
 			shader = "PdxMeshShip"
 		}
 	}
-		
+
 	pdxmesh = {
 		name = "zeon_01_destroyer_bow_S3_mesh"
 		file = "gfx/models/ships/reptilian_01/reptilian_01_destroyer_bow_S3.mesh"
@@ -1135,9 +1333,9 @@ objectTypes = {
 			shader = "PdxMeshShip"
 		}
 	}
-	
-	#######  destroyer stern sections  #######	
-		
+
+	#######  destroyer stern sections  #######
+
 	pdxmesh = {
 		name = "zeon_01_destroyer_stern_S2_mesh"
 		file = "gfx/models/ships/reptilian_01/reptilian_01_destroyer_stern_S2.mesh"
@@ -1147,7 +1345,7 @@ objectTypes = {
 			shader = "PdxMeshShip"
 		}
 	}
-	
+
 	pdxmesh = {
 		name = "zeon_01_destroyer_stern_M1_mesh"
 		file = "gfx/models/ships/reptilian_01/reptilian_01_destroyer_stern_M1.mesh"
@@ -1156,26 +1354,26 @@ objectTypes = {
 		texture_diffuse = "zeon_01_destroyer_diffuse.dds"
 			shader = "PdxMeshShip"
 		}
-	}	
-	
-	
+	}
+
+
 	#######  cruiser frame  #######
-	
+
 	#pdxmesh = {
 	#	name = "zeon_01_cruiser_frame_mesh"
 	#	file = "gfx/models/ships/reptilian_01/reptilian_01_cruiser_frame.mesh"
 	#		animation = { id = "idle"			type = "reptilian_01_cruiser_frame_idle_animation" }
 	#		animation = { id = "death"			type = "reptilian_01_cruiser_frame_death_animation" }
-	#		animation = { id = "death2"			type = "reptilian_01_cruiser_frame_death2_animation" }				
-	#		animation = { id = "death3"			type = "reptilian_01_cruiser_frame_death3_animation" }				
+	#		animation = { id = "death2"			type = "reptilian_01_cruiser_frame_death2_animation" }
+	#		animation = { id = "death3"			type = "reptilian_01_cruiser_frame_death3_animation" }
 	#	scale = 1.0
 	#	meshsettings = {
 	#		shader = "PdxMeshShip"
 	#	}
 	#}
-	
+
 	####### DOLOS #######
-	
+
 	pdxmesh = {
 		name = "zeon_01_dolos_mesh"
 		file = "gfx/models/ships/zeon_01/Dolos.mesh"
@@ -1187,9 +1385,9 @@ objectTypes = {
 			shader = "PdxMeshShip"
 		}
 	}
-	
+
 	####### MUSAI #######
-	
+
 	pdxmesh = {
 		name = "zeon_01_musai_mesh"
 		file = "gfx/models/ships/zeon_01/Musai.mesh" #musai4.mesh
@@ -1201,23 +1399,23 @@ objectTypes = {
 			shader = "PdxMeshShip"
 		}
 	}
-	
+
 	####### GAGAUL #######
-	
+
 	pdxmesh = {
 		name = "zeon_01_gagaul_mesh"
 		file = "gfx/models/ships/zeon_01/Gagaul.mesh"
 		scale = 1.0
 		meshsettings = {
-			texture_diffuse = "Gagaul_Diffuse.dds" 
-			texture_normal = "Gagaul_Normal.dds" 
-			texture_specular = "Gagaul_Specular.dds" 
+			texture_diffuse = "Gagaul_Diffuse.dds"
+			texture_normal = "Gagaul_Normal.dds"
+			texture_specular = "Gagaul_Specular.dds"
 			shader = "PdxMeshShip"
 		}
 	}
-	
+
 	####### JICCO #######
-	
+
 	pdxmesh = {
 		name = "zeon_01_jicco_mesh"
 		file = "gfx/models/ships/zeon_01/Jicco.mesh" #Jicco
@@ -1229,93 +1427,93 @@ objectTypes = {
 			shader = "PdxMeshShip"
 		}
 	}
-	
+
 	###### MUSAI KAI #######
-	
+
 	pdxmesh = {
 		name = "zeon_01_musai_kai_mesh"
 		file = "gfx/models/ships/zeon_01/Musai_Kai.mesh"
 		scale = 1.0
 		meshsettings = {
-			texture_diffuse = "Musai_Kai_Diffuse.dds" 
-			texture_normal = "Musai_Kai_Normal.dds" 
+			texture_diffuse = "Musai_Kai_Diffuse.dds"
+			texture_normal = "Musai_Kai_Normal.dds"
 			texture_specular = "Musai_Specular.dds" #Musai_Kai_Specular
 			shader = "PdxMeshShip"
 		}
 	}
-	
+
 	###### CHIVVAY KAI RED #######
-	
+
 	pdxmesh = {
 		name = "zeon_01_chivvay_kai_mesh"
 		file = "gfx/models/ships/zeon_01/Chivvay_Red.mesh"
 		scale = 0.08
 		meshsettings = {
-			texture_diffuse = "Chivvay_Red_Diffuse.dds" 
-			texture_normal = "Chivvay_Red_Normal.dds" 
+			texture_diffuse = "Chivvay_Red_Diffuse.dds"
+			texture_normal = "Chivvay_Red_Normal.dds"
 			texture_specular = "Chivvay_Red_Specular.dds"
 			shader = "PdxMeshShip"
 		}
 	}
-	
+
 	###### CHIVVAY GREEN #######
-	
+
 	pdxmesh = {
 		name = "zeon_01_chivvay_mesh"
 		file = "gfx/models/ships/zeon_01/Chivvay_Green.mesh"
 		scale = 0.08
 		meshsettings = {
-			texture_diffuse = "Chivvay_Green_Diffuse.dds" 
-			texture_normal = "Chivvay_Green_Normal.dds" 
+			texture_diffuse = "Chivvay_Green_Diffuse.dds"
+			texture_normal = "Chivvay_Green_Normal.dds"
 			texture_specular = "Chivvay_Green_Specular.dds"
 			shader = "PdxMeshShip"
 		}
 	}
-	
+
 	###### GWAZINE #######
-	
+
 	pdxmesh = {
 		name = "zeon_01_gwazine_mesh"
 		file = "gfx/models/ships/zeon_01/gwazine.mesh"
 		scale = 1.0
 		meshsettings = {
-			texture_diffuse = "gwazine_diffuse.dds" 
-			texture_normal = "gwazine_normal.dds" 
-			texture_specular = "gwazine_specular.dds" 
+			texture_diffuse = "gwazine_diffuse.dds"
+			texture_normal = "gwazine_normal.dds"
+			texture_specular = "gwazine_specular.dds"
 			shader = "PdxMeshShip"
 		}
 	}
-	
+
 	###### REWLOOLA #######
-	
+
 	pdxmesh = {
 		name = "zeon_01_rewloola_mesh"
 		file = "gfx/models/ships/zeon_01/Rewloola.mesh"
 		scale = 0.09
 		meshsettings = {
-			texture_diffuse = "Rewloola_Diffuse.dds" 
-			texture_normal = "Rewloola_Normal.dds" 
-			texture_specular = "Rewloola_Specular.dds" 
+			texture_diffuse = "Rewloola_Diffuse.dds"
+			texture_normal = "Rewloola_Normal.dds"
+			texture_specular = "Rewloola_Specular.dds"
 			shader = "PdxMeshShip"
 		}
 	}
-	
+
 	###### ABOA QU #######
-	
+
 	pdxmesh = {
 		name = "zeon_01_aboa_qu_mesh"
 		file = "gfx/models/ships/zeon_01/Aboa_Qu.mesh"
 		scale = 7.0
 		meshsettings = {
-			texture_diffuse = "Aboa_Qu_Diffuse.dds" 
-			texture_normal = "Aboa_Qu_Normal.dds" 
-			texture_specular = "Aboa_Qu_Specular.dds" 
+			texture_diffuse = "Aboa_Qu_Diffuse.dds"
+			texture_normal = "Aboa_Qu_Normal.dds"
+			texture_specular = "Aboa_Qu_Specular.dds"
 			shader = "PdxMeshShip"
 		}
 	}
-	
-	#######  cruiser bow sections  #######	
-	
+
+	#######  cruiser bow sections  #######
+
 	pdxmesh = {
 		name = "zeon_01_cruiser_bow_L1_mesh"
 		file = "gfx/models/ships/reptilian_01/reptilian_01_cruiser_bow_L1.mesh" #reptilian_01/reptilian_01_cruiser_bow_L1
@@ -1325,7 +1523,7 @@ objectTypes = {
 			shader = "PdxMeshShip"
 		}
 	}
-		
+
 	pdxmesh = {
 		name = "zeon_01_cruiser_bow_M1S2_mesh"
 		file = "gfx/models/ships/reptilian_01/reptilian_01_cruiser_bow_M1S2.mesh"
@@ -1334,8 +1532,8 @@ objectTypes = {
 		texture_diffuse = "zeon_01_cruiser_diffuse.dds"
 			shader = "PdxMeshShip"
 		}
-	}	
-	
+	}
+
 	pdxmesh = {
 		name = "zeon_01_cruiser_bow_M2_mesh"
 		file = "gfx/models/ships/reptilian_01/reptilian_01_cruiser_bow_M2.mesh"
@@ -1345,7 +1543,7 @@ objectTypes = {
 			shader = "PdxMeshShip"
 		}
 	}
-		
+
 	pdxmesh = {
 		name = "zeon_01_musai_bow_M3"
 		file = "gfx/models/ships/zeon_01/Musai.mesh"
@@ -1357,10 +1555,10 @@ objectTypes = {
 			shader = "PdxMeshShip"
 		}
 	}
-	
-	#######  cruiser mid sections  #######			
-		
-	
+
+	#######  cruiser mid sections  #######
+
+
 	pdxmesh = {
 		name = "zeon_01_cruiser_mid_S2HB_mesh"
 		file = "gfx/models/ships/reptilian_01/reptilian_01_cruiser_mid_S2HB.mesh"
@@ -1370,7 +1568,7 @@ objectTypes = {
 			shader = "PdxMeshShip"
 		}
 	}
-	
+
 	pdxmesh = {
 		name = "zeon_01_cruiser_mid_L1M1_mesh"
 		file = "gfx/models/ships/reptilian_01/reptilian_01_cruiser_mid_L1M1.mesh"
@@ -1380,7 +1578,7 @@ objectTypes = {
 			shader = "PdxMeshShip"
 		}
 	}
-				
+
 	pdxmesh = {
 		name = "zeon_01_cruiser_mid_M3_mesh"
 		file = "gfx/models/ships/reptilian_01/reptilian_01_cruiser_mid_M3.mesh"
@@ -1389,8 +1587,8 @@ objectTypes = {
 		texture_diffuse = "zeon_01_cruiser_diffuse.dds"
 			shader = "PdxMeshShip"
 		}
-	}		
-	
+	}
+
 	pdxmesh = {
 		name = "zeon_01_cruiser_mid_M2S2_mesh"
 		file = "gfx/models/ships/reptilian_01/reptilian_01_cruiser_mid_M2S2.mesh"
@@ -1400,9 +1598,9 @@ objectTypes = {
 			shader = "PdxMeshShip"
 		}
 	}
-	
-	#######  cruiser stern sections  #######	
-		
+
+	#######  cruiser stern sections  #######
+
 	pdxmesh = {
 		name = "zeon_01_cruiser_stern_S2_mesh"
 		file = "gfx/models/ships/reptilian_01/reptilian_01_cruiser_stern_S2.mesh"
@@ -1411,8 +1609,8 @@ objectTypes = {
 		texture_diffuse = "zeon_01_cruiser_diffuse.dds"
 			shader = "PdxMeshShip"
 		}
-	}		
-	
+	}
+
 	pdxmesh = {
 		name = "zeon_01_cruiser_stern_M1_mesh"
 		file = "gfx/models/ships/reptilian_01/reptilian_01_cruiser_stern_M1.mesh"
@@ -1435,11 +1633,11 @@ objectTypes = {
 			shader = "PdxMeshShip"
 		}
 	}
-	
-	
-	
+
+
+
 	#######  Battleship frame  #######
-	
+
 	pdxmesh = {
 		name = "zeon_01_battleship_frame_mesh"
 		file = "gfx/models/ships/reptilian_01/reptilian_01_battleship_frame.mesh"
@@ -1447,16 +1645,16 @@ objectTypes = {
 				animation = { id = "death"			type = "reptilian_01_battleship_frame_death_animation" }
 				animation = { id = "death2"			type = "reptilian_01_battleship_frame_death2_animation" }
 				animation = { id = "death3"			type = "reptilian_01_battleship_frame_death3_animation" }
-				animation = { id = "attack"			type = "reptilian_01_battleship_frame_idle_animation" }				
+				animation = { id = "attack"			type = "reptilian_01_battleship_frame_idle_animation" }
 		scale = 1.0
 			meshsettings = {
 			texture_diffuse = "zeon_01_battleship_diffuse.dds"
 				shader = "PdxMeshShip"
 			}
 	}
-	
-	#######  Battleship bow sections  #######	
-	
+
+	#######  Battleship bow sections  #######
+
 	pdxmesh = {
 		name = "zeon_01_battleship_bow_L1M1S2_mesh"
 		file = "gfx/models/ships/reptilian_01/reptilian_01_battleship_bow_L1M1S2.mesh"
@@ -1466,7 +1664,7 @@ objectTypes = {
 			shader = "PdxMeshShip"
 		}
 	}
-		
+
 	pdxmesh = {
 		name = "zeon_01_battleship_bow_L1S4_mesh"
 		file = "gfx/models/ships/reptilian_01/reptilian_01_battleship_bow_L1S4.mesh"
@@ -1476,7 +1674,7 @@ objectTypes = {
 			shader = "PdxMeshShip"
 		}
 	}
-		
+
 	pdxmesh = {
 		name = "zeon_01_battleship_bow_L2_mesh"
 		file = "gfx/models/ships/reptilian_01/reptilian_01_battleship_bow_L2.mesh"
@@ -1486,7 +1684,7 @@ objectTypes = {
 			shader = "PdxMeshShip"
 		}
 	}
-		
+
 	pdxmesh = {
 		name = "zeon_01_battleship_bow_M1S2SHB_mesh"
 		file = "gfx/models/ships/reptilian_01/reptilian_01_battleship_bow_M1S2SHB.mesh"
@@ -1496,7 +1694,7 @@ objectTypes = {
 			shader = "PdxMeshShip"
 		}
 	}
-		
+
 	pdxmesh = {
 		name = "zeon_01_battleship_bow_M2S4_mesh"
 		file = "gfx/models/ships/reptilian_01/reptilian_01_battleship_bow_M2S4.mesh"
@@ -1506,7 +1704,7 @@ objectTypes = {
 			shader = "PdxMeshShip"
 		}
 	}
-		
+
 	pdxmesh = {
 		name = "zeon_01_battleship_bow_M3S2_mesh"
 		file = "gfx/models/ships/reptilian_01/reptilian_01_battleship_bow_M3S2.mesh"
@@ -1515,10 +1713,10 @@ objectTypes = {
 		texture_diffuse = "zeon_01_battleship_diffuse.dds"
 			shader = "PdxMeshShip"
 		}
-	}	
-		
-	#######  Battleship mid sections  #######			
-		
+	}
+
+	#######  Battleship mid sections  #######
+
 	pdxmesh = {
 		name = "zeon_01_battleship_mid_L2S4_mesh"
 		file = "gfx/models/ships/reptilian_01/reptilian_01_battleship_mid_L2S4.mesh"
@@ -1528,7 +1726,7 @@ objectTypes = {
 			shader = "PdxMeshShip"
 		}
 	}
-		
+
 	pdxmesh = {
 		name = "zeon_01_battleship_mid_L1M4_mesh"
 		file = "gfx/models/ships/reptilian_01/reptilian_01_battleship_mid_L1M4.mesh"
@@ -1538,7 +1736,7 @@ objectTypes = {
 			shader = "PdxMeshShip"
 		}
 	}
-		
+
 	pdxmesh = {
 		name = "zeon_01_battleship_mid_L2M2_mesh"
 		file = "gfx/models/ships/reptilian_01/reptilian_01_battleship_mid_L2M2.mesh"
@@ -1548,7 +1746,7 @@ objectTypes = {
 			shader = "PdxMeshShip"
 		}
 	}
-		
+
 	pdxmesh = {
 		name = "zeon_01_battleship_mid_L3_mesh"
 		file = "gfx/models/ships/reptilian_01/reptilian_01_battleship_mid_L3.mesh"
@@ -1558,7 +1756,7 @@ objectTypes = {
 			shader = "PdxMeshShip"
 		}
 	}
-		
+
 	pdxmesh = {
 		name = "zeon_01_battleship_mid_M4SHB_mesh"
 		file = "gfx/models/ships/reptilian_01/reptilian_01_battleship_mid_M4SHB.mesh"
@@ -1568,7 +1766,7 @@ objectTypes = {
 			shader = "PdxMeshShip"
 		}
 	}
-		
+
 	pdxmesh = {
 		name = "zeon_01_battleship_mid_S4LHB_mesh"
 		file = "gfx/models/ships/reptilian_01/reptilian_01_battleship_mid_S4LHB.mesh"
@@ -1578,10 +1776,10 @@ objectTypes = {
 			shader = "PdxMeshShip"
 		}
 	}
-		
-		
-	#######  Battleship stern sections  #######	
-		
+
+
+	#######  Battleship stern sections  #######
+
 	pdxmesh = {
 		name = "zeon_01_battleship_stern_L1_mesh"
 		file = "gfx/models/ships/reptilian_01/reptilian_01_battleship_stern_L1.mesh"
@@ -1591,7 +1789,7 @@ objectTypes = {
 			shader = "PdxMeshShip"
 		}
 	}
-	
+
 	pdxmesh = {
 		name = "zeon_01_battleship_stern_M1S2_mesh"
 		file = "gfx/models/ships/reptilian_01/reptilian_01_battleship_stern_M1S2.mesh"
@@ -1600,8 +1798,8 @@ objectTypes = {
 		texture_diffuse = "zeon_01_battleship_diffuse.dds"
 			shader = "PdxMeshShip"
 		}
-	}		
-		
+	}
+
 	pdxmesh = {
 		name = "zeon_01_battleship_stern_m2_mesh"
 		file = "gfx/models/ships/reptilian_01/reptilian_01_battleship_stern_M2.mesh"
@@ -1610,8 +1808,8 @@ objectTypes = {
 		texture_diffuse = "zeon_01_battleship_diffuse.dds"
 			shader = "PdxMeshShip"
 		}
-	}	
-	
+	}
+
 	pdxmesh = {
 		name = "zeon_01_battleship_stern_S4_mesh"
 		file = "gfx/models/ships/reptilian_01/reptilian_01_battleship_stern_S4.mesh"
@@ -1620,28 +1818,28 @@ objectTypes = {
 			texture_diffuse = "zeon_01_battleship_diffuse.dds"
 			shader = "PdxMeshShip"
 		}
-	}	
-	
-	#######  Stations  #######	
-	
+	}
+
+	#######  Stations  #######
+
 	pdxmesh = {
 		name = "zeon_01_orbital_station_frame_mesh"
 		file = "gfx/models/ships/zeon_01/Colony_Open.mesh"
 		scale = 1.0
-		
+
 		meshsettings = {
 			texture_diffuse = "Colony.dds"
 			texture_normal = "musai_normal.dds"
 			texture_specular = "musai_specular.dds"
 			shader = "PdxMeshShip"
 		}
-	}	
-	
+	}
+
 	pdxmesh = {
 		name = "zeon_01_orbital_station_habitat_section_mesh"
 		file = "gfx/models/ships/zeon_01/Colony_Open.mesh"
 		scale = 4.5
-		
+
 		meshsettings = {
 			texture_diffuse = "Colony_Open_Diffuse.dds"
 			texture_normal = "Colony_Open_Normal.dds"
@@ -1667,7 +1865,7 @@ objectTypes = {
 		#	shader = "PdxMeshTerraAlphaBlend"
 		#}
 	}
-	
+
 	pdxmesh = {
 		name = "zeon_01_science_station_mesh"
 		file = "gfx/models/ships/reptilian_01/reptilian_01_science_station.mesh"
@@ -1677,7 +1875,7 @@ objectTypes = {
 			shader = "PdxMeshShip"
 		}
 	}
-	
+
 	pdxmesh = {
 		name = "zeon_01_mining_station_mesh"
 		file = "gfx/models/ships/reptilian_01/reptilian_01_mining_station.mesh"
@@ -1687,7 +1885,7 @@ objectTypes = {
 			shader = "PdxMeshShip"
 		}
 	}
-	
+
 	pdxmesh = {
 		name = "zeon_01_terraforming_station_mesh"
 		file = "gfx/models/ships/reptilian_01/reptilian_01_terraforming_station.mesh"
@@ -1697,7 +1895,7 @@ objectTypes = {
 			shader = "PdxMeshShip"
 		}
 	}
-	
+
 	pdxmesh = {
 		name = "zeon_01_military_station_large_mesh"
 		file = "gfx/models/ships/reptilian_01/reptilian_01_military_station_large.mesh"
@@ -1707,7 +1905,7 @@ objectTypes = {
 			shader = "PdxMeshShip"
 		}
 	}
-	
+
 	pdxmesh = {
 		name = "zeon_01_military_station_medium_mesh"
 		file = "gfx/models/ships/reptilian_01/reptilian_01_military_station_medium.mesh"
@@ -1717,7 +1915,7 @@ objectTypes = {
 			shader = "PdxMeshShip"
 		}
 	}
-	
+
 	pdxmesh = {
 		name = "zeon_01_military_station_small_mesh"
 		file = "gfx/models/ships/reptilian_01/reptilian_01_military_station_small.mesh"
@@ -1726,8 +1924,8 @@ objectTypes = {
 		texture_diffuse = "zeon_01_stations_diffuse.dds"
 			shader = "PdxMeshShip"
 		}
-	}	
-	
+	}
+
 	pdxmesh = {
 		name = "zeon_01_military_station_section_heavy_mesh"
 		file = "gfx/models/ships/reptilian_01/reptilian_01_military_station_section_heavy.mesh"
@@ -1736,8 +1934,8 @@ objectTypes = {
 		texture_diffuse = "zeon_01_stations_diffuse.dds"
 			shader = "PdxMeshShip"
 		}
-	}	
-	
+	}
+
 	pdxmesh = {
 		name = "zeon_01_military_station_section_medium_mesh"
 		file = "gfx/models/ships/reptilian_01/reptilian_01_military_station_section_medium.mesh"
@@ -1746,8 +1944,8 @@ objectTypes = {
 		texture_diffuse = "zeon_01_stations_diffuse.dds"
 			shader = "PdxMeshShip"
 		}
-	}	
-	
+	}
+
 	pdxmesh = {
 		name = "zeon_01_military_station_section_light_mesh"
 		file = "gfx/models/ships/reptilian_01/reptilian_01_military_station_section_light.mesh"
@@ -1757,7 +1955,7 @@ objectTypes = {
 			shader = "PdxMeshShip"
 		}
 	}
-	
+
 	pdxmesh = {
 		name = "zeon_01_orbital_station_frame_mesh"
 		file = "gfx/models/ships/reptilian_01/reptilian_01_orbital_station_frame.mesh"
@@ -1767,7 +1965,7 @@ objectTypes = {
 			shader = "PdxMeshShip"
 		}
 	}
-	
+
 	pdxmesh = {
 		name = "zeon_01_orbital_station_mesh"
 		file = "gfx/models/ships/reptilian_01/reptilian_01_orbital_station.mesh"
@@ -1777,7 +1975,7 @@ objectTypes = {
 			shader = "PdxMeshShip"
 		}
 	}
-	
+
 	pdxmesh = {
 		name = "zeon_01_orbital_station_science_section_mesh"
 		file = "gfx/models/ships/reptilian_01/reptilian_01_orbital_station_science_section.mesh"
@@ -1787,7 +1985,7 @@ objectTypes = {
 			shader = "PdxMeshShip"
 		}
 	}
-	
+
 	pdxmesh = {
 		name = "zeon_01_orbital_station_assemblyyard_section_mesh"
 		file = "gfx/models/ships/reptilian_01/reptilian_01_orbital_station_assemblyyard_section.mesh"
@@ -1797,7 +1995,7 @@ objectTypes = {
 			shader = "PdxMeshShip"
 		}
 	}
-	
+
 	pdxmesh = {
 		name = "zeon_01_orbital_station_hangar_section_mesh"
 		file = "gfx/models/ships/reptilian_01/reptilian_01_orbital_station_hangar_section.mesh"
@@ -1817,7 +2015,7 @@ objectTypes = {
 			shader = "PdxMeshShip"
 		}
 	}
-	
+
 	pdxmesh = {
 		name = "zeon_01_military_station_small_test_mesh"
 		file = "gfx/models/ships/reptilian_01/reptilian_01_military_station_small_test.mesh"
@@ -1827,7 +2025,7 @@ objectTypes = {
 			shader = "PdxMeshShip"
 		}
 	}
-	
+
 	pdxmesh = {
 		name = "zeon_01_military_station_medium_test_mesh"
 		file = "gfx/models/ships/reptilian_01/reptilian_01_military_station_medium_test.mesh"
@@ -1837,7 +2035,7 @@ objectTypes = {
 			shader = "PdxMeshShip"
 		}
 	}
-	
+
 	pdxmesh = {
 		name = "zeon_01_military_station_large_test_mesh"
 		file = "gfx/models/ships/reptilian_01/reptilian_01_military_station_large_test.mesh"
@@ -1847,7 +2045,7 @@ objectTypes = {
 			shader = "PdxMeshShip"
 		}
 	}
-	
+
 	pdxmesh = {
 		name = "zeonasteroid_entity"
 		file = "gfx/models/planets/asteroid.mesh"
@@ -1858,5 +2056,3 @@ objectTypes = {
 			texture_normal = "zeonasteroid02_normal.dds"
 	}
 }
-
-	
