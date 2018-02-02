@@ -171,8 +171,8 @@ weapon_component_template = {
 	size = point_defence
 	entity = "Zeon_Machine_Gun_01_Entity"
 	damage = { min = 100.0 max = 200.0 }
-	windup = { min = 5.0 max = 20.0 }
-	total_fire_time = 3
+	#windup = { min = 5.0 max = 20.0 }
+	total_fire_time = 20
 	range = 30.0
 	accuracy = 0.82
 	tracking  = 0.65
@@ -199,8 +199,8 @@ weapon_component_template = {
 	size = point_defence
 	entity = "Zeon_Machine_Gun_01_Entity"
 	damage = { min = 25.0 max = 75.0 }
-	windup = { min = 1.0 max = 10.0 }
-	total_fire_time = 3
+	#windup = { min = 1.0 max = 10.0 }
+	total_fire_time = 10
 	range = 30.0
 	accuracy = 0.82
 	tracking  = 0.65

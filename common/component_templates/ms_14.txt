@@ -3,15 +3,14 @@
 utility_component_template = {
 	key = "ms_14_armor_1"
 	size = small
-	icon = "radiation_armor"
+	icon = "GFX_ship_part_armor_1"
 	icon_frame = 1
 	power = 0
 	cost = 0
 
 	modifier = {
-		ship_armor_add = 25
-		ship_evasion_add = -5
-		ship_hitpoints_mult = 0.04
+		ship_armor_add = 35
+		ship_hitpoints_mult = 0.05
 	}
 	#ship_modifier = {
 	#	ship_weapon_damage = 0.01
@@ -30,14 +29,14 @@ utility_component_template = {
 utility_component_template = {
 	key = "ms_14_armor_2"
 	size = small
-	icon = "GFX_ship_part_armor_1"
+	icon = "GFX_ship_part_armor_2"
 	icon_frame = 1
 	power = 0
 	cost = 0
 
 	modifier = {
-		ship_armor_add = 20
-		ship_hitpoints_mult = 0.04
+		ship_armor_add = 35
+		ship_hitpoints_mult = 0.07
 	}
 	#ship_modifier = {
 	#	ship_weapon_damage = 0.01
@@ -56,46 +55,20 @@ utility_component_template = {
 utility_component_template = {
 	key = "ms_14_armor_3"
 	size = small
-	icon = "GFX_ship_part_armor_2"
-	icon_frame = 1
-	power = 0
-	cost = 0
-
-	modifier = {
-		ship_armor_add = 25
-		ship_hitpoints_mult = 0.05
-	}
-	#ship_modifier = {
-	#	ship_weapon_damage = 0.01
-	#}
-
-	prerequisites = { "tech_MS_14F" }
-
-	component_set = "ms_06_armor"
-	#upgrades_to = "oyw_zeon_pilot_putv_veteran"
-
-	ai_weight = {
-		weight = 1
-	}
-}
-
-utility_component_template = {
-	key = "ms_14_armor_4"
-	size = small
 	icon = "GFX_ship_part_armor_3"
 	icon_frame = 1
 	power = 0
 	cost = 0
 
 	modifier = {
-		ship_armor_add = 30
-		ship_hitpoints_mult = 0.03
+		ship_armor_add = 37
+		ship_hitpoints_mult = 0.1
 	}
 	#ship_modifier = {
 	#	ship_weapon_damage = 0.01
 	#}
 
-	prerequisites = { "tech_MS_14JG" }
+	prerequisites = { "tech_MS_14F" }
 
 	component_set = "ms_14_armor"
 	#upgrades_to = "oyw_zeon_pilot_putv_veteran"
@@ -106,22 +79,22 @@ utility_component_template = {
 }
 
 utility_component_template = {
-	key = "ms_14_armor_5"
+	key = "ms_14_armor_4"
 	size = small
 	icon = "GFX_ship_part_armor_4"
 	icon_frame = 1
 	power = 0
-	cost = 0
+	cost = -15
 
 	modifier = {
-		ship_armor_add = 35
-		ship_hitpoints_mult = 0.06
+		ship_armor_add = 40
+		ship_hitpoints_mult = 0.09
 	}
 	#ship_modifier = {
 	#	ship_weapon_damage = 0.01
 	#}
 
-	prerequisites = { "tech_MS_14H" }
+	prerequisites = { "tech_MS_14JG" }
 
 	component_set = "ms_14_armor"
 	#upgrades_to = "oyw_zeon_pilot_putv_veteran"
@@ -140,7 +113,9 @@ utility_component_template = {
 	cost = 0
 
 	modifier = {
-		ship_evasion_add = 50
+		ship_evasion_add = 55
+		ship_speed_mult = 0.425
+		ship_combat_speed_mult = 0.425
 	}
 	#ship_modifier = {
 	#	ship_weapon_damage = 0.01
@@ -166,6 +141,8 @@ utility_component_template = {
 
 	modifier = {
 		ship_evasion_add = 55
+		ship_speed_mult = 0.775
+		ship_combat_speed_mult = 0.775
 	}
 	#ship_modifier = {
 	#	ship_weapon_damage = 0.01
@@ -187,72 +164,18 @@ utility_component_template = {
 	icon = "GFX_ship_part_thruster_3"
 	icon_frame = 1
 	power = 0
-	cost = 0
+	cost = -15
 
 	modifier = {
-		ship_evasion_add = 55
-		ship_speed_mult = 0.29
-		ship_combat_speed_mult = 0.29
-	}
-	#ship_modifier = {
-	#	ship_weapon_damage = 0.01
-	#}
-
-	prerequisites = { "tech_MS_14F" }
-
-	component_set = "ms_14_thrusters"
-	#upgrades_to = "oyw_zeon_pilot_putv_veteran"
-
-	ai_weight = {
-		weight = 1
-	}
-}
-
-utility_component_template = {
-	key = "ms_14_thrusters_4"
-	size = small
-	icon = "GFX_ship_part_thruster_4"
-	icon_frame = 1
-	power = 0
-	cost = 0
-
-	modifier = {
-		ship_evasion_add = 57
-		ship_speed_mult = 0.81
-		ship_combat_speed_mult = 0.81
+		ship_evasion_add = 60
+		ship_speed_mult = 2.775
+		ship_combat_speed_mult = 2.775
 	}
 	#ship_modifier = {
 	#	ship_weapon_damage = 0.01
 	#}
 
 	prerequisites = { "tech_MS_14JG" }
-
-	component_set = "ms_14_thrusters"
-	#upgrades_to = "oyw_zeon_pilot_putv_veteran"
-
-	ai_weight = {
-		weight = 1
-	}
-}
-
-utility_component_template = {
-	key = "ms_14_thrusters_5"
-	size = small
-	icon = "GFX_ship_part_thruster_5"
-	icon_frame = 1
-	power = 0
-	cost = 0
-
-	modifier = {
-		ship_evasion_add = 57
-		ship_speed_mult = 0.81
-		ship_combat_speed_mult = 0.81
-	}
-	#ship_modifier = {
-	#	ship_weapon_damage = 0.01
-	#}
-
-	prerequisites = { "tech_MS_14J" }
 
 	component_set = "ms_14_thrusters"
 	#upgrades_to = "oyw_zeon_pilot_putv_veteran"

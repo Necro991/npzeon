@@ -9,8 +9,8 @@ utility_component_template = {
 	cost = 0
 
 	modifier = {
-		ship_armor_add = 20
-		ship_hitpoints_mult = 0.04
+		ship_armor_add = 35
+		ship_hitpoints_mult = 0.08
 	}
 	#ship_modifier = {
 	#	ship_weapon_damage = 0.01
@@ -19,7 +19,7 @@ utility_component_template = {
 	prerequisites = { "tech_MS_09R" }
 
 	component_set = "ms_09_armor"
-	#upgrades_to = "oyw_zeon_pilot_putv_veteran"
+	upgrades_to = "ms_09_armor_2"
 
 	ai_weight = {
 		weight = 1
@@ -32,11 +32,11 @@ utility_component_template = {
 	icon = "GFX_ship_part_armor_2"
 	icon_frame = 1
 	power = 0
-	cost = 0
+	cost = -20
 
 	modifier = {
-		ship_armor_add = 20
-		ship_hitpoints_mult = 0.04
+		ship_armor_add = 40
+		ship_hitpoints_mult = 0.09
 	}
 	#ship_modifier = {
 	#	ship_weapon_damage = 0.01
@@ -61,7 +61,9 @@ utility_component_template = {
 	cost = 0
 
 	modifier = {
-		ship_evasion_add = 50
+		ship_evasion_add = 55
+		ship_speed_mult = 0.15
+		ship_combat_speed_mult = 0.15
 	}
 	#ship_modifier = {
 	#	ship_weapon_damage = 0.01
@@ -70,7 +72,7 @@ utility_component_template = {
 	prerequisites = { "tech_MS_09R" }
 
 	component_set = "ms_09_thrusters"
-	#upgrades_to = "oyw_zeon_pilot_putv_veteran"
+	upgrades_to = "ms_09_thrusters_2"
 
 	ai_weight = {
 		weight = 1
@@ -86,7 +88,9 @@ utility_component_template = {
 	cost = 0
 
 	modifier = {
-		ship_evasion_add = 55
+		ship_evasion_add = 60
+		ship_speed_mult = 1.35
+		ship_combat_speed_mult = 1.35
 	}
 	#ship_modifier = {
 	#	ship_weapon_damage = 0.01
