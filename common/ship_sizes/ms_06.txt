@@ -89,7 +89,7 @@ MS_06S = { #MS-06S
 	can_have_federation_design = yes
 	enable_default_design = no	#if yes, countries will have an auto-generated design at start
 
-	prerequisites = { "tech_MS_06F" }
+	prerequisites = { "tech_MS_06C" }
 
 	class = shipclass_military
 	required_component_set = "ftl_components"
@@ -97,7 +97,7 @@ MS_06S = { #MS-06S
 	required_component_set = "oyw_zeon_commander_aura"
 	required_component_set = "zeon_melee_aura"
 	required_component_set = "zeon_grenade_aura"
-	required_component_set = "ms_reactor"
+	required_component_set = "commander_ms_reactor"
 	required_component_set = "ms_06_armor"
 	required_component_set = "ms_06_thrusters"
 	required_component_set = "ship_sensor_components"

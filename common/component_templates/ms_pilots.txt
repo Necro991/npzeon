@@ -82,9 +82,9 @@ utility_component_template = {
 	cost = 10
 
 	ship_modifier = {
-		ship_weapon_damage = 0.1
-		ship_accuracy_add = 5
-		ship_fire_rate_mult = 0.05
+		ship_weapon_damage = 0.2
+		ship_accuracy_add = 7.5
+		ship_fire_rate_mult = 0.075
 	}
 
 	prerequisites = { "tech_MS_05B" }
@@ -92,6 +92,106 @@ utility_component_template = {
 	component_set = "oyw_zeon_pilot_vuta"
 	ship_behavior = "mobile_suit_behavior"
 	#upgrades_to = "oyw_zeon_pilot_putv_veteran"
+
+	ai_weight = {
+		weight = 1
+	}
+}
+
+utility_component_template = {
+	key = "oyw_efsf_pilot_putv_green"
+	size = small
+	icon = "oyw_efsf_pilot_green"
+	icon_frame = 1
+	power = 0
+	cost = -10
+
+	#ship_modifier = {
+	#	ship_weapon_damage = 0.3
+	#	ship_accuracy_add = 5
+	#	ship_fire_rate_mult = 0.15
+	#}
+
+	prerequisites = { "tech_RB_79" }
+
+	component_set = "oyw_efsf_pilot_putv"
+	ship_behavior = "mobile_suit_behavior"
+	upgrades_to = "oyw_efsf_pilot_putv_veteran"
+
+	ai_weight = {
+		weight = 1
+	}
+}
+
+utility_component_template = {
+	key = "oyw_efsf_pilot_putv_veteran"
+	size = small
+	icon = "oyw_efsf_pilot_veteran"
+	icon_frame = 1
+	power = 0
+	cost = 10
+
+	ship_modifier = {
+		ship_weapon_damage = 0.1
+		ship_accuracy_add = 5
+		ship_fire_rate_mult = 0.05
+	}
+
+	prerequisites = { "tech_RB_79" }
+
+	component_set = "oyw_efsf_pilot_putv"
+	ship_behavior = "mobile_suit_behavior"
+	#upgrades_to = "oyw_efsf_pilot_putv_veteran"
+
+	ai_weight = {
+		weight = 1
+	}
+}
+
+utility_component_template = {
+	key = "oyw_efsf_pilot_vuta_veteran"
+	size = small
+	icon = "oyw_efsf_pilot_veteran"
+	icon_frame = 1
+	power = 0
+	cost = 10
+
+	ship_modifier = {
+		ship_weapon_damage = 0.1
+		ship_accuracy_add = 5
+		ship_fire_rate_mult = 0.05
+	}
+
+	prerequisites = { "tech_RB_79" }
+
+	component_set = "oyw_efsf_pilot_vuta"
+	ship_behavior = "mobile_suit_behavior"
+	upgrades_to = "oyw_efsf_pilot_vuta_ace"
+
+	ai_weight = {
+		weight = 1
+	}
+}
+
+utility_component_template = {
+	key = "oyw_efsf_pilot_vuta_ace"
+	size = small
+	icon = "oyw_efsf_pilot_ace"
+	icon_frame = 1
+	power = 0
+	cost = 10
+
+	ship_modifier = {
+		ship_weapon_damage = 0.1
+		ship_accuracy_add = 7.5
+		ship_fire_rate_mult = 0.075
+	}
+
+	prerequisites = { "tech_RB_79" }
+
+	component_set = "oyw_efsf_pilot_vuta"
+	ship_behavior = "mobile_suit_behavior"
+	#upgrades_to = "oyw_efsf_pilot_putv_veteran"
 
 	ai_weight = {
 		weight = 1

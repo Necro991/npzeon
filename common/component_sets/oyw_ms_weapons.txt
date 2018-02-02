@@ -41,7 +41,56 @@ component_set = {
 }
 
 component_set = {
+	key = "OYW_ZEON_BEAM_RIFLE"
+
+	icon = "GFX_ship_part_mass_driver_1"
+	icon_frame = 1
+}
+
+component_set = {
+	key = "OYW_ZEON_BEAM_MG"
+
+	icon = "GFX_ship_part_mass_driver_1"
+	icon_frame = 1
+}
+
+component_set = {
 	key = "OYW_ZEON_STURMFAUST"
+
+	icon = "GFX_ship_part_mass_driver_1"
+	icon_frame = 1
+}
+
+component_set = {
+	key = "OYW_ZEON_280MM_1"
+
+	icon = "GFX_ship_part_mass_driver_1"
+	icon_frame = 1
+}
+
+component_set = {
+	key = "OYW_ZEON_280MM_2"
+
+	icon = "GFX_ship_part_mass_driver_1"
+	icon_frame = 1
+}
+
+component_set = {
+	key = "OYW_ZEON_360MM_1"
+
+	icon = "GFX_ship_part_mass_driver_1"
+	icon_frame = 1
+}
+
+component_set = {
+	key = "OYW_ZEON_360MM_2"
+
+	icon = "GFX_ship_part_mass_driver_1"
+	icon_frame = 1
+}
+
+component_set = {
+	key = "OYW_ZEON_420MM"
 
 	icon = "GFX_ship_part_mass_driver_1"
 	icon_frame = 1

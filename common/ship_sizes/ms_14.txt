@@ -1,0 +1,104 @@
+#reloadable with 'reload stats'
+# This file is where you start when you want to configure something new, then go to sections
+
+@zcivilian_ships_combat_speed = 0.5
+@zcorvette_combat_speed = 1.5
+@zcorvette_combat_rotation = 0.08
+@zcorvette_collision_radius = 2.0
+
+@zdestroyer_combat_speed = 1.0
+@zdestroyer_combat_rotation = 0.05
+@zdestroyer_collision_radius = 3
+
+@zcruiser_combat_speed = 0.7
+@zcruiser_combat_rotation = 0.025
+@zcruiser_collision_radius = 4
+
+@zbattleship_combat_speed = 0.35
+@zbattleship_combat_rotation = 0.02
+@zbattleship_collision_radius = 6
+
+@zbuild_block_radius_none = 0
+@zbuild_block_radius_tiny = 10
+@zbuild_block_radius_small = 70
+@zbuild_block_radius_medium = 90
+@zbuild_block_radius_large = 110
+
+############
+# STANDARD #
+############
+
+MS_14 = { #MS-14 MPT
+	entity = zakuIframe_entity
+	max_speed = 4
+	acceleration = 0.5
+	rotation_speed = 0.455
+	combat_max_speed = 4
+	combat_rotation_speed = 0.455
+	collision_radius = 1
+	#modifier = {
+	#	ship_evasion_add = 50
+	#	ship_armor_add = 20
+	#}
+	max_hitpoints = 300
+	size_multiplier = 1
+	fleet_slot_size = 16
+	section_slots = { "mid" = { locator = "part1" } }
+	num_target_locators = 4
+	is_space_station = no
+	icon_frame = 2
+	base_buildtime = 30
+	required_spaceport_level = 1
+	can_have_federation_design = yes
+	enable_default_design = no	#if yes, countries will have an auto-generated design at start
+
+	prerequisites = { "tech_MS_14A" }
+
+	class = shipclass_military
+	required_component_set = "ftl_components"
+	required_component_set = "oyw_zeon_pilot_putv"
+	required_component_set = "zeon_melee_aura"
+	required_component_set = "zeon_grenade_aura"
+	required_component_set = "ms_reactor"
+	required_component_set = "ms_14_armor"
+	required_component_set = "ms_14_thrusters"
+	required_component_set = "ship_sensor_components"
+}
+
+MS_14S = { #MS-14S
+	entity = zakuIframe_entity
+	max_speed = 4
+	acceleration = 0.5
+	rotation_speed = 0.455
+	combat_max_speed = 4
+	combat_rotation_speed = 0.455
+	collision_radius = 1
+	#modifier = {
+	#	ship_evasion_add = 50
+	#	ship_armor_add = 20
+	#}
+	max_hitpoints = 300
+	size_multiplier = 1
+	fleet_slot_size = 16
+	section_slots = { "mid" = { locator = "part1" } }
+	num_target_locators = 4
+	is_space_station = no
+	icon_frame = 2
+	base_buildtime = 30
+	required_spaceport_level = 1
+	can_have_federation_design = yes
+	enable_default_design = no	#if yes, countries will have an auto-generated design at start
+
+	prerequisites = { "tech_MS_14A" }
+
+	class = shipclass_military
+	required_component_set = "ftl_components"
+	required_component_set = "oyw_zeon_pilot_vuta"
+	required_component_set = "oyw_zeon_commander_aura"
+	required_component_set = "zeon_melee_aura"
+	required_component_set = "zeon_grenade_aura"
+	required_component_set = "commander_ms_reactor"
+	required_component_set = "ms_14_armor"
+	required_component_set = "ms_14_thrusters"
+	required_component_set = "ship_sensor_components"
+}

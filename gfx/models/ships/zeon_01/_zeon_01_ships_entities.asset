@@ -2417,9 +2417,9 @@ entity = {
 		scale = 1.00
 	}
 
-	entity = { #ZAKU II Ace
-		name = "zaku2_ace_test_entity"
-		pdxmesh = "zeon_ms_06_s_group_S3_mesh"
+	entity = { #ZAKU II Tristars
+		name = "zaku2_tristars_entity"
+		pdxmesh = "zeon_tristars_group_S3_mesh"
 
 		locator = { name = "root" 			position = { 0 	0 	0	} }
 		locator = { name = "small_gun_01" 			position = { 0 	0 	0	} scale = 0.0} #X,Up/Down,Forward/Back 0 	0.4 	-0.3
@@ -2446,9 +2446,444 @@ entity = {
 		scale = 1.00
 	}
 
-	entity = { #ZAKU II Tristars
-		name = "zaku2_tristars_entity"
-		pdxmesh = "zeon_tristars_group_S3_mesh"
+	entity = { #ZAKU II Ramba
+		name = "zaku2_ramba_entity"
+		pdxmesh = "zeon_ms_06_s_ramba_group_S3_mesh"
+
+		locator = { name = "root" 			position = { 0 	0 	0	} }
+		locator = { name = "small_gun_01" 			position = { 0 	0 	0	} scale = 0.0} #X,Up/Down,Forward/Back 0 	0.4 	-0.3
+		locator = { name = "small_gun_02" 			position = { 0 	0 	0 	} scale = 0.0} #0.5	0.4 	-0.3
+		locator = { name = "small_gun_03" 			position = { 0 	0 	0 	} scale = 0.0} #-0.5 	0.4 	-0.3
+		locator = { name = "small_gun_04" 			position = { 0 	0 	0 	} scale = 0.0} #-0.5 	0.4 	-0.3
+		locator = { name = "medium_gun_01" 			position = { 0 	0 	0 	} scale = 0.0}
+		locator = { name = "light_locator_01" 			position = { 0  0 	0 	} }
+		locator = { name = "light_locator_02" 			position = { 0 	0 	0 	} }
+		locator = { name = "exaust_01" 			position = { 0 	0 	0 	} }
+
+		default_state = "idle"
+		state = { name = "idle"		state_time = 5
+
+			event = { time = 0 node = "light_locator_01" particle = "ship_light_blue_effect" trigger_once = yes keep_particle = yes }
+			event = { time = 0 node = "light_locator_02" particle = "ship_light_blue_effect" trigger_once = yes keep_particle = yes }
+			}
+		state = { name = "moving"	state_time = 5
+
+			event = { time = 0 node = "light_locator_01" particle = "ship_light_blue_effect" trigger_once = yes keep_particle = yes }
+			event = { time = 0 node = "light_locator_02" particle = "ship_light_blue_effect" trigger_once = yes keep_particle = yes }
+			}
+		state = { name = "death" state_time = 5 }
+		scale = 1.00
+	}
+
+	entity = { #ZAKU II Gato
+		name = "zaku2_gato_entity"
+		pdxmesh = "zeon_ms_06_s_gato_group_S3_mesh"
+
+		locator = { name = "root" 			position = { 0 	0 	0	} }
+		locator = { name = "small_gun_01" 			position = { 0 	0 	0	} scale = 0.0} #X,Up/Down,Forward/Back 0 	0.4 	-0.3
+		locator = { name = "small_gun_02" 			position = { 0 	0 	0 	} scale = 0.0} #0.5	0.4 	-0.3
+		locator = { name = "small_gun_03" 			position = { 0 	0 	0 	} scale = 0.0} #-0.5 	0.4 	-0.3
+		locator = { name = "small_gun_04" 			position = { 0 	0 	0 	} scale = 0.0} #-0.5 	0.4 	-0.3
+		locator = { name = "medium_gun_01" 			position = { 0 	0 	0 	} scale = 0.0}
+		locator = { name = "light_locator_01" 			position = { 0  0 	0 	} }
+		locator = { name = "light_locator_02" 			position = { 0 	0 	0 	} }
+		locator = { name = "exaust_01" 			position = { 0 	0 	0 	} }
+
+		default_state = "idle"
+		state = { name = "idle"		state_time = 5
+
+			event = { time = 0 node = "light_locator_01" particle = "ship_light_blue_effect" trigger_once = yes keep_particle = yes }
+			event = { time = 0 node = "light_locator_02" particle = "ship_light_blue_effect" trigger_once = yes keep_particle = yes }
+			}
+		state = { name = "moving"	state_time = 5
+
+			event = { time = 0 node = "light_locator_01" particle = "ship_light_blue_effect" trigger_once = yes keep_particle = yes }
+			event = { time = 0 node = "light_locator_02" particle = "ship_light_blue_effect" trigger_once = yes keep_particle = yes }
+			}
+		state = { name = "death" state_time = 5 }
+		scale = 1.00
+	}
+
+	entity = { #ZAKU II R-2P
+		name = "zaku2_r_2p_entity"
+		pdxmesh = "zeon_ms_06_s_r_2p_group_S3_mesh"
+
+		locator = { name = "root" 			position = { 0 	0 	0	} }
+		locator = { name = "small_gun_01" 			position = { 0 	0 	0	} scale = 0.0} #X,Up/Down,Forward/Back 0 	0.4 	-0.3
+		locator = { name = "small_gun_02" 			position = { 0 	0 	0 	} scale = 0.0} #0.5	0.4 	-0.3
+		locator = { name = "small_gun_03" 			position = { 0 	0 	0 	} scale = 0.0} #-0.5 	0.4 	-0.3
+		locator = { name = "small_gun_04" 			position = { 0 	0 	0 	} scale = 0.0} #-0.5 	0.4 	-0.3
+		locator = { name = "medium_gun_01" 			position = { 0 	0 	0 	} scale = 0.0}
+		locator = { name = "light_locator_01" 			position = { 0  0 	0 	} }
+		locator = { name = "light_locator_02" 			position = { 0 	0 	0 	} }
+		locator = { name = "exaust_01" 			position = { 0 	0 	0 	} }
+
+		default_state = "idle"
+		state = { name = "idle"		state_time = 5
+
+			event = { time = 0 node = "light_locator_01" particle = "ship_light_blue_effect" trigger_once = yes keep_particle = yes }
+			event = { time = 0 node = "light_locator_02" particle = "ship_light_blue_effect" trigger_once = yes keep_particle = yes }
+			}
+		state = { name = "moving"	state_time = 5
+
+			event = { time = 0 node = "light_locator_01" particle = "ship_light_blue_effect" trigger_once = yes keep_particle = yes }
+			event = { time = 0 node = "light_locator_02" particle = "ship_light_blue_effect" trigger_once = yes keep_particle = yes }
+			}
+		state = { name = "death" state_time = 5 }
+		scale = 1.00
+	}
+
+	entity = { #ZAKU II Ridden
+		name = "zaku2_ridden_entity"
+		pdxmesh = "zeon_ms_06_s_ridden_group_S3_mesh"
+
+		locator = { name = "root" 			position = { 0 	0 	0	} }
+		locator = { name = "small_gun_01" 			position = { 0 	0 	0	} scale = 0.0} #X,Up/Down,Forward/Back 0 	0.4 	-0.3
+		locator = { name = "small_gun_02" 			position = { 0 	0 	0 	} scale = 0.0} #0.5	0.4 	-0.3
+		locator = { name = "small_gun_03" 			position = { 0 	0 	0 	} scale = 0.0} #-0.5 	0.4 	-0.3
+		locator = { name = "small_gun_04" 			position = { 0 	0 	0 	} scale = 0.0} #-0.5 	0.4 	-0.3
+		locator = { name = "medium_gun_01" 			position = { 0 	0 	0 	} scale = 0.0}
+		locator = { name = "light_locator_01" 			position = { 0  0 	0 	} }
+		locator = { name = "light_locator_02" 			position = { 0 	0 	0 	} }
+		locator = { name = "exaust_01" 			position = { 0 	0 	0 	} }
+
+		default_state = "idle"
+		state = { name = "idle"		state_time = 5
+
+			event = { time = 0 node = "light_locator_01" particle = "ship_light_blue_effect" trigger_once = yes keep_particle = yes }
+			event = { time = 0 node = "light_locator_02" particle = "ship_light_blue_effect" trigger_once = yes keep_particle = yes }
+			}
+		state = { name = "moving"	state_time = 5
+
+			event = { time = 0 node = "light_locator_01" particle = "ship_light_blue_effect" trigger_once = yes keep_particle = yes }
+			event = { time = 0 node = "light_locator_02" particle = "ship_light_blue_effect" trigger_once = yes keep_particle = yes }
+			}
+		state = { name = "death" state_time = 5 }
+		scale = 1.00
+	}
+
+	entity = { #ZAKU II Uma Lightning
+		name = "zaku2_lightning_entity"
+		pdxmesh = "zeon_ms_06_s_uma_group_S3_mesh"
+
+		locator = { name = "root" 			position = { 0 	0 	0	} }
+		locator = { name = "small_gun_01" 			position = { 0 	0 	0	} scale = 0.0} #X,Up/Down,Forward/Back 0 	0.4 	-0.3
+		locator = { name = "small_gun_02" 			position = { 0 	0 	0 	} scale = 0.0} #0.5	0.4 	-0.3
+		locator = { name = "small_gun_03" 			position = { 0 	0 	0 	} scale = 0.0} #-0.5 	0.4 	-0.3
+		locator = { name = "small_gun_04" 			position = { 0 	0 	0 	} scale = 0.0} #-0.5 	0.4 	-0.3
+		locator = { name = "medium_gun_01" 			position = { 0 	0 	0 	} scale = 0.0}
+		locator = { name = "light_locator_01" 			position = { 0  0 	0 	} }
+		locator = { name = "light_locator_02" 			position = { 0 	0 	0 	} }
+		locator = { name = "exaust_01" 			position = { 0 	0 	0 	} }
+
+		default_state = "idle"
+		state = { name = "idle"		state_time = 5
+
+			event = { time = 0 node = "light_locator_01" particle = "ship_light_blue_effect" trigger_once = yes keep_particle = yes }
+			event = { time = 0 node = "light_locator_02" particle = "ship_light_blue_effect" trigger_once = yes keep_particle = yes }
+			}
+		state = { name = "moving"	state_time = 5
+
+			event = { time = 0 node = "light_locator_01" particle = "ship_light_blue_effect" trigger_once = yes keep_particle = yes }
+			event = { time = 0 node = "light_locator_02" particle = "ship_light_blue_effect" trigger_once = yes keep_particle = yes }
+			}
+		state = { name = "death" state_time = 5 }
+		scale = 1.00
+	}
+
+	entity = { #ZAKU II Robin
+		name = "zaku2_robin_entity"
+		pdxmesh = "zeon_ms_06_s_robin_group_S3_mesh"
+
+		locator = { name = "root" 			position = { 0 	0 	0	} }
+		locator = { name = "small_gun_01" 			position = { 0 	0 	0	} scale = 0.0} #X,Up/Down,Forward/Back 0 	0.4 	-0.3
+		locator = { name = "small_gun_02" 			position = { 0 	0 	0 	} scale = 0.0} #0.5	0.4 	-0.3
+		locator = { name = "small_gun_03" 			position = { 0 	0 	0 	} scale = 0.0} #-0.5 	0.4 	-0.3
+		locator = { name = "small_gun_04" 			position = { 0 	0 	0 	} scale = 0.0} #-0.5 	0.4 	-0.3
+		locator = { name = "medium_gun_01" 			position = { 0 	0 	0 	} scale = 0.0}
+		locator = { name = "light_locator_01" 			position = { 0  0 	0 	} }
+		locator = { name = "light_locator_02" 			position = { 0 	0 	0 	} }
+		locator = { name = "exaust_01" 			position = { 0 	0 	0 	} }
+
+		default_state = "idle"
+		state = { name = "idle"		state_time = 5
+
+			event = { time = 0 node = "light_locator_01" particle = "ship_light_blue_effect" trigger_once = yes keep_particle = yes }
+			event = { time = 0 node = "light_locator_02" particle = "ship_light_blue_effect" trigger_once = yes keep_particle = yes }
+			}
+		state = { name = "moving"	state_time = 5
+
+			event = { time = 0 node = "light_locator_01" particle = "ship_light_blue_effect" trigger_once = yes keep_particle = yes }
+			event = { time = 0 node = "light_locator_02" particle = "ship_light_blue_effect" trigger_once = yes keep_particle = yes }
+			}
+		state = { name = "death" state_time = 5 }
+		scale = 1.00
+	}
+
+	entity = { #ZAKU II Robert Gilliam
+		name = "zaku2_gilliam_entity"
+		pdxmesh = "zeon_ms_06_s_gilliam_group_S3_mesh"
+
+		locator = { name = "root" 			position = { 0 	0 	0	} }
+		locator = { name = "small_gun_01" 			position = { 0 	0 	0	} scale = 0.0} #X,Up/Down,Forward/Back 0 	0.4 	-0.3
+		locator = { name = "small_gun_02" 			position = { 0 	0 	0 	} scale = 0.0} #0.5	0.4 	-0.3
+		locator = { name = "small_gun_03" 			position = { 0 	0 	0 	} scale = 0.0} #-0.5 	0.4 	-0.3
+		locator = { name = "small_gun_04" 			position = { 0 	0 	0 	} scale = 0.0} #-0.5 	0.4 	-0.3
+		locator = { name = "medium_gun_01" 			position = { 0 	0 	0 	} scale = 0.0}
+		locator = { name = "light_locator_01" 			position = { 0  0 	0 	} }
+		locator = { name = "light_locator_02" 			position = { 0 	0 	0 	} }
+		locator = { name = "exaust_01" 			position = { 0 	0 	0 	} }
+
+		default_state = "idle"
+		state = { name = "idle"		state_time = 5
+
+			event = { time = 0 node = "light_locator_01" particle = "ship_light_blue_effect" trigger_once = yes keep_particle = yes }
+			event = { time = 0 node = "light_locator_02" particle = "ship_light_blue_effect" trigger_once = yes keep_particle = yes }
+			}
+		state = { name = "moving"	state_time = 5
+
+			event = { time = 0 node = "light_locator_01" particle = "ship_light_blue_effect" trigger_once = yes keep_particle = yes }
+			event = { time = 0 node = "light_locator_02" particle = "ship_light_blue_effect" trigger_once = yes keep_particle = yes }
+			}
+		state = { name = "death" state_time = 5 }
+		scale = 1.00
+	}
+
+	entity = { #ZAKU II HMTT Elliot
+		name = "zaku2_elliot_entity"
+		pdxmesh = "zeon_ms_06_s_elliot_group_S3_mesh"
+
+		locator = { name = "root" 			position = { 0 	0 	0	} }
+		locator = { name = "small_gun_01" 			position = { 0 	0 	0	} scale = 0.0} #X,Up/Down,Forward/Back 0 	0.4 	-0.3
+		locator = { name = "small_gun_02" 			position = { 0 	0 	0 	} scale = 0.0} #0.5	0.4 	-0.3
+		locator = { name = "small_gun_03" 			position = { 0 	0 	0 	} scale = 0.0} #-0.5 	0.4 	-0.3
+		locator = { name = "small_gun_04" 			position = { 0 	0 	0 	} scale = 0.0} #-0.5 	0.4 	-0.3
+		locator = { name = "medium_gun_01" 			position = { 0 	0 	0 	} scale = 0.0}
+		locator = { name = "light_locator_01" 			position = { 0  0 	0 	} }
+		locator = { name = "light_locator_02" 			position = { 0 	0 	0 	} }
+		locator = { name = "exaust_01" 			position = { 0 	0 	0 	} }
+
+		default_state = "idle"
+		state = { name = "idle"		state_time = 5
+
+			event = { time = 0 node = "light_locator_01" particle = "ship_light_blue_effect" trigger_once = yes keep_particle = yes }
+			event = { time = 0 node = "light_locator_02" particle = "ship_light_blue_effect" trigger_once = yes keep_particle = yes }
+			}
+		state = { name = "moving"	state_time = 5
+
+			event = { time = 0 node = "light_locator_01" particle = "ship_light_blue_effect" trigger_once = yes keep_particle = yes }
+			event = { time = 0 node = "light_locator_02" particle = "ship_light_blue_effect" trigger_once = yes keep_particle = yes }
+			}
+		state = { name = "death" state_time = 5 }
+		scale = 1.00
+	}
+
+	entity = { #ZAKU II Dozle Zabi
+		name = "zaku2_dozle_entity"
+		pdxmesh = "zeon_ms_06_s_dozle_group_S3_mesh"
+
+		locator = { name = "root" 			position = { 0 	0 	0	} }
+		locator = { name = "small_gun_01" 			position = { 0 	0 	0	} scale = 0.0} #X,Up/Down,Forward/Back 0 	0.4 	-0.3
+		locator = { name = "small_gun_02" 			position = { 0 	0 	0 	} scale = 0.0} #0.5	0.4 	-0.3
+		locator = { name = "small_gun_03" 			position = { 0 	0 	0 	} scale = 0.0} #-0.5 	0.4 	-0.3
+		locator = { name = "small_gun_04" 			position = { 0 	0 	0 	} scale = 0.0} #-0.5 	0.4 	-0.3
+		locator = { name = "medium_gun_01" 			position = { 0 	0 	0 	} scale = 0.0}
+		locator = { name = "light_locator_01" 			position = { 0  0 	0 	} }
+		locator = { name = "light_locator_02" 			position = { 0 	0 	0 	} }
+		locator = { name = "exaust_01" 			position = { 0 	0 	0 	} }
+
+		default_state = "idle"
+		state = { name = "idle"		state_time = 5
+
+			event = { time = 0 node = "light_locator_01" particle = "ship_light_blue_effect" trigger_once = yes keep_particle = yes }
+			event = { time = 0 node = "light_locator_02" particle = "ship_light_blue_effect" trigger_once = yes keep_particle = yes }
+			}
+		state = { name = "moving"	state_time = 5
+
+			event = { time = 0 node = "light_locator_01" particle = "ship_light_blue_effect" trigger_once = yes keep_particle = yes }
+			event = { time = 0 node = "light_locator_02" particle = "ship_light_blue_effect" trigger_once = yes keep_particle = yes }
+			}
+		state = { name = "death" state_time = 5 }
+		scale = 1.00
+	}
+
+	entity = { #ZAKU II Gabby Hazard
+		name = "zaku2_hazard_entity"
+		pdxmesh = "zeon_ms_06_s_hazard_group_S3_mesh"
+
+		locator = { name = "root" 			position = { 0 	0 	0	} }
+		locator = { name = "small_gun_01" 			position = { 0 	0 	0	} scale = 0.0} #X,Up/Down,Forward/Back 0 	0.4 	-0.3
+		locator = { name = "small_gun_02" 			position = { 0 	0 	0 	} scale = 0.0} #0.5	0.4 	-0.3
+		locator = { name = "small_gun_03" 			position = { 0 	0 	0 	} scale = 0.0} #-0.5 	0.4 	-0.3
+		locator = { name = "small_gun_04" 			position = { 0 	0 	0 	} scale = 0.0} #-0.5 	0.4 	-0.3
+		locator = { name = "medium_gun_01" 			position = { 0 	0 	0 	} scale = 0.0}
+		locator = { name = "light_locator_01" 			position = { 0  0 	0 	} }
+		locator = { name = "light_locator_02" 			position = { 0 	0 	0 	} }
+		locator = { name = "exaust_01" 			position = { 0 	0 	0 	} }
+
+		default_state = "idle"
+		state = { name = "idle"		state_time = 5
+
+			event = { time = 0 node = "light_locator_01" particle = "ship_light_blue_effect" trigger_once = yes keep_particle = yes }
+			event = { time = 0 node = "light_locator_02" particle = "ship_light_blue_effect" trigger_once = yes keep_particle = yes }
+			}
+		state = { name = "moving"	state_time = 5
+
+			event = { time = 0 node = "light_locator_01" particle = "ship_light_blue_effect" trigger_once = yes keep_particle = yes }
+			event = { time = 0 node = "light_locator_02" particle = "ship_light_blue_effect" trigger_once = yes keep_particle = yes }
+			}
+		state = { name = "death" state_time = 5 }
+		scale = 1.00
+	}
+
+	entity = { #ZAKU II Masaya Nakagawa
+		name = "zaku2_nakagawa_entity"
+		pdxmesh = "zeon_ms_06_s_nakagawa_group_S3_mesh"
+
+		locator = { name = "root" 			position = { 0 	0 	0	} }
+		locator = { name = "small_gun_01" 			position = { 0 	0 	0	} scale = 0.0} #X,Up/Down,Forward/Back 0 	0.4 	-0.3
+		locator = { name = "small_gun_02" 			position = { 0 	0 	0 	} scale = 0.0} #0.5	0.4 	-0.3
+		locator = { name = "small_gun_03" 			position = { 0 	0 	0 	} scale = 0.0} #-0.5 	0.4 	-0.3
+		locator = { name = "small_gun_04" 			position = { 0 	0 	0 	} scale = 0.0} #-0.5 	0.4 	-0.3
+		locator = { name = "medium_gun_01" 			position = { 0 	0 	0 	} scale = 0.0}
+		locator = { name = "light_locator_01" 			position = { 0  0 	0 	} }
+		locator = { name = "light_locator_02" 			position = { 0 	0 	0 	} }
+		locator = { name = "exaust_01" 			position = { 0 	0 	0 	} }
+
+		default_state = "idle"
+		state = { name = "idle"		state_time = 5
+
+			event = { time = 0 node = "light_locator_01" particle = "ship_light_blue_effect" trigger_once = yes keep_particle = yes }
+			event = { time = 0 node = "light_locator_02" particle = "ship_light_blue_effect" trigger_once = yes keep_particle = yes }
+			}
+		state = { name = "moving"	state_time = 5
+
+			event = { time = 0 node = "light_locator_01" particle = "ship_light_blue_effect" trigger_once = yes keep_particle = yes }
+			event = { time = 0 node = "light_locator_02" particle = "ship_light_blue_effect" trigger_once = yes keep_particle = yes }
+			}
+		state = { name = "death" state_time = 5 }
+		scale = 1.00
+	}
+
+	entity = { #ZAKU II Garma Zabi
+		name = "zaku2_garma_entity"
+		pdxmesh = "zeon_ms_06_s_garma_group_S3_mesh"
+
+		locator = { name = "root" 			position = { 0 	0 	0	} }
+		locator = { name = "small_gun_01" 			position = { 0 	0 	0	} scale = 0.0} #X,Up/Down,Forward/Back 0 	0.4 	-0.3
+		locator = { name = "small_gun_02" 			position = { 0 	0 	0 	} scale = 0.0} #0.5	0.4 	-0.3
+		locator = { name = "small_gun_03" 			position = { 0 	0 	0 	} scale = 0.0} #-0.5 	0.4 	-0.3
+		locator = { name = "small_gun_04" 			position = { 0 	0 	0 	} scale = 0.0} #-0.5 	0.4 	-0.3
+		locator = { name = "medium_gun_01" 			position = { 0 	0 	0 	} scale = 0.0}
+		locator = { name = "light_locator_01" 			position = { 0  0 	0 	} }
+		locator = { name = "light_locator_02" 			position = { 0 	0 	0 	} }
+		locator = { name = "exaust_01" 			position = { 0 	0 	0 	} }
+
+		default_state = "idle"
+		state = { name = "idle"		state_time = 5
+
+			event = { time = 0 node = "light_locator_01" particle = "ship_light_blue_effect" trigger_once = yes keep_particle = yes }
+			event = { time = 0 node = "light_locator_02" particle = "ship_light_blue_effect" trigger_once = yes keep_particle = yes }
+			}
+		state = { name = "moving"	state_time = 5
+
+			event = { time = 0 node = "light_locator_01" particle = "ship_light_blue_effect" trigger_once = yes keep_particle = yes }
+			event = { time = 0 node = "light_locator_02" particle = "ship_light_blue_effect" trigger_once = yes keep_particle = yes }
+			}
+		state = { name = "death" state_time = 5 }
+		scale = 1.00
+	}
+
+	entity = { #ZAKU II Char Aznable
+		name = "zaku2_aznable_entity"
+		pdxmesh = "zeon_ms_06_s_char_group_S3_mesh"
+
+		locator = { name = "root" 			position = { 0 	0 	0	} }
+		locator = { name = "small_gun_01" 			position = { 0 	0 	0	} scale = 0.0} #X,Up/Down,Forward/Back 0 	0.4 	-0.3
+		locator = { name = "small_gun_02" 			position = { 0 	0 	0 	} scale = 0.0} #0.5	0.4 	-0.3
+		locator = { name = "small_gun_03" 			position = { 0 	0 	0 	} scale = 0.0} #-0.5 	0.4 	-0.3
+		locator = { name = "small_gun_04" 			position = { 0 	0 	0 	} scale = 0.0} #-0.5 	0.4 	-0.3
+		locator = { name = "medium_gun_01" 			position = { 0 	0 	0 	} scale = 0.0}
+		locator = { name = "light_locator_01" 			position = { 0  0 	0 	} }
+		locator = { name = "light_locator_02" 			position = { 0 	0 	0 	} }
+		locator = { name = "exaust_01" 			position = { 0 	0 	0 	} }
+
+		default_state = "idle"
+		state = { name = "idle"		state_time = 5
+
+			event = { time = 0 node = "light_locator_01" particle = "ship_light_blue_effect" trigger_once = yes keep_particle = yes }
+			event = { time = 0 node = "light_locator_02" particle = "ship_light_blue_effect" trigger_once = yes keep_particle = yes }
+			}
+		state = { name = "moving"	state_time = 5
+
+			event = { time = 0 node = "light_locator_01" particle = "ship_light_blue_effect" trigger_once = yes keep_particle = yes }
+			event = { time = 0 node = "light_locator_02" particle = "ship_light_blue_effect" trigger_once = yes keep_particle = yes }
+			}
+		state = { name = "death" state_time = 5 }
+		scale = 1.00
+	}
+
+	entity = { #ZAKU II Eric Mansfield
+		name = "zaku2_mansfield_entity"
+		pdxmesh = "zeon_ms_06_s_mansfield_group_S3_mesh"
+
+		locator = { name = "root" 			position = { 0 	0 	0	} }
+		locator = { name = "small_gun_01" 			position = { 0 	0 	0	} scale = 0.0} #X,Up/Down,Forward/Back 0 	0.4 	-0.3
+		locator = { name = "small_gun_02" 			position = { 0 	0 	0 	} scale = 0.0} #0.5	0.4 	-0.3
+		locator = { name = "small_gun_03" 			position = { 0 	0 	0 	} scale = 0.0} #-0.5 	0.4 	-0.3
+		locator = { name = "small_gun_04" 			position = { 0 	0 	0 	} scale = 0.0} #-0.5 	0.4 	-0.3
+		locator = { name = "medium_gun_01" 			position = { 0 	0 	0 	} scale = 0.0}
+		locator = { name = "light_locator_01" 			position = { 0  0 	0 	} }
+		locator = { name = "light_locator_02" 			position = { 0 	0 	0 	} }
+		locator = { name = "exaust_01" 			position = { 0 	0 	0 	} }
+
+		default_state = "idle"
+		state = { name = "idle"		state_time = 5
+
+			event = { time = 0 node = "light_locator_01" particle = "ship_light_blue_effect" trigger_once = yes keep_particle = yes }
+			event = { time = 0 node = "light_locator_02" particle = "ship_light_blue_effect" trigger_once = yes keep_particle = yes }
+			}
+		state = { name = "moving"	state_time = 5
+
+			event = { time = 0 node = "light_locator_01" particle = "ship_light_blue_effect" trigger_once = yes keep_particle = yes }
+			event = { time = 0 node = "light_locator_02" particle = "ship_light_blue_effect" trigger_once = yes keep_particle = yes }
+			}
+		state = { name = "death" state_time = 5 }
+		scale = 1.00
+	}
+
+	entity = { #ZAKU II Shin Matsunaga 1
+		name = "zaku2_matsunaga_1_entity"
+		pdxmesh = "zeon_ms_06_s_matsunaga_1_group_S3_mesh"
+
+		locator = { name = "root" 			position = { 0 	0 	0	} }
+		locator = { name = "small_gun_01" 			position = { 0 	0 	0	} scale = 0.0} #X,Up/Down,Forward/Back 0 	0.4 	-0.3
+		locator = { name = "small_gun_02" 			position = { 0 	0 	0 	} scale = 0.0} #0.5	0.4 	-0.3
+		locator = { name = "small_gun_03" 			position = { 0 	0 	0 	} scale = 0.0} #-0.5 	0.4 	-0.3
+		locator = { name = "small_gun_04" 			position = { 0 	0 	0 	} scale = 0.0} #-0.5 	0.4 	-0.3
+		locator = { name = "medium_gun_01" 			position = { 0 	0 	0 	} scale = 0.0}
+		locator = { name = "light_locator_01" 			position = { 0  0 	0 	} }
+		locator = { name = "light_locator_02" 			position = { 0 	0 	0 	} }
+		locator = { name = "exaust_01" 			position = { 0 	0 	0 	} }
+
+		default_state = "idle"
+		state = { name = "idle"		state_time = 5
+
+			event = { time = 0 node = "light_locator_01" particle = "ship_light_blue_effect" trigger_once = yes keep_particle = yes }
+			event = { time = 0 node = "light_locator_02" particle = "ship_light_blue_effect" trigger_once = yes keep_particle = yes }
+			}
+		state = { name = "moving"	state_time = 5
+
+			event = { time = 0 node = "light_locator_01" particle = "ship_light_blue_effect" trigger_once = yes keep_particle = yes }
+			event = { time = 0 node = "light_locator_02" particle = "ship_light_blue_effect" trigger_once = yes keep_particle = yes }
+			}
+		state = { name = "death" state_time = 5 }
+		scale = 1.00
+	}
+
+	entity = { #ZAKU II Shin Matsunaga 2
+		name = "zaku2_matsunaga_2_entity"
+		pdxmesh = "zeon_ms_06_s_matsunaga_2_group_S3_mesh"
 
 		locator = { name = "root" 			position = { 0 	0 	0	} }
 		locator = { name = "small_gun_01" 			position = { 0 	0 	0	} scale = 0.0} #X,Up/Down,Forward/Back 0 	0.4 	-0.3

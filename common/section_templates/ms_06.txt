@@ -412,11 +412,11 @@ ship_section_template = { #MS-06 Valkyrie
 	cost = 120
 }
 
-ship_section_template = { #MS-06S Ace Test
-	key = "MS_06S_ACE_MID"
+ship_section_template = { #MS-06S Tri-Stars
+	key = "MS_06S_TRI_MID"
 	ship_size = MS_06S
 	fits_on_slot = mid
-	entity = "zaku2_ace_test_entity"
+	entity = "zaku2_tristars_entity"
 	icon = "GFX_ship_part_core_mid"
 
 	prerequisites = { tech_MS_06F }
@@ -465,11 +465,806 @@ ship_section_template = { #MS-06S Ace Test
 	cost = 120
 }
 
-ship_section_template = { #MS-06S Tri-Stars
-	key = "MS_06S_TRI_MID"
+ship_section_template = { #MS-06S Ramba Ral
+	key = "MS_06S_RAMBA_MID"
 	ship_size = MS_06S
 	fits_on_slot = mid
-	entity = "zaku2_tristars_entity"
+	entity = "zaku2_ramba_entity"
+	icon = "GFX_ship_part_core_mid"
+
+	prerequisites = { tech_MS_06F }
+
+	# Guns
+	weapon_preferences = { weapon_type_z1 }
+	ai_weight = {
+		modifier = {
+			factor = 10.0
+		}
+	}
+
+	component_slot = {
+		name = "SMALL_GUN_01"
+		slot_size = point_defence
+		slot_type = weapon
+		locatorname = "small_gun_01"
+	}
+
+	component_slot = {
+		name = "SMALL_GUN_02"
+		slot_size = point_defence
+		slot_type = weapon
+		locatorname = "small_gun_02"
+	}
+
+	component_slot = {
+		name = "SMALL_GUN_03"
+		slot_size = point_defence
+		slot_type = weapon
+		locatorname = "small_gun_03"
+	}
+
+	component_slot = {
+		name = "SMALL_GUN_04"
+		slot_size = point_defence
+		slot_type = weapon
+		locatorname = "small_gun_04"
+	}
+
+	small_utility_slots = 0
+	medium_utility_slots = 0
+	large_utility_slots = 0
+	aux_utility_slots = 0
+
+	cost = 120
+}
+
+ship_section_template = { #MS-06S Gato
+	key = "MS_06S_GATO_MID"
+	ship_size = MS_06S
+	fits_on_slot = mid
+	entity = "zaku2_gato_entity"
+	icon = "GFX_ship_part_core_mid"
+
+	prerequisites = { tech_MS_06R_1A }
+
+	# Guns
+	weapon_preferences = { weapon_type_z1 }
+	ai_weight = {
+		modifier = {
+			factor = 10.0
+		}
+	}
+
+	component_slot = {
+		name = "SMALL_GUN_01"
+		slot_size = point_defence
+		slot_type = weapon
+		locatorname = "small_gun_01"
+	}
+
+	component_slot = {
+		name = "SMALL_GUN_02"
+		slot_size = point_defence
+		slot_type = weapon
+		locatorname = "small_gun_02"
+	}
+
+	component_slot = {
+		name = "SMALL_GUN_03"
+		slot_size = point_defence
+		slot_type = weapon
+		locatorname = "small_gun_03"
+	}
+
+	component_slot = {
+		name = "SMALL_GUN_04"
+		slot_size = point_defence
+		slot_type = weapon
+		locatorname = "small_gun_04"
+	}
+
+	small_utility_slots = 0
+	medium_utility_slots = 0
+	large_utility_slots = 0
+	aux_utility_slots = 0
+
+	cost = 120
+}
+
+ship_section_template = { #MS-06R-2P
+	key = "MS_06S_R_2P_MID"
+	ship_size = MS_06S
+	fits_on_slot = mid
+	entity = "zaku2_r_2p_entity"
+	icon = "GFX_ship_part_core_mid"
+
+	prerequisites = { tech_MS_06R_2P }
+
+	# Guns
+	weapon_preferences = { weapon_type_z1 }
+	ai_weight = {
+		modifier = {
+			factor = 10.0
+		}
+	}
+
+	component_slot = {
+		name = "SMALL_GUN_01"
+		slot_size = point_defence
+		slot_type = weapon
+		locatorname = "small_gun_01"
+	}
+
+	component_slot = {
+		name = "SMALL_GUN_02"
+		slot_size = point_defence
+		slot_type = weapon
+		locatorname = "small_gun_02"
+	}
+
+	component_slot = {
+		name = "SMALL_GUN_03"
+		slot_size = point_defence
+		slot_type = weapon
+		locatorname = "small_gun_03"
+	}
+
+	component_slot = {
+		name = "SMALL_GUN_04"
+		slot_size = point_defence
+		slot_type = weapon
+		locatorname = "small_gun_04"
+	}
+
+	small_utility_slots = 0
+	medium_utility_slots = 0
+	large_utility_slots = 0
+	aux_utility_slots = 0
+
+	cost = 120
+}
+
+ship_section_template = { #MS-06S Johnny Ridden
+	key = "MS_06S_RIDDEN_MID"
+	ship_size = MS_06S
+	fits_on_slot = mid
+	entity = "zaku2_ridden_entity"
+	icon = "GFX_ship_part_core_mid"
+
+	prerequisites = { tech_MS_06F }
+
+	# Guns
+	weapon_preferences = { weapon_type_z1 }
+	ai_weight = {
+		modifier = {
+			factor = 10.0
+		}
+	}
+
+	component_slot = {
+		name = "SMALL_GUN_01"
+		slot_size = point_defence
+		slot_type = weapon
+		locatorname = "small_gun_01"
+	}
+
+	component_slot = {
+		name = "SMALL_GUN_02"
+		slot_size = point_defence
+		slot_type = weapon
+		locatorname = "small_gun_02"
+	}
+
+	component_slot = {
+		name = "SMALL_GUN_03"
+		slot_size = point_defence
+		slot_type = weapon
+		locatorname = "small_gun_03"
+	}
+
+	component_slot = {
+		name = "SMALL_GUN_04"
+		slot_size = point_defence
+		slot_type = weapon
+		locatorname = "small_gun_04"
+	}
+
+	small_utility_slots = 0
+	medium_utility_slots = 0
+	large_utility_slots = 0
+	aux_utility_slots = 0
+
+	cost = 120
+}
+
+ship_section_template = { #MS-06S Uma Lightning
+	key = "MS_06S_LIGHTNING_MID"
+	ship_size = MS_06S
+	fits_on_slot = mid
+	entity = "zaku2_lightning_entity"
+	icon = "GFX_ship_part_core_mid"
+
+	prerequisites = { tech_MS_06R_1A }
+
+	# Guns
+	weapon_preferences = { weapon_type_z1 }
+	ai_weight = {
+		modifier = {
+			factor = 10.0
+		}
+	}
+
+	component_slot = {
+		name = "SMALL_GUN_01"
+		slot_size = point_defence
+		slot_type = weapon
+		locatorname = "small_gun_01"
+	}
+
+	component_slot = {
+		name = "SMALL_GUN_02"
+		slot_size = point_defence
+		slot_type = weapon
+		locatorname = "small_gun_02"
+	}
+
+	component_slot = {
+		name = "SMALL_GUN_03"
+		slot_size = point_defence
+		slot_type = weapon
+		locatorname = "small_gun_03"
+	}
+
+	component_slot = {
+		name = "SMALL_GUN_04"
+		slot_size = point_defence
+		slot_type = weapon
+		locatorname = "small_gun_04"
+	}
+
+	small_utility_slots = 0
+	medium_utility_slots = 0
+	large_utility_slots = 0
+	aux_utility_slots = 0
+
+	cost = 120
+}
+
+ship_section_template = { #MS-06S Robin
+	key = "MS_06S_ROBIN_MID"
+	ship_size = MS_06S
+	fits_on_slot = mid
+	entity = "zaku2_robin_entity"
+	icon = "GFX_ship_part_core_mid"
+
+	prerequisites = { tech_MS_06R_1A }
+
+	# Guns
+	weapon_preferences = { weapon_type_z1 }
+	ai_weight = {
+		modifier = {
+			factor = 10.0
+		}
+	}
+
+	component_slot = {
+		name = "SMALL_GUN_01"
+		slot_size = point_defence
+		slot_type = weapon
+		locatorname = "small_gun_01"
+	}
+
+	component_slot = {
+		name = "SMALL_GUN_02"
+		slot_size = point_defence
+		slot_type = weapon
+		locatorname = "small_gun_02"
+	}
+
+	component_slot = {
+		name = "SMALL_GUN_03"
+		slot_size = point_defence
+		slot_type = weapon
+		locatorname = "small_gun_03"
+	}
+
+	component_slot = {
+		name = "SMALL_GUN_04"
+		slot_size = point_defence
+		slot_type = weapon
+		locatorname = "small_gun_04"
+	}
+
+	small_utility_slots = 0
+	medium_utility_slots = 0
+	large_utility_slots = 0
+	aux_utility_slots = 0
+
+	cost = 120
+}
+
+ship_section_template = { #MS-06S Robert Gilliam
+	key = "MS_06S_GILLIAM_MID"
+	ship_size = MS_06S
+	fits_on_slot = mid
+	entity = "zaku2_gilliam_entity"
+	icon = "GFX_ship_part_core_mid"
+
+	prerequisites = { tech_MS_06R_1A }
+
+	# Guns
+	weapon_preferences = { weapon_type_z1 }
+	ai_weight = {
+		modifier = {
+			factor = 10.0
+		}
+	}
+
+	component_slot = {
+		name = "SMALL_GUN_01"
+		slot_size = point_defence
+		slot_type = weapon
+		locatorname = "small_gun_01"
+	}
+
+	component_slot = {
+		name = "SMALL_GUN_02"
+		slot_size = point_defence
+		slot_type = weapon
+		locatorname = "small_gun_02"
+	}
+
+	component_slot = {
+		name = "SMALL_GUN_03"
+		slot_size = point_defence
+		slot_type = weapon
+		locatorname = "small_gun_03"
+	}
+
+	component_slot = {
+		name = "SMALL_GUN_04"
+		slot_size = point_defence
+		slot_type = weapon
+		locatorname = "small_gun_04"
+	}
+
+	small_utility_slots = 0
+	medium_utility_slots = 0
+	large_utility_slots = 0
+	aux_utility_slots = 0
+
+	cost = 120
+}
+
+ship_section_template = { #MS-06S HMTT Elliot
+	key = "MS_06S_ELLIOT_MID"
+	ship_size = MS_06S
+	fits_on_slot = mid
+	entity = "zaku2_elliot_entity"
+	icon = "GFX_ship_part_core_mid"
+
+	prerequisites = { tech_MS_06R_1A }
+
+	# Guns
+	weapon_preferences = { weapon_type_z1 }
+	ai_weight = {
+		modifier = {
+			factor = 10.0
+		}
+	}
+
+	component_slot = {
+		name = "SMALL_GUN_01"
+		slot_size = point_defence
+		slot_type = weapon
+		locatorname = "small_gun_01"
+	}
+
+	component_slot = {
+		name = "SMALL_GUN_02"
+		slot_size = point_defence
+		slot_type = weapon
+		locatorname = "small_gun_02"
+	}
+
+	component_slot = {
+		name = "SMALL_GUN_03"
+		slot_size = point_defence
+		slot_type = weapon
+		locatorname = "small_gun_03"
+	}
+
+	component_slot = {
+		name = "SMALL_GUN_04"
+		slot_size = point_defence
+		slot_type = weapon
+		locatorname = "small_gun_04"
+	}
+
+	small_utility_slots = 0
+	medium_utility_slots = 0
+	large_utility_slots = 0
+	aux_utility_slots = 0
+
+	cost = 120
+}
+
+ship_section_template = { #MS-06S Dozle Zabi
+	key = "MS_06S_DOZLE_MID"
+	ship_size = MS_06S
+	fits_on_slot = mid
+	entity = "zaku2_dozle_entity"
+	icon = "GFX_ship_part_core_mid"
+
+	prerequisites = { tech_MS_06F }
+
+	# Guns
+	weapon_preferences = { weapon_type_z1 }
+	ai_weight = {
+		modifier = {
+			factor = 10.0
+		}
+	}
+
+	component_slot = {
+		name = "SMALL_GUN_01"
+		slot_size = point_defence
+		slot_type = weapon
+		locatorname = "small_gun_01"
+	}
+
+	component_slot = {
+		name = "SMALL_GUN_02"
+		slot_size = point_defence
+		slot_type = weapon
+		locatorname = "small_gun_02"
+	}
+
+	component_slot = {
+		name = "SMALL_GUN_03"
+		slot_size = point_defence
+		slot_type = weapon
+		locatorname = "small_gun_03"
+	}
+
+	component_slot = {
+		name = "SMALL_GUN_04"
+		slot_size = point_defence
+		slot_type = weapon
+		locatorname = "small_gun_04"
+	}
+
+	small_utility_slots = 0
+	medium_utility_slots = 0
+	large_utility_slots = 0
+	aux_utility_slots = 0
+
+	cost = 120
+}
+
+ship_section_template = { #MS-06S Gabby Hazard
+	key = "MS_06S_HAZARD_MID"
+	ship_size = MS_06S
+	fits_on_slot = mid
+	entity = "zaku2_hazard_entity"
+	icon = "GFX_ship_part_core_mid"
+
+	prerequisites = { tech_MS_06R_1A }
+
+	# Guns
+	weapon_preferences = { weapon_type_z1 }
+	ai_weight = {
+		modifier = {
+			factor = 10.0
+		}
+	}
+
+	component_slot = {
+		name = "SMALL_GUN_01"
+		slot_size = point_defence
+		slot_type = weapon
+		locatorname = "small_gun_01"
+	}
+
+	component_slot = {
+		name = "SMALL_GUN_02"
+		slot_size = point_defence
+		slot_type = weapon
+		locatorname = "small_gun_02"
+	}
+
+	component_slot = {
+		name = "SMALL_GUN_03"
+		slot_size = point_defence
+		slot_type = weapon
+		locatorname = "small_gun_03"
+	}
+
+	component_slot = {
+		name = "SMALL_GUN_04"
+		slot_size = point_defence
+		slot_type = weapon
+		locatorname = "small_gun_04"
+	}
+
+	small_utility_slots = 0
+	medium_utility_slots = 0
+	large_utility_slots = 0
+	aux_utility_slots = 0
+
+	cost = 120
+}
+
+ship_section_template = { #MS-06S Masaya Nagakawa
+	key = "MS_06S_NAKAGAWA_MID"
+	ship_size = MS_06S
+	fits_on_slot = mid
+	entity = "zaku2_nakagawa_entity"
+	icon = "GFX_ship_part_core_mid"
+
+	prerequisites = { tech_MS_06R_1A }
+
+	# Guns
+	weapon_preferences = { weapon_type_z1 }
+	ai_weight = {
+		modifier = {
+			factor = 10.0
+		}
+	}
+
+	component_slot = {
+		name = "SMALL_GUN_01"
+		slot_size = point_defence
+		slot_type = weapon
+		locatorname = "small_gun_01"
+	}
+
+	component_slot = {
+		name = "SMALL_GUN_02"
+		slot_size = point_defence
+		slot_type = weapon
+		locatorname = "small_gun_02"
+	}
+
+	component_slot = {
+		name = "SMALL_GUN_03"
+		slot_size = point_defence
+		slot_type = weapon
+		locatorname = "small_gun_03"
+	}
+
+	component_slot = {
+		name = "SMALL_GUN_04"
+		slot_size = point_defence
+		slot_type = weapon
+		locatorname = "small_gun_04"
+	}
+
+	small_utility_slots = 0
+	medium_utility_slots = 0
+	large_utility_slots = 0
+	aux_utility_slots = 0
+
+	cost = 120
+}
+
+ship_section_template = { #MS-06S Garma Zabi
+	key = "MS_06S_GARMA_MID"
+	ship_size = MS_06S
+	fits_on_slot = mid
+	entity = "zaku2_garma_entity"
+	icon = "GFX_ship_part_core_mid"
+
+	prerequisites = { tech_MS_06R_1A }
+
+	# Guns
+	weapon_preferences = { weapon_type_z1 }
+	ai_weight = {
+		modifier = {
+			factor = 10.0
+		}
+	}
+
+	component_slot = {
+		name = "SMALL_GUN_01"
+		slot_size = point_defence
+		slot_type = weapon
+		locatorname = "small_gun_01"
+	}
+
+	component_slot = {
+		name = "SMALL_GUN_02"
+		slot_size = point_defence
+		slot_type = weapon
+		locatorname = "small_gun_02"
+	}
+
+	component_slot = {
+		name = "SMALL_GUN_03"
+		slot_size = point_defence
+		slot_type = weapon
+		locatorname = "small_gun_03"
+	}
+
+	component_slot = {
+		name = "SMALL_GUN_04"
+		slot_size = point_defence
+		slot_type = weapon
+		locatorname = "small_gun_04"
+	}
+
+	small_utility_slots = 0
+	medium_utility_slots = 0
+	large_utility_slots = 0
+	aux_utility_slots = 0
+
+	cost = 120
+}
+
+ship_section_template = { #MS-06S Char Aznable
+	key = "MS_06S_AZNABLE_MID"
+	ship_size = MS_06S
+	fits_on_slot = mid
+	entity = "zaku2_aznable_entity"
+	icon = "GFX_ship_part_core_mid"
+
+	prerequisites = { tech_MS_06C }
+
+	# Guns
+	weapon_preferences = { weapon_type_z1 }
+	ai_weight = {
+		modifier = {
+			factor = 10.0
+		}
+	}
+
+	component_slot = {
+		name = "SMALL_GUN_01"
+		slot_size = point_defence
+		slot_type = weapon
+		locatorname = "small_gun_01"
+	}
+
+	component_slot = {
+		name = "SMALL_GUN_02"
+		slot_size = point_defence
+		slot_type = weapon
+		locatorname = "small_gun_02"
+	}
+
+	component_slot = {
+		name = "SMALL_GUN_03"
+		slot_size = point_defence
+		slot_type = weapon
+		locatorname = "small_gun_03"
+	}
+
+	component_slot = {
+		name = "SMALL_GUN_04"
+		slot_size = point_defence
+		slot_type = weapon
+		locatorname = "small_gun_04"
+	}
+
+	small_utility_slots = 0
+	medium_utility_slots = 0
+	large_utility_slots = 0
+	aux_utility_slots = 0
+
+	cost = 120
+}
+
+ship_section_template = { #MS-06S Eric Mansfield
+	key = "MS_06S_MANSFIELD_MID"
+	ship_size = MS_06S
+	fits_on_slot = mid
+	entity = "zaku2_mansfield_entity"
+	icon = "GFX_ship_part_core_mid"
+
+	prerequisites = { tech_MS_06F }
+
+	# Guns
+	weapon_preferences = { weapon_type_z1 }
+	ai_weight = {
+		modifier = {
+			factor = 10.0
+		}
+	}
+
+	component_slot = {
+		name = "SMALL_GUN_01"
+		slot_size = point_defence
+		slot_type = weapon
+		locatorname = "small_gun_01"
+	}
+
+	component_slot = {
+		name = "SMALL_GUN_02"
+		slot_size = point_defence
+		slot_type = weapon
+		locatorname = "small_gun_02"
+	}
+
+	component_slot = {
+		name = "SMALL_GUN_03"
+		slot_size = point_defence
+		slot_type = weapon
+		locatorname = "small_gun_03"
+	}
+
+	component_slot = {
+		name = "SMALL_GUN_04"
+		slot_size = point_defence
+		slot_type = weapon
+		locatorname = "small_gun_04"
+	}
+
+	small_utility_slots = 0
+	medium_utility_slots = 0
+	large_utility_slots = 0
+	aux_utility_slots = 0
+
+	cost = 120
+}
+
+ship_section_template = { #MS-06S Shin Matsunaga 1
+	key = "MS_06S_MATSUNAGA_MID_1"
+	ship_size = MS_06S
+	fits_on_slot = mid
+	entity = "zaku2_matsunaga_1_entity"
+	icon = "GFX_ship_part_core_mid"
+
+	prerequisites = { tech_MS_06F }
+
+	# Guns
+	weapon_preferences = { weapon_type_z1 }
+	ai_weight = {
+		modifier = {
+			factor = 10.0
+		}
+	}
+
+	component_slot = {
+		name = "SMALL_GUN_01"
+		slot_size = point_defence
+		slot_type = weapon
+		locatorname = "small_gun_01"
+	}
+
+	component_slot = {
+		name = "SMALL_GUN_02"
+		slot_size = point_defence
+		slot_type = weapon
+		locatorname = "small_gun_02"
+	}
+
+	component_slot = {
+		name = "SMALL_GUN_03"
+		slot_size = point_defence
+		slot_type = weapon
+		locatorname = "small_gun_03"
+	}
+
+	component_slot = {
+		name = "SMALL_GUN_04"
+		slot_size = point_defence
+		slot_type = weapon
+		locatorname = "small_gun_04"
+	}
+
+	small_utility_slots = 0
+	medium_utility_slots = 0
+	large_utility_slots = 0
+	aux_utility_slots = 0
+
+	cost = 120
+}
+
+ship_section_template = { #MS-06S Shin Matsunaga 2
+	key = "MS_06S_MATSUNAGA_MID_2"
+	ship_size = MS_06S
+	fits_on_slot = mid
+	entity = "zaku2_matsunaga_2_entity"
 	icon = "GFX_ship_part_core_mid"
 
 	prerequisites = { tech_MS_06F }

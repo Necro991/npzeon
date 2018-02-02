@@ -1,6 +1,6 @@
 spriteTypes = {
 
-		spriteType = {
+	spriteType = {
 		name = "oyw_zeon_pilot_green"
 		texturefile = "gfx/interface/icons/ship_parts/zeon_pilot_01.dds"
 	}
@@ -28,5 +28,35 @@ spriteTypes = {
 	spriteType = {
 		name = "zeon_commander_01"
 		texturefile = "gfx/interface/icons/ship_parts/zeon_oyw_aura.dds"
+	}
+
+	spriteType = {
+		name = "oyw_efsf_pilot_green"
+		texturefile = "gfx/interface/icons/ship_parts/efsf_pilot_01.dds"
+	}
+
+	spriteType = {
+		name = "oyw_efsf_pilot_veteran"
+		texturefile = "gfx/interface/icons/ship_parts/efsf_pilot_02.dds"
+	}
+
+	spriteType = {
+		name = "oyw_efsf_pilot_ace"
+		texturefile = "gfx/interface/icons/ship_parts/efsf_pilot_03.dds"
+	}
+
+	spriteType = {
+		name = "oyw_efsf_pilot_newtype"
+		texturefile = "gfx/interface/icons/ship_parts/efsf_pilot_04.dds"
+	}
+
+	spriteType = {
+		name = "oyw_efsf_pilot_cybernewtype"
+		texturefile = "gfx/interface/icons/ship_parts/efsf_pilot_05.dds"
+	}
+
+	spriteType = {
+		name = "efsf_commander_01"
+		texturefile = "gfx/interface/icons/ship_parts/efsf_oyw_aura.dds"
 	}
 }

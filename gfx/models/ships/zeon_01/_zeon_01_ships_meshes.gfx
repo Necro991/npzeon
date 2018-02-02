@@ -795,18 +795,6 @@ objectTypes = {
 		}
 	}
 
-	pdxmesh = { #ZAKU II Ace Test
-		name = "zeon_ms_06_s_group_S3_mesh"
-		file = "gfx/models/ships/zeon_01/ZakuIIS.mesh"
-		scale = 5.0
-		meshsettings = {
-		texture_diffuse = "ZakuIIS_Diffuse.dds"
-		texture_normal = "zakuII_normal.dds" #Zaku_Normal
-		texture_specular = "Zaku_Specular.dds"
-			shader = "PdxMeshShip"
-		}
-	}
-
 	pdxmesh = { #ZAKU II VALKYRIE
 		name = "zeon_valkyrie_group_S3_mesh"
 		file = "gfx/models/ships/zeon_01/Z_Tier1_01.mesh"
@@ -819,7 +807,7 @@ objectTypes = {
 		}
 	}
 
-	pdxmesh = { #ZAKU II Tristars UNIMPLEMENTED
+	pdxmesh = { #ZAKU II Tristars
 		name = "zeon_tristars_group_S3_mesh"
 		file = "gfx/models/ships/zeon_01/Z_Tier1_01.mesh"
 		scale = 5.0
@@ -849,6 +837,199 @@ objectTypes = {
 		scale = 5.0
 		meshsettings = {
 		texture_diffuse = "ZakuII_EFSF_Diffuse.dds"
+		texture_normal = "zakuII_normal.dds" #Zaku_Normal
+		texture_specular = "Zaku_Specular.dds"
+			shader = "PdxMeshShip"
+		}
+	}
+
+	pdxmesh = { #ZAKU II HMT Ramba Ral
+		name = "zeon_ms_06_s_ramba_group_S3_mesh"
+		file = "gfx/models/ships/zeon_01/ZakuIIS.mesh"
+		scale = 5.0
+		meshsettings = {
+		texture_diffuse = "ZakuII_Ramba_Diffuse.dds"
+		texture_normal = "zakuII_normal.dds" #Zaku_Normal
+		texture_specular = "Zaku_Specular.dds"
+			shader = "PdxMeshShip"
+		}
+	}
+
+
+	pdxmesh = { #ZAKU II HMT Gato
+		name = "zeon_ms_06_s_gato_group_S3_mesh"
+		file = "gfx/models/ships/zeon_01/ZakuIIS.mesh"
+		scale = 5.0
+		meshsettings = {
+		texture_diffuse = "ZakuII_Gato_Diffuse.dds"
+		texture_normal = "zakuII_normal.dds" #Zaku_Normal
+		texture_specular = "Zaku_Specular.dds"
+			shader = "PdxMeshShip"
+		}
+	}
+
+	pdxmesh = { #ZAKU II HMT R-2P
+		name = "zeon_ms_06_s_r_2p_group_S3_mesh"
+		file = "gfx/models/ships/zeon_01/ZakuIIS.mesh"
+		scale = 5.0
+		meshsettings = {
+		texture_diffuse = "ZakuII_R_2P_Diffuse.dds"
+		texture_normal = "zakuII_normal.dds" #Zaku_Normal
+		texture_specular = "Zaku_Specular.dds"
+			shader = "PdxMeshShip"
+		}
+	}
+
+	pdxmesh = { #ZAKU II Ridden
+		name = "zeon_ms_06_s_ridden_group_S3_mesh"
+		file = "gfx/models/ships/zeon_01/ZakuIIS.mesh"
+		scale = 5.0
+		meshsettings = {
+		texture_diffuse = "ZakuII_Ridden_Diffuse.dds"
+		texture_normal = "zakuII_normal.dds" #Zaku_Normal
+		texture_specular = "Zaku_Specular.dds"
+			shader = "PdxMeshShip"
+		}
+	}
+
+	pdxmesh = { #ZAKU II Uma Lightning
+		name = "zeon_ms_06_s_uma_group_S3_mesh"
+		file = "gfx/models/ships/zeon_01/ZakuIIS.mesh"
+		scale = 5.0
+		meshsettings = {
+		texture_diffuse = "ZakuII_Uma_Diffuse.dds"
+		texture_normal = "zakuII_normal.dds" #Zaku_Normal
+		texture_specular = "Zaku_Specular.dds"
+			shader = "PdxMeshShip"
+		}
+	}
+
+	pdxmesh = { #ZAKU II Robin
+		name = "zeon_ms_06_s_robin_group_S3_mesh"
+		file = "gfx/models/ships/zeon_01/ZakuIIS.mesh"
+		scale = 5.0
+		meshsettings = {
+		texture_diffuse = "ZakuII_Robin_Diffuse.dds"
+		texture_normal = "zakuII_normal.dds" #Zaku_Normal
+		texture_specular = "Zaku_Specular.dds"
+			shader = "PdxMeshShip"
+		}
+	}
+
+	pdxmesh = { #ZAKU II Gilliam
+		name = "zeon_ms_06_s_gilliam_group_S3_mesh"
+		file = "gfx/models/ships/zeon_01/ZakuIIS.mesh"
+		scale = 5.0
+		meshsettings = {
+		texture_diffuse = "ZakuII_Gilliam_Diffuse.dds"
+		texture_normal = "zakuII_normal.dds" #Zaku_Normal
+		texture_specular = "Zaku_Specular.dds"
+			shader = "PdxMeshShip"
+		}
+	}
+
+	pdxmesh = { #ZAKU II HMTT Elliot
+		name = "zeon_ms_06_s_elliot_group_S3_mesh"
+		file = "gfx/models/ships/zeon_01/ZakuIIS.mesh"
+		scale = 5.0
+		meshsettings = {
+		texture_diffuse = "ZakuII_Elliot_Diffuse.dds"
+		texture_normal = "zakuII_normal.dds" #Zaku_Normal
+		texture_specular = "Zaku_Specular.dds"
+			shader = "PdxMeshShip"
+		}
+	}
+
+	pdxmesh = { #ZAKU II Dozle Zabi
+		name = "zeon_ms_06_s_dozle_group_S3_mesh"
+		file = "gfx/models/ships/zeon_01/ZakuIIS.mesh"
+		scale = 5.0
+		meshsettings = {
+		texture_diffuse = "ZakuII_Dozle_Diffuse.dds"
+		texture_normal = "zakuII_normal.dds" #Zaku_Normal
+		texture_specular = "Zaku_Specular.dds"
+			shader = "PdxMeshShip"
+		}
+	}
+
+	pdxmesh = { #ZAKU II Gabby Hazard
+		name = "zeon_ms_06_s_hazard_group_S3_mesh"
+		file = "gfx/models/ships/zeon_01/ZakuIIS.mesh"
+		scale = 5.0
+		meshsettings = {
+		texture_diffuse = "ZakuII_Hazard_Diffuse.dds"
+		texture_normal = "zakuII_normal.dds" #Zaku_Normal
+		texture_specular = "Zaku_Specular.dds"
+			shader = "PdxMeshShip"
+		}
+	}
+
+	pdxmesh = { #ZAKU II Masaya Nakagawa
+		name = "zeon_ms_06_s_nakagawa_group_S3_mesh"
+		file = "gfx/models/ships/zeon_01/ZakuIIS.mesh"
+		scale = 5.0
+		meshsettings = {
+		texture_diffuse = "ZakuII_Nakagawa_Diffuse.dds"
+		texture_normal = "zakuII_normal.dds" #Zaku_Normal
+		texture_specular = "Zaku_Specular.dds"
+			shader = "PdxMeshShip"
+		}
+	}
+
+	pdxmesh = { #ZAKU II Garma Zabi
+		name = "zeon_ms_06_s_garma_group_S3_mesh"
+		file = "gfx/models/ships/zeon_01/ZakuIIS.mesh"
+		scale = 5.0
+		meshsettings = {
+		texture_diffuse = "ZakuII_Garma_Diffuse.dds"
+		texture_normal = "zakuII_normal.dds" #Zaku_Normal
+		texture_specular = "Zaku_Specular.dds"
+			shader = "PdxMeshShip"
+		}
+	}
+
+	pdxmesh = { #ZAKU II Char Aznable
+		name = "zeon_ms_06_s_char_group_S3_mesh"
+		file = "gfx/models/ships/zeon_01/ZakuIIS.mesh"
+		scale = 5.0
+		meshsettings = {
+		texture_diffuse = "ZakuII_Char_Diffuse.dds"
+		texture_normal = "zakuII_normal.dds" #Zaku_Normal
+		texture_specular = "Zaku_Specular.dds"
+			shader = "PdxMeshShip"
+		}
+	}
+
+	pdxmesh = { #ZAKU II Eric Mansfield
+		name = "zeon_ms_06_s_mansfield_group_S3_mesh"
+		file = "gfx/models/ships/zeon_01/ZakuIIS.mesh"
+		scale = 5.0
+		meshsettings = {
+		texture_diffuse = "ZakuII_Mansfield_Diffuse.dds"
+		texture_normal = "zakuII_normal.dds" #Zaku_Normal
+		texture_specular = "Zaku_Specular.dds"
+			shader = "PdxMeshShip"
+		}
+	}
+
+	pdxmesh = { #ZAKU II Shin Matsunaga 1
+		name = "zeon_ms_06_s_matsunaga_1_group_S3_mesh"
+		file = "gfx/models/ships/zeon_01/ZakuIIS.mesh"
+		scale = 5.0
+		meshsettings = {
+		texture_diffuse = "ZakuII_Matsunaga_Diffuse_1.dds"
+		texture_normal = "zakuII_normal.dds" #Zaku_Normal
+		texture_specular = "Zaku_Specular.dds"
+			shader = "PdxMeshShip"
+		}
+	}
+
+	pdxmesh = { #ZAKU II Shin Matsunaga 2
+		name = "zeon_ms_06_s_matsunaga_2_group_S3_mesh"
+		file = "gfx/models/ships/zeon_01/ZakuIIS.mesh"
+		scale = 5.0
+		meshsettings = {
+		texture_diffuse = "ZakuII_Matsunaga_Diffuse_2.dds"
 		texture_normal = "zakuII_normal.dds" #Zaku_Normal
 		texture_specular = "Zaku_Specular.dds"
 			shader = "PdxMeshShip"

@@ -23,3 +23,27 @@ component_set = {
 	icon = "zeon_commander_01"
 	icon_frame = 1
 }
+
+component_set = {
+	key = "oyw_efsf_pilot_putv"
+
+	required_component_set = yes
+	icon = "oyw_efsf_pilot_green"
+	icon_frame = 1
+}
+
+component_set = {
+	key = "oyw_efsf_pilot_vuta"
+
+	required_component_set = yes
+	icon = "oyw_efsf_pilot_veteran"
+	icon_frame = 1
+}
+
+component_set = {
+	key = "oyw_efsf_commander_aura"
+
+	required_component_set = yes
+	icon = "efsf_commander_01"
+	icon_frame = 1
+}

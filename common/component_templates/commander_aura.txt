@@ -56,3 +56,62 @@ utility_component_template = {
 		weight = 1
 	}
 }
+
+utility_component_template = {
+	key = "efsf_commander_aura_1"
+	size = small
+	icon = "efsf_commander_01"
+	icon_frame = 1
+	power = 0
+	cost = 50
+
+	friendly_aura = {
+		name = "efsf_commander_1"
+		radius = 10
+		apply_on = ships
+
+		stack_info = {			#A ship can only be affected by one aura of a certain id. If multiple auras have the same ID the one with the highest priority will be applied.
+			id = zeon_commander_001
+			priority = 2
+		}
+
+		modifier = {
+			#ship_armor_add = 5
+			ship_weapon_damage = 0.1
+			#ship_accuracy_add = 5
+			ship_fire_rate_mult = 0.1
+			#SHIP_ACCURACY_MULT = -0.25
+			#ship_tracking_add = 10
+			#ship_shield_regen_add_perc = 0.15
+			#ship_auto_repair_add = 0.10
+			#ship_shield_hp_mult = 0.15
+			#ship_speed_mult = 0.75 #7
+			#ship_combat_speed_mult = 10
+			#ship_hitpoints_mult = 4
+			#ship_evasion_add = 10
+			#ship_upkeep_mult = 0.25
+			#ship_windup_mult = 4
+			#fleet_emergency_ftl_min_days_mult = 1
+		}
+
+		graphics = {
+			area_effect = {
+				entity = "circle_area_entity"
+				dynamic_scale = yes
+			}
+			ship_effect = {
+				entity = "ship_aura_positive_entity"
+				dynamic_scale = no
+			}
+		}
+	}
+
+	prerequisites = { "tech_RB_79" }
+
+	component_set = "oyw_efsf_commander_aura"
+	#upgrades_to = "oyw_zeon_pilot_putv_veteran"
+
+	ai_weight = {
+		weight = 1
+	}
+}
