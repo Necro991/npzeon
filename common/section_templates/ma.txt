@@ -1,0 +1,115 @@
+ship_section_template = { #MA-08 Big Zam
+	key = "MA_08_MID"
+	ship_size = MA_08
+	fits_on_slot = mid
+	entity = "ma_2_entity"
+	icon = "GFX_ship_part_core_mid"
+
+	prerequisites = { tech_MS_14A }
+
+	# Guns
+	weapon_preferences = { weapon_type_z1 }
+	ai_weight = {
+		modifier = {
+			factor = 10.0
+		}
+	}
+
+	component_slot = {
+		name = "EXTRA_LARGE_01"
+		slot_size = extra_large
+		slot_type = weapon
+		locatorname = "xl_gun_01"
+	}
+
+	component_slot = {
+		name = "TORPEDO_01"
+		slot_size = torpedo
+		slot_type = weapon
+		locatorname = "medium_gun_01"
+	}
+
+	component_slot = {
+		name = "TORPEDO_02"
+		slot_size = torpedo
+		slot_type = weapon
+		locatorname = "medium_gun_02"
+	}
+
+	component_slot = {
+		name = "TORPEDO_03"
+		slot_size = torpedo
+		slot_type = weapon
+		locatorname = "medium_gun_03"
+	}
+
+	component_slot = {
+		name = "TORPEDO_04"
+		slot_size = torpedo
+		slot_type = weapon
+		locatorname = "medium_gun_04"
+	}
+
+	component_slot = {
+		name = "TORPEDO_05"
+		slot_size = torpedo
+		slot_type = weapon
+		locatorname = "medium_gun_05"
+	}
+
+	component_slot = {
+		name = "TORPEDO_06"
+		slot_size = torpedo
+		slot_type = weapon
+		locatorname = "medium_gun_06"
+	}
+
+	component_slot = {
+		name = "SMALL_GUN_01"
+		slot_size = point_defence
+		slot_type = weapon
+		locatorname = "small_gun_01"
+	}
+
+	component_slot = {
+		name = "SMALL_GUN_02"
+		slot_size = point_defence
+		slot_type = weapon
+		locatorname = "small_gun_02"
+	}
+
+	component_slot = {
+		name = "SMALL_GUN_03"
+		slot_size = point_defence
+		slot_type = weapon
+		locatorname = "small_gun_03"
+	}
+
+	component_slot = {
+		name = "SMALL_GUN_04"
+		slot_size = point_defence
+		slot_type = weapon
+		locatorname = "small_gun_04"
+	}
+
+	component_slot = {
+		name = "SMALL_GUN_05"
+		slot_size = point_defence
+		slot_type = weapon
+		locatorname = "small_gun_05"
+	}
+
+	component_slot = {
+		name = "SMALL_GUN_06"
+		slot_size = point_defence
+		slot_type = weapon
+		locatorname = "small_gun_06"
+	}
+
+	small_utility_slots = 0
+	medium_utility_slots = 0
+	large_utility_slots = 0
+	aux_utility_slots = 0
+
+	cost = 1200
+}

@@ -1,0 +1,48 @@
+spriteTypes = {
+
+	spriteType = {
+		name = "radiation_armor_2"
+		texturefile = "gfx/interface/icons/ship_parts/ship_part_armor_radiation_2.dds"
+	}
+
+	spriteType = {
+		name = "ms_06_armor_2"
+		texturefile = "gfx/interface/icons/ship_parts/ms_06_armor_2.dds"
+	}
+
+	spriteType = {
+		name = "ms_06_armor_3"
+		texturefile = "gfx/interface/icons/ship_parts/ms_06_armor_3.dds"
+	}
+
+	spriteType = {
+		name = "ms_06_armor_4"
+		texturefile = "gfx/interface/icons/ship_parts/ms_06_armor_4.dds"
+	}
+
+	spriteType = {
+		name = "ms_06_armor_5"
+		texturefile = "gfx/interface/icons/ship_parts/ms_06_armor_5.dds"
+	}
+
+	spriteType = {
+		name = "ms_06_thrusters_1"
+		texturefile = "gfx/interface/icons/ship_parts/ship_part_armor_radiation_2.dds"
+	}
+
+	spriteType = {
+		name = "ms_06_thrusters_2"
+		texturefile = "gfx/interface/icons/ship_parts/ship_part_armor_radiation_2.dds"
+	}
+
+	spriteType = {
+		name = "ms_06_thrusters_3"
+		texturefile = "gfx/interface/icons/ship_parts/ship_part_armor_radiation_2.dds"
+	}
+
+	spriteType = {
+		name = "ms_06_thrusters_4"
+		texturefile = "gfx/interface/icons/ship_parts/ship_part_armor_radiation_2.dds"
+	}
+
+}

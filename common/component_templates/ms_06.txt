@@ -3,7 +3,7 @@
 utility_component_template = {
 	key = "ms_06_armor_1"
 	size = small
-	icon = "radiation_armor"
+	icon = "radiation_armor_2"
 	icon_frame = 1
 	power = 0
 	cost = 0
@@ -11,7 +11,7 @@ utility_component_template = {
 	modifier = {
 		ship_armor_add = 25
 		ship_evasion_add = -5
-		ship_hitpoints_mult = 0.04
+		ship_hitpoints_mult = 0.1
 	}
 	#ship_modifier = {
 	#	ship_weapon_damage = 0.01
@@ -30,14 +30,14 @@ utility_component_template = {
 utility_component_template = {
 	key = "ms_06_armor_2"
 	size = small
-	icon = "GFX_ship_part_armor_1"
+	icon = "ms_06_armor_2"
 	icon_frame = 1
 	power = 0
 	cost = 0
 
 	modifier = {
 		ship_armor_add = 20
-		ship_hitpoints_mult = 0.04
+		ship_hitpoints_mult = 0.1
 	}
 	#ship_modifier = {
 	#	ship_weapon_damage = 0.01
@@ -56,14 +56,14 @@ utility_component_template = {
 utility_component_template = {
 	key = "ms_06_armor_3"
 	size = small
-	icon = "GFX_ship_part_armor_2"
+	icon = "ms_06_armor_3"
 	icon_frame = 1
 	power = 0
-	cost = 0
+	cost = 3
 
 	modifier = {
 		ship_armor_add = 25
-		ship_hitpoints_mult = 0.05
+		ship_hitpoints_mult = 0.13
 	}
 	#ship_modifier = {
 	#	ship_weapon_damage = 0.01
@@ -82,14 +82,14 @@ utility_component_template = {
 utility_component_template = {
 	key = "ms_06_armor_4"
 	size = small
-	icon = "GFX_ship_part_armor_3"
+	icon = "ms_06_armor_4"
 	icon_frame = 1
 	power = 0
-	cost = 0
+	cost = -3
 
 	modifier = {
 		ship_armor_add = 30
-		ship_hitpoints_mult = 0.03
+		ship_hitpoints_mult = 0.08
 	}
 	#ship_modifier = {
 	#	ship_weapon_damage = 0.01
@@ -108,14 +108,14 @@ utility_component_template = {
 utility_component_template = {
 	key = "ms_06_armor_5"
 	size = small
-	icon = "GFX_ship_part_armor_4"
+	icon = "ms_06_armor_5"
 	icon_frame = 1
 	power = 0
-	cost = -15
+	cost = 19
 
 	modifier = {
 		ship_armor_add = 35
-		ship_hitpoints_mult = 0.06
+		ship_hitpoints_mult = 0.28
 	}
 	#ship_modifier = {
 	#	ship_weapon_damage = 0.01
@@ -134,7 +134,7 @@ utility_component_template = {
 utility_component_template = {
 	key = "ms_06_thrusters_1"
 	size = small
-	icon = "GFX_ship_part_thruster_1"
+	icon = "GFX_ship_part_thruster_1" #ms_06_thrusters_1
 	icon_frame = 1
 	power = 0
 	cost = 0
@@ -159,10 +159,10 @@ utility_component_template = {
 utility_component_template = {
 	key = "ms_06_thrusters_2"
 	size = small
-	icon = "GFX_ship_part_thruster_2"
+	icon = "GFX_ship_part_thruster_2" #ms_06_thrusters_2
 	icon_frame = 1
 	power = 0
-	cost = 0
+	cost = 5
 
 	modifier = {
 		ship_evasion_add = 55
@@ -184,10 +184,10 @@ utility_component_template = {
 utility_component_template = {
 	key = "ms_06_thrusters_3"
 	size = small
-	icon = "GFX_ship_part_thruster_3"
+	icon = "GFX_ship_part_thruster_3" #ms_06_thrusters_3
 	icon_frame = 1
 	power = 0
-	cost = 0
+	cost = 10
 
 	modifier = {
 		ship_evasion_add = 55
@@ -211,10 +211,10 @@ utility_component_template = {
 utility_component_template = {
 	key = "ms_06_thrusters_4"
 	size = small
-	icon = "GFX_ship_part_thruster_4"
+	icon = "GFX_ship_part_thruster_4" #ms_06_thrusters_4
 	icon_frame = 1
 	power = 0
-	cost = 0
+	cost = 15
 
 	modifier = {
 		ship_evasion_add = 57
@@ -228,6 +228,56 @@ utility_component_template = {
 	prerequisites = { "tech_MS_06FZ" }
 
 	component_set = "ms_06_thrusters"
+	#upgrades_to = "oyw_zeon_pilot_putv_veteran"
+
+	ai_weight = {
+		weight = 1
+	}
+}
+
+utility_component_template = {
+	key = "ms_06r_armor_1"
+	size = small
+	icon = "GFX_ship_part_armor_1" #ms_06r_armor_1
+	icon_frame = 1
+	power = 0
+	cost = 0
+
+	modifier = {
+		ship_armor_add = 30
+	}
+	#ship_modifier = {
+	#	ship_weapon_damage = 0.01
+	#}
+
+	prerequisites = { "tech_MS_06R_2" }
+
+	component_set = "ms_06r_armor"
+	#upgrades_to = "oyw_zeon_pilot_putv_veteran"
+
+	ai_weight = {
+		weight = 1
+	}
+}
+
+utility_component_template = {
+	key = "ms_06r_thrusters_1"
+	size = small
+	icon = "GFX_ship_part_thruster_1" #ms_06r_thrusters_1
+	icon_frame = 1
+	power = 0
+	cost = 0
+
+	modifier = {
+		ship_evasion_add = 80
+	}
+	#ship_modifier = {
+	#	ship_weapon_damage = 0.01
+	#}
+
+	prerequisites = { "tech_MS_06R_2" }
+
+	component_set = "ms_06r_thrusters"
 	#upgrades_to = "oyw_zeon_pilot_putv_veteran"
 
 	ai_weight = {

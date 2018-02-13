@@ -10,7 +10,7 @@ utility_component_template = {
 
 	modifier = {
 		ship_armor_add = 35
-		ship_hitpoints_mult = 0.05
+		ship_hitpoints_mult = 0.13
 	}
 	#ship_modifier = {
 	#	ship_weapon_damage = 0.01
@@ -32,11 +32,11 @@ utility_component_template = {
 	icon = "GFX_ship_part_armor_2"
 	icon_frame = 1
 	power = 0
-	cost = 0
+	cost = 6
 
 	modifier = {
 		ship_armor_add = 35
-		ship_hitpoints_mult = 0.07
+		ship_hitpoints_mult = 0.18
 	}
 	#ship_modifier = {
 	#	ship_weapon_damage = 0.01
@@ -58,11 +58,11 @@ utility_component_template = {
 	icon = "GFX_ship_part_armor_3"
 	icon_frame = 1
 	power = 0
-	cost = 0
+	cost = 15
 
 	modifier = {
 		ship_armor_add = 37
-		ship_hitpoints_mult = 0.1
+		ship_hitpoints_mult = 0.25
 	}
 	#ship_modifier = {
 	#	ship_weapon_damage = 0.01
@@ -84,11 +84,11 @@ utility_component_template = {
 	icon = "GFX_ship_part_armor_4"
 	icon_frame = 1
 	power = 0
-	cost = -15
+	cost = 12
 
 	modifier = {
 		ship_armor_add = 40
-		ship_hitpoints_mult = 0.09
+		ship_hitpoints_mult = 0.23
 	}
 	#ship_modifier = {
 	#	ship_weapon_damage = 0.01
@@ -137,7 +137,7 @@ utility_component_template = {
 	icon = "GFX_ship_part_thruster_2"
 	icon_frame = 1
 	power = 0
-	cost = 0
+	cost = 5
 
 	modifier = {
 		ship_evasion_add = 55
@@ -164,7 +164,7 @@ utility_component_template = {
 	icon = "GFX_ship_part_thruster_3"
 	icon_frame = 1
 	power = 0
-	cost = -15
+	cost = 10
 
 	modifier = {
 		ship_evasion_add = 60

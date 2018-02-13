@@ -19,9 +19,34 @@ component_set = {
 }
 
 component_set = {
+	key = "ms_06r_reactor"
+
+	required_component_set = yes
+	icon = "GFX_ship_part_ms_reactor"
+	icon_frame = 1
+}
+
+component_set = {
+	key = "ma_08_reactor"
+
+	required_component_set = yes
+	icon = "GFX_ship_part_ms_reactor"
+	icon_frame = 1
+}
+
+component_set = {
+	key = "ma_08_i_field"
+
+	required_component_set = yes
+	icon = "GFX_ship_part_ms_reactor"
+	icon_frame = 1
+}
+
+component_set = {
 	key = "minovsky_reactor"
 
 	show_in_designer = no
+	required_component_set = yes
 	icon = "GFX_ship_part_ms_reactor"
 	icon_frame = 1
 }
@@ -30,6 +55,16 @@ component_set = {
 	key = "efsf_minovsky_reactor"
 
 	show_in_designer = no
+	required_component_set = yes
+	icon = "GFX_ship_part_ms_reactor"
+	icon_frame = 1
+}
+
+component_set = {
+	key = "rx_75_reactor"
+
+	show_in_designer = no
+	required_component_set = yes
 	icon = "GFX_ship_part_ms_reactor"
 	icon_frame = 1
 }

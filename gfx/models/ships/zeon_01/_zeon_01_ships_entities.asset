@@ -1935,8 +1935,8 @@ entity = {
 
 	entity = {
 		name = "ma_2_entity" #Big Zam
-		pdxmesh = "Big_Zam_Strike_Mesh"
-		scale = 0.5
+		pdxmesh = "Big_Zam_Mesh"
+		scale = 1.0
 	}
 
 	entity = {
@@ -2884,6 +2884,35 @@ entity = {
 	entity = { #ZAKU II Shin Matsunaga 2
 		name = "zaku2_matsunaga_2_entity"
 		pdxmesh = "zeon_ms_06_s_matsunaga_2_group_S3_mesh"
+
+		locator = { name = "root" 			position = { 0 	0 	0	} }
+		locator = { name = "small_gun_01" 			position = { 0 	0 	0	} scale = 0.0} #X,Up/Down,Forward/Back 0 	0.4 	-0.3
+		locator = { name = "small_gun_02" 			position = { 0 	0 	0 	} scale = 0.0} #0.5	0.4 	-0.3
+		locator = { name = "small_gun_03" 			position = { 0 	0 	0 	} scale = 0.0} #-0.5 	0.4 	-0.3
+		locator = { name = "small_gun_04" 			position = { 0 	0 	0 	} scale = 0.0} #-0.5 	0.4 	-0.3
+		locator = { name = "medium_gun_01" 			position = { 0 	0 	0 	} scale = 0.0}
+		locator = { name = "light_locator_01" 			position = { 0  0 	0 	} }
+		locator = { name = "light_locator_02" 			position = { 0 	0 	0 	} }
+		locator = { name = "exaust_01" 			position = { 0 	0 	0 	} }
+
+		default_state = "idle"
+		state = { name = "idle"		state_time = 5
+
+			event = { time = 0 node = "light_locator_01" particle = "ship_light_blue_effect" trigger_once = yes keep_particle = yes }
+			event = { time = 0 node = "light_locator_02" particle = "ship_light_blue_effect" trigger_once = yes keep_particle = yes }
+			}
+		state = { name = "moving"	state_time = 5
+
+			event = { time = 0 node = "light_locator_01" particle = "ship_light_blue_effect" trigger_once = yes keep_particle = yes }
+			event = { time = 0 node = "light_locator_02" particle = "ship_light_blue_effect" trigger_once = yes keep_particle = yes }
+			}
+		state = { name = "death" state_time = 5 }
+		scale = 1.00
+	}
+
+	entity = { #MS-09R Rick Dom
+		name = "rick_dom_entity"
+		pdxmesh = "zeon_ms_4_group_S3_mesh"
 
 		locator = { name = "root" 			position = { 0 	0 	0	} }
 		locator = { name = "small_gun_01" 			position = { 0 	0 	0	} scale = 0.0} #X,Up/Down,Forward/Back 0 	0.4 	-0.3

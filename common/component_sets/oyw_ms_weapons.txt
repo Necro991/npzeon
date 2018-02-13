@@ -55,6 +55,13 @@ component_set = {
 }
 
 component_set = {
+	key = "OYW_ZEON_BEAM_BAZOOKA"
+
+	icon = "GFX_ship_part_mass_driver_1"
+	icon_frame = 1
+}
+
+component_set = {
 	key = "OYW_ZEON_STURMFAUST"
 
 	icon = "GFX_ship_part_mass_driver_1"
@@ -91,6 +98,34 @@ component_set = {
 
 component_set = {
 	key = "OYW_ZEON_420MM"
+
+	icon = "GFX_ship_part_mass_driver_1"
+	icon_frame = 1
+}
+
+component_set = {
+	key = "OYW_EFSF_180MM_1"
+
+	icon = "GFX_ship_part_mass_driver_1"
+	icon_frame = 1
+}
+
+component_set = {
+	key = "OYW_EFSF_180MM_2"
+
+	icon = "GFX_ship_part_mass_driver_1"
+	icon_frame = 1
+}
+
+component_set = {
+	key = "OYW_EFSF_180MM_3"
+
+	icon = "GFX_ship_part_mass_driver_1"
+	icon_frame = 1
+}
+
+component_set = {
+	key = "OYW_EFSF_120MM"
 
 	icon = "GFX_ship_part_mass_driver_1"
 	icon_frame = 1

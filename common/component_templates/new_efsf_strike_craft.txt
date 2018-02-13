@@ -21,7 +21,7 @@ strike_craft_component_template = {
 	accuracy = 0.5 #0.82
 	tracking = 0.3 #0.65
 
-	health = 75 #40 - 15 = 25
+	health = 38
 	armor = 5 #weak armor
 	shield = 0
 	evasion = 0.25
@@ -59,15 +59,15 @@ strike_craft_component_template = {
 	launch_time = 8.0
 
 	damage = { min = 53 max = 109 } #180mm Cannon - Small Autocannon
-	cooldown = 35
+	cooldown = 10
 	range = 60
 	accuracy = 0.5 #0.82
 	tracking = 0.3 #0.65
 
-	health = 78 #40 - 18 = 22
+	health = 45
 	armor = 7 #Improved Armor
 	shield = 0
-	evasion = 0.25
+	evasion = 0.3
 
 	speed = 6.5 #0.96G
 	rotation_speed = 0.1
@@ -102,12 +102,12 @@ strike_craft_component_template = {
 	launch_time = 8.0
 
 	damage = { min = 106 max = 218 } #180mm Cannon x2 - Small Autocannon
-	cooldown = 30
+	cooldown = 10
 	range = 50
 	accuracy = 0.5 #0.82
 	tracking = 0.3 #0.65
 
-	health = 75 #40 - 15 = 25
+	health = 38
 	armor = 5 #weak armor
 	shield = 0
 	evasion = 0.25
@@ -150,7 +150,7 @@ strike_craft_component_template = {
 	accuracy = 0.70
 	tracking = 0.0
 
-	health = 109
+	health = 123
 	armor = 20 #Lunar Titanium
 	shield = 0
 	evasion = 0.3 #Bad evasion due to ground-based design
@@ -193,7 +193,7 @@ strike_craft_component_template = {
 	accuracy = 0.75
 	tracking = 0.0
 
-	health = 109
+	health = 123
 	armor = 20 #Lunar Titanium/Gundamium
 	shield = 0
 	evasion = 0.3 #Bad evasion due to ground-based design
@@ -236,7 +236,7 @@ strike_craft_component_template = {
 	accuracy = 0.65
 	tracking = 0.0
 
-	health = 74 #40 - 14 = 26
+	health = 35
 	armor = 10 #Titanium ALloy
 	shield = 0
 	evasion = 0.45 #Improved, but still not good.
@@ -322,7 +322,7 @@ strike_craft_component_template = {
 	accuracy = 0.65
 	tracking = 0.0
 
-	health = 67 #40 - 7 = 33
+	health = 18
 	armor = 10 #Titanium ALloy
 	shield = 0
 	evasion = 0.45 #Improved, but still not good.
@@ -365,7 +365,7 @@ strike_craft_component_template = {
 	accuracy = 0.6
 	tracking = 0.0
 
-	health = 104
+	health = 110
 	armor = 20 #Gundamium
 	shield = 0
 	evasion = 0.4
@@ -408,7 +408,7 @@ strike_craft_component_template = {
 	accuracy = 0.6
 	tracking = 0.0
 
-	health = 149
+	health = 223
 	armor = 25 #Gundamium and it's better than the Gundam
 	shield = 0
 	evasion = 0.4
@@ -451,7 +451,7 @@ strike_craft_component_template = {
 	accuracy = 0.6
 	tracking = 0.0
 
-	health = 109
+	health = 123
 	armor = 25 #Gundamium and it's better than the Gundam
 	shield = 0
 	evasion = 0.4
@@ -494,7 +494,7 @@ strike_craft_component_template = {
 	accuracy = 0.9 #Has targeting sensor
 	tracking = 0.25 #See above
 
-	health = 105
+	health = 113
 	armor = 25 #Gundamium and it's better than the Gundam
 	shield = 0
 	evasion = 0.4
@@ -537,7 +537,7 @@ strike_craft_component_template = {
 	accuracy = 0.7 #Has a targeter, accuracy and tracking increased
 	tracking = 0.2
 
-	health = 103
+	health = 108
 	armor = 10 #Titanium alloy
 	shield = 0
 	evasion = 0.5
@@ -580,7 +580,7 @@ strike_craft_component_template = {
 	accuracy = 0.6 #No extra targeter, accuracy and tracking back to normal
 	tracking = 0.0
 
-	health = 103
+	health = 108
 	armor = 10 #Titanium alloy
 	shield = 0
 	evasion = 0.5
@@ -623,7 +623,7 @@ strike_craft_component_template = {
 	accuracy = 0.5
 	tracking = 0.0
 
-	health = 101
+	health = 103
 	armor = 10 #Titanium alloy
 	shield = 0
 	evasion = 0.25 #Super unwieldy due to overly heavy weapons
@@ -666,7 +666,7 @@ strike_craft_component_template = {
 	accuracy = 0.6
 	tracking = 0.0
 
-	health = 97 #40 - 37 = 3
+	health = 93
 	armor = 10 #Titanium alloy
 	shield = 0
 	evasion = 0.5
@@ -709,7 +709,7 @@ strike_craft_component_template = {
 	accuracy = 0.8
 	tracking = 0.05
 
-	health = 101
+	health = 103
 	armor = 15 #Titanium alloy + 5 for Chobham Armor
 	shield = 0
 	evasion = 0.25 #Terrible evasion
@@ -735,7 +735,7 @@ strike_craft_component_template = {
 strike_craft_component_template = {
 	key = "EFSF_MS_STRIKE_CRAFT_RX_78_1" #RX-78-1 Gundam Prototype
 	size = LARGE
-	entity = "gundam_alex_entity"
+	entity = "gundam_entity"
 
 	weapon_type = point_defence
 	projectile_gfx = "MPC2"
@@ -752,7 +752,7 @@ strike_craft_component_template = {
 	accuracy = 0.82
 	tracking = 0.65
 
-	health = 96 # 40 - 36 = 4
+	health = 90
 	armor = 20 #Gundamium
 	shield = 0
 	evasion = 0.6
@@ -778,7 +778,7 @@ strike_craft_component_template = {
 strike_craft_component_template = {
 	key = "EFSF_MS_STRIKE_CRAFT_RX_78_2" #RX-78-2 Gundam
 	size = LARGE
-	entity = "gundam_alex_entity"
+	entity = "gundam_entity"
 
 	weapon_type = point_defence
 	projectile_gfx = "MPC2"
@@ -795,7 +795,7 @@ strike_craft_component_template = {
 	accuracy = 0.82
 	tracking = 0.65
 
-	health = 97 # 40 - 37 = 3
+	health = 93
 	armor = 20 #Gundamium
 	shield = 0
 	evasion = 0.6
@@ -821,7 +821,7 @@ strike_craft_component_template = {
 strike_craft_component_template = {
 	key = "EFSF_MS_STRIKE_CRAFT_RX_78_3" #RX-78-3 Gundam G-3
 	size = LARGE
-	entity = "gundam_alex_entity"
+	entity = "gundam_entity"
 
 	weapon_type = point_defence
 	projectile_gfx = "MPC2"
@@ -838,7 +838,7 @@ strike_craft_component_template = {
 	accuracy = 0.82
 	tracking = 0.65
 
-	health = 97 # 40 - 37 = 3
+	health = 93
 	armor = 20 #Gundamium
 	shield = 50 #Experimental Beam Coating
 	evasion = 0.6
@@ -864,7 +864,7 @@ strike_craft_component_template = {
 strike_craft_component_template = {
 	key = "EFSF_MS_STRIKE_CRAFT_RX_78_4" #RX-78-4 Gundam G04
 	size = LARGE
-	entity = "gundam_alex_entity"
+	entity = "gundam_entity"
 
 	weapon_type = point_defence
 	projectile_gfx = "MPC2"
@@ -881,7 +881,7 @@ strike_craft_component_template = {
 	accuracy = 0.9
 	tracking = 0.2
 
-	health = 109
+	health = 123
 	armor = 20 #Gundamium
 	shield = 50 #Experimental Beam Coating
 	evasion = 0.6
@@ -907,7 +907,7 @@ strike_craft_component_template = {
 strike_craft_component_template = {
 	key = "EFSF_MS_STRIKE_CRAFT_RX_78_5" #RX-78-5 Gundam G05
 	size = LARGE
-	entity = "gundam_alex_entity"
+	entity = "gundam_entity"
 
 	weapon_type = point_defence
 	projectile_gfx = "mass_driver_s"
@@ -924,7 +924,7 @@ strike_craft_component_template = {
 	accuracy = 0.7
 	tracking = 0.65
 
-	health = 110
+	health = 125
 	armor = 20 #Gundamium
 	shield = 50 #Experimental Beam Coating
 	evasion = 0.6
@@ -950,7 +950,7 @@ strike_craft_component_template = {
 strike_craft_component_template = {
 	key = "EFSF_MS_STRIKE_CRAFT_RX_78_6" #RX-78-6 Gundam Mudrock
 	size = LARGE
-	entity = "gundam_alex_entity"
+	entity = "gundam_entity"
 
 	weapon_type = point_defence
 	projectile_gfx = "mass_driver_s"
@@ -967,7 +967,7 @@ strike_craft_component_template = {
 	accuracy = 0.6
 	tracking = 0.0
 
-	health = 110
+	health = 130
 	armor = 20 #Gundamium
 	shield = 50 #Experimental Beam Coating
 	evasion = 0.6
@@ -993,7 +993,7 @@ strike_craft_component_template = {
 strike_craft_component_template = {
 	key = "EFSF_MS_STRIKE_CRAFT_RX_78_7" #RX-78-7 Gundam 7th Gundam
 	size = LARGE
-	entity = "gundam_alex_entity"
+	entity = "gundam_entity"
 
 	weapon_type = point_defence
 	projectile_gfx = "MPC2"
@@ -1011,7 +1011,7 @@ strike_craft_component_template = {
 	accuracy = 0.82
 	tracking = 0.65
 
-	health = 110
+	health = 120
 	armor = 20 #Gundamium
 	shield = 50 #Experimental Beam Coating
 	evasion = 0.6
@@ -1054,7 +1054,7 @@ strike_craft_component_template = {
 	accuracy = 0.82
 	tracking = 0.65
 
-	health = 105
+	health = 113
 	armor = 20 #Gundamium
 	shield = 0
 	evasion = 0.65 #Really maneuvrable
@@ -1097,7 +1097,7 @@ strike_craft_component_template = {
 	accuracy = 0.82
 	tracking = 0.65
 
-	health = 115
+	health = 138
 	armor = 25 #Gundamium + Chobham
 	shield = 0
 	evasion = 0.5 #Normal mobility due to increased armor
@@ -1140,7 +1140,7 @@ strike_craft_component_template = {
 	accuracy = 0.82
 	tracking = 0.65
 
-	health = 93
+	health = 83
 	armor = 20
 	shield = 0
 	evasion = 0.7 #Greatly improved performance
@@ -1226,7 +1226,7 @@ strike_craft_component_template = {
 	accuracy = 0.82
 	tracking = 0.65
 
-	health = 96 #40 -36 = 4
+	health = 90
 	armor = 10
 	shield = 0
 	evasion = 0.5
@@ -1269,7 +1269,7 @@ strike_craft_component_template = {
 	accuracy = 0.8
 	tracking = 0.2
 
-	health = 96 #40 - 36 = 4
+	health = 90
 	armor = 10
 	shield = 0
 	evasion = 0.5
@@ -1312,7 +1312,7 @@ strike_craft_component_template = {
 	accuracy = 0.8
 	tracking = 0.6
 
-	health = 96 #40 -36 = 4
+	health = 90
 	armor = 10
 	shield = 0
 	evasion = 0.5
@@ -1355,7 +1355,7 @@ strike_craft_component_template = {
 	accuracy = 0.8
 	tracking = 0.2
 
-	health = 96 #40 - 36 = 4
+	health = 90
 	armor = 10
 	shield = 0
 	evasion = 0.5
@@ -1484,7 +1484,7 @@ strike_craft_component_template = {
 	accuracy = 0.82
 	tracking = 0.65
 
-	health = 95 #40 - 35 = 5
+	health = 88
 	armor = 10
 	shield = 0
 	evasion = 0.6 #Greatly improved performance
@@ -1527,7 +1527,7 @@ strike_craft_component_template = {
 	accuracy = 0.8
 	tracking = 0.2
 
-	health = 95 #40 - 35 = 5
+	health = 88
 	armor = 10
 	shield = 0
 	evasion = 0.6 #Greatly improved performance
@@ -1570,7 +1570,7 @@ strike_craft_component_template = {
 	accuracy = 0.82
 	tracking = 0.65
 
-	health = 95 #40 - 35 = 5
+	health = 88
 	armor = 10
 	shield = 0
 	evasion = 0.6 #Greatly improved performance
@@ -1613,7 +1613,7 @@ strike_craft_component_template = {
 	accuracy = 0.8
 	tracking = 0.2
 
-	health = 95 #40 - 35 = 5
+	health = 88
 	armor = 10
 	shield = 0
 	evasion = 0.6 #Greatly improved performance
@@ -1656,7 +1656,7 @@ strike_craft_component_template = {
 	accuracy = 0.82
 	tracking = 0.65
 
-	health = 95 #40 - 35 = 5
+	health = 88
 	armor = 10
 	shield = 0
 	evasion = 0.6 #Greatly improved performance
@@ -1699,7 +1699,7 @@ strike_craft_component_template = {
 	accuracy = 0.82
 	tracking = 0.65
 
-	health = 95
+	health = 88
 	armor = 10
 	shield = 0
 	evasion = 0.6 #Greatly improved performance
@@ -1742,7 +1742,7 @@ strike_craft_component_template = {
 	accuracy = 0.9
 	tracking = 0.8
 
-	health = 106
+	health = 115
 	armor = 12 #Reinforced Armor
 	shield = 0
 	evasion = 0.6 #Greatly improved performance
@@ -1785,7 +1785,7 @@ strike_craft_component_template = {
 	accuracy = 0.9
 	tracking = 0.8
 
-	health = 98
+	health = 95
 	armor = 15 #Reinforced Armor
 	shield = 0
 	evasion = 0.6 #Greatly improved performance
@@ -1828,7 +1828,7 @@ strike_craft_component_template = {
 	accuracy = 0.9
 	tracking = 0.8
 
-	health = 96
+	health = 90
 	armor = 12 #Reinforced Armor
 	shield = 0
 	evasion = 0.65 #Greatly improved performance
@@ -1871,7 +1871,7 @@ strike_craft_component_template = {
 	accuracy = 0.9
 	tracking = 0.8
 
-	health = 96
+	health = 90
 	armor = 14 #Reinforced Armor
 	shield = 0
 	evasion = 0.7 #Greatly improved performance
@@ -1914,7 +1914,7 @@ strike_craft_component_template = {
 	accuracy = 0.82
 	tracking = 0.65
 
-	health = 94
+	health = 85
 	armor = 15 #Gundarium
 	shield = 0
 	evasion = 0.7 #Greatly improved performance
@@ -1957,7 +1957,7 @@ strike_craft_component_template = {
 	accuracy = 0.8
 	tracking = 0.2
 
-	health = 94
+	health = 85
 	armor = 15 #Gundarium
 	shield = 0
 	evasion = 0.7 #Greatly improved performance
@@ -2000,7 +2000,7 @@ strike_craft_component_template = {
 	accuracy = 0.82
 	tracking = 0.65
 
-	health = 95
+	health = 88
 	armor = 15 #Gundarium
 	shield = 0
 	evasion = 0.7 #Greatly improved performance
@@ -2043,7 +2043,7 @@ strike_craft_component_template = {
 	accuracy = 0.82
 	tracking = 0.65
 
-	health = 96
+	health = 90
 	armor = 13 #Upgraded
 	shield = 0
 	evasion = 0.55 #Greatly improved performance
@@ -2086,7 +2086,7 @@ strike_craft_component_template = {
 	accuracy = 0.8
 	tracking = 0.2
 
-	health = 96
+	health = 90
 	armor = 13 #Upgraded
 	shield = 0
 	evasion = 0.55 #Greatly improved performance
@@ -2129,7 +2129,7 @@ strike_craft_component_template = {
 	accuracy = 0.82
 	tracking = 0.65
 
-	health = 102
+	health = 105
 	armor = 20 #Gundarium
 	shield = 0
 	evasion = 0.75 #Greatly improved performance
@@ -2172,7 +2172,7 @@ strike_craft_component_template = {
 	accuracy = 1.0
 	tracking = 0.5
 
-	health = 102
+	health = 105
 	armor = 20 #Gundarium
 	shield = 0
 	evasion = 0.75 #Greatly improved performance
@@ -2215,7 +2215,7 @@ strike_craft_component_template = {
 	accuracy = 0.82
 	tracking = 0.65
 
-	health = 102
+	health = 105
 	armor = 20 #Gundarium
 	shield = 0
 	evasion = 0.75 #Greatly improved performance
@@ -2258,7 +2258,7 @@ strike_craft_component_template = {
 	accuracy = 1.0
 	tracking = 0.5
 
-	health = 102
+	health = 105
 	armor = 20 #Gundarium
 	shield = 0
 	evasion = 0.75 #Greatly improved performance
@@ -2301,7 +2301,7 @@ strike_craft_component_template = {
 	accuracy = 0.82
 	tracking = 0.65
 
-	health = 102
+	health = 73
 	armor = 15 #Improved Armor
 	shield = 0
 	evasion = 0.75 #Greatly improved performance
@@ -2344,7 +2344,7 @@ strike_craft_component_template = {
 	accuracy = 1.0
 	tracking = 0.5
 
-	health = 102
+	health = 73
 	armor = 15 #Improved Armor
 	shield = 0
 	evasion = 0.75 #Greatly improved performance
@@ -2387,7 +2387,7 @@ strike_craft_component_template = {
 	accuracy = 0.82
 	tracking = 0.65
 
-	health = 97
+	health = 93
 	armor = 15
 	shield = 0
 	evasion = 0.5
@@ -2430,7 +2430,7 @@ strike_craft_component_template = {
 	accuracy = 0.8
 	tracking = 0.2
 
-	health = 97
+	health = 93
 	armor = 15
 	shield = 0
 	evasion = 0.5
@@ -2473,7 +2473,7 @@ strike_craft_component_template = {
 	accuracy = 0.82
 	tracking = 0.65
 
-	health = 97
+	health = 93
 	armor = 15
 	shield = 0
 	evasion = 0.6
@@ -2516,7 +2516,7 @@ strike_craft_component_template = {
 	accuracy = 0.9
 	tracking = 0.8
 
-	health = 97
+	health = 93
 	armor = 15
 	shield = 0
 	evasion = 0.6
@@ -2559,7 +2559,7 @@ strike_craft_component_template = {
 	accuracy = 0.6
 	tracking = 0.0
 
-	health = 103
+	health = 108
 	armor = 20 #Gundamium
 	shield = 0
 	evasion = 0.5
@@ -2602,7 +2602,7 @@ strike_craft_component_template = {
 	accuracy = 0.82
 	tracking = 0.65
 
-	health = 97
+	health = 93
 	armor = 20
 	shield = 0
 	evasion = 0.6
@@ -2645,7 +2645,7 @@ strike_craft_component_template = {
 	accuracy = 0.82
 	tracking = 0.65
 
-	health = 97
+	health = 93
 	armor = 20
 	shield = 0
 	evasion = 0.6
@@ -2688,7 +2688,7 @@ strike_craft_component_template = {
 	accuracy = 0.9
 	tracking = 0.0
 
-	health = 97
+	health = 93
 	armor = 20
 	shield = 0
 	evasion = 0.6
@@ -2731,7 +2731,7 @@ strike_craft_component_template = {
 	accuracy = 0.82
 	tracking = 0.65
 
-	health = 97
+	health = 93
 	armor = 20
 	shield = 0
 	evasion = 0.65 #Improved performance
@@ -2774,7 +2774,7 @@ strike_craft_component_template = {
 	accuracy = 0.82
 	tracking = 0.65
 
-	health = 106
+	health = 115
 	armor = 20
 	shield = 0
 	evasion = 0.65
@@ -2817,7 +2817,7 @@ strike_craft_component_template = {
 	accuracy = 0.82
 	tracking = 0.65
 
-	health = 106
+	health = 115
 	armor = 25
 	shield = 0
 	evasion = 0.60
@@ -2860,7 +2860,7 @@ strike_craft_component_template = {
 	accuracy = 0.9
 	tracking = 0.0
 
-	health = 111
+	health = 128
 	armor = 30 #Massive Shield and Gundamium
 	shield = 0
 	evasion = 0.5 #Nuke Suit
@@ -2903,7 +2903,7 @@ strike_craft_component_template = {
 	accuracy = 1.0
 	tracking = 0.5
 
-	health = 111
+	health = 163
 	armor = 30 #Massive Shield and Gundamium
 	shield = 0
 	evasion = 0.55 #MLRS Suit
@@ -2946,7 +2946,7 @@ strike_craft_component_template = {
 	accuracy = 0.82
 	tracking = 0.65
 
-	health = 111
+	health = 163
 	armor = 30 #Massive Shield and Gundamium
 	shield = 0
 	evasion = 0.5 #Nuke Suit
@@ -2989,7 +2989,7 @@ strike_craft_component_template = {
 	accuracy = 0.82
 	tracking = 0.65
 
-	health = 103
+	health = 108
 	armor = 25
 	shield = 0
 	evasion = 0.7
@@ -3032,7 +3032,7 @@ strike_craft_component_template = {
 	accuracy = 0.82
 	tracking = 0.65
 
-	health = 105
+	health = 113
 	armor = 25
 	shield = 0
 	evasion = 0.75

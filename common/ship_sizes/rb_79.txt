@@ -30,17 +30,17 @@
 
 RB_79 = { #RB-79 MPT
 	entity = zakuIframe_entity
-	max_speed = 4
+	max_speed = 6.5
 	acceleration = 0.5
 	rotation_speed = 0.455
-	combat_max_speed = 4
+	combat_max_speed = 6.5
 	combat_rotation_speed = 0.455
 	collision_radius = 1
 	#modifier = {
 	#	ship_evasion_add = 50
 	#	ship_armor_add = 20
 	#}
-	max_hitpoints = 300
+	max_hitpoints = 114
 	size_multiplier = 1
 	fleet_slot_size = 16
 	section_slots = { "mid" = { locator = "part1" } }
@@ -67,17 +67,17 @@ RB_79 = { #RB-79 MPT
 
 RB_79S = { #RB-79S Commander
 	entity = zakuIframe_entity
-	max_speed = 4
+	max_speed = 6.5
 	acceleration = 0.5
 	rotation_speed = 0.455
-	combat_max_speed = 4
+	combat_max_speed = 6.5
 	combat_rotation_speed = 0.455
 	collision_radius = 1
 	#modifier = {
 	#	ship_evasion_add = 50
 	#	ship_armor_add = 20
 	#}
-	max_hitpoints = 300
+	max_hitpoints = 114
 	size_multiplier = 1
 	fleet_slot_size = 16
 	section_slots = { "mid" = { locator = "part1" } }

@@ -391,58 +391,79 @@ ship_section_template = { #FrAsh Thunderbolt Zaku II Reuse P Psycho Zaku
 	}
 
 	component_slot = {
+		name = "EXTRA_LARGE_01"
+		slot_size = extra_large
+		slot_type = weapon
+		locatorname = "xl_gun_01"
+	}
+
+	component_slot = {
 		name = "SMALL_GUN_01"
-		slot_size = small
+		slot_size = point_defence
 		slot_type = weapon
 		locatorname = "small_gun_01"
 	}
 
 	component_slot = {
 		name = "SMALL_GUN_02"
-		slot_size = small
+		slot_size = point_defence
 		slot_type = weapon
 		locatorname = "small_gun_02"
 	}
 
 	component_slot = {
-		name = "MEDIUM_GUN_01"
-		slot_size = medium
+		name = "SMALL_GUN_03"
+		slot_size = point_defence
 		slot_type = weapon
-		locatorname = "medium_gun_01"
+		locatorname = "small_gun_03"
 	}
 
 	component_slot = {
-		name = "MEDIUM_GUN_02"
-		slot_size = medium
+		name = "SMALL_GUN_04"
+		slot_size = point_defence
 		slot_type = weapon
-		locatorname = "medium_gun_02"
+		locatorname = "small_gun_04"
 	}
 
 	component_slot = {
-		name = "MEDIUM_GUN_03"
-		slot_size = medium
+		name = "SMALL_GUN_05"
+		slot_size = point_defence
 		slot_type = weapon
-		locatorname = "medium_gun_03"
+		locatorname = "small_gun_05"
 	}
 
 	component_slot = {
-		name = "MEDIUM_GUN_04"
-		slot_size = medium
+		name = "SMALL_GUN_06"
+		slot_size = point_defence
 		slot_type = weapon
-		locatorname = "medium_gun_04"
+		locatorname = "small_gun_06"
 	}
 
 	component_slot = {
-		name = "LARGE_GUN_01"
-		slot_size = large
+		name = "SMALL_GUN_07"
+		slot_size = point_defence
 		slot_type = weapon
-		locatorname = "large_gun_01"
+		locatorname = "small_gun_07"
 	}
 
-	small_utility_slots = 3
-	medium_utility_slots = 3
-	large_utility_slots = 2
-	aux_utility_slots = 1
+	component_slot = {
+		name = "SMALL_GUN_08"
+		slot_size = point_defence
+		slot_type = weapon
+		locatorname = "small_gun_08"
+	}
 
-	cost = 300
+	component_slot = {
+		name = "SMALL_GUN_09"
+		slot_size = point_defence
+		slot_type = weapon
+		locatorname = "small_gun_09"
+	}
+
+	small_utility_slots = 0
+	medium_utility_slots = 0
+	large_utility_slots = 0
+	aux_utility_slots = 0
+
+	cost = 46
 }

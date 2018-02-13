@@ -17,7 +17,7 @@ weapon_component_template = {
 	color = { 0.1 1.0 0.1 1 }
 	power = -3000
 	cost = 5
-	size_restriction = { MS_05B MS_05S MS_06 MS_06S MS_09 MS_09S MS_14 MS_14S }
+	size_restriction = { MS_05B MS_05S MS_06 MS_06S zeon_MS_P MS_09 MS_09S MS_14 MS_14S }
 	prerequisites = { "tech_MS_05B" }
 	component_set = "OYW_ZEON_100MM"
 	projectile_gfx = "auto_cannons_s"
@@ -45,7 +45,7 @@ weapon_component_template = {
 	color = { 0.1 1.0 0.1 1 }
 	power = -3000
 	cost = 10
-	size_restriction = { MS_05B MS_05S MS_06 MS_06S MS_09 MS_09S MS_14 MS_14S }
+	size_restriction = { MS_05B MS_05S MS_06 MS_06S zeon_MS_P MS_09 MS_09S MS_14 MS_14S }
 	prerequisites = { "tech_MS_06A" }
 	component_set = "OYW_ZEON_105MM"
 	projectile_gfx = "auto_cannons_s"
@@ -73,7 +73,7 @@ weapon_component_template = {
 	color = { 0.1 1.0 0.1 1 }
 	power = -3000
 	cost = 15
-	size_restriction = { MS_05B MS_05S MS_06 MS_06S MS_09 MS_09S MS_14 MS_14S }
+	size_restriction = { MS_05B MS_05S MS_06 MS_06S zeon_MS_P MS_09 MS_09S MS_14 MS_14S }
 	prerequisites = { "tech_MS_06A" }
 	component_set = "OYW_ZEON_120MM"
 	projectile_gfx = "auto_cannons_s"
@@ -101,7 +101,7 @@ weapon_component_template = {
 	color = { 0.1 1.0 0.1 1 }
 	power = -3000
 	cost = 5
-	size_restriction = { MS_05B MS_05S MS_06 MS_06S MS_09 MS_09S MS_14 MS_14S }
+	size_restriction = { MS_05B MS_05S MS_06 MS_06S zeon_MS_P MS_09 MS_09S MS_14 MS_14S }
 	prerequisites = { "tech_MS_06FZ" }
 	component_set = "OYW_ZEON_120MM_UMP"
 	projectile_gfx = "auto_cannons_s"
@@ -129,7 +129,7 @@ weapon_component_template = {
 	color = { 0.1 1.0 0.1 1 }
 	power = -3000
 	cost = 5
-	size_restriction = { MS_05B MS_05S MS_06 MS_06S MS_09 MS_09S MS_14 MS_14S }
+	size_restriction = { MS_05B MS_05S MS_06 MS_06S zeon_MS_P MS_09 MS_09S MS_14 MS_14S }
 	prerequisites = { "tech_MS_06FZ" }
 	component_set = "OYW_ZEON_90MM"
 	projectile_gfx = "auto_cannons_s"
@@ -157,7 +157,7 @@ weapon_component_template = {
 	color = { 0.1 1.0 0.1 1 }
 	power = -3000
 	cost = 15
-	size_restriction = { MS_05B MS_05S MS_06 MS_06S MS_09 MS_09S MS_14 MS_14S }
+	size_restriction = { MS_05B MS_05S MS_06 MS_06S zeon_MS_P MS_09 MS_09S MS_14 MS_14S }
 	prerequisites = { "tech_MS_06FZ" }
 	component_set = "OYW_ZEON_SHOTGUN"
 	projectile_gfx = "auto_cannons_s"
@@ -222,6 +222,33 @@ weapon_component_template = {
 	#upgrades_to = "SMALL_BEAMC_2"
 }
 
+weapon_component_template = {
+	key = "OYW_ZEON_BEAM_BAZOOKA"
+	size = extra_large
+	entity = "Zeon_Machine_Gun_01_Entity"
+	damage = { min = 200.0 max = 400.0 }
+	windup = { min = 2.5 max = 27.5 }
+	total_fire_time = 25
+	range = 80.0
+	accuracy = 0.8
+	tracking = 0.05
+	type = instant
+	shield_damage = 0.2
+	armor_penetration = 0.95
+
+	icon = "GFX_ship_part_mass_driver_1"
+	icon_frame = 1
+	color = { 0.1 1.0 0.1 1 }
+	power = -3000
+	cost = 50
+	size_restriction = { zeon_MS_P }
+	prerequisites = { "tech_MS_06R_2" }
+	component_set = "OYW_ZEON_BEAM_BAZOOKA"
+	projectile_gfx = "MPC1"
+	tags = { weapon_type_energy }
+	ai_tags = { weapon_role_anti_armor }
+	#upgrades_to = "SMALL_BEAMC_2"
+}
 
 weapon_component_template = {
 	key = "OYW_ZEON_STURMFAUST"
@@ -242,7 +269,7 @@ weapon_component_template = {
 	color = { 0.1 1.0 0.1 1 }
 	power = -3000
 	cost = 5
-	size_restriction = { MS_05B MS_05S MS_06 MS_06S MS_09 MS_09S MS_14 MS_14S }
+	size_restriction = { MS_05B MS_05S MS_06 MS_06S zeon_MS_P MS_09 MS_09S MS_14 MS_14S }
 	prerequisites = { "tech_MS_05B" }
 	component_set = "OYW_ZEON_STURMFAUST"
 	projectile_gfx = "gundam_missile"
@@ -270,7 +297,7 @@ weapon_component_template = {
 	color = { 0.1 1.0 0.1 1 }
 	power = -3000
 	cost = 20
-	size_restriction = { MS_05B MS_05S MS_06 MS_06S MS_09 MS_09S MS_14 MS_14S }
+	size_restriction = { MS_05B MS_05S MS_06 MS_06S zeon_MS_P MS_09 MS_09S MS_14 MS_14S }
 	prerequisites = { "tech_MS_06A" }
 	component_set = "OYW_ZEON_280MM_1"
 	projectile_gfx = "gundam_missile"
@@ -298,7 +325,7 @@ weapon_component_template = {
 	color = { 0.1 1.0 0.1 1 }
 	power = -3000
 	cost = 20
-	size_restriction = { MS_05B MS_05S MS_06 MS_06S MS_09 MS_09S MS_14 MS_14S }
+	size_restriction = { MS_05B MS_05S MS_06 MS_06S zeon_MS_P MS_09 MS_09S MS_14 MS_14S }
 	prerequisites = { "tech_MS_06C" }
 	component_set = "OYW_ZEON_280MM_2"
 	projectile_gfx = "gundam_missile"
@@ -326,7 +353,7 @@ weapon_component_template = {
 	color = { 0.1 1.0 0.1 1 }
 	power = -3000
 	cost = 25
-	size_restriction = { MS_05B MS_05S MS_06 MS_06S MS_09 MS_09S MS_14 MS_14S }
+	size_restriction = { MS_05B MS_05S MS_06 MS_06S zeon_MS_P MS_09 MS_09S MS_14 MS_14S }
 	prerequisites = { "tech_MS_09R" }
 	component_set = "OYW_ZEON_360MM_1"
 	projectile_gfx = "gundam_missile"
@@ -354,7 +381,7 @@ weapon_component_template = {
 	color = { 0.1 1.0 0.1 1 }
 	power = -3000
 	cost = 30
-	size_restriction = { MS_05B MS_05S MS_06 MS_06S MS_09 MS_09S MS_14 MS_14S }
+	size_restriction = { MS_05B MS_05S MS_06 MS_06S zeon_MS_P MS_09 MS_09S MS_14 MS_14S }
 	prerequisites = { "tech_MS_09R_2" }
 	component_set = "OYW_ZEON_360MM_2"
 	projectile_gfx = "gundam_missile"
@@ -382,11 +409,123 @@ weapon_component_template = {
 	color = { 0.1 1.0 0.1 1 }
 	power = -3000
 	cost = 15
-	size_restriction = { MS_05B MS_05S MS_06 MS_06S MS_09 MS_09S MS_14 MS_14S }
+	size_restriction = { MS_05B MS_05S MS_06 MS_06S zeon_MS_P MS_09 MS_09S MS_14 MS_14S }
 	prerequisites = { "tech_MS_17" }
 	component_set = "OYW_ZEON_420MM"
 	projectile_gfx = "gundam_missile"
 	tags = { weapon_type_explosive }
+	ai_tags = { weapon_role_anti_shield }
+	#upgrades_to = "SMALL_BEAMC_2"
+}
+
+weapon_component_template = {
+	key = "OYW_EFSF_180MM_1"
+	size = point_defence
+	entity = "Zeon_Machine_Gun_01_Entity"
+	damage = { min = 53.0 max = 109.0 }
+	windup = { min = 5.0 max = 10.0 }
+	total_fire_time = 10
+	range = 60.0
+	accuracy = 0.5
+	tracking  = 0.3
+	type = point_defence
+	shield_damage = 1.33
+	armor_penetration = 0.2
+
+	icon = "GFX_ship_part_mass_driver_1"
+	icon_frame = 1
+	color = { 0.1 1.0 0.1 1 }
+	power = -3000
+	cost = 5
+	size_restriction = { RB_79 RB_79S }
+	prerequisites = { "tech_RB_79" }
+	component_set = "OYW_EFSF_180MM_1"
+	projectile_gfx = "mass_driver_s"
+	tags = { weapon_type_kinetic }
+	ai_tags = { weapon_role_anti_shield }
+	upgrades_to = "OYW_EFSF_180MM_2"
+}
+
+weapon_component_template = {
+	key = "OYW_EFSF_180MM_2"
+	size = point_defence
+	entity = "Zeon_Machine_Gun_01_Entity"
+	damage = { min = 106.0 max = 218.0 }
+	windup = { min = 5.0 max = 10.0 }
+	total_fire_time = 10
+	range = 50.0
+	accuracy = 0.5
+	tracking  = 0.3
+	type = point_defence
+	shield_damage = 1.33
+	armor_penetration = 0.2
+
+	icon = "GFX_ship_part_mass_driver_1"
+	icon_frame = 1
+	color = { 0.1 1.0 0.1 1 }
+	power = -3000
+	cost = 10
+	size_restriction = { RB_79 RB_79S }
+	prerequisites = { "tech_RB_79K" }
+	component_set = "OYW_EFSF_180MM_2"
+	projectile_gfx = "mass_driver_s"
+	tags = { weapon_type_kinetic }
+	ai_tags = { weapon_role_anti_shield }
+	#upgrades_to = "SMALL_BEAMC_2"
+}
+
+weapon_component_template = {
+	key = "OYW_EFSF_180MM_3"
+	size = point_defence
+	entity = "Zeon_Machine_Gun_01_Entity"
+	damage = { min = 106.0 max = 218.0 }
+	#windup = { min = 5.0 max = 10.0 }
+	total_fire_time = 30
+	range = 70.0
+	accuracy = 0.7
+	tracking  = 0.0
+	type = point_defence
+	shield_damage = 1.33
+	armor_penetration = 0.2
+
+	icon = "GFX_ship_part_mass_driver_1"
+	icon_frame = 1
+	color = { 0.1 1.0 0.1 1 }
+	power = -3000
+	cost = 25
+	size_restriction = { RX_75_4 RX_75_MPT }
+	prerequisites = { "tech_RX_75_1" }
+	component_set = "OYW_EFSF_180MM_3"
+	projectile_gfx = "mass_driver_s"
+	tags = { weapon_type_kinetic }
+	ai_tags = { weapon_role_anti_shield }
+	#upgrades_to = "SMALL_BEAMC_2"
+}
+
+weapon_component_template = {
+	key = "OYW_EFSF_120MM"
+	size = point_defence
+	entity = "Zeon_Machine_Gun_01_Entity"
+	damage = { min = 71.0 max = 145.0 }
+	#windup = { min = 5.0 max = 10.0 }
+	total_fire_time = 30
+	range = 60.0
+	accuracy = 0.75
+	tracking  = 0.0
+	type = point_defence
+	shield_damage = 1.33
+	armor_penetration = 0.2
+
+	icon = "GFX_ship_part_mass_driver_1"
+	icon_frame = 1
+	color = { 0.1 1.0 0.1 1 }
+	power = -3000
+	cost = 20
+	size_restriction = { RX_75_4 RX_75_MPT }
+	prerequisites = { "tech_RX_75_2" }
+	component_set = "OYW_EFSF_120MM"
+	projectile_gfx = "mass_driver_s"
+	tags = { weapon_type_kinetic }
 	ai_tags = { weapon_role_anti_shield }
 	#upgrades_to = "SMALL_BEAMC_2"
 }

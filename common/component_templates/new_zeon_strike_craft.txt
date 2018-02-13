@@ -107,7 +107,7 @@ strike_craft_component_template = {
 	accuracy = 0.82
 	tracking = 0.65
 
-	health = 104
+	health = 110
 	armor = 10
 	shield = 0
 	evasion = 0.5
@@ -150,7 +150,7 @@ strike_craft_component_template = {
 	accuracy = 0.75
 	tracking = 0.2
 
-	health = 104
+	health = 110
 	armor = 10
 	shield = 0
 	evasion = 0.5
@@ -193,7 +193,7 @@ strike_craft_component_template = {
 	accuracy = 0.82
 	tracking = 0.65
 
-	health = 104
+	health = 110
 	armor = 10
 	shield = 0
 	evasion = 0.5
@@ -236,7 +236,7 @@ strike_craft_component_template = {
 	accuracy = 0.75
 	tracking = 0.2
 
-	health = 104
+	health = 110
 	armor = 10
 	shield = 0
 	evasion = 0.5
@@ -279,7 +279,7 @@ strike_craft_component_template = {
 	accuracy = 0.82
 	tracking = 0.65
 
-	health = 105
+	health = 113
 	armor = 10
 	shield = 0
 	evasion = 0.5
@@ -322,7 +322,7 @@ strike_craft_component_template = {
 	accuracy = 0.75
 	tracking = 0.2
 
-	health = 105
+	health = 113
 	armor = 10
 	shield = 0
 	evasion = 0.5
@@ -365,7 +365,7 @@ strike_craft_component_template = {
 	accuracy = 0.82
 	tracking = 0.65
 
-	health = 103
+	health = 108
 	armor = 12 #Improved Chest Armor
 	shield = 0
 	evasion = 0.50
@@ -408,7 +408,7 @@ strike_craft_component_template = {
 	accuracy = 0.75
 	tracking = 0.2
 
-	health = 103
+	health = 108
 	armor = 12 #Improved Chest Armor
 	shield = 0
 	evasion = 0.50
@@ -451,7 +451,7 @@ strike_craft_component_template = {
 	accuracy = 0.82
 	tracking = 0.65
 
-	health = 106
+	health = 128
 	armor = 15 #Titanium-Ceramic
 	shield = 0
 	evasion = 0.52
@@ -494,7 +494,7 @@ strike_craft_component_template = {
 	accuracy = 0.75
 	tracking = 0.2
 
-	health = 106
+	health = 128
 	armor = 15 #Titanium-Ceramic
 	shield = 0
 	evasion = 0.52
@@ -537,7 +537,7 @@ strike_craft_component_template = {
 	accuracy = 0.82
 	tracking = 0.65
 
-	health = 107
+	health = 118
 	armor = 13
 	shield = 0
 	evasion = 0.5
@@ -580,7 +580,7 @@ strike_craft_component_template = {
 	accuracy = 0.75
 	tracking = 0.2
 
-	health = 107
+	health = 118
 	armor = 13
 	shield = 0
 	evasion = 0.5
@@ -623,7 +623,7 @@ strike_craft_component_template = {
 	accuracy = 0.82
 	tracking = 0.65
 
-	health = 106
+	health = 115
 	armor = 14 #Improved legs
 	shield = 0
 	evasion = 0.5
@@ -666,7 +666,7 @@ strike_craft_component_template = {
 	accuracy = 0.75
 	tracking = 0.2
 
-	health = 106
+	health = 115
 	armor = 14 #Improved legs
 	shield = 0
 	evasion = 0.5
@@ -709,7 +709,7 @@ strike_craft_component_template = {
 	accuracy = 0.82
 	tracking = 0.65
 
-	health = 107
+	health = 118
 	armor = 13
 	shield = 0
 	evasion = 0.5
@@ -752,7 +752,7 @@ strike_craft_component_template = {
 	accuracy = 0.75
 	tracking = 0.2
 
-	health = 107
+	health = 118
 	armor = 13
 	shield = 0
 	evasion = 0.5
@@ -795,7 +795,7 @@ strike_craft_component_template = {
 	accuracy = 0.82
 	tracking = 0.65
 
-	health = 105
+	health = 113
 	armor = 14
 	shield = 0
 	evasion = 0.5
@@ -838,7 +838,7 @@ strike_craft_component_template = {
 	accuracy = 0.80
 	tracking = 0.2
 
-	health = 105
+	health = 113
 	armor = 14
 	shield = 0
 	evasion = 0.5
@@ -881,7 +881,7 @@ strike_craft_component_template = {
 	accuracy = 0.82
 	tracking = 0.65
 
-	health = 105
+	health = 113
 	armor = 15
 	shield = 0
 	evasion = 0.5
@@ -924,7 +924,7 @@ strike_craft_component_template = {
 	accuracy = 0.8
 	tracking = 0.25
 
-	health = 105
+	health = 113
 	armor = 15
 	shield = 0
 	evasion = 0.5
@@ -967,7 +967,7 @@ strike_craft_component_template = {
 	accuracy = 0.82
 	tracking = 0.65
 
-	health = 107
+	health = 118
 	armor = 15
 	shield = 0
 	evasion = 0.5
@@ -1010,7 +1010,7 @@ strike_craft_component_template = {
 	accuracy = 0.8
 	tracking = 0.25
 
-	health = 107
+	health = 118
 	armor = 15
 	shield = 0
 	evasion = 0.5
@@ -1053,7 +1053,7 @@ strike_craft_component_template = {
 	accuracy = 0.82
 	tracking = 0.65
 
-	health = 107
+	health = 118
 	armor = 14 #Lost leg armor
 	shield = 0
 	evasion = 0.6 #Improved thrusters and shite
@@ -1096,7 +1096,7 @@ strike_craft_component_template = {
 	accuracy = 0.8
 	tracking = 0.25
 
-	health = 107
+	health = 118
 	armor = 14 #Lost leg armor
 	shield = 0
 	evasion = 0.6 #Improved thrusters and shite
@@ -1139,7 +1139,7 @@ strike_craft_component_template = {
 	accuracy = 0.82
 	tracking = 0.65
 
-	health = 110
+	health = 125
 	armor = 16 #Improved over A
 	shield = 0
 	evasion = 0.55 #Weird camo
@@ -1182,7 +1182,7 @@ strike_craft_component_template = {
 	accuracy = 0.85
 	tracking = 0.3
 
-	health = 110
+	health = 125
 	armor = 16 #Improved over A
 	shield = 0
 	evasion = 0.55 #Weird camo
@@ -1225,7 +1225,7 @@ strike_craft_component_template = {
 	accuracy = 0.82
 	tracking = 0.65
 
-	health = 109
+	health = 123
 	armor = 15
 	shield = 0
 	evasion = 0.6 #Fast as fuck
@@ -1268,7 +1268,7 @@ strike_craft_component_template = {
 	accuracy = 0.85
 	tracking = 0.3
 
-	health = 109
+	health = 123
 	armor = 15
 	shield = 0
 	evasion = 0.6 #Fast as fuck
@@ -1311,7 +1311,7 @@ strike_craft_component_template = {
 	accuracy = 0.82
 	tracking = 0.65
 
-	health = 108
+	health = 120
 	armor = 10
 	shield = 0
 	evasion = 0.5
@@ -1354,7 +1354,7 @@ strike_craft_component_template = {
 	accuracy = 0.8275
 	tracking = 0.2
 
-	health = 108
+	health = 120
 	armor = 10
 	shield = 0
 	evasion = 0.5
@@ -1397,7 +1397,7 @@ strike_craft_component_template = {
 	accuracy = 0.82
 	tracking = 0.65
 
-	health = 108
+	health = 120
 	armor = 15 #Superior armor to Zaku, same as Kai
 	shield = 0
 	evasion = 0.55 #Improved maneuvrability
@@ -1440,7 +1440,7 @@ strike_craft_component_template = {
 	accuracy = 0.8
 	tracking = 0.25
 
-	health = 108
+	health = 120
 	armor = 15 #Superior armor to Zaku, same as Kai
 	shield = 0
 	evasion = 0.55 #Improved maneuvrability
@@ -1483,7 +1483,7 @@ strike_craft_component_template = {
 	accuracy = 0.82
 	tracking = 0.65
 
-	health = 109
+	health = 123
 	armor = 15 #Superior armor to Zaku, same as Kai
 	shield = 0
 	evasion = 0.6 #Improved maneuvrability
@@ -1526,7 +1526,7 @@ strike_craft_component_template = {
 	accuracy = 0.85
 	tracking = 0.3
 
-	health = 109
+	health = 123
 	armor = 15 #Superior armor to Zaku, same as Kai
 	shield = 0
 	evasion = 0.6 #Improved maneuvrability
@@ -1569,7 +1569,7 @@ strike_craft_component_template = {
 	accuracy = 0.70
 	tracking = 0.0
 
-	health = 111
+	health = 128
 	armor = 10
 	shield = 0
 	evasion = 0.45 #Poor balance and not easy to use
@@ -1612,7 +1612,7 @@ strike_craft_component_template = {
 	accuracy = 0.7
 	tracking = 0.65
 
-	health = 111
+	health = 128
 	armor = 10
 	shield = 0
 	evasion = 0.45 #Poor balance and not easy to use
@@ -1655,7 +1655,7 @@ strike_craft_component_template = {
 	accuracy = 0.70
 	tracking = 0.0
 
-	health = 103
+	health = 108
 	armor = 10
 	shield = 0
 	evasion = 0.55 #Improved maneuvrability
@@ -1698,7 +1698,7 @@ strike_craft_component_template = {
 	accuracy = 0.67
 	tracking = 0.05
 
-	health = 103
+	health = 108
 	armor = 10
 	shield = 0
 	evasion = 0.55 #Improved maneuvrability
@@ -1741,7 +1741,7 @@ strike_craft_component_template = {
 	accuracy = 0.8
 	tracking = 0.05
 
-	health = 109
+	health = 123
 	armor = 15
 	shield = 0
 	evasion = 0.6
@@ -1784,7 +1784,7 @@ strike_craft_component_template = {
 	accuracy = 0.82
 	tracking = 0.65
 
-	health = 90 # 40 - 30 = 10
+	health = 75
 	armor = 10
 	shield = 0
 	evasion = 0.4 #Lacks AMBAC
@@ -1827,7 +1827,7 @@ strike_craft_component_template = {
 	accuracy = 0.7
 	tracking = 0.65
 
-	health = 90 # 40 - 30 = 10
+	health = 78
 	armor = 10
 	shield = 0
 	evasion = 0.4 #Lacks AMBAC
@@ -1870,7 +1870,7 @@ strike_craft_component_template = {
 	accuracy = 1.0
 	tracking = 0.5
 
-	health = 90 # 40 - 30 = 10
+	health = 78
 	armor = 10
 	shield = 0
 	evasion = 0.4 #Lacks AMBAC
@@ -1913,7 +1913,7 @@ strike_craft_component_template = {
 	accuracy = 0.82
 	tracking = 0.65
 
-	health = 104
+	health = 113
 	armor = 15
 	shield = 0
 	evasion = 0.5
@@ -1956,7 +1956,7 @@ strike_craft_component_template = {
 	accuracy = 0.85
 	tracking = 0.3
 
-	health = 104
+	health = 113
 	armor = 15
 	shield = 0
 	evasion = 0.5
@@ -1999,7 +1999,7 @@ strike_craft_component_template = {
 	accuracy = 0.9
 	tracking = 0.8
 
-	health = 110
+	health = 125
 	armor = 15
 	shield = 0
 	evasion = 0.55
@@ -2042,7 +2042,7 @@ strike_craft_component_template = {
 	accuracy = 0.85
 	tracking = 0.3
 
-	health = 110
+	health = 125
 	armor = 15
 	shield = 0
 	evasion = 0.55
@@ -2085,7 +2085,7 @@ strike_craft_component_template = {
 	accuracy = 0.8
 	tracking = 0.6
 
-	health = 101
+	health = 103
 	armor = 20 #lunar titanium
 	shield = 0
 	evasion = 0.65
@@ -2128,7 +2128,7 @@ strike_craft_component_template = {
 	accuracy = 0.85
 	tracking = 0.3
 
-	health = 101
+	health = 103
 	armor = 20 #lunar titanium
 	shield = 0
 	evasion = 0.65
@@ -2171,7 +2171,7 @@ strike_craft_component_template = {
 	accuracy = 0.82
 	tracking = 0.65
 
-	health = 104
+	health = 113
 	armor = 20
 	shield = 0
 	evasion = 0.3
@@ -2214,7 +2214,7 @@ strike_craft_component_template = {
 	accuracy = 0.85
 	tracking = 0.3
 
-	health = 104
+	health = 113
 	armor = 20
 	shield = 0
 	evasion = 0.3
@@ -2257,7 +2257,7 @@ strike_craft_component_template = {
 	accuracy = 0.82
 	tracking = 0.65
 
-	health = 102
+	health = 105
 	armor = 20
 	shield = 0
 	evasion = 0.5
@@ -2300,7 +2300,7 @@ strike_craft_component_template = {
 	accuracy = 0.85
 	tracking = 0.3
 
-	health = 102
+	health = 105
 	armor = 20
 	shield = 0
 	evasion = 0.5
@@ -2343,7 +2343,7 @@ strike_craft_component_template = {
 	accuracy = 0.82
 	tracking = 0.65
 
-	health = 102
+	health = 105
 	armor = 20
 	shield = 0
 	evasion = 0.6
@@ -2386,7 +2386,7 @@ strike_craft_component_template = {
 	accuracy = 0.85
 	tracking = 0.3
 
-	health = 102
+	health = 105
 	armor = 20
 	shield = 0
 	evasion = 0.6
@@ -2429,7 +2429,7 @@ strike_craft_component_template = {
 	accuracy = 0.82
 	tracking = 0.65
 
-	health = 96
+	health = 90
 	armor = 20
 	shield = 0
 	evasion = 0.55
@@ -2472,7 +2472,7 @@ strike_craft_component_template = {
 	accuracy = 0.85
 	tracking = 0.3
 
-	health = 96
+	health = 90
 	armor = 20
 	shield = 0
 	evasion = 0.55
@@ -2515,7 +2515,7 @@ strike_craft_component_template = {
 	accuracy = 0.82
 	tracking = 0.65
 
-	health = 102
+	health = 105
 	armor = 20
 	shield = 0
 	evasion = 0.65
@@ -2558,7 +2558,7 @@ strike_craft_component_template = {
 	accuracy = 0.85
 	tracking = 0.3
 
-	health = 102
+	health = 105
 	armor = 20
 	shield = 0
 	evasion = 0.65
@@ -2601,7 +2601,7 @@ strike_craft_component_template = {
 	accuracy = 0.82
 	tracking = 0.65
 
-	health = 104
+	health = 110
 	armor = 20
 	shield = 0
 	evasion = 0.7
@@ -2644,7 +2644,7 @@ strike_craft_component_template = {
 	accuracy = 0.85
 	tracking = 0.3
 
-	health = 104
+	health = 110
 	armor = 20
 	shield = 0
 	evasion = 0.7
@@ -2687,7 +2687,7 @@ strike_craft_component_template = {
 	accuracy = 0.82
 	tracking = 0.65
 
-	health = 103
+	health = 108
 	armor = 20
 	shield = 0
 	evasion = 0.65
@@ -2730,7 +2730,7 @@ strike_craft_component_template = {
 	accuracy = 0.85
 	tracking = 0.3
 
-	health = 103
+	health = 108
 	armor = 20
 	shield = 0
 	evasion = 0.65
@@ -2773,7 +2773,7 @@ strike_craft_component_template = {
 	accuracy = 0.82
 	tracking = 0.65
 
-	health = 108
+	health = 120
 	armor = 20
 	shield = 0
 	evasion = 0.6
@@ -2816,7 +2816,7 @@ strike_craft_component_template = {
 	accuracy = 0.8
 	tracking = 0.05
 
-	health = 108
+	health = 120
 	armor = 20
 	shield = 0
 	evasion = 0.55
@@ -2859,7 +2859,7 @@ strike_craft_component_template = {
 	accuracy = 1.0
 	tracking = 0.5
 
-	health = 106
+	health = 115
 	armor = 20
 	shield = 0
 	evasion = 0.65
@@ -2902,7 +2902,7 @@ strike_craft_component_template = {
 	accuracy = 0.8
 	tracking = 0.05
 
-	health = 98
+	health = 95
 	armor = 20
 	shield = 0
 	evasion = 0.6
@@ -2945,7 +2945,7 @@ strike_craft_component_template = {
 	accuracy = 0.8
 	tracking = 0.05
 
-	health = 108
+	health = 120
 	armor = 20
 	shield = 0
 	evasion = 0.25
@@ -2988,7 +2988,7 @@ strike_craft_component_template = {
 	accuracy = 0.82
 	tracking = 0.65
 
-	health = 111
+	health = 128
 	armor = 15
 	shield = 0
 	evasion = 0.65 #Improved maneuvrability
@@ -3031,7 +3031,7 @@ strike_craft_component_template = {
 	accuracy = 0.85
 	tracking = 0.3
 
-	health = 111
+	health = 128
 	armor = 15
 	shield = 0
 	evasion = 0.65 #Improved maneuvrability
@@ -3074,7 +3074,7 @@ strike_craft_component_template = {
 	accuracy = 0.9
 	tracking = 0.9
 
-	health = 95
+	health = 88
 	armor = 20
 	shield = 0
 	evasion = 0.75
@@ -3117,7 +3117,7 @@ strike_craft_component_template = {
 	accuracy = 0.9
 	tracking = 0.9
 
-	health = 95
+	health = 88
 	armor = 20
 	shield = 0
 	evasion = 0.7
@@ -3160,7 +3160,7 @@ strike_craft_component_template = {
 	accuracy = 0.82
 	tracking = 0.65
 
-	health = 102
+	health = 105
 	armor = 20
 	shield = 0
 	evasion = 0.6
@@ -3203,7 +3203,7 @@ strike_craft_component_template = {
 	accuracy = 0.82
 	tracking = 0.65
 
-	health = 102
+	health = 105
 	armor = 20
 	shield = 0
 	evasion = 0.75
@@ -3246,7 +3246,7 @@ strike_craft_component_template = {
 	accuracy = 0.82
 	tracking = 0.65
 
-	health = 104
+	health = 110
 	armor = 20
 	shield = 0
 	evasion = 0.8
@@ -3289,7 +3289,7 @@ strike_craft_component_template = {
 	accuracy = 0.9
 	tracking = 0.9
 
-	health = 223
+	health = 408
 	armor = 20
 	shield = 0
 	evasion = 0.5
@@ -3332,7 +3332,7 @@ strike_craft_component_template = {
 	accuracy = 0.9
 	tracking = 0.9
 
-	health = 106
+	health = 115
 	armor = 20
 	shield = 0
 	evasion = 0.65
@@ -3375,7 +3375,7 @@ strike_craft_component_template = {
 	accuracy = 0.9
 	tracking = 0.9
 
-	health = 109
+	health = 123
 	armor = 20
 	shield = 0
 	evasion = 0.65
@@ -3418,7 +3418,7 @@ strike_craft_component_template = {
 	accuracy = 0.82
 	tracking = 0.65
 
-	health = 106
+	health = 115
 	armor = 20
 	shield = 0
 	evasion = 0.75
@@ -3461,7 +3461,7 @@ strike_craft_component_template = {
 	accuracy = 0.82
 	tracking = 0.65
 
-	health = 91
+	health = 78
 	armor = 15
 	shield = 0
 	evasion = 0.6
@@ -3504,7 +3504,7 @@ strike_craft_component_template = {
 	accuracy = 0.85
 	tracking = 0.3
 
-	health = 91
+	health = 78
 	armor = 15
 	shield = 0
 	evasion = 0.6
@@ -3547,7 +3547,7 @@ strike_craft_component_template = {
 	accuracy = 0.9
 	tracking = 0.9
 
-	health = 91
+	health = 78
 	armor = 15
 	shield = 0
 	evasion = 0.5 #Lacks mobility
@@ -3633,7 +3633,7 @@ strike_craft_component_template = {
 	accuracy = 0.9
 	tracking = 0.9
 
-	health = 104
+	health = 110
 	armor = 20
 	shield = 0
 	evasion = 0.8
@@ -3676,7 +3676,7 @@ strike_craft_component_template = {
 	accuracy = 0.82
 	tracking = 0.65
 
-	health = 90
+	health = 75
 	armor = 20
 	shield = 0
 	evasion = 0.65
@@ -3719,7 +3719,7 @@ strike_craft_component_template = {
 	accuracy = 0.82
 	tracking = 0.65
 
-	health = 98
+	health = 95
 	armor = 15
 	shield = 0
 	evasion = 0.65
@@ -3762,7 +3762,7 @@ strike_craft_component_template = {
 	accuracy = 0.82
 	tracking = 0.65
 
-	health = 91
+	health = 78
 	armor = 20
 	shield = 0
 	evasion = 0.65
@@ -3805,7 +3805,7 @@ strike_craft_component_template = {
 	accuracy = 0.82
 	tracking = 0.65
 
-	health = 94
+	health = 85
 	armor = 15
 	shield = 0
 	evasion = 0.6
@@ -3848,7 +3848,7 @@ strike_craft_component_template = {
 	accuracy = 0.85
 	tracking = 0.3
 
-	health = 94
+	health = 85
 	armor = 15
 	shield = 0
 	evasion = 0.6

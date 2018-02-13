@@ -2474,17 +2474,23 @@ entity = {
 	}
 
 	entity = {
+		name = "gundam_entity" #Gundam
+		pdxmesh = "gundamu_mesh"
+		scale = 1.0
+	}
+
+	entity = {
 		name = "gundam_alex_entity" #Alex
 		pdxmesh = "fed_01_Alex_Chobham_mesh"
 		scale = 1.0
 	}
-	
+
 	entity = {
 		name = "gp02_entity" #GP02
 		pdxmesh = "fed_01_GP02_mesh"
 		scale = 1.0
 	}
-	
+
 	entity = {
 		name = "gp03_entity" #GP03
 		pdxmesh = "fed_01_GP03_mesh"

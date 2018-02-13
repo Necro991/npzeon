@@ -17,6 +17,22 @@ component_set = {
 }
 
 component_set = {
+	key = "oyw_zeon_pilot_ncn"
+
+	required_component_set = yes
+	icon = "oyw_zeon_pilot_newtype"
+	icon_frame = 1
+}
+
+component_set = {
+	key = "oyw_zeon_pilot_reuse"
+
+	required_component_set = yes
+	icon = "oyw_zeon_pilot_newtype"
+	icon_frame = 1
+}
+
+component_set = {
 	key = "oyw_zeon_commander_aura"
 
 	required_component_set = yes

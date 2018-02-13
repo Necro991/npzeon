@@ -141,3 +141,128 @@ utility_component_template = {
 
 	prerequisites = { "tech_RB_79" }
 }
+
+utility_component_template = {
+	key = "ma_08_i_field"
+	size = small
+	icon = "GFX_ship_part_ms_reactor"
+	icon_frame = 1
+	power = 0
+	cost = 0
+
+	modifier = {
+		ship_shield_hp_add = 1000
+	}
+
+	component_set = "ma_08_i_field"
+
+	prerequisites = { "tech_MS_05B" }
+}
+
+utility_component_template = {
+	key = "ms_06r_reactor"
+	size = small
+	icon = "GFX_ship_part_ms_reactor"
+	icon_frame = 1
+	power = 31000
+	cost = 0
+
+	component_set = "ms_06r_reactor"
+
+	hostile_aura = {
+		name = "aura_minovsky"
+		radius = 20
+		apply_on = ships
+
+		stack_info = {			#A ship can only be affected by one aura of a certain id. If multiple auras have the same ID the one with the highest priority will be applied.
+			id = ms_reactor_aura
+			priority = 2
+		}
+
+		modifier = {
+			SHIP_SENSOR_RANGE_MULT = -0.1
+			SHIP_ACCURACY_MULT = -0.25
+		}
+
+		graphics = {
+			area_effect = {
+				entity = "circle_area_entity"
+				dynamic_scale = yes
+			}
+		}
+	}
+
+	prerequisites = { "tech_MS_06R_2" }
+}
+
+utility_component_template = {
+	key = "ma_08_reactor"
+	size = small
+	icon = "GFX_ship_part_ms_reactor"
+	icon_frame = 1
+	power = 22000
+	cost = 0
+
+	component_set = "ma_08_reactor"
+
+	hostile_aura = {
+		name = "aura_minovsky"
+		radius = 20
+		apply_on = ships
+
+		stack_info = {			#A ship can only be affected by one aura of a certain id. If multiple auras have the same ID the one with the highest priority will be applied.
+			id = ms_reactor_aura
+			priority = 2
+		}
+
+		modifier = {
+			SHIP_SENSOR_RANGE_MULT = -0.1
+			SHIP_ACCURACY_MULT = -0.25
+		}
+
+		graphics = {
+			area_effect = {
+				entity = "circle_area_entity"
+				dynamic_scale = yes
+			}
+		}
+	}
+
+	prerequisites = { "tech_MS_14A" }
+}
+
+utility_component_template = {
+	key = "rx_75_reactor"
+	size = small
+	icon = "GFX_ship_part_ms_reactor"
+	icon_frame = 1
+	power = 4000
+	cost = 0
+
+	component_set = "rx_75_reactor"
+
+	hostile_aura = {
+		name = "aura_minovsky"
+		radius = 20
+		apply_on = ships
+
+		stack_info = {			#A ship can only be affected by one aura of a certain id. If multiple auras have the same ID the one with the highest priority will be applied.
+			id = ms_reactor_aura
+			priority = 2
+		}
+
+		modifier = {
+			SHIP_SENSOR_RANGE_MULT = -0.1
+			SHIP_ACCURACY_MULT = -0.25
+		}
+
+		graphics = {
+			area_effect = {
+				entity = "circle_area_entity"
+				dynamic_scale = yes
+			}
+		}
+	}
+
+	prerequisites = { "tech_RX_75_1" }
+}

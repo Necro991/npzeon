@@ -41,7 +41,7 @@ ship_section_template = { #MS-06 A
 	large_utility_slots = 0
 	aux_utility_slots = 0
 
-	cost = 120
+	cost = 132
 }
 
 ship_section_template = { #MS-06 A Polar
@@ -87,7 +87,7 @@ ship_section_template = { #MS-06 A Polar
 	large_utility_slots = 0
 	aux_utility_slots = 0
 
-	cost = 120
+	cost = 132
 }
 
 ship_section_template = { #MS-06 C
@@ -133,7 +133,7 @@ ship_section_template = { #MS-06 C
 	large_utility_slots = 0
 	aux_utility_slots = 0
 
-	cost = 120
+	cost = 132
 }
 
 ship_section_template = { #MS-06 F
@@ -179,7 +179,7 @@ ship_section_template = { #MS-06 F
 	large_utility_slots = 0
 	aux_utility_slots = 0
 
-	cost = 120
+	cost = 132
 }
 
 ship_section_template = { #MS-06 F2
@@ -225,7 +225,7 @@ ship_section_template = { #MS-06 F2
 	large_utility_slots = 0
 	aux_utility_slots = 0
 
-	cost = 120
+	cost = 132
 }
 
 ship_section_template = { #MS-06 F2 Neuen
@@ -271,7 +271,7 @@ ship_section_template = { #MS-06 F2 Neuen
 	large_utility_slots = 0
 	aux_utility_slots = 0
 
-	cost = 120
+	cost = 132
 }
 
 ship_section_template = { #MS-06 F2 EFSF
@@ -317,7 +317,7 @@ ship_section_template = { #MS-06 F2 EFSF
 	large_utility_slots = 0
 	aux_utility_slots = 0
 
-	cost = 120
+	cost = 132
 }
 
 ship_section_template = { #MS-06 Kai
@@ -363,7 +363,7 @@ ship_section_template = { #MS-06 Kai
 	large_utility_slots = 0
 	aux_utility_slots = 0
 
-	cost = 120
+	cost = 132
 }
 
 ship_section_template = { #MS-06 Valkyrie
@@ -409,7 +409,7 @@ ship_section_template = { #MS-06 Valkyrie
 	large_utility_slots = 0
 	aux_utility_slots = 0
 
-	cost = 120
+	cost = 132
 }
 
 ship_section_template = { #MS-06S Tri-Stars
@@ -462,7 +462,7 @@ ship_section_template = { #MS-06S Tri-Stars
 	large_utility_slots = 0
 	aux_utility_slots = 0
 
-	cost = 120
+	cost = 132
 }
 
 ship_section_template = { #MS-06S Ramba Ral
@@ -515,7 +515,7 @@ ship_section_template = { #MS-06S Ramba Ral
 	large_utility_slots = 0
 	aux_utility_slots = 0
 
-	cost = 120
+	cost = 132
 }
 
 ship_section_template = { #MS-06S Gato
@@ -568,7 +568,7 @@ ship_section_template = { #MS-06S Gato
 	large_utility_slots = 0
 	aux_utility_slots = 0
 
-	cost = 120
+	cost = 132
 }
 
 ship_section_template = { #MS-06R-2P
@@ -621,7 +621,7 @@ ship_section_template = { #MS-06R-2P
 	large_utility_slots = 0
 	aux_utility_slots = 0
 
-	cost = 120
+	cost = 132
 }
 
 ship_section_template = { #MS-06S Johnny Ridden
@@ -674,7 +674,7 @@ ship_section_template = { #MS-06S Johnny Ridden
 	large_utility_slots = 0
 	aux_utility_slots = 0
 
-	cost = 120
+	cost = 132
 }
 
 ship_section_template = { #MS-06S Uma Lightning
@@ -727,7 +727,7 @@ ship_section_template = { #MS-06S Uma Lightning
 	large_utility_slots = 0
 	aux_utility_slots = 0
 
-	cost = 120
+	cost = 132
 }
 
 ship_section_template = { #MS-06S Robin
@@ -780,7 +780,7 @@ ship_section_template = { #MS-06S Robin
 	large_utility_slots = 0
 	aux_utility_slots = 0
 
-	cost = 120
+	cost = 132
 }
 
 ship_section_template = { #MS-06S Robert Gilliam
@@ -833,7 +833,7 @@ ship_section_template = { #MS-06S Robert Gilliam
 	large_utility_slots = 0
 	aux_utility_slots = 0
 
-	cost = 120
+	cost = 132
 }
 
 ship_section_template = { #MS-06S HMTT Elliot
@@ -886,7 +886,7 @@ ship_section_template = { #MS-06S HMTT Elliot
 	large_utility_slots = 0
 	aux_utility_slots = 0
 
-	cost = 120
+	cost = 132
 }
 
 ship_section_template = { #MS-06S Dozle Zabi
@@ -939,7 +939,7 @@ ship_section_template = { #MS-06S Dozle Zabi
 	large_utility_slots = 0
 	aux_utility_slots = 0
 
-	cost = 120
+	cost = 132
 }
 
 ship_section_template = { #MS-06S Gabby Hazard
@@ -992,7 +992,7 @@ ship_section_template = { #MS-06S Gabby Hazard
 	large_utility_slots = 0
 	aux_utility_slots = 0
 
-	cost = 120
+	cost = 132
 }
 
 ship_section_template = { #MS-06S Masaya Nagakawa
@@ -1045,7 +1045,7 @@ ship_section_template = { #MS-06S Masaya Nagakawa
 	large_utility_slots = 0
 	aux_utility_slots = 0
 
-	cost = 120
+	cost = 132
 }
 
 ship_section_template = { #MS-06S Garma Zabi
@@ -1098,7 +1098,7 @@ ship_section_template = { #MS-06S Garma Zabi
 	large_utility_slots = 0
 	aux_utility_slots = 0
 
-	cost = 120
+	cost = 132
 }
 
 ship_section_template = { #MS-06S Char Aznable
@@ -1151,7 +1151,7 @@ ship_section_template = { #MS-06S Char Aznable
 	large_utility_slots = 0
 	aux_utility_slots = 0
 
-	cost = 120
+	cost = 132
 }
 
 ship_section_template = { #MS-06S Eric Mansfield
@@ -1204,7 +1204,7 @@ ship_section_template = { #MS-06S Eric Mansfield
 	large_utility_slots = 0
 	aux_utility_slots = 0
 
-	cost = 120
+	cost = 132
 }
 
 ship_section_template = { #MS-06S Shin Matsunaga 1
@@ -1257,7 +1257,7 @@ ship_section_template = { #MS-06S Shin Matsunaga 1
 	large_utility_slots = 0
 	aux_utility_slots = 0
 
-	cost = 120
+	cost = 132
 }
 
 ship_section_template = { #MS-06S Shin Matsunaga 2
@@ -1310,5 +1310,5 @@ ship_section_template = { #MS-06S Shin Matsunaga 2
 	large_utility_slots = 0
 	aux_utility_slots = 0
 
-	cost = 120
+	cost = 132
 }

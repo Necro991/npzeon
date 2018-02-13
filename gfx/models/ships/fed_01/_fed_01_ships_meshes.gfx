@@ -1240,6 +1240,18 @@ objectTypes = {
 		}
 	}
 
+	pdxmesh = { #Test Gundam
+		name = "gundamu_mesh"
+		file = "gfx/models/ships/fed_01/RX-78-2.mesh"
+		scale = 1.0
+		meshsettings = {
+		texture_diffuse = "Gundam_2_Diffuse.dds"
+		texture_normal = "zakuII_normal.dds"
+		texture_specular = "Zaku_Specular.dds"
+			shader = "PdxMeshShip"
+		}
+	}
+
 	pdxmesh = { #Gundam Alex Chobham
 		name = "fed_01_Alex_Chobham_mesh"
 		file = "gfx/models/ships/fed_01/Gundam_Alex.mesh"
@@ -1252,7 +1264,7 @@ objectTypes = {
 				shader = "PdxMeshShip"
 		}
 	}
-	
+
 	pdxmesh = { #GP02
 		name = "fed_01_GP02_mesh"
 		file = "gfx/models/ships/fed_01/GP02.mesh"
@@ -1265,7 +1277,7 @@ objectTypes = {
 				shader = "PdxMeshShip"
 		}
 	}
-	
+
 	pdxmesh = { #GP03
 		name = "fed_01_GP03_mesh"
 		file = "gfx/models/ships/fed_01/GP03.mesh"

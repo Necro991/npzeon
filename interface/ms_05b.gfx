@@ -1,8 +1,23 @@
 spriteTypes = {
 
 	spriteType = {
-		name = "radiation_armor"
-		texturefile = "gfx/interface/icons/ship_parts/ship_part_armor_radiation.dds"
+		name = "radiation_armor_1"
+		texturefile = "gfx/interface/icons/ship_parts/ship_part_armor_radiation_1.dds"
+	}
+
+	spriteType = {
+		name = "ms_05_armor_2"
+		texturefile = "gfx/interface/icons/ship_parts/ms_05_armor_2.dds"
+	}
+
+	spriteType = {
+		name = "ms_05_armor_3"
+		texturefile = "gfx/interface/icons/ship_parts/ms_05_armor_3.dds"
+	}
+
+	spriteType = {
+		name = "ms_05_thrusters_1"
+		texturefile = "gfx/interface/icons/ship_parts/zeon_pilot_05.dds"
 	}
 
 	spriteType = {

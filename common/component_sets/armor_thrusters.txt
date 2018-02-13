@@ -33,6 +33,22 @@ component_set = {
 }
 
 component_set = {
+	key = "ms_06r_thrusters"
+
+	required_component_set = yes
+	icon = "GFX_ship_part_thruster_1"
+	icon_frame = 1
+}
+
+component_set = {
+	key = "ms_06r_armor"
+
+	required_component_set = yes
+	icon = "GFX_ship_part_armor_1"
+	icon_frame = 1
+}
+
+component_set = {
 	key = "ms_09_thrusters"
 
 	required_component_set = yes
@@ -65,6 +81,22 @@ component_set = {
 }
 
 component_set = {
+	key = "ma_08_thrusters"
+
+	required_component_set = yes
+	icon = "GFX_ship_part_thruster_1"
+	icon_frame = 1
+}
+
+component_set = {
+	key = "ma_08_armor"
+
+	required_component_set = yes
+	icon = "GFX_ship_part_armor_1"
+	icon_frame = 1
+}
+
+component_set = {
 	key = "rb_79_thrusters"
 
 	required_component_set = yes
@@ -74,6 +106,30 @@ component_set = {
 
 component_set = {
 	key = "rb_79_armor"
+
+	required_component_set = yes
+	icon = "GFX_ship_part_armor_1"
+	icon_frame = 1
+}
+
+component_set = {
+	key = "rx_75_thrusters"
+
+	required_component_set = yes
+	icon = "GFX_ship_part_thruster_1"
+	icon_frame = 1
+}
+
+component_set = {
+	key = "rx_75_armor"
+
+	required_component_set = yes
+	icon = "GFX_ship_part_armor_1"
+	icon_frame = 1
+}
+
+component_set = {
+	key = "rx_75_mpt_armor"
 
 	required_component_set = yes
 	icon = "GFX_ship_part_armor_1"
