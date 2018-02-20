@@ -266,3 +266,39 @@ utility_component_template = {
 
 	prerequisites = { "tech_RX_75_1" }
 }
+
+utility_component_template = {
+	key = "rx_77_reactor"
+	size = small
+	icon = "GFX_ship_part_ms_reactor"
+	icon_frame = 1
+	power = 19000
+	cost = 0
+
+	component_set = "rx_77_reactor"
+
+	hostile_aura = {
+		name = "aura_minovsky"
+		radius = 20
+		apply_on = ships
+
+		stack_info = {			#A ship can only be affected by one aura of a certain id. If multiple auras have the same ID the one with the highest priority will be applied.
+			id = ms_reactor_aura
+			priority = 2
+		}
+
+		modifier = {
+			SHIP_SENSOR_RANGE_MULT = -0.1
+			SHIP_ACCURACY_MULT = -0.25
+		}
+
+		graphics = {
+			area_effect = {
+				entity = "circle_area_entity"
+				dynamic_scale = yes
+			}
+		}
+	}
+
+	prerequisites = { "tech_RX_77_1A" }
+}

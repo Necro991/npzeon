@@ -1,4 +1,32 @@
 weapon_component_template = {
+	key = "OYW_MA_06_MPC"
+	size = extra_large
+	entity = "Zeon_Machine_Gun_01_Entity"
+	damage = { min = 2082.0 max = 4165.0 }
+	windup = { min = 30.0 max = 60.0 }
+	total_fire_time = 60
+	range = 100.0
+	accuracy = 0.82
+	tracking  = 0.65
+	type = instant
+	shield_damage = 0.2
+	armor_penetration = 0.95
+
+	icon = "ma_06_mpc"
+	icon_frame = 1
+	color = { 0.1 1.0 0.1 1 }
+	power = -3000
+	cost = 100
+	size_restriction = { MA_06 }
+	prerequisites = { "tech_MS_14A" }
+	component_set = "OYW_MA_06_MPC"
+	projectile_gfx = "MPC1"
+	tags = { weapon_type_energy }
+	ai_tags = { weapon_role_anti_armor }
+	#upgrades_to = "SMALL_BEAMC_2"
+}
+
+weapon_component_template = {
 	key = "OYW_MA_08_MPC"
 	size = extra_large
 	entity = "Zeon_Machine_Gun_01_Entity"
@@ -12,11 +40,11 @@ weapon_component_template = {
 	shield_damage = 0.2
 	armor_penetration = 0.95
 
-	icon = "GFX_ship_part_mass_driver_1"
+	icon = "ma_08_mpc"
 	icon_frame = 1
 	color = { 0.1 1.0 0.1 1 }
 	power = -3000
-	cost = 30
+	cost = 100
 	size_restriction = { MA_08 }
 	prerequisites = { "tech_MS_14A" }
 	component_set = "OYW_MA_08_MPC"
@@ -49,6 +77,90 @@ weapon_component_template = {
 	prerequisites = { "tech_MS_14A" }
 	component_set = "OYW_MA_08_PD"
 	projectile_gfx = "BEAMC_s"
+	tags = { weapon_type_energy }
+	ai_tags = { weapon_role_anti_armor }
+	#upgrades_to = "SMALL_BEAMC_2"
+}
+
+weapon_component_template = {
+	key = "OYW_MAN_08_MPC"
+	size = extra_large
+	entity = "Zeon_Machine_Gun_01_Entity"
+	damage = { min = 568.0 max = 1136.0 }
+	windup = { min = 30.0 max = 60.0 }
+	total_fire_time = 60
+	range = 100.0
+	accuracy = 0.82
+	tracking  = 0.65
+	type = instant
+	shield_damage = 0.2
+	armor_penetration = 0.95
+
+	icon = "man_08_mpc"
+	icon_frame = 1
+	color = { 0.1 1.0 0.1 1 }
+	power = -3000
+	cost = 100
+	size_restriction = { MAN_08 }
+	prerequisites = { "tech_MS_14A" }
+	component_set = "OYW_MAN_08_MPC"
+	projectile_gfx = "MPC1"
+	tags = { weapon_type_energy }
+	ai_tags = { weapon_role_anti_armor }
+	#upgrades_to = "SMALL_BEAMC_2"
+}
+
+weapon_component_template = {
+	key = "OYW_MSN_01_MPC"
+	size = extra_large
+	entity = "Zeon_Machine_Gun_01_Entity"
+	damage = { min = 168.0 max = 336.0 }
+	windup = { min = 30.0 max = 60.0 }
+	total_fire_time = 60
+	range = 100.0
+	accuracy = 0.82
+	tracking  = 0.65
+	type = instant
+	shield_damage = 0.2
+	armor_penetration = 0.95
+
+	icon = "msn_02_mpc"
+	icon_frame = 1
+	color = { 0.1 1.0 0.1 1 }
+	power = -3000
+	cost = 100
+	size_restriction = { MSN_01 }
+	prerequisites = { "tech_MS_14A" }
+	component_set = "OYW_MSN_01_MPC"
+	projectile_gfx = "MPC1"
+	tags = { weapon_type_energy }
+	ai_tags = { weapon_role_anti_armor }
+	#upgrades_to = "SMALL_BEAMC_2"
+}
+
+weapon_component_template = {
+	key = "OYW_MSN_02_MPC"
+	size = extra_large
+	entity = "Zeon_Machine_Gun_01_Entity"
+	damage = { min = 150.0 max = 301.0 }
+	windup = { min = 30.0 max = 60.0 }
+	total_fire_time = 60
+	range = 100.0
+	accuracy = 0.82
+	tracking  = 0.65
+	type = instant
+	shield_damage = 0.2
+	armor_penetration = 0.95
+
+	icon = "msn_02_mpc"
+	icon_frame = 1
+	color = { 0.1 1.0 0.1 1 }
+	power = -3000
+	cost = 100
+	size_restriction = { MSN_02 }
+	prerequisites = { "tech_MS_14A" }
+	component_set = "OYW_MSN_02_MPC"
+	projectile_gfx = "MPC1"
 	tags = { weapon_type_energy }
 	ai_tags = { weapon_role_anti_armor }
 	#upgrades_to = "SMALL_BEAMC_2"

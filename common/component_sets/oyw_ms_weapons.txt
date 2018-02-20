@@ -1,7 +1,7 @@
 component_set = {
 	key = "OYW_ZEON_100MM"
 
-	icon = "GFX_ship_part_mass_driver_1"
+	icon = "OYW_ZEON_100MM"
 	icon_frame = 1
 }
 
@@ -15,7 +15,7 @@ component_set = {
 component_set = {
 	key = "OYW_ZEON_120MM"
 
-	icon = "GFX_ship_part_mass_driver_1"
+	icon = "OYW_ZEON_120MM"
 	icon_frame = 1
 }
 
@@ -126,6 +126,27 @@ component_set = {
 
 component_set = {
 	key = "OYW_EFSF_120MM"
+
+	icon = "GFX_ship_part_mass_driver_1"
+	icon_frame = 1
+}
+
+component_set = {
+	key = "OYW_EFSF_240MM_1"
+
+	icon = "GFX_ship_part_mass_driver_1"
+	icon_frame = 1
+}
+
+component_set = {
+	key = "OYW_EFSF_240MM_2"
+
+	icon = "GFX_ship_part_mass_driver_1"
+	icon_frame = 1
+}
+
+component_set = {
+	key = "OYW_EFSF_BEAM_RIFLE"
 
 	icon = "GFX_ship_part_mass_driver_1"
 	icon_frame = 1

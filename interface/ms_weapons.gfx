@@ -1,0 +1,33 @@
+spriteTypes = {
+
+	spriteType = {
+		name = "OYW_ZEON_100MM"
+		texturefile = "gfx/interface/icons/ship_parts/zeon_100.dds"
+	}
+
+	spriteType = {
+		name = "OYW_ZEON_120MM"
+		texturefile = "gfx/interface/icons/ship_parts/zeon_120.dds"
+	}
+
+	spriteType = {
+		name = "ma_06_mpc"
+		texturefile = "gfx/interface/icons/ship_parts/ma_06_mpc.dds"
+	}
+
+	spriteType = {
+		name = "ma_08_mpc"
+		texturefile = "gfx/interface/icons/ship_parts/ma_08_mpc.dds"
+	}
+
+	spriteType = {
+		name = "man_08_mpc"
+		texturefile = "gfx/interface/icons/ship_parts/man_08_mpc.dds"
+	}
+
+	spriteType = {
+		name = "msn_02_mpc"
+		texturefile = "gfx/interface/icons/ship_parts/msn_02_mpc.dds"
+	}
+
+}

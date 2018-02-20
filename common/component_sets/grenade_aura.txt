@@ -8,6 +8,14 @@ component_set = {
 	icon_frame = 1
 }
 
+component_set = {
+	key = "efsf_grenade_aura"
+
+	required_component_set = yes
+	icon = "GFX_ship_part_empty_ftl_drive"
+	icon_frame = 1
+}
+
 #component_set = {
 #	key = "zeon_grenade_aura_1"
 

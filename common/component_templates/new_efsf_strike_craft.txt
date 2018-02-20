@@ -413,7 +413,7 @@ strike_craft_component_template = {
 	shield = 0
 	evasion = 0.4
 
-	speed = 5.0 #0.74G
+	speed = 2.4 #0.74G This is actually wrong. It's 0.36G with the full weight. It is now the correct speed.
 	rotation_speed = 0.1
 	acceleration = 0.5
 

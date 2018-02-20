@@ -9,9 +9,9 @@ component_set = {
 }
 
 component_set = {
-	key = "zeon_melee_aura_1"
+	key = "gundam_melee_aura"
 
-	show_in_designer = no
-	icon = "zeon_melee_01"
+	required_component_set = yes
+	icon = "gundam_melee_01"
 	icon_frame = 1
 }

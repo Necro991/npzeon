@@ -57,10 +57,10 @@ RX_77 = { #RX-77 Guncannon
 	class = shipclass_military
 	required_component_set = "ftl_components"
 	required_component_set = "oyw_efsf_pilot_putv"
-	required_component_set = "zeon_melee_aura"
-	required_component_set = "zeon_grenade_aura"
-	required_component_set = "ms_reactor"
-	required_component_set = "ms_14_armor"
-	required_component_set = "ms_14_thrusters"
+	#required_component_set = "zeon_melee_aura"
+	required_component_set = "efsf_grenade_aura"
+	required_component_set = "rx_77_reactor"
+	required_component_set = "rx_77_armor"
+	required_component_set = "rx_77_thrusters"
 	required_component_set = "ship_sensor_components"
 }

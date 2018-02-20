@@ -1,3 +1,192 @@
+ship_section_template = { #MSN-01 Psycommu Zaku
+	key = "MSN_01_MID"
+	ship_size = MSN_01
+	fits_on_slot = mid
+	entity = "nt_ms_1_entity"
+	icon = "GFX_ship_part_core_mid"
+
+	prerequisites = { tech_MS_14A }
+
+	# Guns
+	weapon_preferences = { weapon_type_z1 }
+	ai_weight = {
+		modifier = {
+			factor = 10.0
+		}
+	}
+
+	component_slot = {
+		name = "EXTRA_LARGE_01"
+		slot_size = extra_large
+		slot_type = weapon
+		locatorname = "xl_gun_01"
+	}
+
+	component_slot = {
+		name = "EXTRA_LARGE_02"
+		slot_size = extra_large
+		slot_type = weapon
+		locatorname = "xl_gun_02"
+	}
+
+	small_utility_slots = 0
+	medium_utility_slots = 0
+	large_utility_slots = 0
+	aux_utility_slots = 0
+
+	cost = 50
+}
+
+ship_section_template = { #MSN-02 Zeong
+	key = "MSN_02_MID"
+	ship_size = MSN_02
+	fits_on_slot = mid
+	entity = "nt_ms_2_entity"
+	icon = "GFX_ship_part_core_mid"
+
+	prerequisites = { tech_MS_14A }
+
+	# Guns
+	weapon_preferences = { weapon_type_z1 }
+	ai_weight = {
+		modifier = {
+			factor = 10.0
+		}
+	}
+
+	component_slot = {
+		name = "EXTRA_LARGE_01"
+		slot_size = extra_large
+		slot_type = weapon
+		locatorname = "xl_gun_01"
+	}
+
+	component_slot = {
+		name = "EXTRA_LARGE_02"
+		slot_size = extra_large
+		slot_type = weapon
+		locatorname = "xl_gun_02"
+	}
+
+	component_slot = {
+		name = "EXTRA_LARGE_03"
+		slot_size = extra_large
+		slot_type = weapon
+		locatorname = "xl_gun_03"
+	}
+
+	component_slot = {
+		name = "EXTRA_LARGE_04"
+		slot_size = extra_large
+		slot_type = weapon
+		locatorname = "xl_gun_04"
+	}
+
+	component_slot = {
+		name = "EXTRA_LARGE_05"
+		slot_size = extra_large
+		slot_type = weapon
+		locatorname = "xl_gun_05"
+	}
+
+	small_utility_slots = 0
+	medium_utility_slots = 0
+	large_utility_slots = 0
+	aux_utility_slots = 0
+
+	cost = 143
+}
+
+
+ship_section_template = { #MA-06 Val Varo
+	key = "MA_06_MID"
+	ship_size = MA_06
+	fits_on_slot = mid
+	entity = "ma_1_entity"
+	icon = "GFX_ship_part_core_mid"
+
+	prerequisites = { tech_MS_14A }
+
+	# Guns
+	weapon_preferences = { weapon_type_z1 }
+	ai_weight = {
+		modifier = {
+			factor = 10.0
+		}
+	}
+
+	component_slot = {
+		name = "EXTRA_LARGE_01"
+		slot_size = extra_large
+		slot_type = weapon
+		locatorname = "xl_gun_01"
+	}
+
+	component_slot = {
+		name = "TORPEDO_01"
+		slot_size = torpedo
+		slot_type = weapon
+		locatorname = "medium_gun_01"
+	}
+
+	component_slot = {
+		name = "TORPEDO_02"
+		slot_size = torpedo
+		slot_type = weapon
+		locatorname = "medium_gun_02"
+	}
+
+	component_slot = {
+		name = "SMALL_GUN_01"
+		slot_size = point_defence
+		slot_type = weapon
+		locatorname = "small_gun_01"
+	}
+
+	component_slot = {
+		name = "SMALL_GUN_02"
+		slot_size = point_defence
+		slot_type = weapon
+		locatorname = "small_gun_02"
+	}
+
+	component_slot = {
+		name = "SMALL_GUN_03"
+		slot_size = point_defence
+		slot_type = weapon
+		locatorname = "small_gun_03"
+	}
+
+	component_slot = {
+		name = "SMALL_GUN_04"
+		slot_size = point_defence
+		slot_type = weapon
+		locatorname = "small_gun_04"
+	}
+
+	component_slot = {
+		name = "SMALL_GUN_05"
+		slot_size = point_defence
+		slot_type = weapon
+		locatorname = "small_gun_05"
+	}
+
+	component_slot = {
+		name = "SMALL_GUN_06"
+		slot_size = point_defence
+		slot_type = weapon
+		locatorname = "small_gun_06"
+	}
+
+	small_utility_slots = 0
+	medium_utility_slots = 0
+	large_utility_slots = 0
+	aux_utility_slots = 0
+
+	cost = 240
+}
+
+
 ship_section_template = { #MA-08 Big Zam
 	key = "MA_08_MID"
 	ship_size = MA_08
@@ -112,4 +301,43 @@ ship_section_template = { #MA-08 Big Zam
 	aux_utility_slots = 0
 
 	cost = 1200
+}
+
+ship_section_template = { #MAN-08 Elmeth
+	key = "MAN_08_MID"
+	ship_size = MAN_08
+	fits_on_slot = mid
+	entity = "nt_ma_1_entity"
+	icon = "GFX_ship_part_core_mid"
+
+	prerequisites = { tech_MS_14A }
+
+	# Guns
+	weapon_preferences = { weapon_type_z1 }
+	ai_weight = {
+		modifier = {
+			factor = 10.0
+		}
+	}
+
+	component_slot = {
+		name = "EXTRA_LARGE_01"
+		slot_size = extra_large
+		slot_type = weapon
+		locatorname = "xl_gun_01"
+	}
+
+	component_slot = {
+		name = "EXTRA_LARGE_02"
+		slot_size = extra_large
+		slot_type = weapon
+		locatorname = "xl_gun_02"
+	}
+
+	small_utility_slots = 0
+	medium_utility_slots = 0
+	large_utility_slots = 0
+	aux_utility_slots = 0
+
+	cost = 180
 }

@@ -57,43 +57,6 @@ RB_79 = { #RB-79 MPT
 	class = shipclass_military
 	required_component_set = "ftl_components"
 	required_component_set = "oyw_efsf_pilot_putv"
-	#required_component_set = "efsf_melee_aura"
-	#required_component_set = "efsf_grenade_aura"
-	required_component_set = "ms_reactor"
-	required_component_set = "rb_79_armor"
-	required_component_set = "rb_79_thrusters"
-	required_component_set = "ship_sensor_components"
-}
-
-RB_79S = { #RB-79S Commander
-	entity = zakuIframe_entity
-	max_speed = 6.5
-	acceleration = 0.5
-	rotation_speed = 0.455
-	combat_max_speed = 6.5
-	combat_rotation_speed = 0.455
-	collision_radius = 1
-	#modifier = {
-	#	ship_evasion_add = 50
-	#	ship_armor_add = 20
-	#}
-	max_hitpoints = 114
-	size_multiplier = 1
-	fleet_slot_size = 16
-	section_slots = { "mid" = { locator = "part1" } }
-	num_target_locators = 4
-	is_space_station = no
-	icon_frame = 2
-	base_buildtime = 30
-	required_spaceport_level = 1
-	can_have_federation_design = yes
-	enable_default_design = no	#if yes, countries will have an auto-generated design at start
-
-	prerequisites = { "tech_RB_79" }
-
-	class = shipclass_military
-	required_component_set = "ftl_components"
-	required_component_set = "oyw_efsf_pilot_vuta"
 	required_component_set = "oyw_efsf_commander_aura"
 	#required_component_set = "efsf_melee_aura"
 	#required_component_set = "efsf_grenade_aura"

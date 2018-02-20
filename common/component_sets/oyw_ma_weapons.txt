@@ -1,7 +1,14 @@
 component_set = {
+	key = "OYW_MA_06_MPC"
+
+	icon = "ma_06_mpc"
+	icon_frame = 1
+}
+
+component_set = {
 	key = "OYW_MA_08_MPC"
 
-	icon = "GFX_ship_part_mass_driver_1"
+	icon = "ma_08_mpc"
 	icon_frame = 1
 }
 
@@ -9,5 +16,26 @@ component_set = {
 	key = "OYW_MA_08_PD"
 
 	icon = "GFX_ship_part_mass_driver_1"
+	icon_frame = 1
+}
+
+component_set = {
+	key = "OYW_MAN_08_MPC"
+
+	icon = "man_08_mpc"
+	icon_frame = 1
+}
+
+component_set = {
+	key = "OYW_MSN_01_MPC"
+
+	icon = "msn_02_mpc"
+	icon_frame = 1
+}
+
+component_set = {
+	key = "OYW_MSN_02_MPC"
+
+	icon = "msn_02_mpc"
 	icon_frame = 1
 }

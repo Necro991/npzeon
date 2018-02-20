@@ -385,3 +385,215 @@ utility_component_template = {
 		weight = 1
 	}
 }
+
+utility_component_template = {
+	key = "efsf_grenade_aura_0"
+	size = small
+	icon = "GFX_ship_part_empty_ftl_drive"
+	icon_frame = 1
+	power = 0
+	cost = 0
+
+	prerequisites = { "tech_RX_77_1A" }
+
+	component_set = "efsf_grenade_aura"
+	#upgrades_to = "oyw_zeon_pilot_putv_veteran"
+
+	ai_weight = {
+		weight = 1
+	}
+}
+
+utility_component_template = {
+	key = "efsf_grenade_aura_1"
+	size = small
+	icon = "efsf_grenade_01"
+	icon_frame = 1
+	power = 0
+	cost = 10
+
+	hostile_aura = {
+		name = "efsf_grenade_1"
+		radius = 10
+		apply_on = ships
+
+		stack_info = {			#A ship can only be affected by one aura of a certain id. If multiple auras have the same ID the one with the highest priority will be applied.
+			id = zeon_grenade_001
+			priority = 2
+		}
+
+		damage_per_day = { #Small Missile
+			accuracy = 0.15
+			damage = { min = 8 max = 12 }
+			shield_damage = 1.15
+			armor_penetration = 0.15
+		}
+
+		graphics = {
+			area_effect = {
+				entity = "circle_area_entity"
+				dynamic_scale = yes
+			}
+		}
+	}
+
+	prerequisites = { "tech_RX_77_1A" }
+
+	component_set = "efsf_grenade_aura"
+	#upgrades_to = "oyw_zeon_pilot_putv_veteran"
+
+	ai_weight = {
+		weight = 1
+	}
+}
+
+utility_component_template = {
+	key = "gundam_melee_aura_0"
+	size = small
+	icon = "GFX_ship_part_empty_ftl_drive"
+	icon_frame = 1
+	power = 0
+	cost = 0
+
+	prerequisites = { "tech_RX_78_1" }
+
+	component_set = "gundam_melee_aura"
+	#upgrades_to = "oyw_gundam_pilot_putv_veteran"
+
+	ai_weight = {
+		weight = 1
+	}
+}
+
+utility_component_template = {
+	key = "gundam_melee_aura_1"
+	size = small
+	icon = "gundam_melee_01"
+	icon_frame = 1
+	power = 0
+	cost = 15
+
+	hostile_aura = {
+		name = "gundam_melee_1"
+		radius = 5
+		apply_on = ships
+
+		stack_info = {			#A ship can only be affected by one aura of a certain id. If multiple auras have the same ID the one with the highest priority will be applied.
+			id = gundam_melee_001
+			priority = 2
+		}
+
+		damage_per_day = {
+			accuracy = 0.15
+			damage = { min = 8 max = 34 }
+			shield_damage = 1.33
+			armor_penetration = 0.15
+		}
+
+		graphics = {
+			area_effect = {
+				entity = "circle_area_entity"
+				dynamic_scale = yes
+			}
+		}
+	}
+
+	prerequisites = { "tech_RX_78_1" }
+
+	component_set = "gundam_melee_aura"
+	#upgrades_to = "oyw_gundam_pilot_putv_veteran"
+
+	ai_weight = {
+		weight = 1
+	}
+}
+
+utility_component_template = {
+	key = "gundam_melee_aura_2"
+	size = small
+	icon = "gundam_melee_02"
+	icon_frame = 1
+	power = 0
+	cost = 20
+
+	modifier = {
+		ship_armor_add = 5
+	}
+
+	hostile_aura = {
+		name = "gundam_melee_2"
+		radius = 5
+		apply_on = ships
+
+		stack_info = {			#A ship can only be affected by one aura of a certain id. If multiple auras have the same ID the one with the highest priority will be applied.
+			id = gundam_melee_002
+			priority = 2
+		}
+
+		damage_per_day = {
+			accuracy = 0.2
+			damage = { min = 8 max = 20 }
+			shield_damage = 1.33
+			armor_penetration = 0.0
+		}
+
+		graphics = {
+			area_effect = {
+				entity = "circle_area_entity"
+				dynamic_scale = yes
+			}
+		}
+	}
+
+	prerequisites = { "tech_RX_78_1" }
+
+	component_set = "gundam_melee_aura"
+	#upgrades_to = "oyw_gundam_pilot_putv_veteran"
+
+	ai_weight = {
+		weight = 1
+	}
+}
+
+utility_component_template = {
+	key = "gundam_melee_aura_3"
+	size = small
+	icon = "gundam_melee_03"
+	icon_frame = 1
+	power = 0
+	cost = 20
+
+	hostile_aura = {
+		name = "gundam_melee_3"
+		radius = 5
+		apply_on = ships
+
+		stack_info = {			#A ship can only be affected by one aura of a certain id. If multiple auras have the same ID the one with the highest priority will be applied.
+			id = gundam_melee_003
+			priority = 2
+		}
+
+		damage_per_day = {
+			accuracy = 0.15
+			damage = { min = 16 max = 34 }
+			shield_damage = 1.33
+			armor_penetration = 0.3
+		}
+
+		graphics = {
+			area_effect = {
+				entity = "circle_area_entity"
+				dynamic_scale = yes
+			}
+		}
+	}
+
+	prerequisites = { "tech_RX_78_1" }
+
+	component_set = "gundam_melee_aura"
+	#upgrades_to = "oyw_gundam_pilot_putv_veteran"
+
+	ai_weight = {
+		weight = 1
+	}
+}

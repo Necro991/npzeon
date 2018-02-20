@@ -1,0 +1,18 @@
+spriteTypes = {
+
+	spriteType = {
+		name = "gundam_melee_01"
+		texturefile = "gfx/interface/icons/ship_parts/gundam_melee_01.dds"
+	}
+
+	spriteType = {
+		name = "gundam_melee_02"
+		texturefile = "gfx/interface/icons/ship_parts/gundam_melee_02.dds"
+	}
+
+	spriteType = {
+		name = "gundam_melee_03"
+		texturefile = "gfx/interface/icons/ship_parts/gundam_melee_03.dds"
+	}
+
+}
