@@ -158,3 +158,24 @@ component_set = {
 	icon = "GFX_ship_part_mass_driver_1"
 	icon_frame = 1
 }
+
+component_set = {
+	key = "OYW_EFSF_90MM"
+
+	icon = "GFX_ship_part_mass_driver_1"
+	icon_frame = 1
+}
+
+component_set = {
+	key = "OYW_EFSF_BEAM_SCATTER"
+
+	icon = "GFX_ship_part_mass_driver_1"
+	icon_frame = 1
+}
+
+component_set = {
+	key = "OYW_EFSF_380MM"
+
+	icon = "GFX_ship_part_mass_driver_1"
+	icon_frame = 1
+}

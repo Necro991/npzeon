@@ -3,7 +3,7 @@
 utility_component_template = {
 	key = "ms_09_armor_1"
 	size = small
-	icon = "GFX_ship_part_armor_1"
+	icon = "ms_09r_armor_1"
 	icon_frame = 1
 	power = 0
 	cost = 0

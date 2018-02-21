@@ -28,7 +28,7 @@
 # STANDARD #
 ############
 
-RGM_79 = { #Goondam
+RGM_79 = { #GM
 	entity = zakuIframe_entity
 	max_speed = 4
 	acceleration = 0.5
@@ -57,6 +57,7 @@ RGM_79 = { #Goondam
 	class = shipclass_military
 	required_component_set = "ftl_components"
 	required_component_set = "oyw_efsf_pilot_putv"
+	required_component_set = "efsf_melee_aura"
 	required_component_set = "efsf_grenade_aura"
 	required_component_set = "ms_reactor"
 	required_component_set = "rgm_79_armor"

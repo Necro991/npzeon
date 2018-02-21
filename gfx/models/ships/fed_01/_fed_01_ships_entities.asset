@@ -2452,8 +2452,18 @@ entity = {
 	}
 
 	entity = {
-		name = "gm_entity" #Ball
+		name = "gm_entity" #GM
 		pdxmesh = "fed_01_GM_mesh"
+
+		locator = { name = "small_gun_01" 			position = { 0.0 	1.0 	0.0	} 	scale = 0.0} #X,Up/Down,Forward/Back
+
+		scale = 1.0
+
+	}
+
+	entity = {
+		name = "gm_group_entity" #GM Group
+		pdxmesh = "fed_01_GM_Group_mesh"
 
 		locator = { name = "small_gun_01" 			position = { 0.0 	1.0 	0.0	} 	scale = 0.0} #X,Up/Down,Forward/Back
 

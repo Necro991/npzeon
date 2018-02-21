@@ -2,7 +2,7 @@ ship_section_template = { #Guncannon
 	key = "RGM_79_MID"
 	ship_size = RGM_79
 	fits_on_slot = mid
-	entity = "gundam_entity"
+	entity = "gm_group_entity"
 	icon = "GFX_ship_part_core_mid"
 
 	prerequisites = { tech_RGM_79E }

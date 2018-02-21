@@ -633,11 +633,95 @@ weapon_component_template = {
 	color = { 0.1 1.0 0.1 1 }
 	power = -3000
 	cost = 30
-	size_restriction = { RX_77 RX_78 }
+	size_restriction = { RX_77 RX_78 RGM_79 }
 	prerequisites = { "tech_RX_77_1A" }
 	component_set = "OYW_EFSF_BEAM_RIFLE"
 	projectile_gfx = "MPC1"
 	tags = { weapon_type_energy }
 	ai_tags = { weapon_role_anti_armor }
+	#upgrades_to = "SMALL_BEAMC_2"
+}
+
+weapon_component_template = {
+	key = "OYW_EFSF_90MM"
+	size = point_defence
+	entity = "Zeon_Machine_Gun_01_Entity"
+	damage = { min = 10.0 max = 20.0 }
+	windup = { min = 2.5 max = 5.0 }
+	total_fire_time = 5
+	range = 25.0
+	accuracy = 0.82
+	tracking  = 0.65
+	type = point_defence
+	shield_damage = 1.0
+	armor_penetration = 0.1
+
+	icon = "GFX_ship_part_mass_driver_1"
+	icon_frame = 1
+	color = { 0.1 1.0 0.1 1 }
+	power = -3000
+	cost = 10
+	size_restriction = { RX_77 RX_78 RGM_79 }
+	prerequisites = { "tech_RGM_79E" }
+	component_set = "OYW_EFSF_90MM"
+	projectile_gfx = "auto_cannons_s"
+	tags = { weapon_type_kinetic }
+	ai_tags = { weapon_role_anti_shield }
+	#upgrades_to = "OYW_ZEON_105MM"
+}
+
+weapon_component_template = {
+	key = "OYW_EFSF_BEAM_SCATTER"
+	size = point_defence
+	entity = "Zeon_Machine_Gun_01_Entity"
+	damage = { min = 25.0 max = 75.0 }
+	#windup = { min = 5.0 max = 20.0 }
+	total_fire_time = 5
+	range = 40.0
+	accuracy = 0.8
+	tracking  = 0.6
+	type = point_defence
+	shield_damage = 0.2
+	armor_penetration = 0.95
+
+	icon = "GFX_ship_part_mass_driver_1"
+	icon_frame = 1
+	color = { 0.1 1.0 0.1 1 }
+	power = -3000
+	cost = 20
+	size_restriction = { RX_77 RX_78 RGM_79 }
+	prerequisites = { "tech_RGM_79" }
+	component_set = "OYW_EFSF_BEAM_SCATTER"
+	projectile_gfx = "MPC1"
+	tags = { weapon_type_energy }
+	ai_tags = { weapon_role_anti_armor }
+	#upgrades_to = "SMALL_BEAMC_2"
+}
+
+weapon_component_template = {
+	key = "OYW_EFSF_380MM"
+	size = point_defence
+	entity = "Zeon_Machine_Gun_01_Entity"
+	damage = { min = 55.0 max = 100.0 }
+	#windup = { min = 5.0 max = 10.0 }
+	total_fire_time = 20
+	range = 60.0
+	accuracy = 0.8
+	tracking  = 0.2
+	type = point_defence
+	shield_damage = 1.15
+	armor_penetration = 0.25
+
+	icon = "GFX_ship_part_mass_driver_1"
+	icon_frame = 1
+	color = { 0.1 1.0 0.1 1 }
+	power = -3000
+	cost = 25
+	size_restriction = { RX_77 RX_78 RGM_79 }
+	prerequisites = { "tech_RGM_79" }
+	component_set = "OYW_EFSF_380MM"
+	projectile_gfx = "gundam_missile"
+	tags = { weapon_type_explosive }
+	ai_tags = { weapon_role_anti_shield }
 	#upgrades_to = "SMALL_BEAMC_2"
 }
