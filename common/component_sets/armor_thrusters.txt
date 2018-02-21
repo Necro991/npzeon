@@ -151,3 +151,19 @@ component_set = {
 	icon = "GFX_ship_part_armor_1"
 	icon_frame = 1
 }
+
+component_set = {
+	key = "rx_78_thrusters"
+
+	required_component_set = yes
+	icon = "GFX_ship_part_thruster_1"
+	icon_frame = 1
+}
+
+component_set = {
+	key = "rx_78_armor"
+
+	required_component_set = yes
+	icon = "GFX_ship_part_armor_1"
+	icon_frame = 1
+}

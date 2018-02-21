@@ -28,7 +28,7 @@
 # STANDARD #
 ############
 
-RX_78 = { #Goondam
+RGM_79 = { #Goondam
 	entity = zakuIframe_entity
 	max_speed = 4
 	acceleration = 0.5
@@ -40,7 +40,7 @@ RX_78 = { #Goondam
 	#	ship_evasion_add = 50
 	#	ship_armor_add = 20
 	#}
-	max_hitpoints = 100
+	max_hitpoints = 300
 	size_multiplier = 1
 	fleet_slot_size = 16
 	section_slots = { "mid" = { locator = "part1" } }
@@ -52,16 +52,14 @@ RX_78 = { #Goondam
 	can_have_federation_design = yes
 	enable_default_design = no	#if yes, countries will have an auto-generated design at start
 
-	prerequisites = { "tech_RX_78_1" }
+	prerequisites = { "tech_RGM_79E" }
 
 	class = shipclass_military
 	required_component_set = "ftl_components"
-	required_component_set = "oyw_efsf_pilot_ncn"
-	required_component_set = "gundam_melee_aura"
-	required_component_set = "gundam_melee_aura"
+	required_component_set = "oyw_efsf_pilot_putv"
 	required_component_set = "efsf_grenade_aura"
 	required_component_set = "ms_reactor"
-	required_component_set = "rx_78_armor"
-	required_component_set = "rx_78_thrusters"
+	required_component_set = "rgm_79_armor"
+	required_component_set = "rgm_79_thrusters"
 	required_component_set = "ship_sensor_components"
 }

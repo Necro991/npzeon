@@ -549,7 +549,7 @@ weapon_component_template = {
 	color = { 0.1 1.0 0.1 1 }
 	power = -3000
 	cost = 40
-	size_restriction = { RX_77 }
+	size_restriction = { RX_77 RX_78 }
 	prerequisites = { "tech_RX_77_1A" }
 	component_set = "OYW_EFSF_240MM_1"
 	projectile_gfx = "mass_driver_s"
@@ -577,9 +577,37 @@ weapon_component_template = {
 	color = { 0.1 1.0 0.1 1 }
 	power = -3000
 	cost = 20
-	size_restriction = { RX_77 }
+	size_restriction = { RX_77 RX_78 }
 	prerequisites = { "tech_RX_77D" }
 	component_set = "OYW_EFSF_240MM_2"
+	projectile_gfx = "mass_driver_s"
+	tags = { weapon_type_kinetic }
+	ai_tags = { weapon_role_anti_shield }
+	#upgrades_to = "SMALL_BEAMC_2"
+}
+
+weapon_component_template = {
+	key = "OYW_EFSF_300MM"
+	size = extra_large
+	entity = "Zeon_Machine_Gun_01_Entity"
+	damage = { min = 166.0 max = 375.0 }
+	#windup = { min = 5.0 max = 10.0 }
+	total_fire_time = 25
+	range = 90.0
+	accuracy = 0.6
+	tracking  = 002
+	type = instant
+	shield_damage = 1.33
+	armor_penetration = 0.2
+
+	icon = "GFX_ship_part_mass_driver_1"
+	icon_frame = 1
+	color = { 0.1 1.0 0.1 1 }
+	power = -3000
+	cost = 24
+	size_restriction = { RX_77 RX_78 }
+	prerequisites = { "tech_RX_78_6" }
+	component_set = "OYW_EFSF_300MM"
 	projectile_gfx = "mass_driver_s"
 	tags = { weapon_type_kinetic }
 	ai_tags = { weapon_role_anti_shield }
@@ -605,7 +633,7 @@ weapon_component_template = {
 	color = { 0.1 1.0 0.1 1 }
 	power = -3000
 	cost = 30
-	size_restriction = { RX_77 }
+	size_restriction = { RX_77 RX_78 }
 	prerequisites = { "tech_RX_77_1A" }
 	component_set = "OYW_EFSF_BEAM_RIFLE"
 	projectile_gfx = "MPC1"

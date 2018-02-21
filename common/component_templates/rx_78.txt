@@ -1,0 +1,185 @@
+#Armor, Thrusters, Grenades, Melee
+
+utility_component_template = {
+	key = "rx_78_armor_1"
+	size = small
+	icon = "GFX_ship_part_armor_1"
+	icon_frame = 1
+	power = 0
+	cost = 0
+
+	modifier = {
+		ship_armor_add = 50
+		ship_hitpoints_mult = -0.09
+	}
+	#ship_modifier = {
+	#	ship_weapon_damage = 0.01
+	#}
+
+	prerequisites = { "tech_RX_78_1" }
+
+	component_set = "rx_78_armor"
+	#upgrades_to = "rb_79_armor_2"
+
+	ai_weight = {
+		weight = 1
+	}
+}
+
+utility_component_template = {
+	key = "rx_78_armor_2"
+	size = small
+	icon = "GFX_ship_part_armor_2"
+	icon_frame = 1
+	power = 0
+	cost = 13
+
+	modifier = {
+		ship_armor_add = 50
+		ship_hitpoints_mult = 0.23
+	}
+	#ship_modifier = {
+	#	ship_weapon_damage = 0.01
+	#}
+
+	prerequisites = { "tech_RX_78_4" }
+
+	component_set = "rx_78_armor"
+	#upgrades_to = "rb_79_armor_2"
+
+	ai_weight = {
+		weight = 1
+	}
+}
+
+utility_component_template = {
+	key = "rx_78_armor_3"
+	size = small
+	icon = "GFX_ship_part_armor_3"
+	icon_frame = 1
+	power = 0
+	cost = 16
+
+	modifier = {
+		ship_armor_add = 50
+		ship_hitpoints_mult = 0.3
+	}
+	#ship_modifier = {
+	#	ship_weapon_damage = 0.01
+	#}
+
+	prerequisites = { "tech_RX_78_6" }
+
+	component_set = "rx_78_armor"
+	#upgrades_to = "rb_79_armor_2"
+
+	ai_weight = {
+		weight = 1
+	}
+}
+
+utility_component_template = {
+	key = "rx_78_armor_4"
+	size = small
+	icon = "GFX_ship_part_armor_4"
+	icon_frame = 1
+	power = 0
+	cost = 9
+
+	modifier = {
+		ship_armor_add = 50
+		ship_hitpoints_mult = 0.12
+	}
+	#ship_modifier = {
+	#	ship_weapon_damage = 0.01
+	#}
+
+	prerequisites = { "tech_RX_78NT_1" }
+
+	component_set = "rx_78_armor"
+	#upgrades_to = "rb_79_armor_2"
+
+	ai_weight = {
+		weight = 1
+	}
+}
+
+utility_component_template = {
+	key = "rx_78_armor_5"
+	size = small
+	icon = "GFX_ship_part_armor_5"
+	icon_frame = 1
+	power = 0
+	cost = 12
+
+	modifier = {
+		ship_armor_add = 45
+		ship_hitpoints_mult = 0.19
+	}
+	#ship_modifier = {
+	#	ship_weapon_damage = 0.01
+	#}
+
+	prerequisites = { "tech_RX_78_7" }
+
+	component_set = "rx_78_armor"
+	#upgrades_to = "rb_79_armor_2"
+
+	ai_weight = {
+		weight = 1
+	}
+}
+
+utility_component_template = {
+	key = "rx_78_thrusters_1"
+	size = small
+	icon = "GFX_ship_part_thruster_1"
+	icon_frame = 1
+	power = 0
+	cost = 0
+
+	modifier = {
+		ship_evasion_add = 60
+		ship_speed_mult = 0.625
+		ship_combat_speed_mult = 0.625
+	}
+	#ship_modifier = {
+	#	ship_weapon_damage = 0.01
+	#}
+
+	prerequisites = { "tech_RX_78_1" }
+
+	component_set = "rx_78_thrusters"
+	#upgrades_to = "rb_79_thrusters_2"
+
+	ai_weight = {
+		weight = 1
+	}
+}
+
+utility_component_template = {
+	key = "rx_78_thrusters_2"
+	size = small
+	icon = "GFX_ship_part_thruster_2"
+	icon_frame = 1
+	power = 0
+	cost = 20
+
+	modifier = {
+		ship_evasion_add = 65
+		ship_speed_mult = 2.075
+		ship_combat_speed_mult = 2.075
+	}
+	#ship_modifier = {
+	#	ship_weapon_damage = 0.01
+	#}
+
+	prerequisites = { "tech_RX_78NT_1" }
+
+	component_set = "rx_78_thrusters"
+	#upgrades_to = "rb_79_thrusters_2"
+
+	ai_weight = {
+		weight = 1
+	}
+}
