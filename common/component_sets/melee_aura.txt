@@ -15,3 +15,11 @@ component_set = {
 	icon = "gundam_melee_01"
 	icon_frame = 1
 }
+
+component_set = {
+	key = "efsf_melee_aura"
+
+	required_component_set = yes
+	icon = "gundam_melee_01"
+	icon_frame = 1
+}

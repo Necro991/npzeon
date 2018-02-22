@@ -2473,6 +2473,11 @@ entity = {
 
 	entity = {
 		name = "guntank_entity" #Guntank
+
+		locator = { name = "medium_gun_01" 			position = { 0.0 	0.0 	0.0	} 	scale = 0.0} #X,Up/Down,Forward/Back
+		locator = { name = "medium_gun_02" 			position = { 0.0 	0.0 	0.0	} 	scale = 0.0} #X,Up/Down,Forward/Back
+		locator = { name = "medium_gun_03" 			position = { 0.0 	0.0 	0.0	} 	scale = 0.0} #X,Up/Down,Forward/Back
+
 		pdxmesh = "fed_01_Guntank_mesh"
 		scale = 1.0
 	}

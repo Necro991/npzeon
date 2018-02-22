@@ -40,7 +40,7 @@ weapon_component_template = {
 	shield_damage = 1.0
 	armor_penetration = 0.1
 
-	icon = "GFX_ship_part_mass_driver_1"
+	icon = "OYW_ZEON_105MM"
 	icon_frame = 1
 	color = { 0.1 1.0 0.1 1 }
 	power = -3000
@@ -96,7 +96,7 @@ weapon_component_template = {
 	shield_damage = 1.0
 	armor_penetration = 0.1
 
-	icon = "GFX_ship_part_mass_driver_1"
+	icon = "OYW_ZEON_120MM"
 	icon_frame = 1
 	color = { 0.1 1.0 0.1 1 }
 	power = -3000
@@ -124,7 +124,7 @@ weapon_component_template = {
 	shield_damage = 1.0
 	armor_penetration = 0.2
 
-	icon = "GFX_ship_part_mass_driver_1"
+	icon = "OYW_ZEON_90MM"
 	icon_frame = 1
 	color = { 0.1 1.0 0.1 1 }
 	power = -3000
@@ -152,7 +152,7 @@ weapon_component_template = {
 	shield_damage = 1.5
 	armor_penetration = 0.05
 
-	icon = "GFX_ship_part_mass_driver_1"
+	icon = "SHOTGUN"
 	icon_frame = 1
 	color = { 0.1 1.0 0.1 1 }
 	power = -3000
@@ -180,7 +180,7 @@ weapon_component_template = {
 	shield_damage = 0.2
 	armor_penetration = 0.95
 
-	icon = "GFX_ship_part_mass_driver_1"
+	icon = "OYW_ZEON_BEAM_RIFLE"
 	icon_frame = 1
 	color = { 0.1 1.0 0.1 1 }
 	power = -3000
@@ -208,7 +208,7 @@ weapon_component_template = {
 	shield_damage = 0.2
 	armor_penetration = 0.95
 
-	icon = "GFX_ship_part_mass_driver_1"
+	icon = "OYW_ZEON_BEAM_MG"
 	icon_frame = 1
 	color = { 0.1 1.0 0.1 1 }
 	power = -3000
@@ -236,7 +236,7 @@ weapon_component_template = {
 	shield_damage = 0.2
 	armor_penetration = 0.95
 
-	icon = "GFX_ship_part_mass_driver_1"
+	icon = "OYW_ZEON_BEAM_BAZOOKA"
 	icon_frame = 1
 	color = { 0.1 1.0 0.1 1 }
 	power = -3000
@@ -264,7 +264,7 @@ weapon_component_template = {
 	shield_damage = 1.15
 	armor_penetration = 0.15
 
-	icon = "GFX_ship_part_mass_driver_1"
+	icon = "STURMFAUST"
 	icon_frame = 1
 	color = { 0.1 1.0 0.1 1 }
 	power = -3000
@@ -292,7 +292,7 @@ weapon_component_template = {
 	shield_damage = 1.15
 	armor_penetration = 0.25
 
-	icon = "GFX_ship_part_mass_driver_1"
+	icon = "OYW_ZEON_280MM"
 	icon_frame = 1
 	color = { 0.1 1.0 0.1 1 }
 	power = -3000
@@ -320,7 +320,7 @@ weapon_component_template = {
 	shield_damage = 1.15
 	armor_penetration = 0.25
 
-	icon = "GFX_ship_part_mass_driver_1"
+	icon = "OYW_ZEON_280MM"
 	icon_frame = 1
 	color = { 0.1 1.0 0.1 1 }
 	power = -3000
@@ -348,7 +348,7 @@ weapon_component_template = {
 	shield_damage = 1.15
 	armor_penetration = 0.25
 
-	icon = "GFX_ship_part_mass_driver_1"
+	icon = "OYW_ZEON_360MM"
 	icon_frame = 1
 	color = { 0.1 1.0 0.1 1 }
 	power = -3000
@@ -376,7 +376,7 @@ weapon_component_template = {
 	shield_damage = 1.15
 	armor_penetration = 0.25
 
-	icon = "GFX_ship_part_mass_driver_1"
+	icon = "OYW_ZEON_360MM"
 	icon_frame = 1
 	color = { 0.1 1.0 0.1 1 }
 	power = -3000
@@ -404,7 +404,7 @@ weapon_component_template = {
 	shield_damage = 1.15
 	armor_penetration = 0.25
 
-	icon = "GFX_ship_part_mass_driver_1"
+	icon = "OYW_ZEON_420MM"
 	icon_frame = 1
 	color = { 0.1 1.0 0.1 1 }
 	power = -3000
@@ -432,7 +432,7 @@ weapon_component_template = {
 	shield_damage = 1.33
 	armor_penetration = 0.2
 
-	icon = "GFX_ship_part_mass_driver_1"
+	icon = "OYW_ZEON_180MM_1"
 	icon_frame = 1
 	color = { 0.1 1.0 0.1 1 }
 	power = -3000
@@ -460,7 +460,7 @@ weapon_component_template = {
 	shield_damage = 1.33
 	armor_penetration = 0.2
 
-	icon = "GFX_ship_part_mass_driver_1"
+	icon = "OYW_ZEON_180MM_2"
 	icon_frame = 1
 	color = { 0.1 1.0 0.1 1 }
 	power = -3000
@@ -488,7 +488,7 @@ weapon_component_template = {
 	shield_damage = 1.33
 	armor_penetration = 0.2
 
-	icon = "GFX_ship_part_mass_driver_1"
+	icon = "OYW_ZEON_180MM_3"
 	icon_frame = 1
 	color = { 0.1 1.0 0.1 1 }
 	power = -3000
@@ -516,7 +516,7 @@ weapon_component_template = {
 	shield_damage = 1.33
 	armor_penetration = 0.2
 
-	icon = "GFX_ship_part_mass_driver_1"
+	icon = "OYW_EFSF_120MM"
 	icon_frame = 1
 	color = { 0.1 1.0 0.1 1 }
 	power = -3000
@@ -544,7 +544,7 @@ weapon_component_template = {
 	shield_damage = 1.33
 	armor_penetration = 0.2
 
-	icon = "GFX_ship_part_mass_driver_1"
+	icon = "OYW_EFSF_240MM"
 	icon_frame = 1
 	color = { 0.1 1.0 0.1 1 }
 	power = -3000
@@ -572,7 +572,7 @@ weapon_component_template = {
 	shield_damage = 1.33
 	armor_penetration = 0.2
 
-	icon = "GFX_ship_part_mass_driver_1"
+	icon = "OYW_EFSF_240MM"
 	icon_frame = 1
 	color = { 0.1 1.0 0.1 1 }
 	power = -3000
@@ -600,11 +600,11 @@ weapon_component_template = {
 	shield_damage = 1.33
 	armor_penetration = 0.2
 
-	icon = "GFX_ship_part_mass_driver_1"
+	icon = "OYW_EFSF_300MM"
 	icon_frame = 1
 	color = { 0.1 1.0 0.1 1 }
 	power = -3000
-	cost = 24
+	cost = 50
 	size_restriction = { RX_77 RX_78 }
 	prerequisites = { "tech_RX_78_6" }
 	component_set = "OYW_EFSF_300MM"
@@ -628,12 +628,12 @@ weapon_component_template = {
 	shield_damage = 0.2
 	armor_penetration = 0.95
 
-	icon = "GFX_ship_part_mass_driver_1"
+	icon = "OYW_EFSF_BEAM_RIFLE"
 	icon_frame = 1
 	color = { 0.1 1.0 0.1 1 }
 	power = -3000
 	cost = 30
-	size_restriction = { RX_77 RX_78 RGM_79 }
+	size_restriction = { RX_77 RX_78 RGM_79 RGM_79S }
 	prerequisites = { "tech_RX_77_1A" }
 	component_set = "OYW_EFSF_BEAM_RIFLE"
 	projectile_gfx = "MPC1"
@@ -656,12 +656,12 @@ weapon_component_template = {
 	shield_damage = 1.0
 	armor_penetration = 0.1
 
-	icon = "GFX_ship_part_mass_driver_1"
+	icon = "OYW_EFSF_90MM"
 	icon_frame = 1
 	color = { 0.1 1.0 0.1 1 }
 	power = -3000
 	cost = 10
-	size_restriction = { RX_77 RX_78 RGM_79 }
+	size_restriction = { RX_77 RX_78 RGM_79 RGM_79S }
 	prerequisites = { "tech_RGM_79E" }
 	component_set = "OYW_EFSF_90MM"
 	projectile_gfx = "auto_cannons_s"
@@ -676,7 +676,7 @@ weapon_component_template = {
 	entity = "Zeon_Machine_Gun_01_Entity"
 	damage = { min = 25.0 max = 75.0 }
 	#windup = { min = 5.0 max = 20.0 }
-	total_fire_time = 5
+	total_fire_time = 15
 	range = 40.0
 	accuracy = 0.8
 	tracking  = 0.6
@@ -684,12 +684,12 @@ weapon_component_template = {
 	shield_damage = 0.2
 	armor_penetration = 0.95
 
-	icon = "GFX_ship_part_mass_driver_1"
+	icon = "OYW_EFSF_BEAM_SCATTER"
 	icon_frame = 1
 	color = { 0.1 1.0 0.1 1 }
 	power = -3000
 	cost = 20
-	size_restriction = { RX_77 RX_78 RGM_79 }
+	size_restriction = { RX_77 RX_78 RGM_79 RGM_79S }
 	prerequisites = { "tech_RGM_79" }
 	component_set = "OYW_EFSF_BEAM_SCATTER"
 	projectile_gfx = "MPC1"
@@ -712,12 +712,12 @@ weapon_component_template = {
 	shield_damage = 1.15
 	armor_penetration = 0.25
 
-	icon = "GFX_ship_part_mass_driver_1"
+	icon = "OYW_EFSF_380MM"
 	icon_frame = 1
 	color = { 0.1 1.0 0.1 1 }
 	power = -3000
 	cost = 25
-	size_restriction = { RX_77 RX_78 RGM_79 }
+	size_restriction = { RX_77 RX_78 RGM_79 RGM_79S }
 	prerequisites = { "tech_RGM_79" }
 	component_set = "OYW_EFSF_380MM"
 	projectile_gfx = "gundam_missile"

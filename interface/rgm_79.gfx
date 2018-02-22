@@ -1,0 +1,8 @@
+spriteTypes = {
+
+	spriteType = {
+		name = "efsf_melee_02"
+		texturefile = "gfx/interface/icons/ship_parts/efsf_melee_02.dds"
+	}
+
+}

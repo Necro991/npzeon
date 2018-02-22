@@ -8,7 +8,7 @@ component_set = {
 component_set = {
 	key = "OYW_ZEON_105MM"
 
-	icon = "GFX_ship_part_mass_driver_1"
+	icon = "OYW_ZEON_105MM"
 	icon_frame = 1
 }
 
@@ -22,160 +22,160 @@ component_set = {
 component_set = {
 	key = "OYW_ZEON_120MM_UMP"
 
-	icon = "GFX_ship_part_mass_driver_1"
+	icon = "OYW_ZEON_120MM"
 	icon_frame = 1
 }
 
 component_set = {
 	key = "OYW_ZEON_90MM"
 
-	icon = "GFX_ship_part_mass_driver_1"
+	icon = "OYW_ZEON_90MM"
 	icon_frame = 1
 }
 
 component_set = {
 	key = "OYW_ZEON_SHOTGUN"
 
-	icon = "GFX_ship_part_mass_driver_1"
+	icon = "SHOTGUN"
 	icon_frame = 1
 }
 
 component_set = {
 	key = "OYW_ZEON_BEAM_RIFLE"
 
-	icon = "GFX_ship_part_mass_driver_1"
+	icon = "OYW_ZEON_BEAM_RIFLE"
 	icon_frame = 1
 }
 
 component_set = {
 	key = "OYW_ZEON_BEAM_MG"
 
-	icon = "GFX_ship_part_mass_driver_1"
+	icon = "OYW_ZEON_BEAM_MG"
 	icon_frame = 1
 }
 
 component_set = {
 	key = "OYW_ZEON_BEAM_BAZOOKA"
 
-	icon = "GFX_ship_part_mass_driver_1"
+	icon = "OYW_ZEON_BEAM_BAZOOKA"
 	icon_frame = 1
 }
 
 component_set = {
 	key = "OYW_ZEON_STURMFAUST"
 
-	icon = "GFX_ship_part_mass_driver_1"
+	icon = "STURMFAUST"
 	icon_frame = 1
 }
 
 component_set = {
 	key = "OYW_ZEON_280MM_1"
 
-	icon = "GFX_ship_part_mass_driver_1"
+	icon = "OYW_ZEON_280MM"
 	icon_frame = 1
 }
 
 component_set = {
 	key = "OYW_ZEON_280MM_2"
 
-	icon = "GFX_ship_part_mass_driver_1"
+	icon = "OYW_ZEON_280MM"
 	icon_frame = 1
 }
 
 component_set = {
 	key = "OYW_ZEON_360MM_1"
 
-	icon = "GFX_ship_part_mass_driver_1"
+	icon = "OYW_ZEON_360MM"
 	icon_frame = 1
 }
 
 component_set = {
 	key = "OYW_ZEON_360MM_2"
 
-	icon = "GFX_ship_part_mass_driver_1"
+	icon = "OYW_ZEON_360MM"
 	icon_frame = 1
 }
 
 component_set = {
 	key = "OYW_ZEON_420MM"
 
-	icon = "GFX_ship_part_mass_driver_1"
+	icon = "OYW_ZEON_420MM"
 	icon_frame = 1
 }
 
 component_set = {
 	key = "OYW_EFSF_180MM_1"
 
-	icon = "GFX_ship_part_mass_driver_1"
+	icon = "OYW_ZEON_180MM_1"
 	icon_frame = 1
 }
 
 component_set = {
 	key = "OYW_EFSF_180MM_2"
 
-	icon = "GFX_ship_part_mass_driver_1"
+	icon = "OYW_ZEON_180MM_2"
 	icon_frame = 1
 }
 
 component_set = {
 	key = "OYW_EFSF_180MM_3"
 
-	icon = "GFX_ship_part_mass_driver_1"
+	icon = "OYW_ZEON_180MM_3"
 	icon_frame = 1
 }
 
 component_set = {
 	key = "OYW_EFSF_120MM"
 
-	icon = "GFX_ship_part_mass_driver_1"
+	icon = "OYW_EFSF_120MM"
 	icon_frame = 1
 }
 
 component_set = {
 	key = "OYW_EFSF_240MM_1"
 
-	icon = "GFX_ship_part_mass_driver_1"
+	icon = "OYW_EFSF_240MM"
 	icon_frame = 1
 }
 
 component_set = {
 	key = "OYW_EFSF_240MM_2"
 
-	icon = "GFX_ship_part_mass_driver_1"
+	icon = "OYW_EFSF_240MM"
 	icon_frame = 1
 }
 
 component_set = {
 	key = "OYW_EFSF_300MM"
 
-	icon = "GFX_ship_part_mass_driver_1"
+	icon = "OYW_EFSF_300MM"
 	icon_frame = 1
 }
 
 component_set = {
 	key = "OYW_EFSF_BEAM_RIFLE"
 
-	icon = "GFX_ship_part_mass_driver_1"
+	icon = "OYW_EFSF_BEAM_RIFLE"
 	icon_frame = 1
 }
 
 component_set = {
 	key = "OYW_EFSF_90MM"
 
-	icon = "GFX_ship_part_mass_driver_1"
+	icon = "OYW_EFSF_90MM"
 	icon_frame = 1
 }
 
 component_set = {
 	key = "OYW_EFSF_BEAM_SCATTER"
 
-	icon = "GFX_ship_part_mass_driver_1"
+	icon = "OYW_EFSF_BEAM_SCATTER"
 	icon_frame = 1
 }
 
 component_set = {
 	key = "OYW_EFSF_380MM"
 
-	icon = "GFX_ship_part_mass_driver_1"
+	icon = "OYW_EFSF_380MM"
 	icon_frame = 1
 }

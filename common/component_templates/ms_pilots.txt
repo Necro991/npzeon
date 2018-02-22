@@ -272,3 +272,53 @@ utility_component_template = {
 		weight = 1
 	}
 }
+
+utility_component_template = {
+	key = "oyw_efsf_pilot_ncn_newtype"
+	size = small
+	icon = "oyw_efsf_pilot_newtype"
+	icon_frame = 1
+	power = 0
+	cost = 30
+
+	ship_modifier = {
+		ship_weapon_damage = 0.2
+		ship_accuracy_add = 10.0
+		ship_fire_rate_mult = 0.1
+	}
+
+	prerequisites = { "tech_MS_05B" }
+
+	component_set = "oyw_efsf_pilot_ncn"
+	ship_behavior = "mobile_suit_behavior"
+	#upgrades_to = "oyw_zeon_pilot_putv_veteran"
+
+	ai_weight = {
+		weight = 1
+	}
+}
+
+utility_component_template = {
+	key = "oyw_efsf_pilot_ncn_cybernewtype"
+	size = small
+	icon = "oyw_efsf_pilot_cybernewtype"
+	icon_frame = 1
+	power = 0
+	cost = 30
+
+	ship_modifier = {
+		ship_weapon_damage = 0.25
+		ship_accuracy_add = -10.0
+		ship_fire_rate_mult = 0.15
+	}
+
+	prerequisites = { "tech_MS_05B" }
+
+	component_set = "oyw_efsf_pilot_ncn"
+	ship_behavior = "mobile_suit_behavior"
+	#upgrades_to = "oyw_zeon_pilot_putv_veteran"
+
+	ai_weight = {
+		weight = 1
+	}
+}

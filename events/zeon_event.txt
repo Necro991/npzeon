@@ -57,8 +57,8 @@ country_event = {
 		give_technology = { tech = tech_EFSF }
 		give_technology = { tech = tech_Zeonic }
 		give_technology = { tech = tech_Anaheim }
-		give_technology = { tech = tech_SNRI }
-		give_technology = { tech = tech_Hervic }
+		#give_technology = { tech = tech_SNRI }
+		#give_technology = { tech = tech_Hervic }
 		create_species = {
 			name = "Human"
 			class = MAM
@@ -91,8 +91,8 @@ country_event = {
 		give_technology = { tech = tech_MIP }
 		give_technology = { tech = tech_EFSF }
 		give_technology = { tech = tech_Anaheim }
-		give_technology = { tech = tech_SNRI }
-		give_technology = { tech = tech_Hervic }
+		#give_technology = { tech = tech_SNRI }
+		#give_technology = { tech = tech_Hervic }
 		create_species = {
 			name = "Human"
 			class = MAM

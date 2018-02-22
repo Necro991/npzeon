@@ -145,7 +145,7 @@ utility_component_template = {
 utility_component_template = {
 	key = "ma_08_i_field"
 	size = small
-	icon = "GFX_ship_part_ms_reactor"
+	icon = "GFX_ship_part_shield_1"
 	icon_frame = 1
 	power = 0
 	cost = 0
@@ -196,6 +196,78 @@ utility_component_template = {
 }
 
 utility_component_template = {
+	key = "msn_02_reactor"
+	size = small
+	icon = "GFX_ship_part_ms_reactor"
+	icon_frame = 1
+	power = 16000
+	cost = 0
+
+	component_set = "msn_02_reactor"
+
+	hostile_aura = {
+		name = "aura_minovsky"
+		radius = 20
+		apply_on = ships
+
+		stack_info = {			#A ship can only be affected by one aura of a certain id. If multiple auras have the same ID the one with the highest priority will be applied.
+			id = ms_reactor_aura
+			priority = 2
+		}
+
+		modifier = {
+			SHIP_SENSOR_RANGE_MULT = -0.1
+			SHIP_ACCURACY_MULT = -0.25
+		}
+
+		graphics = {
+			area_effect = {
+				entity = "circle_area_entity"
+				dynamic_scale = yes
+			}
+		}
+	}
+
+	prerequisites = { "tech_MSN_02" }
+}
+
+utility_component_template = {
+	key = "ma_06_reactor"
+	size = small
+	icon = "GFX_ship_part_ms_reactor"
+	icon_frame = 1
+	power = 4000
+	cost = 0
+
+	component_set = "ma_06_reactor"
+
+	hostile_aura = {
+		name = "aura_minovsky"
+		radius = 20
+		apply_on = ships
+
+		stack_info = {			#A ship can only be affected by one aura of a certain id. If multiple auras have the same ID the one with the highest priority will be applied.
+			id = ms_reactor_aura
+			priority = 2
+		}
+
+		modifier = {
+			SHIP_SENSOR_RANGE_MULT = -0.1
+			SHIP_ACCURACY_MULT = -0.25
+		}
+
+		graphics = {
+			area_effect = {
+				entity = "circle_area_entity"
+				dynamic_scale = yes
+			}
+		}
+	}
+
+	prerequisites = { "tech_MA_06" }
+}
+
+utility_component_template = {
 	key = "ma_08_reactor"
 	size = small
 	icon = "GFX_ship_part_ms_reactor"
@@ -228,7 +300,7 @@ utility_component_template = {
 		}
 	}
 
-	prerequisites = { "tech_MS_14A" }
+	prerequisites = { "tech_MA_08" }
 }
 
 utility_component_template = {

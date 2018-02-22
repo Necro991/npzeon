@@ -52,12 +52,12 @@ MSN_01 = { #MSN-01 Psycommu Zaku
 	can_have_federation_design = yes
 	enable_default_design = no	#if yes, countries will have an auto-generated design at start
 
-	prerequisites = { "tech_MS_14A" }
+	prerequisites = { "tech_MSN_01" }
 
 	class = shipclass_military
 	required_component_set = "ftl_components"
 	required_component_set = "oyw_zeon_pilot_ncn"
-	required_component_set = "msn_01_reactor"
+	required_component_set = "ms_reactor"
 	required_component_set = "msn_01_armor"
 	required_component_set = "msn_01_thrusters"
 	required_component_set = "ship_sensor_components"
@@ -87,7 +87,7 @@ MSN_02 = { #MSN-02 Zeong
 	can_have_federation_design = yes
 	enable_default_design = no	#if yes, countries will have an auto-generated design at start
 
-	prerequisites = { "tech_MS_14A" }
+	prerequisites = { "tech_MSN_02" }
 
 	class = shipclass_military
 	required_component_set = "ftl_components"
@@ -122,7 +122,7 @@ MA_06 = { #MA-06 Val Varo
 	can_have_federation_design = yes
 	enable_default_design = no	#if yes, countries will have an auto-generated design at start
 
-	prerequisites = { "tech_MS_14A" }
+	prerequisites = { "tech_MA_06" }
 
 	class = shipclass_military
 	required_component_set = "ftl_components"
@@ -158,7 +158,7 @@ MA_08 = { #MA-08 Big Zam
 	can_have_federation_design = yes
 	enable_default_design = no	#if yes, countries will have an auto-generated design at start
 
-	prerequisites = { "tech_MS_14A" }
+	prerequisites = { "tech_MA_08" }
 
 	class = shipclass_military
 	required_component_set = "ftl_components"
@@ -196,12 +196,12 @@ MAN_08 = { #MAN-08 Elmeth
 	can_have_federation_design = yes
 	enable_default_design = no	#if yes, countries will have an auto-generated design at start
 
-	prerequisites = { "tech_MS_14A" }
+	prerequisites = { "tech_MAN_08" }
 
 	class = shipclass_military
 	required_component_set = "ftl_components"
 	required_component_set = "oyw_zeon_pilot_ncn"
-	required_component_set = "man_08_reactor"
+	required_component_set = "ms_reactor"
 	required_component_set = "man_08_armor"
 	required_component_set = "man_08_thrusters"
 	required_component_set = "ship_sensor_components"
