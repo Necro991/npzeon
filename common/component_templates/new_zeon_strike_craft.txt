@@ -26,7 +26,7 @@ strike_craft_component_template = {
 	shield = 0
 	evasion = 0.5
 
-	speed = 4 #0.59G
+	speed = 170 #0.59G
 	rotation_speed = 0.1
 	acceleration = 0.5
 
@@ -69,7 +69,7 @@ strike_craft_component_template = {
 	shield = 0
 	evasion = 0.5
 
-	speed = 4 #0.59G
+	speed = 170 #0.59G
 	rotation_speed = 0.1
 	acceleration = 0.5
 
@@ -112,7 +112,7 @@ strike_craft_component_template = {
 	shield = 0
 	evasion = 0.5
 
-	speed = 4 #0.59G
+	speed = 170 #0.59G
 	rotation_speed = 0.1
 	acceleration = 0.5
 
@@ -155,7 +155,7 @@ strike_craft_component_template = {
 	shield = 0
 	evasion = 0.5
 
-	speed = 4 #0.59G
+	speed = 170 #0.59G
 	rotation_speed = 0.1
 	acceleration = 0.5
 
@@ -198,7 +198,7 @@ strike_craft_component_template = {
 	shield = 0
 	evasion = 0.5
 
-	speed = 4 #0.59G
+	speed = 170 #0.59G
 	rotation_speed = 0.1
 	acceleration = 0.5
 
@@ -241,7 +241,7 @@ strike_craft_component_template = {
 	shield = 0
 	evasion = 0.5
 
-	speed = 4 #0.59G
+	speed = 170 #0.59G
 	rotation_speed = 0.1
 	acceleration = 0.5
 
@@ -284,7 +284,7 @@ strike_craft_component_template = {
 	shield = 0
 	evasion = 0.5
 
-	speed = 4 #0.59G
+	speed = 170 #0.59G
 	rotation_speed = 0.1
 	acceleration = 0.5
 
@@ -327,7 +327,7 @@ strike_craft_component_template = {
 	shield = 0
 	evasion = 0.5
 
-	speed = 4 #0.59G
+	speed = 170 #0.59G
 	rotation_speed = 0.1
 	acceleration = 0.5
 
@@ -370,7 +370,7 @@ strike_craft_component_template = {
 	shield = 0
 	evasion = 0.50
 
-	speed = 5.15 #0.76G
+	speed = 218.875 #0.76G
 	rotation_speed = 0.1
 	acceleration = 0.5
 
@@ -413,7 +413,7 @@ strike_craft_component_template = {
 	shield = 0
 	evasion = 0.50
 
-	speed = 5.15 #0.76G
+	speed = 218.875 #0.76G
 	rotation_speed = 0.1
 	acceleration = 0.5
 
@@ -456,7 +456,7 @@ strike_craft_component_template = {
 	shield = 0
 	evasion = 0.52
 
-	speed = 7.25 #1.07G
+	speed = 308.125 #1.07G
 	rotation_speed = 0.1
 	acceleration = 0.5
 
@@ -499,7 +499,7 @@ strike_craft_component_template = {
 	shield = 0
 	evasion = 0.52
 
-	speed = 7.25 #1.07G
+	speed = 308.125 #1.07G
 	rotation_speed = 0.1
 	acceleration = 0.5
 
@@ -542,7 +542,7 @@ strike_craft_component_template = {
 	shield = 0
 	evasion = 0.5
 
-	speed = 4.6 #0.68G
+	speed = 195.5 #0.68G
 	rotation_speed = 0.1
 	acceleration = 0.5
 
@@ -585,7 +585,7 @@ strike_craft_component_template = {
 	shield = 0
 	evasion = 0.5
 
-	speed = 4.6 #0.68G
+	speed = 195.5 #0.68G
 	rotation_speed = 0.1
 	acceleration = 0.5
 
@@ -628,7 +628,7 @@ strike_craft_component_template = {
 	shield = 0
 	evasion = 0.5
 
-	speed = 5.4 #0.80G
+	speed = 229.5 #0.80G
 	rotation_speed = 0.1
 	acceleration = 0.5
 
@@ -671,7 +671,7 @@ strike_craft_component_template = {
 	shield = 0
 	evasion = 0.5
 
-	speed = 5.4 #0.80G
+	speed = 229.5 #0.80G
 	rotation_speed = 0.1
 	acceleration = 0.5
 
@@ -714,7 +714,7 @@ strike_craft_component_template = {
 	shield = 0
 	evasion = 0.5
 
-	speed = 5.7 #0.84375G
+	speed = 242.25 #0.84375G
 	rotation_speed = 0.1
 	acceleration = 0.5
 
@@ -757,7 +757,7 @@ strike_craft_component_template = {
 	shield = 0
 	evasion = 0.5
 
-	speed = 5.7 #0.84375G
+	speed = 242.25 #0.84375G
 	rotation_speed = 0.1
 	acceleration = 0.5
 
@@ -800,7 +800,7 @@ strike_craft_component_template = {
 	shield = 0
 	evasion = 0.5
 
-	speed = 5.2 #0.77G
+	speed = 221 #0.77G
 	rotation_speed = 0.1
 	acceleration = 0.5
 
@@ -843,7 +843,7 @@ strike_craft_component_template = {
 	shield = 0
 	evasion = 0.5
 
-	speed = 5.2 #0.77G
+	speed = 221 #0.77G
 	rotation_speed = 0.1
 	acceleration = 0.5
 
@@ -886,7 +886,7 @@ strike_craft_component_template = {
 	shield = 0
 	evasion = 0.5
 
-	speed = 5.7 #0.84G
+	speed = 242.25 #0.84G
 	rotation_speed = 0.1
 	acceleration = 0.5
 
@@ -929,7 +929,7 @@ strike_craft_component_template = {
 	shield = 0
 	evasion = 0.5
 
-	speed = 5.7 #0.84G
+	speed = 242.25 #0.84G
 	rotation_speed = 0.1
 	acceleration = 0.5
 
@@ -972,7 +972,7 @@ strike_craft_component_template = {
 	shield = 0
 	evasion = 0.5
 
-	speed = 7.1 #1.04G
+	speed = 301.75 #1.04G
 	rotation_speed = 0.1
 	acceleration = 0.5
 
@@ -1015,7 +1015,7 @@ strike_craft_component_template = {
 	shield = 0
 	evasion = 0.5
 
-	speed = 7.1 #1.04G
+	speed = 301.75 #1.04G
 	rotation_speed = 0.1
 	acceleration = 0.5
 
@@ -1058,7 +1058,7 @@ strike_craft_component_template = {
 	shield = 0
 	evasion = 0.6 #Improved thrusters and shite
 
-	speed = 7.1 #1.04G
+	speed = 301.75 #1.04G
 	rotation_speed = 0.1
 	acceleration = 0.5
 
@@ -1101,7 +1101,7 @@ strike_craft_component_template = {
 	shield = 0
 	evasion = 0.6 #Improved thrusters and shite
 
-	speed = 7.1 #1.04G
+	speed = 301.75 #1.04G
 	rotation_speed = 0.1
 	acceleration = 0.5
 
@@ -1144,7 +1144,7 @@ strike_craft_component_template = {
 	shield = 0
 	evasion = 0.55 #Weird camo
 
-	speed = 4.6 #0.68G
+	speed = 195.5 #0.68G
 	rotation_speed = 0.1
 	acceleration = 0.5
 
@@ -1187,7 +1187,7 @@ strike_craft_component_template = {
 	shield = 0
 	evasion = 0.55 #Weird camo
 
-	speed = 4.6 #0.68G
+	speed = 195.5 #0.68G
 	rotation_speed = 0.1
 	acceleration = 0.5
 
@@ -1230,7 +1230,7 @@ strike_craft_component_template = {
 	shield = 0
 	evasion = 0.6 #Fast as fuck
 
-	speed = 15.1 #2.22G
+	speed = 641.75 #2.22G
 	rotation_speed = 0.1
 	acceleration = 0.5
 
@@ -1273,7 +1273,7 @@ strike_craft_component_template = {
 	shield = 0
 	evasion = 0.6 #Fast as fuck
 
-	speed = 15.1 #2.22G
+	speed = 641.75 #2.22G
 	rotation_speed = 0.1
 	acceleration = 0.5
 
@@ -1316,7 +1316,7 @@ strike_craft_component_template = {
 	shield = 0
 	evasion = 0.5
 
-	speed = 4.6 #0.68G
+	speed = 195.5 #0.68G
 	rotation_speed = 0.1
 	acceleration = 0.5
 
@@ -1359,7 +1359,7 @@ strike_craft_component_template = {
 	shield = 0
 	evasion = 0.5
 
-	speed = 4.6 #0.68G
+	speed = 195.5 #0.68G
 	rotation_speed = 0.1
 	acceleration = 0.5
 
@@ -1402,7 +1402,7 @@ strike_craft_component_template = {
 	shield = 0
 	evasion = 0.55 #Improved maneuvrability
 
-	speed = 4.6 #0.67G
+	speed = 195.5 #0.67G
 	rotation_speed = 0.1
 	acceleration = 0.5
 
@@ -1445,7 +1445,7 @@ strike_craft_component_template = {
 	shield = 0
 	evasion = 0.55 #Improved maneuvrability
 
-	speed = 4.6 #0.67G
+	speed = 195.5 #0.67G
 	rotation_speed = 0.1
 	acceleration = 0.5
 
@@ -1488,7 +1488,7 @@ strike_craft_component_template = {
 	shield = 0
 	evasion = 0.6 #Improved maneuvrability
 
-	speed = 9.4 #1.38G
+	speed =399.5 #1.38G
 	rotation_speed = 0.1
 	acceleration = 0.5
 
@@ -1531,7 +1531,7 @@ strike_craft_component_template = {
 	shield = 0
 	evasion = 0.6 #Improved maneuvrability
 
-	speed = 9.4 #1.38G
+	speed = 399.5 #1.38G
 	rotation_speed = 0.1
 	acceleration = 0.5
 
@@ -1574,7 +1574,7 @@ strike_craft_component_template = {
 	shield = 0
 	evasion = 0.45 #Poor balance and not easy to use
 
-	speed = 3.3 #0.49G
+	speed = 140.25 #0.49G
 	rotation_speed = 0.1
 	acceleration = 0.5
 
@@ -1617,7 +1617,7 @@ strike_craft_component_template = {
 	shield = 0
 	evasion = 0.45 #Poor balance and not easy to use
 
-	speed = 3.3 #0.49G
+	speed = 140.25 #0.49G
 	rotation_speed = 0.1
 	acceleration = 0.5
 
@@ -1660,7 +1660,7 @@ strike_craft_component_template = {
 	shield = 0
 	evasion = 0.55 #Improved maneuvrability
 
-	speed = 4.8 #0.71G
+	speed = 204 #0.71G
 	rotation_speed = 0.1
 	acceleration = 0.5
 
@@ -1703,7 +1703,7 @@ strike_craft_component_template = {
 	shield = 0
 	evasion = 0.55 #Improved maneuvrability
 
-	speed = 4.8 #0.71G
+	speed = 204 #0.71G
 	rotation_speed = 0.1
 	acceleration = 0.5
 
@@ -1746,7 +1746,7 @@ strike_craft_component_template = {
 	shield = 0
 	evasion = 0.6
 
-	speed = 6.8 #1.00G
+	speed = 289 #1.00G
 	rotation_speed = 0.1
 	acceleration = 0.5
 
@@ -1789,7 +1789,7 @@ strike_craft_component_template = {
 	shield = 0
 	evasion = 0.4 #Lacks AMBAC
 
-	speed = 16.3 #2.40G
+	speed = 692.75 #2.40G
 	rotation_speed = 0.1
 	acceleration = 0.5
 
@@ -1832,7 +1832,7 @@ strike_craft_component_template = {
 	shield = 0
 	evasion = 0.4 #Lacks AMBAC
 
-	speed = 16.3 #2.40G
+	speed = 692.75 #2.40G
 	rotation_speed = 0.1
 	acceleration = 0.5
 
@@ -1875,7 +1875,7 @@ strike_craft_component_template = {
 	shield = 0
 	evasion = 0.4 #Lacks AMBAC
 
-	speed = 16.3 #2.40G
+	speed = 692.75 #2.40G
 	rotation_speed = 0.1
 	acceleration = 0.5
 
@@ -1918,7 +1918,7 @@ strike_craft_component_template = {
 	shield = 0
 	evasion = 0.5
 
-	speed = 5.7 #0.84G
+	speed = 242.25 #0.84G
 	rotation_speed = 0.1
 	acceleration = 0.5
 
@@ -1961,7 +1961,7 @@ strike_craft_component_template = {
 	shield = 0
 	evasion = 0.5
 
-	speed = 5.7 #0.84G
+	speed = 242.25 #0.84G
 	rotation_speed = 0.1
 	acceleration = 0.5
 
@@ -2004,7 +2004,7 @@ strike_craft_component_template = {
 	shield = 0
 	evasion = 0.55
 
-	speed = 7.1 #1.04G
+	speed = 301.75 #1.04G
 	rotation_speed = 0.1
 	acceleration = 0.5
 
@@ -2047,7 +2047,7 @@ strike_craft_component_template = {
 	shield = 0
 	evasion = 0.55
 
-	speed = 7.1 #1.04G
+	speed = 301.75 #1.04G
 	rotation_speed = 0.1
 	acceleration = 0.5
 
@@ -2090,7 +2090,7 @@ strike_craft_component_template = {
 	shield = 0
 	evasion = 0.65
 
-	speed = 10.9 #1.61G
+	speed = 463.25 #1.61G
 	rotation_speed = 0.1
 	acceleration = 0.5
 
@@ -2133,7 +2133,7 @@ strike_craft_component_template = {
 	shield = 0
 	evasion = 0.65
 
-	speed = 10.9 #1.61G
+	speed = 463.25 #1.61G
 	rotation_speed = 0.1
 	acceleration = 0.5
 
@@ -2176,7 +2176,7 @@ strike_craft_component_template = {
 	shield = 0
 	evasion = 0.3
 
-	speed = 7.4 #1.09G
+	speed = 314.5 #1.09G
 	rotation_speed = 0.1
 	acceleration = 0.5
 
@@ -2219,7 +2219,7 @@ strike_craft_component_template = {
 	shield = 0
 	evasion = 0.3
 
-	speed = 7.4 #1.09G
+	speed = 314.5 #1.09G
 	rotation_speed = 0.1
 	acceleration = 0.5
 
@@ -2262,7 +2262,7 @@ strike_craft_component_template = {
 	shield = 0
 	evasion = 0.5
 
-	speed = 9.8 #1.44G
+	speed = 416.5 #1.44G
 	rotation_speed = 0.1
 	acceleration = 0.5
 
@@ -2305,7 +2305,7 @@ strike_craft_component_template = {
 	shield = 0
 	evasion = 0.5
 
-	speed = 9.8 #1.44G
+	speed = 416.5 #1.44G
 	rotation_speed = 0.1
 	acceleration = 0.5
 
@@ -2348,7 +2348,7 @@ strike_craft_component_template = {
 	shield = 0
 	evasion = 0.6
 
-	speed = 5.9 #0.87G
+	speed = 250.75 #0.87G
 	rotation_speed = 0.1
 	acceleration = 0.6 #Great at Cruising
 
@@ -2391,7 +2391,7 @@ strike_craft_component_template = {
 	shield = 0
 	evasion = 0.6
 
-	speed = 5.9 #0.87G
+	speed = 250.75 #0.87G
 	rotation_speed = 0.1
 	acceleration = 0.6 #Great at Cruising
 
@@ -2434,7 +2434,7 @@ strike_craft_component_template = {
 	shield = 0
 	evasion = 0.55
 
-	speed = 10.8 #1.59G
+	speed = 459 #1.59G
 	rotation_speed = 0.1
 	acceleration = 0.5
 
@@ -2477,7 +2477,7 @@ strike_craft_component_template = {
 	shield = 0
 	evasion = 0.55
 
-	speed = 10.8 #1.59G
+	speed = 459 #1.59G
 	rotation_speed = 0.1
 	acceleration = 0.5
 
@@ -2520,7 +2520,7 @@ strike_craft_component_template = {
 	shield = 0
 	evasion = 0.65
 
-	speed = 17.2 #2.53G
+	speed = 731 #2.53G
 	rotation_speed = 0.1
 	acceleration = 0.5
 
@@ -2563,7 +2563,7 @@ strike_craft_component_template = {
 	shield = 0
 	evasion = 0.65
 
-	speed = 17.2 #2.53G
+	speed = 731 #2.53G
 	rotation_speed = 0.1
 	acceleration = 0.5
 
@@ -2606,7 +2606,7 @@ strike_craft_component_template = {
 	shield = 0
 	evasion = 0.7
 
-	speed = 20.1 #2.96G
+	speed = 854.25 #2.96G
 	rotation_speed = 0.1
 	acceleration = 0.5
 
@@ -2649,7 +2649,7 @@ strike_craft_component_template = {
 	shield = 0
 	evasion = 0.7
 
-	speed = 20.1 #2.96G
+	speed = 854.25 #2.96G
 	rotation_speed = 0.1
 	acceleration = 0.5
 
@@ -2692,7 +2692,7 @@ strike_craft_component_template = {
 	shield = 0
 	evasion = 0.65
 
-	speed = 20.9 #3.08G
+	speed = 888.25 #3.08G
 	rotation_speed = 0.1
 	acceleration = 0.5
 
@@ -2735,7 +2735,7 @@ strike_craft_component_template = {
 	shield = 0
 	evasion = 0.65
 
-	speed = 20.9 #3.08G
+	speed = 888.25 #3.08G
 	rotation_speed = 0.1
 	acceleration = 0.5
 
@@ -2778,7 +2778,7 @@ strike_craft_component_template = {
 	shield = 0
 	evasion = 0.6
 
-	speed = 10.6 #1.56G
+	speed = 450.5 #1.56G
 	rotation_speed = 0.1
 	acceleration = 0.5
 
@@ -2821,7 +2821,7 @@ strike_craft_component_template = {
 	shield = 0
 	evasion = 0.55
 
-	speed = 10.6 #1.56G
+	speed = 450.5 #1.56G
 	rotation_speed = 0.1
 	acceleration = 0.5
 
@@ -2864,7 +2864,7 @@ strike_craft_component_template = {
 	shield = 0
 	evasion = 0.65
 
-	speed = 7.8 #1.15G
+	speed = 331.5 #1.15G
 	rotation_speed = 0.1
 	acceleration = 0.5
 
@@ -2907,7 +2907,7 @@ strike_craft_component_template = {
 	shield = 0
 	evasion = 0.6
 
-	speed = 14.0 #2.1G
+	speed = 595 #2.1G
 	rotation_speed = 0.1
 	acceleration = 0.5
 
@@ -2950,7 +2950,7 @@ strike_craft_component_template = {
 	shield = 0
 	evasion = 0.25
 
-	speed = 7.9 #1.17G
+	speed = 335.75 #1.17G
 	rotation_speed = 0.1
 	acceleration = 0.5
 
@@ -2993,7 +2993,7 @@ strike_craft_component_template = {
 	shield = 0
 	evasion = 0.65 #Improved maneuvrability
 
-	speed = 12.4 #1.83G
+	speed = 527 #1.83G
 	rotation_speed = 0.1
 	acceleration = 0.5
 
@@ -3036,7 +3036,7 @@ strike_craft_component_template = {
 	shield = 0
 	evasion = 0.65 #Improved maneuvrability
 
-	speed = 12.4 #1.83G
+	speed = 527 #1.83G
 	rotation_speed = 0.1
 	acceleration = 0.5
 
@@ -3079,7 +3079,7 @@ strike_craft_component_template = {
 	shield = 0
 	evasion = 0.75
 
-	speed = 7.3 #1.08G
+	speed = 310.25 #1.08G
 	rotation_speed = 0.1
 	acceleration = 0.5
 
@@ -3122,7 +3122,7 @@ strike_craft_component_template = {
 	shield = 0
 	evasion = 0.7
 
-	speed = 6.7 #0.99G
+	speed = 284.75 #0.99G
 	rotation_speed = 0.1
 	acceleration = 0.5
 
@@ -3165,7 +3165,7 @@ strike_craft_component_template = {
 	shield = 0
 	evasion = 0.6
 
-	speed = 7.3 #1.07G
+	speed = 310.25 #1.07G
 	rotation_speed = 0.1
 	acceleration = 0.5
 
@@ -3208,7 +3208,7 @@ strike_craft_component_template = {
 	shield = 0
 	evasion = 0.75
 
-	speed = 7.5 #1.11G
+	speed = 318.75 #1.11G
 	rotation_speed = 0.1
 	acceleration = 0.5
 
@@ -3251,7 +3251,7 @@ strike_craft_component_template = {
 	shield = 0
 	evasion = 0.8
 
-	speed = 10.7 #1.58G
+	speed = 454.75 #1.58G
 	rotation_speed = 0.1
 	acceleration = 0.5
 
@@ -3294,7 +3294,7 @@ strike_craft_component_template = {
 	shield = 0
 	evasion = 0.5
 
-	speed = 7.4 #1.09G
+	speed = 314.5 #1.09G
 	rotation_speed = 0.1
 	acceleration = 0.5
 
@@ -3337,7 +3337,7 @@ strike_craft_component_template = {
 	shield = 0
 	evasion = 0.65
 
-	speed = 18.2 #2.86G
+	speed = 773.5 #2.86G
 	rotation_speed = 0.1
 	acceleration = 0.5
 
@@ -3380,7 +3380,7 @@ strike_craft_component_template = {
 	shield = 0
 	evasion = 0.65
 
-	speed = 18.2 #2.86G
+	speed = 773.5 #2.86G
 	rotation_speed = 0.1
 	acceleration = 0.5
 
@@ -3423,7 +3423,7 @@ strike_craft_component_template = {
 	shield = 0
 	evasion = 0.75
 
-	speed = 7.9 #1.17G
+	speed = 335.75 #1.17G
 	rotation_speed = 0.1
 	acceleration = 0.5
 
@@ -3466,7 +3466,7 @@ strike_craft_component_template = {
 	shield = 0
 	evasion = 0.6
 
-	speed = 7.2 #1.06G
+	speed = 306 #1.06G
 	rotation_speed = 0.1
 	acceleration = 0.5
 
@@ -3509,7 +3509,7 @@ strike_craft_component_template = {
 	shield = 0
 	evasion = 0.6
 
-	speed = 7.2 #1.06G
+	speed = 306 #1.06G
 	rotation_speed = 0.1
 	acceleration = 0.5
 
@@ -3552,7 +3552,7 @@ strike_craft_component_template = {
 	shield = 0
 	evasion = 0.5 #Lacks mobility
 
-	speed = 7.2 #1.06G
+	speed = 306 #1.06G
 	rotation_speed = 0.1
 	acceleration = 0.5
 
@@ -3595,7 +3595,7 @@ strike_craft_component_template = {
 	shield = 0
 	evasion = 0.75
 
-	speed = 8.6 #1.27G
+	speed = 365.5 #1.27G
 	rotation_speed = 0.1
 	acceleration = 0.5
 
@@ -3638,7 +3638,7 @@ strike_craft_component_template = {
 	shield = 0
 	evasion = 0.8
 
-	speed = 12.7 #1.87G
+	speed = 539.75 #1.87G
 	rotation_speed = 0.1
 	acceleration = 0.5
 
@@ -3681,7 +3681,7 @@ strike_craft_component_template = {
 	shield = 0
 	evasion = 0.65
 
-	speed = 10.1 #1.49G
+	speed = 429.5 #1.49G
 	rotation_speed = 0.1
 	acceleration = 0.5
 
@@ -3724,7 +3724,7 @@ strike_craft_component_template = {
 	shield = 0
 	evasion = 0.65
 
-	speed = 8.2 #1.21G
+	speed = 348.5 #1.21G
 	rotation_speed = 0.1
 	acceleration = 0.5
 
@@ -3767,7 +3767,7 @@ strike_craft_component_template = {
 	shield = 0
 	evasion = 0.65
 
-	speed = 7.2 #1.06G
+	speed = 306 #1.06G
 	rotation_speed = 0.1
 	acceleration = 0.5
 
@@ -3810,7 +3810,7 @@ strike_craft_component_template = {
 	shield = 0
 	evasion = 0.6
 
-	speed = 7.2 #1.06G
+	speed = 306 #1.06G
 	rotation_speed = 0.1
 	acceleration = 0.5
 
@@ -3853,7 +3853,7 @@ strike_craft_component_template = {
 	shield = 0
 	evasion = 0.6
 
-	speed = 7.2 #1.06G
+	speed = 306 #1.06G
 	rotation_speed = 0.1
 	acceleration = 0.5
 

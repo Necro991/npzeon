@@ -327,10 +327,10 @@ country_event = { #Player has picked Zeon
 				limit = {
 					 has_planet_flag = planet_earth
 				}
-				create_spaceport = {
-					owner = controller
-					initial_module = "missile_weapon"
-				}
+				#create_spaceport = {
+				#	owner = controller
+				#	initial_module = "missile_weapon"
+				#}
 				set_name = "Earth"
 				create_pop = {
 					species = owner_main_species
@@ -596,10 +596,10 @@ country_event = { #Player has picked Axis
 				limit = {
 					 has_planet_flag = planet_earth
 				}
-				create_spaceport = {
-					owner = controller
-					initial_module = "missile_weapon"
-				}
+				#create_spaceport = {
+				#	owner = controller
+				#	initial_module = "missile_weapon"
+				#}
 				set_name = "Earth"
 				create_pop = {
 					species = owner_main_species
@@ -871,10 +871,10 @@ country_event = { #Player has picked EFSF
 				limit = {
 					 has_planet_flag = planet_earth
 				}
-				create_spaceport = {
-					owner = controller
-					initial_module = "missile_weapon"
-				}
+				#create_spaceport = {
+				#	owner = controller
+				#	initial_module = "missile_weapon"
+				#}
 				set_name = "Earth"
 				create_pop = {
 					species = owner_main_species
@@ -902,10 +902,10 @@ country_event = { #Player has picked EFSF
 				limit = {
 					 has_planet_flag = side3
 				}
-				create_spaceport = {
-					owner = controller
-					initial_module = "missile_weapon"
-				}
+				#create_spaceport = {
+				#	owner = controller
+				#	initial_module = "missile_weapon"
+				#}
 				set_name = "Side 3"
 				create_pop = {
 					species = owner_main_species
@@ -1067,10 +1067,10 @@ country_event = { #Player has picked Neo
 				limit = {
 					 has_planet_flag = planet_earth
 				}
-				create_spaceport = {
-					owner = controller
-					initial_module = "missile_weapon"
-				}
+				#create_spaceport = {
+				#	owner = controller
+				#	initial_module = "missile_weapon"
+				#}
 				set_name = "Earth"
 				create_pop = {
 					species = owner_main_species
@@ -1098,10 +1098,10 @@ country_event = { #Player has picked Neo
 				limit = {
 					 has_planet_flag = side3
 				}
-				create_spaceport = {
-					owner = controller
-					initial_module = "missile_weapon"
-				}
+				#create_spaceport = {
+				#	owner = controller
+				#	initial_module = "missile_weapon"
+				#}
 				set_name = "Side 3"
 				create_pop = {
 					species = owner_main_species
@@ -1257,10 +1257,10 @@ country_event = { #Player has picked Gundamu
 				limit = {
 					 has_planet_flag = planet_earth
 				}
-				create_spaceport = {
-					owner = controller
-					initial_module = "missile_weapon"
-				}
+				#create_spaceport = {
+				#	owner = controller
+				#	initial_module = "missile_weapon"
+				#}
 				set_name = "Earth"
 				create_pop = {
 					species = owner_main_species
@@ -1288,10 +1288,10 @@ country_event = { #Player has picked Gundamu
 				limit = {
 					 has_planet_flag = side3
 				}
-				create_spaceport = {
-					owner = controller
-					initial_module = "missile_weapon"
-				}
+				#create_spaceport = {
+				#	owner = controller
+				#	initial_module = "missile_weapon"
+				#}
 				set_name = "Side 3"
 				create_pop = {
 					species = owner_main_species

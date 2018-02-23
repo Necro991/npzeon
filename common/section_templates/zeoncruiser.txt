@@ -295,14 +295,6 @@ ship_section_template = { #Gagaul Hangar Rear
 
 	prerequisites = { tech_Principality }
 
-	# Missiles
-	weapon_preferences = { weapon_type_zeon }
-	ai_weight = {
-		modifier = {
-			factor = 10.0
-		}
-	}
-
 	component_slot = {
 		name = "MEDIUM_GUN_01"
 		slot_size = medium
@@ -318,9 +310,7 @@ ship_section_template = { #Gagaul Hangar Rear
 		locatorname = "strike_craft_locator_01"
 	}
 
-	small_utility_slots = 2
-	medium_utility_slots = 2
-	large_utility_slots = 0
+	aux_utility_slots = 1
 
 	cost = 120
 }

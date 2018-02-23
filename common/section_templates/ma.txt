@@ -5,15 +5,7 @@ ship_section_template = { #MSN-01 Psycommu Zaku
 	entity = "nt_ms_1_entity"
 	icon = "GFX_ship_part_core_mid"
 
-	prerequisites = { tech_MS_14A }
-
-	# Guns
-	weapon_preferences = { weapon_type_z1 }
-	ai_weight = {
-		modifier = {
-			factor = 10.0
-		}
-	}
+	prerequisites = { tech_MSN_01 }
 
 	component_slot = {
 		name = "EXTRA_LARGE_01"
@@ -44,15 +36,7 @@ ship_section_template = { #MSN-02 Zeong
 	entity = "nt_ms_2_entity"
 	icon = "GFX_ship_part_core_mid"
 
-	prerequisites = { tech_MS_14A }
-
-	# Guns
-	weapon_preferences = { weapon_type_z1 }
-	ai_weight = {
-		modifier = {
-			factor = 10.0
-		}
-	}
+	prerequisites = { tech_MSN_02 }
 
 	component_slot = {
 		name = "EXTRA_LARGE_01"
@@ -105,15 +89,7 @@ ship_section_template = { #MA-06 Val Varo
 	entity = "ma_1_entity"
 	icon = "GFX_ship_part_core_mid"
 
-	prerequisites = { tech_MS_14A }
-
-	# Guns
-	weapon_preferences = { weapon_type_z1 }
-	ai_weight = {
-		modifier = {
-			factor = 10.0
-		}
-	}
+	prerequisites = { tech_MA_06 }
 
 	component_slot = {
 		name = "EXTRA_LARGE_01"
@@ -194,15 +170,7 @@ ship_section_template = { #MA-08 Big Zam
 	entity = "ma_2_entity"
 	icon = "GFX_ship_part_core_mid"
 
-	prerequisites = { tech_MS_14A }
-
-	# Guns
-	weapon_preferences = { weapon_type_z1 }
-	ai_weight = {
-		modifier = {
-			factor = 10.0
-		}
-	}
+	prerequisites = { tech_MA_08 }
 
 	component_slot = {
 		name = "EXTRA_LARGE_01"
@@ -310,15 +278,7 @@ ship_section_template = { #MAN-08 Elmeth
 	entity = "nt_ma_1_entity"
 	icon = "GFX_ship_part_core_mid"
 
-	prerequisites = { tech_MS_14A }
-
-	# Guns
-	weapon_preferences = { weapon_type_z1 }
-	ai_weight = {
-		modifier = {
-			factor = 10.0
-		}
-	}
+	prerequisites = { tech_MAN_08 }
 
 	component_slot = {
 		name = "EXTRA_LARGE_01"

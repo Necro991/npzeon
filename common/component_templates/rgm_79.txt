@@ -9,7 +9,7 @@ utility_component_template = {
 	cost = 0
 
 	modifier = {
-		ship_armor_add = 30
+		ship_armor_add = 120
 	}
 	#ship_modifier = {
 	#	ship_weapon_damage = 0.01
@@ -34,7 +34,7 @@ utility_component_template = {
 	cost = -12
 
 	modifier = {
-		ship_armor_add = 35
+		ship_armor_add = 126
 		ship_hitpoints_mult = -0.1
 	}
 	#ship_modifier = {
@@ -60,7 +60,7 @@ utility_component_template = {
 	cost = -12
 
 	modifier = {
-		ship_armor_add = 40
+		ship_armor_add = 144
 		ship_hitpoints_mult = -0.1
 	}
 	#ship_modifier = {

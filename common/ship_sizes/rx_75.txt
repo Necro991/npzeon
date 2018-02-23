@@ -29,11 +29,12 @@
 ############
 
 RX_75_4 = { #RX-75-4
-	entity = zakuIframe_entity
-	max_speed = 7.5
+	formation_priority = 4
+	#entity = zakuIframe_entity
+	max_speed = 318.75
 	acceleration = 0.5
 	rotation_speed = 0.455
-	combat_max_speed = 7.5
+	combat_max_speed = 318.75
 	combat_rotation_speed = 0.455
 	collision_radius = 1
 	#modifier = {
@@ -53,8 +54,12 @@ RX_75_4 = { #RX-75-4
 	enable_default_design = no	#if yes, countries will have an auto-generated design at start
 
 	prerequisites = { "tech_RX_75_1" }
+	has_mineral_upkeep = yes
+
+	combat_disengage_chance = 1.75
 
 	class = shipclass_military
+	construction_type = starbase_shipyard
 	required_component_set = "ftl_components"
 	required_component_set = "oyw_efsf_pilot_vuta"
 	required_component_set = "oyw_efsf_commander_aura"
@@ -63,15 +68,16 @@ RX_75_4 = { #RX-75-4
 	required_component_set = "rx_75_reactor"
 	required_component_set = "rx_75_armor"
 	required_component_set = "rx_75_thrusters"
-	required_component_set = "ship_sensor_components"
+	required_component_set = "sensor_components"
 }
 
 RX_75_MPT = { #RX-75 MPT
-	entity = zakuIframe_entity
-	max_speed = 7.5
+	formation_priority = 4
+	#entity = zakuIframe_entity
+	max_speed = 318.75
 	acceleration = 0.5
 	rotation_speed = 0.455
-	combat_max_speed = 7.5
+	combat_max_speed = 318.75
 	combat_rotation_speed = 0.455
 	collision_radius = 1
 	#modifier = {
@@ -91,8 +97,12 @@ RX_75_MPT = { #RX-75 MPT
 	enable_default_design = no	#if yes, countries will have an auto-generated design at start
 
 	prerequisites = { "tech_RX_75_2" }
+	has_mineral_upkeep = yes
+
+	combat_disengage_chance = 1.75
 
 	class = shipclass_military
+	construction_type = starbase_shipyard
 	required_component_set = "ftl_components"
 	required_component_set = "oyw_efsf_pilot_putv"
 	#required_component_set = "zeon_melee_aura"
@@ -100,5 +110,5 @@ RX_75_MPT = { #RX-75 MPT
 	required_component_set = "ms_reactor"
 	required_component_set = "rx_75_mpt_armor"
 	required_component_set = "rx_75_thrusters"
-	required_component_set = "ship_sensor_components"
+	required_component_set = "sensor_components"
 }

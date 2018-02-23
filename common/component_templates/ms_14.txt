@@ -9,7 +9,7 @@ utility_component_template = {
 	cost = 0
 
 	modifier = {
-		ship_armor_add = 35
+		ship_armor_add = 158
 		ship_hitpoints_mult = 0.13
 	}
 	#ship_modifier = {
@@ -35,7 +35,7 @@ utility_component_template = {
 	cost = 6
 
 	modifier = {
-		ship_armor_add = 35
+		ship_armor_add = 165
 		ship_hitpoints_mult = 0.18
 	}
 	#ship_modifier = {
@@ -61,7 +61,7 @@ utility_component_template = {
 	cost = 15
 
 	modifier = {
-		ship_armor_add = 37
+		ship_armor_add = 181
 		ship_hitpoints_mult = 0.25
 	}
 	#ship_modifier = {
@@ -87,7 +87,7 @@ utility_component_template = {
 	cost = 12
 
 	modifier = {
-		ship_armor_add = 40
+		ship_armor_add = 197
 		ship_hitpoints_mult = 0.23
 	}
 	#ship_modifier = {

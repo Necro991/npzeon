@@ -29,11 +29,12 @@
 ############
 
 MS_05B = { #MS-05 MPT
-	entity = zakuIframe_entity
-	max_speed = 4
+	formation_priority = 6
+	#entity = zakuIframe_entity
+	max_speed = 170
 	acceleration = 0.5
 	rotation_speed = 0.455
-	combat_max_speed = 4
+	combat_max_speed = 170
 	combat_rotation_speed = 0.455
 	collision_radius = 1
 	#modifier = {
@@ -53,8 +54,12 @@ MS_05B = { #MS-05 MPT
 	enable_default_design = no	#if yes, countries will have an auto-generated design at start
 
 	prerequisites = { "tech_MS_05B" }
+	has_mineral_upkeep = yes
+
+	combat_disengage_chance = 1.75
 
 	class = shipclass_military
+	construction_type = starbase_shipyard
 	required_component_set = "ftl_components"
 	required_component_set = "oyw_zeon_pilot_putv"
 	required_component_set = "zeon_melee_aura"
@@ -62,15 +67,16 @@ MS_05B = { #MS-05 MPT
 	required_component_set = "ms_reactor"
 	required_component_set = "ms_05_armor"
 	required_component_set = "ms_05_thrusters"
-	required_component_set = "ship_sensor_components"
+	required_component_set = "sensor_components"
 }
 
 MS_05S = { #MS-05S Commander Type
-	entity = zakuIframe_entity
-	max_speed = 4
+	formation_priority = 4
+	#entity = zakuIframe_entity
+	max_speed = 170
 	acceleration = 0.5
 	rotation_speed = 0.455
-	combat_max_speed = 4
+	combat_max_speed = 170
 	combat_rotation_speed = 0.455
 	collision_radius = 1
 	#modifier = {
@@ -90,8 +96,12 @@ MS_05S = { #MS-05S Commander Type
 	enable_default_design = no	#if yes, countries will have an auto-generated design at start
 
 	prerequisites = { "tech_MS_05B" }
+	has_mineral_upkeep = yes
+
+	combat_disengage_chance = 1.75
 
 	class = shipclass_military
+	construction_type = starbase_shipyard
 	required_component_set = "ftl_components"
 	required_component_set = "oyw_zeon_pilot_vuta"
 	required_component_set = "oyw_zeon_commander_aura"
@@ -100,5 +110,5 @@ MS_05S = { #MS-05S Commander Type
 	required_component_set = "commander_ms_reactor"
 	required_component_set = "ms_05_armor"
 	required_component_set = "ms_05_thrusters"
-	required_component_set = "ship_sensor_components"
+	required_component_set = "sensor_components"
 }

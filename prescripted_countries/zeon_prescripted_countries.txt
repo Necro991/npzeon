@@ -166,7 +166,7 @@ Axis = {
 	weapon = "tech_missiles_1"
 	ftl = warp
 
-	planet_name = "Side 3"
+	planet_name = "Axis"
 	system_name = "Sol"
 	planet_class = "pc_continental"
 	initializer = "axis_sol_system_initializer"

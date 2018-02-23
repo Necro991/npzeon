@@ -29,11 +29,12 @@
 ############
 
 RX_77 = { #RX-77 Guncannon
-	entity = zakuIframe_entity
-	max_speed = 4
+	formation_priority = 4
+	#entity = zakuIframe_entity
+	max_speed = 170
 	acceleration = 0.5
 	rotation_speed = 0.455
-	combat_max_speed = 4
+	combat_max_speed = 170
 	combat_rotation_speed = 0.455
 	collision_radius = 1
 	#modifier = {
@@ -53,8 +54,12 @@ RX_77 = { #RX-77 Guncannon
 	enable_default_design = no	#if yes, countries will have an auto-generated design at start
 
 	prerequisites = { "tech_RX_77_1A" }
+	has_mineral_upkeep = yes
+
+	combat_disengage_chance = 1.75
 
 	class = shipclass_military
+	construction_type = starbase_shipyard
 	required_component_set = "ftl_components"
 	required_component_set = "oyw_efsf_pilot_putv"
 	#required_component_set = "zeon_melee_aura"
@@ -62,5 +67,5 @@ RX_77 = { #RX-77 Guncannon
 	required_component_set = "rx_77_reactor"
 	required_component_set = "rx_77_armor"
 	required_component_set = "rx_77_thrusters"
-	required_component_set = "ship_sensor_components"
+	required_component_set = "sensor_components"
 }

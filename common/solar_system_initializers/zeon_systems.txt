@@ -5,13 +5,13 @@
 ### Sol System
 neo_sol_system_initializer = {
 	name = "Sol"
-	
+
 	class = "sc_g"
 	asteroids_distance = 120
 	flags = { Neo_Zeon_Start sol_system sol }
-	
+
 	usage = custom_empire
-	
+
 	planet = {
 		name = "Sol"
 		class = "pc_g_star"
@@ -20,7 +20,7 @@ neo_sol_system_initializer = {
 		size = 30
 		has_ring = no
 	}
-	
+
 	planet = {
 		name = "Mercury"
 		class = "pc_molten"
@@ -29,7 +29,7 @@ neo_sol_system_initializer = {
 		size = 10
 		has_ring = no
 	}
-	
+
 	planet = {
 		name = "Venus"
 		class = "pc_toxic"
@@ -38,7 +38,7 @@ neo_sol_system_initializer = {
 		size = 20
 		has_ring = no
 	}
-	
+
 	planet = {
 		name = "Earth"
 		class = "pc_nuked"
@@ -48,11 +48,11 @@ neo_sol_system_initializer = {
 		has_ring = no
 		tile_blockers = none
 		modifiers = none
-		
+
 		init_effect = {
 			prevent_anomaly = yes
 		}
-		
+
 		moon = {
 			name = "Luna"
 			class = "pc_barren_cold"
@@ -62,7 +62,7 @@ neo_sol_system_initializer = {
 			has_ring = no
 			entity = "cold_barren_planet_luna_entity"
 		}
-		
+
 		moon = { #IT WORKS
 			name = "Side 3"
 			class = "pc_continental"
@@ -71,16 +71,16 @@ neo_sol_system_initializer = {
 			size = 16
 			has_ring = no
 			starting_planet = yes
-			entity = "side3_entity" 
+			entity = "side3_entity"
 			tile_blockers = none
 			modifiers = none
-		
+
 			flags = { side3 }
-		
+
 			init_effect = {
 				prevent_anomaly = yes
 			}
-		
+
 			init_effect = {
 				random_tile = {
 					limit = { has_blocker = no has_building = no num_adjacent_tiles > 3 }
@@ -95,46 +95,46 @@ neo_sol_system_initializer = {
 				random_tile = {
 					limit = { has_blocker = no has_building = no }
 					set_building = "building_hydroponics_farm_1"
-					aset_deposit = d_food_deposit						
+					set_deposit = d_food_deposit
 				}
 				random_tile = {
 					limit = { has_blocker = no has_building = no }
 					set_building = "building_power_plant_1"
-					set_deposit = d_energy_deposit						
+					set_deposit = d_energy_deposit
 				}
 				random_tile = {
 					limit = { has_blocker = no has_building = no }
 					set_building = "building_mining_network_1"
-					set_deposit = d_mineral_deposit						
-				}				
+					set_deposit = d_mineral_deposit
+				}
 				random_tile = {
 					limit = { has_blocker = no has_building = no }
 					set_building = "building_basic_science_lab_1"
 					random_list = {
-						33 = { 
-							set_deposit = d_engineering_deposit					
+						33 = {
+							set_deposit = d_engineering_deposit
 						}
-						33 = { 
-							set_deposit = d_physics_deposit						
+						33 = {
+							set_deposit = d_physics_deposit
 						}
-						33 = { 
-							set_deposit = d_society_deposit						
-						}					
-					}					
+						33 = {
+							set_deposit = d_society_deposit
+						}
+					}
 				}
 				random_tile = {
 					limit = { has_blocker = no has_building = no }
 					set_building = "building_mining_network_1"
-					set_deposit = d_mineral_deposit						
+					set_deposit = d_mineral_deposit
 				}
 				random_tile = {
 					limit = { has_blocker = no has_building = no }
 					set_building = "building_power_plant_1"
-					set_deposit = d_energy_deposit				
+					set_deposit = d_energy_deposit
 				}
 			}
 		}
-	
+
 		moon = {
 			name = "Side 1/6"
 			class = "pc_habitat"
@@ -144,47 +144,47 @@ neo_sol_system_initializer = {
 			entity = "zeon_01_orbital_habitat_entity"
 			tile_blockers = none
 			modifiers = none
-		
+
 			flags = { side16 }
-		
+
 			init_effect = {
 				prevent_anomaly = yes
 			}
-		
+
 			init_effect = {
-			
+
 				random_tile = {
 					limit = { has_blocker = no has_building = no }
 					set_building = "building_hab_astro_mining_facility"
 				}
-			
+
 				random_tile = {
 					limit = { has_blocker = no has_building = no }
 					set_building = "building_hab_solar_power_processor"
 				}
-			
+
 				random_tile = {
 					limit = { has_blocker = no has_building = no }
 					set_building = "building_hab_agri_bay"
 				}
-			
+
 				random_tile = {
 					limit = { has_blocker = no has_building = no }
 					set_building = "building_hab_astro_mining_facility"
 				}
-			
+
 				random_tile = {
 					limit = { has_blocker = no has_building = no }
 					set_building = "building_hab_solar_power_processor"
 				}
-			
+
 				random_tile = {
 					limit = { has_blocker = no has_building = no }
 					set_building = "building_hab_agri_bay"
 				}
 			}
 		}
-	
+
 		moon = {
 			name = "Side 2/5"
 			class = "pc_habitat"
@@ -194,47 +194,47 @@ neo_sol_system_initializer = {
 			entity = "zeon_01_orbital_habitat_entity"
 			tile_blockers = none
 			modifiers = none
-		
+
 			flags = { side25 }
-		
+
 			init_effect = {
 				prevent_anomaly = yes
 			}
-		
+
 			init_effect = {
-			
+
 				random_tile = {
 					limit = { has_blocker = no has_building = no }
 					set_building = "building_hab_astro_mining_facility"
 				}
-			
+
 				random_tile = {
 					limit = { has_blocker = no has_building = no }
 					set_building = "building_hab_solar_power_processor"
 				}
-			
+
 				random_tile = {
 					limit = { has_blocker = no has_building = no }
 					set_building = "building_hab_agri_bay"
 				}
-			
+
 				random_tile = {
 					limit = { has_blocker = no has_building = no }
 					set_building = "building_hab_astro_mining_facility"
 				}
-			
+
 				random_tile = {
 					limit = { has_blocker = no has_building = no }
 					set_building = "building_hab_solar_power_processor"
 				}
-			
+
 				random_tile = {
 					limit = { has_blocker = no has_building = no }
 					set_building = "building_hab_agri_bay"
 				}
 			}
 		}
-	
+
 		moon = {
 			name = "Side 4"
 			class = "pc_habitat"
@@ -244,34 +244,34 @@ neo_sol_system_initializer = {
 			entity = "zeon_01_orbital_habitat_entity"
 			tile_blockers = none
 			modifiers = none
-		
+
 			flags = { side4 }
-		
+
 			init_effect = {
 				prevent_anomaly = yes
 			}
-		
+
 			init_effect = {
-			
+
 				random_tile = {
 					limit = { has_blocker = no has_building = no }
 					set_building = "building_hab_astro_mining_facility"
 				}
-			
+
 				random_tile = {
 					limit = { has_blocker = no has_building = no }
 					set_building = "building_hab_solar_power_processor"
 				}
-			
+
 				random_tile = {
 					limit = { has_blocker = no has_building = no }
 					set_building = "building_hab_agri_bay"
 				}
-			
+
 				set_owner = root
 			}
 		}
-	
+
 		moon = {
 			name = "Side 7"
 			class = "pc_habitat"
@@ -281,45 +281,45 @@ neo_sol_system_initializer = {
 			entity = "zeon_01_orbital_habitat_entity"
 			tile_blockers = none
 			modifiers = none
-		
+
 			flags = { side7 }
-		
+
 			init_effect = {
 				prevent_anomaly = yes
 			}
-		
+
 			init_effect = {
-		
+
 				random_tile = {
 					limit = { has_blocker = yes }
-					remove_blocker = yes 
+					remove_blocker = yes
 				}
-			
+
 				random_tile = {
 					limit = { has_blocker = yes }
-					remove_blocker = yes 
+					remove_blocker = yes
 				}
-			
+
 				random_tile = {
 					limit = { has_blocker = no has_building = no }
 					set_building = "building_hab_laboratory_module"
 				}
-			
+
 				random_tile = {
 					limit = { has_blocker = no has_building = no }
 					set_building = "building_hab_laboratory_module"
 				}
-			
+
 				random_tile = {
 					limit = { has_blocker = no has_building = no }
 					set_building = "building_hab_laboratory_module"
 				}
-			
+
 				set_owner = root
 			}
-		}	
+		}
 	}
-	
+
 	planet = {
 		name = "Mars"
 		class = "pc_barren"
@@ -329,7 +329,7 @@ neo_sol_system_initializer = {
 		has_ring = no
 		entity = "barren_planet_mars_entity"
 	}
-	
+
 	planet = {
 		name = "1 Ceres"
 		class = "pc_asteroid"
@@ -338,7 +338,7 @@ neo_sol_system_initializer = {
 		size = 5
 		has_ring = no
 	}
-	
+
 	planet = {
 		name = "2 Pallas"
 		class = "pc_asteroid"
@@ -347,7 +347,7 @@ neo_sol_system_initializer = {
 		size = 5
 		has_ring = no
 	}
-	
+
 	planet = {
 		name = "3 Juno"
 		class = "pc_asteroid"
@@ -356,7 +356,7 @@ neo_sol_system_initializer = {
 		size = 5
 		has_ring = no
 	}
-	
+
 	planet = {
 		name = "4 Vesta"
 		class = "pc_asteroid"
@@ -365,7 +365,7 @@ neo_sol_system_initializer = {
 		size = 5
 		has_ring = no
 	}
-	
+
 	planet = {
 		name = "Jupiter"
 		class = "pc_gas_giant"
@@ -375,7 +375,7 @@ neo_sol_system_initializer = {
 		has_ring = no
 		entity = "gas_giant_jupiter_entity"
 		change_orbit = 6
-		
+
 		moon = {
 			name = "Io"
 			class = "pc_molten"
@@ -409,7 +409,7 @@ neo_sol_system_initializer = {
 			has_ring = no
 		}
 	}
-	
+
 	planet = {
 		name = "Saturn"
 		class = "pc_gas_giant"
@@ -419,7 +419,7 @@ neo_sol_system_initializer = {
 		has_ring = yes
 		entity = "gas_giant_05_entity"
 		change_orbit = 7
-		
+
 		moon = {
 			name = "Titan"
 			class = "pc_frozen"
@@ -429,7 +429,7 @@ neo_sol_system_initializer = {
 			has_ring = no
 		}
 	}
-	
+
 	planet = {
 		name = "Uranus"
 		class = "pc_gas_giant"
@@ -439,7 +439,7 @@ neo_sol_system_initializer = {
 		has_ring = no
 		entity = "gas_giant_03_entity"
 	}
-	
+
 	planet = {
 		name = "Neptune"
 		class = "pc_gas_giant"
@@ -449,7 +449,7 @@ neo_sol_system_initializer = {
 		has_ring = no
 		entity = "gas_giant_02_entity"
 		change_orbit = 4
-		
+
 		moon = {
 			name = "Triton"
 			class = "pc_frozen"
@@ -459,13 +459,13 @@ neo_sol_system_initializer = {
 			has_ring = no
 		}
 	}
-	
+
 	neighbor_system = {
-		distance = { min = 10 max = @distance }	
+		distance = { min = 10 max = @distance }
 		initializer = "neo_sol_neighbor_t1"
 	}
 	neighbor_system = {
-		distance = { min = 10 max = @distance }	
+		distance = { min = 10 max = @distance }
 		initializer = "neo_sol_neighbor_t1_first_colony"
 	}
 }
@@ -483,33 +483,33 @@ neo_sol_neighbor_t1 = {
 		size = { min = 20 max = 30 }
 		has_ring = no
 	}
-	
+
 	change_orbit = 45
-	
+
 	planet = {
 		count = { min = 0 max = 2 }
 		orbit_distance = 20
 		change_orbit = @base_moon_distance
-		
+
 		moon = {
 			count = { min = 0 max = 1 }
 			orbit_distance = 5
 		}
 	}
-	
+
 	planet = {
 		count = { min = 2 max = 5 }
 		orbit_distance = 20
 	}
-	
+
 	neighbor_system = {
-		distance = { min = 10 max = @distance }	
+		distance = { min = 10 max = @distance }
 		initializer = "neo_sol_neighbor_t2_second_colony"
 	}
 }
 
 # Neighbor Tier 1 First Colony
-neo_sol_neighbor_t1_first_colony = {	
+neo_sol_neighbor_t1_first_colony = {
 	name = "Alpha Centauri"
 	class = sc_g
 
@@ -522,21 +522,21 @@ neo_sol_neighbor_t1_first_colony = {
 		size = { min = 20 max = 30 }
 		has_ring = no
 	}
-	
+
 	change_orbit = 45
-	
+
 	planet = {
 		count = { min = 0 max = 2 }
 		orbit_distance = 20
-		
+
 		change_orbit = @base_moon_distance
-		
+
 		moon = {
 			count = { min = 0 max = 1 }
 			orbit_distance = 5
 		}
 	}
-	
+
 	planet = {
 		count = 1
 		orbit_distance = 25
@@ -544,21 +544,21 @@ neo_sol_neighbor_t1_first_colony = {
 		orbit_angle = { min = 90 max = 270 }
 		size = { min = 12 max = 18 }
 	}
-	
+
 	planet = {
 		count = { min = 2 max = 5 }
 		orbit_distance = 25
-		
+
 		change_orbit = @base_moon_distance
-		
-		moon = {			
+
+		moon = {
 			count = { min = 0 max = 1 }
 			orbit_distance = 5
 		}
 	}
-	
+
 	neighbor_system = {
-		distance = { min = 10 max = @distance }	
+		distance = { min = 10 max = @distance }
 		initializer = "neo_sol_neighbor_t2"
 	}
 }
@@ -579,28 +579,28 @@ neo_sol_neighbor_t2 = {
 		size = { min = 20 max = 30 }
 		has_ring = no
 	}
-	
+
 	planet = {
 		count = 1
 		orbit_distance = 45
 	}
-	
+
 	change_orbit = 25
-	
+
 	planet = {
 		count = { min = 1 max = 3 }
 		class = random_asteroid
 		orbit_distance = 0
 		orbit_angle = { min = 0 max = 360 }
 	}
-	
+
 	planet = {
 		count = { min = 2 max = 5 }
 		orbit_distance = 25
-		
+
 		change_orbit = @base_moon_distance
-		
-		moon = {		
+
+		moon = {
 			count = { min = 0 max = 1 }
 			orbit_distance = 5
 		}
@@ -621,22 +621,22 @@ neo_sol_neighbor_t2_second_colony = {
 		size = { min = 20 max = 30 }
 		has_ring = no
 	}
-	
+
 	change_orbit = 25
-	
+
 	planet = {
 		count = 2
 		orbit_angle = { min = 90 max = 270 }
 		orbit_distance = 20
 	}
-	
+
 	planet = {
 		count = 1
 		orbit_distance = 25
 		class = ideal_planet_class
 		orbit_angle = { min = 90 max = 270 }
 		size = { min = 14 max = 24 }
-		
+
 		change_orbit = @base_moon_distance
 
 		moon = {
@@ -646,14 +646,14 @@ neo_sol_neighbor_t2_second_colony = {
 			orbit_distance = 5
 		}
 	}
-	
+
 	planet = {
 		count = 2
 		orbit_angle = { min = 90 max = 270 }
 		orbit_distance = 20
-		
+
 		change_orbit = @base_moon_distance
-		
+
 		moon = {
 			count = { min = 0 max = 1 }
 			class = random_non_colonizable
@@ -661,7 +661,7 @@ neo_sol_neighbor_t2_second_colony = {
 			orbit_distance = 5
 		}
 	}
-	
+
 	planet = {
 		count = { min = 0 max = 2 }
 		orbit_angle = { min = 90 max = 270 }
@@ -672,13 +672,13 @@ neo_sol_neighbor_t2_second_colony = {
 ### Sol System
 axis_sol_system_initializer = {
 	name = "Sol"
-	
+
 	class = "sc_g"
 	asteroids_distance = 120
 	flags = { Axis_Zeon_Start sol_system sol }
-	
+
 	usage = custom_empire
-	
+
 	planet = {
 		name = "Sol"
 		class = "pc_g_star"
@@ -687,7 +687,7 @@ axis_sol_system_initializer = {
 		size = 30
 		has_ring = no
 	}
-	
+
 	planet = {
 		name = "Mercury"
 		class = "pc_molten"
@@ -696,7 +696,7 @@ axis_sol_system_initializer = {
 		size = 10
 		has_ring = no
 	}
-	
+
 	planet = {
 		name = "Venus"
 		class = "pc_toxic"
@@ -705,7 +705,7 @@ axis_sol_system_initializer = {
 		size = 20
 		has_ring = no
 	}
-	
+
 	planet = {
 		name = "NAME_Earth"
 		class = "pc_continental"
@@ -717,11 +717,11 @@ axis_sol_system_initializer = {
 		tile_blockers = none
 		modifiers = none
 		flags = { planet_earth }
-		
+
 		init_effect = {
 			prevent_anomaly = yes
 		}
-		
+
 		init_effect = {
 				random_tile = {
 					limit = { has_blocker = no has_building = no num_adjacent_tiles > 3 }
@@ -731,80 +731,80 @@ axis_sol_system_initializer = {
 				random_tile = {
 					limit = { has_blocker = no has_building = no }
 					set_building = "building_hydroponics_farm_1"
-					set_deposit = d_food_deposit					
+					set_deposit = d_food_deposit
 				}
 				random_tile = {
 					limit = { has_blocker = no has_building = no }
 					set_building = "building_hydroponics_farm_1"
-					aset_deposit = d_food_deposit						
+					set_deposit = d_food_deposit
 				}
 				random_tile = {
 					limit = { has_blocker = no has_building = no }
 					set_building = "building_power_plant_1"
-					set_deposit = d_energy_deposit						
+					set_deposit = d_energy_deposit
 				}
 				random_tile = {
 					limit = { has_blocker = no has_building = no }
 					set_building = "building_mining_network_1"
-					set_deposit = d_mineral_deposit						
-				}				
+					set_deposit = d_mineral_deposit
+				}
 				random_tile = {
 					limit = { has_blocker = no has_building = no }
 					set_building = "building_basic_science_lab_1"
 					random_list = {
-						33 = { 
-							set_deposit = d_engineering_deposit					
+						33 = {
+							set_deposit = d_engineering_deposit
 						}
-						33 = { 
-							set_deposit = d_physics_deposit						
+						33 = {
+							set_deposit = d_physics_deposit
 						}
-						33 = { 
-							set_deposit = d_society_deposit						
-						}					
-					}					
+						33 = {
+							set_deposit = d_society_deposit
+						}
+					}
 				}
 				random_tile = {
 					limit = { has_blocker = no has_building = no }
 					set_building = "building_mining_network_1"
-					set_deposit = d_mineral_deposit						
+					set_deposit = d_mineral_deposit
 				}
 				random_tile = {
 					limit = { has_blocker = no has_building = no }
 					set_building = "building_power_plant_1"
-					set_deposit = d_energy_deposit				
-				}				
+					set_deposit = d_energy_deposit
+				}
 			random_tile = {
 				limit = { has_blocker = no has_building = no }
 				set_blocker = "tb_city_ruins"
-				set_deposit = d_engineering_deposit				
-			}
-			random_tile = {
-				limit = { has_blocker = no has_building = no }
-				set_blocker = "tb_city_ruins"
-				set_deposit = d_society_deposit				
+				set_deposit = d_engineering_deposit
 			}
 			random_tile = {
 				limit = { has_blocker = no has_building = no }
 				set_blocker = "tb_city_ruins"
-				set_deposit = d_physics_deposit				
+				set_deposit = d_society_deposit
+			}
+			random_tile = {
+				limit = { has_blocker = no has_building = no }
+				set_blocker = "tb_city_ruins"
+				set_deposit = d_physics_deposit
 			}
 			random_tile = {
 				limit = { has_blocker = no has_building = no }
 				set_blocker = "tb_crater"
-				set_deposit = d_energy_deposit					
+				set_deposit = d_energy_deposit
 			}
 			random_tile = {
 				limit = { has_blocker = no has_building = no }
 				set_blocker = "tb_crater"
-				set_deposit = d_food_deposit					
+				set_deposit = d_food_deposit
 			}
 			random_tile = {
 				limit = { has_blocker = no has_building = no }
 				set_blocker = "tb_crater"
-				set_deposit = d_mineral_deposit				
-			}			
+				set_deposit = d_mineral_deposit
+			}
 		}
-		
+
 		moon = {
 			name = "Luna"
 			class = "pc_barren_cold"
@@ -814,7 +814,7 @@ axis_sol_system_initializer = {
 			has_ring = no
 			entity = "cold_barren_planet_luna_entity"
 		}
-		
+
 	moon = { #IT WORKS
 		name = "Axis"
 		class = "pc_continental"
@@ -826,11 +826,11 @@ axis_sol_system_initializer = {
 		entity = "zeon_01_military_station_large_entity"
 		tile_blockers = none
 		modifiers = none
-		
+
 		init_effect = {
 			prevent_anomaly = yes
 		}
-		
+
 		init_effect = {
 				random_tile = {
 					limit = { has_blocker = no has_building = no num_adjacent_tiles > 3 }
@@ -840,51 +840,51 @@ axis_sol_system_initializer = {
 				random_tile = {
 					limit = { has_blocker = no has_building = no }
 					set_building = "building_hydroponics_farm_1"
-					set_deposit = d_food_deposit					
+					set_deposit = d_food_deposit
 				}
 				random_tile = {
 					limit = { has_blocker = no has_building = no }
 					set_building = "building_hydroponics_farm_1"
-					aset_deposit = d_food_deposit						
+					set_deposit = d_food_deposit
 				}
 				random_tile = {
 					limit = { has_blocker = no has_building = no }
 					set_building = "building_power_plant_1"
-					set_deposit = d_energy_deposit						
+					set_deposit = d_energy_deposit
 				}
 				random_tile = {
 					limit = { has_blocker = no has_building = no }
 					set_building = "building_mining_network_1"
-					set_deposit = d_mineral_deposit						
-				}				
+					set_deposit = d_mineral_deposit
+				}
 				random_tile = {
 					limit = { has_blocker = no has_building = no }
 					set_building = "building_basic_science_lab_1"
 					random_list = {
-						33 = { 
-							set_deposit = d_engineering_deposit					
+						33 = {
+							set_deposit = d_engineering_deposit
 						}
-						33 = { 
-							set_deposit = d_physics_deposit						
+						33 = {
+							set_deposit = d_physics_deposit
 						}
-						33 = { 
-							set_deposit = d_society_deposit						
-						}					
-					}					
+						33 = {
+							set_deposit = d_society_deposit
+						}
+					}
 				}
 				random_tile = {
 					limit = { has_blocker = no has_building = no }
 					set_building = "building_mining_network_1"
-					set_deposit = d_mineral_deposit						
+					set_deposit = d_mineral_deposit
 				}
 				random_tile = {
 					limit = { has_blocker = no has_building = no }
 					set_building = "building_power_plant_1"
-					set_deposit = d_energy_deposit				
+					set_deposit = d_energy_deposit
 				}
 			}
 	}
-	
+
 	moon = {
 		name = "Side 3"
 		class = "pc_habitat"
@@ -894,47 +894,47 @@ axis_sol_system_initializer = {
 		entity = "zeon_01_orbital_habitat_entity"
 		tile_blockers = none
 		modifiers = none
-		
+
 		flags = { side3 }
-		
+
 		init_effect = {
 			prevent_anomaly = yes
 		}
-		
+
 		init_effect = {
-			
+
 			random_tile = {
 				limit = { has_blocker = no has_building = no }
 				set_building = "building_hab_astro_mining_facility"
 			}
-			
+
 			random_tile = {
 				limit = { has_blocker = no has_building = no }
 				set_building = "building_hab_solar_power_processor"
 			}
-			
+
 			random_tile = {
 				limit = { has_blocker = no has_building = no }
 				set_building = "building_hab_agri_bay"
 			}
-			
+
 			random_tile = {
 				limit = { has_blocker = no has_building = no }
 				set_building = "building_hab_astro_mining_facility"
 			}
-			
+
 			random_tile = {
 				limit = { has_blocker = no has_building = no }
 				set_building = "building_hab_solar_power_processor"
 			}
-			
+
 			random_tile = {
 				limit = { has_blocker = no has_building = no }
 				set_building = "building_hab_agri_bay"
 			}
 		}
 	}
-	
+
 	moon = {
 		name = "Side 1/6"
 		class = "pc_habitat"
@@ -944,47 +944,47 @@ axis_sol_system_initializer = {
 		entity = "zeon_01_orbital_habitat_entity"
 		tile_blockers = none
 		modifiers = none
-		
+
 		flags = { side16 }
-		
+
 		init_effect = {
 			prevent_anomaly = yes
 		}
-		
+
 		init_effect = {
-			
+
 			random_tile = {
 				limit = { has_blocker = no has_building = no }
 				set_building = "building_hab_astro_mining_facility"
 			}
-			
+
 			random_tile = {
 				limit = { has_blocker = no has_building = no }
 				set_building = "building_hab_solar_power_processor"
 			}
-			
+
 			random_tile = {
 				limit = { has_blocker = no has_building = no }
 				set_building = "building_hab_agri_bay"
 			}
-			
+
 			random_tile = {
 				limit = { has_blocker = no has_building = no }
 				set_building = "building_hab_astro_mining_facility"
 			}
-			
+
 			random_tile = {
 				limit = { has_blocker = no has_building = no }
 				set_building = "building_hab_solar_power_processor"
 			}
-			
+
 			random_tile = {
 				limit = { has_blocker = no has_building = no }
 				set_building = "building_hab_agri_bay"
 			}
 		}
 	}
-	
+
 	moon = {
 		name = "Side 2/5"
 		class = "pc_habitat"
@@ -994,47 +994,47 @@ axis_sol_system_initializer = {
 		entity = "zeon_01_orbital_habitat_entity"
 		tile_blockers = none
 		modifiers = none
-		
+
 		flags = { side25 }
-		
+
 		init_effect = {
 			prevent_anomaly = yes
 		}
-		
+
 		init_effect = {
-			
+
 			random_tile = {
 				limit = { has_blocker = no has_building = no }
 				set_building = "building_hab_astro_mining_facility"
 			}
-			
+
 			random_tile = {
 				limit = { has_blocker = no has_building = no }
 				set_building = "building_hab_solar_power_processor"
 			}
-			
+
 			random_tile = {
 				limit = { has_blocker = no has_building = no }
 				set_building = "building_hab_agri_bay"
 			}
-			
+
 			random_tile = {
 				limit = { has_blocker = no has_building = no }
 				set_building = "building_hab_astro_mining_facility"
 			}
-			
+
 			random_tile = {
 				limit = { has_blocker = no has_building = no }
 				set_building = "building_hab_solar_power_processor"
 			}
-			
+
 			random_tile = {
 				limit = { has_blocker = no has_building = no }
 				set_building = "building_hab_agri_bay"
 			}
 		}
 	}
-	
+
 	moon = {
 		name = "Side 4"
 		class = "pc_habitat"
@@ -1044,34 +1044,34 @@ axis_sol_system_initializer = {
 		entity = "zeon_01_orbital_habitat_entity"
 		tile_blockers = none
 		modifiers = none
-		
+
 		flags = { side4 }
-		
+
 		init_effect = {
 			prevent_anomaly = yes
 		}
-		
+
 		init_effect = {
-			
+
 			random_tile = {
 				limit = { has_blocker = no has_building = no }
 				set_building = "building_hab_astro_mining_facility"
 			}
-			
+
 			random_tile = {
 				limit = { has_blocker = no has_building = no }
 				set_building = "building_hab_solar_power_processor"
 			}
-			
+
 			random_tile = {
 				limit = { has_blocker = no has_building = no }
 				set_building = "building_hab_agri_bay"
 			}
-			
+
 			set_owner = root
 		}
 	}
-	
+
 	moon = {
 		name = "Side 7"
 		class = "pc_habitat"
@@ -1081,45 +1081,45 @@ axis_sol_system_initializer = {
 		entity = "zeon_01_orbital_habitat_entity"
 		tile_blockers = none
 		modifiers = none
-		
+
 		flags = { side7 }
-		
+
 		init_effect = {
 			prevent_anomaly = yes
 		}
-		
+
 		init_effect = {
-		
+
 			random_tile = {
 				limit = { has_blocker = yes }
-				remove_blocker = yes 
+				remove_blocker = yes
 			}
-			
+
 			random_tile = {
 				limit = { has_blocker = yes }
-				remove_blocker = yes 
+				remove_blocker = yes
 			}
-			
+
 			random_tile = {
 				limit = { has_blocker = no has_building = no }
 				set_building = "building_hab_laboratory_module"
 			}
-			
+
 			random_tile = {
 				limit = { has_blocker = no has_building = no }
 				set_building = "building_hab_laboratory_module"
 			}
-			
+
 			random_tile = {
 				limit = { has_blocker = no has_building = no }
 				set_building = "building_hab_laboratory_module"
 			}
-			
+
 			set_owner = root
 		}
-	}	
 	}
-	
+	}
+
 	planet = {
 		name = "Mars"
 		class = "pc_barren"
@@ -1129,7 +1129,7 @@ axis_sol_system_initializer = {
 		has_ring = no
 		entity = "barren_planet_mars_entity"
 	}
-	
+
 	planet = {
 		name = "1 Ceres"
 		class = "pc_asteroid"
@@ -1138,7 +1138,7 @@ axis_sol_system_initializer = {
 		size = 5
 		has_ring = no
 	}
-	
+
 	planet = {
 		name = "2 Pallas"
 		class = "pc_asteroid"
@@ -1147,7 +1147,7 @@ axis_sol_system_initializer = {
 		size = 5
 		has_ring = no
 	}
-	
+
 	planet = {
 		name = "3 Juno"
 		class = "pc_asteroid"
@@ -1156,7 +1156,7 @@ axis_sol_system_initializer = {
 		size = 5
 		has_ring = no
 	}
-	
+
 	planet = {
 		name = "4 Vesta"
 		class = "pc_asteroid"
@@ -1165,7 +1165,7 @@ axis_sol_system_initializer = {
 		size = 5
 		has_ring = no
 	}
-	
+
 	planet = {
 		name = "Jupiter"
 		class = "pc_gas_giant"
@@ -1175,7 +1175,7 @@ axis_sol_system_initializer = {
 		has_ring = no
 		entity = "gas_giant_jupiter_entity"
 		change_orbit = 6
-		
+
 		moon = {
 			name = "Io"
 			class = "pc_molten"
@@ -1209,7 +1209,7 @@ axis_sol_system_initializer = {
 			has_ring = no
 		}
 	}
-	
+
 	planet = {
 		name = "Saturn"
 		class = "pc_gas_giant"
@@ -1219,7 +1219,7 @@ axis_sol_system_initializer = {
 		has_ring = yes
 		entity = "gas_giant_05_entity"
 		change_orbit = 7
-		
+
 		moon = {
 			name = "Titan"
 			class = "pc_frozen"
@@ -1229,7 +1229,7 @@ axis_sol_system_initializer = {
 			has_ring = no
 		}
 	}
-	
+
 	planet = {
 		name = "Uranus"
 		class = "pc_gas_giant"
@@ -1239,7 +1239,7 @@ axis_sol_system_initializer = {
 		has_ring = no
 		entity = "gas_giant_03_entity"
 	}
-	
+
 	planet = {
 		name = "Neptune"
 		class = "pc_gas_giant"
@@ -1249,7 +1249,7 @@ axis_sol_system_initializer = {
 		has_ring = no
 		entity = "gas_giant_02_entity"
 		change_orbit = 4
-		
+
 		moon = {
 			name = "Triton"
 			class = "pc_frozen"
@@ -1259,13 +1259,13 @@ axis_sol_system_initializer = {
 			has_ring = no
 		}
 	}
-	
+
 	neighbor_system = {
-		distance = { min = 10 max = @distance }	
+		distance = { min = 10 max = @distance }
 		initializer = "axis_sol_neighbor_t1"
 	}
 	neighbor_system = {
-		distance = { min = 10 max = @distance }	
+		distance = { min = 10 max = @distance }
 		initializer = "axis_sol_neighbor_t1_first_colony"
 	}
 }
@@ -1283,33 +1283,33 @@ axis_sol_neighbor_t1 = {
 		size = { min = 20 max = 30 }
 		has_ring = no
 	}
-	
+
 	change_orbit = 45
-	
+
 	planet = {
 		count = { min = 0 max = 2 }
 		orbit_distance = 20
 		change_orbit = @base_moon_distance
-		
+
 		moon = {
 			count = { min = 0 max = 1 }
 			orbit_distance = 5
 		}
 	}
-	
+
 	planet = {
 		count = { min = 2 max = 5 }
 		orbit_distance = 20
 	}
-	
+
 	neighbor_system = {
-		distance = { min = 10 max = @distance }	
+		distance = { min = 10 max = @distance }
 		initializer = "axis_sol_neighbor_t2_second_colony"
 	}
 }
 
 # Neighbor Tier 1 First Colony
-axis_sol_neighbor_t1_first_colony = {	
+axis_sol_neighbor_t1_first_colony = {
 	name = "Alpha Centauri"
 	class = sc_g
 
@@ -1322,21 +1322,21 @@ axis_sol_neighbor_t1_first_colony = {
 		size = { min = 20 max = 30 }
 		has_ring = no
 	}
-	
+
 	change_orbit = 45
-	
+
 	planet = {
 		count = { min = 0 max = 2 }
 		orbit_distance = 20
-		
+
 		change_orbit = @base_moon_distance
-		
+
 		moon = {
 			count = { min = 0 max = 1 }
 			orbit_distance = 5
 		}
 	}
-	
+
 	planet = {
 		count = 1
 		orbit_distance = 25
@@ -1344,21 +1344,21 @@ axis_sol_neighbor_t1_first_colony = {
 		orbit_angle = { min = 90 max = 270 }
 		size = { min = 12 max = 18 }
 	}
-	
+
 	planet = {
 		count = { min = 2 max = 5 }
 		orbit_distance = 25
-		
+
 		change_orbit = @base_moon_distance
-		
-		moon = {			
+
+		moon = {
 			count = { min = 0 max = 1 }
 			orbit_distance = 5
 		}
 	}
-	
+
 	neighbor_system = {
-		distance = { min = 10 max = @distance }	
+		distance = { min = 10 max = @distance }
 		initializer = "axis_sol_neighbor_t2"
 	}
 }
@@ -1379,28 +1379,28 @@ axis_sol_neighbor_t2 = {
 		size = { min = 20 max = 30 }
 		has_ring = no
 	}
-	
+
 	planet = {
 		count = 1
 		orbit_distance = 45
 	}
-	
+
 	change_orbit = 25
-	
+
 	planet = {
 		count = { min = 1 max = 3 }
 		class = random_asteroid
 		orbit_distance = 0
 		orbit_angle = { min = 0 max = 360 }
 	}
-	
+
 	planet = {
 		count = { min = 2 max = 5 }
 		orbit_distance = 25
-		
+
 		change_orbit = @base_moon_distance
-		
-		moon = {		
+
+		moon = {
 			count = { min = 0 max = 1 }
 			orbit_distance = 5
 		}
@@ -1421,22 +1421,22 @@ axis_sol_neighbor_t2_second_colony = {
 		size = { min = 20 max = 30 }
 		has_ring = no
 	}
-	
+
 	change_orbit = 25
-	
+
 	planet = {
 		count = 2
 		orbit_angle = { min = 90 max = 270 }
 		orbit_distance = 20
 	}
-	
+
 	planet = {
 		count = 1
 		orbit_distance = 25
 		class = ideal_planet_class
 		orbit_angle = { min = 90 max = 270 }
 		size = { min = 14 max = 24 }
-		
+
 		change_orbit = @base_moon_distance
 
 		moon = {
@@ -1446,14 +1446,14 @@ axis_sol_neighbor_t2_second_colony = {
 			orbit_distance = 5
 		}
 	}
-	
+
 	planet = {
 		count = 2
 		orbit_angle = { min = 90 max = 270 }
 		orbit_distance = 20
-		
+
 		change_orbit = @base_moon_distance
-		
+
 		moon = {
 			count = { min = 0 max = 1 }
 			class = random_non_colonizable
@@ -1461,7 +1461,7 @@ axis_sol_neighbor_t2_second_colony = {
 			orbit_distance = 5
 		}
 	}
-	
+
 	planet = {
 		count = { min = 0 max = 2 }
 		orbit_angle = { min = 90 max = 270 }
@@ -1472,13 +1472,13 @@ axis_sol_neighbor_t2_second_colony = {
 ### Sol System
 efsf_sol_system_initializer = {
 	name = "Sol"
-	
+
 	class = "sc_g"
 	asteroids_distance = 120
 	flags = { EFSF_Start sol_system sol }
-	
+
 	usage = custom_empire
-	
+
 	planet = {
 		name = "Sol"
 		class = "pc_g_star"
@@ -1487,7 +1487,7 @@ efsf_sol_system_initializer = {
 		size = 30
 		has_ring = no
 	}
-	
+
 	planet = {
 		name = "Mercury"
 		class = "pc_molten"
@@ -1496,7 +1496,7 @@ efsf_sol_system_initializer = {
 		size = 10
 		has_ring = no
 	}
-	
+
 	planet = {
 		name = "Venus"
 		class = "pc_toxic"
@@ -1505,7 +1505,7 @@ efsf_sol_system_initializer = {
 		size = 20
 		has_ring = no
 	}
-	
+
 	planet = {
 		name = "Mars"
 		class = "pc_barren"
@@ -1515,7 +1515,7 @@ efsf_sol_system_initializer = {
 		has_ring = no
 		entity = "barren_planet_mars_entity"
 	}
-	
+
 	planet = {
 		name = "NAME_Earth"
 		class = "pc_continental"
@@ -1528,11 +1528,11 @@ efsf_sol_system_initializer = {
 		tile_blockers = none
 		modifiers = none
 		flags = { planet_earth }
-		
+
 		init_effect = {
 			prevent_anomaly = yes
 		}
-		
+
 		init_effect = {
 				random_tile = {
 					limit = { has_blocker = no has_building = no num_adjacent_tiles > 3 }
@@ -1542,80 +1542,80 @@ efsf_sol_system_initializer = {
 				random_tile = {
 					limit = { has_blocker = no has_building = no }
 					set_building = "building_hydroponics_farm_1"
-					set_deposit = d_food_deposit					
+					set_deposit = d_food_deposit
 				}
 				random_tile = {
 					limit = { has_blocker = no has_building = no }
 					set_building = "building_hydroponics_farm_1"
-					aset_deposit = d_food_deposit						
+					set_deposit = d_food_deposit
 				}
 				random_tile = {
 					limit = { has_blocker = no has_building = no }
 					set_building = "building_power_plant_1"
-					set_deposit = d_energy_deposit						
+					set_deposit = d_energy_deposit
 				}
 				random_tile = {
 					limit = { has_blocker = no has_building = no }
 					set_building = "building_mining_network_1"
-					set_deposit = d_mineral_deposit						
-				}				
+					set_deposit = d_mineral_deposit
+				}
 				random_tile = {
 					limit = { has_blocker = no has_building = no }
 					set_building = "building_basic_science_lab_1"
 					random_list = {
-						33 = { 
-							set_deposit = d_engineering_deposit					
+						33 = {
+							set_deposit = d_engineering_deposit
 						}
-						33 = { 
-							set_deposit = d_physics_deposit						
+						33 = {
+							set_deposit = d_physics_deposit
 						}
-						33 = { 
-							set_deposit = d_society_deposit						
-						}					
-					}					
+						33 = {
+							set_deposit = d_society_deposit
+						}
+					}
 				}
 				random_tile = {
 					limit = { has_blocker = no has_building = no }
 					set_building = "building_mining_network_1"
-					set_deposit = d_mineral_deposit						
+					set_deposit = d_mineral_deposit
 				}
 				random_tile = {
 					limit = { has_blocker = no has_building = no }
 					set_building = "building_power_plant_1"
-					set_deposit = d_energy_deposit				
-				}				
+					set_deposit = d_energy_deposit
+				}
 			random_tile = {
 				limit = { has_blocker = no has_building = no }
 				set_blocker = "tb_city_ruins"
-				set_deposit = d_engineering_deposit				
-			}
-			random_tile = {
-				limit = { has_blocker = no has_building = no }
-				set_blocker = "tb_city_ruins"
-				set_deposit = d_society_deposit				
+				set_deposit = d_engineering_deposit
 			}
 			random_tile = {
 				limit = { has_blocker = no has_building = no }
 				set_blocker = "tb_city_ruins"
-				set_deposit = d_physics_deposit				
+				set_deposit = d_society_deposit
+			}
+			random_tile = {
+				limit = { has_blocker = no has_building = no }
+				set_blocker = "tb_city_ruins"
+				set_deposit = d_physics_deposit
 			}
 			random_tile = {
 				limit = { has_blocker = no has_building = no }
 				set_blocker = "tb_crater"
-				set_deposit = d_energy_deposit					
+				set_deposit = d_energy_deposit
 			}
 			random_tile = {
 				limit = { has_blocker = no has_building = no }
 				set_blocker = "tb_crater"
-				set_deposit = d_food_deposit					
+				set_deposit = d_food_deposit
 			}
 			random_tile = {
 				limit = { has_blocker = no has_building = no }
 				set_blocker = "tb_crater"
-				set_deposit = d_mineral_deposit				
-			}			
+				set_deposit = d_mineral_deposit
+			}
 		}
-		
+
 		moon = {
 			name = "NAME_Luna"
 			class = "pc_barren_cold"
@@ -1625,7 +1625,7 @@ efsf_sol_system_initializer = {
 			has_ring = no
 			entity = "cold_barren_planet_luna_entity"
 		}
-		
+
 	moon = { #IT WORKS
 		name = "Side 3"
 		class = "pc_continental"
@@ -1633,16 +1633,16 @@ efsf_sol_system_initializer = {
 		orbit_angle = 0
 		size = 16
 		has_ring = no
-		entity = "side3_entity" 
+		entity = "side3_entity"
 		tile_blockers = none
 		modifiers = none
-		
+
 		flags = { side3 }
-		
+
 		init_effect = {
 			prevent_anomaly = yes
 		}
-		
+
 		init_effect = {
 				random_tile = {
 					limit = { has_blocker = no has_building = no num_adjacent_tiles > 3 }
@@ -1652,51 +1652,51 @@ efsf_sol_system_initializer = {
 				random_tile = {
 					limit = { has_blocker = no has_building = no }
 					set_building = "building_hydroponics_farm_1"
-					set_deposit = d_food_deposit					
+					set_deposit = d_food_deposit
 				}
 				random_tile = {
 					limit = { has_blocker = no has_building = no }
 					set_building = "building_hydroponics_farm_1"
-					aset_deposit = d_food_deposit						
+					set_deposit = d_food_deposit
 				}
 				random_tile = {
 					limit = { has_blocker = no has_building = no }
 					set_building = "building_power_plant_1"
-					set_deposit = d_energy_deposit						
+					set_deposit = d_energy_deposit
 				}
 				random_tile = {
 					limit = { has_blocker = no has_building = no }
 					set_building = "building_mining_network_1"
-					set_deposit = d_mineral_deposit						
-				}				
+					set_deposit = d_mineral_deposit
+				}
 				random_tile = {
 					limit = { has_blocker = no has_building = no }
 					set_building = "building_basic_science_lab_1"
 					random_list = {
-						33 = { 
-							set_deposit = d_engineering_deposit					
+						33 = {
+							set_deposit = d_engineering_deposit
 						}
-						33 = { 
-							set_deposit = d_physics_deposit						
+						33 = {
+							set_deposit = d_physics_deposit
 						}
-						33 = { 
-							set_deposit = d_society_deposit						
-						}					
-					}					
+						33 = {
+							set_deposit = d_society_deposit
+						}
+					}
 				}
 				random_tile = {
 					limit = { has_blocker = no has_building = no }
 					set_building = "building_mining_network_1"
-					set_deposit = d_mineral_deposit						
+					set_deposit = d_mineral_deposit
 				}
 				random_tile = {
 					limit = { has_blocker = no has_building = no }
 					set_building = "building_power_plant_1"
-					set_deposit = d_energy_deposit				
+					set_deposit = d_energy_deposit
 				}
 			}
 	}
-	
+
 	moon = {
 		name = "Side 1/6"
 		class = "pc_habitat"
@@ -1706,47 +1706,47 @@ efsf_sol_system_initializer = {
 		entity = "zeon_01_orbital_habitat_entity"
 		tile_blockers = none
 		modifiers = none
-		
+
 		flags = { side16 }
-		
+
 		init_effect = {
 			prevent_anomaly = yes
 		}
-		
+
 		init_effect = {
-			
+
 			random_tile = {
 				limit = { has_blocker = no has_building = no }
 				set_building = "building_hab_astro_mining_facility"
 			}
-			
+
 			random_tile = {
 				limit = { has_blocker = no has_building = no }
 				set_building = "building_hab_solar_power_processor"
 			}
-			
+
 			random_tile = {
 				limit = { has_blocker = no has_building = no }
 				set_building = "building_hab_agri_bay"
 			}
-			
+
 			random_tile = {
 				limit = { has_blocker = no has_building = no }
 				set_building = "building_hab_astro_mining_facility"
 			}
-			
+
 			random_tile = {
 				limit = { has_blocker = no has_building = no }
 				set_building = "building_hab_solar_power_processor"
 			}
-			
+
 			random_tile = {
 				limit = { has_blocker = no has_building = no }
 				set_building = "building_hab_agri_bay"
 			}
 		}
 	}
-	
+
 	moon = {
 		name = "Side 2/5"
 		class = "pc_habitat"
@@ -1756,47 +1756,47 @@ efsf_sol_system_initializer = {
 		entity = "zeon_01_orbital_habitat_entity"
 		tile_blockers = none
 		modifiers = none
-		
+
 		flags = { side25 }
-		
+
 		init_effect = {
 			prevent_anomaly = yes
 		}
-		
+
 		init_effect = {
-			
+
 			random_tile = {
 				limit = { has_blocker = no has_building = no }
 				set_building = "building_hab_astro_mining_facility"
 			}
-			
+
 			random_tile = {
 				limit = { has_blocker = no has_building = no }
 				set_building = "building_hab_solar_power_processor"
 			}
-			
+
 			random_tile = {
 				limit = { has_blocker = no has_building = no }
 				set_building = "building_hab_agri_bay"
 			}
-			
+
 			random_tile = {
 				limit = { has_blocker = no has_building = no }
 				set_building = "building_hab_astro_mining_facility"
 			}
-			
+
 			random_tile = {
 				limit = { has_blocker = no has_building = no }
 				set_building = "building_hab_solar_power_processor"
 			}
-			
+
 			random_tile = {
 				limit = { has_blocker = no has_building = no }
 				set_building = "building_hab_agri_bay"
 			}
 		}
 	}
-	
+
 	moon = {
 		name = "Side 4"
 		class = "pc_habitat"
@@ -1806,34 +1806,34 @@ efsf_sol_system_initializer = {
 		entity = "zeon_01_orbital_habitat_entity"
 		tile_blockers = none
 		modifiers = none
-		
+
 		flags = { side4 }
-		
+
 		init_effect = {
 			prevent_anomaly = yes
 		}
-		
+
 		init_effect = {
-			
+
 			random_tile = {
 				limit = { has_blocker = no has_building = no }
 				set_building = "building_hab_astro_mining_facility"
 			}
-			
+
 			random_tile = {
 				limit = { has_blocker = no has_building = no }
 				set_building = "building_hab_solar_power_processor"
 			}
-			
+
 			random_tile = {
 				limit = { has_blocker = no has_building = no }
 				set_building = "building_hab_agri_bay"
 			}
-			
+
 			set_owner = root
 		}
 	}
-	
+
 	moon = {
 		name = "Side 7"
 		class = "pc_habitat"
@@ -1843,45 +1843,45 @@ efsf_sol_system_initializer = {
 		entity = "zeon_01_orbital_habitat_entity"
 		tile_blockers = none
 		modifiers = none
-		
+
 		flags = { side7 }
-		
+
 		init_effect = {
 			prevent_anomaly = yes
 		}
-		
+
 		init_effect = {
-		
+
 			random_tile = {
 				limit = { has_blocker = yes }
-				remove_blocker = yes 
+				remove_blocker = yes
 			}
-			
+
 			random_tile = {
 				limit = { has_blocker = yes }
-				remove_blocker = yes 
+				remove_blocker = yes
 			}
-			
+
 			random_tile = {
 				limit = { has_blocker = no has_building = no }
 				set_building = "building_hab_laboratory_module"
 			}
-			
+
 			random_tile = {
 				limit = { has_blocker = no has_building = no }
 				set_building = "building_hab_laboratory_module"
 			}
-			
+
 			random_tile = {
 				limit = { has_blocker = no has_building = no }
 				set_building = "building_hab_laboratory_module"
 			}
-			
+
 			set_owner = root
 		}
 	}
 	}
-	
+
 	planet = {
 		name = "1 Ceres"
 		class = "pc_asteroid"
@@ -1890,7 +1890,7 @@ efsf_sol_system_initializer = {
 		size = 5
 		has_ring = no
 	}
-	
+
 	planet = {
 		name = "2 Pallas"
 		class = "pc_asteroid"
@@ -1899,7 +1899,7 @@ efsf_sol_system_initializer = {
 		size = 5
 		has_ring = no
 	}
-	
+
 	planet = {
 		name = "3 Juno"
 		class = "pc_asteroid"
@@ -1908,7 +1908,7 @@ efsf_sol_system_initializer = {
 		size = 5
 		has_ring = no
 	}
-	
+
 	planet = {
 		name = "4 Vesta"
 		class = "pc_asteroid"
@@ -1917,7 +1917,7 @@ efsf_sol_system_initializer = {
 		size = 5
 		has_ring = no
 	}
-	
+
 	planet = {
 		name = "Jupiter"
 		class = "pc_gas_giant"
@@ -1927,7 +1927,7 @@ efsf_sol_system_initializer = {
 		has_ring = no
 		entity = "gas_giant_jupiter_entity"
 		change_orbit = 6
-		
+
 		moon = {
 			name = "Io"
 			class = "pc_molten"
@@ -1961,7 +1961,7 @@ efsf_sol_system_initializer = {
 			has_ring = no
 		}
 	}
-	
+
 	planet = {
 		name = "Saturn"
 		class = "pc_gas_giant"
@@ -1971,7 +1971,7 @@ efsf_sol_system_initializer = {
 		has_ring = yes
 		entity = "gas_giant_05_entity"
 		change_orbit = 7
-		
+
 		moon = {
 			name = "Titan"
 			class = "pc_frozen"
@@ -1981,7 +1981,7 @@ efsf_sol_system_initializer = {
 			has_ring = no
 		}
 	}
-	
+
 	planet = {
 		name = "Uranus"
 		class = "pc_gas_giant"
@@ -1991,7 +1991,7 @@ efsf_sol_system_initializer = {
 		has_ring = no
 		entity = "gas_giant_03_entity"
 	}
-	
+
 	planet = {
 		name = "Neptune"
 		class = "pc_gas_giant"
@@ -2001,7 +2001,7 @@ efsf_sol_system_initializer = {
 		has_ring = no
 		entity = "gas_giant_02_entity"
 		change_orbit = 4
-		
+
 		moon = {
 			name = "Triton"
 			class = "pc_frozen"
@@ -2011,13 +2011,13 @@ efsf_sol_system_initializer = {
 			has_ring = no
 		}
 	}
-	
+
 	neighbor_system = {
-		distance = { min = 10 max = @distance }	
+		distance = { min = 10 max = @distance }
 		initializer = "zeon_sol_neighbor_t1"
 	}
 	neighbor_system = {
-		distance = { min = 10 max = @distance }	
+		distance = { min = 10 max = @distance }
 		initializer = "zeon_sol_neighbor_t1_first_colony"
 	}
 }
@@ -2035,33 +2035,33 @@ efsf_sol_neighbor_t1 = {
 		size = { min = 20 max = 30 }
 		has_ring = no
 	}
-	
+
 	change_orbit = 45
-	
+
 	planet = {
 		count = { min = 0 max = 2 }
 		orbit_distance = 20
 		change_orbit = @base_moon_distance
-		
+
 		moon = {
 			count = { min = 0 max = 1 }
 			orbit_distance = 5
 		}
 	}
-	
+
 	planet = {
 		count = { min = 2 max = 5 }
 		orbit_distance = 20
 	}
-	
+
 	neighbor_system = {
-		distance = { min = 10 max = @distance }	
+		distance = { min = 10 max = @distance }
 		initializer = "efsf_sol_neighbor_t2_second_colony"
 	}
 }
 
 # Neighbor Tier 1 First Colony
-efsf_sol_neighbor_t1_first_colony = {	
+efsf_sol_neighbor_t1_first_colony = {
 	name = "Alpha Centauri"
 	class = sc_g
 
@@ -2074,21 +2074,21 @@ efsf_sol_neighbor_t1_first_colony = {
 		size = { min = 20 max = 30 }
 		has_ring = no
 	}
-	
+
 	change_orbit = 45
-	
+
 	planet = {
 		count = { min = 0 max = 2 }
 		orbit_distance = 20
-		
+
 		change_orbit = @base_moon_distance
-		
+
 		moon = {
 			count = { min = 0 max = 1 }
 			orbit_distance = 5
 		}
 	}
-	
+
 	planet = {
 		count = 1
 		orbit_distance = 25
@@ -2096,21 +2096,21 @@ efsf_sol_neighbor_t1_first_colony = {
 		orbit_angle = { min = 90 max = 270 }
 		size = { min = 12 max = 18 }
 	}
-	
+
 	planet = {
 		count = { min = 2 max = 5 }
 		orbit_distance = 25
-		
+
 		change_orbit = @base_moon_distance
-		
-		moon = {			
+
+		moon = {
 			count = { min = 0 max = 1 }
 			orbit_distance = 5
 		}
 	}
-	
+
 	neighbor_system = {
-		distance = { min = 10 max = @distance }	
+		distance = { min = 10 max = @distance }
 		initializer = "efsf_sol_neighbor_t2"
 	}
 }
@@ -2131,28 +2131,28 @@ efsf_sol_neighbor_t2 = {
 		size = { min = 20 max = 30 }
 		has_ring = no
 	}
-	
+
 	planet = {
 		count = 1
 		orbit_distance = 45
 	}
-	
+
 	change_orbit = 25
-	
+
 	planet = {
 		count = { min = 1 max = 3 }
 		class = random_asteroid
 		orbit_distance = 0
 		orbit_angle = { min = 0 max = 360 }
 	}
-	
+
 	planet = {
 		count = { min = 2 max = 5 }
 		orbit_distance = 25
-		
+
 		change_orbit = @base_moon_distance
-		
-		moon = {		
+
+		moon = {
 			count = { min = 0 max = 1 }
 			orbit_distance = 5
 		}
@@ -2173,22 +2173,22 @@ efsf_sol_neighbor_t2_second_colony = {
 		size = { min = 20 max = 30 }
 		has_ring = no
 	}
-	
+
 	change_orbit = 25
-	
+
 	planet = {
 		count = 2
 		orbit_angle = { min = 90 max = 270 }
 		orbit_distance = 20
 	}
-	
+
 	planet = {
 		count = 1
 		orbit_distance = 25
 		class = ideal_planet_class
 		orbit_angle = { min = 90 max = 270 }
 		size = { min = 14 max = 24 }
-		
+
 		change_orbit = @base_moon_distance
 
 		moon = {
@@ -2198,14 +2198,14 @@ efsf_sol_neighbor_t2_second_colony = {
 			orbit_distance = 5
 		}
 	}
-	
+
 	planet = {
 		count = 2
 		orbit_angle = { min = 90 max = 270 }
 		orbit_distance = 20
-		
+
 		change_orbit = @base_moon_distance
-		
+
 		moon = {
 			count = { min = 0 max = 1 }
 			class = random_non_colonizable
@@ -2213,7 +2213,7 @@ efsf_sol_neighbor_t2_second_colony = {
 			orbit_distance = 5
 		}
 	}
-	
+
 	planet = {
 		count = { min = 0 max = 2 }
 		orbit_angle = { min = 90 max = 270 }
@@ -2223,13 +2223,13 @@ efsf_sol_neighbor_t2_second_colony = {
 
 zeon_sol_system_initializer = {
 	name = "Sol"
-	
+
 	class = "sc_g"
 	asteroids_distance = 120
 	flags = { Zeon_Start sol_system sol }
-	
+
 	usage = custom_empire
-	
+
 	planet = {
 		name = "Sol"
 		class = "pc_g_star"
@@ -2238,7 +2238,7 @@ zeon_sol_system_initializer = {
 		size = 30
 		has_ring = no
 	}
-	
+
 	planet = {
 		name = "Mercury"
 		class = "pc_molten"
@@ -2247,7 +2247,7 @@ zeon_sol_system_initializer = {
 		size = 10
 		has_ring = no
 	}
-	
+
 	planet = {
 		name = "Venus"
 		class = "pc_toxic"
@@ -2256,7 +2256,7 @@ zeon_sol_system_initializer = {
 		size = 20
 		has_ring = no
 	}
-	
+
 	planet = {
 		name = "Mars"
 		class = "pc_barren"
@@ -2266,7 +2266,7 @@ zeon_sol_system_initializer = {
 		has_ring = no
 		entity = "barren_planet_mars_entity"
 	}
-	
+
 	planet = {
 		name = "NAME_Earth"
 		class = "pc_continental"
@@ -2278,11 +2278,11 @@ zeon_sol_system_initializer = {
 		tile_blockers = none
 		modifiers = none
 		flags = { planet_earth }
-		
+
 		init_effect = {
 			prevent_anomaly = yes
 		}
-		
+
 		init_effect = {
 				random_tile = {
 					limit = { has_blocker = no has_building = no num_adjacent_tiles > 3 }
@@ -2292,50 +2292,50 @@ zeon_sol_system_initializer = {
 				random_tile = {
 					limit = { has_blocker = no has_building = no }
 					set_building = "building_hydroponics_farm_1"
-					set_deposit = d_food_deposit					
+					set_deposit = d_food_deposit
 				}
 				random_tile = {
 					limit = { has_blocker = no has_building = no }
 					set_building = "building_hydroponics_farm_1"
-					aset_deposit = d_food_deposit						
+					set_deposit = d_food_deposit
 				}
 				random_tile = {
 					limit = { has_blocker = no has_building = no }
 					set_building = "building_power_plant_1"
-					set_deposit = d_energy_deposit						
+					set_deposit = d_energy_deposit
 				}
 				random_tile = {
 					limit = { has_blocker = no has_building = no }
 					set_building = "building_mining_network_1"
-					set_deposit = d_mineral_deposit						
-				}				
+					set_deposit = d_mineral_deposit
+				}
 				random_tile = {
 					limit = { has_blocker = no has_building = no }
 					set_building = "building_basic_science_lab_1"
 					random_list = {
-						33 = { 
-							set_deposit = d_engineering_deposit					
+						33 = {
+							set_deposit = d_engineering_deposit
 						}
-						33 = { 
-							set_deposit = d_physics_deposit						
+						33 = {
+							set_deposit = d_physics_deposit
 						}
-						33 = { 
-							set_deposit = d_society_deposit						
-						}					
-					}					
+						33 = {
+							set_deposit = d_society_deposit
+						}
+					}
 				}
 				random_tile = {
 					limit = { has_blocker = no has_building = no }
 					set_building = "building_mining_network_1"
-					set_deposit = d_mineral_deposit						
+					set_deposit = d_mineral_deposit
 				}
 				random_tile = {
 					limit = { has_blocker = no has_building = no }
 					set_building = "building_power_plant_1"
-					set_deposit = d_energy_deposit				
+					set_deposit = d_energy_deposit
 				}
 			}
-		
+
 		moon = {
 			name = "NAME_Luna"
 			class = "pc_barren_cold"
@@ -2345,7 +2345,7 @@ zeon_sol_system_initializer = {
 			has_ring = no
 			entity = "cold_barren_planet_luna_entity"
 		}
-		
+
 	moon = { #IT WORKS
 		name = "Side 3"
 		class = "pc_continental"
@@ -2357,13 +2357,13 @@ zeon_sol_system_initializer = {
 		entity = "side3_entity"
 		tile_blockers = none
 		modifiers = none
-		
+
 		flags = { side3 }
-		
+
 		init_effect = {
 			prevent_anomaly = yes
 		}
-		
+
 		init_effect = {
 				random_tile = {
 					limit = { has_blocker = no has_building = no num_adjacent_tiles > 3 }
@@ -2373,51 +2373,51 @@ zeon_sol_system_initializer = {
 				random_tile = {
 					limit = { has_blocker = no has_building = no }
 					set_building = "building_hydroponics_farm_1"
-					set_deposit = d_food_deposit					
+					set_deposit = d_food_deposit
 				}
 				random_tile = {
 					limit = { has_blocker = no has_building = no }
 					set_building = "building_hydroponics_farm_1"
-					aset_deposit = d_food_deposit						
+					set_deposit = d_food_deposit
 				}
 				random_tile = {
 					limit = { has_blocker = no has_building = no }
 					set_building = "building_power_plant_1"
-					set_deposit = d_energy_deposit						
+					set_deposit = d_energy_deposit
 				}
 				random_tile = {
 					limit = { has_blocker = no has_building = no }
 					set_building = "building_mining_network_1"
-					set_deposit = d_mineral_deposit						
-				}				
+					set_deposit = d_mineral_deposit
+				}
 				random_tile = {
 					limit = { has_blocker = no has_building = no }
 					set_building = "building_basic_science_lab_1"
 					random_list = {
-						33 = { 
-							set_deposit = d_engineering_deposit					
+						33 = {
+							set_deposit = d_engineering_deposit
 						}
-						33 = { 
-							set_deposit = d_physics_deposit						
+						33 = {
+							set_deposit = d_physics_deposit
 						}
-						33 = { 
-							set_deposit = d_society_deposit						
-						}					
-					}					
+						33 = {
+							set_deposit = d_society_deposit
+						}
+					}
 				}
 				random_tile = {
 					limit = { has_blocker = no has_building = no }
 					set_building = "building_mining_network_1"
-					set_deposit = d_mineral_deposit						
+					set_deposit = d_mineral_deposit
 				}
 				random_tile = {
 					limit = { has_blocker = no has_building = no }
 					set_building = "building_power_plant_1"
-					set_deposit = d_energy_deposit				
+					set_deposit = d_energy_deposit
 				}
 			}
 	}
-	
+
 	moon = {
 		name = "Side 1/6"
 		class = "pc_habitat"
@@ -2427,47 +2427,47 @@ zeon_sol_system_initializer = {
 		entity = "zeon_01_orbital_habitat_entity"
 		tile_blockers = none
 		modifiers = none
-		
+
 		flags = { side16 }
-		
+
 		init_effect = {
 			prevent_anomaly = yes
 		}
-		
+
 		init_effect = {
-			
+
 			random_tile = {
 				limit = { has_blocker = no has_building = no }
 				set_building = "building_hab_astro_mining_facility"
 			}
-			
+
 			random_tile = {
 				limit = { has_blocker = no has_building = no }
 				set_building = "building_hab_solar_power_processor"
 			}
-			
+
 			random_tile = {
 				limit = { has_blocker = no has_building = no }
 				set_building = "building_hab_agri_bay"
 			}
-			
+
 			random_tile = {
 				limit = { has_blocker = no has_building = no }
 				set_building = "building_hab_astro_mining_facility"
 			}
-			
+
 			random_tile = {
 				limit = { has_blocker = no has_building = no }
 				set_building = "building_hab_solar_power_processor"
 			}
-			
+
 			random_tile = {
 				limit = { has_blocker = no has_building = no }
 				set_building = "building_hab_agri_bay"
 			}
 		}
 	}
-	
+
 	moon = {
 		name = "Side 2/5"
 		class = "pc_habitat"
@@ -2477,47 +2477,47 @@ zeon_sol_system_initializer = {
 		entity = "zeon_01_orbital_habitat_entity"
 		tile_blockers = none
 		modifiers = none
-		
+
 		flags = { side25 }
-		
+
 		init_effect = {
 			prevent_anomaly = yes
 		}
-		
+
 		init_effect = {
-			
+
 			random_tile = {
 				limit = { has_blocker = no has_building = no }
 				set_building = "building_hab_astro_mining_facility"
 			}
-			
+
 			random_tile = {
 				limit = { has_blocker = no has_building = no }
 				set_building = "building_hab_solar_power_processor"
 			}
-			
+
 			random_tile = {
 				limit = { has_blocker = no has_building = no }
 				set_building = "building_hab_agri_bay"
 			}
-			
+
 			random_tile = {
 				limit = { has_blocker = no has_building = no }
 				set_building = "building_hab_astro_mining_facility"
 			}
-			
+
 			random_tile = {
 				limit = { has_blocker = no has_building = no }
 				set_building = "building_hab_solar_power_processor"
 			}
-			
+
 			random_tile = {
 				limit = { has_blocker = no has_building = no }
 				set_building = "building_hab_agri_bay"
 			}
 		}
 	}
-	
+
 	moon = {
 		name = "Side 4"
 		class = "pc_habitat"
@@ -2527,34 +2527,34 @@ zeon_sol_system_initializer = {
 		entity = "zeon_01_orbital_habitat_entity"
 		tile_blockers = none
 		modifiers = none
-		
+
 		flags = { side4 }
-		
+
 		init_effect = {
 			prevent_anomaly = yes
 		}
-		
+
 		init_effect = {
-			
+
 			random_tile = {
 				limit = { has_blocker = no has_building = no }
 				set_building = "building_hab_astro_mining_facility"
 			}
-			
+
 			random_tile = {
 				limit = { has_blocker = no has_building = no }
 				set_building = "building_hab_solar_power_processor"
 			}
-			
+
 			random_tile = {
 				limit = { has_blocker = no has_building = no }
 				set_building = "building_hab_agri_bay"
 			}
-			
+
 			set_owner = root
 		}
 	}
-	
+
 	moon = {
 		name = "Side 7"
 		class = "pc_habitat"
@@ -2564,45 +2564,45 @@ zeon_sol_system_initializer = {
 		entity = "zeon_01_orbital_habitat_entity"
 		tile_blockers = none
 		modifiers = none
-		
+
 		flags = { side7 }
-		
+
 		init_effect = {
 			prevent_anomaly = yes
 		}
-		
+
 		init_effect = {
-		
+
 			random_tile = {
 				limit = { has_blocker = yes }
-				remove_blocker = yes 
+				remove_blocker = yes
 			}
-			
+
 			random_tile = {
 				limit = { has_blocker = yes }
-				remove_blocker = yes 
+				remove_blocker = yes
 			}
-			
+
 			random_tile = {
 				limit = { has_blocker = no has_building = no }
 				set_building = "building_hab_laboratory_module"
 			}
-			
+
 			random_tile = {
 				limit = { has_blocker = no has_building = no }
 				set_building = "building_hab_laboratory_module"
 			}
-			
+
 			random_tile = {
 				limit = { has_blocker = no has_building = no }
 				set_building = "building_hab_laboratory_module"
 			}
-			
+
 			set_owner = root
 		}
 	}
 	}
-	
+
 	planet = {
 		name = "1 Ceres"
 		class = "pc_asteroid"
@@ -2611,7 +2611,7 @@ zeon_sol_system_initializer = {
 		size = 5
 		has_ring = no
 	}
-	
+
 	planet = {
 		name = "2 Pallas"
 		class = "pc_asteroid"
@@ -2620,7 +2620,7 @@ zeon_sol_system_initializer = {
 		size = 5
 		has_ring = no
 	}
-	
+
 	planet = {
 		name = "3 Juno"
 		class = "pc_asteroid"
@@ -2629,7 +2629,7 @@ zeon_sol_system_initializer = {
 		size = 5
 		has_ring = no
 	}
-	
+
 	planet = {
 		name = "4 Vesta"
 		class = "pc_asteroid"
@@ -2638,7 +2638,7 @@ zeon_sol_system_initializer = {
 		size = 5
 		has_ring = no
 	}
-	
+
 	planet = {
 		name = "Jupiter"
 		class = "pc_gas_giant"
@@ -2648,7 +2648,7 @@ zeon_sol_system_initializer = {
 		has_ring = no
 		entity = "gas_giant_jupiter_entity"
 		change_orbit = 6
-		
+
 		moon = {
 			name = "Io"
 			class = "pc_molten"
@@ -2682,7 +2682,7 @@ zeon_sol_system_initializer = {
 			has_ring = no
 		}
 	}
-	
+
 	planet = {
 		name = "Saturn"
 		class = "pc_gas_giant"
@@ -2692,7 +2692,7 @@ zeon_sol_system_initializer = {
 		has_ring = yes
 		entity = "gas_giant_05_entity"
 		change_orbit = 7
-		
+
 		moon = {
 			name = "Titan"
 			class = "pc_frozen"
@@ -2702,7 +2702,7 @@ zeon_sol_system_initializer = {
 			has_ring = no
 		}
 	}
-	
+
 	planet = {
 		name = "Uranus"
 		class = "pc_gas_giant"
@@ -2712,7 +2712,7 @@ zeon_sol_system_initializer = {
 		has_ring = no
 		entity = "gas_giant_03_entity"
 	}
-	
+
 	planet = {
 		name = "Neptune"
 		class = "pc_gas_giant"
@@ -2722,7 +2722,7 @@ zeon_sol_system_initializer = {
 		has_ring = no
 		entity = "gas_giant_02_entity"
 		change_orbit = 4
-		
+
 		moon = {
 			name = "Triton"
 			class = "pc_frozen"
@@ -2732,13 +2732,13 @@ zeon_sol_system_initializer = {
 			has_ring = no
 		}
 	}
-	
+
 	neighbor_system = {
-		distance = { min = 10 max = @distance }	
+		distance = { min = 10 max = @distance }
 		initializer = "zeon_sol_neighbor_t1"
 	}
 	neighbor_system = {
-		distance = { min = 10 max = @distance }	
+		distance = { min = 10 max = @distance }
 		initializer = "zeon_sol_neighbor_t1_first_colony"
 	}
 }
@@ -2756,33 +2756,33 @@ zeon_sol_neighbor_t1 = {
 		size = { min = 20 max = 30 }
 		has_ring = no
 	}
-	
+
 	change_orbit = 45
-	
+
 	planet = {
 		count = { min = 0 max = 2 }
 		orbit_distance = 20
 		change_orbit = @base_moon_distance
-		
+
 		moon = {
 			count = { min = 0 max = 1 }
 			orbit_distance = 5
 		}
 	}
-	
+
 	planet = {
 		count = { min = 2 max = 5 }
 		orbit_distance = 20
 	}
-	
+
 	neighbor_system = {
-		distance = { min = 10 max = @distance }	
+		distance = { min = 10 max = @distance }
 		initializer = "zeon_sol_neighbor_t2_second_colony"
 	}
 }
 
 # Neighbor Tier 1 First Colony
-zeon_sol_neighbor_t1_first_colony = {	
+zeon_sol_neighbor_t1_first_colony = {
 	name = "Alpha Centauri"
 	class = sc_g
 
@@ -2795,21 +2795,21 @@ zeon_sol_neighbor_t1_first_colony = {
 		size = { min = 20 max = 30 }
 		has_ring = no
 	}
-	
+
 	change_orbit = 45
-	
+
 	planet = {
 		count = { min = 0 max = 2 }
 		orbit_distance = 20
-		
+
 		change_orbit = @base_moon_distance
-		
+
 		moon = {
 			count = { min = 0 max = 1 }
 			orbit_distance = 5
 		}
 	}
-	
+
 	planet = {
 		count = 1
 		orbit_distance = 25
@@ -2817,21 +2817,21 @@ zeon_sol_neighbor_t1_first_colony = {
 		orbit_angle = { min = 90 max = 270 }
 		size = { min = 12 max = 18 }
 	}
-	
+
 	planet = {
 		count = { min = 2 max = 5 }
 		orbit_distance = 25
-		
+
 		change_orbit = @base_moon_distance
-		
-		moon = {			
+
+		moon = {
 			count = { min = 0 max = 1 }
 			orbit_distance = 5
 		}
 	}
-	
+
 	neighbor_system = {
-		distance = { min = 10 max = @distance }	
+		distance = { min = 10 max = @distance }
 		initializer = "zeon_sol_neighbor_t2"
 	}
 }
@@ -2852,28 +2852,28 @@ zeon_sol_neighbor_t2 = {
 		size = { min = 20 max = 30 }
 		has_ring = no
 	}
-	
+
 	planet = {
 		count = 1
 		orbit_distance = 45
 	}
-	
+
 	change_orbit = 25
-	
+
 	planet = {
 		count = { min = 1 max = 3 }
 		class = random_asteroid
 		orbit_distance = 0
 		orbit_angle = { min = 0 max = 360 }
 	}
-	
+
 	planet = {
 		count = { min = 2 max = 5 }
 		orbit_distance = 25
-		
+
 		change_orbit = @base_moon_distance
-		
-		moon = {		
+
+		moon = {
 			count = { min = 0 max = 1 }
 			orbit_distance = 5
 		}
@@ -2894,22 +2894,22 @@ zeon_sol_neighbor_t2_second_colony = {
 		size = { min = 20 max = 30 }
 		has_ring = no
 	}
-	
+
 	change_orbit = 25
-	
+
 	planet = {
 		count = 2
 		orbit_angle = { min = 90 max = 270 }
 		orbit_distance = 20
 	}
-	
+
 	planet = {
 		count = 1
 		orbit_distance = 25
 		class = ideal_planet_class
 		orbit_angle = { min = 90 max = 270 }
 		size = { min = 14 max = 24 }
-		
+
 		change_orbit = @base_moon_distance
 
 		moon = {
@@ -2919,14 +2919,14 @@ zeon_sol_neighbor_t2_second_colony = {
 			orbit_distance = 5
 		}
 	}
-	
+
 	planet = {
 		count = 2
 		orbit_angle = { min = 90 max = 270 }
 		orbit_distance = 20
-		
+
 		change_orbit = @base_moon_distance
-		
+
 		moon = {
 			count = { min = 0 max = 1 }
 			class = random_non_colonizable
@@ -2934,7 +2934,7 @@ zeon_sol_neighbor_t2_second_colony = {
 			orbit_distance = 5
 		}
 	}
-	
+
 	planet = {
 		count = { min = 0 max = 2 }
 		orbit_angle = { min = 90 max = 270 }
@@ -2944,13 +2944,13 @@ zeon_sol_neighbor_t2_second_colony = {
 
 gundamu_sol_system_initializer = {
 	name = "Sol"
-	
+
 	class = "sc_g"
 	asteroids_distance = 120
 	flags = { Gundamu_Start sol_system sol }
-	
+
 	usage = custom_empire
-	
+
 	planet = {
 		name = "Sol"
 		class = "pc_g_star"
@@ -2959,7 +2959,7 @@ gundamu_sol_system_initializer = {
 		size = 30
 		has_ring = no
 	}
-	
+
 	planet = {
 		name = "Mercury"
 		class = "pc_molten"
@@ -2968,7 +2968,7 @@ gundamu_sol_system_initializer = {
 		size = 10
 		has_ring = no
 	}
-	
+
 	planet = {
 		name = "Venus"
 		class = "pc_toxic"
@@ -2977,7 +2977,7 @@ gundamu_sol_system_initializer = {
 		size = 20
 		has_ring = no
 	}
-	
+
 	planet = {
 		name = "Mars"
 		class = "pc_barren"
@@ -2987,7 +2987,7 @@ gundamu_sol_system_initializer = {
 		has_ring = no
 		entity = "barren_planet_mars_entity"
 	}
-	
+
 	planet = {
 		name = "NAME_Earth"
 		class = "pc_continental"
@@ -3000,11 +3000,11 @@ gundamu_sol_system_initializer = {
 		tile_blockers = none
 		modifiers = none
 		flags = { planet_earth }
-		
+
 		init_effect = {
 			prevent_anomaly = yes
 		}
-		
+
 		init_effect = {
 				random_tile = {
 					limit = { has_blocker = no has_building = no num_adjacent_tiles > 3 }
@@ -3014,80 +3014,80 @@ gundamu_sol_system_initializer = {
 				random_tile = {
 					limit = { has_blocker = no has_building = no }
 					set_building = "building_hydroponics_farm_1"
-					set_deposit = d_food_deposit					
+					set_deposit = d_food_deposit
 				}
 				random_tile = {
 					limit = { has_blocker = no has_building = no }
 					set_building = "building_hydroponics_farm_1"
-					aset_deposit = d_food_deposit						
+					set_deposit = d_food_deposit
 				}
 				random_tile = {
 					limit = { has_blocker = no has_building = no }
 					set_building = "building_power_plant_1"
-					set_deposit = d_energy_deposit						
+					set_deposit = d_energy_deposit
 				}
 				random_tile = {
 					limit = { has_blocker = no has_building = no }
 					set_building = "building_mining_network_1"
-					set_deposit = d_mineral_deposit						
-				}				
+					set_deposit = d_mineral_deposit
+				}
 				random_tile = {
 					limit = { has_blocker = no has_building = no }
 					set_building = "building_basic_science_lab_1"
 					random_list = {
-						33 = { 
-							set_deposit = d_engineering_deposit					
+						33 = {
+							set_deposit = d_engineering_deposit
 						}
-						33 = { 
-							set_deposit = d_physics_deposit						
+						33 = {
+							set_deposit = d_physics_deposit
 						}
-						33 = { 
-							set_deposit = d_society_deposit						
-						}					
-					}					
+						33 = {
+							set_deposit = d_society_deposit
+						}
+					}
 				}
 				random_tile = {
 					limit = { has_blocker = no has_building = no }
 					set_building = "building_mining_network_1"
-					set_deposit = d_mineral_deposit						
+					set_deposit = d_mineral_deposit
 				}
 				random_tile = {
 					limit = { has_blocker = no has_building = no }
 					set_building = "building_power_plant_1"
-					set_deposit = d_energy_deposit				
-				}				
+					set_deposit = d_energy_deposit
+				}
 			random_tile = {
 				limit = { has_blocker = no has_building = no }
 				set_blocker = "tb_city_ruins"
-				set_deposit = d_engineering_deposit				
-			}
-			random_tile = {
-				limit = { has_blocker = no has_building = no }
-				set_blocker = "tb_city_ruins"
-				set_deposit = d_society_deposit				
+				set_deposit = d_engineering_deposit
 			}
 			random_tile = {
 				limit = { has_blocker = no has_building = no }
 				set_blocker = "tb_city_ruins"
-				set_deposit = d_physics_deposit				
+				set_deposit = d_society_deposit
+			}
+			random_tile = {
+				limit = { has_blocker = no has_building = no }
+				set_blocker = "tb_city_ruins"
+				set_deposit = d_physics_deposit
 			}
 			random_tile = {
 				limit = { has_blocker = no has_building = no }
 				set_blocker = "tb_crater"
-				set_deposit = d_energy_deposit					
+				set_deposit = d_energy_deposit
 			}
 			random_tile = {
 				limit = { has_blocker = no has_building = no }
 				set_blocker = "tb_crater"
-				set_deposit = d_food_deposit					
+				set_deposit = d_food_deposit
 			}
 			random_tile = {
 				limit = { has_blocker = no has_building = no }
 				set_blocker = "tb_crater"
-				set_deposit = d_mineral_deposit				
-			}			
+				set_deposit = d_mineral_deposit
+			}
 		}
-		
+
 		moon = {
 			name = "NAME_Luna"
 			class = "pc_barren_cold"
@@ -3097,7 +3097,7 @@ gundamu_sol_system_initializer = {
 			has_ring = no
 			entity = "cold_barren_planet_luna_entity"
 		}
-		
+
 	moon = { #IT WORKS
 		name = "Side 3"
 		class = "pc_continental"
@@ -3105,16 +3105,16 @@ gundamu_sol_system_initializer = {
 		orbit_angle = 0
 		size = 16
 		has_ring = no
-		entity = "side3_entity" 
+		entity = "side3_entity"
 		tile_blockers = none
 		modifiers = none
-		
+
 		flags = { side3 }
-		
+
 		init_effect = {
 			prevent_anomaly = yes
 		}
-		
+
 		init_effect = {
 				random_tile = {
 					limit = { has_blocker = no has_building = no num_adjacent_tiles > 3 }
@@ -3124,51 +3124,51 @@ gundamu_sol_system_initializer = {
 				random_tile = {
 					limit = { has_blocker = no has_building = no }
 					set_building = "building_hydroponics_farm_1"
-					set_deposit = d_food_deposit					
+					set_deposit = d_food_deposit
 				}
 				random_tile = {
 					limit = { has_blocker = no has_building = no }
 					set_building = "building_hydroponics_farm_1"
-					aset_deposit = d_food_deposit						
+					set_deposit = d_food_deposit
 				}
 				random_tile = {
 					limit = { has_blocker = no has_building = no }
 					set_building = "building_power_plant_1"
-					set_deposit = d_energy_deposit						
+					set_deposit = d_energy_deposit
 				}
 				random_tile = {
 					limit = { has_blocker = no has_building = no }
 					set_building = "building_mining_network_1"
-					set_deposit = d_mineral_deposit						
-				}				
+					set_deposit = d_mineral_deposit
+				}
 				random_tile = {
 					limit = { has_blocker = no has_building = no }
 					set_building = "building_basic_science_lab_1"
 					random_list = {
-						33 = { 
-							set_deposit = d_engineering_deposit					
+						33 = {
+							set_deposit = d_engineering_deposit
 						}
-						33 = { 
-							set_deposit = d_physics_deposit						
+						33 = {
+							set_deposit = d_physics_deposit
 						}
-						33 = { 
-							set_deposit = d_society_deposit						
-						}					
-					}					
+						33 = {
+							set_deposit = d_society_deposit
+						}
+					}
 				}
 				random_tile = {
 					limit = { has_blocker = no has_building = no }
 					set_building = "building_mining_network_1"
-					set_deposit = d_mineral_deposit						
+					set_deposit = d_mineral_deposit
 				}
 				random_tile = {
 					limit = { has_blocker = no has_building = no }
 					set_building = "building_power_plant_1"
-					set_deposit = d_energy_deposit				
+					set_deposit = d_energy_deposit
 				}
 			}
 	}
-	
+
 	moon = {
 		name = "Side 1/6"
 		class = "pc_habitat"
@@ -3178,47 +3178,47 @@ gundamu_sol_system_initializer = {
 		entity = "zeon_01_orbital_habitat_entity"
 		tile_blockers = none
 		modifiers = none
-		
+
 		flags = { side16 }
-		
+
 		init_effect = {
 			prevent_anomaly = yes
 		}
-		
+
 		init_effect = {
-			
+
 			random_tile = {
 				limit = { has_blocker = no has_building = no }
 				set_building = "building_hab_astro_mining_facility"
 			}
-			
+
 			random_tile = {
 				limit = { has_blocker = no has_building = no }
 				set_building = "building_hab_solar_power_processor"
 			}
-			
+
 			random_tile = {
 				limit = { has_blocker = no has_building = no }
 				set_building = "building_hab_agri_bay"
 			}
-			
+
 			random_tile = {
 				limit = { has_blocker = no has_building = no }
 				set_building = "building_hab_astro_mining_facility"
 			}
-			
+
 			random_tile = {
 				limit = { has_blocker = no has_building = no }
 				set_building = "building_hab_solar_power_processor"
 			}
-			
+
 			random_tile = {
 				limit = { has_blocker = no has_building = no }
 				set_building = "building_hab_agri_bay"
 			}
 		}
 	}
-	
+
 	moon = {
 		name = "Side 2/5"
 		class = "pc_habitat"
@@ -3228,47 +3228,47 @@ gundamu_sol_system_initializer = {
 		entity = "zeon_01_orbital_habitat_entity"
 		tile_blockers = none
 		modifiers = none
-		
+
 		flags = { side25 }
-		
+
 		init_effect = {
 			prevent_anomaly = yes
 		}
-		
+
 		init_effect = {
-			
+
 			random_tile = {
 				limit = { has_blocker = no has_building = no }
 				set_building = "building_hab_astro_mining_facility"
 			}
-			
+
 			random_tile = {
 				limit = { has_blocker = no has_building = no }
 				set_building = "building_hab_solar_power_processor"
 			}
-			
+
 			random_tile = {
 				limit = { has_blocker = no has_building = no }
 				set_building = "building_hab_agri_bay"
 			}
-			
+
 			random_tile = {
 				limit = { has_blocker = no has_building = no }
 				set_building = "building_hab_astro_mining_facility"
 			}
-			
+
 			random_tile = {
 				limit = { has_blocker = no has_building = no }
 				set_building = "building_hab_solar_power_processor"
 			}
-			
+
 			random_tile = {
 				limit = { has_blocker = no has_building = no }
 				set_building = "building_hab_agri_bay"
 			}
 		}
 	}
-	
+
 	moon = {
 		name = "Side 4"
 		class = "pc_habitat"
@@ -3278,34 +3278,34 @@ gundamu_sol_system_initializer = {
 		entity = "zeon_01_orbital_habitat_entity"
 		tile_blockers = none
 		modifiers = none
-		
+
 		flags = { side4 }
-		
+
 		init_effect = {
 			prevent_anomaly = yes
 		}
-		
+
 		init_effect = {
-			
+
 			random_tile = {
 				limit = { has_blocker = no has_building = no }
 				set_building = "building_hab_astro_mining_facility"
 			}
-			
+
 			random_tile = {
 				limit = { has_blocker = no has_building = no }
 				set_building = "building_hab_solar_power_processor"
 			}
-			
+
 			random_tile = {
 				limit = { has_blocker = no has_building = no }
 				set_building = "building_hab_agri_bay"
 			}
-			
+
 			set_owner = root
 		}
 	}
-	
+
 	moon = {
 		name = "Side 7"
 		class = "pc_habitat"
@@ -3315,45 +3315,45 @@ gundamu_sol_system_initializer = {
 		entity = "zeon_01_orbital_habitat_entity"
 		tile_blockers = none
 		modifiers = none
-		
+
 		flags = { side7 }
-		
+
 		init_effect = {
 			prevent_anomaly = yes
 		}
-		
+
 		init_effect = {
-		
+
 			random_tile = {
 				limit = { has_blocker = yes }
-				remove_blocker = yes 
+				remove_blocker = yes
 			}
-			
+
 			random_tile = {
 				limit = { has_blocker = yes }
-				remove_blocker = yes 
+				remove_blocker = yes
 			}
-			
+
 			random_tile = {
 				limit = { has_blocker = no has_building = no }
 				set_building = "building_hab_laboratory_module"
 			}
-			
+
 			random_tile = {
 				limit = { has_blocker = no has_building = no }
 				set_building = "building_hab_laboratory_module"
 			}
-			
+
 			random_tile = {
 				limit = { has_blocker = no has_building = no }
 				set_building = "building_hab_laboratory_module"
 			}
-			
+
 			set_owner = root
 		}
 	}
 	}
-	
+
 	planet = {
 		name = "1 Ceres"
 		class = "pc_asteroid"
@@ -3362,7 +3362,7 @@ gundamu_sol_system_initializer = {
 		size = 5
 		has_ring = no
 	}
-	
+
 	planet = {
 		name = "2 Pallas"
 		class = "pc_asteroid"
@@ -3371,7 +3371,7 @@ gundamu_sol_system_initializer = {
 		size = 5
 		has_ring = no
 	}
-	
+
 	planet = {
 		name = "3 Juno"
 		class = "pc_asteroid"
@@ -3380,7 +3380,7 @@ gundamu_sol_system_initializer = {
 		size = 5
 		has_ring = no
 	}
-	
+
 	planet = {
 		name = "4 Vesta"
 		class = "pc_asteroid"
@@ -3389,7 +3389,7 @@ gundamu_sol_system_initializer = {
 		size = 5
 		has_ring = no
 	}
-	
+
 	planet = {
 		name = "Jupiter"
 		class = "pc_gas_giant"
@@ -3399,7 +3399,7 @@ gundamu_sol_system_initializer = {
 		has_ring = no
 		entity = "gas_giant_jupiter_entity"
 		change_orbit = 6
-		
+
 		moon = {
 			name = "Io"
 			class = "pc_molten"
@@ -3433,7 +3433,7 @@ gundamu_sol_system_initializer = {
 			has_ring = no
 		}
 	}
-	
+
 	planet = {
 		name = "Saturn"
 		class = "pc_gas_giant"
@@ -3443,7 +3443,7 @@ gundamu_sol_system_initializer = {
 		has_ring = yes
 		entity = "gas_giant_05_entity"
 		change_orbit = 7
-		
+
 		moon = {
 			name = "Titan"
 			class = "pc_frozen"
@@ -3453,7 +3453,7 @@ gundamu_sol_system_initializer = {
 			has_ring = no
 		}
 	}
-	
+
 	planet = {
 		name = "Uranus"
 		class = "pc_gas_giant"
@@ -3463,7 +3463,7 @@ gundamu_sol_system_initializer = {
 		has_ring = no
 		entity = "gas_giant_03_entity"
 	}
-	
+
 	planet = {
 		name = "Neptune"
 		class = "pc_gas_giant"
@@ -3473,7 +3473,7 @@ gundamu_sol_system_initializer = {
 		has_ring = no
 		entity = "gas_giant_02_entity"
 		change_orbit = 4
-		
+
 		moon = {
 			name = "Triton"
 			class = "pc_frozen"
@@ -3483,13 +3483,13 @@ gundamu_sol_system_initializer = {
 			has_ring = no
 		}
 	}
-	
+
 	neighbor_system = {
-		distance = { min = 10 max = @distance }	
+		distance = { min = 10 max = @distance }
 		initializer = "zeon_sol_neighbor_t1"
 	}
 	neighbor_system = {
-		distance = { min = 10 max = @distance }	
+		distance = { min = 10 max = @distance }
 		initializer = "zeon_sol_neighbor_t1_first_colony"
 	}
 }
@@ -3507,33 +3507,33 @@ gundamu_sol_neighbor_t1 = {
 		size = { min = 20 max = 30 }
 		has_ring = no
 	}
-	
+
 	change_orbit = 45
-	
+
 	planet = {
 		count = { min = 0 max = 2 }
 		orbit_distance = 20
 		change_orbit = @base_moon_distance
-		
+
 		moon = {
 			count = { min = 0 max = 1 }
 			orbit_distance = 5
 		}
 	}
-	
+
 	planet = {
 		count = { min = 2 max = 5 }
 		orbit_distance = 20
 	}
-	
+
 	neighbor_system = {
-		distance = { min = 10 max = @distance }	
+		distance = { min = 10 max = @distance }
 		initializer = "gundamu_sol_neighbor_t2_second_colony"
 	}
 }
 
 # Neighbor Tier 1 First Colony
-gundamu_sol_neighbor_t1_first_colony = {	
+gundamu_sol_neighbor_t1_first_colony = {
 	name = "Alpha Centauri"
 	class = sc_g
 
@@ -3546,21 +3546,21 @@ gundamu_sol_neighbor_t1_first_colony = {
 		size = { min = 20 max = 30 }
 		has_ring = no
 	}
-	
+
 	change_orbit = 45
-	
+
 	planet = {
 		count = { min = 0 max = 2 }
 		orbit_distance = 20
-		
+
 		change_orbit = @base_moon_distance
-		
+
 		moon = {
 			count = { min = 0 max = 1 }
 			orbit_distance = 5
 		}
 	}
-	
+
 	planet = {
 		count = 1
 		orbit_distance = 25
@@ -3568,21 +3568,21 @@ gundamu_sol_neighbor_t1_first_colony = {
 		orbit_angle = { min = 90 max = 270 }
 		size = { min = 12 max = 18 }
 	}
-	
+
 	planet = {
 		count = { min = 2 max = 5 }
 		orbit_distance = 25
-		
+
 		change_orbit = @base_moon_distance
-		
-		moon = {			
+
+		moon = {
 			count = { min = 0 max = 1 }
 			orbit_distance = 5
 		}
 	}
-	
+
 	neighbor_system = {
-		distance = { min = 10 max = @distance }	
+		distance = { min = 10 max = @distance }
 		initializer = "gundamu_sol_neighbor_t2"
 	}
 }
@@ -3603,28 +3603,28 @@ gundamu_sol_neighbor_t2 = {
 		size = { min = 20 max = 30 }
 		has_ring = no
 	}
-	
+
 	planet = {
 		count = 1
 		orbit_distance = 45
 	}
-	
+
 	change_orbit = 25
-	
+
 	planet = {
 		count = { min = 1 max = 3 }
 		class = random_asteroid
 		orbit_distance = 0
 		orbit_angle = { min = 0 max = 360 }
 	}
-	
+
 	planet = {
 		count = { min = 2 max = 5 }
 		orbit_distance = 25
-		
+
 		change_orbit = @base_moon_distance
-		
-		moon = {		
+
+		moon = {
 			count = { min = 0 max = 1 }
 			orbit_distance = 5
 		}
@@ -3645,22 +3645,22 @@ gundamu_sol_neighbor_t2_second_colony = {
 		size = { min = 20 max = 30 }
 		has_ring = no
 	}
-	
+
 	change_orbit = 25
-	
+
 	planet = {
 		count = 2
 		orbit_angle = { min = 90 max = 270 }
 		orbit_distance = 20
 	}
-	
+
 	planet = {
 		count = 1
 		orbit_distance = 25
 		class = ideal_planet_class
 		orbit_angle = { min = 90 max = 270 }
 		size = { min = 14 max = 24 }
-		
+
 		change_orbit = @base_moon_distance
 
 		moon = {
@@ -3670,14 +3670,14 @@ gundamu_sol_neighbor_t2_second_colony = {
 			orbit_distance = 5
 		}
 	}
-	
+
 	planet = {
 		count = 2
 		orbit_angle = { min = 90 max = 270 }
 		orbit_distance = 20
-		
+
 		change_orbit = @base_moon_distance
-		
+
 		moon = {
 			count = { min = 0 max = 1 }
 			class = random_non_colonizable
@@ -3685,7 +3685,7 @@ gundamu_sol_neighbor_t2_second_colony = {
 			orbit_distance = 5
 		}
 	}
-	
+
 	planet = {
 		count = { min = 0 max = 2 }
 		orbit_angle = { min = 90 max = 270 }

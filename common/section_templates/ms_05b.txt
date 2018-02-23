@@ -2,16 +2,8 @@ ship_section_template = { #MS-05B MPT
 	key = "MS_05B_MID"
 	ship_size = MS_05B
 	fits_on_slot = mid
-	entity = "zaku1_body_S3_entity"
+	entity = "zaku1_body_S3_entity" #zaku1_body_S3_entity
 	icon = "GFX_ship_part_core_mid"
-
-	# Guns
-	weapon_preferences = { weapon_type_z1 }
-	ai_weight = {
-		modifier = {
-			factor = 10.0
-		}
-	}
 
 	component_slot = {
 		name = "SMALL_GUN_01"
@@ -34,10 +26,10 @@ ship_section_template = { #MS-05B MPT
 		locatorname = "small_gun_03"
 	}
 
-	small_utility_slots = 0
-	medium_utility_slots = 0
-	large_utility_slots = 0
-	aux_utility_slots = 0
+	#small_utility_slots = 0
+	#medium_utility_slots = 0
+	#large_utility_slots = 0
+	#aux_utility_slots = 0
 
 	cost = 120
 }

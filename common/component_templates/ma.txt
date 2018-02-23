@@ -9,7 +9,7 @@ utility_component_template = {
 	cost = 0
 
 	modifier = {
-		ship_armor_add = 100
+		ship_armor_add = 62
 	}
 	#ship_modifier = {
 	#	ship_weapon_damage = 0.01
@@ -61,7 +61,7 @@ utility_component_template = {
 	cost = 0
 
 	modifier = {
-		ship_armor_add = 150
+		ship_armor_add = 270
 	}
 	#ship_modifier = {
 	#	ship_weapon_damage = 0.01
@@ -113,7 +113,7 @@ utility_component_template = {
 	cost = 0
 
 	modifier = {
-		ship_armor_add = 300
+		ship_armor_add = 600
 	}
 	#ship_modifier = {
 	#	ship_weapon_damage = 0.01
@@ -165,7 +165,7 @@ utility_component_template = {
 	cost = 0
 
 	modifier = {
-		ship_armor_add = 500
+		ship_armor_add = 1500
 	}
 	#ship_modifier = {
 	#	ship_weapon_damage = 0.01
@@ -217,7 +217,7 @@ utility_component_template = {
 	cost = 0
 
 	modifier = {
-		ship_armor_add = 150
+		ship_armor_add = 338
 	}
 	#ship_modifier = {
 	#	ship_weapon_damage = 0.01
