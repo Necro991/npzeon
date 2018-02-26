@@ -26,10 +26,10 @@ ship_section_template = { #MS-05B MPT
 		locatorname = "small_gun_03"
 	}
 
-	#small_utility_slots = 0
-	#medium_utility_slots = 0
-	#large_utility_slots = 0
-	#aux_utility_slots = 0
+	small_utility_slots = 0
+	medium_utility_slots = 0
+	large_utility_slots = 0
+	aux_utility_slots = 0
 
 	cost = 120
 }

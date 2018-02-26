@@ -7,6 +7,12 @@ objectTypes = {
 	########														########
 	########################################################################
 
+	pdxmesh = {
+		name = "zeon_locator_mesh"
+		file = "gfx/models/locator.mesh"
+		scale = 1.0
+	}
+
 #	pdxmesh = {
 #		name = "test_fighter_mesh"
 #		file = "gfx/models/test_fighter.mesh"

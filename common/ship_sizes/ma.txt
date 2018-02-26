@@ -9,17 +9,10 @@
 
 MSN_01 = { #MSN-01 Psycommu Zaku
 	formation_priority = @corvette_formation_priority
-	#entity = zakuIframe_entity
 	max_speed = 170
 	acceleration = 0.5
 	rotation_speed = 0.455
-	combat_max_speed = 170
-	combat_rotation_speed = 0.455
 	collision_radius = 1
-	#modifier = {
-	#	ship_evasion_add = 50
-	#	ship_armor_add = 20
-	#}
 	max_hitpoints = 124
 	size_multiplier = 1
 	fleet_slot_size = 16
@@ -28,7 +21,7 @@ MSN_01 = { #MSN-01 Psycommu Zaku
 	is_space_station = no
 	icon_frame = 2
 	base_buildtime = 180
-	required_spaceport_level = 5
+	graphical_culture = no
 	can_have_federation_design = yes
 	enable_default_design = no	#if yes, countries will have an auto-generated design at start
 
@@ -55,17 +48,10 @@ MSN_01 = { #MSN-01 Psycommu Zaku
 
 MSN_02 = { #MSN-02 Zeong
 	formation_priority = @corvette_formation_priority
-	#entity = zakuIframe_entity
 	max_speed = 170
 	acceleration = 0.5
 	rotation_speed = 0.455
-	combat_max_speed = 170
-	combat_rotation_speed = 0.455
 	collision_radius = 1
-	#modifier = {
-	#	ship_evasion_add = 50
-	#	ship_armor_add = 20
-	#}
 	max_hitpoints = 360
 	size_multiplier = 1
 	fleet_slot_size = 16
@@ -74,7 +60,7 @@ MSN_02 = { #MSN-02 Zeong
 	is_space_station = no
 	icon_frame = 2
 	base_buildtime = 180
-	required_spaceport_level = 5
+	graphical_culture = no
 	can_have_federation_design = yes
 	enable_default_design = no	#if yes, countries will have an auto-generated design at start
 
@@ -101,17 +87,10 @@ MSN_02 = { #MSN-02 Zeong
 
 MA_06 = { #MA-06 Val Varo
 	formation_priority = @corvette_formation_priority
-	#entity = zakuIframe_entity
 	max_speed = 170
 	acceleration = 0.5
 	rotation_speed = 0.455
-	combat_max_speed = 170
-	combat_rotation_speed = 0.455
 	collision_radius = 1
-	#modifier = {
-	#	ship_evasion_add = 50
-	#	ship_armor_add = 20
-	#}
 	max_hitpoints = 600
 	size_multiplier = 1
 	fleet_slot_size = 16
@@ -120,7 +99,7 @@ MA_06 = { #MA-06 Val Varo
 	is_space_station = no
 	icon_frame = 2
 	base_buildtime = 180
-	required_spaceport_level = 5
+	graphical_culture = no
 	can_have_federation_design = yes
 	enable_default_design = no	#if yes, countries will have an auto-generated design at start
 
@@ -148,17 +127,10 @@ MA_06 = { #MA-06 Val Varo
 
 MA_08 = { #MA-08 Big Zam
 	formation_priority = @corvette_formation_priority
-	#entity = zakuIframe_entity
 	max_speed = 170
 	acceleration = 0.5
 	rotation_speed = 0.455
-	combat_max_speed = 170
-	combat_rotation_speed = 0.455
 	collision_radius = 1
-	#modifier = {
-	#	ship_evasion_add = 50
-	#	ship_armor_add = 20
-	#}
 	max_hitpoints = 3000
 	size_multiplier = 1
 	fleet_slot_size = 16
@@ -167,7 +139,7 @@ MA_08 = { #MA-08 Big Zam
 	is_space_station = no
 	icon_frame = 2
 	base_buildtime = 360
-	required_spaceport_level = 6
+	graphical_culture = no
 	can_have_federation_design = yes
 	enable_default_design = no	#if yes, countries will have an auto-generated design at start
 
@@ -197,17 +169,10 @@ MA_08 = { #MA-08 Big Zam
 
 MAN_08 = { #MAN-08 Elmeth
 	formation_priority = @corvette_formation_priority
-	#entity = zakuIframe_entity
 	max_speed = 170
 	acceleration = 0.5
 	rotation_speed = 0.455
-	combat_max_speed = 170
-	combat_rotation_speed = 0.455
 	collision_radius = 1
-	#modifier = {
-	#	ship_evasion_add = 50
-	#	ship_armor_add = 20
-	#}
 	max_hitpoints = 450
 	size_multiplier = 1
 	fleet_slot_size = 16
@@ -216,7 +181,7 @@ MAN_08 = { #MAN-08 Elmeth
 	is_space_station = no
 	icon_frame = 2
 	base_buildtime = 180
-	required_spaceport_level = 5
+	graphical_culture = no
 	can_have_federation_design = yes
 	enable_default_design = no	#if yes, countries will have an auto-generated design at start
 

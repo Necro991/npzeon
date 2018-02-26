@@ -172,7 +172,7 @@ utility_component_template = {
 	cost = 20
 
 	modifier = {
-		ship_armor_add = 5
+		ship_armor_add = 25
 	}
 
 	hostile_aura = {
@@ -664,7 +664,7 @@ utility_component_template = {
 	cost = 20
 
 	modifier = {
-		ship_armor_add = 5
+		ship_armor_add = 25
 	}
 
 	hostile_aura = {

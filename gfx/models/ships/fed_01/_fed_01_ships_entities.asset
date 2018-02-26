@@ -2440,6 +2440,53 @@ entity = {
 	#Mobile Suits#
 	###        ###
 
+	entity = {
+		name = "RB_79_entity"
+		pdxmesh = "efsf_locator_mesh"
+		scale = 1.0
+	}
+
+	entity = {
+		name = "RGM_79_entity"
+		pdxmesh = "efsf_locator_mesh"
+		scale = 1.0
+	}
+
+	entity = {
+		name = "RGM_79S_entity"
+		pdxmesh = "efsf_locator_mesh"
+		scale = 1.0
+	}
+
+	entity = {
+		name = "RX_75_4_entity"
+		pdxmesh = "efsf_locator_mesh"
+		scale = 1.0
+	}
+
+	entity = {
+		name = "RX_75_MPT_entity"
+		pdxmesh = "efsf_locator_mesh"
+		scale = 1.0
+	}
+
+	entity = {
+		name = "RX_77_entity"
+		pdxmesh = "efsf_locator_mesh"
+		scale = 1.0
+	}
+
+	entity = {
+		name = "RX_78_entity"
+		pdxmesh = "efsf_locator_mesh"
+		scale = 1.0
+	}
+
+	entity = {
+		name = "white_base_entity"
+		pdxmesh = "efsf_locator_mesh"
+		scale = 1.0
+	}	
 
 	entity = {
 		name = "ball_entity" #Ball

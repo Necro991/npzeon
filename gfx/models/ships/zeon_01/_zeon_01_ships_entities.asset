@@ -1837,6 +1837,90 @@ entity = {
 	###################################################################################
 
 	entity = {
+		name = "MSN_01_entity"
+		pdxmesh = "zeon_locator_mesh"
+		scale = 1.0
+	}
+
+	entity = {
+		name = "MSN_02_entity"
+		pdxmesh = "zeon_locator_mesh"
+		scale = 1.0
+	}
+
+	entity = {
+		name = "MA_06_entity"
+		pdxmesh = "zeon_locator_mesh"
+		scale = 1.0
+	}
+
+	entity = {
+		name = "MA_08_entity"
+		pdxmesh = "test_fighter_mesh"
+		scale = 1.0
+	}
+
+	entity = {
+		name = "MAN_08_entity"
+		pdxmesh = "zeon_locator_mesh"
+		scale = 1.0
+	}
+
+	entity = {
+		name = "zeon_MS_P_entity"
+		pdxmesh = "zeon_locator_mesh"
+		scale = 1.0
+	}
+
+	entity = {
+		name = "MS_05B_entity"
+		pdxmesh = "zeon_locator_mesh"
+		scale = 1.0
+	}
+
+	entity = {
+		name = "MS_05S_entity"
+		pdxmesh = "zeon_locator_mesh"
+		scale = 1.0
+	}
+
+	entity = {
+		name = "MS_06_entity"
+		pdxmesh = "zeon_locator_mesh"
+		scale = 1.0
+	}
+
+	entity = {
+		name = "MS_06S_entity"
+		pdxmesh = "zeon_locator_mesh"
+		scale = 1.0
+	}
+
+	entity = {
+		name = "MS_09_entity"
+		pdxmesh = "zeon_locator_mesh"
+		scale = 1.0
+	}
+
+	entity = {
+		name = "MS_09S_entity"
+		pdxmesh = "zeon_locator_mesh"
+		scale = 1.0
+	}
+
+	entity = {
+		name = "MS_14_entity"
+		pdxmesh = "zeon_locator_mesh"
+		scale = 1.0
+	}
+
+	entity = {
+		name = "MS_14S_entity"
+		pdxmesh = "zeon_locator_mesh"
+		scale = 1.0
+	}
+
+	entity = {
 		name = "zeon_01_bomber_entity"
 		pdxmesh = "zeon_01_bomber_mesh"
 		scale = 0.6
