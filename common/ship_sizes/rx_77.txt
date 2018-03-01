@@ -38,4 +38,10 @@ RX_77 = { #RX-77 Guncannon
 	required_component_set = "rx_77_armor"
 	required_component_set = "rx_77_thrusters"
 	required_component_set = "sensor_components"
+
+	empire_limit = {
+		base = 10
+		max = 10
+		naval_cap_div = 1
+	}
 }

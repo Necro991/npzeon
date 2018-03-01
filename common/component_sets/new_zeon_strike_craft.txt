@@ -288,6 +288,20 @@ component_set = {
 }
 
 component_set = {
+	key = "MP_02A_HANGAR_1"
+
+	icon = "GFX_ship_part_mp_02a"
+	icon_frame = 1
+}
+
+component_set = {
+	key = "MP_02A_HANGAR_2"
+
+	icon = "GFX_ship_part_mp_02a"
+	icon_frame = 1
+}
+
+component_set = {
 	key = "MS_21C_HANGAR_1"
 
 	icon = "GFX_ship_part_ms_21c"

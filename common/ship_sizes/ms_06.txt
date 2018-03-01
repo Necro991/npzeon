@@ -100,6 +100,7 @@ zeon_MS_P = { #Psycho Zaku II Thunderbolt
 	combat_disengage_chance = 1.75
 
 	class = shipclass_military
+	construction_type = starbase_shipyard
 	required_component_set = "ftl_components"
 	required_component_set = "oyw_zeon_pilot_reuse"
 	required_component_set = "zeon_melee_aura"

@@ -151,7 +151,7 @@ utility_component_template = {
 	cost = 0
 
 	modifier = {
-		ship_shield_hp_add = 1000
+		ship_shield_add = 1000
 	}
 
 	component_set = "ma_08_i_field"

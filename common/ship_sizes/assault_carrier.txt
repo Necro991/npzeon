@@ -1,0 +1,80 @@
+#reloadable with 'reload stats'
+# This file is where you start when you want to configure something new, then go to sections
+
+############
+# STANDARD #
+############
+
+white_base = {
+	formation_priority = 5
+	max_speed = 100
+	acceleration = 0.2
+	rotation_speed = 0.15
+	collision_radius = 6
+	modifier = {
+		ship_evasion_mult = -0.75
+		ship_armor_add = 24
+	}
+	max_hitpoints = 2400
+	size_multiplier = 8
+	fleet_slot_size = 4
+	section_slots = { "bow" = { locator = "part1" } "mid" = { locator = "part2" } "stern" = { locator = "part3" } }
+	num_target_locators = 4
+	is_space_station = no
+	icon_frame = 5
+	base_buildtime = 480
+	graphical_culture = no
+	can_have_federation_design = yes
+	enable_default_design = yes	#if yes, countries will have an auto-generated design at start
+
+	prerequisites = {"tech_EFSF_BEAMC_2"}
+
+	combat_disengage_chance = 1.00
+	has_mineral_upkeep = yes
+
+	class = shipclass_military
+	construction_type = starbase_shipyard
+	required_component_set = "power_core"
+	required_component_set = "ftl_components"
+	required_component_set = "thruster_components"
+	required_component_set = "sensor_components"
+	required_component_set = "combat_computers"
+
+}
+
+zanzibar = {
+	formation_priority = 5
+	max_speed = 100
+	acceleration = 0.2
+	rotation_speed = 0.15
+	collision_radius = 6
+	modifier = {
+		ship_evasion_mult = -0.75
+		ship_armor_add = 24
+	}
+	max_hitpoints = 2400
+	size_multiplier = 8
+	fleet_slot_size = 4
+	section_slots = { "bow" = { locator = "part1" } "mid" = { locator = "part2" } "stern" = { locator = "part3" } }
+	num_target_locators = 4
+	is_space_station = no
+	icon_frame = 5
+	base_buildtime = 480
+	graphical_culture = no
+	can_have_federation_design = yes
+	enable_default_design = yes	#if yes, countries will have an auto-generated design at start
+
+	prerequisites = {"tech_BEAMC_2"}
+
+	combat_disengage_chance = 1.00
+	has_mineral_upkeep = yes
+
+	class = shipclass_military
+	construction_type = starbase_shipyard
+	required_component_set = "power_core"
+	required_component_set = "ftl_components"
+	required_component_set = "thruster_components"
+	required_component_set = "sensor_components"
+	required_component_set = "combat_computers"
+
+}
