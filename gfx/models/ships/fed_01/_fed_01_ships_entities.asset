@@ -2542,6 +2542,24 @@ entity = {
 	}
 
 	entity = {
+		name = "guncannon_mpt_trio_entity" #Guncannon MPT
+		pdxmesh = "fed_01_Guncannon_MPT_Trio_mesh"
+		scale = 1.0
+	}
+
+	entity = {
+		name = "guncannon_mpt_nemesis_entity" #Guncannon MPT
+		pdxmesh = "fed_01_Guncannon_MPT_Nemesis_mesh"
+		scale = 1.0
+	}
+
+	entity = {
+		name = "guncannon_mpt_dingo_entity" #Guncannon MPT
+		pdxmesh = "fed_01_Guncannon_MPT_Dingo_mesh"
+		scale = 1.0
+	}
+
+	entity = {
 		name = "gundam_entity" #Gundam
 		pdxmesh = "gundamu_mesh"
 		scale = 1.0

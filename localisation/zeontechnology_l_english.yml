@@ -1894,4 +1894,6 @@
  RX_75_MPT_MID:0 "Guntank Mass Production Type"
  RX_77_MID:0 "Guncannon"
  RX_77D_MID:0 "Guncannon Mass Production Type"
+ RX_77D_NEMESIS_MID:0 "Guncannon MPT Nemesis Colors"
+ RX_77D_DINGO_MID:0 ""Guncannon MPT White Dingo Colors""
  RX_78_MID:0 "Gundam"
