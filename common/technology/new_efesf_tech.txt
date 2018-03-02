@@ -145,7 +145,7 @@ tech_RX_77_1A = {
 	tier = 1
 	category = { materials }
 	ai_update_type = military
-	prerequisites = { "tech_RB_79" }
+	prerequisites = { "tech_RX_75_1" }
 	weight = @tier1weight1
 
 	ai_weight = {

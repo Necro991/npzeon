@@ -2486,7 +2486,7 @@ entity = {
 		name = "white_base_entity"
 		pdxmesh = "efsf_locator_mesh"
 		scale = 1.0
-	}	
+	}
 
 	entity = {
 		name = "ball_entity" #Ball
@@ -2532,6 +2532,12 @@ entity = {
 	entity = {
 		name = "guncannon_entity" #Guncannon
 		pdxmesh = "fed_01_Guncannon_mesh"
+		scale = 1.0
+	}
+
+	entity = {
+		name = "guncannon_mpt_entity" #Guncannon MPT
+		pdxmesh = "fed_01_Guncannon_MPT_mesh"
 		scale = 1.0
 	}
 

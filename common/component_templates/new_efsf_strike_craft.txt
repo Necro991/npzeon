@@ -520,7 +520,7 @@ strike_craft_component_template = {
 strike_craft_component_template = {
 	key = "EFSF_MS_STRIKE_CRAFT_RX_77D_1" #RX-77D Guncannon MPT 1x 240mm Cannon
 	size = LARGE
-	entity = "guncannon_entity"
+	entity = "guncannon_mpt_entity"
 
 	weapon_type = point_defence
 	projectile_gfx = "mass_driver_s"
@@ -563,7 +563,7 @@ strike_craft_component_template = {
 strike_craft_component_template = {
 	key = "EFSF_MS_STRIKE_CRAFT_RX_77D_2" #RX-77D Guncannon MPT 2x 240mm Cannon
 	size = LARGE
-	entity = "guncannon_entity"
+	entity = "guncannon_mpt_entity"
 
 	weapon_type = point_defence
 	projectile_gfx = "mass_driver_s"
