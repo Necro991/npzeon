@@ -2566,6 +2566,66 @@ entity = {
 	}
 
 	entity = {
+		name = "fa_gundam_entity_1" #Gundam
+		pdxmesh = "fa_gundam_mesh_1"
+		scale = 1.0
+	}
+
+	entity = {
+		name = "fa_gundam_entity_2" #Gundam
+		pdxmesh = "fa_gundam_mesh_2"
+		scale = 1.0
+	}
+
+	entity = {
+		name = "fa_gundam_entity_3" #Gundam
+		pdxmesh = "fa_gundam_mesh_3"
+		scale = 1.0
+	}
+
+	entity = {
+		name = "fa_perfect_gundam_entity" #Gundam
+		pdxmesh = "fa_perfect_gundam_mesh"
+		scale = 1.0
+	}
+
+	entity = {
+		name = "fa_gundam_2_entity_1" #Gundam
+		pdxmesh = "fa_2_gundam_mesh_1"
+		scale = 1.0
+	}
+
+	entity = {
+		name = "fa_gundam_2_entity_2" #Gundam
+		pdxmesh = "fa_2_gundam_mesh_2"
+		scale = 1.0
+	}
+
+	entity = {
+		name = "fa_gundam_2_entity_3" #Gundam
+		pdxmesh = "fa_2_gundam_mesh_3"
+		scale = 1.0
+	}
+
+	entity = {
+		name = "fa_gundam_2_entity_4" #Gundam
+		pdxmesh = "fa_2_gundam_mesh_4"
+		scale = 1.0
+	}
+
+	entity = {
+		name = "fa_gundam_2_entity_5" #Gundam
+		pdxmesh = "fa_2_gundam_mesh_5"
+		scale = 1.0
+	}
+
+	entity = {
+		name = "fa_gundam_2_entity_6" #Cyphus Ballerina/Fabulous Gundam
+		pdxmesh = "fa_2_gundam_mesh_6"
+		scale = 1.0
+	}
+
+	entity = {
 		name = "gundam_alex_entity" #Alex
 		pdxmesh = "fed_01_Alex_Chobham_mesh"
 		scale = 1.0
