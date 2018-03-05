@@ -1944,6 +1944,12 @@ entity = {
 	}
 
 	entity = {
+		name = "MP_02A_entity"
+		pdxmesh = "zeon_locator_mesh"
+		scale = 1.0
+	}
+
+	entity = {
 		name = "zanzibar_entity"
 		pdxmesh = "zeon_locator_mesh"
 		scale = 1.0

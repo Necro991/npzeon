@@ -1,0 +1,54 @@
+#Armor, Thrusters, Grenades, Melee
+
+#Armor, Thrusters, Grenades, Melee
+
+utility_component_template = {
+	key = "mp_02a_armor_1"
+	size = small
+	icon = "radiation_armor_1"
+	icon_frame = 1
+	power = 0
+	cost = 0
+
+	modifier = {
+		ship_armor_add = 100
+		ship_evasion_add = -5
+	}
+	#ship_modifier = {
+	#	ship_weapon_damage = 0.01
+	#}
+
+	prerequisites = { "tech_MP_02A" }
+
+	component_set = "mp_02a_armor"
+	#upgrades_to = "oyw_zeon_pilot_putv_veteran"
+
+	ai_weight = {
+		weight = 1
+	}
+}
+
+utility_component_template = {
+	key = "mp_02a_thrusters_1"
+	size = small
+	icon = "GFX_ship_part_thruster_1" #ms_05_thrusters_1
+	icon_frame = 1
+	power = 0
+	cost = 0
+
+	modifier = {
+		ship_evasion_add = 50
+	}
+	#ship_modifier = {
+	#	ship_weapon_damage = 0.01
+	#}
+
+	prerequisites = { "tech_MP_02A" }
+
+	component_set = "mp_02a_thrusters"
+	#upgrades_to = "oyw_zeon_pilot_putv_veteran"
+
+	ai_weight = {
+		weight = 1
+	}
+}

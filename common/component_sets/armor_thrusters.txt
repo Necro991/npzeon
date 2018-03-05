@@ -81,6 +81,22 @@ component_set = {
 }
 
 component_set = {
+	key = "mp_02a_thrusters"
+
+	required_component_set = yes
+	icon = "GFX_ship_part_thruster_1"
+	icon_frame = 1
+}
+
+component_set = {
+	key = "mp_02a_armor"
+
+	required_component_set = yes
+	icon = "GFX_ship_part_armor_1"
+	icon_frame = 1
+}
+
+component_set = {
 	key = "msn_01_thrusters"
 
 	required_component_set = yes

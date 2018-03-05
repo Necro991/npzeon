@@ -1,0 +1,23 @@
+spriteTypes = {
+
+	spriteType = {
+		name = "ma_08_armor"
+		texturefile = "gfx/interface/icons/ship_parts/ma_08_armor.dds"
+	}
+
+	spriteType = {
+		name = "man_08_armor"
+		texturefile = "gfx/interface/icons/ship_parts/man_08_armor.dds"
+	}
+
+	spriteType = {
+		name = "man_08_bit"
+		texturefile = "gfx/interface/icons/ship_parts/man_08_bit.dds"
+	}
+
+	#spriteType = {
+	#	name = "ms_06_thrusters_1"
+	#	texturefile = "gfx/interface/icons/ship_parts/ship_part_armor_radiation_2.dds"
+	#}
+
+}

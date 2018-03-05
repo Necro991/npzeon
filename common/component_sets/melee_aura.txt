@@ -23,3 +23,27 @@ component_set = {
 	icon = "gundam_melee_01"
 	icon_frame = 1
 }
+
+component_set = {
+	key = "mp_02a_melee_aura"
+
+	required_component_set = yes
+	icon = "zeon_melee_07"
+	icon_frame = 1
+}
+
+component_set = {
+	key = "ma_06_melee_aura"
+
+	required_component_set = yes
+	icon = "zeon_melee_08"
+	icon_frame = 1
+}
+
+component_set = {
+	key = "man_08_bit_aura"
+
+	required_component_set = yes
+	icon = "man_08_bit"
+	icon_frame = 1
+}
