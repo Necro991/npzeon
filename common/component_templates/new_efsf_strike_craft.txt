@@ -1123,7 +1123,7 @@ strike_craft_component_template = {
 strike_craft_component_template = {
 	key = "EFSF_MS_STRIKE_CRAFT_RX_178" #RX-178 Gundam Mk2
 	size = LARGE
-	entity = "gm_entity"
+	entity = "efsf_fighter_1_entity"
 
 	weapon_type = point_defence
 	projectile_gfx = "MPC2"
@@ -1295,7 +1295,7 @@ strike_craft_component_template = {
 strike_craft_component_template = {
 	key = "EFSF_MS_STRIKE_CRAFT_RGM_79C_1" #RGM-79C GM Kai
 	size = LARGE
-	entity = "gm_entity"
+	entity = "gm_c_entity"
 
 	weapon_type = point_defence
 	projectile_gfx = "MPC2"
@@ -1338,7 +1338,7 @@ strike_craft_component_template = {
 strike_craft_component_template = {
 	key = "EFSF_MS_STRIKE_CRAFT_RGM_79C_2" #RGM-79C GM Kai
 	size = LARGE
-	entity = "gm_entity"
+	entity = "gm_c_entity"
 
 	weapon_type = instant
 	projectile_gfx = "gundam_missile"
@@ -1381,7 +1381,7 @@ strike_craft_component_template = {
 strike_craft_component_template = {
 	key = "EFSF_MS_STRIKE_CRAFT_RGM_79C_POWERED_1" #RGM-79C GM Powered
 	size = LARGE
-	entity = "gm_entity"
+	entity = "gm_c_entity"
 
 	weapon_type = point_defence
 	projectile_gfx = "auto_cannons_s"
@@ -1424,7 +1424,7 @@ strike_craft_component_template = {
 strike_craft_component_template = {
 	key = "EFSF_MS_STRIKE_CRAFT_RGM_79C_POWERED_2" #RGM-79C GM Powered
 	size = LARGE
-	entity = "gm_entity"
+	entity = "gm_c_entity"
 
 	weapon_type = instant
 	projectile_gfx = "gundam_missile"
@@ -1467,7 +1467,7 @@ strike_craft_component_template = {
 strike_craft_component_template = {
 	key = "EFSF_MS_STRIKE_CRAFT_RGM_79N_1" #RGM-79N GM Custom
 	size = LARGE
-	entity = "gm_entity"
+	entity = "gm_c_entity"
 
 	weapon_type = point_defence
 	projectile_gfx = "auto_cannons_s"
@@ -1510,7 +1510,7 @@ strike_craft_component_template = {
 strike_craft_component_template = {
 	key = "EFSF_MS_STRIKE_CRAFT_RGM_79N_2" #RGM-79N GM Custom
 	size = LARGE
-	entity = "gm_entity"
+	entity = "gm_c_entity"
 
 	weapon_type = instant
 	projectile_gfx = "gundam_missile"
@@ -1553,7 +1553,7 @@ strike_craft_component_template = {
 strike_craft_component_template = {
 	key = "EFSF_MS_STRIKE_CRAFT_RGM_79Q_1" #RGM-79Q GM Quel
 	size = LARGE
-	entity = "gm_entity"
+	entity = "gm_c_entity"
 
 	weapon_type = point_defence
 	projectile_gfx = "MPC2"
@@ -1596,7 +1596,7 @@ strike_craft_component_template = {
 strike_craft_component_template = {
 	key = "EFSF_MS_STRIKE_CRAFT_RGM_79Q_2" #RGM-79N GM Custom
 	size = LARGE
-	entity = "gm_entity"
+	entity = "gm_c_entity"
 
 	weapon_type = instant
 	projectile_gfx = "gundam_missile"
@@ -1639,7 +1639,7 @@ strike_craft_component_template = {
 strike_craft_component_template = {
 	key = "EFSF_MS_STRIKE_CRAFT_RGM_79Q_HAZEL" #RGM-79Q GM Quel Hazel Reserve
 	size = LARGE
-	entity = "gm_entity"
+	entity = "gm_c_entity"
 
 	weapon_type = point_defence
 	projectile_gfx = "MPC2"
@@ -1682,7 +1682,7 @@ strike_craft_component_template = {
 strike_craft_component_template = {
 	key = "EFSF_MS_STRIKE_CRAFT_RGM_79CR" #RGM-79CR GM Kai HMT
 	size = LARGE
-	entity = "gm_entity"
+	entity = "gm_c_entity"
 
 	weapon_type = point_defence
 	projectile_gfx = "MPC2"
@@ -1725,7 +1725,7 @@ strike_craft_component_template = {
 strike_craft_component_template = {
 	key = "EFSF_MS_STRIKE_CRAFT_RGM_79SC" #RGM-79SC GM Sniper Custom
 	size = LARGE
-	entity = "gm_entity"
+	entity = "gm_c_entity"
 
 	weapon_type = point_defence
 	projectile_gfx = "MPC2"
@@ -1768,7 +1768,7 @@ strike_craft_component_template = {
 strike_craft_component_template = {
 	key = "EFSF_MS_STRIKE_CRAFT_RGM_79SP" #RGM-79SP GM Sniper II
 	size = LARGE
-	entity = "gm_entity"
+	entity = "gm_c_entity"
 
 	weapon_type = point_defence
 	projectile_gfx = "MPC2"
@@ -1811,7 +1811,7 @@ strike_craft_component_template = {
 strike_craft_component_template = {
 	key = "EFSF_MS_STRIKE_CRAFT_RGM_79SR" #RGM-79SR GM Sniper III
 	size = LARGE
-	entity = "gm_entity"
+	entity = "gm_c_entity"
 
 	weapon_type = point_defence
 	projectile_gfx = "MPC2"
@@ -1854,7 +1854,7 @@ strike_craft_component_template = {
 strike_craft_component_template = {
 	key = "EFSF_MS_STRIKE_CRAFT_RGM_79SR_HMT" #RGM-79SR GM Sniper III HMT
 	size = LARGE
-	entity = "gm_entity"
+	entity = "gm_c_entity"
 
 	weapon_type = point_defence
 	projectile_gfx = "MPC2"
@@ -1897,7 +1897,7 @@ strike_craft_component_template = {
 strike_craft_component_template = {
 	key = "EFSF_MS_STRIKE_CRAFT_MSA_003_1" #MSA-003 Nemo
 	size = LARGE
-	entity = "gm_entity"
+	entity = "gm_c_entity"
 
 	weapon_type = point_defence
 	projectile_gfx = "MPC2"
@@ -1940,7 +1940,7 @@ strike_craft_component_template = {
 strike_craft_component_template = {
 	key = "EFSF_MS_STRIKE_CRAFT_MSA_003_2" #MSA-003 Nemo
 	size = LARGE
-	entity = "gm_entity"
+	entity = "gm_c_entity"
 
 	weapon_type = point_defence
 	projectile_gfx = "MPC2"
@@ -1983,7 +1983,7 @@ strike_craft_component_template = {
 strike_craft_component_template = {
 	key = "EFSF_MS_STRIKE_CRAFT_MSA_004" #MSA-004 Nemo II
 	size = LARGE
-	entity = "gm_entity"
+	entity = "gm_c_entity"
 
 	weapon_type = point_defence
 	projectile_gfx = "MPC2"
@@ -2026,7 +2026,7 @@ strike_craft_component_template = {
 strike_craft_component_template = {
 	key = "EFSF_MS_STRIKE_CRAFT_RMS_179_1" #RMS-179 GM II
 	size = LARGE
-	entity = "gm_entity"
+	entity = "gm_c_entity"
 
 	weapon_type = point_defence
 	projectile_gfx = "MPC2"
@@ -2069,7 +2069,7 @@ strike_craft_component_template = {
 strike_craft_component_template = {
 	key = "EFSF_MS_STRIKE_CRAFT_RMS_179_2" #RMS-179 GM II
 	size = LARGE
-	entity = "gm_entity"
+	entity = "gm_c_entity"
 
 	weapon_type = instant
 	projectile_gfx = "gundam_missile"
@@ -2112,7 +2112,7 @@ strike_craft_component_template = {
 strike_craft_component_template = {
 	key = "EFSF_MS_STRIKE_CRAFT_RGM_86R_1" #RGM-86R GM III
 	size = LARGE
-	entity = "gm_entity"
+	entity = "gm_c_entity"
 
 	weapon_type = point_defence
 	projectile_gfx = "MPC2"
@@ -2155,7 +2155,7 @@ strike_craft_component_template = {
 strike_craft_component_template = {
 	key = "EFSF_MS_STRIKE_CRAFT_RGM_86R_2" #RGM-86R GM III
 	size = LARGE
-	entity = "gm_entity"
+	entity = "gm_c_entity"
 
 	weapon_type = instant
 	projectile_gfx = "gundam_missile_swarm"
@@ -2198,7 +2198,7 @@ strike_craft_component_template = {
 strike_craft_component_template = {
 	key = "EFSF_MS_STRIKE_CRAFT_RGM_86R_Nouvel_1" #RGM-86R Nouvel GM III
 	size = LARGE
-	entity = "gm_entity"
+	entity = "gm_c_entity"
 
 	weapon_type = point_defence
 	projectile_gfx = "MPC2"
@@ -2241,7 +2241,7 @@ strike_craft_component_template = {
 strike_craft_component_template = {
 	key = "EFSF_MS_STRIKE_CRAFT_RGM_86R_Nouvel_2" #RGM-86R Nouvel GM III
 	size = LARGE
-	entity = "gm_entity"
+	entity = "gm_c_entity"
 
 	weapon_type = instant
 	projectile_gfx = "gundam_missile_swarm"
@@ -2284,7 +2284,7 @@ strike_craft_component_template = {
 strike_craft_component_template = {
 	key = "EFSF_MS_STRIKE_CRAFT_RGM_89_1" #RGM-89 Jegan
 	size = LARGE
-	entity = "gm_entity"
+	entity = "gm_c_entity"
 
 	weapon_type = point_defence
 	projectile_gfx = "MPC2"
@@ -2327,7 +2327,7 @@ strike_craft_component_template = {
 strike_craft_component_template = {
 	key = "EFSF_MS_STRIKE_CRAFT_RGM_89_2" #RGM-89 Jegan
 	size = LARGE
-	entity = "gm_entity"
+	entity = "gm_c_entity"
 
 	weapon_type = instant
 	projectile_gfx = "gundam_missile_swarm"
