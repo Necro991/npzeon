@@ -1831,8 +1831,31 @@ entity = {
 	}
 
 	entity = {
-		name = "zanzibar_mid_entity"
+		name = "zanzibar_mid_entity_1"
 		pdxmesh = "zeon_01_zanzibar_mesh"
+
+		locator = { name = "large_gun_01" 			position = { 0.0 	4.0 	-5.0	} 	scale = 0.0} #X,Up/Down,Forward/Back
+		locator = { name = "large_gun_02" 			position = { -4.0 	2.5 	-2.5	} 	scale = 0.0} #X,Up/Down,Forward/Back
+		locator = { name = "large_gun_03" 			position = { 4.0 	2.5 	-2.5	} 	scale = 0.0} #X,Up/Down,Forward/Back
+
+		default_state = "idle"
+		state = { name = idle	state_time = 5
+			event = { time = 0 node = "light_01" particle = "ship_light_blue_effect" keep_particle = yes trigger_once = yes }
+			event = { time = 0 node = "light_02" particle = "ship_light_blue_effect" keep_particle = yes trigger_once = yes }
+		}
+
+		state = { name = moving	state_time = 5
+			event = { time = 0 node = "light_01" particle = "ship_light_blue_effect" keep_particle = yes trigger_once = yes }
+			event = { time = 0 node = "light_02" particle = "ship_light_blue_effect" keep_particle = yes trigger_once = yes }
+		}
+
+		state = { name = "death" state_time = 5 }
+		scale = 2.5
+	}
+
+	entity = {
+		name = "zanzibar_mid_entity_2"
+		pdxmesh = "zeon_01_zanzibar_booster_mesh"
 
 		locator = { name = "large_gun_01" 			position = { 0.0 	4.0 	-5.0	} 	scale = 0.0} #X,Up/Down,Forward/Back
 		locator = { name = "large_gun_02" 			position = { -4.0 	2.5 	-2.5	} 	scale = 0.0} #X,Up/Down,Forward/Back

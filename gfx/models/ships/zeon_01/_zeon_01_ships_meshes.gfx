@@ -1674,12 +1674,24 @@ objectTypes = {
 
 	pdxmesh = {
 		name = "zeon_01_zanzibar_mesh"
-		file = "gfx/models/ships/zeon_01/Zanzibar.mesh"
+		file = "gfx/models/ships/zeon_01/Zanzibar.mesh" #Zanzibar
 		scale = 1.0
 		meshsettings = {
-			texture_diffuse = "ZANZIBAR.dds"
+			texture_diffuse = "ZANZIBAR.dds" #ZANZIBAR
 			texture_normal = "ZANZIBAR_NORMAL.dds" #zakuII_normal
 			texture_specular = "ZANZIBAR_SPECULAR.dds" #gwazine_specular
+			shader = "PdxMeshShip"
+		}
+	}
+
+	pdxmesh = {
+		name = "zeon_01_zanzibar_booster_mesh"
+		file = "gfx/models/ships/zeon_01/Zanzibar_Booster.mesh" #Zanzibar with Booster
+		scale = 1.0
+		meshsettings = {
+			texture_diffuse = "ZANZIBAR_BOOSTER_DIFFUSE_2.dds" #ZANZIBAR
+			texture_normal = "ZANZIBAR_BOOSTER_NORMAL.dds" #zakuII_normal
+			texture_specular = "ZANZIBAR_BOOSTER_SPECULAR.dds" #gwazine_specular
 			shader = "PdxMeshShip"
 		}
 	}
