@@ -1194,6 +1194,19 @@ objectTypes = {
 		}
 	}
 
+	pdxmesh = { #Ball Trio
+		name = "fed_01_ball_trio_mesh"
+		file = "gfx/models/ships/fed_01/Ball_Trio.mesh"
+
+		scale = 1.0
+			meshsettings = {
+				texture_diffuse = "Ball_Diffuse.dds"
+				texture_normal = "Ball_Normal.dds"
+				texture_specular = "Ball_Specular.dds"
+				shader = "PdxMeshShip"
+		}
+	}
+
 	pdxmesh = { #GM
 		name = "fed_01_GM_mesh"
 		file = "gfx/models/ships/fed_01/GM.mesh"

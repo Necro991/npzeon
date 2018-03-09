@@ -2,7 +2,7 @@ ship_section_template = { #MS-06 A
 	key = "RB_79_MID"
 	ship_size = RB_79
 	fits_on_slot = mid
-	entity = "ball_entity"
+	entity = "ball_trio_entity"
 	icon = "GFX_ship_part_core_mid"
 
 	prerequisites = { tech_RB_79 }
