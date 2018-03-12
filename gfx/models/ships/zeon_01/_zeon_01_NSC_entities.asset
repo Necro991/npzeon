@@ -298,7 +298,7 @@ entity = {
 #FRAME
 entity = {
 	name = "zeon_01_Battlecruiser_entity"
-	pdxmesh = "zeon_01_rewloola_mesh"
+	pdxmesh = "zeon_01_chivvay_kai_mesh"
 
 	#locator = { name = "part1"	position = { 0 -0.4 -6.4 } rotation = { 0 0 0 } }
 	#locator = { name = "part2"	position = { 0 0 -4.4 } rotation = { 0 0 0 } }
@@ -334,7 +334,7 @@ entity = {
 	name = "zeon_01_Battlecruiser_bow_L1_entity"
 	pdxmesh = "zeon_01_cruiser_bow_L1_mesh"
 
-	locator = { name = "large_gun_01" 			position = { 0 	0 	-6.5	} scale = 0 }
+	locator = { name = "large_gun_01" 			position = { 0 	3.5 	-8.0 	} scale = 1.5}
 
 	default_state = "idle"
 	state = { name = "idle" state_time = 5
@@ -365,10 +365,9 @@ entity = {
 	name = "zeon_01_Battlecruiser_bow_M1S2_entity"
 	pdxmesh = "zeon_01_cruiser_bow_M1S2_mesh"
 
-	locator = { name = "medium_gun_01" 			position = { 0 	0 	-6.5	} scale = 0 }
-	locator = { name = "medium_gun_02" 			position = { 0 	0 	-6.5	} scale = 0 }
-	locator = { name = "small_gun_01" 			position = { 0 	0 	-6.5	} scale = 0 }
-	locator = { name = "small_gun_02" 			position = { 0 	0 	-6.5	} scale = 0 }
+	locator = { name = "medium_gun_01" 			position = { 0 	3.5 	-8.0 	} scale = 1.5}
+	locator = { name = "small_gun_01" 			position = { 1.25 	3.4 	-4.5	} scale = 2.0}
+	locator = { name = "small_gun_02" 			position = { -1.25 	3.4 	-4.5 	} scale = 2.0}
 
 	default_state = "idle"
 	state = { name = "idle" state_time = 5
@@ -405,8 +404,8 @@ entity = {
 	name = "zeon_01_Battlecruiser_bow_M2_entity"
 	pdxmesh = "zeon_01_cruiser_bow_M2_mesh"
 
-	locator = { name = "medium_gun_01" 			position = { 0 	0 	-6.5	} scale = 0 }
-	locator = { name = "medium_gun_02" 			position = { 0 	0 	-6.5	} scale = 0 }
+	locator = { name = "medium_gun_01" 			position = { 1.25 	3.4 	-4.5	} scale = 1.0}
+	locator = { name = "medium_gun_02" 			position = { -1.25 	3.4 	-4.5 	} scale = 1.0}
 
 	default_state = "idle"
 	state = { name = "idle" state_time = 5
@@ -445,8 +444,8 @@ entity = {
 	name = "zeon_01_Battlecruiser_mid1_S2HB_entity"
 	pdxmesh = "zeon_01_cruiser_mid_S2HB_mesh"
 
-	locator = { name = "small_gun_01" 			position = { 0 	0 	0	} scale = 0 }
-	locator = { name = "small_gun_02" 			position = { 0 	0 	0	} scale = 0 }
+	locator = { name = "small_gun_01" 			position = { 1.7 	2.8 	-1.5 	} scale = 0.0}
+	locator = { name = "small_gun_02" 			position = { -1.7 	2.8 	-1.5 	} scale = 0.0}
 
 	default_state = "idle"
 	state = { name = "idle" state_time = 5
@@ -497,8 +496,8 @@ entity = {
 	name = "zeon_01_Battlecruiser_mid1_L1M1_entity"
 	pdxmesh = "zeon_01_cruiser_mid_L1M1_mesh"
 
-	locator = { name = "large_gun_01" 			position = { 1.75 	0 	0.5	} scale = 1.0 }
-	locator = { name = "medium_gun_01" 			position = { -1.75 	0 	0.5	} scale = 1.0 }
+	locator = { name = "large_gun_01" 			position = { 0 	3.0 	1.7 	} scale = 0.0}
+	locator = { name = "medium_gun_01" 			position = { 0 	2.5 	1.1 	} scale = 0.0}
 
 	state = { name = "death"
 		event = { time = 0.00 node = "root" particle = "large_ship_explosion_particle" sound = { soundeffect = ship_destroyed } }
@@ -530,9 +529,9 @@ entity = {
 	name = "zeon_01_Battlecruiser_mid1_M3_entity"
 	pdxmesh = "zeon_01_cruiser_mid_M3_mesh"
 
-	locator = { name = "medium_gun_01" 			position = { 1.75 	0 	0.5	} scale = 1.0 }
-	locator = { name = "medium_gun_02" 			position = { -1.75 	0 	0.5	} scale = 1.0 }
-	locator = { name = "medium_gun_03" 			position = { 0 	1.1 	4.2	} scale = 1.0 }
+	locator = { name = "medium_gun_01" 			position = { 0 	2.0 	0.5	} scale = 0.0}
+	locator = { name = "medium_gun_02" 			position = { 0 	2.5 	1.1 } scale = 0.0}
+	locator = { name = "medium_gun_03" 			position = { 0 	3.0 	1.7 } scale = 0.0}
 
 	default_state = "idle"
 	state = { name = "idle" state_time = 5
@@ -577,10 +576,10 @@ entity = {
 	name = "zeon_01_Battlecruiser_mid1_M2S2_entity"
 	pdxmesh = "zeon_01_cruiser_mid_M2S2_mesh"
 
-	locator = { name = "medium_gun_01" 			position = { 1.75 	0 	0.5	} scale = 1.0 }
-	locator = { name = "medium_gun_02" 			position = { -1.75 	0 	0.5	} scale = 1.0 }
-	locator = { name = "small_gun_01" 			position = { 3.0 	-0.05 	1.0	} scale = 1.0 }
-	locator = { name = "small_gun_02" 			position = { -3.0 	-0.05 	1.0	} scale = 1.0 }
+	locator = { name = "medium_gun_01" 			position = { 1.5 	2.0 	0.5	} scale = 0.0 }
+	locator = { name = "medium_gun_02" 			position = { -1.5 	2.5 	1.1 } scale = 0.0 }
+	locator = { name = "small_gun_01" 			position = { 1.5 	3.0 	1.7 } scale = 0.0 }
+	locator = { name = "small_gun_02" 			position = { -1.5 	3.0 	1.7	} scale = 0.0 }
 
 	state = { name = "death"
 		event = { time = 0.00 node = "root" particle = "large_ship_explosion_particle" sound = { soundeffect = ship_destroyed } }
@@ -614,8 +613,8 @@ entity = {
 	name = "zeon_01_Battlecruiser_mid2_S2HB_entity"
 	pdxmesh = "zeon_01_cruiser_mid_S2HB_mesh"
 
-	locator = { name = "small_gun_01" 			position = { 1.75 	-1.0 	0.5	} rotation = { 90 0 0 } scale = 1.0 }
-	locator = { name = "small_gun_02" 			position = { -1.75 	-1.0 	0.5	} rotation = { 0 90 0 } scale = 1.0 }
+	locator = { name = "small_gun_01" 			position = { 1.7 	2.8 	2.0 	} scale = 0.0}
+	locator = { name = "small_gun_02" 			position = { -1.7 	2.8 	2.0 	} scale = 0.0}
 
 	default_state = "idle"
 	state = { name = "idle" state_time = 5
@@ -666,8 +665,8 @@ entity = {
 	name = "zeon_01_Battlecruiser_mid2_L1M1_entity"
 	pdxmesh = "zeon_01_cruiser_mid_L1M1_mesh"
 
-	locator = { name = "large_gun_01" 			position = { 1.75 	-0.65 	0.5	} rotation = { 0 0 180 } scale = 1.0 }
-	locator = { name = "medium_gun_01" 			position = { -1.75 	-0.65 	0.5	} rotation = { 0 0 180 } scale = 1.0 }
+	locator = { name = "large_gun_01" 			position = { 0 	3.0 	1.7 	} scale = 0.0}
+	locator = { name = "medium_gun_01" 			position = { 0 	2.5 	1.1 	} scale = 0.0}
 
 	state = { name = "death"
 		event = { time = 0.00 node = "root" particle = "large_ship_explosion_particle" sound = { soundeffect = ship_destroyed } }
@@ -699,9 +698,9 @@ entity = {
 	name = "zeon_01_Battlecruiser_mid2_M3_entity"
 	pdxmesh = "zeon_01_cruiser_mid_M3_mesh"
 
-	locator = { name = "medium_gun_01" 			position = { 1.75 	-0.65 	0.5	} rotation = { 0 0 180 } scale = 1.0 }
-	locator = { name = "medium_gun_02" 			position = { -1.75 	-0.65 	0.5	} rotation = { 0 0 180 } scale = 1.0 }
-	locator = { name = "medium_gun_03" 			position = { 0 	-1.9 	4.2	} rotation = { 0 0 180 } scale = 1.0 }
+	locator = { name = "medium_gun_01" 			position = { 0 	2.0 	0.5	} scale = 0.0}
+	locator = { name = "medium_gun_02" 			position = { 0 	2.5 	1.1 } scale = 0.0}
+	locator = { name = "medium_gun_03" 			position = { 0 	3.0 	1.7 } scale = 0.0}
 
 	default_state = "idle"
 	state = { name = "idle" state_time = 5
@@ -746,10 +745,10 @@ entity = {
 	name = "zeon_01_Battlecruiser_mid2_M2S2_entity"
 	pdxmesh = "zeon_01_cruiser_mid_M2S2_mesh"
 
-	locator = { name = "medium_gun_01" 			position = { 1.75 	-0.65 	0.5	} rotation = { 0 0 180 } scale = 1.0 }
-	locator = { name = "medium_gun_02" 			position = { -1.75 	-0.65 	0.5	} rotation = { 0 0 180 } scale = 1.0 }
-	locator = { name = "small_gun_01" 			position = { 3.0 	-0.6 	1.0	} rotation = { 0 0 180 } scale = 1.0 }
-	locator = { name = "small_gun_02" 			position = { -3.0 	-0.6 	1.0	} rotation = { 0 0 180 } scale = 1.0 }
+	locator = { name = "medium_gun_01" 			position = { 0 	2.0 	0.5	} scale = 0.0}
+	locator = { name = "medium_gun_02" 			position = { 0 	2.5 	1.1 } scale = 0.0}
+	locator = { name = "small_gun_01" 			position = { 0 	3.0 	1.7 } scale = 0.0}
+	locator = { name = "small_gun_02" 			position = { 0 	3.0 	1.7	} scale = 0 }
 
 	state = { name = "death"
 		event = { time = 0.00 node = "root" particle = "large_ship_explosion_particle" sound = { soundeffect = ship_destroyed } }
@@ -782,7 +781,7 @@ entity = {
 	name = "zeon_01_Battlecruiser_stern_M1_entity"
 	pdxmesh = "zeon_01_cruiser_stern_M1_mesh"
 
-	locator = { name = "medium_gun_01" 			position = { 0 	1.15 	8.1	} rotation = { 180 0 0 } scale = 1.0 }
+	locator = { name = "medium_gun_01"			position = {0	3.7		2.7	} scale = 0.0 }
 
 	state = { name = "idle" state_time = 5
 		event = { time = 0 node = "engine_small_01" particle = "zeon_01_1_8_exhaust_idle_particle" trigger_once = yes keep_particle = yes }
@@ -835,8 +834,8 @@ entity = {
 	name = "zeon_01_Battlecruiser_stern_S2_entity"
 	pdxmesh = "zeon_01_cruiser_stern_S2_mesh"
 
-	locator = { name = "small_gun_01" 			position = { 0 	1.15 	7.9	} rotation = { 180 0 0 } scale = 1.0 }
-	locator = { name = "small_gun_02" 			position = { 0 	1.05 	8.8	} rotation = { 180 0 0 } scale = 1.0 }
+	locator = { name = "small_gun_01" 			position = { 3.0  2.1 	4.8 } rotation = { 180 0 90 } scale = 2.0 }
+	locator = { name = "small_gun_02" 			position = { -3.0  2.1 	4.8	} rotation = { -180 0 -90 } scale = 2.0 }
 
 	state = { name = "idle" state_time = 5
 		event = { time = 0 node = "engine_small_01" particle = "zeon_01_3_5_exhaust_idle_particle" trigger_once = yes keep_particle = yes }
@@ -2566,7 +2565,7 @@ entity = {
 # FRAME
 entity = {
 	name = "zeon_01_Dreadnought_entity"
-	pdxmesh = "zeon_01_gwazine_mesh"
+	pdxmesh = "zeon_01_rewloola_mesh"
 
 	#locator = { name = "part1"	position = { 0 0 -9.0 } rotation = { 0 0 0 } }
 	#locator = { name = "part2"	position = { 0 5.5 -6.2 } rotation = { 0 0 180 } }
@@ -2596,10 +2595,10 @@ entity = {
 	name = "zeon_01_Dreadnought_bow_L1M1S2_entity"
 	pdxmesh = "zeon_01_battleship_bow_L1M1S2_mesh"
 
-	locator = { name = "large_gun_01" 			position = { 0 	7.0 	-13.0	} scale = 0 }
-	locator = { name = "medium_gun_01" 			position = { 0 	7.0 	-13.0	} scale = 0 }
-	locator = { name = "small_gun_01" 			position = { 2.8 	2.4 	-11.0	} scale = 0}
-	locator = { name = "small_gun_02" 			position = { -2.8 	2.4 	-11.0	} scale = 0}
+	locator = { name = "large_gun_01" 			position = { 0 	0 	-6.5	} scale = 0 }
+	locator = { name = "medium_gun_01" 			position = { 0 	0 	-6.5	} scale = 0 }
+	locator = { name = "small_gun_01" 			position = { 0 	0 	-6.5	} scale = 0 }
+	locator = { name = "small_gun_02" 			position = { 0 	0 	-6.5	} scale = 0 }
 
 	state = { name = "death"
 		event = { time = 0.00 particle = "large_ship_explosion_particle" sound = { soundeffect = ship_destroyed } }
@@ -2632,11 +2631,11 @@ entity = {
 	name = "zeon_01_Dreadnought_bow_L1S4_entity"
 	pdxmesh = "zeon_01_battleship_bow_L1S4_mesh"
 
-	locator = { name = "large_gun_01" 			position = { 0 	7.0 	-13.0	} scale = 0 }
-	locator = { name = "small_gun_01" 			position = { 2.8 	2.4 	-11.0	} scale = 0}
-	locator = { name = "small_gun_02" 			position = { -2.8 	2.4 	-11.0	} scale = 0}
-	locator = { name = "small_gun_03" 			position = { 2.8 	2.4 	-11.0	} scale = 0}
-	locator = { name = "small_gun_04" 			position = { -2.8 	2.4 	-11.0	} scale = 0}
+	locator = { name = "large_gun_01" 			position = { 0 	0 	-6.5	} scale = 0 }
+	locator = { name = "small_gun_01" 			position = { 0 	0 	-6.5	} scale = 0 }
+	locator = { name = "small_gun_02" 			position = { 0 	0 	-6.5	} scale = 0 }
+	locator = { name = "small_gun_03" 			position = { 0 	0 	-6.5	} scale = 0 }
+	locator = { name = "small_gun_04" 			position = { 0 	0 	-6.5	} scale = 0 }
 
 	default_state = "idle"
 	state = { name = "idle" state_time = 5
@@ -2678,8 +2677,8 @@ entity = {
 	name = "zeon_01_Dreadnought_bow_L2_entity"
 	pdxmesh = "zeon_01_battleship_bow_L2_mesh"
 
-	locator = { name = "large_gun_01" 			position = { 0 	7.0 	-13.0	} scale = 0 }
-	locator = { name = "large_gun_02" 			position = { 0 	7.0 	-13.0	} scale = 0 }
+	locator = { name = "large_gun_01" 			position = { 0 	0 	-6.5	} scale = 0 }
+	locator = { name = "large_gun_02" 			position = { 0 	0 	-6.5	} scale = 0 }
 
 	default_state = "idle"
 	state = { name = "idle" state_time = 5
@@ -2721,9 +2720,9 @@ entity = {
 	name = "zeon_01_Dreadnought_bow_M1S2SHB_entity"
 	pdxmesh = "zeon_01_battleship_bow_M1S2SHB_mesh"
 
-	locator = { name = "medium_gun_01" 			position = { 0 	7.0 	-13.0	} scale = 0 }
-	locator = { name = "small_gun_01" 			position = { 2.8 	2.4 	-11.0	} scale = 0}
-	locator = { name = "small_gun_02" 			position = { -2.8 	2.4 	-11.0	} scale = 0}
+	locator = { name = "medium_gun_01" 			position = { 0 	0 	-6.5	} scale = 0 }
+	locator = { name = "small_gun_01" 			position = { 0 	0 	-6.5	} scale = 0 }
+	locator = { name = "small_gun_02" 			position = { 0 	0 	-6.5	} scale = 0 }
 
 	default_state = "idle"
 	state = { name = "idle" state_time = 5
@@ -2771,12 +2770,12 @@ entity = {
 	name = "zeon_01_Dreadnought_bow_M2S4_entity"
 	pdxmesh = "zeon_01_battleship_bow_M2S4_mesh"
 
-	locator = { name = "medium_gun_01" 			position = { 0 	7.0 	-13.0	} scale = 0 }
-	locator = { name = "medium_gun_02" 			position = { 0 	7.0 	-13.0	} scale = 0 }
-	locator = { name = "small_gun_01" 			position = { 2.8 	2.4 	-11.0	} scale = 0}
-	locator = { name = "small_gun_02" 			position = { -2.8 	2.4 	-11.0	} scale = 0}
-	locator = { name = "small_gun_03" 			position = { 2.8 	2.4 	-11.0	} scale = 0}
-	locator = { name = "small_gun_04" 			position = { -2.8 	2.4 	-11.0	} scale = 0}
+	locator = { name = "medium_gun_01" 			position = { 0 	0 	-6.5	} scale = 0 }
+	locator = { name = "medium_gun_02" 			position = { 0 	0 	-6.5	} scale = 0 }
+	locator = { name = "small_gun_01" 			position = { 0 	0 	-6.5	} scale = 0 }
+	locator = { name = "small_gun_02" 			position = { 0 	0 	-6.5	} scale = 0 }
+	locator = { name = "small_gun_03" 			position = { 0 	0 	-6.5	} scale = 0 }
+	locator = { name = "small_gun_04" 			position = { 0 	0 	-6.5	} scale = 0 }
 
 	default_state = "idle"
 	state = { name = "idle" state_time = 5
@@ -2818,11 +2817,11 @@ entity = {
 	name = "zeon_01_Dreadnought_bow_M3S2_entity"
 	pdxmesh = "zeon_01_battleship_bow_M3S2_mesh"
 
-	locator = { name = "medium_gun_01" 			position = { 0 	7.0 	-13.0	} scale = 0 }
-	locator = { name = "medium_gun_02" 			position = { 0 	7.0 	-13.0	} scale = 0 }
-	locator = { name = "medium_gun_03" 			position = { 0 	7.0 	-13.0	} scale = 0 }
-	locator = { name = "small_gun_01" 			position = { 2.8 	2.4 	-11.0	} scale = 0}
-	locator = { name = "small_gun_02" 			position = { -2.8 	2.4 	-11.0	} scale = 0}
+	locator = { name = "medium_gun_01" 			position = { 0 	0 	-6.5	} scale = 0 }
+	locator = { name = "medium_gun_02" 			position = { 0 	0 	-6.5	} scale = 0 }
+	locator = { name = "medium_gun_03" 			position = { 0 	0 	-6.5	} scale = 0 }
+	locator = { name = "small_gun_01" 			position = { 0 	0 	-6.5	} scale = 0 }
+	locator = { name = "small_gun_02" 			position = { 0 	0 	-6.5	} scale = 0 }
 
 	default_state = "idle"
 	state = { name = "idle" state_time = 5
@@ -2864,7 +2863,7 @@ entity = {
 	name = "zeon_01_Dreadnought_bow_XL1_entity"
 	pdxmesh = "zeon_01_battleship_bow_XL1_mesh"
 
-	locator = { name = "xl_gun_01" position = { 0 	7.0 	-13.0	} scale = 0.0 }
+	locator = { name = "xl_gun_01" position = { 0 	0 	-6.5	} scale = 0 }
 
 	default_state = "idle"
 	state = { name = "idle" state_time = 5
@@ -2909,12 +2908,12 @@ entity = {
 	name = "zeon_01_Dreadnought_mid1_L2S4_entity"
 	pdxmesh = "zeon_01_battleship_mid_L2S4_mesh"
 
-	locator = { name = "large_gun_01" 			position = { 0 	6.9 	-5.0	} scale = 2.5}
-	locator = { name = "large_gun_02" 			position = { 0 	6.6 	0.5	} scale = 2.5 }
-	locator = { name = "small_gun_01" 			position = { 2.8 	2.4 	-8.1	} scale = 0}
-	locator = { name = "small_gun_02" 			position = { -2.8 	2.4 	-8.1	} scale = 0}
-	locator = { name = "small_gun_03" 			position = {  2.8 	2.4 	-5.5	} scale = 0}
-	locator = { name = "small_gun_04" 			position = {  -2.8 	2.4 	-5.5	} scale = 0}
+	locator = { name = "large_gun_01" 			position = { 0 	1.1 	4.2	} scale = 1.0 }
+	locator = { name = "large_gun_02" 			position = { 0 	1.1 	4.2	} scale = 0.0 }
+	locator = { name = "small_gun_01" 			position = { 1.75 	0 	0.5	} scale = 1.0 }
+	locator = { name = "small_gun_02" 			position = { 3.0 	-0.05 	1.0	} scale = 1.0 }
+	locator = { name = "small_gun_03" 			position = { -1.75 	0 	0.5	} scale = 1.0 }
+	locator = { name = "small_gun_04" 			position = { -3.0 	-0.05 	1.0	} scale = 1.0 }
 
 	default_state = "idle"
 	state = { name = "idle" state_time = 5
@@ -2956,11 +2955,11 @@ entity = {
 	name = "zeon_01_Dreadnought_mid1_L1M4_entity"
 	pdxmesh = "zeon_01_battleship_mid_L1M4_mesh"
 
-	locator = { name = "large_gun_01" 			position = { 0 	6.6 	-3.0	} scale = 4.0}
-	locator = { name = "medium_gun_01" 			position = { 2.8 	2.4 	-8.1	} scale = 0}
-	locator = { name = "medium_gun_02" 			position = { -2.8 	2.4 	-8.1	} scale = 0}
-	locator = { name = "medium_gun_03" 			position = {  2.8 	2.4 	-5.5	} scale = 0}
-	locator = { name = "medium_gun_04" 			position = {  -2.8 	2.4 	-5.5	} scale = 0}
+	locator = { name = "large_gun_01" 			position = { 0 	1.1 	4.2	} scale = 1.0 }
+	locator = { name = "medium_gun_01" 			position = { 1.75 	0 	0.5	} scale = 1.0 }
+	locator = { name = "medium_gun_02" 			position = { -1.75 	0 	0.5	} scale = 1.0 }
+	locator = { name = "medium_gun_03" 			position = { 3.0 	-0.05 	1.0	} scale = 1.0 }
+	locator = { name = "medium_gun_04" 			position = { -3.0 	-0.05 	1.0	} scale = 1.0 }
 
 }
 
@@ -2968,10 +2967,10 @@ entity = {
 	name = "zeon_01_Dreadnought_mid1_L2M2_entity"
 	pdxmesh = "zeon_01_battleship_mid_L2M2_mesh"
 
-	locator = { name = "large_gun_01" 			position = { 0 	6.9 	-5.0	} scale = 2.5}
-	locator = { name = "large_gun_02" 			position = { 0 	6.6 	0.5	} scale = 2.5 }
-	locator = { name = "medium_gun_01" 			position = { 2.8 	2.4 	-8.1	} scale = 0}
-	locator = { name = "medium_gun_02" 			position = { -2.8 	2.4 	-8.1	} scale = 0}
+	locator = { name = "large_gun_01" 			position = { 1.75 	0 	0.5	} scale = 1.0 }
+	locator = { name = "large_gun_02" 			position = { -1.75 	0 	0.5	} scale = 1.0 }
+	locator = { name = "medium_gun_01" 			position = { 3.0 	-0.05 	1.0	} scale = 1.0 }
+	locator = { name = "medium_gun_02" 			position = { -3.0 	-0.05 	1.0	} scale = 1.0 }
 
 	default_state = "idle"
 	state = { name = "idle" state_time = 5
@@ -3013,9 +3012,9 @@ entity = {
 	name = "zeon_01_Dreadnought_mid1_L3_entity"
 	pdxmesh = "zeon_01_battleship_mid_L3_mesh"
 
-	locator = { name = "large_gun_01" 			position = { 0 	7.0 	-6.5	} scale = 1.75}
-	locator = { name = "large_gun_02" 			position = { 0 	6.7 	-3.0	} scale = 1.75}
-	locator = { name = "large_gun_03" 			position = { 0 	6.6 	0.5	} scale = 1.75}
+	locator = { name = "large_gun_01" 			position = { 1.75 	0 	0.5	} scale = 1.0 }
+	locator = { name = "large_gun_02" 			position = { -1.75 	0 	0.5	} scale = 1.0 }
+	locator = { name = "large_gun_03" 			position = { 0 	1.1 	4.2	} scale = 1.0 }
 
 	default_state = "idle"
 	state = { name = "idle" state_time = 5
@@ -3057,10 +3056,10 @@ entity = {
 	name = "zeon_01_Dreadnought_mid1_M4SHB_entity"
 	pdxmesh = "zeon_01_battleship_mid_M4SHB_mesh"
 
-	locator = { name = "medium_gun_01" 			position = { 2.8 	2.4 	-8.1	} scale = 0}
-	locator = { name = "medium_gun_02" 			position = { -2.8 	2.4 	-8.1	} scale = 0}
-	locator = { name = "medium_gun_03" 			position = {  2.8 	2.4 	-5.5	} scale = 0}
-	locator = { name = "medium_gun_04" 			position = {  -2.8 	2.4 	-5.5	} scale = 0}
+	locator = { name = "medium_gun_01" 			position = { 1.75 	0 	0.5	} scale = 1.0 }
+	locator = { name = "medium_gun_02" 			position = { -1.75 	0 	0.5	} scale = 1.0 }
+	locator = { name = "medium_gun_03" 			position = { 3.0 	-0.05 	1.0	} scale = 1.0 }
+	locator = { name = "medium_gun_04" 			position = { -3.0 	-0.05 	1.0	} scale = 1.0 }
 
 	default_state = "idle"
 	state = { name = "idle" state_time = 5
@@ -3105,10 +3104,10 @@ entity = {
 	name = "zeon_01_Dreadnought_mid1_S4LHB_entity"
 	pdxmesh = "zeon_01_battleship_mid_S4LHB_mesh"
 
-	locator = { name = "small_gun_01" 			position = { 2.8 	2.4 	-8.1	} scale = 0}
-	locator = { name = "small_gun_02" 			position = { -2.8 	2.4 	-8.1	} scale = 0}
-	locator = { name = "small_gun_03" 			position = {  2.8 	2.4 	-5.5	} scale = 0}
-	locator = { name = "small_gun_04" 			position = {  -2.8 	2.4 	-5.5	} scale = 0}
+	locator = { name = "small_gun_01" 			position = { 1.75 	0 	0.5	} scale = 1.0 }
+	locator = { name = "small_gun_02" 			position = { -1.75 	0 	0.5	} scale = 1.0 }
+	locator = { name = "small_gun_03" 			position = { 3.0 	-0.05 	1.0	} scale = 1.0 }
+	locator = { name = "small_gun_04" 			position = { -3.0 	-0.05 	1.0	} scale = 1.0 }
 
 	default_state = "idle"
 	state = { name = "idle" state_time = 5
@@ -3162,12 +3161,12 @@ entity = {
 	name = "zeon_01_Dreadnought_mid2_L2S4_entity"
 	pdxmesh = "zeon_01_battleship_mid_L2S4_mesh"
 
-	locator = { name = "large_gun_01" 			position = { 0 	6.9 	-5.0	} scale = 2.5}
-	locator = { name = "large_gun_02" 			position = { 0 	6.6 	0.5	} scale = 2.5 }
-	locator = { name = "small_gun_01" 			position = { 2.8 	2.4 	-8.1	} scale = 0}
-	locator = { name = "small_gun_02" 			position = { -2.8 	2.4 	-8.1	} scale = 0}
-	locator = { name = "small_gun_03" 			position = {  2.8 	2.4 	-5.5	} scale = 0}
-	locator = { name = "small_gun_04" 			position = {  -2.8 	2.4 	-5.5	} scale = 0}
+	locator = { name = "large_gun_01" 			position = { 0 	-1.9 	4.2	} rotation = { 0 0 180 } scale = 1.0 }
+	locator = { name = "large_gun_02" 			position = { 0 	-1.9 	4.2	} rotation = { 0 0 180 } scale = 0.0 }
+	locator = { name = "small_gun_01" 			position = { 1.75 	-0.65 	0.5	} rotation = { 0 0 180 } scale = 1.0 }
+	locator = { name = "small_gun_02" 			position = { 3.0 	-0.6 	1.0	} rotation = { 0 0 180 } scale = 1.0 }
+	locator = { name = "small_gun_03" 			position = { -1.75 	-0.65 	0.5	} rotation = { 0 0 180 } scale = 1.0 }
+	locator = { name = "small_gun_04" 			position = { -3.0 	-0.6 	1.0	} rotation = { 0 0 180 } scale = 1.0 }
 
 	default_state = "idle"
 	state = { name = "idle" state_time = 5
@@ -3209,11 +3208,11 @@ entity = {
 	name = "zeon_01_Dreadnought_mid2_L1M4_entity"
 	pdxmesh = "zeon_01_battleship_mid_L1M4_mesh"
 
-	locator = { name = "large_gun_01" 			position = { 0 	6.6 	-3.0	} scale = 4.0}
-	locator = { name = "medium_gun_01" 			position = { 2.8 	2.4 	-8.1	} scale = 0}
-	locator = { name = "medium_gun_02" 			position = { -2.8 	2.4 	-8.1	} scale = 0}
-	locator = { name = "medium_gun_03" 			position = {  2.8 	2.4 	-5.5	} scale = 0}
-	locator = { name = "medium_gun_04" 			position = {  -2.8 	2.4 	-5.5	} scale = 0}
+	locator = { name = "large_gun_01" 			position = { 0 	-1.9 	4.2	} rotation = { 0 0 180 } scale = 1.0 }
+	locator = { name = "medium_gun_01" 			position = { 1.75 	-0.65 	0.5	} rotation = { 0 0 180 } scale = 1.0 }
+	locator = { name = "medium_gun_02" 			position = { -1.75 	-0.65 	0.5	} rotation = { 0 0 180 } scale = 1.0 }
+	locator = { name = "medium_gun_03" 			position = { 3.0 	-0.6 	1.0	} rotation = { 0 0 180 } scale = 1.0 }
+	locator = { name = "medium_gun_04" 			position = { -3.0 	-0.6 	1.0	} rotation = { 0 0 180 } scale = 1.0 }
 
 }
 
@@ -3221,10 +3220,10 @@ entity = {
 	name = "zeon_01_Dreadnought_mid2_L2M2_entity"
 	pdxmesh = "zeon_01_battleship_mid_L2M2_mesh"
 
-	locator = { name = "large_gun_01" 			position = { 0 	6.9 	-5.0	} scale = 2.5}
-	locator = { name = "large_gun_02" 			position = { 0 	6.6 	0.5	} scale = 2.5 }
-	locator = { name = "medium_gun_01" 			position = { 2.8 	2.4 	-8.1	} scale = 0}
-	locator = { name = "medium_gun_02" 			position = { -2.8 	2.4 	-8.1	} scale = 0}
+	locator = { name = "large_gun_01" 			position = { 1.75 	-0.65 	0.5	} rotation = { 0 0 180 } scale = 1.0 }
+	locator = { name = "large_gun_02" 			position = { -1.75 	-0.65 	0.5	} rotation = { 0 0 180 } scale = 1.0 }
+	locator = { name = "medium_gun_01" 			position = { 3.0 	-0.6 	1.0	} rotation = { 0 0 180 } scale = 1.0 }
+	locator = { name = "medium_gun_02" 			position = { -3.0 	-0.6 	1.0	} rotation = { 0 0 180 } scale = 1.0 }
 
 	default_state = "idle"
 	state = { name = "idle" state_time = 5
@@ -3266,9 +3265,9 @@ entity = {
 	name = "zeon_01_Dreadnought_mid2_L3_entity"
 	pdxmesh = "zeon_01_battleship_mid_L3_mesh"
 
-	locator = { name = "large_gun_01" 			position = { 0 	7.0 	-6.5	} scale = 1.75}
-	locator = { name = "large_gun_02" 			position = { 0 	6.7 	-3.0	} scale = 1.75}
-	locator = { name = "large_gun_03" 			position = { 0 	6.6 	0.5	} scale = 1.75}
+	locator = { name = "large_gun_01" 			position = { 1.75 	-0.65 	0.5	} rotation = { 0 0 180 } scale = 1.0 }
+	locator = { name = "large_gun_02" 			position = { -1.75 	-0.65 	0.5	} rotation = { 0 0 180 } scale = 1.0 }
+	locator = { name = "large_gun_03" 			position = { 0 	-1.9 	4.2	} rotation = { 0 0 180 } scale = 1.0 }
 
 	default_state = "idle"
 	state = { name = "idle" state_time = 5
@@ -3310,10 +3309,10 @@ entity = {
 	name = "zeon_01_Dreadnought_mid2_M4SHB_entity"
 	pdxmesh = "zeon_01_battleship_mid_M4SHB_mesh"
 
-	locator = { name = "medium_gun_01" 			position = { 2.8 	2.4 	-8.1	} scale = 0}
-	locator = { name = "medium_gun_02" 			position = { -2.8 	2.4 	-8.1	} scale = 0}
-	locator = { name = "medium_gun_03" 			position = {  2.8 	2.4 	-5.5	} scale = 0}
-	locator = { name = "medium_gun_04" 			position = {  -2.8 	2.4 	-5.5	} scale = 0}
+	locator = { name = "medium_gun_01" 			position = { 1.75 	-0.65 	0.5	} rotation = { 0 0 180 } scale = 1.0 }
+	locator = { name = "medium_gun_02" 			position = { -1.75 	-0.65 	0.5	} rotation = { 0 0 180 } scale = 1.0 }
+	locator = { name = "medium_gun_03" 			position = { 3.0 	-0.6 	1.0	} rotation = { 0 0 180 } scale = 1.0 }
+	locator = { name = "medium_gun_04" 			position = { -3.0 	-0.6 	1.0	} rotation = { 0 0 180 } scale = 1.0 }
 
 	default_state = "idle"
 	state = { name = "idle" state_time = 5
@@ -3358,10 +3357,10 @@ entity = {
 	name = "zeon_01_Dreadnought_mid2_S4LHB_entity"
 	pdxmesh = "zeon_01_battleship_mid_S4LHB_mesh"
 
-	locator = { name = "small_gun_01" 			position = { 2.8 	2.4 	-8.1	} scale = 0}
-	locator = { name = "small_gun_02" 			position = { -2.8 	2.4 	-8.1	} scale = 0}
-	locator = { name = "small_gun_03" 			position = {  2.8 	2.4 	-5.5	} scale = 0}
-	locator = { name = "small_gun_04" 			position = {  -2.8 	2.4 	-5.5	} scale = 0}
+	locator = { name = "small_gun_01" 			position = { 1.75 	-0.65 	0.5	} rotation = { 0 0 180 } scale = 1.0 }
+	locator = { name = "small_gun_02" 			position = { -1.75 	-0.65 	0.5	} rotation = { 0 0 180 } scale = 1.0 }
+	locator = { name = "small_gun_03" 			position = { 3.0 	-0.6 	1.0	} rotation = { 0 0 180 } scale = 1.0 }
+	locator = { name = "small_gun_04" 			position = { -3.0 	-0.6 	1.0	} rotation = { 0 0 180 } scale = 1.0 }
 
 	default_state = "idle"
 	state = { name = "idle" state_time = 5
@@ -3416,7 +3415,7 @@ entity = {
 	name = "zeon_01_Dreadnought_stern_L1_entity"
 	pdxmesh = "zeon_01_battleship_stern_L1_mesh"
 
-	locator = { name = "large_gun_01" 			position = { 0 	7.7 	5.5	} scale = 4.0}
+	locator = { name = "large_gun_01" 			position = { 0 	1.15 	8.1	} rotation = { 180 0 0 } scale = 1.0 }
 
 	default_state = "idle"
 	state = { name = "idle" state_time = 5
@@ -3471,9 +3470,9 @@ entity = {
 	name = "zeon_01_Dreadnought_stern_M1S2_entity"
 	pdxmesh = "zeon_01_battleship_stern_M1S2_mesh"
 
-	locator = { name = "medium_gun_01" 			position = { 0 	7.7 	5.5	} scale = 3.0}
-	locator = { name = "small_gun_01" 			position = { 2.8 	2.4 	-3.0	} scale = 0}
-	locator = { name = "small_gun_02" 			position = { -2.8 	2.4 	-3.0	} scale = 0}
+	locator = { name = "medium_gun_01" 			position = { 0 	1.15 	8.1	} rotation = { 180 0 0 } scale = 1.0 }
+	locator = { name = "small_gun_01" 			position = { 0 	1.05 	8.8	} rotation = { 180 0 0 } scale = 1.0 }
+	locator = { name = "small_gun_02" 			position = { 0 	1.05 	8.8	} rotation = { 180 0 0 } scale = 0.0 }
 
 	default_state = "idle"
 	state = { name = "idle" state_time = 5
@@ -3514,8 +3513,8 @@ entity = {
 	name = "zeon_01_Dreadnought_stern_M2_entity"
 	pdxmesh = "zeon_01_battleship_stern_m2_mesh"
 
-	locator = { name = "medium_gun_01" 			position = { 2.8 	2.4 	-3.0	} scale = 0}
-	locator = { name = "medium_gun_02" 			position = { -2.8 	2.4 	-3.0	} scale = 0}
+	locator = { name = "medium_gun_01" 			position = { 0 	1.15 	7.9	} rotation = { 180 0 0 } scale = 1.0 }
+	locator = { name = "medium_gun_02" 			position = { 0 	1.05 	8.8	} rotation = { 180 0 0 } scale = 1.0 }
 
 	default_state = "idle"
 	state = { name = "idle" state_time = 5
@@ -3574,10 +3573,10 @@ entity = {
 	name = "zeon_01_Dreadnought_stern_S4_entity"
 	pdxmesh = "zeon_01_battleship_stern_S4_mesh"
 
-	locator = { name = "small_gun_01" 			position = { 2.8 	2.4 	-3.0	} scale = 0}
-	locator = { name = "small_gun_02" 			position = { -2.8 	2.4 	-3.0	} scale = 0}
-	locator = { name = "small_gun_03" 			position = { 2.8 	2.4 	-3.0	} scale = 0}
-	locator = { name = "small_gun_04" 			position = { -2.8 	2.4 	-3.0	} scale = 0}
+	locator = { name = "small_gun_01" 			position = { 0 	1.15 	7.9	} rotation = { 180 0 0 } scale = 1.0 }
+	locator = { name = "small_gun_02" 			position = { 0 	1.15 	7.9	} rotation = { 180 0 0 } scale = 1.0 }
+	locator = { name = "small_gun_03" 			position = { 0 	1.05 	8.8	} rotation = { 180 0 0 } scale = 1.0 }
+	locator = { name = "small_gun_04" 			position = { 0 	1.05 	8.8	} rotation = { 180 0 0 } scale = 1.0 }
 
 	default_state = "idle"
 	state = { name = "idle" state_time = 5

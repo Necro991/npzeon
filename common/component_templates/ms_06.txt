@@ -11,7 +11,7 @@ utility_component_template = {
 	modifier = {
 		ship_armor_add = 110
 		ship_evasion_add = -5
-		ship_hitpoints_mult = 0.1
+		ship_hull_mult = 0.1
 	}
 	#ship_modifier = {
 	#	ship_weapon_damage = 0.01
@@ -37,7 +37,7 @@ utility_component_template = {
 
 	modifier = {
 		ship_armor_add = 88
-		ship_hitpoints_mult = 0.1
+		ship_hull_mult = 0.1
 	}
 	#ship_modifier = {
 	#	ship_weapon_damage = 0.01
@@ -63,7 +63,7 @@ utility_component_template = {
 
 	modifier = {
 		ship_armor_add = 113
-		ship_hitpoints_mult = 0.13
+		ship_hull_mult = 0.13
 	}
 	#ship_modifier = {
 	#	ship_weapon_damage = 0.01
@@ -89,7 +89,7 @@ utility_component_template = {
 
 	modifier = {
 		ship_armor_add = 129.6
-		ship_hitpoints_mult = 0.08
+		ship_hull_mult = 0.08
 	}
 	#ship_modifier = {
 	#	ship_weapon_damage = 0.01
@@ -115,7 +115,7 @@ utility_component_template = {
 
 	modifier = {
 		ship_armor_add = 151
-		ship_hitpoints_mult = 0.28
+		ship_hull_mult = 0.28
 	}
 	#ship_modifier = {
 	#	ship_weapon_damage = 0.01

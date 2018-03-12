@@ -14,7 +14,7 @@ objectTypes = {
 	}
 
 #	pdxmesh = {
-#		name = "mammalian_01_missile_mesh"
+#		name = "fed_01_missile_mesh"
 #		file = "gfx/models/ships/mammalian_01/mammalian_01_missile_medium.mesh"
 #		scale = 1
 #		meshsettings = {
@@ -379,7 +379,7 @@ objectTypes = {
 	#######  Turrets  #######
 
 	pdxmesh = {
-		name = "mammalian_01_turret_projectile_large_mesh"
+		name = "fed_01_turret_projectile_large_mesh"
 		file = "gfx/models/ships/mammalian_01/mammalian_01_turret_projectile_large.mesh"
 		#	animation = { id = "idle"		type = "turret_projectile_large_idle_animation" }
 		#	animation = { id = "attack"		type = "turret_projectile_large_attack_animation" }
@@ -390,7 +390,7 @@ objectTypes = {
 	}
 
 	pdxmesh = {
-		name = "mammalian_01_turret_projectile_medium_mesh"
+		name = "fed_01_turret_projectile_medium_mesh"
 		file = "gfx/models/ships/mammalian_01/mammalian_01_turret_projectile_medium.mesh"
 		#	animation = { id = "idle"		type = "turret_projectile_medium_idle_animation" }
 		#	animation = { id = "attack"		type = "turret_projectile_medium_attack_animation" }
@@ -401,7 +401,7 @@ objectTypes = {
 	}
 
 	pdxmesh = {
-		name = "mammalian_01_turret_projectile_small_mesh"
+		name = "fed_01_turret_projectile_small_mesh"
 		file = "gfx/models/ships/mammalian_01/mammalian_01_turret_projectile_small.mesh"
 		#	animation = { id = "idle"		type = "turret_projectile_small_idle_animation" }
 		#	animation = { id = "attack"		type = "turret_projectile_small_attack_animation" }
@@ -412,7 +412,7 @@ objectTypes = {
 	}
 
 	pdxmesh = {
-		name = "mammalian_01_turret_missile_large_mesh"
+		name = "fed_01_turret_missile_large_mesh"
 		file = "gfx/models/ships/mammalian_01/mammalian_01_turret_missile_large.mesh"
 		#	animation = { id = "idle"		type = "turret_projectile_large_idle_animation" }
 		#	animation = { id = "attack"		type = "turret_projectile_large_attack_animation" }
@@ -423,7 +423,7 @@ objectTypes = {
 	}
 
 	pdxmesh = {
-		name = "mammalian_01_turret_missile_medium_mesh"
+		name = "fed_01_turret_missile_medium_mesh"
 		file = "gfx/models/ships/mammalian_01/mammalian_01_turret_missile_medium.mesh"
 		#	animation = { id = "idle"		type = "turret_projectile_medium_idle_animation" }
 		#	animation = { id = "attack"		type = "turret_projectile_medium_attack_animation" }
@@ -434,7 +434,7 @@ objectTypes = {
 	}
 
 	pdxmesh = {
-		name = "mammalian_01_turret_missile_small_mesh"
+		name = "fed_01_turret_missile_small_mesh"
 		file = "gfx/models/ships/mammalian_01/mammalian_01_turret_missile_small.mesh"
 		#	animation = { id = "idle"		type = "turret_projectile_small_idle_animation" }
 		#	animation = { id = "attack"		type = "turret_projectile_small_attack_animation" }
@@ -445,7 +445,7 @@ objectTypes = {
 	}
 
 	pdxmesh = {
-		name = "mammalian_01_turret_point_defence_mesh"
+		name = "fed_01_turret_point_defence_mesh"
 		file = "gfx/models/ships/mammalian_01/mammalian_01_turret_point_defence.mesh"
 		#	animation = { id = "idle"		type = "turret_projectile_small_idle_animation" }
 		#	animation = { id = "attack"		type = "turret_projectile_small_attack_animation" }
@@ -458,18 +458,18 @@ objectTypes = {
 	#######  corvette frame  #######
 
 	#pdxmesh = {
-	#	name = "mammalian_01_corvette_frame_mesh"
+	#	name = "fed_01_corvette_frame_mesh"
 	#	file = "gfx/models/ships/mammalian_01/mammalian_01_corvette_frame.mesh"
-	#			animation = { id = "idle"			type = "mammalian_01_corvette_frame_idle_animation" }
-	#			animation = { id = "death"			type = "mammalian_01_corvette_frame_death_animation" }
-	#			animation = { id = "attack"			type = "mammalian_01_corvette_frame_idle_animation" }
+	#			animation = { id = "idle"			type = "fed_01_corvette_frame_idle_animation" }
+	#			animation = { id = "death"			type = "fed_01_corvette_frame_death_animation" }
+	#			animation = { id = "attack"			type = "fed_01_corvette_frame_idle_animation" }
 	#	scale = 1.0
 	#}
 
 	#######  corvette sections  #######
 
 	pdxmesh = {
-		name = "mammalian_01_corvette_M1S1_mesh"
+		name = "fed_01_corvette_M1S1_mesh"
 		file = "gfx/models/ships/mammalian_01/mammalian_01_corvette_M1S1.mesh"
 		scale = 1.0
 		meshsettings = {
@@ -481,7 +481,7 @@ objectTypes = {
 	}
 
 	pdxmesh = {
-		name = "mammalian_01_corvette_S3_mesh"
+		name = "fed_01_corvette_S3_mesh"
 		file = "gfx/models/ships/mammalian_01/mammalian_01_corvette_S3.mesh"
 		scale = 1.0
 		meshsettings = {
@@ -493,7 +493,7 @@ objectTypes = {
 	}
 
 		pdxmesh = {
-		name = "mammalian_01_corvette_S1_mesh"
+		name = "fed_01_corvette_S1_mesh"
 		file = "gfx/models/ships/mammalian_01/mammalian_01_corvette_S1.mesh"
 		scale = 1.0
 		meshsettings = {
@@ -509,18 +509,18 @@ objectTypes = {
 	#######  destroyer frame  #######
 
 	#pdxmesh = {
-	#	name = "mammalian_01_destroyer_frame_mesh"
+	#	name = "fed_01_destroyer_frame_mesh"
 	#	file = "gfx/models/ships/mammalian_01/mammalian_01_destroyer_frame.mesh"
-	#			animation = { id = "idle"			type = "mammalian_01_destroyer_frame_idle_animation" }
-	#			animation = { id = "death"			type = "mammalian_01_destroyer_frame_death_animation" }
-	#			animation = { id = "attack"			type = "mammalian_01_destroyer_frame_idle_animation" }
+	#			animation = { id = "idle"			type = "fed_01_destroyer_frame_idle_animation" }
+	#			animation = { id = "death"			type = "fed_01_destroyer_frame_death_animation" }
+	#			animation = { id = "attack"			type = "fed_01_destroyer_frame_idle_animation" }
 	#	scale = 1.0
 	#}
 
 	#######  destroyer bow sections  #######
 
 	pdxmesh = {
-		name = "mammalian_01_destroyer_bow_L1_mesh"
+		name = "fed_01_destroyer_bow_L1_mesh"
 		file = "gfx/models/ships/mammalian_01/mammalian_01_destroyer_bow_L1.mesh"
 		scale = 0.0
 		meshsettings = {
@@ -532,7 +532,7 @@ objectTypes = {
 	}
 
 	pdxmesh = {
-		name = "mammalian_01_destroyer_bow_M1S2_mesh"
+		name = "fed_01_destroyer_bow_M1S2_mesh"
 		file = "gfx/models/ships/mammalian_01/mammalian_01_destroyer_bow_M1S2.mesh"
 		scale = 0.0
 		meshsettings = {
@@ -543,7 +543,7 @@ objectTypes = {
 	}
 
 	pdxmesh = {
-		name = "mammalian_01_destroyer_bow_S3_mesh"
+		name = "fed_01_destroyer_bow_S3_mesh"
 		file = "gfx/models/ships/mammalian_01/mammalian_01_destroyer_bow_S3.mesh"
 		scale = 0.0
 		meshsettings = {
@@ -556,7 +556,7 @@ objectTypes = {
 	#######  destroyer stern sections  #######
 
 	pdxmesh = {
-		name = "mammalian_01_destroyer_stern_S2_mesh"
+		name = "fed_01_destroyer_stern_S2_mesh"
 		file = "gfx/models/ships/mammalian_01/mammalian_01_destroyer_stern_S2.mesh"
 		scale = 0.0
 		meshsettings = {
@@ -567,7 +567,7 @@ objectTypes = {
 	}
 
 	pdxmesh = {
-		name = "mammalian_01_destroyer_stern_M1_mesh"
+		name = "fed_01_destroyer_stern_M1_mesh"
 		file = "gfx/models/ships/mammalian_01/mammalian_01_destroyer_stern_M1.mesh"
 		scale = 0.0
 		meshsettings = {
@@ -581,14 +581,14 @@ objectTypes = {
 	#######  cruiser frame  #######
 
 	pdxmesh = {
-		name = "mammalian_01_cruiser_frame_mesh"
+		name = "fed_01_cruiser_frame_mesh"
 		file = "gfx/models/ships/mammalian_01/mammalian_01_cruiser_frame.mesh"
-				animation = { id = "idle"			type = "mammalian_01_cruiser_frame_idle_animation" }
-				animation = { id = "death"			type = "mammalian_01_cruiser_frame_death_animation" }
-				animation = { id = "death2"			type = "mammalian_01_cruiser_frame_death2_animation" }
-				animation = { id = "death3"			type = "mammalian_01_cruiser_frame_death3_animation" }
-				animation = { id = "attack"			type = "mammalian_01_cruiser_frame_idle_animation" }
-				animation = { id = "moving"			type = "mammalian_01_cruiser_frame_idle_animation" }
+				animation = { id = "idle"			type = "fed_01_cruiser_frame_idle_animation" }
+				animation = { id = "death"			type = "fed_01_cruiser_frame_death_animation" }
+				animation = { id = "death2"			type = "fed_01_cruiser_frame_death2_animation" }
+				animation = { id = "death3"			type = "fed_01_cruiser_frame_death3_animation" }
+				animation = { id = "attack"			type = "fed_01_cruiser_frame_idle_animation" }
+				animation = { id = "moving"			type = "fed_01_cruiser_frame_idle_animation" }
 		scale = 1.0
 		meshsettings = {
 			shader = "PdxMeshShip"
@@ -601,7 +601,7 @@ objectTypes = {
 	#######  cruiser bow sections  #######
 
 	pdxmesh = {
-		name = "mammalian_01_cruiser_bow_L1_mesh"
+		name = "fed_01_cruiser_bow_L1_mesh"
 		file = "gfx/models/ships/mammalian_01/mammalian_01_cruiser_bow_L1.mesh"
 		scale = 0.0
 		meshsettings = {
@@ -612,7 +612,7 @@ objectTypes = {
 	}
 
 	pdxmesh = {
-		name = "mammalian_01_cruiser_bow_M1S2_mesh"
+		name = "fed_01_cruiser_bow_M1S2_mesh"
 		file = "gfx/models/ships/mammalian_01/mammalian_01_cruiser_bow_M1S2.mesh"
 		scale = 0.0
 		meshsettings = {
@@ -623,7 +623,7 @@ objectTypes = {
 	}
 
 	pdxmesh = {
-		name = "mammalian_01_cruiser_bow_M2_mesh"
+		name = "fed_01_cruiser_bow_M2_mesh"
 		file = "gfx/models/ships/mammalian_01/mammalian_01_cruiser_bow_M2.mesh"
 		scale = 0.0
 		meshsettings = {
@@ -637,7 +637,7 @@ objectTypes = {
 
 
 	pdxmesh = {
-		name = "mammalian_01_cruiser_mid_S2HB_mesh"
+		name = "fed_01_cruiser_mid_S2HB_mesh"
 		file = "gfx/models/ships/mammalian_01/mammalian_01_cruiser_mid_S2HB.mesh"
 		scale = 0.0
 		meshsettings = {
@@ -648,7 +648,7 @@ objectTypes = {
 	}
 
 	pdxmesh = {
-		name = "mammalian_01_cruiser_mid_L1M1_mesh"
+		name = "fed_01_cruiser_mid_L1M1_mesh"
 		file = "gfx/models/ships/mammalian_01/mammalian_01_cruiser_mid_L1M1.mesh"
 		scale = 0.0
 		meshsettings = {
@@ -659,7 +659,7 @@ objectTypes = {
 	}
 
 	pdxmesh = {
-		name = "mammalian_01_cruiser_mid_M3_mesh"
+		name = "fed_01_cruiser_mid_M3_mesh"
 		file = "gfx/models/ships/mammalian_01/mammalian_01_cruiser_mid_M3.mesh"
 		scale = 0.0
 		meshsettings = {
@@ -670,7 +670,7 @@ objectTypes = {
 	}
 
 	pdxmesh = {
-		name = "mammalian_01_cruiser_mid_M2S2_mesh"
+		name = "fed_01_cruiser_mid_M2S2_mesh"
 		file = "gfx/models/ships/mammalian_01/mammalian_01_cruiser_mid_M2S2.mesh"
 		scale = 0.0
 		meshsettings = {
@@ -683,7 +683,7 @@ objectTypes = {
 	#######  cruiser stern sections  #######
 
 	pdxmesh = {
-		name = "mammalian_01_cruiser_stern_M1_mesh"
+		name = "fed_01_cruiser_stern_M1_mesh"
 		file = "gfx/models/ships/mammalian_01/mammalian_01_cruiser_stern_M1.mesh"
 		scale = 0.0
 		meshsettings = {
@@ -694,7 +694,7 @@ objectTypes = {
 	}
 
 	pdxmesh = {
-		name = "mammalian_01_cruiser_stern_S2_mesh"
+		name = "fed_01_cruiser_stern_S2_mesh"
 		file = "gfx/models/ships/mammalian_01/mammalian_01_cruiser_stern_S2.mesh"
 		scale = 0.0
 		meshsettings = {
@@ -709,13 +709,13 @@ objectTypes = {
 	#######  Battleship frame  #######
 
 	pdxmesh = {
-		name = "mammalian_01_battleship_frame_mesh"
+		name = "fed_01_battleship_frame_mesh"
 		file = "gfx/models/ships/mammalian_01/mammalian_01_battleship_frame.mesh"
-				animation = { id = "idle"			type = "mammalian_01_battleship_frame_idle_animation" }
-				animation = { id = "death"			type = "mammalian_01_battleship_frame_death_animation" }
-				animation = { id = "death2"			type = "mammalian_01_battleship_frame_death2_animation" }
-				animation = { id = "death3"			type = "mammalian_01_battleship_frame_death3_animation" }
-		#		animation = { id = "attack"			type = "mammalian_01_battleship_frame_idle_animation" }
+				animation = { id = "idle"			type = "fed_01_battleship_frame_idle_animation" }
+				animation = { id = "death"			type = "fed_01_battleship_frame_death_animation" }
+				animation = { id = "death2"			type = "fed_01_battleship_frame_death2_animation" }
+				animation = { id = "death3"			type = "fed_01_battleship_frame_death3_animation" }
+		#		animation = { id = "attack"			type = "fed_01_battleship_frame_idle_animation" }
 		scale = 1.0
 		meshsettings = {
 			shader = "PdxMeshShip"
@@ -725,7 +725,7 @@ objectTypes = {
 	#######  Battleship bow sections  #######
 
 	pdxmesh = {
-		name = "mammalian_01_battleship_bow_L1M1S2_mesh"
+		name = "fed_01_battleship_bow_L1M1S2_mesh"
 		file = "gfx/models/ships/mammalian_01/mammalian_01_battleship_bow_L1M1S2.mesh"
 		scale = 0.0
 		meshsettings = {
@@ -736,7 +736,7 @@ objectTypes = {
 	}
 
 	pdxmesh = {
-		name = "mammalian_01_battleship_bow_L1S4_mesh"
+		name = "fed_01_battleship_bow_L1S4_mesh"
 		file = "gfx/models/ships/mammalian_01/mammalian_01_battleship_bow_L1S4.mesh"
 		scale = 0.0
 		meshsettings = {
@@ -747,7 +747,7 @@ objectTypes = {
 	}
 
 	pdxmesh = {
-		name = "mammalian_01_battleship_bow_L2_mesh"
+		name = "fed_01_battleship_bow_L2_mesh"
 		file = "gfx/models/ships/mammalian_01/mammalian_01_battleship_bow_L2.mesh"
 		scale = 0.0
 		meshsettings = {
@@ -758,7 +758,7 @@ objectTypes = {
 	}
 
 	pdxmesh = {
-		name = "mammalian_01_battleship_bow_M1S2SHB_mesh"
+		name = "fed_01_battleship_bow_M1S2SHB_mesh"
 		file = "gfx/models/ships/mammalian_01/mammalian_01_battleship_bow_M1S2SHB.mesh"
 		scale = 0.0
 		meshsettings = {
@@ -769,7 +769,7 @@ objectTypes = {
 	}
 
 	pdxmesh = {
-		name = "mammalian_01_battleship_bow_M2S4_mesh"
+		name = "fed_01_battleship_bow_M2S4_mesh"
 		file = "gfx/models/ships/mammalian_01/mammalian_01_battleship_bow_M2S4.mesh"
 		scale = 0.0
 		meshsettings = {
@@ -780,7 +780,7 @@ objectTypes = {
 	}
 
 	pdxmesh = {
-		name = "mammalian_01_battleship_bow_M3S2_mesh"
+		name = "fed_01_battleship_bow_M3S2_mesh"
 		file = "gfx/models/ships/mammalian_01/mammalian_01_battleship_bow_M3S2.mesh"
 		scale = 0.0
 		meshsettings = {
@@ -793,7 +793,7 @@ objectTypes = {
 	#######  Battleship mid sections  #######
 
 	pdxmesh = {
-		name = "mammalian_01_battleship_mid_L2S4_mesh"
+		name = "fed_01_battleship_mid_L2S4_mesh"
 		file = "gfx/models/ships/mammalian_01/mammalian_01_battleship_mid_L2S4.mesh"
 		scale = 0.0
 		meshsettings = {
@@ -804,7 +804,7 @@ objectTypes = {
 	}
 
 	pdxmesh = {
-		name = "mammalian_01_battleship_mid_L1M4_mesh"
+		name = "fed_01_battleship_mid_L1M4_mesh"
 		file = "gfx/models/ships/mammalian_01/mammalian_01_battleship_mid_L1M4.mesh"
 		scale = 0.0
 		meshsettings = {
@@ -815,7 +815,7 @@ objectTypes = {
 	}
 
 	pdxmesh = {
-		name = "mammalian_01_battleship_mid_L2M2_mesh"
+		name = "fed_01_battleship_mid_L2M2_mesh"
 		file = "gfx/models/ships/mammalian_01/mammalian_01_battleship_mid_L2M2.mesh"
 		scale = 0.0
 		meshsettings = {
@@ -826,7 +826,7 @@ objectTypes = {
 	}
 
 	pdxmesh = {
-		name = "mammalian_01_battleship_mid_L3_mesh"
+		name = "fed_01_battleship_mid_L3_mesh"
 		file = "gfx/models/ships/mammalian_01/mammalian_01_battleship_mid_L3.mesh"
 		scale = 0.0
 		meshsettings = {
@@ -837,7 +837,7 @@ objectTypes = {
 	}
 
 	pdxmesh = {
-		name = "mammalian_01_battleship_mid_M4SHB_mesh"
+		name = "fed_01_battleship_mid_M4SHB_mesh"
 		file = "gfx/models/ships/mammalian_01/mammalian_01_battleship_mid_M4SHB.mesh"
 		scale = 0.0
 		meshsettings = {
@@ -848,7 +848,7 @@ objectTypes = {
 	}
 
 	pdxmesh = {
-		name = "mammalian_01_battleship_mid_S4LHB_mesh"
+		name = "fed_01_battleship_mid_S4LHB_mesh"
 		file = "gfx/models/ships/mammalian_01/mammalian_01_battleship_mid_S4LHB.mesh"
 		scale = 0.0
 		meshsettings = {
@@ -862,7 +862,7 @@ objectTypes = {
 	#######  Battleship stern sections  #######
 
 	pdxmesh = {
-		name = "mammalian_01_battleship_stern_L1_mesh"
+		name = "fed_01_battleship_stern_L1_mesh"
 		file = "gfx/models/ships/mammalian_01/mammalian_01_battleship_stern_L1.mesh"
 		scale = 0.0
 		meshsettings = {
@@ -873,7 +873,7 @@ objectTypes = {
 	}
 
 	pdxmesh = {
-		name = "mammalian_01_battleship_stern_M1S2_mesh"
+		name = "fed_01_battleship_stern_M1S2_mesh"
 		file = "gfx/models/ships/mammalian_01/mammalian_01_battleship_stern_M1S2.mesh"
 		scale = 0.0
 		meshsettings = {
@@ -884,7 +884,7 @@ objectTypes = {
 	}
 
 	pdxmesh = {
-		name = "mammalian_01_battleship_stern_M2_mesh"
+		name = "fed_01_battleship_stern_M2_mesh"
 		file = "gfx/models/ships/mammalian_01/mammalian_01_battleship_stern_M2.mesh"
 		scale = 0.0
 		meshsettings = {
@@ -895,7 +895,51 @@ objectTypes = {
 	}
 
 	pdxmesh = {
-		name = "mammalian_01_battleship_stern_S4_mesh"
+		name = "fed_01_battleship_stern_S4_mesh"
+		file = "gfx/models/ships/mammalian_01/mammalian_01_battleship_stern_S4.mesh"
+		scale = 0.0
+		meshsettings = {
+			shader = "PdxMeshShip"
+			#Mipmap tweaking
+		#texture_diffuse = "2x2.dds"
+		}
+	}
+
+	pdxmesh = {
+		name = "fed_01_battleship_stern_S4_mesh"
+		file = "gfx/models/ships/mammalian_01/mammalian_01_battleship_stern_S4.mesh"
+		scale = 0.0
+		meshsettings = {
+			shader = "PdxMeshShip"
+			#Mipmap tweaking
+		#texture_diffuse = "2x2.dds"
+		}
+	}
+
+	pdxmesh = {
+		name = "fed_01_titan_bow_mesh"
+		file = "gfx/models/ships/mammalian_01/mammalian_01_battleship_stern_S4.mesh"
+		scale = 0.0
+		meshsettings = {
+			shader = "PdxMeshShip"
+			#Mipmap tweaking
+		#texture_diffuse = "2x2.dds"
+		}
+	}
+
+	pdxmesh = {
+		name = "fed_01_titan_mid_mesh"
+		file = "gfx/models/ships/mammalian_01/mammalian_01_battleship_stern_S4.mesh"
+		scale = 0.0
+		meshsettings = {
+			shader = "PdxMeshShip"
+			#Mipmap tweaking
+		#texture_diffuse = "2x2.dds"
+		}
+	}
+
+	pdxmesh = {
+		name = "fed_01_titan_stern_mesh"
 		file = "gfx/models/ships/mammalian_01/mammalian_01_battleship_stern_S4.mesh"
 		scale = 0.0
 		meshsettings = {
@@ -909,7 +953,7 @@ objectTypes = {
 
 	####### small ships  #######
 	pdxmesh = {
-		name = "mammalian_01_bomber_mesh"
+		name = "fed_01_bomber_mesh"
 		file = "gfx/models/ships/mammalian_01/mammalian_01_bomber.mesh"
 		scale = 1.0
 		meshsettings = {
@@ -918,7 +962,7 @@ objectTypes = {
 	}
 
 	pdxmesh = {
-		name = "mammalian_01_launcher_mesh"
+		name = "fed_01_launcher_mesh"
 		file = "gfx/models/ships/mammalian_01/mammalian_01_launcher.mesh"
 		scale = 1.0
 		meshsettings = {
@@ -927,7 +971,7 @@ objectTypes = {
 	}
 
 		pdxmesh = {
-		name = "mammalian_01_fighter_mesh"
+		name = "fed_01_fighter_mesh"
 		file = "gfx/models/ships/mammalian_01/mammalian_01_fighter.mesh"
 		scale = 1.0
 		meshsettings = {
@@ -1000,8 +1044,8 @@ objectTypes = {
 		name = "fed_01_orbital_station_mesh"
 		file = "gfx/models/ships/mammalian_01/mammalian_01_orbital_station_main.mesh"
 
-		animation = { id = "idle"			type = "mammalian_01_orbital_station_main_idle_animation" }
-		animation = { id = "death"			type = "mammalian_01_orbital_station_main_death_animation" }
+		animation = { id = "idle"			type = "fed_01_orbital_station_main_idle_animation" }
+		animation = { id = "death"			type = "fed_01_orbital_station_main_death_animation" }
 
 		scale = 0.0
 	}
@@ -1035,8 +1079,8 @@ objectTypes = {
 		file = "gfx/models/ships/mammalian_01/mammalian_01_science_station.mesh"
 		scale = 0.0
 
-		animation = { id = "idle"			type = "mammalian_01_science_station_idle_animation" }
-		animation = { id = "death"			type = "mammalian_01_science_station_death_animation" }
+		animation = { id = "idle"			type = "fed_01_science_station_idle_animation" }
+		animation = { id = "death"			type = "fed_01_science_station_death_animation" }
 
 
 		meshsettings = {
@@ -1139,9 +1183,9 @@ objectTypes = {
 		file = "gfx/models/ships/mammalian_01/mammalian_01_construction.mesh"
 		scale = 1.0
 
-		animation = { id = "idle"						type = "mammalian_01_construction_idle_animation" }
-		animation = { id = "working"					type = "mammalian_01_construction_working_animation" }
-		animation = { id = "working_looping"			type = "mammalian_01_construction_working_looping_animation" }
+		animation = { id = "idle"						type = "fed_01_construction_idle_animation" }
+		animation = { id = "working"					type = "fed_01_construction_working_animation" }
+		animation = { id = "working_looping"			type = "fed_01_construction_working_looping_animation" }
 
 		#meshsettings = {
 			#shader = "PdxMeshShip"

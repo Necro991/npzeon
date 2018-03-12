@@ -560,6 +560,19 @@ objectTypes = {
 	}
 
 	pdxmesh = {
+			name = "Oggo_Trio_mesh"
+			file = "gfx/models/ships/zeon_01/Oggo_Trio.mesh"
+
+			scale = 2.0
+			meshsettings = {
+				texture_diffuse = "OGGO.dds"
+				texture_normal = "zakuII_normal.dds"
+				texture_specular = "zakuII_specular.dds"
+				shader = "PdxMeshShip"
+		}
+	}
+
+	pdxmesh = {
 			name = "Zaku_I_mesh"
 			file = "gfx/models/ships/zeon_01/Zaku_I.mesh"
 
@@ -2038,6 +2051,36 @@ objectTypes = {
 
 	pdxmesh = {
 		name = "zeon_01_battleship_stern_S4_mesh"
+		file = "gfx/models/ships/reptilian_01/reptilian_01_battleship_stern_S4.mesh"
+		scale = 0.0
+		meshsettings = {
+			texture_diffuse = "zeon_01_battleship_diffuse.dds"
+			shader = "PdxMeshShip"
+		}
+	}
+
+	pdxmesh = {
+		name = "zeon_01_titan_bow_mesh"
+		file = "gfx/models/ships/reptilian_01/reptilian_01_battleship_stern_S4.mesh"
+		scale = 0.0
+		meshsettings = {
+			texture_diffuse = "zeon_01_battleship_diffuse.dds"
+			shader = "PdxMeshShip"
+		}
+	}
+
+	pdxmesh = {
+		name = "zeon_01_titan_mid_mesh"
+		file = "gfx/models/ships/reptilian_01/reptilian_01_battleship_stern_S4.mesh"
+		scale = 0.0
+		meshsettings = {
+			texture_diffuse = "zeon_01_battleship_diffuse.dds"
+			shader = "PdxMeshShip"
+		}
+	}
+
+	pdxmesh = {
+		name = "zeon_01_titan_stern_mesh"
 		file = "gfx/models/ships/reptilian_01/reptilian_01_battleship_stern_S4.mesh"
 		scale = 0.0
 		meshsettings = {

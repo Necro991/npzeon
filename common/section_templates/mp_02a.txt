@@ -2,7 +2,7 @@ ship_section_template = { #MP-02A Oggo
 	key = "MP_02A_MID"
 	ship_size = MP_02A
 	fits_on_slot = mid
-	entity = "oggo_entity"
+	entity = "Oggo_Trio_entity"
 	icon = "GFX_ship_part_core_mid"
 
 	prerequisites = { tech_MP_02A }
