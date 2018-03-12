@@ -90,7 +90,7 @@ neo_sol_system_initializer = {
 				random_tile = {
 					limit = { has_blocker = no has_building = no }
 					set_building = "building_hydroponics_farm_1"
-					set_deposit = d_food_deposit					
+					set_deposit = d_food_deposit
 				}
 				random_tile = {
 					limit = { has_blocker = no has_building = no }
@@ -182,6 +182,11 @@ neo_sol_system_initializer = {
 					limit = { has_blocker = no has_building = no }
 					set_building = "building_hab_agri_bay"
 				}
+
+				random_tile = {
+					limit = { has_blocker = no has_building = no }
+					set_building = "building_hab_agri_bay"
+				}
 			}
 		}
 
@@ -226,6 +231,11 @@ neo_sol_system_initializer = {
 				random_tile = {
 					limit = { has_blocker = no has_building = no }
 					set_building = "building_hab_solar_power_processor"
+				}
+
+				random_tile = {
+					limit = { has_blocker = no has_building = no }
+					set_building = "building_hab_agri_bay"
 				}
 
 				random_tile = {
@@ -932,6 +942,11 @@ axis_sol_system_initializer = {
 				limit = { has_blocker = no has_building = no }
 				set_building = "building_hab_agri_bay"
 			}
+
+			random_tile = {
+				limit = { has_blocker = no has_building = no }
+				set_building = "building_hab_agri_bay"
+			}
 		}
 	}
 
@@ -982,6 +997,11 @@ axis_sol_system_initializer = {
 				limit = { has_blocker = no has_building = no }
 				set_building = "building_hab_agri_bay"
 			}
+
+			random_tile = {
+				limit = { has_blocker = no has_building = no }
+				set_building = "building_hab_agri_bay"
+			}
 		}
 	}
 
@@ -1026,6 +1046,11 @@ axis_sol_system_initializer = {
 			random_tile = {
 				limit = { has_blocker = no has_building = no }
 				set_building = "building_hab_solar_power_processor"
+			}
+
+			random_tile = {
+				limit = { has_blocker = no has_building = no }
+				set_building = "building_hab_agri_bay"
 			}
 
 			random_tile = {
@@ -1744,6 +1769,11 @@ efsf_sol_system_initializer = {
 				limit = { has_blocker = no has_building = no }
 				set_building = "building_hab_agri_bay"
 			}
+
+			random_tile = {
+				limit = { has_blocker = no has_building = no }
+				set_building = "building_hab_agri_bay"
+			}
 		}
 	}
 
@@ -1788,6 +1818,11 @@ efsf_sol_system_initializer = {
 			random_tile = {
 				limit = { has_blocker = no has_building = no }
 				set_building = "building_hab_solar_power_processor"
+			}
+
+			random_tile = {
+				limit = { has_blocker = no has_building = no }
+				set_building = "building_hab_agri_bay"
 			}
 
 			random_tile = {
@@ -2465,6 +2500,11 @@ zeon_sol_system_initializer = {
 				limit = { has_blocker = no has_building = no }
 				set_building = "building_hab_agri_bay"
 			}
+
+			random_tile = {
+				limit = { has_blocker = no has_building = no }
+				set_building = "building_hab_agri_bay"
+			}
 		}
 	}
 
@@ -2509,6 +2549,11 @@ zeon_sol_system_initializer = {
 			random_tile = {
 				limit = { has_blocker = no has_building = no }
 				set_building = "building_hab_solar_power_processor"
+			}
+
+			random_tile = {
+				limit = { has_blocker = no has_building = no }
+				set_building = "building_hab_agri_bay"
 			}
 
 			random_tile = {
@@ -3216,6 +3261,11 @@ gundamu_sol_system_initializer = {
 				limit = { has_blocker = no has_building = no }
 				set_building = "building_hab_agri_bay"
 			}
+
+			random_tile = {
+				limit = { has_blocker = no has_building = no }
+				set_building = "building_hab_agri_bay"
+			}
 		}
 	}
 
@@ -3260,6 +3310,11 @@ gundamu_sol_system_initializer = {
 			random_tile = {
 				limit = { has_blocker = no has_building = no }
 				set_building = "building_hab_solar_power_processor"
+			}
+
+			random_tile = {
+				limit = { has_blocker = no has_building = no }
+				set_building = "building_hab_agri_bay"
 			}
 
 			random_tile = {
