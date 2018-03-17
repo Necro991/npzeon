@@ -2037,6 +2037,18 @@ entity = {
 	}
 
 	entity = {
+		name = "MS_11_entity"
+		pdxmesh = "zeon_locator_mesh"
+		scale = 1.0
+	}
+
+	entity = {
+		name = "MS_11S_entity"
+		pdxmesh = "zeon_locator_mesh"
+		scale = 1.0
+	}
+
+	entity = {
 		name = "MS_14_entity"
 		pdxmesh = "zeon_locator_mesh"
 		scale = 1.0
@@ -2044,6 +2056,42 @@ entity = {
 
 	entity = {
 		name = "MS_14S_entity"
+		pdxmesh = "zeon_locator_mesh"
+		scale = 1.0
+	}
+
+	entity = {
+		name = "MS_15_entity"
+		pdxmesh = "zeon_locator_mesh"
+		scale = 1.0
+	}
+
+	entity = {
+		name = "MS_15S_entity"
+		pdxmesh = "zeon_locator_mesh"
+		scale = 1.0
+	}
+
+	entity = {
+		name = "MS_17_entity"
+		pdxmesh = "zeon_locator_mesh"
+		scale = 1.0
+	}
+
+	entity = {
+		name = "MS_17S_entity"
+		pdxmesh = "zeon_locator_mesh"
+		scale = 1.0
+	}
+
+	entity = {
+		name = "MS_18E_entity"
+		pdxmesh = "zeon_locator_mesh"
+		scale = 1.0
+	}
+
+	entity = {
+		name = "MS_21_entity"
 		pdxmesh = "zeon_locator_mesh"
 		scale = 1.0
 	}

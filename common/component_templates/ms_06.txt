@@ -88,7 +88,7 @@ utility_component_template = {
 	cost = -3
 
 	modifier = {
-		ship_armor_add = 129.6
+		ship_armor_add = 130
 		ship_hull_mult = 0.08
 	}
 	#ship_modifier = {

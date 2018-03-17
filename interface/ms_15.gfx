@@ -1,0 +1,28 @@
+spriteTypes = {
+
+	spriteType = {
+		name = "gyan_shield_01"
+		texturefile = "gfx/interface/icons/ship_parts/gyan_shield_01.dds"
+	}
+
+	spriteType = {
+		name = "gyan_shield_02"
+		texturefile = "gfx/interface/icons/ship_parts/gyan_shield_02.dds"
+	}
+
+	spriteType = {
+		name = "gyan_shield_03"
+		texturefile = "gfx/interface/icons/ship_parts/gyan_shield_03.dds"
+	}
+
+	spriteType = {
+		name = "gyan_shield_04"
+		texturefile = "gfx/interface/icons/ship_parts/gyan_shield_04.dds"
+	}
+
+	#spriteType = {
+	#	name = "ms_06_thrusters_1"
+	#	texturefile = "gfx/interface/icons/ship_parts/ship_part_armor_radiation_2.dds"
+	#}
+
+}

@@ -1,0 +1,183 @@
+#Armor, Thrusters, Grenades, Melee
+
+utility_component_template = {
+	key = "ms_15_armor_1"
+	size = small
+	icon = "ms_14_armor_1"
+	icon_frame = 1
+	power = 0
+	cost = 0
+
+	modifier = {
+		ship_armor_add = 106
+		ship_hull_mult = 0.06
+	}
+	#ship_modifier = {
+	#	ship_weapon_damage = 0.01
+	#}
+
+	prerequisites = { "tech_MS_15A" }
+
+	component_set = "ms_15_armor"
+	#upgrades_to = "oyw_zeon_pilot_putv_veteran"
+
+	ai_weight = {
+		weight = 1
+	}
+}
+
+utility_component_template = {
+	key = "ms_15_armor_2"
+	size = small
+	icon = "ms_14_armor_2"
+	icon_frame = 1
+	power = 0
+	cost = 6
+
+	modifier = {
+		ship_armor_add = 110
+		ship_hull_mult = 0.1
+	}
+	#ship_modifier = {
+	#	ship_weapon_damage = 0.01
+	#}
+
+	prerequisites = { "tech_MS_15B" }
+
+	component_set = "ms_15_armor"
+	#upgrades_to = "oyw_zeon_pilot_putv_veteran"
+
+	ai_weight = {
+		weight = 1
+	}
+}
+
+utility_component_template = {
+	key = "ms_15_armor_3"
+	size = small
+	icon = "ms_14_armor_3"
+	icon_frame = 1
+	power = 0
+	cost = 15
+
+	modifier = {
+		ship_armor_add = 116
+		ship_hull_mult = 0.16
+	}
+	#ship_modifier = {
+	#	ship_weapon_damage = 0.01
+	#}
+
+	prerequisites = { "tech_MS_15F" }
+
+	component_set = "ms_15_armor"
+	#upgrades_to = "oyw_zeon_pilot_putv_veteran"
+
+	ai_weight = {
+		weight = 1
+	}
+}
+
+utility_component_template = {
+	key = "ms_15_armor_4"
+	size = small
+	icon = "ms_14_armor_4"
+	icon_frame = 1
+	power = 0
+	cost = 12
+
+	modifier = {
+		ship_armor_add = 130
+		ship_hull_mult = 0.15
+	}
+	#ship_modifier = {
+	#	ship_weapon_damage = 0.01
+	#}
+
+	prerequisites = { "tech_MS_15KG" }
+
+	component_set = "ms_15_armor"
+	#upgrades_to = "oyw_zeon_pilot_putv_veteran"
+
+	ai_weight = {
+		weight = 1
+	}
+}
+
+utility_component_template = {
+	key = "ms_15_thrusters_1"
+	size = small
+	icon = "GFX_ship_part_thruster_1"
+	icon_frame = 1
+	power = 0
+	cost = 0
+
+	modifier = {
+		ship_evasion_add = 60
+		ship_speed_mult = 0.388
+	}
+	#ship_modifier = {
+	#	ship_weapon_damage = 0.01
+	#}
+
+	prerequisites = { "tech_MS_15A" }
+
+	component_set = "ms_15_thrusters"
+	#upgrades_to = "oyw_zeon_pilot_putv_veteran"
+
+	ai_weight = {
+		weight = 1
+	}
+}
+
+utility_component_template = {
+	key = "ms_15_thrusters_2"
+	size = small
+	icon = "GFX_ship_part_thruster_2"
+	icon_frame = 1
+	power = 0
+	cost = 5
+
+	modifier = {
+		ship_evasion_add = 65
+		ship_speed_mult = 0.812
+	}
+	#ship_modifier = {
+	#	ship_weapon_damage = 0.01
+	#}
+
+	prerequisites = { "tech_MS_15B" }
+
+	component_set = "ms_15_thrusters"
+	#upgrades_to = "oyw_zeon_pilot_putv_veteran"
+
+	ai_weight = {
+		weight = 1
+	}
+}
+
+utility_component_template = {
+	key = "ms_15_thrusters_3"
+	size = small
+	icon = "GFX_ship_part_thruster_3"
+	icon_frame = 1
+	power = 0
+	cost = 10
+
+	modifier = {
+		ship_evasion_add = 75
+		ship_speed_mult = 3.051
+	}
+	#ship_modifier = {
+	#	ship_weapon_damage = 0.01
+	#}
+
+	prerequisites = { "tech_MS_15KG" }
+
+	component_set = "ms_15_thrusters"
+	#upgrades_to = "oyw_zeon_pilot_putv_veteran"
+
+	ai_weight = {
+		weight = 1
+	}
+}
