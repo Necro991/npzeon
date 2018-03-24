@@ -1,0 +1,109 @@
+#Armor, Thrusters, Grenades, Melee
+
+utility_component_template = { #Light G-Line
+	key = "rx_81_armor_1"
+	size = small
+	icon = "GFX_ship_part_armor_1"
+	icon_frame = 1
+	power = 0
+	cost = -9
+
+	modifier = {
+		ship_armor_add = 77
+		ship_hull_mult = 0.02
+		ship_evasion_add = 10
+		ship_speed_mult = 0.83
+	}
+	#ship_modifier = {
+	#	ship_weapon_damage = 0.01
+	#}
+
+	prerequisites = { "tech_RX_81" }
+
+	component_set = "rx_81_armor"
+	#upgrades_to = "rb_79_armor_2"
+
+	ai_weight = {
+		weight = 1
+	}
+}
+
+utility_component_template = {
+	key = "rx_81_armor_2"
+	size = small
+	icon = "GFX_ship_part_armor_2"
+	icon_frame = 1
+	power = 0
+	cost = 30
+
+	modifier = {
+		ship_armor_add = 136
+		ship_hull_mult = 0.36
+		ship_speed_mult = 0.37
+	}
+	#ship_modifier = {
+	#	ship_weapon_damage = 0.01
+	#}
+
+	prerequisites = { "tech_RX_81" }
+
+	component_set = "rx_81_armor"
+	#upgrades_to = "rb_79_armor_2"
+
+	ai_weight = {
+		weight = 1
+	}
+}
+
+utility_component_template = {
+	key = "rx_81_armor_3"
+	size = small
+	icon = "GFX_ship_part_armor_3"
+	icon_frame = 1
+	power = 0
+	cost = 42
+
+	modifier = {
+		ship_armor_add = 173
+		ship_hull_mult = 0.44
+		ship_evasion_add = -10
+		ship_speed_mult = 0.34
+	}
+	#ship_modifier = {
+	#	ship_weapon_damage = 0.01
+	#}
+
+	prerequisites = { "tech_RX_81" }
+
+	component_set = "rx_81_armor"
+	#upgrades_to = "rb_79_armor_2"
+
+	ai_weight = {
+		weight = 1
+	}
+}
+
+utility_component_template = {
+	key = "rx_81_thrusters_1"
+	size = small
+	icon = "GFX_ship_part_thruster_1"
+	icon_frame = 1
+	power = 0
+	cost = 0
+
+	modifier = {
+		ship_evasion_add = 60
+	}
+	#ship_modifier = {
+	#	ship_weapon_damage = 0.01
+	#}
+
+	prerequisites = { "tech_RX_81" }
+
+	component_set = "rx_81_thrusters"
+	#upgrades_to = "rb_79_thrusters_2"
+
+	ai_weight = {
+		weight = 1
+	}
+}

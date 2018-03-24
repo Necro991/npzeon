@@ -2566,6 +2566,18 @@ entity = {
 	}
 
 	entity = {
+		name = "RX_81_entity"
+		pdxmesh = "efsf_locator_mesh"
+		scale = 1.0
+	}
+
+	entity = {
+		name = "RX_81FC_entity"
+		pdxmesh = "efsf_locator_mesh"
+		scale = 1.0
+	}
+
+	entity = {
 		name = "white_base_entity"
 		pdxmesh = "efsf_locator_mesh"
 		scale = 1.0
@@ -2619,6 +2631,24 @@ entity = {
 
 		scale = 1.0
 
+	}
+
+	entity = {
+		name = "gm_command_1_entity" #GM Group
+		pdxmesh = "GM_Test_Group_1_mesh"
+
+		locator = { name = "small_gun_01" 			position = { 0.0 	1.0 	0.0	} 	scale = 0.0} #X,Up/Down,Forward/Back
+
+		scale = 1.0
+	}
+
+	entity = {
+		name = "gm_command_2_entity" #GM Group
+		pdxmesh = "GM_Test_Group_2_mesh"
+
+		locator = { name = "small_gun_01" 			position = { 0.0 	1.0 	0.0	} 	scale = 0.0} #X,Up/Down,Forward/Back
+
+		scale = 1.0
 	}
 
 	entity = {

@@ -46,8 +46,8 @@ spriteTypes = {
 	}
 
 	spriteType = {
-		name = "SHOTGUN"
-		texturefile = "gfx/interface/icons/ship_parts/Shotgun.dds"
+		name = "OYW_ZEON_SHOTGUN"
+		texturefile = "gfx/interface/icons/ship_parts/zeon_shotgun.dds"
 	}
 
 	spriteType = {
@@ -101,8 +101,38 @@ spriteTypes = {
 	}
 
 	spriteType = {
+		name = "GUNDAM_4_BEAM_RIFLE"
+		texturefile = "gfx/interface/icons/ship_parts/efsf_gundam_br_2.dds"
+	}
+
+	spriteType = {
+		name = "GUNDAM_7_BEAM_RIFLE"
+		texturefile = "gfx/interface/icons/ship_parts/efsf_gundam_br_3.dds"
+	}
+
+	spriteType = {
+		name = "GUNCANNON_BEAM_RIFLE"
+		texturefile = "gfx/interface/icons/ship_parts/efsf_rx_77_br.dds"
+	}
+
+	spriteType = {
+		name = "OYW_EFSF_MEGA_BEAM_LAUNCHER"
+		texturefile = "gfx/interface/icons/ship_parts/efsf_mbl.dds"
+	}
+
+	spriteType = {
+		name = "OYW_EFSF_GIANT_GATLING_GUN"
+		texturefile = "gfx/interface/icons/ship_parts/efsf_gatling_gun.dds"
+	}
+
+	spriteType = {
 		name = "OYW_EFSF_90MM"
 		texturefile = "gfx/interface/icons/ship_parts/efsf_90.dds"
+	}
+
+	spriteType = {
+		name = "OYW_EFSF_SHOTGUN"
+		texturefile = "gfx/interface/icons/ship_parts/efsf_shotgun.dds"
 	}
 
 	spriteType = {
