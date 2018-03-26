@@ -781,7 +781,7 @@ strike_craft_component_template = {
 	entity = "bomber_3z_entity"
 
 	weapon_type = point_defence
-	projectile_gfx = "MPC1" #Find beam gfx
+	projectile_gfx = "MPC3" #Find beam gfx
 	power = -21 #1390kW
 	cost = 26 #73.7 tons = 45 + 4 for improved armor + 30 for gun
 
@@ -804,7 +804,7 @@ strike_craft_component_template = {
 	rotation_speed = 0.1
 	acceleration = 0.5
 
-	shield_damage = 0.2 #MPC1
+	shield_damage = 0.2 #MPC3
 	shield_penetration = 0
 	armor_penetration = 0.95
 
@@ -867,7 +867,7 @@ strike_craft_component_template = {
 	entity = "bomber_3z_entity"
 
 	weapon_type = point_defence
-	projectile_gfx = "MPC1" #Find beam gfx
+	projectile_gfx = "MPC3" #Find beam gfx
 	power = -64 #1440kW
 	cost = 80 #73.3 tons = 45 + 5 for improved armor + 30 for gun
 
@@ -890,7 +890,7 @@ strike_craft_component_template = {
 	rotation_speed = 0.1
 	acceleration = 0.5
 
-	shield_damage = 0.2 #MPC1
+	shield_damage = 0.2 #MPC3
 	shield_penetration = 0
 	armor_penetration = 0.95
 
@@ -953,7 +953,7 @@ strike_craft_component_template = {
 	entity = "bomber_3z_entity"
 
 	weapon_type = point_defence
-	projectile_gfx = "MPC1" #Find beam gfx
+	projectile_gfx = "MPC3" #Find beam gfx
 	power = -64 #1440kW
 	cost = 82 #76.8 tons = 47 + 5 for improved armor + 30 for gun
 
@@ -976,7 +976,7 @@ strike_craft_component_template = {
 	rotation_speed = 0.1
 	acceleration = 0.5
 
-	shield_damage = 0.2 #MPC1
+	shield_damage = 0.2 #MPC3
 	shield_penetration = 0
 	armor_penetration = 0.95
 
@@ -1039,7 +1039,7 @@ strike_craft_component_template = {
 	entity = "bomber_3z_entity"
 
 	weapon_type = point_defence
-	projectile_gfx = "MPC1" #Find beam gfx
+	projectile_gfx = "MPC3" #Find beam gfx
 	power = -64 #1440kW
 	cost = 85 #76.8 tons = 47 + 5 for improved armor + 3 for improved thrusters + 30 for gun
 
@@ -1062,7 +1062,7 @@ strike_craft_component_template = {
 	rotation_speed = 0.1
 	acceleration = 0.5
 
-	shield_damage = 0.2 #MPC1
+	shield_damage = 0.2 #MPC3
 	shield_penetration = 0
 	armor_penetration = 0.95
 
@@ -1125,7 +1125,7 @@ strike_craft_component_template = {
 	entity = "bomber_3z_entity"
 
 	weapon_type = point_defence
-	projectile_gfx = "MPC1" #Find beam gfx
+	projectile_gfx = "MPC3" #Find beam gfx
 	power = -64 #1440kW
 	cost = 86 #81.3 tons = 50 + 6 for improved armor + 30 for gun
 
@@ -1148,7 +1148,7 @@ strike_craft_component_template = {
 	rotation_speed = 0.1
 	acceleration = 0.5
 
-	shield_damage = 0.2 #MPC1
+	shield_damage = 0.2 #MPC3
 	shield_penetration = 0
 	armor_penetration = 0.95
 
@@ -1211,7 +1211,7 @@ strike_craft_component_template = {
 	entity = "bomber_5z_entity"
 
 	weapon_type = point_defence
-	projectile_gfx = "MPC1" #Find beam gfx
+	projectile_gfx = "MPC3" #Find beam gfx
 	power = -66 #1490
 	cost = 79 #80.3 tons = 49 + 5 for improved armor + 30 for gun - (tonnage over 40 + armor / 2 for UMP)
 
@@ -1234,7 +1234,7 @@ strike_craft_component_template = {
 	rotation_speed = 0.1
 	acceleration = 0.5
 
-	shield_damage = 0.2 #MPC1
+	shield_damage = 0.2 #MPC3
 	shield_penetration = 0
 	armor_penetration = 0.95
 
@@ -1727,7 +1727,7 @@ strike_craft_component_template = {
 	entity = "bomber_3z_entity"
 
 	weapon_type = point_defence
-	projectile_gfx = "MPC1" #Find beam gfx
+	projectile_gfx = "MPC3" #Find beam gfx
 	power = -64 #1440kW
 	cost = 104 #79.8 tons = 49 + 5 for improved armor + 50 for gun
 
@@ -1750,7 +1750,7 @@ strike_craft_component_template = {
 	rotation_speed = 0.1
 	acceleration = 0.5
 
-	shield_damage = 0.2 #MPC1
+	shield_damage = 0.2 #MPC3
 	shield_penetration = 0
 	armor_penetration = 0.95
 
@@ -1985,7 +1985,7 @@ strike_craft_component_template = {
 	entity = "bomber_5z_entity"
 
 	weapon_type = point_defence
-	projectile_gfx = "MPC1" #Find beam gfx
+	projectile_gfx = "MPC3" #Find beam gfx
 	power = -62 #1400
 	cost = 80 #72.9 tons = 45 + 5 for improved armor + 30 for gun
 
@@ -2008,7 +2008,7 @@ strike_craft_component_template = {
 	rotation_speed = 0.1
 	acceleration = 0.5
 
-	shield_damage = 0.2 #MPC1
+	shield_damage = 0.2 #MPC3
 	shield_penetration = 0
 	armor_penetration = 0.95
 
@@ -2071,7 +2071,7 @@ strike_craft_component_template = {
 	entity = "bomber_5z_entity"
 
 	weapon_type = point_defence
-	projectile_gfx = "MPC1" #Find beam gfx
+	projectile_gfx = "MPC3" #Find beam gfx
 	power = -63 #1420
 	cost = 95 #81.1 tons = 50 + 5 for improved armor + 40 for gun
 
@@ -2094,7 +2094,7 @@ strike_craft_component_template = {
 	rotation_speed = 0.1
 	acceleration = 0.5
 
-	shield_damage = 0.3 #MPC1
+	shield_damage = 0.3 #MPC3
 	shield_penetration = 0
 	armor_penetration = 0.95
 
@@ -2157,7 +2157,7 @@ strike_craft_component_template = {
 	entity = "bomber_5z_entity"
 
 	weapon_type = point_defence
-	projectile_gfx = "MPC1" #Find beam gfx
+	projectile_gfx = "MPC3" #Find beam gfx
 	power = -106 #2380
 	cost = 102 #66.8 tons = 41 * 2 lunar titanium + 20 for gun
 
@@ -2180,7 +2180,7 @@ strike_craft_component_template = {
 	rotation_speed = 0.1
 	acceleration = 0.5
 
-	shield_damage = 0.8 #MPC1
+	shield_damage = 0.8 #MPC3
 	shield_penetration = 0
 	armor_penetration = 0.15
 
@@ -2243,7 +2243,7 @@ strike_craft_component_template = {
 	entity = "bomber_5z_entity"
 
 	weapon_type = point_defence
-	projectile_gfx = "MPC1" #Find beam gfx
+	projectile_gfx = "MPC3" #Find beam gfx
 	power = -154 #1720
 	cost = 210 #72.5 tons = 45 * 2 lunar titanium + 15 for gun * 2
 
@@ -2266,7 +2266,7 @@ strike_craft_component_template = {
 	rotation_speed = 0.1
 	acceleration = 0.5
 
-	shield_damage = 0.2 #MPC1
+	shield_damage = 0.2 #MPC3
 	shield_penetration = 0
 	armor_penetration = 0.95
 
@@ -2329,7 +2329,7 @@ strike_craft_component_template = {
 	entity = "bomber_5z_entity"
 
 	weapon_type = point_defence
-	projectile_gfx = "MPC1" #Find beam gfx
+	projectile_gfx = "MPC3" #Find beam gfx
 	power = -95 #2140
 	cost = 99 #68.4 tons = 42 * 2 lunar titanium + 15 for gun
 
@@ -2352,7 +2352,7 @@ strike_craft_component_template = {
 	rotation_speed = 0.1
 	acceleration = 0.5
 
-	shield_damage = 0.2 #MPC1
+	shield_damage = 0.2 #MPC3
 	shield_penetration = 0
 	armor_penetration = 0.95
 
@@ -2415,7 +2415,7 @@ strike_craft_component_template = {
 	entity = "bomber_5z_entity"
 
 	weapon_type = point_defence
-	projectile_gfx = "MPC1" #Find beam gfx
+	projectile_gfx = "MPC3" #Find beam gfx
 	power = -101 #2280
 	cost = 99 #68.2 tons = 42 * 2 lunar titanium + 30 for gun
 
@@ -2438,7 +2438,7 @@ strike_craft_component_template = {
 	rotation_speed = 0.1
 	acceleration = 0.6 #Great at Cruising
 
-	shield_damage = 0.2 #MPC1
+	shield_damage = 0.2 #MPC3
 	shield_penetration = 0
 	armor_penetration = 0.95
 
@@ -2501,7 +2501,7 @@ strike_craft_component_template = {
 	entity = "bomber_5z_entity"
 
 	weapon_type = point_defence
-	projectile_gfx = "MPC1" #Find beam gfx
+	projectile_gfx = "MPC3" #Find beam gfx
 	power = -82 #1840
 	cost = 102 #58.2 tons = 36 * 2 lunar titanium + 30 for gun
 
@@ -2524,7 +2524,7 @@ strike_craft_component_template = {
 	rotation_speed = 0.1
 	acceleration = 0.5
 
-	shield_damage = 0.2 #MPC1
+	shield_damage = 0.2 #MPC3
 	shield_penetration = 0
 	armor_penetration = 0.95
 
@@ -2587,7 +2587,7 @@ strike_craft_component_template = {
 	entity = "bomber_5z_entity"
 
 	weapon_type = point_defence
-	projectile_gfx = "MPC1" #Find beam gfx
+	projectile_gfx = "MPC3" #Find beam gfx
 	power = -96 #2150
 	cost = 114 #68.3 tons = 42 * 2 lunar titanium + 30 for gun
 
@@ -2610,7 +2610,7 @@ strike_craft_component_template = {
 	rotation_speed = 0.1
 	acceleration = 0.5
 
-	shield_damage = 0.2 #MPC1
+	shield_damage = 0.2 #MPC3
 	shield_penetration = 0
 	armor_penetration = 0.95
 
@@ -2673,7 +2673,7 @@ strike_craft_component_template = {
 	entity = "bomber_5z_entity"
 
 	weapon_type = point_defence
-	projectile_gfx = "MPC1" #Find beam gfx
+	projectile_gfx = "MPC3" #Find beam gfx
 	power = -127 #2860
 	cost = 118 #71.4 tons = 44 * 2 lunar titanium + 30 for gun
 
@@ -2696,7 +2696,7 @@ strike_craft_component_template = {
 	rotation_speed = 0.1
 	acceleration = 0.5
 
-	shield_damage = 0.2 #MPC1
+	shield_damage = 0.2 #MPC3
 	shield_penetration = 0
 	armor_penetration = 0.95
 
@@ -2759,7 +2759,7 @@ strike_craft_component_template = {
 	entity = "bomber_5z_entity"
 
 	weapon_type = point_defence
-	projectile_gfx = "MPC1" #Find beam gfx
+	projectile_gfx = "MPC3" #Find beam gfx
 	power = -131 #2950
 	cost = 116 #69.2 tons = 43 * 2 lunar titanium + 30 for gun
 
@@ -2782,7 +2782,7 @@ strike_craft_component_template = {
 	rotation_speed = 0.1
 	acceleration = 0.5
 
-	shield_damage = 0.2 #MPC1
+	shield_damage = 0.2 #MPC3
 	shield_penetration = 0
 	armor_penetration = 0.95
 
@@ -2845,7 +2845,7 @@ strike_craft_component_template = {
 	entity = "bomber_5z_entity"
 
 	weapon_type = point_defence
-	projectile_gfx = "MPC1" #Find beam gfx
+	projectile_gfx = "MPC3" #Find beam gfx
 	power = -82 #1840
 	cost = 126 #78.3 tons = 48 * 2 lunar titanium + 30 for gun
 
@@ -2868,7 +2868,7 @@ strike_craft_component_template = {
 	rotation_speed = 0.1
 	acceleration = 0.5
 
-	shield_damage = 0.2 #MPC1
+	shield_damage = 0.2 #MPC3
 	shield_penetration = 0
 	armor_penetration = 0.95
 
@@ -2888,7 +2888,7 @@ strike_craft_component_template = {
 	entity = "bomber_5z_entity"
 
 	weapon_type = point_defence
-	projectile_gfx = "MPC1" #Find beam gfx
+	projectile_gfx = "MPC3" #Find beam gfx
 	power = -126 #2840
 	cost = 126 #78.3 tons = 48 * 2 lunar titanium + 30 for gun
 
@@ -2911,7 +2911,7 @@ strike_craft_component_template = {
 	rotation_speed = 0.1
 	acceleration = 0.5
 
-	shield_damage = 0.2 #MPC1
+	shield_damage = 0.2 #MPC3
 	shield_penetration = 0
 	armor_penetration = 0.95
 
@@ -2974,7 +2974,7 @@ strike_craft_component_template = {
 	entity = "bomber_5z_entity"
 
 	weapon_type = point_defence
-	projectile_gfx = "MPC1" #Find beam gfx
+	projectile_gfx = "MPC3" #Find beam gfx
 	power = -33 #2250 / 3
 	cost = 42 #61.8 tons = 38 * 2 lunar titanium + 50 for gun / 3
 
@@ -2997,7 +2997,7 @@ strike_craft_component_template = {
 	rotation_speed = 0.1
 	acceleration = 0.5
 
-	shield_damage = 0.2 #MPC1
+	shield_damage = 0.2 #MPC3
 	shield_penetration = 0
 	armor_penetration = 0.95
 
@@ -3017,7 +3017,7 @@ strike_craft_component_template = {
 	entity = "bomber_5z_entity"
 
 	weapon_type = point_defence
-	projectile_gfx = "MPC1" #Find beam gfx
+	projectile_gfx = "MPC3" #Find beam gfx
 	power = -123 #8320 / 3
 	cost = 99 #78.7 tons = 48 * 2 lunar titanium + 200 for gun / 3
 
@@ -3040,7 +3040,7 @@ strike_craft_component_template = {
 	rotation_speed = 0.1
 	acceleration = 0.5
 
-	shield_damage = 0.2 #MPC1
+	shield_damage = 0.2 #MPC3
 	shield_penetration = 0
 	armor_penetration = 0.95
 
@@ -3060,7 +3060,7 @@ strike_craft_component_template = {
 	entity = "bomber_5z_entity"
 
 	weapon_type = point_defence
-	projectile_gfx = "MPC1" #Find beam gfx
+	projectile_gfx = "MPC3" #Find beam gfx
 	power = -84 #1890
 	cost = 86 #82.6 tons = 51 + 5 for improved armor + 30 for gun
 
@@ -3083,7 +3083,7 @@ strike_craft_component_template = {
 	rotation_speed = 0.1
 	acceleration = 0.5
 
-	shield_damage = 0.2 #MPC1
+	shield_damage = 0.2 #MPC3
 	shield_penetration = 0
 	armor_penetration = 0.95
 
@@ -3146,7 +3146,7 @@ strike_craft_component_template = {
 	entity = "bomber_5z_entity"
 
 	weapon_type = point_defence
-	projectile_gfx = "MPC1" #Find beam gfx
+	projectile_gfx = "MPC3" #Find beam gfx
 	power = -27 #1820 / 3
 	cost = 40 #57.2 tons = 35 * 2 lunar titanium + 50 for gun / 3
 
@@ -3169,7 +3169,7 @@ strike_craft_component_template = {
 	rotation_speed = 0.1
 	acceleration = 0.5
 
-	shield_damage = 0.2 #MPC1
+	shield_damage = 0.2 #MPC3
 	shield_penetration = 0
 	armor_penetration = 0.95
 
@@ -3189,7 +3189,7 @@ strike_craft_component_template = {
 	entity = "bomber_5z_entity"
 
 	weapon_type = point_defence
-	projectile_gfx = "MPC1" #Find beam gfx
+	projectile_gfx = "MPC3" #Find beam gfx
 	power = -81 #1820
 	cost = 220 #57.2 tons = 35 * 2 lunar titanium + 150 for gun
 
@@ -3212,7 +3212,7 @@ strike_craft_component_template = {
 	rotation_speed = 0.1
 	acceleration = 0.5
 
-	shield_damage = 0.2 #MPC1
+	shield_damage = 0.2 #MPC3
 	shield_penetration = 0
 	armor_penetration = 0.95
 
@@ -3232,7 +3232,7 @@ strike_craft_component_template = {
 	entity = "bomber_5z_entity"
 
 	weapon_type = point_defence
-	projectile_gfx = "MPC1" #Find beam gfx
+	projectile_gfx = "MPC3" #Find beam gfx
 	power = -34 #2320
 	cost = 37 #67.5 tons = 42 * 2 lunar titanium + 30 for gun
 
@@ -3255,7 +3255,7 @@ strike_craft_component_template = {
 	rotation_speed = 0.1
 	acceleration = 0.5
 
-	shield_damage = 0.2 #MPC1
+	shield_damage = 0.2 #MPC3
 	shield_penetration = 0
 	armor_penetration = 0.95
 
@@ -3275,7 +3275,7 @@ strike_craft_component_template = {
 	entity = "bomber_5z_entity"
 
 	weapon_type = point_defence
-	projectile_gfx = "MPC1" #Find beam gfx
+	projectile_gfx = "MPC3" #Find beam gfx
 	power = -107 #2410
 	cost = 114 #67.5 tons = 42 * 2 lunar titanium + 30 for gun
 
@@ -3298,7 +3298,7 @@ strike_craft_component_template = {
 	rotation_speed = 0.1
 	acceleration = 0.5
 
-	shield_damage = 0.2 #MPC1
+	shield_damage = 0.2 #MPC3
 	shield_penetration = 0
 	armor_penetration = 0.95
 
@@ -3318,7 +3318,7 @@ strike_craft_component_template = {
 	entity = "bomber_5z_entity"
 
 	weapon_type = point_defence
-	projectile_gfx = "MPC1" #Find beam gfx
+	projectile_gfx = "MPC3" #Find beam gfx
 	power = -134 #3070
 	cost = 118 #71.2 tons = 44 * 2 lunar titanium + 30 for gun
 
@@ -3341,7 +3341,7 @@ strike_craft_component_template = {
 	rotation_speed = 0.1
 	acceleration = 0.5
 
-	shield_damage = 0.2 #MPC1
+	shield_damage = 0.2 #MPC3
 	shield_penetration = 0
 	armor_penetration = 0.95
 
@@ -3361,7 +3361,7 @@ strike_craft_component_template = {
 	entity = "bomber_5z_entity"
 
 	weapon_type = point_defence
-	projectile_gfx = "MPC1" #Find beam gfx
+	projectile_gfx = "MPC3" #Find beam gfx
 	power = -317 #21370
 	cost = 125 #264.7 tons = 163 * 2 lunar titanium + 50 for gun
 
@@ -3384,7 +3384,7 @@ strike_craft_component_template = {
 	rotation_speed = 0.1
 	acceleration = 0.5
 
-	shield_damage = 0.2 #MPC1
+	shield_damage = 0.2 #MPC3
 	shield_penetration = 0
 	armor_penetration = 0.95
 
@@ -3404,7 +3404,7 @@ strike_craft_component_template = {
 	entity = "bomber_5z_entity"
 
 	weapon_type = point_defence
-	projectile_gfx = "MPC1" #Find beam gfx
+	projectile_gfx = "MPC3" #Find beam gfx
 	power = -244 #16540
 	cost = 47 #74.02 tons = 46 * 2 lunar titanium + 50 for gun
 
@@ -3427,7 +3427,7 @@ strike_craft_component_template = {
 	rotation_speed = 0.1
 	acceleration = 0.5
 
-	shield_damage = 0.2 #MPC1
+	shield_damage = 0.2 #MPC3
 	shield_penetration = 0
 	armor_penetration = 0.95
 
@@ -3447,7 +3447,7 @@ strike_craft_component_template = {
 	entity = "bomber_5z_entity"
 
 	weapon_type = point_defence
-	projectile_gfx = "MPC1" #Find beam gfx
+	projectile_gfx = "MPC3" #Find beam gfx
 	power = -57 #3820
 	cost = 49 #79.4 tons = 49 * 2 lunar titanium + 50 for gun
 
@@ -3470,7 +3470,7 @@ strike_craft_component_template = {
 	rotation_speed = 0.1
 	acceleration = 0.5
 
-	shield_damage = 0.2 #MPC1
+	shield_damage = 0.2 #MPC3
 	shield_penetration = 0
 	armor_penetration = 0.95
 
@@ -3490,7 +3490,7 @@ strike_craft_component_template = {
 	entity = "bomber_5z_entity"
 
 	weapon_type = point_defence
-	projectile_gfx = "MPC1" #Find beam gfx
+	projectile_gfx = "MPC3" #Find beam gfx
 	power = -234 #5250
 	cost = 142 #74.5 tons = 46 * 2 lunar titanium + 50 for gun
 
@@ -3513,7 +3513,7 @@ strike_craft_component_template = {
 	rotation_speed = 0.1
 	acceleration = 0.5
 
-	shield_damage = 0.2 #MPC1
+	shield_damage = 0.2 #MPC3
 	shield_penetration = 0
 	armor_penetration = 0.95
 
@@ -3533,7 +3533,7 @@ strike_craft_component_template = {
 	entity = "bomber_5z_entity"
 
 	weapon_type = point_defence
-	projectile_gfx = "MPC1" #Find beam MG gfx
+	projectile_gfx = "MPC3" #Find beam MG gfx
 	power = -96 #2160
 	cost = 66 #50.8 tons = 31 + 5 improved armor + 30 for gun
 
@@ -3556,7 +3556,7 @@ strike_craft_component_template = {
 	rotation_speed = 0.1
 	acceleration = 0.5
 
-	shield_damage = 0.2 #MPC1
+	shield_damage = 0.2 #MPC3
 	shield_penetration = 0
 	armor_penetration = 0.95
 
@@ -3619,7 +3619,7 @@ strike_craft_component_template = {
 	entity = "bomber_5z_entity"
 
 	weapon_type = point_defence
-	projectile_gfx = "MPC1" #Find beam MG gfx
+	projectile_gfx = "MPC3" #Find beam MG gfx
 	power = -32 #2160
 	cost = 22 #50.8 tons = 31 + 5 improved armor + 30 for gun
 
@@ -3642,7 +3642,7 @@ strike_craft_component_template = {
 	rotation_speed = 0.1
 	acceleration = 0.5
 
-	shield_damage = 0.2 #MPC1
+	shield_damage = 0.2 #MPC3
 	shield_penetration = 0
 	armor_penetration = 0.95
 
@@ -3662,7 +3662,7 @@ strike_craft_component_template = {
 	entity = "bomber_5z_entity"
 
 	weapon_type = point_defence
-	projectile_gfx = "MPC1" #Find beam MG gfx
+	projectile_gfx = "MPC3" #Find beam MG gfx
 	power = -50 #3340
 	cost = 37 #64.6 tons = 40 * 2 lunar titanium + 30 for gun
 
@@ -3685,7 +3685,7 @@ strike_craft_component_template = {
 	rotation_speed = 0.1
 	acceleration = 0.5
 
-	shield_damage = 0.2 #MPC1
+	shield_damage = 0.2 #MPC3
 	shield_penetration = 0
 	armor_penetration = 0.95
 
@@ -3705,7 +3705,7 @@ strike_craft_component_template = {
 	entity = "bomber_5z_entity"
 
 	weapon_type = point_defence
-	projectile_gfx = "MPC1" #Find beam MG gfx
+	projectile_gfx = "MPC3" #Find beam MG gfx
 	power = -59 #3960
 	cost = 39 #71.2 tons = 44 * 2 lunar titanium + 30 for gun
 
@@ -3728,7 +3728,7 @@ strike_craft_component_template = {
 	rotation_speed = 0.1
 	acceleration = 0.5
 
-	shield_damage = 0.2 #MPC1
+	shield_damage = 0.2 #MPC3
 	shield_penetration = 0
 	armor_penetration = 0.95
 
@@ -3748,7 +3748,7 @@ strike_craft_component_template = {
 	entity = "bomber_5z_entity"
 
 	weapon_type = point_defence
-	projectile_gfx = "MPC1" #Find beam MG gfx
+	projectile_gfx = "MPC3" #Find beam MG gfx
 	power = -32 #2160
 	cost = 30 #48.3 tons = 30 * 2 lunar titanium + 30 for gun
 
@@ -3771,7 +3771,7 @@ strike_craft_component_template = {
 	rotation_speed = 0.1
 	acceleration = 0.5
 
-	shield_damage = 0.2 #MPC1
+	shield_damage = 0.2 #MPC3
 	shield_penetration = 0
 	armor_penetration = 0.95
 
@@ -3791,7 +3791,7 @@ strike_craft_component_template = {
 	entity = "bomber_5z_entity"
 
 	weapon_type = point_defence
-	projectile_gfx = "MPC1" #Find beam MG gfx
+	projectile_gfx = "MPC3" #Find beam MG gfx
 	power = -96 #2160
 	cost = 66 #62.1 tons = 38 + 5 improved armor + 30 for gun
 
@@ -3814,7 +3814,7 @@ strike_craft_component_template = {
 	rotation_speed = 0.1
 	acceleration = 0.5
 
-	shield_damage = 0.2 #MPC1
+	shield_damage = 0.2 #MPC3
 	shield_penetration = 0
 	armor_penetration = 0.95
 
@@ -3834,7 +3834,7 @@ strike_craft_component_template = {
 	entity = "bomber_5z_entity"
 
 	weapon_type = point_defence
-	projectile_gfx = "MPC1" #Find beam MG gfx
+	projectile_gfx = "MPC3" #Find beam MG gfx
 	power = -32 #2160
 	cost = 31 #50.8 tons = 31 * 2 Gundarium + 30 for gun
 
@@ -3857,7 +3857,7 @@ strike_craft_component_template = {
 	rotation_speed = 0.1
 	acceleration = 0.5
 
-	shield_damage = 0.2 #MPC1
+	shield_damage = 0.2 #MPC3
 	shield_penetration = 0
 	armor_penetration = 0.95
 
@@ -3877,7 +3877,7 @@ strike_craft_component_template = {
 	entity = "bomber_5z_entity"
 
 	weapon_type = point_defence
-	projectile_gfx = "MPC1" #Find beam MG gfx
+	projectile_gfx = "MPC3" #Find beam MG gfx
 	power = -110 #2470
 	cost = 69 #55.2 tons = 34 + 5 improved armor + 30 for gun
 
@@ -3900,7 +3900,7 @@ strike_craft_component_template = {
 	rotation_speed = 0.1
 	acceleration = 0.5
 
-	shield_damage = 0.2 #MPC1
+	shield_damage = 0.2 #MPC3
 	shield_penetration = 0
 	armor_penetration = 0.95
 

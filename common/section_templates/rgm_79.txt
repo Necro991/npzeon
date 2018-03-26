@@ -48,7 +48,7 @@ ship_section_template = { #GM Commander
 	key = "RGM_79S_MID"
 	ship_size = RGM_79S
 	fits_on_slot = mid
-	entity = "gm_command_1_entity"
+	entity = "gm_group_entity" #gm_command_1_entity
 	icon = "GFX_ship_part_core_mid"
 
 	prerequisites = { tech_RGM_79E }
@@ -101,7 +101,7 @@ ship_section_template = { #GM Commander
 	key = "RGM_79S_WHITE_DINGO_MID"
 	ship_size = RGM_79S
 	fits_on_slot = mid
-	entity = "gm_command_2_entity"
+	entity = "gm_group_entity" #gm_command_2_entity
 	icon = "GFX_ship_part_core_mid"
 
 	prerequisites = { tech_RGM_79E }
