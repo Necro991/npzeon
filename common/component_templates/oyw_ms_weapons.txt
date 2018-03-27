@@ -195,10 +195,10 @@ weapon_component_template = {
 }
 
 weapon_component_template = {
-	key = "OYW_ZEON_BEAM_RIFLE"
+	key = "OYW_ZEON_BEAM_RIFLE_0"
 	size = point_defence
 	entity = "Zeon_Machine_Gun_01_Entity"
-	damage = { min = 100.0 max = 200.0 }
+	damage = { min = 111.0 max = 222.0 }
 	#windup = { min = 5.0 max = 20.0 }
 	total_fire_time = 20
 	range = 30.0
@@ -208,7 +208,35 @@ weapon_component_template = {
 	shield_damage = 0.2
 	armor_penetration = 0.95
 
-	icon = "OYW_ZEON_BEAM_RIFLE"
+	icon = "OYW_ZEON_BEAM_RIFLE_0"
+	icon_frame = 1
+	color = { 0.1 1.0 0.1 1 }
+	power = -3000
+	cost = 30
+	size_restriction = { MS_06 MS_06S zeon_MS_P MS_09 MS_09S MS_18E MS_11 MS_11S MS_14 MS_14S MS_17 MS_17S }
+	prerequisites = { "tech_MS_06R_3S" }
+	component_set = "OYW_ZEON_BEAM_RIFLE"
+	projectile_gfx = "MPC3"
+	tags = { weapon_type_energy }
+	ai_tags = { weapon_role_anti_armor }
+	upgrades_to = "OYW_ZEON_BEAM_RIFLE"
+}
+
+weapon_component_template = {
+	key = "OYW_ZEON_BEAM_RIFLE"
+	size = point_defence
+	entity = "Zeon_Machine_Gun_01_Entity"
+	damage = { min = 115.0 max = 230.0 }
+	#windup = { min = 5.0 max = 20.0 }
+	total_fire_time = 20
+	range = 30.0
+	accuracy = 0.82
+	tracking  = 0.65
+	type = point_defence
+	shield_damage = 0.2
+	armor_penetration = 0.95
+
+	icon = "OYW_ZEON_BEAM_RIFLE_1"
 	icon_frame = 1
 	color = { 0.1 1.0 0.1 1 }
 	power = -3000
@@ -226,7 +254,7 @@ weapon_component_template = {
 	key = "OYW_ZEON_BEAM_MG"
 	size = point_defence
 	entity = "Zeon_Machine_Gun_01_Entity"
-	damage = { min = 25.0 max = 75.0 }
+	damage = { min = 30.0 max = 89.0 }
 	#windup = { min = 1.0 max = 10.0 }
 	total_fire_time = 10
 	range = 30.0
@@ -240,7 +268,7 @@ weapon_component_template = {
 	icon_frame = 1
 	color = { 0.1 1.0 0.1 1 }
 	power = -3000
-	cost = 30
+	cost = 35
 	size_restriction = { MS_11 MS_11S MS_14 MS_14S MS_17 MS_17S }
 	prerequisites = { "tech_MS_14JG" }
 	component_set = "OYW_ZEON_BEAM_MG"
