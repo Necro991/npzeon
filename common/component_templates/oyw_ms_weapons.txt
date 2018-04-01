@@ -761,7 +761,7 @@ weapon_component_template = {
 	color = { 0.1 1.0 0.1 1 }
 	power = -3000
 	cost = 20
-	size_restriction = { RX_77 RX_78 }
+	size_restriction = { RX_77 RX_78 RX_81FC }
 	prerequisites = { "tech_RX_77D" }
 	component_set = "OYW_EFSF_240MM_2"
 	projectile_gfx = "mass_driver_s"
@@ -993,6 +993,63 @@ weapon_component_template = {
 	ai_tags = { weapon_role_anti_armor }
 	#upgrades_to = "SMALL_BEAMC_2"
 }
+
+weapon_component_template = {
+	key = "OYW_EFSF_GATLING_SMASHER"
+	size = point_defence
+	entity = "Zeon_Machine_Gun_01_Entity"
+	damage = { min = 7.5 max = 20.0 }
+	windup = { min = 2.5 max = 5.0 }
+	total_fire_time = 1
+	range = 40.0
+	accuracy = 0.7
+	tracking  = 0.6
+	type = point_defence
+	shield_damage = 1.0
+	armor_penetration = 0.1
+
+	icon = "OYW_EFSF_GATLING_SMASHER"
+	icon_frame = 1
+	color = { 0.1 1.0 0.1 1 }
+	power = -3000
+	cost = 30
+	size_restriction = { RX_81FC }
+	prerequisites = { "tech_RX_81FC" }
+	component_set = "OYW_EFSF_GATLING_SMASHER"
+	projectile_gfx = "auto_cannons_s"
+	tags = { weapon_type_kinetic }
+	ai_tags = { weapon_role_anti_shield }
+	#upgrades_to = "OYW_ZEON_105MM"
+}
+
+weapon_component_template = {
+	key = "OYW_EFSF_MISSILE_LAUNCHER"
+	size = point_defence
+	entity = "Zeon_Machine_Gun_01_Entity"
+	damage = { min = 55.0 max = 100.0 }
+	#windup = { min = 5.0 max = 10.0 }
+	total_fire_time = 20
+	range = 60.0
+	accuracy = 0.8
+	tracking  = 0.2
+	type = point_defence
+	shield_damage = 1.15
+	armor_penetration = 0.25
+
+	icon = "OYW_EFSF_MISSILE_LAUNCHER"
+	icon_frame = 1
+	color = { 0.1 1.0 0.1 1 }
+	power = -3000
+	cost = 30
+	size_restriction = { RX_81FC }
+	prerequisites = { "tech_RX_81FC" }
+	component_set = "OYW_EFSF_MISSILE_LAUNCHER"
+	projectile_gfx = "gundam_missile"
+	tags = { weapon_type_explosive }
+	ai_tags = { weapon_role_anti_shield }
+	#upgrades_to = "SMALL_BEAMC_2"
+}
+
 
 weapon_component_template = {
 	key = "OYW_EFSF_90MM"

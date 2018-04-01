@@ -107,3 +107,54 @@ utility_component_template = {
 		weight = 1
 	}
 }
+
+utility_component_template = {
+	key = "rx_81fc_armor_1"
+	size = small
+	icon = "GFX_ship_part_armor_1"
+	icon_frame = 1
+	power = 0
+	cost = 0
+
+	modifier = {
+		ship_armor_add = 111
+	}
+	#ship_modifier = {
+	#	ship_weapon_damage = 0.01
+	#}
+
+	prerequisites = { "tech_RX_81FC" }
+
+	component_set = "rx_81fc_armor"
+	#upgrades_to = "rb_79_armor_2"
+
+	ai_weight = {
+		weight = 1
+	}
+}
+
+utility_component_template = {
+	key = "rx_81fc_thrusters_1"
+	size = small
+	icon = "GFX_ship_part_thruster_1"
+	icon_frame = 1
+	power = 0
+	cost = 0
+
+	modifier = {
+		ship_evasion_add = 75
+		ship_speed_mult = 0.747
+	}
+	#ship_modifier = {
+	#	ship_weapon_damage = 0.01
+	#}
+
+	prerequisites = { "tech_RX_81FC" }
+
+	component_set = "rx_81fc_thrusters"
+	#upgrades_to = "rb_79_thrusters_2"
+
+	ai_weight = {
+		weight = 1
+	}
+}

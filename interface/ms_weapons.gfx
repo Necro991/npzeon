@@ -131,6 +131,16 @@ spriteTypes = {
 	}
 
 	spriteType = {
+		name = "OYW_EFSF_GATLING_SMASHER"
+		texturefile = "gfx/interface/icons/ship_parts/efsf_gatling_smasher.dds"
+	}
+
+	spriteType = {
+		name = "OYW_EFSF_MISSILE_LAUNCHER"
+		texturefile = "gfx/interface/icons/ship_parts/efsf_missile_launcher.dds"
+	}
+
+	spriteType = {
 		name = "OYW_EFSF_90MM"
 		texturefile = "gfx/interface/icons/ship_parts/efsf_90.dds"
 	}

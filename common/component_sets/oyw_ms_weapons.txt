@@ -237,6 +237,20 @@ component_set = {
 }
 
 component_set = {
+	key = "OYW_EFSF_GATLING_SMASHER"
+
+	icon = "OYW_EFSF_GATLING_SMASHER"
+	icon_frame = 1
+}
+
+component_set = {
+	key = "OYW_EFSF_MISSILE_LAUNCHER"
+
+	icon = "OYW_EFSF_MISSILE_LAUNCHER"
+	icon_frame = 1
+}
+
+component_set = {
 	key = "OYW_EFSF_90MM"
 
 	icon = "OYW_EFSF_90MM"

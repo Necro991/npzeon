@@ -62,6 +62,13 @@ ship_section_template = { #G-Line FC
 	}
 
 	component_slot = {
+		name = "EXTRA_LARGE_01"
+		slot_size = extra_large
+		slot_type = weapon
+		locatorname = "xl_gun_01"
+	}
+
+	component_slot = {
 		name = "SMALL_GUN_01"
 		slot_size = point_defence
 		slot_type = weapon
@@ -82,17 +89,10 @@ ship_section_template = { #G-Line FC
 		locatorname = "small_gun_03"
 	}
 
-	component_slot = {
-		name = "SMALL_GUN_04"
-		slot_size = point_defence
-		slot_type = weapon
-		locatorname = "small_gun_04"
-	}
-
 	small_utility_slots = 0
 	medium_utility_slots = 0
 	large_utility_slots = 0
 	aux_utility_slots = 0
 
-	cost = 132
+	cost = 44
 }
