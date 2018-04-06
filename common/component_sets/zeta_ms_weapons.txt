@@ -1,0 +1,20 @@
+component_set = {
+	key = "ZETA_GM_II_BEAM_RIFLE"
+
+	icon = "GUNDAM_7_BEAM_RIFLE"
+	icon_frame = 1
+}
+
+component_set = {
+	key = "ZETA_GM_III_BEAM_RIFLE"
+
+	icon = "GUNDAM_7_BEAM_RIFLE"
+	icon_frame = 1
+}
+
+component_set = {
+	key = "ZETA_EFSF_380MM"
+
+	icon = "OYW_EFSF_380MM"
+	icon_frame = 1
+}

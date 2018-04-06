@@ -188,7 +188,21 @@ component_set = {
 }
 
 component_set = {
+	key = "OYW_EFSF_GM_180MM"
+
+	icon = "OYW_ZEON_180MM"
+	icon_frame = 1
+}
+
+component_set = {
 	key = "OYW_EFSF_BEAM_RIFLE"
+
+	icon = "OYW_EFSF_BEAM_RIFLE"
+	icon_frame = 1
+}
+
+component_set = {
+	key = "OYW_EFSF_GUNDAM_BEAM_RIFLE"
 
 	icon = "OYW_EFSF_BEAM_RIFLE"
 	icon_frame = 1
@@ -203,6 +217,20 @@ component_set = {
 
 component_set = {
 	key = "GUNDAM_7_BEAM_RIFLE"
+
+	icon = "GUNDAM_7_BEAM_RIFLE"
+	icon_frame = 1
+}
+
+component_set = {
+	key = "OYW_EFSF_GM_CARBINE"
+
+	icon = "GUNDAM_7_BEAM_RIFLE"
+	icon_frame = 1
+}
+
+component_set = {
+	key = "OYW_EFSF_GM_C_LR_BEAM_RIFLE"
 
 	icon = "GUNDAM_7_BEAM_RIFLE"
 	icon_frame = 1

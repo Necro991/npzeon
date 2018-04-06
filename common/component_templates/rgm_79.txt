@@ -18,7 +18,7 @@ utility_component_template = {
 	prerequisites = { "tech_RGM_79E" }
 
 	component_set = "rgm_79_armor"
-	#upgrades_to = "rb_79_armor_2"
+	upgrades_to = "rgm_79_armor_2"
 
 	ai_weight = {
 		weight = 1
@@ -44,7 +44,7 @@ utility_component_template = {
 	prerequisites = { "tech_RGM_79" }
 
 	component_set = "rgm_79_armor"
-	#upgrades_to = "rb_79_armor_2"
+	upgrades_to = "rgm_79_armor_3"
 
 	ai_weight = {
 		weight = 1
@@ -68,6 +68,113 @@ utility_component_template = {
 	#}
 
 	prerequisites = { "tech_RGM_79C" }
+
+	component_set = "rgm_79_armor"
+	upgrades_to = "rgm_79_armor_4"
+
+	ai_weight = {
+		weight = 1
+	}
+}
+
+utility_component_template = {
+	key = "rgm_79_armor_4"
+	size = small
+	icon = "GFX_ship_part_armor_4"
+	icon_frame = 1
+	power = 0
+	cost = -15
+
+	modifier = {
+		ship_armor_add = 142
+		ship_hull_mult = -0.11
+	}
+	#ship_modifier = {
+	#	ship_weapon_damage = 0.01
+	#}
+
+	prerequisites = { "tech_RGM_79N" }
+
+	component_set = "rgm_79_armor"
+	upgrades_to = "rgm_79_armor_5"
+
+	ai_weight = {
+		weight = 1
+	}
+}
+
+utility_component_template = {
+	key = "rgm_79_armor_5"
+	size = small
+	icon = "GFX_ship_part_armor_5"
+	icon_frame = 1
+	power = 0
+	cost = -20 #Extra resources saved due to refining of design
+
+	modifier = {
+		ship_armor_add = 144
+		ship_hull_mult = -0.1
+		ship_speed_mult = -0.19
+	}
+	#ship_modifier = {
+	#	ship_weapon_damage = 0.01
+	#}
+
+	prerequisites = { "tech_RMS_179" }
+
+	component_set = "rgm_79_armor"
+	upgrades_to = "rgm_79_armor_6"
+
+	ai_weight = {
+		weight = 1
+	}
+}
+
+utility_component_template = {
+	key = "rgm_79_armor_6"
+	size = small
+	icon = "GFX_ship_part_armor_6"
+	icon_frame = 1
+	power = 0
+	cost = -12 #Should cost 15 less, costs 12 less because design is fancy
+
+	modifier = {
+		ship_armor_add = 150
+		ship_hull_mult = -0.15
+		ship_evasion_add = 3
+		ship_speed_mult = -0.13
+	}
+	#ship_modifier = {
+	#	ship_weapon_damage = 0.01
+	#}
+
+	prerequisites = { "tech_RGM_79Q" }
+
+	component_set = "rgm_79_armor"
+	upgrades_to = "rgm_79_armor_7"
+
+	ai_weight = {
+		weight = 1
+	}
+}
+
+utility_component_template = {
+	key = "rgm_79_armor_7"
+	size = small
+	icon = "GFX_ship_part_armor_7"
+	icon_frame = 1
+	power = 0
+	cost = -15
+
+	modifier = {
+		ship_armor_add = 157
+		ship_hull_mult = -0.149
+	}
+	#ship_modifier = {
+	#	ship_weapon_damage = 0.01
+	#}
+
+	prerequisites = { "tech_RGM_86R" }
 
 	component_set = "rgm_79_armor"
 	#upgrades_to = "rb_79_armor_2"
@@ -97,7 +204,7 @@ utility_component_template = {
 	prerequisites = { "tech_RGM_79E" }
 
 	component_set = "rgm_79_thrusters"
-	#upgrades_to = "rb_79_thrusters_2"
+	upgrades_to = "rgm_79_thrusters_2"
 
 	ai_weight = {
 		weight = 1
@@ -124,7 +231,7 @@ utility_component_template = {
 	prerequisites = { "tech_RGM_79" }
 
 	component_set = "rgm_79_thrusters"
-	#upgrades_to = "rb_79_thrusters_2"
+	upgrades_to = "rgm_79_thrusters_3"
 
 	ai_weight = {
 		weight = 1
@@ -151,7 +258,7 @@ utility_component_template = {
 	prerequisites = { "tech_RGM_79C" }
 
 	component_set = "rgm_79_thrusters"
-	#upgrades_to = "rb_79_thrusters_2"
+	upgrades_to = "rgm_79_thrusters_4"
 
 	ai_weight = {
 		weight = 1
@@ -178,7 +285,7 @@ utility_component_template = {
 	prerequisites = { "tech_RGM_79C_POWERED" }
 
 	component_set = "rgm_79_thrusters"
-	#upgrades_to = "rb_79_thrusters_2"
+	upgrades_to = "rgm_79_thrusters_5"
 
 	ai_weight = {
 		weight = 1
@@ -195,14 +302,40 @@ utility_component_template = {
 
 	modifier = {
 		ship_evasion_add = 62
-		ship_speed_mult = 0.975
-		ship_combat_speed_mult = 0.975
+		ship_speed_mult = 0.98
+		ship_combat_speed_mult = 0.98
 	}
 	#ship_modifier = {
 	#	ship_weapon_damage = 0.01
 	#}
 
 	prerequisites = { "tech_RGM_79N" }
+
+	component_set = "rgm_79_thrusters"
+	upgrades_to = "rgm_79_thrusters_6"
+
+	ai_weight = {
+		weight = 1
+	}
+}
+
+utility_component_template = {
+	key = "rgm_79_thrusters_6"
+	size = small
+	icon = "GFX_ship_part_thruster_6"
+	icon_frame = 1
+	power = 0
+	cost = 50
+
+	modifier = {
+		ship_evasion_add = 70
+		ship_speed_mult = 1.46
+	}
+	#ship_modifier = {
+	#	ship_weapon_damage = 0.01
+	#}
+
+	prerequisites = { "tech_RGM_86R" }
 
 	component_set = "rgm_79_thrusters"
 	#upgrades_to = "rb_79_thrusters_2"

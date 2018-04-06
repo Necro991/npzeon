@@ -1,0 +1,55 @@
+weapon_component_template = {
+	key = "0083_GM_NQ_BEAM_RIFLE"
+	size = point_defence
+	entity = "Zeon_Machine_Gun_01_Entity"
+	damage = { min = 114.0 max = 227.0 }
+	#windup = { min = 5.0 max = 20.0 }
+	total_fire_time = 20
+	range = 30.0
+	accuracy = 0.82
+	tracking  = 0.65
+	type = point_defence
+	shield_damage = 0.2
+	armor_penetration = 0.95
+
+	icon = "GUNDAM_7_BEAM_RIFLE"
+	icon_frame = 1
+	color = { 0.1 1.0 0.1 1 }
+	power = -3000
+	cost = 30
+	size_restriction = { RGM_79 RGM_79S }
+	prerequisites = { "tech_RGM_79N" }
+	component_set = "0083_GM_NQ_BEAM_RIFLE"
+	projectile_gfx = "MPC1"
+	tags = { weapon_type_energy }
+	ai_tags = { weapon_role_anti_armor }
+	upgrades_to = "ZETA_GM_II_BEAM_RIFLE"
+}
+
+weapon_component_template = {
+	key = "0083_GM_Q_SHORT_BEAM_RIFLE"
+	size = point_defence
+	entity = "Zeon_Machine_Gun_01_Entity"
+	damage = { min = 114.0 max = 227.0 }
+	#windup = { min = 5.0 max = 20.0 }
+	total_fire_time = 15
+	range = 15.0
+	accuracy = 0.82
+	tracking  = 0.65
+	type = point_defence
+	shield_damage = 0.2
+	armor_penetration = 0.95
+
+	icon = "GUNDAM_7_BEAM_RIFLE"
+	icon_frame = 1
+	color = { 0.1 1.0 0.1 1 }
+	power = -3000
+	cost = 25
+	size_restriction = { RGM_79 RGM_79S }
+	prerequisites = { "tech_RGM_79N" }
+	component_set = "0083_GM_Q_SHORT_BEAM_RIFLE"
+	projectile_gfx = "MPC1"
+	tags = { weapon_type_energy }
+	ai_tags = { weapon_role_anti_armor }
+	#upgrades_to = "SMALL_BEAMC_2"
+}

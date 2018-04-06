@@ -31,6 +31,7 @@
 @battleship_power_02 = -120
 @battleship_power_03 = -160
 @battleship_power_04 = -200
+@battleship_power_05 = -240
 
 utility_component_template = {
 	key = "AC_COMBAT_COMPUTER_LINE_DEFAULT"
@@ -486,7 +487,7 @@ utility_component_template = {
 	size = small
 	icon = "GFX_ship_part_thruster_4"
 	icon_frame = 1
-	power = @battleship_power_4
+	power = @battleship_power_04
 	cost = @cost4
 	modifier = {
 		ship_speed_mult = 0.60
