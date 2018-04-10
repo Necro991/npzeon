@@ -48,6 +48,13 @@ component_set = {
 }
 
 component_set = {
+	key = "OYW_ZEON_175MM"
+
+	icon = "OYW_ZEON_175MM"
+	icon_frame = 1
+}
+
+component_set = {
 	key = "OYW_ZEON_BEAM_RIFLE"
 
 	icon = "OYW_ZEON_BEAM_RIFLE_1"
@@ -107,6 +114,20 @@ component_set = {
 	key = "OYW_ZEON_420MM"
 
 	icon = "OYW_ZEON_420MM"
+	icon_frame = 1
+}
+
+component_set = {
+	key = "OYW_ZEON_180MM"
+
+	icon = "OYW_ZEON_180MM_3"
+	icon_frame = 1
+}
+
+component_set = {
+	key = "OYW_ZEON_120MM_GATLING"
+
+	icon = "OYW_ZEON_120MM"
 	icon_frame = 1
 }
 

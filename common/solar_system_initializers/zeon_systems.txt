@@ -90,12 +90,12 @@ neo_sol_system_initializer = {
 				random_tile = {
 					limit = { has_blocker = no has_building = no }
 					set_building = "building_hydroponics_farm_1"
-					set_deposit = d_food_deposit
+					set_deposit = d_rich_farmland_deposit
 				}
 				random_tile = {
 					limit = { has_blocker = no has_building = no }
 					set_building = "building_hydroponics_farm_1"
-					set_deposit = d_food_deposit
+					set_deposit = d_rich_farmland_deposit
 				}
 				random_tile = {
 					limit = { has_blocker = no has_building = no }
@@ -741,12 +741,12 @@ axis_sol_system_initializer = {
 				random_tile = {
 					limit = { has_blocker = no has_building = no }
 					set_building = "building_hydroponics_farm_1"
-					set_deposit = d_food_deposit
+					set_deposit = d_rich_farmland_deposit
 				}
 				random_tile = {
 					limit = { has_blocker = no has_building = no }
 					set_building = "building_hydroponics_farm_1"
-					set_deposit = d_food_deposit
+					set_deposit = d_rich_farmland_deposit
 				}
 				random_tile = {
 					limit = { has_blocker = no has_building = no }
@@ -806,7 +806,7 @@ axis_sol_system_initializer = {
 			random_tile = {
 				limit = { has_blocker = no has_building = no }
 				set_blocker = "tb_crater"
-				set_deposit = d_food_deposit
+				set_deposit = d_rich_farmland_deposit
 			}
 			random_tile = {
 				limit = { has_blocker = no has_building = no }
@@ -850,12 +850,12 @@ axis_sol_system_initializer = {
 				random_tile = {
 					limit = { has_blocker = no has_building = no }
 					set_building = "building_hydroponics_farm_1"
-					set_deposit = d_food_deposit
+					set_deposit = d_rich_farmland_deposit
 				}
 				random_tile = {
 					limit = { has_blocker = no has_building = no }
 					set_building = "building_hydroponics_farm_1"
-					set_deposit = d_food_deposit
+					set_deposit = d_rich_farmland_deposit
 				}
 				random_tile = {
 					limit = { has_blocker = no has_building = no }
@@ -1567,12 +1567,12 @@ efsf_sol_system_initializer = {
 				random_tile = {
 					limit = { has_blocker = no has_building = no }
 					set_building = "building_hydroponics_farm_1"
-					set_deposit = d_food_deposit
+					set_deposit = d_rich_farmland_deposit
 				}
 				random_tile = {
 					limit = { has_blocker = no has_building = no }
 					set_building = "building_hydroponics_farm_1"
-					set_deposit = d_food_deposit
+					set_deposit = d_rich_farmland_deposit
 				}
 				random_tile = {
 					limit = { has_blocker = no has_building = no }
@@ -1632,7 +1632,7 @@ efsf_sol_system_initializer = {
 			random_tile = {
 				limit = { has_blocker = no has_building = no }
 				set_blocker = "tb_crater"
-				set_deposit = d_food_deposit
+				set_deposit = d_rich_farmland_deposit
 			}
 			random_tile = {
 				limit = { has_blocker = no has_building = no }
@@ -1677,12 +1677,12 @@ efsf_sol_system_initializer = {
 				random_tile = {
 					limit = { has_blocker = no has_building = no }
 					set_building = "building_hydroponics_farm_1"
-					set_deposit = d_food_deposit
+					set_deposit = d_rich_farmland_deposit
 				}
 				random_tile = {
 					limit = { has_blocker = no has_building = no }
 					set_building = "building_hydroponics_farm_1"
-					set_deposit = d_food_deposit
+					set_deposit = d_rich_farmland_deposit
 				}
 				random_tile = {
 					limit = { has_blocker = no has_building = no }
@@ -2327,12 +2327,12 @@ zeon_sol_system_initializer = {
 				random_tile = {
 					limit = { has_blocker = no has_building = no }
 					set_building = "building_hydroponics_farm_1"
-					set_deposit = d_food_deposit
+					set_deposit = d_rich_farmland_deposit
 				}
 				random_tile = {
 					limit = { has_blocker = no has_building = no }
 					set_building = "building_hydroponics_farm_1"
-					set_deposit = d_food_deposit
+					set_deposit = d_rich_farmland_deposit
 				}
 				random_tile = {
 					limit = { has_blocker = no has_building = no }
@@ -2408,12 +2408,12 @@ zeon_sol_system_initializer = {
 				random_tile = {
 					limit = { has_blocker = no has_building = no }
 					set_building = "building_hydroponics_farm_1"
-					set_deposit = d_food_deposit
+					set_deposit = d_rich_farmland_deposit
 				}
 				random_tile = {
 					limit = { has_blocker = no has_building = no }
 					set_building = "building_hydroponics_farm_1"
-					set_deposit = d_food_deposit
+					set_deposit = d_rich_farmland_deposit
 				}
 				random_tile = {
 					limit = { has_blocker = no has_building = no }
@@ -3059,12 +3059,12 @@ gundamu_sol_system_initializer = {
 				random_tile = {
 					limit = { has_blocker = no has_building = no }
 					set_building = "building_hydroponics_farm_1"
-					set_deposit = d_food_deposit
+					set_deposit = d_rich_farmland_deposit
 				}
 				random_tile = {
 					limit = { has_blocker = no has_building = no }
 					set_building = "building_hydroponics_farm_1"
-					set_deposit = d_food_deposit
+					set_deposit = d_rich_farmland_deposit
 				}
 				random_tile = {
 					limit = { has_blocker = no has_building = no }
@@ -3124,7 +3124,7 @@ gundamu_sol_system_initializer = {
 			random_tile = {
 				limit = { has_blocker = no has_building = no }
 				set_blocker = "tb_crater"
-				set_deposit = d_food_deposit
+				set_deposit = d_rich_farmland_deposit
 			}
 			random_tile = {
 				limit = { has_blocker = no has_building = no }
@@ -3169,12 +3169,12 @@ gundamu_sol_system_initializer = {
 				random_tile = {
 					limit = { has_blocker = no has_building = no }
 					set_building = "building_hydroponics_farm_1"
-					set_deposit = d_food_deposit
+					set_deposit = d_rich_farmland_deposit
 				}
 				random_tile = {
 					limit = { has_blocker = no has_building = no }
 					set_building = "building_hydroponics_farm_1"
-					set_deposit = d_food_deposit
+					set_deposit = d_rich_farmland_deposit
 				}
 				random_tile = {
 					limit = { has_blocker = no has_building = no }

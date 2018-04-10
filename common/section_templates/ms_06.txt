@@ -1312,3 +1312,70 @@ ship_section_template = { #MS-06S Shin Matsunaga 2
 
 	cost = 132
 }
+
+ship_section_template = { #MS-06K
+	key = "MS_06_K_MID"
+	ship_size = MS_06K
+	fits_on_slot = mid
+	entity = "zaku2_f_entity"
+	icon = "GFX_ship_part_core_mid"
+
+	prerequisites = { tech_MS_06K }
+
+	# Guns
+	weapon_preferences = { weapon_type_z1 }
+	ai_weight = {
+		modifier = {
+			factor = 10.0
+		}
+	}
+
+	component_slot = {
+		name = "EXTRA_LARGE_01"
+		slot_size = extra_large
+		slot_type = weapon
+		locatorname = "xl_gun_01"
+	}
+
+	component_slot = {
+		name = "EXTRA_LARGE_02"
+		slot_size = extra_large
+		slot_type = weapon
+		locatorname = "xl_gun_02"
+	}
+
+	component_slot = {
+		name = "EXTRA_LARGE_03"
+		slot_size = extra_large
+		slot_type = weapon
+		locatorname = "xl_gun_03"
+	}
+
+	component_slot = {
+		name = "SMALL_GUN_01"
+		slot_size = point_defence
+		slot_type = weapon
+		locatorname = "small_gun_01"
+	}
+
+	component_slot = {
+		name = "SMALL_GUN_02"
+		slot_size = point_defence
+		slot_type = weapon
+		locatorname = "small_gun_02"
+	}
+
+	component_slot = {
+		name = "SMALL_GUN_03"
+		slot_size = point_defence
+		slot_type = weapon
+		locatorname = "small_gun_03"
+	}
+
+	small_utility_slots = 0
+	medium_utility_slots = 0
+	large_utility_slots = 0
+	aux_utility_slots = 0
+
+	cost = 132
+}

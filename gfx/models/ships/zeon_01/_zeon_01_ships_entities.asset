@@ -1977,6 +1977,12 @@ entity = {
 	}
 
 	entity = {
+		name = "MA_04X_entity"
+		pdxmesh = "zeon_locator_mesh"
+		scale = 1.0
+	}
+
+	entity = {
 		name = "MA_06_entity"
 		pdxmesh = "zeon_locator_mesh"
 		scale = 1.0
@@ -2025,6 +2031,12 @@ entity = {
 	}
 
 	entity = {
+		name = "MS_06K_entity"
+		pdxmesh = "zeon_locator_mesh"
+		scale = 1.0
+	}
+
+	entity = {
 		name = "MS_09_entity"
 		pdxmesh = "zeon_locator_mesh"
 		scale = 1.0
@@ -2032,6 +2044,12 @@ entity = {
 
 	entity = {
 		name = "MS_09S_entity"
+		pdxmesh = "zeon_locator_mesh"
+		scale = 1.0
+	}
+
+	entity = {
+		name = "MS_09K_entity"
 		pdxmesh = "zeon_locator_mesh"
 		scale = 1.0
 	}
@@ -2056,6 +2074,12 @@ entity = {
 
 	entity = {
 		name = "MS_14S_entity"
+		pdxmesh = "zeon_locator_mesh"
+		scale = 1.0
+	}
+
+	entity = {
+		name = "MS_14C_entity"
 		pdxmesh = "zeon_locator_mesh"
 		scale = 1.0
 	}
@@ -2219,6 +2243,12 @@ entity = {
 	entity = {
 		name = "nt_ma_1_entity" #Elmeth
 		pdxmesh = "Elmeth_Mesh"
+		scale = 0.8
+	}
+
+	entity = {
+		name = "not_zakrello_entity" #Elmeth Zakrello
+		pdxmesh = "Elmeth_Zakrello_Mesh"
 		scale = 0.8
 	}
 

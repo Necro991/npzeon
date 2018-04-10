@@ -74,3 +74,38 @@ MS_09S = { #MS-09S
 	required_component_set = "ms_09_thrusters"
 	required_component_set = "sensor_components"
 }
+
+MS_09K = { #MS-09K Dom Cannon
+	formation_priority = 4
+	max_speed = 204
+	acceleration = 0.5
+	rotation_speed = 0.455
+	collision_radius = 1
+	max_hitpoints = 300
+	size_multiplier = 1
+	fleet_slot_size = 16
+	section_slots = { "mid" = { locator = "part1" } }
+	num_target_locators = 4
+	is_space_station = no
+	icon_frame = 2
+	base_buildtime = 30
+	graphical_culture = no
+	can_have_federation_design = yes
+	enable_default_design = no	#if yes, countries will have an auto-generated design at start
+
+	prerequisites = { "tech_MS_09K" }
+	has_mineral_upkeep = yes
+
+	combat_disengage_chance = 1.75
+
+	class = shipclass_military
+	construction_type = starbase_shipyard
+	required_component_set = "ftl_components"
+	required_component_set = "oyw_zeon_pilot_putv"
+	required_component_set = "zeon_melee_aura"
+	required_component_set = "zeon_grenade_aura"
+	required_component_set = "ms_09k_reactor"
+	required_component_set = "ms_09k_armor"
+	required_component_set = "ms_09k_thrusters"
+	required_component_set = "sensor_components"
+}

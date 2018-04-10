@@ -81,6 +81,43 @@ ship_section_template = { #MSN-02 Zeong
 	cost = 143
 }
 
+ship_section_template = { #MA-04X Zakrello
+	key = "MA_04X_MID"
+	ship_size = MA_04X
+	fits_on_slot = mid
+	entity = "not_zakrello_entity"
+	icon = "GFX_ship_part_core_mid"
+
+	prerequisites = { tech_MA_04X }
+
+	component_slot = {
+		name = "EXTRA_LARGE_01"
+		slot_size = extra_large
+		slot_type = weapon
+		locatorname = "xl_gun_01"
+	}
+
+	component_slot = {
+		name = "TORPEDO_01"
+		slot_size = torpedo
+		slot_type = weapon
+		locatorname = "medium_gun_01"
+	}
+
+	component_slot = {
+		name = "TORPEDO_02"
+		slot_size = torpedo
+		slot_type = weapon
+		locatorname = "medium_gun_02"
+	}
+
+	small_utility_slots = 0
+	medium_utility_slots = 0
+	large_utility_slots = 0
+	aux_utility_slots = 0
+
+	cost = 114
+}
 
 ship_section_template = { #MA-06 Val Varo
 	key = "MA_06_MID"

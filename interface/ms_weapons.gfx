@@ -26,6 +26,11 @@ spriteTypes = {
 	}
 
 	spriteType = {
+		name = "OYW_ZEON_175MM"
+		texturefile = "gfx/interface/icons/ship_parts/zeon_175.dds"
+	}
+
+	spriteType = {
 		name = "STURMFAUST"
 		texturefile = "gfx/interface/icons/ship_parts/Sturmfaust.dds"
 	}
@@ -121,6 +126,11 @@ spriteTypes = {
 	}
 
 	spriteType = {
+		name = "ZETA_GM_BEAM_RIFLE"
+		texturefile = "gfx/interface/icons/ship_parts/efef_gm_br.dds"
+	}
+
+	spriteType = {
 		name = "OYW_EFSF_MEGA_BEAM_LAUNCHER"
 		texturefile = "gfx/interface/icons/ship_parts/efsf_mbl.dds"
 	}
@@ -158,6 +168,11 @@ spriteTypes = {
 	spriteType = {
 		name = "OYW_EFSF_380MM"
 		texturefile = "gfx/interface/icons/ship_parts/efsf_380.dds"
+	}
+
+	spriteType = {
+		name = "ma_04x_mpc"
+		texturefile = "gfx/interface/icons/ship_parts/ma_04x_mpc.dds"
 	}
 
 	spriteType = {

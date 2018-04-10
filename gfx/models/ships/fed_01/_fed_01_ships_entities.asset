@@ -2624,13 +2624,37 @@ entity = {
 	}
 
 	entity = {
-		name = "gm_group_entity" #GM Group
+		name = "gm_group_entity" #GM Group OUTDATED
 		pdxmesh = "fed_01_GM_Group_mesh"
 
 		locator = { name = "small_gun_01" 			position = { 0.0 	1.0 	0.0	} 	scale = 0.0} #X,Up/Down,Forward/Back
 
 		scale = 1.0
 
+	}
+
+	entity = {
+		name = "gm_trio_01" #GM Trio
+		pdxmesh = "fed_01_GM_Trio_1_mesh"
+
+		locator = { name = "small_gun_01" 			position = { 0.0 	1.0 	0.0	} 	scale = 0.0} #X,Up/Down,Forward/Back
+		scale = 1.0
+	}
+
+	entity = {
+		name = "gm_trio_02" #GM C Trio
+		pdxmesh = "fed_01_GM_Trio_2_mesh"
+
+		locator = { name = "small_gun_01" 			position = { 0.0 	1.0 	0.0	} 	scale = 0.0} #X,Up/Down,Forward/Back
+		scale = 1.0
+	}
+
+	entity = {
+		name = "gm_trio_03" #GM C AEUG
+		pdxmesh = "fed_01_GM_Trio_3_mesh"
+
+		locator = { name = "small_gun_01" 			position = { 0.0 	1.0 	0.0	} 	scale = 0.0} #X,Up/Down,Forward/Back
+		scale = 1.0
 	}
 
 	entity = {

@@ -85,6 +85,46 @@ MSN_02 = { #MSN-02 Zeong
 	}
 }
 
+MA_04X = { #MA-04X Zakrello
+	formation_priority = @corvette_formation_priority
+	max_speed = 170
+	acceleration = 0.5
+	rotation_speed = 0.455
+	collision_radius = 1
+	max_hitpoints = 285
+	size_multiplier = 1
+	fleet_slot_size = 16
+	section_slots = { "mid" = { locator = "part1" } }
+	num_target_locators = 12
+	is_space_station = no
+	icon_frame = 2
+	base_buildtime = 180
+	graphical_culture = no
+	can_have_federation_design = yes
+	enable_default_design = no	#if yes, countries will have an auto-generated design at start
+
+	prerequisites = { "tech_MA_04X" }
+	has_mineral_upkeep = yes
+
+	combat_disengage_chance = 1.75
+
+	class = shipclass_military
+	construction_type = starbase_shipyard
+	required_component_set = "ftl_components"
+	required_component_set = "oyw_zeon_pilot_ncn"
+	required_component_set = "ma_04x_melee_aura"
+	required_component_set = "ma_04x_reactor"
+	required_component_set = "ma_04x_armor"
+	required_component_set = "ma_04x_thrusters"
+	required_component_set = "sensor_components"
+
+	empire_limit = {
+		base = 1
+		max = 1
+		naval_cap_div = 1
+	}
+}
+
 MA_06 = { #MA-06 Val Varo
 	formation_priority = @corvette_formation_priority
 	max_speed = 170

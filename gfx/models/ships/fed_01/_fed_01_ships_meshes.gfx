@@ -1277,7 +1277,7 @@ objectTypes = {
 		}
 	}
 
-	pdxmesh = { #GM Group
+	pdxmesh = { #GM Group OUTDATED
 		name = "fed_01_GM_Group_mesh"
 		file = "gfx/models/ships/fed_01/GM_Group.mesh"
 
@@ -1290,11 +1290,50 @@ objectTypes = {
 		}
 	}
 
+	pdxmesh = { #New GM Trio
+		name = "fed_01_GM_Trio_1_mesh"
+		file = "gfx/models/ships/fed_01/GM_Trio.mesh"
+
+		scale = 1.0
+			meshsettings = {
+				texture_diffuse = "GM_Diffuse.dds"
+				texture_normal = "zakuII_normal.dds"
+				texture_specular = "GM_Specular.dds"
+				shader = "PdxMeshShip"
+		}
+	}
+
+	pdxmesh = { #New GM Trio
+		name = "fed_01_GM_Trio_2_mesh"
+		file = "gfx/models/ships/fed_01/GM_C_Trio.mesh"
+
+		scale = 1.0
+			meshsettings = {
+				texture_diffuse = "GM_C_Trio_Diffuse.dds"
+				texture_normal = "zakuII_normal.dds"
+				texture_specular = "GM_Specular.dds"
+				shader = "PdxMeshShip"
+		}
+	}
+
+	pdxmesh = { #New GM Trio
+		name = "fed_01_GM_Trio_3_mesh"
+		file = "gfx/models/ships/fed_01/GM_C_Trio.mesh"
+
+		scale = 1.0
+			meshsettings = {
+				texture_diffuse = "GM_C_AEUG_Diffuse.dds"
+				texture_normal = "zakuII_normal.dds"
+				texture_specular = "GM_Specular.dds"
+				shader = "PdxMeshShip"
+		}
+	}
+
 	pdxmesh = { #GM Group
 		name = "GM_Test_Group_1_mesh"
 		file = "gfx/models/ships/fed_01/GM_Commander.mesh"
 
-		scale = 2.0
+		scale = 1.0
 			meshsettings = {
 				texture_diffuse = "GM_C_Commander_Diffuse.dds"
 				texture_normal = "zakuII_normal.dds"
@@ -1307,7 +1346,7 @@ objectTypes = {
 		name = "GM_Test_Group_2_mesh"
 		file = "gfx/models/ships/fed_01/GM_Commander.mesh"
 
-		scale = 2.0
+		scale = 1.0
 			meshsettings = {
 				texture_diffuse = "GM_White_Dingo_Diffuse.dds"
 				texture_normal = "zakuII_normal.dds"

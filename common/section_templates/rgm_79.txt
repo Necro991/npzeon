@@ -2,10 +2,102 @@ ship_section_template = { #GM
 	key = "RGM_79_MID"
 	ship_size = RGM_79
 	fits_on_slot = mid
-	entity = "gm_group_entity"
+	entity = "gm_trio_01"
 	icon = "GFX_ship_part_core_mid"
 
 	prerequisites = { tech_RGM_79E }
+
+	# Guns
+	weapon_preferences = { weapon_type_z1 }
+	ai_weight = {
+		modifier = {
+			factor = 10.0
+		}
+	}
+
+	component_slot = {
+		name = "SMALL_GUN_01"
+		slot_size = point_defence
+		slot_type = weapon
+		locatorname = "small_gun_01"
+	}
+
+	component_slot = {
+		name = "SMALL_GUN_02"
+		slot_size = point_defence
+		slot_type = weapon
+		locatorname = "small_gun_02"
+	}
+
+	component_slot = {
+		name = "SMALL_GUN_03"
+		slot_size = point_defence
+		slot_type = weapon
+		locatorname = "small_gun_03"
+	}
+
+	small_utility_slots = 0
+	medium_utility_slots = 0
+	large_utility_slots = 0
+	aux_utility_slots = 0
+
+	cost = 120
+}
+
+ship_section_template = { #GM
+	key = "RGM_79_C_MID"
+	ship_size = RGM_79
+	fits_on_slot = mid
+	entity = "gm_trio_02"
+	icon = "GFX_ship_part_core_mid"
+
+	prerequisites = { tech_RGM_79C }
+
+	# Guns
+	weapon_preferences = { weapon_type_z1 }
+	ai_weight = {
+		modifier = {
+			factor = 10.0
+		}
+	}
+
+	component_slot = {
+		name = "SMALL_GUN_01"
+		slot_size = point_defence
+		slot_type = weapon
+		locatorname = "small_gun_01"
+	}
+
+	component_slot = {
+		name = "SMALL_GUN_02"
+		slot_size = point_defence
+		slot_type = weapon
+		locatorname = "small_gun_02"
+	}
+
+	component_slot = {
+		name = "SMALL_GUN_03"
+		slot_size = point_defence
+		slot_type = weapon
+		locatorname = "small_gun_03"
+	}
+
+	small_utility_slots = 0
+	medium_utility_slots = 0
+	large_utility_slots = 0
+	aux_utility_slots = 0
+
+	cost = 120
+}
+
+ship_section_template = { #GM
+	key = "RGM_79_C_AEUG_MID"
+	ship_size = RGM_79
+	fits_on_slot = mid
+	entity = "gm_trio_03"
+	icon = "GFX_ship_part_core_mid"
+
+	prerequisites = { tech_RGM_79C }
 
 	# Guns
 	weapon_preferences = { weapon_type_z1 }
@@ -48,7 +140,7 @@ ship_section_template = { #GM Commander
 	key = "RGM_79S_MID"
 	ship_size = RGM_79S
 	fits_on_slot = mid
-	entity = "gm_group_entity" #gm_command_1_entity
+	entity = "gm_command_1_entity" #gm_command_1_entity gm_group_entity
 	icon = "GFX_ship_part_core_mid"
 
 	prerequisites = { tech_RGM_79E }
@@ -101,7 +193,7 @@ ship_section_template = { #GM Commander
 	key = "RGM_79S_WHITE_DINGO_MID"
 	ship_size = RGM_79S
 	fits_on_slot = mid
-	entity = "gm_group_entity" #gm_command_2_entity
+	entity = "gm_command_2_entity" #gm_command_2_entity gm_group_entity
 	icon = "GFX_ship_part_core_mid"
 
 	prerequisites = { tech_RGM_79E }

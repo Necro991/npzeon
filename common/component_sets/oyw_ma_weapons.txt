@@ -1,4 +1,11 @@
 component_set = {
+	key = "OYW_MA_04X_MPC"
+
+	icon = "ma_04x_mpc"
+	icon_frame = 1
+}
+
+component_set = {
 	key = "OYW_MA_06_MPC"
 
 	icon = "ma_06_mpc"

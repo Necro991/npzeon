@@ -1328,6 +1328,19 @@ objectTypes = {
 	}
 
 	pdxmesh = {
+		name = "Elmeth_Zakrello_Mesh"
+		file = "gfx/models/ships/zeon_01/Elmeth.mesh"
+
+			scale = 1.0
+					meshsettings = {
+		texture_diffuse = "Elmeth_Zakrello_Diffuse.dds"
+		texture_normal = "zakuII_normal.dds"
+		texture_specular = "generic_specular.dds"
+			shader = "PdxMeshShip"
+		}
+	}
+
+	pdxmesh = {
 		name = "Val_Varo_Mesh"
 		file = "gfx/models/ships/zeon_01/Val_Varo.mesh"
 

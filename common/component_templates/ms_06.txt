@@ -284,3 +284,54 @@ utility_component_template = {
 		weight = 1
 	}
 }
+
+utility_component_template = {
+	key = "ms_06k_armor"
+	size = small
+	icon = "ms_06_armor_3"
+	icon_frame = 1
+	power = 0
+	cost = 0
+
+	modifier = {
+		ship_armor_add = 128
+		ship_hull_mult = 0.28
+	}
+	#ship_modifier = {
+	#	ship_weapon_damage = 0.01
+	#}
+
+	prerequisites = { "tech_MS_06K" }
+
+	component_set = "ms_06k_armor"
+	#upgrades_to = "oyw_zeon_pilot_putv_veteran"
+
+	ai_weight = {
+		weight = 1
+	}
+}
+
+utility_component_template = {
+	key = "ms_06k_thrusters"
+	size = small
+	icon = "GFX_ship_part_thruster_1" #ms_06_thrusters_2
+	icon_frame = 1
+	power = 0
+	cost = 0
+
+	modifier = {
+		ship_evasion_add = 45
+	}
+	#ship_modifier = {
+	#	ship_weapon_damage = 0.01
+	#}
+
+	prerequisites = { "tech_MS_06K" }
+
+	component_set = "ms_06k_thrusters"
+	#upgrades_to = "oyw_zeon_pilot_putv_veteran"
+
+	ai_weight = {
+		weight = 1
+	}
+}
