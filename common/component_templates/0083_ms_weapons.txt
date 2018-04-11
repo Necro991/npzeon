@@ -40,7 +40,7 @@ weapon_component_template = {
 	shield_damage = 0.2
 	armor_penetration = 0.95
 
-	icon = "GUNDAM_7_BEAM_RIFLE"
+	icon = "0083_GM_Q_SHORT_BEAM_RIFLE"
 	icon_frame = 1
 	color = { 0.1 1.0 0.1 1 }
 	power = -3000

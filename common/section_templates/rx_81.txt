@@ -2,7 +2,7 @@ ship_section_template = { #G-Line
 	key = "RX_81_MID"
 	ship_size = RX_81
 	fits_on_slot = mid
-	entity = "gm_group_entity"
+	entity = "gm_trio_01"
 	icon = "GFX_ship_part_core_mid"
 
 	prerequisites = { tech_RX_81 }
@@ -48,7 +48,7 @@ ship_section_template = { #G-Line FC
 	key = "RX_81FC_MID"
 	ship_size = RX_81FC
 	fits_on_slot = mid
-	entity = "gm_group_entity"
+	entity = "gm_command_1_entity"
 	icon = "GFX_ship_part_core_mid"
 
 	prerequisites = { tech_RX_81FC }

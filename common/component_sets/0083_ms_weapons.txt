@@ -8,6 +8,6 @@ component_set = {
 component_set = {
 	key = "0083_GM_Q_SHORT_BEAM_RIFLE"
 
-	icon = "GUNDAM_7_BEAM_RIFLE"
+	icon = "0083_GM_Q_SHORT_BEAM_RIFLE"
 	icon_frame = 1
 }

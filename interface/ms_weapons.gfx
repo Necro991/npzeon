@@ -121,6 +121,11 @@ spriteTypes = {
 	}
 
 	spriteType = {
+		name = "0083_GM_Q_SHORT_BEAM_RIFLE"
+		texturefile = "gfx/interface/icons/ship_parts/efsf_gm_short_br.dds"
+	}
+
+	spriteType = {
 		name = "OYW_EFSF_GM_CARBINE"
 		texturefile = "gfx/interface/icons/ship_parts/efsf_beam_carbine.dds"
 	}
