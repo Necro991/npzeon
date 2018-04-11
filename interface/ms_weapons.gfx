@@ -31,6 +31,11 @@ spriteTypes = {
 	}
 
 	spriteType = {
+		name = "OYW_ZEON_120MM_GATLING"
+		texturefile = "gfx/interface/icons/ship_parts/zeon_gatling_cannon.dds"
+	}
+
+	spriteType = {
 		name = "STURMFAUST"
 		texturefile = "gfx/interface/icons/ship_parts/Sturmfaust.dds"
 	}
@@ -106,8 +111,23 @@ spriteTypes = {
 	}
 
 	spriteType = {
+		name = "OYW_EFSF_GM_BEAM_RIFLE"
+		texturefile = "gfx/interface/icons/ship_parts/efsf_gm_br.dds"
+	}
+
+	spriteType = {
 		name = "OYW_EFSF_BEAM_RIFLE"
 		texturefile = "gfx/interface/icons/ship_parts/efsf_beam_rifle.dds"
+	}
+
+	spriteType = {
+		name = "OYW_EFSF_GM_CARBINE"
+		texturefile = "gfx/interface/icons/ship_parts/efsf_beam_carbine.dds"
+	}
+
+	spriteType = {
+		name = "OYW_EFSF_GM_C_LR_BEAM_RIFLE"
+		texturefile = "gfx/interface/icons/ship_parts/efsf_gm_lr_br.dds"
 	}
 
 	spriteType = {
@@ -127,7 +147,7 @@ spriteTypes = {
 
 	spriteType = {
 		name = "ZETA_GM_BEAM_RIFLE"
-		texturefile = "gfx/interface/icons/ship_parts/efef_gm_br.dds"
+		texturefile = "gfx/interface/icons/ship_parts/efsf_gm_br.dds"
 	}
 
 	spriteType = {

@@ -475,7 +475,7 @@ weapon_component_template = {
 }
 
 weapon_component_template = {
-	key = "OYW_ZEON_175MM"
+	key = "OYW_ZEON_175MM" #Technically a ground type weapon, but it's rad so it's in.
 	size = point_defence
 	entity = "Zeon_Machine_Gun_01_Entity"
 	damage = { min = 53.0 max = 109.0 }
@@ -544,7 +544,7 @@ weapon_component_template = {
 	shield_damage = 1.0
 	armor_penetration = 0.1
 
-	icon = "OYW_ZEON_120MM"
+	icon = "OYW_ZEON_120MM_GATLING"
 	icon_frame = 1
 	color = { 0.1 1.0 0.1 1 }
 	power = -3000
@@ -924,7 +924,7 @@ weapon_component_template = {
 	shield_damage = 0.2
 	armor_penetration = 0.95
 
-	icon = "OYW_EFSF_BEAM_RIFLE"
+	icon = "OYW_EFSF_GM_BEAM_RIFLE"
 	icon_frame = 1
 	color = { 0.1 1.0 0.1 1 }
 	power = -3000
@@ -1036,7 +1036,7 @@ weapon_component_template = {
 	shield_damage = 0.2
 	armor_penetration = 0.95
 
-	icon = "GUNDAM_7_BEAM_RIFLE"
+	icon = "OYW_EFSF_GM_CARBINE"
 	icon_frame = 1
 	color = { 0.1 1.0 0.1 1 }
 	power = -3000
@@ -1064,7 +1064,7 @@ weapon_component_template = {
 	shield_damage = 0.2
 	armor_penetration = 0.95
 
-	icon = "GUNDAM_7_BEAM_RIFLE"
+	icon = "OYW_EFSF_GM_C_LR_BEAM_RIFLE"
 	icon_frame = 1
 	color = { 0.1 1.0 0.1 1 }
 	power = -3000

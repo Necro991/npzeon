@@ -1,14 +1,14 @@
 component_set = {
 	key = "ZETA_GM_II_BEAM_RIFLE"
 
-	icon = "GUNDAM_7_BEAM_RIFLE"
+	icon = "ZETA_GM_BEAM_RIFLE"
 	icon_frame = 1
 }
 
 component_set = {
 	key = "ZETA_GM_III_BEAM_RIFLE"
 
-	icon = "GUNDAM_7_BEAM_RIFLE"
+	icon = "ZETA_GM_BEAM_RIFLE"
 	icon_frame = 1
 }
 

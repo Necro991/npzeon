@@ -1,7 +1,7 @@
 component_set = {
 	key = "0083_GM_NQ_BEAM_RIFLE"
 
-	icon = "GUNDAM_7_BEAM_RIFLE"
+	icon = "ZETA_GM_BEAM_RIFLE"
 	icon_frame = 1
 }
 
