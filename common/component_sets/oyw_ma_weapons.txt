@@ -27,6 +27,13 @@ component_set = {
 }
 
 component_set = {
+	key = "OYW_MAN_03_MPC"
+
+	icon = "man_03_mpc"
+	icon_frame = 1
+}
+
+component_set = {
 	key = "OYW_MAN_08_MPC"
 
 	icon = "man_08_mpc"

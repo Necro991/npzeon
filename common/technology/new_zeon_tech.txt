@@ -1049,6 +1049,20 @@ tech_MA_08 = {
 	}
 }
 
+tech_MAN_03 = {
+	area = engineering
+	cost = @tier1cost1
+	tier = 1
+	category = { materials }
+	ai_update_type = military
+	prerequisites = { "tech_MSN_01" }
+	weight = @tier1weight1
+
+	ai_weight = {
+		factor = 2		#weapons are good
+	}
+}
+
 tech_MAN_08 = {
 	area = engineering
 	cost = @tier1cost1

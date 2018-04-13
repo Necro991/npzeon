@@ -308,6 +308,53 @@ ship_section_template = { #MA-08 Big Zam
 	cost = 1200
 }
 
+ship_section_template = { #MAN-03 Braw Bro
+	key = "MAN_03_MID"
+	ship_size = MAN_03
+	fits_on_slot = mid
+	entity = "nt_ma_1_entity"
+	icon = "GFX_ship_part_core_mid"
+
+	prerequisites = { tech_MAN_03 }
+
+	component_slot = {
+		name = "EXTRA_LARGE_01"
+		slot_size = extra_large
+		slot_type = weapon
+		locatorname = "xl_gun_01"
+	}
+
+	component_slot = {
+		name = "EXTRA_LARGE_02"
+		slot_size = extra_large
+		slot_type = weapon
+		locatorname = "xl_gun_02"
+	}
+
+	component_slot = {
+		name = "EXTRA_LARGE_03"
+		slot_size = extra_large
+		slot_type = weapon
+		locatorname = "xl_gun_03"
+	}
+
+
+	component_slot = {
+		name = "EXTRA_LARGE_04"
+		slot_size = extra_large
+		slot_type = weapon
+		locatorname = "xl_gun_04"
+	}
+
+
+	small_utility_slots = 0
+	medium_utility_slots = 0
+	large_utility_slots = 0
+	aux_utility_slots = 0
+
+	cost = 1602
+}
+
 ship_section_template = { #MAN-08 Elmeth
 	key = "MAN_08_MID"
 	ship_size = MAN_08

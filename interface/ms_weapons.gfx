@@ -211,6 +211,11 @@ spriteTypes = {
 	}
 
 	spriteType = {
+		name = "man_03_mpc"
+		texturefile = "gfx/interface/icons/ship_parts/man_03_mpc.dds"
+	}
+
+	spriteType = {
 		name = "man_08_mpc"
 		texturefile = "gfx/interface/icons/ship_parts/man_08_mpc.dds"
 	}
