@@ -105,3 +105,54 @@ utility_component_template = {
 		weight = 1
 	}
 }
+
+utility_component_template = {
+	key = "ms_09k_armor"
+	size = small
+	icon = "ms_09r_armor_1"
+	icon_frame = 1
+	power = 0
+	cost = 0
+
+	modifier = {
+		ship_armor_add = 172
+		ship_hull_mult = 0.08
+	}
+	#ship_modifier = {
+	#	ship_weapon_damage = 0.01
+	#}
+
+	prerequisites = { "tech_MS_09K" }
+
+	component_set = "ms_09k_armor"
+	#upgrades_to = "ms_09_armor_2"
+
+	ai_weight = {
+		weight = 1
+	}
+}
+
+utility_component_template = {
+	key = "ms_09k_thrusters"
+	size = small
+	icon = "GFX_ship_part_thruster_1"
+	icon_frame = 1
+	power = 0
+	cost = 0
+
+	modifier = {
+		ship_evasion_add = 45
+	}
+	#ship_modifier = {
+	#	ship_weapon_damage = 0.01
+	#}
+
+	prerequisites = { "tech_MS_09K" }
+
+	component_set = "ms_09k_thrusters"
+	#upgrades_to = "ms_09_thrusters_2"
+
+	ai_weight = {
+		weight = 1
+	}
+}

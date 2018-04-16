@@ -26,6 +26,11 @@ spriteTypes = {
 	}
 
 	spriteType = {
+		name = "ms_06r_armor"
+		texturefile = "gfx/interface/icons/ship_parts/ms_06r_armor.dds"
+	}
+
+	spriteType = {
 		name = "ms_06_thrusters_1"
 		texturefile = "gfx/interface/icons/ship_parts/ship_part_armor_radiation_2.dds"
 	}

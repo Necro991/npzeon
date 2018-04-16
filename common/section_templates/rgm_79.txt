@@ -241,3 +241,56 @@ ship_section_template = { #GM Commander
 
 	cost = 120
 }
+
+ship_section_template = { #GM Commander
+	key = "RGM_79SC_MID"
+	ship_size = RGM_79SC
+	fits_on_slot = mid
+	entity = "gm_command_1_entity" #gm_command_1_entity gm_group_entity
+	icon = "GFX_ship_part_core_mid"
+
+	prerequisites = { tech_RGM_79SC }
+
+	# Guns
+	weapon_preferences = { weapon_type_z1 }
+	ai_weight = {
+		modifier = {
+			factor = 10.0
+		}
+	}
+
+	component_slot = {
+		name = "SMALL_GUN_01"
+		slot_size = point_defence
+		slot_type = weapon
+		locatorname = "small_gun_01"
+	}
+
+	component_slot = {
+		name = "SMALL_GUN_02"
+		slot_size = point_defence
+		slot_type = weapon
+		locatorname = "small_gun_02"
+	}
+
+	component_slot = {
+		name = "SMALL_GUN_03"
+		slot_size = point_defence
+		slot_type = weapon
+		locatorname = "small_gun_03"
+	}
+
+	component_slot = {
+		name = "SMALL_GUN_04"
+		slot_size = point_defence
+		slot_type = weapon
+		locatorname = "small_gun_04"
+	}
+
+	small_utility_slots = 0
+	medium_utility_slots = 0
+	large_utility_slots = 0
+	aux_utility_slots = 0
+
+	cost = 138
+}

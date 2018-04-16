@@ -2542,6 +2542,24 @@ entity = {
 	}
 
 	entity = {
+		name = "RGM_79SC_entity"
+		pdxmesh = "efsf_locator_mesh"
+		scale = 1.0
+	}
+
+	entity = {
+		name = "RGM_79FP_entity"
+		pdxmesh = "efsf_locator_mesh"
+		scale = 1.0
+	}
+
+	entity = {
+		name = "RGM_79FC_entity"
+		pdxmesh = "efsf_locator_mesh"
+		scale = 1.0
+	}
+
+	entity = {
 		name = "RX_75_4_entity"
 		pdxmesh = "efsf_locator_mesh"
 		scale = 1.0

@@ -73,7 +73,7 @@ utility_component_template = {
 	#	ship_weapon_damage = 0.01
 	#}
 
-	prerequisites = { "tech_RX_81" }
+	prerequisites = { "tech_RX_81" "tech_RGM_79FP" }
 
 	component_set = "rx_81_armor"
 	#upgrades_to = "rb_79_armor_2"

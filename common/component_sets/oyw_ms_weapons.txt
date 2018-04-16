@@ -55,6 +55,13 @@ component_set = {
 }
 
 component_set = {
+	key = "OYW_ZEON_BEAM_RIFLE_0"
+
+	icon = "OYW_ZEON_BEAM_RIFLE_0"
+	icon_frame = 1
+}
+
+component_set = {
 	key = "OYW_ZEON_BEAM_RIFLE"
 
 	icon = "OYW_ZEON_BEAM_RIFLE_1"
@@ -128,6 +135,20 @@ component_set = {
 	key = "OYW_ZEON_120MM_GATLING"
 
 	icon = "OYW_ZEON_120MM_GATLING"
+	icon_frame = 1
+}
+
+component_set = {
+	key = "OYW_ZEON_HOWITZER"
+
+	icon = "OYW_ZEON_HOWITZER"
+	icon_frame = 1
+}
+
+component_set = {
+	key = "OYW_ZEON_BEAM_CANNON"
+
+	icon = "OYW_ZEON_BEAM_CANNON"
 	icon_frame = 1
 }
 
@@ -252,6 +273,13 @@ component_set = {
 
 component_set = {
 	key = "OYW_EFSF_GM_C_LR_BEAM_RIFLE"
+
+	icon = "OYW_EFSF_GM_C_LR_BEAM_RIFLE"
+	icon_frame = 1
+}
+
+component_set = {
+	key = "OYW_EFSF_BEAM_SNIPER_1"
 
 	icon = "OYW_EFSF_GM_C_LR_BEAM_RIFLE"
 	icon_frame = 1

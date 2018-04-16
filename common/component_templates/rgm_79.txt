@@ -344,3 +344,107 @@ utility_component_template = {
 		weight = 1
 	}
 }
+
+utility_component_template = {
+	key = "rgm_79sc_armor_1"
+	size = small
+	icon = "GFX_ship_part_armor_1"
+	icon_frame = 1
+	power = 0
+	cost = 0
+
+	modifier = {
+		ship_armor_add = 174
+		ship_hull_mult = 0.16
+	}
+	#ship_modifier = {
+	#	ship_weapon_damage = 0.01
+	#}
+
+	prerequisites = { "tech_RGM_79SC" }
+
+	component_set = "rgm_79sc_armor"
+	upgrades_to = "rgm_79sc_armor_2"
+
+	ai_weight = {
+		weight = 1
+	}
+}
+
+utility_component_template = {
+	key = "rgm_79sc_armor_2"
+	size = small
+	icon = "GFX_ship_part_armor_2"
+	icon_frame = 1
+	power = 0
+	cost = -24
+
+	modifier = {
+		ship_armor_add = 212
+		ship_hull_mult = -0.06
+	}
+	#ship_modifier = {
+	#	ship_weapon_damage = 0.01
+	#}
+
+	prerequisites = { "tech_RGM_79SP" }
+
+	component_set = "rgm_79sc_armor"
+	#upgrades_to = "rgm_79sc_armor_2"
+
+	ai_weight = {
+		weight = 1
+	}
+}
+
+utility_component_template = {
+	key = "rgm_79sc_thrusters_1"
+	size = small
+	icon = "GFX_ship_part_thruster_1"
+	icon_frame = 1
+	power = 0
+	cost = 10
+
+	modifier = {
+		ship_evasion_add = 60
+		ship_speed_mult = 0.52
+	}
+	#ship_modifier = {
+	#	ship_weapon_damage = 0.01
+	#}
+
+	prerequisites = { "tech_RGM_79SC" }
+
+	component_set = "rgm_79sc_thrusters"
+	upgrades_to = "rgm_79sc_thrusters_2"
+
+	ai_weight = {
+		weight = 1
+	}
+}
+
+utility_component_template = {
+	key = "rgm_79sc_thrusters_2"
+	size = small
+	icon = "GFX_ship_part_thruster_2"
+	icon_frame = 1
+	power = 0
+	cost = 20
+
+	modifier = {
+		ship_evasion_add = 65
+		ship_speed_mult = 1.83
+	}
+	#ship_modifier = {
+	#	ship_weapon_damage = 0.01
+	#}
+
+	prerequisites = { "tech_RGM_79SP" }
+
+	component_set = "rgm_79sc_thrusters"
+	#upgrades_to = "rgm_79sc_thrusters_2"
+
+	ai_weight = {
+		weight = 1
+	}
+}

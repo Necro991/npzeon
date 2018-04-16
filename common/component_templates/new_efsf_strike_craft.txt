@@ -2117,7 +2117,7 @@ strike_craft_component_template = {
 	weapon_type = point_defence
 	projectile_gfx = "MPC2"
 	power = -69 #1560 = 69
-	cost = 114 #68.22 tons = 42 * 2 for armor + 30 for gun
+	cost = 100 #56.2 tons = 35 * 2 for armor + 30 for gun
 
 	count = 3
 	regeneration_per_day = 0.034
@@ -2160,7 +2160,7 @@ strike_craft_component_template = {
 	weapon_type = instant
 	projectile_gfx = "gundam_missile_swarm"
 	power = -69 #1560 = 69
-	cost = 99 #68.22 tons = 42 * 2 for armor + 15 for gun
+	cost = 85 #56.2 tons = 35 * 2 for armor + 15 for gun
 
 	count = 3
 	regeneration_per_day = 0.034

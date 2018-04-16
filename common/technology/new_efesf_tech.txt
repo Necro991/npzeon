@@ -545,6 +545,34 @@ tech_RGM_79CR = {
 	}
 }
 
+tech_RGM_79FP = { #GM Striker
+	area = engineering
+	cost = @tier1cost1
+	tier = 1
+	category = { materials }
+	ai_update_type = military
+	prerequisites = { "tech_RGM_79C" }
+	weight = @tier1weight1
+
+	ai_weight = {
+		factor = 2		#weapons are good
+	}
+}
+
+tech_RGM_79FC = { #GM Striker Custom
+	area = engineering
+	cost = @tier1cost1
+	tier = 1
+	category = { materials }
+	ai_update_type = military
+	prerequisites = { "tech_RGM_79FP" }
+	weight = @tier1weight1
+
+	ai_weight = {
+		factor = 2		#weapons are good
+	}
+}
+
 tech_RGM_79SC = { #GM Sniper Custom
 	area = engineering
 	cost = @tier1cost1
