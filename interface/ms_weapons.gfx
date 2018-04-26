@@ -191,6 +191,11 @@ spriteTypes = {
 	}
 
 	spriteType = {
+		name = "OYW_EFSF_100MM"
+		texturefile = "gfx/interface/icons/ship_parts/efsf_100.dds"
+	}
+
+	spriteType = {
 		name = "OYW_EFSF_SHOTGUN"
 		texturefile = "gfx/interface/icons/ship_parts/efsf_shotgun.dds"
 	}

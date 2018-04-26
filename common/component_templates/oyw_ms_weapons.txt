@@ -1114,8 +1114,8 @@ weapon_component_template = {
 	#windup = { min = 5.0 max = 20.0 }
 	total_fire_time = 40
 	range = 70.0
-	accuracy = 0.9
-	tracking  = 0.8
+	accuracy = 0.8
+	tracking  = 0.32
 	type = point_defence
 	shield_damage = 0.2
 	armor_penetration = 0.95
@@ -1353,6 +1353,34 @@ weapon_component_template = {
 	size_restriction = { RX_77 RX_78 RX_81 RX_81FC RGM_79 RGM_79S RGM_79SC }
 	prerequisites = { "tech_RGM_79E" }
 	component_set = "OYW_EFSF_90MM"
+	projectile_gfx = "auto_cannons_s"
+	tags = { weapon_type_kinetic }
+	ai_tags = { weapon_role_anti_shield }
+	#upgrades_to = "OYW_ZEON_105MM"
+}
+
+weapon_component_template = {
+	key = "OYW_EFSF_100MM"
+	size = point_defence
+	entity = "Zeon_Machine_Gun_01_Entity"
+	damage = { min = 12.5 max = 25.0 }
+	windup = { min = 2.5 max = 5.0 }
+	total_fire_time = 6
+	range = 20.0
+	accuracy = 0.82
+	tracking  = 0.65
+	type = point_defence
+	shield_damage = 1.0
+	armor_penetration = 0.15
+
+	icon = "OYW_EFSF_100MM"
+	icon_frame = 1
+	color = { 0.1 1.0 0.1 1 }
+	power = -3000
+	cost = 15
+	size_restriction = { RX_77 RX_78 RX_81 RX_81FC RGM_79 RGM_79S RGM_79SC }
+	prerequisites = { "tech_RGM_79" }
+	component_set = "OYW_EFSF_100MM"
 	projectile_gfx = "auto_cannons_s"
 	tags = { weapon_type_kinetic }
 	ai_tags = { weapon_role_anti_shield }
