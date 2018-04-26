@@ -1045,3 +1045,132 @@ utility_component_template = {
 		weight = 1
 	}
 }
+
+utility_component_template = {
+	key = "striker_melee_aura_1"
+	size = small
+	icon = "gundam_melee_01"
+	icon_frame = 1
+	power = 0
+	cost = 15
+
+	hostile_aura = {
+		name = "striker_melee_1"
+		radius = 5
+		apply_on = ships
+
+		stack_info = {			#A ship can only be affected by one aura of a certain id. If multiple auras have the same ID the one with the highest priority will be applied.
+			id = striker_melee_001
+			priority = 2
+		}
+
+		damage_per_day = {
+			accuracy = 0.15
+			damage = { min = 34 max = 68 }
+			shield_damage = 0.2
+			armor_penetration = 0.95
+		}
+
+		graphics = {
+			area_effect = {
+				entity = "circle_area_entity"
+				dynamic_scale = yes
+			}
+		}
+	}
+
+	prerequisites = { "tech_RGM_79FP" }
+
+	component_set = "rgm_79fp_melee_aura"
+	#upgrades_to = "oyw_striker_pilot_putv_veteran"
+
+	ai_weight = {
+		weight = 1
+	}
+}
+
+utility_component_template = {
+	key = "striker_melee_aura_2"
+	size = small
+	icon = "gundam_melee_02"
+	icon_frame = 1
+	power = 0
+	cost = 20
+
+	hostile_aura = {
+		name = "striker_melee_2"
+		radius = 5
+		apply_on = ships
+
+		stack_info = {			#A ship can only be affected by one aura of a certain id. If multiple auras have the same ID the one with the highest priority will be applied.
+			id = striker_melee_002
+			priority = 2
+		}
+
+		damage_per_day = {
+			accuracy = 0.1
+			damage = { min = 34 max = 68 }
+			shield_damage = 1.33
+			armor_penetration = 0.5
+		}
+
+		graphics = {
+			area_effect = {
+				entity = "circle_area_entity"
+				dynamic_scale = yes
+			}
+		}
+	}
+
+	prerequisites = { "tech_RGM_79FP" }
+
+	component_set = "rgm_79fp_melee_aura"
+	#upgrades_to = "oyw_striker_pilot_putv_veteran"
+
+	ai_weight = {
+		weight = 1
+	}
+}
+
+utility_component_template = {
+	key = "striker_melee_aura_3"
+	size = small
+	icon = "gundam_melee_03"
+	icon_frame = 1
+	power = 0
+	cost = 50
+
+	hostile_aura = {
+		name = "striker_melee_3"
+		radius = 5
+		apply_on = ships
+
+		stack_info = {			#A ship can only be affected by one aura of a certain id. If multiple auras have the same ID the one with the highest priority will be applied.
+			id = _melee_003
+			priority = 2
+		}
+
+		damage_per_day = {
+			accuracy = 0.15
+			damage = { min = 40 max = 80 }
+			shield_damage = 0.2
+			armor_penetration = 0.95
+		}
+
+		graphics = {
+			area_effect = {
+				entity = "circle_area_entity"
+				dynamic_scale = yes
+			}
+		}
+	}
+
+	prerequisites = { "tech_RGM_79FP" }
+
+	component_set = "rgm_79fp_melee_aura"
+	#upgrades_to = "oyw_striker_pilot_putv_veteran"
+
+	ai_weight = {
+		weight = 1
+	}
+}

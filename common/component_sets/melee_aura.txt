@@ -25,6 +25,14 @@ component_set = {
 }
 
 component_set = {
+	key = "rgm_79fp_melee_aura"
+
+	required_component_set = yes
+	icon = "gundam_melee_01"
+	icon_frame = 1
+}
+
+component_set = {
 	key = "ms_15_melee_aura"
 
 	required_component_set = yes
