@@ -2,7 +2,7 @@ ship_section_template = { #MS-11 Action Zaku
 	key = "MS_11_MID"
 	ship_size = MS_11
 	fits_on_slot = mid
-	entity = "zaku2_f_entity"
+	entity = "zaku2_ramba_entity"
 	icon = "GFX_ship_part_core_mid"
 
 	prerequisites = { tech_MS_11 }
@@ -40,7 +40,7 @@ ship_section_template = { #MS-11 Action Zaku
 	key = "MS_11S_MID"
 	ship_size = MS_11S
 	fits_on_slot = mid
-	entity = "zaku2_f_entity"
+	entity = "zaku2_ramba_entity"
 	icon = "GFX_ship_part_core_mid"
 
 	prerequisites = { tech_MS_11 }

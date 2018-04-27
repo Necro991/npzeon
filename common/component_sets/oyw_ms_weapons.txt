@@ -237,7 +237,7 @@ component_set = {
 }
 
 component_set = {
-	key = "OYW_EFSF_GM_BEAM_RIFLE"
+	key = "OYW_EFSF_BEAM_RIFLE"
 
 	icon = "OYW_EFSF_GM_BEAM_RIFLE"
 	icon_frame = 1
