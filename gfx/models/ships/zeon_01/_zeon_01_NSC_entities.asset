@@ -4697,7 +4697,7 @@ entity = {
 # FRAME
 entity = {
 	name = "zeon_01_Flagship_entity"
-	pdxmesh = "zeon_01_gwazine_mesh"
+	pdxmesh = "zeon_01_gwadan_mesh"
 
 	#locator = { name = "part1"	position = { 0 0 -9.0 } rotation = { 0 0 0 } }
 	#locator = { name = "part2"	position = { 0 0 -6.2 } rotation = { 0 0 0 } }

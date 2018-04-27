@@ -1736,6 +1736,20 @@ objectTypes = {
 		}
 	}
 
+	###### GWADAN #######
+
+	pdxmesh = {
+		name = "zeon_01_gwadan_mesh"
+		file = "gfx/models/ships/zeon_01/gwadan.mesh"
+		scale = 0.4
+		meshsettings = {
+			texture_diffuse = "gwadan_diffuse.dds"
+			texture_normal = "zakuII_normal.dds"
+			texture_specular = "Zaku_Specular.dds"
+			shader = "PdxMeshShip"
+		}
+	}
+
 	###### REWLOOLA #######
 
 	pdxmesh = {

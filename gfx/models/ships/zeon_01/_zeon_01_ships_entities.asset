@@ -1878,7 +1878,7 @@ entity = {
 
 	entity = {
 	name = "zeon_01_titan_entity"
-	pdxmesh = "zeon_01_gwazine_mesh" #mammalian_01_titan_frame_mesh
+	pdxmesh = "zeon_01_gwadan_mesh" #mammalian_01_titan_frame_mesh
 
 	default_state = "idle"
 	state = { name = "idle" animation = "idle"
@@ -1913,10 +1913,10 @@ entity = {
 
 	default_state = "idle"
 	state = { name = "idle" state_time = 5
-		start_event = { node = "light_locator_01" particle = "ship_light_blue_effect" keep_particle = yes trigger_once = yes }
-		start_event = { node = "light_locator_02" particle = "ship_light_blue_effect" keep_particle = yes trigger_once = yes }
-		start_event = { node = "light_locator_03" particle = "ship_light_blue_effect" keep_particle = yes trigger_once = yes }
-		start_event = { node = "light_locator_04" particle = "ship_light_blue_effect" keep_particle = yes trigger_once = yes }
+		#start_event = { node = "light_locator_01" particle = "ship_light_blue_effect" keep_particle = yes trigger_once = yes }
+		#start_event = { node = "light_locator_02" particle = "ship_light_blue_effect" keep_particle = yes trigger_once = yes }
+		#start_event = { node = "light_locator_03" particle = "ship_light_blue_effect" keep_particle = yes trigger_once = yes }
+		#start_event = { node = "light_locator_04" particle = "ship_light_blue_effect" keep_particle = yes trigger_once = yes }
 	}
 	state = { name = "death" state_time = 5 looping = no }
 }
@@ -1940,20 +1940,20 @@ entity = {
 
 	default_state = "idle"
 	state = { name = "idle" state_time = 5
-		start_event = { node = "light_locator_05" particle = "ship_light_blue_effect" keep_particle = yes trigger_once = yes }
-		start_event = { node = "light_locator_06" particle = "ship_light_blue_effect" keep_particle = yes trigger_once = yes }
+		#start_event = { node = "light_locator_05" particle = "ship_light_blue_effect" keep_particle = yes trigger_once = yes }
+		#start_event = { node = "light_locator_06" particle = "ship_light_blue_effect" keep_particle = yes trigger_once = yes }
 
-		start_event = { node = "engine_large_01" particle = "mammalian_01_3_35_exhaust_idle_particle" keep_particle = yes trigger_once = yes }
-		start_event = { node = "engine_large_02" particle = "mammalian_01_3_35_exhaust_idle_particle" keep_particle = yes trigger_once = yes }
-		start_event = { node = "engine_large_03" particle = "mammalian_01_3_35_exhaust_idle_particle" keep_particle = yes trigger_once = yes }
+		#start_event = { node = "engine_large_01" particle = "mammalian_01_3_35_exhaust_idle_particle" keep_particle = yes trigger_once = yes }
+		#start_event = { node = "engine_large_02" particle = "mammalian_01_3_35_exhaust_idle_particle" keep_particle = yes trigger_once = yes }
+		#start_event = { node = "engine_large_03" particle = "mammalian_01_3_35_exhaust_idle_particle" keep_particle = yes trigger_once = yes }
 	}
 	state = { name = "moving" state_time = 5
-		start_event = { node = "light_locator_05" particle = "ship_light_blue_effect" keep_particle = yes trigger_once = yes }
-		start_event = { node = "light_locator_06" particle = "ship_light_blue_effect" keep_particle = yes trigger_once = yes }
+		#start_event = { node = "light_locator_05" particle = "ship_light_blue_effect" keep_particle = yes trigger_once = yes }
+		#start_event = { node = "light_locator_06" particle = "ship_light_blue_effect" keep_particle = yes trigger_once = yes }
 
-		start_event = { node = "engine_large_01" particle = "mammalian_01_3_35_ship_exhaust_moving_particle" keep_particle = yes trigger_once = yes }
-		start_event = { node = "engine_large_02" particle = "mammalian_01_3_35_ship_exhaust_moving_particle" keep_particle = yes trigger_once = yes }
-		start_event = { node = "engine_large_03" particle = "mammalian_01_3_35_ship_exhaust_moving_particle" keep_particle = yes trigger_once = yes }
+		#start_event = { node = "engine_large_01" particle = "mammalian_01_3_35_ship_exhaust_moving_particle" keep_particle = yes trigger_once = yes }
+		#start_event = { node = "engine_large_02" particle = "mammalian_01_3_35_ship_exhaust_moving_particle" keep_particle = yes trigger_once = yes }
+		#start_event = { node = "engine_large_03" particle = "mammalian_01_3_35_ship_exhaust_moving_particle" keep_particle = yes trigger_once = yes }
 	}
 	state = { name = "death" state_time = 5 looping = no }
 }
