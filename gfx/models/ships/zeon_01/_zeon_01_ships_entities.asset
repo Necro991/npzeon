@@ -2270,13 +2270,13 @@ entity = {
 	entity = {
 		name = "nt_ma_1_entity" #Elmeth
 		pdxmesh = "Elmeth_Mesh"
-		scale = 0.8
+		scale = 0.6
 	}
 
 	entity = {
 		name = "not_zakrello_entity" #Elmeth Zakrello
 		pdxmesh = "Elmeth_Zakrello_Mesh"
-		scale = 0.8
+		scale = 0.6
 	}
 
 	entity = {
