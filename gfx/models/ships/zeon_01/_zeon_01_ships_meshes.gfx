@@ -664,6 +664,19 @@ objectTypes = {
 	}
 
 	pdxmesh = {
+			name = "Galbaldy_mesh" #Galbaldy Single
+			file = "gfx/models/ships/zeon_01/Galbaldy.mesh"
+
+			scale = 1.0
+			meshsettings = {
+				texture_diffuse = "Galbaldy_Diffuse.dds"
+				texture_normal = "zakuII_normal.dds"
+				texture_specular = "Zaku_Specular.dds"
+				shader = "PdxMeshShip"
+		}
+	}
+
+	pdxmesh = {
 			name = "Zaku_II_HMT_Reuse_mesh" #THUNDERBOLT
 			file = "gfx/models/ships/zeon_01/Zaku_II_HMT_Reuse.mesh"
 
@@ -1286,6 +1299,19 @@ objectTypes = {
 		}
 	}
 
+	pdxmesh = {
+			name = "Galbaldy_Trio_mesh" #Galbaldy Single
+			file = "gfx/models/ships/zeon_01/Galbaldy_Trio.mesh"
+
+			scale = 1.0
+			meshsettings = {
+				texture_diffuse = "Galbaldy_Diffuse.dds"
+				texture_normal = "zakuII_normal.dds"
+				texture_specular = "Zaku_Specular.dds"
+				shader = "PdxMeshShip"
+		}
+	}
+
 	####### Mobile Armors #######
 
 	pdxmesh = {
@@ -1361,85 +1387,7 @@ objectTypes = {
 					meshsettings = {
 		texture_diffuse = "Big_Zam_Diffuse.dds"
 		texture_normal = "zakuII_normal.dds"
-		texture_specular = "generic_specular.dds"
-			shader = "PdxMeshShip"
-		}
-	}
-
-	pdxmesh = {
-		name = "Big_Zam_Strike_Mesh"
-		file = "gfx/models/ships/zeon_01/Big_Zam_Strike.mesh"
-
-			scale = 1.0
-					meshsettings = {
-						texture_diffuse = "Big_Zam_Diffuse.dds"
-						texture_normal = "zakuII_normal.dds"
-						texture_specular = "generic_specular.dds"
-			shader = "PdxMeshShip"
-		}
-	}
-
-	pdxmesh = {
-		name = "Argama_Mesh"
-		file = "gfx/models/ships/zeon_01/argama.mesh"
-
-			scale = 0.1
-					meshsettings = {
-						texture_diffuse = "Big_Zam_Diffuse.dds"
-						texture_normal = "Musai_Normal.dds"
-						texture_specular = "generic_specular.dds"
-			shader = "PdxMeshShip"
-		}
-	}
-
-	pdxmesh = {
-		name = "burning_Mesh"
-		file = "gfx/models/ships/zeon_01/build burning.mesh"
-
-			scale = 0.1
-					meshsettings = {
-						texture_diffuse = "Big_Zam_Diffuse.dds"
-						texture_normal = "Musai_Normal.dds"
-						texture_specular = "generic_specular.dds"
-			shader = "PdxMeshShip"
-		}
-	}
-
-	pdxmesh = {
-		name = "strike_Mesh"
-		file = "gfx/models/ships/zeon_01/build strike.mesh"
-
-			scale = 0.1
-					meshsettings = {
-						texture_diffuse = "Big_Zam_Diffuse.dds"
-						texture_normal = "Musai_Normal.dds"
-						texture_specular = "generic_specular.dds"
-			shader = "PdxMeshShip"
-		}
-	}
-
-	pdxmesh = {
-		name = "master_Mesh"
-		file = "gfx/models/ships/zeon_01/master gundam.mesh"
-
-			scale = 0.1
-					meshsettings = {
-						texture_diffuse = "Big_Zam_Diffuse.dds"
-						texture_normal = "Musai_Normal.dds"
-						texture_specular = "generic_specular.dds"
-			shader = "PdxMeshShip"
-		}
-	}
-
-	pdxmesh = {
-		name = "zam_Mesh"
-		file = "gfx/models/ships/zeon_01/big zam.mesh"
-
-			scale = 0.1
-					meshsettings = {
-						texture_diffuse = "Big_Zam_Diffuse.dds"
-						texture_normal = "Musai_Normal.dds"
-						texture_specular = "generic_specular.dds"
+		texture_specular = "Zaku_Specular.dds"
 			shader = "PdxMeshShip"
 		}
 	}

@@ -2,7 +2,7 @@ ship_section_template = { #MS-17
 	key = "MS_17_MID"
 	ship_size = MS_17
 	fits_on_slot = mid
-	entity = "zeon_ms_5_M1S2_entity"
+	entity = "galbaldy_trio_entity"
 	icon = "GFX_ship_part_core_mid"
 
 	prerequisites = { tech_MS_17 }
@@ -48,7 +48,7 @@ ship_section_template = { #MS-17S
 	key = "MS_17S_MID"
 	ship_size = MS_17S
 	fits_on_slot = mid
-	entity = "zeon_ms_5_M1S2_entity"
+	entity = "galbaldy_trio_entity"
 	icon = "GFX_ship_part_core_mid"
 
 	prerequisites = { tech_MS_17 }

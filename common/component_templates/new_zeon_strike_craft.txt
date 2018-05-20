@@ -1982,7 +1982,7 @@ strike_craft_component_template = {
 strike_craft_component_template = {
 	key = "ZEON_MS_STRIKE_CRAFT_MS_17_1" #MS-17 Galbaldy
 	size = LARGE
-	entity = "bomber_5z_entity"
+	entity = "galbaldy_single_entity"
 
 	weapon_type = point_defence
 	projectile_gfx = "MPC3" #Find beam gfx
@@ -2025,7 +2025,7 @@ strike_craft_component_template = {
 strike_craft_component_template = {
 	key = "ZEON_MS_STRIKE_CRAFT_MS_17_2" #MS-17 Galbaldy
 	size = LARGE
-	entity = "bomber_5z_entity"
+	entity = "galbaldy_single_entity"
 
 	weapon_type = instant
 	projectile_gfx = "gundam_missile"
@@ -2068,7 +2068,7 @@ strike_craft_component_template = {
 strike_craft_component_template = {
 	key = "ZEON_MS_STRIKE_CRAFT_MS_17R_1" #MS-17 Galbaldy
 	size = LARGE
-	entity = "bomber_5z_entity"
+	entity = "galbaldy_single_entity"
 
 	weapon_type = point_defence
 	projectile_gfx = "MPC3" #Find beam gfx
@@ -2111,7 +2111,7 @@ strike_craft_component_template = {
 strike_craft_component_template = {
 	key = "ZEON_MS_STRIKE_CRAFT_MS_17R_2" #MS-17 Galbaldy
 	size = LARGE
-	entity = "bomber_5z_entity"
+	entity = "galbaldy_single_entity"
 
 	weapon_type = instant
 	projectile_gfx = "gundam_missile"
