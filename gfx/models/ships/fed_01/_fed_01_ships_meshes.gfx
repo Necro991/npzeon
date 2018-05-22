@@ -263,6 +263,20 @@ objectTypes = {
 		}
 	}
 
+	pdxmesh = { #Argama
+		name = "Argama_mesh"
+		file = "gfx/models/ships/fed_01/Argama.mesh"
+		#	animation = { id = "idle"		type = "turret_projectile_large_idle_animation" }
+		#	animation = { id = "attack"		type = "turret_projectile_large_attack_animation" }
+		scale = 1.0
+		meshsettings = {
+			texture_diffuse = "Argama_Diffuse.dds"
+			texture_normal = "Albion_Normal.dds"
+			texture_specular = "Albion_Specular.dds"
+			shader = "PdxMeshShip"
+		}
+	}
+
 	####### EFSF Turrets  #######
 
 	pdxmesh = { #Salamis Main Turret

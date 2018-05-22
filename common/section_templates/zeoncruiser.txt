@@ -243,6 +243,62 @@ ship_section_template = {
 }
 
 ship_section_template = {
+	key = "WHITE_BASE_MID_4"
+	ship_size = white_base
+	fits_on_slot = mid
+	entity = "argama_mid_entity"
+	icon = "GFX_ship_part_core_mid"
+
+	prerequisites = { tech_EFSF_BEAMC_3 }
+
+	# Lasers & Strike Craft
+	weapon_preferences = { weapon_role_anti_armor }
+	ai_weight = {
+		modifier = {
+			factor = 8.0
+			OR = {
+				has_ai_personality = federation_builders
+				has_ai_personality = erudite_explorers
+				has_ai_personality = xenophobic_isolationists
+			}
+		}
+	}
+
+	component_slot = {
+		name = "LARGE_GUN_01"
+		slot_size = large
+		slot_type = weapon
+		locatorname = "large_gun_01"
+	}
+	component_slot = {
+		name = "LARGE_GUN_02"
+		slot_size = large
+		slot_type = weapon
+		locatorname = "large_gun_02"
+	}
+	component_slot = {
+		name = "LARGE_GUN_03"
+		slot_size = large
+		slot_type = weapon
+		locatorname = "large_gun_03"
+	}
+
+	component_slot = {
+		name = "STRIKE_CRAFT_01"
+		slot_size = large
+		slot_type = strike_craft
+		rotation = 90
+		locatorname = "strike_craft_locator_01"
+	}
+
+	small_utility_slots = 1
+	medium_utility_slots = 1
+	large_utility_slots = 2
+
+	cost = 240
+}
+
+ship_section_template = {
 	key = "WHITE_BASE_STERN"
 	ship_size = white_base
 	fits_on_slot = stern

@@ -3052,6 +3052,30 @@ entity = {
 	state = { name = "death" state_time = 5 }
 }
 
+entity = {
+	name = "argama_mid_entity"
+	pdxmesh = "Argama_mesh"
+
+	locator = { name = "large_gun_01" 			position = { 0.0 	4.0 	-5.0	} 	scale = 0.0} #X,Up/Down,Forward/Back
+	locator = { name = "large_gun_02" 			position = { -4.0 	2.5 	-2.5	} 	scale = 0.0} #X,Up/Down,Forward/Back
+	locator = { name = "large_gun_03" 			position = { 4.0 	2.5 	-2.5	} 	scale = 0.0} #X,Up/Down,Forward/Back
+
+	default_state = "idle"
+	state = { name = idle	state_time = 5
+		event = { time = 0 node = "light_01" particle = "ship_light_blue_effect" keep_particle = yes trigger_once = yes }
+		event = { time = 0 node = "light_02" particle = "ship_light_blue_effect" keep_particle = yes trigger_once = yes }
+	}
+
+	state = { name = moving	state_time = 5
+		event = { time = 0 node = "light_01" particle = "ship_light_blue_effect" keep_particle = yes trigger_once = yes }
+		event = { time = 0 node = "light_02" particle = "ship_light_blue_effect" keep_particle = yes trigger_once = yes }
+	}
+
+	state = { name = "death" state_time = 5 }
+
+	scale = 0.25
+}
+
 # STERN
 entity = {
 	name = "white_base_stern_entity"
