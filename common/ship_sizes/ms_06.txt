@@ -78,7 +78,7 @@ MS_06S = { #MS-06S
 
 zeon_MS_P = { #Psycho Zaku II Thunderbolt
 	formation_priority = 4
-	max_speed = 170
+	max_speed = 340 #Used to be 170
 	acceleration = 0.5
 	rotation_speed = 0.455
 	collision_radius = 1
