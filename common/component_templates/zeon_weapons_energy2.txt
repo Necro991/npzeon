@@ -445,7 +445,7 @@ weapon_component_template = {
 	projectile_gfx = "BEAMC_s"
 	tags = { weapon_type_energy }
 	ai_tags = { weapon_role_anti_armor }
-	upgrades_to = "SMALL_BEAMC_2"
+	upgrades_to = "EFSF_SMALL_BEAMC_2"
 }
 
 weapon_component_template = {
@@ -473,7 +473,7 @@ weapon_component_template = {
 	projectile_gfx = "BEAMC_m"
 	tags = { weapon_type_energy }
 	ai_tags = { weapon_role_anti_armor }
-	upgrades_to = "MEDIUM_BEAMC_2"
+	upgrades_to = "EFSF_MEDIUM_BEAMC_2"
 }
 
 weapon_component_template = {
@@ -501,7 +501,7 @@ weapon_component_template = {
 	projectile_gfx = "BEAMC_l"
 	tags = { weapon_type_energy }
 	ai_tags = { weapon_role_anti_armor }
-	upgrades_to = "LARGE_BEAMC_2"
+	upgrades_to = "EFSF_LARGE_BEAMC_2"
 }
 
 # ## Plasma 2
@@ -530,7 +530,7 @@ weapon_component_template = {
 	projectile_gfx = "BEAMC_s2"
 	tags = { weapon_type_energy }
 	ai_tags = { weapon_role_anti_armor }
-	upgrades_to = "SMALL_BEAMC_3"
+	upgrades_to = "EFSF_SMALL_BEAMC_3"
 }
 
 weapon_component_template = {
@@ -558,7 +558,7 @@ weapon_component_template = {
 	projectile_gfx = "BEAMC_m2"
 	tags = { weapon_type_energy }
 	ai_tags = { weapon_role_anti_armor }
-	upgrades_to = "MEDIUM_BEAMC_3"
+	upgrades_to = "EFSF_MEDIUM_BEAMC_3"
 }
 
 weapon_component_template = {
@@ -586,7 +586,7 @@ weapon_component_template = {
 	projectile_gfx = "BEAMC_l2"
 	tags = { weapon_type_energy }
 	ai_tags = { weapon_role_anti_armor }
-	upgrades_to = "LARGE_BEAMC_3"
+	upgrades_to = "EFSF_LARGE_BEAMC_3"
 }
 
 # ## Plasma 3
@@ -696,7 +696,7 @@ weapon_component_template = {
 	projectile_gfx = "MPC2"
 	tags = { weapon_type_energy }
 	ai_tags = { weapon_role_anti_armor }
-	upgrades_to = "MEDIUM_MPC_2"
+	upgrades_to = "EFSF_MEDIUM_MPC_2"
 }
 
 weapon_component_template = {
@@ -724,7 +724,7 @@ weapon_component_template = {
 	projectile_gfx = "MPC2"
 	tags = { weapon_type_energy }
 	ai_tags = { weapon_role_anti_armor }
-	upgrades_to = "LARGE_MPC_2"
+	upgrades_to = "EFSF_LARGE_MPC_2"
 }
 
 weapon_component_template = {
@@ -752,7 +752,7 @@ weapon_component_template = {
 	projectile_gfx = "MPC2"
 	tags = { weapon_type_energy }
 	ai_tags = { weapon_role_anti_armor }
-	upgrades_to = "MEDIUM_MPC_3"
+	upgrades_to = "EFSF_MEDIUM_MPC_3"
 }
 
 weapon_component_template = {
@@ -780,7 +780,7 @@ weapon_component_template = {
 	projectile_gfx = "MPC2"
 	tags = { weapon_type_energy }
 	ai_tags = { weapon_role_anti_armor }
-	upgrades_to = "LARGE_MPC_3"
+	upgrades_to = "EFSF_LARGE_MPC_3"
 }
 
 weapon_component_template = {
