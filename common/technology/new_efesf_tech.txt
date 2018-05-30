@@ -481,7 +481,7 @@ tech_RGM_79Q = {
 	tier = 1
 	category = { materials }
 	ai_update_type = military
-	prerequisites = { "tech_Titans" "tech_RGM_79N" }
+	prerequisites = { "tech_EF_Titans" "tech_RGM_79N" }
 	weight = @tier1weight1
 
 	ai_weight = {
@@ -537,7 +537,7 @@ tech_RGM_79CR = {
 	tier = 1
 	category = { materials }
 	ai_update_type = military
-	prerequisites = { "tech_Titans" "tech_RGM_79C" }
+	prerequisites = { "tech_EF_Titans" "tech_RGM_79C" }
 	weight = @tier1weight1
 
 	ai_weight = {
@@ -719,7 +719,7 @@ tech_RMS_106 = { #Hizack
 	tier = 1
 	category = { materials }
 	ai_update_type = military
-	prerequisites = { "tech_Titans" "tech_Anaheim" "tech_Zeonic" }
+	prerequisites = { "tech_EF_Titans" "tech_Anaheim" "tech_Zeonic" }
 	weight = @tier1weight1
 
 	ai_weight = {

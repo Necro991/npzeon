@@ -2235,9 +2235,15 @@ entity = {
 	}
 
 	entity = {
-		name = "galbaldy_single_entity" #Gelgoog Jaegar
+		name = "galbaldy_single_entity"
 		pdxmesh = "Galbaldy_mesh"
 		scale = 0.5
+	}
+
+	entity = {
+		name = "gaza_c_single_entity"
+		pdxmesh = "Gaza_C_mesh"
+		scale = 5.0
 	}
 
 	entity = {

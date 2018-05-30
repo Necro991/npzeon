@@ -71,7 +71,7 @@ tech_EFSF = {
 	}
 }
 
-tech_Titans = {
+tech_EF_Titans = {
 	area = engineering
 	cost = @tier1cost1
 	is_reverse_engineerable = no

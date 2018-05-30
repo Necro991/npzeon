@@ -18,9 +18,6 @@ utility_component_template = {
 	ship_behavior = "mobile_suit_behavior"
 	upgrades_to = "oyw_zeon_pilot_putv_veteran"
 
-	ai_weight = {
-		weight = 1
-	}
 }
 
 utility_component_template = {
@@ -43,9 +40,6 @@ utility_component_template = {
 	ship_behavior = "mobile_suit_behavior"
 	#upgrades_to = "oyw_zeon_pilot_putv_veteran"
 
-	ai_weight = {
-		weight = 1
-	}
 }
 
 utility_component_template = {
@@ -68,9 +62,6 @@ utility_component_template = {
 	ship_behavior = "mobile_suit_behavior"
 	upgrades_to = "oyw_zeon_pilot_vuta_ace"
 
-	ai_weight = {
-		weight = 1
-	}
 }
 
 utility_component_template = {
@@ -93,9 +84,6 @@ utility_component_template = {
 	ship_behavior = "mobile_suit_behavior"
 	#upgrades_to = "oyw_zeon_pilot_putv_veteran"
 
-	ai_weight = {
-		weight = 1
-	}
 }
 
 utility_component_template = {
@@ -118,9 +106,6 @@ utility_component_template = {
 	ship_behavior = "mobile_suit_behavior"
 	#upgrades_to = "oyw_zeon_pilot_putv_veteran"
 
-	ai_weight = {
-		weight = 1
-	}
 }
 
 utility_component_template = {
@@ -143,9 +128,6 @@ utility_component_template = {
 	ship_behavior = "mobile_suit_behavior"
 	#upgrades_to = "oyw_zeon_pilot_putv_veteran"
 
-	ai_weight = {
-		weight = 1
-	}
 }
 
 utility_component_template = {
@@ -168,9 +150,6 @@ utility_component_template = {
 	ship_behavior = "mobile_suit_behavior"
 	#upgrades_to = "oyw_zeon_pilot_putv_veteran"
 
-	ai_weight = {
-		weight = 1
-	}
 }
 
 utility_component_template = {
@@ -193,9 +172,6 @@ utility_component_template = {
 	ship_behavior = "mobile_suit_behavior"
 	upgrades_to = "oyw_efsf_pilot_putv_veteran"
 
-	ai_weight = {
-		weight = 1
-	}
 }
 
 utility_component_template = {
@@ -218,9 +194,6 @@ utility_component_template = {
 	ship_behavior = "mobile_suit_behavior"
 	#upgrades_to = "oyw_efsf_pilot_putv_veteran"
 
-	ai_weight = {
-		weight = 1
-	}
 }
 
 utility_component_template = {
@@ -243,9 +216,6 @@ utility_component_template = {
 	ship_behavior = "mobile_suit_behavior"
 	upgrades_to = "oyw_efsf_pilot_vuta_ace"
 
-	ai_weight = {
-		weight = 1
-	}
 }
 
 utility_component_template = {
@@ -268,9 +238,6 @@ utility_component_template = {
 	ship_behavior = "mobile_suit_behavior"
 	#upgrades_to = "oyw_efsf_pilot_putv_veteran"
 
-	ai_weight = {
-		weight = 1
-	}
 }
 
 utility_component_template = {
@@ -293,9 +260,6 @@ utility_component_template = {
 	ship_behavior = "mobile_suit_behavior"
 	#upgrades_to = "oyw_zeon_pilot_putv_veteran"
 
-	ai_weight = {
-		weight = 1
-	}
 }
 
 utility_component_template = {
@@ -318,7 +282,4 @@ utility_component_template = {
 	ship_behavior = "mobile_suit_behavior"
 	#upgrades_to = "oyw_zeon_pilot_putv_veteran"
 
-	ai_weight = {
-		weight = 1
-	}
 }
