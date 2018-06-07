@@ -154,6 +154,16 @@ country_event = { #Player has picked Zeon
 	}
 
 	immediate = {
+		if = {
+			limit = { is_ai = yes }
+			give_technology = { tech = tech_BEAMC_1 }
+			give_technology = { tech = tech_MS_05B }
+			give_technology = { tech = tech_Principality }
+			give_technology = { tech = tech_Zeonic }
+			give_technology = { tech = tech_Zimmad }
+			give_technology = { tech = tech_MIP }
+			give_technology = { tech = tech_Anaheim }
+		}
 		create_species = {
 			name = "Human"
 			class = MAM
@@ -377,6 +387,16 @@ country_event = { #Player has picked Axis
 	}
 
 	immediate = {
+		if = {
+			limit = { is_ai = yes }
+			give_technology = { tech = tech_BEAMC_1 }
+			give_technology = { tech = tech_MS_05B }
+			give_technology = { tech = tech_Principality }
+			give_technology = { tech = tech_Zeonic }
+			give_technology = { tech = tech_Zimmad }
+			give_technology = { tech = tech_MIP }
+			give_technology = { tech = tech_Anaheim }
+		}
 		capital_scope = {
 			surveyed = {
 				set_surveyed = yes
@@ -671,6 +691,14 @@ country_event = { #Player has picked EFSF
 	}
 
 	immediate = {
+		if = {
+			limit = { is_ai = yes }
+			give_technology = { tech = tech_EFSF_BEAMC_1 }
+			give_technology = { tech = tech_RB_79 }
+			give_technology = { tech = tech_EFSF }
+			give_technology = { tech = tech_Zeonic }
+			give_technology = { tech = tech_Anaheim }
+		}
 		capital_scope = {
 			surveyed = {
 				set_surveyed = yes
@@ -948,6 +976,16 @@ country_event = { #Player has picked Neo
 	}
 
 	immediate = {
+		if = {
+			limit = { is_ai = yes }
+			give_technology = { tech = tech_BEAMC_1 }
+			give_technology = { tech = tech_MS_05B }
+			give_technology = { tech = tech_Principality }
+			give_technology = { tech = tech_Zeonic }
+			give_technology = { tech = tech_Zimmad }
+			give_technology = { tech = tech_MIP }
+			give_technology = { tech = tech_Anaheim }
+		}
 		capital_scope = {
 			surveyed = {
 				set_surveyed = yes
@@ -1058,37 +1096,6 @@ country_event = { #Player has picked Neo
 			}
 			if = {
 				limit = {
-					 has_planet_flag = planet_earth
-				}
-				#create_spaceport = {
-				#	owner = controller
-				#	initial_module = "missile_weapon"
-				#}
-				set_name = "Earth"
-				create_pop = {
-					species = owner_main_species
-				}
-				create_pop = {
-					species = owner_main_species
-				}
-				create_pop = {
-					species = owner_main_species
-				}
-				create_pop = {
-					species = owner_main_species
-				}
-				create_pop = {
-					species = owner_main_species
-				}
-				create_pop = {
-					species = owner_main_species
-				}
-				create_pop = {
-					species = owner_main_species
-				}
-			}
-			if = {
-				limit = {
 					 has_planet_flag = side3
 				}
 				#create_spaceport = {
@@ -1136,6 +1143,14 @@ country_event = { #Player has picked Gundamu
 	}
 
 	immediate = {
+		if = {
+			limit = { is_ai = yes }
+			give_technology = { tech = tech_EFSF_BEAMC_1 }
+			give_technology = { tech = tech_RB_79 }
+			give_technology = { tech = tech_EFSF }
+			give_technology = { tech = tech_Zeonic }
+			give_technology = { tech = tech_Anaheim }
+		}
 		capital_scope = {
 			surveyed = {
 				set_surveyed = yes

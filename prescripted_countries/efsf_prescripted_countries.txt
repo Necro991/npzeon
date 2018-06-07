@@ -65,7 +65,7 @@ EFSF = {
 	}
 }
 Titans = {
-	name = "The Titans"
+	name = "Titans"
 	adjective = "PRESCRIPTED_adjective_humans1"
 	spawn_enabled = yes # yes / no / always
 	ignore_portrait_duplication = yes
