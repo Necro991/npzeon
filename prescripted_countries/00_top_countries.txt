@@ -12,7 +12,7 @@ humans1 = {
 		name = "PRESCRIPTED_species_name_humans1"
 		plural = "PRESCRIPTED_species_plural_humans1"
 		adjective = "PRESCRIPTED_species_adjective_humans1"
-		name_list = "HUM3"
+		name_list = "HUMAN1"
 		trait = "trait_adaptive"
 		trait = "trait_nomadic"
 		trait = "trait_wasteful"
@@ -28,9 +28,6 @@ humans1 = {
 	ethic = "ethic_fanatic_egalitarian"
 
 	flags = { human_1 custom_start_screen }
-
-	weapon = "tech_missiles_1"
-	ftl = warp
 
 	planet_name = "NAME_Earth"
 	planet_class = "pc_continental"
@@ -81,7 +78,7 @@ humans2 = {
 		name = "PRESCRIPTED_species_name_humans2"
 		plural = "PRESCRIPTED_species_plural_humans2"
 		adjective = "PRESCRIPTED_species_adjective_humans2"
-		name_list = "HUM4"
+		name_list = "HUMAN2"
 		trait = "trait_adaptive"
 		trait = "trait_nomadic"
 		trait = "trait_wasteful"
@@ -97,9 +94,6 @@ humans2 = {
 	ethic = "ethic_fanatic_militarist"
 
 	flags = { human_2 custom_start_screen }
-
-	weapon = "tech_lasers_1"
-	ftl = wormhole
 
 	planet_name = "NAME_Unity"
 	planet_class = "pc_continental"

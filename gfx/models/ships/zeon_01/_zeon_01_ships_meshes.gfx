@@ -1313,6 +1313,19 @@ objectTypes = {
 	}
 
 	pdxmesh = {
+			name = "Gaza_C_Trio_mesh" #Gaza-C Trio
+			file = "gfx/models/ships/zeon_01/Gaza_C_Trio.mesh"
+
+			scale = 1.0
+			meshsettings = {
+				texture_diffuse = "Gaza_C_Diffuse.dds"
+				texture_normal = "zakuII_normal.dds"
+				texture_specular = "Zaku_Specular.dds"
+				shader = "PdxMeshShip"
+		}
+	}
+
+	pdxmesh = {
 			name = "Galbaldy_Trio_mesh" #Galbaldy Single
 			file = "gfx/models/ships/zeon_01/Galbaldy_Trio.mesh"
 
@@ -1701,7 +1714,7 @@ objectTypes = {
 
 	pdxmesh = {
 		name = "zeon_01_gwadan_mesh"
-		file = "gfx/models/ships/zeon_01/gwadan.mesh"
+		file = "gfx/models/ships/zeon_01/Gwadan.mesh"
 		scale = 0.4
 		meshsettings = {
 			texture_diffuse = "gwadan_diffuse.dds"

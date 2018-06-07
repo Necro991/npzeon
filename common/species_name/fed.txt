@@ -1,9 +1,0 @@
-MAM = {
-	fed = {
-		name = Human
-        plural = Humans
-        home_planet = "Earth"
-        home_system = Sol
-        name_list = "Human"
-	}
-}

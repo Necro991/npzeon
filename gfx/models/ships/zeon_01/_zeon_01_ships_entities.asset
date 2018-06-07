@@ -3718,6 +3718,35 @@ entity = {
 		scale = 1.0
 	}
 
+	entity = { #Galbaldy Trio
+		name = "gaza_c_trio_entity"
+		pdxmesh = "Gaza_C_Trio_mesh"
+
+		locator = { name = "root" 			position = { 0 	0 	0	} }
+		locator = { name = "small_gun_01" 			position = { 0 	0 	0	} scale = 0.0} #X,Up/Down,Forward/Back 0 	0.4 	-0.3
+		locator = { name = "small_gun_02" 			position = { 0 	0 	0 	} scale = 0.0} #0.5	0.4 	-0.3
+		locator = { name = "small_gun_03" 			position = { 0 	0 	0 	} scale = 0.0} #-0.5 	0.4 	-0.3
+		locator = { name = "small_gun_04" 			position = { 0 	0 	0 	} scale = 0.0} #-0.5 	0.4 	-0.3
+		locator = { name = "medium_gun_01" 			position = { 0 	0 	0 	} scale = 0.0}
+		locator = { name = "light_locator_01" 			position = { 0  0 	0 	} }
+		locator = { name = "light_locator_02" 			position = { 0 	0 	0 	} }
+		locator = { name = "exaust_01" 			position = { 0 	0 	0 	} }
+
+		default_state = "idle"
+		state = { name = "idle"		state_time = 5
+
+			event = { time = 0 node = "light_locator_01" particle = "ship_light_blue_effect" trigger_once = yes keep_particle = yes }
+			event = { time = 0 node = "light_locator_02" particle = "ship_light_blue_effect" trigger_once = yes keep_particle = yes }
+			}
+		state = { name = "moving"	state_time = 5
+
+			event = { time = 0 node = "light_locator_01" particle = "ship_light_blue_effect" trigger_once = yes keep_particle = yes }
+			event = { time = 0 node = "light_locator_02" particle = "ship_light_blue_effect" trigger_once = yes keep_particle = yes }
+			}
+		state = { name = "death" state_time = 5 }
+		scale = 1.0
+	}
+
 	entity = {
 		name = "zakuIIframe_entity"
 		pdxmesh = "zakuII_frame_mesh"

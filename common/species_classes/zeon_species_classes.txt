@@ -1,29 +1,36 @@
 ZEO = {
-	archetype = BIOLOGICAL
+	archetype = ZEO
 
 	possible = { authority = { NOT = { value = auth_machine_intelligence text = SPECIES_CLASS_MUST_NOT_USE_MACHINE_INTELLIGENCE } } }
 
-	randomized = no
+	randomized = yes
 	portraits = {
 		"zeon"
 		#"test"
 	}
 
+	#non_randomized_portraits = {
+	#"zeon"
+	#"test"
+	#}
+
 	graphical_culture = zeon_01
 	move_pop_sound_effect = "moving_pop_confirmation"
 }
+
 FED = {
-	archetype = BIOLOGICAL
+	archetype = FED
 
 	possible = { authority = { NOT = { value = auth_machine_intelligence text = SPECIES_CLASS_MUST_NOT_USE_MACHINE_INTELLIGENCE } } }
 
-	randomized = no
+	randomized = yes
 	portraits = {
 		"fed"
 		"titan"
-		"fed2"
-		"fed3"
+		#"fed2"
+		#"fed3"
 	}
+
 	graphical_culture = fed_01
 	move_pop_sound_effect = "moving_pop_confirmation"
 }

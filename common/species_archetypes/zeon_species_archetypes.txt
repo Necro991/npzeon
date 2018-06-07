@@ -1,0 +1,9 @@
+ZEO = {
+	inherit_trait_points_from = BIOLOGICAL
+	inherit_traits_from = { BIOLOGICAL }
+}
+
+FED = {
+	inherit_trait_points_from = BIOLOGICAL
+	inherit_traits_from = { BIOLOGICAL }
+}

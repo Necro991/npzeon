@@ -135,9 +135,9 @@ country_event = {
 		name = zeontech_dialogue_6
 	}
 
-	mean_time_to_happen = {
-		days = 1
-	}
+	#mean_time_to_happen = {
+	#	days = 1
+	#}
 }
 
 country_event = { #Player has picked Zeon
@@ -150,9 +150,7 @@ country_event = { #Player has picked Zeon
 	is_triggered_only = yes
 
 	trigger = {
-		and = {
-			any_system_within_border  = { has_star_flag = Zeon_Start }
-		}
+		and = { any_system_within_border  = { has_star_flag = Zeon_Start } }
 	}
 
 	immediate = {

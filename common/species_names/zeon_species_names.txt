@@ -1,0 +1,25 @@
+ZEO = {
+	deikun = {
+		name = "Human"
+		plural = "Humans"
+		home_planet = "Deikun"
+		home_system = "Zeon"
+		name_list = "NEW_ZEON"
+	}
+
+	haman = {
+		name = "Human"
+		plural = "Humans"
+		home_planet = "Haman"
+		home_system = "Karn"
+		name_list = "NEW_ZEON"
+	}
+
+	char = {
+		name = "Human"
+		plural = "Humans"
+		home_planet = "Char"
+		home_system = "Aznable"
+		name_list = "NEW_ZEON"
+	}
+}

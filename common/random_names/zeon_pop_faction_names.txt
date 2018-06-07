@@ -1,0 +1,196 @@
+pop_faction_name_parts_list = {
+	key = "zeon_totalitarian_names"
+	parts = {
+		"Hardline Zabiists" = 1
+		"Gihren's Loyalist Faction" = 1
+		"Glemy's Loyalist Faction" = 1
+	}
+}
+
+pop_faction_name_format = {
+	random_weight = {
+		factor = 0
+		modifier = {
+			add = 1000
+			owner = {
+				species_portrait = "zeon"
+			}
+			is_pop_faction_type = "totalitarian"
+		}
+	}
+	format = "<zeon_totalitarian_names>"
+}
+
+pop_faction_name_parts_list = {
+	key = "zeon_imperialist_names"
+	parts = {
+		"Chimera Corps" = 1
+		"The Sleeves Movement" = 1
+	}
+}
+
+pop_faction_name_format = {
+	random_weight = {
+		factor = 0
+		modifier = {
+			add = 1000
+			owner = {
+				species_portrait = "zeon"
+			}
+			is_pop_faction_type = "imperialist"
+		}
+	}
+	format = "<zeon_imperialist_names>"
+}
+
+pop_faction_name_parts_list = {
+	key = "zeon_spiritualist_names"
+	parts = {
+		"Cult of the Zudah" = 1
+		"Cult of the Zeong" = 1
+	}
+}
+
+pop_faction_name_format = {
+	random_weight = {
+		factor = 0
+		modifier = {
+			add = 1000
+			owner = {
+				species_portrait = "zeon"
+			}
+			is_pop_faction_type = "traditionalist"
+		}
+	}
+	format = "<zeon_spiritualist_names>"
+}
+
+pop_faction_name_parts_list = {
+	key = "zeon_technologist_names"
+	parts = {
+		"Zeonic-Zimmad-MIP Conglomerate" = 1
+		"Flanagan Institute" = 1
+	}
+}
+
+pop_faction_name_format = {
+	random_weight = {
+		factor = 0
+		modifier = {
+			add = 1000
+			owner = {
+				species_portrait = "zeon"
+			}
+			is_pop_faction_type = "technologist"
+		}
+	}
+	format = "<zeon_technologist_names>"
+}
+
+pop_faction_name_parts_list = {
+	key = "zeon_prosperity_names"
+	parts = {
+		"National Stability Association" = 1
+		"Granadan Trade Network" = 1
+		"Granadan Investment Bank" = 1
+		"Jupiter Energy Fleet" = 1
+	}
+}
+
+pop_faction_name_format = {
+	random_weight = {
+		factor = 0
+		modifier = {
+			add = 1000
+			owner = {
+				species_portrait = "zeon"
+			}
+			is_pop_faction_type = "prosperity"
+		}
+	}
+	format = "<zeon_prosperity_names>"
+}
+
+pop_faction_name_parts_list = {
+	key = "zeon_supremacist_names"
+	parts = {
+		"Newborn Neo Zeon" = 5
+	}
+}
+
+pop_faction_name_format = {
+	random_weight = {
+		factor = 0
+		modifier = {
+			add = 1000
+			owner = {
+				species_portrait = "zeon"
+			}
+			is_pop_faction_type = "supremacist"
+		}
+	}
+	format = "[This.Owner.GetSpeciesName] <zeon_supremacist_names>"
+}
+
+pop_faction_name_parts_list = {
+	key = "zeon_xenoist_names"
+	parts = {
+		"Lunar Xeno Agency" = 1
+	}
+}
+
+pop_faction_name_format = {
+	random_weight = {
+		factor = 0
+		modifier = {
+			add = 1000
+			owner = {
+				species_portrait = "zeon"
+			}
+			is_pop_faction_type = "xenoist"
+		}
+	}
+	format = "<zeon_xenoist_names>"
+}
+
+pop_faction_name_parts_list = {
+	key = "zeon_isolationist_names"
+	parts = {
+		"Closed Borders Initiative" = 1
+	}
+}
+
+pop_faction_name_format = {
+	random_weight = {
+		factor = 0
+		modifier = {
+			add = 1000
+			owner = {
+				species_portrait = "zeon"
+			}
+			is_pop_faction_type = "isolationist"
+		}
+	}
+	format = "<zeon_isolationist_names>"
+}
+
+pop_faction_name_parts_list = {
+	key = "zeon_progressive_names"
+	parts = {
+		"Contolist Movement" = 1
+	}
+}
+
+pop_faction_name_format = {
+	random_weight = {
+		factor = 0
+		modifier = {
+			add = 1000
+			owner = {
+				species_portrait = "zeon"
+			}
+			is_pop_faction_type = "progressive"
+		}
+	}
+	format = "<zeon_progressive_names>"
+}

@@ -1,0 +1,9 @@
+FED = {
+	notdeikun = {
+		name = "Human"
+		plural = "Humans"
+		home_planet = "Deikun"
+		home_system = "Zeon"
+		name_list = "NEW_ZEON"
+	}
+}
