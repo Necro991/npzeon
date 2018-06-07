@@ -34,9 +34,9 @@ country_event = {
 			name = "Human"
 			class = MAM
 			portrait = "event_zeon_1"
-			trait = "trait_intelligent"
-			trait = "trait_slow_breeders"
-			trait = "trait_nomadic"
+			#trait = "trait_intelligent"
+			#trait = "trait_slow_breeders"
+			#trait = "trait_nomadic"
 		}
 		create_leader = {
 			type = admiral
@@ -63,9 +63,9 @@ country_event = {
 			name = "Human"
 			class = MAM
 			portrait = "efsf_event_1"
-			trait = "trait_intelligent"
-			trait = "trait_slow_breeders"
-			trait = "trait_nomadic"
+			#trait = "trait_intelligent"
+			#trait = "trait_slow_breeders"
+			#trait = "trait_nomadic"
 		}
 		create_leader = {
 			type = admiral
@@ -97,9 +97,9 @@ country_event = {
 			name = "Human"
 			class = MAM
 			portrait = "event_zeon_1"
-			trait = "trait_intelligent"
-			trait = "trait_slow_breeders"
-			trait = "trait_nomadic"
+			#trait = "trait_intelligent"
+			#trait = "trait_slow_breeders"
+			#trait = "trait_nomadic"
 		}
 		create_leader = {
 			type = admiral
@@ -115,9 +115,9 @@ country_event = {
 			name = "Human"
 			class = MAM
 			portrait = "efsf_event_1"
-			trait = "trait_intelligent"
-			trait = "trait_slow_breeders"
-			trait = "trait_nomadic"
+			#trait = "trait_intelligent"
+			#trait = "trait_slow_breeders"
+			#trait = "trait_nomadic"
 		}
 		create_leader = {
 			type = admiral
@@ -143,14 +143,14 @@ country_event = {
 country_event = { #Player has picked Zeon
 	id = zeontech.2
 	title = "oyw_title_1"
-	desc = "oyw_desc_1"
+	#desc = "oyw_desc_1"
 	picture = "GFX_evt_Zeon1"
 	show_sound = event_structural_collapse
 	hide_window = yes
 	is_triggered_only = yes
 
 	trigger = {
-		and = { any_system_within_border  = { has_star_flag = Zeon_Start } }
+		any_system_within_border  = { has_star_flag = Zeon_Start }
 	}
 
 	immediate = {
@@ -194,6 +194,7 @@ country_event = { #Player has picked Zeon
 				}
 			}
 			type = default
+			#ignore_initial_colony_error = yes
 		}
 		last_created_country = {
 			set_graphical_culture = "fed_01"
@@ -365,16 +366,14 @@ country_event = { #Player has picked Zeon
 country_event = { #Player has picked Axis
 	id = zeontech.3
 	title = "oyw_title_1"
-	desc = "oyw_desc_1"
+	#desc = "oyw_desc_1"
 	picture = "GFX_evt_Zeon1"
 	show_sound = event_structural_collapse
 	hide_window = yes
 	is_triggered_only = yes
 
 	trigger = {
-		and = {
-			any_system_within_border  = { has_star_flag = Axis_Zeon_Start }
-		}
+		any_system_within_border  = { has_star_flag = Axis_Zeon_Start }
 	}
 
 	immediate = {
@@ -661,16 +660,14 @@ country_event = { #Player has picked Axis
 country_event = { #Player has picked EFSF
 	id = zeontech.4
 	title = "oyw_title_1"
-	desc = "oyw_desc_1"
+	#desc = "oyw_desc_1"
 	picture = "GFX_evt_Zeon1"
 	show_sound = event_structural_collapse
 	hide_window = yes
 	is_triggered_only = yes
 
 	trigger = {
-		and = {
-			any_system_within_border  = { has_star_flag = EFSF_Start }
-		}
+		any_system_within_border  = { has_star_flag = EFSF_Start }
 	}
 
 	immediate = {
@@ -940,16 +937,14 @@ country_event = { #Player has picked EFSF
 country_event = { #Player has picked Neo
 	id = zeontech.5
 	title = "oyw_title_1"
-	desc = "oyw_desc_1"
+	#desc = "oyw_desc_1"
 	picture = "GFX_evt_Zeon1"
 	show_sound = event_structural_collapse
 	hide_window = yes
 	is_triggered_only = yes
 
 	trigger = {
-		and = {
-			any_system_within_border  = { has_star_flag = Neo_Zeon_Start }
-		}
+		any_system_within_border  = { has_star_flag = Neo_Zeon_Start }
 	}
 
 	immediate = {
@@ -1130,16 +1125,14 @@ country_event = { #Player has picked Neo
 country_event = { #Player has picked Gundamu
 	id = zeontech.6
 	title = "oyw_title_1"
-	desc = "oyw_desc_1"
+	#desc = "oyw_desc_1"
 	picture = "GFX_evt_Zeon1"
 	show_sound = event_structural_collapse
 	hide_window = yes
 	is_triggered_only = yes
 
 	trigger = {
-		and = {
-			any_system_within_border  = { has_star_flag = Gundamu_Start }
-		}
+		any_system_within_border  = { has_star_flag = Gundamu_Start }
 	}
 
 	immediate = {
