@@ -230,7 +230,7 @@ NEW_ZEON = {
 
 	army_names = {
 		generic = {
-			sequential_name = "%O% Colonial Garrison"
+			sequential_name = "%O% Colonial Gendarmerie"
 		}
 
 		assault_army = {
@@ -250,7 +250,7 @@ NEW_ZEON = {
 		}
 
 		robotic_defense_army = {
-			sequential_name = "%O% Unmanned Garrison"
+			sequential_name = "%O% Unmanned Gendarmerie"
 		}
 
 		android_army = {
@@ -258,15 +258,15 @@ NEW_ZEON = {
 		}
 
 		android_defense_army = {
-			sequential_name = "%O% Android Garrison"
+			sequential_name = "%O% Android Gendarmerie"
 		}
 
 		psionic_army = {
-			random_names = {
+			random_names = { 
 				"Shadow Legion" "Ghost Legion" "Wraith Legion" "Specter Legion" "Phantom Legion" "Widowmaker Legion" "Skull Legion" "Banshee Legion"
 				"Warlock Legion" "Reaper Legion"
 			}
-			sequential_name = "%O% Newtype Legion"
+			sequential_name = "%O% Newtype Warriors"
 		}
 
 		xenomorph_army = {
@@ -279,6 +279,18 @@ NEW_ZEON = {
 
 		gene_warrior_army = {
 			sequential_name = "%O% Cybernewtype Vanguard"
+		}
+
+		occupation_army = {
+			sequential_name = "%O% Occupation Legion"
+		}
+
+		robotic_occupation_army = {
+			sequential_name = "%O% Unmanned Garrison"
+		}
+
+		android_occupation_army = {
+			sequential_name = "%O% Android Garrison"
 		}
 	}
 
