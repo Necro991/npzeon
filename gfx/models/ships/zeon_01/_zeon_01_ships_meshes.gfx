@@ -576,7 +576,7 @@ objectTypes = {
 			name = "Zaku_I_mesh"
 			file = "gfx/models/ships/zeon_01/Zaku_I.mesh"
 
-			scale = 3.0
+			scale = 1.0 #3.0
 			meshsettings = {
 				texture_diffuse = "Zaku_Diffuse.dds"
 				texture_normal = "zakuII_normal.dds"
@@ -720,11 +720,11 @@ objectTypes = {
 	pdxmesh = { #ZAKU I S
 		name = "zeon_ms_05s_group_S3_mesh"
 		file = "gfx/models/ships/zeon_01/Z_Tier0_01.mesh"
-		scale = 5.0
+		scale = 1.0 #5.0
 		meshsettings = {
-		texture_diffuse = "Zaku_Diffuse_5.dds"
-		texture_normal = "Zaku_Normal.dds"
-		texture_specular = "Zaku_Specular.dds"
+		texture_diffuse = "Zaku_Commander_Diffuse.dds" Zaku_Diffuse_5
+		texture_normal = "zakuII_normal.dds" #Zaku_Normal
+		texture_specular = "Zaku_Specular.dds" #Zaku_Specular
 			shader = "PdxMeshShip"
 		}
 	}
@@ -1099,7 +1099,7 @@ objectTypes = {
 	pdxmesh = { #TIER 0 SUITS
 		name = "zaku1_group_S3_mesh"
 		file = "gfx/models/ships/zeon_01/Z_Tier0_01.mesh"
-		scale = 5.0
+		scale = 1.0 #5.0
 		meshsettings = {
 		texture_diffuse = "Zaku_Diffuse.dds"
 		texture_normal = "zakuII_normal.dds" #Zaku_Normal
@@ -1660,12 +1660,12 @@ objectTypes = {
 
 	pdxmesh = {
 		name = "zeon_01_chivvay_mesh"
-		file = "gfx/models/ships/zeon_01/Chivvay_Green.mesh"
-		scale = 0.08
+		file = "gfx/models/ships/zeon_01/Chivvay.mesh" #Chivvay_Green
+		scale = 5.25 #0.23
 		meshsettings = {
-			texture_diffuse = "Chivvay_Green_Diffuse.dds"
-			texture_normal = "Chivvay_Green_Normal.dds"
-			texture_specular = "Chivvay_Green_Specular.dds"
+			texture_diffuse = "Chivvay_Diffuse.dds" #Chivvay_Green_Diffuse
+			texture_normal = "zakuII_normal.dds" #Chivvay_Green_Normal
+			texture_specular = "Zaku_Specular.dds" #Chivvay_Green_Specular
 			shader = "PdxMeshShip"
 		}
 	}

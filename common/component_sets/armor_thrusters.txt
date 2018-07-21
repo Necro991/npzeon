@@ -260,7 +260,7 @@ component_set = {
 	key = "ma_04x_thrusters"
 
 	required_component_set = yes
-	icon = "ma_06_armor"
+	icon = "ma_04x_armor"
 	icon_frame = 1
 }
 
