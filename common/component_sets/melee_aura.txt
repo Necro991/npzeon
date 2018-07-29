@@ -65,6 +65,14 @@ component_set = {
 }
 
 component_set = {
+	key = "ma_05_melee_aura"
+
+	required_component_set = yes
+	icon = "zeon_melee_08"
+	icon_frame = 1
+}
+
+component_set = {
 	key = "ma_06_melee_aura"
 
 	required_component_set = yes

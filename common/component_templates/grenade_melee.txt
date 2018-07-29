@@ -644,6 +644,49 @@ utility_component_template = { #MA-04X Zakrello Claws
 	}
 }
 
+utility_component_template = { #MA-05 Bigro Claws
+	key = "zeon_melee_aura_13"
+	size = small
+	icon = "zeon_melee_13"
+	icon_frame = 1
+	power = 0
+	cost = 15
+
+	hostile_aura = {
+		name = "zeon_melee_13"
+		radius = 10
+		apply_on = ships
+
+		stack_info = {			#A ship can only be affected by one aura of a certain id. If multiple auras have the same ID the one with the highest priority will be applied.
+			id = zeon_melee_012
+			priority = 2
+		}
+
+		damage_per_day = {
+			accuracy = 0.1
+			damage = { min = 100 max = 200 }
+			shield_damage = 1.0
+			armor_penetration = 0.5
+		}
+
+		graphics = {
+			area_effect = {
+				entity = "circle_area_entity"
+				dynamic_scale = yes
+			}
+		}
+	}
+
+	prerequisites = { "tech_MA_05" }
+
+	component_set = "ma_05_melee_aura"
+	#upgrades_to = "oyw_zeon_pilot_putv_veteran"
+
+	ai_weight = {
+		weight = 1
+	}
+}
+
 utility_component_template = { #MAN-08 Elmeth Bits
 	key = "man_08_bit_aura_1"
 	size = small

@@ -51,6 +51,14 @@ component_set = {
 }
 
 component_set = {
+	key = "ma_05_reactor"
+
+	required_component_set = yes
+	icon = "GFX_ship_part_ms_reactor"
+	icon_frame = 1
+}
+
+component_set = {
 	key = "ma_06_reactor"
 
 	required_component_set = yes

@@ -27,6 +27,34 @@ weapon_component_template = {
 }
 
 weapon_component_template = {
+	key = "OYW_MA_05_MPC"
+	size = extra_large
+	entity = "Zeon_Machine_Gun_01_Entity"
+	damage = { min = 1424.0 max = 2848.0 }
+	windup = { min = 30.0 max = 60.0 }
+	total_fire_time = 60
+	range = 100.0
+	accuracy = 0.82
+	tracking  = 0.65
+	type = instant
+	shield_damage = 0.2
+	armor_penetration = 0.95
+
+	icon = "ma_05_mpc"
+	icon_frame = 1
+	color = { 0.1 1.0 0.1 1 }
+	power = -3000
+	cost = 100
+	size_restriction = { MA_05 }
+	prerequisites = { "tech_MA_05" }
+	component_set = "OYW_MA_05_MPC"
+	projectile_gfx = "MPC3"
+	tags = { weapon_type_energy }
+	ai_tags = { weapon_role_anti_armor }
+	#upgrades_to = "SMALL_BEAMC_2"
+}
+
+weapon_component_template = {
 	key = "OYW_MA_06_MPC"
 	size = extra_large
 	entity = "Zeon_Machine_Gun_01_Entity"
