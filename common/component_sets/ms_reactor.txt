@@ -59,6 +59,22 @@ component_set = {
 }
 
 component_set = {
+	key = "ma_05ad_reactor"
+
+	required_component_set = yes
+	icon = "GFX_ship_part_ms_reactor"
+	icon_frame = 1
+}
+
+component_set = {
+	key = "ma_05ad_beam_chaff"
+
+	required_component_set = yes
+	icon = "GFX_ship_part_shield_1"
+	icon_frame = 1
+}
+
+component_set = {
 	key = "ma_06_reactor"
 
 	required_component_set = yes

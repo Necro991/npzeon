@@ -14,7 +14,7 @@ MSN_01 = { #MSN-01 Psycommu Zaku
 	rotation_speed = 0.455
 	collision_radius = 1
 	max_hitpoints = 124
-	size_multiplier = 1
+	size_multiplier = 4
 	fleet_slot_size = 16
 	section_slots = { "mid" = { locator = "part1" } }
 	num_target_locators = 12
@@ -53,7 +53,7 @@ MSN_02 = { #MSN-02 Zeong
 	rotation_speed = 0.455
 	collision_radius = 1
 	max_hitpoints = 360
-	size_multiplier = 1
+	size_multiplier = 4
 	fleet_slot_size = 16
 	section_slots = { "mid" = { locator = "part1" } }
 	num_target_locators = 12
@@ -92,7 +92,7 @@ MA_04X = { #MA-04X Zakrello
 	rotation_speed = 0.455
 	collision_radius = 1
 	max_hitpoints = 285
-	size_multiplier = 1
+	size_multiplier = 4
 	fleet_slot_size = 16
 	section_slots = { "mid" = { locator = "part1" } }
 	num_target_locators = 12
@@ -132,7 +132,7 @@ MA_05 = { #MA-05 Bigro
 	rotation_speed = 0.455
 	collision_radius = 1
 	max_hitpoints = 354
-	size_multiplier = 1
+	size_multiplier = 4
 	fleet_slot_size = 16
 	section_slots = { "mid" = { locator = "part1" } }
 	num_target_locators = 12
@@ -165,6 +165,48 @@ MA_05 = { #MA-05 Bigro
 	}
 }
 
+MA_05Ad = { #MA-05Ad Big Rang
+	formation_priority = @corvette_formation_priority
+	max_speed = 746
+	acceleration = 0.5
+	rotation_speed = 0.455
+	collision_radius = 1
+	max_hitpoints = 27538
+	size_multiplier = 8
+	fleet_slot_size = 16
+	section_slots = { "mid" = { locator = "part1" } }
+	num_target_locators = 4
+	is_space_station = no
+	icon_frame = 2
+	base_buildtime = 360
+	graphical_culture = no
+	can_have_federation_design = yes
+	enable_default_design = no	#if yes, countries will have an auto-generated design at start
+
+	prerequisites = { "tech_MA_05Ad" }
+	has_mineral_upkeep = yes
+
+	combat_disengage_chance = 1.00
+
+	class = shipclass_military
+	construction_type = starbase_shipyard
+	required_component_set = "ftl_components"
+	required_component_set = "oyw_zeon_pilot_ncn"
+	required_component_set = "ma_05_melee_aura"
+	required_component_set = "ma_05ad_reactor"
+	required_component_set = "ma_05ad_armor"
+	required_component_set = "ma_05ad_thrusters"
+	required_component_set = "ma_05ad_beam_chaff"
+	required_component_set = "sensor_components"
+	required_component_set = "ship_aura_components" #Oggo Stuff
+
+	empire_limit = {
+		base = 1
+		max = 1
+		naval_cap_div = 16
+	}
+}
+
 MA_06 = { #MA-06 Val Varo
 	formation_priority = @corvette_formation_priority
 	max_speed = 170
@@ -172,7 +214,7 @@ MA_06 = { #MA-06 Val Varo
 	rotation_speed = 0.455
 	collision_radius = 1
 	max_hitpoints = 600
-	size_multiplier = 1
+	size_multiplier = 4
 	fleet_slot_size = 16
 	section_slots = { "mid" = { locator = "part1" } }
 	num_target_locators = 12
@@ -213,7 +255,7 @@ MA_08 = { #MA-08 Big Zam
 	rotation_speed = 0.455
 	collision_radius = 1
 	max_hitpoints = 3000
-	size_multiplier = 1
+	size_multiplier = 8
 	fleet_slot_size = 16
 	section_slots = { "mid" = { locator = "part1" } }
 	num_target_locators = 12
@@ -255,7 +297,7 @@ MAN_03 = { #MAN-03 Braw Bro
 	rotation_speed = 0.455
 	collision_radius = 1
 	max_hitpoints = 4004
-	size_multiplier = 1
+	size_multiplier = 4
 	fleet_slot_size = 16
 	section_slots = { "mid" = { locator = "part1" } }
 	num_target_locators = 12
@@ -295,7 +337,7 @@ MAN_08 = { #MAN-08 Elmeth
 	rotation_speed = 0.455
 	collision_radius = 1
 	max_hitpoints = 450
-	size_multiplier = 1
+	size_multiplier = 4
 	fleet_slot_size = 16
 	section_slots = { "mid" = { locator = "part1" } }
 	num_target_locators = 12

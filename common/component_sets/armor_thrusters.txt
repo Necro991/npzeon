@@ -289,6 +289,22 @@ component_set = {
 }
 
 component_set = {
+	key = "ma_05ad_thrusters"
+
+	required_component_set = yes
+	icon = "ma_04x_armor"
+	icon_frame = 1
+}
+
+component_set = {
+	key = "ma_05ad_armor"
+
+	required_component_set = yes
+	icon = "GFX_ship_part_armor_1"
+	icon_frame = 1
+}
+
+component_set = {
 	key = "ma_06_thrusters"
 
 	required_component_set = yes

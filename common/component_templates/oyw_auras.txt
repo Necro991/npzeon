@@ -1,0 +1,85 @@
+utility_component_template = {
+	key = "MA_05AD_AURA"
+	size = medium
+	icon = "GFX_ship_part_aura_nanobot"
+	icon_frame = 1
+	power = 0
+	cost = 0
+
+	size_restriction = { MA_05Ad }
+	component_set = "ship_aura_components"
+
+	friendly_aura = {
+		name = "ma_05ad_repair_aura"
+		radius = @shipAuraRange
+		apply_on = ships
+
+		stack_info = {			#A ship can only be affected by one aura of a certain id. If multiple auras have the same ID the one with the highest priority will be applied.
+			id = friendly_nanobot_cloud
+			priority = 20
+		}
+
+		modifier = {
+			ship_hull_regen_add_static = 1
+			ship_armor_regen_add_static = 3
+		}
+
+		graphics = {
+			area_effect = {
+				entity = "circle_area_entity"
+				dynamic_scale = yes
+			}
+			ship_effect = {
+				entity = "ship_aura_positive_entity"
+				dynamic_scale = no
+			}
+		}
+	}
+
+	ai_weight = {
+		weight = 10
+	}
+}
+
+utility_component_template = { #MAN-08 Elmeth Bits
+	key = "man_08_bit_aura_1"
+	size = small
+	icon = "man_08_bit"
+	icon_frame = 1
+	power = 0
+	cost = 0
+
+	hostile_aura = {
+		name = "zeon_bit_1"
+		radius = 20
+		apply_on = ships
+
+		stack_info = {			#A ship can only be affected by one aura of a certain id. If multiple auras have the same ID the one with the highest priority will be applied.
+			id = zeon_bit_001
+			priority = 2
+		}
+
+		damage_per_day = {
+			accuracy = 0.5
+			damage = { min = 10 max = 20 }
+			shield_damage = 0.2
+			armor_penetration = 0.95
+		}
+
+		graphics = {
+			area_effect = {
+				entity = "circle_area_entity"
+				dynamic_scale = yes
+			}
+		}
+	}
+
+	prerequisites = { "tech_MAN_08" }
+
+	component_set = "man_08_bit_aura"
+	#upgrades_to = "oyw_zeon_pilot_putv_veteran"
+
+	ai_weight = {
+		weight = 1
+	}
+}

@@ -79,11 +79,3 @@ component_set = {
 	icon = "zeon_melee_08"
 	icon_frame = 1
 }
-
-component_set = {
-	key = "man_08_bit_aura"
-
-	required_component_set = yes
-	icon = "man_08_bit"
-	icon_frame = 1
-}

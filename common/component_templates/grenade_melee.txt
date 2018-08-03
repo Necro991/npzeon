@@ -687,49 +687,6 @@ utility_component_template = { #MA-05 Bigro Claws
 	}
 }
 
-utility_component_template = { #MAN-08 Elmeth Bits
-	key = "man_08_bit_aura_1"
-	size = small
-	icon = "man_08_bit"
-	icon_frame = 1
-	power = 0
-	cost = 0
-
-	hostile_aura = {
-		name = "zeon_bit_1"
-		radius = 20
-		apply_on = ships
-
-		stack_info = {			#A ship can only be affected by one aura of a certain id. If multiple auras have the same ID the one with the highest priority will be applied.
-			id = zeon_bit_001
-			priority = 2
-		}
-
-		damage_per_day = {
-			accuracy = 0.5
-			damage = { min = 10 max = 20 }
-			shield_damage = 0.2
-			armor_penetration = 0.95
-		}
-
-		graphics = {
-			area_effect = {
-				entity = "circle_area_entity"
-				dynamic_scale = yes
-			}
-		}
-	}
-
-	prerequisites = { "tech_MAN_08" }
-
-	component_set = "man_08_bit_aura"
-	#upgrades_to = "oyw_zeon_pilot_putv_veteran"
-
-	ai_weight = {
-		weight = 1
-	}
-}
-
 utility_component_template = {
 	key = "efsf_grenade_aura_0"
 	size = small
