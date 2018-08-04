@@ -1293,6 +1293,49 @@ strike_craft_component_template = {
 }
 
 strike_craft_component_template = {
+	key = "EFSF_MS_STRIKE_CRAFT_RGM_79L_1" #RGM-79L GM Light
+	size = LARGE
+	entity = "gm_entity"
+
+	weapon_type = point_defence
+	projectile_gfx = "MPC2"
+	power = -56 #1250kW = 56
+	cost = 43 #36.8 tons = 23 cost + 20 for gun
+
+	count = 3
+	regeneration_per_day = 0.034
+	launch_time = 8.0
+
+	damage = { min = 25 max = 75 } #Beam Scatter Gun
+	cooldown = 5
+	range = 40
+	accuracy = 0.8
+	tracking = 0.6
+
+	health = 57
+	armor = 3
+	shield = 0
+	evasion = 0.7 #Super maneuvrable
+
+	speed = 272 #0.94G
+	rotation_speed = 0.1
+	acceleration = 0.5
+
+	shield_damage = 0.2 #MPC1
+	shield_penetration = 0
+	armor_penetration = 0.95 #lowered penetration due to weaker weapon
+
+	ship_behavior = "fighters_behavior"
+
+	icon = "GFX_ship_part_rgm_79l"
+	icon_frame = 1
+	component_set = "RGM_79L_HANGAR_1"
+	prerequisites = { "tech_RGM_79L" }
+	tags = { weapon_type_strike_craft }
+	#upgrades_to = "EFSF_MS_STRIKE_CRAFT_RGM_79C_1"
+}
+
+strike_craft_component_template = {
 	key = "EFSF_MS_STRIKE_CRAFT_RGM_79C_1" #RGM-79C GM Kai
 	size = LARGE
 	entity = "gm_c_entity"

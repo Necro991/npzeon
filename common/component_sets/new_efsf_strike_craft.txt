@@ -260,6 +260,13 @@ component_set = {
 }
 
 component_set = {
+	key = "RGM_79L_HANGAR_1"
+
+	icon = "GFX_ship_part_rgm_79l"
+	icon_frame = 1
+}
+
+component_set = {
 	key = "RGM_79C_HANGAR_1"
 
 	icon = "GFX_ship_part_rgm_79c"

@@ -1,6 +1,32 @@
 #Armor, Thrusters, Grenades, Melee
 
 utility_component_template = {
+	key = "rgm_79_armor_0"
+	size = small
+	icon = "GFX_ship_part_armor_1"
+	icon_frame = 1
+	power = 0
+	cost = -52
+
+	modifier = {
+		ship_armor_add = 68
+		ship_evasion_add = 20
+	}
+	#ship_modifier = {
+	#	ship_weapon_damage = 0.01
+	#}
+
+	prerequisites = { "tech_RGM_79L" }
+
+	component_set = "rgm_79_armor"
+	upgrades_to = "rgm_79_armor_1"
+
+	ai_weight = {
+		weight = 1
+	}
+}
+
+utility_component_template = {
 	key = "rgm_79_armor_1"
 	size = small
 	icon = "GFX_ship_part_armor_1"

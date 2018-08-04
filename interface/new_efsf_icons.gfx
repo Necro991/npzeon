@@ -131,6 +131,11 @@ spriteTypes = {
 	}
 
 	spriteType = {
+		name = "GFX_ship_part_rgm_79l"
+		texturefile = "gfx/interface/icons/ship_parts/RGM-79L.dds"
+	}
+
+	spriteType = {
 		name = "GFX_ship_part_rgm_79c"
 		texturefile = "gfx/interface/icons/ship_parts/RGM-79C.dds"
 	}
