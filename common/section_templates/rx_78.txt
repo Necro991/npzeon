@@ -1,4 +1,4 @@
-ship_section_template = { #Guncannon
+ship_section_template = { #Gundam
 	key = "RX_78_MID"
 	ship_size = RX_78
 	fits_on_slot = mid
@@ -51,7 +51,7 @@ ship_section_template = { #FA Gundam
 	entity = "fa_gundam_entity_1"
 	icon = "GFX_ship_part_core_mid"
 
-	prerequisites = { tech_RX_78_1 }
+	prerequisites = { tech_FA_78_1 }
 
 	# Guns
 	weapon_preferences = { weapon_type_z1 }
@@ -80,6 +80,34 @@ ship_section_template = { #FA Gundam
 		slot_size = point_defence
 		slot_type = weapon
 		locatorname = "small_gun_02"
+	}
+
+	component_slot = {
+		name = "TORPEDO_01"
+		slot_size = torpedo
+		slot_type = weapon
+		locatorname = "medium_gun_01"
+	}
+
+	component_slot = {
+		name = "TORPEDO_02"
+		slot_size = torpedo
+		slot_type = weapon
+		locatorname = "medium_gun_02"
+	}
+
+	component_slot = {
+		name = "TORPEDO_03"
+		slot_size = torpedo
+		slot_type = weapon
+		locatorname = "medium_gun_03"
+	}
+
+	component_slot = {
+		name = "TORPEDO_04"
+		slot_size = torpedo
+		slot_type = weapon
+		locatorname = "medium_gun_04"
 	}
 
 	small_utility_slots = 0
@@ -97,7 +125,7 @@ ship_section_template = { #FA Gundam Alt
 	entity = "fa_gundam_entity_2"
 	icon = "GFX_ship_part_core_mid"
 
-	prerequisites = { tech_RX_78_1 }
+	prerequisites = { tech_FA_78_1 }
 
 	# Guns
 	weapon_preferences = { weapon_type_z1 }
@@ -126,6 +154,34 @@ ship_section_template = { #FA Gundam Alt
 		slot_size = point_defence
 		slot_type = weapon
 		locatorname = "small_gun_02"
+	}
+
+	component_slot = {
+		name = "TORPEDO_01"
+		slot_size = torpedo
+		slot_type = weapon
+		locatorname = "medium_gun_01"
+	}
+
+	component_slot = {
+		name = "TORPEDO_02"
+		slot_size = torpedo
+		slot_type = weapon
+		locatorname = "medium_gun_02"
+	}
+
+	component_slot = {
+		name = "TORPEDO_03"
+		slot_size = torpedo
+		slot_type = weapon
+		locatorname = "medium_gun_03"
+	}
+
+	component_slot = {
+		name = "TORPEDO_04"
+		slot_size = torpedo
+		slot_type = weapon
+		locatorname = "medium_gun_04"
 	}
 
 	small_utility_slots = 0
@@ -143,7 +199,7 @@ ship_section_template = { #FA Gundam 1b
 	entity = "fa_gundam_entity_3"
 	icon = "GFX_ship_part_core_mid"
 
-	prerequisites = { tech_RX_78_1 }
+	prerequisites = { tech_FA_78_1 }
 
 	# Guns
 	weapon_preferences = { weapon_type_z1 }
@@ -172,6 +228,34 @@ ship_section_template = { #FA Gundam 1b
 		slot_size = point_defence
 		slot_type = weapon
 		locatorname = "small_gun_02"
+	}
+
+	component_slot = {
+		name = "TORPEDO_01"
+		slot_size = torpedo
+		slot_type = weapon
+		locatorname = "medium_gun_01"
+	}
+
+	component_slot = {
+		name = "TORPEDO_02"
+		slot_size = torpedo
+		slot_type = weapon
+		locatorname = "medium_gun_02"
+	}
+
+	component_slot = {
+		name = "TORPEDO_03"
+		slot_size = torpedo
+		slot_type = weapon
+		locatorname = "medium_gun_03"
+	}
+
+	component_slot = {
+		name = "TORPEDO_04"
+		slot_size = torpedo
+		slot_type = weapon
+		locatorname = "medium_gun_04"
 	}
 
 	small_utility_slots = 0
@@ -189,7 +273,7 @@ ship_section_template = { #FA Perfect Gundam
 	entity = "fa_perfect_gundam_entity"
 	icon = "GFX_ship_part_core_mid"
 
-	prerequisites = { tech_RX_78_1 }
+	prerequisites = { tech_FA_78_1 }
 
 	# Guns
 	weapon_preferences = { weapon_type_z1 }
@@ -218,6 +302,34 @@ ship_section_template = { #FA Perfect Gundam
 		slot_size = point_defence
 		slot_type = weapon
 		locatorname = "small_gun_02"
+	}
+
+	component_slot = {
+		name = "TORPEDO_01"
+		slot_size = torpedo
+		slot_type = weapon
+		locatorname = "medium_gun_01"
+	}
+
+	component_slot = {
+		name = "TORPEDO_02"
+		slot_size = torpedo
+		slot_type = weapon
+		locatorname = "medium_gun_02"
+	}
+
+	component_slot = {
+		name = "TORPEDO_03"
+		slot_size = torpedo
+		slot_type = weapon
+		locatorname = "medium_gun_03"
+	}
+
+	component_slot = {
+		name = "TORPEDO_04"
+		slot_size = torpedo
+		slot_type = weapon
+		locatorname = "medium_gun_04"
 	}
 
 	small_utility_slots = 0
@@ -230,12 +342,12 @@ ship_section_template = { #FA Perfect Gundam
 
 ship_section_template = { #Heavy Gundam
 	key = "FA_78_2_MID_1"
-	ship_size = RX_78
+	ship_size = FA_78_2
 	fits_on_slot = mid
 	entity = "fa_gundam_2_entity_1"
 	icon = "GFX_ship_part_core_mid"
 
-	prerequisites = { tech_RX_78_1 }
+	prerequisites = { tech_FA_78_2 }
 
 	# Guns
 	weapon_preferences = { weapon_type_z1 }
@@ -266,22 +378,29 @@ ship_section_template = { #Heavy Gundam
 		locatorname = "small_gun_02"
 	}
 
+	component_slot = {
+		name = "TORPEDO_01"
+		slot_size = torpedo
+		slot_type = weapon
+		locatorname = "medium_gun_01"
+	}
+
 	small_utility_slots = 0
 	medium_utility_slots = 0
 	large_utility_slots = 0
 	aux_utility_slots = 0
 
-	cost = 36
+	cost = 54
 }
 
 ship_section_template = { #Heavy Gundam
 	key = "FA_78_2_MID_2"
-	ship_size = RX_78
+	ship_size = FA_78_2
 	fits_on_slot = mid
 	entity = "fa_gundam_2_entity_4"
 	icon = "GFX_ship_part_core_mid"
 
-	prerequisites = { tech_RX_78_1 }
+	prerequisites = { tech_FA_78_2 }
 
 	# Guns
 	weapon_preferences = { weapon_type_z1 }
@@ -312,22 +431,29 @@ ship_section_template = { #Heavy Gundam
 		locatorname = "small_gun_02"
 	}
 
+	component_slot = {
+		name = "TORPEDO_01"
+		slot_size = torpedo
+		slot_type = weapon
+		locatorname = "medium_gun_01"
+	}
+
 	small_utility_slots = 0
 	medium_utility_slots = 0
 	large_utility_slots = 0
 	aux_utility_slots = 0
 
-	cost = 36
+	cost = 54
 }
 
 ship_section_template = { #Heavy Gundam
 	key = "FA_78_2_MID_3"
-	ship_size = RX_78
+	ship_size = FA_78_2
 	fits_on_slot = mid
 	entity = "fa_gundam_2_entity_5"
 	icon = "GFX_ship_part_core_mid"
 
-	prerequisites = { tech_RX_78_1 }
+	prerequisites = { tech_FA_78_2 }
 
 	# Guns
 	weapon_preferences = { weapon_type_z1 }
@@ -358,22 +484,29 @@ ship_section_template = { #Heavy Gundam
 		locatorname = "small_gun_02"
 	}
 
+	component_slot = {
+		name = "TORPEDO_01"
+		slot_size = torpedo
+		slot_type = weapon
+		locatorname = "medium_gun_01"
+	}
+
 	small_utility_slots = 0
 	medium_utility_slots = 0
 	large_utility_slots = 0
 	aux_utility_slots = 0
 
-	cost = 36
+	cost = 54
 }
 
 ship_section_template = { #Heavy Gundam Unit 2
 	key = "FA_78_2_2_MID"
-	ship_size = RX_78
+	ship_size = FA_78_2
 	fits_on_slot = mid
 	entity = "fa_gundam_2_entity_3"
 	icon = "GFX_ship_part_core_mid"
 
-	prerequisites = { tech_RX_78_1 }
+	prerequisites = { tech_FA_78_2 }
 
 	# Guns
 	weapon_preferences = { weapon_type_z1 }
@@ -404,22 +537,29 @@ ship_section_template = { #Heavy Gundam Unit 2
 		locatorname = "small_gun_02"
 	}
 
+	component_slot = {
+		name = "TORPEDO_01"
+		slot_size = torpedo
+		slot_type = weapon
+		locatorname = "medium_gun_01"
+	}
+
 	small_utility_slots = 0
 	medium_utility_slots = 0
 	large_utility_slots = 0
 	aux_utility_slots = 0
 
-	cost = 36
+	cost = 54
 }
 
 ship_section_template = { #Heavy Gundam Ingrid
 	key = "FA_78_INGRID_MID"
-	ship_size = RX_78
+	ship_size = FA_78_2
 	fits_on_slot = mid
 	entity = "fa_gundam_2_entity_2"
 	icon = "GFX_ship_part_core_mid"
 
-	prerequisites = { tech_RX_78_1 }
+	prerequisites = { tech_FA_78_2 }
 
 	# Guns
 	weapon_preferences = { weapon_type_z1 }
@@ -450,22 +590,29 @@ ship_section_template = { #Heavy Gundam Ingrid
 		locatorname = "small_gun_02"
 	}
 
+	component_slot = {
+		name = "TORPEDO_01"
+		slot_size = torpedo
+		slot_type = weapon
+		locatorname = "medium_gun_01"
+	}
+
 	small_utility_slots = 0
 	medium_utility_slots = 0
 	large_utility_slots = 0
 	aux_utility_slots = 0
 
-	cost = 36
+	cost = 54
 }
 
 ship_section_template = { #Heavy Gundam Cyphus
 	key = "FA_78_CYPHUS_MID"
-	ship_size = RX_78
+	ship_size = FA_78_2
 	fits_on_slot = mid
 	entity = "fa_gundam_2_entity_6"
 	icon = "GFX_ship_part_core_mid"
 
-	prerequisites = { tech_RX_78_1 }
+	prerequisites = { tech_FA_78_2 }
 
 	# Guns
 	weapon_preferences = { weapon_type_z1 }
@@ -496,10 +643,154 @@ ship_section_template = { #Heavy Gundam Cyphus
 		locatorname = "small_gun_02"
 	}
 
+	component_slot = {
+		name = "TORPEDO_01"
+		slot_size = torpedo
+		slot_type = weapon
+		locatorname = "medium_gun_01"
+	}
+
 	small_utility_slots = 0
 	medium_utility_slots = 0
 	large_utility_slots = 0
 	aux_utility_slots = 0
 
-	cost = 36
+	cost = 54
+}
+
+ship_section_template = { #Heavy Gundam
+	key = "HFA_78_3_MID_1"
+	ship_size = HFA_78
+	fits_on_slot = mid
+	entity = "fa_gundam_2_entity_1"
+	icon = "GFX_ship_part_core_mid"
+
+	prerequisites = { tech_HFA_78_3 }
+
+	# Guns
+	weapon_preferences = { weapon_type_z1 }
+	ai_weight = {
+		modifier = {
+			factor = 10.0
+		}
+	}
+
+	component_slot = {
+		name = "EXTRA_LARGE_01"
+		slot_size = extra_large
+		slot_type = weapon
+		locatorname = "xl_gun_01"
+	}
+
+	component_slot = {
+		name = "EXTRA_LARGE_02"
+		slot_size = extra_large
+		slot_type = weapon
+		locatorname = "xl_gun_02"
+	}
+
+	component_slot = {
+		name = "EXTRA_LARGE_03"
+		slot_size = extra_large
+		slot_type = weapon
+		locatorname = "xl_gun_03"
+	}
+
+	component_slot = {
+		name = "EXTRA_LARGE_04"
+		slot_size = extra_large
+		slot_type = weapon
+		locatorname = "xl_gun_04"
+	}
+
+	component_slot = {
+		name = "SMALL_GUN_01"
+		slot_size = point_defence
+		slot_type = weapon
+		locatorname = "small_gun_01"
+	}
+
+	component_slot = {
+		name = "SMALL_GUN_02"
+		slot_size = point_defence
+		slot_type = weapon
+		locatorname = "small_gun_02"
+	}
+
+	component_slot = {
+		name = "TORPEDO_01"
+		slot_size = torpedo
+		slot_type = weapon
+		locatorname = "medium_gun_01"
+	}
+
+	component_slot = {
+		name = "TORPEDO_02"
+		slot_size = torpedo
+		slot_type = weapon
+		locatorname = "medium_gun_02"
+	}
+
+	component_slot = {
+		name = "TORPEDO_03"
+		slot_size = torpedo
+		slot_type = weapon
+		locatorname = "medium_gun_03"
+	}
+
+	component_slot = {
+		name = "TORPEDO_04"
+		slot_size = torpedo
+		slot_type = weapon
+		locatorname = "medium_gun_04"
+	}
+
+	component_slot = {
+		name = "TORPEDO_05"
+		slot_size = torpedo
+		slot_type = weapon
+		locatorname = "medium_gun_05"
+	}
+
+	component_slot = {
+		name = "TORPEDO_06"
+		slot_size = torpedo
+		slot_type = weapon
+		locatorname = "medium_gun_06"
+	}
+
+	component_slot = {
+		name = "TORPEDO_07"
+		slot_size = torpedo
+		slot_type = weapon
+		locatorname = "medium_gun_07"
+	}
+
+	component_slot = {
+		name = "TORPEDO_08"
+		slot_size = torpedo
+		slot_type = weapon
+		locatorname = "medium_gun_08"
+	}
+
+	component_slot = {
+		name = "TORPEDO_09"
+		slot_size = torpedo
+		slot_type = weapon
+		locatorname = "medium_gun_09"
+	}
+
+	component_slot = {
+		name = "TORPEDO_10"
+		slot_size = torpedo
+		slot_type = weapon
+		locatorname = "medium_gun_10"
+	}
+
+	small_utility_slots = 0
+	medium_utility_slots = 0
+	large_utility_slots = 0
+	aux_utility_slots = 0
+
+	cost = 74
 }

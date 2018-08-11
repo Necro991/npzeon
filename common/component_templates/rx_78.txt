@@ -12,14 +12,11 @@ utility_component_template = {
 		ship_armor_add = 180
 		ship_hull_mult = -0.09
 	}
-	#ship_modifier = {
-	#	ship_weapon_damage = 0.01
-	#}
 
 	prerequisites = { "tech_RX_78_1" }
 
 	component_set = "rx_78_armor"
-	#upgrades_to = "rb_79_armor_2"
+	upgrades_to = "rx_78_armor_2"
 
 	ai_weight = {
 		weight = 1
@@ -38,14 +35,11 @@ utility_component_template = {
 		ship_armor_add = 246
 		ship_hull_mult = 0.23
 	}
-	#ship_modifier = {
-	#	ship_weapon_damage = 0.01
-	#}
 
 	prerequisites = { "tech_RX_78_4" }
 
 	component_set = "rx_78_armor"
-	#upgrades_to = "rb_79_armor_2"
+	upgrades_to = "rx_78_armor_3"
 
 	ai_weight = {
 		weight = 1
@@ -64,14 +58,11 @@ utility_component_template = {
 		ship_armor_add = 260
 		ship_hull_mult = 0.3
 	}
-	#ship_modifier = {
-	#	ship_weapon_damage = 0.01
-	#}
 
 	prerequisites = { "tech_RX_78_6" }
 
 	component_set = "rx_78_armor"
-	#upgrades_to = "rb_79_armor_2"
+	upgrades_to = "rx_78_armor_4"
 
 	ai_weight = {
 		weight = 1
@@ -90,14 +81,11 @@ utility_component_template = {
 		ship_armor_add = 249
 		ship_hull_mult = 0.12
 	}
-	#ship_modifier = {
-	#	ship_weapon_damage = 0.01
-	#}
 
 	prerequisites = { "tech_RX_78NT_1" }
 
 	component_set = "rx_78_armor"
-	#upgrades_to = "rb_79_armor_2"
+	upgrades_to = "rx_78_armor_5"
 
 	ai_weight = {
 		weight = 1
@@ -116,14 +104,10 @@ utility_component_template = {
 		ship_armor_add = 264
 		ship_hull_mult = 0.19
 	}
-	#ship_modifier = {
-	#	ship_weapon_damage = 0.01
-	#}
 
 	prerequisites = { "tech_RX_78_7" }
 
 	component_set = "rx_78_armor"
-	#upgrades_to = "rb_79_armor_2"
 
 	ai_weight = {
 		weight = 1
@@ -143,14 +127,10 @@ utility_component_template = {
 		ship_speed_mult = 0.625
 		ship_combat_speed_mult = 0.625
 	}
-	#ship_modifier = {
-	#	ship_weapon_damage = 0.01
-	#}
 
 	prerequisites = { "tech_RX_78_1" }
 
 	component_set = "rx_78_thrusters"
-	#upgrades_to = "rb_79_thrusters_2"
 
 	ai_weight = {
 		weight = 1
@@ -170,14 +150,116 @@ utility_component_template = {
 		ship_speed_mult = 2.075
 		ship_combat_speed_mult = 2.075
 	}
-	#ship_modifier = {
-	#	ship_weapon_damage = 0.01
-	#}
 
 	prerequisites = { "tech_RX_78NT_1" }
 
 	component_set = "rx_78_thrusters"
-	#upgrades_to = "rb_79_thrusters_2"
+
+	ai_weight = {
+		weight = 1
+	}
+}
+
+utility_component_template = {
+	key = "fa_78_armor_0"
+	size = small
+	icon = "GFX_ship_part_empty_ftl_drive"
+	icon_frame = 1
+	power = 0
+	cost = 0
+
+	prerequisites = { "tech_RX_78_2" }
+
+	component_set = "fa_78_armor"
+	upgrades_to = "fa_78_armor_1"
+
+	ai_weight = {
+		weight = 1
+	}
+}
+
+utility_component_template = {
+	key = "fa_78_armor_1"
+	size = small
+	icon = "GFX_ship_part_armor_1"
+	icon_frame = 1
+	power = 0
+	cost = 21
+
+	modifier = {
+		ship_armor_add = 246
+		ship_evasion_add = -35
+		ship_speed_mult = -0.032
+	}
+
+	prerequisites = { "tech_FA_78_1" }
+
+	component_set = "fa_78_armor"
+	upgrades_to = "fa_78_armor_2"
+
+	ai_weight = {
+		weight = 1
+	}
+}
+
+utility_component_template = {
+	key = "fa_78_armor_2"
+	size = small
+	icon = "GFX_ship_part_armor_2"
+	icon_frame = 1
+	power = 0
+	cost = 6
+
+	modifier = {
+		ship_armor_add = 264
+		ship_speed_mult = -0.011
+	}
+
+	prerequisites = { "tech_FA_78_3" }
+
+	component_set = "fa_78_armor"
+
+	ai_weight = {
+		weight = 1
+	}
+}
+
+utility_component_template = {
+	key = "fa_78_2_armor_1"
+	size = small
+	icon = "GFX_ship_part_armor_1"
+	icon_frame = 1
+	power = 0
+	cost = 0
+
+	modifier = {
+		ship_armor_add = 508 #4xHP
+	}
+
+	prerequisites = { "tech_FA_78_2" }
+
+	component_set = "fa_78_2_armor"
+
+	ai_weight = {
+		weight = 1
+	}
+}
+
+utility_component_template = {
+	key = "fa_78_2_thrusters_1"
+	size = small
+	icon = "GFX_ship_part_thruster_1"
+	icon_frame = 1
+	power = 0
+	cost = 0
+
+	modifier = {
+		ship_evasion_add = 70
+	}
+
+	prerequisites = { "tech_FA_78_2" }
+
+	component_set = "fa_78_2_thrusters"
 
 	ai_weight = {
 		weight = 1

@@ -2286,6 +2286,12 @@ entity = {
 	}
 
 	entity = {
+		name = "bigro_entity" #Bigro
+		pdxmesh = "Bigro_Mesh"
+		scale = 1.0
+	}
+
+	entity = {
 		name = "nt_ma_1_entity" #Elmeth
 		pdxmesh = "Elmeth_Mesh"
 		scale = 0.6

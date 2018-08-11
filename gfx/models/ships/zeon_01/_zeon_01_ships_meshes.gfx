@@ -1418,6 +1418,19 @@ objectTypes = {
 		}
 	}
 
+	pdxmesh = {
+		name = "Bigro_Mesh"
+		file = "gfx/models/ships/zeon_01/Bigro.mesh"
+
+			scale = 1.0
+					meshsettings = {
+		texture_diffuse = "Val_Varo_Diffuse.dds"
+		texture_normal = "zakuII_normal.dds"
+		texture_specular = "generic_specular.dds"
+			shader = "PdxMeshShip"
+		}
+	}
+
 	#######  corvette frame  #######
 
 	#pdxmesh = {

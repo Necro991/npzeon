@@ -363,13 +363,69 @@ tech_RX_78NT_1 = {
 	}
 }
 
+tech_FA_78_1 = {
+	area = engineering
+	cost = @tier1cost1
+	tier = 1
+	category = { materials }
+	ai_update_type = military
+	prerequisites = { "tech_RX_78_1" }
+	weight = @tier1weight1
+
+	ai_weight = {
+		factor = 2		#weapons are good
+	}
+}
+
 tech_RX_78NT_1FA = {
 	area = engineering
 	cost = @tier1cost1
 	tier = 1
 	category = { materials }
 	ai_update_type = military
-	prerequisites = { "tech_RX_78NT_1" }
+	prerequisites = { "tech_RX_78NT_1" "tech_FA_78_1" }
+	weight = @tier1weight1
+
+	ai_weight = {
+		factor = 2		#weapons are good
+	}
+}
+
+tech_FA_78_2 = {
+	area = engineering
+	cost = @tier1cost1
+	tier = 1
+	category = { materials }
+	ai_update_type = military
+	prerequisites = { "tech_FA_78_1" }
+	weight = @tier1weight1
+
+	ai_weight = {
+		factor = 2		#weapons are good
+	}
+}
+
+tech_FA_78_3 = {
+	area = engineering
+	cost = @tier1cost1
+	tier = 1
+	category = { materials }
+	ai_update_type = military
+	prerequisites = { "tech_FA_78_2" }
+	weight = @tier1weight1
+
+	ai_weight = {
+		factor = 2		#weapons are good
+	}
+}
+
+tech_HFA_78_3 = {
+	area = engineering
+	cost = @tier1cost1
+	tier = 1
+	category = { materials }
+	ai_update_type = military
+	prerequisites = { "tech_FA_78_3" }
 	weight = @tier1weight1
 
 	ai_weight = {
@@ -383,7 +439,7 @@ tech_RX_81 = {
 	tier = 1
 	category = { materials }
 	ai_update_type = military
-	prerequisites = { "tech_RX_78_7" }
+	prerequisites = { "tech_RX_78_7" "tech_FA_78_1" }
 	weight = @tier1weight1
 
 	ai_weight = {

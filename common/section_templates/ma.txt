@@ -123,7 +123,7 @@ ship_section_template = { #MA-05 Bigro
 	key = "MA_05_MID"
 	ship_size = MA_05
 	fits_on_slot = mid
-	entity = "nt_ma_1_entity"
+	entity = "bigro_entity"
 	icon = "GFX_ship_part_core_mid"
 
 	prerequisites = { tech_MA_05 }

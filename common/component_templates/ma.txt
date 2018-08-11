@@ -226,6 +226,33 @@ utility_component_template = {
 	prerequisites = { "tech_MA_05" }
 
 	component_set = "ma_05_armor"
+	upgrades_to = "ma_05_armor_2"
+
+	ai_weight = {
+		weight = 1
+	}
+}
+
+utility_component_template = {
+	key = "ma_05_armor_2"
+	size = small
+	icon = "man_08_armor"
+	icon_frame = 1
+	power = 0
+	cost = -1
+
+	modifier = {
+		ship_armor_add = 349
+		ship_hull_mult = -0.01
+		ship_evasion_add = 20
+	}
+	#ship_modifier = {
+	#	ship_weapon_damage = 0.01
+	#}
+
+	prerequisites = { "tech_MA_05M" }
+
+	component_set = "ma_05_armor"
 	#upgrades_to = "oyw_zeon_pilot_putv_veteran"
 
 	ai_weight = {
@@ -251,6 +278,33 @@ utility_component_template = {
 	#}
 
 	prerequisites = { "tech_MA_05" }
+
+	component_set = "ma_05_thrusters"
+	upgrades_to = "ma_05_thrusters_2"
+
+	ai_weight = {
+		weight = 1
+	}
+}
+
+utility_component_template = {
+	key = "ma_05_thrusters_2"
+	size = small
+	icon = "GFX_ship_part_thruster_2"
+	icon_frame = 1
+	power = 0
+	cost = 0
+
+	modifier = {
+		ship_evasion_add = 40
+		ship_speed_mult = 1.947
+		#ship_combat_speed_mult = 2.388
+	}
+	#ship_modifier = {
+	#	ship_weapon_damage = 0.01
+	#}
+
+	prerequisites = { "tech_MA_05M" }
 
 	component_set = "ma_05_thrusters"
 	#upgrades_to = "oyw_zeon_pilot_putv_veteran"
