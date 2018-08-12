@@ -465,6 +465,38 @@ component_set = {
 }
 
 component_set = {
+	key = "fa_78_thunderbolt_thrusters"
+
+	required_component_set = yes
+	icon = "GFX_ship_part_thruster_1"
+	icon_frame = 1
+}
+
+component_set = {
+	key = "fa_78_thunderbolt_armor"
+
+	required_component_set = yes
+	icon = "GFX_ship_part_armor_1"
+	icon_frame = 1
+}
+
+component_set = {
+	key = "hfa_78_3_thrusters"
+
+	required_component_set = yes
+	icon = "GFX_ship_part_thruster_1"
+	icon_frame = 1
+}
+
+component_set = {
+	key = "hfa_78_3_armor"
+
+	required_component_set = yes
+	icon = "GFX_ship_part_armor_1"
+	icon_frame = 1
+}
+
+component_set = {
 	key = "rx_81_thrusters"
 
 	required_component_set = yes

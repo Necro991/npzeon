@@ -246,6 +246,48 @@ utility_component_template = {
 }
 
 utility_component_template = {
+	key = "fa_78_thunderbolt_thrusters_1"
+	size = small
+	icon = "GFX_ship_part_thruster_1"
+	icon_frame = 1
+	power = 0
+	cost = 0
+
+	modifier = {
+		ship_evasion_add = 70
+	}
+
+	prerequisites = { "tech_FA_78_1" }
+
+	component_set = "fa_78_thunderbolt_thrusters"
+
+	ai_weight = {
+		weight = 1
+	}
+}
+
+utility_component_template = {
+	key = "fa_78_thunderbolt_armor_1"
+	size = small
+	icon = "GFX_ship_part_armor_1"
+	icon_frame = 1
+	power = 0
+	cost = 0
+
+	modifier = {
+		ship_armor_add = 572 #4xHP + 1/2HP for shields
+	}
+
+	prerequisites = { "tech_FA_78_1" }
+
+	component_set = "fa_78_thunderbolt_armor"
+
+	ai_weight = {
+		weight = 1
+	}
+}
+
+utility_component_template = {
 	key = "fa_78_2_thrusters_1"
 	size = small
 	icon = "GFX_ship_part_thruster_1"
@@ -260,6 +302,48 @@ utility_component_template = {
 	prerequisites = { "tech_FA_78_2" }
 
 	component_set = "fa_78_2_thrusters"
+
+	ai_weight = {
+		weight = 1
+	}
+}
+
+utility_component_template = {
+	key = "hfa_78_3_armor_1"
+	size = small
+	icon = "GFX_ship_part_armor_1"
+	icon_frame = 1
+	power = 0
+	cost = 0
+
+	modifier = {
+		ship_armor_add = 744 #4xHP
+	}
+
+	prerequisites = { "tech_HFA_78_3" }
+
+	component_set = "hfa_78_3_armor"
+
+	ai_weight = {
+		weight = 1
+	}
+}
+
+utility_component_template = {
+	key = "hfa_78_3_thrusters_1"
+	size = small
+	icon = "GFX_ship_part_thruster_1"
+	icon_frame = 1
+	power = 0
+	cost = 0
+
+	modifier = {
+		ship_evasion_add = 50
+	}
+
+	prerequisites = { "tech_HFA_78_3" }
+
+	component_set = "hfa_78_3_thrusters"
 
 	ai_weight = {
 		weight = 1

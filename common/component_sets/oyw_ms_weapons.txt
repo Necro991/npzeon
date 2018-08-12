@@ -237,6 +237,41 @@ component_set = {
 }
 
 component_set = {
+	key = "OYW_EFSF_DOUBLE_BEAM_RIFLE"
+
+	icon = "OYW_EFSF_BEAM_RIFLE"
+	icon_frame = 1
+}
+
+component_set = {
+	key = "OYW_EFSF_BEAM_CANNON_1"
+
+	icon = "OYW_ZEON_BEAM_CANNON"
+	icon_frame = 1
+}
+
+component_set = {
+	key = "OYW_EFSF_BEAM_CANNON_2"
+
+	icon = "OYW_ZEON_BEAM_CANNON"
+	icon_frame = 1
+}
+
+component_set = {
+	key = "OYW_EFSF_BEAM_CANNON_3"
+
+	icon = "OYW_ZEON_BEAM_CANNON"
+	icon_frame = 1
+}
+
+component_set = {
+	key = "OYW_EFSF_LR_MEGA_BEAM_CANNON"
+
+	icon = "OYW_EFSF_FRAME_LAUNCHER"
+	icon_frame = 1
+}
+
+component_set = {
 	key = "OYW_EFSF_BEAM_RIFLE"
 
 	icon = "OYW_EFSF_GM_BEAM_RIFLE"
@@ -303,6 +338,13 @@ component_set = {
 	key = "OYW_EFSF_GIANT_GATLING_GUN"
 
 	icon = "OYW_EFSF_GIANT_GATLING_GUN"
+	icon_frame = 1
+}
+
+component_set = {
+	key = "OYW_EFSF_FRAME_LAUNCHER"
+
+	icon = "OYW_EFSF_FRAME_LAUNCHER"
 	icon_frame = 1
 }
 

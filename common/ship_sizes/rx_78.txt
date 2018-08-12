@@ -48,7 +48,49 @@ RX_78 = { #Goondam
 	}
 }
 
-FA_78_2 = { #Heifer Amore Goondam
+FA_78 = { #Thunderstruck Goondam
+	formation_priority = 4
+	max_speed = 421 #121000kg/82.8t = 1.46G
+	acceleration = 0.5
+	rotation_speed = 0.455
+	collision_radius = 1
+	max_hitpoints = 127 #82.8t
+	size_multiplier = 1
+	fleet_slot_size = 16
+	section_slots = { "mid" = { locator = "part1" } }
+	num_target_locators = 4
+	is_space_station = no
+	icon_frame = 2
+	base_buildtime = 180 #Big Increase
+	graphical_culture = no
+	can_have_federation_design = yes
+	enable_default_design = no	#if yes, countries will have an auto-generated design at start
+
+	prerequisites = { "tech_FA_78_1" }
+	has_mineral_upkeep = yes
+
+	combat_disengage_chance = 1.75
+
+	class = shipclass_military
+	construction_type = starbase_shipyard
+	required_component_set = "ftl_components"
+	required_component_set = "oyw_efsf_pilot_ncn"
+	required_component_set = "gundam_melee_aura"
+	required_component_set = "gundam_melee_aura"
+	required_component_set = "efsf_grenade_aura"
+	required_component_set = "fa_78_thunderbolt_reactor"
+	required_component_set = "fa_78_thunderbolt_armor"
+	required_component_set = "fa_78_thunderbolt_thrusters"
+	required_component_set = "sensor_components"
+
+	empire_limit = {
+		base = 1
+		max = 1
+		naval_cap_div = 1
+	}
+}
+
+FA_78_2 = { #Full Amore Goondam
 	formation_priority = 4
 	max_speed = 421 #121000kg/82.8t = 1.46G
 	acceleration = 0.5
@@ -92,11 +134,11 @@ FA_78_2 = { #Heifer Amore Goondam
 
 HFA_78 = { #Heifer Full Amore Goondam
 	formation_priority = 4
-	max_speed = 170
+	max_speed = 228 #0.79G
 	acceleration = 0.5
 	rotation_speed = 0.455
 	collision_radius = 1
-	max_hitpoints = 100
+	max_hitpoints = 186
 	size_multiplier = 1
 	fleet_slot_size = 16
 	section_slots = { "mid" = { locator = "part1" } }
@@ -111,7 +153,7 @@ HFA_78 = { #Heifer Full Amore Goondam
 	prerequisites = { "tech_HFA_78_3" }
 	has_mineral_upkeep = yes
 
-	combat_disengage_chance = 1.75
+	combat_disengage_chance = 1.0
 
 	class = shipclass_military
 	construction_type = starbase_shipyard
@@ -120,10 +162,9 @@ HFA_78 = { #Heifer Full Amore Goondam
 	required_component_set = "gundam_melee_aura"
 	required_component_set = "gundam_melee_aura"
 	required_component_set = "efsf_grenade_aura"
-	required_component_set = "ms_reactor"
-	required_component_set = "rx_78_7_armor"
-	required_component_set = "hfa_78_armor"
-	required_component_set = "hfa_78_thrusters"
+	required_component_set = "hfa_78_3_reactor"
+	required_component_set = "hfa_78_3_armor"
+	required_component_set = "hfa_78_3_thrusters"
 	required_component_set = "sensor_components"
 
 	empire_limit = {

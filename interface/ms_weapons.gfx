@@ -176,6 +176,11 @@ spriteTypes = {
 	}
 
 	spriteType = {
+		name = "OYW_EFSF_FRAME_LAUNCHER"
+		texturefile = "gfx/interface/icons/ship_parts/efsf_temp_frame_launcher.dds"
+	}
+
+	spriteType = {
 		name = "OYW_EFSF_GATLING_SMASHER"
 		texturefile = "gfx/interface/icons/ship_parts/efsf_gatling_smasher.dds"
 	}

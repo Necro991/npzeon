@@ -2584,6 +2584,12 @@ entity = {
 	}
 
 	entity = {
+		name = "FA_78_entity"
+		pdxmesh = "efsf_locator_mesh"
+		scale = 1.0
+	}
+
+	entity = {
 		name = "FA_78_2_entity"
 		pdxmesh = "efsf_locator_mesh"
 		scale = 1.0

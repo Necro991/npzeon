@@ -411,7 +411,7 @@ tech_FA_78_3 = {
 	tier = 1
 	category = { materials }
 	ai_update_type = military
-	prerequisites = { "tech_FA_78_2" }
+	prerequisites = { "tech_FA_78_1" "tech_RX_78_7" }
 	weight = @tier1weight1
 
 	ai_weight = {

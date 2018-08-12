@@ -135,6 +135,24 @@ component_set = {
 }
 
 component_set = {
+	key = "fa_78_thunderbolt_reactor"
+
+	show_in_designer = no
+	required_component_set = yes
+	icon = "GFX_ship_part_ms_reactor"
+	icon_frame = 1
+}
+
+component_set = {
+	key = "hfa_78_3_reactor"
+
+	show_in_designer = no
+	required_component_set = yes
+	icon = "GFX_ship_part_ms_reactor"
+	icon_frame = 1
+}
+
+component_set = {
 	key = "ms_18e_reactor"
 
 	show_in_designer = no

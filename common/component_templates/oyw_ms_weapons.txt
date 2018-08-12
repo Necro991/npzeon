@@ -919,7 +919,7 @@ weapon_component_template = {
 	total_fire_time = 25
 	range = 90.0
 	accuracy = 0.6
-	tracking  = 002
+	tracking  = 0.2
 	type = instant
 	shield_damage = 1.33
 	armor_penetration = 0.2
@@ -935,6 +935,146 @@ weapon_component_template = {
 	projectile_gfx = "mass_driver_s"
 	tags = { weapon_type_kinetic }
 	ai_tags = { weapon_role_anti_shield }
+	#upgrades_to = "SMALL_BEAMC_2"
+}
+
+weapon_component_template = {
+	key = "OYW_EFSF_DOUBLE_BEAM_RIFLE" #Thunderbolt Gundam Weapon
+	size = point_defence
+	entity = "Zeon_Machine_Gun_01_Entity"
+	damage = { min = 220.0 max = 422.0 }
+	#windup = { min = 5.0 max = 20.0 }
+	total_fire_time = 20
+	range = 30.0
+	accuracy = 0.82
+	tracking  = 0.65
+	type = point_defence
+	shield_damage = 0.2
+	armor_penetration = 0.95
+
+	icon = "OYW_EFSF_BEAM_RIFLE"
+	icon_frame = 1
+	color = { 0.1 1.0 0.1 1 }
+	power = -3000
+	cost = 100
+	size_restriction = { FA_78 }
+	prerequisites = { "tech_FA_78_1" }
+	component_set = "OYW_EFSF_DOUBLE_BEAM_RIFLE"
+	projectile_gfx = "MPC1"
+	tags = { weapon_type_energy }
+	ai_tags = { weapon_role_anti_armor }
+	#upgrades_to = "GUNDAM_4_BEAM_RIFLE"
+}
+
+weapon_component_template = {
+	key = "OYW_EFSF_BEAM_CANNON_1"
+	size = extra_large
+	entity = "Zeon_Machine_Gun_01_Entity"
+	damage = { min = 110.0 max = 221.0 }
+	#windup = { min = 5.0 max = 20.0 }
+	total_fire_time = 25
+	range = 75.0
+	accuracy = 0.8
+	tracking  = 0.05
+	type = point_defence
+	shield_damage = 0.2
+	armor_penetration = 0.95
+
+	icon = "OYW_ZEON_BEAM_CANNON"
+	icon_frame = 1
+	color = { 0.1 1.0 0.1 1 }
+	power = -3000
+	cost = 50
+	size_restriction = { RX_78 FA_78 FA_78_2 HFA_78  }
+	prerequisites = { "tech_FA_78_1" }
+	component_set = "OYW_EFSF_BEAM_CANNON_1"
+	projectile_gfx = "MPC1"
+	tags = { weapon_type_energy }
+	ai_tags = { weapon_role_anti_armor }
+	#upgrades_to = "SMALL_BEAMC_2"
+}
+
+weapon_component_template = {
+	key = "OYW_EFSF_BEAM_CANNON_2"
+	size = extra_large
+	entity = "Zeon_Machine_Gun_01_Entity"
+	damage = { min = 148.0 max = 296.0 }
+	#windup = { min = 5.0 max = 20.0 }
+	total_fire_time = 25
+	range = 75.0
+	accuracy = 0.8
+	tracking  = 0.05
+	type = point_defence
+	shield_damage = 0.2
+	armor_penetration = 0.95
+
+	icon = "OYW_ZEON_BEAM_CANNON"
+	icon_frame = 1
+	color = { 0.1 1.0 0.1 1 }
+	power = -3000
+	cost = 75
+	size_restriction = { RX_78 HFA_78  }
+	prerequisites = { "tech_FA_78_3" }
+	component_set = "OYW_EFSF_BEAM_CANNON_2"
+	projectile_gfx = "MPC1"
+	tags = { weapon_type_energy }
+	ai_tags = { weapon_role_anti_armor }
+	#upgrades_to = "SMALL_BEAMC_2"
+}
+
+weapon_component_template = {
+	key = "OYW_EFSF_BEAM_CANNON_3"
+	size = large
+	entity = "Zeon_Machine_Gun_01_Entity"
+	damage = { min = 124.0 max = 249.0 }
+	#windup = { min = 5.0 max = 20.0 }
+	total_fire_time = 25
+	range = 75.0
+	accuracy = 0.8
+	tracking  = 0.05
+	type = point_defence
+	shield_damage = 0.2
+	armor_penetration = 0.95
+
+	icon = "OYW_ZEON_BEAM_CANNON"
+	icon_frame = 1
+	color = { 0.1 1.0 0.1 1 }
+	power = -3000
+	cost = 75
+	size_restriction = { HFA_78  }
+	prerequisites = { "tech_HFA_78_3" }
+	component_set = "OYW_EFSF_BEAM_CANNON_3"
+	projectile_gfx = "MPC1"
+	tags = { weapon_type_energy }
+	ai_tags = { weapon_role_anti_armor }
+	#upgrades_to = "SMALL_BEAMC_2"
+}
+
+weapon_component_template = {
+	key = "OYW_EFSF_LR_MEGA_BEAM_CANNON"
+	size = extra_large
+	entity = "Zeon_Machine_Gun_01_Entity"
+	damage = { min = 249.0 max = 498.0 }
+	windup = { min = 5.0 max = 10.0 }
+	total_fire_time = 30
+	range = 110.0
+	accuracy = 0.6
+	tracking  = 0.2
+	type = instant
+	shield_damage = 0.2
+	armor_penetration = 0.95
+
+	icon = "OYW_EFSF_FRAME_LAUNCHER"
+	icon_frame = 1
+	color = { 0.1 1.0 0.1 1 }
+	power = -3000
+	cost = 100
+	size_restriction = { HFA_78 }
+	prerequisites = { "tech_HFA_78_3" }
+	component_set = "OYW_EFSF_LR_MEGA_BEAM_CANNON"
+	projectile_gfx = "MPC1"
+	tags = { weapon_type_energy }
+	ai_tags = { weapon_role_anti_armor }
 	#upgrades_to = "SMALL_BEAMC_2"
 }
 
@@ -957,7 +1097,7 @@ weapon_component_template = {
 	color = { 0.1 1.0 0.1 1 }
 	power = -3000
 	cost = 25
-	size_restriction = { RGM_79 RGM_79S RGM_79SC }
+	size_restriction = { RX_78 FA_78_2 HFA_78 RGM_79 RGM_79S RGM_79SC }
 	prerequisites = { "tech_RGM_79C" }
 	component_set = "OYW_EFSF_GM_180MM"
 	projectile_gfx = "mass_driver_s"
@@ -1013,7 +1153,7 @@ weapon_component_template = {
 	color = { 0.1 1.0 0.1 1 }
 	power = -3000
 	cost = 30
-	size_restriction = { RX_78 FA_78_2 }
+	size_restriction = { RX_78 FA_78 FA_78_2 HFA_78 }
 	prerequisites = { "tech_RX_78_1" }
 	component_set = "OYW_EFSF_GUNDAM_BEAM_RIFLE"
 	projectile_gfx = "MPC1"
@@ -1041,7 +1181,7 @@ weapon_component_template = {
 	color = { 0.1 1.0 0.1 1 }
 	power = -3000
 	cost = 35
-	size_restriction = { RX_78 }
+	size_restriction = { RX_78 FA_78 FA_78_2 HFA_78 }
 	prerequisites = { "tech_RX_78_4" }
 	component_set = "GUNDAM_4_BEAM_RIFLE"
 	projectile_gfx = "MPC1"
@@ -1069,7 +1209,7 @@ weapon_component_template = {
 	color = { 0.1 1.0 0.1 1 }
 	power = -3000
 	cost = 40
-	size_restriction = { RX_78 }
+	size_restriction = { RX_78 HFA_78 }
 	prerequisites = { "tech_RX_78_7" }
 	component_set = "GUNDAM_7_BEAM_RIFLE"
 	projectile_gfx = "MPC1"
@@ -1237,7 +1377,7 @@ weapon_component_template = {
 	color = { 0.1 1.0 0.1 1 }
 	power = -3000
 	cost = 40
-	size_restriction = { RX_78 }
+	size_restriction = { RX_78 FA_78 FA_78_2 HFA_78 }
 	prerequisites = { "tech_RX_78_5" }
 	component_set = "OYW_EFSF_GIANT_GATLING_GUN"
 	projectile_gfx = "auto_cannons_s"
@@ -1272,6 +1412,34 @@ weapon_component_template = {
 	tags = { weapon_type_energy }
 	ai_tags = { weapon_role_anti_armor }
 	#upgrades_to = "SMALL_BEAMC_2"
+}
+
+weapon_component_template = {
+	key = "OYW_EFSF_FRAME_LAUNCHER"
+	size = point_defence
+	entity = "Zeon_Machine_Gun_01_Entity"
+	damage = { min = 10.0 max = 25.0 }
+	windup = { min = 2.5 max = 5.0 }
+	total_fire_time = 1
+	range = 60.0 #Longer range than Gatling cannons
+	accuracy = 0.7
+	tracking  = 0.6
+	type = point_defence
+	shield_damage = 1.0
+	armor_penetration = 0.1
+
+	icon = "OYW_EFSF_FRAME_LAUNCHER"
+	icon_frame = 1
+	color = { 0.1 1.0 0.1 1 }
+	power = -3000
+	cost = 50
+	size_restriction = { FA_78_2 }
+	prerequisites = { "tech_FA_78_2" }
+	component_set = "OYW_EFSF_FRAME_LAUNCHER"
+	projectile_gfx = "auto_cannons_s"
+	tags = { weapon_type_kinetic }
+	ai_tags = { weapon_role_anti_shield }
+	#upgrades_to = "OYW_ZEON_105MM"
 }
 
 weapon_component_template = {
@@ -1350,7 +1518,7 @@ weapon_component_template = {
 	color = { 0.1 1.0 0.1 1 }
 	power = -3000
 	cost = 10
-	size_restriction = { RX_77 RX_78 FA_78_2 RX_81 RX_81FC RGM_79 RGM_79S RGM_79SC RGM_79FP RGM_79FC }
+	size_restriction = { RX_77 RX_78 FA_78 FA_78_2 HFA_78 RX_81 RX_81FC RGM_79 RGM_79S RGM_79SC RGM_79FP RGM_79FC }
 	prerequisites = { "tech_RGM_79E" }
 	component_set = "OYW_EFSF_90MM"
 	projectile_gfx = "auto_cannons_s"
@@ -1378,7 +1546,7 @@ weapon_component_template = {
 	color = { 0.1 1.0 0.1 1 }
 	power = -3000
 	cost = 15
-	size_restriction = { RX_77 RX_78 FA_78_2 RX_81 RX_81FC RGM_79 RGM_79S RGM_79SC RGM_79FP RGM_79FC }
+	size_restriction = { RX_77 RX_78 FA_78 FA_78_2 HFA_78 RX_81 RX_81FC RGM_79 RGM_79S RGM_79SC RGM_79FP RGM_79FC }
 	prerequisites = { "tech_RGM_79" }
 	component_set = "OYW_EFSF_100MM"
 	projectile_gfx = "auto_cannons_s"
@@ -1406,7 +1574,7 @@ weapon_component_template = {
 	color = { 0.1 1.0 0.1 1 }
 	power = -3000
 	cost = 15
-	size_restriction = { RX_77 RX_78 FA_78_2 RX_81 RX_81FC RGM_79 RGM_79S RGM_79SC RGM_79FP RGM_79FC }
+	size_restriction = { RX_77 RX_78 FA_78 FA_78_2 HFA_78 RX_81 RX_81FC RGM_79 RGM_79S RGM_79SC RGM_79FP RGM_79FC }
 	prerequisites = { "tech_RX_81" }
 	component_set = "OYW_EFSF_SHOTGUN"
 	projectile_gfx = "auto_cannons_s"
@@ -1462,7 +1630,7 @@ weapon_component_template = {
 	color = { 0.1 1.0 0.1 1 }
 	power = -3000
 	cost = 25
-	size_restriction = { RX_77 RX_78 FA_78_2 RX_81 RX_81FC RGM_79 RGM_79S RGM_79SC RGM_79FP RGM_79FC }
+	size_restriction = { RX_77 RX_78 FA_78 FA_78_2 HFA_78 RX_81 RX_81FC RGM_79 RGM_79S RGM_79SC RGM_79FP RGM_79FC }
 	prerequisites = { "tech_RGM_79" }
 	component_set = "OYW_EFSF_380MM"
 	projectile_gfx = "gundam_missile"
