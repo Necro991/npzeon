@@ -939,10 +939,10 @@ weapon_component_template = {
 }
 
 weapon_component_template = {
-	key = "OYW_EFSF_DOUBLE_BEAM_RIFLE" #Thunderbolt Gundam Weapon
+	key = "OYW_EFSF_DOUBLE_BEAM_RIFLE" #Full Armor Gundam Weapon
 	size = point_defence
 	entity = "Zeon_Machine_Gun_01_Entity"
-	damage = { min = 220.0 max = 422.0 }
+	damage = { min = 221.0 max = 442.0 }
 	#windup = { min = 5.0 max = 20.0 }
 	total_fire_time = 20
 	range = 30.0
@@ -957,7 +957,7 @@ weapon_component_template = {
 	color = { 0.1 1.0 0.1 1 }
 	power = -3000
 	cost = 100
-	size_restriction = { FA_78 }
+	size_restriction = { RX_78 FA_78 }
 	prerequisites = { "tech_FA_78_1" }
 	component_set = "OYW_EFSF_DOUBLE_BEAM_RIFLE"
 	projectile_gfx = "MPC1"
@@ -1365,7 +1365,7 @@ weapon_component_template = {
 	damage = { min = 10.0 max = 25.0 }
 	windup = { min = 2.5 max = 5.0 }
 	total_fire_time = 1
-	range = 40.0
+	range = 20.0
 	accuracy = 0.7
 	tracking  = 0.6
 	type = point_defence
@@ -1421,7 +1421,7 @@ weapon_component_template = {
 	damage = { min = 10.0 max = 25.0 }
 	windup = { min = 2.5 max = 5.0 }
 	total_fire_time = 1
-	range = 60.0 #Longer range than Gatling cannons
+	range = 30.0 #Longer range than Gatling cannons
 	accuracy = 0.7
 	tracking  = 0.6
 	type = point_defence

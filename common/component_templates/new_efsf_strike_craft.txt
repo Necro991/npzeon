@@ -1121,6 +1121,135 @@ strike_craft_component_template = {
 }
 
 strike_craft_component_template = {
+	key = "EFSF_MS_STRIKE_CRAFT_FA_78_1" #FA-78-1 Full Armor Gundam
+	size = LARGE
+	entity = "fa_gundam_entity_1"
+
+	weapon_type = point_defence
+	projectile_gfx = "MPC2"
+	power = -20 #1380kW = 61 / 3 = 20
+	cost = 71 #93.1 tons = 57 * 2 cost + 100 for gun / 3 = 55
+
+	count = 1
+	regeneration_per_day = 0.034
+	launch_time = 8.0
+
+	damage = { min = 221 max = 442 } #1 Beam Rifle - Large MPC
+	cooldown = 20
+	range = 30
+	accuracy = 0.82
+	tracking = 0.65
+
+	health = 143
+	armor = 25 #Gundamium + FA
+	shield = 0
+	evasion = 0.3 #Poor Mobility
+
+	speed = 187.29 #0.65G
+	rotation_speed = 0.1
+	acceleration = 0.5
+
+	shield_damage = 0.2 #MPC1
+	shield_penetration = 0
+	armor_penetration = 0.95
+
+	ship_behavior = "fighters_behavior"
+
+	icon = "GFX_ship_part_rx_78nt_1fa"
+	icon_frame = 1
+	component_set = "FA_78_1_HANGAR_1"
+	prerequisites = { "tech_FA_78_1" }
+	tags = { weapon_type_strike_craft }
+	upgrades_to = "EFSF_MS_STRIKE_CRAFT_FA_78_2"
+}
+
+strike_craft_component_template = {
+	key = "EFSF_MS_STRIKE_CRAFT_FA_78_2" #FA-78-2 Heavy Gundam
+	size = LARGE
+	entity = "fa_gundam_entity_1"
+
+	weapon_type = point_defence
+	projectile_gfx = "MPC2"
+	power = -20 #1380kW = 61 / 3 = 20
+	cost = 51 #82.55 tons = 51 * 2 cost + 50 for gun / 3 = 55
+
+	count = 1
+	regeneration_per_day = 0.034
+	launch_time = 8.0
+
+	damage = { min = 10 max = 25 } #1 Beam Rifle - Large MPC
+	cooldown = 1
+	range = 30
+	accuracy = 0.7
+	tracking = 0.6
+
+	health = 127
+	armor = 25 #Gundamium + FA
+	shield = 0
+	evasion = 0.7
+
+	speed = 421 #1.46G
+	rotation_speed = 0.1
+	acceleration = 0.5
+
+	shield_damage = 1.0 #Gatling
+	shield_penetration = 0
+	armor_penetration = 0.1
+
+	ship_behavior = "fighters_behavior"
+
+	icon = "GFX_ship_part_rx_78nt_1fa"
+	icon_frame = 1
+	component_set = "FA_78_2_HANGAR_1"
+	prerequisites = { "tech_FA_78_2" }
+	tags = { weapon_type_strike_craft }
+	upgrades_to = "EFSF_MS_STRIKE_CRAFT_FA_78_3"
+}
+
+strike_craft_component_template = {
+	key = "EFSF_MS_STRIKE_CRAFT_FA_78_3" #FA-78-3 Full Armor 7th Gundam
+	size = LARGE
+	entity = "fa_gundam_entity_1"
+
+	weapon_type = point_defence
+	projectile_gfx = "MPC2"
+	power = -27 #1850kW = 82 / 3 = 27
+	cost = 62 #88.7 tons = 55 * 2 cost + 75 for gun / 3 = 55
+
+	count = 1
+	regeneration_per_day = 0.034
+	launch_time = 8.0
+
+	damage = { min = 148 max = 296 } #Long Range Beam Cannon
+	cooldown = 25
+	range = 75
+	accuracy = 0.8
+	tracking = 0.05
+
+	health = 136
+	armor = 25 #Gundamium + FA
+	shield = 0
+	evasion = 0.65
+
+	speed = 254 #0.88G
+	rotation_speed = 0.1
+	acceleration = 0.5
+
+	shield_damage = 0.2 #MPC1
+	shield_penetration = 0
+	armor_penetration = 0.95
+
+	ship_behavior = "fighters_behavior"
+
+	icon = "GFX_ship_part_rx_78nt_1fa"
+	icon_frame = 1
+	component_set = "FA_78_3_HANGAR_1"
+	prerequisites = { "tech_FA_78_3" }
+	tags = { weapon_type_strike_craft }
+	#upgrades_to = "EFSF_MS_STRIKE_CRAFT_RX_78_3"
+}
+
+strike_craft_component_template = {
 	key = "EFSF_MS_STRIKE_CRAFT_RX_178" #RX-178 Gundam Mk2
 	size = LARGE
 	entity = "efsf_fighter_1_entity"

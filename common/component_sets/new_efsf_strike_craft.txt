@@ -141,6 +141,20 @@ component_set = {
 }
 
 component_set = {
+	key = "FA_78_1_HANGAR_1"
+
+	icon = "GFX_ship_part_rx_78nt_1fa"
+	icon_frame = 1
+}
+
+component_set = {
+	key = "FA_78_2_HANGAR_1"
+
+	icon = "GFX_ship_part_rx_78nt_1fa"
+	icon_frame = 1
+}
+
+component_set = {
 	key = "RX_78_4_HANGAR_1"
 
 	icon = "GFX_ship_part_rx_78_4"
@@ -165,6 +179,13 @@ component_set = {
 	key = "RX_78_7_HANGAR_1"
 
 	icon = "GFX_ship_part_rx_78_7"
+	icon_frame = 1
+}
+
+component_set = {
+	key = "FA_78_3_HANGAR_1"
+
+	icon = "GFX_ship_part_rx_78nt_1fa"
 	icon_frame = 1
 }
 

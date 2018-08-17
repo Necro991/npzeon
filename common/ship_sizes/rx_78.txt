@@ -90,7 +90,7 @@ FA_78 = { #Thunderstruck Goondam
 	}
 }
 
-FA_78_2 = { #Full Amore Goondam
+FA_78_2 = { #Heifer Goondam
 	formation_priority = 4
 	max_speed = 421 #121000kg/82.8t = 1.46G
 	acceleration = 0.5
