@@ -260,14 +260,14 @@ component_set = {
 component_set = {
 	key = "OYW_EFSF_BEAM_CANNON_3"
 
-	icon = "OYW_ZEON_BEAM_CANNON"
+	icon = "OYW_EFSF_BEAM_CANNON_1"
 	icon_frame = 1
 }
 
 component_set = {
 	key = "OYW_EFSF_LR_MEGA_BEAM_CANNON"
 
-	icon = "OYW_EFSF_FRAME_LAUNCHER"
+	icon = "OYW_EFSF_BEAM_CANNON_2"
 	icon_frame = 1
 }
 

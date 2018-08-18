@@ -1036,7 +1036,7 @@ weapon_component_template = {
 	shield_damage = 0.2
 	armor_penetration = 0.95
 
-	icon = "OYW_ZEON_BEAM_CANNON"
+	icon = "OYW_EFSF_BEAM_CANNON_1"
 	icon_frame = 1
 	color = { 0.1 1.0 0.1 1 }
 	power = -3000
@@ -1064,7 +1064,7 @@ weapon_component_template = {
 	shield_damage = 0.2
 	armor_penetration = 0.95
 
-	icon = "OYW_EFSF_FRAME_LAUNCHER"
+	icon = "OYW_EFSF_BEAM_CANNON_2"
 	icon_frame = 1
 	color = { 0.1 1.0 0.1 1 }
 	power = -3000

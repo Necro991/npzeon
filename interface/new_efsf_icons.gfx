@@ -121,6 +121,21 @@ spriteTypes = {
 	}
 
 	spriteType = {
+		name = "GFX_ship_part_fa_78_1"
+		texturefile = "gfx/interface/icons/ship_parts/FA-78-1.dds"
+	}
+
+	spriteType = {
+		name = "GFX_ship_part_fa_78_2"
+		texturefile = "gfx/interface/icons/ship_parts/FA-78-2.dds"
+	}
+
+	spriteType = {
+		name = "GFX_ship_part_fa_78_3"
+		texturefile = "gfx/interface/icons/ship_parts/FA-78-3.dds"
+	}
+
+	spriteType = {
 		name = "GFX_ship_part_rgm_79e"
 		texturefile = "gfx/interface/icons/ship_parts/RGM-79E.dds"
 	}

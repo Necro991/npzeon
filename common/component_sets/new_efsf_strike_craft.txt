@@ -143,14 +143,14 @@ component_set = {
 component_set = {
 	key = "FA_78_1_HANGAR_1"
 
-	icon = "GFX_ship_part_rx_78nt_1fa"
+	icon = "GFX_ship_part_fa_78_1"
 	icon_frame = 1
 }
 
 component_set = {
 	key = "FA_78_2_HANGAR_1"
 
-	icon = "GFX_ship_part_rx_78nt_1fa"
+	icon = "GFX_ship_part_fa_78_2"
 	icon_frame = 1
 }
 
@@ -185,7 +185,7 @@ component_set = {
 component_set = {
 	key = "FA_78_3_HANGAR_1"
 
-	icon = "GFX_ship_part_rx_78nt_1fa"
+	icon = "GFX_ship_part_fa_78_3"
 	icon_frame = 1
 }
 

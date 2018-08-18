@@ -26,6 +26,7 @@ pop_faction_name_parts_list = {
 	parts = {
 		"Chimera Corps Veterans Association" = 1
 		"The Sleeves Movement" = 1
+		"The Oldsmobile" = 1
 	}
 }
 
@@ -131,7 +132,7 @@ pop_faction_name_format = {
 			is_pop_faction_type = "supremacist"
 		}
 	}
-	format = "[This.Owner.GetSpeciesName] <zeon_supremacist_names>"
+	format = "<zeon_supremacist_names>"
 }
 
 pop_faction_name_parts_list = {

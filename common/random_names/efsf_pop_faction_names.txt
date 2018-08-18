@@ -2,6 +2,7 @@ pop_faction_name_parts_list = {
 	key = "fed_totalitarian_names"
 	parts = {
 		"Titans Hardliners" = 5
+		"New Desides" = 1
 	}
 }
 
@@ -146,7 +147,7 @@ pop_faction_name_format = {
 			is_pop_faction_type = "supremacist"
 		}
 	}
-	format = "[This.Owner.GetSpeciesName] <fed_supremacist_names>"
+	format = "<fed_supremacist_names>"
 }
 
 pop_faction_name_parts_list = {
