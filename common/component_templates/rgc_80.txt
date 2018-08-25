@@ -1,0 +1,116 @@
+#Armor, Thrusters, Grenades, Melee
+
+utility_component_template = {
+	key = "rgc_80_armor_1"
+	size = small
+	icon = "GFX_ship_part_armor_1"
+	icon_frame = 1
+	power = 0
+	cost = 0
+
+	modifier = {
+		ship_armor_add = 52
+		ship_hull_mult = 0.34
+	}
+
+	prerequisites = { "tech_RGC_80" }
+
+	component_set = "rgc_80_armor"
+	upgrades_to = "rgc_80_armor_2"
+
+	ai_weight = {
+		weight = 1
+	}
+}
+
+utility_component_template = {
+	key = "rgc_80_armor_2"
+	size = small
+	icon = "GFX_ship_part_armor_2"
+	icon_frame = 1
+	power = 0
+	cost = -6
+
+	modifier = {
+		ship_armor_add = 140
+		ship_hull_mult = 0.93
+	}
+
+	prerequisites = { "tech_RGC_80S" }
+
+	component_set = "rgc_80_armor"
+	upgrades_to = "rgc_80_armor_3"
+
+	ai_weight = {
+		weight = 1
+	}
+}
+
+utility_component_template = {
+	key = "rgc_80_armor_3" #RGC-83 GM Cannon II
+	size = small
+	icon = "GFX_ship_part_armor_3"
+	icon_frame = 1
+	power = 0
+	cost = 0
+
+	modifier = {
+		ship_armor_add = 216
+		ship_hull_mult = 1.03
+		ship_evasion_add = -20
+		ship_speed_mult = -0.11
+	}
+
+	prerequisites = { "tech_RGC_83" }
+
+	component_set = "rgc_80_armor"
+
+	ai_weight = {
+		weight = 1
+	}
+}
+
+utility_component_template = {
+	key = "rgc_80_thrusters_1"
+	size = small
+	icon = "GFX_ship_part_thruster_1"
+	icon_frame = 1
+	power = 0
+	cost = 0
+
+	modifier = {
+		ship_evasion_add = 45
+		ship_speed_mult = 0.4
+	}
+
+	prerequisites = { "tech_RGC_80" }
+
+	component_set = "rgc_80_thrusters"
+	upgrades_to = "rgc_80_thrusters_2"
+
+	ai_weight = {
+		weight = 1
+	}
+}
+
+utility_component_template = {
+	key = "rgc_80_thrusters_2"
+	size = small
+	icon = "GFX_ship_part_thruster_2"
+	icon_frame = 1
+	power = 0
+	cost = 0
+
+	modifier = {
+		ship_evasion_add = 50
+		ship_speed_mult = 0.65
+	}
+
+	prerequisites = { "tech_RGC_80S" }
+
+	component_set = "rgc_80_thrusters"
+
+	ai_weight = {
+		weight = 1
+	}
+}

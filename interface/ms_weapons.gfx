@@ -121,6 +121,11 @@ spriteTypes = {
 	}
 
 	spriteType = {
+		name = "OYW_EFSF_360MM"
+		texturefile = "gfx/interface/icons/ship_parts/efsf_360.dds"
+	}
+
+	spriteType = {
 		name = "OYW_EFSF_GM_BEAM_RIFLE"
 		texturefile = "gfx/interface/icons/ship_parts/efsf_gm_br.dds"
 	}

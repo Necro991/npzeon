@@ -2602,6 +2602,12 @@ entity = {
 	}
 
 	entity = {
+		name = "RGC_80_entity"
+		pdxmesh = "efsf_locator_mesh"
+		scale = 1.0
+	}
+
+	entity = {
 		name = "RX_81_entity"
 		pdxmesh = "efsf_locator_mesh"
 		scale = 1.0

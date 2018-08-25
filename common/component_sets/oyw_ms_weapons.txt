@@ -230,6 +230,20 @@ component_set = {
 }
 
 component_set = {
+	key = "OYW_EFSF_360MM_1"
+
+	icon = "OYW_EFSF_360MM"
+	icon_frame = 1
+}
+
+component_set = {
+	key = "OYW_EFSF_360MM_2"
+
+	icon = "OYW_EFSF_360MM"
+	icon_frame = 1
+}
+
+component_set = {
 	key = "OYW_EFSF_GM_180MM"
 
 	icon = "OYW_ZEON_180MM_1"
@@ -261,6 +275,13 @@ component_set = {
 	key = "OYW_EFSF_BEAM_CANNON_3"
 
 	icon = "OYW_EFSF_BEAM_CANNON_1"
+	icon_frame = 1
+}
+
+component_set = {
+	key = "OYW_EFSF_BEAM_CANNON_4"
+
+	icon = "OYW_ZEON_BEAM_CANNON"
 	icon_frame = 1
 }
 

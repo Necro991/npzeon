@@ -5,7 +5,7 @@
 # STANDARD #
 ############
 
-RX_77 = { #RX-77 Guncannon
+RGC_80 = { #RGC-80 GM Cannon
 	formation_priority = 4
 	max_speed = 170
 	acceleration = 0.5
@@ -23,7 +23,7 @@ RX_77 = { #RX-77 Guncannon
 	can_have_federation_design = yes
 	enable_default_design = no	#if yes, countries will have an auto-generated design at start
 
-	prerequisites = { "tech_RX_77_1A" }
+	prerequisites = { "tech_RGC_80" }
 	has_mineral_upkeep = yes
 
 	combat_disengage_chance = 1.75
@@ -33,9 +33,9 @@ RX_77 = { #RX-77 Guncannon
 	required_component_set = "ftl_components"
 	required_component_set = "oyw_efsf_pilot_putv"
 	required_component_set = "efsf_grenade_aura"
-	required_component_set = "rx_77_reactor"
-	required_component_set = "rx_77_armor"
-	required_component_set = "rx_77_thrusters"
+	required_component_set = "rgc_80_reactor"
+	required_component_set = "rgc_80_armor"
+	required_component_set = "rgc_80_thrusters"
 	required_component_set = "sensor_components"
 
 	empire_limit = {
