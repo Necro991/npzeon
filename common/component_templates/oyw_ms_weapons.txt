@@ -946,8 +946,8 @@ weapon_component_template = {
 	#windup = { min = 5.0 max = 10.0 }
 	total_fire_time = 25
 	range = 100.0
-	accuracy = 0.5
-	tracking  = 0.0
+	accuracy = 0.6
+	tracking  = 0.2
 	type = instant
 	shield_damage = 1.33
 	armor_penetration = 0.2
