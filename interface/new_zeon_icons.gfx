@@ -141,6 +141,16 @@ spriteTypes = {
 	}
 
 	spriteType = {
+		name = "GFX_ship_part_ems_10"
+		texturefile = "gfx/interface/icons/ship_parts/EMS-10.dds"
+	}
+
+	spriteType = {
+		name = "GFX_ship_part_ems_10f"
+		texturefile = "gfx/interface/icons/ship_parts/EMS-10F.dds"
+	}
+
+	spriteType = {
 		name = "GFX_ship_part_amx_009"
 		texturefile = "gfx/interface/icons/ship_parts/AMX-009.dds"
 	}

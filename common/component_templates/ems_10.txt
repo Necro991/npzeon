@@ -1,0 +1,67 @@
+#Armor, Thrusters, Grenades, Melee
+
+utility_component_template = {
+	key = "ems_10_armor_1"
+	size = small
+	icon = "GFX_ship_part_armor_1"
+	icon_frame = 1
+	power = 0
+	cost = 0
+
+	modifier = {
+		ship_armor_add = 177
+	}
+
+	prerequisites = { "tech_EMS_10" }
+
+	component_set = "ems_10_armor"
+	#upgrades_to = "oyw_zeon_pilot_putv_veteran"
+
+	ai_weight = {
+		weight = 1
+	}
+}
+
+utility_component_template = {
+	key = "ems_10_thrusters_1"
+	size = small
+	icon = "GFX_ship_part_thruster_1"
+	icon_frame = 1
+	power = 0
+	cost = 0
+
+	modifier = {
+		ship_evasion_add = 50
+	}
+
+	prerequisites = { "tech_EMS_10" }
+
+	component_set = "ems_10_thrusters"
+	#upgrades_to = "oyw_zeon_pilot_putv_veteran"
+
+	ai_weight = {
+		weight = 1
+	}
+}
+
+utility_component_template = {
+	key = "ems_10_thrusters_2"
+	size = small
+	icon = "GFX_ship_part_thruster_2"
+	icon_frame = 1
+	power = 0
+	cost = 10
+
+	modifier = {
+		ship_evasion_add = 70
+	}
+
+	prerequisites = { "tech_EMS_10F" }
+
+	component_set = "ems_10_thrusters"
+	#upgrades_to = "oyw_zeon_pilot_putv_veteran"
+
+	ai_weight = {
+		weight = 1
+	}
+}

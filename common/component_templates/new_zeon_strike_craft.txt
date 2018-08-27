@@ -2152,6 +2152,135 @@ strike_craft_component_template = {
 }
 
 strike_craft_component_template = {
+	key = "ZEON_MS_STRIKE_CRAFT_EMS_10_1" #EMS-10 Zudah
+	size = LARGE
+	entity = "fighter_2z_entity"
+
+	weapon_type = point_defence
+	projectile_gfx = "auto_cannons_s"
+	power = -51 #1150kW
+	cost = 62 #73.3 tons = 47 tons + 15 for gun
+
+	count = 3
+	regeneration_per_day = 0.034
+	launch_time = 8.0
+
+	damage = { min = 10 max = 25 } #120mm
+	cooldown = 5
+	range = 20
+	accuracy = 0.82
+	tracking = 0.65
+
+	health = 118
+	armor = 10
+	shield = 0
+	evasion = 0.5
+
+	speed = 219 #0.76G
+	rotation_speed = 0.1
+	acceleration = 0.5
+
+	shield_damage = 0.95 #MEDIUM AUTOCANNON
+	shield_penetration = 0
+	armor_penetration = 0.1
+
+	ship_behavior = "fighters_behavior"
+
+	icon = "GFX_ship_part_ems_10"
+	icon_frame = 1
+	component_set = "EMS_10_HANGAR_1"
+	prerequisites = { "tech_MS_06F" }
+	tags = { weapon_type_strike_craft }
+	#upgrades_to = "tech_EMS_10"
+}
+
+strike_craft_component_template = {
+	key = "ZEON_MS_STRIKE_CRAFT_EMS_10_2" #EMS-10 Zudah
+	size = LARGE
+	entity = "fighter_2z_entity"
+
+	weapon_type = instant
+	projectile_gfx = "gundam_missile"
+	power = -42 #1150kW
+	cost = 67 #73.3 tons = 47 tons + 20 for bazooka
+
+	count = 3
+	regeneration_per_day = 0.034
+	launch_time = 8.0
+
+	damage = { min = 45 max = 80 } #280mm Bazooka
+	cooldown = 20
+	range = 50
+	accuracy = 0.75
+	tracking = 0.2
+
+	health = 118
+	armor = 10
+	shield = 0
+	evasion = 0.5
+
+	speed = 219 #0.76G
+	rotation_speed = 0.1
+	acceleration = 0.5
+
+	shield_damage = 0.95 #MEDIUM MISSILE
+	shield_penetration = 0
+	armor_penetration = 0.25
+
+	ship_behavior = "fighters_behavior"
+
+	icon = "GFX_ship_part_ems_10"
+	icon_frame = 1
+	component_set = "EMS_10_HANGAR_2"
+	prerequisites = { "tech_EMS_10" }
+	tags = { weapon_type_strike_craft }
+	#upgrades_to = "ZEON_MS_STRIKE_CRAFT_MS_06F2_2"
+}
+
+strike_craft_component_template = {
+	key = "ZEON_MS_STRIKE_CRAFT_EMS_10F_1" #EMS-10 Zudah
+	size = LARGE
+	entity = "fighter_2z_entity"
+
+	weapon_type = point_defence
+	projectile_gfx = "mass_driver_s"
+	power = -51 #1150kW
+	cost = 62 #73.3 tons = 47 tons + 50 for gun
+
+	count = 3
+	regeneration_per_day = 0.034
+	launch_time = 8.0
+
+	damage = { min = 100 max = 200 } #135MM Anti-ship rifle
+	cooldown = 35
+	range = 90
+	accuracy = 0.6
+	tracking = 0.8
+
+	health = 118
+	armor = 10
+	shield = 0
+	evasion = 0.7
+
+	speed = 219 #0.76G
+	rotation_speed = 0.1
+	acceleration = 0.7
+
+	shield_damage = 0.95 #MEDIUM AUTOCANNON
+	shield_penetration = 0
+	armor_penetration = 0.1
+
+	ship_behavior = "fighters_behavior"
+
+	icon = "GFX_ship_part_ems_10f"
+	icon_frame = 1
+	component_set = "EMS_10F_HANGAR_1"
+	prerequisites = { "tech_EMS_10F" }
+	tags = { weapon_type_strike_craft }
+	#upgrades_to = "tech_EMS_10"
+}
+
+strike_craft_component_template = {
 	key = "ZEON_MS_STRIKE_CRAFT_AMX_009_1" #AMX-009 Dreissen
 	size = LARGE
 	entity = "bomber_5z_entity"

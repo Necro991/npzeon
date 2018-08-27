@@ -363,6 +363,20 @@ tech_EMS_10 = {
 	}
 }
 
+tech_EMS_10F = {
+	area = engineering
+	cost = @tier1cost1
+	tier = 1
+	category = { materials }
+	ai_update_type = military
+	prerequisites = { "tech_EMS_10" }
+	weight = @tier1weight1
+
+	ai_weight = {
+		factor = 2		#weapons are good
+	}
+}
+
 tech_MS_15A = {
 	area = engineering
 	cost = @tier1cost1
