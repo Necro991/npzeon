@@ -2189,7 +2189,7 @@ strike_craft_component_template = {
 	icon = "GFX_ship_part_ems_10"
 	icon_frame = 1
 	component_set = "EMS_10_HANGAR_1"
-	prerequisites = { "tech_MS_06F" }
+	prerequisites = { "tech_EMS_10" }
 	tags = { weapon_type_strike_craft }
 	#upgrades_to = "tech_EMS_10"
 }
