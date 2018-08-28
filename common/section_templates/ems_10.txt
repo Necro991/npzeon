@@ -2,7 +2,7 @@ ship_section_template = {
 	key = "EMS_10_MID"
 	ship_size = EMS_10
 	fits_on_slot = mid
-	entity = "zeon_ms_1_S3_entity"
+	entity = "zudah_trio_entity"
 	icon = "GFX_ship_part_core_mid"
 
 	# Guns
@@ -46,7 +46,7 @@ ship_section_template = {
 	key = "EMS_10S_MID"
 	ship_size = EMS_10S
 	fits_on_slot = mid
-	entity = "zaku2_aznable_entity"
+	entity = "zudah_commander_entity"
 	icon = "GFX_ship_part_core_mid"
 
 	# Guns

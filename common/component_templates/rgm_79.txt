@@ -47,7 +47,7 @@ utility_component_template = {
 	upgrades_to = "rgm_79_armor_2"
 
 	ai_weight = {
-		weight = 1
+		weight = 2
 	}
 }
 
@@ -73,7 +73,7 @@ utility_component_template = {
 	upgrades_to = "rgm_79_armor_3"
 
 	ai_weight = {
-		weight = 1
+		weight = 3
 	}
 }
 
@@ -99,7 +99,7 @@ utility_component_template = {
 	upgrades_to = "rgm_79_armor_4"
 
 	ai_weight = {
-		weight = 1
+		weight = 4
 	}
 }
 
@@ -125,7 +125,7 @@ utility_component_template = {
 	upgrades_to = "rgm_79_armor_5"
 
 	ai_weight = {
-		weight = 1
+		weight = 5
 	}
 }
 
@@ -152,7 +152,7 @@ utility_component_template = {
 	upgrades_to = "rgm_79_armor_6"
 
 	ai_weight = {
-		weight = 1
+		weight = 6
 	}
 }
 
@@ -180,7 +180,7 @@ utility_component_template = {
 	upgrades_to = "rgm_79_armor_7"
 
 	ai_weight = {
-		weight = 1
+		weight = 7
 	}
 }
 
@@ -206,7 +206,7 @@ utility_component_template = {
 	#upgrades_to = "rb_79_armor_2"
 
 	ai_weight = {
-		weight = 1
+		weight = 8
 	}
 }
 
@@ -260,7 +260,7 @@ utility_component_template = {
 	upgrades_to = "rgm_79_thrusters_3"
 
 	ai_weight = {
-		weight = 1
+		weight = 2
 	}
 }
 
@@ -287,7 +287,7 @@ utility_component_template = {
 	upgrades_to = "rgm_79_thrusters_4"
 
 	ai_weight = {
-		weight = 1
+		weight = 3
 	}
 }
 
@@ -314,7 +314,7 @@ utility_component_template = {
 	upgrades_to = "rgm_79_thrusters_5"
 
 	ai_weight = {
-		weight = 1
+		weight = 4
 	}
 }
 
@@ -341,7 +341,7 @@ utility_component_template = {
 	upgrades_to = "rgm_79_thrusters_6"
 
 	ai_weight = {
-		weight = 1
+		weight = 5
 	}
 }
 
@@ -367,7 +367,7 @@ utility_component_template = {
 	#upgrades_to = "rb_79_thrusters_2"
 
 	ai_weight = {
-		weight = 1
+		weight = 6
 	}
 }
 
@@ -419,7 +419,7 @@ utility_component_template = {
 	#upgrades_to = "rgm_79sc_armor_2"
 
 	ai_weight = {
-		weight = 1
+		weight = 2
 	}
 }
 
@@ -471,7 +471,7 @@ utility_component_template = {
 	#upgrades_to = "rgm_79sc_thrusters_2"
 
 	ai_weight = {
-		weight = 1
+		weight = 2
 	}
 }
 
@@ -549,6 +549,6 @@ utility_component_template = {
 	#upgrades_to = "rgm_79sc_thrusters_2"
 
 	ai_weight = {
-		weight = 1
+		weight = 2
 	}
 }

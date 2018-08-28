@@ -3,7 +3,7 @@
 utility_component_template = {
 	key = "ms_15_armor_1"
 	size = small
-	icon = "ms_14_armor_1"
+	icon = "GFX_ship_part_armor_1"
 	icon_frame = 1
 	power = 0
 	cost = 0
@@ -29,7 +29,7 @@ utility_component_template = {
 utility_component_template = {
 	key = "ms_15_armor_2"
 	size = small
-	icon = "ms_14_armor_2"
+	icon = "GFX_ship_part_armor_2"
 	icon_frame = 1
 	power = 0
 	cost = 6
@@ -48,14 +48,14 @@ utility_component_template = {
 	#upgrades_to = "oyw_zeon_pilot_putv_veteran"
 
 	ai_weight = {
-		weight = 1
+		weight = 2
 	}
 }
 
 utility_component_template = {
 	key = "ms_15_armor_3"
 	size = small
-	icon = "ms_14_armor_3"
+	icon = "GFX_ship_part_armor_3"
 	icon_frame = 1
 	power = 0
 	cost = 15
@@ -74,14 +74,14 @@ utility_component_template = {
 	#upgrades_to = "oyw_zeon_pilot_putv_veteran"
 
 	ai_weight = {
-		weight = 1
+		weight = 3
 	}
 }
 
 utility_component_template = {
 	key = "ms_15_armor_4"
 	size = small
-	icon = "ms_14_armor_4"
+	icon = "GFX_ship_part_armor_4"
 	icon_frame = 1
 	power = 0
 	cost = 12
@@ -100,7 +100,7 @@ utility_component_template = {
 	#upgrades_to = "oyw_zeon_pilot_putv_veteran"
 
 	ai_weight = {
-		weight = 1
+		weight = 4
 	}
 }
 
@@ -152,7 +152,7 @@ utility_component_template = {
 	#upgrades_to = "oyw_zeon_pilot_putv_veteran"
 
 	ai_weight = {
-		weight = 1
+		weight = 2
 	}
 }
 
@@ -178,6 +178,6 @@ utility_component_template = {
 	#upgrades_to = "oyw_zeon_pilot_putv_veteran"
 
 	ai_weight = {
-		weight = 1
+		weight = 3
 	}
 }

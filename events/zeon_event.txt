@@ -51,7 +51,7 @@ country_event = {
 	}
 
 	option = {
-		name = zeontech_dialogue_4
+		name = zeontech_dialogue_2
 		give_technology = { tech = tech_EFSF_BEAMC_1 }
 		give_technology = { tech = tech_RB_79 }
 		give_technology = { tech = tech_EFSF }
@@ -80,7 +80,7 @@ country_event = {
 	}
 
 	option = {
-		name = zeontech_dialogue_5
+		name = zeontech_dialogue_3
 		give_technology = { tech = tech_BEAMC_1 }
 		give_technology = { tech = tech_EFSF_BEAMC_1 }
 		give_technology = { tech = tech_MS_05B }
@@ -132,7 +132,7 @@ country_event = {
 	}
 
 	option = {
-		name = zeontech_dialogue_6
+		name = zeontech_dialogue_4
 	}
 
 	#mean_time_to_happen = {

@@ -3,7 +3,7 @@
 utility_component_template = {
 	key = "ms_17_armor_1"
 	size = small
-	icon = "ms_14_armor_1"
+	icon = "GFX_ship_part_armor_1"
 	icon_frame = 1
 	power = 0
 	cost = 0
@@ -29,7 +29,7 @@ utility_component_template = {
 utility_component_template = {
 	key = "ms_17_armor_2"
 	size = small
-	icon = "ms_14_armor_2"
+	icon = "GFX_ship_part_armor_2"
 	icon_frame = 1
 	power = 0
 	cost = 15
@@ -48,7 +48,7 @@ utility_component_template = {
 	#upgrades_to = "oyw_zeon_pilot_putv_veteran"
 
 	ai_weight = {
-		weight = 1
+		weight = 2
 	}
 }
 
@@ -100,6 +100,6 @@ utility_component_template = {
 	#upgrades_to = "oyw_zeon_pilot_putv_veteran"
 
 	ai_weight = {
-		weight = 1
+		weight = 2
 	}
 }

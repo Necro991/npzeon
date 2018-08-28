@@ -677,6 +677,19 @@ objectTypes = {
 	}
 
 	pdxmesh = {
+			name = "Zudah_mesh"
+			file = "gfx/models/ships/zeon_01/ZakuII_Equipped.mesh"
+
+			scale = 4.0
+			meshsettings = {
+				texture_diffuse = "Zudah_Diffuse.dds"
+				texture_normal = "zakuII_normal.dds"
+				texture_specular = "zakuII_specular.dds"
+				shader = "PdxMeshShip"
+		}
+	}
+
+	pdxmesh = {
 			name = "Zaku_II_HMT_Reuse_mesh" #THUNDERBOLT
 			file = "gfx/models/ships/zeon_01/Zaku_II_HMT_Reuse.mesh"
 
@@ -1088,6 +1101,30 @@ objectTypes = {
 		scale = 5.0
 		meshsettings = {
 		texture_diffuse = "ZakuII_Matsunaga_Diffuse_2.dds"
+		texture_normal = "zakuII_normal.dds" #Zaku_Normal
+		texture_specular = "Zaku_Specular.dds"
+			shader = "PdxMeshShip"
+		}
+	}
+
+	pdxmesh = { #Zudah Trio
+		name = "Zudah_Trio_mesh"
+		file = "gfx/models/ships/zeon_01/Z_Tier1_01.mesh"
+		scale = 5.0
+		meshsettings = {
+		texture_diffuse = "Zudah_Diffuse.dds"
+		texture_normal = "zakuII_normal.dds" #Zaku_Normal
+		texture_specular = "Zaku_Specular.dds"
+			shader = "PdxMeshShip"
+		}
+	}
+
+	pdxmesh = { #Zudah Commander
+		name = "Zudah_Commander_mesh"
+		file = "gfx/models/ships/zeon_01/ZakuIIS.mesh"
+		scale = 5.0
+		meshsettings = {
+		texture_diffuse = "Zudah_S_Diffuse.dds"
 		texture_normal = "zakuII_normal.dds" #Zaku_Normal
 		texture_specular = "Zaku_Specular.dds"
 			shader = "PdxMeshShip"

@@ -42,7 +42,7 @@ utility_component_template = {
 	upgrades_to = "rx_78_armor_3"
 
 	ai_weight = {
-		weight = 1
+		weight = 2
 	}
 }
 
@@ -65,7 +65,7 @@ utility_component_template = {
 	upgrades_to = "rx_78_armor_4"
 
 	ai_weight = {
-		weight = 1
+		weight = 3
 	}
 }
 
@@ -88,7 +88,7 @@ utility_component_template = {
 	upgrades_to = "rx_78_armor_5"
 
 	ai_weight = {
-		weight = 1
+		weight = 4
 	}
 }
 
@@ -110,7 +110,7 @@ utility_component_template = {
 	component_set = "rx_78_armor"
 
 	ai_weight = {
-		weight = 1
+		weight = 5
 	}
 }
 
@@ -156,7 +156,7 @@ utility_component_template = {
 	component_set = "rx_78_thrusters"
 
 	ai_weight = {
-		weight = 1
+		weight = 2
 	}
 }
 
@@ -198,7 +198,7 @@ utility_component_template = {
 	upgrades_to = "fa_78_armor_2"
 
 	ai_weight = {
-		weight = 1
+		weight = 2
 	}
 }
 
@@ -220,7 +220,7 @@ utility_component_template = {
 	component_set = "fa_78_armor"
 
 	ai_weight = {
-		weight = 1
+		weight = 3
 	}
 }
 

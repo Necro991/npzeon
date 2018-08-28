@@ -62,6 +62,6 @@ utility_component_template = {
 	#upgrades_to = "oyw_zeon_pilot_putv_veteran"
 
 	ai_weight = {
-		weight = 1
+		weight = 2
 	}
 }

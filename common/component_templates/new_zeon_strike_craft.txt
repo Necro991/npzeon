@@ -2154,7 +2154,7 @@ strike_craft_component_template = {
 strike_craft_component_template = {
 	key = "ZEON_MS_STRIKE_CRAFT_EMS_10_1" #EMS-10 Zudah
 	size = LARGE
-	entity = "fighter_2z_entity"
+	entity = "zudah_single_entity"
 
 	weapon_type = point_defence
 	projectile_gfx = "auto_cannons_s"
@@ -2197,7 +2197,7 @@ strike_craft_component_template = {
 strike_craft_component_template = {
 	key = "ZEON_MS_STRIKE_CRAFT_EMS_10_2" #EMS-10 Zudah
 	size = LARGE
-	entity = "fighter_2z_entity"
+	entity = "zudah_single_entity"
 
 	weapon_type = instant
 	projectile_gfx = "gundam_missile"
@@ -2240,7 +2240,7 @@ strike_craft_component_template = {
 strike_craft_component_template = {
 	key = "ZEON_MS_STRIKE_CRAFT_EMS_10F_1" #EMS-10 Zudah
 	size = LARGE
-	entity = "fighter_2z_entity"
+	entity = "zudah_single_entity"
 
 	weapon_type = point_defence
 	projectile_gfx = "mass_driver_s"

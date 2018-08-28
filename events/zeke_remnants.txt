@@ -1,8 +1,0 @@
-#namespace = zeke
-
-# Feddie Remnants
-#country_event = {
-#	id = zeke.1
-#	title = "zeke.1.name"
-#	picture = GFX_evt_Zeon_Remnants
-#	show_sound = event_space_battle

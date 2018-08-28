@@ -55,7 +55,7 @@ utility_component_template = {
 	#upgrades_to = "oyw_zeon_pilot_putv_veteran"
 
 	ai_weight = {
-		weight = 1
+		weight = 2
 	}
 }
 
@@ -98,7 +98,7 @@ utility_component_template = {
 	#upgrades_to = "oyw_zeon_pilot_putv_veteran"
 
 	ai_weight = {
-		weight = 1
+		weight = 3
 	}
 }
 
@@ -159,7 +159,7 @@ utility_component_template = {
 	#upgrades_to = "oyw_zeon_pilot_putv_veteran"
 
 	ai_weight = {
-		weight = 1
+		weight = 2
 	}
 }
 
@@ -206,7 +206,7 @@ utility_component_template = {
 	#upgrades_to = "oyw_zeon_pilot_putv_veteran"
 
 	ai_weight = {
-		weight = 1
+		weight = 3
 	}
 }
 
@@ -249,7 +249,7 @@ utility_component_template = {
 	#upgrades_to = "oyw_zeon_pilot_putv_veteran"
 
 	ai_weight = {
-		weight = 1
+		weight = 4
 	}
 }
 
@@ -292,7 +292,7 @@ utility_component_template = {
 	#upgrades_to = "oyw_zeon_pilot_putv_veteran"
 
 	ai_weight = {
-		weight = 1
+		weight = 5
 	}
 }
 
@@ -339,7 +339,7 @@ utility_component_template = {
 	#upgrades_to = "oyw_zeon_pilot_putv_veteran"
 
 	ai_weight = {
-		weight = 1
+		weight = 6
 	}
 }
 
@@ -382,7 +382,7 @@ utility_component_template = {
 	#upgrades_to = "oyw_zeon_pilot_putv_veteran"
 
 	ai_weight = {
-		weight = 1
+		weight = 7
 	}
 }
 
@@ -597,7 +597,7 @@ utility_component_template = {
 	#upgrades_to = "oyw_zeon_pilot_putv_veteran"
 
 	ai_weight = {
-		weight = 1
+		weight = 2
 	}
 }
 
@@ -744,7 +744,7 @@ utility_component_template = {
 	#upgrades_to = "oyw_zeon_pilot_putv_veteran"
 
 	ai_weight = {
-		weight = 1
+		weight = 2
 	}
 }
 
@@ -805,7 +805,7 @@ utility_component_template = {
 	#upgrades_to = "oyw_gundam_pilot_putv_veteran"
 
 	ai_weight = {
-		weight = 1
+		weight = 2
 	}
 }
 
@@ -848,7 +848,7 @@ utility_component_template = {
 	#upgrades_to = "oyw_gundam_pilot_putv_veteran"
 
 	ai_weight = {
-		weight = 1
+		weight = 3
 	}
 }
 
@@ -891,7 +891,7 @@ utility_component_template = {
 	#upgrades_to = "oyw_gundam_pilot_putv_veteran"
 
 	ai_weight = {
-		weight = 1
+		weight = 4
 	}
 }
 
@@ -952,7 +952,7 @@ utility_component_template = {
 	#upgrades_to = "oyw_efsf_pilot_putv_veteran"
 
 	ai_weight = {
-		weight = 1
+		weight = 2
 	}
 }
 
@@ -999,7 +999,7 @@ utility_component_template = {
 	#upgrades_to = "oyw_efsf_pilot_putv_veteran"
 
 	ai_weight = {
-		weight = 1
+		weight = 3
 	}
 }
 
@@ -1042,7 +1042,7 @@ utility_component_template = {
 	#upgrades_to = "oyw_efsf_pilot_putv_veteran"
 
 	ai_weight = {
-		weight = 1
+		weight = 4
 	}
 }
 
@@ -1128,7 +1128,7 @@ utility_component_template = {
 	#upgrades_to = "oyw_striker_pilot_putv_veteran"
 
 	ai_weight = {
-		weight = 1
+		weight = 2
 	}
 }
 
@@ -1171,6 +1171,6 @@ utility_component_template = {
 	#upgrades_to = "oyw_striker_pilot_putv_veteran"
 
 	ai_weight = {
-		weight = 1
+		weight = 3
 	}
 }

@@ -23,25 +23,6 @@ zeonic = {
 	country_modifier = {
 		navy_size_add = 50
 		shipsize_zeon_MS_P_construction_speed_mult = 0.1
-		shipsize_neo_MS_scout_construction_speed_mult = 0.1
-		shipsize_neo_MS_1_construction_speed_mult = 0.1
-		shipsize_neo_MS_2_construction_speed_mult = 0.1
-		shipsize_neo_MS_3_construction_speed_mult = 0.1
-		shipsize_neo_MS_4_construction_speed_mult = 0.1
-		shipsize_neo_MS_5_construction_speed_mult = 0.1
-		shipsize_zeon_MS_scout_construction_speed_mult = 0.1
-		shipsize_zeon_MS_1_construction_speed_mult = 0.1
-		shipsize_zeon_MS_2_construction_speed_mult = 0.1
-		shipsize_zeon_MS_3_construction_speed_mult = 0.1
-		shipsize_zeon_MS_4_construction_speed_mult = 0.1
-		shipsize_zeon_MS_5_construction_speed_mult = 0.1
-		shipsize_zeon_MS_P_construction_speed_mult = 0.1
-		shipsize_axis_MS_scout_construction_speed_mult = 0.1
-		shipsize_axis_MS_1_construction_speed_mult = 0.1
-		shipsize_axis_MS_2_construction_speed_mult = 0.1
-		shipsize_axis_MS_3_construction_speed_mult = 0.1
-		shipsize_axis_MS_4_construction_speed_mult = 0.1
-		shipsize_axis_MS_5_construction_speed_mult = 0.1
 	}
 
 	#produced_resource_trigger = {
@@ -104,26 +85,6 @@ zimmad = {
 
 	country_modifier = {
 		navy_size_add = 50
-		shipsize_zeon_MS_P_build_cost_mult = -0.1
-		shipsize_neo_MS_scout_build_cost_mult = -0.1
-		shipsize_neo_MS_1_build_cost_mult = -0.1
-		shipsize_neo_MS_2_build_cost_mult = -0.1
-		shipsize_neo_MS_3_build_cost_mult = -0.1
-		shipsize_neo_MS_4_build_cost_mult = -0.1
-		shipsize_neo_MS_5_build_cost_mult = -0.1
-		shipsize_zeon_MS_scout_build_cost_mult = -0.1
-		shipsize_zeon_MS_1_build_cost_mult = -0.1
-		shipsize_zeon_MS_2_build_cost_mult = -0.1
-		shipsize_zeon_MS_3_build_cost_mult = -0.1
-		shipsize_zeon_MS_4_build_cost_mult = -0.1
-		shipsize_zeon_MS_5_build_cost_mult = -0.1
-		shipsize_zeon_MS_P_build_cost_mult = -0.1
-		shipsize_axis_MS_scout_build_cost_mult = -0.1
-		shipsize_axis_MS_1_build_cost_mult = -0.1
-		shipsize_axis_MS_2_build_cost_mult = -0.1
-		shipsize_axis_MS_3_build_cost_mult = -0.1
-		shipsize_axis_MS_4_build_cost_mult = -0.1
-		shipsize_axis_MS_5_build_cost_mult = -0.1
 	}
 
 	#produced_resource_trigger = {

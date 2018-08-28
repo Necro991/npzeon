@@ -51,7 +51,7 @@ utility_component_template = {
 	#upgrades_to = "rb_79_armor_2"
 
 	ai_weight = {
-		weight = 1
+		weight = 2
 	}
 }
 
@@ -79,7 +79,7 @@ utility_component_template = {
 	#upgrades_to = "rb_79_armor_2"
 
 	ai_weight = {
-		weight = 1
+		weight = 3
 	}
 }
 
