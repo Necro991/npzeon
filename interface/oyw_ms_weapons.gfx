@@ -1,0 +1,278 @@
+spriteTypes = {
+
+	spriteType = {
+		name = "OYW_ZEON_100MM"
+		texturefile = "gfx/interface/icons/ship_parts/zeon_100.dds"
+	}
+
+	spriteType = {
+		name = "OYW_ZEON_105MM"
+		texturefile = "gfx/interface/icons/ship_parts/zeon_105.dds"
+	}
+
+	spriteType = {
+		name = "OYW_ZEON_120MM"
+		texturefile = "gfx/interface/icons/ship_parts/zeon_120.dds"
+	}
+
+	spriteType = {
+		name = "OYW_ZEON_90MM"
+		texturefile = "gfx/interface/icons/ship_parts/zeon_90.dds"
+	}
+
+	spriteType = {
+		name = "OYW_ZEON_40MM"
+		texturefile = "gfx/interface/icons/ship_parts/zeon_40.dds"
+	}
+
+	spriteType = {
+		name = "OYW_ZEON_175MM"
+		texturefile = "gfx/interface/icons/ship_parts/zeon_175.dds"
+	}
+
+	spriteType = {
+		name = "OYW_ZEON_135MM"
+		texturefile = "gfx/interface/icons/ship_parts/zeon_135.dds"
+	}
+
+	spriteType = {
+		name = "OYW_ZEON_120MM_GATLING"
+		texturefile = "gfx/interface/icons/ship_parts/zeon_gatling_cannon.dds"
+	}
+
+	spriteType = {
+		name = "OYW_ZEON_HOWITZER"
+		texturefile = "gfx/interface/icons/ship_parts/zeon_howitzer.dds"
+	}
+
+	spriteType = {
+		name = "OYW_ZEON_BEAM_CANNON"
+		texturefile = "gfx/interface/icons/ship_parts/zeon_beam_cannon.dds"
+	}
+
+	spriteType = {
+		name = "STURMFAUST"
+		texturefile = "gfx/interface/icons/ship_parts/Sturmfaust.dds"
+	}
+
+	spriteType = {
+		name = "OYW_ZEON_280MM"
+		texturefile = "gfx/interface/icons/ship_parts/zeon_280.dds"
+	}
+
+	spriteType = {
+		name = "OYW_ZEON_360MM"
+		texturefile = "gfx/interface/icons/ship_parts/zeon_360.dds"
+	}
+
+	spriteType = {
+		name = "OYW_ZEON_420MM"
+		texturefile = "gfx/interface/icons/ship_parts/zeon_420.dds"
+	}
+
+	spriteType = {
+		name = "OYW_ZEON_SHOTGUN"
+		texturefile = "gfx/interface/icons/ship_parts/zeon_shotgun.dds"
+	}
+
+	spriteType = {
+		name = "OYW_ZEON_BEAM_RIFLE_0"
+		texturefile = "gfx/interface/icons/ship_parts/zeon_beam_rifle_0.dds"
+	}
+
+	spriteType = {
+		name = "OYW_ZEON_BEAM_RIFLE_1"
+		texturefile = "gfx/interface/icons/ship_parts/zeon_beam_rifle_1.dds"
+	}
+
+	spriteType = {
+		name = "OYW_ZEON_BEAM_MG"
+		texturefile = "gfx/interface/icons/ship_parts/zeon_beam_mg.dds"
+	}
+
+	spriteType = {
+		name = "OYW_ZEON_BEAM_BAZOOKA"
+		texturefile = "gfx/interface/icons/ship_parts/zeon_beam_bazooka.dds"
+	}
+
+	spriteType = {
+		name = "OYW_ZEON_180MM_1"
+		texturefile = "gfx/interface/icons/ship_parts/efsf_180_1.dds"
+	}
+
+	spriteType = {
+		name = "OYW_ZEON_180MM_2"
+		texturefile = "gfx/interface/icons/ship_parts/efsf_180_2.dds"
+	}
+
+	spriteType = {
+		name = "OYW_ZEON_180MM_3"
+		texturefile = "gfx/interface/icons/ship_parts/efsf_180_3.dds"
+	}
+
+	spriteType = {
+		name = "OYW_EFSF_120MM"
+		texturefile = "gfx/interface/icons/ship_parts/efsf_120.dds"
+	}
+
+	spriteType = {
+		name = "OYW_EFSF_240MM"
+		texturefile = "gfx/interface/icons/ship_parts/efsf_240.dds"
+	}
+
+	spriteType = {
+		name = "OYW_EFSF_300MM"
+		texturefile = "gfx/interface/icons/ship_parts/efsf_300.dds"
+	}
+
+	spriteType = {
+		name = "OYW_EFSF_360MM"
+		texturefile = "gfx/interface/icons/ship_parts/efsf_360.dds"
+	}
+
+	spriteType = {
+		name = "OYW_EFSF_GM_BEAM_RIFLE"
+		texturefile = "gfx/interface/icons/ship_parts/efsf_gm_br.dds"
+	}
+
+	spriteType = {
+		name = "OYW_EFSF_BEAM_RIFLE"
+		texturefile = "gfx/interface/icons/ship_parts/efsf_beam_rifle.dds"
+	}
+
+	spriteType = {
+		name = "0083_GM_Q_SHORT_BEAM_RIFLE"
+		texturefile = "gfx/interface/icons/ship_parts/efsf_gm_short_br.dds"
+	}
+
+	spriteType = {
+		name = "OYW_EFSF_GM_CARBINE"
+		texturefile = "gfx/interface/icons/ship_parts/efsf_beam_carbine.dds"
+	}
+
+	spriteType = {
+		name = "OYW_EFSF_GM_C_LR_BEAM_RIFLE"
+		texturefile = "gfx/interface/icons/ship_parts/efsf_gm_lr_br.dds"
+	}
+
+	spriteType = {
+		name = "GUNDAM_4_BEAM_RIFLE"
+		texturefile = "gfx/interface/icons/ship_parts/efsf_gundam_br_2.dds"
+	}
+
+	spriteType = {
+		name = "GUNDAM_7_BEAM_RIFLE"
+		texturefile = "gfx/interface/icons/ship_parts/efsf_gundam_br_3.dds"
+	}
+
+	spriteType = {
+		name = "GUNCANNON_BEAM_RIFLE"
+		texturefile = "gfx/interface/icons/ship_parts/efsf_rx_77_br.dds"
+	}
+
+	spriteType = {
+		name = "ZETA_GM_BEAM_RIFLE"
+		texturefile = "gfx/interface/icons/ship_parts/efsf_gm_br.dds"
+	}
+
+	spriteType = {
+		name = "OYW_EFSF_MEGA_BEAM_LAUNCHER"
+		texturefile = "gfx/interface/icons/ship_parts/efsf_mbl.dds"
+	}
+
+	spriteType = {
+		name = "OYW_EFSF_GIANT_GATLING_GUN"
+		texturefile = "gfx/interface/icons/ship_parts/efsf_gatling_gun.dds"
+	}
+
+	spriteType = {
+		name = "OYW_EFSF_FRAME_LAUNCHER"
+		texturefile = "gfx/interface/icons/ship_parts/efsf_frame_launcher.dds"
+	}
+
+	spriteType = {
+		name = "OYW_EFSF_GATLING_SMASHER"
+		texturefile = "gfx/interface/icons/ship_parts/efsf_gatling_smasher.dds"
+	}
+
+	spriteType = {
+		name = "OYW_EFSF_MISSILE_LAUNCHER"
+		texturefile = "gfx/interface/icons/ship_parts/efsf_missile_launcher.dds"
+	}
+
+	spriteType = {
+		name = "OYW_EFSF_BEAM_CANNON_1"
+		texturefile = "gfx/interface/icons/ship_parts/efsf_beam_cannon_1.dds"
+	}
+
+	spriteType = {
+		name = "OYW_EFSF_BEAM_CANNON_2"
+		texturefile = "gfx/interface/icons/ship_parts/efsf_beam_cannon_2.dds"
+	}
+
+	spriteType = {
+		name = "OYW_EFSF_90MM"
+		texturefile = "gfx/interface/icons/ship_parts/efsf_90.dds"
+	}
+
+	spriteType = {
+		name = "OYW_EFSF_100MM"
+		texturefile = "gfx/interface/icons/ship_parts/efsf_100.dds"
+	}
+
+	spriteType = {
+		name = "OYW_EFSF_SHOTGUN"
+		texturefile = "gfx/interface/icons/ship_parts/efsf_shotgun.dds"
+	}
+
+	spriteType = {
+		name = "OYW_EFSF_BEAM_SCATTER"
+		texturefile = "gfx/interface/icons/ship_parts/efsf_beam_scatter.dds"
+	}
+
+	spriteType = {
+		name = "OYW_EFSF_380MM"
+		texturefile = "gfx/interface/icons/ship_parts/efsf_380.dds"
+	}
+
+	spriteType = {
+		name = "ma_04x_mpc"
+		texturefile = "gfx/interface/icons/ship_parts/ma_04x_mpc.dds"
+	}
+
+	spriteType = {
+		name = "ma_05_mpc"
+		texturefile = "gfx/interface/icons/ship_parts/ma_05_mpc.dds"
+	}
+
+	spriteType = {
+		name = "ma_05ad_mpc"
+		texturefile = "gfx/interface/icons/ship_parts/ma_05ad_mpc.dds"
+	}
+
+	spriteType = {
+		name = "ma_06_mpc"
+		texturefile = "gfx/interface/icons/ship_parts/ma_06_mpc.dds"
+	}
+
+	spriteType = {
+		name = "ma_08_mpc"
+		texturefile = "gfx/interface/icons/ship_parts/ma_08_mpc.dds"
+	}
+
+	spriteType = {
+		name = "man_03_mpc"
+		texturefile = "gfx/interface/icons/ship_parts/man_03_mpc.dds"
+	}
+
+	spriteType = {
+		name = "man_08_mpc"
+		texturefile = "gfx/interface/icons/ship_parts/man_08_mpc.dds"
+	}
+
+	spriteType = {
+		name = "msn_02_mpc"
+		texturefile = "gfx/interface/icons/ship_parts/msn_02_mpc.dds"
+	}
+
+}

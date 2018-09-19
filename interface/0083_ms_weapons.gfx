@@ -1,0 +1,8 @@
+spriteTypes = {
+
+	spriteType = {
+		name = "GP01_BEAM_RIFLE"
+		texturefile = "gfx/interface/icons/ship_parts/gp01_beam_rifle.dds"
+	}
+
+}

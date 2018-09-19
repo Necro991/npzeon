@@ -1,0 +1,167 @@
+#reloadable with 'reload stats'
+# This file is where you start when you want to configure something new, then go to sections
+
+############
+# STANDARD #
+############
+
+RX_78GP01_Fb = { #RX-78GP01-Fb Gundam Zephyranthes Full Burnern
+	formation_priority = 4
+	max_speed = 911
+	acceleration = 0.5
+	rotation_speed = 0.455
+	collision_radius = 1
+	max_hitpoints = 114
+	size_multiplier = 1
+	fleet_slot_size = 16
+	section_slots = { "mid" = { locator = "part1" } }
+	num_target_locators = 4
+	is_space_station = no
+	icon_frame = 2
+	base_buildtime = 30
+	graphical_culture = no
+	can_have_federation_design = yes
+	enable_default_design = no	#if yes, countries will have an auto-generated design at start
+
+	prerequisites = { "tech_RX_78GP01Fb" }
+	has_mineral_upkeep = yes
+
+	combat_disengage_chance = 1.75
+
+	class = shipclass_military
+	construction_type = starbase_shipyard
+	required_component_set = "ftl_components"
+	required_component_set = "0083_efsf_pilot_vuta"
+	required_component_set = "gp_00_melee"
+	required_component_set = "ms_reactor"
+	required_component_set = "rx_78gp_01_armor"
+	required_component_set = "fa_78gp_01_armor"
+	required_component_set = "rx_78gp_01_thrusters"
+	required_component_set = "sensor_components"
+
+	empire_limit = {
+		base = 1
+		max = 1
+		naval_cap_div = 1
+	}
+}
+
+RX_78GP02 = { #RX-78GP01-Fb Gundam Zephyranthes Full Burnern
+	formation_priority = 4
+	max_speed = 911
+	acceleration = 0.5
+	rotation_speed = 0.455
+	collision_radius = 1
+	max_hitpoints = 114
+	size_multiplier = 1
+	fleet_slot_size = 16
+	section_slots = { "mid" = { locator = "part1" } }
+	num_target_locators = 4
+	is_space_station = no
+	icon_frame = 2
+	base_buildtime = 30
+	graphical_culture = no
+	can_have_federation_design = yes
+	enable_default_design = no	#if yes, countries will have an auto-generated design at start
+
+	prerequisites = { "tech_RX_78GP02" }
+	has_mineral_upkeep = yes
+
+	combat_disengage_chance = 1.75
+
+	class = shipclass_military
+	construction_type = starbase_shipyard
+	required_component_set = "ftl_components"
+	required_component_set = "0083_efsf_pilot_vuta"
+	required_component_set = "gp_00_melee"
+	required_component_set = "ms_reactor"
+	required_component_set = "rx_78gp_02_armor"
+	required_component_set = "rx_78gp_02_thrusters"
+	required_component_set = "sensor_components"
+
+	empire_limit = {
+		base = 1
+		max = 1
+		naval_cap_div = 1
+	}
+}
+
+RX_78GP03S = { #RX-78GP01-Fb Gundam Zephyranthes Full Burnern
+	formation_priority = 4
+	max_speed = 911
+	acceleration = 0.5
+	rotation_speed = 0.455
+	collision_radius = 1
+	max_hitpoints = 114
+	size_multiplier = 1
+	fleet_slot_size = 16
+	section_slots = { "mid" = { locator = "part1" } }
+	num_target_locators = 4
+	is_space_station = no
+	icon_frame = 2
+	base_buildtime = 30
+	graphical_culture = no
+	can_have_federation_design = yes
+	enable_default_design = no	#if yes, countries will have an auto-generated design at start
+
+	prerequisites = { "tech_RX_78GP03S" }
+	has_mineral_upkeep = yes
+
+	combat_disengage_chance = 1.75
+
+	class = shipclass_military
+	construction_type = starbase_shipyard
+	required_component_set = "ftl_components"
+	required_component_set = "0083_efsf_pilot_vuta"
+	required_component_set = "gp_00_melee"
+	required_component_set = "ms_reactor"
+	required_component_set = "rx_78gp_03s_armor"
+	required_component_set = "rx_78gp_03s_thrusters"
+	required_component_set = "sensor_components"
+
+	empire_limit = {
+		base = 1
+		max = 1
+		naval_cap_div = 1
+	}
+}
+
+RX_78GP04G = { #RX-78GP01-Fb Gundam Zephyranthes Full Burnern
+	formation_priority = 4
+	max_speed = 911
+	acceleration = 0.5
+	rotation_speed = 0.455
+	collision_radius = 1
+	max_hitpoints = 114
+	size_multiplier = 1
+	fleet_slot_size = 16
+	section_slots = { "mid" = { locator = "part1" } }
+	num_target_locators = 4
+	is_space_station = no
+	icon_frame = 2
+	base_buildtime = 30
+	graphical_culture = no
+	can_have_federation_design = yes
+	enable_default_design = no	#if yes, countries will have an auto-generated design at start
+
+	prerequisites = { "tech_RX_78GP04G" }
+	has_mineral_upkeep = yes
+
+	combat_disengage_chance = 1.75
+
+	class = shipclass_military
+	construction_type = starbase_shipyard
+	required_component_set = "ftl_components"
+	required_component_set = "0083_efsf_pilot_vuta"
+	required_component_set = "gp_00_melee"
+	required_component_set = "ms_reactor"
+	required_component_set = "rx_78gp_04g_armor"
+	required_component_set = "rx_78gp_04g_thrusters"
+	required_component_set = "sensor_components"
+
+	empire_limit = {
+		base = 1
+		max = 1
+		naval_cap_div = 1
+	}
+}

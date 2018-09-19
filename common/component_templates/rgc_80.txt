@@ -63,10 +63,10 @@ utility_component_template = {
 
 	prerequisites = { "tech_RGC_83" }
 
-	component_set = "rgc_80_armor"
+	component_set = "rgc_83_armor"
 
 	ai_weight = {
-		weight = 3
+		weight = 1
 	}
 }
 

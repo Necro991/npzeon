@@ -101,6 +101,36 @@ tech_AEUG = {
 	}
 }
 
+tech_Londo_Bell = {
+	area = engineering
+	cost = @tier1cost1
+	is_reverse_engineerable = no
+	tier = 1
+	category = { industry }
+	ai_update_type = military
+	prerequisites = { "tech_RGM_86R" "tech_MSA_003" }
+	weight = @tier1weight1
+
+	ai_weight = {
+		factor = 2		#weapons are good
+	}
+}
+
+tech_SNRI = {
+	area = engineering
+	cost = @tier1cost1
+	is_reverse_engineerable = no
+	tier = 1
+	category = { industry }
+	ai_update_type = military
+	prerequisites = { "tech_SNRI" } #Needs to come from RGM-89J Jegan Normal Type
+	weight = @tier1weight1
+
+	ai_weight = {
+		factor = 2		#weapons are good
+	}
+}
+
 tech_Zeonic = {
 	area = engineering
 	cost = @tier1cost1
@@ -161,21 +191,6 @@ tech_Anaheim = {
 	}
 }
 
-tech_SNRI = {
-	area = engineering
-	cost = @tier1cost1
-	is_reverse_engineerable = no
-	tier = 1
-	category = { industry }
-	ai_update_type = military
-	prerequisites = { "tech_SNRI" }
-	weight = @tier1weight1
-
-	ai_weight = {
-		factor = 2		#weapons are good
-	}
-}
-
 tech_Buch_Concern = {
 	area = engineering
 	cost = @tier1cost1
@@ -229,6 +244,21 @@ tech_Neo_Zeon = {
 	category = { industry }
 	ai_update_type = military
 	prerequisites = { "tech_AMX_014" }
+	weight = @tier1weight1
+
+	ai_weight = {
+		factor = 2		#weapons are good
+	}
+}
+
+tech_Sleeves = {
+	area = engineering
+	cost = @tier1cost1
+	is_reverse_engineerable = no
+	tier = 1
+	category = { industry }
+	ai_update_type = military
+	prerequisites = { "tech_AMS_119_Heavy" }
 	weight = @tier1weight1
 
 	ai_weight = {

@@ -2193,6 +2193,12 @@ entity = {
 	}
 
 	entity = {
+		name = "Zaku_II_entity" #Zaku II A
+		pdxmesh = "Zaku_II_Single_mesh"
+		scale = 1.0
+	}
+
+	entity = {
 		name = "Zaku_II_A_entity" #Zaku II A
 		pdxmesh = "Zaku_II_A_mesh"
 		scale = 1.0
@@ -2300,6 +2306,9 @@ entity = {
 	entity = {
 		name = "bigro_entity" #Bigro
 		pdxmesh = "Bigro_Mesh"
+		locator = { name = "xl_gun_01" 			position = { 0 0.75 -1.25 } scale = 0.0 }
+		locator = { name = "medium_gun_01" 			position = { 0 0 0 } scale = 0.0 }
+		locator = { name = "medium_gun_02" 			position = { 0 0 0 } scale = 0.0 }
 		scale = 1.0
 	}
 
@@ -2403,6 +2412,34 @@ entity = {
 	entity = {
 		name = "Oggo_Trio_entity"
 		pdxmesh = "Oggo_Trio_mesh"
+
+		locator = { name = "root" 			position = { 0 	0 	0	} }
+		locator = { name = "small_gun_01" 			position = { 0 	0 	0	} scale = 0.0} #X,Up/Down,Forward/Back 0 	0.4 	-0.3
+		locator = { name = "small_gun_02" 			position = { 0 	0 	0 	} scale = 0.0} #0.5	0.4 	-0.3
+		locator = { name = "small_gun_03" 			position = { 0 	0 	0 	} scale = 0.0} #-0.5 	0.4 	-0.3
+		locator = { name = "medium_gun_01" 			position = { 0 	0 	0 	} scale = 0.0}
+		locator = { name = "light_locator_01" 			position = { 0  0 	0 	} }
+		locator = { name = "light_locator_02" 			position = { 0 	0 	0 	} }
+		locator = { name = "exaust_01" 			position = { 0 	0 	0 	} }
+
+		default_state = "idle"
+		state = { name = "idle"		state_time = 5
+
+			event = { time = 0 node = "light_locator_01" particle = "ship_light_blue_effect" trigger_once = yes keep_particle = yes }
+			event = { time = 0 node = "light_locator_02" particle = "ship_light_blue_effect" trigger_once = yes keep_particle = yes }
+			}
+		state = { name = "moving"	state_time = 5
+
+			event = { time = 0 node = "light_locator_01" particle = "ship_light_blue_effect" trigger_once = yes keep_particle = yes }
+			event = { time = 0 node = "light_locator_02" particle = "ship_light_blue_effect" trigger_once = yes keep_particle = yes }
+			}
+		state = { name = "death" state_time = 5 }
+		scale = 1.00
+	}
+
+	entity = {
+		name = "Zaku_II_Group_entity"
+		pdxmesh = "Zaku_II_Group_mesh"
 
 		locator = { name = "root" 			position = { 0 	0 	0	} }
 		locator = { name = "small_gun_01" 			position = { 0 	0 	0	} scale = 0.0} #X,Up/Down,Forward/Back 0 	0.4 	-0.3
@@ -2735,9 +2772,9 @@ entity = {
 		scale = 1.00
 	}
 
-	entity = { #ZAKU II Neuen Bitters
+	entity = { #ZAKU II EFSF
 		name = "zaku2_f2_efsf_entity"
-		pdxmesh = "zeon_efsf_group_S3_mesh"
+		pdxmesh = "Zaku_II_EFSF_Group_mesh" #zeon_efsf_group_S3_mesh
 
 		locator = { name = "root" 			position = { 0 	0 	0	} }
 		locator = { name = "small_gun_01" 			position = { 0 	0 	0	} scale = 0.0} #X,Up/Down,Forward/Back 0 	0.4 	-0.3

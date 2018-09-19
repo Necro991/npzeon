@@ -2608,6 +2608,12 @@ entity = {
 	}
 
 	entity = {
+		name = "RGC_83_entity"
+		pdxmesh = "efsf_locator_mesh"
+		scale = 1.0
+	}
+
+	entity = {
 		name = "RX_81_entity"
 		pdxmesh = "efsf_locator_mesh"
 		scale = 1.0
@@ -2615,6 +2621,30 @@ entity = {
 
 	entity = {
 		name = "RX_81FC_entity"
+		pdxmesh = "efsf_locator_mesh"
+		scale = 1.0
+	}
+
+	entity = {
+		name = "RX_78GP01_Fb_entity"
+		pdxmesh = "efsf_locator_mesh"
+		scale = 1.0
+	}
+
+	entity = {
+		name = "RX_78GP02_entity"
+		pdxmesh = "efsf_locator_mesh"
+		scale = 1.0
+	}
+
+	entity = {
+		name = "RX_78GP03S_entity"
+		pdxmesh = "efsf_locator_mesh"
+		scale = 1.0
+	}
+
+	entity = {
+		name = "RX_78GP04G_entity"
 		pdxmesh = "efsf_locator_mesh"
 		scale = 1.0
 	}

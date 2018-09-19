@@ -13,56 +13,6 @@ objectTypes = {
 		scale = 1.0
 	}
 
-#	pdxmesh = {
-#		name = "test_fighter_mesh"
-#		file = "gfx/models/test_fighter.mesh"
-#		scale = 1.0
-#	}
-
-
-#	pdxmesh = {
-#		name = "zeon_01_missile_mesh"
-#		file = "gfx/models/ships/reptilian_01/reptilian_01_missile_medium.mesh"
-#		scale = 1
-#		meshsettings = {
-#			shader = "PdxMeshShip"
-#		}
-#	}
-
-	#	pdxmesh = {
-	#		name = "one_part_ship_frame_mesh"
-	#		file = "gfx/models/ships/reptilian_01/one_part_ship_frame.mesh"
-	#				animation = { id = "idle"			type = "one_part_ship_frame_idle_animation" }
-	#				animation = { id = "death"			type = "one_part_ship_frame_death_animation" }
-	#		scale = 1.0
-	#	}
-
-	#	pdxmesh = {
-	#		name = "two_part_ship_frame_mesh"
-	#		file = "gfx/models/ships/reptilian_01/two_part_ship_frame.mesh"
-	#				animation = { id = "idle"			type = "two_part_ship_frame_idle_animation" }
-	#				animation = { id = "death"			type = "two_part_ship_frame_death_animation" }
-	#		scale = 1.0
-	#	}
-
-	#	pdxmesh = {
-	#		name = "two_part_ship_front_mesh"
-	#		file = "gfx/models/ships/reptilian_01/two_part_ship_front.mesh"
-	#		scale = 1.0
-	#	}
-
-	#	pdxmesh = {
-	#		name = "two_part_ship_back_mesh"
-	#		file = "gfx/models/ships/reptilian_01/two_part_ship_back.mesh"
-	#		scale = 1.0
-	#	}
-
-	#	pdxmesh = {
-	#		name = "turret_mesh"
-	#		file = "gfx/models/ships/reptilian_01/turret.mesh"
-	#		scale = 1.0
-	#	}
-
 	#######  Civilian Ships  ########
 
 	pdxmesh = {
@@ -438,16 +388,6 @@ objectTypes = {
 		}
 	}
 
-	#######  missile  ########
-
-	#	pdxmesh = {
-	#		name = "missilerig_mesh"
-	#		file = "gfx/models/ships/reptilian_01/missilerig.mesh"
-	#				animation = { id = "idle" type = "missilerig_idle_animation" }
-	#				animation = { id = "launch" type = "missilerig_launch_animation" }
-	#		scale = 1.0
-	#	}
-
 	#######  escorts  ########
 
 	pdxmesh = {
@@ -483,68 +423,20 @@ objectTypes = {
 		}
 	}
 
-	####### MOBILE SUIT FRAMES #########
-
-		pdxmesh = {
-		name = "zaku1_frame_mesh"
-		file = "gfx/models/ships/molluscoid_01/molluscoid_01_corvette_frame.mesh"
-		scale = 1.0
-		meshsettings = {
-		texture_diffuse = "zaku1.dds"
-		texture_normal = "zaku1_normal.dds"
-		texture_specular = "generic_specular.dds"
-			shader = "PdxMeshShip"
-		}
-	}
-	pdxmesh = {
-		name = "zakuII_frame_mesh"
-		file = "gfx/models/ships/molluscoid_01/molluscoid_01_corvette_frame.mesh"
-		scale = 1.0
-		meshsettings = {
-		texture_diffuse = "zakuII.dds"
-		texture_normal = "zakuII_normal.dds"
-		texture_specular = "zakuII_specular.dds"
-			shader = "PdxMeshShip"
-		}
-	}
-
-	pdxmesh = {
-		name = "zakuIIr2_frame_mesh"
-		file = "gfx/models/ships/molluscoid_01/molluscoid_01_corvette_frame.mesh"
-		scale = 1.0
-		meshsettings = {
-		texture_diffuse = "zaku2r.dds"
-		texture_normal = "zaku2r_normal.dds"
-		texture_specular = "zaku2r_specular.dds"
-			shader = "PdxMeshShip"
-		}
-	}
-
-	pdxmesh = {
-		name = "dom_frame_mesh"
-		file = "gfx/models/ships/molluscoid_01/molluscoid_01_corvette_frame.mesh"
-		scale = 1.0
-		meshsettings = {
-		texture_diffuse = "dom.dds"
-		texture_normal = "dom_normal.dds"
-		texture_specular = "generic_specular.dds"
-			shader = "PdxMeshShip"
-		}
-	}
-
-	pdxmesh = {
-		name = "gelgoog_frame_mesh"
-		file = "gfx/models/ships/molluscoid_01/molluscoid_01_corvette_frame.mesh"
-		scale = 1.0
-		meshsettings = {
-		texture_diffuse = "gelgoog.dds"
-		texture_normal = "gelgoog_normal.dds"
-		texture_specular = "generic_specular.dds"
-			shader = "PdxMeshShip"
-		}
-	}
-
 	####### Mobile Suits #######
+
+	pdxmesh = {
+			name = "Zaku_II_Single_mesh" #IN USE
+			file = "gfx/models/ships/zeon_01/Zaku_II_Single.mesh"
+
+			scale = 1.0
+			meshsettings = {
+				texture_diffuse = "Zaku_II_Diffuse.dds"
+				texture_normal = "zakuII_normal.dds"
+				texture_specular = "zakuII_specular.dds"
+				shader = "PdxMeshShip"
+		}
+	}
 
 	pdxmesh = {
 			name = "Oggo_mesh"
@@ -729,6 +621,30 @@ objectTypes = {
 	}
 
 	####### MS Groups #######
+
+	pdxmesh = { #ZAKU II IN USE
+		name = "Zaku_II_Group_mesh"
+		file = "gfx/models/ships/zeon_01/Zaku_II_Group.mesh"
+		scale = 1.0
+		meshsettings = {
+		texture_diffuse = "Zaku_II_Diffuse.dds"
+		texture_normal = "zakuII_normal.dds"
+		texture_specular = "zakuII_specular.dds"
+			shader = "PdxMeshShip"
+		}
+	}
+
+	pdxmesh = { #ZAKU II IN USE
+		name = "Zaku_II_EFSF_Group_mesh"
+		file = "gfx/models/ships/zeon_01/Zaku_II_Group.mesh"
+		scale = 1.0
+		meshsettings = {
+		texture_diffuse = "Zaku_II_EFSF_Diffuse.dds"
+		texture_normal = "zakuII_normal.dds"
+		texture_specular = "zakuII_specular.dds"
+			shader = "PdxMeshShip"
+		}
+	}
 
 	pdxmesh = { #ZAKU I S
 		name = "zeon_ms_05s_group_S3_mesh"
@@ -1459,9 +1375,9 @@ objectTypes = {
 		name = "Bigro_Mesh"
 		file = "gfx/models/ships/zeon_01/Bigro.mesh"
 
-			scale = 1.0
+			scale = 1.5
 					meshsettings = {
-		texture_diffuse = "Val_Varo_Diffuse.dds"
+		texture_diffuse = "Bigro_Diffuse.dds"
 		texture_normal = "zakuII_normal.dds"
 		texture_specular = "generic_specular.dds"
 			shader = "PdxMeshShip"

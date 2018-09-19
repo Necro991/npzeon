@@ -94,7 +94,7 @@ ship_section_template = { #MS-06 C
 	key = "MS_06_C_MID"
 	ship_size = MS_06
 	fits_on_slot = mid
-	entity = "zeon_ms_1_S3_entity"
+	entity = "Zaku_II_Group_entity" #zeon_ms_1_S3_entity
 	icon = "GFX_ship_part_core_mid"
 
 	prerequisites = { tech_MS_06C }
@@ -575,7 +575,7 @@ ship_section_template = { #MS-06R-2P
 	key = "MS_06S_R_2P_MID"
 	ship_size = MS_06S
 	fits_on_slot = mid
-	entity = "zaku2_r_2p_entity"
+	entity = "Zaku_II_Group_entity" #zaku2_r_2p_entity
 	icon = "GFX_ship_part_core_mid"
 
 	prerequisites = { tech_MS_06R_2P }
@@ -1317,7 +1317,7 @@ ship_section_template = { #MS-06K
 	key = "MS_06_K_MID"
 	ship_size = MS_06K
 	fits_on_slot = mid
-	entity = "zaku2_f_entity"
+	entity = "Zaku_II_Group_entity"
 	icon = "GFX_ship_part_core_mid"
 
 	prerequisites = { tech_MS_06K }

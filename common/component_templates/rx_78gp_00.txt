@@ -1,0 +1,84 @@
+#Armor, Thrusters, Grenades, Melee
+
+utility_component_template = {
+	key = "rx_78gp_01_armor_1"
+	size = small
+	icon = "GFX_ship_part_armor_1"
+	icon_frame = 1
+	power = 0
+	cost = 0
+
+	modifier = {
+		ship_armor_add = 114
+	}
+
+	prerequisites = { "tech_RX_78GP01Fb" }
+
+	component_set = "rx_78gp_01_armor"
+	#upgrades_to = "rx_78_armor_2"
+
+	ai_weight = {
+		weight = 1
+	}
+}
+
+utility_component_template = {
+	key = "rx_78gp_01_thrusters_1"
+	size = small
+	icon = "GFX_ship_part_thruster_1"
+	icon_frame = 1
+	power = 0
+	cost = 0
+
+	modifier = {
+		ship_evasion_add = 72
+	}
+
+	prerequisites = { "tech_RX_78GP01Fb" }
+
+	component_set = "rx_78gp_01_thrusters"
+
+	ai_weight = {
+		weight = 1
+	}
+}
+
+utility_component_template = {
+	key = "fa_78gp_01_armor_0"
+	size = small
+	icon = "GFX_ship_part_empty_ftl_drive"
+	icon_frame = 1
+	power = 0
+	cost = 0
+
+	prerequisites = { "tech_RX_78GP01Fb" }
+
+	component_set = "fa_78gp_01_armor"
+	upgrades_to = "fa_78gp_01_armor_1"
+
+	ai_weight = {
+		weight = 1
+	}
+}
+
+utility_component_template = {
+	key = "fa_78gp_01_armor_1"
+	size = small
+	icon = "GFX_ship_part_armor_1"
+	icon_frame = 1
+	power = 0
+	cost = 20
+
+	modifier = {
+		ship_armor_add = 114
+	}
+
+	prerequisites = { "tech_RX_78GP01Fa" }
+
+	component_set = "fa_78gp_01_armor"
+	#upgrades_to = "rx_78_armor_2"
+
+	ai_weight = {
+		weight = 1
+	}
+}

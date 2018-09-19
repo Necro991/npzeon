@@ -117,7 +117,7 @@ tech_D_50C = {
 	tier = 1
 	category = { materials }
 	ai_update_type = military
-	prerequisites = { "tech_RX_75_2" }
+	prerequisites = { "tech_RX_75_2" "tech_Londo_Bell" }
 	weight = @tier1weight1
 
 	ai_weight = {
@@ -327,7 +327,7 @@ tech_RX_78_6 = {
 	tier = 1
 	category = { materials }
 	ai_update_type = military
-	prerequisites = { "tech_RX_78_2" "tech_RX_77_2" }
+	prerequisites = { "tech_RX_78_2" }
 	weight = @tier1weight1
 
 	ai_weight = {
@@ -551,7 +551,7 @@ tech_RGM_79Q = {
 	tier = 1
 	category = { materials }
 	ai_update_type = military
-	prerequisites = { "tech_EF_Titans" "tech_RGM_79N" }
+	prerequisites = { "tech_EF_Titans" }
 	weight = @tier1weight1
 
 	ai_weight = {
@@ -607,7 +607,7 @@ tech_RGM_79CR = {
 	tier = 1
 	category = { materials }
 	ai_update_type = military
-	prerequisites = { "tech_EF_Titans" "tech_RGM_79C" }
+	prerequisites = { "tech_EF_Titans" }
 	weight = @tier1weight1
 
 	ai_weight = {
@@ -705,7 +705,7 @@ tech_MSA_003 = { #Nemo
 	tier = 1
 	category = { materials }
 	ai_update_type = military
-	prerequisites = { "tech_RGM_79SP" "tech_AEUG" }
+	prerequisites = { "tech_AEUG" }
 	weight = @tier1weight1
 
 	ai_weight = {
@@ -733,7 +733,7 @@ tech_RMS_179 = { #GM II
 	tier = 1
 	category = { materials }
 	ai_update_type = military
-	prerequisites = { "tech_RGM_79C" }
+	prerequisites = { "tech_EF_Titans" }
 	weight = @tier1weight1
 
 	ai_weight = {
@@ -775,7 +775,7 @@ tech_RGM_89 = { #Jegan
 	tier = 1
 	category = { materials }
 	ai_update_type = military
-	prerequisites = { "tech_MSA_003" "tech_RGM_86R" }
+	prerequisites = { "tech_Londo_Bell" }
 	weight = @tier1weight1
 
 	ai_weight = {
@@ -845,7 +845,7 @@ tech_RMS_108 = { #Marasai
 	tier = 1
 	category = { materials }
 	ai_update_type = military
-	prerequisites = { "tech_RMS_106" "tech_RX_107" }
+	prerequisites = { "tech_RX_107" }
 	weight = @tier1weight1
 
 	ai_weight = {
@@ -923,34 +923,6 @@ tech_RX_78GP03S = {
 	}
 }
 
-#tech_RX_78GP03D = {
-#	area = engineering
-#	cost = @tier1cost1
-#	tier = 1
-#	category = { materials }
-#	ai_update_type = military
-#	prerequisites = { "tech_RX_78GP03S" }
-#	weight = @tier1weight1
-
-#	ai_weight = {
-#		factor = 2		#weapons are good
-#	}
-#}
-
-#tech_GP03_2 = {
-#	area = engineering
-#	cost = @tier1cost1
-#	tier = 1
-#	category = { materials }
-#	ai_update_type = military
-#	prerequisites = { "tech_RX_78GP03D" }
-#	weight = @tier1weight1
-
-#	ai_weight = {
-#		factor = 2		#weapons are good
-#	}
-#}
-
 tech_RX_78GP04G = {
 	area = engineering
 	cost = @tier1cost1
@@ -964,31 +936,3 @@ tech_RX_78GP04G = {
 		factor = 2		#weapons are good
 	}
 }
-
-#tech_AGX_04 = {
-#	area = engineering
-#	cost = @tier1cost1
-#	tier = 1
-#	category = { materials }
-#	ai_update_type = military
-#	prerequisites = { "tech_RX_78GP04G" }
-#	weight = @tier1weight1
-
-#	ai_weight = {
-#		factor = 2		#weapons are good
-#	}
-#}
-
-#tech_AGX_04A1 = {
-#	area = engineering
-#	cost = @tier1cost1
-#	tier = 1
-#	category = { materials }
-#	ai_update_type = military
-#	prerequisites = { "tech_AGX_04" }
-#	weight = @tier1weight1
-
-#	ai_weight = {
-#		factor = 2		#weapons are good
-#	}
-#}

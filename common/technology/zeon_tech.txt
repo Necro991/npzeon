@@ -593,7 +593,7 @@ tech_AMX_011 = {
 	tier = 1
 	category = { materials }
 	ai_update_type = military
-	prerequisites = { "tech_MS_06FZ" "tech_Axis" }
+	prerequisites = { "tech_Axis" }
 	weight = @tier1weight1
 
 	ai_weight = {
@@ -817,7 +817,7 @@ tech_NZ_666 = {
 	tier = 1
 	category = { materials }
 	ai_update_type = military
-	prerequisites = { "tech_Neo_Zeon" "tech_NZ_000" }
+	prerequisites = { "tech_Sleeves" "tech_NZ_000" }
 	weight = @tier1weight1
 
 	ai_weight = {
@@ -881,6 +881,20 @@ tech_AMX_014 = {
 	}
 }
 
+tech_AGX_04 = { #Gerbera Tetra
+	area = engineering
+	cost = @tier1cost1
+	tier = 1
+	category = { materials }
+	ai_update_type = military
+	prerequisites = { "tech_Axis" }
+	weight = @tier1weight1
+
+	ai_weight = {
+		factor = 2		#weapons are good
+	}
+}
+
 tech_AMS_119 = {
 	area = engineering
 	cost = @tier1cost1
@@ -929,7 +943,7 @@ tech_MSN_04 = {
 	tier = 1
 	category = { materials }
 	ai_update_type = military
-	prerequisites = { "tech_AMS_120X" "tech_MSN_03" }
+	prerequisites = { "tech_MSN_03" }
 	weight = @tier1weight1
 
 	ai_weight = {
@@ -985,7 +999,7 @@ tech_AMS_129 = {
 	tier = 1
 	category = { materials }
 	ai_update_type = military
-	prerequisites = { "tech_AMS_119" "tech_AMS_119_Heavy" }
+	prerequisites = { "tech_Sleeves" }
 	weight = @tier1weight1
 
 	ai_weight = {

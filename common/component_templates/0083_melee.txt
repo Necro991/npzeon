@@ -1,0 +1,58 @@
+utility_component_template = {
+	key = "gp00_melee_aura_0"
+	size = small
+	icon = "GFX_ship_part_empty_ftl_drive"
+	icon_frame = 1
+	power = 0
+	cost = 0
+
+	prerequisites = { "tech_RX_78GP01Fb" }
+
+	component_set = "gp_00_melee"
+
+	ai_weight = {
+		weight = 1
+	}
+}
+
+utility_component_template = {
+	key = "gp00_melee_aura_1"
+	size = small
+	icon = "gp00_melee_01"
+	icon_frame = 1
+	power = 0
+	cost = 15
+
+	hostile_aura = {
+		name = "gp00_melee_1"
+		radius = 5
+		apply_on = ships
+
+		stack_info = {			#A ship can only be affected by one aura of a certain id. If multiple auras have the same ID the one with the highest priority will be applied.
+			id = gp00_melee_001
+			priority = 2
+		}
+
+		damage_per_day = {
+			accuracy = 0.15
+			damage = { min = 34 max = 68 }
+			shield_damage = 0.2
+			armor_penetration = 0.95
+		}
+
+		graphics = {
+			area_effect = {
+				entity = "circle_area_entity"
+				dynamic_scale = yes
+			}
+		}
+	}
+
+	prerequisites = { "tech_RX_78GP01Fb" }
+
+	component_set = "gp_00_melee"
+
+	ai_weight = {
+		weight = 2
+	}
+}
