@@ -27,7 +27,7 @@ FED = {
 	portraits = {
 		"fed"
 		"titan"
-		#"fed2"
+		"fed2"
 		#"fed3"
 	}
 
