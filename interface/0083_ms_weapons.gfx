@@ -1,8 +1,18 @@
 spriteTypes = {
 
 	spriteType = {
-		name = "GP01_BEAM_RIFLE"
-		texturefile = "gfx/interface/icons/ship_parts/gp01_beam_rifle.dds"
+		name = "0083_GP0_BEAM_RIFLE"
+		texturefile = "gfx/interface/icons/ship_parts/efsf_gp0_beam_rifle.dds"
+	}
+
+	spriteType = {
+		name = "0083_EFSF_NUCLEAR_BAZOOKA"
+		texturefile = "gfx/interface/icons/ship_parts/efsf_nuclear_bazooka.dds"
+	}
+
+	spriteType = {
+		name = "0083_EFSF_BEAM_BAZOOKA"
+		texturefile = "gfx/interface/icons/ship_parts/efsf_beam_bazooka.dds"
 	}
 
 }

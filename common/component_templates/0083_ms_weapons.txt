@@ -68,7 +68,7 @@ weapon_component_template = {
 	shield_damage = 0.2
 	armor_penetration = 0.95
 
-	icon = "0083_GM_Q_SHORT_BEAM_RIFLE"
+	icon = "0083_GP0_BEAM_RIFLE"
 	icon_frame = 1
 	color = { 0.1 1.0 0.1 1 }
 	power = -3000
@@ -96,7 +96,7 @@ weapon_component_template = {
 	shield_damage = 0.2
 	armor_penetration = 0.95
 
-	icon = "0083_GM_Q_SHORT_BEAM_RIFLE"
+	icon = "0083_GP0_BEAM_RIFLE"
 	icon_frame = 1
 	color = { 0.1 1.0 0.1 1 }
 	power = -3000
@@ -125,7 +125,7 @@ weapon_component_template = {
 	shield_damage = 0.2
 	armor_penetration = 0.95
 
-	icon = "0083_GM_Q_SHORT_BEAM_RIFLE"
+	icon = "0083_GP0_BEAM_RIFLE"
 	icon_frame = 1
 	color = { 0.1 1.0 0.1 1 }
 	power = -3000
@@ -134,6 +134,62 @@ weapon_component_template = {
 	prerequisites = { "tech_RX_78GP04G" }
 	component_set = "0083_GP04G_BEAM_RIFLE"
 	projectile_gfx = "MPC1"
+	tags = { weapon_type_energy }
+	ai_tags = { weapon_role_anti_armor }
+	#upgrades_to = "SMALL_BEAMC_2"
+}
+
+weapon_component_template = {
+	key = "0083_EFSF_NUCLEAR_BAZOOKA"
+	size = extra_large
+	entity = "Zeon_Machine_Gun_01_Entity"
+	damage = { min = 1000.0 max = 2000.0 }
+	#windup = { min = 5.0 max = 10.0 }
+	total_fire_time = 60
+	range = 60.0
+	accuracy = 0.9
+	tracking  = 0.0
+	type = point_defence
+	shield_damage = 1.15
+	armor_penetration = 0.5
+
+	icon = "0083_EFSF_NUCLEAR_BAZOOKA"
+	icon_frame = 1
+	color = { 0.1 1.0 0.1 1 }
+	power = -3000
+	cost = 100
+	size_restriction = { RX_78GP02 }
+	prerequisites = { "tech_RX_78GP02" }
+	component_set = "0083_EFSF_NUCLEAR_BAZOOKA"
+	projectile_gfx = "gundam_missile"
+	tags = { weapon_type_explosive }
+	ai_tags = { weapon_role_anti_shield }
+	#upgrades_to = "SMALL_BEAMC_2"
+}
+
+weapon_component_template = {
+	key = "0083_EFSF_BEAM_BAZOOKA"
+	size = extra_large
+	entity = "Zeon_Machine_Gun_01_Entity"
+	damage = { min = 1424.0 max = 2848.0 }
+	#windup = { min = 5.0 max = 10.0 }
+	total_fire_time = 90
+	range = 90.0
+	accuracy = 0.82
+	tracking  = 0.65
+	type = point_defence
+	shield_damage = 0.2
+	armor_penetration = 0.95
+
+	icon = "0083_EFSF_BEAM_BAZOOKA"
+	icon_frame = 1
+	color = { 0.1 1.0 0.1 1 }
+	power = -3000
+	cost = 100
+	size_restriction = { RX_78GP02 }
+	prerequisites = { "tech_RX_78GP02" }
+	component_set = "0083_EFSF_BEAM_BAZOOKA"
+	projectile_gfx = "gundam_missile"
 	tags = { weapon_type_energy }
 	ai_tags = { weapon_role_anti_armor }
 	#upgrades_to = "SMALL_BEAMC_2"
