@@ -54,6 +54,11 @@ portraits = {
 		 clothes_selector = "no_texture"
 		hair_selector = "no_texture"
 	}
+	zeek_female_03 = {
+	  texturefile = "gfx/models/portraits/new_fed/zeon_female_03.dds"
+		 clothes_selector = "no_texture"
+		hair_selector = "no_texture"
+	}
 	efsf_female_pilot_01 = {
 		texturefile = "gfx/models/portraits/new_fed/efsf_female_pilot_01.dds"
 		clothes_selector = "no_texture"
@@ -187,6 +192,7 @@ portrait_groups = {
 					efsf_female_05
 					zeek_female_01
 					zeek_female_02
+					zeek_female_03
 				}
 			}
 		}
@@ -202,6 +208,7 @@ portrait_groups = {
 						 efsf_female_05
 						 zeek_female_01
 						 zeek_female_02
+						 zeek_female_03
 						 efsf_female_pilot_01
 						 efsf_female_pilot_02
 						 efsf_male_01
@@ -225,6 +232,7 @@ portrait_groups = {
 					#efsf_female_05
 					zeek_female_01
 					zeek_female_02
+					zeek_female_03
 					#efsf_female_pilot_01
 					#efsf_female_pilot_02
 					#efsf_male_01
@@ -253,6 +261,7 @@ portrait_groups = {
 					efsf_female_05
 					zeek_female_01
 					zeek_female_02
+					zeek_female_03
 				}
 			}
 			add = {
@@ -279,6 +288,7 @@ portrait_groups = {
 					efsf_female_05
 					zeek_female_01
 					zeek_female_02
+					zeek_female_03
 				}
 			}
 			add = {
@@ -329,6 +339,7 @@ portrait_groups = {
 					efsf_female_05
 					zeek_female_01
 					zeek_female_02
+					zeek_female_03
 				}
 			}
 			add = {
@@ -359,6 +370,7 @@ portrait_groups = {
 				efsf_female_05
 				zeek_female_01
 				zeek_female_02
+				zeek_female_03
 				}
 			}
 			add = {

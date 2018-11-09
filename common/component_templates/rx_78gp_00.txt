@@ -9,7 +9,7 @@ utility_component_template = {
 	cost = 0
 
 	modifier = {
-		ship_armor_add = 114
+		ship_armor_add = 228
 	}
 
 	prerequisites = { "tech_RX_78GP01Fb" }
@@ -57,7 +57,7 @@ utility_component_template = {
 	upgrades_to = "fa_78gp_01_armor_1"
 
 	ai_weight = {
-		weight = 1
+		weight = 0
 	}
 }
 
@@ -70,13 +70,142 @@ utility_component_template = {
 	cost = 20
 
 	modifier = {
-		ship_armor_add = 114
+		ship_armor_add = 228
 	}
 
 	prerequisites = { "tech_RX_78GP01Fa" }
 
 	component_set = "fa_78gp_01_armor"
 	#upgrades_to = "rx_78_armor_2"
+
+	ai_weight = {
+		weight = 1
+	}
+}
+
+utility_component_template = {
+	key = "rx_78gp_02_armor_1"
+	size = small
+	icon = "GFX_ship_part_armor_1"
+	icon_frame = 1
+	power = 0
+	cost = 0
+
+	modifier = {
+		ship_armor_add = 384 #300%
+	}
+
+	prerequisites = { "tech_RX_78GP02" }
+
+	component_set = "rx_78gp_02_armor"
+	#upgrades_to = "rx_78_armor_2"
+
+	ai_weight = {
+		weight = 1
+	}
+}
+
+utility_component_template = {
+	key = "rx_78gp_02_thrusters_1"
+	size = small
+	icon = "GFX_ship_part_thruster_1"
+	icon_frame = 1
+	power = 0
+	cost = 0
+
+	modifier = {
+		ship_evasion_add = 60
+	}
+
+	prerequisites = { "tech_RX_78GP02" }
+
+	component_set = "rx_78gp_02_thrusters"
+
+	ai_weight = {
+		weight = 1
+	}
+}
+
+utility_component_template = {
+	key = "rx_78gp_03s_armor_1"
+	size = small
+	icon = "GFX_ship_part_armor_1"
+	icon_frame = 1
+	power = 0
+	cost = 0
+
+	modifier = {
+		ship_armor_add = 216
+	}
+
+	prerequisites = { "tech_RX_78GP03S" }
+
+	component_set = "rx_78gp_03s_armor"
+	#upgrades_to = "rx_78_armor_2"
+
+	ai_weight = {
+		weight = 1
+	}
+}
+
+utility_component_template = {
+	key = "rx_78gp_03s_thrusters_1"
+	size = small
+	icon = "GFX_ship_part_thruster_1"
+	icon_frame = 1
+	power = 0
+	cost = 0
+
+	modifier = {
+		ship_evasion_add = 72
+	}
+
+	prerequisites = { "tech_RX_78GP03S" }
+
+	component_set = "rx_78gp_03s_thrusters"
+
+	ai_weight = {
+		weight = 1
+	}
+}
+
+utility_component_template = {
+	key = "rx_78gp_04g_armor_1"
+	size = small
+	icon = "GFX_ship_part_armor_1"
+	icon_frame = 1
+	power = 0
+	cost = 0
+
+	modifier = {
+		ship_armor_add = 226
+	}
+
+	prerequisites = { "tech_RX_78GP04G" }
+
+	component_set = "rx_78gp_04g_armor"
+	#upgrades_to = "rx_78_armor_2"
+
+	ai_weight = {
+		weight = 1
+	}
+}
+
+utility_component_template = {
+	key = "rx_78gp_04g_thrusters_1"
+	size = small
+	icon = "GFX_ship_part_thruster_1"
+	icon_frame = 1
+	power = 0
+	cost = 0
+
+	modifier = {
+		ship_evasion_add = 72
+	}
+
+	prerequisites = { "tech_RX_78GP04G" }
+
+	component_set = "rx_78gp_04g_thrusters"
 
 	ai_weight = {
 		weight = 1

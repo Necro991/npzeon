@@ -11,3 +11,24 @@ component_set = {
 	icon = "0083_GM_Q_SHORT_BEAM_RIFLE"
 	icon_frame = 1
 }
+
+component_set = {
+	key = "0083_GP01_BEAM_RIFLE"
+
+	icon = "0083_GM_Q_SHORT_BEAM_RIFLE"
+	icon_frame = 1
+}
+
+component_set = {
+	key = "0083_GP03S_BEAM_RIFLE"
+
+	icon = "0083_GM_Q_SHORT_BEAM_RIFLE"
+	icon_frame = 1
+}
+
+component_set = {
+	key = "0083_GP04G_BEAM_RIFLE"
+
+	icon = "0083_GM_Q_SHORT_BEAM_RIFLE"
+	icon_frame = 1
+}

@@ -53,3 +53,88 @@ weapon_component_template = {
 	ai_tags = { weapon_role_anti_armor }
 	#upgrades_to = "SMALL_BEAMC_2"
 }
+
+weapon_component_template = {
+	key = "0083_GP01_BEAM_RIFLE"
+	size = point_defence
+	entity = "Zeon_Machine_Gun_01_Entity"
+	damage = { min = 164.0 max = 327.0 }
+	#windup = { min = 5.0 max = 20.0 }
+	total_fire_time = 15
+	range = 15.0
+	accuracy = 0.82
+	tracking  = 0.65
+	type = point_defence
+	shield_damage = 0.2
+	armor_penetration = 0.95
+
+	icon = "0083_GM_Q_SHORT_BEAM_RIFLE"
+	icon_frame = 1
+	color = { 0.1 1.0 0.1 1 }
+	power = -3000
+	cost = 50
+	size_restriction = { RX_78GP01_Fb }
+	prerequisites = { "tech_RX_78GP01Fb" }
+	component_set = "0083_GP01_BEAM_RIFLE"
+	projectile_gfx = "MPC1"
+	tags = { weapon_type_energy }
+	ai_tags = { weapon_role_anti_armor }
+	#upgrades_to = "SMALL_BEAMC_2"
+}
+
+weapon_component_template = {
+	key = "0083_GP03S_BEAM_RIFLE"
+	size = point_defence
+	entity = "Zeon_Machine_Gun_01_Entity"
+	damage = { min = 160.0 max = 320.0 }
+	#windup = { min = 5.0 max = 20.0 }
+	total_fire_time = 15
+	range = 15.0
+	accuracy = 0.82
+	tracking  = 0.65
+	type = point_defence
+	shield_damage = 0.2
+	armor_penetration = 0.95
+
+	icon = "0083_GM_Q_SHORT_BEAM_RIFLE"
+	icon_frame = 1
+	color = { 0.1 1.0 0.1 1 }
+	power = -3000
+	cost = 50
+	size_restriction = { RX_78GP03S }
+	prerequisites = { "tech_RX_78GP03S" }
+	component_set = "0083_GP03S_BEAM_RIFLE"
+	projectile_gfx = "MPC1"
+	tags = { weapon_type_energy }
+	ai_tags = { weapon_role_anti_armor }
+	#upgrades_to = "SMALL_BEAMC_2"
+}
+
+
+weapon_component_template = {
+	key = "0083_GP04G_BEAM_RIFLE"
+	size = point_defence
+	entity = "Zeon_Machine_Gun_01_Entity"
+	damage = { min = 138.0 max = 237.0 }
+	#windup = { min = 5.0 max = 20.0 }
+	total_fire_time = 15
+	range = 15.0
+	accuracy = 0.82
+	tracking  = 0.65
+	type = point_defence
+	shield_damage = 0.2
+	armor_penetration = 0.95
+
+	icon = "0083_GM_Q_SHORT_BEAM_RIFLE"
+	icon_frame = 1
+	color = { 0.1 1.0 0.1 1 }
+	power = -3000
+	cost = 50
+	size_restriction = { RX_78GP04G }
+	prerequisites = { "tech_RX_78GP04G" }
+	component_set = "0083_GP04G_BEAM_RIFLE"
+	projectile_gfx = "MPC1"
+	tags = { weapon_type_energy }
+	ai_tags = { weapon_role_anti_armor }
+	#upgrades_to = "SMALL_BEAMC_2"
+}

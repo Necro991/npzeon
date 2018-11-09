@@ -16,13 +16,6 @@ ship_section_template = { #Gundam
 	}
 
 	component_slot = {
-		name = "EXTRA_LARGE_01"
-		slot_size = extra_large
-		slot_type = weapon
-		locatorname = "xl_gun_01"
-	}
-
-	component_slot = {
 		name = "SMALL_GUN_01"
 		slot_size = point_defence
 		slot_type = weapon
@@ -69,17 +62,17 @@ ship_section_template = { #Gundam
 	}
 
 	component_slot = {
-		name = "SMALL_GUN_01"
-		slot_size = point_defence
+		name = "TORPEDO_01"
+		slot_size = torpedo
 		slot_type = weapon
-		locatorname = "small_gun_01"
+		locatorname = "medium_gun_01"
 	}
 
 	component_slot = {
-		name = "SMALL_GUN_02"
-		slot_size = point_defence
+		name = "TORPEDO_02"
+		slot_size = torpedo
 		slot_type = weapon
-		locatorname = "small_gun_02"
+		locatorname = "medium_gun_02"
 	}
 
 	small_utility_slots = 0
@@ -87,7 +80,7 @@ ship_section_template = { #Gundam
 	large_utility_slots = 0
 	aux_utility_slots = 0
 
-	cost = 36
+	cost = 51
 }
 
 ship_section_template = { #Gundam
@@ -108,13 +101,6 @@ ship_section_template = { #Gundam
 	}
 
 	component_slot = {
-		name = "EXTRA_LARGE_01"
-		slot_size = extra_large
-		slot_type = weapon
-		locatorname = "xl_gun_01"
-	}
-
-	component_slot = {
 		name = "SMALL_GUN_01"
 		slot_size = point_defence
 		slot_type = weapon
@@ -133,7 +119,7 @@ ship_section_template = { #Gundam
 	large_utility_slots = 0
 	aux_utility_slots = 0
 
-	cost = 36
+	cost = 43
 }
 
 ship_section_template = { #Gundam
@@ -154,13 +140,6 @@ ship_section_template = { #Gundam
 	}
 
 	component_slot = {
-		name = "EXTRA_LARGE_01"
-		slot_size = extra_large
-		slot_type = weapon
-		locatorname = "xl_gun_01"
-	}
-
-	component_slot = {
 		name = "SMALL_GUN_01"
 		slot_size = point_defence
 		slot_type = weapon
@@ -179,5 +158,5 @@ ship_section_template = { #Gundam
 	large_utility_slots = 0
 	aux_utility_slots = 0
 
-	cost = 36
+	cost = 45
 }

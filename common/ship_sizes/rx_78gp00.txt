@@ -48,11 +48,11 @@ RX_78GP01_Fb = { #RX-78GP01-Fb Gundam Zephyranthes Full Burnern
 
 RX_78GP02 = { #RX-78GP01-Fb Gundam Zephyranthes Full Burnern
 	formation_priority = 4
-	max_speed = 911
+	max_speed = 539
 	acceleration = 0.5
 	rotation_speed = 0.455
 	collision_radius = 1
-	max_hitpoints = 114
+	max_hitpoints = 128
 	size_multiplier = 1
 	fleet_slot_size = 16
 	section_slots = { "mid" = { locator = "part1" } }
@@ -88,7 +88,7 @@ RX_78GP02 = { #RX-78GP01-Fb Gundam Zephyranthes Full Burnern
 
 RX_78GP03S = { #RX-78GP01-Fb Gundam Zephyranthes Full Burnern
 	formation_priority = 4
-	max_speed = 911
+	max_speed = 775
 	acceleration = 0.5
 	rotation_speed = 0.455
 	collision_radius = 1
@@ -128,7 +128,7 @@ RX_78GP03S = { #RX-78GP01-Fb Gundam Zephyranthes Full Burnern
 
 RX_78GP04G = { #RX-78GP01-Fb Gundam Zephyranthes Full Burnern
 	formation_priority = 4
-	max_speed = 911
+	max_speed = 876
 	acceleration = 0.5
 	rotation_speed = 0.455
 	collision_radius = 1
