@@ -21,6 +21,7 @@ utility_component_template = {
 		modifier = {
 			SHIP_SENSOR_RANGE_MULT = -0.1
 			SHIP_ACCURACY_MULT = -0.25
+			SHIP_TRACKING_MULT = -0.25
 		}
 
 		graphics = {
@@ -57,6 +58,7 @@ utility_component_template = {
 		modifier = {
 			SHIP_SENSOR_RANGE_MULT = -0.1
 			SHIP_ACCURACY_MULT = -0.25
+			SHIP_TRACKING_MULT = -0.25
 		}
 
 		graphics = {
@@ -93,6 +95,7 @@ utility_component_template = {
 		modifier = {
 			SHIP_SENSOR_RANGE_MULT = -0.1
 			SHIP_ACCURACY_MULT = -0.25
+			SHIP_TRACKING_MULT = -0.25
 		}
 
 		graphics = {
@@ -129,6 +132,7 @@ utility_component_template = {
 		modifier = {
 			SHIP_SENSOR_RANGE_MULT = -0.1
 			SHIP_ACCURACY_MULT = -0.25
+			SHIP_TRACKING_MULT = -0.25
 		}
 
 		graphics = {
@@ -182,6 +186,7 @@ utility_component_template = {
 		modifier = {
 			SHIP_SENSOR_RANGE_MULT = -0.1
 			SHIP_ACCURACY_MULT = -0.25
+			SHIP_TRACKING_MULT = -0.25
 		}
 
 		graphics = {
@@ -218,6 +223,7 @@ utility_component_template = {
 		modifier = {
 			SHIP_SENSOR_RANGE_MULT = -0.1
 			SHIP_ACCURACY_MULT = -0.25
+			SHIP_TRACKING_MULT = -0.25
 		}
 
 		graphics = {
@@ -254,6 +260,7 @@ utility_component_template = {
 		modifier = {
 			SHIP_SENSOR_RANGE_MULT = -0.1
 			SHIP_ACCURACY_MULT = -0.25
+			SHIP_TRACKING_MULT = -0.25
 		}
 
 		graphics = {
@@ -290,6 +297,7 @@ utility_component_template = {
 		modifier = {
 			SHIP_SENSOR_RANGE_MULT = -0.1
 			SHIP_ACCURACY_MULT = -0.25
+			SHIP_TRACKING_MULT = -0.25
 		}
 
 		graphics = {
@@ -326,6 +334,7 @@ utility_component_template = {
 		modifier = {
 			SHIP_SENSOR_RANGE_MULT = -0.1
 			SHIP_ACCURACY_MULT = -0.25
+			SHIP_TRACKING_MULT = -0.25
 		}
 
 		graphics = {
@@ -362,6 +371,7 @@ utility_component_template = {
 		modifier = {
 			SHIP_SENSOR_RANGE_MULT = -0.1
 			SHIP_ACCURACY_MULT = -0.25
+			SHIP_TRACKING_MULT = -0.25
 		}
 
 		graphics = {
@@ -415,6 +425,7 @@ utility_component_template = {
 		modifier = {
 			SHIP_SENSOR_RANGE_MULT = -0.1
 			SHIP_ACCURACY_MULT = -0.25
+			SHIP_TRACKING_MULT = -0.25
 		}
 
 		graphics = {
@@ -451,6 +462,7 @@ utility_component_template = {
 		modifier = {
 			SHIP_SENSOR_RANGE_MULT = -0.1
 			SHIP_ACCURACY_MULT = -0.25
+			SHIP_TRACKING_MULT = -0.25
 		}
 
 		graphics = {
@@ -487,6 +499,7 @@ utility_component_template = {
 		modifier = {
 			SHIP_SENSOR_RANGE_MULT = -0.1
 			SHIP_ACCURACY_MULT = -0.25
+			SHIP_TRACKING_MULT = -0.25
 		}
 
 		graphics = {
@@ -523,6 +536,7 @@ utility_component_template = {
 		modifier = {
 			SHIP_SENSOR_RANGE_MULT = -0.1
 			SHIP_ACCURACY_MULT = -0.25
+			SHIP_TRACKING_MULT = -0.25
 		}
 
 		graphics = {
@@ -559,6 +573,7 @@ utility_component_template = {
 		modifier = {
 			SHIP_SENSOR_RANGE_MULT = -0.1
 			SHIP_ACCURACY_MULT = -0.25
+			SHIP_TRACKING_MULT = -0.25
 		}
 
 		graphics = {
@@ -595,6 +610,7 @@ utility_component_template = {
 		modifier = {
 			SHIP_SENSOR_RANGE_MULT = -0.1
 			SHIP_ACCURACY_MULT = -0.25
+			SHIP_TRACKING_MULT = -0.25
 		}
 
 		graphics = {
@@ -631,6 +647,7 @@ utility_component_template = {
 		modifier = {
 			SHIP_SENSOR_RANGE_MULT = -0.1
 			SHIP_ACCURACY_MULT = -0.25
+			SHIP_TRACKING_MULT = -0.25
 		}
 
 		graphics = {
@@ -667,6 +684,7 @@ utility_component_template = {
 		modifier = {
 			SHIP_SENSOR_RANGE_MULT = -0.1
 			SHIP_ACCURACY_MULT = -0.25
+			SHIP_TRACKING_MULT = -0.25
 		}
 
 		graphics = {
@@ -703,6 +721,7 @@ utility_component_template = {
 		modifier = {
 			SHIP_SENSOR_RANGE_MULT = -0.1
 			SHIP_ACCURACY_MULT = -0.25
+			SHIP_TRACKING_MULT = -0.25
 		}
 
 		graphics = {
@@ -739,6 +758,7 @@ utility_component_template = {
 		modifier = {
 			SHIP_SENSOR_RANGE_MULT = -0.1
 			SHIP_ACCURACY_MULT = -0.25
+			SHIP_TRACKING_MULT = -0.25
 		}
 
 		graphics = {
@@ -775,6 +795,7 @@ utility_component_template = {
 		modifier = {
 			SHIP_SENSOR_RANGE_MULT = -0.1
 			SHIP_ACCURACY_MULT = -0.25
+			SHIP_TRACKING_MULT = -0.25
 		}
 
 		graphics = {
@@ -811,6 +832,7 @@ utility_component_template = {
 		modifier = {
 			SHIP_SENSOR_RANGE_MULT = -0.1
 			SHIP_ACCURACY_MULT = -0.25
+			SHIP_TRACKING_MULT = -0.25
 		}
 
 		graphics = {
@@ -822,4 +844,78 @@ utility_component_template = {
 	}
 
 	prerequisites = { "tech_MS_14C" }
+}
+
+utility_component_template = {
+	key = "gp_00_reactor"
+	size = small
+	icon = "GFX_ship_part_ms_reactor"
+	icon_frame = 1
+	power = 7000
+	cost = 0
+
+	component_set = "gp_00_reactor"
+
+	hostile_aura = {
+		name = "aura_minovsky"
+		radius = 20
+		apply_on = ships
+
+		stack_info = {			#A ship can only be affected by one aura of a certain id. If multiple auras have the same ID the one with the highest priority will be applied.
+			id = ms_reactor_aura
+			priority = 2
+		}
+
+		modifier = {
+			SHIP_SENSOR_RANGE_MULT = -0.1
+			SHIP_ACCURACY_MULT = -0.25
+			SHIP_TRACKING_MULT = -0.25
+		}
+
+		graphics = {
+			area_effect = {
+				entity = "circle_area_entity"
+				dynamic_scale = yes
+			}
+		}
+	}
+
+	prerequisites = { "tech_RX_78GP01Fb" }
+}
+
+utility_component_template = {
+	key = "gp_02_reactor"
+	size = small
+	icon = "GFX_ship_part_ms_reactor"
+	icon_frame = 1
+	power = 4000
+	cost = 0
+
+	component_set = "gp_02_reactor"
+
+	hostile_aura = {
+		name = "aura_minovsky"
+		radius = 20
+		apply_on = ships
+
+		stack_info = {			#A ship can only be affected by one aura of a certain id. If multiple auras have the same ID the one with the highest priority will be applied.
+			id = ms_reactor_aura
+			priority = 2
+		}
+
+		modifier = {
+			SHIP_SENSOR_RANGE_MULT = -0.1
+			SHIP_ACCURACY_MULT = -0.25
+			SHIP_TRACKING_MULT = -0.25
+		}
+
+		graphics = {
+			area_effect = {
+				entity = "circle_area_entity"
+				dynamic_scale = yes
+			}
+		}
+	}
+
+	prerequisites = { "tech_RX_78GP02" }
 }

@@ -170,6 +170,50 @@ utility_component_template = {
 }
 
 utility_component_template = {
+	key = "rx_78gp03_dendrobium_0"
+	size = small
+	icon = "GFX_ship_part_empty_ftl_drive"
+	icon_frame = 1
+	power = 0
+	cost = 0
+
+	prerequisites = { "tech_RX_78GP03S" }
+
+	component_set = "rx_78gp03_dendrobium"
+	upgrades_to = "rx_78gp03_dendrobium_1"
+
+	ai_weight = {
+		weight = 0
+	}
+}
+
+utility_component_template = {
+	key = "rx_78gp03_dendrobium_1"
+	size = small
+	icon = "GFX_ship_part_armor_1"
+	icon_frame = 1
+	power = 3000
+	cost = 500 #221 higher than it should be
+
+	modifier = {
+		ship_armor_add = 1394 #200%
+		ship_hull_mult = 6.1
+		ship_evasion_add = -22
+		ship_speed_mult = 0.85
+		ship_shield_add = 3000
+	}
+
+	prerequisites = { "tech_RX_78GP03S" }
+
+	component_set = "rx_78gp03_dendrobium"
+	#upgrades_to = "rx_78_armor_2"
+
+	ai_weight = {
+		weight = 1
+	}
+}
+
+utility_component_template = {
 	key = "rx_78gp_04g_armor_1"
 	size = small
 	icon = "GFX_ship_part_armor_1"

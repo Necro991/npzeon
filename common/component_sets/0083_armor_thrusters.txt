@@ -57,6 +57,14 @@ component_set = {
 }
 
 component_set = {
+	key = "rx_78gp03_dendrobium"
+
+	required_component_set = yes
+	icon = "GFX_ship_part_armor_1"
+	icon_frame = 1
+}
+
+component_set = {
 	key = "rx_78gp_04g_thrusters"
 
 	required_component_set = yes

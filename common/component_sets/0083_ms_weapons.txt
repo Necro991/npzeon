@@ -46,3 +46,10 @@ component_set = {
 	icon = "0083_EFSF_BEAM_BAZOOKA"
 	icon_frame = 1
 }
+
+component_set = {
+	key = "0083_EFSF_GP03_MPC"
+
+	icon = "0083_EFSF_GP03_MPC"
+	icon_frame = 1
+}

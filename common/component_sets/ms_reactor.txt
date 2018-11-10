@@ -196,3 +196,21 @@ component_set = {
 	icon = "GFX_ship_part_ms_reactor"
 	icon_frame = 1
 }
+
+component_set = {
+	key = "gp_00_reactor"
+
+	show_in_designer = no
+	required_component_set = yes
+	icon = "GFX_ship_part_ms_reactor"
+	icon_frame = 1
+}
+
+component_set = {
+	key = "gp_02_reactor"
+
+	show_in_designer = no
+	required_component_set = yes
+	icon = "GFX_ship_part_ms_reactor"
+	icon_frame = 1
+}

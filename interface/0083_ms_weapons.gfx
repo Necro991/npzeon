@@ -15,4 +15,9 @@ spriteTypes = {
 		texturefile = "gfx/interface/icons/ship_parts/efsf_beam_bazooka.dds"
 	}
 
+	spriteType = {
+		name = "0083_EFSF_GP03_MPC"
+		texturefile = "gfx/interface/icons/ship_parts/gp03_mpc.dds"
+	}
+
 }
