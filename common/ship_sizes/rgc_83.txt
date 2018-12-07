@@ -5,42 +5,55 @@
 # STANDARD #
 ############
 
-RGC_83 = { #RGC-83 GM Cannon II
-	formation_priority = 4
-	max_speed = 170
-	acceleration = 0.5
-	rotation_speed = 0.455
-	collision_radius = 1
-	max_hitpoints = 300
-	size_multiplier = 1
-	fleet_slot_size = 16
-	section_slots = { "mid" = { locator = "part1" } }
-	num_target_locators = 4
-	is_space_station = no
-	icon_frame = 2
-	base_buildtime = 30
-	graphical_culture = no
-	can_have_federation_design = yes
-	enable_default_design = no	#if yes, countries will have an auto-generated design at start
+#RGC_83 = { #RGC-83 GM Cannon II
+#	formation_priority = 4
+#	max_speed = 170
+#	acceleration = 0.5
+#	rotation_speed = 0.455
+#	collision_radius = 1
+#	max_hitpoints = 300
+#	modifier = {
+#		ship_piracy_suppression_add = 10
+#	}
+#	size_multiplier = 1
+#	fleet_slot_size = 16
+#	section_slots = { "mid" = { locator = "part1" } }
+#	num_target_locators = 4
+#	is_space_station = no
+#	icon_frame = 2
+#	base_buildtime = 30
+#	can_have_federation_design = yes
+#	enable_default_design = no	#if yes, countries will have an auto-generated design at start
 
-	prerequisites = { "tech_RGC_83" }
-	has_mineral_upkeep = yes
+#	prerequisites = { "tech_RGC_83" }
 
-	combat_disengage_chance = 1.75
+#	combat_disengage_chance = 1.75
 
-	class = shipclass_military
-	construction_type = starbase_shipyard
-	required_component_set = "ftl_components"
-	required_component_set = "0083_efsf_pilot_putv"
-	required_component_set = "efsf_grenade_aura"
-	required_component_set = "rgc_80_reactor"
-	required_component_set = "rgc_83_armor"
-	required_component_set = "rgc_83_thrusters"
-	required_component_set = "sensor_components"
+#	class = shipclass_military
+#	construction_type = starbase_shipyard
+#	required_component_set = "ftl_components"
+#	required_component_set = "0083_efsf_pilot_putv"
+#	required_component_set = "efsf_grenade_aura"
+#	required_component_set = "rgc_80_reactor"
+#	required_component_set = "rgc_83_armor"
+#	required_component_set = "rgc_83_thrusters"
+#	required_component_set = "sensor_components"
 
-	empire_limit = {
-		base = 1
-		max = 10
-		naval_cap_div = 10
-	}
-}
+#	empire_limit = {
+#		base = 1
+#		max = 10
+#		naval_cap_div = 10
+#	}
+
+#	resources = {
+#		category = ships
+#		upkeep = {
+#			energy = @corvette_upkeep_energy
+#			alloys = @corvette_upkeep_alloys
+#		}
+#	}
+
+#	min_upgrade_cost = {
+#		alloys = 1
+#	}
+#}

@@ -12,6 +12,9 @@ MS_06 = { #MS-06 MPT
 	rotation_speed = 0.455
 	collision_radius = 1
 	max_hitpoints = 300
+	modifier = {
+		ship_piracy_suppression_add = 10
+	}
 	size_multiplier = 1
 	fleet_slot_size = 16
 	section_slots = { "mid" = { locator = "part1" } }
@@ -19,12 +22,10 @@ MS_06 = { #MS-06 MPT
 	is_space_station = no
 	icon_frame = 2
 	base_buildtime = 30
-	graphical_culture = no
 	can_have_federation_design = yes
 	enable_default_design = no	#if yes, countries will have an auto-generated design at start
 
 	prerequisites = { "tech_MS_06A" }
-	has_mineral_upkeep = yes
 
 	combat_disengage_chance = 1.75
 
@@ -38,6 +39,18 @@ MS_06 = { #MS-06 MPT
 	required_component_set = "ms_06_armor"
 	required_component_set = "ms_06_thrusters"
 	required_component_set = "sensor_components"
+
+	resources = {
+		category = ships
+		upkeep = {
+			energy = @corvette_upkeep_energy
+			alloys = @corvette_upkeep_alloys
+		}
+	}
+
+	min_upgrade_cost = {
+		alloys = 1
+	}
 }
 
 MS_06S = { #MS-06S
@@ -47,6 +60,9 @@ MS_06S = { #MS-06S
 	rotation_speed = 0.455
 	collision_radius = 1
 	max_hitpoints = 300
+	modifier = {
+		ship_piracy_suppression_add = 10
+	}
 	size_multiplier = 1
 	fleet_slot_size = 16
 	section_slots = { "mid" = { locator = "part1" } }
@@ -54,12 +70,10 @@ MS_06S = { #MS-06S
 	is_space_station = no
 	icon_frame = 2
 	base_buildtime = 30
-	graphical_culture = no
 	can_have_federation_design = yes
 	enable_default_design = no	#if yes, countries will have an auto-generated design at start
 
 	prerequisites = { "tech_MS_06C" }
-	has_mineral_upkeep = yes
 
 	combat_disengage_chance = 1.75
 
@@ -74,6 +88,18 @@ MS_06S = { #MS-06S
 	required_component_set = "ms_06_armor"
 	required_component_set = "ms_06_thrusters"
 	required_component_set = "sensor_components"
+
+	resources = {
+		category = ships
+		upkeep = {
+			energy = @corvette_upkeep_energy
+			alloys = @corvette_upkeep_alloys
+		}
+	}
+
+	min_upgrade_cost = {
+		alloys = 1
+	}
 }
 
 zeon_MS_P = { #Psycho Zaku II Thunderbolt
@@ -83,6 +109,9 @@ zeon_MS_P = { #Psycho Zaku II Thunderbolt
 	rotation_speed = 0.455
 	collision_radius = 1
 	max_hitpoints = 115
+	modifier = {
+		ship_piracy_suppression_add = 10
+	}
 	size_multiplier = 1
 	fleet_slot_size = 16
 	section_slots = { "mid" = { locator = "part1" } }
@@ -90,12 +119,10 @@ zeon_MS_P = { #Psycho Zaku II Thunderbolt
 	is_space_station = no
 	icon_frame = 2
 	base_buildtime = 180
-	graphical_culture = no
 	can_have_federation_design = yes
 	enable_default_design = no	#if yes, countries will have an auto-generated design at start
 
 	prerequisites = {"tech_MS_06R_2"}
-	has_mineral_upkeep = yes
 
 	combat_disengage_chance = 1.75
 
@@ -115,6 +142,18 @@ zeon_MS_P = { #Psycho Zaku II Thunderbolt
 		max = 1
 		naval_cap_div = 1
 	}
+
+	resources = {
+		category = ships
+		upkeep = {
+			energy = @corvette_upkeep_energy
+			alloys = @corvette_upkeep_alloys
+		}
+	}
+
+	min_upgrade_cost = {
+		alloys = 1
+	}
 }
 
 MS_06K = { #MS-06K Zaku Cannon
@@ -124,6 +163,9 @@ MS_06K = { #MS-06K Zaku Cannon
 	rotation_speed = 0.455
 	collision_radius = 1
 	max_hitpoints = 300
+	modifier = {
+		ship_piracy_suppression_add = 10
+	}
 	size_multiplier = 1
 	fleet_slot_size = 16
 	section_slots = { "mid" = { locator = "part1" } }
@@ -131,12 +173,10 @@ MS_06K = { #MS-06K Zaku Cannon
 	is_space_station = no
 	icon_frame = 2
 	base_buildtime = 30
-	graphical_culture = no
 	can_have_federation_design = yes
 	enable_default_design = no	#if yes, countries will have an auto-generated design at start
 
 	prerequisites = { "tech_MS_06K" }
-	has_mineral_upkeep = yes
 
 	combat_disengage_chance = 1.75
 
@@ -150,4 +190,16 @@ MS_06K = { #MS-06K Zaku Cannon
 	required_component_set = "ms_06k_armor"
 	required_component_set = "ms_06k_thrusters"
 	required_component_set = "sensor_components"
+
+	resources = {
+		category = ships
+		upkeep = {
+			energy = @corvette_upkeep_energy
+			alloys = @corvette_upkeep_alloys
+		}
+	}
+
+	min_upgrade_cost = {
+		alloys = 1
+	}
 }

@@ -12,6 +12,9 @@ RX_78GP01_Fb = { #RX-78GP01-Fb Gundam Zephyranthes Full Burnern
 	rotation_speed = 0.455
 	collision_radius = 1
 	max_hitpoints = 114
+	modifier = {
+		ship_piracy_suppression_add = 10
+	}
 	size_multiplier = 1
 	fleet_slot_size = 16
 	section_slots = { "mid" = { locator = "part1" } }
@@ -19,12 +22,10 @@ RX_78GP01_Fb = { #RX-78GP01-Fb Gundam Zephyranthes Full Burnern
 	is_space_station = no
 	icon_frame = 2
 	base_buildtime = 30
-	graphical_culture = no
 	can_have_federation_design = yes
 	enable_default_design = no	#if yes, countries will have an auto-generated design at start
 
 	prerequisites = { "tech_RX_78GP01Fb" }
-	has_mineral_upkeep = yes
 
 	combat_disengage_chance = 1.75
 
@@ -44,6 +45,18 @@ RX_78GP01_Fb = { #RX-78GP01-Fb Gundam Zephyranthes Full Burnern
 		max = 1
 		naval_cap_div = 1
 	}
+
+	resources = {
+		category = ships
+		upkeep = {
+			energy = @corvette_upkeep_energy
+			alloys = @corvette_upkeep_alloys
+		}
+	}
+
+	min_upgrade_cost = {
+		alloys = 1
+	}
 }
 
 RX_78GP02 = { #RX-78GP01-Fb Gundam Zephyranthes Full Burnern
@@ -53,6 +66,9 @@ RX_78GP02 = { #RX-78GP01-Fb Gundam Zephyranthes Full Burnern
 	rotation_speed = 0.455
 	collision_radius = 1
 	max_hitpoints = 128
+	modifier = {
+		ship_piracy_suppression_add = 10
+	}
 	size_multiplier = 1
 	fleet_slot_size = 16
 	section_slots = { "mid" = { locator = "part1" } }
@@ -60,12 +76,10 @@ RX_78GP02 = { #RX-78GP01-Fb Gundam Zephyranthes Full Burnern
 	is_space_station = no
 	icon_frame = 2
 	base_buildtime = 30
-	graphical_culture = no
 	can_have_federation_design = yes
 	enable_default_design = no	#if yes, countries will have an auto-generated design at start
 
 	prerequisites = { "tech_RX_78GP02" }
-	has_mineral_upkeep = yes
 
 	combat_disengage_chance = 1.75
 
@@ -84,6 +98,18 @@ RX_78GP02 = { #RX-78GP01-Fb Gundam Zephyranthes Full Burnern
 		max = 1
 		naval_cap_div = 1
 	}
+
+	resources = {
+		category = ships
+		upkeep = {
+			energy = @corvette_upkeep_energy
+			alloys = @corvette_upkeep_alloys
+		}
+	}
+
+	min_upgrade_cost = {
+		alloys = 1
+	}
 }
 
 RX_78GP03S = { #RX-78GP01-Fb Gundam Zephyranthes Full Burnern
@@ -93,6 +119,9 @@ RX_78GP03S = { #RX-78GP01-Fb Gundam Zephyranthes Full Burnern
 	rotation_speed = 0.455
 	collision_radius = 1
 	max_hitpoints = 114
+	modifier = {
+		ship_piracy_suppression_add = 10
+	}
 	size_multiplier = 1
 	fleet_slot_size = 16
 	section_slots = { "mid" = { locator = "part1" } }
@@ -100,12 +129,10 @@ RX_78GP03S = { #RX-78GP01-Fb Gundam Zephyranthes Full Burnern
 	is_space_station = no
 	icon_frame = 2
 	base_buildtime = 30
-	graphical_culture = no
 	can_have_federation_design = yes
 	enable_default_design = no	#if yes, countries will have an auto-generated design at start
 
 	prerequisites = { "tech_RX_78GP03S" }
-	has_mineral_upkeep = yes
 
 	combat_disengage_chance = 1.75
 
@@ -125,6 +152,18 @@ RX_78GP03S = { #RX-78GP01-Fb Gundam Zephyranthes Full Burnern
 		max = 1
 		naval_cap_div = 1
 	}
+
+	resources = {
+		category = ships
+		upkeep = {
+			energy = @corvette_upkeep_energy
+			alloys = @corvette_upkeep_alloys
+		}
+	}
+
+	min_upgrade_cost = {
+		alloys = 1
+	}
 }
 
 RX_78GP04G = { #RX-78GP01-Fb Gundam Zephyranthes Full Burnern
@@ -134,6 +173,9 @@ RX_78GP04G = { #RX-78GP01-Fb Gundam Zephyranthes Full Burnern
 	rotation_speed = 0.455
 	collision_radius = 1
 	max_hitpoints = 114
+	modifier = {
+		ship_piracy_suppression_add = 10
+	}
 	size_multiplier = 1
 	fleet_slot_size = 16
 	section_slots = { "mid" = { locator = "part1" } }
@@ -141,12 +183,10 @@ RX_78GP04G = { #RX-78GP01-Fb Gundam Zephyranthes Full Burnern
 	is_space_station = no
 	icon_frame = 2
 	base_buildtime = 30
-	graphical_culture = no
 	can_have_federation_design = yes
 	enable_default_design = no	#if yes, countries will have an auto-generated design at start
 
 	prerequisites = { "tech_RX_78GP04G" }
-	has_mineral_upkeep = yes
 
 	combat_disengage_chance = 1.75
 
@@ -164,5 +204,17 @@ RX_78GP04G = { #RX-78GP01-Fb Gundam Zephyranthes Full Burnern
 		base = 1
 		max = 1
 		naval_cap_div = 1
+	}
+
+	resources = {
+		category = ships
+		upkeep = {
+			energy = @corvette_upkeep_energy
+			alloys = @corvette_upkeep_alloys
+		}
+	}
+
+	min_upgrade_cost = {
+		alloys = 1
 	}
 }

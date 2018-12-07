@@ -65,73 +65,6 @@ Zeon = {
 	}
 }
 
-NeoZeon = {
-	name = "Neo Zeon"
-	adjective = "PRESCRIPTED_adjective_humans1"
-	spawn_enabled = yes # yes / no / always
-	ignore_portrait_duplication = yes
-
-	ship_prefix = "ZMF"
-
-	species = {
-		class = "ZEO"
-		portrait = "zeon"
-		name = "PRESCRIPTED_species_name_humans1"
-		plural = "PRESCRIPTED_species_plural_humans1"
-		adjective = "PRESCRIPTED_species_adjective_humans1"
-		name_list = "NEW_ZEON"
-		trait = "trait_intelligent"
-		trait = "trait_slow_breeders"
-		trait = "trait_nomadic"
-	}
-	room = "default_room"
-
-	authority = "auth_dictatorial"
-	civics = { "civic_nationalistic_zeal" "civic_environmentalist" }
-	government = gov_totalitarian_regime
-
-	ethic = "ethic_fanatic_materialist"
-	ethic = "ethic_militarist"
-
-	flags = { Neo_Zeon_Start Gundam_Start custom_start_screen }
-
-	weapon = "tech_missiles_1"
-	ftl = warp
-
-	planet_name = "Side 3"
-	system_name = "Sol"
-	planet_class = "pc_continental"
-	initializer = "neo_sol_system_initializer"
-	graphical_culture = "zeon_01"
-	city_graphical_culture = "zeon_01"
-
-	empire_flag = {
-		icon= {
-			category = "zeon"
-			file = "ZeonNewborn.dds"
-		}
-		background= {
-			category = "backgrounds"
-			file = "00_solid.dds"
-		}
-		colors={
-			"red"
-			"black"
-			"null"
-			"null"
-		}
-	}
-	ruler = {
-		name = "Char Aznable"
-		gender = male
-		portrait = "zeon_male_108"
-		trait = leader_trait_newtype
-		#texture = 0
-		#hair = 0
-		#clothes = 4
-	}
-}
-
 Axis = {
 	name = "Axis Zeon"
 	adjective = "PRESCRIPTED_adjective_humans1"
@@ -193,7 +126,72 @@ Axis = {
 		name = "Haman Karn"
 		portrait = "zeon_female_12"
 		gender = female
-		trait = leader_trait_newtype
+		#texture = 0
+		#hair = 0
+		#clothes = 4
+	}
+}
+
+NeoZeon = {
+	name = "Neo Zeon"
+	adjective = "PRESCRIPTED_adjective_humans1"
+	spawn_enabled = yes # yes / no / always
+	ignore_portrait_duplication = yes
+
+	ship_prefix = "ZMF"
+
+	species = {
+		class = "ZEO"
+		portrait = "zeon"
+		name = "PRESCRIPTED_species_name_humans1"
+		plural = "PRESCRIPTED_species_plural_humans1"
+		adjective = "PRESCRIPTED_species_adjective_humans1"
+		name_list = "NEW_ZEON"
+		trait = "trait_intelligent"
+		trait = "trait_slow_breeders"
+		trait = "trait_nomadic"
+	}
+	room = "default_room"
+
+	authority = "auth_dictatorial"
+	civics = { "civic_nationalistic_zeal" "civic_environmentalist" }
+	government = gov_totalitarian_regime
+
+	ethic = "ethic_fanatic_materialist"
+	ethic = "ethic_militarist"
+
+	flags = { Neo_Zeon_Start Gundam_Start custom_start_screen }
+
+	weapon = "tech_missiles_1"
+	ftl = warp
+
+	planet_name = "Side 3"
+	system_name = "Sol"
+	planet_class = "pc_continental"
+	initializer = "neo_sol_system_initializer"
+	graphical_culture = "zeon_01"
+	city_graphical_culture = "zeon_01"
+
+	empire_flag = {
+		icon= {
+			category = "zeon"
+			file = "ZeonNewborn.dds"
+		}
+		background= {
+			category = "backgrounds"
+			file = "00_solid.dds"
+		}
+		colors={
+			"red"
+			"black"
+			"null"
+			"null"
+		}
+	}
+	ruler = {
+		name = "Char Aznable"
+		gender = male
+		portrait = "zeon_male_108"
 		#texture = 0
 		#hair = 0
 		#clothes = 4

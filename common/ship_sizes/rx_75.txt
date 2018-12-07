@@ -12,6 +12,9 @@ RX_75_4 = { #RX-75-4
 	rotation_speed = 0.455
 	collision_radius = 1
 	max_hitpoints = 123
+	modifier = {
+		ship_piracy_suppression_add = 10
+	}
 	size_multiplier = 1
 	fleet_slot_size = 16
 	section_slots = { "mid" = { locator = "part1" } }
@@ -19,12 +22,10 @@ RX_75_4 = { #RX-75-4
 	is_space_station = no
 	icon_frame = 2
 	base_buildtime = 30
-	graphical_culture = no
 	can_have_federation_design = yes
 	enable_default_design = no	#if yes, countries will have an auto-generated design at start
 
 	prerequisites = { "tech_RX_75_1" }
-	has_mineral_upkeep = yes
 
 	combat_disengage_chance = 1.75
 
@@ -33,12 +34,22 @@ RX_75_4 = { #RX-75-4
 	required_component_set = "ftl_components"
 	required_component_set = "oyw_efsf_pilot_vuta"
 	required_component_set = "oyw_efsf_commander_aura"
-	#required_component_set = "zeon_melee_aura"
-	#required_component_set = "zeon_grenade_aura"
 	required_component_set = "rx_75_reactor"
 	required_component_set = "rx_75_armor"
 	required_component_set = "rx_75_thrusters"
 	required_component_set = "sensor_components"
+
+	resources = {
+		category = ships
+		upkeep = {
+			energy = @corvette_upkeep_energy
+			alloys = @corvette_upkeep_alloys
+		}
+	}
+
+	min_upgrade_cost = {
+		alloys = 1
+	}
 }
 
 RX_75_MPT = { #RX-75 MPT
@@ -48,6 +59,9 @@ RX_75_MPT = { #RX-75 MPT
 	rotation_speed = 0.455
 	collision_radius = 1
 	max_hitpoints = 369
+	modifier = {
+		ship_piracy_suppression_add = 10
+	}
 	size_multiplier = 1
 	fleet_slot_size = 16
 	section_slots = { "mid" = { locator = "part1" } }
@@ -55,12 +69,10 @@ RX_75_MPT = { #RX-75 MPT
 	is_space_station = no
 	icon_frame = 2
 	base_buildtime = 30
-	graphical_culture = no
 	can_have_federation_design = yes
 	enable_default_design = no	#if yes, countries will have an auto-generated design at start
 
 	prerequisites = { "tech_RX_75_2" }
-	has_mineral_upkeep = yes
 
 	combat_disengage_chance = 1.75
 
@@ -68,10 +80,20 @@ RX_75_MPT = { #RX-75 MPT
 	construction_type = starbase_shipyard
 	required_component_set = "ftl_components"
 	required_component_set = "oyw_efsf_pilot_putv"
-	#required_component_set = "zeon_melee_aura"
-	#required_component_set = "zeon_grenade_aura"
 	required_component_set = "ms_reactor"
 	required_component_set = "rx_75_mpt_armor"
 	required_component_set = "rx_75_thrusters"
 	required_component_set = "sensor_components"
+
+	resources = {
+		category = ships
+		upkeep = {
+			energy = @corvette_upkeep_energy
+			alloys = @corvette_upkeep_alloys
+		}
+	}
+
+	min_upgrade_cost = {
+		alloys = 1
+	}
 }

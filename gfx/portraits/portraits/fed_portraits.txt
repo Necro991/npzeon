@@ -389,6 +389,11 @@ portraits = {
 		clothes_selector = "no_texture"
 		hair_selector = "no_texture"
 	}
+	fed_male_79 = {
+		texturefile = "gfx/models/portraits/fed/fed_male_79.dds"
+		clothes_selector = "no_texture"
+		hair_selector = "no_texture"
+	}
 	fed_female_01 = {
 		texturefile = "gfx/models/portraits/fed/fed_female_01.dds"
 		clothes_selector = "no_texture"
@@ -602,6 +607,7 @@ fed = {
 					fed_male_76
 					fed_male_77
 					fed_male_78
+					fed_male_79
 					}
 				}
 			add = {
@@ -681,6 +687,7 @@ fed = {
 					fed_male_76
 					fed_male_77
 					fed_male_78
+					fed_male_79
 					fed_female_01
 					fed_female_02
 					fed_female_03
@@ -825,6 +832,7 @@ fed = {
 					fed_male_76
 					fed_male_77
 					fed_male_78
+					fed_male_79
 				}
 			}
 		}
@@ -946,6 +954,7 @@ fed = {
 					fed_male_76
 					fed_male_77
 					fed_male_78
+					fed_male_79
 				}
 			}
 		}

@@ -5,26 +5,27 @@
 # STANDARD #
 ############
 
-EMS_10 = { #EMS-10 Zudah
+EMS_10 = {
 	formation_priority = 4
 	max_speed = 219
 	acceleration = 0.5
 	rotation_speed = 0.455
 	collision_radius = 1
 	max_hitpoints = 354
+	modifier = {
+		ship_piracy_suppression_add = 10
+	}
 	size_multiplier = 1
-	fleet_slot_size = 16
+	fleet_slot_size = 1
 	section_slots = { "mid" = { locator = "part1" } }
 	num_target_locators = 4
 	is_space_station = no
 	icon_frame = 2
 	base_buildtime = 30
-	graphical_culture = no
 	can_have_federation_design = yes
 	enable_default_design = no	#if yes, countries will have an auto-generated design at start
 
 	prerequisites = { "tech_EMS_10" }
-	has_mineral_upkeep = yes
 
 	combat_disengage_chance = 1.75
 
@@ -38,6 +39,18 @@ EMS_10 = { #EMS-10 Zudah
 	required_component_set = "ems_10_armor"
 	required_component_set = "ems_10_thrusters"
 	required_component_set = "sensor_components"
+
+	resources = {
+		category = ships
+		upkeep = {
+			energy = @corvette_upkeep_energy
+			alloys = @corvette_upkeep_alloys
+		}
+	}
+
+	min_upgrade_cost = {
+		alloys = 1
+	}
 }
 
 EMS_10S = { #EMS-10S Zudah Commander
@@ -47,19 +60,20 @@ EMS_10S = { #EMS-10S Zudah Commander
 	rotation_speed = 0.455
 	collision_radius = 1
 	max_hitpoints = 354
+	modifier = {
+		ship_piracy_suppression_add = 10
+	}
 	size_multiplier = 1
-	fleet_slot_size = 16
+	fleet_slot_size = 1
 	section_slots = { "mid" = { locator = "part1" } }
 	num_target_locators = 4
 	is_space_station = no
 	icon_frame = 2
 	base_buildtime = 30
-	graphical_culture = no
 	can_have_federation_design = yes
 	enable_default_design = no	#if yes, countries will have an auto-generated design at start
 
 	prerequisites = { "tech_EMS_10" }
-	has_mineral_upkeep = yes
 
 	combat_disengage_chance = 1.75
 
@@ -74,4 +88,16 @@ EMS_10S = { #EMS-10S Zudah Commander
 	required_component_set = "ems_10_armor"
 	required_component_set = "ems_10_thrusters"
 	required_component_set = "sensor_components"
+
+	resources = {
+		category = ships
+		upkeep = {
+			energy = @corvette_upkeep_energy
+			alloys = @corvette_upkeep_alloys
+		}
+	}
+
+	min_upgrade_cost = {
+		alloys = 1
+	}
 }

@@ -64,6 +64,7 @@ EFSF = {
 		#clothes = 4
 	}
 }
+
 Titans = {
 	name = "Titans"
 	adjective = "PRESCRIPTED_adjective_humans1"
@@ -124,7 +125,74 @@ Titans = {
 		name = "Paptimus Scirocco"
 		portrait = "fed_male_50"
 		gender = male
-		trait = leader_trait_newtype
+		#texture = 0
+		#hair = 0
+		#clothes = 4
+	}
+}
+
+Anaheim = {
+	name = "Anaheim Electronics"
+	adjective = "PRESCRIPTED_adjective_humans1"
+	spawn_enabled = yes # yes / no / always
+	ignore_portrait_duplication = yes
+
+	playable = has_megacorp
+
+	ship_prefix = "AES"
+
+	species = {
+		class = "FED"
+		portrait = "fed"
+		name = "PRESCRIPTED_species_name_humans1"
+		plural = "PRESCRIPTED_species_plural_humans1"
+		adjective = "PRESCRIPTED_species_adjective_humans1"
+		name_list = "NEW_EFSF"
+		trait = "trait_intelligent"
+		trait = "trait_slow_breeders"
+		trait = "trait_nomadic"
+	}
+	room = "personality_erudite_explorers_room"
+
+	authority = "auth_corporate"
+	civics = { "civic_naval_contractors" "civic_ruthless_competition" }
+	government = gov_megacorporation
+
+	ethic = "ethic_fanatic_materialist"
+	ethic = "ethic_militarist"
+
+	flags = { EFSF_Start Gundam_Start custom_start_screen efsf }
+
+	weapon = "tech_missiles_1"
+	ftl = warp
+
+	planet_name = "Earth"
+	planet_class = "pc_continental"
+	initializer = "efsf_sol_system_initializer"
+	system_name = "Sol"
+	graphical_culture = "fed_01"
+	city_graphical_culture = "fed_01"
+
+	empire_flag = {
+		icon= {
+			category = "anaheim"
+			file = "AE_Anaheim_Electronics.dds"
+		}
+		background= {
+			category = "backgrounds"
+			file = "00_solid.dds"
+		}
+		colors={
+			"blue"
+			"blue"
+			"null"
+			"null"
+		}
+	}
+	ruler = {
+		name = "Tem Ray"
+		portrait = "fed_male_79"
+		gender = male
 		#texture = 0
 		#hair = 0
 		#clothes = 4

@@ -12,6 +12,9 @@ RX_81 = { #G-Line
 	rotation_speed = 0.455
 	collision_radius = 1
 	max_hitpoints = 300
+	modifier = {
+		ship_piracy_suppression_add = 10
+	}
 	size_multiplier = 1
 	fleet_slot_size = 16
 	section_slots = { "mid" = { locator = "part1" } }
@@ -19,14 +22,11 @@ RX_81 = { #G-Line
 	is_space_station = no
 	icon_frame = 2
 	base_buildtime = 30
-	graphical_culture = no
 	can_have_federation_design = yes
 	enable_default_design = no	#if yes, countries will have an auto-generated design at start
 
 	prerequisites = { "tech_RX_81" }
 	combat_disengage_chance = 1.75
-
-	has_mineral_upkeep = yes
 
 	class = shipclass_military
 	construction_type = starbase_shipyard
@@ -38,6 +38,18 @@ RX_81 = { #G-Line
 	required_component_set = "rx_81_armor"
 	required_component_set = "rx_81_thrusters"
 	required_component_set = "sensor_components"
+
+	resources = {
+		category = ships
+		upkeep = {
+			energy = @corvette_upkeep_energy
+			alloys = @corvette_upkeep_alloys
+		}
+	}
+
+	min_upgrade_cost = {
+		alloys = 1
+	}
 }
 
 RX_81FC = { #G-Line Full Custom
@@ -47,6 +59,9 @@ RX_81FC = { #G-Line Full Custom
 	rotation_speed = 0.455
 	collision_radius = 1
 	max_hitpoints = 111
+	modifier = {
+		ship_piracy_suppression_add = 10
+	}
 	size_multiplier = 1
 	fleet_slot_size = 16
 	section_slots = { "mid" = { locator = "part1" } }
@@ -54,12 +69,10 @@ RX_81FC = { #G-Line Full Custom
 	is_space_station = no
 	icon_frame = 2
 	base_buildtime = 30
-	graphical_culture = no
 	can_have_federation_design = yes
 	enable_default_design = no	#if yes, countries will have an auto-generated design at start
 
 	prerequisites = { "tech_RX_81FC" }
-	has_mineral_upkeep = yes
 
 	combat_disengage_chance = 1.75
 
@@ -79,5 +92,17 @@ RX_81FC = { #G-Line Full Custom
 		base = 1
 		max = 6
 		naval_cap_div = 1
+	}
+
+	resources = {
+		category = ships
+		upkeep = {
+			energy = @corvette_upkeep_energy
+			alloys = @corvette_upkeep_alloys
+		}
+	}
+
+	min_upgrade_cost = {
+		alloys = 1
 	}
 }

@@ -12,6 +12,9 @@ RGM_79 = { #GM
 	rotation_speed = 0.455
 	collision_radius = 1
 	max_hitpoints = 300
+	modifier = {
+		ship_piracy_suppression_add = 10
+	}
 	size_multiplier = 1
 	fleet_slot_size = 16
 	section_slots = { "mid" = { locator = "part1" } }
@@ -19,14 +22,11 @@ RGM_79 = { #GM
 	is_space_station = no
 	icon_frame = 2
 	base_buildtime = 30
-	graphical_culture = no
 	can_have_federation_design = yes
 	enable_default_design = no	#if yes, countries will have an auto-generated design at start
 
 	prerequisites = { "tech_RGM_79E" }
 	combat_disengage_chance = 1.75
-
-	has_mineral_upkeep = yes
 
 	class = shipclass_military
 	construction_type = starbase_shipyard
@@ -38,6 +38,18 @@ RGM_79 = { #GM
 	required_component_set = "rgm_79_armor"
 	required_component_set = "rgm_79_thrusters"
 	required_component_set = "sensor_components"
+
+	resources = {
+		category = ships
+		upkeep = {
+			energy = @corvette_upkeep_energy
+			alloys = @corvette_upkeep_alloys
+		}
+	}
+
+	min_upgrade_cost = {
+		alloys = 1
+	}
 }
 
 RGM_79S = { #GM Commander
@@ -47,6 +59,9 @@ RGM_79S = { #GM Commander
 	rotation_speed = 0.455
 	collision_radius = 1
 	max_hitpoints = 300
+	modifier = {
+		ship_piracy_suppression_add = 10
+	}
 	size_multiplier = 1
 	fleet_slot_size = 16
 	section_slots = { "mid" = { locator = "part1" } }
@@ -54,12 +69,10 @@ RGM_79S = { #GM Commander
 	is_space_station = no
 	icon_frame = 2
 	base_buildtime = 30
-	graphical_culture = no
 	can_have_federation_design = yes
 	enable_default_design = no	#if yes, countries will have an auto-generated design at start
 
 	prerequisites = { "tech_RGM_79E" }
-	has_mineral_upkeep = yes
 
 	combat_disengage_chance = 1.75
 
@@ -74,6 +87,18 @@ RGM_79S = { #GM Commander
 	required_component_set = "rgm_79_armor"
 	required_component_set = "rgm_79_thrusters"
 	required_component_set = "sensor_components"
+
+	resources = {
+		category = ships
+		upkeep = {
+			energy = @corvette_upkeep_energy
+			alloys = @corvette_upkeep_alloys
+		}
+	}
+
+	min_upgrade_cost = {
+		alloys = 1
+	}
 }
 
 RGM_79SC = { #GM Sniper
@@ -83,6 +108,9 @@ RGM_79SC = { #GM Sniper
 	rotation_speed = 0.455
 	collision_radius = 1
 	max_hitpoints = 300
+	modifier = {
+		ship_piracy_suppression_add = 10
+	}
 	size_multiplier = 1
 	fleet_slot_size = 16
 	section_slots = { "mid" = { locator = "part1" } }
@@ -90,14 +118,11 @@ RGM_79SC = { #GM Sniper
 	is_space_station = no
 	icon_frame = 2
 	base_buildtime = 30
-	graphical_culture = no
 	can_have_federation_design = yes
 	enable_default_design = no	#if yes, countries will have an auto-generated design at start
 
 	prerequisites = { "tech_RGM_79SC" }
 	combat_disengage_chance = 1.75
-
-	has_mineral_upkeep = yes
 
 	class = shipclass_military
 	construction_type = starbase_shipyard
@@ -109,6 +134,18 @@ RGM_79SC = { #GM Sniper
 	required_component_set = "rgm_79sc_armor"
 	required_component_set = "rgm_79sc_thrusters"
 	required_component_set = "sensor_components"
+
+	resources = {
+		category = ships
+		upkeep = {
+			energy = @corvette_upkeep_energy
+			alloys = @corvette_upkeep_alloys
+		}
+	}
+
+	min_upgrade_cost = {
+		alloys = 1
+	}
 }
 
 RGM_79FP = { #GM Striker
@@ -118,6 +155,9 @@ RGM_79FP = { #GM Striker
 	rotation_speed = 0.455
 	collision_radius = 1
 	max_hitpoints = 300
+	modifier = {
+		ship_piracy_suppression_add = 10
+	}
 	size_multiplier = 1
 	fleet_slot_size = 16
 	section_slots = { "mid" = { locator = "part1" } }
@@ -125,14 +165,12 @@ RGM_79FP = { #GM Striker
 	is_space_station = no
 	icon_frame = 2
 	base_buildtime = 30
-	graphical_culture = no
 	can_have_federation_design = yes
 	enable_default_design = no	#if yes, countries will have an auto-generated design at start
 
 	prerequisites = { "tech_RGM_79FP" }
 	combat_disengage_chance = 1.75
 
-	has_mineral_upkeep = yes
 
 	class = shipclass_military
 	construction_type = starbase_shipyard
@@ -144,6 +182,18 @@ RGM_79FP = { #GM Striker
 	required_component_set = "rgm_79fp_armor"
 	required_component_set = "rgm_79fp_thrusters"
 	required_component_set = "sensor_components"
+
+	resources = {
+		category = ships
+		upkeep = {
+			energy = @corvette_upkeep_energy
+			alloys = @corvette_upkeep_alloys
+		}
+	}
+
+	min_upgrade_cost = {
+		alloys = 1
+	}
 }
 
 RGM_79FC = { #GM Striker Custom (Commander)
@@ -153,6 +203,9 @@ RGM_79FC = { #GM Striker Custom (Commander)
 	rotation_speed = 0.455
 	collision_radius = 1
 	max_hitpoints = 300
+	modifier = {
+		ship_piracy_suppression_add = 10
+	}
 	size_multiplier = 1
 	fleet_slot_size = 16
 	section_slots = { "mid" = { locator = "part1" } }
@@ -160,12 +213,10 @@ RGM_79FC = { #GM Striker Custom (Commander)
 	is_space_station = no
 	icon_frame = 2
 	base_buildtime = 30
-	graphical_culture = no
 	can_have_federation_design = yes
 	enable_default_design = no	#if yes, countries will have an auto-generated design at start
 
 	prerequisites = { "tech_RGM_79FC" }
-	has_mineral_upkeep = yes
 
 	combat_disengage_chance = 1.75
 
@@ -180,4 +231,16 @@ RGM_79FC = { #GM Striker Custom (Commander)
 	required_component_set = "rgm_79fp_armor"
 	required_component_set = "rgm_79fp_thrusters"
 	required_component_set = "sensor_components"
+
+	resources = {
+		category = ships
+		upkeep = {
+			energy = @corvette_upkeep_energy
+			alloys = @corvette_upkeep_alloys
+		}
+	}
+
+	min_upgrade_cost = {
+		alloys = 1
+	}
 }

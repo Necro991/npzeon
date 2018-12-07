@@ -2,6 +2,7 @@ ship_section_template = {
 	key = "EMS_10_MID"
 	ship_size = EMS_10
 	fits_on_slot = mid
+	should_draw_components = yes
 	entity = "zudah_trio_entity"
 	icon = "GFX_ship_part_core_mid"
 
@@ -39,13 +40,20 @@ ship_section_template = {
 	large_utility_slots = 0
 	aux_utility_slots = 0
 
-	cost = 141
+	resources = {
+		category = ship_sections
+		cost = {
+			alloys = 30
+		}
+	}
+	#cost = 141
 }
 
 ship_section_template = {
 	key = "EMS_10S_MID"
 	ship_size = EMS_10S
 	fits_on_slot = mid
+	should_draw_components = yes
 	entity = "zudah_commander_entity"
 	icon = "GFX_ship_part_core_mid"
 
@@ -90,5 +98,11 @@ ship_section_template = {
 	large_utility_slots = 0
 	aux_utility_slots = 0
 
-	cost = 141
+	resources = {
+		category = ship_sections
+		cost = {
+			alloys = 30
+		}
+	}
+	#cost = 141
 }

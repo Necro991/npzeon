@@ -11,6 +11,9 @@ MS_09 = { #MS-09 MPT
 	rotation_speed = 0.455
 	collision_radius = 1
 	max_hitpoints = 300
+	modifier = {
+		ship_piracy_suppression_add = 10
+	}
 	size_multiplier = 1
 	fleet_slot_size = 16
 	section_slots = { "mid" = { locator = "part1" } }
@@ -18,12 +21,10 @@ MS_09 = { #MS-09 MPT
 	is_space_station = no
 	icon_frame = 2
 	base_buildtime = 30
-	graphical_culture = no
 	can_have_federation_design = yes
 	enable_default_design = no	#if yes, countries will have an auto-generated design at start
 
 	prerequisites = { "tech_MS_09R" }
-	has_mineral_upkeep = yes
 
 	combat_disengage_chance = 1.75
 
@@ -37,6 +38,18 @@ MS_09 = { #MS-09 MPT
 	required_component_set = "ms_09_armor"
 	required_component_set = "ms_09_thrusters"
 	required_component_set = "sensor_components"
+
+	resources = {
+		category = ships
+		upkeep = {
+			energy = @corvette_upkeep_energy
+			alloys = @corvette_upkeep_alloys
+		}
+	}
+
+	min_upgrade_cost = {
+		alloys = 1
+	}
 }
 
 MS_09S = { #MS-09S
@@ -46,6 +59,9 @@ MS_09S = { #MS-09S
 	rotation_speed = 0.455
 	collision_radius = 1
 	max_hitpoints = 300
+	modifier = {
+		ship_piracy_suppression_add = 10
+	}
 	size_multiplier = 1
 	fleet_slot_size = 16
 	section_slots = { "mid" = { locator = "part1" } }
@@ -53,12 +69,10 @@ MS_09S = { #MS-09S
 	is_space_station = no
 	icon_frame = 2
 	base_buildtime = 30
-	graphical_culture = no
 	can_have_federation_design = yes
 	enable_default_design = no	#if yes, countries will have an auto-generated design at start
 
 	prerequisites = { "tech_MS_09R" }
-	has_mineral_upkeep = yes
 
 	combat_disengage_chance = 1.75
 
@@ -73,6 +87,18 @@ MS_09S = { #MS-09S
 	required_component_set = "ms_09_armor"
 	required_component_set = "ms_09_thrusters"
 	required_component_set = "sensor_components"
+
+	resources = {
+		category = ships
+		upkeep = {
+			energy = @corvette_upkeep_energy
+			alloys = @corvette_upkeep_alloys
+		}
+	}
+
+	min_upgrade_cost = {
+		alloys = 1
+	}
 }
 
 MS_09K = { #MS-09K Dom Cannon
@@ -82,6 +108,9 @@ MS_09K = { #MS-09K Dom Cannon
 	rotation_speed = 0.455
 	collision_radius = 1
 	max_hitpoints = 300
+	modifier = {
+		ship_piracy_suppression_add = 10
+	}
 	size_multiplier = 1
 	fleet_slot_size = 16
 	section_slots = { "mid" = { locator = "part1" } }
@@ -89,12 +118,10 @@ MS_09K = { #MS-09K Dom Cannon
 	is_space_station = no
 	icon_frame = 2
 	base_buildtime = 30
-	graphical_culture = no
 	can_have_federation_design = yes
 	enable_default_design = no	#if yes, countries will have an auto-generated design at start
 
 	prerequisites = { "tech_MS_09K" }
-	has_mineral_upkeep = yes
 
 	combat_disengage_chance = 1.75
 
@@ -108,4 +135,16 @@ MS_09K = { #MS-09K Dom Cannon
 	required_component_set = "ms_09k_armor"
 	required_component_set = "ms_09k_thrusters"
 	required_component_set = "sensor_components"
+
+	resources = {
+		category = ships
+		upkeep = {
+			energy = @corvette_upkeep_energy
+			alloys = @corvette_upkeep_alloys
+		}
+	}
+
+	min_upgrade_cost = {
+		alloys = 1
+	}
 }

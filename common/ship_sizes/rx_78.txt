@@ -12,6 +12,9 @@ RX_78 = { #Goondam
 	rotation_speed = 0.455
 	collision_radius = 1
 	max_hitpoints = 100
+	modifier = {
+		ship_piracy_suppression_add = 10
+	}
 	size_multiplier = 1
 	fleet_slot_size = 16
 	section_slots = { "mid" = { locator = "part1" } }
@@ -19,12 +22,10 @@ RX_78 = { #Goondam
 	is_space_station = no
 	icon_frame = 2
 	base_buildtime = 30
-	graphical_culture = no
 	can_have_federation_design = yes
 	enable_default_design = no	#if yes, countries will have an auto-generated design at start
 
 	prerequisites = { "tech_RX_78_1" }
-	has_mineral_upkeep = yes
 
 	combat_disengage_chance = 1.75
 
@@ -46,6 +47,18 @@ RX_78 = { #Goondam
 		max = 7
 		naval_cap_div = 1
 	}
+
+	resources = {
+		category = ships
+		upkeep = {
+			energy = @corvette_upkeep_energy
+			alloys = @corvette_upkeep_alloys
+		}
+	}
+
+	min_upgrade_cost = {
+		alloys = 1
+	}
 }
 
 FA_78 = { #Thunderstruck Goondam
@@ -55,6 +68,9 @@ FA_78 = { #Thunderstruck Goondam
 	rotation_speed = 0.455
 	collision_radius = 1
 	max_hitpoints = 127 #82.8t
+	modifier = {
+		ship_piracy_suppression_add = 10
+	}
 	size_multiplier = 1
 	fleet_slot_size = 16
 	section_slots = { "mid" = { locator = "part1" } }
@@ -62,12 +78,10 @@ FA_78 = { #Thunderstruck Goondam
 	is_space_station = no
 	icon_frame = 2
 	base_buildtime = 180 #Big Increase
-	graphical_culture = no
 	can_have_federation_design = yes
 	enable_default_design = no	#if yes, countries will have an auto-generated design at start
 
 	prerequisites = { "tech_FA_78_1" }
-	has_mineral_upkeep = yes
 
 	combat_disengage_chance = 1.75
 
@@ -88,6 +102,18 @@ FA_78 = { #Thunderstruck Goondam
 		max = 1
 		naval_cap_div = 1
 	}
+
+	resources = {
+		category = ships
+		upkeep = {
+			energy = @corvette_upkeep_energy
+			alloys = @corvette_upkeep_alloys
+		}
+	}
+
+	min_upgrade_cost = {
+		alloys = 1
+	}
 }
 
 FA_78_2 = { #Heifer Goondam
@@ -97,6 +123,9 @@ FA_78_2 = { #Heifer Goondam
 	rotation_speed = 0.455
 	collision_radius = 1
 	max_hitpoints = 127 #82.8t
+	modifier = {
+		ship_piracy_suppression_add = 10
+	}
 	size_multiplier = 1
 	fleet_slot_size = 16
 	section_slots = { "mid" = { locator = "part1" } }
@@ -104,12 +133,10 @@ FA_78_2 = { #Heifer Goondam
 	is_space_station = no
 	icon_frame = 2
 	base_buildtime = 90 #Big Increase
-	graphical_culture = no
 	can_have_federation_design = yes
 	enable_default_design = no	#if yes, countries will have an auto-generated design at start
 
 	prerequisites = { "tech_FA_78_2" }
-	has_mineral_upkeep = yes
 
 	combat_disengage_chance = 1.75
 
@@ -130,6 +157,18 @@ FA_78_2 = { #Heifer Goondam
 		max = 3
 		naval_cap_div = 1
 	}
+
+	resources = {
+		category = ships
+		upkeep = {
+			energy = @corvette_upkeep_energy
+			alloys = @corvette_upkeep_alloys
+		}
+	}
+
+	min_upgrade_cost = {
+		alloys = 1
+	}
 }
 
 HFA_78 = { #Heifer Full Amore Goondam
@@ -139,6 +178,9 @@ HFA_78 = { #Heifer Full Amore Goondam
 	rotation_speed = 0.455
 	collision_radius = 1
 	max_hitpoints = 186
+	modifier = {
+		ship_piracy_suppression_add = 10
+	}
 	size_multiplier = 1
 	fleet_slot_size = 16
 	section_slots = { "mid" = { locator = "part1" } }
@@ -146,12 +188,10 @@ HFA_78 = { #Heifer Full Amore Goondam
 	is_space_station = no
 	icon_frame = 2
 	base_buildtime = 180 #Big Increase
-	graphical_culture = no
 	can_have_federation_design = yes
 	enable_default_design = no	#if yes, countries will have an auto-generated design at start
 
 	prerequisites = { "tech_HFA_78_3" }
-	has_mineral_upkeep = yes
 
 	combat_disengage_chance = 1.0
 
@@ -171,5 +211,17 @@ HFA_78 = { #Heifer Full Amore Goondam
 		base = 1
 		max = 1
 		naval_cap_div = 1
+	}
+
+	resources = {
+		category = ships
+		upkeep = {
+			energy = @corvette_upkeep_energy
+			alloys = @corvette_upkeep_alloys
+		}
+	}
+
+	min_upgrade_cost = {
+		alloys = 1
 	}
 }

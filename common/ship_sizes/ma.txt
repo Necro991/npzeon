@@ -14,6 +14,9 @@ MSN_01 = { #MSN-01 Psycommu Zaku
 	rotation_speed = 0.455
 	collision_radius = 1
 	max_hitpoints = 124
+	modifier = {
+		ship_piracy_suppression_add = 8
+	}
 	size_multiplier = 4
 	fleet_slot_size = 16
 	section_slots = { "mid" = { locator = "part1" } }
@@ -21,12 +24,10 @@ MSN_01 = { #MSN-01 Psycommu Zaku
 	is_space_station = no
 	icon_frame = 2
 	base_buildtime = 180
-	graphical_culture = no
 	can_have_federation_design = yes
 	enable_default_design = no	#if yes, countries will have an auto-generated design at start
 
 	prerequisites = { "tech_MSN_01" }
-	has_mineral_upkeep = yes
 
 	combat_disengage_chance = 1.75
 
@@ -44,6 +45,17 @@ MSN_01 = { #MSN-01 Psycommu Zaku
 		max = 1
 		naval_cap_div = 1
 	}
+
+	resources = {
+		category = ships
+		upkeep = {
+			energy = @destroyer_upkeep_energy
+			alloys = @destroyer_upkeep_alloys
+		}
+	}
+	min_upgrade_cost = {
+		alloys = 2
+	}
 }
 
 MSN_02 = { #MSN-02 Zeong
@@ -53,11 +65,13 @@ MSN_02 = { #MSN-02 Zeong
 	rotation_speed = 0.455
 	collision_radius = 1
 	max_hitpoints = 360
+	modifier = {
+		ship_piracy_suppression_add = 8
+	}
 	size_multiplier = 4
 	fleet_slot_size = 16
 	section_slots = { "mid" = { locator = "part1" } }
 	num_target_locators = 12
-	is_space_station = no
 	icon_frame = 2
 	base_buildtime = 180
 	graphical_culture = no
@@ -65,7 +79,6 @@ MSN_02 = { #MSN-02 Zeong
 	enable_default_design = no	#if yes, countries will have an auto-generated design at start
 
 	prerequisites = { "tech_MSN_02" }
-	has_mineral_upkeep = yes
 
 	combat_disengage_chance = 1.75
 
@@ -83,6 +96,17 @@ MSN_02 = { #MSN-02 Zeong
 		max = 1
 		naval_cap_div = 1
 	}
+
+	resources = {
+		category = ships
+		upkeep = {
+			energy = @destroyer_upkeep_energy
+			alloys = @destroyer_upkeep_alloys
+		}
+	}
+	min_upgrade_cost = {
+		alloys = 2
+	}
 }
 
 MA_04X = { #MA-04X Zakrello
@@ -92,6 +116,9 @@ MA_04X = { #MA-04X Zakrello
 	rotation_speed = 0.455
 	collision_radius = 1
 	max_hitpoints = 285
+	modifier = {
+		ship_piracy_suppression_add = 8
+	}
 	size_multiplier = 4
 	fleet_slot_size = 16
 	section_slots = { "mid" = { locator = "part1" } }
@@ -99,12 +126,10 @@ MA_04X = { #MA-04X Zakrello
 	is_space_station = no
 	icon_frame = 2
 	base_buildtime = 180
-	graphical_culture = no
 	can_have_federation_design = yes
 	enable_default_design = no	#if yes, countries will have an auto-generated design at start
 
 	prerequisites = { "tech_MA_04X" }
-	has_mineral_upkeep = yes
 
 	combat_disengage_chance = 1.75
 
@@ -123,6 +148,17 @@ MA_04X = { #MA-04X Zakrello
 		max = 1
 		naval_cap_div = 1
 	}
+
+	resources = {
+		category = ships
+		upkeep = {
+			energy = @destroyer_upkeep_energy
+			alloys = @destroyer_upkeep_alloys
+		}
+	}
+	min_upgrade_cost = {
+		alloys = 2
+	}
 }
 
 MA_05 = { #MA-05 Bigro
@@ -132,6 +168,9 @@ MA_05 = { #MA-05 Bigro
 	rotation_speed = 0.455
 	collision_radius = 1
 	max_hitpoints = 354
+	modifier = {
+		ship_piracy_suppression_add = 8
+	}
 	size_multiplier = 4
 	fleet_slot_size = 16
 	section_slots = { "mid" = { locator = "part1" } }
@@ -139,12 +178,10 @@ MA_05 = { #MA-05 Bigro
 	is_space_station = no
 	icon_frame = 2
 	base_buildtime = 180
-	graphical_culture = no
 	can_have_federation_design = yes
 	enable_default_design = no	#if yes, countries will have an auto-generated design at start
 
 	prerequisites = { "tech_MA_05" }
-	has_mineral_upkeep = yes
 
 	combat_disengage_chance = 1.75
 
@@ -163,6 +200,17 @@ MA_05 = { #MA-05 Bigro
 		max = 6
 		naval_cap_div = 1
 	}
+
+	resources = {
+		category = ships
+		upkeep = {
+			energy = @destroyer_upkeep_energy
+			alloys = @destroyer_upkeep_alloys
+		}
+	}
+	min_upgrade_cost = {
+		alloys = 2
+	}
 }
 
 MA_05Ad = { #MA-05Ad Big Rang
@@ -172,6 +220,9 @@ MA_05Ad = { #MA-05Ad Big Rang
 	rotation_speed = 0.455
 	collision_radius = 1
 	max_hitpoints = 27538
+	modifier = {
+		ship_piracy_suppression_add = 4
+	}
 	size_multiplier = 8
 	fleet_slot_size = 16
 	section_slots = { "mid" = { locator = "part1" } }
@@ -205,6 +256,18 @@ MA_05Ad = { #MA-05Ad Big Rang
 		max = 1
 		naval_cap_div = 16
 	}
+
+	resources = {
+		category = ships
+		upkeep = {
+			energy = @battleship_upkeep_energy
+			alloys = @battleship_upkeep_alloys
+		}
+	}
+
+	min_upgrade_cost = {
+		alloys = 8
+	}
 }
 
 MA_06 = { #MA-06 Val Varo
@@ -214,6 +277,9 @@ MA_06 = { #MA-06 Val Varo
 	rotation_speed = 0.455
 	collision_radius = 1
 	max_hitpoints = 600
+	modifier = {
+		ship_piracy_suppression_add = 8
+	}
 	size_multiplier = 4
 	fleet_slot_size = 16
 	section_slots = { "mid" = { locator = "part1" } }
@@ -221,12 +287,10 @@ MA_06 = { #MA-06 Val Varo
 	is_space_station = no
 	icon_frame = 2
 	base_buildtime = 180
-	graphical_culture = no
 	can_have_federation_design = yes
 	enable_default_design = no	#if yes, countries will have an auto-generated design at start
 
 	prerequisites = { "tech_MA_06" }
-	has_mineral_upkeep = yes
 
 	combat_disengage_chance = 1.75
 
@@ -245,6 +309,17 @@ MA_06 = { #MA-06 Val Varo
 		max = 1
 		naval_cap_div = 1
 	}
+
+	resources = {
+		category = ships
+		upkeep = {
+			energy = @destroyer_upkeep_energy
+			alloys = @destroyer_upkeep_alloys
+		}
+	}
+	min_upgrade_cost = {
+		alloys = 2
+	}
 }
 
 
@@ -255,6 +330,9 @@ MA_08 = { #MA-08 Big Zam
 	rotation_speed = 0.455
 	collision_radius = 1
 	max_hitpoints = 3000
+	modifier = {
+		ship_piracy_suppression_add = 4
+	}
 	size_multiplier = 8
 	fleet_slot_size = 16
 	section_slots = { "mid" = { locator = "part1" } }
@@ -262,12 +340,10 @@ MA_08 = { #MA-08 Big Zam
 	is_space_station = no
 	icon_frame = 2
 	base_buildtime = 360
-	graphical_culture = no
 	can_have_federation_design = yes
 	enable_default_design = no	#if yes, countries will have an auto-generated design at start
 
 	prerequisites = { "tech_MA_08" }
-	has_mineral_upkeep = yes
 
 	combat_disengage_chance = 1.00
 
@@ -288,6 +364,18 @@ MA_08 = { #MA-08 Big Zam
 		max = 1
 		naval_cap_div = 16
 	}
+
+	resources = {
+		category = ships
+		upkeep = {
+			energy = @battleship_upkeep_energy
+			alloys = @battleship_upkeep_alloys
+		}
+	}
+
+	min_upgrade_cost = {
+		alloys = 8
+	}
 }
 
 MAN_03 = { #MAN-03 Braw Bro
@@ -297,6 +385,9 @@ MAN_03 = { #MAN-03 Braw Bro
 	rotation_speed = 0.455
 	collision_radius = 1
 	max_hitpoints = 4004
+	modifier = {
+		ship_piracy_suppression_add = 4
+	}
 	size_multiplier = 4
 	fleet_slot_size = 16
 	section_slots = { "mid" = { locator = "part1" } }
@@ -304,12 +395,10 @@ MAN_03 = { #MAN-03 Braw Bro
 	is_space_station = no
 	icon_frame = 2
 	base_buildtime = 180
-	graphical_culture = no
 	can_have_federation_design = yes
 	enable_default_design = no	#if yes, countries will have an auto-generated design at start
 
 	prerequisites = { "tech_MAN_03" }
-	has_mineral_upkeep = yes
 
 	combat_disengage_chance = 1.75
 
@@ -327,6 +416,18 @@ MAN_03 = { #MAN-03 Braw Bro
 		max = 1
 		naval_cap_div = 1
 	}
+
+	resources = {
+		category = ships
+		upkeep = {
+			energy = @battleship_upkeep_energy
+			alloys = @battleship_upkeep_alloys
+		}
+	}
+
+	min_upgrade_cost = {
+		alloys = 8
+	}
 }
 
 
@@ -337,6 +438,9 @@ MAN_08 = { #MAN-08 Elmeth
 	rotation_speed = 0.455
 	collision_radius = 1
 	max_hitpoints = 450
+	modifier = {
+		ship_piracy_suppression_add = 8
+	}
 	size_multiplier = 4
 	fleet_slot_size = 16
 	section_slots = { "mid" = { locator = "part1" } }
@@ -344,12 +448,10 @@ MAN_08 = { #MAN-08 Elmeth
 	is_space_station = no
 	icon_frame = 2
 	base_buildtime = 180
-	graphical_culture = no
 	can_have_federation_design = yes
 	enable_default_design = no	#if yes, countries will have an auto-generated design at start
 
 	prerequisites = { "tech_MAN_08" }
-	has_mineral_upkeep = yes
 
 	combat_disengage_chance = 1.75
 
@@ -367,5 +469,16 @@ MAN_08 = { #MAN-08 Elmeth
 		base = 1
 		max = 1
 		naval_cap_div = 1
+	}
+
+	resources = {
+		category = ships
+		upkeep = {
+			energy = @destroyer_upkeep_energy
+			alloys = @destroyer_upkeep_alloys
+		}
+	}
+	min_upgrade_cost = {
+		alloys = 2
 	}
 }

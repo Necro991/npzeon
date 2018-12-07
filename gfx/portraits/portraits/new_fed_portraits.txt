@@ -59,6 +59,11 @@ portraits = {
 		 clothes_selector = "no_texture"
 		hair_selector = "no_texture"
 	}
+	zeek_male_01 = {
+	  texturefile = "gfx/models/portraits/new_fed/zeon_male_01.dds"
+		 clothes_selector = "no_texture"
+		hair_selector = "no_texture"
+	}
 	efsf_female_pilot_01 = {
 		texturefile = "gfx/models/portraits/new_fed/efsf_female_pilot_01.dds"
 		clothes_selector = "no_texture"
@@ -104,66 +109,6 @@ portraits = {
 		clothes_selector = "no_texture"
 		hair_selector = "no_texture"
 	}
-	filtered_efsf_female_01 = {
-		texturefile = "gfx/models/portraits/new_fed/filtered_efsf_female_01.dds"
-		clothes_selector = "no_texture"
-		hair_selector = "no_texture"
-	}
-	filtered_efsf_female_02 = {
-		texturefile = "gfx/models/portraits/new_fed/filtered_efsf_female_02.dds"
-		clothes_selector = "no_texture"
-		hair_selector = "no_texture"
-	}
-	filtered_efsf_female_pilot_01 = {
-		texturefile = "gfx/models/portraits/new_fed/filtered_efsf_female_pilot_01.dds"
-		clothes_selector = "no_texture"
-		hair_selector = "no_texture"
-	}
-	filtered_efsf_female_pilot_02 = {
-		texturefile = "gfx/models/portraits/new_fed/filtered_efsf_female_pilot_02.dds"
-		clothes_selector = "no_texture"
-		hair_selector = "no_texture"
-	}
-	filtered_efsf_male_01 = {
-		texturefile = "gfx/models/portraits/new_fed/filtered_efsf_male_01.dds"
-		clothes_selector = "no_texture"
-		hair_selector = "no_texture"
-	}
-	filtered_efsf_male_02 = {
-		texturefile = "gfx/models/portraits/new_fed/filtered_efsf_male_02.dds"
-		clothes_selector = "no_texture"
-		hair_selector = "no_texture"
-	}
-	filtered_efsf_male_03 = {
-		texturefile = "gfx/models/portraits/new_fed/filtered_efsf_male_03.dds"
-		clothes_selector = "no_texture"
-		hair_selector = "no_texture"
-	}
-	filtered_efsf_male_pilot_01 = {
-		texturefile = "gfx/models/portraits/new_fed/filtered_efsf_male_pilot_01.dds"
-		clothes_selector = "no_texture"
-		hair_selector = "no_texture"
-	}
-	filtered_efsf_male_pilot_02 = {
-		texturefile = "gfx/models/portraits/new_fed/filtered_efsf_male_pilot_02.dds"
-		clothes_selector = "no_texture"
-		hair_selector = "no_texture"
-	}
-	filtered_efsf_male_pilot_03 = {
-		texturefile = "gfx/models/portraits/new_fed/filtered_efsf_male_pilot_03.dds"
-		clothes_selector = "no_texture"
-		hair_selector = "no_texture"
-	}
-	filtered_efsf_pop_01 = {
-		texturefile = "gfx/models/portraits/new_fed/filtered_efsf_pop_01.dds"
-		clothes_selector = "no_texture"
-		hair_selector = "no_texture"
-	}
-	filtered_efsf_pop_02 = {
-		texturefile = "gfx/models/portraits/new_fed/filtered_efsf_pop_02.dds"
-		clothes_selector = "no_texture"
-		hair_selector = "no_texture"
-	}
 }
 
 portrait_groups = {
@@ -178,6 +123,7 @@ portrait_groups = {
 					efsf_male_01
 					efsf_male_02
 					efsf_male_03
+					zeek_male_01
 				}
 			}
 			add = {
@@ -217,6 +163,7 @@ portrait_groups = {
 						 efsf_male_pilot_01
 						 efsf_male_pilot_02
 						 efsf_male_pilot_03
+						 zeek_male_01
 				}
 			}
 		}
@@ -233,6 +180,7 @@ portrait_groups = {
 					zeek_female_01
 					zeek_female_02
 					zeek_female_03
+					zeek_male_01
 					#efsf_female_pilot_01
 					#efsf_female_pilot_02
 					#efsf_male_01
@@ -273,6 +221,7 @@ portrait_groups = {
 					efsf_male_01
 					efsf_male_02
 					efsf_male_03
+					zeek_male_01
 				}
 			}
 			add = {
@@ -300,6 +249,7 @@ portrait_groups = {
 					efsf_male_01
 					efsf_male_02
 					efsf_male_03
+					zeek_male_01
 				}
 			}
 			add = {
@@ -324,6 +274,7 @@ portrait_groups = {
 					efsf_male_pilot_01
 					efsf_male_pilot_02
 					efsf_male_pilot_03
+					zeek_male_01
 				}
 			}
 			add = {
@@ -351,6 +302,7 @@ portrait_groups = {
 					efsf_male_01
 					efsf_male_02
 					efsf_male_03
+					zeek_male_01
 				}
 			}
 
@@ -381,6 +333,7 @@ portrait_groups = {
 					efsf_male_01
 					efsf_male_02
 					efsf_male_03
+					zeek_male_01
 				}
 			}
 		}

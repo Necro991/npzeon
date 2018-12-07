@@ -154,6 +154,11 @@ country_event = { #Player has picked Zeon
 	}
 
 	immediate = {
+		leader = {
+			add_ruler_trait = trait_ruler_charismatic
+			add_ruler_trait = trait_ruler_warlike
+			add_ruler_trait = trait_ruler_home_in_the_sky
+		}
 		if = {
 			limit = { is_ai = yes }
 			give_technology = { tech = tech_BEAMC_1 }
@@ -163,67 +168,6 @@ country_event = { #Player has picked Zeon
 			give_technology = { tech = tech_Zimmad }
 			give_technology = { tech = tech_MIP }
 			give_technology = { tech = tech_Anaheim }
-		}
-		create_species = {
-			name = "Human"
-			class = MAM
-			portrait = "fed"
-			trait = "trait_intelligent"
-			trait = "trait_slow_breeders"
-			trait = "trait_nomadic"
-		}
-		create_country = {
-			name = "Earth Federation"
-			authority = "auth_democratic"
-			civics = {
-				civic = civic_citizen_service
-				civic = civic_idealistic_foundation
-			}
-			species = last_created_species
-			name_list = "HUM3"
-			ship_prefix="EFS"
-			ethos = {
-				ethic = "ethic_egalitarian"
-				ethic = "ethic_materialist"
-				ethic = "ethic_militarist"
-			}
-			flag = {
-				icon= {
-					category = "efsf"
-					file = "NBA_ReBoot.dds"
-				}
-				background= {
-					category = "backgrounds"
-					file = "00_solid.dds"
-				}
-				colors={
-					"dark_teal"
-					"black"
-					"null"
-					"null"
-				}
-			}
-			type = default
-			#ignore_initial_colony_error = yes
-		}
-		last_created_country = {
-			set_graphical_culture = "fed_01"
-			set_country_flag = gundamu
-			create_species = {
-				name = "Human"
-				class = MAM
-				portrait = "efsf_event_2"
-				trait = "trait_intelligent"
-				trait = "trait_slow_breeders"
-				trait = "trait_nomadic"
-			}
-			create_leader = {
-				type = admiral
-				species = last_created_species
-				name = "Johann Ibrahim Revil"
-				gender = male
-				skill = 500
-			}
 		}
 		capital_scope = {
 			surveyed = {
@@ -263,7 +207,7 @@ country_event = { #Player has picked Zeon
 				}
 			}
 			create_colony = {
-				owner = last_created_country
+				owner = root
 				species = owner_main_species
 				ethos = owner
 			}
@@ -289,6 +233,8 @@ country_event = { #Player has picked Zeon
 				create_pop = {
 					species = owner_main_species
 				}
+				add_district = district_hab_housing
+				add_district = district_hab_commercial
 			}
 			if = {
 				limit = {
@@ -310,6 +256,8 @@ country_event = { #Player has picked Zeon
 				create_pop = {
 					species = owner_main_species
 				}
+				add_district = district_hab_housing
+				add_district = district_hab_commercial
 			}
 			if = {
 				limit = {
@@ -322,6 +270,8 @@ country_event = { #Player has picked Zeon
 				create_pop = {
 					species = owner_main_species
 				}
+				add_district = district_hab_housing
+				add_district = district_hab_commercial
 			}
 			if = {
 				limit = {
@@ -331,6 +281,8 @@ country_event = { #Player has picked Zeon
 				create_pop = {
 					species = owner_main_species
 				}
+				add_district = district_hab_housing
+				add_district = district_hab_science
 			}
 			if = {
 				limit = {
@@ -362,6 +314,10 @@ country_event = { #Player has picked Zeon
 				create_pop = {
 					species = owner_main_species
 				}
+				add_district = district_city
+				add_district = district_generator
+				add_district = district_mining
+				add_district = district_farming
 			}
 		}
 		every_country = {
@@ -387,6 +343,11 @@ country_event = { #Player has picked Axis
 	}
 
 	immediate = {
+		leader = {
+			add_ruler_trait = trait_ruler_charismatic
+			add_ruler_trait = trait_ruler_space_miner
+			add_ruler_trait = trait_ruler_home_in_the_sky
+		}
 		if = {
 			limit = { is_ai = yes }
 			give_technology = { tech = tech_BEAMC_1 }
@@ -423,124 +384,18 @@ country_event = { #Player has picked Axis
 				and = {
 					is_colonizable = yes
 					or = {
-						has_planet_flag = side3
-					}
-				}
-				not = {
-					has_planet_flag = side16
-					has_planet_flag = side25
-					has_planet_flag = side4
-					has_planet_flag = side7
-					has_planet_flag = planet_earth
-				}
-			}
-			create_colony = {
-				owner = root
-				species = owner_main_species
-				ethos = owner
-			}
-		}
-		create_species = {
-			name = "Human"
-			class = MAM
-			portrait = "titan"
-			trait = "trait_intelligent"
-			trait = "trait_slow_breeders"
-			trait = "trait_nomadic"
-		}
-		create_country = {
-			name = "The Titans"
-			authority = "auth_dictatorial"
-			civics = {
-				civic = civic_nationalistic_zeal
-				civic = civic_cutthroat_politics
-			}
-			species = last_created_species
-			name_list = "HUM3"
-			ship_prefix="EFS"
-			ethos = {
-				ethic = "ethic_fanatic_militarist"
-				ethic = "ethic_authoritarian"
-			}
-			flag = {
-				icon= {
-					category = "efsf"
-					file = "Titans.dds"
-				}
-				background= {
-					category = "backgrounds"
-					file = "00_solid.dds"
-				}
-				colors={
-					"black"
-					"blue"
-					"null"
-					"null"
-				}
-			}
-			type = default
-		}
-		last_created_country = {
-			set_graphical_culture = "fed_01"
-			set_country_flag = gundamu
-			random_list = {
-				50 = {
-					create_species = {
-						name = "Human"
-						class = MAM
-						portrait = "efsf_event_3"
-						trait = "trait_intelligent"
-						trait = "trait_slow_breeders"
-						trait = "trait_nomadic"
-					}
-					create_leader = {
-						type = admiral
-						species = last_created_species
-						name = "Jamitov Hymen"
-						gender = male
-						skill = 500
-					}
-				}
-				50 = {
-					create_species = {
-						name = "Human"
-						class = MAM
-						portrait = "efsf_event_4"
-						trait = "trait_intelligent"
-						trait = "trait_slow_breeders"
-						trait = "trait_nomadic"
-					}
-					create_leader = {
-						type = admiral
-						species = last_created_species
-						name = "Paptimus Scirocco"
-						gender = male
-						skill = 500
-					}
-				}
-			}
-			kill_leader = {
-				type = ruler
-			}
-		}
-		every_planet_within_border  = {
-			limit = {
-				and = {
-					is_colonizable = yes
-					or = {
 						has_planet_flag = side16
 						has_planet_flag = side25
 						has_planet_flag = side4
 						has_planet_flag = side7
 						has_planet_flag = planet_earth
+						has_planet_flag = side3
+						has_planet_flag = axis
 					}
-				}
-				not = {
-					has_planet_flag = side3
 				}
 			}
 			create_colony = {
-				owner = last_created_country
+				owner = root
 				species = owner_main_species
 				ethos = owner
 			}
@@ -566,6 +421,8 @@ country_event = { #Player has picked Axis
 				create_pop = {
 					species = owner_main_species
 				}
+				add_district = district_hab_housing
+				add_district = district_hab_commercial
 			}
 			if = {
 				limit = {
@@ -587,6 +444,8 @@ country_event = { #Player has picked Axis
 				create_pop = {
 					species = owner_main_species
 				}
+				add_district = district_hab_housing
+				add_district = district_hab_commercial
 			}
 			if = {
 				limit = {
@@ -599,6 +458,7 @@ country_event = { #Player has picked Axis
 				create_pop = {
 					species = owner_main_species
 				}
+				add_district = district_hab_commercial
 			}
 			if = {
 				limit = {
@@ -608,6 +468,8 @@ country_event = { #Player has picked Axis
 				create_pop = {
 					species = owner_main_species
 				}
+				add_district = district_hab_housing
+				add_district = district_hab_science
 			}
 			if = {
 				limit = {
@@ -639,6 +501,10 @@ country_event = { #Player has picked Axis
 				create_pop = {
 					species = owner_main_species
 				}
+				add_district = district_city
+				add_district = district_generator
+				add_district = district_mining
+				add_district = district_farming
 			}
 			if = {
 				limit = {
@@ -666,6 +532,8 @@ country_event = { #Player has picked Axis
 				create_pop = {
 					species = owner_main_species
 				}
+				add_district = district_hab_housing
+				add_district = district_hab_commercial
 			}
 		}
 		every_country = {
@@ -691,6 +559,11 @@ country_event = { #Player has picked EFSF
 	}
 
 	immediate = {
+		leader = {
+			add_ruler_trait = leader_trait_fleet_organizer
+			add_ruler_trait = trait_ruler_fortifier
+			add_ruler_trait = trait_ruler_battleship_focus
+		}
 		if = {
 			limit = { is_ai = yes }
 			give_technology = { tech = tech_EFSF_BEAMC_1 }
@@ -730,98 +603,12 @@ country_event = { #Player has picked EFSF
 						has_planet_flag = side4
 						has_planet_flag = side7
 						has_planet_flag = planet_earth
+						has_planet_flag = side3
 					}
-				}
-				not = {
-					has_planet_flag = side3
 				}
 			}
 			create_colony = {
 				owner = root
-				species = owner_main_species
-				ethos = owner
-			}
-		}
-		create_species = {
-			name = "Human"
-			class = MAM
-			portrait = "zeon"
-			trait = "trait_intelligent"
-			trait = "trait_slow_breeders"
-			trait = "trait_nomadic"
-		}
-		create_country = {
-			name = "Principality"
-			authority = "auth_dictatorial"
-			civics = {
-				civic = civic_nationalistic_zeal
-				civic = civic_distinguished_admiralty
-			}
-			species = last_created_species
-			name_list = "Zeon"
-			ship_prefix="ZMF"
-			ethos = {
-				ethic = "ethic_authoritarian"
-				ethic = "ethic_fanatic_militarist"
-			}
-			flag = {
-				icon= {
-					category = "zeon"
-					file = "Zeon.dds"
-				}
-				background= {
-					category = "backgrounds"
-					file = "00_solid.dds"
-				}
-				colors={
-					"red"
-					"black"
-					"null"
-					"null"
-				}
-			}
-			type = default
-		}
-		last_created_country = {
-			set_graphical_culture = "zeon_01"
-			set_country_flag = gundamu
-			create_species = {
-				name = "Human"
-				class = MAM
-				portrait = "zeon_event_5"
-				trait = "trait_intelligent"
-				trait = "trait_slow_breeders"
-				trait = "trait_nomadic"
-			}
-			create_leader = {
-				type = admiral
-				species = last_created_species
-				name = "Degwin Sodo Zabi"
-				gender = male
-				skill = 500
-			}
-			kill_leader = {
-				type = ruler
-			}
-		}
-		every_planet_within_border  = {
-			limit = {
-				and = {
-					is_colonizable = yes
-					or = {
-						has_planet_flag = side3
-					}
-				}
-				not = {
-					has_planet_flag = side16
-					has_planet_flag = side25
-					has_planet_flag = side4
-					has_planet_flag = side7
-					has_planet_flag = planet_earth
-				}
-			}
-			create_colony = {
-				owner = last_created_country
 				species = owner_main_species
 				ethos = owner
 			}
@@ -847,6 +634,8 @@ country_event = { #Player has picked EFSF
 				create_pop = {
 					species = owner_main_species
 				}
+				add_district = district_hab_housing
+				add_district = district_hab_commercial
 			}
 			if = {
 				limit = {
@@ -868,6 +657,8 @@ country_event = { #Player has picked EFSF
 				create_pop = {
 					species = owner_main_species
 				}
+				add_district = district_hab_housing
+				add_district = district_hab_commercial
 			}
 			if = {
 				limit = {
@@ -880,6 +671,7 @@ country_event = { #Player has picked EFSF
 				create_pop = {
 					species = owner_main_species
 				}
+				add_district = district_hab_commercial
 			}
 			if = {
 				limit = {
@@ -889,6 +681,8 @@ country_event = { #Player has picked EFSF
 				create_pop = {
 					species = owner_main_species
 				}
+				add_district = district_hab_housing
+				add_district = district_hab_science
 			}
 			if = {
 				limit = {
@@ -951,6 +745,8 @@ country_event = { #Player has picked EFSF
 				create_pop = {
 					species = owner_main_species
 				}
+				add_district = district_hab_housing
+				add_district = district_hab_commercial
 			}
 		}
 		every_country = {
@@ -976,6 +772,11 @@ country_event = { #Player has picked Neo
 	}
 
 	immediate = {
+		leader = {
+			add_ruler_trait = trait_ruler_charismatic
+			add_ruler_trait = trait_ruler_champion_of_the_people
+			add_ruler_trait = trait_ruler_home_in_the_sky
+		}
 		if = {
 			limit = { is_ai = yes }
 			give_technology = { tech = tech_BEAMC_1 }
@@ -1051,6 +852,8 @@ country_event = { #Player has picked Neo
 				create_pop = {
 					species = owner_main_species
 				}
+				add_district = district_hab_housing
+				add_district = district_hab_commercial
 			}
 			if = {
 				limit = {
@@ -1072,6 +875,8 @@ country_event = { #Player has picked Neo
 				create_pop = {
 					species = owner_main_species
 				}
+				add_district = district_hab_housing
+				add_district = district_hab_commercial
 			}
 			if = {
 				limit = {
@@ -1084,6 +889,8 @@ country_event = { #Player has picked Neo
 				create_pop = {
 					species = owner_main_species
 				}
+				add_district = district_hab_housing
+				add_district = district_hab_commercial
 			}
 			if = {
 				limit = {
@@ -1093,6 +900,8 @@ country_event = { #Player has picked Neo
 				create_pop = {
 					species = owner_main_species
 				}
+				add_district = district_hab_housing
+				add_district = district_hab_science
 			}
 			if = {
 				limit = {
@@ -1143,6 +952,11 @@ country_event = { #Player has picked Gundamu
 	}
 
 	immediate = {
+		leader = {
+			add_ruler_trait = trait_ruler_charismatic
+			add_ruler_trait = trait_ruler_champion_of_the_people
+			add_ruler_trait = trait_ruler_home_in_the_sky
+		}
 		if = {
 			limit = { is_ai = yes }
 			give_technology = { tech = tech_EFSF_BEAMC_1 }
@@ -1216,6 +1030,8 @@ country_event = { #Player has picked Gundamu
 				create_pop = {
 					species = owner_main_species
 				}
+				add_district = district_hab_housing
+				add_district = district_hab_commercial
 			}
 			if = {
 				limit = {
@@ -1237,6 +1053,8 @@ country_event = { #Player has picked Gundamu
 				create_pop = {
 					species = owner_main_species
 				}
+				add_district = district_hab_housing
+				add_district = district_hab_commercial
 			}
 			if = {
 				limit = {
@@ -1249,6 +1067,8 @@ country_event = { #Player has picked Gundamu
 				create_pop = {
 					species = owner_main_species
 				}
+				add_district = district_hab_housing
+				add_district = district_hab_commercial
 			}
 			if = {
 				limit = {
@@ -1258,6 +1078,8 @@ country_event = { #Player has picked Gundamu
 				create_pop = {
 					species = owner_main_species
 				}
+				add_district = district_hab_housing
+				add_district = district_hab_science
 			}
 			if = {
 				limit = {
@@ -1320,6 +1142,8 @@ country_event = { #Player has picked Gundamu
 				create_pop = {
 					species = owner_main_species
 				}
+				add_district = district_hab_housing
+				add_district = district_hab_commercial
 			}
 		}
 	}

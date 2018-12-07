@@ -14,6 +14,7 @@ white_base = {
 	modifier = {
 		ship_evasion_mult = -0.75
 		ship_armor_add = 24
+		ship_piracy_suppression_add = 4
 	}
 	max_hitpoints = 2400
 	size_multiplier = 8
@@ -23,14 +24,12 @@ white_base = {
 	is_space_station = no
 	icon_frame = 5
 	base_buildtime = 480
-	graphical_culture = no
 	can_have_federation_design = yes
 	enable_default_design = yes	#if yes, countries will have an auto-generated design at start
 
 	prerequisites = {"tech_EFSF_BEAMC_2"}
 
 	combat_disengage_chance = 1.00
-	has_mineral_upkeep = yes
 
 	class = shipclass_military
 	construction_type = starbase_shipyard
@@ -40,6 +39,17 @@ white_base = {
 	required_component_set = "sensor_components"
 	required_component_set = "combat_computers"
 
+	resources = {
+		category = ships
+		upkeep = {
+			energy = @battleship_upkeep_energy
+			alloys = @battleship_upkeep_alloys
+		}
+	}
+
+	min_upgrade_cost = {
+		alloys = 8
+	}
 }
 
 zanzibar = {
@@ -51,6 +61,7 @@ zanzibar = {
 	modifier = {
 		ship_evasion_mult = -0.75
 		ship_armor_add = 24
+		ship_piracy_suppression_add = 10
 	}
 	max_hitpoints = 2400
 	size_multiplier = 8
@@ -60,14 +71,12 @@ zanzibar = {
 	is_space_station = no
 	icon_frame = 5
 	base_buildtime = 480
-	graphical_culture = no
 	can_have_federation_design = yes
 	enable_default_design = yes	#if yes, countries will have an auto-generated design at start
 
 	prerequisites = {"tech_BEAMC_2"}
 
 	combat_disengage_chance = 1.00
-	has_mineral_upkeep = yes
 
 	class = shipclass_military
 	construction_type = starbase_shipyard
@@ -77,4 +86,15 @@ zanzibar = {
 	required_component_set = "sensor_components"
 	required_component_set = "combat_computers"
 
+	resources = {
+		category = ships
+		upkeep = {
+			energy = @battleship_upkeep_energy
+			alloys = @battleship_upkeep_alloys
+		}
+	}
+
+	min_upgrade_cost = {
+		alloys = 8
+	}
 }

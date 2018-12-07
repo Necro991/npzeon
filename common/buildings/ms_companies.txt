@@ -25,25 +25,6 @@ zeonic = {
 		shipsize_zeon_MS_P_construction_speed_mult = 0.1
 	}
 
-	#produced_resource_trigger = {
-	#	modifier = {
-	#		has_tradition = tr_expansion_colonization_fever
-	#		resources = {
-	#			unity = 1
-	#		}
-	#	}
-	#}
-
-	#adjacency_bonus = {
-	#	tile_building_resource_minerals_add = 3
-	#	tile_building_resource_food_add = 3
-	#	tile_building_resource_energy_add = 3
-	#}
-
-	#planet_modifier = {
-	#	pop_government_ethic_attraction = 0.15
-	#}
-
 	potential = {
 		planet = {
 			is_capital = yes
@@ -86,25 +67,6 @@ zimmad = {
 	country_modifier = {
 		navy_size_add = 50
 	}
-
-	#produced_resource_trigger = {
-	#	modifier = {
-	#		has_tradition = tr_expansion_colonization_fever
-	#		resources = {
-	#			unity = 1
-	#		}
-	#	}
-	#}
-
-	#adjacency_bonus = {
-	#	tile_building_resource_minerals_add = 3
-	#	tile_building_resource_food_add = 3
-	#	tile_building_resource_energy_add = 3
-	#}
-
-	#planet_modifier = {
-	#	pop_government_ethic_attraction = 0.15
-	#}
 
 	potential = {
 		planet = {
@@ -151,25 +113,6 @@ mip = {
 		ship_weapon_damage = 0.1
 		ship_weapon_range_mult = 0.1
 	}
-
-	#produced_resource_trigger = {
-	#	modifier = {
-	#		has_tradition = tr_expansion_colonization_fever
-	#		resources = {
-	#			unity = 1
-	#		}
-	#	}
-	#}
-
-	#adjacency_bonus = {
-	#	tile_building_resource_minerals_add = 3
-	#	tile_building_resource_food_add = 3
-	#	tile_building_resource_energy_add = 3
-	#}
-
-	#planet_modifier = {
-	#	pop_government_ethic_attraction = 0.15
-	#}
 
 	potential = {
 		planet = {
@@ -221,25 +164,6 @@ anaheim = {
 		ship_weapon_damage = 0.1
 		ship_weapon_range_mult = 0.1
 	}
-
-	#produced_resource_trigger = {
-	#	modifier = {
-	#		has_tradition = tr_expansion_colonization_fever
-	#		resources = {
-	#			unity = 1
-	#		}
-	#	}
-	#}
-
-	#adjacency_bonus = {
-	#	tile_building_resource_minerals_add = 3
-	#	tile_building_resource_food_add = 3
-	#	tile_building_resource_energy_add = 3
-	#}
-
-	#planet_modifier = {
-	#	pop_government_ethic_attraction = 0.15
-	#}
 
 	potential = {
 		planet = {
