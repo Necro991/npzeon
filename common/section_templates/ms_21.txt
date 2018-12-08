@@ -33,5 +33,10 @@ ship_section_template = { #MS-21C Dra-C
 	large_utility_slots = 0
 	aux_utility_slots = 0
 
-	cost = 30
+	resources = {
+		category = ship_sections
+		cost = {
+			alloys = 30
+		}
+	}
 }

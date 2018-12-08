@@ -26,7 +26,12 @@ ship_section_template = { #MSN-01 Psycommu Zaku
 	large_utility_slots = 0
 	aux_utility_slots = 0
 
-	cost = 50
+	resources = {
+		category = ship_sections
+		cost = {
+			alloys = 50
+		}
+	}
 }
 
 ship_section_template = { #MSN-02 Zeong
@@ -78,7 +83,12 @@ ship_section_template = { #MSN-02 Zeong
 	large_utility_slots = 0
 	aux_utility_slots = 0
 
-	cost = 143
+	resources = {
+		category = ship_sections
+		cost = {
+			alloys = 143
+		}
+	}
 }
 
 ship_section_template = { #MA-04X Zakrello
@@ -116,7 +126,12 @@ ship_section_template = { #MA-04X Zakrello
 	large_utility_slots = 0
 	aux_utility_slots = 0
 
-	cost = 114
+	resources = {
+		category = ship_sections
+		cost = {
+			alloys = 114
+		}
+	}
 }
 
 ship_section_template = { #MA-05 Bigro
@@ -154,7 +169,12 @@ ship_section_template = { #MA-05 Bigro
 	large_utility_slots = 0
 	aux_utility_slots = 0
 
-	cost = 141
+	resources = {
+		category = ship_sections
+		cost = {
+			alloys = 141
+		}
+	}
 }
 
 ship_section_template = { #MA-05Ad Big Rang
@@ -241,7 +261,12 @@ ship_section_template = { #MA-05Ad Big Rang
 	large_utility_slots = 0
 	aux_utility_slots = 3
 
-	cost = 11015
+	resources = {
+		category = ship_sections
+		cost = {
+			alloys = 11015
+		}
+	}
 }
 
 ship_section_template = { #MA-06 Val Varo
@@ -321,7 +346,12 @@ ship_section_template = { #MA-06 Val Varo
 	large_utility_slots = 0
 	aux_utility_slots = 0
 
-	cost = 240
+	resources = {
+		category = ship_sections
+		cost = {
+			alloys = 240
+		}
+	}
 }
 
 
@@ -430,7 +460,12 @@ ship_section_template = { #MA-08 Big Zam
 	large_utility_slots = 0
 	aux_utility_slots = 0
 
-	cost = 1200
+	resources = {
+		category = ship_sections
+		cost = {
+			alloys = 1200
+		}
+	}
 }
 
 ship_section_template = { #MAN-03 Braw Bro
@@ -477,7 +512,12 @@ ship_section_template = { #MAN-03 Braw Bro
 	large_utility_slots = 0
 	aux_utility_slots = 0
 
-	cost = 1602
+	resources = {
+		category = ship_sections
+		cost = {
+			alloys = 1602
+		}
+	}
 }
 
 ship_section_template = { #MAN-08 Elmeth
@@ -508,5 +548,10 @@ ship_section_template = { #MAN-08 Elmeth
 	large_utility_slots = 0
 	aux_utility_slots = 0
 
-	cost = 180
+	resources = {
+		category = ship_sections
+		cost = {
+			alloys = 180
+		}
+	}
 }

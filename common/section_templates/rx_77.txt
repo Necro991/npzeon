@@ -48,7 +48,12 @@ ship_section_template = { #Guncannon
 	large_utility_slots = 0
 	aux_utility_slots = 0
 
-	cost = 276
+	resources = {
+		category = ship_sections
+		cost = {
+			alloys = 276
+		}
+	}
 }
 
 ship_section_template = { #Guncannon
@@ -101,7 +106,12 @@ ship_section_template = { #Guncannon
 	large_utility_slots = 0
 	aux_utility_slots = 0
 
-	cost = 276
+	resources = {
+		category = ship_sections
+		cost = {
+			alloys = 276
+		}
+	}
 }
 
 ship_section_template = { #Guncannon
@@ -154,7 +164,12 @@ ship_section_template = { #Guncannon
 	large_utility_slots = 0
 	aux_utility_slots = 0
 
-	cost = 276
+	resources = {
+		category = ship_sections
+		cost = {
+			alloys = 276
+		}
+	}
 }
 
 ship_section_template = { #Guncannon
@@ -207,5 +222,10 @@ ship_section_template = { #Guncannon
 	large_utility_slots = 0
 	aux_utility_slots = 0
 
-	cost = 276
+	resources = {
+		category = ship_sections
+		cost = {
+			alloys = 276
+		}
+	}
 }

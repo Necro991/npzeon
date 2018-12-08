@@ -41,7 +41,12 @@ ship_section_template = { #MS-17
 	large_utility_slots = 0
 	aux_utility_slots = 0
 
-	cost = 135
+	resources = {
+		category = ship_sections
+		cost = {
+			alloys = 135
+		}
+	}
 }
 
 ship_section_template = { #MS-17S
@@ -94,5 +99,10 @@ ship_section_template = { #MS-17S
 	large_utility_slots = 0
 	aux_utility_slots = 0
 
-	cost = 135
+	resources = {
+		category = ship_sections
+		cost = {
+			alloys = 135
+		}
+	}
 }

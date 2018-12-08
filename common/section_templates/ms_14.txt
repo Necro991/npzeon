@@ -41,7 +41,12 @@ ship_section_template = { #MS-14A
 	large_utility_slots = 0
 	aux_utility_slots = 0
 
-	cost = 135
+	resources = {
+		category = ship_sections
+		cost = {
+			alloys = 135
+		}
+	}
 }
 
 ship_section_template = { #MS-14S
@@ -94,7 +99,12 @@ ship_section_template = { #MS-14S
 	large_utility_slots = 0
 	aux_utility_slots = 0
 
-	cost = 135
+	resources = {
+		category = ship_sections
+		cost = {
+			alloys = 135
+		}
+	}
 }
 
 ship_section_template = { #MS-14C Gelgoog Cannon
@@ -147,5 +157,10 @@ ship_section_template = { #MS-14C Gelgoog Cannon
 	large_utility_slots = 0
 	aux_utility_slots = 0
 
-	cost = 147
+	resources = {
+		category = ship_sections
+		cost = {
+			alloys = 147
+		}
+	}
 }

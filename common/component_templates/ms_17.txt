@@ -6,20 +6,16 @@ utility_component_template = {
 	icon = "GFX_ship_part_armor_1"
 	icon_frame = 1
 	power = 0
-	cost = 0
 
 	modifier = {
 		ship_armor_add = 158
 		ship_hull_mult = 0.13
 	}
-	#ship_modifier = {
-	#	ship_weapon_damage = 0.01
-	#}
 
 	prerequisites = { "tech_MS_17" }
 
 	component_set = "ms_17_armor"
-	#upgrades_to = "oyw_zeon_pilot_putv_veteran"
+	upgrades_to = "ms_17_armor_2"
 
 	ai_weight = {
 		weight = 1
@@ -32,20 +28,21 @@ utility_component_template = {
 	icon = "GFX_ship_part_armor_2"
 	icon_frame = 1
 	power = 0
-	cost = 15
+	resources = {
+		category = ship_components
+		cost = {
+			alloys = 15
+		}
+	}
 
 	modifier = {
 		ship_armor_add = 175
 		ship_hull_mult = 0.25
 	}
-	#ship_modifier = {
-	#	ship_weapon_damage = 0.01
-	#}
 
 	prerequisites = { "tech_MS_17R" }
 
 	component_set = "ms_17_armor"
-	#upgrades_to = "oyw_zeon_pilot_putv_veteran"
 
 	ai_weight = {
 		weight = 2
@@ -58,20 +55,16 @@ utility_component_template = {
 	icon = "GFX_ship_part_thruster_1"
 	icon_frame = 1
 	power = 0
-	cost = 0
 
 	modifier = {
 		ship_evasion_add = 55
 		ship_speed_mult = 0.425
 	}
-	#ship_modifier = {
-	#	ship_weapon_damage = 0.01
-	#}
 
 	prerequisites = { "tech_MS_17" }
 
 	component_set = "ms_17_thrusters"
-	#upgrades_to = "oyw_zeon_pilot_putv_veteran"
+	upgrades_to = "ms_17_thrusters_2"
 
 	ai_weight = {
 		weight = 1
@@ -84,20 +77,21 @@ utility_component_template = {
 	icon = "GFX_ship_part_thruster_2"
 	icon_frame = 1
 	power = 0
-	cost = 5
+	resources = {
+		category = ship_components
+		cost = {
+			alloys = 5
+		}
+	}
 
 	modifier = {
 		ship_evasion_add = 60
 		ship_speed_mult = 0.775
 	}
-	#ship_modifier = {
-	#	ship_weapon_damage = 0.01
-	#}
 
 	prerequisites = { "tech_MS_17R" }
 
 	component_set = "ms_17_thrusters"
-	#upgrades_to = "oyw_zeon_pilot_putv_veteran"
 
 	ai_weight = {
 		weight = 2

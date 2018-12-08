@@ -72,7 +72,12 @@ ship_section_template = {
 	large_utility_slots = 2
 	aux_utility_slots = 1
 
-	cost = 240
+	resources = {
+		category = ship_sections
+		cost = {
+			alloys = 240
+		}
+	}
 }
 
 ship_section_template = {
@@ -129,7 +134,12 @@ ship_section_template = {
 	large_utility_slots = 2
 	aux_utility_slots = 1
 
-	cost = 240
+	resources = {
+		category = ship_sections
+		cost = {
+			alloys = 240
+		}
+	}
 }
 
 ship_section_template = {
@@ -186,7 +196,12 @@ ship_section_template = {
 	large_utility_slots = 2
 	aux_utility_slots = 1
 
-	cost = 240
+	resources = {
+		category = ship_sections
+		cost = {
+			alloys = 240
+		}
+	}
 }
 
 ship_section_template = {
@@ -243,7 +258,12 @@ ship_section_template = {
 	large_utility_slots = 2
 	aux_utility_slots = 1
 
-	cost = 240
+	resources = {
+		category = ship_sections
+		cost = {
+			alloys = 240
+		}
+	}
 }
 
 ship_section_template = {
@@ -300,7 +320,12 @@ ship_section_template = {
 	large_utility_slots = 2
 	aux_utility_slots = 1
 
-	cost = 240
+	resources = {
+		category = ship_sections
+		cost = {
+			alloys = 240
+		}
+	}
 }
 
 ship_section_template = {
@@ -355,7 +380,12 @@ ship_section_template = {
 	large_utility_slots = 3
 	aux_utility_slots = 1
 
-	cost = 240
+	resources = {
+		category = ship_sections
+		cost = {
+			alloys = 240
+		}
+	}
 }
 
 ship_section_template = {
@@ -430,7 +460,12 @@ ship_section_template = {
 	large_utility_slots = 2
 	aux_utility_slots = 1
 
-	cost = 240
+	resources = {
+		category = ship_sections
+		cost = {
+			alloys = 240
+		}
+	}
 }
 
 ship_section_template = {
@@ -487,7 +522,12 @@ ship_section_template = {
 	large_utility_slots = 2
 	aux_utility_slots = 1
 
-	cost = 240
+	resources = {
+		category = ship_sections
+		cost = {
+			alloys = 240
+		}
+	}
 }
 
 ship_section_template = {
@@ -544,7 +584,12 @@ ship_section_template = {
 	large_utility_slots = 2
 	aux_utility_slots = 1
 
-	cost = 240
+	resources = {
+		category = ship_sections
+		cost = {
+			alloys = 240
+		}
+	}
 }
 
 ship_section_template = {
@@ -599,7 +644,12 @@ ship_section_template = {
 	large_utility_slots = 3
 	aux_utility_slots = 1
 
-	cost = 240
+	resources = {
+		category = ship_sections
+		cost = {
+			alloys = 240
+		}
+	}
 }
 
 ship_section_template = { #Gagaul Hangar Rear
@@ -628,7 +678,12 @@ ship_section_template = { #Gagaul Hangar Rear
 
 	aux_utility_slots = 1
 
-	cost = 120
+	resources = {
+		category = ship_sections
+		cost = {
+			alloys = 120
+		}
+	}
 }
 
 ship_section_template = {
@@ -676,7 +731,12 @@ ship_section_template = {
 
 	medium_utility_slots = 4
 
-	cost = 60
+	resources = {
+		category = ship_sections
+		cost = {
+			alloys = 60
+		}
+	}
 }
 
 ################MOBILESUITS###############
@@ -771,5 +831,10 @@ ship_section_template = { #FrAsh Thunderbolt Zaku II Reuse P Psycho Zaku
 	large_utility_slots = 0
 	aux_utility_slots = 0
 
-	cost = 46
+	resources = {
+		category = ship_sections
+		cost = {
+			alloys = 46
+		}
+	}
 }

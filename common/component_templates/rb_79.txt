@@ -6,14 +6,10 @@ utility_component_template = {
 	icon = "GFX_ship_part_armor_1"
 	icon_frame = 1
 	power = 0
-	cost = 0
 
 	modifier = {
 		ship_armor_add = 7
 	}
-	#ship_modifier = {
-	#	ship_weapon_damage = 0.01
-	#}
 
 	prerequisites = { "tech_RB_79" }
 
@@ -31,20 +27,21 @@ utility_component_template = {
 	icon = "GFX_ship_part_armor_2"
 	icon_frame = 1
 	power = 0
-	cost = 9
+	resources = {
+		category = ship_components
+		cost = {
+			alloys = 9
+		}
+	}
 
 	modifier = {
 		ship_armor_add = 14
 		ship_hull_mult = 0.18
 	}
-	#ship_modifier = {
-	#	ship_weapon_damage = 0.01
-	#}
 
 	prerequisites = { "tech_RB_79F" }
 
 	component_set = "rb_79_armor"
-	#upgrades_to = "oyw_zeon_pilot_putv_veteran"
 
 	ai_weight = {
 		weight = 2
@@ -57,21 +54,14 @@ utility_component_template = {
 	icon = "GFX_ship_part_thruster_1"
 	icon_frame = 1
 	power = 0
-	cost = 0
 
 	modifier = {
 		ship_evasion_add = 25
-		#ship_speed_mult = 0.625
-		#ship_combat_speed_mult = 0.625
 	}
-	#ship_modifier = {
-	#	ship_weapon_damage = 0.01
-	#}
 
 	prerequisites = { "tech_RB_79" }
 
 	component_set = "rb_79_thrusters"
-	#upgrades_to = "rb_79_thrusters_2"
 
 	ai_weight = {
 		weight = 1

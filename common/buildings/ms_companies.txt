@@ -1,184 +1,115 @@
-# Empire Capital-Complex
-zeonic = {
-	base_buildtime = 1080
-	is_listed = yes
-	planet_unique = yes
-	capital = yes
-	empire_unique = yes
-	level = 1
+#############
+# Science buildings
+#############
+zeonic_zimmad_mip = {
+	base_buildtime = 360
+	base_cap_amount = 1
 
-	cost = {
-		minerals = 1000
-	}
-
-	produced_resources = {
-		engineering_research = 10
-		unity = 3
-	}
-
-	required_resources = {
-		energy = 10
-	}
-
-	country_modifier = {
-		navy_size_add = 50
-		shipsize_zeon_MS_P_construction_speed_mult = 0.1
-	}
+	category = research
 
 	potential = {
-		planet = {
-			is_capital = yes
-			NOT = { is_planet_class = pc_habitat }
+		NOT = {
+			OR = {
+				owner = { is_hive_empire = yes }
+				owner = { is_machine_empire = yes }
+			}
+		}
+		NOT = { has_modifier = resort_colony }
+		NOT = { has_modifier = slave_colony }
+	}
+
+	triggered_planet_modifier = {
+		potential = {
+			exists = owner
+			owner = { is_regular_empire = yes }
+		}
+		modifier = {
+			job_zeonic_researcher_add = 3
+			job_head_researcher_add = 1
 		}
 	}
 
-	destroy_if = {
-		planet = { is_capital = no }
-	}
-
-	prerequisites = {
-		"tech_Zeonic"
-	}
-
-	ai_replace = no
-}
-
-zimmad = {
-	base_buildtime = 1080
-	is_listed = yes
-	planet_unique = yes
-	capital = yes
-	empire_unique = yes
-	level = 1
-
-	cost = {
-		minerals = 1000
-	}
-
-	produced_resources = {
-		engineering_research = 10
-		unity = 3
-	}
-
-	required_resources = {
-		energy = 10
-	}
-
-	country_modifier = {
-		navy_size_add = 50
-	}
-
-	potential = {
-		planet = {
-			is_capital = yes
-			NOT = { is_planet_class = pc_habitat }
+	resources = {
+		category = planet_buildings
+		cost = {
+			minerals = 1000
+		}
+		upkeep = {
+			energy = 10
 		}
 	}
 
-	destroy_if = {
-		planet = { is_capital = no }
-	}
-
 	prerequisites = {
-		"tech_Zimmad"
+		"tech_BEAMC_1"
 	}
 
-	ai_replace = no
+	#triggered_desc = {
+	#	trigger = {
+	#		exists = owner
+	#		owner = { is_regular_empire = yes }
+	#	}
+	#	text = job_researcher_effect_desc
+	#}
+
+
+	ai_weight = {
+		weight = 2
+	}
 }
 
-mip = {
-	base_buildtime = 1080
-	is_listed = yes
-	planet_unique = yes
-	capital = yes
-	empire_unique = yes
-	level = 1
-
-	cost = {
-		minerals = 1000
-	}
-
-	produced_resources = {
-		engineering_research = 10
-		unity = 3
-	}
-
-	required_resources = {
-		energy = 10
-	}
-
-	country_modifier = {
-		navy_size_add = 50
-		ship_fire_rate_mult = 0.1
-		ship_weapon_damage = 0.1
-		ship_weapon_range_mult = 0.1
-	}
-
-	potential = {
-		planet = {
-			is_capital = yes
-			NOT = { is_planet_class = pc_habitat }
-		}
-	}
-
-	destroy_if = {
-		planet = { is_capital = no }
-	}
-
-	prerequisites = {
-		"tech_MIP"
-	}
-
-	ai_replace = no
-}
 
 anaheim = {
-	base_buildtime = 1080
-	is_listed = yes
-	planet_unique = yes
-	capital = yes
-	empire_unique = yes
-	level = 1
+	base_buildtime = 360
+	base_cap_amount = 1
 
-	cost = {
-		minerals = 1500
-	}
-
-	produced_resources = {
-		engineering_research = 10
-		physics_research = 5
-		unity = 5
-	}
-
-	required_resources = {
-		energy = 10
-	}
-
-	country_modifier = {
-		navy_size_add = 150
-		shipsize_ball_construction_speed_mult = 0.1
-		shipsize_gm_construction_speed_mult = 0.1
-		shipsize_ball_build_cost_mult = -0.1
-		shipsize_gm_build_cost_mult = -0.1
-		ship_fire_rate_mult = 0.1
-		ship_weapon_damage = 0.1
-		ship_weapon_range_mult = 0.1
-	}
+	category = research
 
 	potential = {
-		planet = {
-			is_capital = yes
-			NOT = { is_planet_class = pc_habitat }
+		NOT = {
+			OR = {
+				owner = { is_hive_empire = yes }
+				owner = { is_machine_empire = yes }
+			}
+		}
+		NOT = { has_modifier = resort_colony }
+		NOT = { has_modifier = slave_colony }
+	}
+
+	triggered_planet_modifier = {
+		potential = {
+			exists = owner
+			owner = { is_regular_empire = yes }
+		}
+		modifier = {
+			job_anaheim_researcher_add = 3
+			job_head_researcher_add = 1
 		}
 	}
 
-	destroy_if = {
-		planet = { is_capital = no }
+	resources = {
+		category = planet_buildings
+		cost = {
+			minerals = 1000
+		}
+		upkeep = {
+			energy = 10
+		}
 	}
 
 	prerequisites = {
-		"tech_Anaheim"
+		"tech_EFSF_BEAMC_1"
 	}
 
-	ai_replace = no
+	#triggered_desc = {
+	#	trigger = {
+	#		exists = owner
+	#		owner = { is_regular_empire = yes }
+	#	}
+	#	text = job_researcher_effect_desc
+	#}
+
+
+	ai_weight = {
+		weight = 2
+	}
 }

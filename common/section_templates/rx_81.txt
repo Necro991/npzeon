@@ -41,7 +41,12 @@ ship_section_template = { #G-Line
 	large_utility_slots = 0
 	aux_utility_slots = 0
 
-	cost = 132
+	resources = {
+		category = ship_sections
+		cost = {
+			alloys = 132
+		}
+	}
 }
 
 ship_section_template = { #G-Line FC
@@ -94,5 +99,10 @@ ship_section_template = { #G-Line FC
 	large_utility_slots = 0
 	aux_utility_slots = 0
 
-	cost = 44
+	resources = {
+		category = ship_sections
+		cost = {
+			alloys = 44
+		}
+	}
 }

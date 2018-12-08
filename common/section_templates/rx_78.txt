@@ -41,7 +41,12 @@ ship_section_template = { #Gundam
 	large_utility_slots = 0
 	aux_utility_slots = 0
 
-	cost = 36
+	resources = {
+		category = ship_sections
+		cost = {
+			alloys = 36
+		}
+	}
 }
 
 ship_section_template = { #FA Gundam
@@ -115,7 +120,12 @@ ship_section_template = { #FA Gundam
 	large_utility_slots = 0
 	aux_utility_slots = 0
 
-	cost = 36
+	resources = {
+		category = ship_sections
+		cost = {
+			alloys = 36
+		}
+	}
 }
 
 ship_section_template = { #FA Gundam Alt
@@ -189,7 +199,12 @@ ship_section_template = { #FA Gundam Alt
 	large_utility_slots = 0
 	aux_utility_slots = 0
 
-	cost = 36
+	resources = {
+		category = ship_sections
+		cost = {
+			alloys = 36
+		}
+	}
 }
 
 ship_section_template = { #FA Gundam 1b
@@ -263,7 +278,12 @@ ship_section_template = { #FA Gundam 1b
 	large_utility_slots = 0
 	aux_utility_slots = 0
 
-	cost = 36
+	resources = {
+		category = ship_sections
+		cost = {
+			alloys = 36
+		}
+	}
 }
 
 ship_section_template = { #FA Perfect Gundam
@@ -337,7 +357,12 @@ ship_section_template = { #FA Perfect Gundam
 	large_utility_slots = 0
 	aux_utility_slots = 0
 
-	cost = 36
+	resources = {
+		category = ship_sections
+		cost = {
+			alloys = 36
+		}
+	}
 }
 
 ship_section_template = { #Heavy Gundam
@@ -390,7 +415,12 @@ ship_section_template = { #Heavy Gundam
 	large_utility_slots = 0
 	aux_utility_slots = 0
 
-	cost = 54
+	resources = {
+		category = ship_sections
+		cost = {
+			alloys = 54
+		}
+	}
 }
 
 ship_section_template = { #Heavy Gundam
@@ -443,7 +473,12 @@ ship_section_template = { #Heavy Gundam
 	large_utility_slots = 0
 	aux_utility_slots = 0
 
-	cost = 54
+	resources = {
+		category = ship_sections
+		cost = {
+			alloys = 54
+		}
+	}
 }
 
 ship_section_template = { #Heavy Gundam
@@ -496,7 +531,12 @@ ship_section_template = { #Heavy Gundam
 	large_utility_slots = 0
 	aux_utility_slots = 0
 
-	cost = 54
+	resources = {
+		category = ship_sections
+		cost = {
+			alloys = 54
+		}
+	}
 }
 
 ship_section_template = { #Heavy Gundam Unit 2
@@ -549,7 +589,12 @@ ship_section_template = { #Heavy Gundam Unit 2
 	large_utility_slots = 0
 	aux_utility_slots = 0
 
-	cost = 54
+	resources = {
+		category = ship_sections
+		cost = {
+			alloys = 54
+		}
+	}
 }
 
 ship_section_template = { #Heavy Gundam Ingrid
@@ -602,7 +647,12 @@ ship_section_template = { #Heavy Gundam Ingrid
 	large_utility_slots = 0
 	aux_utility_slots = 0
 
-	cost = 54
+	resources = {
+		category = ship_sections
+		cost = {
+			alloys = 54
+		}
+	}
 }
 
 ship_section_template = { #Heavy Gundam Cyphus
@@ -655,7 +705,12 @@ ship_section_template = { #Heavy Gundam Cyphus
 	large_utility_slots = 0
 	aux_utility_slots = 0
 
-	cost = 54
+	resources = {
+		category = ship_sections
+		cost = {
+			alloys = 54
+		}
+	}
 }
 
 ship_section_template = { #FA Gundam Thunderbolt
@@ -743,7 +798,12 @@ ship_section_template = { #FA Gundam Thunderbolt
 	large_utility_slots = 0
 	aux_utility_slots = 0
 
-	cost = 36
+	resources = {
+		category = ship_sections
+		cost = {
+			alloys = 36
+		}
+	}
 }
 
 ship_section_template = { #Heavy Gundam
@@ -873,5 +933,10 @@ ship_section_template = { #Heavy Gundam
 	large_utility_slots = 0
 	aux_utility_slots = 0
 
-	cost = 74
+	resources = {
+		category = ship_sections
+		cost = {
+			alloys = 74
+		}
+	}
 }

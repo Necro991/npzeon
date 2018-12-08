@@ -4,12 +4,11 @@ utility_component_template = {
 	icon = "GFX_ship_part_empty_ftl_drive"
 	icon_frame = 1
 	power = 0
-	cost = 0
 
 	prerequisites = { "tech_MS_05B" }
 
 	component_set = "zeon_grenade_aura"
-	#upgrades_to = "oyw_zeon_pilot_putv_veteran"
+	upgrades_to = "zeon_grenade_aura_1"
 
 	ai_weight = {
 		weight = 1
@@ -22,7 +21,12 @@ utility_component_template = {
 	icon = "zeon_grenade_01"
 	icon_frame = 1
 	power = 0
-	cost = 10
+	resources = {
+		category = ship_components
+		cost = {
+			alloys = 10
+		}
+	}
 
 	hostile_aura = {
 		name = "zeon_grenade_1"
@@ -52,7 +56,7 @@ utility_component_template = {
 	prerequisites = { "tech_MS_06F" }
 
 	component_set = "zeon_grenade_aura"
-	#upgrades_to = "oyw_zeon_pilot_putv_veteran"
+	upgrades_to = "zeon_grenade_aura_2"
 
 	ai_weight = {
 		weight = 2
@@ -65,7 +69,12 @@ utility_component_template = {
 	icon = "zeon_grenade_02"
 	icon_frame = 1
 	power = 0
-	cost = 10
+	resources = {
+		category = ship_components
+		cost = {
+			alloys = 10
+		}
+	}
 
 	hostile_aura = {
 		name = "zeon_grenade_2"
@@ -95,7 +104,6 @@ utility_component_template = {
 	prerequisites = { "tech_MS_06F2" }
 
 	component_set = "zeon_grenade_aura"
-	#upgrades_to = "oyw_zeon_pilot_putv_veteran"
 
 	ai_weight = {
 		weight = 3
@@ -108,12 +116,10 @@ utility_component_template = {
 	icon = "GFX_ship_part_empty_ftl_drive"
 	icon_frame = 1
 	power = 0
-	cost = 0
 
 	prerequisites = { "tech_MS_05B" }
 
 	component_set = "zeon_melee_aura"
-	#upgrades_to = "oyw_zeon_pilot_putv_veteran"
 
 	ai_weight = {
 		weight = 1
@@ -126,7 +132,12 @@ utility_component_template = {
 	icon = "zeon_melee_01"
 	icon_frame = 1
 	power = 0
-	cost = 15
+	resources = {
+		category = ship_components
+		cost = {
+			alloys = 15
+		}
+	}
 
 	hostile_aura = {
 		name = "zeon_melee_1"
@@ -156,7 +167,6 @@ utility_component_template = {
 	prerequisites = { "tech_MS_05B" }
 
 	component_set = "zeon_melee_aura"
-	#upgrades_to = "oyw_zeon_pilot_putv_veteran"
 
 	ai_weight = {
 		weight = 2
@@ -169,7 +179,12 @@ utility_component_template = {
 	icon = "zeon_melee_02"
 	icon_frame = 1
 	power = 0
-	cost = 20
+	resources = {
+		category = ship_components
+		cost = {
+			alloys = 20
+		}
+	}
 
 	modifier = {
 		ship_armor_add = 25
@@ -203,7 +218,6 @@ utility_component_template = {
 	prerequisites = { "tech_MS_06C" }
 
 	component_set = "zeon_melee_aura"
-	#upgrades_to = "oyw_zeon_pilot_putv_veteran"
 
 	ai_weight = {
 		weight = 3
@@ -216,7 +230,12 @@ utility_component_template = {
 	icon = "zeon_melee_03"
 	icon_frame = 1
 	power = 0
-	cost = 20
+	resources = {
+		category = ship_components
+		cost = {
+			alloys = 20
+		}
+	}
 
 	hostile_aura = {
 		name = "zeon_melee_3"
@@ -246,7 +265,6 @@ utility_component_template = {
 	prerequisites = { "tech_MS_06F" }
 
 	component_set = "zeon_melee_aura"
-	#upgrades_to = "oyw_zeon_pilot_putv_veteran"
 
 	ai_weight = {
 		weight = 4
@@ -259,7 +277,12 @@ utility_component_template = {
 	icon = "zeon_melee_04"
 	icon_frame = 1
 	power = 0
-	cost = 20
+	resources = {
+		category = ship_components
+		cost = {
+			alloys = 20
+		}
+	}
 
 	hostile_aura = {
 		name = "zeon_melee_4"
@@ -289,7 +312,6 @@ utility_component_template = {
 	prerequisites = { "tech_MS_09R" }
 
 	component_set = "zeon_melee_aura"
-	#upgrades_to = "oyw_zeon_pilot_putv_veteran"
 
 	ai_weight = {
 		weight = 5
@@ -302,7 +324,12 @@ utility_component_template = {
 	icon = "zeon_melee_05"
 	icon_frame = 1
 	power = 0
-	cost = 30
+	resources = {
+		category = ship_components
+		cost = {
+			alloys = 30
+		}
+	}
 
 	modifier = {
 		ship_evasion_add = -10
@@ -336,7 +363,6 @@ utility_component_template = {
 	prerequisites = { "tech_MS_09R_2" }
 
 	component_set = "zeon_melee_aura"
-	#upgrades_to = "oyw_zeon_pilot_putv_veteran"
 
 	ai_weight = {
 		weight = 6
@@ -349,7 +375,12 @@ utility_component_template = {
 	icon = "zeon_melee_06"
 	icon_frame = 1
 	power = 0
-	cost = 15
+	resources = {
+		category = ship_components
+		cost = {
+			alloys = 15
+		}
+	}
 
 	hostile_aura = {
 		name = "zeon_melee_6"
@@ -379,7 +410,6 @@ utility_component_template = {
 	prerequisites = { "tech_MS_14A" }
 
 	component_set = "zeon_melee_aura"
-	#upgrades_to = "oyw_zeon_pilot_putv_veteran"
 
 	ai_weight = {
 		weight = 7
@@ -392,7 +422,12 @@ utility_component_template = { #Oggo Claws
 	icon = "zeon_melee_07"
 	icon_frame = 1
 	power = 0
-	cost = 15
+	resources = {
+		category = ship_components
+		cost = {
+			alloys = 15
+		}
+	}
 
 	hostile_aura = {
 		name = "zeon_melee_7"
@@ -422,7 +457,6 @@ utility_component_template = { #Oggo Claws
 	prerequisites = { "tech_MP_02A" }
 
 	component_set = "mp_02a_melee_aura"
-	#upgrades_to = "oyw_zeon_pilot_putv_veteran"
 
 	ai_weight = {
 		weight = 1
@@ -435,7 +469,12 @@ utility_component_template = { #MA-06 Val Varo Claws
 	icon = "zeon_melee_08"
 	icon_frame = 1
 	power = 0
-	cost = 15
+	resources = {
+		category = ship_components
+		cost = {
+			alloys = 15
+		}
+	}
 
 	hostile_aura = {
 		name = "zeon_melee_8"
@@ -465,7 +504,6 @@ utility_component_template = { #MA-06 Val Varo Claws
 	prerequisites = { "tech_MA_06" }
 
 	component_set = "ma_06_melee_aura"
-	#upgrades_to = "oyw_zeon_pilot_putv_veteran"
 
 	ai_weight = {
 		weight = 1
@@ -478,7 +516,12 @@ utility_component_template = {
 	icon = "zeon_melee_09"
 	icon_frame = 1
 	power = 0
-	cost = 15
+	resources = {
+		category = ship_components
+		cost = {
+			alloys = 15
+		}
+	}
 
 	hostile_aura = {
 		name = "zeon_melee_9"
@@ -508,7 +551,6 @@ utility_component_template = {
 	prerequisites = { "tech_MS_21C" }
 
 	component_set = "ms_21_melee_aura"
-	#upgrades_to = "oyw_zeon_pilot_putv_veteran"
 
 	ai_weight = {
 		weight = 1
@@ -521,7 +563,12 @@ utility_component_template = {
 	icon = "zeon_melee_10"
 	icon_frame = 1
 	power = 0
-	cost = 15
+	resources = {
+		category = ship_components
+		cost = {
+			alloys = 15
+		}
+	}
 
 	hostile_aura = {
 		name = "zeon_melee_10"
@@ -551,7 +598,6 @@ utility_component_template = {
 	prerequisites = { "tech_MS_15A" }
 
 	component_set = "ms_15_melee_aura"
-	#upgrades_to = "oyw_zeon_pilot_putv_veteran"
 
 	ai_weight = {
 		weight = 1
@@ -564,7 +610,12 @@ utility_component_template = {
 	icon = "zeon_melee_11"
 	icon_frame = 1
 	power = 0
-	cost = 30
+	resources = {
+		category = ship_components
+		cost = {
+			alloys = 30
+		}
+	}
 
 	hostile_aura = {
 		name = "zeon_melee_11"
@@ -594,7 +645,6 @@ utility_component_template = {
 	prerequisites = { "tech_MS_15B" }
 
 	component_set = "ms_15_melee_aura"
-	#upgrades_to = "oyw_zeon_pilot_putv_veteran"
 
 	ai_weight = {
 		weight = 2
@@ -607,7 +657,12 @@ utility_component_template = { #MA-04X Zakrello Claws
 	icon = "zeon_melee_12"
 	icon_frame = 1
 	power = 0
-	cost = 15
+	resources = {
+		category = ship_components
+		cost = {
+			alloys = 15
+		}
+	}
 
 	hostile_aura = {
 		name = "zeon_melee_12"
@@ -637,7 +692,6 @@ utility_component_template = { #MA-04X Zakrello Claws
 	prerequisites = { "tech_MA_04X" }
 
 	component_set = "ma_04x_melee_aura"
-	#upgrades_to = "oyw_zeon_pilot_putv_veteran"
 
 	ai_weight = {
 		weight = 1
@@ -650,7 +704,12 @@ utility_component_template = { #MA-05 Bigro Claws
 	icon = "zeon_melee_13"
 	icon_frame = 1
 	power = 0
-	cost = 15
+	resources = {
+		category = ship_components
+		cost = {
+			alloys = 15
+		}
+	}
 
 	hostile_aura = {
 		name = "zeon_melee_13"
@@ -680,7 +739,6 @@ utility_component_template = { #MA-05 Bigro Claws
 	prerequisites = { "tech_MA_05" }
 
 	component_set = "ma_05_melee_aura"
-	#upgrades_to = "oyw_zeon_pilot_putv_veteran"
 
 	ai_weight = {
 		weight = 1
@@ -693,12 +751,11 @@ utility_component_template = {
 	icon = "GFX_ship_part_empty_ftl_drive"
 	icon_frame = 1
 	power = 0
-	cost = 0
 
 	prerequisites = { "tech_RX_77_1A" }
 
 	component_set = "efsf_grenade_aura"
-	#upgrades_to = "oyw_zeon_pilot_putv_veteran"
+	upgrades_to = "efsf_grenade_aura_1"
 
 	ai_weight = {
 		weight = 1
@@ -711,7 +768,12 @@ utility_component_template = {
 	icon = "efsf_grenade_01"
 	icon_frame = 1
 	power = 0
-	cost = 10
+	resources = {
+		category = ship_components
+		cost = {
+			alloys = 10
+		}
+	}
 
 	hostile_aura = {
 		name = "efsf_grenade_1"
@@ -741,7 +803,6 @@ utility_component_template = {
 	prerequisites = { "tech_RX_77_1A" }
 
 	component_set = "efsf_grenade_aura"
-	#upgrades_to = "oyw_zeon_pilot_putv_veteran"
 
 	ai_weight = {
 		weight = 2
@@ -754,12 +815,11 @@ utility_component_template = {
 	icon = "GFX_ship_part_empty_ftl_drive"
 	icon_frame = 1
 	power = 0
-	cost = 0
 
 	prerequisites = { "tech_RX_78_1" }
 
 	component_set = "gundam_melee_aura"
-	#upgrades_to = "oyw_gundam_pilot_putv_veteran"
+	upgrades_to = "gundam_melee_aura_1"
 
 	ai_weight = {
 		weight = 1
@@ -772,7 +832,12 @@ utility_component_template = {
 	icon = "gundam_melee_01"
 	icon_frame = 1
 	power = 0
-	cost = 15
+	resources = {
+		category = ship_components
+		cost = {
+			alloys = 15
+		}
+	}
 
 	hostile_aura = {
 		name = "gundam_melee_1"
@@ -802,7 +867,6 @@ utility_component_template = {
 	prerequisites = { "tech_RX_78_1" }
 
 	component_set = "gundam_melee_aura"
-	#upgrades_to = "oyw_gundam_pilot_putv_veteran"
 
 	ai_weight = {
 		weight = 2
@@ -815,7 +879,12 @@ utility_component_template = {
 	icon = "gundam_melee_02"
 	icon_frame = 1
 	power = 0
-	cost = 20
+	resources = {
+		category = ship_components
+		cost = {
+			alloys = 20
+		}
+	}
 
 	hostile_aura = {
 		name = "gundam_melee_2"
@@ -845,7 +914,6 @@ utility_component_template = {
 	prerequisites = { "tech_RX_78_1" }
 
 	component_set = "gundam_melee_aura"
-	#upgrades_to = "oyw_gundam_pilot_putv_veteran"
 
 	ai_weight = {
 		weight = 3
@@ -858,7 +926,12 @@ utility_component_template = {
 	icon = "gundam_melee_03"
 	icon_frame = 1
 	power = 0
-	cost = 50
+	resources = {
+		category = ship_components
+		cost = {
+			alloys = 50
+		}
+	}
 
 	hostile_aura = {
 		name = "gundam_melee_3"
@@ -888,7 +961,6 @@ utility_component_template = {
 	prerequisites = { "tech_RX_78_1" }
 
 	component_set = "gundam_melee_aura"
-	#upgrades_to = "oyw_gundam_pilot_putv_veteran"
 
 	ai_weight = {
 		weight = 4
@@ -901,12 +973,10 @@ utility_component_template = {
 	icon = "GFX_ship_part_empty_ftl_drive"
 	icon_frame = 1
 	power = 0
-	cost = 0
 
 	prerequisites = { "tech_RGM_79E" }
 
 	component_set = "efsf_melee_aura"
-	#upgrades_to = "oyw_zeon_pilot_putv_veteran"
 
 	ai_weight = {
 		weight = 1
@@ -919,7 +989,12 @@ utility_component_template = {
 	icon = "gundam_melee_01"
 	icon_frame = 1
 	power = 0
-	cost = 15
+	resources = {
+		category = ship_components
+		cost = {
+			alloys = 15
+		}
+	}
 
 	hostile_aura = {
 		name = "efsf_melee_1"
@@ -949,7 +1024,6 @@ utility_component_template = {
 	prerequisites = { "tech_RGM_79E" }
 
 	component_set = "efsf_melee_aura"
-	#upgrades_to = "oyw_efsf_pilot_putv_veteran"
 
 	ai_weight = {
 		weight = 2
@@ -962,7 +1036,12 @@ utility_component_template = {
 	icon = "efsf_melee_02"
 	icon_frame = 1
 	power = 0
-	cost = 20
+	resources = {
+		category = ship_components
+		cost = {
+			alloys = 20
+		}
+	}
 
 	modifier = {
 		ship_armor_add = 25
@@ -996,7 +1075,6 @@ utility_component_template = {
 	prerequisites = { "tech_RGM_79" }
 
 	component_set = "efsf_melee_aura"
-	#upgrades_to = "oyw_efsf_pilot_putv_veteran"
 
 	ai_weight = {
 		weight = 3
@@ -1009,7 +1087,12 @@ utility_component_template = {
 	icon = "gundam_melee_03"
 	icon_frame = 1
 	power = 0
-	cost = 50
+	resources = {
+		category = ship_components
+		cost = {
+			alloys = 50
+		}
+	}
 
 	hostile_aura = {
 		name = "efsf_melee_3"
@@ -1039,7 +1122,6 @@ utility_component_template = {
 	prerequisites = { "tech_RGM_79" }
 
 	component_set = "efsf_melee_aura"
-	#upgrades_to = "oyw_efsf_pilot_putv_veteran"
 
 	ai_weight = {
 		weight = 4
@@ -1052,7 +1134,12 @@ utility_component_template = {
 	icon = "gundam_melee_01"
 	icon_frame = 1
 	power = 0
-	cost = 15
+	resources = {
+		category = ship_components
+		cost = {
+			alloys = 15
+		}
+	}
 
 	hostile_aura = {
 		name = "striker_melee_1"
@@ -1082,7 +1169,6 @@ utility_component_template = {
 	prerequisites = { "tech_RGM_79FP" }
 
 	component_set = "rgm_79fp_melee_aura"
-	#upgrades_to = "oyw_striker_pilot_putv_veteran"
 
 	ai_weight = {
 		weight = 1
@@ -1095,7 +1181,12 @@ utility_component_template = {
 	icon = "gundam_melee_02"
 	icon_frame = 1
 	power = 0
-	cost = 20
+	resources = {
+		category = ship_components
+		cost = {
+			alloys = 20
+		}
+	}
 
 	hostile_aura = {
 		name = "striker_melee_2"
@@ -1125,7 +1216,6 @@ utility_component_template = {
 	prerequisites = { "tech_RGM_79FP" }
 
 	component_set = "rgm_79fp_melee_aura"
-	#upgrades_to = "oyw_striker_pilot_putv_veteran"
 
 	ai_weight = {
 		weight = 2
@@ -1138,7 +1228,12 @@ utility_component_template = {
 	icon = "gundam_melee_03"
 	icon_frame = 1
 	power = 0
-	cost = 50
+	resources = {
+		category = ship_components
+		cost = {
+			alloys = 50
+		}
+	}
 
 	hostile_aura = {
 		name = "striker_melee_3"
@@ -1168,7 +1263,6 @@ utility_component_template = {
 	prerequisites = { "tech_RGM_79FP" }
 
 	component_set = "rgm_79fp_melee_aura"
-	#upgrades_to = "oyw_striker_pilot_putv_veteran"
 
 	ai_weight = {
 		weight = 3

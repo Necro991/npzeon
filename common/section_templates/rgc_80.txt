@@ -34,7 +34,12 @@ ship_section_template = { #Guncannon
 	large_utility_slots = 0
 	aux_utility_slots = 0
 
-	cost = 41
+	resources = {
+		category = ship_sections
+		cost = {
+			alloys = 41
+		}
+	}
 }
 
 ship_section_template = { #Guncannon
@@ -101,5 +106,10 @@ ship_section_template = { #Guncannon
 	large_utility_slots = 0
 	aux_utility_slots = 0
 
-	cost = 123
+	resources = {
+		category = ship_sections
+		cost = {
+			alloys = 123
+		}
+	}
 }

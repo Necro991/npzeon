@@ -34,7 +34,12 @@ ship_section_template = { #Gundam
 	large_utility_slots = 0
 	aux_utility_slots = 0
 
-	cost = 36
+	resources = {
+		category = ship_sections
+		cost = {
+			alloys = 36
+		}
+	}
 }
 
 ship_section_template = { #Gundam
@@ -80,7 +85,12 @@ ship_section_template = { #Gundam
 	large_utility_slots = 0
 	aux_utility_slots = 0
 
-	cost = 51
+	resources = {
+		category = ship_sections
+		cost = {
+			alloys = 51
+		}
+	}
 }
 
 ship_section_template = { #Gundam
@@ -119,7 +129,12 @@ ship_section_template = { #Gundam
 	large_utility_slots = 0
 	aux_utility_slots = 0
 
-	cost = 43
+	resources = {
+		category = ship_sections
+		cost = {
+			alloys = 43
+		}
+	}
 }
 
 ship_section_template = { #Gundam
@@ -207,7 +222,6 @@ ship_section_template = { #Gundam
 	large_utility_slots = 0
 	aux_utility_slots = 3
 
-	cost = 0
 }
 
 ship_section_template = { #Gundam
@@ -246,5 +260,10 @@ ship_section_template = { #Gundam
 	large_utility_slots = 0
 	aux_utility_slots = 0
 
-	cost = 45
+	resources = {
+		category = ship_sections
+		cost = {
+			alloys = 45
+		}
+	}
 }

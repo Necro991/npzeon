@@ -4,7 +4,6 @@ utility_component_template = {
 	icon = "GFX_ship_part_ms_reactor"
 	icon_frame = 1
 	power = 10000
-	cost = 0
 
 	component_set = "ms_reactor"
 
@@ -41,7 +40,6 @@ utility_component_template = {
 	icon = "GFX_ship_part_ms_reactor"
 	icon_frame = 1
 	power = 10000
-	cost = 0
 
 	component_set = "ms_reactor"
 
@@ -78,7 +76,6 @@ utility_component_template = {
 	icon = "GFX_ship_part_ms_reactor"
 	icon_frame = 1
 	power = 13000
-	cost = 0
 
 	component_set = "commander_ms_reactor"
 
@@ -115,7 +112,6 @@ utility_component_template = {
 	icon = "GFX_ship_part_ms_reactor"
 	icon_frame = 1
 	power = 13000
-	cost = 0
 
 	component_set = "commander_ms_reactor"
 
@@ -152,7 +148,6 @@ utility_component_template = {
 	icon = "GFX_ship_part_shield_1"
 	icon_frame = 1
 	power = 0
-	cost = 0
 
 	modifier = {
 		ship_shield_add = 1000
@@ -169,7 +164,6 @@ utility_component_template = {
 	icon = "GFX_ship_part_ms_reactor"
 	icon_frame = 1
 	power = 31000
-	cost = 0
 
 	component_set = "ms_06r_reactor"
 
@@ -206,7 +200,6 @@ utility_component_template = {
 	icon = "GFX_ship_part_ms_reactor"
 	icon_frame = 1
 	power = 16000
-	cost = 0
 
 	component_set = "msn_02_reactor"
 
@@ -243,7 +236,6 @@ utility_component_template = {
 	icon = "GFX_ship_part_ms_reactor"
 	icon_frame = 1
 	power = 13000
-	cost = 0
 
 	component_set = "man_03_reactor"
 
@@ -280,7 +272,6 @@ utility_component_template = {
 	icon = "GFX_ship_part_ms_reactor"
 	icon_frame = 1
 	power = 4000
-	cost = 0
 
 	component_set = "ma_04x_reactor"
 
@@ -317,7 +308,6 @@ utility_component_template = {
 	icon = "GFX_ship_part_ms_reactor"
 	icon_frame = 1
 	power = 4000
-	cost = 0
 
 	component_set = "ma_05_reactor"
 
@@ -354,7 +344,6 @@ utility_component_template = {
 	icon = "GFX_ship_part_ms_reactor"
 	icon_frame = 1
 	power = 4000
-	cost = 0
 
 	component_set = "ma_05ad_reactor"
 
@@ -391,7 +380,6 @@ utility_component_template = {
 	icon = "GFX_ship_part_shield_1"
 	icon_frame = 1
 	power = 0
-	cost = 0
 
 	modifier = {
 		ship_shield_add = 1000
@@ -408,7 +396,6 @@ utility_component_template = {
 	icon = "GFX_ship_part_ms_reactor"
 	icon_frame = 1
 	power = 4000
-	cost = 0
 
 	component_set = "ma_06_reactor"
 
@@ -445,7 +432,6 @@ utility_component_template = {
 	icon = "GFX_ship_part_ms_reactor"
 	icon_frame = 1
 	power = 22000
-	cost = 0
 
 	component_set = "ma_08_reactor"
 
@@ -482,7 +468,6 @@ utility_component_template = {
 	icon = "GFX_ship_part_ms_reactor"
 	icon_frame = 1
 	power = 4000
-	cost = 0
 
 	component_set = "rx_75_reactor"
 
@@ -519,7 +504,6 @@ utility_component_template = {
 	icon = "GFX_ship_part_ms_reactor"
 	icon_frame = 1
 	power = 19000
-	cost = 0
 
 	component_set = "rx_77_reactor"
 
@@ -556,7 +540,6 @@ utility_component_template = {
 	icon = "GFX_ship_part_ms_reactor"
 	icon_frame = 1
 	power = 7000
-	cost = 0
 
 	component_set = "fa_78_thunderbolt_reactor"
 
@@ -593,7 +576,6 @@ utility_component_template = {
 	icon = "GFX_ship_part_ms_reactor"
 	icon_frame = 1
 	power = 16000
-	cost = 0
 
 	component_set = "hfa_78_3_reactor"
 
@@ -630,7 +612,6 @@ utility_component_template = {
 	icon = "GFX_ship_part_ms_reactor"
 	icon_frame = 1
 	power = 7000
-	cost = 0
 
 	component_set = "rgc_80_reactor"
 
@@ -667,7 +648,6 @@ utility_component_template = {
 	icon = "GFX_ship_part_ms_reactor"
 	icon_frame = 1
 	power = 19000
-	cost = 0
 
 	component_set = "rgc_80_reactor"
 
@@ -704,7 +684,6 @@ utility_component_template = {
 	icon = "GFX_ship_part_ms_reactor"
 	icon_frame = 1
 	power = 19000
-	cost = 0
 
 	component_set = "ms_18e_reactor"
 
@@ -741,7 +720,6 @@ utility_component_template = {
 	icon = "GFX_ship_part_ms_reactor"
 	icon_frame = 1
 	power = 19000
-	cost = 0
 
 	component_set = "ms_06k_reactor"
 
@@ -778,7 +756,6 @@ utility_component_template = {
 	icon = "GFX_ship_part_ms_reactor"
 	icon_frame = 1
 	power = 19000
-	cost = 0
 
 	component_set = "ms_09k_reactor"
 
@@ -815,7 +792,6 @@ utility_component_template = {
 	icon = "GFX_ship_part_ms_reactor"
 	icon_frame = 1
 	power = 19000
-	cost = 0
 
 	component_set = "ms_14c_reactor"
 
@@ -852,7 +828,6 @@ utility_component_template = {
 	icon = "GFX_ship_part_ms_reactor"
 	icon_frame = 1
 	power = 7000
-	cost = 0
 
 	component_set = "gp_00_reactor"
 
@@ -889,7 +864,6 @@ utility_component_template = {
 	icon = "GFX_ship_part_ms_reactor"
 	icon_frame = 1
 	power = 4000
-	cost = 0
 
 	component_set = "gp_02_reactor"
 

@@ -6,7 +6,6 @@ utility_component_template = {
 	icon = "GFX_ship_part_armor_1"
 	icon_frame = 1
 	power = 0
-	cost = 0
 
 	modifier = {
 		ship_armor_add = 228
@@ -15,7 +14,6 @@ utility_component_template = {
 	prerequisites = { "tech_RX_78GP01Fb" }
 
 	component_set = "rx_78gp_01_armor"
-	#upgrades_to = "rx_78_armor_2"
 
 	ai_weight = {
 		weight = 1
@@ -28,7 +26,6 @@ utility_component_template = {
 	icon = "GFX_ship_part_thruster_1"
 	icon_frame = 1
 	power = 0
-	cost = 0
 
 	modifier = {
 		ship_evasion_add = 72
@@ -49,7 +46,6 @@ utility_component_template = {
 	icon = "GFX_ship_part_empty_ftl_drive"
 	icon_frame = 1
 	power = 0
-	cost = 0
 
 	prerequisites = { "tech_RX_78GP01Fb" }
 
@@ -67,7 +63,12 @@ utility_component_template = {
 	icon = "GFX_ship_part_armor_1"
 	icon_frame = 1
 	power = 0
-	cost = 20
+	resources = {
+		category = ship_components
+		cost = {
+			alloys = 20
+		}
+	}
 
 	modifier = {
 		ship_armor_add = 228
@@ -76,7 +77,6 @@ utility_component_template = {
 	prerequisites = { "tech_RX_78GP01Fa" }
 
 	component_set = "fa_78gp_01_armor"
-	#upgrades_to = "rx_78_armor_2"
 
 	ai_weight = {
 		weight = 1
@@ -89,7 +89,6 @@ utility_component_template = {
 	icon = "GFX_ship_part_armor_1"
 	icon_frame = 1
 	power = 0
-	cost = 0
 
 	modifier = {
 		ship_armor_add = 384 #300%
@@ -98,7 +97,6 @@ utility_component_template = {
 	prerequisites = { "tech_RX_78GP02" }
 
 	component_set = "rx_78gp_02_armor"
-	#upgrades_to = "rx_78_armor_2"
 
 	ai_weight = {
 		weight = 1
@@ -111,7 +109,6 @@ utility_component_template = {
 	icon = "GFX_ship_part_thruster_1"
 	icon_frame = 1
 	power = 0
-	cost = 0
 
 	modifier = {
 		ship_evasion_add = 60
@@ -132,7 +129,6 @@ utility_component_template = {
 	icon = "GFX_ship_part_armor_1"
 	icon_frame = 1
 	power = 0
-	cost = 0
 
 	modifier = {
 		ship_armor_add = 216
@@ -141,7 +137,6 @@ utility_component_template = {
 	prerequisites = { "tech_RX_78GP03S" }
 
 	component_set = "rx_78gp_03s_armor"
-	#upgrades_to = "rx_78_armor_2"
 
 	ai_weight = {
 		weight = 1
@@ -154,7 +149,6 @@ utility_component_template = {
 	icon = "GFX_ship_part_thruster_1"
 	icon_frame = 1
 	power = 0
-	cost = 0
 
 	modifier = {
 		ship_evasion_add = 72
@@ -175,7 +169,6 @@ utility_component_template = {
 	icon = "GFX_ship_part_empty_ftl_drive"
 	icon_frame = 1
 	power = 0
-	cost = 0
 
 	prerequisites = { "tech_RX_78GP03S" }
 
@@ -193,7 +186,12 @@ utility_component_template = {
 	icon = "GFX_ship_part_armor_1"
 	icon_frame = 1
 	power = 3000
-	cost = 500 #221 higher than it should be
+	resources = {
+		category = ship_components
+		cost = {
+			alloys = 500 #221 higher than it should be
+		}
+	}
 
 	modifier = {
 		ship_armor_add = 1394 #200%
@@ -206,7 +204,6 @@ utility_component_template = {
 	prerequisites = { "tech_RX_78GP03S" }
 
 	component_set = "rx_78gp03_dendrobium"
-	#upgrades_to = "rx_78_armor_2"
 
 	ai_weight = {
 		weight = 1
@@ -219,7 +216,6 @@ utility_component_template = {
 	icon = "GFX_ship_part_armor_1"
 	icon_frame = 1
 	power = 0
-	cost = 0
 
 	modifier = {
 		ship_armor_add = 226
@@ -228,7 +224,6 @@ utility_component_template = {
 	prerequisites = { "tech_RX_78GP04G" }
 
 	component_set = "rx_78gp_04g_armor"
-	#upgrades_to = "rx_78_armor_2"
 
 	ai_weight = {
 		weight = 1
@@ -241,7 +236,6 @@ utility_component_template = {
 	icon = "GFX_ship_part_thruster_1"
 	icon_frame = 1
 	power = 0
-	cost = 0
 
 	modifier = {
 		ship_evasion_add = 72

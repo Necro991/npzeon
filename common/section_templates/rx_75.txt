@@ -34,7 +34,12 @@ ship_section_template = { #RX-75-4
 	large_utility_slots = 0
 	aux_utility_slots = 0
 
-	cost = 49
+	resources = {
+		category = ship_sections
+		cost = {
+			alloys = 49
+		}
+	}
 }
 
 ship_section_template = { #RX-75 MPT
@@ -101,5 +106,10 @@ ship_section_template = { #RX-75 MPT
 	large_utility_slots = 0
 	aux_utility_slots = 0
 
-	cost = 147
+	resources = {
+		category = ship_sections
+		cost = {
+			alloys = 147
+		}
+	}
 }

@@ -6,15 +6,11 @@ utility_component_template = {
 	icon = "ms_09r_armor_1"
 	icon_frame = 1
 	power = 0
-	cost = 0
 
 	modifier = {
 		ship_armor_add = 172
 		ship_hull_mult = 0.2
 	}
-	#ship_modifier = {
-	#	ship_weapon_damage = 0.01
-	#}
 
 	prerequisites = { "tech_MS_09R" }
 
@@ -32,20 +28,21 @@ utility_component_template = {
 	icon = "ms_09r_armor_2"
 	icon_frame = 1
 	power = 0
-	cost = 3
+	resources = {
+		category = ship_components
+		cost = {
+			alloys = 3
+		}
+	}
 
 	modifier = {
 		ship_armor_add = 197
 		ship_hull_mult = 0.23
 	}
-	#ship_modifier = {
-	#	ship_weapon_damage = 0.01
-	#}
 
 	prerequisites = { "tech_MS_09R_2" }
 
 	component_set = "ms_09_armor"
-	#upgrades_to = "oyw_zeon_pilot_putv_veteran"
 
 	ai_weight = {
 		weight = 2
@@ -58,16 +55,11 @@ utility_component_template = {
 	icon = "GFX_ship_part_thruster_1"
 	icon_frame = 1
 	power = 0
-	cost = 0
 
 	modifier = {
 		ship_evasion_add = 55
 		ship_speed_mult = 0.15
-		ship_combat_speed_mult = 0.15
 	}
-	#ship_modifier = {
-	#	ship_weapon_damage = 0.01
-	#}
 
 	prerequisites = { "tech_MS_09R" }
 
@@ -85,21 +77,21 @@ utility_component_template = {
 	icon = "GFX_ship_part_thruster_2"
 	icon_frame = 1
 	power = 0
-	cost = 10
+	resources = {
+		category = ship_components
+		cost = {
+			alloys = 10
+		}
+	}
 
 	modifier = {
 		ship_evasion_add = 60
 		ship_speed_mult = 1.35
-		ship_combat_speed_mult = 1.35
 	}
-	#ship_modifier = {
-	#	ship_weapon_damage = 0.01
-	#}
 
 	prerequisites = { "tech_MS_09R_2" }
 
 	component_set = "ms_09_thrusters"
-	#upgrades_to = "oyw_zeon_pilot_putv_veteran"
 
 	ai_weight = {
 		weight = 2
@@ -112,20 +104,15 @@ utility_component_template = {
 	icon = "ms_09r_armor_1"
 	icon_frame = 1
 	power = 0
-	cost = 0
 
 	modifier = {
 		ship_armor_add = 172
 		ship_hull_mult = 0.08
 	}
-	#ship_modifier = {
-	#	ship_weapon_damage = 0.01
-	#}
 
 	prerequisites = { "tech_MS_09K" }
 
 	component_set = "ms_09k_armor"
-	#upgrades_to = "ms_09_armor_2"
 
 	ai_weight = {
 		weight = 1
@@ -138,19 +125,14 @@ utility_component_template = {
 	icon = "GFX_ship_part_thruster_1"
 	icon_frame = 1
 	power = 0
-	cost = 0
 
 	modifier = {
 		ship_evasion_add = 45
 	}
-	#ship_modifier = {
-	#	ship_weapon_damage = 0.01
-	#}
 
 	prerequisites = { "tech_MS_09K" }
 
 	component_set = "ms_09k_thrusters"
-	#upgrades_to = "ms_09_thrusters_2"
 
 	ai_weight = {
 		weight = 1

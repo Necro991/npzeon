@@ -6,21 +6,17 @@ utility_component_template = {
 	icon = "radiation_armor_2"
 	icon_frame = 1
 	power = 0
-	cost = 0
 
 	modifier = {
 		ship_armor_add = 110
 		ship_evasion_add = -5
 		ship_hull_mult = 0.1
 	}
-	#ship_modifier = {
-	#	ship_weapon_damage = 0.01
-	#}
 
 	prerequisites = { "tech_MS_06A" }
 
 	component_set = "ms_06_armor"
-	#upgrades_to = "oyw_zeon_pilot_putv_veteran"
+	upgrades_to = "ms_06_armor_2"
 
 	ai_weight = {
 		weight = 1
@@ -33,20 +29,16 @@ utility_component_template = {
 	icon = "ms_06_armor_2"
 	icon_frame = 1
 	power = 0
-	cost = 0
 
 	modifier = {
 		ship_armor_add = 88
 		ship_hull_mult = 0.1
 	}
-	#ship_modifier = {
-	#	ship_weapon_damage = 0.01
-	#}
 
 	prerequisites = { "tech_MS_06C" }
 
 	component_set = "ms_06_armor"
-	#upgrades_to = "oyw_zeon_pilot_putv_veteran"
+	upgrades_to = "ms_06_armor_3"
 
 	ai_weight = {
 		weight = 2
@@ -59,20 +51,22 @@ utility_component_template = {
 	icon = "ms_06_armor_3"
 	icon_frame = 1
 	power = 0
-	cost = 3
+	resources = {
+		category = ship_components
+		cost = {
+			alloys = 3
+		}
+	}
 
 	modifier = {
 		ship_armor_add = 113
 		ship_hull_mult = 0.13
 	}
-	#ship_modifier = {
-	#	ship_weapon_damage = 0.01
-	#}
 
 	prerequisites = { "tech_MS_06F" }
 
 	component_set = "ms_06_armor"
-	#upgrades_to = "oyw_zeon_pilot_putv_veteran"
+	upgrades_to = "ms_06_armor_4"
 
 	ai_weight = {
 		weight = 3
@@ -85,20 +79,22 @@ utility_component_template = {
 	icon = "ms_06_armor_4"
 	icon_frame = 1
 	power = 0
-	cost = -3
+	resources = {
+		category = ship_components
+		cost = {
+			alloys = -3
+		}
+	}
 
 	modifier = {
 		ship_armor_add = 130
 		ship_hull_mult = 0.08
 	}
-	#ship_modifier = {
-	#	ship_weapon_damage = 0.01
-	#}
 
 	prerequisites = { "tech_MS_06F2" }
 
 	component_set = "ms_06_armor"
-	#upgrades_to = "oyw_zeon_pilot_putv_veteran"
+	upgrades_to = "ms_06_armor_5"
 
 	ai_weight = {
 		weight = 4
@@ -111,20 +107,21 @@ utility_component_template = {
 	icon = "ms_06_armor_5"
 	icon_frame = 1
 	power = 0
-	cost = 19
+	resources = {
+		category = ship_components
+		cost = {
+			alloys = 19
+		}
+	}
 
 	modifier = {
 		ship_armor_add = 151
 		ship_hull_mult = 0.28
 	}
-	#ship_modifier = {
-	#	ship_weapon_damage = 0.01
-	#}
 
 	prerequisites = { "tech_MS_06FZ" }
 
 	component_set = "ms_06_armor"
-	#upgrades_to = "oyw_zeon_pilot_putv_veteran"
 
 	ai_weight = {
 		weight = 5
@@ -137,19 +134,15 @@ utility_component_template = {
 	icon = "GFX_ship_part_thruster_1" #ms_06_thrusters_1
 	icon_frame = 1
 	power = 0
-	cost = 0
 
 	modifier = {
 		ship_evasion_add = 50
 	}
-	#ship_modifier = {
-	#	ship_weapon_damage = 0.01
-	#}
 
 	prerequisites = { "tech_MS_06A" }
 
 	component_set = "ms_06_thrusters"
-	#upgrades_to = "oyw_zeon_pilot_putv_veteran"
+	upgrades_to = "ms_06_thrusters_2"
 
 	ai_weight = {
 		weight = 1
@@ -162,19 +155,21 @@ utility_component_template = {
 	icon = "GFX_ship_part_thruster_2" #ms_06_thrusters_2
 	icon_frame = 1
 	power = 0
-	cost = 5
+	resources = {
+		category = ship_components
+		cost = {
+			alloys = 5
+		}
+	}
 
 	modifier = {
 		ship_evasion_add = 55
 	}
-	#ship_modifier = {
-	#	ship_weapon_damage = 0.01
-	#}
 
 	prerequisites = { "tech_MS_06F" }
 
 	component_set = "ms_06_thrusters"
-	#upgrades_to = "oyw_zeon_pilot_putv_veteran"
+	upgrades_to = "ms_06_thrusters_3"
 
 	ai_weight = {
 		weight = 2
@@ -187,21 +182,22 @@ utility_component_template = {
 	icon = "GFX_ship_part_thruster_3" #ms_06_thrusters_3
 	icon_frame = 1
 	power = 0
-	cost = 10
+	resources = {
+		category = ship_components
+		cost = {
+			alloys = 10
+		}
+	}
 
 	modifier = {
 		ship_evasion_add = 55
 		ship_speed_mult = 0.29
-		ship_combat_speed_mult = 0.29
 	}
-	#ship_modifier = {
-	#	ship_weapon_damage = 0.01
-	#}
 
 	prerequisites = { "tech_MS_06F2" }
 
 	component_set = "ms_06_thrusters"
-	#upgrades_to = "oyw_zeon_pilot_putv_veteran"
+	upgrades_to = "ms_06_thrusters_4"
 
 	ai_weight = {
 		weight = 3
@@ -214,21 +210,20 @@ utility_component_template = {
 	icon = "GFX_ship_part_thruster_4" #ms_06_thrusters_4
 	icon_frame = 1
 	power = 0
-	cost = 15
+	resources = {
+		category = ship_components
+		cost = {
+			alloys = 15
+		}
+	}
 
 	modifier = {
 		ship_evasion_add = 57
 		ship_speed_mult = 0.81
-		ship_combat_speed_mult = 0.81
 	}
-	#ship_modifier = {
-	#	ship_weapon_damage = 0.01
-	#}
-
 	prerequisites = { "tech_MS_06FZ" }
 
 	component_set = "ms_06_thrusters"
-	#upgrades_to = "oyw_zeon_pilot_putv_veteran"
 
 	ai_weight = {
 		weight = 4
@@ -241,19 +236,14 @@ utility_component_template = {
 	icon = "ms_06r_armor" #ms_06r_armor_1
 	icon_frame = 1
 	power = 0
-	cost = 0
 
 	modifier = {
 		ship_armor_add = 170
 	}
-	#ship_modifier = {
-	#	ship_weapon_damage = 0.01
-	#}
 
 	prerequisites = { "tech_MS_06R_2" }
 
 	component_set = "ms_06r_armor"
-	#upgrades_to = "oyw_zeon_pilot_putv_veteran"
 
 	ai_weight = {
 		weight = 1
@@ -266,19 +256,14 @@ utility_component_template = {
 	icon = "GFX_ship_part_thruster_1" #ms_06r_thrusters_1
 	icon_frame = 1
 	power = 0
-	cost = 0
 
 	modifier = {
 		ship_evasion_add = 80
 	}
-	#ship_modifier = {
-	#	ship_weapon_damage = 0.01
-	#}
 
 	prerequisites = { "tech_MS_06R_2" }
 
 	component_set = "ms_06r_thrusters"
-	#upgrades_to = "oyw_zeon_pilot_putv_veteran"
 
 	ai_weight = {
 		weight = 1
@@ -291,20 +276,15 @@ utility_component_template = {
 	icon = "ms_06_armor_3"
 	icon_frame = 1
 	power = 0
-	cost = 0
 
 	modifier = {
 		ship_armor_add = 128
 		ship_hull_mult = 0.28
 	}
-	#ship_modifier = {
-	#	ship_weapon_damage = 0.01
-	#}
 
 	prerequisites = { "tech_MS_06K" }
 
 	component_set = "ms_06k_armor"
-	#upgrades_to = "oyw_zeon_pilot_putv_veteran"
 
 	ai_weight = {
 		weight = 1
@@ -317,19 +297,14 @@ utility_component_template = {
 	icon = "GFX_ship_part_thruster_1" #ms_06_thrusters_2
 	icon_frame = 1
 	power = 0
-	cost = 0
 
 	modifier = {
 		ship_evasion_add = 45
 	}
-	#ship_modifier = {
-	#	ship_weapon_damage = 0.01
-	#}
 
 	prerequisites = { "tech_MS_06K" }
 
 	component_set = "ms_06k_thrusters"
-	#upgrades_to = "oyw_zeon_pilot_putv_veteran"
 
 	ai_weight = {
 		weight = 1

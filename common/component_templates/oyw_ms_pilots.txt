@@ -4,7 +4,12 @@ utility_component_template = {
 	icon = "oyw_zeon_pilot_green"
 	icon_frame = 1
 	power = 0
-	cost = -10
+	resources = {
+		category = ship_components
+		cost = {
+			#pilots = 15
+		}
+	}
 
 	#ship_modifier = {
 	#	ship_weapon_damage = 0.3
@@ -30,7 +35,12 @@ utility_component_template = {
 	icon = "oyw_zeon_pilot_veteran"
 	icon_frame = 1
 	power = 0
-	cost = 10
+	resources = {
+		category = ship_components
+		cost = {
+			pilots = 3
+		}
+	}
 
 	ship_modifier = {
 		ship_weapon_damage = 0.1
@@ -55,7 +65,12 @@ utility_component_template = {
 	icon = "oyw_zeon_pilot_veteran"
 	icon_frame = 1
 	power = 0
-	cost = 10
+	resources = {
+		category = ship_components
+		cost = {
+			pilots = 3
+		}
+	}
 
 	ship_modifier = {
 		ship_weapon_damage = 0.1
@@ -80,7 +95,12 @@ utility_component_template = {
 	icon = "oyw_zeon_pilot_ace"
 	icon_frame = 1
 	power = 0
-	cost = 10
+	resources = {
+		category = ship_components
+		cost = {
+			ace_pilots = 3
+		}
+	}
 
 	ship_modifier = {
 		ship_weapon_damage = 0.2
@@ -105,8 +125,12 @@ utility_component_template = {
 	icon = "oyw_zeon_pilot_newtype"
 	icon_frame = 1
 	power = 0
-	cost = 30
-
+	resources = {
+		category = ship_components
+		cost = {
+			newtypes = 3
+		}
+	}
 	ship_modifier = {
 		ship_weapon_damage = 0.2
 		ship_accuracy_add = 10.0
@@ -130,7 +154,9 @@ utility_component_template = {
 	icon = "oyw_zeon_pilot_cybernewtype"
 	icon_frame = 1
 	power = 0
-	cost = 30
+	cost = {
+		cybernewtypes = 3
+	}
 
 	ship_modifier = {
 		ship_weapon_damage = 0.25
@@ -154,7 +180,12 @@ utility_component_template = {
 	icon = "oyw_zeon_pilot_reuse"
 	icon_frame = 1
 	power = 0
-	cost = 100
+	resources = {
+		category = ship_components
+		cost = {
+			ace_pilots = 1
+		}
+	}
 
 	ship_modifier = {
 		ship_weapon_damage = 0.25
@@ -176,7 +207,12 @@ utility_component_template = {
 	icon = "oyw_efsf_pilot_green"
 	icon_frame = 1
 	power = 0
-	cost = -10
+	resources = {
+		category = ship_components
+		cost = {
+			#pilots = 15
+		}
+	}
 
 	#ship_modifier = {
 	#	ship_weapon_damage = 0.3
@@ -201,7 +237,12 @@ utility_component_template = {
 	icon = "oyw_efsf_pilot_veteran"
 	icon_frame = 1
 	power = 0
-	cost = 10
+	resources = {
+		category = ship_components
+		cost = {
+			pilots = 3
+		}
+	}
 
 	ship_modifier = {
 		ship_weapon_damage = 0.1
@@ -226,7 +267,12 @@ utility_component_template = {
 	icon = "oyw_efsf_pilot_veteran"
 	icon_frame = 1
 	power = 0
-	cost = 10
+	resources = {
+		category = ship_components
+		cost = {
+			pilots = 3
+		}
+	}
 
 	ship_modifier = {
 		ship_weapon_damage = 0.1
@@ -251,7 +297,12 @@ utility_component_template = {
 	icon = "oyw_efsf_pilot_ace"
 	icon_frame = 1
 	power = 0
-	cost = 10
+	resources = {
+		category = ship_components
+		cost = {
+			ace_pilots = 3
+		}
+	}
 
 	ship_modifier = {
 		ship_weapon_damage = 0.1
@@ -276,7 +327,12 @@ utility_component_template = {
 	icon = "oyw_efsf_pilot_newtype"
 	icon_frame = 1
 	power = 0
-	cost = 30
+	resources = {
+		category = ship_components
+		cost = {
+			newtypes = 3
+		}
+	}
 
 	ship_modifier = {
 		ship_weapon_damage = 0.2
@@ -301,7 +357,12 @@ utility_component_template = {
 	icon = "oyw_efsf_pilot_cybernewtype"
 	icon_frame = 1
 	power = 0
-	cost = 30
+	resources = {
+		category = ship_components
+		cost = {
+			cybernewtypes = 3
+		}
+	}
 
 	ship_modifier = {
 		ship_weapon_damage = 0.25

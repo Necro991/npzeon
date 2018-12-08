@@ -16,7 +16,12 @@ weapon_component_template = {
 	icon_frame = 1
 	color = { 0.1 1.0 0.1 1 }
 	power = -3000
-	cost = 30
+	resources = {
+		category = ship_components
+		cost = {
+			alloys = 30
+		}
+	}
 	size_restriction = { RGM_79 RGM_79S }
 	prerequisites = { "tech_RMS_179" }
 	component_set = "ZETA_GM_II_BEAM_RIFLE"
@@ -44,7 +49,12 @@ weapon_component_template = {
 	icon_frame = 1
 	color = { 0.1 1.0 0.1 1 }
 	power = -3000
-	cost = 30
+	resources = {
+		category = ship_components
+		cost = {
+			alloys = 30
+		}
+	}
 	size_restriction = { RGM_79 RGM_79S }
 	prerequisites = { "tech_RGM_86R" }
 	component_set = "ZETA_GM_III_BEAM_RIFLE"
@@ -72,7 +82,12 @@ weapon_component_template = {
 	icon_frame = 1
 	color = { 0.1 1.0 0.1 1 }
 	power = -3000
-	cost = 35
+	resources = {
+		category = ship_components
+		cost = {
+			alloys = 35
+		}
+	}
 	size_restriction = { RX_77 RX_78 FA_78 FA_78_2 HFA_78 RX_81 RX_81FC RGM_79 RGM_79S RGM_79FP RGM_79FC RGC_80 RX_78GP01_Fb RX_78GP03S RX_78GP04G }
 	prerequisites = { "tech_RMS_179" }
 	component_set = "ZETA_EFSF_380MM"

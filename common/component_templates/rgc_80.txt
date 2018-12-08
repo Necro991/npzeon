@@ -6,7 +6,6 @@ utility_component_template = {
 	icon = "GFX_ship_part_armor_1"
 	icon_frame = 1
 	power = 0
-	cost = 0
 
 	modifier = {
 		ship_armor_add = 52
@@ -29,7 +28,12 @@ utility_component_template = {
 	icon = "GFX_ship_part_armor_2"
 	icon_frame = 1
 	power = 0
-	cost = -6
+	resources = {
+		category = ship_components
+		cost = {
+			alloys = -6
+		}
+	}
 
 	modifier = {
 		ship_armor_add = 140
@@ -52,7 +56,6 @@ utility_component_template = {
 	icon = "GFX_ship_part_armor_3"
 	icon_frame = 1
 	power = 0
-	cost = 0
 
 	modifier = {
 		ship_armor_add = 216
@@ -76,7 +79,6 @@ utility_component_template = {
 	icon = "GFX_ship_part_thruster_1"
 	icon_frame = 1
 	power = 0
-	cost = 0
 
 	modifier = {
 		ship_evasion_add = 45

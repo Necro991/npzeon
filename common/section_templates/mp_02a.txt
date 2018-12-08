@@ -41,5 +41,10 @@ ship_section_template = { #MP-02A Oggo
 	large_utility_slots = 0
 	aux_utility_slots = 0
 
-	cost = 66
+	resources = {
+		category = ship_sections
+		cost = {
+			alloys = 66
+		}
+	}
 }

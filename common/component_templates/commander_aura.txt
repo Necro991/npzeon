@@ -4,7 +4,12 @@ utility_component_template = {
 	icon = "zeon_commander_01"
 	icon_frame = 1
 	power = 0
-	cost = 50
+	resources = {
+		category = ship_components
+		cost = {
+			ace_pilots = 1
+		}
+	}
 
 	friendly_aura = {
 		name = "zeon_commander_1"
@@ -63,7 +68,12 @@ utility_component_template = {
 	icon = "efsf_commander_01"
 	icon_frame = 1
 	power = 0
-	cost = 50
+	resources = {
+		category = ship_components
+		cost = {
+			ace_pilots = 1
+		}
+	}
 
 	friendly_aura = {
 		name = "efsf_commander_1"

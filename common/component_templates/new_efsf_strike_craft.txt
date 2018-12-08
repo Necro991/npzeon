@@ -9,7 +9,13 @@ strike_craft_component_template = {
 	weapon_type = instant
 	projectile_gfx = "mass_driver_s"
 	power = -36 #400kW = 18 / 3 = 6 * 6 = 36
-	cost = 35 #25 tons = 15 /3 = 5 * 6 = 30 + 5 for gun
+	resources = {
+		category = ship_components
+		cost = {
+			alloys = 35 #25 tons = 15 /3 = 5 * 6 = 30 + 5 for gun
+			pilots = 6
+		}
+	}
 
 	count = 6
 	regeneration_per_day = 0.034
@@ -52,7 +58,13 @@ strike_craft_component_template = {
 	weapon_type = point_defence
 	projectile_gfx = "mass_driver_s"
 	power = -36 #400kW = 18 / 3 = 6 * 6 = 36
-	cost = 41 #29.3 tons = 18 / 3 = 6 * 36 = 36 + 5 for gun
+	resources = {
+		category = ship_components
+		cost = {
+			alloys = 41 #29.3 tons = 18 / 3 = 6 * 36 = 36 + 5 for gun
+			pilots = 6
+		}
+	}
 
 	count = 6
 	regeneration_per_day = 0.034
@@ -95,7 +107,13 @@ strike_craft_component_template = {
 	weapon_type = point_defence
 	projectile_gfx = "mass_driver_s"
 	power = -36 #400kW = 18 / 3 = 6 * 6 = 36
-	cost = 40 #25 tons = 15 /3 = 5 * 6 = 30 + 10 for guns
+	resources = {
+		category = ship_components
+		cost = {
+			alloys = 40 #25 tons = 15 /3 = 5 * 6 = 30 + 10 for guns
+			pilots = 6
+		}
+	}
 
 	count = 6
 	regeneration_per_day = 0.034
@@ -138,7 +156,13 @@ strike_craft_component_template = {
 	weapon_type = point_defence
 	projectile_gfx = "mass_driver_s"
 	power = -13 #878kW = 39 / 3 = 13
-	cost = 57 #80 tons = 49 / 3 = 16 * 2 for Gundamium cost + 25 for gun
+	resources = {
+		category = ship_components
+		cost = {
+			alloys = 57 #80 tons = 49 / 3 = 16 * 2 for Gundamium cost + 25 for gun
+			pilots = 1
+		}
+	}
 
 	count = 1
 	regeneration_per_day = 0.034
@@ -181,7 +205,13 @@ strike_craft_component_template = {
 	weapon_type = point_defence
 	projectile_gfx = "mass_driver_s"
 	power = -39 #878kW = 39
-	cost = 106 #80 tons = 49 * 2 for Gundamium cost + 20 for gun
+	resources = {
+		category = ship_components
+		cost = {
+			alloys = 106 #80 tons = 49 * 2 for Gundamium cost + 20 for gun
+			pilots = 3
+		}
+	}
 
 	count = 3
 	regeneration_per_day = 0.034
@@ -224,7 +254,13 @@ strike_craft_component_template = {
 	weapon_type = point_defence
 	projectile_gfx = "mass_driver_s"
 	power = -44 #980kW = 44
-	cost = 44 #22.1 tons = 14 cost + 30 for gun
+	resources = {
+		category = ship_components
+		cost = {
+			alloys = 44 #22.1 tons = 14 cost + 30 for gun
+			pilots = 3
+		}
+	}
 
 	count = 3
 	regeneration_per_day = 0.034
@@ -310,7 +346,13 @@ strike_craft_component_template = {
 	weapon_type = point_defence
 	projectile_gfx = "mass_driver_s"
 	power = -16 #1050kW = 47 / 3 = 16
-	cost = 12 #11.8 tons = 7 cost + 30 for gun / 3 = 12
+	resources = {
+		category = ship_components
+		cost = {
+			alloys = 12 #11.8 tons = 7 cost + 30 for gun / 3 = 12
+			pilots = 1
+		}
+	}
 
 	count = 1
 	regeneration_per_day = 0.034
@@ -353,7 +395,13 @@ strike_craft_component_template = {
 	weapon_type = point_defence
 	projectile_gfx = "mass_driver_s"
 	power = -20 #1380kW = 61 / 3 = 20
-	cost = 75 # tons = 92 * 2 gundamium = 88 cost + 40 for gun / 3 = 75
+	resources = {
+		category = ship_components
+		cost = {
+			alloys = 75 # tons = 92 * 2 gundamium = 88 cost + 40 for gun / 3 = 75
+			pilots = 1
+		}
+	}
 
 	count = 1
 	regeneration_per_day = 0.034
@@ -396,7 +444,13 @@ strike_craft_component_template = {
 	weapon_type = point_defence
 	projectile_gfx = "mass_driver_s"
 	power = -61 #1380kW = 61
-	cost = 218 #144.8 tons = 89 *2 = 178 cost + 40 for gun
+	resources = {
+		category = ship_components
+		cost = {
+			alloys = 218 #144.8 tons = 89 *2 = 178 cost + 40 for gun
+			pilots = 3
+		}
+	}
 
 	count = 3
 	regeneration_per_day = 0.034
@@ -439,7 +493,13 @@ strike_craft_component_template = {
 	weapon_type = point_defence
 	projectile_gfx = "mass_driver_s"
 	power = -61 #1380kW = 61
-	cost = 138 #79.1 tons = 49 * 2 = 98 cost + 40 for gun
+	resources = {
+		category = ship_components
+		cost = {
+			alloys = 138 #79.1 tons = 49 * 2 = 98 cost + 40 for gun
+			pilots = 3
+		}
+	}
 
 	count = 3
 	regeneration_per_day = 0.034
@@ -482,7 +542,13 @@ strike_craft_component_template = {
 	weapon_type = point_defence
 	projectile_gfx = "MPC2"
 	power = -61 #1380kW = 61
-	cost = 140 #73.1 tons = 45 * 2 = 90 cost + 50 for gun
+	resources = {
+		category = ship_components
+		cost = {
+			alloys = 140 #73.1 tons = 45 * 2 = 90 cost + 50 for gun
+			pilots = 3
+		}
+	}
 
 	count = 3
 	regeneration_per_day = 0.034
@@ -525,7 +591,13 @@ strike_craft_component_template = {
 	weapon_type = point_defence
 	projectile_gfx = "mass_driver_s"
 	power = -63 #1410kW = 63
-	cost = 63 #70.2 tons = 43 cost + 20 for gun
+	resources = {
+		category = ship_components
+		cost = {
+			alloys = 63 #70.2 tons = 43 cost + 20 for gun
+			pilots = 3
+		}
+	}
 
 	count = 3
 	regeneration_per_day = 0.034
@@ -568,7 +640,13 @@ strike_craft_component_template = {
 	weapon_type = point_defence
 	projectile_gfx = "mass_driver_s"
 	power = -63 #1410kW = 63
-	cost = 83 #70.2 tons = 43 cost + 40 for gun
+	resources = {
+		category = ship_components
+		cost = {
+			alloys = 83 #70.2 tons = 43 cost + 40 for gun
+			pilots = 3
+		}
+	}
 
 	count = 3
 	regeneration_per_day = 0.034
@@ -611,7 +689,13 @@ strike_craft_component_template = {
 	weapon_type = point_defence
 	projectile_gfx = "mass_driver_s"
 	power = -19 #1250kW = 56 / 3 = 19
-	cost = 34 #66.5 tons = 41 cost + 60 for gun / 3 = 34
+	resources = {
+		category = ship_components
+		cost = {
+			alloys = 34 #66.5 tons = 41 cost + 60 for gun / 3 = 34
+			pilots = 1
+		}
+	}
 
 	count = 1
 	regeneration_per_day = 0.034
@@ -654,7 +738,13 @@ strike_craft_component_template = {
 	weapon_type = point_defence
 	projectile_gfx = "mass_driver_s"
 	power = -43 #976kW = 43
-	cost = 57 #60.3 tons = 37 cost + 20 for gun
+	resources = {
+		category = ship_components
+		cost = {
+			alloys = 57 #60.3 tons = 37 cost + 20 for gun
+			pilots = 3
+		}
+	}
 
 	count = 3
 	regeneration_per_day = 0.034
@@ -697,7 +787,13 @@ strike_craft_component_template = {
 	weapon_type = point_defence
 	projectile_gfx = "MPC2"
 	power = -63 #1420kW = 63
-	cost = 162 #66.9 tons = 41 cost + 5 for armor + 100 for gun
+	resources = {
+		category = ship_components
+		cost = {
+			alloys = 162 #66.9 tons = 41 cost + 5 for armor + 100 for gun
+			pilots = 3
+		}
+	}
 
 	count = 3
 	regeneration_per_day = 0.034
@@ -740,7 +836,13 @@ strike_craft_component_template = {
 	weapon_type = point_defence
 	projectile_gfx = "MPC2"
 	power = -20 #1380kW = 61 / 3 = 20
-	cost = 37 #59 tons = 36 * 2 cost + 40 for gun / 3 = 37
+	resources = {
+		category = ship_components
+		cost = {
+			alloys = 37 #59 tons = 36 * 2 cost + 40 for gun / 3 = 37
+			ace_pilots = 1
+		}
+	}
 
 	count = 1
 	regeneration_per_day = 0.034
@@ -783,7 +885,13 @@ strike_craft_component_template = {
 	weapon_type = point_defence
 	projectile_gfx = "MPC2"
 	power = -20 #1380kW = 61 / 3 = 20
-	cost = 38 #60 tons = 37 * 2 cost + 40 for gun / 3 = 38
+	resources = {
+		category = ship_components
+		cost = {
+			alloys = 38 #60 tons = 37 * 2 cost + 40 for gun / 3 = 38
+			ace_pilots = 1
+		}
+	}
 
 	count = 1
 	regeneration_per_day = 0.034
@@ -826,7 +934,13 @@ strike_craft_component_template = {
 	weapon_type = point_defence
 	projectile_gfx = "MPC2"
 	power = -20 #1380kW = 61 / 3 = 20
-	cost = 38 #60 tons = 37 * 2 cost + 40 for gun / 3 = 38
+	resources = {
+		category = ship_components
+		cost = {
+			alloys = 38 #60 tons = 37 * 2 cost + 40 for gun / 3 = 38
+			ace_pilots = 1
+		}
+	}
 
 	count = 1
 	regeneration_per_day = 0.034
@@ -869,7 +983,13 @@ strike_craft_component_template = {
 	weapon_type = point_defence
 	projectile_gfx = "MPC2"
 	power = -78 #1480kW = 66 / 3 = 22 Used Doven Wolf values to represent external backpack
-	cost = 46 #80.2 tons = 49 * 2 cost + 40 for gun / 3 = 46
+	resources = {
+		category = ship_components
+		cost = {
+			alloys = 46 #80.2 tons = 49 * 2 cost + 40 for gun / 3 = 46
+			ace_pilots = 1
+		}
+	}
 
 	count = 1
 	regeneration_per_day = 0.034
@@ -912,7 +1032,13 @@ strike_craft_component_template = {
 	weapon_type = point_defence
 	projectile_gfx = "mass_driver_s"
 	power = -22 #1480kW = 66 / 3 = 22
-	cost = 40 #80.5 tons = 50 * 2 cost + 20 for gun / 3 = 48
+	resources = {
+		category = ship_components
+		cost = {
+			alloys = 40 #80.5 tons = 50 * 2 cost + 20 for gun / 3 = 48
+			ace_pilots = 1
+		}
+	}
 
 	count = 1
 	regeneration_per_day = 0.034
@@ -955,7 +1081,13 @@ strike_craft_component_template = {
 	weapon_type = point_defence
 	projectile_gfx = "mass_driver_s"
 	power = -22 #1480kW = 66 / 3 = 22
-	cost = 40 #84.4 tons = 52 * 2 cost + 20 for gun / 3 = 48
+	resources = {
+		category = ship_components
+		cost = {
+			alloys = 40 #84.4 tons = 52 * 2 cost + 20 for gun / 3 = 48
+			ace_pilots = 1
+		}
+	}
 
 	count = 1
 	regeneration_per_day = 0.034
@@ -998,8 +1130,13 @@ strike_craft_component_template = {
 	weapon_type = point_defence
 	projectile_gfx = "MPC2"
 	power = -25 #1670kW = 74 / 3 = 25
-	cost = 40 #78.7 tons = 48 * 2 cost + 2
-	0 for gun / 3 = 48
+	resources = {
+		category = ship_components
+		cost = {
+			alloys = 40 #78.7 tons = 48 * 2 cost + 20 for gun / 3 = 48
+			ace_pilots = 1
+		}
+	}
 
 	count = 1
 	regeneration_per_day = 0.034
@@ -1042,7 +1179,13 @@ strike_craft_component_template = {
 	weapon_type = point_defence
 	projectile_gfx = "MPC2"
 	power = -21 #1420kW = 63 / 3 = 21
-	cost = 43 #72.5 tons = 45 * 2 cost + 40 for gun / 3 = 43
+	resources = {
+		category = ship_components
+		cost = {
+			alloys = 43 #72.5 tons = 45 * 2 cost + 40 for gun / 3 = 43
+			ace_pilots = 1
+		}
+	}
 
 	count = 1
 	regeneration_per_day = 0.034
@@ -1085,7 +1228,13 @@ strike_craft_component_template = {
 	weapon_type = point_defence
 	projectile_gfx = "MPC2"
 	power = -21 #1420kW = 63 / 3 = 21
-	cost = 50 #90.0 tons = 55 * 2 cost + 40 for gun / 3 = 50
+	resources = {
+		category = ship_components
+		cost = {
+			alloys = 50 #90.0 tons = 55 * 2 cost + 40 for gun / 3 = 50
+			ace_pilots = 1
+		}
+	}
 
 	count = 1
 	regeneration_per_day = 0.034
@@ -1128,7 +1277,13 @@ strike_craft_component_template = {
 	weapon_type = point_defence
 	projectile_gfx = "MPC2"
 	power = -20 #1380kW = 61 / 3 = 20
-	cost = 71 #93.1 tons = 57 * 2 cost + 100 for gun / 3 = 55
+	resources = {
+		category = ship_components
+		cost = {
+			alloys = 71 #93.1 tons = 57 * 2 cost + 100 for gun / 3 = 55
+			ace_pilots = 1
+		}
+	}
 
 	count = 1
 	regeneration_per_day = 0.034
@@ -1171,7 +1326,13 @@ strike_craft_component_template = {
 	weapon_type = point_defence
 	projectile_gfx = "MPC2"
 	power = -20 #1380kW = 61 / 3 = 20
-	cost = 51 #82.55 tons = 51 * 2 cost + 50 for gun / 3 = 55
+	resources = {
+		category = ship_components
+		cost = {
+			alloys = 51 #82.55 tons = 51 * 2 cost + 50 for gun / 3 = 55
+			ace_pilots = 1
+		}
+	}
 
 	count = 1
 	regeneration_per_day = 0.034
@@ -1214,7 +1375,13 @@ strike_craft_component_template = {
 	weapon_type = point_defence
 	projectile_gfx = "MPC2"
 	power = -27 #1850kW = 82 / 3 = 27
-	cost = 62 #88.7 tons = 55 * 2 cost + 75 for gun / 3 = 55
+	resources = {
+		category = ship_components
+		cost = {
+			alloys = 62 #88.7 tons = 55 * 2 cost + 75 for gun / 3 = 55
+			ace_pilots = 1
+		}
+	}
 
 	count = 1
 	regeneration_per_day = 0.034
@@ -1257,7 +1424,13 @@ strike_craft_component_template = {
 	weapon_type = point_defence
 	projectile_gfx = "MPC2"
 	power = -29 #1930kW = 86
-	cost = 32 #54.1 tons = 33 * 2 Gundamium + 30 for gun
+	resources = {
+		category = ship_components
+		cost = {
+			alloys = 32 #54.1 tons = 33 * 2 Gundamium + 30 for gun
+			ace_pilots = 1
+		}
+	}
 
 	count = 1
 	regeneration_per_day = 0.034
@@ -1300,7 +1473,13 @@ strike_craft_component_template = {
 	weapon_type = point_defence
 	projectile_gfx = "auto_cannons_s"
 	power = -62 #1390kW = 62
-	cost = 50 #65.8 tons = 40 cost + 10 for gun
+	resources = {
+		category = ship_components
+		cost = {
+			alloys = 50 #65.8 tons = 40 cost + 10 for gun
+			pilots = 3
+		}
+	}
 
 	count = 3
 	regeneration_per_day = 0.034
@@ -1343,7 +1522,13 @@ strike_craft_component_template = {
 	weapon_type = point_defence
 	projectile_gfx = "auto_cannons_s"
 	power = -56 #1250kW = 56
-	cost = 46 #58.8 tons = 36 cost + 10 for gun
+	resources = {
+		category = ship_components
+		cost = {
+			alloys = 46 #58.8 tons = 36 cost + 10 for gun
+			pilots = 3
+		}
+	}
 
 	count = 3
 	regeneration_per_day = 0.034
@@ -1386,7 +1571,13 @@ strike_craft_component_template = {
 	weapon_type = instant
 	projectile_gfx = "gundam_missile"
 	power = -56 #1250kW = 62
-	cost = 61 #58.8 tons = 36 cost + 25 for gun
+	resources = {
+		category = ship_components
+		cost = {
+			alloys = 61 #58.8 tons = 36 cost + 25 for gun
+			pilots = 3
+		}
+	}
 
 	count = 3
 	regeneration_per_day = 0.034
@@ -1429,7 +1620,13 @@ strike_craft_component_template = {
 	weapon_type = point_defence
 	projectile_gfx = "MPC2"
 	power = -56 #1250kW = 56
-	cost = 43 #36.8 tons = 23 cost + 20 for gun
+	resources = {
+		category = ship_components
+		cost = {
+			alloys = 43 #36.8 tons = 23 cost + 20 for gun
+			pilots = 3
+		}
+	}
 
 	count = 3
 	regeneration_per_day = 0.034
@@ -1472,7 +1669,13 @@ strike_craft_component_template = {
 	weapon_type = point_defence
 	projectile_gfx = "MPC2"
 	power = -56 #1250kW = 62
-	cost = 56 #58.8 tons = 36 cost + 20 for gun
+	resources = {
+		category = ship_components
+		cost = {
+			alloys = 56 #58.8 tons = 36 cost + 20 for gun
+			pilots = 3
+		}
+	}
 
 	count = 3
 	regeneration_per_day = 0.034
@@ -1515,7 +1718,13 @@ strike_craft_component_template = {
 	weapon_type = instant
 	projectile_gfx = "gundam_missile"
 	power = -56 #1250kW = 62
-	cost = 61 #58.8 tons = 36 cost + 25 for gun
+	resources = {
+		category = ship_components
+		cost = {
+			alloys = 61 #58.8 tons = 36 cost + 25 for gun
+			pilots = 3
+		}
+	}
 
 	count = 3
 	regeneration_per_day = 0.034
@@ -1558,7 +1767,13 @@ strike_craft_component_template = {
 	weapon_type = point_defence
 	projectile_gfx = "auto_cannons_s"
 	power = -73 #1650kW = 73
-	cost = 50 #64.2 tons = 40 cost + 10 for gun
+	resources = {
+		category = ship_components
+		cost = {
+			alloys = 50 #64.2 tons = 40 cost + 10 for gun
+			pilots = 3
+		}
+	}
 
 	count = 3
 	regeneration_per_day = 0.034
@@ -1601,7 +1816,13 @@ strike_craft_component_template = {
 	weapon_type = instant
 	projectile_gfx = "gundam_missile"
 	power = -73 #1650kW = 73
-	cost = 65 #64.2 tons = 40 cost + 25 for gun
+	resources = {
+		category = ship_components
+		cost = {
+			alloys = 65 #64.2 tons = 40 cost + 25 for gun
+			pilots = 3
+		}
+	}
 
 	count = 3
 	regeneration_per_day = 0.034
@@ -1644,7 +1865,13 @@ strike_craft_component_template = {
 	weapon_type = point_defence
 	projectile_gfx = "auto_cannons_s"
 	power = -63 #1420kW = 63
-	cost = 45 #57.6 tons = 35 cost + 10 for gun
+	resources = {
+		category = ship_components
+		cost = {
+			alloys = 45 #57.6 tons = 35 cost + 10 for gun
+			pilots = 3
+		}
+	}
 
 	count = 3
 	regeneration_per_day = 0.034
@@ -1687,7 +1914,13 @@ strike_craft_component_template = {
 	weapon_type = instant
 	projectile_gfx = "gundam_missile"
 	power = -63 #1420kW = 63
-	cost = 60 #57.6 tons = 35 cost + 25 for gun
+	resources = {
+		category = ship_components
+		cost = {
+			alloys = 60 #57.6 tons = 35 cost + 25 for gun
+			pilots = 3
+		}
+	}
 
 	count = 3
 	regeneration_per_day = 0.034
@@ -1730,7 +1963,13 @@ strike_craft_component_template = {
 	weapon_type = point_defence
 	projectile_gfx = "MPC2"
 	power = -63 #1420kW = 63
-	cost = 65 #56.3 tons = 35 cost + 30 for gun
+	resources = {
+		category = ship_components
+		cost = {
+			alloys = 65 #56.3 tons = 35 cost + 30 for gun
+			pilots = 3
+		}
+	}
 
 	count = 3
 	regeneration_per_day = 0.034
@@ -1773,7 +2012,13 @@ strike_craft_component_template = {
 	weapon_type = instant
 	projectile_gfx = "gundam_missile"
 	power = -63 #1420kW = 63
-	cost = 60 #56.3 tons = 35 cost + 25 for gun
+	resources = {
+		category = ship_components
+		cost = {
+			alloys = 60 #56.3 tons = 35 cost + 25 for gun
+			pilots = 3
+		}
+	}
 
 	count = 3
 	regeneration_per_day = 0.034
@@ -1816,7 +2061,13 @@ strike_craft_component_template = {
 	weapon_type = point_defence
 	projectile_gfx = "MPC2"
 	power = -21 #1420kW = 63
-	cost = 22 #56.3 tons = 35 cost + 30 for gun
+	resources = {
+		category = ship_components
+		cost = {
+			alloys = 22 #56.3 tons = 35 cost + 30 for gun
+			pilots= 1
+		}
+	}
 
 	count = 1
 	regeneration_per_day = 0.034
@@ -1859,7 +2110,13 @@ strike_craft_component_template = {
 	weapon_type = point_defence
 	projectile_gfx = "MPC2"
 	power = -21 #1390kW = 62
-	cost = 22 #56.8 tons = 35 + 30 for gun
+	resources = {
+		category = ship_components
+		cost = {
+			alloys = 22 #56.8 tons = 35 + 30 for gun
+			pilots = 1
+		}
+	}
 
 	count = 1
 	regeneration_per_day = 0.034
@@ -1902,7 +2159,13 @@ strike_craft_component_template = {
 	weapon_type = point_defence
 	projectile_gfx = "MPC2"
 	power = -21 #1390kW = 62
-	cost = 32 #75.3 tons = 46 + 50 for gun
+	resources = {
+		category = ship_components
+		cost = {
+			alloys = 32 #75.3 tons = 46 + 50 for gun
+			ace_pilots = 1
+		}
+	}
 
 	count = 1
 	regeneration_per_day = 0.034
@@ -1945,7 +2208,13 @@ strike_craft_component_template = {
 	weapon_type = point_defence
 	projectile_gfx = "MPC2"
 	power = -62 #1390kW = 62
-	cost = 126 #61.0 tons = 38 * 2 + 50 for gun
+	resources = {
+		category = ship_components
+		cost = {
+			alloys = 126 #61.0 tons = 38 * 2 + 50 for gun
+			ace_pilots = 3
+		}
+	}
 
 	count = 3
 	regeneration_per_day = 0.034
@@ -1988,7 +2257,13 @@ strike_craft_component_template = {
 	weapon_type = point_defence
 	projectile_gfx = "MPC2"
 	power = -68 #1518 = 68
-	cost = 88 #58.8 tons = 36 + 2 for armor + 50 for gun
+	resources = {
+		category = ship_components
+		cost = {
+			alloys = 88 #58.8 tons = 36 + 2 for armor + 50 for gun
+			ace_pilots = 3
+		}
+	}
 
 	count = 3
 	regeneration_per_day = 0.034
@@ -2031,7 +2306,13 @@ strike_craft_component_template = {
 	weapon_type = point_defence
 	projectile_gfx = "MPC2"
 	power = -76 #1518 + 200 (Value is changeable) = 76
-	cost = 90 #58.8 tons = 36 + 4 for armor + 50 for gun
+	resources = {
+		category = ship_components
+		cost = {
+			alloys = 90 #58.8 tons = 36 + 4 for armor + 50 for gun
+			ace_pilots = 3
+		}
+	}
 
 	count = 3
 	regeneration_per_day = 0.034
@@ -2074,7 +2355,13 @@ strike_craft_component_template = {
 	weapon_type = point_defence
 	projectile_gfx = "MPC2"
 	power = -72 #1620 = 6872
-	cost = 98 #55.6 tons = 34 * 2 for armor + 30 for gun
+	resources = {
+		category = ship_components
+		cost = {
+			alloys = 98 #55.6 tons = 34 * 2 for armor + 30 for gun
+			pilots = 3
+		}
+	}
 
 	count = 3
 	regeneration_per_day = 0.034
@@ -2117,7 +2404,13 @@ strike_craft_component_template = {
 	weapon_type = point_defence
 	projectile_gfx = "MPC2"
 	power = -72 #1620 = 6872
-	cost = 88 #55.6 tons = 34 * 2 for armor + 20 for gun
+	resources = {
+		category = ship_components
+		cost = {
+			alloys = 88 #55.6 tons = 34 * 2 for armor + 20 for gun
+			pilots = 3
+		}
+	}
 
 	count = 3
 	regeneration_per_day = 0.034
@@ -2160,7 +2453,13 @@ strike_craft_component_template = {
 	weapon_type = point_defence
 	projectile_gfx = "MPC2"
 	power = -27 #1620 + 200 = 81
-	cost = 33 #56.2 tons = 35 * 2 for armor + 30 for gun
+	resources = {
+		category = ship_components
+		cost = {
+			alloys = 33 #56.2 tons = 35 * 2 for armor + 30 for gun
+			pilots = 1
+		}
+	}
 
 	count = 1
 	regeneration_per_day = 0.034
@@ -2203,7 +2502,13 @@ strike_craft_component_template = {
 	weapon_type = point_defence
 	projectile_gfx = "MPC2"
 	power = -68 #1518 = 68
-	cost = 64 #58.7 tons = 36 + 3 for armor + 25 for gun
+	resources = {
+		category = ship_components
+		cost = {
+			alloys = 64 #58.7 tons = 36 + 3 for armor + 25 for gun
+			pilots = 3
+		}
+	}
 
 	count = 3
 	regeneration_per_day = 0.034
@@ -2246,7 +2551,13 @@ strike_craft_component_template = {
 	weapon_type = instant
 	projectile_gfx = "gundam_missile"
 	power = -68 #1518 = 68
-	cost = 64 #58.7 tons = 36 + 3 for armor + 25 for gun
+	resources = {
+		category = ship_components
+		cost = {
+			alloys = 64 #58.7 tons = 36 + 3 for armor + 25 for gun
+			pilots = 3
+		}
+	}
 
 	count = 3
 	regeneration_per_day = 0.034
@@ -2289,7 +2600,13 @@ strike_craft_component_template = {
 	weapon_type = point_defence
 	projectile_gfx = "MPC2"
 	power = -69 #1560 = 69
-	cost = 100 #56.2 tons = 35 * 2 for armor + 30 for gun
+	resources = {
+		category = ship_components
+		cost = {
+			alloys = 100 #56.2 tons = 35 * 2 for armor + 30 for gun
+			pilots = 3
+		}
+	}
 
 	count = 3
 	regeneration_per_day = 0.034
@@ -2332,7 +2649,13 @@ strike_craft_component_template = {
 	weapon_type = instant
 	projectile_gfx = "gundam_missile_swarm"
 	power = -69 #1560 = 69
-	cost = 85 #56.2 tons = 35 * 2 for armor + 15 for gun
+	resources = {
+		category = ship_components
+		cost = {
+			alloys = 85 #56.2 tons = 35 * 2 for armor + 15 for gun
+			pilots = 3
+		}
+	}
 
 	count = 3
 	regeneration_per_day = 0.034
@@ -2375,7 +2698,13 @@ strike_craft_component_template = {
 	weapon_type = point_defence
 	projectile_gfx = "MPC2"
 	power = -72 #1620 = 72
-	cost = 114 #68.22 tons = 42 * 2 for armor + 30 for gun
+	resources = {
+		category = ship_components
+		cost = {
+			alloys = 114 #68.22 tons = 42 * 2 for armor + 30 for gun
+			pilots = 3
+		}
+	}
 
 	count = 3
 	regeneration_per_day = 0.034
@@ -2418,7 +2747,13 @@ strike_craft_component_template = {
 	weapon_type = instant
 	projectile_gfx = "gundam_missile_swarm"
 	power = -72 #1620 = 72
-	cost = 99 #68.22 tons = 42 * 2 for armor + 15 for gun
+	resources = {
+		category = ship_components
+		cost = {
+			alloys = 99 #68.22 tons = 42 * 2 for armor + 15 for gun
+			pilots = 3
+		}
+	}
 
 	count = 3
 	regeneration_per_day = 0.034
@@ -2461,7 +2796,13 @@ strike_craft_component_template = {
 	weapon_type = point_defence
 	projectile_gfx = "MPC2"
 	power = -83 #1870 = 83
-	cost = 64 #47.3 tons = 29 + 5 for armor + 30 for gun
+	resources = {
+		category = ship_components
+		cost = {
+			alloys = 64 #47.3 tons = 29 + 5 for armor + 30 for gun
+			pilots = 3
+		}
+	}
 
 	count = 3
 	regeneration_per_day = 0.034
@@ -2504,7 +2845,13 @@ strike_craft_component_template = {
 	weapon_type = instant
 	projectile_gfx = "gundam_missile_swarm"
 	power = -83 #1870 = 83
-	cost = 49 #47.3 tons = 29 + 5 for armor + 15 for gun
+	resources = {
+		category = ship_components
+		cost = {
+			alloys = 49 #47.3 tons = 29 + 5 for armor + 15 for gun
+			pilots = 3
+		}
+	}
 
 	count = 3
 	regeneration_per_day = 0.034
@@ -2547,7 +2894,13 @@ strike_craft_component_template = {
 	weapon_type = point_defence
 	projectile_gfx = "MPC1" #Find beam gfx
 	power = -64 #1428
-	cost = 72 #59.6 tons = 37 + 5 for improved armor + 30 for gun
+	resources = {
+		category = ship_components
+		cost = {
+			alloys = 72 #59.6 tons = 37 + 5 for improved armor + 30 for gun
+			pilots = 3
+		}
+	}
 
 	count = 3
 	regeneration_per_day = 0.034
@@ -2590,7 +2943,13 @@ strike_craft_component_template = {
 	weapon_type = instant
 	projectile_gfx = "gundam_missile"
 	power = -64 #1428
-	cost = 67 #59.6 tons = 37 + 5 for improved armor + 25 for gun
+	resources = {
+		category = ship_components
+		cost = {
+			alloys = 67 #59.6 tons = 37 + 5 for improved armor + 25 for gun
+			pilots = 3
+		}
+	}
 
 	count = 3
 	regeneration_per_day = 0.034
@@ -2633,7 +2992,13 @@ strike_craft_component_template = {
 	weapon_type = point_defence
 	projectile_gfx = "MPC1" #Find beam gfx
 	power = -66 #1480 = 66
-	cost = 72 #60.7 tons = 37 + 5 for improved armor + 30 for gun
+	resources = {
+		category = ship_components
+		cost = {
+			alloys = 72 #60.7 tons = 37 + 5 for improved armor + 30 for gun
+			pilots = 3
+		}
+	}
 
 	count = 3
 	regeneration_per_day = 0.034
@@ -2676,7 +3041,13 @@ strike_craft_component_template = {
 	weapon_type = point_defence
 	projectile_gfx = "MPC1"
 	power = -66 #1480 = 66
-	cost = 92 #59.6 tons = 37 + 5 for improved armor + 50 for gun
+	resources = {
+		category = ship_components
+		cost = {
+			alloys = 92 #59.6 tons = 37 + 5 for improved armor + 50 for gun
+			pilots = 3
+		}
+	}
 
 	count = 3
 	regeneration_per_day = 0.034
@@ -2719,7 +3090,13 @@ strike_craft_component_template = {
 	weapon_type = point_defence
 	projectile_gfx = "mass_driver_s"
 	power = -61 #1480kW = 66
-	cost = 106 #69.3 tons (RGM-79CR and MS-14C average weight) = 43 * 2 = 86 cost + 20 for gun
+	resources = {
+		category = ship_components
+		cost = {
+			alloys = 106 #69.3 tons (RGM-79CR and MS-14C average weight) = 43 * 2 = 86 cost + 20 for gun
+			pilots = 3
+		}
+	}
 
 	count = 3
 	regeneration_per_day = 0.034
@@ -2762,7 +3139,13 @@ strike_craft_component_template = {
 	weapon_type = point_defence
 	projectile_gfx = "MPC1" #Find beam gfx
 	power = -21 #1480 / 3
-	cost = 35 #59.6 tons = 37 * 2 Gundarium + 30 for gun / 3
+	resources = {
+		category = ship_components
+		cost = {
+			alloys = 35 #59.6 tons = 37 * 2 Gundarium + 30 for gun / 3
+			ace_pilots = 1
+		}
+	}
 
 	count = 1
 	regeneration_per_day = 0.034
@@ -2805,7 +3188,13 @@ strike_craft_component_template = {
 	weapon_type = point_defence
 	projectile_gfx = "MPC1" #Find beam gfx
 	power = -80 #1790
-	cost = 104 #59.4 tons = 37 * 2 Gundarium + 30 for gun
+	resources = {
+		category = ship_components
+		cost = {
+			alloys = 104 #59.4 tons = 37 * 2 Gundarium + 30 for gun
+			pilots = 3
+		}
+	}
 
 	count = 3
 	regeneration_per_day = 0.034
@@ -2848,7 +3237,13 @@ strike_craft_component_template = {
 	weapon_type = point_defence
 	projectile_gfx = "MPC1"
 	power = -80 #1790
-	cost = 124 #59.4 tons = 37 * 2 Gundarium + 50 for gun
+	resources = {
+		category = ship_components
+		cost = {
+			alloys = 124 #59.4 tons = 37 * 2 Gundarium + 50 for gun
+			pilots = 3
+		}
+	}
 
 	count = 3
 	regeneration_per_day = 0.034
@@ -2891,7 +3286,13 @@ strike_craft_component_template = {
 	weapon_type = point_defence
 	projectile_gfx = "MPC1" #Find beam gfx
 	power = -80 #1790
-	cost = 84 #59.4 tons = 37 * 2 Gundarium + 30 for gun - 20 for streamlining
+	resources = {
+		category = ship_components
+		cost = {
+			alloys = 84 #59.4 tons = 37 * 2 Gundarium + 30 for gun - 20 for streamlining
+			pilots = 3
+		}
+	}
 
 	count = 3
 	regeneration_per_day = 0.034
@@ -2934,7 +3335,13 @@ strike_craft_component_template = {
 	weapon_type = point_defence
 	projectile_gfx = "MPC1" #Find beam gfx
 	power = -30 #2045 / 3
-	cost = 41 #74.0 tons = 46 * 2 Gundarium + 30 for gun / 3
+	resources = {
+		category = ship_components
+		cost = {
+			alloys = 41 #74.0 tons = 46 * 2 Gundarium + 30 for gun / 3
+			pilots = 1 #Because Kou is a bitch
+		}
+	}
 
 	count = 1
 	regeneration_per_day = 0.034
@@ -2977,7 +3384,13 @@ strike_craft_component_template = {
 	weapon_type = point_defence
 	projectile_gfx = "MPC1" #Find beam gfx
 	power = -30 #2045 / 3
-	cost = 46 #74.0 tons = 46 * 2 Gundarium + 30 for gun / 3 + 5 for FA
+	resources = {
+		category = ship_components
+		cost = {
+			alloys = 46 #74.0 tons = 46 * 2 Gundarium + 30 for gun / 3 + 5 for FA
+			pilots = 1 #Because Kou is a bitch
+		}
+	}
 
 	count = 1
 	regeneration_per_day = 0.034
@@ -3020,7 +3433,13 @@ strike_craft_component_template = {
 	weapon_type = instant
 	projectile_gfx = "gundam_missile" #Find beam gfx
 	power = -28 #1860 / 3
-	cost = 61 #83.0 tons = 51 * 2 Gundarium + 50 for gun / 3 + 10 for Shield and Armor
+	resources = {
+		category = ship_components
+		cost = {
+			alloys = 61 #83.0 tons = 51 * 2 Gundarium + 50 for gun / 3 + 10 for Shield and Armor
+			ace_pilots = 1
+		}
+	}
 
 	count = 1
 	regeneration_per_day = 0.034
@@ -3063,7 +3482,13 @@ strike_craft_component_template = {
 	weapon_type = instant
 	projectile_gfx = "gundam_missile_swarm" #Find beam gfx
 	power = -28 #1860 / 3
-	cost = 63 #105.0 tons = 65 * 2 Gundarium + 30 for gun / 3 + 10 for Shield and Armor
+	resources = {
+		category = ship_components
+		cost = {
+			alloys = 63 #105.0 tons = 65 * 2 Gundarium + 30 for gun / 3 + 10 for Shield and Armor
+			ace_pilots = 1
+		}
+	}
 
 	count = 1
 	regeneration_per_day = 0.034
@@ -3106,7 +3531,13 @@ strike_craft_component_template = {
 	weapon_type = point_defence
 	projectile_gfx = "MPC1" #Find beam gfx
 	power = -28 #1860 / 3
-	cost = 70 #105.0 tons = 65 * 2 Gundarium + 50 for gun / 3 + 10 for Shield and Armor
+	resources = {
+		category = ship_components
+		cost = {
+			alloys = 70 #105.0 tons = 65 * 2 Gundarium + 50 for gun / 3 + 10 for Shield and Armor
+			ace_pilots = 1
+		}
+	}
 
 	count = 1
 	regeneration_per_day = 0.034
@@ -3149,7 +3580,13 @@ strike_craft_component_template = {
 	weapon_type = point_defence
 	projectile_gfx = "MPC1" #Find beam gfx
 	power = -30 #2000 / 3
-	cost = 39 #70.0 tons = 43 * 2 Gundarium + 30 for gun / 3
+	resources = {
+		category = ship_components
+		cost = {
+			alloys = 39 #70.0 tons = 43 * 2 Gundarium + 30 for gun / 3
+			pilots = 1 #Because Kou is a bitch
+		}
+	}
 
 	count = 1
 	regeneration_per_day = 0.034
@@ -3192,7 +3629,13 @@ strike_craft_component_template = {
 	weapon_type = point_defence
 	projectile_gfx = "MPC1" #Find beam gfx
 	power = -26 #1730 / 3
-	cost = 40 #73.6 tons = 45 * 2 Gundarium + 30 for gun / 3
+	resources = {
+		category = ship_components
+		cost = {
+			alloys = 40 #73.6 tons = 45 * 2 Gundarium + 30 for gun / 3
+			ace_pilots = 1
+		}
+	}
 
 	count = 1
 	regeneration_per_day = 0.034

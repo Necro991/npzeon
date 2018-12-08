@@ -41,7 +41,12 @@ ship_section_template = { #MS-09R
 	large_utility_slots = 0
 	aux_utility_slots = 0
 
-	cost = 144
+	resources = {
+		category = ship_sections
+		cost = {
+			alloys = 144
+		}
+	}
 }
 
 ship_section_template = { #MS-009R Commander
@@ -94,7 +99,12 @@ ship_section_template = { #MS-009R Commander
 	large_utility_slots = 0
 	aux_utility_slots = 0
 
-	cost = 144
+	resources = {
+		category = ship_sections
+		cost = {
+			alloys = 144
+		}
+	}
 }
 
 ship_section_template = { #MS-09K Dom Cannon
@@ -147,5 +157,10 @@ ship_section_template = { #MS-09K Dom Cannon
 	large_utility_slots = 0
 	aux_utility_slots = 0
 
-	cost = 129
+	resources = {
+		category = ship_sections
+		cost = {
+			alloys = 129
+		}
+	}
 }

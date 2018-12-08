@@ -1,0 +1,118 @@
+### Gundam Resources
+
+pilots = {
+	tradable = no
+	max = 10000
+
+	ai_weight = {
+		weight = 0.5
+	}
+
+	ai_wants = {
+		base = 1000
+	}
+}
+
+ace_pilots = {
+	tradable = no
+	max = 10000
+
+	ai_weight = {
+		weight = 0.5
+	}
+
+	ai_wants = {
+		base = 500
+	}
+}
+
+newtypes = {
+	tradable = no
+	max = 10000
+
+	ai_weight = {
+		weight = 0.5
+	}
+
+	ai_wants = {
+		base = 100
+	}
+}
+
+cybernewtypes = {
+	tradable = no
+	max = 10000
+
+	ai_weight = {
+		weight = 0.5
+	}
+
+	ai_wants = {
+		base = 100
+	}
+}
+
+psycoframe = {
+	tradable = no
+	max = 10000
+
+	ai_weight = {
+		weight = 0.5
+	}
+
+	ai_wants = {
+		base = 100
+	}
+}
+
+luna_titanium = {
+	tradable = no
+	max = 10000
+
+	ai_weight = {
+		weight = 0.5
+	}
+
+	ai_wants = {
+		base = 1000
+	}
+}
+
+mobile_suits = {
+	tradable = no
+	max = 10000
+
+	ai_weight = {
+		weight = 0.5
+	}
+
+	ai_wants = {
+		base = 500
+	}
+}
+
+e_caps = {
+	tradable = no
+	max = 10000
+
+	ai_weight = {
+		weight = 1
+	}
+
+	ai_wants = {
+		base = 1000
+	}
+}
+
+minovsky_reactors = {
+	tradable = no
+	max = 10000
+
+	ai_weight = {
+		weight = 0.5
+	}
+
+	ai_wants = {
+		base = 100
+	}
+}

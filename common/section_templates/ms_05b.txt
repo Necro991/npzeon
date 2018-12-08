@@ -31,7 +31,12 @@ ship_section_template = { #MS-05B MPT
 	large_utility_slots = 0
 	aux_utility_slots = 0
 
-	cost = 120
+	resources = {
+		category = ship_sections
+		cost = {
+			alloys = 120
+		}
+	}
 }
 
 ship_section_template = { #MS-05 Paratrooper
@@ -77,7 +82,12 @@ ship_section_template = { #MS-05 Paratrooper
 	large_utility_slots = 0
 	aux_utility_slots = 0
 
-	cost = 120
+	resources = {
+		category = ship_sections
+		cost = {
+			alloys = 120
+		}
+	}
 }
 
 ship_section_template = { #MS-05S Commander
@@ -130,5 +140,10 @@ ship_section_template = { #MS-05S Commander
 	large_utility_slots = 0
 	aux_utility_slots = 0
 
-	cost = 120
+	resources = {
+		category = ship_sections
+		cost = {
+			alloys = 120
+		}
+	}
 }

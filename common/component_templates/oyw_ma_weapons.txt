@@ -16,14 +16,18 @@ weapon_component_template = {
 	icon_frame = 1
 	color = { 0.1 1.0 0.1 1 }
 	power = -3000
-	cost = 100
+	resources = {
+		category = ship_components
+		cost = {
+			alloys = 100
+		}
+	}
 	size_restriction = { MA_04X }
 	prerequisites = { "tech_MA_04X" }
 	component_set = "OYW_MA_04X_MPC"
 	projectile_gfx = "MPC1"
 	tags = { weapon_type_energy }
 	ai_tags = { weapon_role_anti_armor }
-	#upgrades_to = "SMALL_BEAMC_2"
 }
 
 weapon_component_template = {
@@ -44,7 +48,12 @@ weapon_component_template = {
 	icon_frame = 1
 	color = { 0.1 1.0 0.1 1 }
 	power = -3000
-	cost = 100
+	resources = {
+		category = ship_components
+		cost = {
+			alloys = 100
+		}
+	}
 	size_restriction = { MA_05 }
 	prerequisites = { "tech_MA_05" }
 	component_set = "OYW_MA_05_MPC"
@@ -72,14 +81,18 @@ weapon_component_template = {
 	icon_frame = 1
 	color = { 0.1 1.0 0.1 1 }
 	power = -3000
-	cost = 100
+	resources = {
+		category = ship_components
+		cost = {
+			alloys = 100
+		}
+	}
 	size_restriction = { MA_05 }
 	prerequisites = { "tech_MA_05M" }
 	component_set = "OYW_MA_05M_MPC"
 	projectile_gfx = "MPC3"
 	tags = { weapon_type_energy }
 	ai_tags = { weapon_role_anti_armor }
-	#upgrades_to = "SMALL_BEAMC_2"
 }
 
 weapon_component_template = {
@@ -100,14 +113,18 @@ weapon_component_template = {
 	icon_frame = 1
 	color = { 0.1 1.0 0.1 1 }
 	power = -3000
-	cost = 100
+	resources = {
+		category = ship_components
+		cost = {
+			alloys = 100
+		}
+	}
 	size_restriction = { MA_05Ad }
 	prerequisites = { "tech_MA_05Ad" }
 	component_set = "OYW_MA_05AD_MPC"
 	projectile_gfx = "MPC3"
 	tags = { weapon_type_energy }
 	ai_tags = { weapon_role_anti_armor }
-	#upgrades_to = "SMALL_BEAMC_2"
 }
 
 weapon_component_template = {
@@ -128,14 +145,18 @@ weapon_component_template = {
 	icon_frame = 1
 	color = { 0.1 1.0 0.1 1 }
 	power = -3000
-	cost = 100
+	resources = {
+		category = ship_components
+		cost = {
+			alloys = 100
+		}
+	}
 	size_restriction = { MA_06 }
 	prerequisites = { "tech_MA_06" }
 	component_set = "OYW_MA_06_MPC"
 	projectile_gfx = "MPC1"
 	tags = { weapon_type_energy }
 	ai_tags = { weapon_role_anti_armor }
-	#upgrades_to = "SMALL_BEAMC_2"
 }
 
 weapon_component_template = {
@@ -156,14 +177,18 @@ weapon_component_template = {
 	icon_frame = 1
 	color = { 0.1 1.0 0.1 1 }
 	power = -3000
-	cost = 100
+	resources = {
+		category = ship_components
+		cost = {
+			alloys = 100
+		}
+	}
 	size_restriction = { MA_08 }
 	prerequisites = { "tech_MA_08" }
 	component_set = "OYW_MA_08_MPC"
 	projectile_gfx = "MPC1"
 	tags = { weapon_type_energy }
 	ai_tags = { weapon_role_anti_armor }
-	#upgrades_to = "SMALL_BEAMC_2"
 }
 
 weapon_component_template = {
@@ -184,14 +209,18 @@ weapon_component_template = {
 	icon_frame = 1
 	color = { 0.1 1.0 0.1 1 }
 	power = -3000
-	cost = 30
+	resources = {
+		category = ship_components
+		cost = {
+			alloys = 100
+		}
+	}
 	size_restriction = { MA_08 }
 	prerequisites = { "tech_MA_08" }
 	component_set = "OYW_MA_08_PD"
 	projectile_gfx = "BEAMC_s"
 	tags = { weapon_type_energy }
 	ai_tags = { weapon_role_anti_armor }
-	#upgrades_to = "SMALL_BEAMC_2"
 }
 
 weapon_component_template = {
@@ -212,14 +241,18 @@ weapon_component_template = {
 	icon_frame = 1
 	color = { 0.1 1.0 0.1 1 }
 	power = -3000
-	cost = 100
+	resources = {
+		category = ship_components
+		cost = {
+			alloys = 100
+		}
+	}
 	size_restriction = { MAN_03 }
 	prerequisites = { "tech_MAN_03" }
 	component_set = "OYW_MAN_03_MPC"
 	projectile_gfx = "MPC1"
 	tags = { weapon_type_energy }
 	ai_tags = { weapon_role_anti_armor }
-	#upgrades_to = "SMALL_BEAMC_2"
 }
 
 weapon_component_template = {
@@ -240,14 +273,18 @@ weapon_component_template = {
 	icon_frame = 1
 	color = { 0.1 1.0 0.1 1 }
 	power = -4500
-	cost = 100
+	resources = {
+		category = ship_components
+		cost = {
+			alloys = 100
+		}
+	}
 	size_restriction = { MAN_08 }
 	prerequisites = { "tech_MAN_08" }
 	component_set = "OYW_MAN_08_MPC"
 	projectile_gfx = "MPC1"
 	tags = { weapon_type_energy }
 	ai_tags = { weapon_role_anti_armor }
-	#upgrades_to = "SMALL_BEAMC_2"
 }
 
 weapon_component_template = {
@@ -268,14 +305,18 @@ weapon_component_template = {
 	icon_frame = 1
 	color = { 0.1 1.0 0.1 1 }
 	power = -4500
-	cost = 100
+	resources = {
+		category = ship_components
+		cost = {
+			alloys = 100
+		}
+	}
 	size_restriction = { MSN_01 }
 	prerequisites = { "tech_MSN_01" }
 	component_set = "OYW_MSN_01_MPC"
 	projectile_gfx = "MPC1"
 	tags = { weapon_type_energy }
 	ai_tags = { weapon_role_anti_armor }
-	#upgrades_to = "SMALL_BEAMC_2"
 }
 
 weapon_component_template = {
@@ -296,12 +337,16 @@ weapon_component_template = {
 	icon_frame = 1
 	color = { 0.1 1.0 0.1 1 }
 	power = -3000
-	cost = 100
+	resources = {
+		category = ship_components
+		cost = {
+			alloys = 100
+		}
+	}
 	size_restriction = { MSN_02 }
 	prerequisites = { "tech_MSN_02" }
 	component_set = "OYW_MSN_02_MPC"
 	projectile_gfx = "MPC1"
 	tags = { weapon_type_energy }
 	ai_tags = { weapon_role_anti_armor }
-	#upgrades_to = "SMALL_BEAMC_2"
 }

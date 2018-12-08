@@ -4,7 +4,6 @@ utility_component_template = {
 	icon = "GFX_ship_part_aura_nanobot"
 	icon_frame = 1
 	power = 0
-	cost = 0
 
 	size_restriction = { MA_05Ad }
 	component_set = "ship_aura_components"
@@ -47,7 +46,6 @@ utility_component_template = { #MAN-08 Elmeth Bits
 	icon = "man_08_bit"
 	icon_frame = 1
 	power = 0
-	cost = 0
 
 	hostile_aura = {
 		name = "zeon_bit_1"
@@ -77,7 +75,6 @@ utility_component_template = { #MAN-08 Elmeth Bits
 	prerequisites = { "tech_MAN_08" }
 
 	component_set = "man_08_bit_aura"
-	#upgrades_to = "oyw_zeon_pilot_putv_veteran"
 
 	ai_weight = {
 		weight = 1

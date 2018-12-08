@@ -16,7 +16,12 @@ weapon_component_template = {
 	icon_frame = 1
 	color = { 0.1 1.0 0.1 1 }
 	power = -3000
-	cost = 30
+	resources = {
+		category = ship_components
+		cost = {
+			alloys = 30
+		}
+	}
 	size_restriction = { RGM_79 RGM_79S RGC_80 }
 	prerequisites = { "tech_RGM_79N" }
 	component_set = "0083_GM_NQ_BEAM_RIFLE"
@@ -44,7 +49,12 @@ weapon_component_template = {
 	icon_frame = 1
 	color = { 0.1 1.0 0.1 1 }
 	power = -3000
-	cost = 25
+	resources = {
+		category = ship_components
+		cost = {
+			alloys = 25
+		}
+	}
 	size_restriction = { RGM_79 RGM_79S RGC_80 }
 	prerequisites = { "tech_RGM_79N" }
 	component_set = "0083_GM_Q_SHORT_BEAM_RIFLE"
@@ -72,7 +82,12 @@ weapon_component_template = {
 	icon_frame = 1
 	color = { 0.1 1.0 0.1 1 }
 	power = -3000
-	cost = 50
+	resources = {
+		category = ship_components
+		cost = {
+			alloys = 50
+		}
+	}
 	size_restriction = { RX_78GP01_Fb }
 	prerequisites = { "tech_RX_78GP01Fb" }
 	component_set = "0083_GP01_BEAM_RIFLE"
@@ -100,7 +115,12 @@ weapon_component_template = {
 	icon_frame = 1
 	color = { 0.1 1.0 0.1 1 }
 	power = -3000
-	cost = 50
+	resources = {
+		category = ship_components
+		cost = {
+			alloys = 50
+		}
+	}
 	size_restriction = { RX_78GP03S }
 	prerequisites = { "tech_RX_78GP03S" }
 	component_set = "0083_GP03S_BEAM_RIFLE"
@@ -129,7 +149,12 @@ weapon_component_template = {
 	icon_frame = 1
 	color = { 0.1 1.0 0.1 1 }
 	power = -3000
-	cost = 50
+	resources = {
+		category = ship_components
+		cost = {
+			alloys = 50
+		}
+	}
 	size_restriction = { RX_78GP04G }
 	prerequisites = { "tech_RX_78GP04G" }
 	component_set = "0083_GP04G_BEAM_RIFLE"
@@ -157,7 +182,12 @@ weapon_component_template = {
 	icon_frame = 1
 	color = { 0.1 1.0 0.1 1 }
 	power = -3000
-	cost = 100
+	resources = {
+		category = ship_components
+		cost = {
+			alloys = 100
+		}
+	}
 	size_restriction = { RX_78GP02 }
 	prerequisites = { "tech_RX_78GP02" }
 	component_set = "0083_EFSF_NUCLEAR_BAZOOKA"
@@ -185,7 +215,12 @@ weapon_component_template = {
 	icon_frame = 1
 	color = { 0.1 1.0 0.1 1 }
 	power = -3000
-	cost = 100
+	resources = {
+		category = ship_components
+		cost = {
+			alloys = 100
+		}
+	}
 	size_restriction = { RX_78GP02 }
 	prerequisites = { "tech_RX_78GP02" }
 	component_set = "0083_EFSF_BEAM_BAZOOKA"
@@ -213,7 +248,12 @@ weapon_component_template = {
 	icon_frame = 1
 	color = { 0.1 1.0 0.1 1 }
 	power = -3000
-	cost = 200
+	resources = {
+		category = ship_components
+		cost = {
+			alloys = 200
+		}
+	}
 	size_restriction = { RX_78GP03S }
 	prerequisites = { "tech_RX_78GP03S" }
 	component_set = "0083_EFSF_GP03_MPC"

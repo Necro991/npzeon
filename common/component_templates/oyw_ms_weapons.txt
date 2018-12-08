@@ -16,7 +16,12 @@ weapon_component_template = {
 	icon_frame = 1
 	color = { 0.1 1.0 0.1 1 }
 	power = -3000
-	cost = 5
+	resources = {
+		category = ship_components
+		cost = {
+			alloys = 5
+		}
+	}
 	size_restriction = { MS_05B MS_05S MS_06 MS_06S zeon_MS_P MS_06K MS_09 MS_09S MS_09K MS_18E MS_11 MS_11S MS_14 MS_14S MS_14C MS_17 MS_17S MP_02A EMS_10 EMS_10S }
 	prerequisites = { "tech_MS_05B" }
 	component_set = "OYW_ZEON_100MM"
@@ -44,7 +49,12 @@ weapon_component_template = {
 	icon_frame = 1
 	color = { 0.1 1.0 0.1 1 }
 	power = -3000
-	cost = 10
+	resources = {
+		category = ship_components
+		cost = {
+			alloys = 10
+		}
+	}
 	size_restriction = { MS_05B MS_05S MS_06 MS_06S zeon_MS_P MS_06K MS_09 MS_09S MS_09K MS_18E MS_11 MS_11S MS_14 MS_14S MS_14C MS_17 MS_17S MP_02A EMS_10 EMS_10S }
 	prerequisites = { "tech_MS_06A" }
 	component_set = "OYW_ZEON_105MM"
@@ -72,7 +82,12 @@ weapon_component_template = {
 	icon_frame = 1
 	color = { 0.1 1.0 0.1 1 }
 	power = -3000
-	cost = 15
+	resources = {
+		category = ship_components
+		cost = {
+			alloys = 15
+		}
+	}
 	size_restriction = { MS_05B MS_05S MS_06 MS_06S zeon_MS_P MS_06K MS_09 MS_09S MS_09K MS_18E MS_11 MS_11S MS_14 MS_14S MS_14C MS_17 MS_17S MP_02A EMS_10 EMS_10S }
 	prerequisites = { "tech_MS_06A" }
 	component_set = "OYW_ZEON_120MM"
@@ -100,7 +115,12 @@ weapon_component_template = {
 	icon_frame = 1
 	color = { 0.1 1.0 0.1 1 }
 	power = -3000
-	cost = 5
+	resources = {
+		category = ship_components
+		cost = {
+			alloys = 5
+		}
+	}
 	size_restriction = { MS_05B MS_05S MS_06 MS_06S zeon_MS_P MS_06K MS_09 MS_09S MS_09K MS_18E MS_11 MS_11S MS_14 MS_14S MS_14C MS_17 MS_17S MP_02A EMS_10 EMS_10S }
 	prerequisites = { "tech_MS_06FZ" }
 	component_set = "OYW_ZEON_120MM_UMP"
@@ -128,7 +148,12 @@ weapon_component_template = {
 	icon_frame = 1
 	color = { 0.1 1.0 0.1 1 }
 	power = -3000
-	cost = 5
+	resources = {
+		category = ship_components
+		cost = {
+			alloys = 5
+		}
+	}
 	size_restriction = { MS_05B MS_05S MS_06 MS_06S zeon_MS_P MS_06K MS_09 MS_09S MS_09K MS_18E MS_11 MS_11S MS_14 MS_14S MS_14C MS_17 MS_17S MP_02A EMS_10 EMS_10S }
 	prerequisites = { "tech_MS_06FZ" }
 	component_set = "OYW_ZEON_90MM"
@@ -156,7 +181,12 @@ weapon_component_template = {
 	icon_frame = 1
 	color = { 0.1 1.0 0.1 1 }
 	power = -3000
-	cost = 5
+	resources = {
+		category = ship_components
+		cost = {
+			alloys = 5
+		}
+	}
 	size_restriction = { MS_21 }
 	prerequisites = { "tech_MS_21C" }
 	component_set = "OYW_ZEON_40MM"
@@ -184,7 +214,12 @@ weapon_component_template = {
 	icon_frame = 1
 	color = { 0.1 1.0 0.1 1 }
 	power = -3000
-	cost = 15
+	resources = {
+		category = ship_components
+		cost = {
+			alloys = 15
+		}
+	}
 	size_restriction = { MS_05B MS_05S MS_06 MS_06S zeon_MS_P MS_06K MS_09 MS_09S MS_09K MS_18E MS_11 MS_11S MS_14 MS_14S MS_14C MS_17 MS_17S MP_02A EMS_10 EMS_10S }
 	prerequisites = { "tech_MS_18E" }
 	component_set = "OYW_ZEON_SHOTGUN"
@@ -212,7 +247,12 @@ weapon_component_template = {
 	icon_frame = 1
 	color = { 0.1 1.0 0.1 1 }
 	power = -3000
-	cost = 30
+	resources = {
+		category = ship_components
+		cost = {
+			alloys = 30
+		}
+	}
 	size_restriction = { MS_06 MS_06S zeon_MS_P MS_06K MS_09 MS_09S MS_09K MS_18E MS_11 MS_11S MS_14 MS_14S MS_14C MS_17 MS_17S }
 	prerequisites = { "tech_MS_06R_3S" }
 	component_set = "OYW_ZEON_BEAM_RIFLE_0"
@@ -240,7 +280,12 @@ weapon_component_template = {
 	icon_frame = 1
 	color = { 0.1 1.0 0.1 1 }
 	power = -3000
-	cost = 30
+	resources = {
+		category = ship_components
+		cost = {
+			alloys = 30
+		}
+	}
 	size_restriction = { MS_11 MS_11S MS_14 MS_14S MS_14C MS_17 MS_17S }
 	prerequisites = { "tech_MS_14A" }
 	component_set = "OYW_ZEON_BEAM_RIFLE"
@@ -268,7 +313,12 @@ weapon_component_template = {
 	icon_frame = 1
 	color = { 0.1 1.0 0.1 1 }
 	power = -3000
-	cost = 35
+	resources = {
+		category = ship_components
+		cost = {
+			alloys = 35
+		}
+	}
 	size_restriction = { MS_11 MS_11S MS_14 MS_14S MS_14C MS_17 MS_17S }
 	prerequisites = { "tech_MS_14JG" }
 	component_set = "OYW_ZEON_BEAM_MG"
@@ -296,7 +346,12 @@ weapon_component_template = {
 	icon_frame = 1
 	color = { 0.1 1.0 0.1 1 }
 	power = -3000
-	cost = 50
+	resources = {
+		category = ship_components
+		cost = {
+			alloys = 50
+		}
+	}
 	size_restriction = { zeon_MS_P }
 	prerequisites = { "tech_MS_06R_2" }
 	component_set = "OYW_ZEON_BEAM_BAZOOKA"
@@ -324,7 +379,12 @@ weapon_component_template = {
 	icon_frame = 1
 	color = { 0.1 1.0 0.1 1 }
 	power = -3000
-	cost = 5
+	resources = {
+		category = ship_components
+		cost = {
+			alloys = 5
+		}
+	}
 	size_restriction = { MS_05B MS_05S MS_06 MS_06S zeon_MS_P MS_06K MS_09 MS_09S MS_09K MS_18E MS_11 MS_11S MS_14 MS_14S MS_14C MS_17 MS_17S MP_02A EMS_10 EMS_10S }
 	prerequisites = { "tech_MS_05B" }
 	component_set = "OYW_ZEON_STURMFAUST"
@@ -352,7 +412,12 @@ weapon_component_template = {
 	icon_frame = 1
 	color = { 0.1 1.0 0.1 1 }
 	power = -3000
-	cost = 20
+	resources = {
+		category = ship_components
+		cost = {
+			alloys = 20
+		}
+	}
 	size_restriction = { MS_05B MS_05S MS_06 MS_06S zeon_MS_P MS_06K MS_09 MS_09S MS_09K MS_18E MS_11 MS_11S MS_14 MS_14S MS_14C MS_17 MS_17S MP_02A EMS_10 EMS_10S }
 	prerequisites = { "tech_MS_06A" }
 	component_set = "OYW_ZEON_280MM_1"
@@ -380,7 +445,12 @@ weapon_component_template = {
 	icon_frame = 1
 	color = { 0.1 1.0 0.1 1 }
 	power = -3000
-	cost = 20
+	resources = {
+		category = ship_components
+		cost = {
+			alloys = 20
+		}
+	}
 	size_restriction = { MS_05B MS_05S MS_06 MS_06S zeon_MS_P MS_06K MS_09 MS_09S MS_09K MS_18E MS_11 MS_11S MS_14 MS_14S MS_14C MS_17 MS_17S MP_02A EMS_10 EMS_10S }
 	prerequisites = { "tech_MS_06C" }
 	component_set = "OYW_ZEON_280MM_2"
@@ -408,7 +478,12 @@ weapon_component_template = {
 	icon_frame = 1
 	color = { 0.1 1.0 0.1 1 }
 	power = -3000
-	cost = 25
+	resources = {
+		category = ship_components
+		cost = {
+			alloys = 25
+		}
+	}
 	size_restriction = { MS_05B MS_05S MS_06 MS_06S zeon_MS_P MS_06K MS_09 MS_09S MS_09K MS_18E MS_11 MS_11S MS_14 MS_14S MS_14C MS_17 MS_17S MP_02A EMS_10 EMS_10S }
 	prerequisites = { "tech_MS_09R" }
 	component_set = "OYW_ZEON_360MM_1"
@@ -436,7 +511,12 @@ weapon_component_template = {
 	icon_frame = 1
 	color = { 0.1 1.0 0.1 1 }
 	power = -3000
-	cost = 30
+	resources = {
+		category = ship_components
+		cost = {
+			alloys = 30
+		}
+	}
 	size_restriction = { MS_05B MS_05S MS_06 MS_06S zeon_MS_P MS_06K MS_09 MS_09S MS_09K MS_18E MS_11 MS_11S MS_14 MS_14S MS_14C MS_17 MS_17S MP_02A EMS_10 EMS_10S }
 	prerequisites = { "tech_MS_09R_2" }
 	component_set = "OYW_ZEON_360MM_2"
@@ -464,7 +544,12 @@ weapon_component_template = {
 	icon_frame = 1
 	color = { 0.1 1.0 0.1 1 }
 	power = -3000
-	cost = 15
+	resources = {
+		category = ship_components
+		cost = {
+			alloys = 15
+		}
+	}
 	size_restriction = { MS_05B MS_05S MS_06 MS_06S zeon_MS_P MS_06K MS_09 MS_09S MS_09K MS_18E MS_11 MS_11S MS_14 MS_14S MS_14C MS_17 MS_17S MP_02A EMS_10 EMS_10S }
 	prerequisites = { "tech_MS_17" }
 	component_set = "OYW_ZEON_420MM"
@@ -492,7 +577,12 @@ weapon_component_template = {
 	icon_frame = 1
 	color = { 0.1 1.0 0.1 1 }
 	power = -3000
-	cost = 50
+	resources = {
+		category = ship_components
+		cost = {
+			alloys = 50
+		}
+	}
 	size_restriction = { MS_05B MS_05S MS_06 MS_06S MS_09 MS_09S MS_11 MS_11S MS_14 MS_14S MS_17 MS_17S EMS_10 EMS_10S }
 	prerequisites = { "tech_EMS_10F" }
 	component_set = "OYW_ZEON_135MM"
@@ -520,7 +610,12 @@ weapon_component_template = {
 	icon_frame = 1
 	color = { 0.1 1.0 0.1 1 }
 	power = -3000
-	cost = 25
+	cost = resources = {
+		category = ship_components
+		cost = {
+			alloys = 25
+		}
+	}
 	size_restriction = { MS_05B MS_05S MS_06 MS_06S zeon_MS_P MS_06K MS_09 MS_09S MS_09K MS_18E MS_11 MS_11S MS_14 MS_14S MS_14C MS_17 MS_17S MP_02A EMS_10 EMS_10S }
 	prerequisites = { "tech_MS_06F" }
 	component_set = "OYW_ZEON_175MM"
@@ -548,7 +643,12 @@ weapon_component_template = {
 	icon_frame = 1
 	color = { 0.1 1.0 0.1 1 }
 	power = -3000
-	cost = 30
+	resources = {
+		category = ship_components
+		cost = {
+			alloys = 30
+		}
+	}
 	size_restriction = { MS_06K MS_09K MS_14C }
 	prerequisites = { "tech_MS_06K" }
 	component_set = "OYW_ZEON_180MM"
@@ -576,7 +676,12 @@ weapon_component_template = {
 	icon_frame = 1
 	color = { 0.1 1.0 0.1 1 }
 	power = -3000
-	cost = 25
+	resources = {
+		category = ship_components
+		cost = {
+			alloys = 25
+		}
+	}
 	size_restriction = { MS_06K MS_09K MS_14C }
 	prerequisites = { "tech_MS_06K" }
 	component_set = "OYW_ZEON_120MM_GATLING"
@@ -604,7 +709,12 @@ weapon_component_template = {
 	icon_frame = 1
 	color = { 0.1 1.0 0.1 1 }
 	power = -3000
-	cost = 25
+	resources = {
+		category = ship_components
+		cost = {
+			alloys = 25
+		}
+	}
 	size_restriction = { MS_06K MS_09K MS_14C }
 	prerequisites = { "tech_MS_09K" }
 	component_set = "OYW_ZEON_HOWITZER"
@@ -632,7 +742,12 @@ weapon_component_template = {
 	icon_frame = 1
 	color = { 0.1 1.0 0.1 1 }
 	power = -3000
-	cost = 50
+	resources = {
+		category = ship_components
+		cost = {
+			alloys = 50
+		}
+	}
 	size_restriction = { MS_14C }
 	prerequisites = { "tech_MS_14C" }
 	component_set = "OYW_ZEON_BEAM_CANNON"
@@ -664,7 +779,12 @@ weapon_component_template = {
 	icon_frame = 1
 	color = { 0.1 1.0 0.1 1 }
 	power = -3000
-	cost = 20
+	resources = {
+		category = ship_components
+		cost = {
+			alloys = 20
+		}
+	}
 	size_restriction = { MS_15 MS_15S }
 	prerequisites = { "tech_MS_15A" }
 	component_set = "OYW_GYAN_SHIELD_1"
@@ -696,7 +816,12 @@ weapon_component_template = {
 	icon_frame = 1
 	color = { 0.1 1.0 0.1 1 }
 	power = -3000
-	cost = 20
+	resources = {
+		category = ship_components
+		cost = {
+			alloys = 20
+		}
+	}
 	size_restriction = { MS_15 MS_15S }
 	prerequisites = { "tech_MS_15B" }
 	component_set = "OYW_GYAN_SHIELD_2"
@@ -728,7 +853,12 @@ weapon_component_template = {
 	icon_frame = 1
 	color = { 0.1 1.0 0.1 1 }
 	power = -3000
-	cost = 25
+	resources = {
+		category = ship_components
+		cost = {
+			alloys = 25
+		}
+	}
 	size_restriction = { MS_15 MS_15S }
 	prerequisites = { "tech_MS_15F" }
 	component_set = "OYW_GYAN_SHIELD_3"
@@ -760,7 +890,12 @@ weapon_component_template = {
 	icon_frame = 1
 	color = { 0.1 1.0 0.1 1 }
 	power = -3000
-	cost = 30
+	resources = {
+		category = ship_components
+		cost = {
+			alloys = 30
+		}
+	}
 	size_restriction = { MS_15 MS_15S }
 	prerequisites = { "tech_MS_15KG" }
 	component_set = "OYW_GYAN_SHIELD_4"
@@ -788,7 +923,12 @@ weapon_component_template = {
 	icon_frame = 1
 	color = { 0.1 1.0 0.1 1 }
 	power = -3000
-	cost = 5
+	resources = {
+		category = ship_components
+		cost = {
+			alloys = 5
+		}
+	}
 	size_restriction = { RB_79 RB_79S }
 	prerequisites = { "tech_RB_79" }
 	component_set = "OYW_EFSF_180MM_1"
@@ -816,7 +956,12 @@ weapon_component_template = {
 	icon_frame = 1
 	color = { 0.1 1.0 0.1 1 }
 	power = -3000
-	cost = 10
+	resources = {
+		category = ship_components
+		cost = {
+			alloys = 10
+		}
+	}
 	size_restriction = { RB_79 RB_79S }
 	prerequisites = { "tech_RB_79K" }
 	component_set = "OYW_EFSF_180MM_2"
@@ -844,7 +989,12 @@ weapon_component_template = {
 	icon_frame = 1
 	color = { 0.1 1.0 0.1 1 }
 	power = -3000
-	cost = 25
+	resources = {
+		category = ship_components
+		cost = {
+			alloys = 25
+		}
+	}
 	size_restriction = { RX_75_4 RX_75_MPT }
 	prerequisites = { "tech_RX_75_1" }
 	component_set = "OYW_EFSF_180MM_3"
@@ -872,7 +1022,12 @@ weapon_component_template = {
 	icon_frame = 1
 	color = { 0.1 1.0 0.1 1 }
 	power = -3000
-	cost = 20
+	resources = {
+		category = ship_components
+		cost = {
+			alloys = 20
+		}
+	}
 	size_restriction = { RX_75_4 RX_75_MPT }
 	prerequisites = { "tech_RX_75_2" }
 	component_set = "OYW_EFSF_120MM"
@@ -900,7 +1055,12 @@ weapon_component_template = {
 	icon_frame = 1
 	color = { 0.1 1.0 0.1 1 }
 	power = -3000
-	cost = 40
+	resources = {
+		category = ship_components
+		cost = {
+			alloys = 40
+		}
+	}
 	size_restriction = { RX_77 RX_78 FA_78_2 RGC_80 }
 	prerequisites = { "tech_RX_77_1A" }
 	component_set = "OYW_EFSF_240MM_1"
@@ -928,7 +1088,12 @@ weapon_component_template = {
 	icon_frame = 1
 	color = { 0.1 1.0 0.1 1 }
 	power = -3000
-	cost = 20
+	resources = {
+		category = ship_components
+		cost = {
+			alloys = 20
+		}
+	}
 	size_restriction = { RX_77 RX_78 FA_78_2 RX_81FC RGC_80 }
 	prerequisites = { "tech_RX_77D" }
 	component_set = "OYW_EFSF_240MM_2"
@@ -956,7 +1121,12 @@ weapon_component_template = {
 	icon_frame = 1
 	color = { 0.1 1.0 0.1 1 }
 	power = -3000
-	cost = 50
+	resources = {
+		category = ship_components
+		cost = {
+			alloys = 50
+		}
+	}
 	size_restriction = { RX_77 RX_78 FA_78_2 RGC_80 }
 	prerequisites = { "tech_RX_78_6" }
 	component_set = "OYW_EFSF_300MM"
@@ -984,7 +1154,12 @@ weapon_component_template = {
 	icon_frame = 1
 	color = { 0.1 1.0 0.1 1 }
 	power = -3000
-	cost = 60
+	resources = {
+		category = ship_components
+		cost = {
+			alloys = 60
+		}
+	}
 	size_restriction = { RX_77 RX_78 FA_78_2 RGC_80 }
 	prerequisites = { "tech_RGC_80" }
 	component_set = "OYW_EFSF_360MM_1"
@@ -1012,7 +1187,12 @@ weapon_component_template = {
 	icon_frame = 1
 	color = { 0.1 1.0 0.1 1 }
 	power = -3000
-	cost = 30
+	resources = {
+		category = ship_components
+		cost = {
+			alloys = 30
+		}
+	}
 	size_restriction = { RX_77 RX_78 FA_78_2 RGC_80 }
 	prerequisites = { "tech_RGC_80S" }
 	component_set = "OYW_EFSF_360MM_2"
@@ -1040,7 +1220,12 @@ weapon_component_template = {
 	icon_frame = 1
 	color = { 0.1 1.0 0.1 1 }
 	power = -3000
-	cost = 100
+	resources = {
+		category = ship_components
+		cost = {
+			alloys = 100
+		}
+	}
 	size_restriction = { RX_78 FA_78 }
 	prerequisites = { "tech_FA_78_1" }
 	component_set = "OYW_EFSF_DOUBLE_BEAM_RIFLE"
@@ -1068,7 +1253,12 @@ weapon_component_template = {
 	icon_frame = 1
 	color = { 0.1 1.0 0.1 1 }
 	power = -3000
-	cost = 50
+	resources = {
+		category = ship_components
+		cost = {
+			alloys = 50
+		}
+	}
 	size_restriction = { RX_78 FA_78 FA_78_2 HFA_78  }
 	prerequisites = { "tech_FA_78_1" }
 	component_set = "OYW_EFSF_BEAM_CANNON_1"
@@ -1096,7 +1286,12 @@ weapon_component_template = {
 	icon_frame = 1
 	color = { 0.1 1.0 0.1 1 }
 	power = -3000
-	cost = 75
+	resources = {
+		category = ship_components
+		cost = {
+			alloys = 75
+		}
+	}
 	size_restriction = { RX_78 HFA_78  }
 	prerequisites = { "tech_FA_78_3" }
 	component_set = "OYW_EFSF_BEAM_CANNON_2"
@@ -1124,7 +1319,12 @@ weapon_component_template = {
 	icon_frame = 1
 	color = { 0.1 1.0 0.1 1 }
 	power = -3000
-	cost = 75
+	resources = {
+		category = ship_components
+		cost = {
+			alloys = 75
+		}
+	}
 	size_restriction = { HFA_78  }
 	prerequisites = { "tech_HFA_78_3" }
 	component_set = "OYW_EFSF_BEAM_CANNON_3"
@@ -1152,7 +1352,12 @@ weapon_component_template = {
 	icon_frame = 1
 	color = { 0.1 1.0 0.1 1 }
 	power = -3000
-	cost = 100
+	resources = {
+		category = ship_components
+		cost = {
+			alloys = 100
+		}
+	}
 	size_restriction = { RGC_80 }
 	prerequisites = { "tech_RGC_83" }
 	component_set = "OYW_EFSF_BEAM_CANNON_4"
@@ -1180,7 +1385,12 @@ weapon_component_template = {
 	icon_frame = 1
 	color = { 0.1 1.0 0.1 1 }
 	power = -3000
-	cost = 100
+	resources = {
+		category = ship_components
+		cost = {
+			alloys = 100
+		}
+	}
 	size_restriction = { HFA_78 }
 	prerequisites = { "tech_HFA_78_3" }
 	component_set = "OYW_EFSF_LR_MEGA_BEAM_CANNON"
@@ -1208,7 +1418,12 @@ weapon_component_template = {
 	icon_frame = 1
 	color = { 0.1 1.0 0.1 1 }
 	power = -3000
-	cost = 25
+	resources = {
+		category = ship_components
+		cost = {
+			alloys = 25
+		}
+	}
 	size_restriction = { RX_78 FA_78_2 HFA_78 RGM_79 RGM_79S RGM_79SC RX_78GP01_Fb RX_78GP03S RX_78GP04G }
 	prerequisites = { "tech_RGM_79C" }
 	component_set = "OYW_EFSF_GM_180MM"
@@ -1236,7 +1451,12 @@ weapon_component_template = {
 	icon_frame = 1
 	color = { 0.1 1.0 0.1 1 }
 	power = -3000
-	cost = 25
+	resources = {
+		category = ship_components
+		cost = {
+			alloys = 25
+		}
+	}
 	size_restriction = { RGM_79 RGM_79S RGM_79SC }
 	prerequisites = { "tech_RGM_79" }
 	component_set = "OYW_EFSF_BEAM_RIFLE"
@@ -1264,7 +1484,12 @@ weapon_component_template = {
 	icon_frame = 1
 	color = { 0.1 1.0 0.1 1 }
 	power = -3000
-	cost = 30
+	resources = {
+		category = ship_components
+		cost = {
+			alloys = 30
+		}
+	}
 	size_restriction = { RX_78 FA_78 FA_78_2 HFA_78 }
 	prerequisites = { "tech_RX_78_1" }
 	component_set = "OYW_EFSF_GUNDAM_BEAM_RIFLE"
@@ -1292,7 +1517,12 @@ weapon_component_template = {
 	icon_frame = 1
 	color = { 0.1 1.0 0.1 1 }
 	power = -3000
-	cost = 35
+	resources = {
+		category = ship_components
+		cost = {
+			alloys = 35
+		}
+	}
 	size_restriction = { RX_78 FA_78 FA_78_2 HFA_78 }
 	prerequisites = { "tech_RX_78_4" }
 	component_set = "GUNDAM_4_BEAM_RIFLE"
@@ -1320,7 +1550,12 @@ weapon_component_template = {
 	icon_frame = 1
 	color = { 0.1 1.0 0.1 1 }
 	power = -3000
-	cost = 40
+	resources = {
+		category = ship_components
+		cost = {
+			alloys = 40
+		}
+	}
 	size_restriction = { RX_78 HFA_78 }
 	prerequisites = { "tech_RX_78_7" }
 	component_set = "GUNDAM_7_BEAM_RIFLE"
@@ -1348,7 +1583,12 @@ weapon_component_template = {
 	icon_frame = 1
 	color = { 0.1 1.0 0.1 1 }
 	power = -3000
-	cost = 30
+	resources = {
+		category = ship_components
+		cost = {
+			alloys = 30
+		}
+	}
 	size_restriction = { RGM_79 RGM_79S RGM_79SC }
 	prerequisites = { "tech_RGM_79C" }
 	component_set = "OYW_EFSF_GM_CARBINE"
@@ -1376,7 +1616,12 @@ weapon_component_template = {
 	icon_frame = 1
 	color = { 0.1 1.0 0.1 1 }
 	power = -3000
-	cost = 50
+	resources = {
+		category = ship_components
+		cost = {
+			alloys = 50
+		}
+	}
 	size_restriction = { RGM_79 RGM_79S }
 	prerequisites = { "tech_RGM_79C" }
 	component_set = "OYW_EFSF_GM_C_LR_BEAM_RIFLE"
@@ -1404,7 +1649,12 @@ weapon_component_template = {
 	icon_frame = 1
 	color = { 0.1 1.0 0.1 1 }
 	power = -3000
-	cost = 50
+	resources = {
+		category = ship_components
+		cost = {
+			alloys = 50
+		}
+	}
 	size_restriction = { RGM_79SC }
 	prerequisites = { "tech_RGM_79SC" }
 	component_set = "OYW_EFSF_BEAM_SNIPER_1"
@@ -1432,7 +1682,12 @@ weapon_component_template = {
 	icon_frame = 1
 	color = { 0.1 1.0 0.1 1 }
 	power = -3000
-	cost = 30
+	resources = {
+		category = ship_components
+		cost = {
+			alloys = 30
+		}
+	}
 	size_restriction = { RX_77 }
 	prerequisites = { "tech_RX_77_1A" }
 	component_set = "GUNCANNON_BEAM_RIFLE"
@@ -1460,7 +1715,12 @@ weapon_component_template = {
 	icon_frame = 1
 	color = { 0.1 1.0 0.1 1 }
 	power = -3000
-	cost = 50
+	resources = {
+		category = ship_components
+		cost = {
+			alloys = 50
+		}
+	}
 	size_restriction = { RX_78 }
 	prerequisites = { "tech_RX_78_4" }
 	component_set = "OYW_EFSF_MEGA_BEAM_LAUNCHER"
@@ -1488,7 +1748,12 @@ weapon_component_template = {
 	icon_frame = 1
 	color = { 0.1 1.0 0.1 1 }
 	power = -3000
-	cost = 40
+	resources = {
+		category = ship_components
+		cost = {
+			alloys = 40
+		}
+	}
 	size_restriction = { RX_78 FA_78 FA_78_2 HFA_78 RX_78GP01_Fb RX_78GP03S RX_78GP04G }
 	prerequisites = { "tech_RX_78_5" }
 	component_set = "OYW_EFSF_GIANT_GATLING_GUN"
@@ -1516,7 +1781,12 @@ weapon_component_template = {
 	icon_frame = 1
 	color = { 0.1 1.0 0.1 1 }
 	power = -3000
-	cost = 35
+	resources = {
+		category = ship_components
+		cost = {
+			alloys = 35
+		}
+	}
 	size_restriction = { RX_81 RX_81FC }
 	prerequisites = { "tech_RX_81" }
 	component_set = "RX_81_BEAM_RIFLE"
@@ -1544,7 +1814,12 @@ weapon_component_template = {
 	icon_frame = 1
 	color = { 0.1 1.0 0.1 1 }
 	power = -3000
-	cost = 50
+	resources = {
+		category = ship_components
+		cost = {
+			alloys = 50
+		}
+	}
 	size_restriction = { FA_78_2 }
 	prerequisites = { "tech_FA_78_2" }
 	component_set = "OYW_EFSF_FRAME_LAUNCHER"
@@ -1572,7 +1847,12 @@ weapon_component_template = {
 	icon_frame = 1
 	color = { 0.1 1.0 0.1 1 }
 	power = -3000
-	cost = 30
+	resources = {
+		category = ship_components
+		cost = {
+			alloys = 30
+		}
+	}
 	size_restriction = { RX_81FC }
 	prerequisites = { "tech_RX_81FC" }
 	component_set = "OYW_EFSF_GATLING_SMASHER"
@@ -1600,7 +1880,12 @@ weapon_component_template = {
 	icon_frame = 1
 	color = { 0.1 1.0 0.1 1 }
 	power = -3000
-	cost = 30
+	resources = {
+		category = ship_components
+		cost = {
+			alloys = 25
+		}
+	}
 	size_restriction = { RX_81FC }
 	prerequisites = { "tech_RX_81FC" }
 	component_set = "OYW_EFSF_MISSILE_LAUNCHER"
@@ -1629,7 +1914,12 @@ weapon_component_template = {
 	icon_frame = 1
 	color = { 0.1 1.0 0.1 1 }
 	power = -3000
-	cost = 10
+	resources = {
+		category = ship_components
+		cost = {
+			alloys = 10
+		}
+	}
 	size_restriction = { RX_77 RX_78 FA_78 FA_78_2 HFA_78 RX_81 RX_81FC RGM_79 RGM_79S RGM_79SC RGM_79FP RGM_79FC RGC_80 RX_78GP01_Fb RX_78GP03S RX_78GP04G }
 	prerequisites = { "tech_RGM_79E" }
 	component_set = "OYW_EFSF_90MM"
@@ -1657,7 +1947,12 @@ weapon_component_template = {
 	icon_frame = 1
 	color = { 0.1 1.0 0.1 1 }
 	power = -3000
-	cost = 15
+	resources = {
+		category = ship_components
+		cost = {
+			alloys = 15
+		}
+	}
 	size_restriction = { RX_77 RX_78 FA_78 FA_78_2 HFA_78 RX_81 RX_81FC RGM_79 RGM_79S RGM_79SC RGM_79FP RGM_79FC RGC_80 RX_78GP01_Fb RX_78GP03S RX_78GP04G }
 	prerequisites = { "tech_RGM_79" }
 	component_set = "OYW_EFSF_100MM"
@@ -1685,7 +1980,12 @@ weapon_component_template = {
 	icon_frame = 1
 	color = { 0.1 1.0 0.1 1 }
 	power = -3000
-	cost = 15
+	resources = {
+		category = ship_components
+		cost = {
+			alloys = 15
+		}
+	}
 	size_restriction = { RX_77 RX_78 FA_78 FA_78_2 HFA_78 RX_81 RX_81FC RGM_79 RGM_79S RGM_79SC RGM_79FP RGM_79FC RGC_80 RX_78GP01_Fb RX_78GP03S RX_78GP04G }
 	prerequisites = { "tech_RX_81" }
 	component_set = "OYW_EFSF_SHOTGUN"
@@ -1713,7 +2013,12 @@ weapon_component_template = {
 	icon_frame = 1
 	color = { 0.1 1.0 0.1 1 }
 	power = -3000
-	cost = 20
+	resources = {
+		category = ship_components
+		cost = {
+			alloys = 20
+		}
+	}
 	size_restriction = { RGM_79 RGM_79S RGM_79SC RGM_79FP RGM_79FC RGC_80 }
 	prerequisites = { "tech_RGM_79" }
 	component_set = "OYW_EFSF_BEAM_SCATTER"
@@ -1741,7 +2046,12 @@ weapon_component_template = {
 	icon_frame = 1
 	color = { 0.1 1.0 0.1 1 }
 	power = -3000
-	cost = 25
+	resources = {
+		category = ship_components
+		cost = {
+			alloys = 25
+		}
+	}
 	size_restriction = { RX_77 RX_78 FA_78 FA_78_2 HFA_78 RX_81 RX_81FC RGM_79 RGM_79S RGM_79SC RGM_79FP RGM_79FC RGC_80 RX_78GP01_Fb RX_78GP03S RX_78GP04G }
 	prerequisites = { "tech_RGM_79" }
 	component_set = "OYW_EFSF_380MM"

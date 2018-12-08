@@ -41,7 +41,12 @@ ship_section_template = { #GM
 	large_utility_slots = 0
 	aux_utility_slots = 0
 
-	cost = 120
+	resources = {
+		category = ship_sections
+		cost = {
+			alloys = 120
+		}
+	}
 }
 
 ship_section_template = { #GM
@@ -87,7 +92,12 @@ ship_section_template = { #GM
 	large_utility_slots = 0
 	aux_utility_slots = 0
 
-	cost = 120
+	resources = {
+		category = ship_sections
+		cost = {
+			alloys = 120
+		}
+	}
 }
 
 ship_section_template = { #GM
@@ -133,7 +143,12 @@ ship_section_template = { #GM
 	large_utility_slots = 0
 	aux_utility_slots = 0
 
-	cost = 120
+	resources = {
+		category = ship_sections
+		cost = {
+			alloys = 120
+		}
+	}
 }
 
 ship_section_template = { #GM Commander
@@ -186,7 +201,12 @@ ship_section_template = { #GM Commander
 	large_utility_slots = 0
 	aux_utility_slots = 0
 
-	cost = 120
+	resources = {
+		category = ship_sections
+		cost = {
+			alloys = 120
+		}
+	}
 }
 
 ship_section_template = { #GM Commander
@@ -239,7 +259,12 @@ ship_section_template = { #GM Commander
 	large_utility_slots = 0
 	aux_utility_slots = 0
 
-	cost = 120
+	resources = {
+		category = ship_sections
+		cost = {
+			alloys = 120
+		}
+	}
 }
 
 ship_section_template = { #GM Commander
@@ -292,7 +317,12 @@ ship_section_template = { #GM Commander
 	large_utility_slots = 0
 	aux_utility_slots = 0
 
-	cost = 138
+	resources = {
+		category = ship_sections
+		cost = {
+			alloys = 138
+		}
+	}
 }
 
 ship_section_template = { #GM Striker
@@ -338,7 +368,12 @@ ship_section_template = { #GM Striker
 	large_utility_slots = 0
 	aux_utility_slots = 0
 
-	cost = 141
+	resources = {
+		category = ship_sections
+		cost = {
+			alloys = 141
+		}
+	}
 }
 
 ship_section_template = { #GM Commander
@@ -391,5 +426,10 @@ ship_section_template = { #GM Commander
 	large_utility_slots = 0
 	aux_utility_slots = 0
 
-	cost = 141
+	resources = {
+		category = ship_sections
+		cost = {
+			alloys = 141
+		}
+	}
 }

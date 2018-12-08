@@ -6,15 +6,17 @@ utility_component_template = {
 	icon = "GFX_ship_part_armor_1"
 	icon_frame = 1
 	power = 0
-	cost = -52
+	resources = {
+		category = ship_components
+		cost = {
+			alloys = -52
+		}
+	}
 
 	modifier = {
 		ship_armor_add = 68
 		ship_evasion_add = 20
 	}
-	#ship_modifier = {
-	#	ship_weapon_damage = 0.01
-	#}
 
 	prerequisites = { "tech_RGM_79L" }
 
@@ -32,14 +34,10 @@ utility_component_template = {
 	icon = "GFX_ship_part_armor_1"
 	icon_frame = 1
 	power = 0
-	cost = 0
 
 	modifier = {
 		ship_armor_add = 120
 	}
-	#ship_modifier = {
-	#	ship_weapon_damage = 0.01
-	#}
 
 	prerequisites = { "tech_RGM_79E" }
 
@@ -57,15 +55,17 @@ utility_component_template = {
 	icon = "GFX_ship_part_armor_2"
 	icon_frame = 1
 	power = 0
-	cost = -12
+	resources = {
+		category = ship_components
+		cost = {
+			alloys = -12
+		}
+	}
 
 	modifier = {
 		ship_armor_add = 126
 		ship_hull_mult = -0.1
 	}
-	#ship_modifier = {
-	#	ship_weapon_damage = 0.01
-	#}
 
 	prerequisites = { "tech_RGM_79" }
 
@@ -83,15 +83,17 @@ utility_component_template = {
 	icon = "GFX_ship_part_armor_3"
 	icon_frame = 1
 	power = 0
-	cost = -12
+	resources = {
+		category = ship_components
+		cost = {
+			alloys = -12
+		}
+	}
 
 	modifier = {
 		ship_armor_add = 144
 		ship_hull_mult = -0.1
 	}
-	#ship_modifier = {
-	#	ship_weapon_damage = 0.01
-	#}
 
 	prerequisites = { "tech_RGM_79C" }
 
@@ -109,15 +111,17 @@ utility_component_template = {
 	icon = "GFX_ship_part_armor_4"
 	icon_frame = 1
 	power = 0
-	cost = -15
+	resources = {
+		category = ship_components
+		cost = {
+			alloys = -15
+		}
+	}
 
 	modifier = {
 		ship_armor_add = 142
 		ship_hull_mult = -0.11
 	}
-	#ship_modifier = {
-	#	ship_weapon_damage = 0.01
-	#}
 
 	prerequisites = { "tech_RGM_79N" }
 
@@ -135,16 +139,18 @@ utility_component_template = {
 	icon = "GFX_ship_part_armor_5"
 	icon_frame = 1
 	power = 0
-	cost = -20 #Extra resources saved due to refining of design
+	resources = {
+		category = ship_components
+		cost = {
+			alloys = -20
+		}
+	}
 
 	modifier = {
 		ship_armor_add = 144
 		ship_hull_mult = -0.1
 		ship_speed_mult = -0.19
 	}
-	#ship_modifier = {
-	#	ship_weapon_damage = 0.01
-	#}
 
 	prerequisites = { "tech_RMS_179" }
 
@@ -162,7 +168,12 @@ utility_component_template = {
 	icon = "GFX_ship_part_armor_5"
 	icon_frame = 1
 	power = 0
-	cost = -12 #Should cost 15 less, costs 12 less because design is fancy
+	resources = {
+		category = ship_components
+		cost = {
+			alloys = -12 #Should cost 15 less, costs 12 less because design is fancy
+		}
+	}
 
 	modifier = {
 		ship_armor_add = 150
@@ -170,9 +181,6 @@ utility_component_template = {
 		ship_evasion_add = 3
 		ship_speed_mult = -0.13
 	}
-	#ship_modifier = {
-	#	ship_weapon_damage = 0.01
-	#}
 
 	prerequisites = { "tech_RGM_79Q" }
 
@@ -190,20 +198,21 @@ utility_component_template = {
 	icon = "GFX_ship_part_armor_5"
 	icon_frame = 1
 	power = 0
-	cost = -15
+	resources = {
+		category = ship_components
+		cost = {
+			alloys = -15
+		}
+	}
 
 	modifier = {
 		ship_armor_add = 157
 		ship_hull_mult = -0.149
 	}
-	#ship_modifier = {
-	#	ship_weapon_damage = 0.01
-	#}
 
 	prerequisites = { "tech_RGM_86R" }
 
 	component_set = "rgm_79_armor"
-	#upgrades_to = "rb_79_armor_2"
 
 	ai_weight = {
 		weight = 8
@@ -216,16 +225,11 @@ utility_component_template = {
 	icon = "GFX_ship_part_thruster_1"
 	icon_frame = 1
 	power = 0
-	cost = 0
 
 	modifier = {
 		ship_evasion_add = 50
 		ship_speed_mult = 0.45
-		ship_combat_speed_mult = 0.45
 	}
-	#ship_modifier = {
-	#	ship_weapon_damage = 0.01
-	#}
 
 	prerequisites = { "tech_RGM_79E" }
 
@@ -243,16 +247,17 @@ utility_component_template = {
 	icon = "GFX_ship_part_thruster_2"
 	icon_frame = 1
 	power = 0
-	cost = 10
+	resources = {
+		category = ship_components
+		cost = {
+			alloys = 10
+		}
+	}
 
 	modifier = {
 		ship_evasion_add = 55
 		ship_speed_mult = 0.6
-		ship_combat_speed_mult = 0.6
 	}
-	#ship_modifier = {
-	#	ship_weapon_damage = 0.01
-	#}
 
 	prerequisites = { "tech_RGM_79" }
 
@@ -270,16 +275,17 @@ utility_component_template = {
 	icon = "GFX_ship_part_thruster_3"
 	icon_frame = 1
 	power = 0
-	cost = 20
+	resources = {
+		category = ship_components
+		cost = {
+			alloys = 20
+		}
+	}
 
 	modifier = {
 		ship_evasion_add = 57
 		ship_speed_mult = 0.65
-		ship_combat_speed_mult = 0.65
 	}
-	#ship_modifier = {
-	#	ship_weapon_damage = 0.01
-	#}
 
 	prerequisites = { "tech_RGM_79C" }
 
@@ -297,16 +303,17 @@ utility_component_template = {
 	icon = "GFX_ship_part_thruster_4"
 	icon_frame = 1
 	power = 0
-	cost = 30
+	resources = {
+		category = ship_components
+		cost = {
+			alloys = 30
+		}
+	}
 
 	modifier = {
 		ship_evasion_add = 60
 		ship_speed_mult = 0.875
-		ship_combat_speed_mult = 0.875
 	}
-	#ship_modifier = {
-	#	ship_weapon_damage = 0.01
-	#}
 
 	prerequisites = { "tech_RGM_79C_POWERED" }
 
@@ -324,16 +331,17 @@ utility_component_template = {
 	icon = "GFX_ship_part_thruster_5"
 	icon_frame = 1
 	power = 0
-	cost = 40
+	resources = {
+		category = ship_components
+		cost = {
+			alloys = 40
+		}
+	}
 
 	modifier = {
 		ship_evasion_add = 62
 		ship_speed_mult = 0.98
-		ship_combat_speed_mult = 0.98
 	}
-	#ship_modifier = {
-	#	ship_weapon_damage = 0.01
-	#}
 
 	prerequisites = { "tech_RGM_79N" }
 
@@ -351,20 +359,21 @@ utility_component_template = {
 	icon = "GFX_ship_part_thruster_5"
 	icon_frame = 1
 	power = 0
-	cost = 50
+	resources = {
+		category = ship_components
+		cost = {
+			alloys = 50
+		}
+	}
 
 	modifier = {
 		ship_evasion_add = 70
 		ship_speed_mult = 1.46
 	}
-	#ship_modifier = {
-	#	ship_weapon_damage = 0.01
-	#}
 
 	prerequisites = { "tech_RGM_86R" }
 
 	component_set = "rgm_79_thrusters"
-	#upgrades_to = "rb_79_thrusters_2"
 
 	ai_weight = {
 		weight = 6
@@ -377,15 +386,11 @@ utility_component_template = {
 	icon = "GFX_ship_part_armor_1"
 	icon_frame = 1
 	power = 0
-	cost = 0
 
 	modifier = {
 		ship_armor_add = 174
 		ship_hull_mult = 0.16
 	}
-	#ship_modifier = {
-	#	ship_weapon_damage = 0.01
-	#}
 
 	prerequisites = { "tech_RGM_79SC" }
 
@@ -403,20 +408,21 @@ utility_component_template = {
 	icon = "GFX_ship_part_armor_2"
 	icon_frame = 1
 	power = 0
-	cost = -24
+	resources = {
+		category = ship_components
+		cost = {
+			alloys = -24
+		}
+	}
 
 	modifier = {
 		ship_armor_add = 212
 		ship_hull_mult = -0.06
 	}
-	#ship_modifier = {
-	#	ship_weapon_damage = 0.01
-	#}
 
 	prerequisites = { "tech_RGM_79SP" }
 
 	component_set = "rgm_79sc_armor"
-	#upgrades_to = "rgm_79sc_armor_2"
 
 	ai_weight = {
 		weight = 2
@@ -429,15 +435,17 @@ utility_component_template = {
 	icon = "GFX_ship_part_thruster_1"
 	icon_frame = 1
 	power = 0
-	cost = 10
+	resources = {
+		category = ship_components
+		cost = {
+			alloys = 10
+		}
+	}
 
 	modifier = {
 		ship_evasion_add = 60
 		ship_speed_mult = 0.52
 	}
-	#ship_modifier = {
-	#	ship_weapon_damage = 0.01
-	#}
 
 	prerequisites = { "tech_RGM_79SC" }
 
@@ -455,20 +463,21 @@ utility_component_template = {
 	icon = "GFX_ship_part_thruster_2"
 	icon_frame = 1
 	power = 0
-	cost = 20
+	resources = {
+		category = ship_components
+		cost = {
+			alloys = 20
+		}
+	}
 
 	modifier = {
 		ship_evasion_add = 65
 		ship_speed_mult = 1.83
 	}
-	#ship_modifier = {
-	#	ship_weapon_damage = 0.01
-	#}
 
 	prerequisites = { "tech_RGM_79SP" }
 
 	component_set = "rgm_79sc_thrusters"
-	#upgrades_to = "rgm_79sc_thrusters_2"
 
 	ai_weight = {
 		weight = 2
@@ -481,20 +490,15 @@ utility_component_template = {
 	icon = "GFX_ship_part_armor_1"
 	icon_frame = 1
 	power = 0
-	cost = 0
 
 	modifier = {
 		ship_armor_add = 211
 		ship_hull_mult = 0.17
 	}
-	#ship_modifier = {
-	#	ship_weapon_damage = 0.01
-	#}
 
 	prerequisites = { "tech_RGM_79FP" }
 
 	component_set = "rgm_79fp_armor"
-	#upgrades_to = "rgm_79_armor_4"
 
 	ai_weight = {
 		weight = 1
@@ -507,15 +511,11 @@ utility_component_template = {
 	icon = "GFX_ship_part_thruster_1"
 	icon_frame = 1
 	power = 0
-	cost = 0
 
 	modifier = {
 		ship_evasion_add = 60
 		ship_speed_mult = 1.05
 	}
-	#ship_modifier = {
-	#	ship_weapon_damage = 0.01
-	#}
 
 	prerequisites = { "tech_RGM_79FP" }
 
@@ -533,20 +533,20 @@ utility_component_template = {
 	icon = "GFX_ship_part_thruster_2"
 	icon_frame = 1
 	power = 0
-	cost = 20
+	resources = {
+		category = ship_components
+		cost = {
+			alloys = 20
+		}
+	}
 
 	modifier = {
 		ship_evasion_add = 65
 		ship_speed_mult = 1.08
 	}
-	#ship_modifier = {
-	#	ship_weapon_damage = 0.01
-	#}
-
 	prerequisites = { "tech_RGM_79FC" }
 
 	component_set = "rgm_79fp_thrusters"
-	#upgrades_to = "rgm_79sc_thrusters_2"
 
 	ai_weight = {
 		weight = 2
