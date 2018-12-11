@@ -6,6 +6,12 @@ utility_component_template = {
 	icon = "GFX_ship_part_armor_1"
 	icon_frame = 1
 	power = 0
+	resources = {
+		category = ship_components
+		cost = {
+			luna_titanium = 1
+		}
+	}
 
 	modifier = {
 		ship_armor_add = 228
@@ -67,6 +73,7 @@ utility_component_template = {
 		category = ship_components
 		cost = {
 			alloys = 20
+			luna_titanium = 1
 		}
 	}
 
@@ -89,6 +96,12 @@ utility_component_template = {
 	icon = "GFX_ship_part_armor_1"
 	icon_frame = 1
 	power = 0
+	resources = {
+		category = ship_components
+		cost = {
+			luna_titanium = 1
+		}
+	}
 
 	modifier = {
 		ship_armor_add = 384 #300%
@@ -129,6 +142,12 @@ utility_component_template = {
 	icon = "GFX_ship_part_armor_1"
 	icon_frame = 1
 	power = 0
+	resources = {
+		category = ship_components
+		cost = {
+			luna_titanium = 1
+		}
+	}
 
 	modifier = {
 		ship_armor_add = 216
@@ -189,6 +208,7 @@ utility_component_template = {
 	resources = {
 		category = ship_components
 		cost = {
+			luna_titanium = 1
 			alloys = 500 #221 higher than it should be
 		}
 	}
@@ -216,6 +236,12 @@ utility_component_template = {
 	icon = "GFX_ship_part_armor_1"
 	icon_frame = 1
 	power = 0
+	resources = {
+		category = ship_components
+		cost = {
+			luna_titanium = 1
+		}
+	}
 
 	modifier = {
 		ship_armor_add = 226

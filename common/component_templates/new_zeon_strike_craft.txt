@@ -2611,6 +2611,7 @@ strike_craft_component_template = {
 		cost = {
 			alloys = 102 #66.8 tons = 41 * 2 lunar titanium + 20 for gun
 			zeon_pilots = 3
+			luna_titanium = 1
 		}
 	}
 
@@ -2660,6 +2661,7 @@ strike_craft_component_template = {
 		cost = {
 			alloys = 107 #66.8 tons = 41 *2 lunar titanium + 15 for gun
 			zeon_pilots = 3
+			luna_titanium = 1
 		}
 	}
 
@@ -2709,6 +2711,7 @@ strike_craft_component_template = {
 		cost = {
 			alloys = 210 #72.5 tons = 45 * 2 lunar titanium + 15 for gun * 2
 			zeon_pilots = 6
+			luna_titanium = 1
 		}
 	}
 
@@ -2758,6 +2761,7 @@ strike_craft_component_template = {
 		cost = {
 			alloys = 130 #72.5 tons = 45 * 2 lunar titanium + 15 for gun * 2
 			zeon_pilots = 6
+			luna_titanium = 1
 		}
 	}
 
@@ -2807,6 +2811,7 @@ strike_craft_component_template = {
 		cost = {
 			alloys = 99 #68.4 tons = 42 * 2 lunar titanium + 15 for gun
 			zeon_pilots = 3
+			luna_titanium = 1
 		}
 	}
 
@@ -2856,6 +2861,7 @@ strike_craft_component_template = {
 		cost = {
 			alloys = 99 #68.4 tons = 42 * 2 lunar titanium + 15 for gun
 			zeon_pilots = 3
+			luna_titanium = 1
 		}
 	}
 
@@ -2905,6 +2911,7 @@ strike_craft_component_template = {
 		cost = {
 			alloys = 99 #68.2 tons = 42 * 2 lunar titanium + 30 for gun
 			zeon_pilots = 3
+			luna_titanium = 1
 		}
 	}
 
@@ -2954,6 +2961,7 @@ strike_craft_component_template = {
 		cost = {
 			alloys = 99 #68.2 tons = 42 * 2 lunar titanium + 15 for gun
 			zeon_pilots = 3
+			luna_titanium = 1
 		}
 	}
 
@@ -3003,6 +3011,7 @@ strike_craft_component_template = {
 		cost = {
 			alloys = 102 #58.2 tons = 36 * 2 lunar titanium + 30 for gun
 			zeon_pilots = 3
+			luna_titanium = 1
 		}
 	}
 
@@ -3052,6 +3061,7 @@ strike_craft_component_template = {
 		cost = {
 			alloys = 87 #58.2 tons = 36 * 2 lunar titanium + 15 for gun
 			zeon_pilots = 3
+			luna_titanium = 1
 		}
 	}
 
@@ -3101,6 +3111,7 @@ strike_craft_component_template = {
 		cost = {
 			alloys = 114 #68.3 tons = 42 * 2 lunar titanium + 30 for gun
 			zeon_pilots = 3
+			luna_titanium = 1
 		}
 	}
 
@@ -3150,6 +3161,7 @@ strike_craft_component_template = {
 		cost = {
 			alloys = 99 #68.3 tons = 42 * 2 lunar titanium + 15 for gun
 			zeon_pilots = 3
+			luna_titanium = 1
 		}
 	}
 
@@ -3199,6 +3211,7 @@ strike_craft_component_template = {
 		cost = {
 			alloys = 118 #71.4 tons = 44 * 2 lunar titanium + 30 for gun
 			zeon_pilots = 3
+			luna_titanium = 1
 		}
 	}
 
@@ -3248,6 +3261,7 @@ strike_craft_component_template = {
 		cost = {
 			alloys = 103 #71.4 tons = 44 * 2 lunar titanium + 15 for gun
 			zeon_pilots = 3
+			luna_titanium = 1
 		}
 	}
 
@@ -3297,6 +3311,7 @@ strike_craft_component_template = {
 		cost = {
 			alloys = 116 #69.2 tons = 43 * 2 lunar titanium + 30 for gun
 			zeon_pilots = 3
+			luna_titanium = 1
 		}
 	}
 
@@ -3346,6 +3361,7 @@ strike_craft_component_template = {
 		cost = {
 			alloys = 101 #69.2 tons = 43 * 2 lunar titanium + 15 for gun
 			zeon_pilots = 3
+			luna_titanium = 1
 		}
 	}
 
@@ -3395,6 +3411,7 @@ strike_craft_component_template = {
 		cost = {
 			alloys = 126 #78.3 tons = 48 * 2 lunar titanium + 30 for gun
 			zeon_pilots = 3
+			luna_titanium = 1
 		}
 	}
 
@@ -3444,6 +3461,7 @@ strike_craft_component_template = {
 		cost = {
 			alloys = 126 #78.3 tons = 48 * 2 lunar titanium + 30 for gun
 			zeon_pilots = 3
+			luna_titanium = 1
 		}
 	}
 
@@ -3493,6 +3511,7 @@ strike_craft_component_template = {
 		cost = {
 			alloys = 107 #74.5 tons = 46 * 2 lunar titanium + 15 for gun
 			zeon_pilots = 3
+			luna_titanium = 1
 		}
 	}
 
@@ -3542,6 +3561,7 @@ strike_craft_component_template = {
 		cost = {
 			alloys = 42 #61.8 tons = 38 * 2 lunar titanium + 50 for gun / 3
 			zeon_ace_pilots = 1
+			luna_titanium = 1
 		}
 	}
 
@@ -3591,6 +3611,7 @@ strike_craft_component_template = {
 		cost = {
 			alloys = 99 #78.7 tons = 48 * 2 lunar titanium + 200 for gun / 3
 			newtypes = 1
+			luna_titanium = 1
 		}
 	}
 
@@ -3738,6 +3759,7 @@ strike_craft_component_template = {
 		cost = {
 			alloys = 40 #57.2 tons = 35 * 2 lunar titanium + 50 for gun / 3
 			newtypes = 1
+			luna_titanium = 1
 		}
 	}
 
@@ -3787,6 +3809,7 @@ strike_craft_component_template = {
 		cost = {
 			alloys = 220 #57.2 tons = 35 * 2 lunar titanium + 150 for gun
 			cybernewtypes = 3
+			luna_titanium = 1
 		}
 	}
 
@@ -3836,6 +3859,7 @@ strike_craft_component_template = {
 		cost = {
 			alloys = 37 #67.5 tons = 42 * 2 lunar titanium + 30 for gun
 			zeon_ace_pilots = 1
+			luna_titanium = 1
 		}
 	}
 
@@ -3885,6 +3909,7 @@ strike_craft_component_template = {
 		cost = {
 			alloys = 114 #67.5 tons = 42 * 2 lunar titanium + 30 for gun
 			zeon_ace_pilots = 3
+			luna_titanium = 1
 		}
 	}
 
@@ -3934,6 +3959,7 @@ strike_craft_component_template = {
 		cost = {
 			alloys = 118 #71.2 tons = 44 * 2 lunar titanium + 30 for gun
 			zeon_ace_pilots = 3
+			luna_titanium = 1
 		}
 	}
 
@@ -3983,6 +4009,7 @@ strike_craft_component_template = {
 		cost = {
 			alloys = 125 #264.7 tons = 163 * 2 lunar titanium + 50 for gun
 			cybernewtypes = 1
+			luna_titanium = 1
 		}
 	}
 
@@ -4032,6 +4059,7 @@ strike_craft_component_template = {
 		cost = {
 			alloys = 47 #74.02 tons = 46 * 2 lunar titanium + 50 for gun
 			cybernewtypes = 1
+			luna_titanium = 1
 		}
 	}
 
@@ -4081,6 +4109,7 @@ strike_craft_component_template = {
 		cost = {
 			alloys = 49 #79.4 tons = 49 * 2 lunar titanium + 50 for gun
 			zeon_ace_pilots = 1
+			luna_titanium = 1
 		}
 	}
 
@@ -4130,6 +4159,7 @@ strike_craft_component_template = {
 		cost = {
 			alloys = 142 #74.5 tons = 46 * 2 lunar titanium + 50 for gun
 			zeon_pilots = 3
+			luna_titanium = 1
 		}
 	}
 
@@ -4326,6 +4356,7 @@ strike_craft_component_template = {
 		cost = {
 			alloys = 37 #64.6 tons = 40 * 2 lunar titanium + 30 for gun
 			newtypes = 1
+			luna_titanium = 1
 		}
 	}
 
@@ -4375,6 +4406,7 @@ strike_craft_component_template = {
 		cost = {
 			alloys = 39 #71.2 tons = 44 * 2 lunar titanium + 30 for gun
 			newtypes = 1
+			luna_titanium = 1
 		}
 	}
 
@@ -4424,6 +4456,7 @@ strike_craft_component_template = {
 		cost = {
 			alloys = 30 #48.3 tons = 30 * 2 lunar titanium + 30 for gun
 			newtypes = 1
+			luna_titanium = 1
 		}
 	}
 

@@ -161,6 +161,7 @@ strike_craft_component_template = {
 		cost = {
 			alloys = 57 #80 tons = 49 / 3 = 16 * 2 for Gundamium cost + 25 for gun
 			efsf_pilots = 1
+			luna_titanium = 1
 		}
 	}
 
@@ -210,6 +211,7 @@ strike_craft_component_template = {
 		cost = {
 			alloys = 106 #80 tons = 49 * 2 for Gundamium cost + 20 for gun
 			efsf_pilots = 3
+			luna_titanium = 1
 		}
 	}
 
@@ -400,6 +402,7 @@ strike_craft_component_template = {
 		cost = {
 			alloys = 75 # tons = 92 * 2 gundamium = 88 cost + 40 for gun / 3 = 75
 			efsf_pilots = 1
+			luna_titanium = 1
 		}
 	}
 
@@ -449,6 +452,7 @@ strike_craft_component_template = {
 		cost = {
 			alloys = 218 #144.8 tons = 89 *2 = 178 cost + 40 for gun
 			efsf_pilots = 3
+			luna_titanium = 1
 		}
 	}
 
@@ -498,6 +502,7 @@ strike_craft_component_template = {
 		cost = {
 			alloys = 138 #79.1 tons = 49 * 2 = 98 cost + 40 for gun
 			efsf_pilots = 3
+			luna_titanium = 1
 		}
 	}
 
@@ -547,6 +552,7 @@ strike_craft_component_template = {
 		cost = {
 			alloys = 140 #73.1 tons = 45 * 2 = 90 cost + 50 for gun
 			efsf_pilots = 3
+			luna_titanium = 1
 		}
 	}
 
@@ -841,6 +847,7 @@ strike_craft_component_template = {
 		cost = {
 			alloys = 37 #59 tons = 36 * 2 cost + 40 for gun / 3 = 37
 			efsf_ace_pilots = 1
+			luna_titanium = 1
 		}
 	}
 
@@ -890,6 +897,7 @@ strike_craft_component_template = {
 		cost = {
 			alloys = 38 #60 tons = 37 * 2 cost + 40 for gun / 3 = 38
 			efsf_ace_pilots = 1
+			luna_titanium = 1
 		}
 	}
 
@@ -939,6 +947,7 @@ strike_craft_component_template = {
 		cost = {
 			alloys = 38 #60 tons = 37 * 2 cost + 40 for gun / 3 = 38
 			efsf_ace_pilots = 1
+			luna_titanium = 1
 		}
 	}
 
@@ -988,6 +997,7 @@ strike_craft_component_template = {
 		cost = {
 			alloys = 46 #80.2 tons = 49 * 2 cost + 40 for gun / 3 = 46
 			efsf_ace_pilots = 1
+			luna_titanium = 1
 		}
 	}
 
@@ -1037,6 +1047,7 @@ strike_craft_component_template = {
 		cost = {
 			alloys = 40 #80.5 tons = 50 * 2 cost + 20 for gun / 3 = 48
 			efsf_ace_pilots = 1
+			luna_titanium = 1
 		}
 	}
 
@@ -1086,6 +1097,7 @@ strike_craft_component_template = {
 		cost = {
 			alloys = 40 #84.4 tons = 52 * 2 cost + 20 for gun / 3 = 48
 			efsf_ace_pilots = 1
+			luna_titanium = 1
 		}
 	}
 
@@ -1135,6 +1147,7 @@ strike_craft_component_template = {
 		cost = {
 			alloys = 40 #78.7 tons = 48 * 2 cost + 20 for gun / 3 = 48
 			efsf_ace_pilots = 1
+			luna_titanium = 1
 		}
 	}
 
@@ -1184,6 +1197,7 @@ strike_craft_component_template = {
 		cost = {
 			alloys = 43 #72.5 tons = 45 * 2 cost + 40 for gun / 3 = 43
 			efsf_ace_pilots = 1
+			luna_titanium = 1
 		}
 	}
 
@@ -1233,6 +1247,7 @@ strike_craft_component_template = {
 		cost = {
 			alloys = 50 #90.0 tons = 55 * 2 cost + 40 for gun / 3 = 50
 			efsf_ace_pilots = 1
+			luna_titanium = 1
 		}
 	}
 
@@ -1282,6 +1297,7 @@ strike_craft_component_template = {
 		cost = {
 			alloys = 71 #93.1 tons = 57 * 2 cost + 100 for gun / 3 = 55
 			efsf_ace_pilots = 1
+			luna_titanium = 1
 		}
 	}
 
@@ -1331,6 +1347,7 @@ strike_craft_component_template = {
 		cost = {
 			alloys = 51 #82.55 tons = 51 * 2 cost + 50 for gun / 3 = 55
 			efsf_ace_pilots = 1
+			luna_titanium = 1
 		}
 	}
 
@@ -1380,6 +1397,7 @@ strike_craft_component_template = {
 		cost = {
 			alloys = 62 #88.7 tons = 55 * 2 cost + 75 for gun / 3 = 55
 			efsf_ace_pilots = 1
+			luna_titanium = 1
 		}
 	}
 
@@ -1429,6 +1447,7 @@ strike_craft_component_template = {
 		cost = {
 			alloys = 32 #54.1 tons = 33 * 2 Gundamium + 30 for gun
 			efsf_ace_pilots = 1
+			luna_titanium = 1
 		}
 	}
 
@@ -2213,6 +2232,7 @@ strike_craft_component_template = {
 		cost = {
 			alloys = 126 #61.0 tons = 38 * 2 + 50 for gun
 			efsf_ace_pilots = 3
+			luna_titanium = 1
 		}
 	}
 
@@ -2360,6 +2380,7 @@ strike_craft_component_template = {
 		cost = {
 			alloys = 98 #55.6 tons = 34 * 2 for armor + 30 for gun
 			efsf_pilots = 3
+			luna_titanium = 1
 		}
 	}
 
@@ -2409,6 +2430,7 @@ strike_craft_component_template = {
 		cost = {
 			alloys = 88 #55.6 tons = 34 * 2 for armor + 20 for gun
 			efsf_pilots = 3
+			luna_titanium = 1
 		}
 	}
 
@@ -2458,6 +2480,7 @@ strike_craft_component_template = {
 		cost = {
 			alloys = 33 #56.2 tons = 35 * 2 for armor + 30 for gun
 			efsf_pilots = 1
+			luna_titanium = 1
 		}
 	}
 
@@ -2605,6 +2628,7 @@ strike_craft_component_template = {
 		cost = {
 			alloys = 100 #56.2 tons = 35 * 2 for armor + 30 for gun
 			efsf_pilots = 3
+			luna_titanium = 1
 		}
 	}
 
@@ -2654,6 +2678,7 @@ strike_craft_component_template = {
 		cost = {
 			alloys = 85 #56.2 tons = 35 * 2 for armor + 15 for gun
 			efsf_pilots = 3
+			luna_titanium = 1
 		}
 	}
 
@@ -2703,6 +2728,7 @@ strike_craft_component_template = {
 		cost = {
 			alloys = 114 #68.22 tons = 42 * 2 for armor + 30 for gun
 			efsf_pilots = 3
+			luna_titanium = 1
 		}
 	}
 
@@ -2752,6 +2778,7 @@ strike_craft_component_template = {
 		cost = {
 			alloys = 99 #68.22 tons = 42 * 2 for armor + 15 for gun
 			efsf_pilots = 3
+			luna_titanium = 1
 		}
 	}
 
@@ -2997,6 +3024,7 @@ strike_craft_component_template = {
 		cost = {
 			alloys = 72 #60.7 tons = 37 + 5 for improved armor + 30 for gun
 			efsf_pilots = 3
+			luna_titanium = 1
 		}
 	}
 
@@ -3046,6 +3074,7 @@ strike_craft_component_template = {
 		cost = {
 			alloys = 92 #59.6 tons = 37 + 5 for improved armor + 50 for gun
 			efsf_pilots = 3
+			luna_titanium = 1
 		}
 	}
 
@@ -3193,6 +3222,7 @@ strike_craft_component_template = {
 		cost = {
 			alloys = 104 #59.4 tons = 37 * 2 Gundarium + 30 for gun
 			efsf_pilots = 3
+			luna_titanium = 1
 		}
 	}
 
@@ -3242,6 +3272,7 @@ strike_craft_component_template = {
 		cost = {
 			alloys = 124 #59.4 tons = 37 * 2 Gundarium + 50 for gun
 			efsf_pilots = 3
+			luna_titanium = 1
 		}
 	}
 
@@ -3291,6 +3322,7 @@ strike_craft_component_template = {
 		cost = {
 			alloys = 84 #59.4 tons = 37 * 2 Gundarium + 30 for gun - 20 for streamlining
 			efsf_pilots = 3
+			luna_titanium = 1 #Barzam Parts
 		}
 	}
 
@@ -3340,6 +3372,7 @@ strike_craft_component_template = {
 		cost = {
 			alloys = 41 #74.0 tons = 46 * 2 Gundarium + 30 for gun / 3
 			efsf_pilots = 1 #Because Kou is a bitch
+			luna_titanium = 1
 		}
 	}
 
@@ -3389,6 +3422,7 @@ strike_craft_component_template = {
 		cost = {
 			alloys = 46 #74.0 tons = 46 * 2 Gundarium + 30 for gun / 3 + 5 for FA
 			efsf_pilots = 1 #Because Kou is a bitch
+			luna_titanium = 1
 		}
 	}
 
@@ -3438,6 +3472,7 @@ strike_craft_component_template = {
 		cost = {
 			alloys = 61 #83.0 tons = 51 * 2 Gundarium + 50 for gun / 3 + 10 for Shield and Armor
 			efsf_ace_pilots = 1
+			luna_titanium = 1
 		}
 	}
 
@@ -3487,6 +3522,7 @@ strike_craft_component_template = {
 		cost = {
 			alloys = 63 #105.0 tons = 65 * 2 Gundarium + 30 for gun / 3 + 10 for Shield and Armor
 			efsf_ace_pilots = 1
+			luna_titanium = 1
 		}
 	}
 
@@ -3536,6 +3572,7 @@ strike_craft_component_template = {
 		cost = {
 			alloys = 70 #105.0 tons = 65 * 2 Gundarium + 50 for gun / 3 + 10 for Shield and Armor
 			efsf_ace_pilots = 1
+			luna_titanium = 1
 		}
 	}
 
@@ -3585,6 +3622,7 @@ strike_craft_component_template = {
 		cost = {
 			alloys = 39 #70.0 tons = 43 * 2 Gundarium + 30 for gun / 3
 			efsf_pilots = 1 #Because Kou is a bitch
+			luna_titanium = 1
 		}
 	}
 
@@ -3634,6 +3672,7 @@ strike_craft_component_template = {
 		cost = {
 			alloys = 40 #73.6 tons = 45 * 2 Gundarium + 30 for gun / 3
 			efsf_ace_pilots = 1
+			luna_titanium = 1
 		}
 	}
 

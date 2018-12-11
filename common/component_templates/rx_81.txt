@@ -10,6 +10,7 @@ utility_component_template = { #Light G-Line
 		category = ship_components
 		cost = {
 			alloys = -9
+			luna_titanium = 1
 		}
 	}
 
@@ -39,6 +40,7 @@ utility_component_template = {
 		category = ship_components
 		cost = {
 			alloys = 30
+			luna_titanium = 1
 		}
 	}
 
@@ -67,6 +69,7 @@ utility_component_template = {
 		category = ship_components
 		cost = {
 			alloys = 42
+			luna_titanium = 1
 		}
 	}
 
@@ -112,6 +115,12 @@ utility_component_template = {
 	icon = "GFX_ship_part_armor_1"
 	icon_frame = 1
 	power = 0
+	resources = {
+		category = ship_components
+		cost = {
+			luna_titanium = 1
+		}
+	}
 
 	modifier = {
 		ship_armor_add = 111

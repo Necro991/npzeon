@@ -6,6 +6,12 @@ utility_component_template = {
 	icon = "GFX_ship_part_armor_1"
 	icon_frame = 1
 	power = 0
+	resources = {
+		category = ship_components
+		cost = {
+			luna_titanium = 1
+		}
+	}
 
 	modifier = {
 		ship_armor_add = 180
@@ -32,6 +38,7 @@ utility_component_template = {
 		category = ship_components
 		cost = {
 			alloys = 13
+			luna_titanium = 1
 		}
 	}
 
@@ -60,6 +67,7 @@ utility_component_template = {
 		category = ship_components
 		cost = {
 			alloys = 16
+			luna_titanium = 1
 		}
 	}
 
@@ -88,6 +96,7 @@ utility_component_template = {
 		category = ship_components
 		cost = {
 			alloys = 9
+			luna_titanium = 1
 		}
 	}
 
@@ -116,6 +125,7 @@ utility_component_template = {
 		category = ship_components
 		cost = {
 			alloys = 12
+			luna_titanium = 1
 		}
 	}
 
@@ -208,6 +218,7 @@ utility_component_template = {
 		category = ship_components
 		cost = {
 			alloys = 21
+			luna_titanium = 1
 		}
 	}
 
@@ -237,6 +248,7 @@ utility_component_template = {
 		category = ship_components
 		cost = {
 			alloys = 6
+			luna_titanium = 1
 		}
 	}
 
@@ -260,6 +272,12 @@ utility_component_template = {
 	icon = "GFX_ship_part_armor_1"
 	icon_frame = 1
 	power = 0
+	resources = {
+		category = ship_components
+		cost = {
+			luna_titanium = 1
+		}
+	}
 
 	modifier = {
 		ship_armor_add = 508 #4xHP
@@ -300,6 +318,12 @@ utility_component_template = {
 	icon = "GFX_ship_part_armor_1"
 	icon_frame = 1
 	power = 0
+	resources = {
+		category = ship_components
+		cost = {
+			luna_titanium = 1
+		}
+	}
 
 	modifier = {
 		ship_armor_add = 572 #4xHP + 1/2HP for shields
@@ -340,6 +364,12 @@ utility_component_template = {
 	icon = "GFX_ship_part_armor_1"
 	icon_frame = 1
 	power = 0
+	resources = {
+		category = ship_components
+		cost = {
+			luna_titanium = 1
+		}
+	}
 
 	modifier = {
 		ship_armor_add = 744 #4xHP
