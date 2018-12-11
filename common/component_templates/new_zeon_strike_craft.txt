@@ -13,7 +13,7 @@ strike_craft_component_template = {
 		category = ship_components
 		cost = {
 			alloys = 45 #65 tons = 40 + 5 for gun
-			pilots = 3
+			zeon_pilots = 3
 		}
 	}
 
@@ -62,7 +62,7 @@ strike_craft_component_template = {
 		category = ship_components
 		cost = {
 			alloys = 45 #65 tons = 40 + 5 for gun
-			pilots = 3
+			zeon_pilots = 3
 		}
 	}
 
@@ -111,7 +111,7 @@ strike_craft_component_template = {
 		category = ship_components
 		cost = {
 			alloys = 54 #70.9 tons = 44 tons + 10 for gun
-			pilots = 3
+			zeon_pilots = 3
 		}
 	}
 
@@ -160,7 +160,7 @@ strike_craft_component_template = {
 		category = ship_components
 		cost = {
 			alloys = 64 #70.9 tons = 44 tons + 20 for bazooka
-			pilots = 3
+			zeon_pilots = 3
 		}
 	}
 
@@ -209,7 +209,7 @@ strike_craft_component_template = {
 		category = ship_components
 		cost = {
 			alloys = 59 #70.9 tons = 44 tons + 15 for gun
-			pilots = 3
+			zeon_pilots = 3
 		}
 	}
 
@@ -258,7 +258,7 @@ strike_craft_component_template = {
 		category = ship_components
 		cost = {
 			alloys = 64 #70.9 tons = 44 tons + 20 for gun
-			pilots = 3
+			zeon_pilots = 3
 		}
 	}
 
@@ -307,7 +307,7 @@ strike_craft_component_template = {
 		category = ship_components
 		cost = {
 			alloys = 60 #73.3 tons = 45 tons + 15 for gun
-			pilots = 3
+			zeon_pilots = 3
 		}
 	}
 
@@ -356,7 +356,7 @@ strike_craft_component_template = {
 		category = ship_components
 		cost = {
 			alloys = 65 #73.3 tons = 45 tons + 20 for bazooka
-			pilots = 3
+			zeon_pilots = 3
 		}
 	}
 
@@ -405,7 +405,7 @@ strike_craft_component_template = {
 		category = ship_components
 		cost = {
 			alloys = 60 #70.3 tons = 43 + 2 for improved armor + 15 for gun
-			pilots = 3
+			zeon_pilots = 3
 		}
 	}
 
@@ -454,7 +454,7 @@ strike_craft_component_template = {
 		category = ship_components
 		cost = {
 			alloys = 65 #70.3 tons = 43 + 2 for improved armor + 20 for bazooka
-			pilots = 3
+			zeon_pilots = 3
 		}
 	}
 
@@ -503,7 +503,7 @@ strike_craft_component_template = {
 		category = ship_components
 		cost = {
 			alloys = 50 #74.5 tons, cost should be 51. But it's UMP, so 45. + 5 for gun
-			pilots = 3
+			zeon_pilots = 3
 		}
 	}
 
@@ -552,7 +552,7 @@ strike_craft_component_template = {
 		category = ship_components
 		cost = {
 			alloys = 55 #74.5 tons, cost should be 51. But it's UMP, so 45. + 10 for bazooka
-			pilots = 3
+			zeon_pilots = 3
 		}
 	}
 
@@ -601,7 +601,7 @@ strike_craft_component_template = {
 		category = ship_components
 		cost = {
 			alloys = 22 #76.8 tons = 47 + 3 for improved armor + 15 for gun / 3 because 1 suit only
-			ace_pilots = 1
+			zeon_ace_pilots = 1
 		}
 	}
 
@@ -650,7 +650,7 @@ strike_craft_component_template = {
 		category = ship_components
 		cost = {
 			alloys = 23 #76.8 tons = 47 + 3 for improved armor + 20 for bazooka / 3, single suit
-			ace_pilots = 1
+			zeon_ace_pilots = 1
 		}
 	}
 
@@ -699,7 +699,7 @@ strike_craft_component_template = {
 		category = ship_components
 		cost = {
 			alloys = 22 #75 tons = 46 + 4 for improved armor + 15 for gun / 3, single suit
-			ace_pilots = 1
+			zeon_ace_pilots = 1
 		}
 	}
 
@@ -748,7 +748,7 @@ strike_craft_component_template = {
 		category = ship_components
 		cost = {
 			alloys = 23 #75 tons = 46 + 4 for improved armor + 20 for gun / 3, single suit
-			ace_pilots = 1
+			zeon_ace_pilots = 1
 		}
 	}
 
@@ -797,7 +797,7 @@ strike_craft_component_template = {
 		category = ship_components
 		cost = {
 			alloys = 22 #76.8 tons = 47 + 3 for improved armor + 15 for gun
-			ace_pilots = 1
+			zeon_ace_pilots = 1
 		}
 	}
 
@@ -846,7 +846,7 @@ strike_craft_component_template = {
 		category = ship_components
 		cost = {
 			alloys = 23 #76.8 tons = 47 + 3 for improved armor + 20 for gun
-			ace_pilots = 1
+			zeon_ace_pilots = 1
 		}
 	}
 
@@ -895,7 +895,7 @@ strike_craft_component_template = {
 		category = ship_components
 		cost = {
 			alloys = 26 #73.7 tons = 45 + 4 for improved armor + 30 for gun
-			ace_pilots = 1
+			zeon_ace_pilots = 1
 		}
 	}
 
@@ -944,7 +944,7 @@ strike_craft_component_template = {
 		category = ship_components
 		cost = {
 			alloys = 25 #73.7 tons = 45 + 4 for improved armor + 25 for gun
-			ace_pilots = 1
+			zeon_ace_pilots = 1
 		}
 	}
 
@@ -993,7 +993,7 @@ strike_craft_component_template = {
 		category = ship_components
 		cost = {
 			alloys = 80 #73.3 tons = 45 + 5 for improved armor + 30 for gun
-			pilots = 3
+			zeon_pilots = 3
 		}
 	}
 
@@ -1042,7 +1042,7 @@ strike_craft_component_template = {
 		category = ship_components
 		cost = {
 			alloys = 75 #73.3 tons = 45 + 5 for improved armor + 25 for gun
-			pilots = 3
+			zeon_pilots = 3
 		}
 	}
 
@@ -1091,7 +1091,7 @@ strike_craft_component_template = {
 		category = ship_components
 		cost = {
 			alloys = 82 #76.8 tons = 47 + 5 for improved armor + 30 for gun
-			pilots = 3
+			zeon_pilots = 3
 		}
 	}
 
@@ -1140,7 +1140,7 @@ strike_craft_component_template = {
 		category = ship_components
 		cost = {
 			alloys = 78 #76.8 tons = 47 + 5 for improved armor + 25 for gun
-			pilots = 3
+			zeon_pilots = 3
 		}
 	}
 
@@ -1189,7 +1189,7 @@ strike_craft_component_template = {
 		category = ship_components
 		cost = {
 			alloys = 85 #76.8 tons = 47 + 5 for improved armor + 3 for improved thrusters + 30 for gun
-			pilots = 3
+			zeon_pilots = 3
 		}
 	}
 
@@ -1238,7 +1238,7 @@ strike_craft_component_template = {
 		category = ship_components
 		cost = {
 			alloys = 80 #76.8 tons = 47 + 5 for improved armor + 3 for improved thrusters + 25 for gun
-			pilots = 3
+			zeon_pilots = 3
 		}
 	}
 
@@ -1287,7 +1287,7 @@ strike_craft_component_template = {
 		category = ship_components
 		cost = {
 			alloys = 86 #81.3 tons = 50 + 6 for improved armor + 30 for gun
-			pilots = 3
+			zeon_pilots = 3
 		}
 	}
 
@@ -1336,7 +1336,7 @@ strike_craft_component_template = {
 		category = ship_components
 		cost = {
 			alloys = 86 #81.3 tons = 50 + 6 for improved armor + 30 for gun
-			pilots = 3
+			zeon_pilots = 3
 		}
 	}
 
@@ -1385,7 +1385,7 @@ strike_craft_component_template = {
 		category = ship_components
 		cost = {
 			alloys = 79 #80.3 tons = 49 + 5 for improved armor + 30 for gun - (tonnage over 40 + armor / 2 for UMP)
-			pilots = 3
+			zeon_pilots = 3
 		}
 	}
 
@@ -1434,7 +1434,7 @@ strike_craft_component_template = {
 		category = ship_components
 		cost = {
 			alloys = 64 #80.3 tons = 49 + 5 for improved armor + 15 for gun - (tonnage over 40 + armor / 2 for UMP)
-			pilots = 3
+			zeon_pilots = 3
 		}
 	}
 
@@ -1483,7 +1483,7 @@ strike_craft_component_template = {
 		category = ship_components
 		cost = {
 			alloys = 21 #77.5 tons = 48 tons + 15 for gun
-			ace_pilots = 1
+			zeon_ace_pilots = 1
 		}
 	}
 
@@ -1532,7 +1532,7 @@ strike_craft_component_template = {
 		category = ship_components
 		cost = {
 			alloys = 23 #77.5 tons = 48 tons + 20 for gun
-			ace_pilots = 1
+			zeon_ace_pilots = 1
 		}
 	}
 
@@ -1581,7 +1581,7 @@ strike_craft_component_template = {
 		category = ship_components
 		cost = {
 			alloys = 67 #78.6 tons = 48 tons + 15 for gun + 5 for armor
-			pilots = 3
+			zeon_pilots = 3
 		}
 	}
 
@@ -1630,7 +1630,7 @@ strike_craft_component_template = {
 		category = ship_components
 		cost = {
 			alloys = 77 #78.6 tons = 48 tons + 25 for gun + 5 for armor
-			pilots = 3
+			zeon_pilots = 3
 		}
 	}
 
@@ -1679,7 +1679,7 @@ strike_craft_component_template = {
 		category = ship_components
 		cost = {
 			alloys = 60 #79.9 tons = 49 tons + 5 for gun + 5 for armor -7 for UMP costs
-			pilots = 3
+			zeon_pilots = 3
 		}
 	}
 
@@ -1728,7 +1728,7 @@ strike_craft_component_template = {
 		category = ship_components
 		cost = {
 			alloys = 70 #79.9 tons = 49 tons + 15 for gun + 5 for armor -7 for UMP costs
-			pilots = 3
+			zeon_pilots = 3
 		}
 	}
 
@@ -1777,7 +1777,7 @@ strike_craft_component_template = {
 		category = ship_components
 		cost = {
 			alloys = 76 #83.2 tons = 51 tons + 25 for cannon
-			pilots = 3
+			zeon_pilots = 3
 		}
 	}
 
@@ -1826,7 +1826,7 @@ strike_craft_component_template = {
 		category = ship_components
 		cost = {
 			alloys = 71 #83.2 tons = 51 tons + 20 for cannon
-			pilots = 3
+			zeon_pilots = 3
 		}
 	}
 
@@ -1875,7 +1875,7 @@ strike_craft_component_template = {
 		category = ship_components
 		cost = {
 			alloys = 68 #69.2 tons = 43 tons + 25 for gun
-			pilots = 3
+			zeon_pilots = 3
 		}
 	}
 
@@ -1924,7 +1924,7 @@ strike_craft_component_template = {
 		category = ship_components
 		cost = {
 			alloys = 68 #69.2 tons = 43 tons + 25 for gun
-			pilots = 3
+			zeon_pilots = 3
 		}
 	}
 
@@ -1973,7 +1973,7 @@ strike_craft_component_template = {
 		category = ship_components
 		cost = {
 			alloys = 104 #79.8 tons = 49 + 5 for improved armor + 50 for gun
-			pilots = 3
+			zeon_pilots = 3
 		}
 	}
 
@@ -2022,7 +2022,7 @@ strike_craft_component_template = {
 		category = ship_components
 		cost = {
 			alloys = 74 #35 tons = 22 tons + 15 for gun
-			pilots = 6
+			zeon_pilots = 6
 		}
 	}
 
@@ -2071,7 +2071,7 @@ strike_craft_component_template = {
 		category = ship_components
 		cost = {
 			alloys = 84 #35 tons = 22 tons + 20 for gun
-			pilots = 6
+			zeon_pilots = 6
 		}
 	}
 
@@ -2120,7 +2120,7 @@ strike_craft_component_template = {
 		category = ship_components
 		cost = {
 			alloys = 70 #49.0 tons = 30 + 5 for gun * 2 = 70
-			pilots = 6
+			zeon_pilots = 6
 		}
 	}
 
@@ -2169,7 +2169,7 @@ strike_craft_component_template = {
 		category = ship_components
 		cost = {
 			alloys = 102 #49.9 tons = 31 + 20 for gun * 2 = 102
-			pilots = 6
+			zeon_pilots = 6
 		}
 	}
 
@@ -2218,7 +2218,7 @@ strike_craft_component_template = {
 		category = ship_components
 		cost = {
 			alloys = 92 #49.9 tons = 31 + 15 for gun * 2 = 92
-			pilots = 6
+			zeon_pilots = 6
 		}
 	}
 
@@ -2267,7 +2267,7 @@ strike_craft_component_template = {
 		category = ship_components
 		cost = {
 			alloys = 80 #72.9 tons = 45 + 5 for improved armor + 30 for gun
-			pilots = 3
+			zeon_pilots = 3
 		}
 	}
 
@@ -2316,7 +2316,7 @@ strike_craft_component_template = {
 		category = ship_components
 		cost = {
 			alloys = 65 #72.9 tons = 45 + 5 for improved armor + 15 for gun
-			pilots = 3
+			zeon_pilots = 3
 		}
 	}
 
@@ -2365,7 +2365,7 @@ strike_craft_component_template = {
 		category = ship_components
 		cost = {
 			alloys = 95 #81.1 tons = 50 + 5 for improved armor + 40 for gun
-			ace_pilots = 3
+			zeon_ace_pilots = 3
 		}
 	}
 
@@ -2414,7 +2414,7 @@ strike_craft_component_template = {
 		category = ship_components
 		cost = {
 			alloys = 70 #81.1 tons = 50 + 5 for improved armor + 15 for gun
-			ace_pilots = 3
+			zeon_ace_pilots = 3
 		}
 	}
 
@@ -2463,7 +2463,7 @@ strike_craft_component_template = {
 		category = ship_components
 		cost = {
 			alloys = 62 #73.3 tons = 47 tons + 15 for gun
-			pilots = 3
+			zeon_pilots = 3
 		}
 	}
 
@@ -2512,7 +2512,7 @@ strike_craft_component_template = {
 		category = ship_components
 		cost = {
 			alloys = 67 #73.3 tons = 47 tons + 20 for bazooka
-			pilots = 3
+			zeon_pilots = 3
 		}
 	}
 
@@ -2561,7 +2561,7 @@ strike_craft_component_template = {
 		category = ship_components
 		cost = {
 			alloys = 62 #73.3 tons = 47 tons + 50 for gun
-			pilots = 3
+			zeon_pilots = 3
 		}
 	}
 
@@ -2610,7 +2610,7 @@ strike_craft_component_template = {
 		category = ship_components
 		cost = {
 			alloys = 102 #66.8 tons = 41 * 2 lunar titanium + 20 for gun
-			pilots = 3
+			zeon_pilots = 3
 		}
 	}
 
@@ -2659,7 +2659,7 @@ strike_craft_component_template = {
 		category = ship_components
 		cost = {
 			alloys = 107 #66.8 tons = 41 *2 lunar titanium + 15 for gun
-			pilots = 3
+			zeon_pilots = 3
 		}
 	}
 
@@ -2708,7 +2708,7 @@ strike_craft_component_template = {
 		category = ship_components
 		cost = {
 			alloys = 210 #72.5 tons = 45 * 2 lunar titanium + 15 for gun * 2
-			pilots = 6
+			zeon_pilots = 6
 		}
 	}
 
@@ -2757,7 +2757,7 @@ strike_craft_component_template = {
 		category = ship_components
 		cost = {
 			alloys = 130 #72.5 tons = 45 * 2 lunar titanium + 15 for gun * 2
-			pilots = 6
+			zeon_pilots = 6
 		}
 	}
 
@@ -2806,7 +2806,7 @@ strike_craft_component_template = {
 		category = ship_components
 		cost = {
 			alloys = 99 #68.4 tons = 42 * 2 lunar titanium + 15 for gun
-			pilots = 3
+			zeon_pilots = 3
 		}
 	}
 
@@ -2855,7 +2855,7 @@ strike_craft_component_template = {
 		category = ship_components
 		cost = {
 			alloys = 99 #68.4 tons = 42 * 2 lunar titanium + 15 for gun
-			pilots = 3
+			zeon_pilots = 3
 		}
 	}
 
@@ -2904,7 +2904,7 @@ strike_craft_component_template = {
 		category = ship_components
 		cost = {
 			alloys = 99 #68.2 tons = 42 * 2 lunar titanium + 30 for gun
-			pilots = 3
+			zeon_pilots = 3
 		}
 	}
 
@@ -2953,7 +2953,7 @@ strike_craft_component_template = {
 		category = ship_components
 		cost = {
 			alloys = 99 #68.2 tons = 42 * 2 lunar titanium + 15 for gun
-			pilots = 3
+			zeon_pilots = 3
 		}
 	}
 
@@ -3002,7 +3002,7 @@ strike_craft_component_template = {
 		category = ship_components
 		cost = {
 			alloys = 102 #58.2 tons = 36 * 2 lunar titanium + 30 for gun
-			pilots = 3
+			zeon_pilots = 3
 		}
 	}
 
@@ -3051,7 +3051,7 @@ strike_craft_component_template = {
 		category = ship_components
 		cost = {
 			alloys = 87 #58.2 tons = 36 * 2 lunar titanium + 15 for gun
-			pilots = 3
+			zeon_pilots = 3
 		}
 	}
 
@@ -3100,7 +3100,7 @@ strike_craft_component_template = {
 		category = ship_components
 		cost = {
 			alloys = 114 #68.3 tons = 42 * 2 lunar titanium + 30 for gun
-			pilots = 3
+			zeon_pilots = 3
 		}
 	}
 
@@ -3149,7 +3149,7 @@ strike_craft_component_template = {
 		category = ship_components
 		cost = {
 			alloys = 99 #68.3 tons = 42 * 2 lunar titanium + 15 for gun
-			pilots = 3
+			zeon_pilots = 3
 		}
 	}
 
@@ -3198,7 +3198,7 @@ strike_craft_component_template = {
 		category = ship_components
 		cost = {
 			alloys = 118 #71.4 tons = 44 * 2 lunar titanium + 30 for gun
-			pilots = 3
+			zeon_pilots = 3
 		}
 	}
 
@@ -3247,7 +3247,7 @@ strike_craft_component_template = {
 		category = ship_components
 		cost = {
 			alloys = 103 #71.4 tons = 44 * 2 lunar titanium + 15 for gun
-			pilots = 3
+			zeon_pilots = 3
 		}
 	}
 
@@ -3296,7 +3296,7 @@ strike_craft_component_template = {
 		category = ship_components
 		cost = {
 			alloys = 116 #69.2 tons = 43 * 2 lunar titanium + 30 for gun
-			pilots = 3
+			zeon_pilots = 3
 		}
 	}
 
@@ -3345,7 +3345,7 @@ strike_craft_component_template = {
 		category = ship_components
 		cost = {
 			alloys = 101 #69.2 tons = 43 * 2 lunar titanium + 15 for gun
-			pilots = 3
+			zeon_pilots = 3
 		}
 	}
 
@@ -3394,7 +3394,7 @@ strike_craft_component_template = {
 		category = ship_components
 		cost = {
 			alloys = 126 #78.3 tons = 48 * 2 lunar titanium + 30 for gun
-			pilots = 3
+			zeon_pilots = 3
 		}
 	}
 
@@ -3443,7 +3443,7 @@ strike_craft_component_template = {
 		category = ship_components
 		cost = {
 			alloys = 126 #78.3 tons = 48 * 2 lunar titanium + 30 for gun
-			pilots = 3
+			zeon_pilots = 3
 		}
 	}
 
@@ -3492,7 +3492,7 @@ strike_craft_component_template = {
 		category = ship_components
 		cost = {
 			alloys = 107 #74.5 tons = 46 * 2 lunar titanium + 15 for gun
-			pilots = 3
+			zeon_pilots = 3
 		}
 	}
 
@@ -3541,7 +3541,7 @@ strike_craft_component_template = {
 		category = ship_components
 		cost = {
 			alloys = 42 #61.8 tons = 38 * 2 lunar titanium + 50 for gun / 3
-			ace_pilots = 1
+			zeon_ace_pilots = 1
 		}
 	}
 
@@ -3639,7 +3639,7 @@ strike_craft_component_template = {
 		category = ship_components
 		cost = {
 			alloys = 86 #82.6 tons = 51 + 5 for improved armor + 30 for gun
-			pilots = 3
+			zeon_pilots = 3
 		}
 	}
 
@@ -3688,7 +3688,7 @@ strike_craft_component_template = {
 		category = ship_components
 		cost = {
 			alloys = 71 #82.6 tons = 51 + 5 for improved armor + 15 for gun
-			pilots = 3
+			zeon_pilots = 3
 		}
 	}
 
@@ -3835,7 +3835,7 @@ strike_craft_component_template = {
 		category = ship_components
 		cost = {
 			alloys = 37 #67.5 tons = 42 * 2 lunar titanium + 30 for gun
-			ace_pilots = 1
+			zeon_ace_pilots = 1
 		}
 	}
 
@@ -3884,7 +3884,7 @@ strike_craft_component_template = {
 		category = ship_components
 		cost = {
 			alloys = 114 #67.5 tons = 42 * 2 lunar titanium + 30 for gun
-			ace_pilots = 3
+			zeon_ace_pilots = 3
 		}
 	}
 
@@ -3933,7 +3933,7 @@ strike_craft_component_template = {
 		category = ship_components
 		cost = {
 			alloys = 118 #71.2 tons = 44 * 2 lunar titanium + 30 for gun
-			ace_pilots = 3
+			zeon_ace_pilots = 3
 		}
 	}
 
@@ -4080,7 +4080,7 @@ strike_craft_component_template = {
 		category = ship_components
 		cost = {
 			alloys = 49 #79.4 tons = 49 * 2 lunar titanium + 50 for gun
-			ace_pilots = 1
+			zeon_ace_pilots = 1
 		}
 	}
 
@@ -4129,7 +4129,7 @@ strike_craft_component_template = {
 		category = ship_components
 		cost = {
 			alloys = 142 #74.5 tons = 46 * 2 lunar titanium + 50 for gun
-			pilots = 3
+			zeon_pilots = 3
 		}
 	}
 
@@ -4178,7 +4178,7 @@ strike_craft_component_template = {
 		category = ship_components
 		cost = {
 			alloys = 66 #50.8 tons = 31 + 5 improved armor + 30 for gun
-			pilots = 3
+			zeon_pilots = 3
 		}
 	}
 
@@ -4227,7 +4227,7 @@ strike_craft_component_template = {
 		category = ship_components
 		cost = {
 			alloys = 51 #50.8 tons = 31 + 5 improved armor + 15 for gun
-			pilots = 3
+			zeon_pilots = 3
 		}
 	}
 
@@ -4276,7 +4276,7 @@ strike_craft_component_template = {
 		category = ship_components
 		cost = {
 			alloys = 22 #50.8 tons = 31 + 5 improved armor + 30 for gun
-			ace_pilots = 1
+			zeon_ace_pilots = 1
 		}
 	}
 
@@ -4472,7 +4472,7 @@ strike_craft_component_template = {
 		category = ship_components
 		cost = {
 			alloys = 66 #62.1 tons = 38 + 5 improved armor + 30 for gun
-			pilots = 3
+			zeon_pilots = 3
 		}
 	}
 
@@ -4521,7 +4521,7 @@ strike_craft_component_template = {
 		category = ship_components
 		cost = {
 			alloys = 31 #50.8 tons = 31 * 2 Gundarium + 30 for gun
-			pilots = 3
+			zeon_pilots = 3
 		}
 	}
 
@@ -4570,7 +4570,7 @@ strike_craft_component_template = {
 		category = ship_components
 		cost = {
 			alloys = 69 #55.2 tons = 34 + 5 improved armor + 30 for gun
-			pilots = 3
+			zeon_pilots = 3
 		}
 	}
 
@@ -4619,7 +4619,7 @@ strike_craft_component_template = {
 		category = ship_components
 		cost = {
 			alloys = 54 #55.2 tons = 34 + 5 improved armor + 15 for gun
-			pilots = 3
+			zeon_pilots = 3
 		}
 	}
 

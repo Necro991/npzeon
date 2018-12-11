@@ -14,7 +14,7 @@ zeonic_researcher = {
 			physics_research = 2
 			engineering_research = 5
 			society_research = 1
-      unity = 2
+			unity = 2
 		}
 		produces = {
 			trigger = {
@@ -85,7 +85,7 @@ anaheim_researcher = {
 			physics_research = 2
 			engineering_research = 5
 			society_research = 1
-      unity = 2
+			unity = 2
 		}
 		produces = {
 			trigger = {
@@ -140,7 +140,7 @@ anaheim_researcher = {
 	}
 }
 
-pilot_instructor = {
+zeon_pilot_instructor = {
 	category = specialist
 	condition_string = SPECIALIST_JOB_TRIGGER
 	building_icon = ms_pilot_academy
@@ -151,28 +151,22 @@ pilot_instructor = {
 	}
 
 	triggered_country_modifier = {
-    potential = {
-      owner = {
-        OR = {
-          has_technology = "tech_BEAMC_2"
-          has_technology = "tech_EFSF_BEAMC_2"
-        }
-      }
-    }
+		potential = {
+			owner = {
+				has_technology = "tech_BEAMC_2"
+			}
+		}
 		modifier = {
 			country_naval_cap_add = 2
 		}
 	}
 
-  triggered_country_modifier = {
-    potential = {
-      owner = {
-        OR = {
-          has_technology = "tech_BEAMC_3"
-          has_technology = "tech_EFSF_BEAMC_3"
-        }
-      }
-    }
+	triggered_country_modifier = {
+		potential = {
+			owner = {
+				has_technology = "tech_BEAMC_3"
+			}
+		}
 		modifier = {
 			country_naval_cap_add = 2
 		}
@@ -185,8 +179,98 @@ pilot_instructor = {
 	resources = {
 		category = planet_soldiers
 		produces = {
-      pilots = 3
-      ace_pilots = 1
+			zeon_pilots = 3
+			zeon_ace_pilots = 1
+			unity = 1
+		}
+	}
+
+	possible = {
+		hidden_trigger = { exists = owner }
+		worker_job_check_trigger = yes
+		owner = { is_gestalt = no }
+	}
+
+	weight = {
+		weight = @soldier_job_weight
+		modifier = {
+			factor = 10
+			planet = { has_modifier = martial_law }
+		}
+		modifier = {
+			factor = 2
+			has_trait = trait_resilient
+		}
+		modifier = {
+			factor = 2
+			has_trait = trait_very_strong
+		}
+		modifier = {
+			factor = 1.5
+			has_trait = trait_strong
+		}
+		modifier = {
+			factor = 0.5
+			has_trait = trait_weak
+		}
+		modifier = {
+			factor = 0.1
+			is_enslaved = yes
+			NOT = { has_slavery_type = { type = slavery_military } }
+		}
+		modifier = {
+			factor = 10
+			is_enslaved = yes
+			has_slavery_type = { type = slavery_military }
+		}
+		modifier = {
+			factor = 0.1
+			can_take_servant_job = yes
+		}
+	}
+}
+
+efsf_pilot_instructor = {
+	category = specialist
+	condition_string = SPECIALIST_JOB_TRIGGER
+	building_icon = ms_pilot_academy
+	clothes_texture_index = 4
+
+	country_modifier = {
+		country_naval_cap_add = 2
+	}
+
+	triggered_country_modifier = {
+		potential = {
+			owner = {
+				has_technology = "tech_EFSF_BEAMC_2"
+			}
+		}
+		modifier = {
+			country_naval_cap_add = 2
+		}
+	}
+
+	triggered_country_modifier = {
+	  potential = {
+			owner = {
+				has_technology = "tech_EFSF_BEAMC_3"
+			}
+		}
+		modifier = {
+			country_naval_cap_add = 2
+		}
+	}
+
+	pop_modifier = {
+		pop_defense_armies_add = 3
+	}
+
+	resources = {
+		category = planet_soldiers
+		produces = {
+			efsf_pilots = 3
+			efsf_ace_pilots = 1
 			unity = 1
 		}
 	}
@@ -249,10 +333,10 @@ newtype_researcher = {
 	resources = {
 		category = planet_researchers
 		produces = {
-      newtypes = 1
+			newtypes = 1
 			physics_research = 2
 			society_research = 4
-      unity = 2
+			unity = 2
 		}
 		produces = {
 			trigger = {
@@ -320,10 +404,10 @@ cybernewtype_researcher = {
 	resources = {
 		category = planet_researchers
 		produces = {
-      cybernewtypes = 1
-      physics_research = 2
-      society_research = 4
-      unity = 2
+			cybernewtypes = 1
+			physics_research = 2
+			society_research = 4
+			unity = 2
 		}
 		produces = {
 			trigger = {
@@ -374,6 +458,95 @@ cybernewtype_researcher = {
 		modifier = {
 			factor = 1.5
 			has_job = researcher
+		}
+	}
+}
+
+luna_titanium_foundry = {
+	category = specialist
+	condition_string = SPECIALIST_JOB_TRIGGER
+	building_icon = anaheim
+	clothes_texture_index = 3
+
+	possible = {
+		specialist_job_check_trigger = yes
+	}
+
+	resources = {
+		category = planet_metallurgists
+		produces = {
+			luna_titanium = 2
+		}
+		upkeep = {
+			alloys = 6
+		}
+	}
+
+	weight = {
+		weight = @specialist_job_weight
+		modifier = {
+			factor = 0.2
+			has_citizenship_rights = no
+			NOT = { has_trait = trait_mechanical }
+		}
+		modifier = {
+			factor = 0.1
+			can_take_servant_job = yes
+		}
+		modifier = {
+			factor = 2
+			species = {
+				has_species_flag = racket_species_flag
+			}
+		}
+		modifier = {
+			factor = 1.5
+			has_job = foundry
+		}
+	}
+}
+
+mobile_suit_engineer = {
+	category = specialist
+	condition_string = SPECIALIST_JOB_TRIGGER
+	building_icon = building_ms_factory_3
+	clothes_texture_index = 3
+
+	possible = {
+		specialist_job_check_trigger = yes
+	}
+
+	resources = {
+		category = planet_metallurgists
+		produces = {
+			mobile_suits = 2
+		}
+		upkeep = {
+			alloys = 3
+			minerals = 6
+		}
+	}
+
+	weight = {
+		weight = @specialist_job_weight
+		modifier = {
+			factor = 0.2
+			has_citizenship_rights = no
+			NOT = { has_trait = trait_mechanical }
+		}
+		modifier = {
+			factor = 0.1
+			can_take_servant_job = yes
+		}
+		modifier = {
+			factor = 2
+			species = {
+				has_species_flag = racket_species_flag
+			}
+		}
+		modifier = {
+			factor = 1.5
+			has_job = foundry
 		}
 	}
 }

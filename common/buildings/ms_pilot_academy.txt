@@ -30,38 +30,67 @@ ms_pilot_academy = {
 
 	triggered_planet_modifier = {
 		potential = {
-			owner = { is_gestalt = no }
+			owner = {
+				has_technology = "tech_BEAMC_1"
+			}
 		}
 		modifier = {
-			job_pilot_instructor_add = 1
+			job_zeon_pilot_instructor_add = 1
 		}
 	}
 
 	triggered_planet_modifier = {
 		potential = {
 			owner = {
-				OR = {
-					has_technology = "tech_BEAMC_2"
-					has_technology = "tech_EFSF_BEAMC_2"
-				}
+				has_technology = "tech_BEAMC_2"
 			}
 		}
 		modifier = {
-			job_pilot_instructor_add = 1
+			job_zeon_pilot_instructor_add = 1
 		}
 	}
 
 	triggered_planet_modifier = {
 		potential = {
 			owner = {
-				OR = {
-					has_technology = "tech_BEAMC_3"
-					has_technology = "tech_EFSF_BEAMC_3"
-				}
+				has_technology = "tech_BEAMC_3"
 			}
 		}
 		modifier = {
-			job_pilot_instructor_add = 1
+			job_zeon_pilot_instructor_add = 1
+		}
+	}
+
+	triggered_planet_modifier = {
+		potential = {
+			owner = {
+				has_technology = "tech_EFSF_BEAMC_1"
+			}
+		}
+		modifier = {
+			job_efsf_pilot_instructor_add = 1
+		}
+	}
+
+	triggered_planet_modifier = {
+		potential = {
+			owner = {
+				has_technology = "tech_EFSF_BEAMC_2"
+			}
+		}
+		modifier = {
+			job_efsf_pilot_instructor_add = 1
+		}
+	}
+
+	triggered_planet_modifier = {
+		potential = {
+			owner = {
+				has_technology = "tech_EFSF_BEAMC_3"
+			}
+		}
+		modifier = {
+			job_efsf_pilot_instructor_add = 1
 		}
 	}
 

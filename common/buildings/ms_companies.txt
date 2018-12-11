@@ -26,6 +26,7 @@ zeonic_zimmad_mip = {
 		modifier = {
 			job_zeonic_researcher_add = 3
 			job_head_researcher_add = 1
+			job_luna_titanium_foundry_add = 1
 		}
 	}
 
@@ -83,6 +84,7 @@ anaheim = {
 		modifier = {
 			job_anaheim_researcher_add = 3
 			job_head_researcher_add = 1
+			job_luna_titanium_foundry_add = 1
 		}
 	}
 

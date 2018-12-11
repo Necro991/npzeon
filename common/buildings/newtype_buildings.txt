@@ -26,8 +26,8 @@ newtype_lab = {
 		NOT = { has_modifier = slave_colony }
 		owner = {
 			OR = {
-			has_technology = "tech_BEAMC_1"
-			has_technology = "tech_EFSF_BEAMC_1"
+				has_technology = "tech_BEAMC_1"
+				has_technology = "tech_EFSF_BEAMC_1"
 			}
 		}
 	}

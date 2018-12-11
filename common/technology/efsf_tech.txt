@@ -789,7 +789,7 @@ tech_RMS_106 = { #Hizack
 	tier = 1
 	category = { materials }
 	ai_update_type = military
-	prerequisites = { "tech_EF_Titans" "tech_Anaheim" "tech_Zeonic" }
+	prerequisites = { "tech_EF_Titans" }
 	weight = @tier1weight1
 
 	ai_weight = {

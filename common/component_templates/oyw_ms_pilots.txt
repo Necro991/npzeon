@@ -38,7 +38,7 @@ utility_component_template = {
 	resources = {
 		category = ship_components
 		cost = {
-			pilots = 3
+			zeon_pilots = 3
 		}
 	}
 
@@ -68,7 +68,7 @@ utility_component_template = {
 	resources = {
 		category = ship_components
 		cost = {
-			pilots = 3
+			zeon_pilots = 3
 		}
 	}
 
@@ -98,7 +98,7 @@ utility_component_template = {
 	resources = {
 		category = ship_components
 		cost = {
-			ace_pilots = 3
+			zeon_ace_pilots = 3
 		}
 	}
 
@@ -183,7 +183,7 @@ utility_component_template = {
 	resources = {
 		category = ship_components
 		cost = {
-			ace_pilots = 1
+			zeon_ace_pilots = 1
 		}
 	}
 
@@ -240,7 +240,7 @@ utility_component_template = {
 	resources = {
 		category = ship_components
 		cost = {
-			pilots = 3
+			efsf_pilots = 3
 		}
 	}
 
@@ -270,7 +270,7 @@ utility_component_template = {
 	resources = {
 		category = ship_components
 		cost = {
-			pilots = 3
+			efsf_pilots = 3
 		}
 	}
 
@@ -300,7 +300,7 @@ utility_component_template = {
 	resources = {
 		category = ship_components
 		cost = {
-			ace_pilots = 3
+			efsf_ace_pilots = 3
 		}
 	}
 

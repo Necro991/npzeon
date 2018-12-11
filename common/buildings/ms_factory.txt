@@ -1,138 +1,207 @@
-building_ms_factory = {
+building_ms_factory_1 = {
 	base_buildtime = 360
-	planet_unique = yes
 
-	cost = {
-		minerals = 200
-	}
-
-	produced_resources = {
-		engineering_research = 4
-	}
-
-	required_resources = {
-		energy = 2
-	}
+	category = manufacturing
 
 	potential = {
-		planet = {
-			NOT = { is_planet_class = pc_habitat }
+		exists = owner
+		owner = {
+			OR = {
+				is_gestalt = no
+				has_valid_civic = civic_machine_servitor
+			}
+		}
+		NOT = { has_modifier = resort_colony }
+		NOT = { has_modifier = slave_colony }
+		owner = {
+			OR = {
+				has_technology = "tech_BEAMC_1"
+				has_technology = "tech_EFSF_BEAMC_1"
+			}
 		}
 	}
 
-	prerequisites = {
-		"tech_BEAMC_1"
+	triggered_planet_modifier = {
+		potential = {
+			exists = owner
+			owner = { is_regular_empire = yes }
+		}
+		modifier = {
+			job_mobile_suit_engineer_add = 2
+		}
 	}
 
-	ai_special_building = yes
-
-	ai_allow = {
-		AND = {
-			fromfrom = {
-				NOT = {
-					any_owned_planet = {
-						has_building = building_ms_factory
-					}
-				}
-				has_technology = tech_BEAMC_1
-				OR = {
-					has_ethic = ethic_militarist
-					has_ethic = ethic_fanatic_militarist
-				}
-			}
-			from = {
-				any_pop = {
-					is_enslaved = yes
-				}
-			}
+	resources = {
+		category = planet_buildings
+		cost = {
+			minerals = 400
 		}
+		upkeep = {
+			energy = 4
+		}
+	}
+
+	upgrades = {
+		building_ms_factory_2
 	}
 
 	ai_weight = {
-		weight = 700
-		modifier = {
-			weight = 0
-			from = {
-				owner = {
-					NOT = {
-						has_technology = tech_BEAMC_1
-						OR = {
-							has_ethic = ethic_militarist
-							has_ethic = ethic_fanatic_militarist
-						}
-					}
+		weight = 2
+		modifier =
+		{
+			factor = 5
+			owner = {
+				has_monthly_income = {
+					resource = consumer_goods
+					value < 5
 				}
-				NOT = { has_building = building_ms_factory }
+				has_monthly_income = {
+					resource = minerals
+					value > 6
+				}
 			}
 		}
 	}
 }
 
-building_efsf_ms_factory = {
-	base_buildtime = 360
-	planet_unique = yes
+building_ms_factory_2 = {
+	base_buildtime = 480
+	can_build = no
 
-	cost = {
-		minerals = 200
-	}
+	category = manufacturing
 
-	produced_resources = {
-		engineering_research = 4
-	}
-
-	required_resources = {
-		energy = 2
+	allow = {
+		has_upgraded_capital = yes
 	}
 
 	potential = {
-		planet = {
-			NOT = { is_planet_class = pc_habitat }
+		exists = owner
+		owner = {
+			OR = {
+				is_gestalt = no
+				has_valid_civic = civic_machine_servitor
+			}
+		}
+		NOT = { has_modifier = resort_colony }
+		NOT = { has_modifier = slave_colony }
+		owner = {
+			OR = {
+				has_technology = "tech_Axis"
+				has_technology = "tech_EF_Titans"
+				has_technology = "tech_AEUG"
+			}
 		}
 	}
 
-	prerequisites = {
-		"tech_EFSF_BEAMC_1"
+	triggered_planet_modifier = {
+		potential = {
+			exists = owner
+			owner = { is_regular_empire = yes }
+		}
+		modifier = {
+			job_mobile_suit_engineer_add = 5
+			job_luna_titanium_foundry_add = 1
+		}
 	}
 
-	ai_special_building = yes
+	resources = {
+		category = planet_buildings
+		cost = {
+			minerals = 600
+			alloys = 50
+		}
+		upkeep = {
+			energy = 4
+		}
+	}
 
-	ai_allow = {
-		AND = {
-			fromfrom = {
-				NOT = {
-					any_owned_planet = {
-						has_building = building_efsf_ms_factory
-					}
+	upgrades = {
+		building_ms_factory_3
+	}
+
+	ai_weight = {
+		weight = 2
+		modifier =
+		{
+			factor = 5
+			owner = {
+				has_monthly_income = {
+					resource = consumer_goods
+					value < 5
 				}
-				has_technology = tech_EFSF_BEAMC_1
-				OR = {
-					has_ethic = ethic_militarist
-					has_ethic = ethic_fanatic_militarist
+				has_monthly_income = {
+					resource = minerals
+					value > 6
 				}
 			}
-			from = {
-				any_pop = {
-					is_enslaved = yes
-				}
+		}
+	}
+}
+
+building_ms_factory_3 = {
+	base_buildtime = 600
+	can_build = no
+
+	category = manufacturing
+
+	allow = {
+		has_major_upgraded_capital = yes
+	}
+
+	potential = {
+		exists = owner
+		owner = {
+			OR = {
+				is_gestalt = no
+				has_valid_civic = civic_machine_servitor
 			}
+		}
+		NOT = { has_modifier = resort_colony }
+		NOT = { has_modifier = slave_colony }
+		owner = {
+			OR = {
+				has_technology = "tech_Neo_Zeon"
+				has_technology = "tech_Londo_Bell"
+			}
+		}
+	}
+
+	triggered_planet_modifier = {
+		potential = {
+			exists = owner
+			owner = { is_regular_empire = yes }
+		}
+		modifier = {
+			job_mobile_suit_engineer_add = 10
+			job_luna_titanium_foundry_add = 2
+		}
+	}
+
+	resources = {
+		category = planet_buildings
+		cost = {
+			minerals = 800
+			alloys = 100
+		}
+		upkeep = {
+			energy = 4
 		}
 	}
 
 	ai_weight = {
-		weight = 700
-		modifier = {
-			weight = 0
-			from = {
-				owner = {
-					NOT = {
-						has_technology = tech_EFSF_BEAMC_1
-						OR = {
-							has_ethic = ethic_militarist
-							has_ethic = ethic_fanatic_militarist
-						}
-					}
+		weight = 2
+		modifier =
+		{
+			factor = 5
+			owner = {
+				has_monthly_income = {
+					resource = consumer_goods
+					value < 5
 				}
-				NOT = { has_building = building_efsf_ms_factory }
+				has_monthly_income = {
+					resource = minerals
+					value > 6
+				}
 			}
 		}
 	}

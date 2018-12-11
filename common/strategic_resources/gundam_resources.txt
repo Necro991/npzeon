@@ -1,6 +1,6 @@
 ### Gundam Resources
 
-pilots = {
+zeon_pilots = {
 	tradable = no
 	max = 10000
 
@@ -13,7 +13,33 @@ pilots = {
 	}
 }
 
-ace_pilots = {
+zeon_ace_pilots = {
+	tradable = no
+	max = 10000
+
+	ai_weight = {
+		weight = 0.5
+	}
+
+	ai_wants = {
+		base = 500
+	}
+}
+
+efsf_pilots = {
+	tradable = no
+	max = 10000
+
+	ai_weight = {
+		weight = 0.5
+	}
+
+	ai_wants = {
+		base = 1000
+	}
+}
+
+efsf_ace_pilots = {
 	tradable = no
 	max = 10000
 
@@ -52,18 +78,18 @@ cybernewtypes = {
 	}
 }
 
-psycoframe = {
-	tradable = no
-	max = 10000
+#psycoframe = {
+#	tradable = no
+#	max = 10000
 
-	ai_weight = {
-		weight = 0.5
-	}
+#	ai_weight = {
+#		weight = 0.5
+#	}
 
-	ai_wants = {
-		base = 100
-	}
-}
+#	ai_wants = {
+#		base = 100
+#	}
+#}
 
 luna_titanium = {
 	tradable = no
@@ -91,28 +117,28 @@ mobile_suits = {
 	}
 }
 
-e_caps = {
-	tradable = no
-	max = 10000
+#e_caps = {
+#	tradable = no
+#	max = 10000
 
-	ai_weight = {
-		weight = 1
-	}
+#	ai_weight = {
+#		weight = 1
+#	}
 
-	ai_wants = {
-		base = 1000
-	}
-}
+#	ai_wants = {
+#		base = 1000
+#	}
+#}
 
-minovsky_reactors = {
-	tradable = no
-	max = 10000
+#minovsky_reactors = {
+#	tradable = no
+#	max = 10000
 
-	ai_weight = {
-		weight = 0.5
-	}
+#	ai_weight = {
+#		weight = 0.5
+#	}
 
-	ai_wants = {
-		base = 100
-	}
-}
+#	ai_wants = {
+#		base = 100
+#	}
+#}

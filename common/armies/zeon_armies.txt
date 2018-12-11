@@ -1,44 +1,72 @@
 # Mobile Suit Armies
 ms_army = {
-	damage = 4.0
-	morale_damage = 3.0
-	health = 5.0
+	damage = 4.00
+	health = 5.00
 	morale = 1.25
+	morale_damage = 3.00
+	collateral_damage = 2.00
+	war_exhaustion = 1.00
 	time = 360
-	maintenance = 10
 	icon_frame = 2
 
 	cost = {
-		minerals = 400
-		energy = 200
+		resources = {
+			category = armies
+			mobile_suits = 48
+			zeon_pilots = 48
+		}
+
+		upkeep = {
+			energy = 10
+			mobile_suits = 1
+			zeon_pilots = 1
+		}
 	}
 
-	prerequisites = { "tech_BEAMC_1" }
+	#prerequisites = { "tech_BEAMC_1" }
 
 	allow = {
-		has_building = "building_ms_factory"
+		OR = {
+			has_building = "building_ms_factory_1"
+			has_building = "building_ms_factory_2"
+			has_building = "building_ms_factory_3"
+		}
 	}
 
 }
 
 efsf_ms_army = {
-	damage = 4.0
-	morale_damage = 3.0
-	health = 5.0
+	damage = 4.00
+	health = 5.00
 	morale = 1.25
+	morale_damage = 3.00
+	collateral_damage = 2.00
+	war_exhaustion = 1.00
 	time = 360
-	maintenance = 10
 	icon_frame = 2
 
 	cost = {
-		minerals = 400
-		energy = 200
+		resources = {
+			category = armies
+			mobile_suits = 48
+			efsf_pilots = 48
+		}
+
+		upkeep = {
+			energy = 10
+			mobile_suits = 1
+			efsf_pilots = 1
+		}
 	}
 
-	prerequisites = { "tech_EFSF_BEAMC_1" }
+	#prerequisites = { "tech_BEAMC_1" }
 
 	allow = {
-		has_building = "building_efsf_ms_factory"
+		OR = {
+			has_building = "building_ms_factory_1"
+			has_building = "building_ms_factory_2"
+			has_building = "building_ms_factory_3"
+		}
 	}
 
 }

@@ -14,7 +14,6 @@ weapon_component_template = {
 
 	icon = "ma_04x_mpc"
 	icon_frame = 1
-	color = { 0.1 1.0 0.1 1 }
 	power = -3000
 	resources = {
 		category = ship_components
@@ -46,7 +45,6 @@ weapon_component_template = {
 
 	icon = "ma_05_mpc"
 	icon_frame = 1
-	color = { 0.1 1.0 0.1 1 }
 	power = -3000
 	resources = {
 		category = ship_components
@@ -79,7 +77,6 @@ weapon_component_template = {
 
 	icon = "ma_05_mpc"
 	icon_frame = 1
-	color = { 0.1 1.0 0.1 1 }
 	power = -3000
 	resources = {
 		category = ship_components
@@ -111,7 +108,6 @@ weapon_component_template = {
 
 	icon = "ma_05ad_mpc"
 	icon_frame = 1
-	color = { 0.1 1.0 0.1 1 }
 	power = -3000
 	resources = {
 		category = ship_components
@@ -143,7 +139,6 @@ weapon_component_template = {
 
 	icon = "ma_06_mpc"
 	icon_frame = 1
-	color = { 0.1 1.0 0.1 1 }
 	power = -3000
 	resources = {
 		category = ship_components
@@ -175,7 +170,6 @@ weapon_component_template = {
 
 	icon = "ma_08_mpc"
 	icon_frame = 1
-	color = { 0.1 1.0 0.1 1 }
 	power = -3000
 	resources = {
 		category = ship_components
@@ -207,7 +201,6 @@ weapon_component_template = {
 
 	icon = "GFX_ship_part_mass_driver_1"
 	icon_frame = 1
-	color = { 0.1 1.0 0.1 1 }
 	power = -3000
 	resources = {
 		category = ship_components
@@ -239,7 +232,6 @@ weapon_component_template = {
 
 	icon = "man_03_mpc"
 	icon_frame = 1
-	color = { 0.1 1.0 0.1 1 }
 	power = -3000
 	resources = {
 		category = ship_components
@@ -271,7 +263,6 @@ weapon_component_template = {
 
 	icon = "man_08_mpc"
 	icon_frame = 1
-	color = { 0.1 1.0 0.1 1 }
 	power = -4500
 	resources = {
 		category = ship_components
@@ -303,7 +294,6 @@ weapon_component_template = {
 
 	icon = "msn_02_mpc"
 	icon_frame = 1
-	color = { 0.1 1.0 0.1 1 }
 	power = -4500
 	resources = {
 		category = ship_components
@@ -335,7 +325,6 @@ weapon_component_template = {
 
 	icon = "msn_02_mpc"
 	icon_frame = 1
-	color = { 0.1 1.0 0.1 1 }
 	power = -3000
 	resources = {
 		category = ship_components
