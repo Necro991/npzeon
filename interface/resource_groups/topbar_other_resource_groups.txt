@@ -1,0 +1,36 @@
+tb_others_group = {
+	resources = {
+		volatile_motes
+		exotic_gases
+		rare_crystals
+		sr_living_metal
+		sr_zro
+		sr_dark_matter
+		nanites
+		zeon_pilots
+		zeon_ace_pilots
+		efsf_pilots
+		efsf_ace_pilots
+		newtypes
+		cybernewtypes
+		luna_titanium
+		mobile_suits
+		sr_iodizium
+		sr_solar_energy
+		esc_living_crystal
+		esc_gravitic_anomaly
+		esc_psionic_charge
+		esc_transdimensional_vortex
+		esc_enigmatic_energy
+		arcane_technology
+		sr_GAPS_psychic_power
+	}
+	localization = {
+		"RESOURCE_GROUP_DEFAULT" = default
+		"RESOURCE_GROUP_DEFAULT_NEG_DEC" = { balance < 0 stored >= 1000 stored < 10000 }
+		"RESOURCE_GROUP_DEFAULT_NEG" = { balance < 0 }
+		"RESOURCE_GROUP_DEFAULT_MAX" = { max > 0 stored >= max }
+		"RESOURCE_GROUP_DEFAULT_DEC" = { stored >= 1000 stored < 10000 }
+	}
+	onclick = market
+}

@@ -1,18 +1,17 @@
-#OYW Zeon Pilots (green to veteran) Components
-
+#OYW Pilot Components
 component_set = {
-	key = "oyw_zeon_pilot_putv"
+	key = "oyw_zeon_pilot_single"
 
 	required_component_set = yes
-	icon = "oyw_zeon_pilot_green"
+	icon = "oyw_zeon_pilot_newtype"
 	icon_frame = 1
 }
 
 component_set = {
-	key = "oyw_zeon_pilot_vuta"
+	key = "oyw_zeon_pilot_trio"
 
 	required_component_set = yes
-	icon = "oyw_zeon_pilot_veteran"
+	icon = "oyw_zeon_pilot_newtype"
 	icon_frame = 1
 }
 
@@ -57,18 +56,18 @@ component_set = {
 }
 
 component_set = {
-	key = "oyw_efsf_pilot_putv"
+	key = "oyw_efsf_pilot_single"
 
 	required_component_set = yes
-	icon = "oyw_efsf_pilot_green"
+	icon = "oyw_efsf_pilot_newtype"
 	icon_frame = 1
 }
 
 component_set = {
-	key = "oyw_efsf_pilot_vuta"
+	key = "oyw_efsf_pilot_trio"
 
 	required_component_set = yes
-	icon = "oyw_efsf_pilot_veteran"
+	icon = "oyw_efsf_pilot_newtype"
 	icon_frame = 1
 }
 

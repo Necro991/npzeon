@@ -2,7 +2,7 @@ weapon_component_template = {
 	key = "0083_GM_NQ_BEAM_RIFLE"
 	size = point_defence
 	entity = "Zeon_Machine_Gun_01_Entity"
-	damage = { min = 114.0 max = 227.0 }
+	damage = { min = 57.0 max = 113.5 } #damage = { min = 114.0 max = 227.0 }
 	#windup = { min = 5.0 max = 20.0 }
 	total_fire_time = 20
 	range = 30.0
@@ -35,7 +35,7 @@ weapon_component_template = {
 	key = "0083_GM_Q_SHORT_BEAM_RIFLE"
 	size = point_defence
 	entity = "Zeon_Machine_Gun_01_Entity"
-	damage = { min = 114.0 max = 227.0 }
+	damage = { min = 57.0 max = 113.5 } #damage = { min = 114.0 max = 227.0 }
 	#windup = { min = 5.0 max = 20.0 }
 	total_fire_time = 15
 	range = 15.0
@@ -68,7 +68,7 @@ weapon_component_template = {
 	key = "0083_GP01_BEAM_RIFLE"
 	size = point_defence
 	entity = "Zeon_Machine_Gun_01_Entity"
-	damage = { min = 164.0 max = 327.0 }
+	damage = { min = 82.0 max = 163.5 } #damage = { min = 164.0 max = 327.0 }
 	#windup = { min = 5.0 max = 20.0 }
 	total_fire_time = 15
 	range = 15.0
@@ -101,7 +101,7 @@ weapon_component_template = {
 	key = "0083_GP03S_BEAM_RIFLE"
 	size = point_defence
 	entity = "Zeon_Machine_Gun_01_Entity"
-	damage = { min = 160.0 max = 320.0 }
+	damage = { min = 80.0 max = 160.0 } #damage = { min = 160.0 max = 320.0 }
 	#windup = { min = 5.0 max = 20.0 }
 	total_fire_time = 15
 	range = 15.0
@@ -135,7 +135,7 @@ weapon_component_template = {
 	key = "0083_GP04G_BEAM_RIFLE"
 	size = point_defence
 	entity = "Zeon_Machine_Gun_01_Entity"
-	damage = { min = 138.0 max = 237.0 }
+	damage = { min = 69.0 max = 118.5 } #damage = { min = 138.0 max = 237.0 }
 	#windup = { min = 5.0 max = 20.0 }
 	total_fire_time = 15
 	range = 15.0
@@ -168,7 +168,7 @@ weapon_component_template = {
 	key = "0083_EFSF_NUCLEAR_BAZOOKA"
 	size = extra_large
 	entity = "Zeon_Machine_Gun_01_Entity"
-	damage = { min = 1000.0 max = 2000.0 }
+	damage = { min = 500.0 max = 1000.0 } #damage = { min = 1000.0 max = 2000.0 }
 	#windup = { min = 5.0 max = 10.0 }
 	total_fire_time = 60
 	range = 60.0
@@ -201,7 +201,7 @@ weapon_component_template = {
 	key = "0083_EFSF_BEAM_BAZOOKA"
 	size = extra_large
 	entity = "Zeon_Machine_Gun_01_Entity"
-	damage = { min = 1424.0 max = 2848.0 }
+	damage = { min = 712.0 max = 1424.0 } #damage = { min = 1424.0 max = 2848.0 }
 	#windup = { min = 5.0 max = 10.0 }
 	total_fire_time = 60
 	range = 90.0
@@ -234,7 +234,7 @@ weapon_component_template = {
 	key = "0083_EFSF_GP03_MPC"
 	size = extra_large
 	entity = "Zeon_Machine_Gun_01_Entity"
-	damage = { min = 3112.0 max = 6224.0 }
+	damage = { min = 1556.0 max = 3112.0 } #damage = { min = 3112.0 max = 6224.0 }
 	windup = { min = 30.0 max = 60.0 }
 	total_fire_time = 60
 	range = 100.0

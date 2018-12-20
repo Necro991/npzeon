@@ -2,7 +2,7 @@ weapon_component_template = {
 	key = "OYW_MA_04X_MPC"
 	size = extra_large
 	entity = "Zeon_Machine_Gun_01_Entity"
-	damage = { min = 1041.0 max = 2083.0 }
+	damage = { min = 520.5 max = 1041.5 } #damage = { min = 1041.0 max = 2083.0 }
 	windup = { min = 30.0 max = 60.0 }
 	total_fire_time = 60
 	range = 100.0
@@ -33,7 +33,7 @@ weapon_component_template = {
 	key = "OYW_MA_05_MPC"
 	size = extra_large
 	entity = "Zeon_Machine_Gun_01_Entity"
-	damage = { min = 1424.0 max = 2848.0 }
+	damage = { min = 712.0 max = 1424.0 } #damage = { min = 1424.0 max = 2848.0 }
 	windup = { min = 30.0 max = 60.0 }
 	total_fire_time = 60
 	range = 100.0
@@ -65,7 +65,7 @@ weapon_component_template = {
 	key = "OYW_MA_05M_MPC"
 	size = extra_large
 	entity = "Zeon_Machine_Gun_01_Entity"
-	damage = { min = 1640.0 max = 3280.0 }
+	damage = { min = 820.0 max = 1640.0 } #damage = { min = 1640.0 max = 3280.0 }
 	windup = { min = 30.0 max = 60.0 }
 	total_fire_time = 60
 	range = 100.0
@@ -96,7 +96,7 @@ weapon_component_template = {
 	key = "OYW_MA_05AD_MPC"
 	size = extra_large
 	entity = "Zeon_Machine_Gun_01_Entity"
-	damage = { min = 1424.0 max = 2848.0 }
+	damage = { min = 712.0 max = 1424.0 } #damage = { min = 1424.0 max = 2848.0 }
 	windup = { min = 15.0 max = 30.0 } #All fire time values halved because of rapid weaker blasts from poor reactor
 	total_fire_time = 30
 	range = 100.0
@@ -127,7 +127,7 @@ weapon_component_template = {
 	key = "OYW_MA_06_MPC"
 	size = extra_large
 	entity = "Zeon_Machine_Gun_01_Entity"
-	damage = { min = 2082.0 max = 4165.0 }
+	damage = { min = 2082.0 max = 2082.5 } #damage = { min = 1041.0 max = 4165.0 }
 	windup = { min = 30.0 max = 60.0 }
 	total_fire_time = 60
 	range = 100.0
@@ -158,7 +158,7 @@ weapon_component_template = {
 	key = "OYW_MA_08_MPC"
 	size = extra_large
 	entity = "Zeon_Machine_Gun_01_Entity"
-	damage = { min = 11200.0 max = 22400.0 }
+	damage = { min = 5600.0 max = 11200.0 } #damage = { min = 11200.0 max = 22400.0 }
 	windup = { min = 30.0 max = 60.0 }
 	total_fire_time = 60
 	range = 100.0
@@ -189,7 +189,7 @@ weapon_component_template = {
 	key = "OYW_MA_08_PD"
 	size = point_defence
 	entity = "Zeon_Machine_Gun_01_Entity"
-	damage = { min = 28.0 max = 48.0 }
+	damage = { min = 14.0 max = 24.0 } #damage = { min = 28.0 max = 48.0 }
 	windup = { min = 2.5 max = 23.5 }
 	total_fire_time = 25
 	range = 100.0
@@ -220,7 +220,7 @@ weapon_component_template = {
 	key = "OYW_MAN_03_MPC"
 	size = extra_large
 	entity = "Zeon_Machine_Gun_01_Entity"
-	damage = { min = 1480.0 max = 2960.0 }
+	damage = { min = 740.0 max = 1480.0 } #damage = { min = 1480.0 max = 2960.0 }
 	windup = { min = 30.0 max = 60.0 }
 	total_fire_time = 60
 	range = 100.0
@@ -251,7 +251,7 @@ weapon_component_template = {
 	key = "OYW_MAN_08_MPC"
 	size = extra_large
 	entity = "Zeon_Machine_Gun_01_Entity"
-	damage = { min = 568.0 max = 1136.0 }
+	damage = { min = 284.0 max = 568.0 } #damage = { min = 568.0 max = 1136.0 }
 	windup = { min = 30.0 max = 60.0 }
 	total_fire_time = 60
 	range = 100.0
@@ -282,7 +282,7 @@ weapon_component_template = {
 	key = "OYW_MSN_01_MPC"
 	size = extra_large
 	entity = "Zeon_Machine_Gun_01_Entity"
-	damage = { min = 168.0 max = 336.0 }
+	damage = { min = 84.0 max = 168.0 } #damage = { min = 168.0 max = 336.0 }
 	windup = { min = 30.0 max = 60.0 }
 	total_fire_time = 60
 	range = 100.0
@@ -313,7 +313,7 @@ weapon_component_template = {
 	key = "OYW_MSN_02_MPC"
 	size = extra_large
 	entity = "Zeon_Machine_Gun_01_Entity"
-	damage = { min = 150.0 max = 301.0 }
+	damage = { min = 75.0 max = 150.5 } #damage = { min = 150.0 max = 301.0 }
 	windup = { min = 30.0 max = 60.0 }
 	total_fire_time = 60
 	range = 100.0

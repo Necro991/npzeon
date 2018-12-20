@@ -21,7 +21,7 @@ strike_craft_component_template = {
 	regeneration_per_day = 0.034
 	launch_time = 8.0
 
-	damage = { min = 10 max = 15 } #100mm
+	damage = { min = 5.0 max = 7.5 } #damage = { min = 10.0 max = 15.0 } 100mm
 	cooldown = 5
 	range = 12
 	accuracy = 0.82
@@ -70,7 +70,7 @@ strike_craft_component_template = {
 	regeneration_per_day = 0.034
 	launch_time = 8.0
 
-	damage = { min = 20 max = 60 } #Sturmfaust 1
+	damage = { min = 10.0 max = 30.0 } #damage = { min = 20.0 max = 60.0 } Sturmfaust 1
 	cooldown = 15
 	range = 25.0 #8
 	accuracy = 0.6
@@ -119,7 +119,7 @@ strike_craft_component_template = {
 	regeneration_per_day = 0.034
 	launch_time = 8.0
 
-	damage = { min = 10 max = 20 } #105mm
+	damage = { min = 5.0 max = 10.0 } #damage = { min = 10.0 max = 20.0 }105mm
 	cooldown = 5
 	range = 15
 	accuracy = 0.82
@@ -168,7 +168,7 @@ strike_craft_component_template = {
 	regeneration_per_day = 0.034
 	launch_time = 8.0
 
-	damage = { min = 45 max = 80 } #Early 280mm Bazooka, slower fire rate
+	damage = { min = 22.5 max = 40.0 } #damage = { min = 45.0 max = 80.0 } Early 280mm Bazooka, slower fire rate
 	cooldown = 25
 	range = 50
 	accuracy = 0.75
@@ -217,7 +217,7 @@ strike_craft_component_template = {
 	regeneration_per_day = 0.034
 	launch_time = 8.0
 
-	damage = { min = 10 max = 25 } #120mm
+	damage = { min = 5.0 max = 12.5 } #damage = { min = 10.0 max = 25.0 } 120mm
 	cooldown = 5
 	range = 20
 	accuracy = 0.82
@@ -266,7 +266,7 @@ strike_craft_component_template = {
 	regeneration_per_day = 0.034
 	launch_time = 8.0
 
-	damage = { min = 45 max = 80 } #280mm bazooka, normal fire rate
+	damage = { min = 22.5 max = 40.0 } #damage = { min = 45.0 max = 80.0 } 280mm bazooka, normal fire rate
 	cooldown = 20
 	range = 50
 	accuracy = 0.75
@@ -315,7 +315,7 @@ strike_craft_component_template = {
 	regeneration_per_day = 0.034
 	launch_time = 8.0
 
-	damage = { min = 10 max = 25 } #120mm
+	damage = { min = 5.0 max = 12.5 } #damage = { min = 10.0 max = 25.0 } 120mm
 	cooldown = 5
 	range = 20
 	accuracy = 0.82
@@ -364,7 +364,7 @@ strike_craft_component_template = {
 	regeneration_per_day = 0.034
 	launch_time = 8.0
 
-	damage = { min = 45 max = 80 } #280mm Bazooka
+	damage = { min = 22.5 max = 40.0 } #damage = { min = 45.0 max = 80.0 } 280mm Bazooka
 	cooldown = 20
 	range = 50
 	accuracy = 0.75
@@ -413,7 +413,7 @@ strike_craft_component_template = {
 	regeneration_per_day = 0.034
 	launch_time = 8.0
 
-	damage = { min = 10 max = 25 } #120mm
+	damage = { min = 5.0 max = 12.5 } #damage = { min = 10.0 max = 25.0 } 120mm
 	cooldown = 5
 	range = 20
 	accuracy = 0.82
@@ -462,7 +462,7 @@ strike_craft_component_template = {
 	regeneration_per_day = 0.034
 	launch_time = 8.0
 
-	damage = { min = 45 max = 80 } #280mm Bazooka
+	damage = { min = 22.5 max = 40.0 } #damage = { min = 45.0 max = 80.0 } 280mm Bazooka
 	cooldown = 20
 	range = 50
 	accuracy = 0.75
@@ -511,7 +511,7 @@ strike_craft_component_template = {
 	regeneration_per_day = 0.034
 	launch_time = 8.0
 
-	damage = { min = 10 max = 20 } #90mm
+	damage = { min = 5.0 max = 10.0 } #damage = { min = 10.0 max = 20.0 }90mm
 	cooldown = 3 #Improved rate of fire
 	range = 25
 	accuracy = 0.82
@@ -560,7 +560,7 @@ strike_craft_component_template = {
 	regeneration_per_day = 0.034
 	launch_time = 8.0
 
-	damage = { min = 45 max = 80 } #280mm Bazooka
+	damage = { min = 22.5 max = 40.0 } #damage = { min = 45.0 max = 80.0 } 280mm Bazooka
 	cooldown = 20
 	range = 50
 	accuracy = 0.75
@@ -609,7 +609,7 @@ strike_craft_component_template = {
 	regeneration_per_day = 0.034
 	launch_time = 8.0
 
-	damage = { min = 10 max = 25 } #120mm
+	damage = { min = 5.0 max = 12.5 } #damage = { min = 10.0 max = 25.0 } 120mm
 	cooldown = 5
 	range = 20
 	accuracy = 0.82
@@ -658,7 +658,7 @@ strike_craft_component_template = {
 	regeneration_per_day = 0.034
 	launch_time = 8.0
 
-	damage = { min = 45 max = 80 } #280mm Bazooka
+	damage = { min = 22.5 max = 40.0 } #damage = { min = 45.0 max = 80.0 } 280mm Bazooka
 	cooldown = 20
 	range = 50
 	accuracy = 0.75
@@ -707,7 +707,7 @@ strike_craft_component_template = {
 	regeneration_per_day = 0.034
 	launch_time = 8.0
 
-	damage = { min = 10 max = 25 } #120mm
+	damage = { min = 5.0 max = 12.5 } #damage = { min = 10.0 max = 25.0 } 120mm
 	cooldown = 5
 	range = 20
 	accuracy = 0.82
@@ -756,7 +756,7 @@ strike_craft_component_template = {
 	regeneration_per_day = 0.034
 	launch_time = 8.0
 
-	damage = { min = 45 max = 80 } #280mm Bazooka
+	damage = { min = 22.5 max = 40.0 } #damage = { min = 45.0 max = 80.0 } 280mm Bazooka
 	cooldown = 20
 	range = 50
 	accuracy = 0.75
@@ -805,7 +805,7 @@ strike_craft_component_template = {
 	regeneration_per_day = 0.034
 	launch_time = 8.0
 
-	damage = { min = 10 max = 25 } #120mm
+	damage = { min = 5.0 max = 12.5 } #damage = { min = 10.0 max = 25.0 } 120mm
 	cooldown = 5
 	range = 20
 	accuracy = 0.82
@@ -854,7 +854,7 @@ strike_craft_component_template = {
 	regeneration_per_day = 0.034
 	launch_time = 8.0
 
-	damage = { min = 45 max = 80 } #280mm Bazooka
+	damage = { min = 22.5 max = 40.0 } #damage = { min = 45.0 max = 80.0 } 280mm Bazooka
 	cooldown = 20
 	range = 50
 	accuracy = 0.75
@@ -903,7 +903,7 @@ strike_craft_component_template = {
 	regeneration_per_day = 0.034
 	launch_time = 8.0
 
-	damage = { min = 111 max = 222 } #Beam Rifle/MPC 1
+	damage = { min = 55.5 max = 111.0 } #damage = { min = 111.0 max = 222.0 } Beam Rifle/MPC 1
 	cooldown = 25
 	range = 30
 	accuracy = 0.82
@@ -952,7 +952,7 @@ strike_craft_component_template = {
 	regeneration_per_day = 0.034
 	launch_time = 8.0
 
-	damage = { min = 50 max = 90 } #360mm Bazooka
+	damage = { min = 25.0 max = 45.0 } #damage = { min = 50.0 max = 90.0 } 360mm Bazooka
 	cooldown = 20
 	range = 60
 	accuracy = 0.80
@@ -1001,7 +1001,7 @@ strike_craft_component_template = {
 	regeneration_per_day = 0.034
 	launch_time = 8.0
 
-	damage = { min = 115 max = 230 } #Beam Rifle/MPC 1
+	damage = { min = 57.7 max = 115.0 } #damage = { min = 115.0 max = 230.0 } Beam Rifle/MPC 1
 	cooldown = 25
 	range = 30
 	accuracy = 0.82
@@ -1050,7 +1050,7 @@ strike_craft_component_template = {
 	regeneration_per_day = 0.034
 	launch_time = 8.0
 
-	damage = { min = 50 max = 90 } #360mm Bazooka
+	damage = { min = 25.0 max = 45.0 } #damage = { min = 50.0 max = 90.0 } 360mm Bazooka
 	cooldown = 20
 	range = 60
 	accuracy = 0.8
@@ -1099,7 +1099,7 @@ strike_craft_component_template = {
 	regeneration_per_day = 0.034
 	launch_time = 8.0
 
-	damage = { min = 115 max = 230 } #Beam Rifle/MPC 1
+	damage = { min = 57.7 max = 115.0 } #damage = { min = 115.0 max = 230.0 } Beam Rifle/MPC 1
 	cooldown = 25
 	range = 30
 	accuracy = 0.82
@@ -1148,7 +1148,7 @@ strike_craft_component_template = {
 	regeneration_per_day = 0.034
 	launch_time = 8.0
 
-	damage = { min = 50 max = 90 } #360mm Bazooka
+	damage = { min = 25.0 max = 45.0 } #damage = { min = 50.0 max = 90.0 } 360mm Bazooka
 	cooldown = 20
 	range = 60
 	accuracy = 0.8
@@ -1197,7 +1197,7 @@ strike_craft_component_template = {
 	regeneration_per_day = 0.034
 	launch_time = 8.0
 
-	damage = { min = 115 max = 230 } #Beam Rifle/MPC 1
+	damage = { min = 57.7 max = 115.0 } #damage = { min = 115.0 max = 230.0 } Beam Rifle/MPC 1
 	cooldown = 25
 	range = 30
 	accuracy = 0.82
@@ -1246,7 +1246,7 @@ strike_craft_component_template = {
 	regeneration_per_day = 0.034
 	launch_time = 8.0
 
-	damage = { min = 50 max = 90 } #360mm Bazooka
+	damage = { min = 25.0 max = 45.0 } #damage = { min = 50.0 max = 90.0 } 360mm Bazooka
 	cooldown = 20
 	range = 60
 	accuracy = 0.8
@@ -1295,7 +1295,7 @@ strike_craft_component_template = {
 	regeneration_per_day = 0.034
 	launch_time = 8.0
 
-	damage = { min = 115 max = 230 } #Beam Rifle/MPC 1
+	damage = { min = 57.7 max = 115.0 } #damage = { min = 115.0 max = 230.0 } Beam Rifle/MPC 1
 	cooldown = 25
 	range = 30
 	accuracy = 0.82
@@ -1344,7 +1344,7 @@ strike_craft_component_template = {
 	regeneration_per_day = 0.034
 	launch_time = 8.0
 
-	damage = { min = 60 max = 100 } #360mm Bazooka II
+	damage = { min = 30.0 max = 50.0 } #damage = { min = 60.0 max = 100.0 } 360mm Bazooka II
 	cooldown = 20
 	range = 70
 	accuracy = 0.85
@@ -1393,7 +1393,7 @@ strike_craft_component_template = {
 	regeneration_per_day = 0.034
 	launch_time = 8.0
 
-	damage = { min = 119 max = 238 } #Beam Rifle/MPC 1
+	damage = { min = 59.5 max = 119 } #damage = { min = 119 max = 238 } Beam Rifle/MPC 1
 	cooldown = 25
 	range = 30
 	accuracy = 0.82
@@ -1442,7 +1442,7 @@ strike_craft_component_template = {
 	regeneration_per_day = 0.034
 	launch_time = 8.0
 
-	damage = { min = 60 max = 100 } #360mm Bazooka II
+	damage = { min = 30.0 max = 50.0 } #damage = { min = 60.0 max = 100.0 } 360mm Bazooka II
 	cooldown = 20
 	range = 70
 	accuracy = 0.85
@@ -1491,7 +1491,7 @@ strike_craft_component_template = {
 	regeneration_per_day = 0.034
 	launch_time = 8.0
 
-	damage = { min = 10 max = 25 } #120mm
+	damage = { min = 5.0 max = 12.5 } #damage = { min = 10.0 max = 25.0 } 120mm
 	cooldown = 5
 	range = 20
 	accuracy = 0.82
@@ -1540,7 +1540,7 @@ strike_craft_component_template = {
 	regeneration_per_day = 0.034
 	launch_time = 8.0
 
-	damage = { min = 45 max = 80 } #280mm Bazooka
+	damage = { min = 22.5 max = 40.0 } #damage = { min = 45.0 max = 80.0 } 280mm Bazooka
 	cooldown = 20
 	range = 50
 	accuracy = 0.8275
@@ -1589,7 +1589,7 @@ strike_craft_component_template = {
 	regeneration_per_day = 0.034
 	launch_time = 8.0
 
-	damage = { min = 10 max = 25 } #120mm
+	damage = { min = 5.0 max = 12.5 } #damage = { min = 10.0 max = 25.0 } 120mm
 	cooldown = 5
 	range = 20
 	accuracy = 0.82
@@ -1638,7 +1638,7 @@ strike_craft_component_template = {
 	regeneration_per_day = 0.034
 	launch_time = 8.0
 
-	damage = { min = 50 max = 90 } #360mm Bazooka
+	damage = { min = 25.0 max = 45.0 } #damage = { min = 50.0 max = 90.0 } 360mm Bazooka
 	cooldown = 20
 	range = 60
 	accuracy = 0.8
@@ -1687,7 +1687,7 @@ strike_craft_component_template = {
 	regeneration_per_day = 0.034
 	launch_time = 8.0
 
-	damage = { min = 10 max = 20 } #90mm
+	damage = { min = 5.0 max = 10.0 } #damage = { min = 10.0 max = 20.0 } 90mm
 	cooldown = 3 #Improved rate of fire
 	range = 25
 	accuracy = 0.82
@@ -1736,7 +1736,7 @@ strike_craft_component_template = {
 	regeneration_per_day = 0.034
 	launch_time = 8.0
 
-	damage = { min = 60 max = 100 } #360mm Bazooka II
+	damage = { min = 30.0 max = 50.0 } #damage = { min = 60.0 max = 100.0 } 360mm Bazooka II
 	cooldown = 20
 	range = 70
 	accuracy = 0.85
@@ -1785,7 +1785,7 @@ strike_craft_component_template = {
 	regeneration_per_day = 0.034
 	launch_time = 8.0
 
-	damage = { min = 106 max = 218 } #Cannon - supposedly able to destroy MS in single hit
+	damage = { min = 53 max = 109 } #damage = { min = 106 max = 218 } Cannon - supposedly able to destroy MS in single hit
 	cooldown = 30
 	range = 70
 	accuracy = 0.70
@@ -1834,7 +1834,7 @@ strike_craft_component_template = {
 	regeneration_per_day = 0.034
 	launch_time = 8.0
 
-	damage = { min = 10 max = 25 } #120mm Gatling, same damage, higher fire rate, longer range, less accuracy
+	damage = { min = 5 max = 12.5 } #damage = { min = 10 max = 25 } 120mm Gatling, same damage, higher fire rate, longer range, less accuracy
 	cooldown = 1
 	range = 40
 	accuracy = 0.7
@@ -1883,7 +1883,7 @@ strike_craft_component_template = {
 	regeneration_per_day = 0.034
 	launch_time = 8.0
 
-	damage = { min = 106 max = 218 } #Cannon - supposedly able to destroy MS in single hit
+	damage = { min = 53 max = 109 } #damage = { min = 106 max = 218 } Cannon - supposedly able to destroy MS in single hit
 	cooldown = 25
 	range = 70
 	accuracy = 0.70
@@ -1932,7 +1932,7 @@ strike_craft_component_template = {
 	regeneration_per_day = 0.034
 	launch_time = 8.0
 
-	damage = { min = 41 max = 109 } #Double Cannon hit
+	damage = { min = 20.5 max = 54.5 } #damage = { min = 41 max = 109 } Double Cannon hit
 	cooldown = 25
 	range = 40
 	accuracy = 0.67
@@ -1981,7 +1981,7 @@ strike_craft_component_template = {
 	regeneration_per_day = 0.034
 	launch_time = 8.0
 
-	damage = { min = 115 max = 230 } #Beam Cannon - Large MPC
+	damage = { min = 57.7 max = 115.0 } #damage = { min = 115 max = 230 } Beam Cannon - Large MPC
 	cooldown = 25
 	range = 60
 	accuracy = 0.8
@@ -2030,7 +2030,7 @@ strike_craft_component_template = {
 	regeneration_per_day = 0.034
 	launch_time = 8.0
 
-	damage = { min = 10 max = 25 } #120mm
+	damage = { min = 5.0 max = 12.5 } #damage = { min = 10.0 max = 25.0 } 120mm
 	cooldown = 5
 	range = 20
 	accuracy = 0.82
@@ -2079,7 +2079,7 @@ strike_craft_component_template = {
 	regeneration_per_day = 0.034
 	launch_time = 8.0
 
-	damage = { min = 45 max = 80 } #280mm bazooka, normal fire rate
+	damage = { min = 22.5 max = 40.0 } #damage = { min = 45.0 max = 80.0 } 280mm Bazooka, normal fire rate
 	cooldown = 20
 	range = 50
 	accuracy = 0.75
@@ -2128,7 +2128,7 @@ strike_craft_component_template = {
 	regeneration_per_day = 0.034
 	launch_time = 8.0
 
-	damage = { min = 5 max = 20 } #40mm Vulcan
+	damage = { min = 2.5 max = 5.0 } #damage = { min = 5.0 max = 10.0 } 40mm Vulcan
 	cooldown = 5
 	range = 20
 	accuracy = 0.82
@@ -2177,7 +2177,7 @@ strike_craft_component_template = {
 	regeneration_per_day = 0.034
 	launch_time = 8.0
 
-	damage = { min = 10 max = 25 } #120mm Gatling, same damage, higher fire rate, longer range, less accuracy
+	damage = { min = 5 max = 12.5 } #damage = { min = 10 max = 25 } 120mm Gatling, same damage, higher fire rate, longer range, less accuracy
 	cooldown = 1
 	range = 40
 	accuracy = 0.7
@@ -2226,7 +2226,7 @@ strike_craft_component_template = {
 	regeneration_per_day = 0.034
 	launch_time = 8.0
 
-	damage = { min = 8 max = 12 } #Missile Pods
+	damage = { min = 4 max = 6 } #damage = { min = 8 max = 12 } Missile Pods
 	cooldown = 16
 	range = 100
 	accuracy = 1.0
@@ -2275,7 +2275,7 @@ strike_craft_component_template = {
 	regeneration_per_day = 0.034
 	launch_time = 8.0
 
-	damage = { min = 112 max = 224 } #Beam Rifle/MPC 1
+	damage = { min = 66 max = 112 } #damage = { min = 112 max = 224 } Beam Rifle/MPC 1
 	cooldown = 25
 	range = 30
 	accuracy = 0.82
@@ -2324,7 +2324,7 @@ strike_craft_component_template = {
 	regeneration_per_day = 0.034
 	launch_time = 8.0
 
-	damage = { min = 70 max = 120 } #420mm Bazooka
+	damage = { min = 35.0 max = 60.0 } #damage = { min = 70.0 max = 120.0 } 420mm Bazooka
 	cooldown = 20
 	range = 70
 	accuracy = 0.85
@@ -2373,7 +2373,7 @@ strike_craft_component_template = {
 	regeneration_per_day = 0.034
 	launch_time = 8.0
 
-	damage = { min = 114 max = 227 } #Beam Sniper/MPC 1
+	damage = { min = 57 max = 113.5 } #damage = { min = 114 max = 227 } Beam Sniper/MPC 1
 	cooldown = 35
 	range = 90
 	accuracy = 0.9
@@ -2422,7 +2422,7 @@ strike_craft_component_template = {
 	regeneration_per_day = 0.034
 	launch_time = 8.0
 
-	damage = { min = 70 max = 120 } #420mm Bazooka
+	damage = { min = 35.0 max = 60.0 } #damage = { min = 70.0 max = 120.0 } 420mm Bazooka
 	cooldown = 20
 	range = 70
 	accuracy = 0.85
@@ -2471,7 +2471,7 @@ strike_craft_component_template = {
 	regeneration_per_day = 0.034
 	launch_time = 8.0
 
-	damage = { min = 10 max = 25 } #120mm
+	damage = { min = 5.0 max = 12.5 } #damage = { min = 10.0 max = 25.0 } 120mm
 	cooldown = 5
 	range = 20
 	accuracy = 0.82
@@ -2520,7 +2520,7 @@ strike_craft_component_template = {
 	regeneration_per_day = 0.034
 	launch_time = 8.0
 
-	damage = { min = 45 max = 80 } #280mm Bazooka
+	damage = { min = 22.5 max = 40.0 } #damage = { min = 45.0 max = 80.0 } 280mm Bazooka
 	cooldown = 20
 	range = 50
 	accuracy = 0.75
@@ -2569,7 +2569,7 @@ strike_craft_component_template = {
 	regeneration_per_day = 0.034
 	launch_time = 8.0
 
-	damage = { min = 100 max = 200 } #135MM Anti-ship rifle
+	damage = { min = 50 max = 100 } #damage = { min = 100 max = 200 } 135MM Anti-ship rifle
 	cooldown = 35
 	range = 90
 	accuracy = 0.6
@@ -2619,7 +2619,7 @@ strike_craft_component_template = {
 	regeneration_per_day = 0.034
 	launch_time = 8.0
 
-	damage = { min = 48 max = 143 } #Triple Beam Arm
+	damage = { min = 24 max = 71.5 } #damage = { min = 48 max = 143 } Triple Beam Arm
 	cooldown = 5
 	range = 40
 	accuracy = 0.8
@@ -2669,7 +2669,7 @@ strike_craft_component_template = {
 	regeneration_per_day = 0.034
 	launch_time = 8.0
 
-	damage = { min = 60 max = 100 } #360mm Bazooka II
+	damage = { min = 30.0 max = 50.0 } #damage = { min = 60.0 max = 100.0 } 360mm Bazooka II
 	cooldown = 20
 	range = 70
 	accuracy = 0.85
@@ -2719,7 +2719,7 @@ strike_craft_component_template = {
 	regeneration_per_day = 0.034
 	launch_time = 8.0
 
-	damage = { min = 138 max = 275 } #Beam Rifle/MPC 1
+	damage = { min = 69 max = 137.5 } #damage = { min = 138 max = 275 } Beam Rifle/MPC 1
 	cooldown = 25
 	range = 30
 	accuracy = 0.82
@@ -2769,7 +2769,7 @@ strike_craft_component_template = {
 	regeneration_per_day = 0.034
 	launch_time = 8.0
 
-	damage = { min = 70 max = 120 } #420mm Bazooka
+	damage = { min = 35.0 max = 60.0 } #damage = { min = 70.0 max = 120.0 } 420mm Bazooka
 	cooldown = 20
 	range = 70
 	accuracy = 0.85
@@ -2819,7 +2819,7 @@ strike_craft_component_template = {
 	regeneration_per_day = 0.034
 	launch_time = 8.0
 
-	damage = { min = 171 max = 342 } #Beam Rifle/MPC 1
+	damage = { min = 85.5 max = 171 } #damage = { min = 171 max = 342 } Beam Rifle/MPC 1
 	cooldown = 25
 	range = 30
 	accuracy = 0.82
@@ -2869,7 +2869,7 @@ strike_craft_component_template = {
 	regeneration_per_day = 0.034
 	launch_time = 8.0
 
-	damage = { min = 70 max = 120 } #420mm Bazooka
+	damage = { min = 35.0 max = 60.0 } #damage = { min = 70.0 max = 120.0 } 420mm Bazooka
 	cooldown = 20
 	range = 70
 	accuracy = 0.85
@@ -2919,7 +2919,7 @@ strike_craft_component_template = {
 	regeneration_per_day = 0.034
 	launch_time = 8.0
 
-	damage = { min = 182 max = 365 } #Beam Rifle/MPC 1
+	damage = { min = 91 max = 182.5 } #damage = { min = 182 max = 365 } Beam Rifle/MPC 1
 	cooldown = 25
 	range = 30
 	accuracy = 0.82
@@ -2969,7 +2969,7 @@ strike_craft_component_template = {
 	regeneration_per_day = 0.034
 	launch_time = 8.0
 
-	damage = { min = 70 max = 120 } #420mm Bazooka
+	damage = { min = 35.0 max = 60.0 } #damage = { min = 70.0 max = 120.0 } 420mm Bazooka
 	cooldown = 20
 	range = 70
 	accuracy = 0.85
@@ -3019,7 +3019,7 @@ strike_craft_component_template = {
 	regeneration_per_day = 0.034
 	launch_time = 8.0
 
-	damage = { min = 147 max = 294 } #Beam Rifle/MPC 1
+	damage = { min = 73.5 max = 147 } #damage = { min = 147 max = 294 } Beam Rifle/MPC 1
 	cooldown = 25
 	range = 30
 	accuracy = 0.82
@@ -3069,7 +3069,7 @@ strike_craft_component_template = {
 	regeneration_per_day = 0.034
 	launch_time = 8.0
 
-	damage = { min = 70 max = 120 } #420mm Bazooka
+	damage = { min = 35.0 max = 60.0 } #damage = { min = 70.0 max = 120.0 } 420mm Bazooka
 	cooldown = 20
 	range = 70
 	accuracy = 0.85
@@ -3119,7 +3119,7 @@ strike_craft_component_template = {
 	regeneration_per_day = 0.034
 	launch_time = 8.0
 
-	damage = { min = 172 max = 344 } #Beam Rifle/MPC 1
+	damage = { min = 86 max = 172 } #damage = { min = 172 max = 344 } Beam Rifle/MPC 1
 	cooldown = 25
 	range = 30
 	accuracy = 0.82
@@ -3169,7 +3169,7 @@ strike_craft_component_template = {
 	regeneration_per_day = 0.034
 	launch_time = 8.0
 
-	damage = { min = 70 max = 120 } #420mm Bazooka
+	damage = { min = 35.0 max = 60.0 } #damage = { min = 70.0 max = 120.0 } 420mm Bazooka
 	cooldown = 20
 	range = 70
 	accuracy = 0.85
@@ -3219,7 +3219,7 @@ strike_craft_component_template = {
 	regeneration_per_day = 0.034
 	launch_time = 8.0
 
-	damage = { min = 229 max = 458 } #Beam Rifle/MPC 1
+	damage = { min = 114.5 max = 229 } #damage = { min = 229 max = 458 } Beam Rifle/MPC 1
 	cooldown = 25
 	range = 30
 	accuracy = 0.82
@@ -3269,7 +3269,7 @@ strike_craft_component_template = {
 	regeneration_per_day = 0.034
 	launch_time = 8.0
 
-	damage = { min = 70 max = 120 } #420mm Bazooka
+	damage = { min = 35.0 max = 60.0 } #damage = { min = 70.0 max = 120.0 } 420mm Bazooka
 	cooldown = 20
 	range = 70
 	accuracy = 0.85
@@ -3319,7 +3319,7 @@ strike_craft_component_template = {
 	regeneration_per_day = 0.034
 	launch_time = 8.0
 
-	damage = { min = 236 max = 472 } #Beam Rifle/MPC 1
+	damage = { min = 118 max = 236 } #damage = { min = 236 max = 472 } Beam Rifle/MPC 1
 	cooldown = 25
 	range = 30
 	accuracy = 0.82
@@ -3369,7 +3369,7 @@ strike_craft_component_template = {
 	regeneration_per_day = 0.034
 	launch_time = 8.0
 
-	damage = { min = 70 max = 120 } #420mm Bazooka
+	damage = { min = 35.0 max = 60.0 } #damage = { min = 70.0 max = 120.0 } 420mm Bazooka
 	cooldown = 20
 	range = 70
 	accuracy = 0.85
@@ -3419,7 +3419,7 @@ strike_craft_component_template = {
 	regeneration_per_day = 0.034
 	launch_time = 8.0
 
-	damage = { min = 147 max = 294 } #Beam Rifle/MPC 1
+	damage = { min = 73.5 max = 147 } #damage = { min = 147 max = 294 } Beam Rifle/MPC 1
 	cooldown = 25
 	range = 30
 	accuracy = 0.82
@@ -3469,7 +3469,7 @@ strike_craft_component_template = {
 	regeneration_per_day = 0.034
 	launch_time = 8.0
 
-	damage = { min = 227 max = 454 } #Beam Cannon - Large MPC
+	damage = { min = 113.5 max = 227 } #damage = { min = 227 max = 454 } Beam Cannon - Large MPC
 	cooldown = 25
 	range = 60
 	accuracy = 0.8
@@ -3519,7 +3519,7 @@ strike_craft_component_template = {
 	regeneration_per_day = 0.034
 	launch_time = 8.0
 
-	damage = { min = 8 max = 12 } #Missile Pods
+	damage = { min = 4 max = 6 } #damage = { min = 8 max = 12 } Missile Pods
 	cooldown = 16
 	range = 100
 	accuracy = 1.0
@@ -3569,7 +3569,7 @@ strike_craft_component_template = {
 	regeneration_per_day = 0.034
 	launch_time = 8.0
 
-	damage = { min = 180 max = 360 } #2x Beam Cannon - Large MPC
+	damage = { min = 90 max = 180 } #damage = { min = 180 max = 360 } 2x Beam Cannon - Large MPC
 	cooldown = 25
 	range = 60
 	accuracy = 0.8
@@ -3619,7 +3619,7 @@ strike_craft_component_template = {
 	regeneration_per_day = 0.034
 	launch_time = 8.0
 
-	damage = { min = 666 max = 1331 } #Beam Cannon - Large MPC
+	damage = { min = 333 max = 665.5 } #damage = { min = 666 max = 1331 } Beam Cannon - Large MPC
 	cooldown = 25
 	range = 60
 	accuracy = 0.8
@@ -3668,7 +3668,7 @@ strike_craft_component_template = {
 	regeneration_per_day = 0.034
 	launch_time = 8.0
 
-	damage = { min = 151 max = 302 } #Beam Rifle/MPC 1
+	damage = { min = 75.5 max = 151 } #damage = { min = 151 max = 302 } Beam Rifle/MPC 1
 	cooldown = 10
 	range = 30
 	accuracy = 0.82
@@ -3717,7 +3717,7 @@ strike_craft_component_template = {
 	regeneration_per_day = 0.034
 	launch_time = 8.0
 
-	damage = { min = 60 max = 100 } #360mm Bazooka II
+	damage = { min = 30.0 max = 50.0 } #damage = { min = 60.0 max = 100.0 } 360mm Bazooka II
 	cooldown = 20
 	range = 70
 	accuracy = 0.85
@@ -3767,7 +3767,7 @@ strike_craft_component_template = {
 	regeneration_per_day = 0.034
 	launch_time = 8.0
 
-	damage = { min = 146 max = 291 } #Beam Rifle/MPC 1
+	damage = { min = 73 max = 145.5 } #damage = { min = 146 max = 291 } Beam Rifle/MPC 1
 	cooldown = 5
 	range = 30
 	accuracy = 0.9
@@ -3817,7 +3817,7 @@ strike_craft_component_template = {
 	regeneration_per_day = 0.034
 	launch_time = 8.0
 
-	damage = { min = 146 max = 291 } #Beam Rifle/MPC 1
+	damage = { min = 73 max = 145.5 } #damage = { min = 146 max = 291 } Beam Rifle/MPC 1
 	cooldown = 5
 	range = 30
 	accuracy = 0.9
@@ -3867,7 +3867,7 @@ strike_craft_component_template = {
 	regeneration_per_day = 0.034
 	launch_time = 8.0
 
-	damage = { min = 186 max = 371 } #Beam Rifle/MPC 1
+	damage = { min = 93 max = 185.5 } #damage = { min = 186 max = 371 } Beam Rifle/MPC 1
 	cooldown = 25
 	range = 30
 	accuracy = 0.82
@@ -3917,7 +3917,7 @@ strike_craft_component_template = {
 	regeneration_per_day = 0.034
 	launch_time = 8.0
 
-	damage = { min = 193 max = 386 } #Beam Rifle/MPC 1
+	damage = { min = 96.5 max = 193 } #damage = { min = 193 max = 386 } Beam Rifle/MPC 1
 	cooldown = 25
 	range = 30
 	accuracy = 0.82
@@ -3967,7 +3967,7 @@ strike_craft_component_template = {
 	regeneration_per_day = 0.034
 	launch_time = 8.0
 
-	damage = { min = 246 max = 491 } #Beam Rifle/MPC 1
+	damage = { min = 123 max = 245.5 } #damage = { min = 246 max = 491 } Beam Rifle/MPC 1
 	cooldown = 25
 	range = 30
 	accuracy = 0.82
@@ -4017,7 +4017,7 @@ strike_craft_component_template = {
 	regeneration_per_day = 0.034
 	launch_time = 8.0
 
-	damage = { min = 1710 max = 3419 } #Beam Rifle/MPC 1
+	damage = { min = 855 max = 1709.5 } #damage = { min = 1710 max = 3419 } Beam Rifle/MPC 1
 	cooldown = 15
 	range = 30
 	accuracy = 0.9
@@ -4067,7 +4067,7 @@ strike_craft_component_template = {
 	regeneration_per_day = 0.034
 	launch_time = 8.0
 
-	damage = { min = 1323 max = 2646 } #Beam Rifle/MPC 1
+	damage = { min = 661.5 max = 1323 } #damage = { min = 1323 max = 2646 } Beam Rifle/MPC 1
 	cooldown = 15
 	range = 30
 	accuracy = 0.9
@@ -4117,7 +4117,7 @@ strike_craft_component_template = {
 	regeneration_per_day = 0.034
 	launch_time = 8.0
 
-	damage = { min = 306 max = 611 } #Beam Rifle/MPC 1
+	damage = { min = 153 max = 305.5 } #damage = { min = 306 max = 611 } Beam Rifle/MPC 1
 	cooldown = 5
 	range = 30
 	accuracy = 0.9
@@ -4167,7 +4167,7 @@ strike_craft_component_template = {
 	regeneration_per_day = 0.034
 	launch_time = 8.0
 
-	damage = { min = 420 max = 840 } #Beam Rifle/MPC 1
+	damage = { min = 210 max = 420 } #damage = { min = 420 max = 840 } Beam Rifle/MPC 1
 	cooldown = 25
 	range = 30
 	accuracy = 0.82
@@ -4216,7 +4216,7 @@ strike_craft_component_template = {
 	regeneration_per_day = 0.034
 	launch_time = 8.0
 
-	damage = { min = 43 max = 130 } #Beam Machine Gun/MPC 1
+	damage = { min = 21.5 max = 65 } #damage = { min = 43 max = 130 } Beam Machine Gun/MPC 1
 	cooldown = 10
 	range = 30
 	accuracy = 0.82
@@ -4265,7 +4265,7 @@ strike_craft_component_template = {
 	regeneration_per_day = 0.034
 	launch_time = 8.0
 
-	damage = { min = 70 max = 120 } #420mm Bazooka
+	damage = { min = 35.0 max = 60.0 } #damage = { min = 70.0 max = 120.0 } 420mm Bazooka
 	cooldown = 20
 	range = 70
 	accuracy = 0.85
@@ -4314,7 +4314,7 @@ strike_craft_component_template = {
 	regeneration_per_day = 0.034
 	launch_time = 8.0
 
-	damage = { min = 173 max = 346 } #Beam Rifle/MPC 1 Intentionally high accuracy
+	damage = { min = 86.5 max = 173 } #damage = { min = 173 max = 346 } Beam Rifle/MPC 1 Intentionally high accuracy
 	cooldown = 25
 	range = 30
 	accuracy = 0.9
@@ -4364,7 +4364,7 @@ strike_craft_component_template = {
 	regeneration_per_day = 0.034
 	launch_time = 8.0
 
-	damage = { min = 267 max = 534 } #Beam Rifle/MPC 1 Intentionally high accuracy
+	damage = { min = 133.5 max = 267 } #damage = { min = 267 max = 534 } Beam Rifle/MPC 1 Intentionally high accuracy
 	cooldown = 25
 	range = 30
 	accuracy = 0.9
@@ -4414,7 +4414,7 @@ strike_craft_component_template = {
 	regeneration_per_day = 0.034
 	launch_time = 8.0
 
-	damage = { min = 317 max = 634 } #Beam Rifle/MPC 1 Intentionally high accuracy
+	damage = { min = 158.5 max = 317 } #damage = { min = 317 max = 634 } Beam Rifle/MPC 1 Intentionally high accuracy
 	cooldown = 25
 	range = 30
 	accuracy = 0.9
@@ -4464,7 +4464,7 @@ strike_craft_component_template = {
 	regeneration_per_day = 0.034
 	launch_time = 8.0
 
-	damage = { min = 173 max = 346 } #Beam Rifle/MPC 1
+	damage = { min = 86.5 max = 173 } #damage = { min = 173 max = 346 } Beam Rifle/MPC 1
 	cooldown = 25
 	range = 30
 	accuracy = 0.82
@@ -4513,7 +4513,7 @@ strike_craft_component_template = {
 	regeneration_per_day = 0.034
 	launch_time = 8.0
 
-	damage = { min = 43 max = 130 } #Beam Machine Gun/MPC 1
+	damage = { min = 21.5 max = 65 } #damage = { min = 43 max = 130 } Beam Machine Gun/MPC 1
 	cooldown = 10
 	range = 30
 	accuracy = 0.82
@@ -4562,7 +4562,7 @@ strike_craft_component_template = {
 	regeneration_per_day = 0.034
 	launch_time = 8.0
 
-	damage = { min = 43 max = 130 } #Beam Machine Gun/MPC 1
+	damage = { min = 21.5 max = 65 } #damage = { min = 43 max = 130 } Beam Machine Gun/MPC 1
 	cooldown = 10
 	range = 30
 	accuracy = 0.82
@@ -4611,7 +4611,7 @@ strike_craft_component_template = {
 	regeneration_per_day = 0.034
 	launch_time = 8.0
 
-	damage = { min = 198 max = 395 } #Beam Machine Gun/MPC 1
+	damage = { min = 99 max = 197.5 } #damage = { min = 198 max = 395 } Beam Machine Gun/MPC 1
 	cooldown = 10
 	range = 30
 	accuracy = 0.82
@@ -4660,7 +4660,7 @@ strike_craft_component_template = {
 	regeneration_per_day = 0.034
 	launch_time = 8.0
 
-	damage = { min = 70 max = 120 } #420mm Bazooka
+	damage = { min = 35.0 max = 60.0 } #damage = { min = 70.0 max = 120.0 } 420mm Bazooka
 	cooldown = 20
 	range = 70
 	accuracy = 0.85

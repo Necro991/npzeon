@@ -9,30 +9,31 @@ ms_army = {
 	time = 360
 	icon_frame = 2
 
-	cost = {
-		resources = {
-			category = armies
+	resources = {
+		category = armies
+		cost = {
 			mobile_suits = 48
 			zeon_pilots = 48
 		}
-
 		upkeep = {
 			energy = 10
-			mobile_suits = 1
+			mobile_suits = 48
 			zeon_pilots = 1
 		}
 	}
 
 	#prerequisites = { "tech_BEAMC_1" }
 
-	allow = {
+	potential = {
+		owner = {
+			has_technology = "tech_BEAMC_1"
+		}
 		OR = {
 			has_building = "building_ms_factory_1"
 			has_building = "building_ms_factory_2"
 			has_building = "building_ms_factory_3"
 		}
 	}
-
 }
 
 efsf_ms_army = {
@@ -45,8 +46,9 @@ efsf_ms_army = {
 	time = 360
 	icon_frame = 2
 
-	cost = {
-		resources = {
+	resources = {
+		category = armies
+		cost = {
 			category = armies
 			mobile_suits = 48
 			efsf_pilots = 48
@@ -61,12 +63,14 @@ efsf_ms_army = {
 
 	#prerequisites = { "tech_BEAMC_1" }
 
-	allow = {
+	potential = {
+		owner = {
+			has_technology = "tech_EFSF_BEAMC_1"
+		}
 		OR = {
 			has_building = "building_ms_factory_1"
 			has_building = "building_ms_factory_2"
 			has_building = "building_ms_factory_3"
 		}
 	}
-
 }
