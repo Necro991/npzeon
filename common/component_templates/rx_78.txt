@@ -198,7 +198,7 @@ utility_component_template = {
 	icon_frame = 1
 	power = 0
 
-	prerequisites = { "tech_RX_78_2" }
+	prerequisites = { "tech_RX_78_1" }
 
 	component_set = "fa_78_armor"
 	upgrades_to = "fa_78_armor_1"
