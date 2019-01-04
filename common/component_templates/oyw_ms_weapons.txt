@@ -610,7 +610,7 @@ weapon_component_template = {
 	icon_frame = 1
 
 	power = -3000
-	cost = resources = {
+	resources = {
 		category = ship_components
 		cost = {
 			alloys = 25

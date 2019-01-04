@@ -101,7 +101,12 @@ utility_component_template = {
 	icon = "GFX_ship_part_thruster_2"
 	icon_frame = 1
 	power = 0
-	cost = 0
+	resources = {
+		category = ship_components
+		cost = {
+			alloys = 5
+		}
+	}
 
 	modifier = {
 		ship_evasion_add = 50

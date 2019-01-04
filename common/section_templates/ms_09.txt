@@ -2,18 +2,10 @@ ship_section_template = { #MS-09R
 	key = "MS_09R_MID"
 	ship_size = MS_09
 	fits_on_slot = mid
-	entity = "rick_dom_entity"
+	entity = "Rick_Dom_Trio_entity"
 	icon = "GFX_ship_part_core_mid"
 
 	prerequisites = { tech_MS_09R }
-
-	# Guns
-	weapon_preferences = { weapon_type_z1 }
-	ai_weight = {
-		modifier = {
-			factor = 10.0
-		}
-	}
 
 	component_slot = {
 		name = "SMALL_GUN_01"
@@ -53,18 +45,10 @@ ship_section_template = { #MS-009R Commander
 	key = "MS_09R_COMMANDER_MID"
 	ship_size = MS_09S
 	fits_on_slot = mid
-	entity = "rick_dom_entity"
+	entity = "Rick_Dom_Trio_entity"
 	icon = "GFX_ship_part_core_mid"
 
 	prerequisites = { tech_MS_09R }
-
-	# Guns
-	weapon_preferences = { weapon_type_z1 }
-	ai_weight = {
-		modifier = {
-			factor = 10.0
-		}
-	}
 
 	component_slot = {
 		name = "SMALL_GUN_01"
@@ -111,18 +95,10 @@ ship_section_template = { #MS-09K Dom Cannon
 	key = "MS_09K_MID"
 	ship_size = MS_09K
 	fits_on_slot = mid
-	entity = "rick_dom_entity"
+	entity = "Rick_Dom_Trio_entity"
 	icon = "GFX_ship_part_core_mid"
 
 	prerequisites = { tech_MS_09K }
-
-	# Guns
-	weapon_preferences = { weapon_type_z1 }
-	ai_weight = {
-		modifier = {
-			factor = 10.0
-		}
-	}
 
 	component_slot = {
 		name = "EXTRA_LARGE_01"

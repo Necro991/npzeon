@@ -7,14 +7,6 @@ ship_section_template = { #Guncannon
 
 	prerequisites = { tech_RGC_83 }
 
-	# Guns
-	weapon_preferences = { weapon_type_z1 }
-	ai_weight = {
-		modifier = {
-			factor = 10.0
-		}
-	}
-
 	component_slot = {
 		name = "EXTRA_LARGE_01"
 		slot_size = extra_large

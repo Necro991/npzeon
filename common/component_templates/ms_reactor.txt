@@ -18,7 +18,7 @@ utility_component_template = {
 		}
 
 		modifier = {
-			SHIP_SENSOR_RANGE_MULT = -0.1
+			
 			SHIP_ACCURACY_MULT = -0.25
 			SHIP_TRACKING_MULT = -0.25
 		}
@@ -54,7 +54,7 @@ utility_component_template = {
 		}
 
 		modifier = {
-			SHIP_SENSOR_RANGE_MULT = -0.1
+
 			SHIP_ACCURACY_MULT = -0.25
 			SHIP_TRACKING_MULT = -0.25
 		}
@@ -90,7 +90,7 @@ utility_component_template = {
 		}
 
 		modifier = {
-			SHIP_SENSOR_RANGE_MULT = -0.1
+
 			SHIP_ACCURACY_MULT = -0.25
 			SHIP_TRACKING_MULT = -0.25
 		}
@@ -126,7 +126,7 @@ utility_component_template = {
 		}
 
 		modifier = {
-			SHIP_SENSOR_RANGE_MULT = -0.1
+
 			SHIP_ACCURACY_MULT = -0.25
 			SHIP_TRACKING_MULT = -0.25
 		}
@@ -178,7 +178,7 @@ utility_component_template = {
 		}
 
 		modifier = {
-			SHIP_SENSOR_RANGE_MULT = -0.1
+
 			SHIP_ACCURACY_MULT = -0.25
 			SHIP_TRACKING_MULT = -0.25
 		}
@@ -214,7 +214,7 @@ utility_component_template = {
 		}
 
 		modifier = {
-			SHIP_SENSOR_RANGE_MULT = -0.1
+
 			SHIP_ACCURACY_MULT = -0.25
 			SHIP_TRACKING_MULT = -0.25
 		}
@@ -250,7 +250,7 @@ utility_component_template = {
 		}
 
 		modifier = {
-			SHIP_SENSOR_RANGE_MULT = -0.1
+
 			SHIP_ACCURACY_MULT = -0.25
 			SHIP_TRACKING_MULT = -0.25
 		}
@@ -286,7 +286,7 @@ utility_component_template = {
 		}
 
 		modifier = {
-			SHIP_SENSOR_RANGE_MULT = -0.1
+
 			SHIP_ACCURACY_MULT = -0.25
 			SHIP_TRACKING_MULT = -0.25
 		}
@@ -322,7 +322,7 @@ utility_component_template = {
 		}
 
 		modifier = {
-			SHIP_SENSOR_RANGE_MULT = -0.1
+
 			SHIP_ACCURACY_MULT = -0.25
 			SHIP_TRACKING_MULT = -0.25
 		}
@@ -358,7 +358,7 @@ utility_component_template = {
 		}
 
 		modifier = {
-			SHIP_SENSOR_RANGE_MULT = -0.1
+
 			SHIP_ACCURACY_MULT = -0.25
 			SHIP_TRACKING_MULT = -0.25
 		}
@@ -410,7 +410,7 @@ utility_component_template = {
 		}
 
 		modifier = {
-			SHIP_SENSOR_RANGE_MULT = -0.1
+
 			SHIP_ACCURACY_MULT = -0.25
 			SHIP_TRACKING_MULT = -0.25
 		}
@@ -446,7 +446,7 @@ utility_component_template = {
 		}
 
 		modifier = {
-			SHIP_SENSOR_RANGE_MULT = -0.1
+
 			SHIP_ACCURACY_MULT = -0.25
 			SHIP_TRACKING_MULT = -0.25
 		}
@@ -482,7 +482,7 @@ utility_component_template = {
 		}
 
 		modifier = {
-			SHIP_SENSOR_RANGE_MULT = -0.1
+
 			SHIP_ACCURACY_MULT = -0.25
 			SHIP_TRACKING_MULT = -0.25
 		}
@@ -518,7 +518,7 @@ utility_component_template = {
 		}
 
 		modifier = {
-			SHIP_SENSOR_RANGE_MULT = -0.1
+
 			SHIP_ACCURACY_MULT = -0.25
 			SHIP_TRACKING_MULT = -0.25
 		}
@@ -554,7 +554,7 @@ utility_component_template = {
 		}
 
 		modifier = {
-			SHIP_SENSOR_RANGE_MULT = -0.1
+
 			SHIP_ACCURACY_MULT = -0.25
 			SHIP_TRACKING_MULT = -0.25
 		}
@@ -590,7 +590,7 @@ utility_component_template = {
 		}
 
 		modifier = {
-			SHIP_SENSOR_RANGE_MULT = -0.1
+
 			SHIP_ACCURACY_MULT = -0.25
 			SHIP_TRACKING_MULT = -0.25
 		}
@@ -626,7 +626,7 @@ utility_component_template = {
 		}
 
 		modifier = {
-			SHIP_SENSOR_RANGE_MULT = -0.1
+
 			SHIP_ACCURACY_MULT = -0.25
 			SHIP_TRACKING_MULT = -0.25
 		}
@@ -662,7 +662,7 @@ utility_component_template = {
 		}
 
 		modifier = {
-			SHIP_SENSOR_RANGE_MULT = -0.1
+
 			SHIP_ACCURACY_MULT = -0.25
 			SHIP_TRACKING_MULT = -0.25
 		}
@@ -698,7 +698,7 @@ utility_component_template = {
 		}
 
 		modifier = {
-			SHIP_SENSOR_RANGE_MULT = -0.1
+
 			SHIP_ACCURACY_MULT = -0.25
 			SHIP_TRACKING_MULT = -0.25
 		}
@@ -734,7 +734,7 @@ utility_component_template = {
 		}
 
 		modifier = {
-			SHIP_SENSOR_RANGE_MULT = -0.1
+
 			SHIP_ACCURACY_MULT = -0.25
 			SHIP_TRACKING_MULT = -0.25
 		}
@@ -770,7 +770,7 @@ utility_component_template = {
 		}
 
 		modifier = {
-			SHIP_SENSOR_RANGE_MULT = -0.1
+
 			SHIP_ACCURACY_MULT = -0.25
 			SHIP_TRACKING_MULT = -0.25
 		}
@@ -806,7 +806,7 @@ utility_component_template = {
 		}
 
 		modifier = {
-			SHIP_SENSOR_RANGE_MULT = -0.1
+
 			SHIP_ACCURACY_MULT = -0.25
 			SHIP_TRACKING_MULT = -0.25
 		}
@@ -842,7 +842,7 @@ utility_component_template = {
 		}
 
 		modifier = {
-			SHIP_SENSOR_RANGE_MULT = -0.1
+
 			SHIP_ACCURACY_MULT = -0.25
 			SHIP_TRACKING_MULT = -0.25
 		}
@@ -878,7 +878,7 @@ utility_component_template = {
 		}
 
 		modifier = {
-			SHIP_SENSOR_RANGE_MULT = -0.1
+
 			SHIP_ACCURACY_MULT = -0.25
 			SHIP_TRACKING_MULT = -0.25
 		}

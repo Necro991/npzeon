@@ -7,13 +7,48 @@ ship_section_template = { #Gundam
 
 	prerequisites = { tech_RX_78_1 }
 
-	# Guns
-	weapon_preferences = { weapon_type_z1 }
-	ai_weight = {
-		modifier = {
-			factor = 10.0
+	component_slot = {
+		name = "EXTRA_LARGE_01"
+		slot_size = extra_large
+		slot_type = weapon
+		locatorname = "xl_gun_01"
+	}
+
+	component_slot = {
+		name = "SMALL_GUN_01"
+		slot_size = point_defence
+		slot_type = weapon
+		locatorname = "small_gun_01"
+	}
+
+	component_slot = {
+		name = "SMALL_GUN_02"
+		slot_size = point_defence
+		slot_type = weapon
+		locatorname = "small_gun_02"
+	}
+
+	small_utility_slots = 0
+	medium_utility_slots = 0
+	large_utility_slots = 0
+	aux_utility_slots = 0
+
+	resources = {
+		category = ship_sections
+		cost = {
+			alloys = 36
 		}
 	}
+}
+
+ship_section_template = { #Gundam
+	key = "RX_78NT_1_MID"
+	ship_size = RX_78
+	fits_on_slot = mid
+	entity = "gundam_alex_entity"
+	icon = "GFX_ship_part_core_mid"
+
+	prerequisites = { tech_RX_78NT_1 }
 
 	component_slot = {
 		name = "EXTRA_LARGE_01"
@@ -57,14 +92,6 @@ ship_section_template = { #FA Gundam
 	icon = "GFX_ship_part_core_mid"
 
 	prerequisites = { tech_FA_78_1 }
-
-	# Guns
-	weapon_preferences = { weapon_type_z1 }
-	ai_weight = {
-		modifier = {
-			factor = 10.0
-		}
-	}
 
 	component_slot = {
 		name = "EXTRA_LARGE_01"
@@ -137,14 +164,6 @@ ship_section_template = { #FA Gundam Alt
 
 	prerequisites = { tech_FA_78_1 }
 
-	# Guns
-	weapon_preferences = { weapon_type_z1 }
-	ai_weight = {
-		modifier = {
-			factor = 10.0
-		}
-	}
-
 	component_slot = {
 		name = "EXTRA_LARGE_01"
 		slot_size = extra_large
@@ -215,14 +234,6 @@ ship_section_template = { #FA Gundam 1b
 	icon = "GFX_ship_part_core_mid"
 
 	prerequisites = { tech_FA_78_1 }
-
-	# Guns
-	weapon_preferences = { weapon_type_z1 }
-	ai_weight = {
-		modifier = {
-			factor = 10.0
-		}
-	}
 
 	component_slot = {
 		name = "EXTRA_LARGE_01"
@@ -295,14 +306,6 @@ ship_section_template = { #FA Perfect Gundam
 
 	prerequisites = { tech_FA_78_1 }
 
-	# Guns
-	weapon_preferences = { weapon_type_z1 }
-	ai_weight = {
-		modifier = {
-			factor = 10.0
-		}
-	}
-
 	component_slot = {
 		name = "EXTRA_LARGE_01"
 		slot_size = extra_large
@@ -374,14 +377,6 @@ ship_section_template = { #Heavy Gundam
 
 	prerequisites = { tech_FA_78_2 }
 
-	# Guns
-	weapon_preferences = { weapon_type_z1 }
-	ai_weight = {
-		modifier = {
-			factor = 10.0
-		}
-	}
-
 	component_slot = {
 		name = "EXTRA_LARGE_01"
 		slot_size = extra_large
@@ -431,14 +426,6 @@ ship_section_template = { #Heavy Gundam
 	icon = "GFX_ship_part_core_mid"
 
 	prerequisites = { tech_FA_78_2 }
-
-	# Guns
-	weapon_preferences = { weapon_type_z1 }
-	ai_weight = {
-		modifier = {
-			factor = 10.0
-		}
-	}
 
 	component_slot = {
 		name = "EXTRA_LARGE_01"
@@ -490,14 +477,6 @@ ship_section_template = { #Heavy Gundam
 
 	prerequisites = { tech_FA_78_2 }
 
-	# Guns
-	weapon_preferences = { weapon_type_z1 }
-	ai_weight = {
-		modifier = {
-			factor = 10.0
-		}
-	}
-
 	component_slot = {
 		name = "EXTRA_LARGE_01"
 		slot_size = extra_large
@@ -547,14 +526,6 @@ ship_section_template = { #Heavy Gundam Unit 2
 	icon = "GFX_ship_part_core_mid"
 
 	prerequisites = { tech_FA_78_2 }
-
-	# Guns
-	weapon_preferences = { weapon_type_z1 }
-	ai_weight = {
-		modifier = {
-			factor = 10.0
-		}
-	}
 
 	component_slot = {
 		name = "EXTRA_LARGE_01"
@@ -606,14 +577,6 @@ ship_section_template = { #Heavy Gundam Ingrid
 
 	prerequisites = { tech_FA_78_2 }
 
-	# Guns
-	weapon_preferences = { weapon_type_z1 }
-	ai_weight = {
-		modifier = {
-			factor = 10.0
-		}
-	}
-
 	component_slot = {
 		name = "EXTRA_LARGE_01"
 		slot_size = extra_large
@@ -664,14 +627,6 @@ ship_section_template = { #Heavy Gundam Cyphus
 
 	prerequisites = { tech_FA_78_2 }
 
-	# Guns
-	weapon_preferences = { weapon_type_z1 }
-	ai_weight = {
-		modifier = {
-			factor = 10.0
-		}
-	}
-
 	component_slot = {
 		name = "EXTRA_LARGE_01"
 		slot_size = extra_large
@@ -721,14 +676,6 @@ ship_section_template = { #FA Gundam Thunderbolt
 	icon = "GFX_ship_part_core_mid"
 
 	prerequisites = { tech_FA_78_1 }
-
-	# Guns
-	weapon_preferences = { weapon_type_z1 }
-	ai_weight = {
-		modifier = {
-			factor = 10.0
-		}
-	}
 
 	component_slot = {
 		name = "EXTRA_LARGE_01"
@@ -814,14 +761,6 @@ ship_section_template = { #Heavy Gundam
 	icon = "GFX_ship_part_core_mid"
 
 	prerequisites = { tech_HFA_78_3 }
-
-	# Guns
-	weapon_preferences = { weapon_type_z1 }
-	ai_weight = {
-		modifier = {
-			factor = 10.0
-		}
-	}
 
 	component_slot = {
 		name = "EXTRA_LARGE_01"

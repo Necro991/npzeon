@@ -2,7 +2,7 @@ ship_section_template = { #MS-18E Kämpfer
 	key = "MS_18E_MID"
 	ship_size = MS_18E
 	fits_on_slot = mid
-	entity = "bomber_4z_entity"
+	entity = "Kampfer_entity"
 	icon = "GFX_ship_part_core_mid"
 
 	prerequisites = { tech_MS_18E }

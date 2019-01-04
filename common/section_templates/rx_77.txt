@@ -7,14 +7,6 @@ ship_section_template = { #Guncannon
 
 	prerequisites = { tech_RX_77_1A }
 
-	# Guns
-	weapon_preferences = { weapon_type_z1 }
-	ai_weight = {
-		modifier = {
-			factor = 10.0
-		}
-	}
-
 	component_slot = {
 		name = "EXTRA_LARGE_01"
 		slot_size = extra_large
@@ -64,14 +56,6 @@ ship_section_template = { #Guncannon
 	icon = "GFX_ship_part_core_mid"
 
 	prerequisites = { tech_RX_77D }
-
-	# Guns
-	weapon_preferences = { weapon_type_z1 }
-	ai_weight = {
-		modifier = {
-			factor = 10.0
-		}
-	}
 
 	component_slot = {
 		name = "EXTRA_LARGE_01"
@@ -123,14 +107,6 @@ ship_section_template = { #Guncannon
 
 	prerequisites = { tech_RX_77D }
 
-	# Guns
-	weapon_preferences = { weapon_type_z1 }
-	ai_weight = {
-		modifier = {
-			factor = 10.0
-		}
-	}
-
 	component_slot = {
 		name = "EXTRA_LARGE_01"
 		slot_size = extra_large
@@ -180,14 +156,6 @@ ship_section_template = { #Guncannon
 	icon = "GFX_ship_part_core_mid"
 
 	prerequisites = { tech_RX_77D }
-
-	# Guns
-	weapon_preferences = { weapon_type_z1 }
-	ai_weight = {
-		modifier = {
-			factor = 10.0
-		}
-	}
 
 	component_slot = {
 		name = "EXTRA_LARGE_01"

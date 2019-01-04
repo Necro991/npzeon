@@ -294,7 +294,7 @@ strike_craft_component_template = {
 	component_set = "D_50C_HANGAR_1"
 	prerequisites = { "tech_D_50C" }
 	tags = { weapon_type_strike_craft }
-	upgrades_to = "EFSF_MS_STRIKE_CRAFT_F_50D"
+	upgrades_to = "EFSF_MS_STRIKE_CRAFT_F_50D_1"
 }
 
 #strike_craft_component_template = {
@@ -386,7 +386,7 @@ strike_craft_component_template = {
 	component_set = "F_50D_HANGAR_1"
 	prerequisites = { "tech_F_50D" }
 	tags = { weapon_type_strike_craft }
-	#upgrades_to = "EFSF_MS_STRIKE_CRAFT_F_50D"
+	#upgrades_to = "EFSF_MS_STRIKE_CRAFT_F_50D_1"
 }
 
 strike_craft_component_template = {
@@ -536,7 +536,7 @@ strike_craft_component_template = {
 	component_set = "RX_77_3_HANGAR_1"
 	prerequisites = { "tech_RX_77_3" }
 	tags = { weapon_type_strike_craft }
-	upgrades_to = "EFSF_MS_STRIKE_CRAFT_F_50D"
+	upgrades_to = "EFSF_MS_STRIKE_CRAFT_F_50D_1"
 }
 
 strike_craft_component_template = {
@@ -635,7 +635,7 @@ strike_craft_component_template = {
 	component_set = "RX_77D_HANGAR_1"
 	prerequisites = { "tech_RX_77D" }
 	tags = { weapon_type_strike_craft }
-	#upgrades_to = "EFSF_MS_STRIKE_CRAFT_F_50D"
+	#upgrades_to = "EFSF_MS_STRIKE_CRAFT_F_50D_1"
 }
 
 strike_craft_component_template = {
@@ -684,7 +684,7 @@ strike_craft_component_template = {
 	component_set = "RX_77D_HANGAR_2"
 	prerequisites = { "tech_RX_77D" }
 	tags = { weapon_type_strike_craft }
-	#upgrades_to = "EFSF_MS_STRIKE_CRAFT_F_50D"
+	#upgrades_to = "EFSF_MS_STRIKE_CRAFT_F_50D_1"
 }
 
 strike_craft_component_template = {
@@ -782,13 +782,13 @@ strike_craft_component_template = {
 	component_set = "RGC_80S_HANGAR_1"
 	prerequisites = { "tech_RGC_80S" }
 	tags = { weapon_type_strike_craft }
-	upgrades_to = "EFSF_MS_STRIKE_CRAFT_F_50D"
+	upgrades_to = "EFSF_MS_STRIKE_CRAFT_F_50D_1"
 }
 
 strike_craft_component_template = {
 	key = "EFSF_MS_STRIKE_CRAFT_RGC_83" #RGC-83 GM Cannon II - 2x Beam Cannon
 	size = LARGE
-	entity = "guncannon_entity"
+	entity = "GM_Cannon_II_entity"
 
 	weapon_type = point_defence
 	projectile_gfx = "MPC2"
@@ -831,7 +831,7 @@ strike_craft_component_template = {
 	component_set = "RGC_83_HANGAR_1"
 	prerequisites = { "tech_RGC_83" }
 	tags = { weapon_type_strike_craft }
-	#upgrades_to = "EFSF_MS_STRIKE_CRAFT_F_50D"
+	#upgrades_to = "EFSF_MS_STRIKE_CRAFT_F_50D_1"
 }
 
 strike_craft_component_template = {
@@ -1879,7 +1879,7 @@ strike_craft_component_template = {
 strike_craft_component_template = {
 	key = "EFSF_MS_STRIKE_CRAFT_RGM_79N_1" #RGM-79N GM Custom
 	size = LARGE
-	entity = "gm_c_entity"
+	entity = "gm_n_entity"
 
 	weapon_type = point_defence
 	projectile_gfx = "auto_cannons_s"
@@ -1928,7 +1928,7 @@ strike_craft_component_template = {
 strike_craft_component_template = {
 	key = "EFSF_MS_STRIKE_CRAFT_RGM_79N_2" #RGM-79N GM Custom
 	size = LARGE
-	entity = "gm_c_entity"
+	entity = "gm_n_entity"
 
 	weapon_type = instant
 	projectile_gfx = "gundam_missile"
@@ -2173,7 +2173,7 @@ strike_craft_component_template = {
 strike_craft_component_template = {
 	key = "EFSF_MS_STRIKE_CRAFT_RGM_79SC" #RGM-79SC GM Sniper Custom
 	size = LARGE
-	entity = "gm_c_entity"
+	entity = "GM_Sniper_II_entity"
 
 	weapon_type = point_defence
 	projectile_gfx = "MPC2"
@@ -2222,7 +2222,7 @@ strike_craft_component_template = {
 strike_craft_component_template = {
 	key = "EFSF_MS_STRIKE_CRAFT_RGM_79SP" #RGM-79SP GM Sniper II
 	size = LARGE
-	entity = "gm_c_entity"
+	entity = "GM_Sniper_II_entity"
 
 	weapon_type = point_defence
 	projectile_gfx = "MPC2"
@@ -2272,7 +2272,7 @@ strike_craft_component_template = {
 strike_craft_component_template = {
 	key = "EFSF_MS_STRIKE_CRAFT_RGM_79SR" #RGM-79SR GM Sniper III
 	size = LARGE
-	entity = "gm_c_entity"
+	entity = "GM_Sniper_II_entity"
 
 	weapon_type = point_defence
 	projectile_gfx = "MPC2"
@@ -2321,7 +2321,7 @@ strike_craft_component_template = {
 strike_craft_component_template = {
 	key = "EFSF_MS_STRIKE_CRAFT_RGM_79SR_HMT" #RGM-79SR GM Sniper III HMT
 	size = LARGE
-	entity = "gm_c_entity"
+	entity = "GM_Sniper_II_entity"
 
 	weapon_type = point_defence
 	projectile_gfx = "MPC2"
@@ -2370,7 +2370,7 @@ strike_craft_component_template = {
 strike_craft_component_template = {
 	key = "EFSF_MS_STRIKE_CRAFT_MSA_003_1" #MSA-003 Nemo
 	size = LARGE
-	entity = "gm_c_entity"
+	entity = "Nemo_entity"
 
 	weapon_type = point_defence
 	projectile_gfx = "MPC2"
@@ -2420,7 +2420,7 @@ strike_craft_component_template = {
 strike_craft_component_template = {
 	key = "EFSF_MS_STRIKE_CRAFT_MSA_003_2" #MSA-003 Nemo
 	size = LARGE
-	entity = "gm_c_entity"
+	entity = "Nemo_entity"
 
 	weapon_type = point_defence
 	projectile_gfx = "MPC2"
@@ -2470,7 +2470,7 @@ strike_craft_component_template = {
 strike_craft_component_template = {
 	key = "EFSF_MS_STRIKE_CRAFT_MSA_004" #MSA-004 Nemo II
 	size = LARGE
-	entity = "gm_c_entity"
+	entity = "Nemo_entity"
 
 	weapon_type = point_defence
 	projectile_gfx = "MPC2"
@@ -2818,7 +2818,7 @@ strike_craft_component_template = {
 strike_craft_component_template = {
 	key = "EFSF_MS_STRIKE_CRAFT_RGM_89_1" #RGM-89 Jegan
 	size = LARGE
-	entity = "gm_c_entity"
+	entity = "Jegan_entity"
 
 	weapon_type = point_defence
 	projectile_gfx = "MPC2"
@@ -2867,7 +2867,7 @@ strike_craft_component_template = {
 strike_craft_component_template = {
 	key = "EFSF_MS_STRIKE_CRAFT_RGM_89_2" #RGM-89 Jegan
 	size = LARGE
-	entity = "gm_c_entity"
+	entity = "Jegan_entity"
 
 	weapon_type = instant
 	projectile_gfx = "gundam_missile_swarm"
@@ -2916,7 +2916,7 @@ strike_craft_component_template = {
 strike_craft_component_template = {
 	key = "EFSF_MS_STRIKE_CRAFT_RMS_106_1" #RMS-106 Hizack
 	size = LARGE
-	entity = "fighter_1z_entity"
+	entity = "Zaku_II_entity"
 
 	weapon_type = point_defence
 	projectile_gfx = "MPC1" #Find beam gfx
@@ -2965,7 +2965,7 @@ strike_craft_component_template = {
 strike_craft_component_template = {
 	key = "EFSF_MS_STRIKE_CRAFT_RMS_106_2" #RMS-106 Hizack
 	size = LARGE
-	entity = "fighter_1z_entity"
+	entity = "Zaku_II_entity"
 
 	weapon_type = instant
 	projectile_gfx = "gundam_missile"
@@ -3014,7 +3014,7 @@ strike_craft_component_template = {
 strike_craft_component_template = {
 	key = "EFSF_MS_STRIKE_CRAFT_RMS_106CS_1" #RMS-106 Hizack Custom
 	size = LARGE
-	entity = "fighter_1z_entity"
+	entity = "Zaku_II_entity"
 
 	weapon_type = point_defence
 	projectile_gfx = "MPC1" #Find beam gfx
@@ -3064,7 +3064,7 @@ strike_craft_component_template = {
 strike_craft_component_template = {
 	key = "EFSF_MS_STRIKE_CRAFT_RMS_106CS_2" #RMS-106 Hizack Custom
 	size = LARGE
-	entity = "fighter_1z_entity"
+	entity = "Zaku_II_entity"
 
 	weapon_type = point_defence
 	projectile_gfx = "MPC1"
@@ -3114,7 +3114,7 @@ strike_craft_component_template = {
 strike_craft_component_template = {
 	key = "EFSF_MS_STRIKE_CRAFT_RMS_106C" #RMS-106C Hizack Cannon
 	size = LARGE
-	entity = "fighter_1z_entity"
+	entity = "Zaku_II_entity"
 
 	weapon_type = point_defence
 	projectile_gfx = "mass_driver_s"
@@ -3157,13 +3157,13 @@ strike_craft_component_template = {
 	component_set = "RMS_106C_HANGAR_1"
 	prerequisites = { "tech_RMS_106C" }
 	tags = { weapon_type_strike_craft }
-	#upgrades_to = "EFSF_MS_STRIKE_CRAFT_F_50D"
+	#upgrades_to = "EFSF_MS_STRIKE_CRAFT_F_50D_1"
 }
 
 strike_craft_component_template = {
 	key = "EFSF_MS_STRIKE_CRAFT_RX_107" #RX-107 Rosette
 	size = LARGE
-	entity = "fighter_1z_entity"
+	entity = "Zaku_II_entity"
 
 	weapon_type = point_defence
 	projectile_gfx = "MPC1" #Find beam gfx
@@ -3212,7 +3212,7 @@ strike_craft_component_template = {
 strike_craft_component_template = {
 	key = "EFSF_MS_STRIKE_CRAFT_RMS_108_1" #RMS-108 Marasai
 	size = LARGE
-	entity = "fighter_1z_entity"
+	entity = "Zaku_II_entity"
 
 	weapon_type = point_defence
 	projectile_gfx = "MPC1" #Find beam gfx
@@ -3262,7 +3262,7 @@ strike_craft_component_template = {
 strike_craft_component_template = {
 	key = "EFSF_MS_STRIKE_CRAFT_RMS_108_2" #RMS-108 Marasai
 	size = LARGE
-	entity = "fighter_1z_entity"
+	entity = "Zaku_II_entity"
 
 	weapon_type = point_defence
 	projectile_gfx = "MPC1"
@@ -3312,7 +3312,7 @@ strike_craft_component_template = {
 strike_craft_component_template = {
 	key = "EFSF_MS_STRIKE_CRAFT_RMS_156" #RMS-156 Griffon
 	size = LARGE
-	entity = "fighter_1z_entity"
+	entity = "Zaku_II_entity"
 
 	weapon_type = point_defence
 	projectile_gfx = "MPC1" #Find beam gfx

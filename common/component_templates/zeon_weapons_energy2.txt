@@ -19,7 +19,7 @@ weapon_component_template = {
 
 	icon = "GFX_ship_part_mass_driver_1"
 	icon_frame = 1
-	
+
 	power = -3
 	resources = {
 		category = ship_components
@@ -351,7 +351,7 @@ weapon_component_template = {
 
 	icon = "mpc1"
 	icon_frame = 1
-	color = { 1.0 1.0 1.0 1 }
+
 	power = -30
 	resources = {
 		category = ship_components
@@ -388,7 +388,7 @@ weapon_component_template = {
 
 	icon = "mpc2"
 	icon_frame = 1
-	color = { 1.0 1.0 1.0 1 }
+
 	power = -60
 	resources = {
 		category = ship_components
@@ -425,7 +425,7 @@ weapon_component_template = {
 
 	icon = "mpc3"
 	icon_frame = 1
-	color = { 1.0 1.0 1.0 1 }
+
 	power = -50
 	resources = {
 		category = ship_components
@@ -462,7 +462,7 @@ weapon_component_template = {
 
 	icon = "mpc4"
 	icon_frame = 1
-	color = { 1.0 1.0 1.0 1 }
+
 	power = -80
 	resources = {
 		category = ship_components
@@ -499,7 +499,7 @@ weapon_component_template = {
 
 	icon = "mpc5"
 	icon_frame = 1
-	color = { 1.0 1.0 1.0 1 }
+
 	power = -70
 	resources = {
 		category = ship_components
@@ -535,7 +535,7 @@ weapon_component_template = {
 
 	icon = "mpc6"
 	icon_frame = 1
-	color = { 1.0 1.0 1.0 1 }
+
 	power = -100
 	resources = {
 		category = ship_components
@@ -903,7 +903,7 @@ weapon_component_template = {
 
 	icon = "efsf_mmpc1"
 	icon_frame = 1
-	color = { 1.0 1.0 1.0 1 }
+
 	power = -30
 	resources = {
 		category = ship_components
@@ -940,7 +940,7 @@ weapon_component_template = {
 
 	icon = "efsf_mpc1"
 	icon_frame = 1
-	color = { 1.0 1.0 1.0 1 }
+
 	power = -60
 	resources = {
 		category = ship_components
@@ -977,7 +977,7 @@ weapon_component_template = {
 
 	icon = "efsf_mmpc2"
 	icon_frame = 1
-	color = { 1.0 1.0 1.0 1 }
+	
 	power = -50
 	resources = {
 		category = ship_components
@@ -1014,7 +1014,7 @@ weapon_component_template = {
 
 	icon = "efsf_mpc2"
 	icon_frame = 1
-	color = { 1.0 1.0 1.0 1 }
+
 	power = -80
 	resources = {
 		category = ship_components
@@ -1051,7 +1051,7 @@ weapon_component_template = {
 
 	icon = "efsf_mmpc3"
 	icon_frame = 1
-	color = { 1.0 1.0 1.0 1 }
+
 	power = -70
 	resources = {
 		category = ship_components
@@ -1087,7 +1087,7 @@ weapon_component_template = {
 
 	icon = "efsf_mpc3"
 	icon_frame = 1
-	color = { 1.0 1.0 1.0 1 }
+
 	power = -100
 	resources = {
 		category = ship_components

@@ -8,12 +8,12 @@ zeonic_zimmad_mip = {
 	category = research
 
 	potential = {
-		NOT = {
-			OR = {
-				owner = { is_hive_empire = yes }
-				owner = { is_machine_empire = yes }
-			}
-		}
+		#NOT = {
+		#	OR = {
+		#		owner = { is_hive_empire = yes }
+		#		owner = { is_machine_empire = yes }
+		#	}
+		#}
 		NOT = { has_modifier = resort_colony }
 		NOT = { has_modifier = slave_colony }
 	}
@@ -21,7 +21,11 @@ zeonic_zimmad_mip = {
 	triggered_planet_modifier = {
 		potential = {
 			exists = owner
-			owner = { is_regular_empire = yes }
+			OR = {
+				owner = { is_regular_empire = yes }
+				owner = { is_hive_empire = yes }
+				owner = { is_machine_empire = yes }
+			}
 		}
 		modifier = {
 			job_zeonic_researcher_add = 3
@@ -66,12 +70,12 @@ anaheim = {
 	category = research
 
 	potential = {
-		NOT = {
-			OR = {
-				owner = { is_hive_empire = yes }
-				owner = { is_machine_empire = yes }
-			}
-		}
+		#NOT = {
+		#	OR = {
+		#		owner = { is_hive_empire = yes }
+		#		owner = { is_machine_empire = yes }
+		#	}
+		#}
 		NOT = { has_modifier = resort_colony }
 		NOT = { has_modifier = slave_colony }
 	}
@@ -79,7 +83,11 @@ anaheim = {
 	triggered_planet_modifier = {
 		potential = {
 			exists = owner
-			owner = { is_regular_empire = yes }
+			OR = {
+				owner = { is_regular_empire = yes }
+				owner = { is_hive_empire = yes }
+				owner = { is_machine_empire = yes }
+			}
 		}
 		modifier = {
 			job_anaheim_researcher_add = 3

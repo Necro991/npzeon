@@ -17,7 +17,7 @@ ms_army = {
 		}
 		upkeep = {
 			energy = 10
-			mobile_suits = 48
+			mobile_suits = 1
 			zeon_pilots = 1
 		}
 	}

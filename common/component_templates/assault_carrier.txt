@@ -2,11 +2,13 @@
 @cost1 = 10
 @cost2 = 15
 @cost3 = 20
+@cost4 = 25
 
 @power0 = -5
 @power1 = -10
 @power2 = -15
 @power3 = -20
+@power4 = -25
 
 @battleship_power_1 = 550
 @battleship_power_2 = 720

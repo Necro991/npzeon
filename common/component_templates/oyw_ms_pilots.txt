@@ -235,7 +235,7 @@ utility_component_template = {
 
 	component_set = "oyw_zeon_pilot_trio"
 	ship_behavior = "mobile_suit_behavior"
-	upgrades_to = "oyw_zeon_pilot_vuta_ace"
+	upgrades_to = "oyw_zeon_pilot_ace_trio"
 
 	ai_weight = {
 	 weight = 1

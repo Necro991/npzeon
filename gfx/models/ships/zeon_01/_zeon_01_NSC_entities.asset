@@ -15,7 +15,7 @@
 #FRAME
 entity = {
 	name = "zeon_01_StrikeCruiser_entity"
-	pdxmesh = "zeon_01_chivvay_mesh" #zeon_01_musai_kai_mesh
+	pdxmesh = "zeon_01_chivvay_mesh"
 
 	default_state = "idle"
 	state = { name = "idle" animation = "idle" animation_blend_time = 4

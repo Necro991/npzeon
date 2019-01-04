@@ -5,12 +5,12 @@ ms_pilot_academy = {
 	category = army
 
 	potential = {
-		NOT = {
-			OR = {
-				owner = { is_hive_empire = yes }
-				owner = { is_machine_empire = yes }
-			}
-		}
+		#NOT = {
+		#	OR = {
+		#		owner = { is_hive_empire = yes }
+		#		owner = { is_machine_empire = yes }
+		#	}
+		#}
 		NOT = { has_modifier = resort_colony }
 		owner = {
 			OR = {

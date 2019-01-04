@@ -2,18 +2,53 @@ ship_section_template = { #MS-14A
 	key = "MS_14A_MID"
 	ship_size = MS_14
 	fits_on_slot = mid
-	entity = "zeon_ms_5_M1S2_entity"
+	entity = "Gelgoog_A_Trio_entity"
 	icon = "GFX_ship_part_core_mid"
 
 	prerequisites = { tech_MS_14A }
 
-	# Guns
-	weapon_preferences = { weapon_type_z1 }
-	ai_weight = {
-		modifier = {
-			factor = 10.0
+	component_slot = {
+		name = "SMALL_GUN_01"
+		slot_size = point_defence
+		slot_type = weapon
+		locatorname = "small_gun_01"
+	}
+
+	component_slot = {
+		name = "SMALL_GUN_02"
+		slot_size = point_defence
+		slot_type = weapon
+		locatorname = "small_gun_02"
+	}
+
+	component_slot = {
+		name = "SMALL_GUN_03"
+		slot_size = point_defence
+		slot_type = weapon
+		locatorname = "small_gun_03"
+	}
+
+	small_utility_slots = 0
+	medium_utility_slots = 0
+	large_utility_slots = 0
+	aux_utility_slots = 0
+
+	resources = {
+		category = ship_sections
+		cost = {
+			alloys = 135
 		}
 	}
+}
+
+ship_section_template = { #MS-14B
+	key = "MS_14B_MID"
+	ship_size = MS_14
+	fits_on_slot = mid
+	entity = "Gelgoog_B_Trio_entity"
+	icon = "GFX_ship_part_core_mid"
+
+	prerequisites = { tech_MS_14B }
 
 	component_slot = {
 		name = "SMALL_GUN_01"
@@ -53,18 +88,110 @@ ship_section_template = { #MS-14S
 	key = "MS_14S_MID"
 	ship_size = MS_14S
 	fits_on_slot = mid
-	entity = "zeon_ms_5_M1S2_entity"
+	entity = "Gelgoog_S_Trio_entity"
 	icon = "GFX_ship_part_core_mid"
 
 	prerequisites = { tech_MS_14A }
 
-	# Guns
-	weapon_preferences = { weapon_type_z1 }
-	ai_weight = {
-		modifier = {
-			factor = 10.0
+	component_slot = {
+		name = "SMALL_GUN_01"
+		slot_size = point_defence
+		slot_type = weapon
+		locatorname = "small_gun_01"
+	}
+
+	component_slot = {
+		name = "SMALL_GUN_02"
+		slot_size = point_defence
+		slot_type = weapon
+		locatorname = "small_gun_02"
+	}
+
+	component_slot = {
+		name = "SMALL_GUN_03"
+		slot_size = point_defence
+		slot_type = weapon
+		locatorname = "small_gun_03"
+	}
+
+	component_slot = {
+		name = "SMALL_GUN_04"
+		slot_size = point_defence
+		slot_type = weapon
+		locatorname = "small_gun_04"
+	}
+
+	small_utility_slots = 0
+	medium_utility_slots = 0
+	large_utility_slots = 0
+	aux_utility_slots = 0
+
+	resources = {
+		category = ship_sections
+		cost = {
+			alloys = 135
 		}
 	}
+}
+
+ship_section_template = { #MS-14S
+	key = "MS_14S_CHAR_MID"
+	ship_size = MS_14S
+	fits_on_slot = mid
+	entity = "Gelgoog_Char_entity"
+	icon = "GFX_ship_part_core_mid"
+
+	prerequisites = { tech_MS_14A }
+
+	component_slot = {
+		name = "SMALL_GUN_01"
+		slot_size = point_defence
+		slot_type = weapon
+		locatorname = "small_gun_01"
+	}
+
+	component_slot = {
+		name = "SMALL_GUN_02"
+		slot_size = point_defence
+		slot_type = weapon
+		locatorname = "small_gun_02"
+	}
+
+	component_slot = {
+		name = "SMALL_GUN_03"
+		slot_size = point_defence
+		slot_type = weapon
+		locatorname = "small_gun_03"
+	}
+
+	component_slot = {
+		name = "SMALL_GUN_04"
+		slot_size = point_defence
+		slot_type = weapon
+		locatorname = "small_gun_04"
+	}
+
+	small_utility_slots = 0
+	medium_utility_slots = 0
+	large_utility_slots = 0
+	aux_utility_slots = 0
+
+	resources = {
+		category = ship_sections
+		cost = {
+			alloys = 135
+		}
+	}
+}
+
+ship_section_template = { #MS-14S
+	key = "MS_14S_UMA_MID"
+	ship_size = MS_14S
+	fits_on_slot = mid
+	entity = "Gelgoog_Uma_entity"
+	icon = "GFX_ship_part_core_mid"
+
+	prerequisites = { tech_MS_14A }
 
 	component_slot = {
 		name = "SMALL_GUN_01"
@@ -111,18 +238,10 @@ ship_section_template = { #MS-14C Gelgoog Cannon
 	key = "MS_14C_MID"
 	ship_size = MS_14C
 	fits_on_slot = mid
-	entity = "zeon_ms_5_M1S2_entity"
+	entity = "Gelgoog_Cannon_Trio_entity"
 	icon = "GFX_ship_part_core_mid"
 
 	prerequisites = { tech_MS_14C }
-
-	# Guns
-	weapon_preferences = { weapon_type_z1 }
-	ai_weight = {
-		modifier = {
-			factor = 10.0
-		}
-	}
 
 	component_slot = {
 		name = "EXTRA_LARGE_01"

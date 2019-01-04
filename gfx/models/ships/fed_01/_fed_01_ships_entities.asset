@@ -2696,13 +2696,10 @@ entity = {
 	}
 
 	entity = {
-		name = "gm_group_entity" #GM Group OUTDATED
-		pdxmesh = "fed_01_GM_Group_mesh"
-
+		name = "gm_n_entity" #GM N
+		pdxmesh = "fed_01_GM_N_mesh"
 		locator = { name = "small_gun_01" 			position = { 0.0 	1.0 	0.0	} 	scale = 0.0} #X,Up/Down,Forward/Back
-
 		scale = 1.0
-
 	}
 
 	entity = {
@@ -2722,8 +2719,32 @@ entity = {
 	}
 
 	entity = {
-		name = "gm_trio_03" #GM C AEUG
+		name = "gm_trio_03" #GM C AEUG Trio
 		pdxmesh = "fed_01_GM_Trio_3_mesh"
+
+		locator = { name = "small_gun_01" 			position = { 0.0 	1.0 	0.0	} 	scale = 0.0} #X,Up/Down,Forward/Back
+		scale = 1.0
+	}
+
+	entity = {
+		name = "gm_trio_04" #GM N Trio
+		pdxmesh = "fed_01_GM_N_Trio_mesh"
+
+		locator = { name = "small_gun_01" 			position = { 0.0 	1.0 	0.0	} 	scale = 0.0} #X,Up/Down,Forward/Back
+		scale = 1.0
+	}
+
+	entity = {
+		name = "GM_Striker_Trio_entity" #GM Striker Trio
+		pdxmesh = "fed_01_GM_Striker_Trio_mesh"
+
+		locator = { name = "small_gun_01" 			position = { 0.0 	1.0 	0.0	} 	scale = 0.0} #X,Up/Down,Forward/Back
+		scale = 1.0
+	}
+
+	entity = {
+		name = "GM_Striker_Custom_Trio_entity" #GM Striker Custom Trio
+		pdxmesh = "fed_01_GM_Striker_Custom_Trio_mesh"
 
 		locator = { name = "small_gun_01" 			position = { 0.0 	1.0 	0.0	} 	scale = 0.0} #X,Up/Down,Forward/Back
 		scale = 1.0
@@ -2785,6 +2806,12 @@ entity = {
 	entity = {
 		name = "guncannon_mpt_dingo_entity" #Guncannon MPT
 		pdxmesh = "fed_01_Guncannon_MPT_Dingo_mesh"
+		scale = 1.0
+	}
+
+	entity = {
+		name = "GM_Cannon_II_entity" #Guncannon MPT
+		pdxmesh = "fed_01_GM_Cannon_II_mesh"
 		scale = 1.0
 	}
 
@@ -2855,8 +2882,20 @@ entity = {
 	}
 
 	entity = {
+		name = "G_Line_Standard_entity" #G-Line Standard Single NOT CURRENTLY IN USE
+		pdxmesh = "fed_01_G_Line_Standard_mesh"
+		scale = 1.0
+	}
+
+	entity = {
+		name = "G_Line_Standard_Trio_entity" #G-Line Standard Trio
+		pdxmesh = "fed_01_G_Line_Standard_Trio_mesh"
+		scale = 1.0
+	}
+
+	entity = {
 		name = "gundam_alex_entity" #Alex
-		pdxmesh = "fed_01_Alex_Chobham_mesh"
+		pdxmesh = "fed_01_Gundam_Alex_mesh"
 		scale = 1.0
 	}
 
@@ -2873,68 +2912,32 @@ entity = {
 	}
 
 	entity = {
-		name = "efsf_scout_1_entity" #Ball Strike Craft
-		pdxmesh = "fed_01_ball_mesh"
+		name = "GM_Sniper_II_entity" #GM Sniper II
+		pdxmesh = "GM_Sniper_II_mesh"
 		scale = 1.0
 	}
 
 	entity = {
-		name = "efsf_fighter_1_entity" #Ball Strike Craft
-		pdxmesh = "mk2_mesh"
+		name = "GM_Sniper_II_Trio_entity" #GM Sniper II Triple
+		pdxmesh = "GM_Sniper_II_Trio_mesh"
 		scale = 1.0
 	}
 
 	entity = {
-		name = "efsf_fighter_2_entity" #Ball Strike Craft
-		pdxmesh = "mk2_mesh"
+		name = "GM_Sniper_II_WD_Trio_entity" #GM Sniper II White Dingo Triple
+		pdxmesh = "GM_Sniper_II_WD_Trio_mesh"
 		scale = 1.0
 	}
 
 	entity = {
-		name = "efsf_fighter_3_entity" #Ball Strike Craft
-		pdxmesh = "mk2_mesh"
+		name = "Nemo_entity" #Test Nemo
+		pdxmesh = "Nemo_mesh"
 		scale = 1.0
 	}
 
 	entity = {
-		name = "efsf_fighter_4_entity" #Ball Strike Craft
-		pdxmesh = "mk2_mesh"
-		scale = 1.0
-	}
-
-	entity = {
-		name = "efsf_fighter_5_entity" #Ball Strike Craft
-		pdxmesh = "mk2_mesh"
-		scale = 1.0
-	}
-
-	entity = {
-		name = "efsf_bomber_1_entity" #Ball Strike Craft
-		pdxmesh = "fed_01_Guntank_mesh"
-		scale = 1.0
-	}
-
-	entity = {
-		name = "efsf_bomber_2_entity" #Ball Strike Craft
-		pdxmesh = "fed_01_Guntank_mesh"
-		scale = 1.0
-	}
-
-	entity = {
-		name = "efsf_bomber_3_entity" #Ball Strike Craft
-		pdxmesh = "fed_01_Guntank_mesh"
-		scale = 1.0
-	}
-
-	entity = {
-		name = "efsf_bomber_4_entity" #Ball Strike Craft
-		pdxmesh = "fed_01_Guntank_mesh"
-		scale = 1.0
-	}
-
-	entity = {
-		name = "efsf_bomber_5_entity" #Ball Strike Craft
-		pdxmesh = "fed_01_Guntank_mesh"
+		name = "Jegan_entity" #Test Jegan
+		pdxmesh = "Jegan_mesh"
 		scale = 1.0
 	}
 
@@ -3128,6 +3131,30 @@ entity = {
 	state = { name = "death" state_time = 5 }
 
 	scale = 0.25
+}
+
+entity = {
+	name = "nahel_argama_mid_entity"
+	pdxmesh = "Nahel_Argama_mesh"
+
+	locator = { name = "large_gun_01" 			position = { 0.0 	4.0 	-5.0	} 	scale = 0.0} #X,Up/Down,Forward/Back
+	locator = { name = "large_gun_02" 			position = { -4.0 	2.5 	-2.5	} 	scale = 0.0} #X,Up/Down,Forward/Back
+	locator = { name = "large_gun_03" 			position = { 4.0 	2.5 	-2.5	} 	scale = 0.0} #X,Up/Down,Forward/Back
+
+	default_state = "idle"
+	state = { name = idle	state_time = 5
+		event = { time = 0 node = "light_01" particle = "ship_light_blue_effect" keep_particle = yes trigger_once = yes }
+		event = { time = 0 node = "light_02" particle = "ship_light_blue_effect" keep_particle = yes trigger_once = yes }
+	}
+
+	state = { name = moving	state_time = 5
+		event = { time = 0 node = "light_01" particle = "ship_light_blue_effect" keep_particle = yes trigger_once = yes }
+		event = { time = 0 node = "light_02" particle = "ship_light_blue_effect" keep_particle = yes trigger_once = yes }
+	}
+
+	state = { name = "death" state_time = 5 }
+
+	scale = 1.0
 }
 
 # STERN

@@ -16,12 +16,12 @@ newtype_lab = {
 	#}
 
 	potential = {
-		NOT = {
-			OR = {
-				owner = { is_hive_empire = yes }
-				owner = { is_machine_empire = yes }
-			}
-		}
+		#NOT = {
+		#	OR = {
+		#		owner = { is_hive_empire = yes }
+		#		owner = { is_machine_empire = yes }
+		#	}
+		#}
 		NOT = { has_modifier = resort_colony }
 		NOT = { has_modifier = slave_colony }
 		owner = {
@@ -35,7 +35,7 @@ newtype_lab = {
 	triggered_planet_modifier = {
 		potential = {
 			exists = owner
-			owner = { is_regular_empire = yes }
+			#owner = { is_regular_empire = yes }
 		}
 		modifier = {
 			job_newtype_researcher_add = 2
@@ -77,12 +77,12 @@ cybernewtype_lab = {
 	category = research
 
 	potential = {
-		NOT = {
-			OR = {
-				owner = { is_hive_empire = yes }
-				owner = { is_machine_empire = yes }
-			}
-		}
+		#NOT = {
+		#	OR = {
+		#		owner = { is_hive_empire = yes }
+		#		owner = { is_machine_empire = yes }
+		#	}
+		#}
 		NOT = { has_modifier = resort_colony }
 		NOT = { has_modifier = slave_colony }
 		owner = {
@@ -96,7 +96,7 @@ cybernewtype_lab = {
 	triggered_planet_modifier = {
 		potential = {
 			exists = owner
-			owner = { is_regular_empire = yes }
+			#owner = { is_regular_empire = yes }
 		}
 		modifier = {
 			job_cybernewtype_researcher_add = 2

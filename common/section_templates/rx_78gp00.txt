@@ -7,14 +7,6 @@ ship_section_template = { #Gundam
 
 	prerequisites = { tech_RX_78GP01Fb }
 
-	# Guns
-	weapon_preferences = { weapon_type_z1 }
-	ai_weight = {
-		modifier = {
-			factor = 10.0
-		}
-	}
-
 	component_slot = {
 		name = "SMALL_GUN_01"
 		slot_size = point_defence
@@ -50,14 +42,6 @@ ship_section_template = { #Gundam
 	icon = "GFX_ship_part_core_mid"
 
 	prerequisites = { tech_RX_78GP02 }
-
-	# Guns
-	weapon_preferences = { weapon_type_z1 }
-	ai_weight = {
-		modifier = {
-			factor = 10.0
-		}
-	}
 
 	component_slot = {
 		name = "EXTRA_LARGE_01"
@@ -102,14 +86,6 @@ ship_section_template = { #Gundam
 
 	prerequisites = { tech_RX_78GP03S }
 
-	# Guns
-	weapon_preferences = { weapon_type_z1 }
-	ai_weight = {
-		modifier = {
-			factor = 10.0
-		}
-	}
-
 	component_slot = {
 		name = "SMALL_GUN_01"
 		slot_size = point_defence
@@ -145,14 +121,6 @@ ship_section_template = { #Gundam
 	icon = "GFX_ship_part_core_mid"
 
 	prerequisites = { tech_RX_78GP03S }
-
-	# Guns
-	weapon_preferences = { weapon_type_z1 }
-	ai_weight = {
-		modifier = {
-			factor = 10.0
-		}
-	}
 
 	component_slot = {
 		name = "EXTRA_LARGE_01"
@@ -232,14 +200,6 @@ ship_section_template = { #Gundam
 	icon = "GFX_ship_part_core_mid"
 
 	prerequisites = { tech_RX_78GP04G }
-
-	# Guns
-	weapon_preferences = { weapon_type_z1 }
-	ai_weight = {
-		modifier = {
-			factor = 10.0
-		}
-	}
 
 	component_slot = {
 		name = "SMALL_GUN_01"

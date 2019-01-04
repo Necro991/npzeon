@@ -2,7 +2,7 @@ ship_section_template = { #MS-21C Dra-C
 	key = "MS_21C_MID"
 	ship_size = MS_21
 	fits_on_slot = mid
-	entity = "zaku2_kai_entity"
+	entity = "Zaku_II_Group_entity"
 	icon = "GFX_ship_part_core_mid"
 
 	prerequisites = { tech_MS_21C }

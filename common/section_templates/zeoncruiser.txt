@@ -10,19 +10,6 @@ ship_section_template = {
 
 	prerequisites = { tech_EFSF_BEAMC_2 }
 
-	# Big guns
-	weapon_preferences = { weapon_role_anti_shield }
-	ai_weight = {
-		modifier = {
-			factor = 8.0
-			OR = {
-				has_ai_personality = honorbound_warriors
-				has_ai_personality = evangelising_zealots
-				has_ai_personality = democratic_crusaders
-			}
-		}
-	}
-
 	component_slot = {
 		name = "TORPEDO_01"
 		slot_size = torpedo
@@ -89,19 +76,6 @@ ship_section_template = {
 
 	prerequisites = { tech_EFSF_BEAMC_2 }
 
-	# Lasers & Strike Craft
-	weapon_preferences = { weapon_role_anti_armor }
-	ai_weight = {
-		modifier = {
-			factor = 8.0
-			OR = {
-				has_ai_personality = federation_builders
-				has_ai_personality = erudite_explorers
-				has_ai_personality = xenophobic_isolationists
-			}
-		}
-	}
-
 	component_slot = {
 		name = "LARGE_GUN_01"
 		slot_size = large
@@ -150,19 +124,6 @@ ship_section_template = {
 	icon = "GFX_ship_part_core_mid"
 
 	prerequisites = { tech_EFSF_BEAMC_2 }
-
-	# Lasers & Strike Craft
-	weapon_preferences = { weapon_role_anti_armor }
-	ai_weight = {
-		modifier = {
-			factor = 8.0
-			OR = {
-				has_ai_personality = federation_builders
-				has_ai_personality = erudite_explorers
-				has_ai_personality = xenophobic_isolationists
-			}
-		}
-	}
 
 	component_slot = {
 		name = "LARGE_GUN_01"
@@ -213,19 +174,6 @@ ship_section_template = {
 
 	prerequisites = { tech_EFSF_BEAMC_3 }
 
-	# Lasers & Strike Craft
-	weapon_preferences = { weapon_role_anti_armor }
-	ai_weight = {
-		modifier = {
-			factor = 8.0
-			OR = {
-				has_ai_personality = federation_builders
-				has_ai_personality = erudite_explorers
-				has_ai_personality = xenophobic_isolationists
-			}
-		}
-	}
-
 	component_slot = {
 		name = "LARGE_GUN_01"
 		slot_size = large
@@ -275,19 +223,6 @@ ship_section_template = {
 
 	prerequisites = { tech_EFSF_BEAMC_3 }
 
-	# Lasers & Strike Craft
-	weapon_preferences = { weapon_role_anti_armor }
-	ai_weight = {
-		modifier = {
-			factor = 8.0
-			OR = {
-				has_ai_personality = federation_builders
-				has_ai_personality = erudite_explorers
-				has_ai_personality = xenophobic_isolationists
-			}
-		}
-	}
-
 	component_slot = {
 		name = "LARGE_GUN_01"
 		slot_size = large
@@ -336,16 +271,6 @@ ship_section_template = {
 	icon = "GFX_ship_part_core_stern"
 
 	prerequisites = { tech_EFSF_BEAMC_2 }
-
-	# Point Defense
-	weapon_preferences = { weapon_role_point_defense }
-	ai_weight = {
-		factor = 1
-		modifier = {
-			factor = 100.0
-			has_ai_personality = migrating_flock
-		}
-	}
 
 	component_slot = {
 		name = "SMALL_GUN_01"
@@ -397,19 +322,6 @@ ship_section_template = {
 	icon_frame = 1
 
 	prerequisites = { tech_BEAMC_2 }
-
-	# Big guns
-	weapon_preferences = { weapon_role_anti_shield }
-	ai_weight = {
-		modifier = {
-			factor = 8.0
-			OR = {
-				has_ai_personality = honorbound_warriors
-				has_ai_personality = evangelising_zealots
-				has_ai_personality = democratic_crusaders
-			}
-		}
-	}
 
 	component_slot = {
 		name = "TORPEDO_01"
@@ -477,19 +389,6 @@ ship_section_template = {
 
 	prerequisites = { tech_BEAMC_2 }
 
-	# Lasers & Strike Craft
-	weapon_preferences = { weapon_role_anti_armor }
-	ai_weight = {
-		modifier = {
-			factor = 8.0
-			OR = {
-				has_ai_personality = federation_builders
-				has_ai_personality = erudite_explorers
-				has_ai_personality = xenophobic_isolationists
-			}
-		}
-	}
-
 	component_slot = {
 		name = "LARGE_GUN_01"
 		slot_size = large
@@ -539,19 +438,6 @@ ship_section_template = {
 
 	prerequisites = { tech_BEAMC_2 }
 
-	# Lasers & Strike Craft
-	weapon_preferences = { weapon_role_anti_armor }
-	ai_weight = {
-		modifier = {
-			factor = 8.0
-			OR = {
-				has_ai_personality = federation_builders
-				has_ai_personality = erudite_explorers
-				has_ai_personality = xenophobic_isolationists
-			}
-		}
-	}
-
 	component_slot = {
 		name = "LARGE_GUN_01"
 		slot_size = large
@@ -600,16 +486,6 @@ ship_section_template = {
 	icon = "GFX_ship_part_core_stern"
 
 	prerequisites = { tech_BEAMC_2 }
-
-	# Point Defense
-	weapon_preferences = { weapon_role_point_defense }
-	ai_weight = {
-		factor = 1
-		modifier = {
-			factor = 100.0
-			has_ai_personality = migrating_flock
-		}
-	}
 
 	component_slot = {
 		name = "SMALL_GUN_01"
@@ -695,19 +571,6 @@ ship_section_template = {
 
 	prerequisites = { tech_EFSF_BEAMC_1 }
 
-	ai_weight = {
-		modifier = {
-			factor = 10.0
-			NOR = {
-				has_ai_personality = peaceful_traders
-				has_ai_personality = slaving_despots
-				has_ai_personality = migrating_flock
-				has_ai_personality = evangelising_zealots
-				has_ai_personality = hive_mind
-			}
-		}
-	}
-
 	component_slot = {
 		name = "MEDIUM_GUN_01"
 		slot_size = medium
@@ -747,14 +610,6 @@ ship_section_template = { #FrAsh Thunderbolt Zaku II Reuse P Psycho Zaku
 	fits_on_slot = mid
 	entity = "nt_ms_3_entity"
 	icon = "GFX_ship_part_core_mid"
-
-	# Guns
-	weapon_preferences = { weapon_type_gel }
-	ai_weight = {
-		modifier = {
-			factor = 10.0
-		}
-	}
 
 	component_slot = {
 		name = "EXTRA_LARGE_01"

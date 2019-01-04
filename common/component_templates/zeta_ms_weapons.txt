@@ -14,7 +14,7 @@ weapon_component_template = {
 
 	icon = "ZETA_GM_BEAM_RIFLE"
 	icon_frame = 1
-	color = { 0.1 1.0 0.1 1 }
+	
 	power = -3000
 	resources = {
 		category = ship_components
@@ -47,7 +47,7 @@ weapon_component_template = {
 
 	icon = "ZETA_GM_BEAM_RIFLE"
 	icon_frame = 1
-	color = { 0.1 1.0 0.1 1 }
+
 	power = -3000
 	resources = {
 		category = ship_components
@@ -80,7 +80,7 @@ weapon_component_template = {
 
 	icon = "OYW_EFSF_380MM"
 	icon_frame = 1
-	color = { 0.1 1.0 0.1 1 }
+
 	power = -3000
 	resources = {
 		category = ship_components

@@ -14,7 +14,7 @@ weapon_component_template = {
 
 	icon = "ZETA_GM_BEAM_RIFLE"
 	icon_frame = 1
-	color = { 0.1 1.0 0.1 1 }
+	
 	power = -3000
 	resources = {
 		category = ship_components
@@ -47,7 +47,7 @@ weapon_component_template = {
 
 	icon = "0083_GM_Q_SHORT_BEAM_RIFLE"
 	icon_frame = 1
-	color = { 0.1 1.0 0.1 1 }
+
 	power = -3000
 	resources = {
 		category = ship_components
@@ -80,7 +80,7 @@ weapon_component_template = {
 
 	icon = "0083_GP0_BEAM_RIFLE"
 	icon_frame = 1
-	color = { 0.1 1.0 0.1 1 }
+
 	power = -3000
 	resources = {
 		category = ship_components
@@ -113,7 +113,7 @@ weapon_component_template = {
 
 	icon = "0083_GP0_BEAM_RIFLE"
 	icon_frame = 1
-	color = { 0.1 1.0 0.1 1 }
+
 	power = -3000
 	resources = {
 		category = ship_components
@@ -147,7 +147,7 @@ weapon_component_template = {
 
 	icon = "0083_GP0_BEAM_RIFLE"
 	icon_frame = 1
-	color = { 0.1 1.0 0.1 1 }
+
 	power = -3000
 	resources = {
 		category = ship_components
@@ -180,7 +180,7 @@ weapon_component_template = {
 
 	icon = "0083_EFSF_NUCLEAR_BAZOOKA"
 	icon_frame = 1
-	color = { 0.1 1.0 0.1 1 }
+
 	power = -3000
 	resources = {
 		category = ship_components
@@ -213,7 +213,7 @@ weapon_component_template = {
 
 	icon = "0083_EFSF_BEAM_BAZOOKA"
 	icon_frame = 1
-	color = { 0.1 1.0 0.1 1 }
+
 	power = -3000
 	resources = {
 		category = ship_components
@@ -246,7 +246,7 @@ weapon_component_template = {
 
 	icon = "0083_EFSF_GP03_MPC"
 	icon_frame = 1
-	color = { 0.1 1.0 0.1 1 }
+
 	power = -3000
 	resources = {
 		category = ship_components
