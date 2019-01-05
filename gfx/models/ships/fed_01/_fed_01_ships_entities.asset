@@ -499,21 +499,21 @@ entity = {
 ######################           CORVETTE             ########################
 
 entity = {
- name = "fed_01_corvette_entity"
- pdxmesh = "fed_01_corvette_mesh"
- #locator = { name = "part1" position = { 0 -0.1 1.25 } } #X,Up/Down,Forward/Back
+	name = "fed_01_corvette_entity"
+	pdxmesh = "fed_01_corvette_mesh"
+	#locator = { name = "part1" position = { 0 -0.1 1.25 } } #X,Up/Down,Forward/Back
 
- default_state = "idle"
- state = { name = "idle"  animation = "idle" #animation_blend_time = 0.25
-  #event = { time = 0 node = "root" particle = "warp_in_particle" keep_particle = yes }
-  start_event = { trigger_once = yes sound = { soundeffect = "amb_corvette_hum" } }
- }
- state = { name = "moving" animation = "idle" animation_blend_time = 0.25
-  ##event = { time = 0 node = "exhaust" particle = "ship_exhaust_particle" trigger_once = yes keep_particle = yes }
-  #event = { time = 0.1 node = "root" particle = "ship_trail_particle" trigger_once = yes keep_particle = yes }
-  event = { trigger_once = yes sound = { soundeffect = moving_out_corvette } }
+	default_state = "idle"
+	state = { name = "idle"  animation = "idle" #animation_blend_time = 0.25
+	#event = { time = 0 node = "root" particle = "warp_in_particle" keep_particle = yes }
+	start_event = { trigger_once = yes sound = { soundeffect = "amb_corvette_hum" } }
+	}
+	state = { name = "moving" animation = "idle" animation_blend_time = 0.25
+	##event = { time = 0 node = "exhaust" particle = "ship_exhaust_particle" trigger_once = yes keep_particle = yes }
+	#event = { time = 0.1 node = "root" particle = "ship_trail_particle" trigger_once = yes keep_particle = yes }
+	event = { trigger_once = yes sound = { soundeffect = moving_out_corvette } }
 
-  }
+	}
 	state = { name = "death" animation = "death2" animation_blend_time = 0.0 chance = 1 looping = no
 		event = { time = 3.46 node = "part1_locator" particle = "ship_explosion_particle" }
 		event = { time = 6.79 node = "part1_locator" particle = "ship_explosion_particle" }
@@ -542,7 +542,7 @@ entity = {
 		event = { time = 4.1 node = "ship_main" particle = "ship_explosion_particle" sound = { soundeffect = ship_destroyed } }
 	}
 
-    scale = 1.0
+	scale = 1.0
 	game_data = {
 		size = @corvette_scale
 	}
@@ -1761,7 +1761,7 @@ entity = {
 ###################################################################################
 
 entity = {
- name = "fed_01_constructor_entity"
+	name = "fed_01_constructor_entity"
 	pdxmesh = "molluscoid_01_corvette_frame_mesh"
 
 	default_state = "idle"
@@ -1782,7 +1782,7 @@ entity = {
 
 
 entity = {
- name = "fed_01_construction_ship_entity"
+	name = "fed_01_construction_ship_entity"
 	pdxmesh = "Antietam_mesh"
 
 }
@@ -1804,7 +1804,7 @@ entity = {
 
 
 entity = {
- name = "fed_01_construction_window_entity"
+	name = "fed_01_construction_window_entity"
 	pdxmesh = "fed_01_construction_window_mesh"
 
 	game_data = {
@@ -1827,7 +1827,7 @@ entity = {
 	state = { name = "death" animation = "death3" animation_blend_time = 0.0 chance = 1 looping = no
 		event = { time = 4.63 node = "ship_main" particle = "large_ship_explosion_particle" }
 	}
-   	game_data = {
+		game_data = {
 		size = @colonizer_scale
 	}
 }
@@ -1898,7 +1898,7 @@ entity = {
 	#}
 
 entity = {
- name = "fed_01_science_entity"
+	name = "fed_01_science_entity"
 	pdxmesh = "molluscoid_01_corvette_frame_mesh"
 
 	default_state = "idle"
@@ -1910,7 +1910,7 @@ entity = {
 }
 
 entity = {
- name = "fed_01_science_ship_entity"
+	name = "fed_01_science_ship_entity"
 	pdxmesh = "Salamis_Fuji_mesh"
 
 	default_state = "idle"
@@ -1948,7 +1948,7 @@ entity = {
 
 
 entity = {
- name = "fed_01_transport_entity"
+	name = "fed_01_transport_entity"
 	pdxmesh = "molluscoid_01_corvette_frame_mesh"
 
 	default_state = "idle"
@@ -1969,7 +1969,7 @@ entity = {
 }
 
 entity = {
- name = "fed_01_transport_ship_entity"
+	name = "fed_01_transport_ship_entity"
 	pdxmesh = "Salamis_Fuji_mesh"
 
 	default_state = "idle"
@@ -2938,6 +2938,24 @@ entity = {
 	entity = {
 		name = "Jegan_entity" #Test Jegan
 		pdxmesh = "Jegan_mesh"
+		scale = 1.0
+	}
+
+	entity = {
+		name = "Jegan_De_entity" #Jegan De
+		pdxmesh = "Jegan_De_mesh"
+		scale = 1.0
+	}
+
+	entity = {
+		name = "Stark_Jegan_entity" #Stark Jegan
+		pdxmesh = "Stark_Jegan_mesh"
+		scale = 1.0
+	}
+
+	entity = {
+		name = "Jesta_entity" #Jesta
+		pdxmesh = "Jesta_mesh"
 		scale = 1.0
 	}
 

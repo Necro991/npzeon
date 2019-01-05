@@ -551,6 +551,32 @@ objectTypes = {
 	}
 
 	pdxmesh = {
+			name = "Action_Zaku_mesh" #Action Zaku Single
+			file = "gfx/models/ships/zeon_01/Action_Zaku.mesh"
+
+			scale = 1.0
+			meshsettings = {
+				texture_diffuse = "Action_Zaku_Diffuse.dds"
+				texture_normal = "zakuII_normal.dds"
+				texture_specular = "Zaku_Specular.dds"
+				shader = "PdxMeshShip"
+		}
+	}
+
+	pdxmesh = {
+			name = "Dra_C_mesh" #Dra-C Single
+			file = "gfx/models/ships/zeon_01/Dra_C.mesh"
+
+			scale = 1.0
+			meshsettings = {
+				texture_diffuse = "Dra_C_Diffuse.dds"
+				texture_normal = "zakuII_normal.dds"
+				texture_specular = "Zaku_Specular.dds"
+				shader = "PdxMeshShip"
+		}
+	}
+
+	pdxmesh = {
 			name = "Zudah_Single_mesh" #Zudah Single
 			file = "gfx/models/ships/zeon_01/Zudah.mesh"
 
@@ -623,6 +649,19 @@ objectTypes = {
 			meshsettings = {
 				texture_diffuse = "Geara_Zulu_Guard_Diffuse.dds"
 				texture_normal = "zakuII_normal.dds"
+				texture_specular = "Zaku_Specular.dds"
+				shader = "PdxMeshShip"
+		}
+	}
+
+	pdxmesh = {
+			name = "Kshatriya_mesh" #Best Waifu
+			file = "gfx/models/ships/zeon_01/Kshatriya.mesh"
+
+			scale = 1.0
+			meshsettings = {
+				texture_diffuse = "Kshatriya_Diffuse.dds"
+				texture_normal = "Kshatriya_Normal.dds"
 				texture_specular = "Zaku_Specular.dds"
 				shader = "PdxMeshShip"
 		}
@@ -807,7 +846,7 @@ objectTypes = {
 	}
 
 	pdxmesh = {
-			name = "Galbaldy_Trio_mesh" #Galbaldy Single
+			name = "Galbaldy_Trio_mesh" #Galbaldy Trio
 			file = "gfx/models/ships/zeon_01/Galbaldy_Trio.mesh"
 
 			scale = 1.0
@@ -816,6 +855,62 @@ objectTypes = {
 				texture_normal = "zakuII_normal.dds"
 				texture_specular = "Zaku_Specular.dds"
 				shader = "PdxMeshShip"
+		}
+	}
+
+	pdxmesh = {
+			name = "Gyan_Trio_mesh" #Gyan Trio
+			file = "gfx/models/ships/zeon_01/Gyan_Triple.mesh"
+
+			scale = 1.0
+			meshsettings = {
+				texture_diffuse = "Gyan_Diffuse.dds"
+				texture_normal = "Gyan_Normal.dds"
+				texture_specular = "Zaku_Specular.dds"
+				shader = "PdxMeshShip"
+		}
+	}
+
+	pdxmesh = {
+			name = "Action_Zaku_Trio_mesh" #Action Zaku Trio
+			file = "gfx/models/ships/zeon_01/Action_Zaku_Triple.mesh"
+
+			scale = 1.0
+			meshsettings = {
+				texture_diffuse = "Action_Zaku_Diffuse.dds"
+				texture_normal = "zakuII_normal.dds"
+				texture_specular = "Zaku_Specular.dds"
+				shader = "PdxMeshShip"
+		}
+	}
+
+	pdxmesh = {
+			name = "Dra_C_Trio_mesh" #Dra-C Trio
+			file = "gfx/models/ships/zeon_01/Dra_C_Triple.mesh"
+
+			scale = 1.0
+			meshsettings = {
+				texture_diffuse = "Dra_C_Diffuse.dds"
+				texture_normal = "zakuII_normal.dds"
+				texture_specular = "Zaku_Specular.dds"
+				shader = "PdxMeshShip"
+		}
+	}
+
+	pdxmesh = {
+		name = "Kshatriya_Test_mesh"
+		file = "gfx/models/ships/zeon_01/Test_Kshatriya.mesh"
+		scale = 6.0
+
+		animation = { id = "idle"						type = "zeon_01_kshatriya_idle_animation" }
+		#animation = { id = "working"					type = "zeon_01_kshatriya_idle_animation" }
+		#animation = { id = "working_looping"			type = "zeon_01_kshatriya_idle_animation" }
+
+		meshsettings = {
+			texture_diffuse = "Pazock_Diffuse.dds"
+			texture_normal = "zakuII_normal.dds"
+			texture_specular = "Zaku_Specular.dds"
+			shader = "PdxMeshShip"
 		}
 	}
 

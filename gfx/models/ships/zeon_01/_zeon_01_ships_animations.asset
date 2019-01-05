@@ -1,0 +1,4 @@
+animation = {
+	name = "zeon_01_kshatriya_idle_animation"
+	file = "Kshatriya.anim"
+}

@@ -1,8 +1,8 @@
-ship_section_template = { #MS-14A
+ship_section_template = { #GYAAAAAAAAAAAAAN
 	key = "MS_15A_MID"
 	ship_size = MS_15
 	fits_on_slot = mid
-	entity = "Gelgoog_A_Trio_entity"
+	entity = "Gyan_Trio_entity"
 	icon = "GFX_ship_part_core_mid"
 
 	prerequisites = { tech_MS_15A }
@@ -41,11 +41,11 @@ ship_section_template = { #MS-14A
 	}
 }
 
-ship_section_template = { #MS-14S
+ship_section_template = { #MQQQQQQQUVE LE DING
 	key = "MS_15S_MID"
 	ship_size = MS_15S
 	fits_on_slot = mid
-	entity = "Gelgoog_A_Trio_entity"
+	entity = "Gyan_Trio_entity"
 	icon = "GFX_ship_part_core_mid"
 
 	prerequisites = { tech_MS_15A }

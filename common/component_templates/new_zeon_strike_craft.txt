@@ -982,6 +982,104 @@ strike_craft_component_template = {
 }
 
 strike_craft_component_template = {
+	key = "ZEON_MS_STRIKE_CRAFT_MS_11_1" #MS-11 Action Zaku
+	size = LARGE
+	entity = "Action_Zaku_entity"
+
+	weapon_type = point_defence
+	projectile_gfx = "MPC3" #Find beam gfx
+	power = -64 #1440kW
+	resources = {
+		category = ship_components
+		cost = {
+			alloys = 83 #74.3 tons = 48 + 5 for improved armor + 30 for gun
+			zeon_pilots = 3
+		}
+	}
+
+	count = 1
+	regeneration_per_day = 0.034
+	launch_time = 8.0
+
+	damage = { min = 57.6 max = 115.2 } #Beam Rifle/MPC 1
+	cooldown = 25
+	range = 30
+	accuracy = 0.82
+	tracking = 0.65
+
+	health = 138
+	armor = 15
+	shield = 0
+	evasion = 0.57
+
+	speed = 251 #0.87G
+	rotation_speed = 0.1
+	acceleration = 0.5
+
+	shield_damage = 0.2 #MPC3
+	shield_penetration = 0
+	armor_penetration = 0.95
+
+	ship_behavior = "fighters_behavior"
+
+	icon = "GFX_ship_part_ms_11"
+	icon_frame = 1
+	component_set = "MS_11_HANGAR_1"
+	prerequisites = { "tech_MS_11" }
+	tags = { weapon_type_strike_craft }
+	upgrades_to = "ZEON_MS_STRIKE_CRAFT_MS_14A_1"
+}
+
+strike_craft_component_template = {
+	key = "ZEON_MS_STRIKE_CRAFT_MS_11_2" #MS-11 Action Zaku
+	size = LARGE
+	entity = "Action_Zaku_entity"
+
+	weapon_type = instant
+	projectile_gfx = "gundam_missile" #Find beam gfx
+	power = -64 #1440kW
+	resources = {
+		category = ship_components
+		cost = {
+			alloys = 78 #74.3 tons = 48 + 5 for improved armor + 25 for gun
+			zeon_pilots = 3
+		}
+	}
+
+	count = 1
+	regeneration_per_day = 0.034
+	launch_time = 8.0
+
+	damage = { min = 25.0 max = 45.0 } #damage = { min = 50.0 max = 90.0 } 360mm Bazooka
+	cooldown = 20
+	range = 60
+	accuracy = 0.80
+	tracking = 0.2
+
+	health = 138
+	armor = 15
+	shield = 0
+	evasion = 0.57
+
+	speed = 251 #0.87G
+	rotation_speed = 0.1
+	acceleration = 0.5
+
+	shield_damage = 1.15 #MEDIUM MISSILE
+	shield_penetration = 0
+	armor_penetration = 0.25
+
+	ship_behavior = "fighters_behavior"
+
+	icon = "GFX_ship_part_ms_11"
+	icon_frame = 1
+	component_set = "MS_11_HANGAR_2"
+	prerequisites = { "tech_MS_11" }
+	tags = { weapon_type_strike_craft }
+	upgrades_to = "ZEON_MS_STRIKE_CRAFT_MS_14A_2"
+}
+
+strike_craft_component_template = {
 	key = "ZEON_MS_STRIKE_CRAFT_MS_14A_1" #MS-14A Gelgoog A
 	size = LARGE
 	entity = "Gelgoog_A_entity"
@@ -2111,7 +2209,7 @@ strike_craft_component_template = {
 strike_craft_component_template = {
 	key = "ZEON_MS_STRIKE_CRAFT_MS_21C" #MS-21C Dra-C
 	size = LARGE
-	entity = "Zaku_II_entity"
+	entity = "Dra_C_entity"
 
 	weapon_type = point_defence
 	projectile_gfx = "auto_cannons_s"
@@ -2160,7 +2258,7 @@ strike_craft_component_template = {
 strike_craft_component_template = {
 	key = "ZEON_MS_STRIKE_CRAFT_MS_21D1_1" #MS-21D1 Dra-C Custom
 	size = LARGE
-	entity = "Zaku_II_entity"
+	entity = "Dra_C_entity"
 
 	weapon_type = point_defence
 	projectile_gfx = "auto_cannons_s"
@@ -2209,7 +2307,7 @@ strike_craft_component_template = {
 strike_craft_component_template = {
 	key = "ZEON_MS_STRIKE_CRAFT_MS_21D1_2" #MS-21D1 Dra-C Custom
 	size = LARGE
-	entity = "Zaku_II_entity"
+	entity = "Dra_C_entity"
 
 	weapon_type = instant
 	projectile_gfx = "gundam_missile_swarm"
@@ -4049,7 +4147,7 @@ strike_craft_component_template = {
 strike_craft_component_template = {
 	key = "ZEON_MS_STRIKE_CRAFT_NZ_666" #NZ-666 Kshatriya
 	size = LARGE
-	entity = "Gelgoog_A_entity"
+	entity = "Kshatriya_entity"
 
 	weapon_type = point_defence
 	projectile_gfx = "MPC3" #Find beam gfx

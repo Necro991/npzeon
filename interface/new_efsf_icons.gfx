@@ -236,6 +236,31 @@ spriteTypes = {
 	}
 
 	spriteType = {
+		name = "GFX_ship_part_rgm_89d"
+		texturefile = "gfx/interface/icons/ship_parts/RGM-89D.dds"
+	}
+
+	spriteType = {
+		name = "GFX_ship_part_rgm_89de"
+		texturefile = "gfx/interface/icons/ship_parts/RGM-89De.dds"
+	}
+
+	spriteType = {
+		name = "GFX_ship_part_rgm_89s_prototype"
+		texturefile = "gfx/interface/icons/ship_parts/RGM-89S-Prototype.dds"
+	}
+
+	spriteType = {
+		name = "GFX_ship_part_rgm_89s"
+		texturefile = "gfx/interface/icons/ship_parts/RGM-89S.dds"
+	}
+
+	spriteType = {
+		name = "GFX_ship_part_rgm_96x"
+		texturefile = "gfx/interface/icons/ship_parts/RGM-96X.dds"
+	}
+
+	spriteType = {
 		name = "GFX_ship_part_rms_106"
 		texturefile = "gfx/interface/icons/ship_parts/RMS-106.dds"
 	}

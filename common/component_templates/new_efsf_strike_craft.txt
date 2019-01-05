@@ -2686,8 +2686,8 @@ strike_craft_component_template = {
 	regeneration_per_day = 0.034
 	launch_time = 8.0
 
-	damage = { min = 4 max = 6 } #damage = { min = 8 max = 12 } Missile Pods
-	cooldown = 16
+	damage = { min = 8 max = 12 } #damage = { min = 8 max = 12 } Missile Pods
+	cooldown = 8
 	range = 100
 	accuracy = 1.0
 	tracking = 0.5
@@ -2786,8 +2786,8 @@ strike_craft_component_template = {
 	regeneration_per_day = 0.034
 	launch_time = 8.0
 
-	damage = { min = 4 max = 6 } #damage = { min = 8 max = 12 } Missile Pods
-	cooldown = 16
+	damage = { min = 8 max = 12 } #damage = { min = 8 max = 12 } Missile Pods
+	cooldown = 8
 	range = 100
 	accuracy = 1.0
 	tracking = 0.5
@@ -2861,7 +2861,7 @@ strike_craft_component_template = {
 	component_set = "RGM_89_HANGAR_1"
 	prerequisites = { "tech_RGM_89" }
 	tags = { weapon_type_strike_craft }
-	#upgrades_to = "EFSF_MS_STRIKE_CRAFT_MSA_004"
+	upgrades_to = "EFSF_MS_STRIKE_CRAFT_RGM_89D_1"
 }
 
 strike_craft_component_template = {
@@ -2884,8 +2884,8 @@ strike_craft_component_template = {
 	regeneration_per_day = 0.034
 	launch_time = 8.0
 
-	damage = { min = 4 max = 6 } #damage = { min = 8 max = 12 } Missile Pods
-	cooldown = 16
+	damage = { min = 8 max = 12 } #damage = { min = 8 max = 12 } Missile Pods
+	cooldown = 8
 	range = 100
 	accuracy = 1.0
 	tracking = 0.5
@@ -2909,6 +2909,398 @@ strike_craft_component_template = {
 	icon_frame = 1
 	component_set = "RGM_89_HANGAR_2"
 	prerequisites = { "tech_RGM_89" }
+	tags = { weapon_type_strike_craft }
+	upgrades_to = "EFSF_MS_STRIKE_CRAFT_RGM_89D_2"
+}
+
+strike_craft_component_template = {
+	key = "EFSF_MS_STRIKE_CRAFT_RGM_89D_1" #RGM-89D Jegan D Type
+	size = LARGE
+	entity = "Jegan_entity"
+
+	weapon_type = point_defence
+	projectile_gfx = "MPC2"
+	power = -83 #1870 = 83
+	resources = {
+		category = ship_components
+		cost = {
+			alloys = 64 #47.3 tons = 29 + 5 for armor + 30 for gun
+			efsf_pilots = 3
+		}
+	}
+
+	count = 3
+	regeneration_per_day = 0.034
+	launch_time = 8.0
+
+	damage = { min = 75 max = 149.5 } #damage = { min = 150 max = 299 } Beam Rifle
+	cooldown = 20
+	range = 30
+	accuracy = 0.82
+	tracking = 0.65
+
+	health = 73
+	armor = 15 #Improved Armor
+	shield = 0
+	evasion = 0.78 #Greatly improved performance
+
+	speed = 377.5 #1.31G
+	rotation_speed = 0.1
+	acceleration = 0.5
+
+	shield_damage = 0.2 #MPC1
+	shield_penetration = 0
+	armor_penetration = 0.95
+
+	ship_behavior = "fighters_behavior"
+
+	icon = "GFX_ship_part_rgm_89d"
+	icon_frame = 1
+	component_set = "RGM_89D_HANGAR_1"
+	prerequisites = { "tech_RGM_89D" }
+	tags = { weapon_type_strike_craft }
+	upgrades_to = "EFSF_MS_STRIKE_CRAFT_RGM_89De_1"
+}
+
+strike_craft_component_template = {
+	key = "EFSF_MS_STRIKE_CRAFT_RGM_89D_2" #RGM-89D Jegan D Type
+	size = LARGE
+	entity = "Jegan_entity"
+
+	weapon_type = instant
+	projectile_gfx = "gundam_missile_swarm"
+	power = -83 #1870 = 83
+	resources = {
+		category = ship_components
+		cost = {
+			alloys = 49 #47.3 tons = 29 + 5 for armor + 15 for gun
+			efsf_pilots = 3
+		}
+	}
+
+	count = 3
+	regeneration_per_day = 0.034
+	launch_time = 8.0
+
+	damage = { min = 8 max = 12 } #damage = { min = 8 max = 12 } Missile Pods
+	cooldown = 8
+	range = 100
+	accuracy = 1.0
+	tracking = 0.5
+
+	health = 73
+	armor = 15 #Improved Armor
+	shield = 0
+	evasion = 0.78 #Greatly improved performance
+
+	speed = 377.5 #1.31G
+	rotation_speed = 0.1
+	acceleration = 0.5
+
+	shield_damage = 1.1 #Swarmer Missiles
+	shield_penetration = 0
+	armor_penetration = 0.3
+
+	ship_behavior = "fighters_behavior"
+
+	icon = "GFX_ship_part_rgm_89d"
+	icon_frame = 1
+	component_set = "RGM_89D_HANGAR_2"
+	prerequisites = { "tech_RGM_89D" }
+	tags = { weapon_type_strike_craft }
+	upgrades_to = "EFSF_MS_STRIKE_CRAFT_RGM_89De_2"
+}
+
+strike_craft_component_template = {
+	key = "EFSF_MS_STRIKE_CRAFT_RGM_89De_1" #RGM-89De Jegan De ECOAS Type
+	size = LARGE
+	entity = "Jegan_De_entity"
+
+	weapon_type = point_defence
+	projectile_gfx = "MPC2"
+	power = -83 #1870 = 83
+	resources = {
+		category = ship_components
+		cost = {
+			alloys = 65 #49.5 tons = 30 + 5 for armor + 30 for gun
+			efsf_pilots = 3
+		}
+	}
+
+	count = 3
+	regeneration_per_day = 0.034
+	launch_time = 8.0
+
+	damage = { min = 75 max = 149.5 } #damage = { min = 150 max = 299 } Beam Rifle
+	cooldown = 20
+	range = 30
+	accuracy = 0.82
+	tracking = 0.65
+
+	health = 76
+	armor = 15 #Improved Armor
+	shield = 0
+	evasion = 0.78 #Greatly improved performance
+
+	speed = 360.2 #1.25G
+	rotation_speed = 0.1
+	acceleration = 0.5
+
+	shield_damage = 0.2 #MPC1
+	shield_penetration = 0
+	armor_penetration = 0.95
+
+	ship_behavior = "fighters_behavior"
+
+	icon = "GFX_ship_part_rgm_89de"
+	icon_frame = 1
+	component_set = "RGM_89De_HANGAR_1"
+	prerequisites = { "tech_RGM_89De" }
+	tags = { weapon_type_strike_craft }
+	upgrades_to = "EFSF_MS_STRIKE_CRAFT_RGM_96X_1"
+}
+
+strike_craft_component_template = {
+	key = "EFSF_MS_STRIKE_CRAFT_RGM_89De_2" #RGM-89De Jegan De ECOAS Type
+	size = LARGE
+	entity = "Jegan_De_entity"
+
+	weapon_type = instant
+	projectile_gfx = "gundam_missile_swarm"
+	power = -83 #1870 = 83
+	resources = {
+		category = ship_components
+		cost = {
+			alloys = 50 #49.5 tons = 30 + 5 for armor + 15 for gun
+			efsf_pilots = 3
+		}
+	}
+
+	count = 3
+	regeneration_per_day = 0.034
+	launch_time = 8.0
+
+	damage = { min = 8 max = 12 } #damage = { min = 8 max = 12 } Missile Pods
+	cooldown = 8
+	range = 100
+	accuracy = 1.0
+	tracking = 0.5
+
+	health = 76
+	armor = 15 #Improved Armor
+	shield = 0
+	evasion = 0.78 #Greatly improved performance
+
+	speed = 360.2 #1.25G
+	rotation_speed = 0.1
+	acceleration = 0.5
+
+	shield_damage = 1.1 #Swarmer Missiles
+	shield_penetration = 0
+	armor_penetration = 0.3
+
+	ship_behavior = "fighters_behavior"
+
+	icon = "GFX_ship_part_rgm_89de"
+	icon_frame = 1
+	component_set = "RGM_89De_HANGAR_2"
+	prerequisites = { "tech_RGM_89De" }
+	tags = { weapon_type_strike_craft }
+	upgrades_to = "EFSF_MS_STRIKE_CRAFT_RGM_96X_2"
+}
+
+strike_craft_component_template = {
+	key = "EFSF_MS_STRIKE_CRAFT_RGM_96X_1" #RGM-96X Jesta
+	size = LARGE
+	entity = "Jesta_entity"
+
+	weapon_type = point_defence
+	projectile_gfx = "MPC2"
+	power = -83 #1870 = 83
+	resources = {
+		category = ship_components
+		cost = {
+			alloys = 75 #57.2 tons = 35 + 10 for armor + 30 for gun
+			efsf_pilots = 3
+		}
+	}
+
+	count = 3
+	regeneration_per_day = 0.034
+	launch_time = 8.0
+
+	damage = { min = 108.4 max = 216.8 } #damage = { min = 150 max = 299 } Beam Rifle
+	cooldown = 20
+	range = 30
+	accuracy = 0.82
+	tracking = 0.65
+
+	health = 88
+	armor = 20 #Improved Armor
+	shield = 0
+	evasion = 0.8 #Greatly improved performance
+
+	speed = 449.5 #1.56G
+	rotation_speed = 0.1
+	acceleration = 0.5
+
+	shield_damage = 0.2 #MPC1
+	shield_penetration = 0
+	armor_penetration = 0.95
+
+	ship_behavior = "fighters_behavior"
+
+	icon = "GFX_ship_part_rgm_96x"
+	icon_frame = 1
+	component_set = "RGM_96X_HANGAR_1"
+	prerequisites = { "tech_RGM_96X" }
+	tags = { weapon_type_strike_craft }
+	#upgrades_to = "EFSF_MS_STRIKE_CRAFT_MSA_004"
+}
+
+strike_craft_component_template = {
+	key = "EFSF_MS_STRIKE_CRAFT_RGM_96X_2" #RGM-96X Jesta
+	size = LARGE
+	entity = "Jesta_entity"
+
+	weapon_type = instant
+	projectile_gfx = "gundam_missile_swarm"
+	power = -83 #1870 = 83
+	resources = {
+		category = ship_components
+		cost = {
+			alloys = 60 #57.2 tons = 35 + 10 for armor + 15 for gun
+			efsf_pilots = 3
+		}
+	}
+
+	count = 3
+	regeneration_per_day = 0.034
+	launch_time = 8.0
+
+	damage = { min = 8 max = 12 } #damage = { min = 8 max = 12 } Missile Pods
+	cooldown = 8
+	range = 100
+	accuracy = 1.0
+	tracking = 0.5
+
+	health = 88
+	armor = 20 #Improved Armor
+	shield = 0
+	evasion = 0.8 #Greatly improved performance
+
+	speed = 449.5 #1.56G
+	rotation_speed = 0.1
+	acceleration = 0.5
+
+	shield_damage = 1.1 #Swarmer Missiles
+	shield_penetration = 0
+	armor_penetration = 0.3
+
+	ship_behavior = "fighters_behavior"
+
+	icon = "GFX_ship_part_rgm_96x"
+	icon_frame = 1
+	component_set = "RGM_96X_HANGAR_2"
+	prerequisites = { "tech_RGM_96X" }
+	tags = { weapon_type_strike_craft }
+	#upgrades_to = "EFSF_MS_STRIKE_CRAFT_MSA_004"
+}
+
+strike_craft_component_template = {
+	key = "EFSF_MS_STRIKE_CRAFT_RGM_89S_PROTOTYPE" #RGM-89S Stark Jegan Prototype
+	size = LARGE
+	entity = "Stark_Jegan_entity"
+
+	weapon_type = instant
+	projectile_gfx = "gundam_missile"
+	power = -83 #1870 = 83
+	resources = {
+		category = ship_components
+		cost = {
+			alloys = 78 #69.8 tons = 43 + 5 for armor + 30 for gun
+			efsf_pilots = 3
+		}
+	}
+
+	count = 3
+	regeneration_per_day = 0.034
+	launch_time = 8.0
+
+	damage = { min = 50 max = 100 } #Anti-Ship Missiles
+	cooldown = 35
+	range = 100
+	accuracy = 0.9
+	tracking = 0.0
+
+	health = 107
+	armor = 15 #Improved Armor
+	shield = 0
+	evasion = 0.7 #Prototype
+
+	speed = 322.7 #1.12G
+	rotation_speed = 0.1
+	acceleration = 0.5
+
+	shield_damage = 1.1 #Swarmer Missiles
+	shield_penetration = 0
+	armor_penetration = 0.3
+
+	ship_behavior = "fighters_behavior"
+
+	icon = "GFX_ship_part_rgm_89s_prototype"
+	icon_frame = 1
+	component_set = "RGM_89S_PROTOTYPE_HANGAR_1"
+	prerequisites = { "tech_RGM_89S_Prototype" }
+	tags = { weapon_type_strike_craft }
+	upgrades_to = "EFSF_MS_STRIKE_CRAFT_RGM_89S"
+}
+
+strike_craft_component_template = {
+	key = "EFSF_MS_STRIKE_CRAFT_RGM_89S" #RGM-89S Stark Jegan
+	size = LARGE
+	entity = "Stark_Jegan_entity"
+
+	weapon_type = instant
+	projectile_gfx = "gundam_missile_swarm"
+	power = -83 #1870 = 83
+	resources = {
+		category = ship_components
+		cost = {
+			alloys = 58 #69.8 tons = 38 + 5 for armor + 15 for gun
+			efsf_pilots = 3
+		}
+	}
+
+	count = 3
+	regeneration_per_day = 0.034
+	launch_time = 8.0
+
+	damage = { min = 40 max = 80 }
+	cooldown = 15
+	range = 100
+	accuracy = 1.0
+	tracking = 0.5
+
+	health = 95
+	armor = 15 #Improved Armor
+	shield = 0
+	evasion = 0.75 #Greatly improved performance
+
+	speed = 357.3 #1.24G
+	rotation_speed = 0.1
+	acceleration = 0.5
+
+	shield_damage = 1.1 #Swarmer Missiles
+	shield_penetration = 0
+	armor_penetration = 0.3
+
+	ship_behavior = "fighters_behavior"
+
+	icon = "GFX_ship_part_rgm_89s"
+	icon_frame = 1
+	component_set = "RGM_89S_HANGAR_1"
+	prerequisites = { "tech_RGM_89S" }
 	tags = { weapon_type_strike_craft }
 	#upgrades_to = "EFSF_MS_STRIKE_CRAFT_MSA_004"
 }
