@@ -2786,6 +2786,12 @@ entity = {
 	}
 
 	entity = {
+		name = "Guncannon_Trio_entity" #Guncannon Trio
+		pdxmesh = "Guncannon_Trio_mesh"
+		scale = 1.0
+	}
+
+	entity = {
 		name = "guncannon_mpt_entity" #Guncannon MPT
 		pdxmesh = "fed_01_Guncannon_MPT_mesh"
 		scale = 1.0
@@ -2816,68 +2822,196 @@ entity = {
 	}
 
 	entity = {
+		name = "GM_Quel_entity" #GM Quel Rifle
+		pdxmesh = "GM_Quel_mesh"
+		scale = 1.0
+	}
+
+	entity = {
+		name = "GM_Quel_Bazooka_entity" #GM Quel Bazooka
+		pdxmesh = "GM_Quel_Bazooka_mesh"
+		scale = 1.0
+	}
+
+	entity = {
+		name = "GM_Quel_Trio_entity" #GM Quel Trio
+		pdxmesh = "GM_Quel_Trio_mesh"
+		scale = 1.0
+	}
+
+	entity = {
+		name = "GM_Quel_Commander_Trio_entity" #GM Quel Commander Trio
+		pdxmesh = "GM_Quel_Commander_Trio_mesh"
+		scale = 1.0
+	}
+
+	entity = {
 		name = "gundam_entity" #Gundam
 		pdxmesh = "gundamu_mesh"
+
+		locator = { name = "medium_gun_01" 			position = { 0 0 0	} 	scale = 0 }
+		locator = { name = "medium_gun_02" 			position = { 0 0 0	} 	scale = 0 }
+		locator = { name = "medium_gun_03" 			position = { 0 0 0	} 	scale = 0 }
+		locator = { name = "medium_gun_04" 			position = { 0 0 0	} 	scale = 0 }
+		locator = { name = "medium_gun_05" 			position = { 0 0 0	} 	scale = 0 }
+		locator = { name = "medium_gun_06" 			position = { 0 0 0	} 	scale = 0 }
+
+		scale = 1.0
+	}
+
+	entity = {
+		name = "Gundam_Unit_5_entity" #Gundam
+		pdxmesh = "Gundam_Unit_5_mesh"
+
+		locator = { name = "medium_gun_01" 			position = { 0 0 0	} 	scale = 0 }
+		locator = { name = "medium_gun_02" 			position = { 0 0 0	} 	scale = 0 }
+		locator = { name = "medium_gun_03" 			position = { 0 0 0	} 	scale = 0 }
+		locator = { name = "medium_gun_04" 			position = { 0 0 0	} 	scale = 0 }
+		locator = { name = "medium_gun_05" 			position = { 0 0 0	} 	scale = 0 }
+		locator = { name = "medium_gun_06" 			position = { 0 0 0	} 	scale = 0 }
+
+		scale = 1.0
+	}
+
+
+	entity = {
+		name = "FA_Thunderbolt_Gundam_entity" #IO FLEMING BICHE
+		pdxmesh = "FA_Thunderbolt_Gundam_mesh"
+
+		locator = { name = "medium_gun_01" 			position = { 0 0 0	} 	scale = 0 }
+		locator = { name = "medium_gun_02" 			position = { 0 0 0	} 	scale = 0 }
+		locator = { name = "medium_gun_03" 			position = { 0 0 0	} 	scale = 0 }
+		locator = { name = "medium_gun_04" 			position = { 0 0 0	} 	scale = 0 }
+		locator = { name = "medium_gun_05" 			position = { 0 0 0	} 	scale = 0 }
+		locator = { name = "medium_gun_06" 			position = { 0 0 0	} 	scale = 0 }
+		locator = { name = "medium_gun_07" 			position = { 0 0 0	} 	scale = 0 }
+
 		scale = 1.0
 	}
 
 	entity = {
 		name = "fa_gundam_entity_1" #Gundam
 		pdxmesh = "fa_gundam_mesh_1"
+
+		locator = { name = "medium_gun_01" 			position = { 0 0 0	} 	scale = 0 }
+		locator = { name = "medium_gun_02" 			position = { 0 0 0	} 	scale = 0 }
+		locator = { name = "medium_gun_03" 			position = { 0 0 0	} 	scale = 0 }
+		locator = { name = "medium_gun_04" 			position = { 0 0 0	} 	scale = 0 }
+
 		scale = 1.0
 	}
 
 	entity = {
 		name = "fa_gundam_entity_2" #Gundam
 		pdxmesh = "fa_gundam_mesh_2"
+
+		locator = { name = "medium_gun_01" 			position = { 0 0 0	} 	scale = 0 }
+		locator = { name = "medium_gun_02" 			position = { 0 0 0	} 	scale = 0 }
+		locator = { name = "medium_gun_03" 			position = { 0 0 0	} 	scale = 0 }
+		locator = { name = "medium_gun_04" 			position = { 0 0 0	} 	scale = 0 }
+		locator = { name = "medium_gun_05" 			position = { 0 0 0	} 	scale = 0 }
+		locator = { name = "medium_gun_06" 			position = { 0 0 0	} 	scale = 0 }
+		locator = { name = "medium_gun_07" 			position = { 0 0 0	} 	scale = 0 }
+
 		scale = 1.0
 	}
 
 	entity = {
 		name = "fa_gundam_entity_3" #Gundam
 		pdxmesh = "fa_gundam_mesh_3"
+
+		locator = { name = "medium_gun_01" 			position = { 0 0 0	} 	scale = 0 }
+		locator = { name = "medium_gun_02" 			position = { 0 0 0	} 	scale = 0 }
+		locator = { name = "medium_gun_03" 			position = { 0 0 0	} 	scale = 0 }
+		locator = { name = "medium_gun_04" 			position = { 0 0 0	} 	scale = 0 }
+
 		scale = 1.0
 	}
 
 	entity = {
 		name = "fa_perfect_gundam_entity" #Gundam
 		pdxmesh = "fa_perfect_gundam_mesh"
+
+		locator = { name = "medium_gun_01" 			position = { 0 0 0	} 	scale = 0 }
+		locator = { name = "medium_gun_02" 			position = { 0 0 0	} 	scale = 0 }
+		locator = { name = "medium_gun_03" 			position = { 0 0 0	} 	scale = 0 }
+		locator = { name = "medium_gun_04" 			position = { 0 0 0	} 	scale = 0 }
+
+		scale = 1.0
+	}
+
+	entity = {
+		name = "FA_7th_entity" #FA 7th Gundam
+		pdxmesh = "FA_7th_mesh"
+
+		locator = { name = "medium_gun_01" 			position = { 0 0 0	} 	scale = 0 }
+		locator = { name = "medium_gun_02" 			position = { 0 0 0	} 	scale = 0 }
+		locator = { name = "medium_gun_03" 			position = { 0 0 0	} 	scale = 0 }
+		locator = { name = "medium_gun_04" 			position = { 0 0 0	} 	scale = 0 }
+
 		scale = 1.0
 	}
 
 	entity = {
 		name = "fa_gundam_2_entity_1" #Gundam
 		pdxmesh = "fa_2_gundam_mesh_1"
+
+		locator = { name = "medium_gun_01" 			position = { 0 0 0	} 	scale = 0 }
+		locator = { name = "medium_gun_02" 			position = { 0 0 0	} 	scale = 0 }
+		locator = { name = "medium_gun_03" 			position = { 0 0 0	} 	scale = 0 }
+		locator = { name = "medium_gun_04" 			position = { 0 0 0	} 	scale = 0 }
+		locator = { name = "medium_gun_05" 			position = { 0 0 0	} 	scale = 0 }
+		locator = { name = "medium_gun_06" 			position = { 0 0 0	} 	scale = 0 }
+		locator = { name = "medium_gun_07" 			position = { 0 0 0	} 	scale = 0 }
+		locator = { name = "medium_gun_08" 			position = { 0 0 0	} 	scale = 0 }
+		locator = { name = "medium_gun_09" 			position = { 0 0 0	} 	scale = 0 }
+		locator = { name = "medium_gun_10" 			position = { 0 0 0	} 	scale = 0 }
+
 		scale = 1.0
 	}
 
 	entity = {
 		name = "fa_gundam_2_entity_2" #Gundam
 		pdxmesh = "fa_2_gundam_mesh_2"
+
+		locator = { name = "medium_gun_01" 			position = { 0 0 0	} 	scale = 0 }
+
 		scale = 1.0
 	}
 
 	entity = {
 		name = "fa_gundam_2_entity_3" #Gundam
 		pdxmesh = "fa_2_gundam_mesh_3"
+
+		locator = { name = "medium_gun_01" 			position = { 0 0 0	} 	scale = 0 }
+
 		scale = 1.0
 	}
 
 	entity = {
 		name = "fa_gundam_2_entity_4" #Gundam
 		pdxmesh = "fa_2_gundam_mesh_4"
+
+		locator = { name = "medium_gun_01" 			position = { 0 0 0	} 	scale = 0 }
+
 		scale = 1.0
 	}
 
 	entity = {
 		name = "fa_gundam_2_entity_5" #Gundam
 		pdxmesh = "fa_2_gundam_mesh_5"
+
+		locator = { name = "medium_gun_01" 			position = { 0 0 0	} 	scale = 0 }
+
 		scale = 1.0
 	}
 
 	entity = {
 		name = "fa_gundam_2_entity_6" #Cyphus Ballerina/Fabulous Gundam
 		pdxmesh = "fa_2_gundam_mesh_6"
+
+		locator = { name = "medium_gun_01" 			position = { 0 0 0	} 	scale = 0 }
+
 		scale = 1.0
 	}
 
@@ -2900,14 +3034,37 @@ entity = {
 	}
 
 	entity = {
-		name = "gp02_entity" #GP02
-		pdxmesh = "fed_01_GP02_mesh"
+		name = "Zephyranthes_entity" #Zephyranthes
+		pdxmesh = "Zephyranthes_mesh"
 		scale = 1.0
 	}
 
 	entity = {
-		name = "gp03_entity" #GP03
-		pdxmesh = "fed_01_GP03_mesh"
+		name = "Physalis_entity" #GP02 Physalis
+		pdxmesh = "Physalis_mesh"
+
+		locator = { name = "xl_gun_01" 			position = { 0 0 0	} 	scale = 0 }
+		locator = { name = "medium_gun_01" 			position = { 0 0 0	} 	scale = 0 }
+		locator = { name = "medium_gun_02" 			position = { 0 0 0	} 	scale = 0 }
+
+		scale = 1.0
+	}
+
+	entity = {
+		name = "Stamen_entity" #GP03 Stamen
+		pdxmesh = "Stamen_mesh"
+		scale = 1.0
+	}
+
+	entity = {
+		name = "Gerbera_entity" #GP04G Gerbera
+		pdxmesh = "Gerbera_mesh"
+		scale = 1.0
+	}
+
+	entity = {
+		name = "Gundam_Mk2_Titans_entity" #Gundam Mk2 Titans
+		pdxmesh = "Gundam_Mk2_Titans_mesh"
 		scale = 1.0
 	}
 
@@ -2930,8 +3087,26 @@ entity = {
 	}
 
 	entity = {
+		name = "Hizack_entity" #Green Hizack Single
+		pdxmesh = "Hizack_mesh"
+		scale = 1.0
+	}
+
+	entity = {
 		name = "Nemo_entity" #Test Nemo
 		pdxmesh = "Nemo_mesh"
+		scale = 1.0
+	}
+
+	entity = {
+		name = "GM_III_entity" #GM III Single
+		pdxmesh = "GM_III_mesh"
+		scale = 1.0
+	}
+
+	entity = {
+		name = "GM_III_Nouvel_entity" #GM III Nouvel Single
+		pdxmesh = "GM_III_Nouvel_mesh"
 		scale = 1.0
 	}
 

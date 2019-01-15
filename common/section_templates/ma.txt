@@ -38,7 +38,7 @@ ship_section_template = { #MSN-02 Zeong
 	key = "MSN_02_MID"
 	ship_size = MSN_02
 	fits_on_slot = mid
-	entity = "nt_ms_2_entity"
+	entity = "Zeong_entity"
 	icon = "GFX_ship_part_core_mid"
 
 	prerequisites = { tech_MSN_02 }

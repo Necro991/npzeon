@@ -264,6 +264,55 @@ ship_section_template = {
 }
 
 ship_section_template = {
+	key = "WHITE_BASE_MID_5"
+	ship_size = white_base
+	fits_on_slot = mid
+	entity = "nahel_argama_mid_entity"
+	icon = "GFX_ship_part_core_mid"
+
+	prerequisites = { tech_EFSF_BEAMC_3 }
+
+	component_slot = {
+		name = "LARGE_GUN_01"
+		slot_size = large
+		slot_type = weapon
+		locatorname = "large_gun_01"
+	}
+	component_slot = {
+		name = "LARGE_GUN_02"
+		slot_size = large
+		slot_type = weapon
+		locatorname = "large_gun_02"
+	}
+	component_slot = {
+		name = "LARGE_GUN_03"
+		slot_size = large
+		slot_type = weapon
+		locatorname = "large_gun_03"
+	}
+
+	component_slot = {
+		name = "STRIKE_CRAFT_01"
+		slot_size = large
+		slot_type = strike_craft
+		rotation = 90
+		locatorname = "strike_craft_locator_01"
+	}
+
+	small_utility_slots = 1
+	medium_utility_slots = 1
+	large_utility_slots = 2
+	aux_utility_slots = 1
+
+	resources = {
+		category = ship_sections
+		cost = {
+			alloys = 240
+		}
+	}
+}
+
+ship_section_template = {
 	key = "WHITE_BASE_STERN"
 	ship_size = white_base
 	fits_on_slot = stern
@@ -608,7 +657,7 @@ ship_section_template = { #FrAsh Thunderbolt Zaku II Reuse P Psycho Zaku
 	key = "ZEON_MS_P_MID"
 	ship_size = zeon_MS_P
 	fits_on_slot = mid
-	entity = "nt_ms_3_entity"
+	entity = "Zaku_II_HMT_Reuse_entity"
 	icon = "GFX_ship_part_core_mid"
 
 	component_slot = {

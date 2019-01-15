@@ -177,7 +177,57 @@ ship_section_template = { #MS-06R-2P
 	entity = "Zaku_II_Group_entity" #zaku2_r_2p_entity
 	icon = "GFX_ship_part_core_mid"
 
-	prerequisites = { tech_MS_06R_2P }
+	prerequisites = { tech_MS_06C } #tech_MS_06R_2P
+
+	component_slot = {
+		name = "SMALL_GUN_01"
+		slot_size = point_defence
+		slot_type = weapon
+		locatorname = "small_gun_01"
+	}
+
+	component_slot = {
+		name = "SMALL_GUN_02"
+		slot_size = point_defence
+		slot_type = weapon
+		locatorname = "small_gun_02"
+	}
+
+	component_slot = {
+		name = "SMALL_GUN_03"
+		slot_size = point_defence
+		slot_type = weapon
+		locatorname = "small_gun_03"
+	}
+
+	component_slot = {
+		name = "SMALL_GUN_04"
+		slot_size = point_defence
+		slot_type = weapon
+		locatorname = "small_gun_04"
+	}
+
+	small_utility_slots = 0
+	medium_utility_slots = 0
+	large_utility_slots = 0
+	aux_utility_slots = 0
+
+	resources = {
+		category = ship_sections
+		cost = {
+			alloys = 132
+		}
+	}
+}
+
+ship_section_template = { #MS-08TX Efreet Schneid Trio
+	key = "MS_08TX_MID"
+	ship_size = MS_06S
+	fits_on_slot = mid
+	entity = "Efreet_Schneid_Trio_entity"
+	icon = "GFX_ship_part_core_mid"
+
+	prerequisites = { tech_MS_06R_3S } #Uses top tier Zaku II
 
 	component_slot = {
 		name = "SMALL_GUN_01"

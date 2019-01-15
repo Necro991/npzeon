@@ -1,3 +1,9 @@
+	#hull_damage = 0.0
+	#armor_damage = 0.0
+	#armor_penetration = 0.0
+	#shield_damage = 0.0
+	#shield_penetration = 0.0
+
 weapon_component_template = {
 	key = "OYW_ZEON_100MM"
 	size = point_defence

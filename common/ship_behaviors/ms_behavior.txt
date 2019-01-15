@@ -1,7 +1,7 @@
 ship_behavior = {
 	name = "mobile_suit_behavior"
 
-	preferred_attack_range = 30
+	preferred_attack_range = min
 	formation_distance = 30				#when orbing/following ship will try to keep this distance to assigned position
 	return_to_formation_distance = 40	#when attacking the ship will switch to passive mode if distance to assigned position is greater that this
 

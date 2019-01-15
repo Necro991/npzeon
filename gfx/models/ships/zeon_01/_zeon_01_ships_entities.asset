@@ -2237,6 +2237,12 @@ entity = {
 	}
 
 	entity = {
+		name = "Gelgoog_Jg_entity" #Gelgoog Jg Single
+		pdxmesh = "Gelgoog_Jg_mesh"
+		scale = 1.0
+	}
+
+	entity = {
 		name = "Gelgoog_Char_entity" #Char's Gelgoog
 		pdxmesh = "Gelgoog_Char_mesh"
 		scale = 1.0
@@ -2279,9 +2285,15 @@ entity = {
 	}
 
 	entity = {
-		name = "gaza_c_single_entity"
+		name = "Gaza_C_entity"
 		pdxmesh = "Gaza_C_mesh"
-		scale = 5.0
+		scale = 1.0
+	}
+
+	entity = {
+		name = "Dreissen_entity"
+		pdxmesh = "Dreissen_mesh"
+		scale = 1.0
 	}
 
 	entity = {
@@ -2297,6 +2309,18 @@ entity = {
 	}
 
 	entity = {
+		name = "Sazabi_entity" #Sazabi
+		pdxmesh = "Sazabi_mesh"
+		scale = 1.0
+	}
+
+	entity = {
+		name = "Queen_Mansa_entity" #Queen Mansa
+		pdxmesh = "Queen_Mansa_mesh"
+		scale = 1.0
+	}
+
+	entity = {
 		name = "Kshatriya_entity" #Single
 		pdxmesh = "Kshatriya_mesh"
 		scale = 1.0
@@ -2305,6 +2329,10 @@ entity = {
 	entity = {
 		name = "ma_1_entity" #Val Varo
 		pdxmesh = "Val_Varo_Mesh"
+
+		locator = { name = "medium_gun_01" 			position = { 0 0 0	} 	scale = 0 }
+		locator = { name = "medium_gun_02" 			position = { 0 0 0	} 	scale = 0 }
+
 		scale = 0.5
 	}
 
@@ -2341,12 +2369,26 @@ entity = {
 	entity = {
 		name = "nt_ma_1_entity" #Elmeth
 		pdxmesh = "Elmeth_Mesh"
+
+		locator = { name = "medium_gun_01" 			position = { 0 0 0	} 	scale = 0 }
+		locator = { name = "medium_gun_02" 			position = { 0 0 0	} 	scale = 0 }
+		locator = { name = "medium_gun_03" 			position = { 0 0 0	} 	scale = 0 }
+		locator = { name = "medium_gun_04" 			position = { 0 0 0	} 	scale = 0 }
+		locator = { name = "medium_gun_05" 			position = { 0 0 0	} 	scale = 0 }
+		locator = { name = "medium_gun_06" 			position = { 0 0 0	} 	scale = 0 }
+		locator = { name = "medium_gun_07" 			position = { 0 0 0	} 	scale = 0 }
+		locator = { name = "medium_gun_08" 			position = { 0 0 0	} 	scale = 0 }
+
 		scale = 0.6
 	}
 
 	entity = {
 		name = "not_zakrello_entity" #Elmeth Zakrello
 		pdxmesh = "Elmeth_Zakrello_Mesh"
+
+		locator = { name = "medium_gun_01" 			position = { 0 0 0	} 	scale = 0 }
+		locator = { name = "medium_gun_02" 			position = { 0 0 0	} 	scale = 0 }
+
 		scale = 0.6
 	}
 
@@ -2357,14 +2399,14 @@ entity = {
 	}
 
 	entity = {
-		name = "nt_ms_2_entity" #Zeong Zeong_Mesh
+		name = "Zeong_entity" #Zeong Zeong_Mesh
 		pdxmesh = "Zeong_Mesh"
 		scale = 1.0
 
 	}
 
 	entity = {
-		name = "nt_ms_3_entity" #Thunderbolt Zaku II
+		name = "Zaku_II_HMT_Reuse_entity" #Thunderbolt Zaku II
 		pdxmesh = "Zaku_II_HMT_Reuse_mesh"
 		scale = 3.0
 	}
@@ -2665,6 +2707,64 @@ entity = {
 		scale = 1.00
 	}
 
+	entity = { #Gelgoog Jg Trio
+		name = "Gelgoog_Jg_Trio_entity"
+		pdxmesh = "Gelgoog_Jg_Trio_mesh"
+
+		locator = { name = "root" 			position = { 0 	0 	0	} }
+		locator = { name = "small_gun_01" 			position = { 0 	0 	0	} scale = 0.0} #X,Up/Down,Forward/Back 0 	0.4 	-0.3
+		locator = { name = "small_gun_02" 			position = { 0 	0 	0 	} scale = 0.0} #0.5	0.4 	-0.3
+		locator = { name = "small_gun_03" 			position = { 0 	0 	0 	} scale = 0.0} #-0.5 	0.4 	-0.3
+		locator = { name = "small_gun_04" 			position = { 0 	0 	0 	} scale = 0.0} #-0.5 	0.4 	-0.3
+		locator = { name = "medium_gun_01" 			position = { 0 	0 	0 	} scale = 0.0}
+		locator = { name = "light_locator_01" 			position = { 0  0 	0 	} }
+		locator = { name = "light_locator_02" 			position = { 0 	0 	0 	} }
+		locator = { name = "exaust_01" 			position = { 0 	0 	0 	} }
+
+		default_state = "idle"
+		state = { name = "idle"		state_time = 5
+
+			event = { time = 0 node = "light_locator_01" particle = "ship_light_blue_effect" trigger_once = yes keep_particle = yes }
+			event = { time = 0 node = "light_locator_02" particle = "ship_light_blue_effect" trigger_once = yes keep_particle = yes }
+			}
+		state = { name = "moving"	state_time = 5
+
+			event = { time = 0 node = "light_locator_01" particle = "ship_light_blue_effect" trigger_once = yes keep_particle = yes }
+			event = { time = 0 node = "light_locator_02" particle = "ship_light_blue_effect" trigger_once = yes keep_particle = yes }
+			}
+		state = { name = "death" state_time = 5 }
+		scale = 1.00
+	}
+
+	entity = { #Gelgoog Jg Matsunaga Trio
+		name = "Gelgoog_Jg_Shin_Trio_entity"
+		pdxmesh = "Gelgoog_Jg_Shin_Trio_mesh"
+
+		locator = { name = "root" 			position = { 0 	0 	0	} }
+		locator = { name = "small_gun_01" 			position = { 0 	0 	0	} scale = 0.0} #X,Up/Down,Forward/Back 0 	0.4 	-0.3
+		locator = { name = "small_gun_02" 			position = { 0 	0 	0 	} scale = 0.0} #0.5	0.4 	-0.3
+		locator = { name = "small_gun_03" 			position = { 0 	0 	0 	} scale = 0.0} #-0.5 	0.4 	-0.3
+		locator = { name = "small_gun_04" 			position = { 0 	0 	0 	} scale = 0.0} #-0.5 	0.4 	-0.3
+		locator = { name = "medium_gun_01" 			position = { 0 	0 	0 	} scale = 0.0}
+		locator = { name = "light_locator_01" 			position = { 0  0 	0 	} }
+		locator = { name = "light_locator_02" 			position = { 0 	0 	0 	} }
+		locator = { name = "exaust_01" 			position = { 0 	0 	0 	} }
+
+		default_state = "idle"
+		state = { name = "idle"		state_time = 5
+
+			event = { time = 0 node = "light_locator_01" particle = "ship_light_blue_effect" trigger_once = yes keep_particle = yes }
+			event = { time = 0 node = "light_locator_02" particle = "ship_light_blue_effect" trigger_once = yes keep_particle = yes }
+			}
+		state = { name = "moving"	state_time = 5
+
+			event = { time = 0 node = "light_locator_01" particle = "ship_light_blue_effect" trigger_once = yes keep_particle = yes }
+			event = { time = 0 node = "light_locator_02" particle = "ship_light_blue_effect" trigger_once = yes keep_particle = yes }
+			}
+		state = { name = "death" state_time = 5 }
+		scale = 1.00
+	}
+
 	entity = { #Gelgoog S Trio
 		name = "Gelgoog_S_Trio_entity"
 		pdxmesh = "Gelgoog_S_Trio_mesh"
@@ -2813,6 +2913,35 @@ entity = {
 	entity = { #Dra-C Trio
 		name = "Dra_C_Trio_entity"
 		pdxmesh = "Dra_C_Trio_mesh"
+
+		locator = { name = "root" 			position = { 0 	0 	0	} }
+		locator = { name = "small_gun_01" 			position = { 0 	0 	0	} scale = 0.0} #X,Up/Down,Forward/Back 0 	0.4 	-0.3
+		locator = { name = "small_gun_02" 			position = { 0 	0 	0 	} scale = 0.0} #0.5	0.4 	-0.3
+		locator = { name = "small_gun_03" 			position = { 0 	0 	0 	} scale = 0.0} #-0.5 	0.4 	-0.3
+		locator = { name = "small_gun_04" 			position = { 0 	0 	0 	} scale = 0.0} #-0.5 	0.4 	-0.3
+		locator = { name = "medium_gun_01" 			position = { 0 	0 	0 	} scale = 0.0}
+		locator = { name = "light_locator_01" 			position = { 0  0 	0 	} }
+		locator = { name = "light_locator_02" 			position = { 0 	0 	0 	} }
+		locator = { name = "exaust_01" 			position = { 0 	0 	0 	} }
+
+		default_state = "idle"
+		state = { name = "idle"		state_time = 5
+
+			event = { time = 0 node = "light_locator_01" particle = "ship_light_blue_effect" trigger_once = yes keep_particle = yes }
+			event = { time = 0 node = "light_locator_02" particle = "ship_light_blue_effect" trigger_once = yes keep_particle = yes }
+			}
+		state = { name = "moving"	state_time = 5
+
+			event = { time = 0 node = "light_locator_01" particle = "ship_light_blue_effect" trigger_once = yes keep_particle = yes }
+			event = { time = 0 node = "light_locator_02" particle = "ship_light_blue_effect" trigger_once = yes keep_particle = yes }
+			}
+		state = { name = "death" state_time = 5 }
+		scale = 1.0
+	}
+
+	entity = { #Dra-C Trio
+		name = "Efreet_Schneid_Trio_entity"
+		pdxmesh = "Efreet_Schneid_Trio_mesh"
 
 		locator = { name = "root" 			position = { 0 	0 	0	} }
 		locator = { name = "small_gun_01" 			position = { 0 	0 	0	} scale = 0.0} #X,Up/Down,Forward/Back 0 	0.4 	-0.3

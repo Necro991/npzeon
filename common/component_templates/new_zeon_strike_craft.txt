@@ -324,7 +324,7 @@ strike_craft_component_template = {
 	health = 113
 	armor = 10
 	shield = 0
-	evasion = 0.5
+	evasion = 0.55
 
 	speed = 170 #0.59G
 	rotation_speed = 0.1
@@ -373,7 +373,7 @@ strike_craft_component_template = {
 	health = 113
 	armor = 10
 	shield = 0
-	evasion = 0.5
+	evasion = 0.55
 
 	speed = 170 #0.59G
 	rotation_speed = 0.1
@@ -422,7 +422,7 @@ strike_craft_component_template = {
 	health = 108
 	armor = 12 #Improved Chest Armor
 	shield = 0
-	evasion = 0.50
+	evasion = 0.55
 
 	speed = 218.875 #0.76G
 	rotation_speed = 0.1
@@ -471,7 +471,7 @@ strike_craft_component_template = {
 	health = 108
 	armor = 12 #Improved Chest Armor
 	shield = 0
-	evasion = 0.50
+	evasion = 0.55
 
 	speed = 218.875 #0.76G
 	rotation_speed = 0.1
@@ -520,7 +520,7 @@ strike_craft_component_template = {
 	health = 128
 	armor = 15 #Titanium-Ceramic
 	shield = 0
-	evasion = 0.52
+	evasion = 0.57
 
 	speed = 308.125 #1.07G
 	rotation_speed = 0.1
@@ -569,7 +569,7 @@ strike_craft_component_template = {
 	health = 128
 	armor = 15 #Titanium-Ceramic
 	shield = 0
-	evasion = 0.52
+	evasion = 0.57
 
 	speed = 308.125 #1.07G
 	rotation_speed = 0.1
@@ -1474,7 +1474,7 @@ strike_craft_component_template = {
 strike_craft_component_template = {
 	key = "ZEON_MS_STRIKE_CRAFT_MS_14JG_1" #MS-14Jg Gelgoog Jäger
 	size = LARGE
-	entity = "Gelgoog_Char_entity"
+	entity = "Gelgoog_Jg_entity"
 
 	weapon_type = point_defence
 	projectile_gfx = "MPC3" #Find beam gfx
@@ -1523,7 +1523,7 @@ strike_craft_component_template = {
 strike_craft_component_template = {
 	key = "ZEON_MS_STRIKE_CRAFT_MS_14JG_2" #MS-14Jg Gelgoog Jäger
 	size = LARGE
-	entity = "Gelgoog_Char_entity"
+	entity = "Gelgoog_Jg_entity"
 
 	weapon_type = instant
 	projectile_gfx = "gundam_missile"
@@ -2699,7 +2699,7 @@ strike_craft_component_template = {
 strike_craft_component_template = {
 	key = "ZEON_MS_STRIKE_CRAFT_AMX_009_1" #AMX-009 Dreissen
 	size = LARGE
-	entity = "Gelgoog_A_entity"
+	entity = "Dreissen_entity"
 
 	weapon_type = point_defence
 	projectile_gfx = "MPC3" #Find beam gfx
@@ -2749,7 +2749,7 @@ strike_craft_component_template = {
 strike_craft_component_template = {
 	key = "ZEON_MS_STRIKE_CRAFT_AMX_009_2" #AMX-009 Dreissen
 	size = LARGE
-	entity = "Gelgoog_A_entity"
+	entity = "Dreissen_entity"
 
 	weapon_type = instant
 	projectile_gfx = "gundam_missile"
@@ -2799,7 +2799,7 @@ strike_craft_component_template = {
 strike_craft_component_template = {
 	key = "ZEON_MS_STRIKE_CRAFT_AMX_003C_1" #AMX-003C Gaza-C
 	size = LARGE
-	entity = "Gelgoog_A_entity"
+	entity = "Gaza_C_entity"
 
 	weapon_type = point_defence
 	projectile_gfx = "MPC3" #Find beam gfx
@@ -2849,7 +2849,7 @@ strike_craft_component_template = {
 strike_craft_component_template = {
 	key = "ZEON_MS_STRIKE_CRAFT_AMX_003C_2" #AMX-003C Gaza-C
 	size = LARGE
-	entity = "Gelgoog_A_entity"
+	entity = "Gaza_C_entity"
 
 	weapon_type = instant
 	projectile_gfx = "gundam_missile"
@@ -2899,7 +2899,7 @@ strike_craft_component_template = {
 strike_craft_component_template = {
 	key = "ZEON_MS_STRIKE_CRAFT_AMX_006_1" #AMX-006 Gaza-D
 	size = LARGE
-	entity = "Gelgoog_A_entity"
+	entity = "Gaza_C_entity"
 
 	weapon_type = point_defence
 	projectile_gfx = "MPC3" #Find beam gfx
@@ -2949,7 +2949,7 @@ strike_craft_component_template = {
 strike_craft_component_template = {
 	key = "ZEON_MS_STRIKE_CRAFT_AMX_006_2" #AMX-006 Gaza-D
 	size = LARGE
-	entity = "Gelgoog_A_entity"
+	entity = "Gaza_C_entity"
 
 	weapon_type = instant
 	projectile_gfx = "gundam_missile"
@@ -2999,7 +2999,7 @@ strike_craft_component_template = {
 strike_craft_component_template = {
 	key = "ZEON_MS_STRIKE_CRAFT_AMX_007_1" #AMX-007 Gaza-E
 	size = LARGE
-	entity = "Gelgoog_A_entity"
+	entity = "Gaza_C_entity"
 
 	weapon_type = point_defence
 	projectile_gfx = "MPC3" #Find beam gfx
@@ -3049,7 +3049,7 @@ strike_craft_component_template = {
 strike_craft_component_template = {
 	key = "ZEON_MS_STRIKE_CRAFT_AMX_007_2" #AMX-007 Gaza-E
 	size = LARGE
-	entity = "Gelgoog_A_entity"
+	entity = "Gaza_C_entity"
 
 	weapon_type = instant
 	projectile_gfx = "gundam_missile"
@@ -3099,7 +3099,7 @@ strike_craft_component_template = {
 strike_craft_component_template = {
 	key = "ZEON_MS_STRIKE_CRAFT_AMX_008_1" #AMX-008 Ga-Zowmn
 	size = LARGE
-	entity = "Gelgoog_A_entity"
+	entity = "Gaza_C_entity"
 
 	weapon_type = point_defence
 	projectile_gfx = "MPC3" #Find beam gfx
@@ -3149,7 +3149,7 @@ strike_craft_component_template = {
 strike_craft_component_template = {
 	key = "ZEON_MS_STRIKE_CRAFT_AMX_008_2" #AMX-008 Ga-Zowmn
 	size = LARGE
-	entity = "Gelgoog_A_entity"
+	entity = "Gaza_C_entity"
 
 	weapon_type = instant
 	projectile_gfx = "gundam_missile"
@@ -3749,7 +3749,7 @@ strike_craft_component_template = {
 strike_craft_component_template = {
 	key = "ZEON_MS_STRIKE_CRAFT_MS_14J_1" #MS-14J ReGelgu
 	size = LARGE
-	entity = "Gelgoog_Char_entity"
+	entity = "Gelgoog_Jg_entity"
 
 	weapon_type = point_defence
 	projectile_gfx = "MPC3" #Find beam gfx
@@ -3798,7 +3798,7 @@ strike_craft_component_template = {
 strike_craft_component_template = {
 	key = "ZEON_MS_STRIKE_CRAFT_MS_14J_2" #MS-14J ReGelgu
 	size = LARGE
-	entity = "Gelgoog_Char_entity"
+	entity = "Gelgoog_Jg_entity"
 
 	weapon_type = instant
 	projectile_gfx = "gundam_missile"
@@ -4097,7 +4097,7 @@ strike_craft_component_template = {
 strike_craft_component_template = {
 	key = "ZEON_MS_STRIKE_CRAFT_NZ_000" #NZ-000 Queen Mansa
 	size = LARGE
-	entity = "Gelgoog_A_entity"
+	entity = "Queen_Mansa_entity"
 
 	weapon_type = point_defence
 	projectile_gfx = "MPC3" #Find beam gfx
@@ -4494,7 +4494,7 @@ strike_craft_component_template = {
 strike_craft_component_template = {
 	key = "ZEON_MS_STRIKE_CRAFT_MSN_04" #MSN-04 Sazabi
 	size = LARGE
-	entity = "Geara_Doga_entity"
+	entity = "Sazabi_entity"
 
 	weapon_type = point_defence
 	projectile_gfx = "MPC3" #Find beam MG gfx

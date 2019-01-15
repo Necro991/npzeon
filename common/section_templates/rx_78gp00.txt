@@ -2,7 +2,7 @@ ship_section_template = { #Gundam
 	key = "RX_78GP01_Fb_MID"
 	ship_size = RX_78GP01_Fb
 	fits_on_slot = mid
-	entity = "gundam_entity"
+	entity = "Zephyranthes_entity"
 	icon = "GFX_ship_part_core_mid"
 
 	prerequisites = { tech_RX_78GP01Fb }
@@ -38,7 +38,7 @@ ship_section_template = { #Gundam
 	key = "RX_78GP02_MID"
 	ship_size = RX_78GP02
 	fits_on_slot = mid
-	entity = "gundam_entity"
+	entity = "Physalis_entity"
 	icon = "GFX_ship_part_core_mid"
 
 	prerequisites = { tech_RX_78GP02 }
@@ -81,7 +81,7 @@ ship_section_template = { #Gundam
 	key = "RX_78GP03S_MID"
 	ship_size = RX_78GP03S
 	fits_on_slot = mid
-	entity = "gundam_entity"
+	entity = "Stamen_entity"
 	icon = "GFX_ship_part_core_mid"
 
 	prerequisites = { tech_RX_78GP03S }
@@ -117,7 +117,7 @@ ship_section_template = { #Gundam
 	key = "RX_78GP03S_DENDROBIUM"
 	ship_size = RX_78GP03S
 	fits_on_slot = mid
-	entity = "gundam_entity"
+	entity = "Stamen_entity"
 	icon = "GFX_ship_part_core_mid"
 
 	prerequisites = { tech_RX_78GP03S }
@@ -196,7 +196,7 @@ ship_section_template = { #Gundam
 	key = "RX_78GP04G_MID"
 	ship_size = RX_78GP04G
 	fits_on_slot = mid
-	entity = "gundam_entity"
+	entity = "Gerbera_entity"
 	icon = "GFX_ship_part_core_mid"
 
 	prerequisites = { tech_RX_78GP04G }

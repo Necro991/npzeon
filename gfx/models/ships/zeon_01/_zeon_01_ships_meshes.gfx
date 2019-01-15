@@ -484,6 +484,19 @@ objectTypes = {
 	}
 
 	pdxmesh = {
+			name = "Gelgoog_Jg_mesh" #Gelgoog Jg Trio
+			file = "gfx/models/ships/zeon_01/Gelgoog_Jg.mesh"
+
+			scale = 1.0
+			meshsettings = {
+				texture_diffuse = "Gelgoog_Jg_Diffuse.dds"
+				texture_normal = "zakuII_normal.dds"
+				texture_specular = "Zaku_Specular.dds"
+				shader = "PdxMeshShip"
+		}
+	}
+
+	pdxmesh = {
 			name = "Gelgoog_Char_mesh" #Gelgoog B Single
 			file = "gfx/models/ships/zeon_01/Gelgoog_Char.mesh"
 
@@ -629,6 +642,19 @@ objectTypes = {
 	}
 
 	pdxmesh = {
+			name = "Dreissen_mesh" #Dreissen Single
+			file = "gfx/models/ships/zeon_01/Dreissen.mesh"
+
+			scale = 1.0
+			meshsettings = {
+				texture_diffuse = "Dreissen_Diffuse.dds"
+				texture_normal = "zakuII_normal.dds"
+				texture_specular = "Zaku_Specular.dds"
+				shader = "PdxMeshShip"
+		}
+	}
+
+	pdxmesh = {
 			name = "Geara_Doga_mesh" #Geara Doga Single
 			file = "gfx/models/ships/zeon_01/Geara_Doga.mesh"
 
@@ -648,6 +674,32 @@ objectTypes = {
 			scale = 1.0
 			meshsettings = {
 				texture_diffuse = "Geara_Zulu_Guard_Diffuse.dds"
+				texture_normal = "zakuII_normal.dds"
+				texture_specular = "Zaku_Specular.dds"
+				shader = "PdxMeshShip"
+		}
+	}
+
+	pdxmesh = {
+			name = "Sazabi_mesh" #Sazabi Single
+			file = "gfx/models/ships/zeon_01/Sazabi.mesh"
+
+			scale = 1.0
+			meshsettings = {
+				texture_diffuse = "Sazabi_Diffuse.dds"
+				texture_normal = "zakuII_normal.dds"
+				texture_specular = "Zaku_Specular.dds"
+				shader = "PdxMeshShip"
+		}
+	}
+
+	pdxmesh = {
+			name = "Queen_Mansa_mesh" #Queen Mansa Single
+			file = "gfx/models/ships/zeon_01/Queen_Mansa.mesh"
+
+			scale = 1.0
+			meshsettings = {
+				texture_diffuse = "Queen_Mansa_Diffuse.dds"
 				texture_normal = "zakuII_normal.dds"
 				texture_specular = "Zaku_Specular.dds"
 				shader = "PdxMeshShip"
@@ -807,6 +859,32 @@ objectTypes = {
 	}
 
 	pdxmesh = {
+			name = "Gelgoog_Jg_Trio_mesh" #Gelgoog Jg Trio
+			file = "gfx/models/ships/zeon_01/Gelgoog_Jg_Triple.mesh"
+
+			scale = 1.0
+			meshsettings = {
+				texture_diffuse = "Gelgoog_Jg_Diffuse.dds"
+				texture_normal = "zakuII_normal.dds"
+				texture_specular = "Zaku_Specular.dds"
+				shader = "PdxMeshShip"
+		}
+	}
+
+	pdxmesh = {
+			name = "Gelgoog_Jg_Shin_Trio_mesh" #Gelgoog Jg Shin Matsunaga Trio
+			file = "gfx/models/ships/zeon_01/Gelgoog_Jg_Shin_Triple.mesh"
+
+			scale = 1.0
+			meshsettings = {
+				texture_diffuse = "Gelgoog_Jg_Diffuse.dds"
+				texture_normal = "zakuII_normal.dds"
+				texture_specular = "Zaku_Specular.dds"
+				shader = "PdxMeshShip"
+		}
+	}
+
+	pdxmesh = {
 			name = "Gelgoog_S_Trio_mesh" #Gelgoog A Trio
 			file = "gfx/models/ships/zeon_01/Gelgoog_S_Triple.mesh"
 
@@ -898,6 +976,19 @@ objectTypes = {
 	}
 
 	pdxmesh = {
+			name = "Efreet_Schneid_Trio_mesh" #Efreet Schneid Trio
+			file = "gfx/models/ships/zeon_01/Efreet_Schneid_Triple.mesh"
+
+			scale = 1.0
+			meshsettings = {
+				texture_diffuse = "Efreet_Schneid_Diffuse.dds"
+				texture_normal = "zakuII_normal.dds"
+				texture_specular = "Zaku_Specular.dds"
+				shader = "PdxMeshShip"
+		}
+	}
+
+	pdxmesh = {
 		name = "Kshatriya_Test_mesh"
 		file = "gfx/models/ships/zeon_01/Test_Kshatriya.mesh"
 		scale = 6.0
@@ -933,11 +1024,11 @@ objectTypes = {
 		name = "Zeong_Mesh"
 		file = "gfx/models/ships/zeon_01/Zeong.mesh"
 
-			scale = 1.0
-					meshsettings = {
-		texture_diffuse = "Zeong_Diffuse.dds"
-		texture_normal = "zakuII_normal.dds"
-		texture_specular = "generic_specular.dds"
+		scale = 1.0
+		meshsettings = {
+			texture_diffuse = "Zeong_Diffuse.dds"
+			texture_normal = "zakuII_normal.dds"
+			texture_specular = "generic_specular.dds"
 			shader = "PdxMeshShip"
 		}
 	}
