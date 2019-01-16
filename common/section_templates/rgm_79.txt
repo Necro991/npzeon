@@ -45,7 +45,7 @@ ship_section_template = { #GM C
 	key = "RGM_79_C_MID"
 	ship_size = RGM_79
 	fits_on_slot = mid
-	entity = "gm_trio_02"
+	entity = "GM_C_Trio_entity"
 	icon = "GFX_ship_part_core_mid"
 
 	prerequisites = { tech_RGM_79C }
@@ -84,14 +84,14 @@ ship_section_template = { #GM C
 	}
 }
 
-ship_section_template = { #GM C AEUG
-	key = "RGM_79_C_AEUG_MID"
+ship_section_template = { #GM White Dingo Trio
+	key = "RGM_79_WHITE_DINGO_MID"
 	ship_size = RGM_79
 	fits_on_slot = mid
-	entity = "gm_trio_03"
+	entity = "GM_White_Dingo_Trio_entity"
 	icon = "GFX_ship_part_core_mid"
 
-	prerequisites = { tech_RGM_79C }
+	prerequisites = { tech_RGM_79E }
 
 	component_slot = {
 		name = "SMALL_GUN_01"
@@ -131,7 +131,7 @@ ship_section_template = { #GM N
 	key = "RGM_79_N_MID"
 	ship_size = RGM_79
 	fits_on_slot = mid
-	entity = "gm_trio_04"
+	entity = "GM_N_Trio_entity"
 	icon = "GFX_ship_part_core_mid"
 
 	prerequisites = { tech_RGM_79N }
@@ -217,60 +217,10 @@ ship_section_template = { #GM Commander
 	key = "RGM_79S_MID"
 	ship_size = RGM_79S
 	fits_on_slot = mid
-	entity = "gm_command_1_entity" #gm_command_1_entity gm_group_entity
+	entity = "GM_C_Commander_Triple_entity"
 	icon = "GFX_ship_part_core_mid"
 
-	prerequisites = { tech_RGM_79E }
-
-	component_slot = {
-		name = "SMALL_GUN_01"
-		slot_size = point_defence
-		slot_type = weapon
-		locatorname = "small_gun_01"
-	}
-
-	component_slot = {
-		name = "SMALL_GUN_02"
-		slot_size = point_defence
-		slot_type = weapon
-		locatorname = "small_gun_02"
-	}
-
-	component_slot = {
-		name = "SMALL_GUN_03"
-		slot_size = point_defence
-		slot_type = weapon
-		locatorname = "small_gun_03"
-	}
-
-	component_slot = {
-		name = "SMALL_GUN_04"
-		slot_size = point_defence
-		slot_type = weapon
-		locatorname = "small_gun_04"
-	}
-
-	small_utility_slots = 0
-	medium_utility_slots = 0
-	large_utility_slots = 0
-	aux_utility_slots = 0
-
-	resources = {
-		category = ship_sections
-		cost = {
-			alloys = 120
-		}
-	}
-}
-
-ship_section_template = { #GM Commander
-	key = "RGM_79S_WHITE_DINGO_MID"
-	ship_size = RGM_79S
-	fits_on_slot = mid
-	entity = "gm_command_2_entity" #gm_command_2_entity gm_group_entity
-	icon = "GFX_ship_part_core_mid"
-
-	prerequisites = { tech_RGM_79E }
+	prerequisites = { tech_RGM_79C }
 
 	component_slot = {
 		name = "SMALL_GUN_01"
@@ -317,7 +267,7 @@ ship_section_template = { #GM Custom Commander
 	key = "RGM_79_N_COMMANDER_MID"
 	ship_size = RGM_79S
 	fits_on_slot = mid
-	entity = "gm_trio_04"
+	entity = "GM_N_Trio_entity"
 	icon = "GFX_ship_part_core_mid"
 
 	prerequisites = { tech_RGM_79N }
@@ -471,6 +421,106 @@ ship_section_template = { #GM Sniper II White Dingo Colors
 	icon = "GFX_ship_part_core_mid"
 
 	prerequisites = { tech_RGM_79SC }
+
+	component_slot = {
+		name = "SMALL_GUN_01"
+		slot_size = point_defence
+		slot_type = weapon
+		locatorname = "small_gun_01"
+	}
+
+	component_slot = {
+		name = "SMALL_GUN_02"
+		slot_size = point_defence
+		slot_type = weapon
+		locatorname = "small_gun_02"
+	}
+
+	component_slot = {
+		name = "SMALL_GUN_03"
+		slot_size = point_defence
+		slot_type = weapon
+		locatorname = "small_gun_03"
+	}
+
+	component_slot = {
+		name = "SMALL_GUN_04"
+		slot_size = point_defence
+		slot_type = weapon
+		locatorname = "small_gun_04"
+	}
+
+	small_utility_slots = 0
+	medium_utility_slots = 0
+	large_utility_slots = 0
+	aux_utility_slots = 0
+
+	resources = {
+		category = ship_sections
+		cost = {
+			alloys = 138
+		}
+	}
+}
+
+ship_section_template = { #GM Guard Custom
+	key = "RGM_79HC_MID"
+	ship_size = RGM_79SC
+	fits_on_slot = mid
+	entity = "GM_Guard_Trio_entity"
+	icon = "GFX_ship_part_core_mid"
+
+	prerequisites = { tech_RGM_79SC }
+
+	component_slot = {
+		name = "SMALL_GUN_01"
+		slot_size = point_defence
+		slot_type = weapon
+		locatorname = "small_gun_01"
+	}
+
+	component_slot = {
+		name = "SMALL_GUN_02"
+		slot_size = point_defence
+		slot_type = weapon
+		locatorname = "small_gun_02"
+	}
+
+	component_slot = {
+		name = "SMALL_GUN_03"
+		slot_size = point_defence
+		slot_type = weapon
+		locatorname = "small_gun_03"
+	}
+
+	component_slot = {
+		name = "SMALL_GUN_04"
+		slot_size = point_defence
+		slot_type = weapon
+		locatorname = "small_gun_04"
+	}
+
+	small_utility_slots = 0
+	medium_utility_slots = 0
+	large_utility_slots = 0
+	aux_utility_slots = 0
+
+	resources = {
+		category = ship_sections
+		cost = {
+			alloys = 138
+		}
+	}
+}
+
+ship_section_template = { #GM Sniper II Titans
+	key = "RGM_79SP_TITANS_MID"
+	ship_size = RGM_79SC
+	fits_on_slot = mid
+	entity = "GM_Sniper_II_Titans_Trio_entity"
+	icon = "GFX_ship_part_core_mid"
+
+	prerequisites = { tech_RGM_79SP }
 
 	component_slot = {
 		name = "SMALL_GUN_01"

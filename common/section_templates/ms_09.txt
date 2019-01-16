@@ -41,11 +41,11 @@ ship_section_template = { #MS-09R
 	}
 }
 
-ship_section_template = { #MS-009R Commander
+ship_section_template = { #MS-09R Commander
 	key = "MS_09R_COMMANDER_MID"
 	ship_size = MS_09S
 	fits_on_slot = mid
-	entity = "Rick_Dom_Trio_entity"
+	entity = "Rick_Dom_Commander_Trio_entity"
 	icon = "GFX_ship_part_core_mid"
 
 	prerequisites = { tech_MS_09R }
@@ -95,7 +95,7 @@ ship_section_template = { #MS-09K Dom Cannon
 	key = "MS_09K_MID"
 	ship_size = MS_09K
 	fits_on_slot = mid
-	entity = "Rick_Dom_Trio_entity"
+	entity = "Rick_Dom_Cannon_Trio_entity"
 	icon = "GFX_ship_part_core_mid"
 
 	prerequisites = { tech_MS_09K }

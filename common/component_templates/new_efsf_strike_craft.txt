@@ -690,7 +690,7 @@ strike_craft_component_template = {
 strike_craft_component_template = {
 	key = "EFSF_MS_STRIKE_CRAFT_RGC_80_1" #RGC-80-1 GM Cannon Test Type - 2x 360mm Cannon
 	size = LARGE
-	entity = "guncannon_entity"
+	entity = "GM_Cannon_entity"
 
 	weapon_type = point_defence
 	projectile_gfx = "mass_driver_s"
@@ -739,7 +739,7 @@ strike_craft_component_template = {
 strike_craft_component_template = {
 	key = "EFSF_MS_STRIKE_CRAFT_RGC_80S_1" #RGC-80-1 GM Cannon - 1x 360mm Cannon
 	size = LARGE
-	entity = "guncannon_entity"
+	entity = "GM_Cannon_entity"
 
 	weapon_type = point_defence
 	projectile_gfx = "mass_driver_s"
@@ -2272,7 +2272,7 @@ strike_craft_component_template = {
 strike_craft_component_template = {
 	key = "EFSF_MS_STRIKE_CRAFT_RGM_79SR" #RGM-79SR GM Sniper III
 	size = LARGE
-	entity = "GM_Sniper_II_entity"
+	entity = "GM_Sniper_II_Titans_entity"
 
 	weapon_type = point_defence
 	projectile_gfx = "MPC2"

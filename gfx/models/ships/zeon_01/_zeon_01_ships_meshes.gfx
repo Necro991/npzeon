@@ -432,13 +432,39 @@ objectTypes = {
 	}
 
 	pdxmesh = {
-			name = "Rick_Dom_mesh"
+			name = "Rick_Dom_mesh" #Bazooka Rick Dom
 			file = "gfx/models/ships/zeon_01/Rick_Dom.mesh"
 
 			scale = 1.0
 			meshsettings = {
 				texture_diffuse = "Rick_Dom_Diffuse.dds"
-				texture_normal = "zakuII_normal.dds"
+				texture_normal = "Rick_Dom_Normal.dds"
+				texture_specular = "zakuII_specular.dds"
+				shader = "PdxMeshShip"
+		}
+	}
+
+	pdxmesh = {
+			name = "Rick_Dom_Commander_mesh" #MG Rick Dom
+			file = "gfx/models/ships/zeon_01/Rick_Dom_Commander.mesh"
+
+			scale = 1.0
+			meshsettings = {
+				texture_diffuse = "Rick_Dom_Diffuse.dds"
+				texture_normal = "Rick_Dom_Normal.dds"
+				texture_specular = "zakuII_specular.dds"
+				shader = "PdxMeshShip"
+		}
+	}
+
+	pdxmesh = {
+			name = "Rick_Dom_Cannon_mesh" #Rick Dom Cannon
+			file = "gfx/models/ships/zeon_01/Rick_Dom_Cannon.mesh"
+
+			scale = 1.0
+			meshsettings = {
+				texture_diffuse = "Rick_Dom_Diffuse.dds"
+				texture_normal = "Rick_Dom_Normal.dds"
 				texture_specular = "zakuII_specular.dds"
 				shader = "PdxMeshShip"
 		}
@@ -826,7 +852,33 @@ objectTypes = {
 			scale = 1.0
 			meshsettings = {
 				texture_diffuse = "Rick_Dom_Diffuse.dds"
-				texture_normal = "zakuII_normal.dds"
+				texture_normal = "Rick_Dom_Normal.dds"
+				texture_specular = "Zaku_Specular.dds"
+				shader = "PdxMeshShip"
+		}
+	}
+
+	pdxmesh = {
+			name = "Rick_Dom_Commander_Trio_mesh" #Rick Dom Commander Trio
+			file = "gfx/models/ships/zeon_01/Rick_Dom_Commander_Triple.mesh"
+
+			scale = 1.0
+			meshsettings = {
+				texture_diffuse = "Rick_Dom_Diffuse.dds"
+				texture_normal = "Rick_Dom_Normal.dds"
+				texture_specular = "Zaku_Specular.dds"
+				shader = "PdxMeshShip"
+		}
+	}
+
+	pdxmesh = {
+			name = "Rick_Dom_Cannon_Trio_mesh" #Rick Dom Cannon Trio
+			file = "gfx/models/ships/zeon_01/Rick_Dom_Cannon_Triple.mesh"
+
+			scale = 1.0
+			meshsettings = {
+				texture_diffuse = "Rick_Dom_Diffuse.dds"
+				texture_normal = "Rick_Dom_Normal.dds"
 				texture_specular = "Zaku_Specular.dds"
 				shader = "PdxMeshShip"
 		}

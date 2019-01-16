@@ -72,7 +72,7 @@ RGM_79S = { #GM Commander
 	can_have_federation_design = yes
 	enable_default_design = no	#if yes, countries will have an auto-generated design at start
 
-	prerequisites = { "tech_RGM_79E" }
+	prerequisites = { "tech_RGM_79C" }
 
 	combat_disengage_chance = 1.75
 

@@ -1834,7 +1834,7 @@ entity = {
 
 		entity = {
 			name = "fed_01_colony_ship_entity"
-			pdxmesh = "fed_01_colony_mesh"
+			pdxmesh = "Antietam_mesh" #fed_01_colony_mesh
 
 			state = { name = "idle" state_time = 5
 				event = { time = 0 node = "engine_large_01" particle = "fed_01_3_35_exhaust_idle_particle" trigger_once = yes keep_particle = yes }
@@ -2687,7 +2687,7 @@ entity = {
 
 	entity = {
 		name = "gm_c_entity" #GM C
-		pdxmesh = "fed_01_GM_C_mesh"
+		pdxmesh = "GM_C_mesh"
 
 		locator = { name = "small_gun_01" 			position = { 0.0 	1.0 	0.0	} 	scale = 0.0} #X,Up/Down,Forward/Back
 
@@ -2711,24 +2711,16 @@ entity = {
 	}
 
 	entity = {
-		name = "gm_trio_02" #GM C Trio
-		pdxmesh = "fed_01_GM_Trio_2_mesh"
+		name = "GM_C_Trio_entity" #GM C Trio
+		pdxmesh = "GM_C_Trio_mesh"
 
 		locator = { name = "small_gun_01" 			position = { 0.0 	1.0 	0.0	} 	scale = 0.0} #X,Up/Down,Forward/Back
 		scale = 1.0
 	}
 
 	entity = {
-		name = "gm_trio_03" #GM C AEUG Trio
-		pdxmesh = "fed_01_GM_Trio_3_mesh"
-
-		locator = { name = "small_gun_01" 			position = { 0.0 	1.0 	0.0	} 	scale = 0.0} #X,Up/Down,Forward/Back
-		scale = 1.0
-	}
-
-	entity = {
-		name = "gm_trio_04" #GM N Trio
-		pdxmesh = "fed_01_GM_N_Trio_mesh"
+		name = "GM_N_Trio_entity" #GM N Trio
+		pdxmesh = "GM_N_Trio_mesh"
 
 		locator = { name = "small_gun_01" 			position = { 0.0 	1.0 	0.0	} 	scale = 0.0} #X,Up/Down,Forward/Back
 		scale = 1.0
@@ -2751,8 +2743,8 @@ entity = {
 	}
 
 	entity = {
-		name = "gm_command_1_entity" #GM Group
-		pdxmesh = "GM_Test_Group_1_mesh"
+		name = "GM_C_Commander_Triple_entity" #GM Group
+		pdxmesh = "GM_C_Commander_Triple_mesh"
 
 		locator = { name = "small_gun_01" 			position = { 0.0 	1.0 	0.0	} 	scale = 0.0} #X,Up/Down,Forward/Back
 
@@ -2760,8 +2752,8 @@ entity = {
 	}
 
 	entity = {
-		name = "gm_command_2_entity" #GM Group
-		pdxmesh = "GM_Test_Group_2_mesh"
+		name = "GM_White_Dingo_Trio_entity" #GM Group
+		pdxmesh = "GM_White_Dingo_Trio_mesh"
 
 		locator = { name = "small_gun_01" 			position = { 0.0 	1.0 	0.0	} 	scale = 0.0} #X,Up/Down,Forward/Back
 
@@ -2816,7 +2808,31 @@ entity = {
 	}
 
 	entity = {
-		name = "GM_Cannon_II_entity" #Guncannon MPT
+		name = "GM_Cannon_entity" #GM Cannon
+		pdxmesh = "GM_Cannon_mesh"
+		scale = 1.0
+	}
+
+	entity = {
+		name = "GM_Cannon_Trio_entity" #GM Cannon Trio
+		pdxmesh = "GM_Cannon_Trio_mesh"
+		scale = 1.0
+	}
+
+	entity = {
+		name = "GM_Cannon_WD_Trio_entity" #GM Cannon White Dingo Trio
+		pdxmesh = "GM_Cannon_WD_Trio_mesh"
+		scale = 1.0
+	}
+
+	entity = {
+		name = "GM_Cannon_Wolf_Trio_entity" #GM Cannon Lydo Wolf
+		pdxmesh = "GM_Cannon_Wolf_Trio_mesh"
+		scale = 1.0
+	}
+
+	entity = {
+		name = "GM_Cannon_II_entity" #GM Cannon II
 		pdxmesh = "fed_01_GM_Cannon_II_mesh"
 		scale = 1.0
 	}
@@ -3040,6 +3056,12 @@ entity = {
 	}
 
 	entity = {
+		name = "Amaryllis_entity" #Zephyranthes
+		pdxmesh = "Amaryllis_mesh"
+		scale = 1.0
+	}
+
+	entity = {
 		name = "Physalis_entity" #GP02 Physalis
 		pdxmesh = "Physalis_mesh"
 
@@ -3069,8 +3091,20 @@ entity = {
 	}
 
 	entity = {
+		name = "GM_Guard_Trio_entity" #GM Guard Trio
+		pdxmesh = "GM_Guard_Trio_mesh"
+		scale = 1.0
+	}
+
+	entity = {
 		name = "GM_Sniper_II_entity" #GM Sniper II
 		pdxmesh = "GM_Sniper_II_mesh"
+		scale = 1.0
+	}
+
+	entity = {
+		name = "GM_Sniper_II_Titans_entity" #GM Sniper II Titans
+		pdxmesh = "GM_Sniper_II_Titans_mesh"
 		scale = 1.0
 	}
 
@@ -3083,6 +3117,12 @@ entity = {
 	entity = {
 		name = "GM_Sniper_II_WD_Trio_entity" #GM Sniper II White Dingo Triple
 		pdxmesh = "GM_Sniper_II_WD_Trio_mesh"
+		scale = 1.0
+	}
+
+	entity = {
+		name = "GM_Sniper_II_Titans_Trio_entity" #GM Sniper II Titans Triple
+		pdxmesh = "GM_Sniper_II_Titans_Trio_mesh"
 		scale = 1.0
 	}
 

@@ -1670,7 +1670,7 @@ strike_craft_component_template = {
 strike_craft_component_template = {
 	key = "ZEON_MS_STRIKE_CRAFT_MS_09R_1" #MS-09R Rick Dom
 	size = LARGE
-	entity = "Rick_Dom_entity"
+	entity = "Rick_Dom_Commander_entity"
 
 	weapon_type = point_defence
 	projectile_gfx = "auto_cannons_s"
@@ -1768,7 +1768,7 @@ strike_craft_component_template = {
 strike_craft_component_template = {
 	key = "ZEON_MS_STRIKE_CRAFT_MS_09R_2_1" #MS-09R-2 Rick Dom
 	size = LARGE
-	entity = "Rick_Dom_entity"
+	entity = "Rick_Dom_Commander_entity"
 
 	weapon_type = point_defence
 	projectile_gfx = "auto_cannons_s"
@@ -1964,7 +1964,7 @@ strike_craft_component_template = {
 strike_craft_component_template = {
 	key = "ZEON_MS_STRIKE_CRAFT_MS_09K_1" #MS-09K-1 Dom Cannon
 	size = LARGE
-	entity = "Rick_Dom_entity"
+	entity = "Rick_Dom_Cannon_entity"
 
 	weapon_type = point_defence
 	projectile_gfx = "mass_driver_s"
@@ -2013,7 +2013,7 @@ strike_craft_component_template = {
 strike_craft_component_template = {
 	key = "ZEON_MS_STRIKE_CRAFT_MS_09K_2" #MS-09K-2 Dom Cannon
 	size = LARGE
-	entity = "Rick_Dom_entity"
+	entity = "Rick_Dom_Cannon_entity"
 
 	weapon_type = point_defence
 	projectile_gfx = "mass_driver_s"

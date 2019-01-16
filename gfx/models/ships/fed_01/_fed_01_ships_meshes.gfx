@@ -234,7 +234,7 @@ objectTypes = {
 		meshsettings = {
 			texture_diffuse = "Grey_Phantom_Diffuse.dds"
 			texture_normal = "Grey_Phantom_Normal.dds"
-			texture_specular = "Grey_Phantom_Specular.dds"
+			texture_specular = "Zaku_Specular.dds" #Grey_Phantom_Specular
 			shader = "PdxMeshShip"
 		}
 	}
@@ -1234,20 +1234,20 @@ objectTypes = {
 		scale = 1.0
 			meshsettings = {
 				texture_diffuse = "GM_Diffuse.dds"
-				texture_normal = "zakuII_normal.dds"
+				texture_normal = "GM_Normal.dds"
 				texture_specular = "Zaku_Specular.dds"
 				shader = "PdxMeshShip"
 		}
 	}
 
 	pdxmesh = { #GM C
-		name = "fed_01_GM_C_mesh"
+		name = "GM_C_mesh"
 		file = "gfx/models/ships/fed_01/GM_C.mesh"
 
 		scale = 1.0
 			meshsettings = {
 				texture_diffuse = "GM_C_Diffuse.dds"
-				texture_normal = "zakuII_normal.dds"
+				texture_normal = "GM_C_Normal.dds"
 				texture_specular = "Zaku_Specular.dds"
 				shader = "PdxMeshShip"
 		}
@@ -1267,7 +1267,7 @@ objectTypes = {
 	}
 
 	pdxmesh = { #GM N Trio
-		name = "fed_01_GM_N_Trio_mesh"
+		name = "GM_N_Trio_mesh"
 		file = "gfx/models/ships/fed_01/GM_N_Triple.mesh"
 
 		scale = 1.0
@@ -1279,67 +1279,54 @@ objectTypes = {
 		}
 	}
 
-	pdxmesh = { #New GM Trio
+	pdxmesh = { #GM Trio
 		name = "fed_01_GM_Trio_1_mesh"
-		file = "gfx/models/ships/fed_01/GM_Trio.mesh"
+		file = "gfx/models/ships/fed_01/GM_Triple.mesh"
 
 		scale = 1.0
 			meshsettings = {
 				texture_diffuse = "GM_Diffuse.dds"
-				texture_normal = "zakuII_normal.dds"
-				texture_specular = "GM_Specular.dds"
+				texture_normal = "GM_Normal.dds"
+				texture_specular = "Zaku_Specular.dds"
 				shader = "PdxMeshShip"
 		}
 	}
 
-	pdxmesh = { #New GM C Trio
-		name = "fed_01_GM_Trio_2_mesh"
-		file = "gfx/models/ships/fed_01/GM_C_Trio.mesh"
+	pdxmesh = { #GM C Trio
+		name = "GM_C_Trio_mesh"
+		file = "gfx/models/ships/fed_01/GM_C_Triple.mesh"
 
 		scale = 1.0
 			meshsettings = {
-				texture_diffuse = "GM_C_Trio_Diffuse.dds"
-				texture_normal = "zakuII_normal.dds"
-				texture_specular = "GM_Specular.dds"
+				texture_diffuse = "GM_C_Diffuse.dds"
+				texture_normal = "GM_C_Normal.dds"
+				texture_specular = "Zaku_Specular.dds"
 				shader = "PdxMeshShip"
 		}
 	}
 
-	pdxmesh = { #New GM C AEUG Trio
-		name = "fed_01_GM_Trio_3_mesh"
-		file = "gfx/models/ships/fed_01/GM_C_Trio.mesh"
+	pdxmesh = { #GM C Commander Group
+		name = "GM_C_Commander_Triple_mesh"
+		file = "gfx/models/ships/fed_01/GM_C_Commander_Triple.mesh"
 
 		scale = 1.0
 			meshsettings = {
-				texture_diffuse = "GM_C_AEUG_Diffuse.dds"
-				texture_normal = "zakuII_normal.dds"
-				texture_specular = "GM_Specular.dds"
+				texture_diffuse = "GM_C_Diffuse.dds"
+				texture_normal = "GM_C_Normal.dds"
+				texture_specular = "Zaku_Specular.dds"
 				shader = "PdxMeshShip"
 		}
 	}
 
-	pdxmesh = { #GM Commander Group
-		name = "GM_Test_Group_1_mesh"
-		file = "gfx/models/ships/fed_01/GM_Commander.mesh"
+	pdxmesh = { #GM White Dingo
+		name = "GM_White_Dingo_Trio_mesh"
+		file = "gfx/models/ships/fed_01/GM_WD_Triple.mesh"
 
 		scale = 1.0
 			meshsettings = {
-				texture_diffuse = "GM_C_Commander_Diffuse.dds"
-				texture_normal = "zakuII_normal.dds"
-				texture_specular = "GM_Specular.dds"
-				shader = "PdxMeshShip"
-		}
-	}
-
-	pdxmesh = { #GM Commander White Dingo
-		name = "GM_Test_Group_2_mesh"
-		file = "gfx/models/ships/fed_01/GM_Commander.mesh"
-
-		scale = 1.0
-			meshsettings = {
-				texture_diffuse = "GM_White_Dingo_Diffuse.dds"
-				texture_normal = "zakuII_normal.dds"
-				texture_specular = "GM_Specular.dds"
+				texture_diffuse = "GM_Diffuse.dds"
+				texture_normal = "GM_Normal.dds"
+				texture_specular = "Zaku_Specular.dds"
 				shader = "PdxMeshShip"
 		}
 	}
@@ -1461,11 +1448,63 @@ objectTypes = {
 		}
 	}
 
-	pdxmesh = { #Guncannon MPT
+	pdxmesh = { #GM Cannon
+		name = "GM_Cannon_mesh"
+		file = "gfx/models/ships/fed_01/GM_Cannon.mesh"
+
+		scale = 1.0
+			meshsettings = {
+				texture_diffuse = "GM_Cannon_Diffuse.dds"
+				texture_normal = "zakuII_normal.dds"
+				texture_specular = "Zaku_Specular.dds"
+				shader = "PdxMeshShip"
+		}
+	}
+
+	pdxmesh = { #GM Cannon Trio
+		name = "GM_Cannon_Trio_mesh"
+		file = "gfx/models/ships/fed_01/GM_Cannon_Triple.mesh"
+
+		scale = 1.0
+			meshsettings = {
+				texture_diffuse = "GM_Cannon_Diffuse.dds"
+				texture_normal = "zakuII_normal.dds"
+				texture_specular = "Zaku_Specular.dds"
+				shader = "PdxMeshShip"
+		}
+	}
+
+	pdxmesh = { #GM Cannon White Dingo Trio
+		name = "GM_Cannon_WD_Trio_mesh"
+		file = "gfx/models/ships/fed_01/GM_Cannon_WD_Triple.mesh"
+
+		scale = 1.0
+			meshsettings = {
+				texture_diffuse = "GM_Cannon_Diffuse.dds"
+				texture_normal = "zakuII_normal.dds"
+				texture_specular = "Zaku_Specular.dds"
+				shader = "PdxMeshShip"
+		}
+	}
+
+	pdxmesh = { #GM Cannon Lydo Wolf Trio
+		name = "GM_Cannon_Wolf_Trio_mesh"
+		file = "gfx/models/ships/fed_01/GM_Cannon_Wolf_Triple.mesh"
+
+		scale = 1.0
+			meshsettings = {
+				texture_diffuse = "GM_Cannon_Diffuse.dds"
+				texture_normal = "zakuII_normal.dds"
+				texture_specular = "Zaku_Specular.dds"
+				shader = "PdxMeshShip"
+		}
+	}
+
+	pdxmesh = { #GM Cannon II
 		name = "fed_01_GM_Cannon_II_mesh"
 		file = "gfx/models/ships/fed_01/GM_Cannon_II.mesh"
 
-		scale = 1.00
+		scale = 1.0
 			meshsettings = {
 				texture_diffuse = "GM_Cannon_II_Diffuse.dds"
 				texture_normal = "zakuII_normal.dds"
@@ -1625,7 +1664,7 @@ objectTypes = {
 		scale = 1.0
 			meshsettings = {
 				texture_diffuse = "G_Line_Standard_Diffuse.dds"
-				texture_normal = "zakuII_normal.dds"
+				texture_normal = "G_Line_Standard_Normal.dds"
 				texture_specular = "Zaku_Specular.dds"
 				shader = "PdxMeshShip"
 		}
@@ -1638,7 +1677,7 @@ objectTypes = {
 		scale = 1.0
 			meshsettings = {
 				texture_diffuse = "G_Line_Standard_Diffuse.dds"
-				texture_normal = "zakuII_normal.dds"
+				texture_normal = "G_Line_Standard_Normal.dds"
 				texture_specular = "Zaku_Specular.dds"
 				shader = "PdxMeshShip"
 		}
@@ -1674,8 +1713,8 @@ objectTypes = {
 
 		scale = 1.0
 			meshsettings = {
-				texture_diffuse = "Gundam_Alex.dds"
-				texture_normal = "zakuII_normal.dds"
+				texture_diffuse = "Gundam_Alex_Diffuse.dds"
+				texture_normal = "Gundam_Alex_Normal.dds"
 				texture_specular = "Zaku_Specular.dds"
 				shader = "PdxMeshShip"
 		}
@@ -1689,6 +1728,19 @@ objectTypes = {
 			meshsettings = {
 				texture_diffuse = "Zephyranthes_Diffuse.dds"
 				texture_normal = "zakuII_normal.dds"
+				texture_specular = "Zaku_Specular.dds"
+				shader = "PdxMeshShip"
+		}
+	}
+
+	pdxmesh = { #GP01 Amaryllis - Zai custom
+		name = "Amaryllis_mesh"
+		file = "gfx/models/ships/fed_01/Amaryllis.mesh"
+
+		scale = 1.0
+			meshsettings = {
+				texture_diffuse = "Amaryllis_Diffuse.dds"
+				texture_normal = "Amaryllis_Normal.dds"
 				texture_specular = "Zaku_Specular.dds"
 				shader = "PdxMeshShip"
 		}
@@ -1798,6 +1850,19 @@ objectTypes = {
 		}
 	}
 
+	pdxmesh = { #GM Guard Trio
+		name = "GM_Guard_Trio_mesh"
+		file = "gfx/models/ships/fed_01/GM_Guard_Triple.mesh"
+
+		scale = 1.0
+			meshsettings = {
+				texture_diffuse = "GM_Guard_Diffuse.dds"
+				texture_normal = "zakuII_normal.dds"
+				texture_specular = "Zaku_Specular.dds"
+				shader = "PdxMeshShip"
+		}
+	}
+
 	pdxmesh = { #GM Sniper II Single
 		name = "GM_Sniper_II_mesh"
 		file = "gfx/models/ships/fed_01/GM_Sniper_II.mesh"
@@ -1805,7 +1870,20 @@ objectTypes = {
 		scale = 1.0
 			meshsettings = {
 				texture_diffuse = "GM_Sniper_II_Diffuse.dds"
-				texture_normal = "zakuII_normal.dds"
+				texture_normal = "GM_Sniper_II_Normal.dds"
+				texture_specular = "Zaku_Specular.dds"
+				shader = "PdxMeshShip"
+		}
+	}
+
+	pdxmesh = { #GM Sniper II Titans Single
+		name = "GM_Sniper_II_Titans_mesh"
+		file = "gfx/models/ships/fed_01/GM_Sniper_II_Titans.mesh"
+
+		scale = 1.0
+			meshsettings = {
+				texture_diffuse = "GM_Sniper_II_Diffuse.dds"
+				texture_normal = "GM_Sniper_II_Normal.dds"
 				texture_specular = "Zaku_Specular.dds"
 				shader = "PdxMeshShip"
 		}
@@ -1818,7 +1896,7 @@ objectTypes = {
 		scale = 1.0
 			meshsettings = {
 				texture_diffuse = "GM_Sniper_II_Diffuse.dds"
-				texture_normal = "zakuII_normal.dds"
+				texture_normal = "GM_Sniper_II_Normal.dds"
 				texture_specular = "Zaku_Specular.dds"
 				shader = "PdxMeshShip"
 		}
@@ -1830,8 +1908,21 @@ objectTypes = {
 
 		scale = 1.0
 			meshsettings = {
-				texture_diffuse = "GM_Sniper_II_WD_Diffuse.dds"
-				texture_normal = "zakuII_normal.dds"
+				texture_diffuse = "GM_Sniper_II_Diffuse.dds"
+				texture_normal = "GM_Sniper_II_Normal.dds"
+				texture_specular = "Zaku_Specular.dds"
+				shader = "PdxMeshShip"
+		}
+	}
+
+	pdxmesh = { #GM Sniper II Titans Trio
+		name = "GM_Sniper_II_Titans_Trio_mesh"
+		file = "gfx/models/ships/fed_01/GM_Sniper_II_Titans_Triple.mesh"
+
+		scale = 1.0
+			meshsettings = {
+				texture_diffuse = "GM_Sniper_II_Diffuse.dds"
+				texture_normal = "GM_Sniper_II_Normal.dds"
 				texture_specular = "Zaku_Specular.dds"
 				shader = "PdxMeshShip"
 		}
