@@ -8,7 +8,7 @@ utility_component_template = {
 	power = 0
 
 	modifier = {
-		ship_armor_add = 52
+		ship_armor_add = 150
 		ship_hull_mult = 0.34
 	}
 
@@ -36,7 +36,7 @@ utility_component_template = {
 	}
 
 	modifier = {
-		ship_armor_add = 140
+		ship_armor_add = 141
 		ship_hull_mult = 0.93
 	}
 
@@ -58,9 +58,9 @@ utility_component_template = {
 	power = 0
 
 	modifier = {
-		ship_armor_add = 216
+		ship_armor_add = 156
 		ship_hull_mult = 1.03
-		ship_evasion_add = -20
+		ship_evasion_add = 3
 		ship_speed_mult = -0.11
 	}
 
@@ -81,7 +81,7 @@ utility_component_template = {
 	power = 0
 
 	modifier = {
-		ship_evasion_add = 45
+		ship_evasion_add = 50
 		ship_speed_mult = 0.4
 	}
 
@@ -109,7 +109,7 @@ utility_component_template = {
 	}
 
 	modifier = {
-		ship_evasion_add = 50
+		ship_evasion_add = 52
 		ship_speed_mult = 0.65
 	}
 

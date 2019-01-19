@@ -8,15 +8,14 @@ weapon_component_template = {
 	key = "OYW_ZEON_100MM"
 	size = point_defence
 	entity = "Zeon_Machine_Gun_01_Entity"
-	damage = { min = 5.0 max = 7.5 } #damage = { min = 10.0 max = 15.0 }
-	windup = { min = 2.5 max = 5.0 }
+	damage = { min = 2.0 max = 6.0 }
 	total_fire_time = 5
-	range = 12.0
-	accuracy = 0.82
-	tracking  = 0.65
+	range = 30
+	accuracy = 0.75
+	tracking  = 0.40
 	type = point_defence
-	shield_damage = 1.0
-	armor_penetration = 0.1
+	shield_damage = 1.5
+	armor_damage = 0.1
 
 	icon = "OYW_ZEON_100MM"
 	icon_frame = 1
@@ -25,7 +24,7 @@ weapon_component_template = {
 	resources = {
 		category = ship_components
 		cost = {
-			alloys = 5
+			alloys = 8
 		}
 	}
 	size_restriction = { MS_05B MS_05S MS_06 MS_06S zeon_MS_P MS_06K MS_09 MS_09S MS_09K MS_18E MS_11 MS_11S MS_14 MS_14S MS_14C MS_17 MS_17S MP_02A EMS_10 EMS_10S }
@@ -41,15 +40,14 @@ weapon_component_template = {
 	key = "OYW_ZEON_105MM"
 	size = point_defence
 	entity = "Zeon_Machine_Gun_01_Entity"
-	damage = { min = 5.0 max = 10.0 } #damage = { min = 10.0 max = 20.0 }
-	windup = { min = 2.5 max = 5.0 }
+	damage = { min = 2.0 max = 8.0 }
 	total_fire_time = 5
-	range = 15.0
-	accuracy = 0.82
-	tracking  = 0.65
+	range = 30.0
+	accuracy = 0.75
+	tracking  = 0.45
 	type = point_defence
-	shield_damage = 1.0
-	armor_penetration = 0.1
+	shield_damage = 1.5
+	armor_damage = 0.15
 
 	icon = "OYW_ZEON_105MM"
 	icon_frame = 1
@@ -74,15 +72,14 @@ weapon_component_template = {
 	key = "OYW_ZEON_120MM"
 	size = point_defence
 	entity = "Zeon_Machine_Gun_01_Entity"
-	damage = { min = 5.0 max = 12.5 } #damage = { min = 10.0 max = 25.0 }
-	windup = { min = 2.5 max = 5.0 }
+	damage = { min = 2.0 max = 10.0 }
 	total_fire_time = 5
-	range = 20.0
-	accuracy = 0.82
-	tracking  = 0.65
+	range = 30.0
+	accuracy = 0.75
+	tracking  = 0.5
 	type = point_defence
-	shield_damage = 1.0
-	armor_penetration = 0.1
+	shield_damage = 1.5
+	armor_damage = 0.25
 
 	icon = "OYW_ZEON_120MM"
 	icon_frame = 1
@@ -91,7 +88,7 @@ weapon_component_template = {
 	resources = {
 		category = ship_components
 		cost = {
-			alloys = 15
+			alloys = 13
 		}
 	}
 	size_restriction = { MS_05B MS_05S MS_06 MS_06S zeon_MS_P MS_06K MS_09 MS_09S MS_09K MS_18E MS_11 MS_11S MS_14 MS_14S MS_14C MS_17 MS_17S MP_02A EMS_10 EMS_10S }
@@ -107,15 +104,14 @@ weapon_component_template = {
 	key = "OYW_ZEON_120MM_UMP"
 	size = point_defence
 	entity = "Zeon_Machine_Gun_01_Entity"
-	damage = { min = 5.0 max = 12.5 } #damage = { min = 10.0 max = 25.0 }
-	windup = { min = 2.5 max = 5.0 }
+	damage = { min = 2.0 max = 10.0 }
 	total_fire_time = 5
-	range = 20.0
-	accuracy = 0.82
-	tracking  = 0.65
+	range = 30.0
+	accuracy = 0.75
+	tracking  = 0.5
 	type = point_defence
-	shield_damage = 1.0
-	armor_penetration = 0.1
+	shield_damage = 1.5
+	armor_damage = 0.25
 
 	icon = "OYW_ZEON_120MM"
 	icon_frame = 1
@@ -124,7 +120,7 @@ weapon_component_template = {
 	resources = {
 		category = ship_components
 		cost = {
-			alloys = 5
+			alloys = 10
 		}
 	}
 	size_restriction = { MS_05B MS_05S MS_06 MS_06S zeon_MS_P MS_06K MS_09 MS_09S MS_09K MS_18E MS_11 MS_11S MS_14 MS_14S MS_14C MS_17 MS_17S MP_02A EMS_10 EMS_10S }
@@ -140,15 +136,14 @@ weapon_component_template = {
 	key = "OYW_ZEON_90MM"
 	size = point_defence
 	entity = "Zeon_Machine_Gun_01_Entity"
-	damage = { min = 5.0 max = 10.0 } #damage = { min = 10.0 max = 20.0 }
-	windup = { min = 2.5 max = 5.0 }
-	total_fire_time = 3
-	range = 25.0
-	accuracy = 0.82
-	tracking  = 0.65
+	damage = { min = 2.0 max = 8.0 }
+	total_fire_time = 5
+	range = 30.0
+	accuracy = 0.75
+	tracking  = 0.7
 	type = point_defence
-	shield_damage = 1.0
-	armor_penetration = 0.2
+	shield_damage = 1.5
+	armor_damage = 0.2
 
 	icon = "OYW_ZEON_90MM"
 	icon_frame = 1
@@ -157,7 +152,7 @@ weapon_component_template = {
 	resources = {
 		category = ship_components
 		cost = {
-			alloys = 5
+			alloys = 8
 		}
 	}
 	size_restriction = { MS_05B MS_05S MS_06 MS_06S zeon_MS_P MS_06K MS_09 MS_09S MS_09K MS_18E MS_11 MS_11S MS_14 MS_14S MS_14C MS_17 MS_17S MP_02A EMS_10 EMS_10S }
@@ -173,15 +168,14 @@ weapon_component_template = {
 	key = "OYW_ZEON_40MM"
 	size = point_defence
 	entity = "Zeon_Machine_Gun_01_Entity"
-	damage = { min = 2.5 max = 5.0 } #damage = { min = 5.0 max = 10.0 }
-	windup = { min = 2.5 max = 5.0 }
-	total_fire_time = 3
-	range = 25.0
-	accuracy = 0.82
-	tracking  = 0.65
+	damage = { min = 1.0 max = 4.0 }
+	total_fire_time = 5
+	range = 30.0
+	accuracy = 0.75
+	tracking  = 0.9
 	type = point_defence
-	shield_damage = 1.0
-	armor_penetration = 0.2
+	shield_damage = 1.5
+	armor_damage = 0.15
 
 	icon = "OYW_ZEON_40MM"
 	icon_frame = 1
@@ -190,7 +184,7 @@ weapon_component_template = {
 	resources = {
 		category = ship_components
 		cost = {
-			alloys = 5
+			alloys = 8
 		}
 	}
 	size_restriction = { MS_21 }
@@ -206,15 +200,14 @@ weapon_component_template = {
 	key = "OYW_ZEON_SHOTGUN"
 	size = point_defence
 	entity = "Zeon_Machine_Gun_01_Entity"
-	damage = { min = 2.5 max = 50.0 } #damage = { min = 5.0 max = 100.0 }
-	windup = { min = 5.0 max = 10.0 }
-	total_fire_time = 3
+	damage = { min = 2.0 max = 20.0 }
+	total_fire_time = 5
 	range = 15.0
-	accuracy = 0.82
-	tracking  = 0.65
+	accuracy = 0.5
+	tracking  = 0.9
 	type = point_defence
 	shield_damage = 1.5
-	armor_penetration = 0.05
+	armor_damage = 0.05
 
 	icon = "OYW_ZEON_SHOTGUN"
 	icon_frame = 1
@@ -223,7 +216,7 @@ weapon_component_template = {
 	resources = {
 		category = ship_components
 		cost = {
-			alloys = 15
+			alloys = 13
 		}
 	}
 	size_restriction = { MS_05B MS_05S MS_06 MS_06S zeon_MS_P MS_06K MS_09 MS_09S MS_09K MS_18E MS_11 MS_11S MS_14 MS_14S MS_14C MS_17 MS_17S MP_02A EMS_10 EMS_10S }
@@ -239,12 +232,11 @@ weapon_component_template = {
 	key = "OYW_ZEON_BEAM_RIFLE_0"
 	size = point_defence
 	entity = "Zeon_Machine_Gun_01_Entity"
-	damage = { min = 55.5 max = 111.0 } #damage = { min = 111.0 max = 222.0 }
-	#windup = { min = 5.0 max = 20.0 }
-	total_fire_time = 20
-	range = 30.0
-	accuracy = 0.82
-	tracking  = 0.65
+	damage = { min = 27.8 max = 55.6 }
+	total_fire_time = 10
+	range = 45.0
+	accuracy = 0.75
+	tracking  = 0.3
 	type = point_defence
 	shield_damage = 0.2
 	armor_penetration = 0.95
@@ -256,7 +248,7 @@ weapon_component_template = {
 	resources = {
 		category = ship_components
 		cost = {
-			alloys = 30
+			alloys = 22
 		}
 	}
 	size_restriction = { MS_06 MS_06S zeon_MS_P MS_06K MS_09 MS_09S MS_09K MS_18E MS_11 MS_11S MS_14 MS_14S MS_14C MS_17 MS_17S }
@@ -272,12 +264,11 @@ weapon_component_template = {
 	key = "OYW_ZEON_BEAM_RIFLE"
 	size = point_defence
 	entity = "Zeon_Machine_Gun_01_Entity"
-	damage = { min = 57.7 max = 115.0 } #damage = { min = 115.0 max = 230.0 }
-	#windup = { min = 5.0 max = 20.0 }
-	total_fire_time = 20
-	range = 30.0
-	accuracy = 0.82
-	tracking  = 0.65
+	damage = { min = 28.8 max = 57.6 }
+	total_fire_time = 10
+	range = 45.0
+	accuracy = 0.75
+	tracking  = 0.3
 	type = point_defence
 	shield_damage = 0.2
 	armor_penetration = 0.95
@@ -289,7 +280,7 @@ weapon_component_template = {
 	resources = {
 		category = ship_components
 		cost = {
-			alloys = 30
+			alloys = 26
 		}
 	}
 	size_restriction = { MS_11 MS_11S MS_14 MS_14S MS_14C MS_17 MS_17S }
@@ -305,12 +296,11 @@ weapon_component_template = {
 	key = "OYW_ZEON_BEAM_MG"
 	size = point_defence
 	entity = "Zeon_Machine_Gun_01_Entity"
-	damage = { min = 15.0 max = 44.5 } #damage = { min = 30.0 max = 89.0 }
-	#windup = { min = 1.0 max = 10.0 }
-	total_fire_time = 10
+	damage = { min = 14.9 max = 29.8 }
+	total_fire_time = 5
 	range = 30.0
-	accuracy = 0.82
-	tracking  = 0.65
+	accuracy = 0.75
+	tracking  = 0.5
 	type = point_defence
 	shield_damage = 0.2
 	armor_penetration = 0.95
@@ -322,7 +312,7 @@ weapon_component_template = {
 	resources = {
 		category = ship_components
 		cost = {
-			alloys = 35
+			alloys = 22
 		}
 	}
 	size_restriction = { MS_11 MS_11S MS_14 MS_14S MS_14C MS_17 MS_17S }
@@ -338,12 +328,11 @@ weapon_component_template = {
 	key = "OYW_ZEON_BEAM_BAZOOKA"
 	size = extra_large
 	entity = "Zeon_Machine_Gun_01_Entity"
-	damage = { min = 100.0 max = 200.0 } #damage = { min = 200.0 max = 400.0 }
-	windup = { min = 2.5 max = 27.5 }
-	total_fire_time = 25
-	range = 80.0
-	accuracy = 0.8
-	tracking = 0.05
+	damage = { min = 50.0 max = 100.0 }
+	total_fire_time = 20
+	range = 60.0
+	accuracy = 0.75
+	tracking = 0.50
 	type = instant
 	shield_damage = 0.2
 	armor_penetration = 0.95
@@ -355,7 +344,7 @@ weapon_component_template = {
 	resources = {
 		category = ship_components
 		cost = {
-			alloys = 50
+			alloys = 22
 		}
 	}
 	size_restriction = { zeon_MS_P }
@@ -371,15 +360,15 @@ weapon_component_template = {
 	key = "OYW_ZEON_STURMFAUST"
 	size = point_defence
 	entity = "Zeon_Machine_Gun_01_Entity"
-	damage = { min = 10.0 max = 30.0 } #damage = { min = 20.0 max = 60.0 }
-	#windup = { min = 5.0 max = 10.0 }
-	total_fire_time = 15
-	range = 15.0
-	accuracy = 0.6
-	tracking  = 0.3
+	damage = { min = 4.0 max = 7.0 }
+	total_fire_time = 10
+	range = 30.0
+	accuracy = 0.9
+	tracking  = 0.1
 	type = point_defence
-	shield_damage = 1.15
-	armor_penetration = 0.15
+	hull_damage = 1.25
+	armor_damage = 1.5
+	shield_penetration = 1.0
 
 	icon = "STURMFAUST"
 	icon_frame = 1
@@ -388,7 +377,7 @@ weapon_component_template = {
 	resources = {
 		category = ship_components
 		cost = {
-			alloys = 5
+			alloys = 10
 		}
 	}
 	size_restriction = { MS_05B MS_05S MS_06 MS_06S zeon_MS_P MS_06K MS_09 MS_09S MS_09K MS_18E MS_11 MS_11S MS_14 MS_14S MS_14C MS_17 MS_17S MP_02A EMS_10 EMS_10S }
@@ -404,15 +393,14 @@ weapon_component_template = {
 	key = "OYW_ZEON_280MM_1"
 	size = point_defence
 	entity = "Zeon_Machine_Gun_01_Entity"
-	damage = { min = 22.5 max = 40.0 } #damage = { min = 45.0 max = 80.0 }
-	#windup = { min = 5.0 max = 10.0 }
-	total_fire_time = 25
-	range = 50.0
-	accuracy = 0.75
+	damage = { min = 2.0 max = 4.0 }
+	total_fire_time = 5
+	range = 60.0
+	accuracy = 0.95
 	tracking  = 0.2
 	type = point_defence
-	shield_damage = 1.15
-	armor_penetration = 0.25
+	hull_damage = 1.25
+	shield_penetration = 1.0
 
 	icon = "OYW_ZEON_280MM"
 	icon_frame = 1
@@ -421,7 +409,7 @@ weapon_component_template = {
 	resources = {
 		category = ship_components
 		cost = {
-			alloys = 20
+			alloys = 13
 		}
 	}
 	size_restriction = { MS_05B MS_05S MS_06 MS_06S zeon_MS_P MS_06K MS_09 MS_09S MS_09K MS_18E MS_11 MS_11S MS_14 MS_14S MS_14C MS_17 MS_17S MP_02A EMS_10 EMS_10S }
@@ -437,15 +425,14 @@ weapon_component_template = {
 	key = "OYW_ZEON_280MM_2"
 	size = point_defence
 	entity = "Zeon_Machine_Gun_01_Entity"
-	damage = { min = 22.5 max = 40.0 } #damage = { min = 45.0 max = 80.0 }
-	#windup = { min = 5.0 max = 10.0 }
-	total_fire_time = 20
-	range = 50.0
-	accuracy = 0.75
-	tracking  = 0.2
+	damage = { min = 2.0 max = 4.0 }
+	total_fire_time = 5
+	range = 60.0
+	accuracy = 1.0
+	tracking  = 0.25
 	type = point_defence
-	shield_damage = 1.15
-	armor_penetration = 0.25
+	hull_damage = 1.25
+	shield_penetration = 1.0
 
 	icon = "OYW_ZEON_280MM"
 	icon_frame = 1
@@ -454,7 +441,7 @@ weapon_component_template = {
 	resources = {
 		category = ship_components
 		cost = {
-			alloys = 20
+			alloys = 13
 		}
 	}
 	size_restriction = { MS_05B MS_05S MS_06 MS_06S zeon_MS_P MS_06K MS_09 MS_09S MS_09K MS_18E MS_11 MS_11S MS_14 MS_14S MS_14C MS_17 MS_17S MP_02A EMS_10 EMS_10S }
@@ -470,15 +457,14 @@ weapon_component_template = {
 	key = "OYW_ZEON_360MM_1"
 	size = point_defence
 	entity = "Zeon_Machine_Gun_01_Entity"
-	damage = { min = 25.0 max = 45.0 } #damage = { min = 50.0 max = 90.0 }
-	#windup = { min = 5.0 max = 10.0 }
-	total_fire_time = 20
+	damage = { min = 3.0 max = 6.0 }
+	total_fire_time = 5
 	range = 60.0
-	accuracy = 0.8
+	accuracy = 0.95
 	tracking  = 0.2
 	type = point_defence
-	shield_damage = 1.15
-	armor_penetration = 0.25
+	hull_damage = 1.25
+	shield_penetration = 1.0
 
 	icon = "OYW_ZEON_360MM"
 	icon_frame = 1
@@ -487,7 +473,7 @@ weapon_component_template = {
 	resources = {
 		category = ship_components
 		cost = {
-			alloys = 25
+			alloys = 17
 		}
 	}
 	size_restriction = { MS_05B MS_05S MS_06 MS_06S zeon_MS_P MS_06K MS_09 MS_09S MS_09K MS_18E MS_11 MS_11S MS_14 MS_14S MS_14C MS_17 MS_17S MP_02A EMS_10 EMS_10S }
@@ -503,15 +489,14 @@ weapon_component_template = {
 	key = "OYW_ZEON_360MM_2"
 	size = point_defence
 	entity = "Zeon_Machine_Gun_01_Entity"
-	damage = { min = 30.0 max = 50.0 } #damage = { min = 60.0 max = 100.0 }
-	#windup = { min = 5.0 max = 10.0 }
-	total_fire_time = 20
-	range = 70.0
-	accuracy = 0.85
-	tracking  = 0.3
+	damage = { min = 3.0 max = 6.0 }
+	total_fire_time = 5
+	range = 60.0
+	accuracy = 1.0
+	tracking  = 0.25
 	type = point_defence
-	shield_damage = 1.15
-	armor_penetration = 0.25
+	hull_damage = 1.25
+	shield_penetration = 1.0
 
 	icon = "OYW_ZEON_360MM"
 	icon_frame = 1
@@ -520,7 +505,7 @@ weapon_component_template = {
 	resources = {
 		category = ship_components
 		cost = {
-			alloys = 30
+			alloys = 17
 		}
 	}
 	size_restriction = { MS_05B MS_05S MS_06 MS_06S zeon_MS_P MS_06K MS_09 MS_09S MS_09K MS_18E MS_11 MS_11S MS_14 MS_14S MS_14C MS_17 MS_17S MP_02A EMS_10 EMS_10S }
@@ -536,15 +521,14 @@ weapon_component_template = {
 	key = "OYW_ZEON_420MM"
 	size = point_defence
 	entity = "Zeon_Machine_Gun_01_Entity"
-	damage = { min = 35.0 max = 60.0 } #damage = { min = 70.0 max = 120.0 }
-	#windup = { min = 5.0 max = 10.0 }
-	total_fire_time = 20
-	range = 70.0
-	accuracy = 0.85
-	tracking  = 0.3
+	damage = { min = 4.0 max = 7.0 }
+	total_fire_time = 5
+	range = 60.0
+	accuracy = 1.0
+	tracking  = 0.25
 	type = point_defence
-	shield_damage = 1.15
-	armor_penetration = 0.25
+	hull_damage = 1.25
+	shield_penetration = 1.0
 
 	icon = "OYW_ZEON_420MM"
 	icon_frame = 1
@@ -553,7 +537,7 @@ weapon_component_template = {
 	resources = {
 		category = ship_components
 		cost = {
-			alloys = 15
+			alloys = 22
 		}
 	}
 	size_restriction = { MS_05B MS_05S MS_06 MS_06S zeon_MS_P MS_06K MS_09 MS_09S MS_09K MS_18E MS_11 MS_11S MS_14 MS_14S MS_14C MS_17 MS_17S MP_02A EMS_10 EMS_10S }
@@ -569,15 +553,14 @@ weapon_component_template = {
 	key = "OYW_ZEON_135MM"
 	size = point_defence
 	entity = "Zeon_Machine_Gun_01_Entity"
-	damage = { min = 50.0 max = 100.0 } #damage = { min = 100.0 max = 200.0 }
-	#windup = { min = 5.0 max = 20.0 }
-	total_fire_time = 35
-	range = 90.0
-	accuracy = 0.6
-	tracking  = 0.8
+	damage = { min = 10.0 max = 20.0 }
+	total_fire_time = 7.5
+	range = 60.0
+	accuracy = 0.75
+	tracking  = 0.0
 	type = point_defence
-	shield_damage = 0.95
-	armor_penetration = 0.2
+	shield_damage = 2.0
+	armor_damage = 0.5
 
 	icon = "OYW_ZEON_135MM"
 	icon_frame = 1
@@ -586,7 +569,7 @@ weapon_component_template = {
 	resources = {
 		category = ship_components
 		cost = {
-			alloys = 50
+			alloys = 22
 		}
 	}
 	size_restriction = { MS_05B MS_05S MS_06 MS_06S MS_09 MS_09S MS_11 MS_11S MS_14 MS_14S MS_17 MS_17S EMS_10 EMS_10S }
@@ -602,15 +585,13 @@ weapon_component_template = {
 	key = "OYW_ZEON_175MM" #Technically a ground type weapon, but it's rad so it's in.
 	size = point_defence
 	entity = "Zeon_Machine_Gun_01_Entity"
-	damage = { min = 26.5 max = 54.5 } #damage = { min = 53.0 max = 109.0 }
-	windup = { min = 5.0 max = 10.0 }
-	total_fire_time = 10
-	range = 60.0
-	accuracy = 0.6
-	tracking  = 0.4
+	damage = { min = 26.5 max = 54.5 }
+	total_fire_time = 5
+	range = 30.0
+	accuracy = 0.75
+	tracking  = 0.0
 	type = point_defence
-	shield_damage = 1.33
-	armor_penetration = 0.2
+	armor_damage = 0.5
 
 	icon = "OYW_ZEON_175MM"
 	icon_frame = 1
@@ -619,7 +600,7 @@ weapon_component_template = {
 	resources = {
 		category = ship_components
 		cost = {
-			alloys = 25
+			alloys = 13
 		}
 	}
 	size_restriction = { MS_05B MS_05S MS_06 MS_06S zeon_MS_P MS_06K MS_09 MS_09S MS_09K MS_18E MS_11 MS_11S MS_14 MS_14S MS_14C MS_17 MS_17S MP_02A EMS_10 EMS_10S }
@@ -628,22 +609,20 @@ weapon_component_template = {
 	projectile_gfx = "mass_driver_s"
 	tags = { weapon_type_kinetic }
 	ai_tags = { weapon_role_anti_shield }
-	#upgrades_to = "OYW_EFSF_180MM_2"
+	upgrades_to = "OYW_ZEON_135MM"
 }
 
 weapon_component_template = {
 	key = "OYW_ZEON_180MM"
 	size = extra_large
 	entity = "Zeon_Machine_Gun_01_Entity"
-	damage = { min = 53.0 max = 109.0 } #damage = { min = 106.0 max = 218.0 }
-	#windup = { min = 5.0 max = 10.0 }
-	total_fire_time = 30
-	range = 70.0
-	accuracy = 0.7
-	tracking  = 0.0
+	damage = { min = 8.0 max = 27.0 }
+	total_fire_time = 10
+	range = 60.0
+	accuracy = 0.75
+	tracking  = 0.5
 	type = instant
-	shield_damage = 1.33
-	armor_penetration = 0.2
+	shield_damage = 1.5
 
 	icon = "OYW_ZEON_180MM_3"
 	icon_frame = 1
@@ -652,7 +631,7 @@ weapon_component_template = {
 	resources = {
 		category = ship_components
 		cost = {
-			alloys = 30
+			alloys = 13
 		}
 	}
 	size_restriction = { MS_06K MS_09K MS_14C }
@@ -668,15 +647,13 @@ weapon_component_template = {
 	key = "OYW_ZEON_120MM_GATLING"
 	size = extra_large
 	entity = "Zeon_Machine_Gun_01_Entity"
-	damage = { min = 5.0 max = 12.5 } #damage = { min = 10.0 max = 25.0 }
-	#windup = { min = 5.0 max = 10.0 }
-	total_fire_time = 1
-	range = 40.0
-	accuracy = 0.7
-	tracking  = 0.65
+	damage = { min = 2.0 max = 10.0 }
+	total_fire_time = 3.5
+	range = 15.0
+	accuracy = 0.75
+	tracking  = 0.5
 	type = instant
-	shield_damage = 1.0
-	armor_penetration = 0.1
+	armor_damage = 0.25
 
 	icon = "OYW_ZEON_120MM_GATLING"
 	icon_frame = 1
@@ -685,7 +662,7 @@ weapon_component_template = {
 	resources = {
 		category = ship_components
 		cost = {
-			alloys = 25
+			alloys = 13
 		}
 	}
 	size_restriction = { MS_06K MS_09K MS_14C }
@@ -701,15 +678,14 @@ weapon_component_template = {
 	key = "OYW_ZEON_HOWITZER"
 	size = extra_large
 	entity = "Zeon_Machine_Gun_01_Entity"
-	damage = { min = 20.5 max = 54.5 } #damage = { min = 41.0 max = 109.0 }
-	#windup = { min = 5.0 max = 10.0 }
-	total_fire_time = 25
-	range = 40.0
-	accuracy = 0.67
-	tracking  = 0.05
+	damage = { min = 11.0 max = 35.0 }
+	total_fire_time = 20
+	range = 30.0
+	accuracy = 0.75
+	tracking  = 0.5
 	type = instant
-	shield_damage = 1.33
-	armor_penetration = 0.3
+	shield_damage = 2.0
+	armor_damage = 1.5
 
 	icon = "OYW_ZEON_HOWITZER"
 	icon_frame = 1
@@ -718,7 +694,7 @@ weapon_component_template = {
 	resources = {
 		category = ship_components
 		cost = {
-			alloys = 25
+			alloys = 13
 		}
 	}
 	size_restriction = { MS_06K MS_09K MS_14C }
@@ -734,12 +710,11 @@ weapon_component_template = {
 	key = "OYW_ZEON_BEAM_CANNON"
 	size = extra_large
 	entity = "Zeon_Machine_Gun_01_Entity"
-	damage = { min = 57.5 max = 115.0 } #damage = { min = 115.0 max = 230.0 }
-	#windup = { min = 5.0 max = 20.0 }
-	total_fire_time = 25
+	damage = { min = 28.8 max = 57.6 }
+	total_fire_time = 10
 	range = 60.0
-	accuracy = 0.8
-	tracking  = 0.05
+	accuracy = 0.75
+	tracking  = 0.0
 	type = point_defence
 	shield_damage = 0.2
 	armor_penetration = 0.95
@@ -751,7 +726,7 @@ weapon_component_template = {
 	resources = {
 		category = ship_components
 		cost = {
-			alloys = 50
+			alloys = 22
 		}
 	}
 	size_restriction = { MS_14C }
@@ -764,22 +739,16 @@ weapon_component_template = {
 }
 
 weapon_component_template = {
-	key = "OYW_GYAN_SHIELD_1"
+	key = "OYW_GYAN_SHIELD_1" #Swarm
 	size = point_defence
 	entity = "Zeon_Machine_Gun_01_Entity"
-	damage = { min = 4.0 max = 6.0 } #damage = { min = 8.0 max = 12.0 }
-	#windup = { min = 5.0 max = 10.0 }
-	total_fire_time = 10
-	range = 15.0
-	accuracy = 1.0
-	tracking  = 0.5
+	damage = { min = 2.0 max = 4.0 }
+	total_fire_time = 3.5
+	range = 60.0
+	accuracy = 0.95
+	tracking  = 0.2
 	type = point_defence
-	shield_damage = 1.1
-	armor_penetration = 0.3
-
-	modifier = {
-		ship_armor_add = 30
-	}
+	armor_damage = 1.25
 
 	icon = "gyan_shield_01"
 	icon_frame = 1
@@ -788,7 +757,7 @@ weapon_component_template = {
 	resources = {
 		category = ship_components
 		cost = {
-			alloys = 20
+			alloys = 8
 		}
 	}
 	size_restriction = { MS_15 MS_15S }
@@ -801,22 +770,16 @@ weapon_component_template = {
 }
 
 weapon_component_template = {
-	key = "OYW_GYAN_SHIELD_2"
+	key = "OYW_GYAN_SHIELD_2" #Missile
 	size = point_defence
 	entity = "Zeon_Machine_Gun_01_Entity"
-	damage = { min = 22.5 max = 40.0 } #damage = { min = 45.0 max = 80.0 }
-	#windup = { min = 5.0 max = 10.0 }
-	total_fire_time = 25
-	range = 15.0
+	damage = { min = 3.0 max = 6.0 }
+	total_fire_time = 5
+	range = 60.0
 	accuracy = 1.0
-	tracking  = 0.3
+	tracking  = 0.25
 	type = point_defence
-	shield_damage = 1.15
-	armor_penetration = 0.25
-
-	modifier = {
-		ship_armor_add = 30
-	}
+	armor_damage = 1.25
 
 	icon = "gyan_shield_02"
 	icon_frame = 1
@@ -825,7 +788,7 @@ weapon_component_template = {
 	resources = {
 		category = ship_components
 		cost = {
-			alloys = 20
+			alloys = 10
 		}
 	}
 	size_restriction = { MS_15 MS_15S }
@@ -838,22 +801,16 @@ weapon_component_template = {
 }
 
 weapon_component_template = {
-	key = "OYW_GYAN_SHIELD_3"
+	key = "OYW_GYAN_SHIELD_3" #MG
 	size = point_defence
 	entity = "Zeon_Machine_Gun_01_Entity"
-	damage = { min = 5.0 max = 12.5 } #damage = { min = 10.0 max = 25.0 }
-	#windup = { min = 5.0 max = 10.0 }
-	total_fire_time = 15
-	range = 15.0
-	accuracy = 0.85
-	tracking  = 0.65
+	damage = { min = 2.0 max = 10.0 }
+	total_fire_time = 0.5
+	range = 30.0
+	accuracy = 0.75
+	tracking  = 0.5
 	type = point_defence
-	shield_damage = 1.0
-	armor_penetration = 0.1
-
-	modifier = {
-		ship_armor_add = 40
-	}
+	armor_damage = 0.25
 
 	icon = "gyan_shield_03"
 	icon_frame = 1
@@ -878,19 +835,14 @@ weapon_component_template = {
 	key = "OYW_GYAN_SHIELD_4"
 	size = point_defence
 	entity = "Zeon_Machine_Gun_01_Entity"
-	damage = { min = 12.5 max = 37.5 } #damage = { min = 25.0 max = 75.0 }
-	#windup = { min = 5.0 max = 10.0 }
-	total_fire_time = 25
-	range = 15.0
-	accuracy = 0.85
-	tracking  = 0.3
+	damage = { min = 28.2 max = 56.4 }
+	total_fire_time = 10
+	range = 45.0
+	accuracy = 0.75
+	tracking  = 0.5
 	type = point_defence
 	shield_damage = 0.2
 	armor_penetration = 0.95
-
-	modifier = {
-		ship_armor_add = 50
-	}
 
 	icon = "gyan_shield_04"
 	icon_frame = 1
@@ -899,7 +851,7 @@ weapon_component_template = {
 	resources = {
 		category = ship_components
 		cost = {
-			alloys = 30
+			alloys = 22
 		}
 	}
 	size_restriction = { MS_15 MS_15S }
@@ -912,18 +864,16 @@ weapon_component_template = {
 }
 
 weapon_component_template = {
-	key = "OYW_EFSF_180MM_1"
+	key = "OYW_EFSF_180MM_1" #1x180mm but shite
 	size = point_defence
 	entity = "Zeon_Machine_Gun_01_Entity"
-	damage = { min = 26.5 max = 54.5 } #damage = { min = 53.0 max = 109.0 }
-	windup = { min = 5.0 max = 10.0 }
-	total_fire_time = 10
-	range = 60.0
-	accuracy = 0.5
-	tracking  = 0.3
+	damage = { min = 8.0 max = 27.0 }
+	total_fire_time = 20
+	range = 30.0
+	accuracy = 0.75
+	tracking  = 0.5
 	type = point_defence
-	shield_damage = 1.33
-	armor_penetration = 0.2
+	shield_damage = 1.5
 
 	icon = "OYW_ZEON_180MM_1"
 	icon_frame = 1
@@ -932,7 +882,7 @@ weapon_component_template = {
 	resources = {
 		category = ship_components
 		cost = {
-			alloys = 5
+			alloys = 13
 		}
 	}
 	size_restriction = { RB_79 RB_79S }
@@ -945,18 +895,16 @@ weapon_component_template = {
 }
 
 weapon_component_template = {
-	key = "OYW_EFSF_180MM_2"
+	key = "OYW_EFSF_180MM_2" #2x180mm but shite
 	size = point_defence
 	entity = "Zeon_Machine_Gun_01_Entity"
-	damage = { min = 53.0 max = 109.0 } #damage = { min = 106.0 max = 218.0 }
-	windup = { min = 5.0 max = 10.0 }
-	total_fire_time = 10
-	range = 50.0
-	accuracy = 0.5
-	tracking  = 0.3
+	damage = { min = 8.0 max = 54.0 }
+	total_fire_time = 30
+	range = 30.0
+	accuracy = 0.75
+	tracking  = 0.5
 	type = point_defence
-	shield_damage = 1.33
-	armor_penetration = 0.2
+	shield_damage = 1.5
 
 	icon = "OYW_ZEON_180MM_2"
 	icon_frame = 1
@@ -965,7 +913,7 @@ weapon_component_template = {
 	resources = {
 		category = ship_components
 		cost = {
-			alloys = 10
+			alloys = 22
 		}
 	}
 	size_restriction = { RB_79 RB_79S }
@@ -978,18 +926,16 @@ weapon_component_template = {
 }
 
 weapon_component_template = {
-	key = "OYW_EFSF_180MM_3"
+	key = "OYW_EFSF_180MM_3" #2x180mm
 	size = point_defence
 	entity = "Zeon_Machine_Gun_01_Entity"
-	damage = { min = 53.0 max = 109.0 } #damage = { min = 106.0 max = 218.0 }
-	#windup = { min = 5.0 max = 10.0 }
-	total_fire_time = 30
-	range = 70.0
-	accuracy = 0.7
-	tracking  = 0.0
+	damage = { min = 8.0 max = 54.0 }
+	total_fire_time = 20
+	range = 60.0
+	accuracy = 0.75
+	tracking  = 0.5
 	type = point_defence
-	shield_damage = 1.33
-	armor_penetration = 0.2
+	shield_damage = 1.5
 
 	icon = "OYW_ZEON_180MM_3"
 	icon_frame = 1
@@ -998,7 +944,7 @@ weapon_component_template = {
 	resources = {
 		category = ship_components
 		cost = {
-			alloys = 25
+			alloys = 22
 		}
 	}
 	size_restriction = { RX_75_4 RX_75_MPT }
@@ -1011,18 +957,16 @@ weapon_component_template = {
 }
 
 weapon_component_template = {
-	key = "OYW_EFSF_120MM"
+	key = "OYW_EFSF_120MM" #2x120mm
 	size = point_defence
 	entity = "Zeon_Machine_Gun_01_Entity"
-	damage = { min = 35.5 max = 72.5 } #damage = { min = 71.0 max = 145.0 }
-	#windup = { min = 5.0 max = 10.0 }
-	total_fire_time = 30
+	damage = { min = 7.0 max = 42.0 }
+	total_fire_time = 20
 	range = 60.0
 	accuracy = 0.75
-	tracking  = 0.0
+	tracking  = 0.5
 	type = point_defence
-	shield_damage = 1.33
-	armor_penetration = 0.2
+	shield_damage = 1.25
 
 	icon = "OYW_EFSF_120MM"
 	icon_frame = 1
@@ -1031,7 +975,7 @@ weapon_component_template = {
 	resources = {
 		category = ship_components
 		cost = {
-			alloys = 20
+			alloys = 17
 		}
 	}
 	size_restriction = { RX_75_4 RX_75_MPT }
@@ -1044,18 +988,16 @@ weapon_component_template = {
 }
 
 weapon_component_template = {
-	key = "OYW_EFSF_240MM_1"
+	key = "OYW_EFSF_240MM_1" #2x240mm
 	size = extra_large
 	entity = "Zeon_Machine_Gun_01_Entity"
-	damage = { min = 66.5 max = 150.0 } #damage = { min = 133.0 max = 300.0 }
-	#windup = { min = 5.0 max = 10.0 }
-	total_fire_time = 25
-	range = 90.0
-	accuracy = 0.6
+	damage = { min = 11 max = 70.0 }
+	total_fire_time = 40
+	range = 60.0
+	accuracy = 0.75
 	tracking  = 0.0
 	type = instant
-	shield_damage = 1.33
-	armor_penetration = 0.2
+	shield_damage = 1.5
 
 	icon = "OYW_EFSF_240MM"
 	icon_frame = 1
@@ -1064,7 +1006,7 @@ weapon_component_template = {
 	resources = {
 		category = ship_components
 		cost = {
-			alloys = 40
+			alloys = 26
 		}
 	}
 	size_restriction = { RX_77 RX_78 FA_78_2 RGC_80 }
@@ -1077,18 +1019,16 @@ weapon_component_template = {
 }
 
 weapon_component_template = {
-	key = "OYW_EFSF_240MM_2"
+	key = "OYW_EFSF_240MM_2" #1x240mm
 	size = extra_large
 	entity = "Zeon_Machine_Gun_01_Entity"
-	damage = { min = 33.5 max = 75.0 } #damage = { min = 67.0 max = 150.0 }
-	#windup = { min = 5.0 max = 10.0 }
-	total_fire_time = 25
-	range = 90.0
-	accuracy = 0.7
-	tracking  = 0.2
+	damage = { min = 11.0 max = 35.0 }
+	total_fire_time = 30
+	range = 60.0
+	accuracy = 0.85
+	tracking  = 0.0
 	type = instant
-	shield_damage = 1.33
-	armor_penetration = 0.2
+	shield_damage = 1.5
 
 	icon = "OYW_EFSF_240MM"
 	icon_frame = 1
@@ -1097,7 +1037,7 @@ weapon_component_template = {
 	resources = {
 		category = ship_components
 		cost = {
-			alloys = 20
+			alloys = 22
 		}
 	}
 	size_restriction = { RX_77 RX_78 FA_78_2 RX_81FC RGC_80 }
@@ -1110,18 +1050,16 @@ weapon_component_template = {
 }
 
 weapon_component_template = {
-	key = "OYW_EFSF_300MM"
+	key = "OYW_EFSF_300MM" #1x300mm
 	size = extra_large
 	entity = "Zeon_Machine_Gun_01_Entity"
-	damage = { min = 83.0 max = 187.5 } #damage = { min = 166.0 max = 375.0 }
-	#windup = { min = 5.0 max = 10.0 }
-	total_fire_time = 25
-	range = 90.0
-	accuracy = 0.6
-	tracking  = 0.2
+	damage = { min = 14.0 max = 46.0 }
+	total_fire_time = 30
+	range = 60.0
+	accuracy = 0.85
+	tracking  = 0.0
 	type = instant
-	shield_damage = 1.33
-	armor_penetration = 0.2
+	shield_damage = 1.5
 
 	icon = "OYW_EFSF_300MM"
 	icon_frame = 1
@@ -1130,7 +1068,7 @@ weapon_component_template = {
 	resources = {
 		category = ship_components
 		cost = {
-			alloys = 50
+			alloys = 34
 		}
 	}
 	size_restriction = { RX_77 RX_78 FA_78_2 RGC_80 }
@@ -1146,15 +1084,13 @@ weapon_component_template = {
 	key = "OYW_EFSF_360MM_1" #2x360mm Cannons
 	size = extra_large
 	entity = "Zeon_Machine_Gun_01_Entity"
-	damage = { min = 100.0 max = 225.0 } #damage = { min = 200.0 max = 450.0 }
-	#windup = { min = 5.0 max = 10.0 }
-	total_fire_time = 25
-	range = 100.0
-	accuracy = 0.6
-	tracking  = 0.2
+	damage = { min = 18.0 max = 106.0 }
+	total_fire_time = 40
+	range = 60.0
+	accuracy = 0.75
+	tracking  = 0.0
 	type = instant
-	shield_damage = 1.33
-	armor_penetration = 0.2
+	shield_damage = 1.5
 
 	icon = "OYW_EFSF_360MM"
 	icon_frame = 1
@@ -1163,7 +1099,7 @@ weapon_component_template = {
 	resources = {
 		category = ship_components
 		cost = {
-			alloys = 60
+			alloys = 44
 		}
 	}
 	size_restriction = { RX_77 RX_78 FA_78_2 RGC_80 }
@@ -1179,15 +1115,13 @@ weapon_component_template = {
 	key = "OYW_EFSF_360MM_2" #1x360mm Cannons
 	size = extra_large
 	entity = "Zeon_Machine_Gun_01_Entity"
-	damage = { min = 50.0 max = 112.5 } #damage = { min = 100.0 max = 225.0 }
-	#windup = { min = 5.0 max = 10.0 }
-	total_fire_time = 25
-	range = 100.0
-	accuracy = 0.5
+	damage = { min = 18.0 max = 53.0 }
+	total_fire_time = 30
+	range = 60.0
+	accuracy = 0.85
 	tracking  = 0.0
 	type = instant
-	shield_damage = 1.33
-	armor_penetration = 0.2
+	shield_damage = 1.5
 
 	icon = "OYW_EFSF_360MM"
 	icon_frame = 1
@@ -1196,7 +1130,7 @@ weapon_component_template = {
 	resources = {
 		category = ship_components
 		cost = {
-			alloys = 30
+			alloys = 36
 		}
 	}
 	size_restriction = { RX_77 RX_78 FA_78_2 RGC_80 }
@@ -1212,12 +1146,11 @@ weapon_component_template = {
 	key = "OYW_EFSF_DOUBLE_BEAM_RIFLE" #Full Armor Gundam Weapon
 	size = point_defence
 	entity = "Zeon_Machine_Gun_01_Entity"
-	damage = { min = 110.5 max = 221.0 } #damage = { min = 221.0 max = 442.0 }
-	#windup = { min = 5.0 max = 20.0 }
+	damage = { min = 55.2 max = 110.4 }
 	total_fire_time = 20
-	range = 30.0
-	accuracy = 0.82
-	tracking  = 0.65
+	range = 60.0
+	accuracy = 0.75
+	tracking  = 0.3
 	type = point_defence
 	shield_damage = 0.2
 	armor_penetration = 0.95
@@ -1229,7 +1162,7 @@ weapon_component_template = {
 	resources = {
 		category = ship_components
 		cost = {
-			alloys = 100
+			alloys = 44
 		}
 	}
 	size_restriction = { RX_78 FA_78 }
@@ -1245,12 +1178,11 @@ weapon_component_template = {
 	key = "OYW_EFSF_BEAM_CANNON_1"
 	size = extra_large
 	entity = "Zeon_Machine_Gun_01_Entity"
-	damage = { min = 55.0 max = 110.5 } #damage = { min = 110.0 max = 221.0 }
-	#windup = { min = 5.0 max = 20.0 }
-	total_fire_time = 25
-	range = 75.0
-	accuracy = 0.8
-	tracking  = 0.05
+	damage = { min = 27.6 max = 55.2 }
+	total_fire_time = 20
+	range = 60.0
+	accuracy = 0.75
+	tracking  = 0.0
 	type = point_defence
 	shield_damage = 0.2
 	armor_penetration = 0.95
@@ -1262,7 +1194,7 @@ weapon_component_template = {
 	resources = {
 		category = ship_components
 		cost = {
-			alloys = 50
+			alloys = 22
 		}
 	}
 	size_restriction = { RX_78 FA_78 FA_78_2 HFA_78  }
@@ -1278,12 +1210,11 @@ weapon_component_template = {
 	key = "OYW_EFSF_BEAM_CANNON_2"
 	size = extra_large
 	entity = "Zeon_Machine_Gun_01_Entity"
-	damage = { min = 74.0 max = 148.0 } #damage = { min = 148.0 max = 296.0 }
-	#windup = { min = 5.0 max = 20.0 }
-	total_fire_time = 25
-	range = 75.0
-	accuracy = 0.8
-	tracking  = 0.05
+	damage = { min = 37.0 max = 74.0 }
+	total_fire_time = 20
+	range = 60.0
+	accuracy = 0.75
+	tracking  = 0.0
 	type = point_defence
 	shield_damage = 0.2
 	armor_penetration = 0.95
@@ -1295,7 +1226,7 @@ weapon_component_template = {
 	resources = {
 		category = ship_components
 		cost = {
-			alloys = 75
+			alloys = 22
 		}
 	}
 	size_restriction = { RX_78 HFA_78  }
@@ -1311,12 +1242,11 @@ weapon_component_template = {
 	key = "OYW_EFSF_BEAM_CANNON_3"
 	size = large
 	entity = "Zeon_Machine_Gun_01_Entity"
-	damage = { min = 72.0 max = 124.5 } #damage = { min = 124.0 max = 249.0 }
-	#windup = { min = 5.0 max = 20.0 }
-	total_fire_time = 25
+	damage = { min = 31.1.0 max = 62.2 }
+	total_fire_time = 20
 	range = 75.0
-	accuracy = 0.8
-	tracking  = 0.05
+	accuracy = 0.75
+	tracking  = 0.0
 	type = point_defence
 	shield_damage = 0.2
 	armor_penetration = 0.95
@@ -1328,7 +1258,7 @@ weapon_component_template = {
 	resources = {
 		category = ship_components
 		cost = {
-			alloys = 75
+			alloys = 22
 		}
 	}
 	size_restriction = { HFA_78  }
@@ -1344,12 +1274,11 @@ weapon_component_template = {
 	key = "OYW_EFSF_BEAM_CANNON_4"
 	size = extra_large
 	entity = "Zeon_Machine_Gun_01_Entity"
-	damage = { min = 72.0 max = 113.5 } #damage = { min = 114.0 max = 227.0 }
-	#windup = { min = 5.0 max = 20.0 }
-	total_fire_time = 25
+	damage = { min = 28.4 max = 56.8 }
+	total_fire_time = 20
 	range = 60.0
-	accuracy = 0.8
-	tracking  = 0.05
+	accuracy = 0.75
+	tracking  = 0.0
 	type = point_defence
 	shield_damage = 0.2
 	armor_penetration = 0.95
@@ -1361,7 +1290,7 @@ weapon_component_template = {
 	resources = {
 		category = ship_components
 		cost = {
-			alloys = 100
+			alloys = 22
 		}
 	}
 	size_restriction = { RGC_80 }
@@ -1377,12 +1306,11 @@ weapon_component_template = {
 	key = "OYW_EFSF_LR_MEGA_BEAM_CANNON"
 	size = extra_large
 	entity = "Zeon_Machine_Gun_01_Entity"
-	damage = { min = 124.5 max = 249.0 } #damage = { min = 249.0 max = 498.0 }
-	windup = { min = 5.0 max = 10.0 }
+	damage = { min = 62.2 max = 124.4 }
 	total_fire_time = 30
-	range = 110.0
-	accuracy = 0.6
-	tracking  = 0.2
+	range = 90.0
+	accuracy = 0.75
+	tracking  = 0.0
 	type = instant
 	shield_damage = 0.2
 	armor_penetration = 0.95
@@ -1394,7 +1322,7 @@ weapon_component_template = {
 	resources = {
 		category = ship_components
 		cost = {
-			alloys = 100
+			alloys = 44
 		}
 	}
 	size_restriction = { HFA_78 }
@@ -1407,18 +1335,17 @@ weapon_component_template = {
 }
 
 weapon_component_template = {
-	key = "OYW_EFSF_GM_180MM"
+	key = "OYW_EFSF_GM_180MM" #Tank gun
 	size = point_defence
 	entity = "Zeon_Machine_Gun_01_Entity"
-	damage = { min = 26.5 max = 54.5 } #damage = { min = 53.0 max = 109.0 }
-	windup = { min = 5.0 max = 10.0 }
-	total_fire_time = 10
-	range = 60.0
-	accuracy = 0.6
-	tracking  = 0.4
+	damage = { min = 1.0 max = 10.0 }
+	total_fire_time = 0.5
+	range = 30.0
+	accuracy = 0.75
+	tracking  = 0.0
 	type = point_defence
-	shield_damage = 1.33
-	armor_penetration = 0.2
+	shield_damage = 2.0
+	armor_damage = 0.5
 
 	icon = "OYW_ZEON_180MM_1"
 	icon_frame = 1
@@ -1427,7 +1354,7 @@ weapon_component_template = {
 	resources = {
 		category = ship_components
 		cost = {
-			alloys = 25
+			alloys = 13
 		}
 	}
 	size_restriction = { RX_78 FA_78_2 HFA_78 RGM_79 RGM_79S RGM_79SC RX_78GP01_Fb RX_78GP03S RX_78GP04G }
@@ -1443,12 +1370,11 @@ weapon_component_template = {
 	key = "OYW_EFSF_BEAM_RIFLE"
 	size = point_defence
 	entity = "Zeon_Machine_Gun_01_Entity"
-	damage = { min = 50.0 max = 100.0 } #damage = { min = 100.0 max = 200.0 }
-	#windup = { min = 5.0 max = 20.0 }
-	total_fire_time = 20
-	range = 30.0
-	accuracy = 0.82
-	tracking  = 0.65
+	damage = { min = 25.0 max = 50.0 }
+	total_fire_time = 10
+	range = 45.0
+	accuracy = 0.75
+	tracking  = 0.3
 	type = point_defence
 	shield_damage = 0.2
 	armor_penetration = 0.95
@@ -1460,7 +1386,7 @@ weapon_component_template = {
 	resources = {
 		category = ship_components
 		cost = {
-			alloys = 25
+			alloys = 22
 		}
 	}
 	size_restriction = { RGM_79 RGM_79S RGM_79SC }
@@ -1476,12 +1402,11 @@ weapon_component_template = {
 	key = "OYW_EFSF_GUNDAM_BEAM_RIFLE"
 	size = point_defence
 	entity = "Zeon_Machine_Gun_01_Entity"
-	damage = { min = 55.0 max = 110.0 } #damage = { min = 110.0 max = 220.0 }
-	#windup = { min = 5.0 max = 20.0 }
-	total_fire_time = 20
-	range = 30.0
-	accuracy = 0.82
-	tracking  = 0.65
+	damage = { min = 27.6 max = 55.2 }
+	total_fire_time = 10
+	range = 45.0
+	accuracy = 0.75
+	tracking  = 0.3
 	type = point_defence
 	shield_damage = 0.2
 	armor_penetration = 0.95
@@ -1493,7 +1418,7 @@ weapon_component_template = {
 	resources = {
 		category = ship_components
 		cost = {
-			alloys = 30
+			alloys = 22
 		}
 	}
 	size_restriction = { RX_78 FA_78 FA_78_2 HFA_78 }
@@ -1509,12 +1434,11 @@ weapon_component_template = {
 	key = "GUNDAM_4_BEAM_RIFLE"
 	size = point_defence
 	entity = "Zeon_Machine_Gun_01_Entity"
-	damage = { min = 59.0 max = 118.0 } #damage = { min = 118.0 max = 236.0 }
-	#windup = { min = 5.0 max = 20.0 }
-	total_fire_time = 20
-	range = 30.0
-	accuracy = 0.82
-	tracking  = 0.65
+	damage = { min = 31.0 max = 62.0 }
+	total_fire_time = 10
+	range = 45.0
+	accuracy = 0.75
+	tracking  = 0.3
 	type = point_defence
 	shield_damage = 0.2
 	armor_penetration = 0.95
@@ -1526,7 +1450,7 @@ weapon_component_template = {
 	resources = {
 		category = ship_components
 		cost = {
-			alloys = 35
+			alloys = 22
 		}
 	}
 	size_restriction = { RX_78 FA_78 FA_78_2 HFA_78 }
@@ -1542,12 +1466,11 @@ weapon_component_template = {
 	key = "GUNDAM_7_BEAM_RIFLE"
 	size = point_defence
 	entity = "Zeon_Machine_Gun_01_Entity"
-	damage = { min = 67.0 max = 133.5 } #damage = { min = 134.0 max = 267.0 }
-	#windup = { min = 5.0 max = 20.0 }
-	total_fire_time = 20
-	range = 30.0
-	accuracy = 0.82
-	tracking  = 0.65
+	damage = { min = 33.4 max = 66.8 }
+	total_fire_time = 10
+	range = 45.0
+	accuracy = 0.75
+	tracking  = 0.3
 	type = point_defence
 	shield_damage = 0.2
 	armor_penetration = 0.95
@@ -1559,7 +1482,7 @@ weapon_component_template = {
 	resources = {
 		category = ship_components
 		cost = {
-			alloys = 40
+			alloys = 22
 		}
 	}
 	size_restriction = { RX_78 HFA_78 }
@@ -1575,12 +1498,11 @@ weapon_component_template = {
 	key = "OYW_EFSF_GM_CARBINE"
 	size = point_defence
 	entity = "Zeon_Machine_Gun_01_Entity"
-	damage = { min = 50.0 max = 100.0 } #damage = { min = 100.0 max = 200.0 }
-	#windup = { min = 5.0 max = 20.0 }
-	total_fire_time = 20
-	range = 20.0
-	accuracy = 0.85
-	tracking  = 0.7
+	damage = { min = 16.8 max = 33.5 }
+	total_fire_time = 0.5
+	range = 30.0
+	accuracy = 0.75
+	tracking  = 0.5
 	type = point_defence
 	shield_damage = 0.2
 	armor_penetration = 0.95
@@ -1592,7 +1514,7 @@ weapon_component_template = {
 	resources = {
 		category = ship_components
 		cost = {
-			alloys = 30
+			alloys = 26
 		}
 	}
 	size_restriction = { RGM_79 RGM_79S RGM_79SC }
@@ -1608,12 +1530,11 @@ weapon_component_template = {
 	key = "OYW_EFSF_GM_C_LR_BEAM_RIFLE"
 	size = point_defence
 	entity = "Zeon_Machine_Gun_01_Entity"
-	damage = { min = 50.0 max = 100.0 } #damage = { min = 100.0 max = 200.0 }
-	#windup = { min = 5.0 max = 20.0 }
-	total_fire_time = 40
-	range = 70.0
-	accuracy = 0.8
-	tracking  = 0.32
+	damage = { min = 50.0 max = 100.0 }
+	total_fire_time = 20
+	range = 90.0
+	accuracy = 0.75
+	tracking  = 0.3
 	type = point_defence
 	shield_damage = 0.2
 	armor_penetration = 0.95
@@ -1625,7 +1546,7 @@ weapon_component_template = {
 	resources = {
 		category = ship_components
 		cost = {
-			alloys = 50
+			alloys = 26
 		}
 	}
 	size_restriction = { RGM_79 RGM_79S }
@@ -1641,12 +1562,11 @@ weapon_component_template = {
 	key = "OYW_EFSF_BEAM_SNIPER_1"
 	size = point_defence
 	entity = "Zeon_Machine_Gun_01_Entity"
-	damage = { min = 55.5 max = 111.0 } #damage = { min = 111.0 max = 222.0 }
-	#windup = { min = 5.0 max = 20.0 }
-	total_fire_time = 35
+	damage = { min = 55.6 max = 111.2 }
+	total_fire_time = 20
 	range = 90.0
-	accuracy = 0.9
-	tracking  = 0.8
+	accuracy = 0.75
+	tracking  = 0.3
 	type = point_defence
 	shield_damage = 0.2
 	armor_penetration = 0.95
@@ -1658,7 +1578,7 @@ weapon_component_template = {
 	resources = {
 		category = ship_components
 		cost = {
-			alloys = 50
+			alloys = 34
 		}
 	}
 	size_restriction = { RGM_79SC }
@@ -1674,12 +1594,11 @@ weapon_component_template = {
 	key = "GUNCANNON_BEAM_RIFLE"
 	size = point_defence
 	entity = "Zeon_Machine_Gun_01_Entity"
-	damage = { min = 55.0 max = 110.0 } #damage = { min = 110.0 max = 220.0 }
-	#windup = { min = 5.0 max = 20.0 }
-	total_fire_time = 30
-	range = 30.0
-	accuracy = 0.7
-	tracking  = 0.5
+	damage = { min = 27.6 max = 55.2 }
+	total_fire_time = 10
+	range = 45.0
+	accuracy = 0.75
+	tracking  = 0.3
 	type = point_defence
 	shield_damage = 0.2
 	armor_penetration = 0.95
@@ -1691,7 +1610,7 @@ weapon_component_template = {
 	resources = {
 		category = ship_components
 		cost = {
-			alloys = 30
+			alloys = 22
 		}
 	}
 	size_restriction = { RX_77 }
@@ -1707,12 +1626,11 @@ weapon_component_template = {
 	key = "OYW_EFSF_MEGA_BEAM_LAUNCHER"
 	size = extra_large
 	entity = "Zeon_Machine_Gun_01_Entity"
-	damage = { min = 210.0 max = 420.0 } #damage = { min = 420.0 max = 840.0 }
-	#windup = { min = 5.0 max = 20.0 }
-	total_fire_time = 45
+	damage = { min = 210.0 max = 420.0 }
+	total_fire_time = 80
 	range = 90.0
-	accuracy = 0.9
-	tracking  = 0.2
+	accuracy = 0.85
+	tracking  = 0.0
 	type = point_defence
 	shield_damage = 0.2
 	armor_penetration = 0.95
@@ -1724,7 +1642,7 @@ weapon_component_template = {
 	resources = {
 		category = ship_components
 		cost = {
-			alloys = 50
+			alloys = 44
 		}
 	}
 	size_restriction = { RX_78 }
@@ -1740,15 +1658,13 @@ weapon_component_template = {
 	key = "OYW_EFSF_GIANT_GATLING_GUN"
 	size = point_defence
 	entity = "Zeon_Machine_Gun_01_Entity"
-	damage = { min = 5.0 max = 12.5 } #damage = { min = 10.0 max = 25.0 }
-	windup = { min = 2.5 max = 5.0 }
-	total_fire_time = 1
-	range = 20.0
-	accuracy = 0.7
-	tracking  = 0.6
+	damage = { min = 2.0 max = 15.0 }
+	total_fire_time = 3.5
+	range = 30.0
+	accuracy = 0.75
+	tracking  = 0.5
 	type = point_defence
-	shield_damage = 1.0
-	armor_penetration = 0.1
+	armor_damage = 0.25
 
 	icon = "OYW_EFSF_GIANT_GATLING_GUN"
 	icon_frame = 1
@@ -1757,7 +1673,7 @@ weapon_component_template = {
 	resources = {
 		category = ship_components
 		cost = {
-			alloys = 40
+			alloys = 17
 		}
 	}
 	size_restriction = { RX_78 FA_78 FA_78_2 HFA_78 RX_78GP01_Fb RX_78GP03S RX_78GP04G }
@@ -1773,12 +1689,11 @@ weapon_component_template = {
 	key = "RX_81_BEAM_RIFLE"
 	size = point_defence
 	entity = "Zeon_Machine_Gun_01_Entity"
-	damage = { min = 63.0 max = 126.5 } #damage = { min = 126.0 max = 253.0 }
-	#windup = { min = 5.0 max = 20.0 }
-	total_fire_time = 20
-	range = 30.0
-	accuracy = 0.82
-	tracking  = 0.65
+	damage = { min = 31.6 max = 63.2 }
+	total_fire_time = 10
+	range = 45.0
+	accuracy = 0.75
+	tracking  = 0.3
 	type = point_defence
 	shield_damage = 0.2
 	armor_penetration = 0.95
@@ -1790,7 +1705,7 @@ weapon_component_template = {
 	resources = {
 		category = ship_components
 		cost = {
-			alloys = 35
+			alloys = 22
 		}
 	}
 	size_restriction = { RX_81 RX_81FC }
@@ -1806,15 +1721,13 @@ weapon_component_template = {
 	key = "OYW_EFSF_FRAME_LAUNCHER"
 	size = point_defence
 	entity = "Zeon_Machine_Gun_01_Entity"
-	damage = { min = 5.0 max = 12.5 } #damage = { min = 10.0 max = 25.0 }
-	windup = { min = 2.5 max = 5.0 }
-	total_fire_time = 1
+	damage = { min = 2.0 max = 20.0 }
+	total_fire_time = 3.5
 	range = 30.0 #Longer range than Gatling cannons
-	accuracy = 0.7
-	tracking  = 0.6
+	accuracy = 0.75
+	tracking  = 0.5
 	type = point_defence
-	shield_damage = 1.0
-	armor_penetration = 0.1
+	armor_damage = 0.25
 
 	icon = "OYW_EFSF_FRAME_LAUNCHER"
 	icon_frame = 1
@@ -1823,7 +1736,7 @@ weapon_component_template = {
 	resources = {
 		category = ship_components
 		cost = {
-			alloys = 50
+			alloys = 22
 		}
 	}
 	size_restriction = { FA_78_2 }
@@ -1839,15 +1752,13 @@ weapon_component_template = {
 	key = "OYW_EFSF_GATLING_SMASHER"
 	size = extra_large
 	entity = "Zeon_Machine_Gun_01_Entity"
-	damage = { min = 3.75 max = 10.0 } #damage = { min = 7.5 max = 20.0 }
-	windup = { min = 2.5 max = 5.0 }
-	total_fire_time = 1
-	range = 40.0
-	accuracy = 0.7
-	tracking  = 0.6
+	damage = { min = 2.0 max = 10.0 }
+	total_fire_time = 3.5
+	range = 15.0
+	accuracy = 0.75
+	tracking  = 0.5
 	type = instant
-	shield_damage = 1.0
-	armor_penetration = 0.1
+	armor_damage = 0.25
 
 	icon = "OYW_EFSF_GATLING_SMASHER"
 	icon_frame = 1
@@ -1856,7 +1767,7 @@ weapon_component_template = {
 	resources = {
 		category = ship_components
 		cost = {
-			alloys = 30
+			alloys = 13
 		}
 	}
 	size_restriction = { RX_81FC }
@@ -1872,15 +1783,14 @@ weapon_component_template = {
 	key = "OYW_EFSF_MISSILE_LAUNCHER"
 	size = extra_large
 	entity = "Zeon_Machine_Gun_01_Entity"
-	damage = { min = 27.5 max = 50.0 } #damage = { min = 55.0 max = 100.0 }
-	#windup = { min = 5.0 max = 10.0 }
-	total_fire_time = 20
-	range = 60.0
-	accuracy = 0.8
-	tracking  = 0.2
+	damage = { min = 2.0 max = 21.0 }
+	total_fire_time = 0.5
+	range = 45.0
+	accuracy = 0.5
+	tracking  = 0.5
 	type = instant
-	shield_damage = 1.15
-	armor_penetration = 0.25
+	hull_damage = 1.25
+	armor_penetration = 1.0
 
 	icon = "OYW_EFSF_MISSILE_LAUNCHER"
 	icon_frame = 1
@@ -1889,7 +1799,7 @@ weapon_component_template = {
 	resources = {
 		category = ship_components
 		cost = {
-			alloys = 25
+			alloys = 13
 		}
 	}
 	size_restriction = { RX_81FC }
@@ -1906,15 +1816,14 @@ weapon_component_template = {
 	key = "OYW_EFSF_90MM"
 	size = point_defence
 	entity = "Zeon_Machine_Gun_01_Entity"
-	damage = { min = 5.0 max = 10.0 } #damage = { min = 10.0 max = 20.0 }
-	windup = { min = 2.5 max = 5.0 }
+	damage = { min = 2.0 max = 8.0 }
 	total_fire_time = 5
-	range = 25.0
-	accuracy = 0.82
-	tracking  = 0.65
+	range = 30.0
+	accuracy = 0.75
+	tracking  = 0.7
 	type = point_defence
-	shield_damage = 1.0
-	armor_penetration = 0.1
+	shield_damage = 1.5
+	armor_damage = 0.25
 
 	icon = "OYW_EFSF_90MM"
 	icon_frame = 1
@@ -1923,7 +1832,7 @@ weapon_component_template = {
 	resources = {
 		category = ship_components
 		cost = {
-			alloys = 10
+			alloys = 8
 		}
 	}
 	size_restriction = { RX_77 RX_78 FA_78 FA_78_2 HFA_78 RX_81 RX_81FC RGM_79 RGM_79S RGM_79SC RGM_79FP RGM_79FC RGC_80 RX_78GP01_Fb RX_78GP03S RX_78GP04G }
@@ -1939,15 +1848,14 @@ weapon_component_template = {
 	key = "OYW_EFSF_100MM"
 	size = point_defence
 	entity = "Zeon_Machine_Gun_01_Entity"
-	damage = { min = 6.25 max = 12.5 } #damage = { min = 12.5 max = 25.0 }
-	windup = { min = 2.5 max = 5.0 }
-	total_fire_time = 6
-	range = 20.0
-	accuracy = 0.82
-	tracking  = 0.65
+	damage = { min = 2.0 max = 10.0 }
+	total_fire_time = 5
+	range = 30.0
+	accuracy = 0.75
+	tracking  = 0.5
 	type = point_defence
-	shield_damage = 1.0
-	armor_penetration = 0.15
+	shield_damage = 1.5
+	armor_damage = 0.25
 
 	icon = "OYW_EFSF_100MM"
 	icon_frame = 1
@@ -1956,7 +1864,7 @@ weapon_component_template = {
 	resources = {
 		category = ship_components
 		cost = {
-			alloys = 15
+			alloys = 10
 		}
 	}
 	size_restriction = { RX_77 RX_78 FA_78 FA_78_2 HFA_78 RX_81 RX_81FC RGM_79 RGM_79S RGM_79SC RGM_79FP RGM_79FC RGC_80 RX_78GP01_Fb RX_78GP03S RX_78GP04G }
@@ -1972,12 +1880,11 @@ weapon_component_template = {
 	key = "OYW_EFSF_SHOTGUN"
 	size = point_defence
 	entity = "Zeon_Machine_Gun_01_Entity"
-	damage = { min = 2.5 max = 50.0 } #damage = { min = 5.0 max = 100.0 }
-	windup = { min = 5.0 max = 10.0 }
-	total_fire_time = 3
+	damage = { min = 2.0 max = 20.0 }
+	total_fire_time = 5
 	range = 15.0
-	accuracy = 0.82
-	tracking  = 0.65
+	accuracy = 0.5
+	tracking  = 0.9
 	type = point_defence
 	shield_damage = 1.5
 	armor_penetration = 0.05
@@ -1989,7 +1896,7 @@ weapon_component_template = {
 	resources = {
 		category = ship_components
 		cost = {
-			alloys = 15
+			alloys = 13
 		}
 	}
 	size_restriction = { RX_77 RX_78 FA_78 FA_78_2 HFA_78 RX_81 RX_81FC RGM_79 RGM_79S RGM_79SC RGM_79FP RGM_79FC RGC_80 RX_78GP01_Fb RX_78GP03S RX_78GP04G }
@@ -2005,12 +1912,11 @@ weapon_component_template = {
 	key = "OYW_EFSF_BEAM_SCATTER"
 	size = point_defence
 	entity = "Zeon_Machine_Gun_01_Entity"
-	damage = { min = 12.5 max = 37.5 } #damage = { min = 25.0 max = 75.0 }
-	#windup = { min = 5.0 max = 20.0 }
-	total_fire_time = 15
-	range = 40.0
-	accuracy = 0.8
-	tracking  = 0.6
+	damage = { min = 12.5 max = 25.0 }
+	total_fire_time = 5
+	range = 15.0
+	accuracy = 0.75
+	tracking  = 0.5
 	type = point_defence
 	shield_damage = 0.2
 	armor_penetration = 0.95
@@ -2022,7 +1928,7 @@ weapon_component_template = {
 	resources = {
 		category = ship_components
 		cost = {
-			alloys = 20
+			alloys = 13
 		}
 	}
 	size_restriction = { RGM_79 RGM_79S RGM_79SC RGM_79FP RGM_79FC RGC_80 }
@@ -2038,15 +1944,14 @@ weapon_component_template = {
 	key = "OYW_EFSF_380MM"
 	size = point_defence
 	entity = "Zeon_Machine_Gun_01_Entity"
-	damage = { min = 27.5 max = 50.0 } #damage = { min = 55.0 max = 100.0 }
-	#windup = { min = 5.0 max = 10.0 }
-	total_fire_time = 20
+	damage = { min = 4.0 max = 7.0 }
+	total_fire_time = 5
 	range = 60.0
-	accuracy = 0.8
-	tracking  = 0.2
+	accuracy = 1.0
+	tracking  = 0.25
 	type = point_defence
-	shield_damage = 1.15
-	armor_penetration = 0.25
+	hull_damage = 1.25
+	armor_penetration = 1.0
 
 	icon = "OYW_EFSF_380MM"
 	icon_frame = 1
@@ -2055,7 +1960,7 @@ weapon_component_template = {
 	resources = {
 		category = ship_components
 		cost = {
-			alloys = 25
+			alloys = 22
 		}
 	}
 	size_restriction = { RX_77 RX_78 FA_78 FA_78_2 HFA_78 RX_81 RX_81FC RGM_79 RGM_79S RGM_79SC RGM_79FP RGM_79FC RGC_80 RX_78GP01_Fb RX_78GP03S RX_78GP04G }

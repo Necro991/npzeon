@@ -8,7 +8,7 @@ utility_component_template = {
 	power = 0
 
 	modifier = {
-		ship_armor_add = 110
+		ship_armor_add = 108
 		ship_evasion_add = -5
 		ship_hull_mult = 0.1
 	}
@@ -31,7 +31,7 @@ utility_component_template = {
 	power = 0
 
 	modifier = {
-		ship_armor_add = 88
+		ship_armor_add = 81
 		ship_hull_mult = 0.1
 	}
 
@@ -59,7 +59,7 @@ utility_component_template = {
 	}
 
 	modifier = {
-		ship_armor_add = 113
+		ship_armor_add = 111
 		ship_hull_mult = 0.13
 	}
 
@@ -87,7 +87,7 @@ utility_component_template = {
 	}
 
 	modifier = {
-		ship_armor_add = 130
+		ship_armor_add = 129
 		ship_hull_mult = 0.08
 	}
 
@@ -115,7 +115,7 @@ utility_component_template = {
 	}
 
 	modifier = {
-		ship_armor_add = 151
+		ship_armor_add = 174
 		ship_hull_mult = 0.28
 	}
 
@@ -163,7 +163,7 @@ utility_component_template = {
 	}
 
 	modifier = {
-		ship_evasion_add = 55
+		ship_evasion_add = 53
 	}
 
 	prerequisites = { "tech_MS_06F" }
@@ -218,7 +218,7 @@ utility_component_template = {
 	}
 
 	modifier = {
-		ship_evasion_add = 57
+		ship_evasion_add = 60
 		ship_speed_mult = 0.81
 	}
 	prerequisites = { "tech_MS_06FZ" }
@@ -258,7 +258,7 @@ utility_component_template = {
 	power = 0
 
 	modifier = {
-		ship_evasion_add = 80
+		ship_evasion_add = 60
 	}
 
 	prerequisites = { "tech_MS_06R_2" }
@@ -278,7 +278,7 @@ utility_component_template = {
 	power = 0
 
 	modifier = {
-		ship_armor_add = 128
+		ship_armor_add = 126
 		ship_hull_mult = 0.28
 	}
 

@@ -8,11 +8,11 @@ strike_craft_component_template = {
 
 	weapon_type = instant
 	projectile_gfx = "mass_driver_s"
-	power = -36 #400kW = 18 / 3 = 6 * 6 = 36
+	power = -18 #400kW
 	resources = {
 		category = ship_components
 		cost = {
-			alloys = 35 #25 tons = 15 /3 = 5 * 6 = 30 + 5 for gun
+			alloys = 168 #25 tons = 90 + 78 for gun
 			efsf_pilots = 6
 		}
 	}
@@ -21,11 +21,11 @@ strike_craft_component_template = {
 	regeneration_per_day = 0.034
 	launch_time = 8.0
 
-	damage = { min = 26.5 max = 54.5 } #damage = { min = 53.0 max = 109.0 } 180mm Cannon - Small Autocannon
-	cooldown = 10 #35
-	range = 60
-	accuracy = 0.5 #0.82
-	tracking = 0.3 #0.65
+	damage = { min = 8.0 max = 27.0 } #180mm Cannon - Small Autocannon
+	cooldown = 2
+	range = 30
+	accuracy = 0.75
+	tracking = 0.5
 
 	health = 38
 	armor = 2 #weak armor
@@ -36,11 +36,9 @@ strike_craft_component_template = {
 	rotation_speed = 0.1
 	acceleration = 0.5
 
-	shield_damage = 1.33 #SMALL MASS DRIVER
-	shield_penetration = 0
-	armor_penetration = 0.2
+	shield_damage = 1.5
 
-	ship_behavior = "fighters_behavior"
+	ship_behavior = "bombers_behavior"
 
 	icon = "GFX_ship_part_rb_79"
 	icon_frame = 1
@@ -57,11 +55,11 @@ strike_craft_component_template = {
 
 	weapon_type = point_defence
 	projectile_gfx = "mass_driver_s"
-	power = -36 #400kW = 18 / 3 = 6 * 6 = 36
+	power = -18 #400kW
 	resources = {
 		category = ship_components
 		cost = {
-			alloys = 41 #29.3 tons = 18 / 3 = 6 * 36 = 36 + 5 for gun
+			alloys = 156 #29.3 tons = 78 + 78 for gun
 			efsf_pilots = 6
 		}
 	}
@@ -70,26 +68,24 @@ strike_craft_component_template = {
 	regeneration_per_day = 0.034
 	launch_time = 8.0
 
-	damage = { min = 26.5 max = 54.5 } #damage = { min = 53.0 max = 109.0 } 180mm Cannon - Small Autocannon
-	cooldown = 10
-	range = 60
-	accuracy = 0.5 #0.82
-	tracking = 0.3 #0.65
+	damage = { min = 8.0 max = 27.0 } #180mm Cannon - Small Autocannon
+	cooldown = 2
+	range = 30
+	accuracy = 0.75
+	tracking = 0.5
 
-	health = 45
+	health = 33
 	armor = 3 #Improved Armor
 	shield = 0
-	evasion = 0.3
+	evasion = 0.25
 
 	speed = 276.25 #0.96G
 	rotation_speed = 0.1
 	acceleration = 0.5
 
-	shield_damage = 1.33 #SMALL MASS DRIVER
-	shield_penetration = 0
-	armor_penetration = 0.2
+	shield_damage = 1.5
 
-	ship_behavior = "fighters_behavior"
+	ship_behavior = "bombers_behavior"
 
 	icon = "GFX_ship_part_rb_79f"
 	icon_frame = 1
@@ -106,11 +102,11 @@ strike_craft_component_template = {
 
 	weapon_type = point_defence
 	projectile_gfx = "mass_driver_s"
-	power = -36 #400kW = 18 / 3 = 6 * 6 = 36
+	power = -18 #400kW
 	resources = {
 		category = ship_components
 		cost = {
-			alloys = 40 #25 tons = 15 /3 = 5 * 6 = 30 + 10 for guns
+			alloys = 222 #25 tons = 90 + 132 for guns
 			efsf_pilots = 6
 		}
 	}
@@ -119,26 +115,24 @@ strike_craft_component_template = {
 	regeneration_per_day = 0.034
 	launch_time = 8.0
 
-	damage = { min = 53.0 max = 109.0 } #damage = { min = 106.0 max = 218.0 } 180mm Cannon x2 - Small Autocannon
-	cooldown = 10
-	range = 50
-	accuracy = 0.5 #0.82
-	tracking = 0.3 #0.65
+	damage = { min = 8.0 max = 54.0 } #180mm Cannon x2 - Small Autocannon
+	cooldown = 3
+	range = 30
+	accuracy = 0.75
+	tracking = 0.5
 
 	health = 38
 	armor = 2 #weak armor
 	shield = 0
-	evasion = 0.25
+	evasion = 0.3
 
 	speed = 276.25 #0.96G
 	rotation_speed = 0.1
 	acceleration = 0.3
 
-	shield_damage = 1.33 #SMALL MASS DRIVER
-	shield_penetration = 0
-	armor_penetration = 0.2
+	shield_damage = 1.5
 
-	ship_behavior = "fighters_behavior"
+	ship_behavior = "bombers_behavior"
 
 	icon = "GFX_ship_part_rb_79k"
 	icon_frame = 1
@@ -155,11 +149,11 @@ strike_craft_component_template = {
 
 	weapon_type = point_defence
 	projectile_gfx = "mass_driver_s"
-	power = -13 #878kW = 39 / 3 = 13
+	power = -39 #878kW
 	resources = {
 		category = ship_components
 		cost = {
-			alloys = 57 #80 tons = 49 / 3 = 16 * 2 for Gundamium cost + 25 for gun
+			alloys = 71 #80 tons = 49 for Gundamium cost + 22 for gun
 			efsf_pilots = 1
 			luna_titanium = 1
 		}
@@ -169,26 +163,24 @@ strike_craft_component_template = {
 	regeneration_per_day = 0.034
 	launch_time = 8.0
 
-	damage = { min = 53.0 max = 109.0 } #damage = { min = 106.0 max = 218.0 } Cannon - supposedly able to destroy MS in single hit
-	cooldown = 30
-	range = 70
-	accuracy = 0.70
-	tracking = 0.0
+	damage = { min = 8.0 max = 54.0 } #180mm Cannon x2 - Small Autocannon
+	cooldown = 3
+	range = 60
+	accuracy = 0.75
+	tracking = 0.5
 
 	health = 123
-	armor = 20 #Lunar Titanium
+	armor = 185 #Lunar Titanium
 	shield = 0
-	evasion = 0.3 #Bad evasion due to ground-based design
+	evasion = 0.35 #Bad evasion due to ground-based design
 
 	speed = 318.75 #1.1G
 	rotation_speed = 0.1
 	acceleration = 0.5
 
-	shield_damage = 1.33 #KINETIC ARTILLERY
-	shield_penetration = 0
-	armor_penetration = 0.2
+	shield_damage = 1.5
 
-	ship_behavior = "fighters_behavior"
+	ship_behavior = "bombers_behavior"
 
 	icon = "GFX_ship_part_rx_75_1"
 	icon_frame = 1
@@ -209,7 +201,7 @@ strike_craft_component_template = {
 	resources = {
 		category = ship_components
 		cost = {
-			alloys = 106 #80 tons = 49 * 2 for Gundamium cost + 20 for gun
+			alloys = 198 #80 tons = 147 for Gundamium cost + 51 for gun
 			efsf_pilots = 3
 			luna_titanium = 1
 		}
@@ -219,26 +211,24 @@ strike_craft_component_template = {
 	regeneration_per_day = 0.034
 	launch_time = 8.0
 
-	damage = { min = 35.5 max = 72.5 } #damage = { min = 71.0 max = 145.0 } Cannon - supposedly able to destroy MS in single hit
-	cooldown = 30
+	damage = { min = 7.0 max = 42.0 } #2x120mm Cannon
+	cooldown = 2
 	range = 60
 	accuracy = 0.75
-	tracking = 0.0
+	tracking = 0.5
 
 	health = 123
-	armor = 20 #Lunar Titanium/Gundamium
+	armor = 185 #Lunar Titanium
 	shield = 0
-	evasion = 0.3 #Bad evasion due to ground-based design
+	evasion = 0.35 #Bad evasion due to ground-based design
 
 	speed = 318.75 #1.1G
 	rotation_speed = 0.1
 	acceleration = 0.5
 
-	shield_damage = 1.33 #KINETIC ARTILLERY
-	shield_penetration = 0
-	armor_penetration = 0.2
+	shield_damage = 1.25
 
-	ship_behavior = "fighters_behavior"
+	ship_behavior = "bombers_behavior"
 
 	icon = "GFX_ship_part_rx_75_2"
 	icon_frame = 1
@@ -259,7 +249,7 @@ strike_craft_component_template = {
 	resources = {
 		category = ship_components
 		cost = {
-			alloys = 44 #22.1 tons = 14 cost + 30 for gun
+			alloys = 120 #22.1 tons = 42 cost + 78 for gun
 			efsf_pilots = 3
 		}
 	}
@@ -268,26 +258,24 @@ strike_craft_component_template = {
 	regeneration_per_day = 0.034
 	launch_time = 8.0
 
-	damage = { min = 58 max = 120 } #damage = { min = 116 max = 240 } Cannon - supposedly able to destroy MS in single hit
-	cooldown = 30
-	range = 80
-	accuracy = 0.65
+	damage = { min = 11.0 max = 70.0 } #2x200mm Cannon using 2x240mm stats
+	cooldown = 4
+	range = 60
+	accuracy = 0.75
 	tracking = 0.0
 
-	health = 35
-	armor = 10 #Titanium ALloy
+	health = 34
+	armor = 68 #Titanium ALloy
 	shield = 0
-	evasion = 0.45 #Improved, but still not good.
+	evasion = 0.7 #Improved, but still not good.
 
 	speed = 425 #1.47G
 	rotation_speed = 0.1
 	acceleration = 0.5
 
-	shield_damage = 1.33 #KINETIC ARTILLERY
-	shield_penetration = 0
-	armor_penetration = 0.2
+	shield_damage = 1.5
 
-	ship_behavior = "fighters_behavior"
+	ship_behavior = "bombers_behavior"
 
 	icon = "GFX_ship_part_d_50c"
 	icon_frame = 1
@@ -330,7 +318,7 @@ strike_craft_component_template = {
 	#shield_penetration = 0
 	#armor_penetration = 0.2
 
-	#ship_behavior = "fighters_behavior"
+	#ship_behavior = "bombers_behavior"
 
 	#icon = "GFX_ship_part_d_50c"
 	#icon_frame = 1
@@ -347,11 +335,11 @@ strike_craft_component_template = {
 
 	weapon_type = point_defence
 	projectile_gfx = "mass_driver_s"
-	power = -16 #1050kW = 47 / 3 = 16
+	power = -47 #1050kW
 	resources = {
 		category = ship_components
 		cost = {
-			alloys = 12 #11.8 tons = 7 cost + 30 for gun / 3 = 12
+			alloys = 33 #11.8 tons = 7 + 26 for gun
 			efsf_pilots = 1
 		}
 	}
@@ -360,26 +348,24 @@ strike_craft_component_template = {
 	regeneration_per_day = 0.034
 	launch_time = 8.0
 
-	damage = { min = 58 max = 120 } #damage = { min = 116 max = 240 } Cannon - supposedly able to destroy MS in single hit
-	cooldown = 30
-	range = 80
-	accuracy = 0.65
+	damage = { min = 11.0 max = 70.0 } #2x200mm Cannon using 2x240mm stats
+	cooldown = 4
+	range = 60
+	accuracy = 0.75
 	tracking = 0.0
 
 	health = 18
-	armor = 10 #Titanium ALloy
+	armor = 36 #Titanium Alloy
 	shield = 0
-	evasion = 0.45 #Improved, but still not good.
+	evasion = 0.75 #Improved, but still not good.
 
 	speed = 344.25 #1.19G
 	rotation_speed = 0.1
 	acceleration = 0.5
 
-	shield_damage = 1.33 #KINETIC ARTILLERY
-	shield_penetration = 0
-	armor_penetration = 0.2
+	shield_damage = 1.5
 
-	ship_behavior = "fighters_behavior"
+	ship_behavior = "bombers_behavior"
 
 	icon = "GFX_ship_part_f_50d"
 	icon_frame = 1
@@ -396,11 +382,11 @@ strike_craft_component_template = {
 
 	weapon_type = point_defence
 	projectile_gfx = "mass_driver_s"
-	power = -20 #1380kW = 61 / 3 = 20
+	power = -61 #1380kW
 	resources = {
 		category = ship_components
 		cost = {
-			alloys = 75 #149.5 tons = 92 * 2 gundamium = 88 cost + 40 for gun / 3 = 75
+			alloys = 118 #149.5 tons = 92 gundamium + 26 for gun
 			efsf_pilots = 1
 			luna_titanium = 1
 		}
@@ -410,14 +396,14 @@ strike_craft_component_template = {
 	regeneration_per_day = 0.034
 	launch_time = 8.0
 
-	damage = { min = 66.5 max = 150.0 } #damage = { min = 133.0 max = 300.0 } 240mm Cannon * 2
-	cooldown = 25
-	range = 90
-	accuracy = 0.6
+	damage = { min = 11.0 max = 70.0 } #2x240mm cannon
+	cooldown = 4
+	range = 60
+	accuracy = 0.75
 	tracking = 0.0
 
 	health = 230
-	armor = 20 #Gundamium
+	armor = 345 #Gundamium
 	shield = 0
 	evasion = 0.4
 
@@ -425,11 +411,9 @@ strike_craft_component_template = {
 	rotation_speed = 0.1
 	acceleration = 0.5
 
-	shield_damage = 1.33 #KINETIC ARTILLERY
-	shield_penetration = 0
-	armor_penetration = 0.2
+	shield_damage = 1.5
 
-	ship_behavior = "fighters_behavior"
+	ship_behavior = "bombers_behavior"
 
 	icon = "GFX_ship_part_rx_77_1a"
 	icon_frame = 1
@@ -450,7 +434,7 @@ strike_craft_component_template = {
 	resources = {
 		category = ship_components
 		cost = {
-			alloys = 218 #144.8 tons = 89 *2 = 178 cost + 40 for gun
+			alloys = 207 #70.0 tons = 129 cost + 78 for gun
 			efsf_pilots = 3
 			luna_titanium = 1
 		}
@@ -460,26 +444,24 @@ strike_craft_component_template = {
 	regeneration_per_day = 0.034
 	launch_time = 8.0
 
-	damage = { min = 66.5 max = 150.0 } #damage = { min = 133.0 max = 300.0 } 240mm Cannon * 2
-	cooldown = 25
-	range = 90
-	accuracy = 0.6
+	damage = { min = 11.0 max = 70.0 } #2x240mm cannon
+	cooldown = 4
+	range = 60
+	accuracy = 0.75
 	tracking = 0.0
 
-	health = 223
-	armor = 25 #Gundamium and it's better than the Gundam
+	health = 108
+	armor = 162
 	shield = 0
-	evasion = 0.4
+	evasion = 0.45
 
-	speed = 102 #0.74G This is actually wrong. It's 0.36G with the full weight. It is now the correct speed.
+	speed = 213.2 #0.74G
 	rotation_speed = 0.1
 	acceleration = 0.5
 
-	shield_damage = 1.33 #KINETIC ARTILLERY
-	shield_penetration = 0
-	armor_penetration = 0.2
+	shield_damage = 1.5
 
-	ship_behavior = "fighters_behavior"
+	ship_behavior = "bombers_behavior"
 
 	icon = "GFX_ship_part_rx_77_2"
 	icon_frame = 1
@@ -500,7 +482,7 @@ strike_craft_component_template = {
 	resources = {
 		category = ship_components
 		cost = {
-			alloys = 138 #79.1 tons = 49 * 2 = 98 cost + 40 for gun
+			alloys = 225 #79.1 tons = 147 cost + 78 for gun
 			efsf_pilots = 3
 			luna_titanium = 1
 		}
@@ -510,26 +492,24 @@ strike_craft_component_template = {
 	regeneration_per_day = 0.034
 	launch_time = 8.0
 
-	damage = { min = 66.5 max = 150.0 } #damage = { min = 133.0 max = 300.0 } 240mm Cannon * 2
-	cooldown = 25
-	range = 90
-	accuracy = 0.6
+	damage = { min = 11.0 max = 70.0 } #2x240mm cannon
+	cooldown = 4
+	range = 60
+	accuracy = 0.75
 	tracking = 0.0
 
-	health = 123
-	armor = 25 #Gundamium and it's better than the Gundam
+	health = 122
+	armor = 183 #Gundamium and it's better than the Gundam
 	shield = 0
-	evasion = 0.4
+	evasion = 0.47
 
-	speed = 212.5 #0.74G
+	speed = 227.6 #0.79G
 	rotation_speed = 0.1
 	acceleration = 0.5
 
-	shield_damage = 1.33 #KINETIC ARTILLERY
-	shield_penetration = 0
-	armor_penetration = 0.2
+	shield_damage = 1.5
 
-	ship_behavior = "fighters_behavior"
+	ship_behavior = "bombers_behavior"
 
 	icon = "GFX_ship_part_rx_77_3"
 	icon_frame = 1
@@ -540,7 +520,7 @@ strike_craft_component_template = {
 }
 
 strike_craft_component_template = {
-	key = "EFSF_MS_STRIKE_CRAFT_RX_77_4" #RX-77-4 Guncannon II
+	key = "EFSF_MS_STRIKE_CRAFT_RX_77_4" #RX-77-4 Guncannon II STOPPPED HERE TODO FUCK
 	size = LARGE
 	entity = "guncannon_entity"
 
@@ -579,7 +559,7 @@ strike_craft_component_template = {
 	shield_penetration = 0
 	armor_penetration = 0.95
 
-	ship_behavior = "fighters_behavior"
+	ship_behavior = "bombers_behavior"
 
 	icon = "GFX_ship_part_rx_77_4"
 	icon_frame = 1
@@ -628,7 +608,7 @@ strike_craft_component_template = {
 	shield_penetration = 0
 	armor_penetration = 0.2
 
-	ship_behavior = "fighters_behavior"
+	ship_behavior = "bombers_behavior"
 
 	icon = "GFX_ship_part_rx_77d"
 	icon_frame = 1
@@ -677,7 +657,7 @@ strike_craft_component_template = {
 	shield_penetration = 0
 	armor_penetration = 0.2
 
-	ship_behavior = "fighters_behavior"
+	ship_behavior = "bombers_behavior"
 
 	icon = "GFX_ship_part_rx_77d"
 	icon_frame = 1
@@ -726,7 +706,7 @@ strike_craft_component_template = {
 	shield_penetration = 0
 	armor_penetration = 0.2
 
-	ship_behavior = "fighters_behavior"
+	ship_behavior = "bombers_behavior"
 
 	icon = "GFX_ship_part_rgc_80_1"
 	icon_frame = 1
@@ -775,7 +755,7 @@ strike_craft_component_template = {
 	shield_penetration = 0
 	armor_penetration = 0.2
 
-	ship_behavior = "fighters_behavior"
+	ship_behavior = "bombers_behavior"
 
 	icon = "GFX_ship_part_rgc_80S"
 	icon_frame = 1
@@ -824,7 +804,7 @@ strike_craft_component_template = {
 	shield_penetration = 0
 	armor_penetration = 0.95
 
-	ship_behavior = "fighters_behavior"
+	ship_behavior = "bombers_behavior"
 
 	icon = "GFX_ship_part_rgc_83"
 	icon_frame = 1
@@ -874,7 +854,7 @@ strike_craft_component_template = {
 	shield_penetration = 0
 	armor_penetration = 0.95
 
-	ship_behavior = "fighters_behavior"
+	ship_behavior = "bombers_behavior"
 
 	icon = "GFX_ship_part_rx_78_1"
 	icon_frame = 1
@@ -924,7 +904,7 @@ strike_craft_component_template = {
 	shield_penetration = 0
 	armor_penetration = 0.95
 
-	ship_behavior = "fighters_behavior"
+	ship_behavior = "bombers_behavior"
 
 	icon = "GFX_ship_part_rx_78_2"
 	icon_frame = 1
@@ -974,7 +954,7 @@ strike_craft_component_template = {
 	shield_penetration = 0
 	armor_penetration = 0.95
 
-	ship_behavior = "fighters_behavior"
+	ship_behavior = "bombers_behavior"
 
 	icon = "GFX_ship_part_rx_78_3"
 	icon_frame = 1
@@ -1024,7 +1004,7 @@ strike_craft_component_template = {
 	shield_penetration = 0
 	armor_penetration = 0.95
 
-	ship_behavior = "fighters_behavior"
+	ship_behavior = "bombers_behavior"
 
 	icon = "GFX_ship_part_rx_78_4"
 	icon_frame = 1
@@ -1074,7 +1054,7 @@ strike_craft_component_template = {
 	shield_penetration = 0
 	armor_penetration = 0.1
 
-	ship_behavior = "fighters_behavior"
+	ship_behavior = "bombers_behavior"
 
 	icon = "GFX_ship_part_rx_78_5"
 	icon_frame = 1
@@ -1124,7 +1104,7 @@ strike_craft_component_template = {
 	shield_penetration = 0
 	armor_penetration = 0.2
 
-	ship_behavior = "fighters_behavior"
+	ship_behavior = "bombers_behavior"
 
 	icon = "GFX_ship_part_rx_78_6"
 	icon_frame = 1
@@ -1174,7 +1154,7 @@ strike_craft_component_template = {
 	shield_penetration = 0
 	armor_penetration = 0.95
 
-	ship_behavior = "fighters_behavior"
+	ship_behavior = "bombers_behavior"
 
 	icon = "GFX_ship_part_rx_78_7"
 	icon_frame = 1
@@ -1224,7 +1204,7 @@ strike_craft_component_template = {
 	shield_penetration = 0
 	armor_penetration = 0.95
 
-	ship_behavior = "fighters_behavior"
+	ship_behavior = "bombers_behavior"
 
 	icon = "GFX_ship_part_rx_78nt_1"
 	icon_frame = 1
@@ -1274,7 +1254,7 @@ strike_craft_component_template = {
 	shield_penetration = 0
 	armor_penetration = 0.95
 
-	ship_behavior = "fighters_behavior"
+	ship_behavior = "bombers_behavior"
 
 	icon = "GFX_ship_part_rx_78nt_1fa"
 	icon_frame = 1
@@ -1324,7 +1304,7 @@ strike_craft_component_template = {
 	shield_penetration = 0
 	armor_penetration = 0.95
 
-	ship_behavior = "fighters_behavior"
+	ship_behavior = "bombers_behavior"
 
 	icon = "GFX_ship_part_fa_78_1"
 	icon_frame = 1
@@ -1374,7 +1354,7 @@ strike_craft_component_template = {
 	shield_penetration = 0
 	armor_penetration = 0.1
 
-	ship_behavior = "fighters_behavior"
+	ship_behavior = "bombers_behavior"
 
 	icon = "GFX_ship_part_fa_78_2"
 	icon_frame = 1
@@ -1424,7 +1404,7 @@ strike_craft_component_template = {
 	shield_penetration = 0
 	armor_penetration = 0.95
 
-	ship_behavior = "fighters_behavior"
+	ship_behavior = "bombers_behavior"
 
 	icon = "GFX_ship_part_fa_78_3"
 	icon_frame = 1
@@ -1474,7 +1454,7 @@ strike_craft_component_template = {
 	shield_penetration = 0
 	armor_penetration = 0.95
 
-	ship_behavior = "fighters_behavior"
+	ship_behavior = "bombers_behavior"
 
 	icon = "GFX_ship_part_rx_178"
 	icon_frame = 1
@@ -1523,7 +1503,7 @@ strike_craft_component_template = {
 	shield_penetration = 0
 	armor_penetration = 0.1
 
-	ship_behavior = "fighters_behavior"
+	ship_behavior = "bombers_behavior"
 
 	icon = "GFX_ship_part_rgm_79e"
 	icon_frame = 1
@@ -1572,7 +1552,7 @@ strike_craft_component_template = {
 	shield_penetration = 0
 	armor_penetration = 0.1
 
-	ship_behavior = "fighters_behavior"
+	ship_behavior = "bombers_behavior"
 
 	icon = "GFX_ship_part_rgm_79"
 	icon_frame = 1
@@ -1621,7 +1601,7 @@ strike_craft_component_template = {
 	shield_penetration = 0
 	armor_penetration = 0.25
 
-	ship_behavior = "fighters_behavior"
+	ship_behavior = "bombers_behavior"
 
 	icon = "GFX_ship_part_rgm_79"
 	icon_frame = 1
@@ -1670,7 +1650,7 @@ strike_craft_component_template = {
 	shield_penetration = 0
 	armor_penetration = 0.95 #lowered penetration due to weaker weapon
 
-	ship_behavior = "fighters_behavior"
+	ship_behavior = "bombers_behavior"
 
 	icon = "GFX_ship_part_rgm_79l"
 	icon_frame = 1
@@ -1719,7 +1699,7 @@ strike_craft_component_template = {
 	shield_penetration = 0
 	armor_penetration = 0.95 #lowered penetration due to weaker weapon
 
-	ship_behavior = "fighters_behavior"
+	ship_behavior = "bombers_behavior"
 
 	icon = "GFX_ship_part_rgm_79c"
 	icon_frame = 1
@@ -1768,7 +1748,7 @@ strike_craft_component_template = {
 	shield_penetration = 0
 	armor_penetration = 0.25
 
-	ship_behavior = "fighters_behavior"
+	ship_behavior = "bombers_behavior"
 
 	icon = "GFX_ship_part_rgm_79c"
 	icon_frame = 1
@@ -1817,7 +1797,7 @@ strike_craft_component_template = {
 	shield_penetration = 0
 	armor_penetration = 0.1
 
-	ship_behavior = "fighters_behavior"
+	ship_behavior = "bombers_behavior"
 
 	icon = "GFX_ship_part_rgm_79cpowered"
 	icon_frame = 1
@@ -1866,7 +1846,7 @@ strike_craft_component_template = {
 	shield_penetration = 0
 	armor_penetration = 0.25
 
-	ship_behavior = "fighters_behavior"
+	ship_behavior = "bombers_behavior"
 
 	icon = "GFX_ship_part_rgm_79cpowered"
 	icon_frame = 1
@@ -1915,7 +1895,7 @@ strike_craft_component_template = {
 	shield_penetration = 0
 	armor_penetration = 0.2 #GM Rifle improved over bullpup
 
-	ship_behavior = "fighters_behavior"
+	ship_behavior = "bombers_behavior"
 
 	icon = "GFX_ship_part_rgm_79n"
 	icon_frame = 1
@@ -1964,7 +1944,7 @@ strike_craft_component_template = {
 	shield_penetration = 0
 	armor_penetration = 0.25
 
-	ship_behavior = "fighters_behavior"
+	ship_behavior = "bombers_behavior"
 
 	icon = "GFX_ship_part_rgm_79n"
 	icon_frame = 1
@@ -2013,7 +1993,7 @@ strike_craft_component_template = {
 	shield_penetration = 0
 	armor_penetration = 0.95
 
-	ship_behavior = "fighters_behavior"
+	ship_behavior = "bombers_behavior"
 
 	icon = "GFX_ship_part_rgm_79q"
 	icon_frame = 1
@@ -2062,7 +2042,7 @@ strike_craft_component_template = {
 	shield_penetration = 0
 	armor_penetration = 0.25
 
-	ship_behavior = "fighters_behavior"
+	ship_behavior = "bombers_behavior"
 
 	icon = "GFX_ship_part_rgm_79q"
 	icon_frame = 1
@@ -2111,7 +2091,7 @@ strike_craft_component_template = {
 	shield_penetration = 0
 	armor_penetration = 0.95
 
-	ship_behavior = "fighters_behavior"
+	ship_behavior = "bombers_behavior"
 
 	icon = "GFX_ship_part_rgm_79q_hazel"
 	icon_frame = 1
@@ -2160,7 +2140,7 @@ strike_craft_component_template = {
 	shield_penetration = 0
 	armor_penetration = 0.95
 
-	ship_behavior = "fighters_behavior"
+	ship_behavior = "bombers_behavior"
 
 	icon = "GFX_ship_part_rgm_79cr"
 	icon_frame = 1
@@ -2209,7 +2189,7 @@ strike_craft_component_template = {
 	shield_penetration = 0
 	armor_penetration = 0.95
 
-	ship_behavior = "fighters_behavior"
+	ship_behavior = "bombers_behavior"
 
 	icon = "GFX_ship_part_rgm_79sc"
 	icon_frame = 1
@@ -2259,7 +2239,7 @@ strike_craft_component_template = {
 	shield_penetration = 0
 	armor_penetration = 0.95
 
-	ship_behavior = "fighters_behavior"
+	ship_behavior = "bombers_behavior"
 
 	icon = "GFX_ship_part_rgm_79sp"
 	icon_frame = 1
@@ -2308,7 +2288,7 @@ strike_craft_component_template = {
 	shield_penetration = 0
 	armor_penetration = 0.95
 
-	ship_behavior = "fighters_behavior"
+	ship_behavior = "bombers_behavior"
 
 	icon = "GFX_ship_part_rgm_79sr"
 	icon_frame = 1
@@ -2357,7 +2337,7 @@ strike_craft_component_template = {
 	shield_penetration = 0
 	armor_penetration = 0.95
 
-	ship_behavior = "fighters_behavior"
+	ship_behavior = "bombers_behavior"
 
 	icon = "GFX_ship_part_rgm_79sr"
 	icon_frame = 1
@@ -2407,7 +2387,7 @@ strike_craft_component_template = {
 	shield_penetration = 0
 	armor_penetration = 0.95
 
-	ship_behavior = "fighters_behavior"
+	ship_behavior = "bombers_behavior"
 
 	icon = "GFX_ship_part_msa_003"
 	icon_frame = 1
@@ -2457,7 +2437,7 @@ strike_craft_component_template = {
 	shield_penetration = 0
 	armor_penetration = 0.25
 
-	ship_behavior = "fighters_behavior"
+	ship_behavior = "bombers_behavior"
 
 	icon = "GFX_ship_part_msa_003"
 	icon_frame = 1
@@ -2507,7 +2487,7 @@ strike_craft_component_template = {
 	shield_penetration = 0
 	armor_penetration = 0.95
 
-	ship_behavior = "fighters_behavior"
+	ship_behavior = "bombers_behavior"
 
 	icon = "GFX_ship_part_msa_004"
 	icon_frame = 1
@@ -2556,7 +2536,7 @@ strike_craft_component_template = {
 	shield_penetration = 0
 	armor_penetration = 0.95
 
-	ship_behavior = "fighters_behavior"
+	ship_behavior = "bombers_behavior"
 
 	icon = "GFX_ship_part_rms_179"
 	icon_frame = 1
@@ -2605,7 +2585,7 @@ strike_craft_component_template = {
 	shield_penetration = 0
 	armor_penetration = 0.25
 
-	ship_behavior = "fighters_behavior"
+	ship_behavior = "bombers_behavior"
 
 	icon = "GFX_ship_part_rms_179"
 	icon_frame = 1
@@ -2655,7 +2635,7 @@ strike_craft_component_template = {
 	shield_penetration = 0
 	armor_penetration = 0.95
 
-	ship_behavior = "fighters_behavior"
+	ship_behavior = "bombers_behavior"
 
 	icon = "GFX_ship_part_rgm_86r"
 	icon_frame = 1
@@ -2705,7 +2685,7 @@ strike_craft_component_template = {
 	shield_penetration = 0
 	armor_penetration = 0.3
 
-	ship_behavior = "fighters_behavior"
+	ship_behavior = "bombers_behavior"
 
 	icon = "GFX_ship_part_rgm_86r"
 	icon_frame = 1
@@ -2755,7 +2735,7 @@ strike_craft_component_template = {
 	shield_penetration = 0
 	armor_penetration = 0.95
 
-	ship_behavior = "fighters_behavior"
+	ship_behavior = "bombers_behavior"
 
 	icon = "GFX_ship_part_rgm_86r_nouvel"
 	icon_frame = 1
@@ -2805,7 +2785,7 @@ strike_craft_component_template = {
 	shield_penetration = 0
 	armor_penetration = 0.3
 
-	ship_behavior = "fighters_behavior"
+	ship_behavior = "bombers_behavior"
 
 	icon = "GFX_ship_part_rgm_86r_nouvel"
 	icon_frame = 1
@@ -2854,7 +2834,7 @@ strike_craft_component_template = {
 	shield_penetration = 0
 	armor_penetration = 0.95
 
-	ship_behavior = "fighters_behavior"
+	ship_behavior = "bombers_behavior"
 
 	icon = "GFX_ship_part_rgm_89"
 	icon_frame = 1
@@ -2903,7 +2883,7 @@ strike_craft_component_template = {
 	shield_penetration = 0
 	armor_penetration = 0.3
 
-	ship_behavior = "fighters_behavior"
+	ship_behavior = "bombers_behavior"
 
 	icon = "GFX_ship_part_rgm_89"
 	icon_frame = 1
@@ -2952,7 +2932,7 @@ strike_craft_component_template = {
 	shield_penetration = 0
 	armor_penetration = 0.95
 
-	ship_behavior = "fighters_behavior"
+	ship_behavior = "bombers_behavior"
 
 	icon = "GFX_ship_part_rgm_89d"
 	icon_frame = 1
@@ -3001,7 +2981,7 @@ strike_craft_component_template = {
 	shield_penetration = 0
 	armor_penetration = 0.3
 
-	ship_behavior = "fighters_behavior"
+	ship_behavior = "bombers_behavior"
 
 	icon = "GFX_ship_part_rgm_89d"
 	icon_frame = 1
@@ -3050,7 +3030,7 @@ strike_craft_component_template = {
 	shield_penetration = 0
 	armor_penetration = 0.95
 
-	ship_behavior = "fighters_behavior"
+	ship_behavior = "bombers_behavior"
 
 	icon = "GFX_ship_part_rgm_89de"
 	icon_frame = 1
@@ -3099,7 +3079,7 @@ strike_craft_component_template = {
 	shield_penetration = 0
 	armor_penetration = 0.3
 
-	ship_behavior = "fighters_behavior"
+	ship_behavior = "bombers_behavior"
 
 	icon = "GFX_ship_part_rgm_89de"
 	icon_frame = 1
@@ -3148,7 +3128,7 @@ strike_craft_component_template = {
 	shield_penetration = 0
 	armor_penetration = 0.95
 
-	ship_behavior = "fighters_behavior"
+	ship_behavior = "bombers_behavior"
 
 	icon = "GFX_ship_part_rgm_96x"
 	icon_frame = 1
@@ -3197,7 +3177,7 @@ strike_craft_component_template = {
 	shield_penetration = 0
 	armor_penetration = 0.3
 
-	ship_behavior = "fighters_behavior"
+	ship_behavior = "bombers_behavior"
 
 	icon = "GFX_ship_part_rgm_96x"
 	icon_frame = 1
@@ -3246,7 +3226,7 @@ strike_craft_component_template = {
 	shield_penetration = 0
 	armor_penetration = 0.3
 
-	ship_behavior = "fighters_behavior"
+	ship_behavior = "bombers_behavior"
 
 	icon = "GFX_ship_part_rgm_89s_prototype"
 	icon_frame = 1
@@ -3295,7 +3275,7 @@ strike_craft_component_template = {
 	shield_penetration = 0
 	armor_penetration = 0.3
 
-	ship_behavior = "fighters_behavior"
+	ship_behavior = "bombers_behavior"
 
 	icon = "GFX_ship_part_rgm_89s"
 	icon_frame = 1
@@ -3344,7 +3324,7 @@ strike_craft_component_template = {
 	shield_penetration = 0
 	armor_penetration = 0.95
 
-	ship_behavior = "fighters_behavior"
+	ship_behavior = "bombers_behavior"
 
 	icon = "GFX_ship_part_rms_106"
 	icon_frame = 1
@@ -3393,7 +3373,7 @@ strike_craft_component_template = {
 	shield_penetration = 0
 	armor_penetration = 0.25
 
-	ship_behavior = "fighters_behavior"
+	ship_behavior = "bombers_behavior"
 
 	icon = "GFX_ship_part_rms_106"
 	icon_frame = 1
@@ -3443,7 +3423,7 @@ strike_craft_component_template = {
 	shield_penetration = 0
 	armor_penetration = 0.95
 
-	ship_behavior = "fighters_behavior"
+	ship_behavior = "bombers_behavior"
 
 	icon = "GFX_ship_part_rms_106cs"
 	icon_frame = 1
@@ -3493,7 +3473,7 @@ strike_craft_component_template = {
 	shield_penetration = 0
 	armor_penetration = 0.95
 
-	ship_behavior = "fighters_behavior"
+	ship_behavior = "bombers_behavior"
 
 	icon = "GFX_ship_part_rms_106cs"
 	icon_frame = 1
@@ -3542,7 +3522,7 @@ strike_craft_component_template = {
 	shield_penetration = 0
 	armor_penetration = 0.2
 
-	ship_behavior = "fighters_behavior"
+	ship_behavior = "bombers_behavior"
 
 	icon = "GFX_ship_part_rms_106c"
 	icon_frame = 1
@@ -3591,7 +3571,7 @@ strike_craft_component_template = {
 	shield_penetration = 0
 	armor_penetration = 0.95
 
-	ship_behavior = "fighters_behavior"
+	ship_behavior = "bombers_behavior"
 
 	icon = "GFX_ship_part_rx_107"
 	icon_frame = 1
@@ -3641,7 +3621,7 @@ strike_craft_component_template = {
 	shield_penetration = 0
 	armor_penetration = 0.95
 
-	ship_behavior = "fighters_behavior"
+	ship_behavior = "bombers_behavior"
 
 	icon = "GFX_ship_part_rms_108"
 	icon_frame = 1
@@ -3691,7 +3671,7 @@ strike_craft_component_template = {
 	shield_penetration = 0
 	armor_penetration = 0.95
 
-	ship_behavior = "fighters_behavior"
+	ship_behavior = "bombers_behavior"
 
 	icon = "GFX_ship_part_rms_108"
 	icon_frame = 1
@@ -3741,7 +3721,7 @@ strike_craft_component_template = {
 	shield_penetration = 0
 	armor_penetration = 0.95
 
-	ship_behavior = "fighters_behavior"
+	ship_behavior = "bombers_behavior"
 
 	icon = "GFX_ship_part_rms_156"
 	icon_frame = 1
@@ -3791,7 +3771,7 @@ strike_craft_component_template = {
 	shield_penetration = 0
 	armor_penetration = 0.95
 
-	ship_behavior = "fighters_behavior"
+	ship_behavior = "bombers_behavior"
 
 	icon = "GFX_ship_part_rx_78gp01fb"
 	icon_frame = 1
@@ -3841,7 +3821,7 @@ strike_craft_component_template = {
 	shield_penetration = 0
 	armor_penetration = 0.95
 
-	ship_behavior = "fighters_behavior"
+	ship_behavior = "bombers_behavior"
 
 	icon = "GFX_ship_part_rx_78gp01fa"
 	icon_frame = 1
@@ -3891,7 +3871,7 @@ strike_craft_component_template = {
 	shield_penetration = 0
 	armor_penetration = 0.5
 
-	ship_behavior = "fighters_behavior"
+	ship_behavior = "bombers_behavior"
 
 	icon = "GFX_ship_part_rx_78gp02a"
 	icon_frame = 1
@@ -3941,7 +3921,7 @@ strike_craft_component_template = {
 	shield_penetration = 0
 	armor_penetration = 0.3
 
-	ship_behavior = "fighters_behavior"
+	ship_behavior = "bombers_behavior"
 
 	icon = "GFX_ship_part_rx_78gp02a_mlrs"
 	icon_frame = 1
@@ -3991,7 +3971,7 @@ strike_craft_component_template = {
 	shield_penetration = 0
 	armor_penetration = 0.95
 
-	ship_behavior = "fighters_behavior"
+	ship_behavior = "bombers_behavior"
 
 	icon = "GFX_ship_part_rx_78gp02a"
 	icon_frame = 1
@@ -4041,7 +4021,7 @@ strike_craft_component_template = {
 	shield_penetration = 0
 	armor_penetration = 0.95
 
-	ship_behavior = "fighters_behavior"
+	ship_behavior = "bombers_behavior"
 
 	icon = "GFX_ship_part_rx_78gp03s"
 	icon_frame = 1
@@ -4091,7 +4071,7 @@ strike_craft_component_template = {
 	shield_penetration = 0
 	armor_penetration = 0.95
 
-	ship_behavior = "fighters_behavior"
+	ship_behavior = "bombers_behavior"
 
 	icon = "GFX_ship_part_rx_78gp04g"
 	icon_frame = 1

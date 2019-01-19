@@ -8,7 +8,7 @@ utility_component_template = {
 	power = 0
 
 	modifier = {
-		ship_armor_add = 62
+		ship_armor_add = 76
 	}
 
 	prerequisites = { "tech_MSN_01" }
@@ -28,7 +28,7 @@ utility_component_template = {
 	power = 0
 
 	modifier = {
-		ship_evasion_add = 60
+		ship_evasion_add = 55
 		ship_speed_mult = 0.375
 	}
 
@@ -49,7 +49,7 @@ utility_component_template = {
 	power = 0
 
 	modifier = {
-		ship_armor_add = 270
+		ship_armor_add = 357
 	}
 
 	prerequisites = { "tech_MSN_02" }
@@ -69,7 +69,7 @@ utility_component_template = {
 	power = 0
 
 	modifier = {
-		ship_evasion_add = 75
+		ship_evasion_add = 60
 		ship_speed_mult = 0.375
 	}
 
@@ -90,7 +90,7 @@ utility_component_template = {
 	power = 0
 
 	modifier = {
-		ship_armor_add = 600
+		ship_armor_add = 584
 	}
 
 	prerequisites = { "tech_MA_06" }
@@ -110,7 +110,7 @@ utility_component_template = {
 	power = 0
 
 	modifier = {
-		ship_evasion_add = 75
+		ship_evasion_add = 60
 		ship_speed_mult = 2.225
 	}
 
@@ -151,7 +151,7 @@ utility_component_template = {
 	power = 0
 
 	modifier = {
-		ship_evasion_add = 70
+		ship_evasion_add = 10
 		ship_speed_mult = 2.388
 	}
 
@@ -199,9 +199,8 @@ utility_component_template = {
 	}
 
 	modifier = {
-		ship_armor_add = 349
+		ship_armor_add = 378
 		ship_hull_mult = -0.01
-		ship_evasion_add = 20
 	}
 
 	prerequisites = { "tech_MA_05M" }
@@ -221,7 +220,7 @@ utility_component_template = {
 	power = 0
 
 	modifier = {
-		ship_evasion_add = 40
+		ship_evasion_add = 10
 	}
 
 	prerequisites = { "tech_MA_05" }
@@ -242,7 +241,6 @@ utility_component_template = {
 	power = 0
 
 	modifier = {
-		ship_evasion_add = 40
 		ship_speed_mult = 1.947
 	}
 
@@ -263,7 +261,7 @@ utility_component_template = {
 	power = 0
 
 	modifier = {
-		ship_armor_add = 13769
+		ship_armor_add = 27538
 	}
 
 	prerequisites = { "tech_MA_05Ad" }
@@ -303,7 +301,7 @@ utility_component_template = {
 	power = 0
 
 	modifier = {
-		ship_armor_add = 1500
+		ship_armor_add = 2978
 	}
 
 	prerequisites = { "tech_MA_08" }
@@ -323,7 +321,7 @@ utility_component_template = {
 	power = 0
 
 	modifier = {
-		ship_evasion_add = 25
+		ship_evasion_add = 5
 		ship_speed_mult = -0.4925
 	}
 
@@ -344,7 +342,7 @@ utility_component_template = {
 	power = 0
 
 	modifier = {
-		ship_armor_add = 2002
+		ship_armor_add = 4004
 	}
 
 	prerequisites = { "tech_MAN_03" }
@@ -364,7 +362,7 @@ utility_component_template = {
 	power = 0
 
 	modifier = {
-		ship_evasion_add = 35
+		ship_evasion_add = 5
 		ship_speed_mult = 0.15
 	}
 
@@ -385,7 +383,7 @@ utility_component_template = {
 	power = 0
 
 	modifier = {
-		ship_armor_add = 338
+		ship_armor_add = 449
 	}
 
 	prerequisites = { "tech_MAN_08" }
@@ -405,7 +403,7 @@ utility_component_template = {
 	power = 0
 
 	modifier = {
-		ship_evasion_add = 75
+		ship_evasion_add = 60
 		ship_speed_mult = 2.75
 	}
 

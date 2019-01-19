@@ -8,7 +8,7 @@ utility_component_template = {
 	power = 0
 
 	modifier = {
-		ship_armor_add = 172
+		ship_armor_add = 273
 		ship_hull_mult = 0.2
 	}
 
@@ -36,7 +36,7 @@ utility_component_template = {
 	}
 
 	modifier = {
-		ship_armor_add = 197
+		ship_armor_add = 276
 		ship_hull_mult = 0.23
 	}
 
@@ -106,7 +106,7 @@ utility_component_template = {
 	power = 0
 
 	modifier = {
-		ship_armor_add = 172
+		ship_armor_add = 159
 		ship_hull_mult = 0.08
 	}
 
@@ -127,7 +127,7 @@ utility_component_template = {
 	power = 0
 
 	modifier = {
-		ship_evasion_add = 45
+		ship_evasion_add = 50
 	}
 
 	prerequisites = { "tech_MS_09K" }

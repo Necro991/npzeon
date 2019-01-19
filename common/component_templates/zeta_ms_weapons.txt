@@ -2,24 +2,23 @@ weapon_component_template = {
 	key = "ZETA_GM_II_BEAM_RIFLE"
 	size = point_defence
 	entity = "Zeon_Machine_Gun_01_Entity"
-	damage = { min = 121.0 max = 243.0 }
-	#windup = { min = 5.0 max = 20.0 }
-	total_fire_time = 20
-	range = 30.0
-	accuracy = 0.82
-	tracking  = 0.65
+	damage = { min = 30.4 max = 60.8 }
+	total_fire_time = 10
+	range = 45.0
+	accuracy = 0.75
+	tracking  = 0.3
 	type = point_defence
 	shield_damage = 0.2
 	armor_penetration = 0.95
 
 	icon = "ZETA_GM_BEAM_RIFLE"
 	icon_frame = 1
-	
+
 	power = -3000
 	resources = {
 		category = ship_components
 		cost = {
-			alloys = 30
+			alloys = 44
 		}
 	}
 	size_restriction = { RGM_79 RGM_79S }
@@ -35,12 +34,11 @@ weapon_component_template = {
 	key = "ZETA_GM_III_BEAM_RIFLE"
 	size = point_defence
 	entity = "Zeon_Machine_Gun_01_Entity"
-	damage = { min = 125.0 max = 250.0 }
-	#windup = { min = 5.0 max = 20.0 }
-	total_fire_time = 20
-	range = 30.0
-	accuracy = 0.82
-	tracking  = 0.65
+	damage = { min = 31.2 max = 62.4 }
+	total_fire_time = 10
+	range = 45.0
+	accuracy = 0.75
+	tracking  = 0.3
 	type = point_defence
 	shield_damage = 0.2
 	armor_penetration = 0.95
@@ -52,7 +50,7 @@ weapon_component_template = {
 	resources = {
 		category = ship_components
 		cost = {
-			alloys = 30
+			alloys = 44
 		}
 	}
 	size_restriction = { RGM_79 RGM_79S }
@@ -68,15 +66,14 @@ weapon_component_template = {
 	key = "ZETA_EFSF_380MM"
 	size = point_defence
 	entity = "Zeon_Machine_Gun_01_Entity"
-	damage = { min = 80.0 max = 150.0 }
-	#windup = { min = 5.0 max = 10.0 }
-	total_fire_time = 20
+	damage = { min = 6.0 max = 14.0 }
+	total_fire_time = 5
 	range = 60.0
-	accuracy = 0.85
-	tracking  = 0.3
+	accuracy = 1.0
+	tracking  = 0.25
 	type = point_defence
-	shield_damage = 1.15
-	armor_penetration = 0.25
+	hull_damage = 1.25
+	armor_penetration = 1.0
 
 	icon = "OYW_EFSF_380MM"
 	icon_frame = 1
@@ -85,7 +82,7 @@ weapon_component_template = {
 	resources = {
 		category = ship_components
 		cost = {
-			alloys = 35
+			alloys = 33
 		}
 	}
 	size_restriction = { RX_77 RX_78 FA_78 FA_78_2 HFA_78 RX_81 RX_81FC RGM_79 RGM_79S RGM_79FP RGM_79FC RGC_80 RX_78GP01_Fb RX_78GP03S RX_78GP04G }

@@ -14,7 +14,7 @@ utility_component_template = {
 	}
 
 	modifier = {
-		ship_armor_add = 98
+		ship_armor_add = 185
 	}
 
 	prerequisites = { "tech_RX_75_1" }
@@ -40,7 +40,7 @@ utility_component_template = {
 	}
 
 	modifier = {
-		ship_armor_add = 86
+		ship_armor_add = 555
 	}
 
 	prerequisites = { "tech_RX_75_2" }
@@ -60,7 +60,7 @@ utility_component_template = {
 	power = 0
 
 	modifier = {
-		ship_evasion_add = 25
+		ship_evasion_add = 35
 	}
 
 	prerequisites = { "tech_RX_75_1" }

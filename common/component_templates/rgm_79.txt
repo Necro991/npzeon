@@ -14,8 +14,8 @@ utility_component_template = {
 	}
 
 	modifier = {
-		ship_armor_add = 68
-		ship_evasion_add = 20
+		ship_armor_add = 42
+		ship_evasion_add = 5
 	}
 
 	prerequisites = { "tech_RGM_79L" }
@@ -36,7 +36,7 @@ utility_component_template = {
 	power = 0
 
 	modifier = {
-		ship_armor_add = 120
+		ship_armor_add = 99
 	}
 
 	prerequisites = { "tech_RGM_79E" }
@@ -63,7 +63,7 @@ utility_component_template = {
 	}
 
 	modifier = {
-		ship_armor_add = 126
+		ship_armor_add = 90
 		ship_hull_mult = -0.1
 	}
 
@@ -91,7 +91,7 @@ utility_component_template = {
 	}
 
 	modifier = {
-		ship_armor_add = 144
+		ship_armor_add = 108
 		ship_hull_mult = -0.1
 	}
 
@@ -119,7 +119,7 @@ utility_component_template = {
 	}
 
 	modifier = {
-		ship_armor_add = 142
+		ship_armor_add = 135
 		ship_hull_mult = -0.11
 	}
 
@@ -147,7 +147,7 @@ utility_component_template = {
 	}
 
 	modifier = {
-		ship_armor_add = 144
+		ship_armor_add = 270
 		ship_hull_mult = -0.1
 		ship_speed_mult = -0.19
 	}
@@ -176,7 +176,7 @@ utility_component_template = {
 	}
 
 	modifier = {
-		ship_armor_add = 150
+		ship_armor_add = 261
 		ship_hull_mult = -0.15
 		ship_evasion_add = 3
 		ship_speed_mult = -0.13
@@ -206,7 +206,7 @@ utility_component_template = {
 	}
 
 	modifier = {
-		ship_armor_add = 157
+		ship_armor_add = 516
 		ship_hull_mult = -0.149
 	}
 
@@ -227,7 +227,7 @@ utility_component_template = {
 	power = 0
 
 	modifier = {
-		ship_evasion_add = 50
+		ship_evasion_add = 53
 		ship_speed_mult = 0.45
 	}
 
@@ -311,7 +311,7 @@ utility_component_template = {
 	}
 
 	modifier = {
-		ship_evasion_add = 60
+		ship_evasion_add = 55
 		ship_speed_mult = 0.875
 	}
 
@@ -339,7 +339,7 @@ utility_component_template = {
 	}
 
 	modifier = {
-		ship_evasion_add = 62
+		ship_evasion_add = 60
 		ship_speed_mult = 0.98
 	}
 
@@ -416,7 +416,7 @@ utility_component_template = {
 	}
 
 	modifier = {
-		ship_armor_add = 212
+		ship_armor_add = 213
 		ship_hull_mult = -0.06
 	}
 
@@ -443,7 +443,7 @@ utility_component_template = {
 	}
 
 	modifier = {
-		ship_evasion_add = 60
+		ship_evasion_add = 57
 		ship_speed_mult = 0.52
 	}
 
@@ -471,7 +471,7 @@ utility_component_template = {
 	}
 
 	modifier = {
-		ship_evasion_add = 65
+		ship_evasion_add = 60
 		ship_speed_mult = 1.83
 	}
 
@@ -492,7 +492,7 @@ utility_component_template = {
 	power = 0
 
 	modifier = {
-		ship_armor_add = 211
+		ship_armor_add = 177
 		ship_hull_mult = 0.17
 	}
 
@@ -513,7 +513,7 @@ utility_component_template = {
 	power = 0
 
 	modifier = {
-		ship_evasion_add = 60
+		ship_evasion_add = 57
 		ship_speed_mult = 1.05
 	}
 
@@ -541,7 +541,7 @@ utility_component_template = {
 	}
 
 	modifier = {
-		ship_evasion_add = 65
+		ship_evasion_add = 60
 		ship_speed_mult = 1.08
 	}
 	prerequisites = { "tech_RGM_79FC" }

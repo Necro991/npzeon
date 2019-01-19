@@ -1,7 +1,5 @@
 #Armor, Thrusters, Grenades, Melee
 
-#Armor, Thrusters, Grenades, Melee
-
 utility_component_template = {
 	key = "mp_02a_armor_1"
 	size = small
@@ -10,7 +8,7 @@ utility_component_template = {
 	power = 0
 
 	modifier = {
-		ship_armor_add = 54
+		ship_armor_add = 42
 	}
 
 	prerequisites = { "tech_MP_02A" }

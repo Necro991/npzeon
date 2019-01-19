@@ -8,7 +8,7 @@ utility_component_template = {
 	power = 0
 
 	modifier = {
-		ship_armor_add = 114
+		ship_armor_add = 171
 	}
 
 	prerequisites = { "tech_MS_11" }
@@ -28,7 +28,7 @@ utility_component_template = {
 	power = 0
 
 	modifier = {
-		ship_evasion_add = 57
+		ship_evasion_add = 60
 	}
 
 	prerequisites = { "tech_MS_11" }

@@ -2,24 +2,23 @@ weapon_component_template = {
 	key = "0083_GM_NQ_BEAM_RIFLE"
 	size = point_defence
 	entity = "Zeon_Machine_Gun_01_Entity"
-	damage = { min = 57.0 max = 113.5 } #damage = { min = 114.0 max = 227.0 }
-	#windup = { min = 5.0 max = 20.0 }
-	total_fire_time = 20
-	range = 30.0
-	accuracy = 0.82
-	tracking  = 0.65
+	damage = { min = 28.4 max = 56.8 }
+	total_fire_time = 10
+	range = 45.0
+	accuracy = 0.75
+	tracking  = 0.3
 	type = point_defence
 	shield_damage = 0.2
 	armor_penetration = 0.95
 
 	icon = "ZETA_GM_BEAM_RIFLE"
 	icon_frame = 1
-	
+
 	power = -3000
 	resources = {
 		category = ship_components
 		cost = {
-			alloys = 30
+			alloys = 33
 		}
 	}
 	size_restriction = { RGM_79 RGM_79S RGC_80 }
@@ -35,12 +34,11 @@ weapon_component_template = {
 	key = "0083_GM_Q_SHORT_BEAM_RIFLE"
 	size = point_defence
 	entity = "Zeon_Machine_Gun_01_Entity"
-	damage = { min = 57.0 max = 113.5 } #damage = { min = 114.0 max = 227.0 }
-	#windup = { min = 5.0 max = 20.0 }
-	total_fire_time = 15
-	range = 15.0
-	accuracy = 0.82
-	tracking  = 0.65
+	damage = { min = 14.2 max = 28.4 } #Half Quel Values
+	total_fire_time = 0.5
+	range = 30.0
+	accuracy = 0.75
+	tracking  = 0.5
 	type = point_defence
 	shield_damage = 0.2
 	armor_penetration = 0.95
@@ -52,7 +50,7 @@ weapon_component_template = {
 	resources = {
 		category = ship_components
 		cost = {
-			alloys = 25
+			alloys = 39 #Beam Scatter = 13, Beam Carbine = 26, Ergo
 		}
 	}
 	size_restriction = { RGM_79 RGM_79S RGC_80 }
@@ -68,12 +66,11 @@ weapon_component_template = {
 	key = "0083_GP01_BEAM_RIFLE"
 	size = point_defence
 	entity = "Zeon_Machine_Gun_01_Entity"
-	damage = { min = 82.0 max = 163.5 } #damage = { min = 164.0 max = 327.0 }
-	#windup = { min = 5.0 max = 20.0 }
-	total_fire_time = 15
-	range = 15.0
-	accuracy = 0.82
-	tracking  = 0.65
+	damage = { min = 40.9 max = 81.8 }
+	total_fire_time = 10
+	range = 45.0
+	accuracy = 0.75
+	tracking  = 0.3
 	type = point_defence
 	shield_damage = 0.2
 	armor_penetration = 0.95
@@ -85,7 +82,7 @@ weapon_component_template = {
 	resources = {
 		category = ship_components
 		cost = {
-			alloys = 50
+			alloys = 33
 		}
 	}
 	size_restriction = { RX_78GP01_Fb }
@@ -101,12 +98,11 @@ weapon_component_template = {
 	key = "0083_GP03S_BEAM_RIFLE"
 	size = point_defence
 	entity = "Zeon_Machine_Gun_01_Entity"
-	damage = { min = 80.0 max = 160.0 } #damage = { min = 160.0 max = 320.0 }
-	#windup = { min = 5.0 max = 20.0 }
-	total_fire_time = 15
-	range = 15.0
-	accuracy = 0.82
-	tracking  = 0.65
+	damage = { min = 40.0 max = 80.0 }
+	total_fire_time = 10
+	range = 45.0
+	accuracy = 0.75
+	tracking  = 0.3
 	type = point_defence
 	shield_damage = 0.2
 	armor_penetration = 0.95
@@ -118,7 +114,7 @@ weapon_component_template = {
 	resources = {
 		category = ship_components
 		cost = {
-			alloys = 50
+			alloys = 33
 		}
 	}
 	size_restriction = { RX_78GP03S }
@@ -135,12 +131,11 @@ weapon_component_template = {
 	key = "0083_GP04G_BEAM_RIFLE"
 	size = point_defence
 	entity = "Zeon_Machine_Gun_01_Entity"
-	damage = { min = 69.0 max = 118.5 } #damage = { min = 138.0 max = 237.0 }
-	#windup = { min = 5.0 max = 20.0 }
-	total_fire_time = 15
-	range = 15.0
-	accuracy = 0.82
-	tracking  = 0.65
+	damage = { min = 34.6 max = 69.2 }
+	total_fire_time = 10
+	range = 45.0
+	accuracy = 0.75
+	tracking  = 0.3
 	type = point_defence
 	shield_damage = 0.2
 	armor_penetration = 0.95
@@ -152,7 +147,7 @@ weapon_component_template = {
 	resources = {
 		category = ship_components
 		cost = {
-			alloys = 50
+			alloys = 33
 		}
 	}
 	size_restriction = { RX_78GP04G }
@@ -168,15 +163,14 @@ weapon_component_template = {
 	key = "0083_EFSF_NUCLEAR_BAZOOKA"
 	size = extra_large
 	entity = "Zeon_Machine_Gun_01_Entity"
-	damage = { min = 500.0 max = 1000.0 } #damage = { min = 1000.0 max = 2000.0 }
-	#windup = { min = 5.0 max = 10.0 }
+	damage = { min = 500.0 max = 1000.0 }
 	total_fire_time = 60
 	range = 60.0
 	accuracy = 0.9
 	tracking  = 0.0
 	type = point_defence
-	shield_damage = 1.15
-	armor_penetration = 0.5
+	shield_penetration = 1.0
+	armor_penetration = 1.0
 
 	icon = "0083_EFSF_NUCLEAR_BAZOOKA"
 	icon_frame = 1
@@ -201,12 +195,11 @@ weapon_component_template = {
 	key = "0083_EFSF_BEAM_BAZOOKA"
 	size = extra_large
 	entity = "Zeon_Machine_Gun_01_Entity"
-	damage = { min = 712.0 max = 1424.0 } #damage = { min = 1424.0 max = 2848.0 }
-	#windup = { min = 5.0 max = 10.0 }
+	damage = { min = 366.0 max = 712.0 }
 	total_fire_time = 60
 	range = 90.0
-	accuracy = 0.82
-	tracking  = 0.65
+	accuracy = 0.9
+	tracking  = 0.0
 	type = point_defence
 	shield_damage = 0.2
 	armor_penetration = 0.95
@@ -224,7 +217,7 @@ weapon_component_template = {
 	size_restriction = { RX_78GP02 }
 	prerequisites = { "tech_RX_78GP02" }
 	component_set = "0083_EFSF_BEAM_BAZOOKA"
-	projectile_gfx = "gundam_missile"
+	projectile_gfx = "MPC1"
 	tags = { weapon_type_energy }
 	ai_tags = { weapon_role_anti_armor }
 	#upgrades_to = "SMALL_BEAMC_2"
@@ -234,12 +227,11 @@ weapon_component_template = {
 	key = "0083_EFSF_GP03_MPC"
 	size = extra_large
 	entity = "Zeon_Machine_Gun_01_Entity"
-	damage = { min = 1556.0 max = 3112.0 } #damage = { min = 3112.0 max = 6224.0 }
-	windup = { min = 30.0 max = 60.0 }
+	damage = { min = 778.0 max = 1556.0 }
 	total_fire_time = 60
 	range = 100.0
-	accuracy = 0.82
-	tracking  = 0.65
+	accuracy = 0.75
+	tracking  = 0.0
 	type = instant
 	shield_damage = 0.2
 	armor_penetration = 0.95
@@ -251,7 +243,7 @@ weapon_component_template = {
 	resources = {
 		category = ship_components
 		cost = {
-			alloys = 200
+			alloys = 100
 		}
 	}
 	size_restriction = { RX_78GP03S }

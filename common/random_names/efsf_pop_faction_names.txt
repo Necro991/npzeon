@@ -52,6 +52,7 @@ pop_faction_name_parts_list = {
 	parts = {
 		"Cult of the Gundam" = 10
 		"Cult of the Zanny" = 1
+		"Cult of the ReZEL" = 1
 	}
 }
 
