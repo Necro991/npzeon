@@ -244,7 +244,7 @@ objectTypes = {
 		file = "gfx/models/ships/fed_01/Albion.mesh"
 		#	animation = { id = "idle"		type = "turret_projectile_large_idle_animation" }
 		#	animation = { id = "attack"		type = "turret_projectile_large_attack_animation" }
-		scale = 1.0 #0.07
+		scale = 0.5
 		meshsettings = {
 			texture_diffuse = "Albion_Diffuse.dds"
 			texture_normal = "Albion_Normal.dds"
@@ -272,7 +272,7 @@ objectTypes = {
 		file = "gfx/models/ships/fed_01/Nahel_Argama.mesh"
 		#	animation = { id = "idle"		type = "turret_projectile_large_idle_animation" }
 		#	animation = { id = "attack"		type = "turret_projectile_large_attack_animation" }
-		scale = 1.0
+		scale = 0.6
 		meshsettings = {
 			texture_diffuse = "Nahel_Argama_Diffuse.dds"
 			texture_normal = "Nahel_Argama_Normal.dds"
@@ -1798,6 +1798,45 @@ objectTypes = {
 		}
 	}
 
+	pdxmesh = { #Super Gundam
+		name = "Super_Gundam_mesh"
+		file = "gfx/models/ships/fed_01/Super_Gundam.mesh"
+
+		scale = 1.0
+			meshsettings = {
+				texture_diffuse = "Super_Gundam_Diffuse.dds"
+				texture_normal = "zakuII_normal.dds"
+				texture_specular = "Zaku_Specular.dds"
+				shader = "PdxMeshShip"
+		}
+	}
+
+	pdxmesh = { #FA Mk.2
+		name = "FA_Gundam_Mk2_mesh"
+		file = "gfx/models/ships/fed_01/FA_Gundam_Mk2.mesh"
+
+		scale = 1.0
+			meshsettings = {
+				texture_diffuse = "FA_Gundam_Mk2_Diffuse.dds"
+				texture_normal = "zakuII_normal.dds"
+				texture_specular = "Zaku_Specular.dds"
+				shader = "PdxMeshShip"
+		}
+	}
+
+	pdxmesh = { #FA Mk-III
+		name = "FA_Gundam_Mk3_mesh"
+		file = "gfx/models/ships/fed_01/FA_Gundam_Mk_III.mesh"
+
+		scale = 1.0
+			meshsettings = {
+				texture_diffuse = "FA_Gundam_Mk_III_Diffuse.dds"
+				texture_normal = "zakuII_normal.dds"
+				texture_specular = "Zaku_Specular.dds"
+				shader = "PdxMeshShip"
+		}
+	}
+
 	pdxmesh = { #GM Quel Rifle
 		name = "GM_Quel_mesh"
 		file = "gfx/models/ships/fed_01/GM_Quel.mesh"
@@ -1948,6 +1987,32 @@ objectTypes = {
 		scale = 1.0
 			meshsettings = {
 				texture_diffuse = "Nemo_Diffuse.dds"
+				texture_normal = "zakuII_normal.dds"
+				texture_specular = "Zaku_Specular.dds"
+				shader = "PdxMeshShip"
+		}
+	}
+
+	pdxmesh = { #Hyaku Shiki
+		name = "Hyaku_Shiki_mesh"
+		file = "gfx/models/ships/fed_01/Hyaku_Shiki.mesh"
+
+		scale = 1.0
+			meshsettings = {
+				texture_diffuse = "Hyaku_Shiki_Diffuse.dds"
+				texture_normal = "zakuII_normal.dds"
+				texture_specular = "Zaku_Specular.dds"
+				shader = "PdxMeshShip"
+		}
+	}
+
+	pdxmesh = { #Zeta Gundam
+		name = "Zeta_Gundam_mesh"
+		file = "gfx/models/ships/fed_01/Zeta_Gundam.mesh"
+
+		scale = 1.0
+			meshsettings = {
+				texture_diffuse = "Zeta_Gundam_Diffuse.dds"
 				texture_normal = "zakuII_normal.dds"
 				texture_specular = "Zaku_Specular.dds"
 				shader = "PdxMeshShip"

@@ -181,6 +181,21 @@ spriteTypes = {
 	}
 
 	spriteType = {
+		name = "GFX_ship_part_fa_178"
+		texturefile = "gfx/interface/icons/ship_parts/FA-178.dds"
+	}
+
+	spriteType = {
+		name = "GFX_ship_part_msf_007"
+		texturefile = "gfx/interface/icons/ship_parts/MSF-007.dds"
+	}
+
+	spriteType = {
+		name = "GFX_ship_part_fa_007giii"
+		texturefile = "gfx/interface/icons/ship_parts/FA-007GIII.dds"
+	}
+
+	spriteType = {
 		name = "GFX_ship_part_rgm_79cr"
 		texturefile = "gfx/interface/icons/ship_parts/RGM-79CR.dds"
 	}
@@ -213,6 +228,26 @@ spriteTypes = {
 	spriteType = {
 		name = "GFX_ship_part_msa_004"
 		texturefile = "gfx/interface/icons/ship_parts/MSA-004.dds"
+	}
+
+	spriteType = {
+		name = "GFX_ship_part_msn_00100"
+		texturefile = "gfx/interface/icons/ship_parts/MSN-00100.dds"
+	}
+
+	spriteType = {
+		name = "GFX_ship_part_msz_006_x"
+		texturefile = "gfx/interface/icons/ship_parts/MSZ-006-X.dds"
+	}
+
+	spriteType = {
+		name = "GFX_ship_part_msz_006"
+		texturefile = "gfx/interface/icons/ship_parts/MSZ-006.dds"
+	}
+
+	spriteType = {
+		name = "GFX_ship_part_msn_00100"
+		texturefile = "gfx/interface/icons/ship_parts/MSN-00100.dds"
 	}
 
 	spriteType = {

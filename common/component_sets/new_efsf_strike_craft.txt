@@ -260,6 +260,34 @@ component_set = {
 }
 
 component_set = {
+	key = "RX_178_FXA_05D_HANGAR_1"
+
+	icon = "GFX_ship_part_rx_178"
+	icon_frame = 1
+}
+
+component_set = {
+	key = "FA_178_HANGAR_1"
+
+	icon = "GFX_ship_part_fa_178"
+	icon_frame = 1
+}
+
+component_set = {
+	key = "MSF_007_HANGAR_1"
+
+	icon = "GFX_ship_part_msf_007"
+	icon_frame = 1
+}
+
+component_set = {
+	key = "FA_007GIII_HANGAR_1"
+
+	icon = "GFX_ship_part_fa_007giii"
+	icon_frame = 1
+}
+
+component_set = {
 	key = "RGM_79E_HANGAR_1"
 
 	icon = "GFX_ship_part_rgm_79e"
@@ -389,6 +417,27 @@ component_set = {
 	key = "MSA_004_HANGAR_1"
 
 	icon = "GFX_ship_part_msa_004"
+	icon_frame = 1
+}
+
+component_set = {
+	key = "MSN_00100_HANGAR_1"
+
+	icon = "GFX_ship_part_msn_00100"
+	icon_frame = 1
+}
+
+component_set = {
+	key = "MSZ_006_X_HANGAR_1"
+
+	icon = "GFX_ship_part_msz_006_x"
+	icon_frame = 1
+}
+
+component_set = {
+	key = "MSZ_006_HANGAR_1"
+
+	icon = "GFX_ship_part_msz_006"
 	icon_frame = 1
 }
 

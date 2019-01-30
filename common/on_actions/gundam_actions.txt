@@ -1,6 +1,7 @@
 on_press_begin = {
 	events = {
 		zeontech.1
+		gundamaitech.1
 	}
 }
 

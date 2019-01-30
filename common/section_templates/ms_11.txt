@@ -45,7 +45,7 @@ ship_section_template = { #MS-11 Action Zaku
 	key = "MS_11S_MID"
 	ship_size = MS_11S
 	fits_on_slot = mid
-	entity = "Action_Zaku_Trio_entity"
+	entity = "Action_Zaku_Commander_Trio_entity"
 	icon = "GFX_ship_part_core_mid"
 
 	prerequisites = { tech_MS_11 }

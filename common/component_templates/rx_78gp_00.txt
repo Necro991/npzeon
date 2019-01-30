@@ -14,7 +14,7 @@ utility_component_template = {
 	}
 
 	modifier = {
-		ship_armor_add = 228
+		ship_armor_add = 171
 	}
 
 	prerequisites = { "tech_RX_78GP01Fb" }
@@ -34,7 +34,7 @@ utility_component_template = {
 	power = 0
 
 	modifier = {
-		ship_evasion_add = 72
+		ship_evasion_add = 60
 	}
 
 	prerequisites = { "tech_RX_78GP01Fb" }
@@ -72,13 +72,13 @@ utility_component_template = {
 	resources = {
 		category = ship_components
 		cost = {
-			alloys = 20
 			luna_titanium = 1
 		}
 	}
 
 	modifier = {
-		ship_armor_add = 228
+		ship_armor_add = 114
+		ship_evasion_add = -5
 	}
 
 	prerequisites = { "tech_RX_78GP01Fa" }
@@ -104,7 +104,7 @@ utility_component_template = {
 	}
 
 	modifier = {
-		ship_armor_add = 384 #300%
+		ship_armor_add = 192
 	}
 
 	prerequisites = { "tech_RX_78GP02" }
@@ -124,7 +124,7 @@ utility_component_template = {
 	power = 0
 
 	modifier = {
-		ship_evasion_add = 60
+		ship_evasion_add = 55
 	}
 
 	prerequisites = { "tech_RX_78GP02" }
@@ -150,7 +150,7 @@ utility_component_template = {
 	}
 
 	modifier = {
-		ship_armor_add = 216
+		ship_armor_add = 162
 	}
 
 	prerequisites = { "tech_RX_78GP03S" }
@@ -170,7 +170,7 @@ utility_component_template = {
 	power = 0
 
 	modifier = {
-		ship_evasion_add = 72
+		ship_evasion_add = 60
 	}
 
 	prerequisites = { "tech_RX_78GP03S" }
@@ -214,9 +214,9 @@ utility_component_template = {
 	}
 
 	modifier = {
-		ship_armor_add = 1394 #200%
-		ship_hull_mult = 6.1
-		ship_evasion_add = -22
+		ship_armor_add = 884
+		ship_hull_mult = 6.45
+		ship_evasion_add = -10
 		ship_speed_mult = 0.85
 		ship_shield_add = 3000
 	}
@@ -244,7 +244,7 @@ utility_component_template = {
 	}
 
 	modifier = {
-		ship_armor_add = 226
+		ship_armor_add = 170
 	}
 
 	prerequisites = { "tech_RX_78GP04G" }
@@ -264,7 +264,7 @@ utility_component_template = {
 	power = 0
 
 	modifier = {
-		ship_evasion_add = 72
+		ship_evasion_add = 65
 	}
 
 	prerequisites = { "tech_RX_78GP04G" }

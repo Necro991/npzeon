@@ -1,0 +1,30 @@
+namespace = gundamaitech
+
+country_event = {
+  id = gundamaitech.1
+  is_triggered_only = yes
+
+  hide_window = yes
+
+  option = {
+    trigger = {
+      is_country_type = default
+      is_ai = yes
+    }
+    give_technology = { tech = tech_MS_05B }
+    ai_chance = {
+      factor = 50
+    }
+  }
+
+  option = {
+    trigger = {
+      is_country_type = default
+      is_ai = yes
+    }
+    give_technology = { tech = tech_RB_79 }
+    ai_chance = {
+      factor = 50
+    }
+  }
+}

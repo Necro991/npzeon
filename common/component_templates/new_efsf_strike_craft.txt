@@ -520,7 +520,7 @@ strike_craft_component_template = {
 }
 
 strike_craft_component_template = {
-	key = "EFSF_MS_STRIKE_CRAFT_RX_77_4" #RX-77-4 Guncannon II STOPPPED HERE TODO FUCK
+	key = "EFSF_MS_STRIKE_CRAFT_RX_77_4" #RX-77-4 Guncannon II
 	size = LARGE
 	entity = "guncannon_entity"
 
@@ -530,7 +530,7 @@ strike_craft_component_template = {
 	resources = {
 		category = ship_components
 		cost = {
-			alloys = 140 #73.1 tons = 45 * 2 = 90 cost + 50 for gun
+			alloys = 201 #73.1 tons = 135 cost + 66 for gun
 			efsf_pilots = 3
 			luna_titanium = 1
 		}
@@ -540,23 +540,22 @@ strike_craft_component_template = {
 	regeneration_per_day = 0.034
 	launch_time = 8.0
 
-	damage = { min = 55 max = 110.5 } #damage = { min = 110 max = 221 } Beam Cannon - Large MPC
-	cooldown = 25
+	damage = { min = 27.6 max = 55.2 } #Beam Cannon - Large MPC
+	cooldown = 1.0
 	range = 60
-	accuracy = 0.9 #Has targeting sensor
-	tracking = 0.25 #See above
+	accuracy = 0.75
+	tracking = 0.0
 
-	health = 113
-	armor = 25 #Gundamium and it's better than the Gundam
+	health = 112
+	armor = 168 #Gundamium and it's better than the Gundam
 	shield = 0
-	evasion = 0.4
+	evasion = 0.5
 
-	speed = 246.5 #0.85G
+	speed = 244.9 #0.85G
 	rotation_speed = 0.1
 	acceleration = 0.5
 
 	shield_damage = 0.2 #MPC1
-	shield_penetration = 0
 	armor_penetration = 0.95
 
 	ship_behavior = "bombers_behavior"
@@ -580,7 +579,7 @@ strike_craft_component_template = {
 	resources = {
 		category = ship_components
 		cost = {
-			alloys = 63 #70.2 tons = 43 cost + 20 for gun
+			alloys = 195 #70.2 tons = 129 cost + 66 for gun
 			efsf_pilots = 3
 		}
 	}
@@ -589,24 +588,22 @@ strike_craft_component_template = {
 	regeneration_per_day = 0.034
 	launch_time = 8.0
 
-	damage = { min = 33.5 max = 75.0 } #damage = { min = 67.0 max = 150.0 } 1x 240mm Cannon
-	cooldown = 25
-	range = 90
-	accuracy = 0.7 #Has a targeter, accuracy and tracking increased
-	tracking = 0.2
+	damage = { min = 11.0 max = 35.0 } #1x240mm Cannon
+	cooldown = 3.0
+	range = 60
+	accuracy = 0.85 #Has a targeter, accuracy and tracking increased
+	tracking = 0.0
 
 	health = 108
-	armor = 10 #Titanium alloy
+	armor = 54 #Titanium alloy
 	shield = 0
-	evasion = 0.5
+	evasion = 0.55
 
-	speed = 382.5 #1.33G
+	speed = 383.2 #1.33G
 	rotation_speed = 0.1
 	acceleration = 0.5
 
-	shield_damage = 1.33 #KINETIC ARTILLERY
-	shield_penetration = 0
-	armor_penetration = 0.2
+	shield_damage = 1.5
 
 	ship_behavior = "bombers_behavior"
 
@@ -629,7 +626,7 @@ strike_craft_component_template = {
 	resources = {
 		category = ship_components
 		cost = {
-			alloys = 83 #70.2 tons = 43 cost + 40 for gun
+			alloys = 207 #70.2 tons = 129 cost + 78 for gun
 			efsf_pilots = 3
 		}
 	}
@@ -638,24 +635,22 @@ strike_craft_component_template = {
 	regeneration_per_day = 0.034
 	launch_time = 8.0
 
-	damage = { min = 66.5 max = 150.0 } #damage = { min = 133.0 max = 300.0 } 2x 240mm Cannon
-	cooldown = 25
-	range = 90
-	accuracy = 0.6 #No extra targeter, accuracy and tracking back to normal
+	damage = { min = 11.0 max = 70.0 } #2x240mm Cannon
+	cooldown = 4.0
+	range = 60
+	accuracy = 0.75 #No extra targeter, accuracy and tracking back to normal
 	tracking = 0.0
 
 	health = 108
-	armor = 10 #Titanium alloy
+	armor = 54 #Titanium alloy
 	shield = 0
-	evasion = 0.5
+	evasion = 0.55
 
-	speed = 382.5 #1.33G
+	speed = 383.2 #1.33G
 	rotation_speed = 0.1
 	acceleration = 0.5
 
-	shield_damage = 1.33 #KINETIC ARTILLERY
-	shield_penetration = 0
-	armor_penetration = 0.2
+	shield_damage = 1.5
 
 	ship_behavior = "bombers_behavior"
 
@@ -668,17 +663,17 @@ strike_craft_component_template = {
 }
 
 strike_craft_component_template = {
-	key = "EFSF_MS_STRIKE_CRAFT_RGC_80_1" #RGC-80-1 GM Cannon Test Type - 2x 360mm Cannon
+	key = "EFSF_MS_STRIKE_CRAFT_RGC_80_1" #RGC-80-1 GM Cannon Test Type - 2x360mm Cannon
 	size = LARGE
 	entity = "GM_Cannon_entity"
 
 	weapon_type = point_defence
 	projectile_gfx = "mass_driver_s"
-	power = -19 #1250kW = 56 / 3 = 19
+	power = -56 #1250kW
 	resources = {
 		category = ship_components
 		cost = {
-			alloys = 34 #66.5 tons = 41 cost + 60 for gun / 3 = 34
+			alloys = 85 #66.5 tons = 41 cost + 44 for gun
 			efsf_pilots = 1
 		}
 	}
@@ -687,24 +682,22 @@ strike_craft_component_template = {
 	regeneration_per_day = 0.034
 	launch_time = 8.0
 
-	damage = { min = 100.0 max = 225.0 } #damage = { min = 200.0 max = 450.0 } 2x 360mm Cannon
-	cooldown = 25
-	range = 100
-	accuracy = 0.5
+	damage = { min = 18.0 max = 106.0 } #2x360mm Cannon
+	cooldown = 4
+	range = 60
+	accuracy = 0.75
 	tracking = 0.0
 
-	health = 103
-	armor = 10 #Titanium alloy
+	health = 102
+	armor = 51 #Titanium alloy
 	shield = 0
-	evasion = 0.25 #Super unwieldy due to overly heavy weapons
+	evasion = 0.5
 
-	speed = 238 #0.83G
+	speed = 239.2 #0.83G
 	rotation_speed = 0.1
 	acceleration = 0.5
 
-	shield_damage = 1.33 #KINETIC ARTILLERY
-	shield_penetration = 0
-	armor_penetration = 0.2
+	shield_damage = 1.5
 
 	ship_behavior = "bombers_behavior"
 
@@ -717,7 +710,7 @@ strike_craft_component_template = {
 }
 
 strike_craft_component_template = {
-	key = "EFSF_MS_STRIKE_CRAFT_RGC_80S_1" #RGC-80-1 GM Cannon - 1x 360mm Cannon
+	key = "EFSF_MS_STRIKE_CRAFT_RGC_80S_1" #RGC-80-1 GM Cannon - 1x360mm Cannon
 	size = LARGE
 	entity = "GM_Cannon_entity"
 
@@ -727,7 +720,7 @@ strike_craft_component_template = {
 	resources = {
 		category = ship_components
 		cost = {
-			alloys = 57 #60.3 tons = 37 cost + 20 for gun
+			alloys = 209 #60.3 tons = 111 cost + 108 for gun
 			efsf_pilots = 3
 		}
 	}
@@ -736,24 +729,22 @@ strike_craft_component_template = {
 	regeneration_per_day = 0.034
 	launch_time = 8.0
 
-	damage = { min = 50.0 max = 112.5 } #damage = { min = 100.0 max = 225.0 } 1x 360mm Cannon
-	cooldown = 25
-	range = 90
-	accuracy = 0.6
+	damage = { min = 10.0 max = 53.0 } #1x360mm Cannon
+	cooldown = 3.0
+	range = 60
+	accuracy = 0.85
 	tracking = 0.0
 
 	health = 93
-	armor = 10 #Titanium alloy
+	armor = 47 #Titanium alloy
 	shield = 0
-	evasion = 0.5
+	evasion = 0.52
 
-	speed = 280.5 #0.97G
+	speed = 279.5 #0.97G
 	rotation_speed = 0.1
 	acceleration = 0.5
 
-	shield_damage = 1.33 #KINETIC ARTILLERY
-	shield_penetration = 0
-	armor_penetration = 0.2
+	shield_damage = 1.5
 
 	ship_behavior = "bombers_behavior"
 
@@ -766,7 +757,7 @@ strike_craft_component_template = {
 }
 
 strike_craft_component_template = {
-	key = "EFSF_MS_STRIKE_CRAFT_RGC_83" #RGC-83 GM Cannon II - 2x Beam Cannon
+	key = "EFSF_MS_STRIKE_CRAFT_RGC_83" #RGC-83 GM Cannon II - 2xBeam Cannon
 	size = LARGE
 	entity = "GM_Cannon_II_entity"
 
@@ -776,7 +767,7 @@ strike_craft_component_template = {
 	resources = {
 		category = ship_components
 		cost = {
-			alloys = 162 #66.9 tons = 41 cost + 5 for armor + 100 for gun
+			alloys = 189 #66.9 tons = 123 + 66 for gun
 			efsf_pilots = 3
 		}
 	}
@@ -785,23 +776,22 @@ strike_craft_component_template = {
 	regeneration_per_day = 0.034
 	launch_time = 8.0
 
-	damage = { min = 57 max = 113.5 } #damage = { min = 114 max = 227 } 2x Beam Cannon - Large MPC
-	cooldown = 25
+	damage = { min = 28.4 max = 113.6 } #2xBeam Cannon - Large MPC
+	cooldown = 2.0
 	range = 60
-	accuracy = 0.8
-	tracking = 0.05
+	accuracy = 0.75
+	tracking = 0.0
 
 	health = 103
-	armor = 15 #Titanium alloy + 5 for Chobham Armor
+	armor = 52 #Titanium alloy
 	shield = 0
-	evasion = 0.25 #Terrible evasion
+	evasion = 0.55
 
-	speed = 255 #0.89G
+	speed = 256.4 #0.89G
 	rotation_speed = 0.1
 	acceleration = 0.5
 
 	shield_damage = 0.2 #MPC1
-	shield_penetration = 0
 	armor_penetration = 0.95
 
 	ship_behavior = "bombers_behavior"
@@ -821,11 +811,11 @@ strike_craft_component_template = {
 
 	weapon_type = point_defence
 	projectile_gfx = "MPC2"
-	power = -20 #1380kW = 61 / 3 = 20
+	power = -61 #1380kW = 61
 	resources = {
 		category = ship_components
 		cost = {
-			alloys = 37 #59 tons = 36 * 2 cost + 40 for gun / 3 = 37
+			alloys = 58 #59 tons = 36 cost + 22
 			efsf_ace_pilots = 1
 			luna_titanium = 1
 		}
@@ -835,23 +825,22 @@ strike_craft_component_template = {
 	regeneration_per_day = 0.034
 	launch_time = 8.0
 
-	damage = { min = 55 max = 110.5 } #damage = { min = 110 max = 221 } 1 Beam Rifle - Large MPC
-	cooldown = 20
-	range = 30
-	accuracy = 0.82
-	tracking = 0.65
+	damage = { min = 27.6 max = 55.2 } #Beam Rifle - Large MPC
+	cooldown = 1.0
+	range = 45
+	accuracy = 0.75
+	tracking = 0.3
 
-	health = 90
-	armor = 20 #Gundamium
+	health = 91
+	armor = 137 #Gundamium
 	shield = 0
-	evasion = 0.6
+	evasion = 0.55
 
-	speed = 272 #0.94G
+	speed = 270.8 #0.94G
 	rotation_speed = 0.1
 	acceleration = 0.5
 
 	shield_damage = 0.2 #MPC1
-	shield_penetration = 0
 	armor_penetration = 0.95
 
 	ship_behavior = "bombers_behavior"
@@ -871,11 +860,11 @@ strike_craft_component_template = {
 
 	weapon_type = point_defence
 	projectile_gfx = "MPC2"
-	power = -20 #1380kW = 61 / 3 = 20
+	power = -61 #1380kW = 61
 	resources = {
 		category = ship_components
 		cost = {
-			alloys = 38 #60 tons = 37 * 2 cost + 40 for gun / 3 = 38
+			alloys = 59 #60 tons = 37 cost + 22 for gun
 			efsf_ace_pilots = 1
 			luna_titanium = 1
 		}
@@ -885,23 +874,22 @@ strike_craft_component_template = {
 	regeneration_per_day = 0.034
 	launch_time = 8.0
 
-	damage = { min = 55 max = 110.5 } #damage = { min = 110 max = 221 } 1 Beam Rifle - Large MPC
-	cooldown = 20
-	range = 30
-	accuracy = 0.82
-	tracking = 0.65
+	damage = { min = 27.6 max = 55.2 } #Beam Rifle - Large MPC
+	cooldown = 1.0
+	range = 45
+	accuracy = 0.75
+	tracking = 0.3
 
-	health = 93
-	armor = 20 #Gundamium
+	health = 92
+	armor = 138 #Gundamium
 	shield = 0
-	evasion = 0.6
+	evasion = 0.55
 
-	speed = 267.75 #0.93G
+	speed = 268.0 #0.93G
 	rotation_speed = 0.1
 	acceleration = 0.5
 
 	shield_damage = 0.2 #MPC1
-	shield_penetration = 0
 	armor_penetration = 0.95
 
 	ship_behavior = "bombers_behavior"
@@ -921,11 +909,11 @@ strike_craft_component_template = {
 
 	weapon_type = point_defence
 	projectile_gfx = "MPC2"
-	power = -20 #1380kW = 61 / 3 = 20
+	power = -61 #1380kW = 61
 	resources = {
 		category = ship_components
 		cost = {
-			alloys = 38 #60 tons = 37 * 2 cost + 40 for gun / 3 = 38
+			alloys = 59 #60 tons = 37 cost + 22 for gun
 			efsf_ace_pilots = 1
 			luna_titanium = 1
 		}
@@ -935,23 +923,22 @@ strike_craft_component_template = {
 	regeneration_per_day = 0.034
 	launch_time = 8.0
 
-	damage = { min = 55 max = 110.5 } #damage = { min = 110 max = 221 } 1 Beam Rifle - Large MPC
-	cooldown = 20
-	range = 30
-	accuracy = 0.82
-	tracking = 0.65
+	damage = { min = 27.6 max = 55.2 } #Beam Rifle - Large MPC
+	cooldown = 1.0
+	range = 45
+	accuracy = 0.75
+	tracking = 0.3
 
-	health = 93
-	armor = 20 #Gundamium
-	shield = 50 #Experimental Beam Coating
-	evasion = 0.6
+	health = 92
+	armor = 138 #Gundamium
+	shield = 25 #Experimental Beam Coating
+	evasion = 0.55
 
-	speed = 267.75 #0.93G
+	speed = 268.0 #0.93G
 	rotation_speed = 0.1
-	acceleration = 0.55 #Increased maneuvrability from experimental magnetic coating
+	acceleration = 0.50
 
 	shield_damage = 0.2 #MPC1
-	shield_penetration = 0
 	armor_penetration = 0.95
 
 	ship_behavior = "bombers_behavior"
@@ -971,11 +958,11 @@ strike_craft_component_template = {
 
 	weapon_type = point_defence
 	projectile_gfx = "MPC2"
-	power = -78 #1480kW = 66 / 3 = 22 Used Doven Wolf values to represent external backpack
+	power = -69 #1480kW = 69 Used Doven Wolf values to represent external backpack
 	resources = {
 		category = ship_components
 		cost = {
-			alloys = 46 #80.2 tons = 49 * 2 cost + 40 for gun / 3 = 46
+			alloys = 97 #86.5 tons = 53 cost + 44 for gun
 			efsf_ace_pilots = 1
 			luna_titanium = 1
 		}
@@ -985,23 +972,22 @@ strike_craft_component_template = {
 	regeneration_per_day = 0.034
 	launch_time = 8.0
 
-	damage = { min = 210 max = 420 } #damage = { min = 420 max = 840 } Mega Beam Cannon
-	cooldown = 45
+	damage = { min = 105.0 max = 210.0 } #Mega Beam Cannon Doven Wolf reactor values
+	cooldown = 8.0
 	range = 90
-	accuracy = 0.9
-	tracking = 0.2
+	accuracy = 0.85
+	tracking = 0.0
 
-	health = 123
-	armor = 20 #Gundamium
-	shield = 50 #Experimental Beam Coating
-	evasion = 0.6
+	health = 133
+	armor = 200 #Gundamium
+	shield = 25 #Experimental Beam Coating
+	evasion = 0.57
 
-	speed = 255 #0.88G
+	speed = 236.3 #0.88G
 	rotation_speed = 0.1
-	acceleration = 0.55 #Increased maneuvrability from experimental magnetic coating
+	acceleration = 0.5
 
 	shield_damage = 0.2 #MPC1
-	shield_penetration = 0
 	armor_penetration = 0.95
 
 	ship_behavior = "bombers_behavior"
@@ -1021,11 +1007,11 @@ strike_craft_component_template = {
 
 	weapon_type = point_defence
 	projectile_gfx = "mass_driver_s"
-	power = -22 #1480kW = 66 / 3 = 22
+	power = -66 #1480kW = 66
 	resources = {
 		category = ship_components
 		cost = {
-			alloys = 40 #80.5 tons = 50 * 2 cost + 20 for gun / 3 = 48
+			alloys = 67 #80.5 tons = 50 + 17 for gun
 			efsf_ace_pilots = 1
 			luna_titanium = 1
 		}
@@ -1035,24 +1021,22 @@ strike_craft_component_template = {
 	regeneration_per_day = 0.034
 	launch_time = 8.0
 
-	damage = { min = 5 max = 12.5 } #damage = { min = 10 max = 25 } 120mm Gatling, same damage, higher fire rate, longer range, less accuracy
-	cooldown = 1
-	range = 40
-	accuracy = 0.7
-	tracking = 0.65
+	damage = { min = 2.0 max = 15.0 } #Giant Gatling Gun
+	cooldown = 0.35
+	range = 30
+	accuracy = 0.75
+	tracking = 0.5
 
-	health = 125
-	armor = 20 #Gundamium
-	shield = 50 #Experimental Beam Coating
+	health = 124
+	armor = 186 #Gundamium
+	shield = 25 #Experimental Beam Coating
 	evasion = 0.6
 
 	speed = 255 #0.88G
 	rotation_speed = 0.1
-	acceleration = 0.55 #Increased maneuvrability from experimental magnetic coating
+	acceleration = 0.50
 
-	shield_damage = 1.0 #MEDIUM AUTOCANNON
-	shield_penetration = 0
-	armor_penetration = 0.1
+	armor_damage = 0.25
 
 	ship_behavior = "bombers_behavior"
 
@@ -1071,11 +1055,11 @@ strike_craft_component_template = {
 
 	weapon_type = point_defence
 	projectile_gfx = "mass_driver_s"
-	power = -22 #1480kW = 66 / 3 = 22
+	power = -66 #1480kW = 66
 	resources = {
 		category = ship_components
 		cost = {
-			alloys = 40 #84.4 tons = 52 * 2 cost + 20 for gun / 3 = 48
+			alloys = 106 #84.4 tons = 66 cost + 40 for gun
 			efsf_ace_pilots = 1
 			luna_titanium = 1
 		}
@@ -1085,24 +1069,22 @@ strike_craft_component_template = {
 	regeneration_per_day = 0.034
 	launch_time = 8.0
 
-	damage = { min = 83.0 max = 187.5 } #damage = { min = 166.0 max = 375.0 } #300mm Cannon * 2
-	cooldown = 25
-	range = 90
-	accuracy = 0.6
+	damage = { min = 14.0 max = 92.0 } #2x300mm Cannon
+	cooldown = 4.0
+	range = 60
+	accuracy = 0.75
 	tracking = 0.0
 
 	health = 130
-	armor = 20 #Gundamium
-	shield = 50 #Experimental Beam Coating
-	evasion = 0.6
+	armor = 195 #Gundamium
+	shield = 25 #Experimental Beam Coating
+	evasion = 0.55
 
-	speed = 242.25 #0.84G
+	speed = 242 #0.84G
 	rotation_speed = 0.1
-	acceleration = 0.55 #Increased maneuvrability from experimental magnetic coating
+	acceleration = 0.5
 
-	shield_damage = 1.33 #KINETIC ARTILLERY
-	shield_penetration = 0
-	armor_penetration = 0.2
+	shield_damage = 1.5
 
 	ship_behavior = "bombers_behavior"
 
@@ -1121,11 +1103,11 @@ strike_craft_component_template = {
 
 	weapon_type = point_defence
 	projectile_gfx = "MPC2"
-	power = -25 #1670kW = 74 / 3 = 25
+	power = -74 #1670kW = 74
 	resources = {
 		category = ship_components
 		cost = {
-			alloys = 40 #78.7 tons = 48 * 2 cost + 20 for gun / 3 = 48
+			alloys = 70 #78.7 tons = 48 cost + 22 for gun
 			efsf_ace_pilots = 1
 			luna_titanium = 1
 		}
@@ -1135,23 +1117,22 @@ strike_craft_component_template = {
 	regeneration_per_day = 0.034
 	launch_time = 8.0
 
-	damage = { min = 67 max = 133.5 } #damage = { min = 134 max = 267 } 1 Beam Rifle - Large MPC
-	cooldown = 20
-	range = 30
-	accuracy = 0.82
-	tracking = 0.65
+	damage = { min = 33.4 max = 66.8 } #Beam Rifle - Large MPC
+	cooldown = 1.0
+	range = 45
+	accuracy = 0.75
+	tracking = 0.3
 
-	health = 120
-	armor = 20 #Gundamium
-	shield = 50 #Experimental Beam Coating
+	health = 121
+	armor = 182 #Gundamium
+	shield = 25 #Experimental Beam Coating
 	evasion = 0.6
 
-	speed = 259.25 #0.9G
+	speed = 259.3 #0.9G
 	rotation_speed = 0.1
-	acceleration = 0.55 #Increased maneuvrability from experimental magnetic coating
+	acceleration = 0.50
 
 	shield_damage = 0.2 #MPC1
-	shield_penetration = 0
 	armor_penetration = 0.95
 
 	ship_behavior = "bombers_behavior"
@@ -1171,11 +1152,11 @@ strike_craft_component_template = {
 
 	weapon_type = point_defence
 	projectile_gfx = "MPC2"
-	power = -21 #1420kW = 63 / 3 = 21
+	power = -63 #1420kW = 63
 	resources = {
 		category = ship_components
 		cost = {
-			alloys = 43 #72.5 tons = 45 * 2 cost + 40 for gun / 3 = 43
+			alloys = 67 #72.5 tons = 45 cost + 22 for gun
 			efsf_ace_pilots = 1
 			luna_titanium = 1
 		}
@@ -1185,23 +1166,22 @@ strike_craft_component_template = {
 	regeneration_per_day = 0.034
 	launch_time = 8.0
 
-	damage = { min = 57 max = 113.5 } #damage = { min = 114 max = 227 } 1 Beam Rifle - Large MPC
-	cooldown = 20
-	range = 30
-	accuracy = 0.82
-	tracking = 0.65
+	damage = { min = 28.4 max = 56.8 } #Beam Rifle - Large MPC
+	cooldown = 1.0
+	range = 45
+	accuracy = 0.75
+	tracking = 0.3
 
-	health = 113
-	armor = 20 #Gundamium
+	health = 112
+	armor = 168 #Gundamium
 	shield = 0
-	evasion = 0.65 #Really maneuvrable
+	evasion = 0.6 #Really maneuvrable
 
-	speed = 522.75 #1.82G
+	speed = 524.2 #1.82G
 	rotation_speed = 0.1
 	acceleration = 0.5
 
 	shield_damage = 0.2 #MPC1
-	shield_penetration = 0
 	armor_penetration = 0.95
 
 	ship_behavior = "bombers_behavior"
@@ -1221,11 +1201,11 @@ strike_craft_component_template = {
 
 	weapon_type = point_defence
 	projectile_gfx = "MPC2"
-	power = -21 #1420kW = 63 / 3 = 21
+	power = -63 #1420kW = 63
 	resources = {
 		category = ship_components
 		cost = {
-			alloys = 50 #90.0 tons = 55 * 2 cost + 40 for gun / 3 = 50
+			alloys = 77 #90.0 tons = 55 cost + 22 for gun
 			efsf_ace_pilots = 1
 			luna_titanium = 1
 		}
@@ -1235,23 +1215,22 @@ strike_craft_component_template = {
 	regeneration_per_day = 0.034
 	launch_time = 8.0
 
-	damage = { min = 57 max = 113.5 } #damage = { min = 114 max = 227 } 1 Beam Rifle - Large MPC
-	cooldown = 20
-	range = 30
-	accuracy = 0.82
-	tracking = 0.65
+	damage = { min = 28.4 max = 56.8 } #Beam Rifle - Large MPC
+	cooldown = 1.0
+	range = 45
+	accuracy = 0.75
+	tracking = 0.3
 
 	health = 138
-	armor = 25 #Gundamium + Chobham
+	armor = 207 #Gundamium + Chobham
 	shield = 0
-	evasion = 0.5 #Normal mobility due to increased armor
+	evasion = 0.55 #Normal mobility due to increased armor
 
-	speed = 522.75 #1.82G
+	speed = 527.3 #1.82G
 	rotation_speed = 0.1
 	acceleration = 0.5
 
 	shield_damage = 0.2 #MPC1
-	shield_penetration = 0
 	armor_penetration = 0.95
 
 	ship_behavior = "bombers_behavior"
@@ -1271,11 +1250,11 @@ strike_craft_component_template = {
 
 	weapon_type = point_defence
 	projectile_gfx = "MPC2"
-	power = -20 #1380kW = 61 / 3 = 20
+	power = -61 #1380kW = 61
 	resources = {
 		category = ship_components
 		cost = {
-			alloys = 71 #93.1 tons = 57 * 2 cost + 100 for gun / 3 = 55
+			alloys = 101 #93.1 tons = 57 cost + 44 for gun
 			efsf_ace_pilots = 1
 			luna_titanium = 1
 		}
@@ -1285,23 +1264,22 @@ strike_craft_component_template = {
 	regeneration_per_day = 0.034
 	launch_time = 8.0
 
-	damage = { min = 110.5 max = 221 } #damage = { min = 221 max = 442 } 1 Beam Rifle - Large MPC
-	cooldown = 20
-	range = 30
-	accuracy = 0.82
-	tracking = 0.65
+	damage = { min = 55.2 max = 110.4 } #Double Beam Cannon
+	cooldown = 2.0
+	range = 60
+	accuracy = 0.75
+	tracking = 0.3
 
 	health = 143
-	armor = 25 #Gundamium + FA
+	armor = 358 #Gundamium + FA
 	shield = 0
-	evasion = 0.3 #Poor Mobility
+	evasion = 0.5
 
-	speed = 187.29 #0.65G
+	speed = 187.3 #0.65G
 	rotation_speed = 0.1
 	acceleration = 0.5
 
 	shield_damage = 0.2 #MPC1
-	shield_penetration = 0
 	armor_penetration = 0.95
 
 	ship_behavior = "bombers_behavior"
@@ -1321,11 +1299,11 @@ strike_craft_component_template = {
 
 	weapon_type = point_defence
 	projectile_gfx = "MPC2"
-	power = -20 #1380kW = 61 / 3 = 20
+	power = -61 #1380kW = 61
 	resources = {
 		category = ship_components
 		cost = {
-			alloys = 51 #82.55 tons = 51 * 2 cost + 50 for gun / 3 = 55
+			alloys = 73 #82.55 tons = 51 cost + 22 for gun
 			efsf_ace_pilots = 1
 			luna_titanium = 1
 		}
@@ -1335,24 +1313,22 @@ strike_craft_component_template = {
 	regeneration_per_day = 0.034
 	launch_time = 8.0
 
-	damage = { min = 5 max = 12.5 } #damage = { min = 10 max = 25 }Frame Launcher
-	cooldown = 1
+	damage = { min = 2.0 max = 20.0 } #Frame Launcher
+	cooldown = 0.35
 	range = 30
-	accuracy = 0.7
-	tracking = 0.6
+	accuracy = 0.75
+	tracking = 0.5
 
 	health = 127
-	armor = 25 #Gundamium + FA
+	armor = 318 #Gundamium + FA
 	shield = 0
-	evasion = 0.7
+	evasion = 0.5
 
-	speed = 421 #1.46G
+	speed = 420.7 #1.46G
 	rotation_speed = 0.1
 	acceleration = 0.5
 
-	shield_damage = 1.0 #Gatling
-	shield_penetration = 0
-	armor_penetration = 0.1
+	armor_damage = 0.25
 
 	ship_behavior = "bombers_behavior"
 
@@ -1371,11 +1347,11 @@ strike_craft_component_template = {
 
 	weapon_type = point_defence
 	projectile_gfx = "MPC2"
-	power = -27 #1850kW = 82 / 3 = 27
+	power = -82 #1850kW = 82 / 3 = 27
 	resources = {
 		category = ship_components
 		cost = {
-			alloys = 62 #88.7 tons = 55 * 2 cost + 75 for gun / 3 = 55
+			alloys = 77 #88.7 tons = 55 cost + 22 for gun
 			efsf_ace_pilots = 1
 			luna_titanium = 1
 		}
@@ -1385,23 +1361,22 @@ strike_craft_component_template = {
 	regeneration_per_day = 0.034
 	launch_time = 8.0
 
-	damage = { min = 74 max = 148 } #damage = { min = 148 max = 296 } Long Range Beam Cannon
-	cooldown = 25
-	range = 75
-	accuracy = 0.8
-	tracking = 0.05
+	damage = { min = 37 max = 74 } #Long Range Beam Cannon
+	cooldown = 2.0
+	range = 60
+	accuracy = 0.75
+	tracking = 0.0
 
 	health = 136
-	armor = 25 #Gundamium + FA
+	armor = 340 #Gundamium + FA
 	shield = 0
 	evasion = 0.65
 
-	speed = 254 #0.88G
+	speed = 253.6 #0.88G
 	rotation_speed = 0.1
 	acceleration = 0.5
 
 	shield_damage = 0.2 #MPC1
-	shield_penetration = 0
 	armor_penetration = 0.95
 
 	ship_behavior = "bombers_behavior"
@@ -1421,37 +1396,36 @@ strike_craft_component_template = {
 
 	weapon_type = point_defence
 	projectile_gfx = "MPC2"
-	power = -29 #1930kW = 86
+	power = -86 #1930kW = 86
 	resources = {
 		category = ship_components
 		cost = {
-			alloys = 32 #54.1 tons = 33 * 2 Gundamium + 30 for gun
-			efsf_ace_pilots = 1
+			alloys = 165 #54.1 tons = 99 Gundamium + 66 for gun
+			efsf_ace_pilots = 3
 			luna_titanium = 1
 		}
 	}
 
-	count = 1
+	count = 3
 	regeneration_per_day = 0.034
 	launch_time = 8.0
 
-	damage = { min = 77 max = 154.5 } #damage = { min = 154 max = 309 } Beam Rifle
-	cooldown = 25
-	range = 30
-	accuracy = 0.82
-	tracking = 0.65
+	damage = { min = 38.6 max = 77.2 } #Beam Rifle
+	cooldown = 1.0
+	range = 45
+	accuracy = 0.75
+	tracking = 0.3
 
 	health = 83
-	armor = 20
+	armor = 83
 	shield = 0
-	evasion = 0.7 #Greatly improved performance
+	evasion = 0.65 #Greatly improved performance
 
-	speed = 433.5 #1.5G
+	speed = 432.2 #1.5G
 	rotation_speed = 0.1
 	acceleration = 0.5
 
-	shield_damage = 0.2 #MPC1
-	shield_penetration = 0
+	shield_damage = 0.2
 	armor_penetration = 0.95
 
 	ship_behavior = "bombers_behavior"
@@ -1461,7 +1435,203 @@ strike_craft_component_template = {
 	component_set = "RX_178_HANGAR_1"
 	prerequisites = { "tech_RX_178" }
 	tags = { weapon_type_strike_craft }
+	upgrades_to = "EFSF_MS_STRIKE_CRAFT_FA_178"
+}
+
+strike_craft_component_template = {
+	key = "EFSF_MS_STRIKE_CRAFT_RX_178_FXA_05D" #RX-178 Super Gundam
+	size = LARGE
+	entity = "Super_Gundam_entity"
+
+	weapon_type = point_defence
+	projectile_gfx = "MPC2"
+	power = -86 #1930kW = 86
+	resources = {
+		category = ship_components
+		cost = {
+			alloys = 92 #94.0 tons = 58 Gundamium + 34 for gun
+			efsf_ace_pilots = 1
+			luna_titanium = 1
+		}
+	}
+
+	count = 1
+	regeneration_per_day = 0.034
+	launch_time = 8.0
+
+	damage = { min = 77.2 max = 154.4 } #Beam Rifle
+	cooldown = 2.0
+	range = 90
+	accuracy = 0.75
+	tracking = 0.3
+
+	health = 145
+	armor = 218
+	shield = 0
+	evasion = 0.7 #Greatly improved performance
+
+	speed = 510.0 #1.7G
+	rotation_speed = 0.1
+	acceleration = 0.5
+
+	shield_damage = 0.2
+	armor_penetration = 0.95
+
+	ship_behavior = "bombers_behavior"
+
+	icon = "GFX_ship_part_rx_178"
+	icon_frame = 1
+	component_set = "RX_178_FXA_05D_HANGAR_1"
+	prerequisites = { "tech_RX_178" }
+	tags = { weapon_type_strike_craft }
+	#upgrades_to = "EFSF_MS_STRIKE_CRAFT_FA_178"
+}
+
+strike_craft_component_template = {
+	key = "EFSF_MS_STRIKE_CRAFT_FA_178" #FA-178 Full Armor Gundam Mk2
+	size = LARGE
+	entity = "FA_Gundam_Mk2_entity"
+
+	weapon_type = point_defence
+	projectile_gfx = "MPC2"
+	power = -86 #1930kW = 86
+	resources = {
+		category = ship_components
+		cost = {
+			alloys = 90 #74.3 tons = 46 Gundamium + 44 for gun
+			efsf_ace_pilots = 1
+			luna_titanium = 1
+		}
+	}
+
+	count = 1
+	regeneration_per_day = 0.034
+	launch_time = 8.0
+
+	damage = { min = 77.2 max = 154.4 } #Double Beam Cannon
+	cooldown = 2.0
+	range = 60
+	accuracy = 0.75
+	tracking = 0.3
+
+	health = 114
+	armor = 228
+	shield = 0
+	evasion = 0.60
+
+	speed = 484.1 #1.68G
+	rotation_speed = 0.1
+	acceleration = 0.5
+
+	shield_damage = 0.2
+	armor_penetration = 0.95
+
+	ship_behavior = "bombers_behavior"
+
+	icon = "GFX_ship_part_fa_178"
+	icon_frame = 1
+	component_set = "FA_178_HANGAR_1"
+	prerequisites = { "tech_FA_178" }
+	tags = { weapon_type_strike_craft }
 	#upgrades_to = "EFSF_MS_STRIKE_CRAFT_RX_78_3"
+}
+
+strike_craft_component_template = {
+	key = "EFSF_MS_STRIKE_CRAFT_MSF_007" #MSF-007 Gundam Mk-III
+	size = LARGE
+	entity = "FA_Gundam_Mk3_entity"
+
+	weapon_type = point_defence
+	projectile_gfx = "MPC2"
+	power = -90 #2022kW = 90
+	resources = {
+		category = ship_components
+		cost = {
+			alloys = 156 #48.2 tons = 90 Gundamium + 66 for gun
+			efsf_ace_pilots = 3
+			luna_titanium = 1
+		}
+	}
+
+	count = 3
+	regeneration_per_day = 0.034
+	launch_time = 8.0
+
+	damage = { min = 40.4 max = 80.8 } #Beam Rifle
+	cooldown = 1.0
+	range = 45
+	accuracy = 0.75
+	tracking = 0.3
+
+	health = 74
+	armor = 148
+	shield = 0
+	evasion = 0.7 #Greatly improved performance
+
+	speed = 524.4 #1.5G
+	rotation_speed = 0.1
+	acceleration = 0.5
+
+	shield_damage = 0.2
+	armor_penetration = 0.95
+
+	ship_behavior = "bombers_behavior"
+
+	icon = "GFX_ship_part_msf_007"
+	icon_frame = 1
+	component_set = "MSF_007_HANGAR_1"
+	prerequisites = { "tech_MSF_007" }
+	tags = { weapon_type_strike_craft }
+	upgrades_to = "EFSF_MS_STRIKE_CRAFT_FA_178"
+}
+
+strike_craft_component_template = {
+	key = "EFSF_MS_STRIKE_CRAFT_FA_007GIII" #FA-007GIII FA Gundam Mk-III
+	size = LARGE
+	entity = "FA_Gundam_Mk3_entity"
+
+	weapon_type = point_defence
+	projectile_gfx = "MPC2"
+	power = -135 #3040kw = 135
+	resources = {
+		category = ship_components
+		cost = {
+			alloys = 82 #48.2 tons = 38 Gundamium + 44 for gun
+			efsf_ace_pilots = 1
+			luna_titanium = 1
+		}
+	}
+
+	count = 1
+	regeneration_per_day = 0.034
+	launch_time = 8.0
+
+	damage = { min = 121.6 max = 243.2 } #Beam Rifle
+	cooldown = 2.0
+	range = 60
+	accuracy = 0.75
+	tracking = 0.3
+
+	health = 96
+	armor = 288
+	shield = 0
+	evasion = 0.6 #Greatly improved performance
+
+	speed = 654.1 #1.5G
+	rotation_speed = 0.1
+	acceleration = 0.5
+
+	shield_damage = 0.2
+	armor_penetration = 0.95
+
+	ship_behavior = "bombers_behavior"
+
+	icon = "GFX_ship_part_fa_007giii"
+	icon_frame = 1
+	component_set = "FA_007GIII_HANGAR_1"
+	prerequisites = { "tech_FA_007GIII" }
+	tags = { weapon_type_strike_craft }
+	#upgrades_to = "EFSF_MS_STRIKE_CRAFT_FA_178"
 }
 
 strike_craft_component_template = {
@@ -1475,7 +1645,7 @@ strike_craft_component_template = {
 	resources = {
 		category = ship_components
 		cost = {
-			alloys = 50 #65.8 tons = 40 cost + 10 for gun
+			alloys = 144 #65.8 tons = 120 cost + 24 for gun
 			efsf_pilots = 3
 		}
 	}
@@ -1484,24 +1654,23 @@ strike_craft_component_template = {
 	regeneration_per_day = 0.034
 	launch_time = 8.0
 
-	damage = { min = 5 max = 10 } #damage = { min = 10 max = 20 } 90mm
-	cooldown = 5
-	range = 25
-	accuracy = 0.82
-	tracking = 0.65
+	damage = { min = 2 max = 8 } #90mm
+	cooldown = 0.5
+	range = 30
+	accuracy = 0.75
+	tracking = 0.7
 
-	health = 100
-	armor = 10
+	health = 101
+	armor = 33
 	shield = 0
-	evasion = 0.5
+	evasion = 0.53
 
-	speed = 246.5 #0.85G
+	speed = 244.9 #0.85G
 	rotation_speed = 0.1
 	acceleration = 0.5
 
-	shield_damage = 1.0 #MEDIUM AUTOCANNON
-	shield_penetration = 0
-	armor_penetration = 0.1
+	shield_damage = 1.5
+	armor_damage = 0.2
 
 	ship_behavior = "bombers_behavior"
 
@@ -1524,7 +1693,7 @@ strike_craft_component_template = {
 	resources = {
 		category = ship_components
 		cost = {
-			alloys = 46 #58.8 tons = 36 cost + 10 for gun
+			alloys = 132 #58.8 tons = 108 cost + 24 for gun
 			efsf_pilots = 3
 		}
 	}
@@ -1533,24 +1702,23 @@ strike_craft_component_template = {
 	regeneration_per_day = 0.034
 	launch_time = 8.0
 
-	damage = { min = 5 max = 10 } #damage = { min = 10 max = 20 } 90mm
-	cooldown = 5
-	range = 25
-	accuracy = 0.82
-	tracking = 0.65
+	damage = { min = 2 max = 8 } #90mm
+	cooldown = 0.5
+	range = 30
+	accuracy = 0.75
+	tracking = 0.7
 
 	health = 90
-	armor = 10
+	armor = 30
 	shield = 0
-	evasion = 0.5
+	evasion = 0.55
 
-	speed = 272 #0.94G
+	speed = 270.8 #0.94G
 	rotation_speed = 0.1
 	acceleration = 0.5
 
-	shield_damage = 1.0 #MEDIUM AUTOCANNON
-	shield_penetration = 0
-	armor_penetration = 0.1
+	shield_damage = 1.5
+	armor_damage = 0.2
 
 	ship_behavior = "bombers_behavior"
 
@@ -1569,11 +1737,11 @@ strike_craft_component_template = {
 
 	weapon_type = instant
 	projectile_gfx = "gundam_missile"
-	power = -56 #1250kW = 62
+	power = -56 #1250kW = 56
 	resources = {
 		category = ship_components
 		cost = {
-			alloys = 61 #58.8 tons = 36 cost + 25 for gun
+			alloys = 174 #58.8 tons = 108 cost + 66 for gun
 			efsf_pilots = 3
 		}
 	}
@@ -1582,24 +1750,23 @@ strike_craft_component_template = {
 	regeneration_per_day = 0.034
 	launch_time = 8.0
 
-	damage = { min = 27.5 max = 50 } #damage = { min = 55 max = 100 } 380mm Bazooka
-	cooldown = 20
+	damage = { min = 4.0 max = 7.0 } #380mm Bazooka
+	cooldown = 0.5
 	range = 60
-	accuracy = 0.8
-	tracking = 0.2
+	accuracy = 1.0
+	tracking = 0.25
 
 	health = 90
-	armor = 10
+	armor = 30
 	shield = 0
-	evasion = 0.5
+	evasion = 0.55
 
-	speed = 272 #0.94G
+	speed = 270.8 #0.94G
 	rotation_speed = 0.1
 	acceleration = 0.5
 
-	shield_damage = 1.15 #MEDIUM MISSILE
-	shield_penetration = 0
-	armor_penetration = 0.25
+	hull_damage = 1.25
+	shield_penetration = 1.0
 
 	ship_behavior = "bombers_behavior"
 
@@ -1618,11 +1785,11 @@ strike_craft_component_template = {
 
 	weapon_type = point_defence
 	projectile_gfx = "MPC2"
-	power = -56 #1250kW = 56
+	power = -43 #976kw = 43
 	resources = {
 		category = ship_components
 		cost = {
-			alloys = 43 #36.8 tons = 23 cost + 20 for gun
+			alloys = 117 #36.8 tons = 69 cost + 39 for gun
 			efsf_pilots = 3
 		}
 	}
@@ -1631,24 +1798,23 @@ strike_craft_component_template = {
 	regeneration_per_day = 0.034
 	launch_time = 8.0
 
-	damage = { min = 12.5 max = 37.5 } #damage = { min = 25 max = 75 } Beam Scatter Gun
-	cooldown = 5
-	range = 40
-	accuracy = 0.8
-	tracking = 0.6
+	damage = { min = 12.5 max = 25.0 } #Beam Scatter Gun
+	cooldown = 0.5
+	range = 15
+	accuracy = 0.75
+	tracking = 0.5
 
 	health = 57
-	armor = 3
+	armor = 14
 	shield = 0
-	evasion = 0.7 #Super maneuvrable
+	evasion = 0.6 #Super maneuvrable
 
-	speed = 272 #0.94G
+	speed = 270.8 #0.94G
 	rotation_speed = 0.1
 	acceleration = 0.5
 
-	shield_damage = 0.2 #MPC1
-	shield_penetration = 0
-	armor_penetration = 0.95 #lowered penetration due to weaker weapon
+	shield_damage = 0.2
+	armor_penetration = 0.95
 
 	ship_behavior = "bombers_behavior"
 
@@ -1667,11 +1833,11 @@ strike_craft_component_template = {
 
 	weapon_type = point_defence
 	projectile_gfx = "MPC2"
-	power = -56 #1250kW = 62
+	power = -56 #1250kW = 56
 	resources = {
 		category = ship_components
 		cost = {
-			alloys = 56 #58.8 tons = 36 cost + 20 for gun
+			alloys = 147 #58.8 tons = 108 cost + 39 for gun
 			efsf_pilots = 3
 		}
 	}
@@ -1680,24 +1846,23 @@ strike_craft_component_template = {
 	regeneration_per_day = 0.034
 	launch_time = 8.0
 
-	damage = { min = 12.5 max = 37.5 } #damage = { min = 25 max = 75 } Beam Scatter Gun
-	cooldown = 5
-	range = 40
-	accuracy = 0.8
-	tracking = 0.6
+	damage = { min = 12.5 max = 25.0 } #Beam Scatter Gun
+	cooldown = 0.5
+	range = 15
+	accuracy = 0.75
+	tracking = 0.5
 
 	health = 90
-	armor = 10
+	armor = 36
 	shield = 0
-	evasion = 0.5
+	evasion = 0.57
 
-	speed = 280.5 #0.98G
+	speed = 282.4 #0.98G
 	rotation_speed = 0.1
 	acceleration = 0.5
 
-	shield_damage = 0.2 #MPC1
-	shield_penetration = 0
-	armor_penetration = 0.95 #lowered penetration due to weaker weapon
+	shield_damage = 0.2
+	armor_penetration = 0.95
 
 	ship_behavior = "bombers_behavior"
 
@@ -1716,11 +1881,11 @@ strike_craft_component_template = {
 
 	weapon_type = instant
 	projectile_gfx = "gundam_missile"
-	power = -56 #1250kW = 62
+	power = -56 #1250kW = 56
 	resources = {
 		category = ship_components
 		cost = {
-			alloys = 61 #58.8 tons = 36 cost + 25 for gun
+			alloys = 174 #58.8 tons = 108 cost + 66 for gun
 			efsf_pilots = 3
 		}
 	}
@@ -1729,24 +1894,24 @@ strike_craft_component_template = {
 	regeneration_per_day = 0.034
 	launch_time = 8.0
 
-	damage = { min = 27.5 max = 50.0 } #damage = { min = 55.0 max = 100.0 } 380mm Bazooka
-	cooldown = 20
+	damage = { min = 4.0 max = 7.0 } #380mm Bazooka
+	cooldown = 0.5
 	range = 60
-	accuracy = 0.8
-	tracking = 0.2
+	accuracy = 1.0
+	tracking = 0.25
+
 
 	health = 90
-	armor = 10
+	armor = 36
 	shield = 0
-	evasion = 0.5
+	evasion = 0.57
 
-	speed = 280.5 #0.98G
+	speed = 282.4 #0.98G
 	rotation_speed = 0.1
 	acceleration = 0.5
 
-	shield_damage = 1.15 #MEDIUM MISSILE
-	shield_penetration = 0
-	armor_penetration = 0.25
+	hull_damage = 1.25
+	shield_penetration = 1.0
 
 	ship_behavior = "bombers_behavior"
 
@@ -1769,7 +1934,7 @@ strike_craft_component_template = {
 	resources = {
 		category = ship_components
 		cost = {
-			alloys = 50 #64.2 tons = 40 cost + 10 for gun
+			alloys = 144 #64.2 tons = 120 cost + 24 for gun
 			efsf_pilots = 3
 		}
 	}
@@ -1778,24 +1943,23 @@ strike_craft_component_template = {
 	regeneration_per_day = 0.034
 	launch_time = 8.0
 
-	damage = { min = 5 max = 10 } #damage = { min = 10 max = 20 } 90mm
-	cooldown = 5
-	range = 25
-	accuracy = 0.82
-	tracking = 0.65
+	damage = { min = 2 max = 8 } #90mm
+	cooldown = 0.5
+	range = 30
+	accuracy = 0.75
+	tracking = 0.7
 
-	health = 100
-	armor = 10
+	health = 99
+	armor = 44
 	shield = 0
-	evasion = 0.5 #Maybe improved by thrusters?
+	evasion = 0.55
 
-	speed = 318.75 #1.11G
+	speed = 319.8 #1.11G
 	rotation_speed = 0.1
 	acceleration = 0.5
 
-	shield_damage = 1.0 #MEDIUM AUTOCANNON
-	shield_penetration = 0
-	armor_penetration = 0.1
+	shield_damage = 1.5
+	armor_damage = 0.2
 
 	ship_behavior = "bombers_behavior"
 
@@ -1818,7 +1982,7 @@ strike_craft_component_template = {
 	resources = {
 		category = ship_components
 		cost = {
-			alloys = 65 #64.2 tons = 40 cost + 25 for gun
+			alloys = 186 #64.2 tons = 120 cost + 66 for gun
 			efsf_pilots = 3
 		}
 	}
@@ -1827,24 +1991,23 @@ strike_craft_component_template = {
 	regeneration_per_day = 0.034
 	launch_time = 8.0
 
-	damage = { min = 27.5 max = 50.0 } #damage = { min = 55.0 max = 100.0 } 380mm Bazooka
-	cooldown = 20
+	damage = { min = 4.0 max = 7.0 } #380mm Bazooka
+	cooldown = 0.5
 	range = 60
-	accuracy = 0.8
-	tracking = 0.2
+	accuracy = 1.0
+	tracking = 0.25
 
-	health = 100
-	armor = 10
+	health = 99
+	armor = 44
 	shield = 0
-	evasion = 0.5
+	evasion = 0.55
 
-	speed = 318.75 #1.11G
+	speed = 319.8 #1.11G
 	rotation_speed = 0.1
 	acceleration = 0.5
 
-	shield_damage = 1.15 #MEDIUM MISSILE
-	shield_penetration = 0
-	armor_penetration = 0.25
+	hull_damage = 1.25
+	shield_penetration = 1.0
 
 	ship_behavior = "bombers_behavior"
 
@@ -1867,7 +2030,7 @@ strike_craft_component_template = {
 	resources = {
 		category = ship_components
 		cost = {
-			alloys = 45 #57.6 tons = 35 cost + 10 for gun
+			alloys = 171 #57.6 tons = 105 cost + 66 for gun
 			efsf_pilots = 3
 		}
 	}
@@ -1876,24 +2039,23 @@ strike_craft_component_template = {
 	regeneration_per_day = 0.034
 	launch_time = 8.0
 
-	damage = { min = 5 max = 10 } #damage = { min = 10 max = 20 } 90mm
-	cooldown = 5
-	range = 25
-	accuracy = 0.82
-	tracking = 0.65
+	damage = { min = 28.4 max = 56.8 } #Beam Rifle
+	cooldown = 1.0
+	range = 45
+	accuracy = 0.75
+	tracking = 0.3
 
-	health = 88
-	armor = 10
+	health = 89
+	armor = 45
 	shield = 0
 	evasion = 0.6 #Greatly improved performance
 
-	speed = 335.75 #1.17G
+	speed = 337.1 #1.17G
 	rotation_speed = 0.1
 	acceleration = 0.5
 
-	shield_damage = 1.0 #MEDIUM AUTOCANNON
-	shield_penetration = 0
-	armor_penetration = 0.2 #GM Rifle improved over bullpup
+	shield_damage = 0.2
+	armor_penetration = 0.95
 
 	ship_behavior = "bombers_behavior"
 
@@ -1916,7 +2078,7 @@ strike_craft_component_template = {
 	resources = {
 		category = ship_components
 		cost = {
-			alloys = 60 #57.6 tons = 35 cost + 25 for gun
+			alloys = 171 #57.6 tons = 105 cost + 66 for gun
 			efsf_pilots = 3
 		}
 	}
@@ -1925,24 +2087,23 @@ strike_craft_component_template = {
 	regeneration_per_day = 0.034
 	launch_time = 8.0
 
-	damage = { min = 27.5 max = 50.0 } #damage = { min = 55.0 max = 100.0 } 380mm Bazooka
-	cooldown = 20
+	damage = { min = 4.0 max = 7.0 } #380mm Bazooka
+	cooldown = 0.5
 	range = 60
-	accuracy = 0.8
-	tracking = 0.2
+	accuracy = 1.0
+	tracking = 0.25
 
-	health = 88
-	armor = 10
+	health = 89
+	armor = 45
 	shield = 0
 	evasion = 0.6 #Greatly improved performance
 
-	speed = 335.75 #1.17G
+	speed = 337.1 #1.17G
 	rotation_speed = 0.1
 	acceleration = 0.5
 
-	shield_damage = 1.15 #MEDIUM MISSILE
-	shield_penetration = 0
-	armor_penetration = 0.25
+	hull_damage = 1.25
+	shield_penetration = 1.0
 
 	ship_behavior = "bombers_behavior"
 
@@ -1965,7 +2126,7 @@ strike_craft_component_template = {
 	resources = {
 		category = ship_components
 		cost = {
-			alloys = 65 #56.3 tons = 35 cost + 30 for gun
+			alloys = 171 #56.3 tons = 105 cost + 66 for gun
 			efsf_pilots = 3
 		}
 	}
@@ -1974,23 +2135,22 @@ strike_craft_component_template = {
 	regeneration_per_day = 0.034
 	launch_time = 8.0
 
-	damage = { min = 57 max = 113.5 } #damage = { min = 114 max = 227 } Beam Rifle
-	cooldown = 25
-	range = 30
-	accuracy = 0.82
-	tracking = 0.65
+	damage = { min = 28.4 max = 56.8 } #Beam Rifle
+	cooldown = 1.0
+	range = 45
+	accuracy = 0.75
+	tracking = 0.3
 
-	health = 88
-	armor = 10
+	health = 87
+	armor = 87
 	shield = 0
 	evasion = 0.6 #Greatly improved performance
 
-	speed = 314.5 #1.09G
+	speed = 314.1 #1.09G
 	rotation_speed = 0.1
 	acceleration = 0.5
 
-	shield_damage = 0.2 #MPC1
-	shield_penetration = 0
+	shield_damage = 0.2
 	armor_penetration = 0.95
 
 	ship_behavior = "bombers_behavior"
@@ -2014,7 +2174,7 @@ strike_craft_component_template = {
 	resources = {
 		category = ship_components
 		cost = {
-			alloys = 60 #56.3 tons = 35 cost + 25 for gun
+			alloys = 171 #56.3 tons = 105 cost + 66 for gun
 			efsf_pilots = 3
 		}
 	}
@@ -2023,24 +2183,23 @@ strike_craft_component_template = {
 	regeneration_per_day = 0.034
 	launch_time = 8.0
 
-	damage = { min = 27.5 max = 50.0 } #damage = { min = 55.0 max = 100.0 } 380mm Bazooka
-	cooldown = 20
+	damage = { min = 4.0 max = 7.0 } #380mm Bazooka
+	cooldown = 0.5
 	range = 60
-	accuracy = 0.8
-	tracking = 0.2
+	accuracy = 1.0
+	tracking = 0.25
 
-	health = 88
-	armor = 10
+	health = 87
+	armor = 87
 	shield = 0
 	evasion = 0.6 #Greatly improved performance
 
-	speed = 314.5 #1.09G
+	speed = 314.1 #1.09G
 	rotation_speed = 0.1
 	acceleration = 0.5
 
-	shield_damage = 1.15 #MEDIUM MISSILE
-	shield_penetration = 0
-	armor_penetration = 0.25
+	hull_damage = 1.25
+	shield_penetration = 1.0
 
 	ship_behavior = "bombers_behavior"
 
@@ -2059,11 +2218,11 @@ strike_craft_component_template = {
 
 	weapon_type = point_defence
 	projectile_gfx = "MPC2"
-	power = -21 #1420kW = 63
+	power = -63 #1420kW = 63
 	resources = {
 		category = ship_components
 		cost = {
-			alloys = 22 #56.3 tons = 35 cost + 30 for gun
+			alloys = 57 #56.3 tons = 35 cost + 22 for gun
 			efsf_pilots= 1
 		}
 	}
@@ -2072,23 +2231,22 @@ strike_craft_component_template = {
 	regeneration_per_day = 0.034
 	launch_time = 8.0
 
-	damage = { min = 57 max = 113.5 } #damage = { min = 114 max = 227 } Beam Rifle
-	cooldown = 25
-	range = 30
-	accuracy = 0.82
-	tracking = 0.65
+	damage = { min = 28.4 max = 56.8 } #Beam Rifle
+	cooldown = 1.0
+	range = 45
+	accuracy = 0.75
+	tracking = 0.3
 
-	health = 88
-	armor = 10
+	health = 87
+	armor = 87
 	shield = 0
-	evasion = 0.6 #Greatly improved performance
+	evasion = 0.63 #Greatly improved performance
 
-	speed = 378.25 #1.31G
+	speed = 377.5 #1.31G
 	rotation_speed = 0.1
 	acceleration = 0.5
 
-	shield_damage = 0.2 #MPC1
-	shield_penetration = 0
+	shield_damage = 0.2
 	armor_penetration = 0.95
 
 	ship_behavior = "bombers_behavior"
@@ -2108,11 +2266,11 @@ strike_craft_component_template = {
 
 	weapon_type = point_defence
 	projectile_gfx = "MPC2"
-	power = -21 #1390kW = 62
+	power = -62 #1390kW = 62
 	resources = {
 		category = ship_components
 		cost = {
-			alloys = 22 #56.8 tons = 35 + 30 for gun
+			alloys = 58 #56.8 tons = 36 + 22 for gun
 			efsf_pilots = 1
 		}
 	}
@@ -2121,23 +2279,22 @@ strike_craft_component_template = {
 	regeneration_per_day = 0.034
 	launch_time = 8.0
 
-	damage = { min = 55.5 max = 111 } #damage = { min = 111 max = 222 } Beam Rifle
-	cooldown = 25
-	range = 30
-	accuracy = 0.82
-	tracking = 0.65
+	damage = { min = 28.4 max = 56.8 } #Beam Rifle
+	cooldown = 1.0
+	range = 45
+	accuracy = 0.75
+	tracking = 0.3
 
-	health = 88
-	armor = 10
+	health = 90
+	armor = 90
 	shield = 0
 	evasion = 0.6 #Greatly improved performance
 
-	speed = 335.75 #1.16G
+	speed = 334.2 #1.16G
 	rotation_speed = 0.1
 	acceleration = 0.5
 
-	shield_damage = 0.2 #MPC1
-	shield_penetration = 0
+	shield_damage = 0.2
 	armor_penetration = 0.95
 
 	ship_behavior = "bombers_behavior"
@@ -2157,36 +2314,35 @@ strike_craft_component_template = {
 
 	weapon_type = point_defence
 	projectile_gfx = "MPC2"
-	power = -21 #1390kW = 62
+	power = -62 #1390kW = 62
 	resources = {
 		category = ship_components
 		cost = {
-			alloys = 32 #75.3 tons = 46 + 50 for gun
-			efsf_ace_pilots = 1
+			alloys = 240 #75.3 tons = 138 + 102 for gun
+			efsf_ace_pilots = 3
 		}
 	}
 
-	count = 1
+	count = 3
 	regeneration_per_day = 0.034
 	launch_time = 8.0
 
-	damage = { min = 55.5 max = 111 } #damage = { min = 111 max = 222 } Beam Sniper/MPC 1
-	cooldown = 35
+	damage = { min = 55.6 max = 111.2 } #Beam Sniper/MPC 1
+	cooldown = 2.0
 	range = 90
-	accuracy = 0.9
-	tracking = 0.8
+	accuracy = 0.75
+	tracking = 0.3
 
-	health = 115
-	armor = 12 #Reinforced Armor
+	health = 116
+	armor = 58
 	shield = 0
-	evasion = 0.6 #Greatly improved performance
+	evasion = 0.57
 
-	speed = 259.25 #0.9G
+	speed = 259.3 #0.9G
 	rotation_speed = 0.1
 	acceleration = 0.5
 
-	shield_damage = 0.2 #MPC1
-	shield_penetration = 0
+	shield_damage = 0.2
 	armor_penetration = 0.95
 
 	ship_behavior = "bombers_behavior"
@@ -2210,7 +2366,7 @@ strike_craft_component_template = {
 	resources = {
 		category = ship_components
 		cost = {
-			alloys = 126 #61.0 tons = 38 * 2 + 50 for gun
+			alloys = 226 #61.0 tons = 114 + 102 for gun
 			efsf_ace_pilots = 3
 			luna_titanium = 1
 		}
@@ -2220,23 +2376,22 @@ strike_craft_component_template = {
 	regeneration_per_day = 0.034
 	launch_time = 8.0
 
-	damage = { min = 55.5 max = 111 } #damage = { min = 111 max = 222 } Beam Sniper/MPC 1
-	cooldown = 35
+	damage = { min = 55.6 max = 111.2 } #Beam Sniper/MPC 1
+	cooldown = 2.0
 	range = 90
-	accuracy = 0.9
-	tracking = 0.8
+	accuracy = 0.75
+	tracking = 0.3
 
-	health = 95
-	armor = 15 #Reinforced Armor
+	health = 94
+	armor = 71 #Reinforced Armor
 	shield = 0
 	evasion = 0.6 #Greatly improved performance
 
-	speed = 480.25 #1.67G
+	speed = 481.2 #1.67G
 	rotation_speed = 0.1
 	acceleration = 0.5
 
-	shield_damage = 0.2 #MPC1
-	shield_penetration = 0
+	shield_damage = 0.2
 	armor_penetration = 0.95
 
 	ship_behavior = "bombers_behavior"
@@ -2260,7 +2415,7 @@ strike_craft_component_template = {
 	resources = {
 		category = ship_components
 		cost = {
-			alloys = 88 #58.8 tons = 36 + 2 for armor + 50 for gun
+			alloys = 220 #58.8 tons = 108 + 102 for gun
 			efsf_ace_pilots = 3
 		}
 	}
@@ -2269,23 +2424,22 @@ strike_craft_component_template = {
 	regeneration_per_day = 0.034
 	launch_time = 8.0
 
-	damage = { min = 60.5 max = 121.5 } #damage = { min = 121 max = 243 } Beam Sniper/MPC 1
-	cooldown = 35
+	damage = { min = 60.8 max = 121.6 } #Beam Sniper/MPC 1
+	cooldown = 2.0
 	range = 90
-	accuracy = 0.9
-	tracking = 0.8
+	accuracy = 0.75
+	tracking = 0.3
 
 	health = 90
-	armor = 12 #Reinforced Armor
+	armor = 90 #Reinforced Armor
 	shield = 0
 	evasion = 0.65 #Greatly improved performance
 
-	speed = 335.75 #1.16G
+	speed = 334.2 #1.16G
 	rotation_speed = 0.1
 	acceleration = 0.5
 
-	shield_damage = 0.2 #MPC1
-	shield_penetration = 0
+	shield_damage = 0.2
 	armor_penetration = 0.95
 
 	ship_behavior = "bombers_behavior"
@@ -2309,7 +2463,7 @@ strike_craft_component_template = {
 	resources = {
 		category = ship_components
 		cost = {
-			alloys = 90 #58.8 tons = 36 + 4 for armor + 50 for gun
+			alloys = 220 #58.8 tons = 108 + 102 for gun
 			efsf_ace_pilots = 3
 		}
 	}
@@ -2318,23 +2472,22 @@ strike_craft_component_template = {
 	regeneration_per_day = 0.034
 	launch_time = 8.0
 
-	damage = { min = 68.5 max = 137.5 } #damage = { min = 137 max = 275 } Beam Sniper/MPC 1
-	cooldown = 35
+	damage = { min = 68.8 max = 129.6 } #Beam Sniper/MPC 1
+	cooldown = 2.0
 	range = 90
-	accuracy = 0.9
-	tracking = 0.8
+	accuracy = 0.75
+	tracking = 0.3
 
 	health = 90
-	armor = 14 #Reinforced Armor
+	armor = 90 #Reinforced Armor
 	shield = 0
 	evasion = 0.7 #Greatly improved performance
 
-	speed = 335.75 #1.16G
+	speed = 334.2 #1.16G
 	rotation_speed = 0.1
 	acceleration = 0.5
 
-	shield_damage = 0.2 #MPC1
-	shield_penetration = 0
+	shield_damage = 0.2
 	armor_penetration = 0.95
 
 	ship_behavior = "bombers_behavior"
@@ -2354,11 +2507,11 @@ strike_craft_component_template = {
 
 	weapon_type = point_defence
 	projectile_gfx = "MPC2"
-	power = -72 #1620 = 6872
+	power = -72 #1620 = 72
 	resources = {
 		category = ship_components
 		cost = {
-			alloys = 98 #55.6 tons = 34 * 2 for armor + 30 for gun
+			alloys = 168 #55.6 tons = 102 for armor + 66 for gun
 			efsf_pilots = 3
 			luna_titanium = 1
 		}
@@ -2368,23 +2521,22 @@ strike_craft_component_template = {
 	regeneration_per_day = 0.034
 	launch_time = 8.0
 
-	damage = { min = 65 max = 129.5 } #damage = { min = 130 max = 259 } Beam Rifle
-	cooldown = 20
-	range = 30
-	accuracy = 0.82
-	tracking = 0.65
+	damage = { min = 32.4 max = 64.8 } #Beam Rifle
+	cooldown = 1.0
+	range = 45
+	accuracy = 0.75
+	tracking = 0.3
 
-	health = 85
-	armor = 15 #Gundarium
+	health = 86
+	armor = 172 #Gundarium
 	shield = 0
-	evasion = 0.7 #Greatly improved performance
+	evasion = 0.6 #Greatly improved performance
 
-	speed = 331.5 #1.15G
+	speed = 331.4 #1.15G
 	rotation_speed = 0.1
 	acceleration = 0.5
 
-	shield_damage = 0.2 #MPC1
-	shield_penetration = 0
+	shield_damage = 0.2
 	armor_penetration = 0.95
 
 	ship_behavior = "bombers_behavior"
@@ -2404,11 +2556,11 @@ strike_craft_component_template = {
 
 	weapon_type = point_defence
 	projectile_gfx = "MPC2"
-	power = -72 #1620 = 6872
+	power = -72 #1620 = 72
 	resources = {
 		category = ship_components
 		cost = {
-			alloys = 88 #55.6 tons = 34 * 2 for armor + 20 for gun
+			alloys = 201 #55.6 tons = 102 for armor + 99 for gun
 			efsf_pilots = 3
 			luna_titanium = 1
 		}
@@ -2418,24 +2570,23 @@ strike_craft_component_template = {
 	regeneration_per_day = 0.034
 	launch_time = 8.0
 
-	damage = { min = 24 max = 43 } #damage = { min = 48 max = 86 } 300mm Clay Bazooka
-	cooldown = 15
+	damage = { min = 6 max = 14 } #300mm Clay Bazooka
+	cooldown = 0.5
 	range = 60
-	accuracy = 0.8
-	tracking = 0.2
+	accuracy = 100.0
+	tracking = 0.25
 
-	health = 85
-	armor = 15 #Gundarium
+	health = 86
+	armor = 172 #Gundarium
 	shield = 0
-	evasion = 0.7 #Greatly improved performance
+	evasion = 0.6 #Greatly improved performance
 
-	speed = 331.5 #1.15G
+	speed = 331.4 #1.15G
 	rotation_speed = 0.1
 	acceleration = 0.5
 
-	shield_damage = 1.15 #MEDIUM MISSILE
-	shield_penetration = 0
-	armor_penetration = 0.25
+	shield_penetration = 1.0
+	hull_damage = 1.25
 
 	ship_behavior = "bombers_behavior"
 
@@ -2454,11 +2605,11 @@ strike_craft_component_template = {
 
 	weapon_type = point_defence
 	projectile_gfx = "MPC2"
-	power = -27 #1620 + 200 = 81
+	power = -81 #1620 + 200 = 81
 	resources = {
 		category = ship_components
 		cost = {
-			alloys = 33 #56.2 tons = 35 * 2 for armor + 30 for gun
+			alloys = 57 #56.2 tons = 35 for armor + 22 for gun
 			efsf_pilots = 1
 			luna_titanium = 1
 		}
@@ -2468,23 +2619,22 @@ strike_craft_component_template = {
 	regeneration_per_day = 0.034
 	launch_time = 8.0
 
-	damage = { min = 73 max = 145.5 } #damage = { min = 146 max = 291 } Beam Rifle
-	cooldown = 20
-	range = 30
-	accuracy = 0.82
-	tracking = 0.65
+	damage = { min = 32.4 max = 64.8 } #Beam Rifle
+	cooldown = 1.0
+	range = 45
+	accuracy = 0.75
+	tracking = 0.3
 
 	health = 88
-	armor = 15 #Gundarium
+	armor = 172 #Gundarium
 	shield = 0
-	evasion = 0.7 #Greatly improved performance
+	evasion = 0.65
 
-	speed = 352.75 #1.22G
+	speed = 351.5 #1.22G
 	rotation_speed = 0.1
 	acceleration = 0.5
 
-	shield_damage = 0.2 #MPC1
-	shield_penetration = 0
+	shield_damage = 0.2
 	armor_penetration = 0.95
 
 	ship_behavior = "bombers_behavior"
@@ -2498,6 +2648,202 @@ strike_craft_component_template = {
 }
 
 strike_craft_component_template = {
+	key = "EFSF_MS_STRIKE_CRAFT_MSN_00100" #MSN-00100 Hyaku Shiki
+	size = LARGE
+	entity = "Hyaku_Shiki_entity"
+
+	weapon_type = point_defence
+	projectile_gfx = "MPC2"
+	power = -82 #1850 = 82
+	resources = {
+		category = ship_components
+		cost = {
+			alloys = 56 #54.5 tons = 34 for armor + 22 for gun
+			efsf_ace_pilots = 1
+			luna_titanium = 1
+		}
+	}
+
+	count = 1
+	regeneration_per_day = 0.034
+	launch_time = 8.0
+
+	damage = { min = 37.0 max = 74.0 } #Beam Rifle
+	cooldown = 1.0
+	range = 45
+	accuracy = 0.75
+	tracking = 0.3
+
+	health = 84
+	armor = 168 #Gundarium
+	shield = 0
+	evasion = 0.65
+
+	speed = 394.7 #1.37G
+	rotation_speed = 0.1
+	acceleration = 0.5
+
+	shield_damage = 0.2
+	armor_penetration = 0.95
+
+	ship_behavior = "bombers_behavior"
+
+	icon = "GFX_ship_part_msn_00100"
+	icon_frame = 1
+	component_set = "MSN_00100_HANGAR_1"
+	prerequisites = { "tech_MSN_00100" }
+	tags = { weapon_type_strike_craft }
+	#upgrades_to = "EFSF_MS_STRIKE_CRAFT_MSA_004"
+}
+
+strike_craft_component_template = {
+	key = "EFSF_MS_STRIKE_CRAFT_MSN_00100" #MSN-00100 Hyaku Shiki
+	size = LARGE
+	entity = "Hyaku_Shiki_entity"
+
+	weapon_type = point_defence
+	projectile_gfx = "MPC2"
+	power = -82 #1850 = 82
+	resources = {
+		category = ship_components
+		cost = {
+			alloys = 56 #54.5 tons = 34 for armor + 22 for gun
+			efsf_ace_pilots = 1
+			luna_titanium = 1
+		}
+	}
+
+	count = 1
+	regeneration_per_day = 0.034
+	launch_time = 8.0
+
+	damage = { min = 37.0 max = 74.0 } #Beam Rifle
+	cooldown = 1.0
+	range = 45
+	accuracy = 0.75
+	tracking = 0.3
+
+	health = 84
+	armor = 168 #Gundarium
+	shield = 0
+	evasion = 0.65
+
+	speed = 394.7 #1.37G
+	rotation_speed = 0.1
+	acceleration = 0.5
+
+	shield_damage = 0.2
+	armor_penetration = 0.95
+
+	ship_behavior = "bombers_behavior"
+
+	icon = "GFX_ship_part_msn_00100"
+	icon_frame = 1
+	component_set = "MSN_00100_HANGAR_1"
+	prerequisites = { "tech_MSN_00100" }
+	tags = { weapon_type_strike_craft }
+	#upgrades_to = "EFSF_MS_STRIKE_CRAFT_MSA_004"
+}
+
+strike_craft_component_template = {
+	key = "EFSF_MS_STRIKE_CRAFT_MSZ_006_X" #MSZ-006-X Prototype Zeta Gundam
+	size = LARGE
+	entity = "Zeta_Gundam_entity"
+
+	weapon_type = point_defence
+	projectile_gfx = "MPC2"
+	power = -80 #1790 = 80
+	resources = {
+		category = ship_components
+		cost = {
+			alloys = 54 #52.1 tons = 32 for armor + 22 for gun
+			efsf_ace_pilots = 1
+			luna_titanium = 1
+		}
+	}
+
+	count = 1
+	regeneration_per_day = 0.034
+	launch_time = 8.0
+
+	damage = { min = 35.8 max = 71.6 } #Beam Rifle
+	cooldown = 1.0
+	range = 45
+	accuracy = 0.75
+	tracking = 0.3
+
+	health = 80
+	armor = 160 #Gundarium
+	shield = 0
+	evasion = 0.60
+
+	speed = 547.5 #1.9G
+	rotation_speed = 0.1
+	acceleration = 0.5
+
+	shield_damage = 0.2
+	armor_penetration = 0.95
+
+	ship_behavior = "bombers_behavior"
+
+	icon = "GFX_ship_part_msz_006_x"
+	icon_frame = 1
+	component_set = "MSZ_006_X_HANGAR_1"
+	prerequisites = { "tech_MSZ_006_X" }
+	tags = { weapon_type_strike_craft }
+	upgrades_to = "EFSF_MS_STRIKE_CRAFT_MSZ_006"
+}
+
+strike_craft_component_template = {
+	key = "EFSF_MS_STRIKE_CRAFT_MSZ_006" #MSZ-006 Zeta Gundam
+	size = LARGE
+	entity = "Zeta_Gundam_entity"
+
+	weapon_type = point_defence
+	projectile_gfx = "MPC2"
+	power = -90 #2020 = 90
+	resources = {
+		category = ship_components
+		cost = {
+			alloys = 60 #62.3 tons = 38 for armor + 22 for gun
+			newtypes = 1
+			luna_titanium = 1
+		}
+	}
+
+	count = 1
+	regeneration_per_day = 0.034
+	launch_time = 8.0
+
+	damage = { min = 40.4 max = 80.8 } #Beam Rifle
+	cooldown = 1.0
+	range = 45
+	accuracy = 0.75
+	tracking = 0.3
+
+	health = 96
+	armor = 192 #Gundarium
+	shield = 0
+	evasion = 0.65
+
+	speed = 521.5 #1.81G
+	rotation_speed = 0.1
+	acceleration = 0.5
+
+	shield_damage = 0.2
+	armor_penetration = 0.95
+
+	ship_behavior = "bombers_behavior"
+
+	icon = "GFX_ship_part_msz_006"
+	icon_frame = 1
+	component_set = "MSZ_006_HANGAR_1"
+	prerequisites = { "tech_MSZ_006" }
+	tags = { weapon_type_strike_craft }
+	#upgrades_to = "EFSF_MS_STRIKE_CRAFT_MSA_004"
+}
+
+strike_craft_component_template = {
 	key = "EFSF_MS_STRIKE_CRAFT_RMS_179_1" #RMS-179 GM II
 	size = LARGE
 	entity = "gm_c_entity"
@@ -2508,7 +2854,7 @@ strike_craft_component_template = {
 	resources = {
 		category = ship_components
 		cost = {
-			alloys = 64 #58.7 tons = 36 + 3 for armor + 25 for gun
+			alloys = 174 #58.7 tons = 108 for armor + 66 for gun
 			efsf_pilots = 3
 		}
 	}
@@ -2517,23 +2863,22 @@ strike_craft_component_template = {
 	regeneration_per_day = 0.034
 	launch_time = 8.0
 
-	damage = { min = 60.5 max = 121.5 } #damage = { min = 121 max = 243 } Beam Rifle
-	cooldown = 20
-	range = 30
-	accuracy = 0.82
-	tracking = 0.65
+	damage = { min = 30.4 max = 60.8 } #Beam Rifle
+	cooldown = 1.0
+	range = 45
+	accuracy = 0.75
+	tracking = 0.3
 
 	health = 90
-	armor = 13 #Upgraded
+	armor = 90 #Upgraded
 	shield = 0
-	evasion = 0.55 #Greatly improved performance
+	evasion = 0.6
 
-	speed = 306 #1.06G
+	speed = 305.4 #1.06G
 	rotation_speed = 0.1
 	acceleration = 0.5
 
-	shield_damage = 0.2 #MPC1
-	shield_penetration = 0
+	shield_damage = 0.2
 	armor_penetration = 0.95
 
 	ship_behavior = "bombers_behavior"
@@ -2557,7 +2902,7 @@ strike_craft_component_template = {
 	resources = {
 		category = ship_components
 		cost = {
-			alloys = 64 #58.7 tons = 36 + 3 for armor + 25 for gun
+			alloys = 174 #58.7 tons = 108 for armor + 66 for gun
 			efsf_pilots = 3
 		}
 	}
@@ -2566,24 +2911,23 @@ strike_craft_component_template = {
 	regeneration_per_day = 0.034
 	launch_time = 8.0
 
-	damage = { min = 27.5 max = 50.0 } #damage = { min = 55.0 max = 100.0 } 380mm Bazooka
-	cooldown = 20
+	damage = { min = 4.0 max = 7.0 } #380mm Bazooka
+	cooldown = 0.5
 	range = 60
-	accuracy = 0.8
-	tracking = 0.2
+	accuracy = 1.0
+	tracking = 0.25
 
 	health = 90
-	armor = 13 #Upgraded
+	armor = 90 #Upgraded
 	shield = 0
-	evasion = 0.55 #Greatly improved performance
+	evasion = 0.6
 
-	speed = 306 #1.06G
+	speed = 305.4 #1.06G
 	rotation_speed = 0.1
 	acceleration = 0.5
 
-	shield_damage = 1.15 #MEDIUM MISSILE
-	shield_penetration = 0
-	armor_penetration = 0.25
+	hull_damage = 1.25
+	shield_penetration = 1.0
 
 	ship_behavior = "bombers_behavior"
 
@@ -2606,7 +2950,7 @@ strike_craft_component_template = {
 	resources = {
 		category = ship_components
 		cost = {
-			alloys = 100 #56.2 tons = 35 * 2 for armor + 30 for gun
+			alloys = 171 #56.2 tons = 105 for armor + 66 for gun
 			efsf_pilots = 3
 			luna_titanium = 1
 		}
@@ -2616,18 +2960,18 @@ strike_craft_component_template = {
 	regeneration_per_day = 0.034
 	launch_time = 8.0
 
-	damage = { min = 62.5 max = 125 } #damage = { min = 125 max = 250 } Beam Rifle
-	cooldown = 20
-	range = 30
-	accuracy = 0.82
-	tracking = 0.65
+	damage = { min = 31.2 max = 62.4 } #Beam Rifle
+	cooldown = 1.0
+	range = 45
+	accuracy = 0.75
+	tracking = 0.3
 
-	health = 105
-	armor = 20 #Gundarium
+	health = 86
+	armor = 172 #Gundarium
 	shield = 0
-	evasion = 0.75 #Greatly improved performance
+	evasion = 0.7 #Greatly improved performance
 
-	speed = 416.5 #1.45G
+	speed = 417.8 #1.45G
 	rotation_speed = 0.1
 	acceleration = 0.5
 
@@ -2656,7 +3000,7 @@ strike_craft_component_template = {
 	resources = {
 		category = ship_components
 		cost = {
-			alloys = 85 #56.2 tons = 35 * 2 for armor + 15 for gun
+			alloys = 171 #56.2 tons = 105 for armor + 66 for gun
 			efsf_pilots = 3
 			luna_titanium = 1
 		}
@@ -2666,24 +3010,22 @@ strike_craft_component_template = {
 	regeneration_per_day = 0.034
 	launch_time = 8.0
 
-	damage = { min = 8 max = 12 } #damage = { min = 8 max = 12 } Missile Pods
-	cooldown = 8
-	range = 100
-	accuracy = 1.0
+	damage = { min = 2 max = 21 } #Missile Pods
+	cooldown = 0.5
+	range = 45
+	accuracy = 0.5
 	tracking = 0.5
 
-	health = 105
-	armor = 20 #Gundarium
+	health = 86
+	armor = 172 #Gundarium
 	shield = 0
-	evasion = 0.75 #Greatly improved performance
+	evasion = 0.7 #Greatly improved performance
 
-	speed = 416.5 #1.45G
+	speed = 417.8 #1.45G
 	rotation_speed = 0.1
 	acceleration = 0.5
 
-	shield_damage = 1.1 #Swarmer Missiles
-	shield_penetration = 0
-	armor_penetration = 0.3
+	shield_penetration = 1.0
 
 	ship_behavior = "bombers_behavior"
 
@@ -2706,7 +3048,7 @@ strike_craft_component_template = {
 	resources = {
 		category = ship_components
 		cost = {
-			alloys = 114 #68.22 tons = 42 * 2 for armor + 30 for gun
+			alloys = 192 #68.22 tons = 126 for armor + 66 for gun
 			efsf_pilots = 3
 			luna_titanium = 1
 		}
@@ -2716,23 +3058,22 @@ strike_craft_component_template = {
 	regeneration_per_day = 0.034
 	launch_time = 8.0
 
-	damage = { min = 65 max = 129.5 } #damage = { min = 130 max = 259 } Beam Rifle
-	cooldown = 20
-	range = 30
-	accuracy = 0.82
-	tracking = 0.65
+	damage = { min = 32.4 max = 64.8 } #Beam Rifle
+	cooldown = 1.0
+	range = 45
+	accuracy = 0.75
+	tracking = 0.3
 
 	health = 105
-	armor = 20 #Gundarium
+	armor = 210 #Gundarium
 	shield = 0
-	evasion = 0.75 #Greatly improved performance
+	evasion = 0.7 #Greatly improved performance
 
-	speed = 344.25 #1.19G
+	speed = 342.9 #1.19G
 	rotation_speed = 0.1
 	acceleration = 0.5
 
-	shield_damage = 0.2 #MPC1
-	shield_penetration = 0
+	shield_damage = 0.2
 	armor_penetration = 0.95
 
 	ship_behavior = "bombers_behavior"
@@ -2756,7 +3097,7 @@ strike_craft_component_template = {
 	resources = {
 		category = ship_components
 		cost = {
-			alloys = 99 #68.22 tons = 42 * 2 for armor + 15 for gun
+			alloys = 192 #68.22 tons = 126 for armor + 66 for gun
 			efsf_pilots = 3
 			luna_titanium = 1
 		}
@@ -2766,24 +3107,22 @@ strike_craft_component_template = {
 	regeneration_per_day = 0.034
 	launch_time = 8.0
 
-	damage = { min = 8 max = 12 } #damage = { min = 8 max = 12 } Missile Pods
-	cooldown = 8
-	range = 100
-	accuracy = 1.0
+	damage = { min = 2 max = 21 } #Missile Pods
+	cooldown = 0.5
+	range = 45
+	accuracy = 0.5
 	tracking = 0.5
 
 	health = 105
-	armor = 20 #Gundarium
+	armor = 210 #Gundarium
 	shield = 0
-	evasion = 0.75 #Greatly improved performance
+	evasion = 0.7 #Greatly improved performance
 
-	speed = 344.25 #1.19G
+	speed = 342.9 #1.19G
 	rotation_speed = 0.1
 	acceleration = 0.5
 
-	shield_damage = 1.1 #Swarmer Missiles
-	shield_penetration = 0
-	armor_penetration = 0.3
+	shield_penetration = 1.0
 
 	ship_behavior = "bombers_behavior"
 
@@ -2806,7 +3145,7 @@ strike_craft_component_template = {
 	resources = {
 		category = ship_components
 		cost = {
-			alloys = 64 #47.3 tons = 29 + 5 for armor + 30 for gun
+			alloys = 153 #47.3 tons = 87 for armor + 66 for gun
 			efsf_pilots = 3
 		}
 	}
@@ -2815,23 +3154,22 @@ strike_craft_component_template = {
 	regeneration_per_day = 0.034
 	launch_time = 8.0
 
-	damage = { min = 75 max = 149.5 } #damage = { min = 150 max = 299 } Beam Rifle
-	cooldown = 20
-	range = 30
-	accuracy = 0.82
-	tracking = 0.65
+	damage = { min = 37.4 max = 74.8 } #Beam Rifle
+	cooldown = 1.0
+	range = 45
+	accuracy = 0.75
+	tracking = 0.3
 
 	health = 73
-	armor = 15 #Improved Armor
+	armor = 110 #Improved Armor
 	shield = 0
-	evasion = 0.75 #Greatly improved performance
+	evasion = 0.7 #Greatly improved performance
 
-	speed = 344.25 #1.19G
+	speed = 296.8 #1.03G
 	rotation_speed = 0.1
 	acceleration = 0.5
 
-	shield_damage = 0.2 #MPC1
-	shield_penetration = 0
+	shield_damage = 0.2
 	armor_penetration = 0.95
 
 	ship_behavior = "bombers_behavior"
@@ -2855,7 +3193,7 @@ strike_craft_component_template = {
 	resources = {
 		category = ship_components
 		cost = {
-			alloys = 49 #47.3 tons = 29 + 5 for armor + 15 for gun
+			alloys = 153 #47.3 tons = 87 for armor + 66 for gun
 			efsf_pilots = 3
 		}
 	}
@@ -2864,24 +3202,22 @@ strike_craft_component_template = {
 	regeneration_per_day = 0.034
 	launch_time = 8.0
 
-	damage = { min = 8 max = 12 } #damage = { min = 8 max = 12 } Missile Pods
-	cooldown = 8
-	range = 100
-	accuracy = 1.0
+	damage = { min = 2 max = 21 } #Missile Pods
+	cooldown = 0.5
+	range = 45
+	accuracy = 0.5
 	tracking = 0.5
 
 	health = 73
-	armor = 15 #Improved Armor
+	armor = 110 #Improved Armor
 	shield = 0
-	evasion = 0.75 #Greatly improved performance
+	evasion = 0.7 #Greatly improved performance
 
-	speed = 344.25 #1.19G
+	speed = 296.8 #1.03G
 	rotation_speed = 0.1
 	acceleration = 0.5
 
-	shield_damage = 1.1 #Swarmer Missiles
-	shield_penetration = 0
-	armor_penetration = 0.3
+	shield_penetration = 1.0
 
 	ship_behavior = "bombers_behavior"
 
@@ -2904,7 +3240,7 @@ strike_craft_component_template = {
 	resources = {
 		category = ship_components
 		cost = {
-			alloys = 64 #47.3 tons = 29 + 5 for armor + 30 for gun
+			alloys = 153 #47.3 tons = 87 for armor + 66 for gun
 			efsf_pilots = 3
 		}
 	}
@@ -2913,23 +3249,22 @@ strike_craft_component_template = {
 	regeneration_per_day = 0.034
 	launch_time = 8.0
 
-	damage = { min = 75 max = 149.5 } #damage = { min = 150 max = 299 } Beam Rifle
-	cooldown = 20
-	range = 30
-	accuracy = 0.82
-	tracking = 0.65
+	damage = { min = 37.4 max = 74.8 } #Beam Rifle
+	cooldown = 1.0
+	range = 45
+	accuracy = 0.75
+	tracking = 0.3
 
 	health = 73
-	armor = 15 #Improved Armor
+	armor = 110 #Improved Armor
 	shield = 0
-	evasion = 0.78 #Greatly improved performance
+	evasion = 0.75 #Greatly improved performance
 
 	speed = 377.5 #1.31G
 	rotation_speed = 0.1
 	acceleration = 0.5
 
-	shield_damage = 0.2 #MPC1
-	shield_penetration = 0
+	shield_damage = 0.2
 	armor_penetration = 0.95
 
 	ship_behavior = "bombers_behavior"
@@ -2953,7 +3288,7 @@ strike_craft_component_template = {
 	resources = {
 		category = ship_components
 		cost = {
-			alloys = 49 #47.3 tons = 29 + 5 for armor + 15 for gun
+			alloys = 153 #47.3 tons = 87 for armor + 66 for gun
 			efsf_pilots = 3
 		}
 	}
@@ -2962,24 +3297,22 @@ strike_craft_component_template = {
 	regeneration_per_day = 0.034
 	launch_time = 8.0
 
-	damage = { min = 8 max = 12 } #damage = { min = 8 max = 12 } Missile Pods
-	cooldown = 8
-	range = 100
-	accuracy = 1.0
+	damage = { min = 2 max = 21 } #Missile Pods
+	cooldown = 0.5
+	range = 45
+	accuracy = 0.5
 	tracking = 0.5
 
 	health = 73
-	armor = 15 #Improved Armor
+	armor = 110 #Improved Armor
 	shield = 0
-	evasion = 0.78 #Greatly improved performance
+	evasion = 0.75 #Greatly improved performance
 
 	speed = 377.5 #1.31G
 	rotation_speed = 0.1
 	acceleration = 0.5
 
-	shield_damage = 1.1 #Swarmer Missiles
-	shield_penetration = 0
-	armor_penetration = 0.3
+	shield_penetration = 1.0
 
 	ship_behavior = "bombers_behavior"
 
@@ -3002,7 +3335,7 @@ strike_craft_component_template = {
 	resources = {
 		category = ship_components
 		cost = {
-			alloys = 65 #49.5 tons = 30 + 5 for armor + 30 for gun
+			alloys = 156 #49.5 tons = 60 for armor + 66 for gun
 			efsf_pilots = 3
 		}
 	}
@@ -3011,16 +3344,16 @@ strike_craft_component_template = {
 	regeneration_per_day = 0.034
 	launch_time = 8.0
 
-	damage = { min = 75 max = 149.5 } #damage = { min = 150 max = 299 } Beam Rifle
-	cooldown = 20
-	range = 30
-	accuracy = 0.82
-	tracking = 0.65
+	damage = { min = 37.4 max = 74.8 } #Beam Rifle
+	cooldown = 1.0
+	range = 45
+	accuracy = 0.75
+	tracking = 0.3
 
 	health = 76
-	armor = 15 #Improved Armor
+	armor = 152 #Improved Armor
 	shield = 0
-	evasion = 0.78 #Greatly improved performance
+	evasion = 0.75
 
 	speed = 360.2 #1.25G
 	rotation_speed = 0.1
@@ -3051,7 +3384,7 @@ strike_craft_component_template = {
 	resources = {
 		category = ship_components
 		cost = {
-			alloys = 50 #49.5 tons = 30 + 5 for armor + 15 for gun
+			alloys = 156 #49.5 tons = 60 for armor + 66 for gun
 			efsf_pilots = 3
 		}
 	}
@@ -3060,24 +3393,22 @@ strike_craft_component_template = {
 	regeneration_per_day = 0.034
 	launch_time = 8.0
 
-	damage = { min = 8 max = 12 } #damage = { min = 8 max = 12 } Missile Pods
-	cooldown = 8
-	range = 100
-	accuracy = 1.0
+	damage = { min = 2 max = 21 } #Missile Pods
+	cooldown = 0.5
+	range = 45
+	accuracy = 0.5
 	tracking = 0.5
 
 	health = 76
-	armor = 15 #Improved Armor
+	armor = 152 #Improved Armor
 	shield = 0
-	evasion = 0.78 #Greatly improved performance
+	evasion = 0.75
 
 	speed = 360.2 #1.25G
 	rotation_speed = 0.1
 	acceleration = 0.5
 
-	shield_damage = 1.1 #Swarmer Missiles
-	shield_penetration = 0
-	armor_penetration = 0.3
+	shield_penetration = 1.0
 
 	ship_behavior = "bombers_behavior"
 
@@ -3100,7 +3431,7 @@ strike_craft_component_template = {
 	resources = {
 		category = ship_components
 		cost = {
-			alloys = 75 #57.2 tons = 35 + 10 for armor + 30 for gun
+			alloys = 171 #57.2 tons = 105 for armor + 66 for gun
 			efsf_pilots = 3
 		}
 	}
@@ -3109,14 +3440,14 @@ strike_craft_component_template = {
 	regeneration_per_day = 0.034
 	launch_time = 8.0
 
-	damage = { min = 108.4 max = 216.8 } #damage = { min = 150 max = 299 } Beam Rifle
-	cooldown = 20
-	range = 30
-	accuracy = 0.82
-	tracking = 0.65
+	damage = { min = 54.2 max = 108.4 } #Beam Rifle
+	cooldown = 1.0
+	range = 45
+	accuracy = 0.75
+	tracking = 0.3
 
 	health = 88
-	armor = 20 #Improved Armor
+	armor = 264 #Improved Armor
 	shield = 0
 	evasion = 0.8 #Greatly improved performance
 
@@ -3149,7 +3480,7 @@ strike_craft_component_template = {
 	resources = {
 		category = ship_components
 		cost = {
-			alloys = 60 #57.2 tons = 35 + 10 for armor + 15 for gun
+			alloys = 171 #57.2 tons = 105 for armor + 66 for gun
 			efsf_pilots = 3
 		}
 	}
@@ -3158,14 +3489,14 @@ strike_craft_component_template = {
 	regeneration_per_day = 0.034
 	launch_time = 8.0
 
-	damage = { min = 8 max = 12 } #damage = { min = 8 max = 12 } Missile Pods
-	cooldown = 8
-	range = 100
-	accuracy = 1.0
+	damage = { min = 2 max = 21 } #Missile Pods
+	cooldown = 0.5
+	range = 45
+	accuracy = 0.5
 	tracking = 0.5
 
 	health = 88
-	armor = 20 #Improved Armor
+	armor = 264 #Improved Armor
 	shield = 0
 	evasion = 0.8 #Greatly improved performance
 
@@ -3173,9 +3504,7 @@ strike_craft_component_template = {
 	rotation_speed = 0.1
 	acceleration = 0.5
 
-	shield_damage = 1.1 #Swarmer Missiles
-	shield_penetration = 0
-	armor_penetration = 0.3
+	shield_penetration = 1.0
 
 	ship_behavior = "bombers_behavior"
 
@@ -3198,23 +3527,23 @@ strike_craft_component_template = {
 	resources = {
 		category = ship_components
 		cost = {
-			alloys = 78 #69.8 tons = 43 + 5 for armor + 30 for gun
-			efsf_pilots = 3
+			alloys = 87 #69.8 tons = 43 for armor + 44 for gun
+			efsf_pilots = 1
 		}
 	}
 
-	count = 3
+	count = 1
 	regeneration_per_day = 0.034
 	launch_time = 8.0
 
-	damage = { min = 50 max = 100 } #Anti-Ship Missiles
-	cooldown = 35
+	damage = { min = 86 max = 114 } #Anti-Ship Missiles
+	cooldown = 6.8
 	range = 100
-	accuracy = 0.9
-	tracking = 0.0
+	accuracy = 1.0
+	tracking = 0.25
 
 	health = 107
-	armor = 15 #Improved Armor
+	armor = 214 #Improved Armor
 	shield = 0
 	evasion = 0.7 #Prototype
 
@@ -3222,9 +3551,8 @@ strike_craft_component_template = {
 	rotation_speed = 0.1
 	acceleration = 0.5
 
-	shield_damage = 1.1 #Swarmer Missiles
-	shield_penetration = 0
-	armor_penetration = 0.3
+	shield_penetration = 1.0
+	hull_damage = 1.25
 
 	ship_behavior = "bombers_behavior"
 
@@ -3247,7 +3575,7 @@ strike_craft_component_template = {
 	resources = {
 		category = ship_components
 		cost = {
-			alloys = 58 #69.8 tons = 38 + 5 for armor + 15 for gun
+			alloys = 246 #69.8 tons = 114 + 132 for gun
 			efsf_pilots = 3
 		}
 	}
@@ -3256,24 +3584,22 @@ strike_craft_component_template = {
 	regeneration_per_day = 0.034
 	launch_time = 8.0
 
-	damage = { min = 40 max = 80 }
-	cooldown = 15
+	damage = { min = 33 max = 48 } #Whirlwind Missiles
+	cooldown = 3.8
 	range = 100
 	accuracy = 1.0
-	tracking = 0.5
+	tracking = 0.3
 
 	health = 95
-	armor = 15 #Improved Armor
+	armor = 190 #Improved Armor
 	shield = 0
 	evasion = 0.75 #Greatly improved performance
 
-	speed = 357.3 #1.24G
+	speed = 288.1 #1.24G
 	rotation_speed = 0.1
 	acceleration = 0.5
 
-	shield_damage = 1.1 #Swarmer Missiles
-	shield_penetration = 0
-	armor_penetration = 0.3
+	shield_penetration = 1.0
 
 	ship_behavior = "bombers_behavior"
 
@@ -3296,7 +3622,7 @@ strike_craft_component_template = {
 	resources = {
 		category = ship_components
 		cost = {
-			alloys = 72 #59.6 tons = 37 + 5 for improved armor + 30 for gun
+			alloys = 177 #59.6 tons = 111 + 66 for gun
 			efsf_pilots = 3
 		}
 	}
@@ -3305,18 +3631,18 @@ strike_craft_component_template = {
 	regeneration_per_day = 0.034
 	launch_time = 8.0
 
-	damage = { min = 57 max = 114 } #damage = { min = 114 max = 228 } Beam Rifle/MPC 1
-	cooldown = 25
-	range = 30
-	accuracy = 0.82
-	tracking = 0.65
+	damage = { min = 28.6 max = 57.2 } #Beam Rifle
+	cooldown = 1.0
+	range = 45
+	accuracy = 0.75
+	tracking = 0.3
 
-	health = 93
-	armor = 15
+	health = 92
+	armor = 92
 	shield = 0
-	evasion = 0.5
+	evasion = 0.6
 
-	speed = 314.5 #1.09G
+	speed = 314.1 #1.09G
 	rotation_speed = 0.1
 	acceleration = 0.5
 
@@ -3345,7 +3671,7 @@ strike_craft_component_template = {
 	resources = {
 		category = ship_components
 		cost = {
-			alloys = 67 #59.6 tons = 37 + 5 for improved armor + 25 for gun
+			alloys = 177 #59.6 tons = 111 + 66 for gun
 			efsf_pilots = 3
 		}
 	}
@@ -3354,24 +3680,23 @@ strike_craft_component_template = {
 	regeneration_per_day = 0.034
 	launch_time = 8.0
 
-	damage = { min = 27.5 max = 50.0 } #damage = { min = 55.0 max = 100.0 } 380mm Bazooka
-	cooldown = 20
+	damage = { min = 4.0 max = 7.0 } #380mm Bazooka
+	cooldown = 0.5
 	range = 60
-	accuracy = 0.8
-	tracking = 0.2
+	accuracy = 1.0
+	tracking = 0.25
 
-	health = 93
-	armor = 15
+	health = 92
+	armor = 92
 	shield = 0
-	evasion = 0.5
+	evasion = 0.6
 
-	speed = 314.5 #1.09G
+	speed = 314.1 #1.09G
 	rotation_speed = 0.1
 	acceleration = 0.5
 
-	shield_damage = 1.15 #MEDIUM MISSILE
-	shield_penetration = 0
-	armor_penetration = 0.25
+	hull_damage = 1.25
+	shield_penetration = 1.0
 
 	ship_behavior = "bombers_behavior"
 
@@ -3394,7 +3719,7 @@ strike_craft_component_template = {
 	resources = {
 		category = ship_components
 		cost = {
-			alloys = 72 #60.7 tons = 37 + 5 for improved armor + 30 for gun
+			alloys = 177 #60.7 tons = 111 for improved armor + 66 for gun
 			efsf_pilots = 3
 			luna_titanium = 1
 		}
@@ -3404,23 +3729,22 @@ strike_craft_component_template = {
 	regeneration_per_day = 0.034
 	launch_time = 8.0
 
-	damage = { min = 59 max = 118.5 } #damage = { min = 118 max = 237 } Beam Rifle/MPC 1
-	cooldown = 25
-	range = 30
-	accuracy = 0.82
-	tracking = 0.65
+	damage = { min = 29.6 max = 59.2 } #Beam Rifle
+	cooldown = 1.0
+	range = 45
+	accuracy = 0.75
+	tracking = 0.3
 
 	health = 93
-	armor = 15
+	armor = 186
 	shield = 0
 	evasion = 0.6
 
-	speed = 352.75 #1.22G
+	speed = 351.5 #1.22G
 	rotation_speed = 0.1
 	acceleration = 0.5
 
-	shield_damage = 0.2 #MPC1
-	shield_penetration = 0
+	shield_damage = 0.2
 	armor_penetration = 0.95
 
 	ship_behavior = "bombers_behavior"
@@ -3444,7 +3768,7 @@ strike_craft_component_template = {
 	resources = {
 		category = ship_components
 		cost = {
-			alloys = 92 #59.6 tons = 37 + 5 for improved armor + 50 for gun
+			alloys = 213 #59.6 tons = 111 for improved armor + 102 for gun
 			efsf_pilots = 3
 			luna_titanium = 1
 		}
@@ -3454,23 +3778,22 @@ strike_craft_component_template = {
 	regeneration_per_day = 0.034
 	launch_time = 8.0
 
-	damage = { min = 59 max = 118.5 } #damage = { min = 118 max = 237 } Beam Launcher
-	cooldown = 35
+	damage = { min = 59.2 max = 118.4 } #Beam Launcher effectively beam sniper
+	cooldown = 2.0
 	range = 90
-	accuracy = 0.9
-	tracking = 0.8
+	accuracy = 0.75
+	tracking = 0.3
 
 	health = 93
-	armor = 15
+	armor = 186
 	shield = 0
 	evasion = 0.6
 
-	speed = 352.75 #1.22G
+	speed = 351.5 #1.22G
 	rotation_speed = 0.1
 	acceleration = 0.5
 
-	shield_damage = 0.2 #MPC1
-	shield_penetration = 0
+	shield_damage = 0.2
 	armor_penetration = 0.95
 
 	ship_behavior = "bombers_behavior"
@@ -3490,11 +3813,11 @@ strike_craft_component_template = {
 
 	weapon_type = point_defence
 	projectile_gfx = "mass_driver_s"
-	power = -61 #1480kW = 66
+	power = -66 #1480kW = 66
 	resources = {
 		category = ship_components
 		cost = {
-			alloys = 106 #69.3 tons (RGM-79CR and MS-14C average weight) = 43 * 2 = 86 cost + 20 for gun
+			alloys = 195 #69.3 tons (RGM-79CR and MS-14C average weight) = 129 cost + 66 for gun
 			efsf_pilots = 3
 		}
 	}
@@ -3503,24 +3826,22 @@ strike_craft_component_template = {
 	regeneration_per_day = 0.034
 	launch_time = 8.0
 
-	damage = { min = 33.5 max = 75.0 } #damage = { min = 67.0 max = 150.0 } 240mm Cannon * 1
-	cooldown = 25
-	range = 90
-	accuracy = 0.6
+	damage = { min = 11.0 max = 35.0 } #1x240mm Cannon
+	cooldown = 2.0 #Increased fire rate to encourage use. May be made even lower.
+	range = 60
+	accuracy = 0.85
 	tracking = 0.0
 
-	health = 108
-	armor = 20 #Gundamium
+	health = 107
+	armor = 107
 	shield = 0
-	evasion = 0.5
+	evasion = 0.55
 
-	speed = 272 #0.94G
+	speed = 270.8 #0.94G
 	rotation_speed = 0.1
 	acceleration = 0.5
 
-	shield_damage = 1.33 #KINETIC ARTILLERY
-	shield_penetration = 0
-	armor_penetration = 0.2
+	shield_damage = 1.5
 
 	ship_behavior = "bombers_behavior"
 
@@ -3539,11 +3860,11 @@ strike_craft_component_template = {
 
 	weapon_type = point_defence
 	projectile_gfx = "MPC1" #Find beam gfx
-	power = -21 #1480 / 3
+	power = -66 #1480
 	resources = {
 		category = ship_components
 		cost = {
-			alloys = 35 #59.6 tons = 37 * 2 Gundarium + 30 for gun / 3
+			alloys = 59 #59.6 tons = 37 + 22
 			efsf_ace_pilots = 1
 		}
 	}
@@ -3552,23 +3873,22 @@ strike_craft_component_template = {
 	regeneration_per_day = 0.034
 	launch_time = 8.0
 
-	damage = { min = 59 max = 118.5 } #damage = { min = 118 max = 237 } Beam Rifle/MPC 1
-	cooldown = 25
-	range = 30
-	accuracy = 0.82
-	tracking = 0.65
+	damage = { min = 29.6 max = 59.2 } #Beam Rifle
+	cooldown = 1.0
+	range = 45
+	accuracy = 0.75
+	tracking = 0.3
 
-	health = 93
-	armor = 20
+	health = 92
+	armor = 92
 	shield = 0
-	evasion = 0.6
+	evasion = 0.63
 
-	speed = 314.5 #1.09G
+	speed = 314.1 #1.09G
 	rotation_speed = 0.1
 	acceleration = 0.5
 
-	shield_damage = 0.2 #MPC1
-	shield_penetration = 0
+	shield_damage = 0.2
 	armor_penetration = 0.95
 
 	ship_behavior = "bombers_behavior"
@@ -3592,7 +3912,7 @@ strike_craft_component_template = {
 	resources = {
 		category = ship_components
 		cost = {
-			alloys = 104 #59.4 tons = 37 * 2 Gundarium + 30 for gun
+			alloys = 157 #59.4 tons = 91 Gundarium + 66 for gun
 			efsf_pilots = 3
 			luna_titanium = 1
 		}
@@ -3602,23 +3922,22 @@ strike_craft_component_template = {
 	regeneration_per_day = 0.034
 	launch_time = 8.0
 
-	damage = { min = 71.5 max = 143 } #damage = { min = 143 max = 286 } Beam Rifle/MPC 1
-	cooldown = 25
-	range = 30
-	accuracy = 0.82
-	tracking = 0.65
+	damage = { min = 35.8 max = 71.6 } #Beam Rifle
+	cooldown = 1.0
+	range = 45
+	accuracy = 0.75
+	tracking = 0.3
 
-	health = 93
-	armor = 20
+	health = 91
+	armor = 182
 	shield = 0
-	evasion = 0.6
+	evasion = 0.65
 
-	speed = 361.25 #1.26G
+	speed = 363.1 #1.26G
 	rotation_speed = 0.1
 	acceleration = 0.5
 
-	shield_damage = 0.2 #MPC1
-	shield_penetration = 0
+	shield_damage = 0.2
 	armor_penetration = 0.95
 
 	ship_behavior = "bombers_behavior"
@@ -3642,7 +3961,7 @@ strike_craft_component_template = {
 	resources = {
 		category = ship_components
 		cost = {
-			alloys = 124 #59.4 tons = 37 * 2 Gundarium + 50 for gun
+			alloys = 309 #59.4 tons = 111 Gundarium + 198 for gun
 			efsf_pilots = 3
 			luna_titanium = 1
 		}
@@ -3652,23 +3971,22 @@ strike_craft_component_template = {
 	regeneration_per_day = 0.034
 	launch_time = 8.0
 
-	damage = { min = 264 max = 528 } #damage = { min = 528 max = 1056 } 6.6MW Fedayeen Rifle
-	cooldown = 40
+	damage = { min = 264 max = 528 } #6.6MW Fedayeen Rifle
+	cooldown = 6
 	range = 90
-	accuracy = 0.9
-	tracking = 0.0
+	accuracy = 0.75
+	tracking = 0.3
 
-	health = 93
-	armor = 20
+	health = 91
+	armor = 182
 	shield = 0
-	evasion = 0.6
+	evasion = 0.65
 
-	speed = 361.25 #1.26G
+	speed = 363.1 #1.26G
 	rotation_speed = 0.1
 	acceleration = 0.5
 
-	shield_damage = 0.2 #MPC1
-	shield_penetration = 0
+	shield_damage = 0.2
 	armor_penetration = 0.95
 
 	ship_behavior = "bombers_behavior"
@@ -3692,7 +4010,7 @@ strike_craft_component_template = {
 	resources = {
 		category = ship_components
 		cost = {
-			alloys = 84 #59.4 tons = 37 * 2 Gundarium + 30 for gun - 20 for streamlining
+			alloys = 177 #59.4 tons = 111 + 66 for gun, might reduce costs because of streamlining
 			efsf_pilots = 3
 			luna_titanium = 1 #Barzam Parts
 		}
@@ -3702,23 +4020,22 @@ strike_craft_component_template = {
 	regeneration_per_day = 0.034
 	launch_time = 8.0
 
-	damage = { min = 71.5 max = 143 } #damage = { min = 143 max = 286 } Beam Rifle/MPC 1
-	cooldown = 25
-	range = 30
-	accuracy = 0.82
-	tracking = 0.65
+	damage = { min = 35.8 max = 71.6 } #Beam Rifle
+	cooldown = 1.0
+	range = 45
+	accuracy = 0.75
+	tracking = 0.3
 
-	health = 93
-	armor = 20
+	health = 91
+	armor = 182
 	shield = 0
-	evasion = 0.65 #Improved performance
+	evasion = 0.7 #Improved performance
 
-	speed = 361.25 #1.26G
+	speed = 363.1 #1.26G
 	rotation_speed = 0.1
 	acceleration = 0.5
 
-	shield_damage = 0.2 #MPC1
-	shield_penetration = 0
+	shield_damage = 0.2
 	armor_penetration = 0.95
 
 	ship_behavior = "bombers_behavior"
@@ -3738,11 +4055,11 @@ strike_craft_component_template = {
 
 	weapon_type = point_defence
 	projectile_gfx = "MPC1" #Find beam gfx
-	power = -30 #2045 / 3
+	power = -91 #2045
 	resources = {
 		category = ship_components
 		cost = {
-			alloys = 41 #74.0 tons = 46 * 2 Gundarium + 30 for gun / 3
+			alloys = 68 #74.0 tons = 46 Gundarium + 22
 			efsf_pilots = 1 #Because Kou is a bitch
 			luna_titanium = 1
 		}
@@ -3752,23 +4069,22 @@ strike_craft_component_template = {
 	regeneration_per_day = 0.034
 	launch_time = 8.0
 
-	damage = { min = 82 max = 183.5 } #damage = { min = 164 max = 327 } Beam Rifle/MPC 1
-	cooldown = 25
-	range = 30
-	accuracy = 0.82
-	tracking = 0.65
+	damage = { min = 40.9 max = 81.8 } #Beam Rifle
+	cooldown = 1.0
+	range = 45
+	accuracy = 0.75
+	tracking = 0.3
 
-	health = 115
-	armor = 20
+	health = 114
+	armor = 171
 	shield = 0
-	evasion = 0.65
+	evasion = 0.6
 
-	speed = 909.5 #3.16G
+	speed = 910.5 #3.16G
 	rotation_speed = 0.1
 	acceleration = 0.5
 
-	shield_damage = 0.2 #MPC1
-	shield_penetration = 0
+	shield_damage = 0.2
 	armor_penetration = 0.95
 
 	ship_behavior = "bombers_behavior"
@@ -3788,11 +4104,11 @@ strike_craft_component_template = {
 
 	weapon_type = point_defence
 	projectile_gfx = "MPC1" #Find beam gfx
-	power = -30 #2045 / 3
+	power = -91 #2045
 	resources = {
 		category = ship_components
 		cost = {
-			alloys = 46 #74.0 tons = 46 * 2 Gundarium + 30 for gun / 3 + 5 for FA
+			alloys = 68 #74.0 tons = 46 Gundarium + 22 for gun
 			efsf_pilots = 1 #Because Kou is a bitch
 			luna_titanium = 1
 		}
@@ -3802,23 +4118,22 @@ strike_craft_component_template = {
 	regeneration_per_day = 0.034
 	launch_time = 8.0
 
-	damage = { min = 82 max = 183.5 } #damage = { min = 164 max = 327 } Beam Rifle/MPC 1
-	cooldown = 25
-	range = 30
-	accuracy = 0.82
-	tracking = 0.65
+	damage = { min = 40.9 max = 81.8 } #Beam Rifle
+	cooldown = 1.0
+	range = 45
+	accuracy = 0.75
+	tracking = 0.3
 
-	health = 115
-	armor = 25
+	health = 114
+	armor = 285
 	shield = 0
-	evasion = 0.60
+	evasion = 0.55
 
-	speed = 909.5 #3.16G
+	speed = 910.5 #3.16G
 	rotation_speed = 0.1
 	acceleration = 0.5
 
-	shield_damage = 0.2 #MPC1
-	shield_penetration = 0
+	shield_damage = 0.2
 	armor_penetration = 0.95
 
 	ship_behavior = "bombers_behavior"
@@ -3837,12 +4152,12 @@ strike_craft_component_template = {
 	entity = "Physalis_entity"
 
 	weapon_type = instant
-	projectile_gfx = "gundam_missile" #Find beam gfx
-	power = -28 #1860 / 3
+	projectile_gfx = "gundam_missile"
+	power = -83 #1860
 	resources = {
 		category = ship_components
 		cost = {
-			alloys = 61 #83.0 tons = 51 * 2 Gundarium + 50 for gun / 3 + 10 for Shield and Armor
+			alloys = 95 #83.0 tons = 51 + 44 for gun
 			efsf_ace_pilots = 1
 			luna_titanium = 1
 		}
@@ -3852,24 +4167,23 @@ strike_craft_component_template = {
 	regeneration_per_day = 0.034
 	launch_time = 8.0
 
-	damage = { min = 500.0 max = 1000.0 } #damage = { min = 1000.0 max = 2000.0 } Nuke
-	cooldown = 60
-	range = 60
+	damage = { min = 125.0 max = 500.0 } #Nuke
+	cooldown = 8
+	range = 100
 	accuracy = 0.9
 	tracking = 0.0
 
 	health = 128
-	armor = 30 #Massive Shield and Gundamium
+	armor = 192 #Massive Shield and Gundamium
 	shield = 0
-	evasion = 0.5 #Nuke Suit
+	evasion = 0.55 #Nuke Suit
 
-	speed = 539.75 #1.87G
+	speed = 538.8 #1.87G
 	rotation_speed = 0.1
 	acceleration = 0.5
 
-	shield_damage = 1.15 #Large Missile
-	shield_penetration = 0
-	armor_penetration = 0.5
+	shield_penetration = 1.0
+	hull_damage = 1.25
 
 	ship_behavior = "bombers_behavior"
 
@@ -3882,17 +4196,17 @@ strike_craft_component_template = {
 }
 
 strike_craft_component_template = {
-	key = "EFSF_MS_STRIKE_CRAFT_RX_78GP02A_MLRS" #RX-78GP02A
+	key = "EFSF_MS_STRIKE_CRAFT_RX_78GP02A_MLRS" #RX-78GP02A MLRS version
 	size = LARGE
 	entity = "Physalis_entity"
 
 	weapon_type = instant
-	projectile_gfx = "gundam_missile_swarm" #Find beam gfx
-	power = -28 #1860 / 3
+	projectile_gfx = "gundam_missile_swarm"
+	power = -83 #1860
 	resources = {
 		category = ship_components
 		cost = {
-			alloys = 63 #105.0 tons = 65 * 2 Gundarium + 30 for gun / 3 + 10 for Shield and Armor
+			alloys = 87 #105.0 tons = 65 Gundarium + 22
 			efsf_ace_pilots = 1
 			luna_titanium = 1
 		}
@@ -3902,24 +4216,22 @@ strike_craft_component_template = {
 	regeneration_per_day = 0.034
 	launch_time = 8.0
 
-	damage = { min = 30 max = 60 } #damage = { min = 60 max = 120 } MLRS
-	cooldown = 15
-	range = 100
-	accuracy = 1.0
+	damage = { min = 2 max = 42 } #MLRS - Double Damage Missile Pods
+	cooldown = 0.5
+	range = 45
+	accuracy = 0.5
 	tracking = 0.5
 
-	health = 163
-	armor = 30 #Massive Shield and Gundamium
+	health = 162
+	armor = 243 #Massive Shield and Gundamium
 	shield = 0
 	evasion = 0.55 #MLRS Suit
 
-	speed = 539.75 #1.87G
+	speed = 538.8 #1.87G
 	rotation_speed = 0.1
 	acceleration = 0.5
 
-	shield_damage = 1.1 #Swarmer
-	shield_penetration = 0
-	armor_penetration = 0.3
+	shield_penetration = 1.0
 
 	ship_behavior = "bombers_behavior"
 
@@ -3932,17 +4244,17 @@ strike_craft_component_template = {
 }
 
 strike_craft_component_template = {
-	key = "EFSF_MS_STRIKE_CRAFT_RX_78GP02A_BEAM" #RX-78GP02A
+	key = "EFSF_MS_STRIKE_CRAFT_RX_78GP02A_BEAM" #RX-78GP02A Beam Bazooka version
 	size = LARGE
 	entity = "Physalis_entity"
 
 	weapon_type = point_defence
 	projectile_gfx = "MPC1" #Find beam gfx
-	power = -28 #1860 / 3
+	power = -83 #1860
 	resources = {
 		category = ship_components
 		cost = {
-			alloys = 70 #105.0 tons = 65 * 2 Gundarium + 50 for gun / 3 + 10 for Shield and Armor
+			alloys = 87 #105.0 tons = 65 Gundarium + 22
 			efsf_ace_pilots = 1
 			luna_titanium = 1
 		}
@@ -3952,23 +4264,22 @@ strike_craft_component_template = {
 	regeneration_per_day = 0.034
 	launch_time = 8.0
 
-	damage = { min = 712.0 max = 1424.0 } #damage = { min = 1424.0 max = 2848.0 } Beam Cannon
-	cooldown = 90
-	range = 90
-	accuracy = 0.82
-	tracking = 0.65
+	damage = { min = 74.4 max = 148.8 } #Beam Cannon
+	cooldown = 2
+	range = 60
+	accuracy = 0.75
+	tracking = 0.0
 
 	health = 163
-	armor = 30 #Massive Shield and Gundamium
+	armor = 243 #Massive Shield and Gundamium
 	shield = 0
-	evasion = 0.5 #Nuke Suit
+	evasion = 0.55 #Nuke Suit
 
-	speed = 539.75 #1.87G
+	speed = 538.8 #1.87G
 	rotation_speed = 0.1
 	acceleration = 0.5
 
-	shield_damage = 0.2 #MPC1
-	shield_penetration = 0
+	shield_damage = 0.2
 	armor_penetration = 0.95
 
 	ship_behavior = "bombers_behavior"
@@ -3988,11 +4299,11 @@ strike_craft_component_template = {
 
 	weapon_type = point_defence
 	projectile_gfx = "MPC1" #Find beam gfx
-	power = -30 #2000 / 3
+	power = -89 #2000
 	resources = {
 		category = ship_components
 		cost = {
-			alloys = 39 #70.0 tons = 43 * 2 Gundarium + 30 for gun / 3
+			alloys = 65 #70.0 tons = 43 Gundarium + 22 for gun
 			efsf_pilots = 1 #Because Kou is a bitch
 			luna_titanium = 1
 		}
@@ -4002,23 +4313,22 @@ strike_craft_component_template = {
 	regeneration_per_day = 0.034
 	launch_time = 8.0
 
-	damage = { min = 80 max = 160 } #damage = { min = 160 max = 320 } Beam Cannon
-	cooldown = 25
-	range = 30
-	accuracy = 0.82
-	tracking = 0.65
+	damage = { min = 40.0 max = 80.0 } #Beam Rifle
+	cooldown = 1.0
+	range = 45
+	accuracy = 0.75
+	tracking = 0.3
 
 	health = 108
-	armor = 25
+	armor = 162
 	shield = 0
-	evasion = 0.7
+	evasion = 0.6
 
-	speed = 773.5 #2.69G
+	speed = 775.1 #2.69G
 	rotation_speed = 0.1
 	acceleration = 0.5
 
-	shield_damage = 0.2 #MPC1
-	shield_penetration = 0
+	shield_damage = 0.2
 	armor_penetration = 0.95
 
 	ship_behavior = "bombers_behavior"
@@ -4038,11 +4348,11 @@ strike_craft_component_template = {
 
 	weapon_type = point_defence
 	projectile_gfx = "MPC1" #Find beam gfx
-	power = -26 #1730 / 3
+	power = -77 #1730
 	resources = {
 		category = ship_components
 		cost = {
-			alloys = 40 #73.6 tons = 45 * 2 Gundarium + 30 for gun / 3
+			alloys = 67 #73.6 tons = 45 + 22
 			efsf_ace_pilots = 1
 			luna_titanium = 1
 		}
@@ -4052,23 +4362,22 @@ strike_craft_component_template = {
 	regeneration_per_day = 0.034
 	launch_time = 8.0
 
-	damage = { min = 80 max = 160 } #damage = { min = 160 max = 320 } Beam Cannon
-	cooldown = 25
-	range = 30
-	accuracy = 0.82
-	tracking = 0.65
+	damage = { min = 34.6 max = 69.2 } #Beam Rifle
+	cooldown = 1.0
+	range = 45
+	accuracy = 0.75
+	tracking = 0.3
 
 	health = 113
-	armor = 25
+	armor = 170
 	shield = 0
-	evasion = 0.75
+	evasion = 0.65
 
-	speed = 875.5 #3.04G
+	speed = 875.9 #3.04G
 	rotation_speed = 0.1
 	acceleration = 0.5
 
-	shield_damage = 0.2 #MPC1
-	shield_penetration = 0
+	shield_damage = 0.2
 	armor_penetration = 0.95
 
 	ship_behavior = "bombers_behavior"

@@ -3091,6 +3091,24 @@ entity = {
 	}
 
 	entity = {
+		name = "Super_Gundam_entity" #Super Gundam
+		pdxmesh = "Super_Gundam_mesh"
+		scale = 1.0
+	}
+
+	entity = {
+		name = "FA_Gundam_Mk2_entity" #FA Gundam Mk2
+		pdxmesh = "FA_Gundam_Mk2_mesh"
+		scale = 1.0
+	}
+
+	entity = {
+		name = "FA_Gundam_Mk3_entity" #FA Gundam Mk3
+		pdxmesh = "FA_Gundam_Mk3_mesh"
+		scale = 1.0
+	}
+
+	entity = {
 		name = "GM_Guard_Trio_entity" #GM Guard Trio
 		pdxmesh = "GM_Guard_Trio_mesh"
 		scale = 1.0
@@ -3135,6 +3153,18 @@ entity = {
 	entity = {
 		name = "Nemo_entity" #Test Nemo
 		pdxmesh = "Nemo_mesh"
+		scale = 1.0
+	}
+
+	entity = {
+		name = "Hyaku_Shiki_entity" #Hyaku Shiki
+		pdxmesh = "Hyaku_Shiki_mesh"
+		scale = 1.0
+	}
+
+	entity = {
+		name = "Zeta_Gundam_entity" #Zeta Gundam
+		pdxmesh = "Zeta_Gundam_mesh"
 		scale = 1.0
 	}
 
