@@ -27,6 +27,9 @@ pop_faction_name_parts_list = {
 	key = "fed_imperialist_names"
 	parts = {
 		"Londo Bell Veterans Association" = 10
+		"Phantom Sweep Veterans Association" = 5
+		"White Dingo Veterans Association" = 3
+		"Moore Brotherhood Veterans Association" = 1
 	}
 }
 
@@ -76,8 +79,8 @@ pop_faction_name_format = {
 pop_faction_name_parts_list = {
 	key = "fed_technologist_names"
 	parts = {
-		"Anaheim Electronics" = 1
-		"Strategic Naval Research Institute" = 1
+		"Anaheim Electronics" = 5
+		"Strategic Naval Research Institute" = 3
 		"Vist Foundation" = 1
 	}
 }
@@ -203,7 +206,8 @@ pop_faction_name_format = {
 pop_faction_name_parts_list = {
 	key = "fed_progressive_names"
 	parts = {
-		"Contolist Movement" = 1
+		"Contolist Movement" = 5
+		"Anti-Galaxy Union Group" = 1
 	}
 }
 

@@ -510,7 +510,20 @@ objectTypes = {
 	}
 
 	pdxmesh = {
-			name = "Gelgoog_Jg_mesh" #Gelgoog Jg Trio
+			name = "Gelgoog_Marine_mesh" #Gelgoog Marine Single
+			file = "gfx/models/ships/zeon_01/Gelgoog_Marine.mesh"
+
+			scale = 1.0
+			meshsettings = {
+				texture_diffuse = "Gelgoog_Marine_Diffuse.dds"
+				texture_normal = "Gelgoog_Marine_Normal.dds"
+				texture_specular = "Zaku_Specular.dds"
+				shader = "PdxMeshShip"
+		}
+	}
+
+	pdxmesh = {
+			name = "Gelgoog_Jg_mesh" #Gelgoog Jg Single
 			file = "gfx/models/ships/zeon_01/Gelgoog_Jg.mesh"
 
 			scale = 1.0
@@ -523,7 +536,7 @@ objectTypes = {
 	}
 
 	pdxmesh = {
-			name = "Gelgoog_Char_mesh" #Gelgoog B Single
+			name = "Gelgoog_Char_mesh" #Gelgoog Char Single
 			file = "gfx/models/ships/zeon_01/Gelgoog_Char.mesh"
 
 			scale = 1.0
@@ -537,7 +550,7 @@ objectTypes = {
 
 
 	pdxmesh = {
-			name = "Gelgoog_Uma_mesh" #Gelgoog B Single
+			name = "Gelgoog_Uma_mesh" #Gelgoog Uma Single
 			file = "gfx/models/ships/zeon_01/Gelgoog_Uma.mesh"
 
 			scale = 1.0
@@ -892,6 +905,45 @@ objectTypes = {
 			meshsettings = {
 				texture_diffuse = "Gelgoog_A_Diffuse.dds"
 				texture_normal = "zakuII_normal.dds"
+				texture_specular = "Zaku_Specular.dds"
+				shader = "PdxMeshShip"
+		}
+	}
+
+	pdxmesh = {
+			name = "Gelgoog_Marine_Trio_mesh" #Gelgoog Marine Trio
+			file = "gfx/models/ships/zeon_01/Gelgoog_Marine_Triple.mesh"
+
+			scale = 1.0
+			meshsettings = {
+				texture_diffuse = "Gelgoog_Marine_Diffuse.dds"
+				texture_normal = "Gelgoog_Marine_Normal.dds"
+				texture_specular = "Zaku_Specular.dds"
+				shader = "PdxMeshShip"
+		}
+	}
+
+	pdxmesh = {
+			name = "Gelgoog_Marine_Camo_Trio_mesh" #Gelgoog Marine Camo Trio
+			file = "gfx/models/ships/zeon_01/Gelgoog_Marine_Camo_Triple.mesh"
+
+			scale = 1.0
+			meshsettings = {
+				texture_diffuse = "Gelgoog_Marine_Diffuse.dds"
+				texture_normal = "Gelgoog_Marine_Normal.dds"
+				texture_specular = "Zaku_Specular.dds"
+				shader = "PdxMeshShip"
+		}
+	}
+
+	pdxmesh = {
+			name = "Gelgoog_Marine_Commander_Trio_mesh" #Gelgoog Marine Commander Trio
+			file = "gfx/models/ships/zeon_01/Gelgoog_Marine_Commander_Triple.mesh"
+
+			scale = 1.0
+			meshsettings = {
+				texture_diffuse = "Gelgoog_Marine_Diffuse.dds"
+				texture_normal = "Gelgoog_Marine_Normal.dds"
 				texture_specular = "Zaku_Specular.dds"
 				shader = "PdxMeshShip"
 		}

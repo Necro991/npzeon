@@ -1353,7 +1353,7 @@ strike_craft_component_template = {
 strike_craft_component_template = {
 	key = "ZEON_MS_STRIKE_CRAFT_MS_14F_1" #MS-14F Gelgoog Marine
 	size = LARGE
-	entity = "Gelgoog_A_entity"
+	entity = "Gelgoog_Marine_entity"
 
 	weapon_type = point_defence
 	projectile_gfx = "MPC3" #Find beam gfx
@@ -1402,7 +1402,7 @@ strike_craft_component_template = {
 strike_craft_component_template = {
 	key = "ZEON_MS_STRIKE_CRAFT_MS_14F_2" #MS-14F Gelgoog Marine
 	size = LARGE
-	entity = "Gelgoog_A_entity"
+	entity = "Gelgoog_Marine_entity"
 
 	weapon_type = instant
 	projectile_gfx = "gundam_missile" #Find beam gfx

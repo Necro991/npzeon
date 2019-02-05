@@ -643,6 +643,20 @@ tech_FA_007GIII = {
 	}
 }
 
+tech_MRX_007 = {
+	area = engineering
+	cost = @tier1cost1
+	tier = 1
+	category = { materials }
+	ai_update_type = military
+	prerequisites = { "tech_EF_Titans" }
+	weight = @tier1weight1
+
+	ai_weight = {
+		factor = 2		#weapons are good
+	}
+}
+
 tech_RGM_79CR = {
 	area = engineering
 	cost = @tier1cost1
@@ -804,6 +818,62 @@ tech_MSZ_006 = { #Zeta Gundam
 	category = { materials }
 	ai_update_type = military
 	prerequisites = { "tech_MSZ_006_X" }
+	weight = @tier1weight1
+
+	ai_weight = {
+		factor = 2		#weapons are good
+	}
+}
+
+tech_MSZ_009 = { #Prototype ZZ Gundam
+	area = engineering
+	cost = @tier1cost1
+	tier = 1
+	category = { materials }
+	ai_update_type = military
+	prerequisites = { "tech_MSZ_006" }
+	weight = @tier1weight1
+
+	ai_weight = {
+		factor = 2		#weapons are good
+	}
+}
+
+tech_MSZ_010 = { #ZZ Gundam
+	area = engineering
+	cost = @tier1cost1
+	tier = 1
+	category = { materials }
+	ai_update_type = military
+	prerequisites = { "tech_MSZ_009" }
+	weight = @tier1weight1
+
+	ai_weight = {
+		factor = 2		#weapons are good
+	}
+}
+
+tech_MSA_0011 = { #ZZ Gundam
+	area = engineering
+	cost = @tier1cost1
+	tier = 1
+	category = { materials }
+	ai_update_type = military
+	prerequisites = { "tech_MSZ_010" }
+	weight = @tier1weight1
+
+	ai_weight = {
+		factor = 2		#weapons are good
+	}
+}
+
+tech_FA_010A = { #MUH FAZZ
+	area = engineering
+	cost = @tier1cost1
+	tier = 1
+	category = { materials }
+	ai_update_type = military
+	prerequisites = { "tech_MSZ_010" }
 	weight = @tier1weight1
 
 	ai_weight = {

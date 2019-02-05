@@ -84,6 +84,92 @@ ship_section_template = { #MS-14B
 	}
 }
 
+ship_section_template = { #MS-14F Marine
+	key = "MS_14F_MID"
+	ship_size = MS_14
+	fits_on_slot = mid
+	entity = "Gelgoog_Marine_Trio_entity"
+	icon = "GFX_ship_part_core_mid"
+
+	prerequisites = { tech_MS_14F }
+
+	component_slot = {
+		name = "SMALL_GUN_01"
+		slot_size = point_defence
+		slot_type = weapon
+		locatorname = "small_gun_01"
+	}
+
+	component_slot = {
+		name = "SMALL_GUN_02"
+		slot_size = point_defence
+		slot_type = weapon
+		locatorname = "small_gun_02"
+	}
+
+	component_slot = {
+		name = "SMALL_GUN_03"
+		slot_size = point_defence
+		slot_type = weapon
+		locatorname = "small_gun_03"
+	}
+
+	small_utility_slots = 0
+	medium_utility_slots = 0
+	large_utility_slots = 0
+	aux_utility_slots = 0
+
+	resources = {
+		category = ship_sections
+		cost = {
+			alloys = 135
+		}
+	}
+}
+
+ship_section_template = { #MS-14F Marine
+	key = "MS_14F_CAMO_MID"
+	ship_size = MS_14
+	fits_on_slot = mid
+	entity = "Gelgoog_Marine_Camo_Trio_entity"
+	icon = "GFX_ship_part_core_mid"
+
+	prerequisites = { tech_MS_14F }
+
+	component_slot = {
+		name = "SMALL_GUN_01"
+		slot_size = point_defence
+		slot_type = weapon
+		locatorname = "small_gun_01"
+	}
+
+	component_slot = {
+		name = "SMALL_GUN_02"
+		slot_size = point_defence
+		slot_type = weapon
+		locatorname = "small_gun_02"
+	}
+
+	component_slot = {
+		name = "SMALL_GUN_03"
+		slot_size = point_defence
+		slot_type = weapon
+		locatorname = "small_gun_03"
+	}
+
+	small_utility_slots = 0
+	medium_utility_slots = 0
+	large_utility_slots = 0
+	aux_utility_slots = 0
+
+	resources = {
+		category = ship_sections
+		cost = {
+			alloys = 135
+		}
+	}
+}
+
 ship_section_template = { #MS-14Jg
 	key = "MS_14JG_MID"
 	ship_size = MS_14
@@ -235,6 +321,56 @@ ship_section_template = { #MS-14S
 	icon = "GFX_ship_part_core_mid"
 
 	prerequisites = { tech_MS_14A }
+
+	component_slot = {
+		name = "SMALL_GUN_01"
+		slot_size = point_defence
+		slot_type = weapon
+		locatorname = "small_gun_01"
+	}
+
+	component_slot = {
+		name = "SMALL_GUN_02"
+		slot_size = point_defence
+		slot_type = weapon
+		locatorname = "small_gun_02"
+	}
+
+	component_slot = {
+		name = "SMALL_GUN_03"
+		slot_size = point_defence
+		slot_type = weapon
+		locatorname = "small_gun_03"
+	}
+
+	component_slot = {
+		name = "SMALL_GUN_04"
+		slot_size = point_defence
+		slot_type = weapon
+		locatorname = "small_gun_04"
+	}
+
+	small_utility_slots = 0
+	medium_utility_slots = 0
+	large_utility_slots = 0
+	aux_utility_slots = 0
+
+	resources = {
+		category = ship_sections
+		cost = {
+			alloys = 135
+		}
+	}
+}
+
+ship_section_template = { #MS-14F Cima Garahau
+	key = "MS_14F_CIMA_MID"
+	ship_size = MS_14S
+	fits_on_slot = mid
+	entity = "Gelgoog_Marine_Commander_Trio_entity"
+	icon = "GFX_ship_part_core_mid"
+
+	prerequisites = { tech_MS_14F }
 
 	component_slot = {
 		name = "SMALL_GUN_01"

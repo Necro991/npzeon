@@ -3103,6 +3103,12 @@ entity = {
 	}
 
 	entity = {
+		name = "Gundam_Mk3_entity" #FA Gundam Mk3
+		pdxmesh = "Gundam_Mk3_mesh"
+		scale = 1.0
+	}
+
+	entity = {
 		name = "FA_Gundam_Mk3_entity" #FA Gundam Mk3
 		pdxmesh = "FA_Gundam_Mk3_mesh"
 		scale = 1.0
@@ -3165,6 +3171,36 @@ entity = {
 	entity = {
 		name = "Zeta_Gundam_entity" #Zeta Gundam
 		pdxmesh = "Zeta_Gundam_mesh"
+		scale = 1.0
+	}
+
+	entity = {
+		name = "ZZ_Gundam_entity" #ZZ Gundam
+		pdxmesh = "ZZ_Gundam_mesh"
+		scale = 1.0
+	}
+
+	entity = {
+		name = "S_Gundam_entity" #SUPERIOR SUPREME IOTA Gundam
+		pdxmesh = "S_Gundam_mesh"
+		scale = 1.0
+	}
+
+	entity = {
+		name = "FAZZ_entity" #FAZZ
+		pdxmesh = "FAZZ_mesh"
+		scale = 1.0
+	}
+
+	entity = {
+		name = "Prototype_Psyco_Gundam_entity" #Prototype Psyco Gundam
+		pdxmesh = "Psyco_Gundam_mesh"
+		scale = 0.5
+	}
+
+	entity = {
+		name = "Psyco_Gundam_entity" #Psyco Gundam
+		pdxmesh = "Psyco_Gundam_mesh"
 		scale = 1.0
 	}
 

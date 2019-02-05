@@ -24,8 +24,12 @@ pop_faction_name_format = {
 pop_faction_name_parts_list = {
 	key = "zeon_imperialist_names"
 	parts = {
-		"Chimera Corps Veterans Association" = 1
-		"The Sleeves Movement" = 1
+		"Chimera Corps Veterans Association" = 10
+		"The Sleeves Movement" = 5
+		"Delaz Fleet Veterans Association" = 3
+		"Invisible Knights Veterans Association" = 1
+		"Midnight Fenrir Veterans Association" = 1
+		"Living Dead Division Veterans Association" = 1
 		"The Oldsmobile" = 1
 	}
 }
@@ -118,6 +122,7 @@ pop_faction_name_parts_list = {
 	key = "zeon_supremacist_names"
 	parts = {
 		"Newborn Neo Zeon" = 5
+		"Eclipse Organization" = 1
 	}
 }
 
@@ -180,7 +185,8 @@ pop_faction_name_format = {
 pop_faction_name_parts_list = {
 	key = "zeon_progressive_names"
 	parts = {
-		"Contolist Movement" = 1
+		"Contolist Movement" = 5
+		"White Rose Valkyries" = 1
 	}
 }
 

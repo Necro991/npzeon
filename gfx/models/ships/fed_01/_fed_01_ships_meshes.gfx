@@ -1825,13 +1825,26 @@ objectTypes = {
 	}
 
 	pdxmesh = { #FA Mk-III
+		name = "Gundam_Mk3_mesh"
+		file = "gfx/models/ships/fed_01/Gundam_Mk_III.mesh"
+
+		scale = 1.0
+			meshsettings = {
+				texture_diffuse = "Gundam_Mk_III_Diffuse.dds"
+				texture_normal = "Gundam_Mk_III_Normal.dds"
+				texture_specular = "Zaku_Specular.dds"
+				shader = "PdxMeshShip"
+		}
+	}
+
+	pdxmesh = { #FA Mk-III
 		name = "FA_Gundam_Mk3_mesh"
 		file = "gfx/models/ships/fed_01/FA_Gundam_Mk_III.mesh"
 
 		scale = 1.0
 			meshsettings = {
 				texture_diffuse = "FA_Gundam_Mk_III_Diffuse.dds"
-				texture_normal = "zakuII_normal.dds"
+				texture_normal = "FA_Gundam_Mk_III_Normal.dds"
 				texture_specular = "Zaku_Specular.dds"
 				shader = "PdxMeshShip"
 		}
@@ -2014,6 +2027,58 @@ objectTypes = {
 			meshsettings = {
 				texture_diffuse = "Zeta_Gundam_Diffuse.dds"
 				texture_normal = "zakuII_normal.dds"
+				texture_specular = "Zaku_Specular.dds"
+				shader = "PdxMeshShip"
+		}
+	}
+
+	pdxmesh = { #ZZ Gundam
+		name = "ZZ_Gundam_mesh"
+		file = "gfx/models/ships/fed_01/ZZ_Gundam.mesh"
+
+		scale = 1.0
+			meshsettings = {
+				texture_diffuse = "ZZ_Gundam_Diffuse.dds"
+				texture_normal = "ZZ_Gundam_Normal.dds"
+				texture_specular = "Zaku_Specular.dds"
+				shader = "PdxMeshShip"
+		}
+	}
+
+	pdxmesh = { #Superior Gundam
+		name = "S_Gundam_mesh"
+		file = "gfx/models/ships/fed_01/S_Gundam.mesh"
+
+		scale = 1.0
+			meshsettings = {
+				texture_diffuse = "S_Gundam_Diffuse.dds"
+				texture_normal = "S_Gundam_Normal.dds"
+				texture_specular = "Zaku_Specular.dds"
+				shader = "PdxMeshShip"
+		}
+	}
+
+	pdxmesh = { #FAAAAAAAAAAAAAAAAAAAAAZZ
+		name = "FAZZ_mesh"
+		file = "gfx/models/ships/fed_01/FAZZ.mesh"
+
+		scale = 1.0
+			meshsettings = {
+				texture_diffuse = "FAZZ_Diffuse.dds"
+				texture_normal = "zakuII_normal.dds"
+				texture_specular = "Zaku_Specular.dds"
+				shader = "PdxMeshShip"
+		}
+	}
+
+	pdxmesh = { #Psyco Gundam
+		name = "Psyco_Gundam_mesh"
+		file = "gfx/models/ships/fed_01/Psyco_Gundam.mesh"
+
+		scale = 1.0
+			meshsettings = {
+				texture_diffuse = "Psyco_Gundam_Diffuse.dds"
+				texture_normal = "Psyco_Gundam_Normal.dds"
 				texture_specular = "Zaku_Specular.dds"
 				shader = "PdxMeshShip"
 		}

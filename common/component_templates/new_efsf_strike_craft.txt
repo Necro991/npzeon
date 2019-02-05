@@ -1539,7 +1539,7 @@ strike_craft_component_template = {
 strike_craft_component_template = {
 	key = "EFSF_MS_STRIKE_CRAFT_MSF_007" #MSF-007 Gundam Mk-III
 	size = LARGE
-	entity = "FA_Gundam_Mk3_entity"
+	entity = "Gundam_Mk3_entity"
 
 	weapon_type = point_defence
 	projectile_gfx = "MPC2"
@@ -2801,7 +2801,7 @@ strike_craft_component_template = {
 
 	weapon_type = point_defence
 	projectile_gfx = "MPC2"
-	power = -90 #2020 = 90
+	power = -90 #3140 = 90
 	resources = {
 		category = ship_components
 		cost = {
@@ -2840,7 +2840,252 @@ strike_craft_component_template = {
 	component_set = "MSZ_006_HANGAR_1"
 	prerequisites = { "tech_MSZ_006" }
 	tags = { weapon_type_strike_craft }
+	#upgrades_to = "EFSF_MS_STRIKE_CRAFT_MSZ_010"
+}
+
+strike_craft_component_template = {
+	key = "EFSF_MS_STRIKE_CRAFT_MSZ_009" #MSZ-009 Prototype ZZ Gundam
+	size = LARGE
+	entity = "ZZ_Gundam_entity"
+
+	weapon_type = point_defence
+	projectile_gfx = "MPC2"
+	power = -140 #3140 = 140
+	resources = {
+		category = ship_components
+		cost = {
+			alloys = 81 #60.3 tons = 37 for armor + 44 for gun
+			newtypes = 1
+			luna_titanium = 1
+		}
+	}
+
+	count = 1
+	regeneration_per_day = 0.034
+	launch_time = 8.0
+
+	damage = { min = 125.6 max = 251.2 } #Double Beam Cannon
+	cooldown = 2.0
+	range = 60
+	accuracy = 0.75
+	tracking = 0.3
+
+	health = 93
+	armor = 186 #Gundarium
+	shield = 0
+	evasion = 0.6
+
+	speed = 481.2 #1.67
+	rotation_speed = 0.1
+	acceleration = 0.5
+
+	shield_damage = 0.2
+	armor_penetration = 0.95
+
+	ship_behavior = "bombers_behavior"
+
+	icon = "GFX_ship_part_msz_009"
+	icon_frame = 1
+	component_set = "MSZ_009_HANGAR_1"
+	prerequisites = { "tech_MSZ_009" }
+	tags = { weapon_type_strike_craft }
+	upgrades_to = "EFSF_MS_STRIKE_CRAFT_MSZ_010"
+}
+
+strike_craft_component_template = {
+	key = "EFSF_MS_STRIKE_CRAFT_MSZ_010" #MSZ-010 ZZ Gundam
+	size = LARGE
+	entity = "ZZ_Gundam_entity"
+
+	weapon_type = point_defence
+	projectile_gfx = "MPC2"
+	power = -327 #7340 = 327
+	resources = {
+		category = ship_components
+		cost = {
+			alloys = 86 #68.4 tons = 42 for armor + 44 for gun
+			newtypes = 1
+			luna_titanium = 1
+		}
+	}
+
+	count = 1
+	regeneration_per_day = 0.034
+	launch_time = 8.0
+
+	damage = { min = 293.6 max = 587.2 } #Beam Rifle
+	cooldown = 2.0
+	range = 60
+	accuracy = 0.75
+	tracking = 0.3
+
+	health = 105
+	armor = 210 #Gundarium
+	shield = 0
+	evasion = 0.6
+
+	speed = 426.4 #1.48G
+	rotation_speed = 0.1
+	acceleration = 0.5
+
+	shield_damage = 0.2
+	armor_penetration = 0.95
+
+	ship_behavior = "bombers_behavior"
+
+	icon = "GFX_ship_part_msz_010"
+	icon_frame = 1
+	component_set = "MSZ_010_HANGAR_1"
+	prerequisites = { "tech_MSZ_010" }
+	tags = { weapon_type_strike_craft }
+	upgrades_to = "EFSF_MS_STRIKE_CRAFT_FA_010A"
+}
+
+strike_craft_component_template = {
+	key = "EFSF_MS_STRIKE_CRAFT_MSA_0011" #MSA-0011 S Gundam
+	size = LARGE
+	entity = "S_Gundam_entity"
+
+	weapon_type = point_defence
+	projectile_gfx = "MPC2"
+	power = -319 #7180 = 319
+	resources = {
+		category = ship_components
+		cost = {
+			alloys = 89 #73.0 tons = 45 for armor + 44 for gun
+			newtypes = 1
+			luna_titanium = 1
+		}
+	}
+
+	count = 1
+	regeneration_per_day = 0.034
+	launch_time = 8.0
+
+	damage = { min = 287.2 max = 574.4 } #Beam Smart Gun/Beam Sniper
+	cooldown = 2.0
+	range = 90.0
+	accuracy = 0.75
+	tracking = 0.3
+
+	health = 112
+	armor = 224 #Gundarium
+	shield = 0
+	evasion = 0.7
+
+	speed = 567.6 #1.97G
+	rotation_speed = 0.1
+	acceleration = 0.5
+
+	shield_damage = 0.2
+	armor_penetration = 0.95
+
+	ship_behavior = "bombers_behavior"
+
+	icon = "GFX_ship_part_msa_0011"
+	icon_frame = 1
+	component_set = "MSA_0011_HANGAR_1"
+	prerequisites = { "tech_MSA_0011" }
+	tags = { weapon_type_strike_craft }
+	#upgrades_to = "EFSF_MS_STRIKE_CRAFT_FA_010A"
+}
+
+strike_craft_component_template = {
+	key = "EFSF_MS_STRIKE_CRAFT_FA_010A" #FA-010A FAZZ
+	size = LARGE
+	entity = "FAZZ_entity"
+
+	weapon_type = point_defence
+	projectile_gfx = "MPC2"
+	power = -359 #8070 = 359
+	resources = {
+		category = ship_components
+		cost = {
+			alloys = 124 #94.6 tons = 58 for armor + 66 for gun
+			newtypes = 1
+			luna_titanium = 1
+		}
+	}
+
+	count = 1
+	regeneration_per_day = 0.034
+	launch_time = 8.0
+
+	damage = { min = 322.8 max = 643.6 } #Beam Rifle
+	cooldown = 4.0 #Could be changed up to 6.
+	range = 90
+	accuracy = 0.75
+	tracking = 0.0
+
+	health = 146
+	armor = 511 #Gundarium
+	shield = 0
+	evasion = 0.6
+
+	speed = 363.1 #1.26G
+	rotation_speed = 0.1
+	acceleration = 0.5
+
+	shield_damage = 0.2
+	armor_penetration = 0.95
+
+	ship_behavior = "bombers_behavior"
+
+	icon = "GFX_ship_part_fa_010a"
+	icon_frame = 1
+	component_set = "FA_010A_HANGAR_1"
+	prerequisites = { "tech_FA_010A" }
+	tags = { weapon_type_strike_craft }
 	#upgrades_to = "EFSF_MS_STRIKE_CRAFT_MSA_004"
+}
+
+strike_craft_component_template = {
+	key = "EFSF_MS_STRIKE_CRAFT_MRX_007" #MRX-007 Prototype Psyco Gundam
+	size = LARGE
+	entity = "Prototype_Psyco_Gundam_entity"
+
+	weapon_type = point_defence
+	projectile_gfx = "MPC2"
+	power = -165 #3700 = 165
+	resources = {
+		category = ship_components
+		cost = {
+			alloys = 112 #110.9 tons = 68 for armor + 44 for gun
+			newtypes = 1
+			luna_titanium = 1
+		}
+	}
+
+	count = 1
+	regeneration_per_day = 0.034
+	launch_time = 8.0
+
+	damage = { min = 148.0 max = 296.0 } #Double Beam Cannon
+	cooldown = 2.0
+	range = 60
+	accuracy = 0.75
+	tracking = 0.3
+
+	health = 171
+	armor = 342 #Gundarium
+	shield = 0
+	evasion = 0.25
+
+	speed = 210.3 #0.73G
+	rotation_speed = 0.1
+	acceleration = 0.5
+
+	shield_damage = 0.2
+	armor_penetration = 0.95
+
+	ship_behavior = "bombers_behavior"
+
+	icon = "GFX_ship_part_mrx_007"
+	icon_frame = 1
+	component_set = "MRX_007_HANGAR_1"
+	prerequisites = { "tech_MRX_007" }
+	tags = { weapon_type_strike_craft }
+	#upgrades_to = "EFSF_MS_STRIKE_CRAFT_MSZ_010"
 }
 
 strike_craft_component_template = {
