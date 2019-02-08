@@ -72,7 +72,7 @@ zeonic_researcher = {
 anaheim_researcher = {
 	category = specialist
 	condition_string = SPECIALIST_JOB_TRIGGER
-	building_icon = zeonic_zimmad_mip
+	building_icon = anaheim
 	clothes_texture_index = 3
 
 	possible = {
@@ -323,7 +323,7 @@ efsf_pilot_instructor = {
 newtype_researcher = {
 	category = specialist
 	condition_string = SPECIALIST_JOB_TRIGGER
-	building_icon = zeonic_zimmad_mip
+	building_icon = newtype_lab
 	clothes_texture_index = 3
 
 	possible = {
@@ -394,7 +394,7 @@ newtype_researcher = {
 cybernewtype_researcher = {
 	category = specialist
 	condition_string = SPECIALIST_JOB_TRIGGER
-	building_icon = zeonic_zimmad_mip
+	building_icon = cybernewtype_lab
 	clothes_texture_index = 3
 
 	possible = {

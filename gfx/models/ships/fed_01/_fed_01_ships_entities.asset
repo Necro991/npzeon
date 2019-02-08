@@ -3175,6 +3175,12 @@ entity = {
 	}
 
 	entity = {
+		name = "Zeta_Plus_C1_entity" #Zeta Plus C1
+		pdxmesh = "Zeta_Plus_C1_mesh"
+		scale = 1.0
+	}
+
+	entity = {
 		name = "ZZ_Gundam_entity" #ZZ Gundam
 		pdxmesh = "ZZ_Gundam_mesh"
 		scale = 1.0
@@ -3231,6 +3237,12 @@ entity = {
 	entity = {
 		name = "Stark_Jegan_entity" #Stark Jegan
 		pdxmesh = "Stark_Jegan_mesh"
+		scale = 1.0
+	}
+
+	entity = {
+		name = "Re_GZ_entity" #Re-GZ
+		pdxmesh = "Re_GZ_mesh"
 		scale = 1.0
 	}
 

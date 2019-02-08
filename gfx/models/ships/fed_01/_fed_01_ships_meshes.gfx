@@ -2032,6 +2032,19 @@ objectTypes = {
 		}
 	}
 
+	pdxmesh = { #Zeta Plus C1
+		name = "Zeta_Plus_C1_mesh"
+		file = "gfx/models/ships/fed_01/Zeta_Plus_C1.mesh"
+
+		scale = 1.0
+			meshsettings = {
+				texture_diffuse = "Zeta_Plus_C1_Diffuse.dds"
+				texture_normal = "Zeta_Plus_C1_Normal.dds"
+				texture_specular = "Zaku_Specular.dds"
+				shader = "PdxMeshShip"
+		}
+	}
+
 	pdxmesh = { #ZZ Gundam
 		name = "ZZ_Gundam_mesh"
 		file = "gfx/models/ships/fed_01/ZZ_Gundam.mesh"
@@ -2144,6 +2157,19 @@ objectTypes = {
 			meshsettings = {
 				texture_diffuse = "Stark_Jegan_Diffuse.dds"
 				texture_normal = "zakuII_normal.dds"
+				texture_specular = "Zaku_Specular.dds"
+				shader = "PdxMeshShip"
+		}
+	}
+
+	pdxmesh = { #Re-GZ Single
+		name = "Re_GZ_mesh"
+		file = "gfx/models/ships/fed_01/Re_GZ.mesh"
+
+		scale = 1.0
+			meshsettings = {
+				texture_diffuse = "Re_GZ_Diffuse.dds"
+				texture_normal = "Re_GZ_Normal.dds"
 				texture_specular = "Zaku_Specular.dds"
 				shader = "PdxMeshShip"
 		}

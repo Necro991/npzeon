@@ -1499,7 +1499,7 @@ weapon_component_template = {
 	size = point_defence
 	entity = "Zeon_Machine_Gun_01_Entity"
 	damage = { min = 16.8 max = 33.5 }
-	total_fire_time = 0.5
+	total_fire_time = 5.0
 	range = 30.0
 	accuracy = 0.75
 	tracking  = 0.5

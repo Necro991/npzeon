@@ -442,6 +442,13 @@ component_set = {
 }
 
 component_set = {
+	key = "MSZ_006C1_HANGAR_1"
+
+	icon = "GFX_ship_part_msz_006c1"
+	icon_frame = 1
+}
+
+component_set = {
 	key = "MSZ_009_HANGAR_1"
 
 	icon = "GFX_ship_part_msz_009"
@@ -543,6 +550,13 @@ component_set = {
 	key = "RGM_89De_HANGAR_2"
 
 	icon = "GFX_ship_part_rgm_89de"
+	icon_frame = 1
+}
+
+component_set = {
+	key = "RGZ_91_HANGAR_1"
+
+	icon = "GFX_ship_part_rgz_91"
 	icon_frame = 1
 }
 

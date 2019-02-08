@@ -5,12 +5,6 @@ ms_pilot_academy = {
 	category = army
 
 	potential = {
-		#NOT = {
-		#	OR = {
-		#		owner = { is_hive_empire = yes }
-		#		owner = { is_machine_empire = yes }
-		#	}
-		#}
 		NOT = { has_modifier = resort_colony }
 		owner = {
 			OR = {
@@ -32,6 +26,34 @@ ms_pilot_academy = {
 		potential = {
 			owner = {
 				has_technology = "tech_BEAMC_1"
+				is_regular_empire = yes
+			}
+		}
+		modifier = {
+			job_zeon_pilot_instructor_add = 1
+		}
+	}
+
+	triggered_planet_modifier = {
+		potential = {
+			owner = {
+				has_technology = "tech_BEAMC_1"
+				OR = {
+					is_machine_empire = yes
+					is_hive_empire = yes
+				}
+			}
+		}
+		modifier = {
+			job_zeon_pilot_instructor_drone_add = 1
+		}
+	}
+
+	triggered_planet_modifier = {
+		potential = {
+			owner = {
+				has_technology = "tech_BEAMC_2"
+				is_regular_empire = yes
 			}
 		}
 		modifier = {
@@ -43,6 +65,22 @@ ms_pilot_academy = {
 		potential = {
 			owner = {
 				has_technology = "tech_BEAMC_2"
+				OR = {
+					is_machine_empire = yes
+					is_hive_empire = yes
+				}
+			}
+		}
+		modifier = {
+			job_zeon_pilot_instructor_drone_add = 1
+		}
+	}
+
+	triggered_planet_modifier = {
+		potential = {
+			owner = {
+				has_technology = "tech_BEAMC_3"
+				is_regular_empire = yes
 			}
 		}
 		modifier = {
@@ -54,10 +92,14 @@ ms_pilot_academy = {
 		potential = {
 			owner = {
 				has_technology = "tech_BEAMC_3"
+				OR = {
+					is_machine_empire = yes
+					is_hive_empire = yes
+				}
 			}
 		}
 		modifier = {
-			job_zeon_pilot_instructor_add = 1
+			job_zeon_pilot_instructor_drone_add = 1
 		}
 	}
 
@@ -65,6 +107,34 @@ ms_pilot_academy = {
 		potential = {
 			owner = {
 				has_technology = "tech_EFSF_BEAMC_1"
+				is_regular_empire = yes
+			}
+		}
+		modifier = {
+			job_efsf_pilot_instructor_add = 1
+		}
+	}
+
+	triggered_planet_modifier = {
+		potential = {
+			owner = {
+				has_technology = "tech_EFSF_BEAMC_1"
+				OR = {
+					is_machine_empire = yes
+					is_hive_empire = yes
+				}
+			}
+		}
+		modifier = {
+			job_efsf_pilot_instructor_drone_add = 1
+		}
+	}
+
+	triggered_planet_modifier = {
+		potential = {
+			owner = {
+				has_technology = "tech_EFSF_BEAMC_2"
+				is_regular_empire = yes
 			}
 		}
 		modifier = {
@@ -76,6 +146,22 @@ ms_pilot_academy = {
 		potential = {
 			owner = {
 				has_technology = "tech_EFSF_BEAMC_2"
+				OR = {
+					is_machine_empire = yes
+					is_hive_empire = yes
+				}
+			}
+		}
+		modifier = {
+			job_efsf_pilot_instructor_drone_add = 1
+		}
+	}
+
+	triggered_planet_modifier = {
+		potential = {
+			owner = {
+				has_technology = "tech_EFSF_BEAMC_3"
+				is_regular_empire = yes
 			}
 		}
 		modifier = {
@@ -87,10 +173,14 @@ ms_pilot_academy = {
 		potential = {
 			owner = {
 				has_technology = "tech_EFSF_BEAMC_3"
+				OR = {
+					is_machine_empire = yes
+					is_hive_empire = yes
+				}
 			}
 		}
 		modifier = {
-			job_efsf_pilot_instructor_add = 1
+			job_efsf_pilot_instructor_drone_add = 1
 		}
 	}
 

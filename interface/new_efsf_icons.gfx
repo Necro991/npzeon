@@ -246,6 +246,11 @@ spriteTypes = {
 	}
 
 	spriteType = {
+		name = "GFX_ship_part_msz_006c1"
+		texturefile = "gfx/interface/icons/ship_parts/MSZ-006C1.dds"
+	}
+
+	spriteType = {
 		name = "GFX_ship_part_msz_009"
 		texturefile = "gfx/interface/icons/ship_parts/MSZ-009.dds"
 	}
@@ -313,6 +318,11 @@ spriteTypes = {
 	spriteType = {
 		name = "GFX_ship_part_rgm_89s"
 		texturefile = "gfx/interface/icons/ship_parts/RGM-89S.dds"
+	}
+
+	spriteType = {
+		name = "GFX_ship_part_rgz_91"
+		texturefile = "gfx/interface/icons/ship_parts/RGZ-91.dds"
 	}
 
 	spriteType = {

@@ -2840,6 +2840,55 @@ strike_craft_component_template = {
 	component_set = "MSZ_006_HANGAR_1"
 	prerequisites = { "tech_MSZ_006" }
 	tags = { weapon_type_strike_craft }
+	upgrades_to = "EFSF_MS_STRIKE_CRAFT_MSZ_010"
+}
+
+strike_craft_component_template = {
+	key = "EFSF_MS_STRIKE_CRAFT_MSZ_006C1" #MSZ-006C1 Zeta Plus C1
+	size = LARGE
+	entity = "Zeta_Plus_C1_entity"
+
+	weapon_type = point_defence
+	projectile_gfx = "MPC2"
+	power = -90 #3140 = 90
+	resources = {
+		category = ship_components
+		cost = {
+			alloys = 207 #77.04 tons = 141 for armor + 66 for gun
+			efsf_pilots = 3
+			luna_titanium = 1
+		}
+	}
+
+	count = 3
+	regeneration_per_day = 0.034
+	launch_time = 8.0
+
+	damage = { min = 41.4 max = 82.8 } #Beam Rifle
+	cooldown = 1.0
+	range = 45
+	accuracy = 0.75
+	tracking = 0.3
+
+	health = 119
+	armor = 238 #Gundarium
+	shield = 0
+	evasion = 0.65
+
+	speed = 463.9 #1.61G
+	rotation_speed = 0.1
+	acceleration = 0.5
+
+	shield_damage = 0.2
+	armor_penetration = 0.95
+
+	ship_behavior = "bombers_behavior"
+
+	icon = "GFX_ship_part_msz_006c1"
+	icon_frame = 1
+	component_set = "MSZ_006C1_HANGAR_1"
+	prerequisites = { "tech_MSZ_006C1" }
+	tags = { weapon_type_strike_craft }
 	#upgrades_to = "EFSF_MS_STRIKE_CRAFT_MSZ_010"
 }
 
@@ -3663,6 +3712,55 @@ strike_craft_component_template = {
 	prerequisites = { "tech_RGM_89De" }
 	tags = { weapon_type_strike_craft }
 	upgrades_to = "EFSF_MS_STRIKE_CRAFT_RGM_96X_2"
+}
+
+strike_craft_component_template = {
+	key = "EFSF_MS_STRIKE_CRAFT_RGZ_91" #RGZ-91 Re-GZ
+	size = LARGE
+	entity = "Re_GZ_entity"
+
+	weapon_type = point_defence
+	projectile_gfx = "MPC2"
+	power = -113 #2550 = 113
+	resources = {
+		category = ship_components
+		cost = {
+			alloys = 56 #55.2 tons = 34 for armor + 22 for gun
+			luna_titanium = 1
+			efsf_ace_pilots = 1
+		}
+	}
+
+	count = 1
+	regeneration_per_day = 0.034
+	launch_time = 8.0
+
+	damage = { min = 51.0 max = 102.0 } #Beam Rifle
+	cooldown = 1.0
+	range = 45
+	accuracy = 0.75
+	tracking = 0.3
+
+	health = 85
+	armor = 213 #Improved Armor
+	shield = 0
+	evasion = 0.85 #Greatly improved performance
+
+	speed = 466.8 #1.62G
+	rotation_speed = 0.1
+	acceleration = 0.5
+
+	shield_damage = 0.2
+	armor_penetration = 0.95
+
+	ship_behavior = "bombers_behavior"
+
+	icon = "GFX_ship_part_rgz_91"
+	icon_frame = 1
+	component_set = "RGZ_91_HANGAR_1"
+	prerequisites = { "tech_RGZ_91" }
+	tags = { weapon_type_strike_craft }
+	#upgrades_to = "EFSF_MS_STRIKE_CRAFT_RGM_89De_1"
 }
 
 strike_craft_component_template = {

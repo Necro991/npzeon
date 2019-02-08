@@ -825,6 +825,20 @@ tech_MSZ_006 = { #Zeta Gundam
 	}
 }
 
+tech_MSZ_006C1 = { #Zeta Plus C1
+	area = engineering
+	cost = @tier1cost1
+	tier = 1
+	category = { materials }
+	ai_update_type = military
+	prerequisites = { "tech_MSZ_006" }
+	weight = @tier1weight1
+
+	ai_weight = {
+		factor = 2		#weapons are good
+	}
+}
+
 tech_MSZ_009 = { #Prototype ZZ Gundam
 	area = engineering
 	cost = @tier1cost1
@@ -986,6 +1000,20 @@ tech_RGM_89S = { #Stark Jegan
 	category = { materials }
 	ai_update_type = military
 	prerequisites = { "tech_RGM_89S_Prototype" "tech_RGM_89D" }
+	weight = @tier1weight1
+
+	ai_weight = {
+		factor = 2		#weapons are good
+	}
+}
+
+tech_RGZ_91 = { #Re-GZ
+	area = engineering
+	cost = @tier1cost1
+	tier = 1
+	category = { materials }
+	ai_update_type = military
+	prerequisites = { "tech_Londo_Bell" "tech_MSZ_006C1" }
 	weight = @tier1weight1
 
 	ai_weight = {
