@@ -179,8 +179,8 @@ efsf_pilot_instructor_drone = {
 	resources = {
 		category = planet_soldiers
 		produces = {
-			zeon_pilots = 3
-			zeon_ace_pilots = 1
+			efsf_pilots = 3
+			efsf_ace_pilots = 1
 			unity = 1
 		}
 		upkeep = {

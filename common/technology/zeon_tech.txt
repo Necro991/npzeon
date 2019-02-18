@@ -881,19 +881,19 @@ tech_AMX_014 = {
 	}
 }
 
-tech_AGX_04 = { #Gerbera Tetra
-	area = engineering
-	cost = @tier1cost1
-	tier = 1
-	category = { materials }
-	ai_update_type = military
-	prerequisites = { "tech_Axis" }
-	weight = @tier1weight1
+#tech_AGX_04 = { #Gerbera Tetra
+#	area = engineering
+#	cost = @tier1cost1
+#	tier = 1
+#	category = { materials }
+#	ai_update_type = military
+#	prerequisites = { "tech_Axis" }
+#	weight = @tier1weight1
 
-	ai_weight = {
-		factor = 2		#weapons are good
-	}
-}
+#	ai_weight = {
+#		factor = 2		#weapons are good
+#	}
+#}
 
 tech_AMS_119 = {
 	area = engineering
