@@ -329,6 +329,20 @@ objectTypes = {
 		}
 	}
 
+	#New Musai Turret#
+
+	pdxmesh = {
+		name = "New_Musai_Turret_mesh"
+		file = "gfx/models/ships/zeon_01/New_Musai_Turret.mesh"
+		scale = 5.0
+		meshsettings = {
+			texture_diffuse = "New_Musai_Diffuse.dds"
+			texture_normal = "zakuII_normal.dds"
+			texture_specular = "zakuII_specular.dds"
+			shader = "PdxMeshShip"
+		}
+	}
+
 	#######  escorts  ########
 
 	pdxmesh = {

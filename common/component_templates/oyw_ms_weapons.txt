@@ -585,7 +585,7 @@ weapon_component_template = {
 	key = "OYW_ZEON_175MM" #Technically a ground type weapon, but it's rad so it's in.
 	size = point_defence
 	entity = "Zeon_Machine_Gun_01_Entity"
-	damage = { min = 26.5 max = 54.5 }
+	damage = { min = 1.0 max = 10.0 } #min = 26.5 max = 54.5
 	total_fire_time = 5
 	range = 30.0
 	accuracy = 0.75
@@ -805,7 +805,7 @@ weapon_component_template = {
 	size = point_defence
 	entity = "Zeon_Machine_Gun_01_Entity"
 	damage = { min = 2.0 max = 10.0 }
-	total_fire_time = 0.5
+	total_fire_time = 5.0
 	range = 30.0
 	accuracy = 0.75
 	tracking  = 0.5
