@@ -1,0 +1,70 @@
+ship_section_template = { #NZ-000 Queen Mansa
+	key = "NZ_000_MID"
+	ship_size = NZ_000
+	fits_on_slot = mid
+	entity = "Queen_Mansa_entity"
+	icon = "GFX_ship_part_core_mid"
+
+	prerequisites = { tech_NZ_000 }
+
+	component_slot = {
+		name = "EXTRA_LARGE_01" #Head MPC
+		slot_size = extra_large
+		slot_type = weapon
+		locatorname = "xl_gun_01"
+	}
+
+	component_slot = {
+		name = "SMALL_GUN_01"
+		slot_size = point_defence
+		slot_type = weapon
+		locatorname = "small_gun_01"
+	}
+
+	component_slot = {
+		name = "SMALL_GUN_02"
+		slot_size = point_defence
+		slot_type = weapon
+		locatorname = "small_gun_02"
+	}
+
+	component_slot = {
+		name = "SMALL_GUN_03"
+		slot_size = point_defence
+		slot_type = weapon
+		locatorname = "small_gun_03"
+	}
+
+	component_slot = {
+		name = "SMALL_GUN_04"
+		slot_size = point_defence
+		slot_type = weapon
+		locatorname = "small_gun_04"
+	}
+
+	component_slot = {
+		name = "SMALL_GUN_05"
+		slot_size = point_defence
+		slot_type = weapon
+		locatorname = "small_gun_05"
+	}
+
+	component_slot = {
+		name = "SMALL_GUN_06"
+		slot_size = point_defence
+		slot_type = weapon
+		locatorname = "small_gun_06"
+	}
+
+	small_utility_slots = 0
+	medium_utility_slots = 0
+	large_utility_slots = 0
+	aux_utility_slots = 0
+
+	resources = {
+		category = ship_sections
+		cost = {
+			alloys = 163
+		}
+	}
+}

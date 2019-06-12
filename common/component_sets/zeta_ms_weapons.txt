@@ -1,4 +1,25 @@
 component_set = {
+	key = "ZETA_GAZA_C_KNUCKLE_BUSTER"
+
+	icon = "ZETA_GAZA_C_KNUCKLE_BUSTER"
+	icon_frame = 1
+}
+
+component_set = {
+	key = "ZETA_3_BARREL_CANNON"
+
+	icon = "ZETA_3_BARREL_CANNON"
+	icon_frame = 1
+}
+
+component_set = {
+	key = "ZETA_DREISSEN_BEAM_RIFLE"
+
+	icon = "ZETA_DREISSEN_BEAM_RIFLE"
+	icon_frame = 1
+}
+
+component_set = {
 	key = "ZETA_GM_II_BEAM_RIFLE"
 
 	icon = "ZETA_GM_BEAM_RIFLE"

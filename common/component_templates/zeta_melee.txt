@@ -1,0 +1,302 @@
+utility_component_template = {
+	key = "axis_melee_aura_0"
+	size = small
+	icon = "GFX_ship_part_empty_ftl_drive"
+	icon_frame = 1
+	power = 0
+
+	prerequisites = { "tech_Axis" }
+
+	component_set = "axis_melee_aura"
+	upgrades_to = "not_zeon_melee_aura_4"
+
+	ai_weight = {
+		weight = 0
+	}
+}
+
+utility_component_template = {
+	key = "not_zeon_melee_aura_4" #A copy of the heat sabre for use on Axis suits such as the Dreisen
+	size = small
+	icon = "zeon_melee_04"
+	icon_frame = 1
+	power = 0
+	resources = {
+		category = ship_components
+		cost = {
+			alloys = 10
+		}
+	}
+
+	hostile_aura = {
+		name = "not_zeon_melee_4"
+		radius = 5
+		apply_on = ships
+
+		stack_info = {			#A ship can only be affected by one aura of a certain id. If multiple auras have the same ID the one with the highest priority will be applied.
+			id = zeon_melee_004
+			priority = 2
+		}
+
+		damage_per_day = {
+			accuracy = 0.15
+			damage = { min = 20 max = 34 }
+			shield_damage = 1.33
+			armor_penetration = 0.4
+		}
+
+		graphics = {
+			area_effect = {
+				entity = "circle_area_entity"
+				dynamic_scale = yes
+			}
+		}
+	}
+
+	prerequisites = { "tech_Axis" }
+
+	component_set = "axis_melee_aura"
+	upgrades_to = "axis_melee_aura_1"
+
+	ai_weight = {
+		weight = 1
+	}
+}
+
+utility_component_template = {
+	key = "axis_melee_aura_1" #Generic Beam Saber
+	size = small
+	icon = "zeon_melee_14"
+	icon_frame = 1
+	power = 0
+	resources = {
+		category = ship_components
+		cost = {
+			alloys = 15
+		}
+	}
+
+	hostile_aura = {
+		name = "axis_melee_1"
+		radius = 5
+		apply_on = ships
+
+		stack_info = {			#A ship can only be affected by one aura of a certain id. If multiple auras have the same ID the one with the highest priority will be applied.
+			id = axis_melee_001
+			priority = 2
+		}
+
+		damage_per_day = {
+			accuracy = 0.15
+			damage = { min = 34 max = 68 }
+			shield_damage = 0.2
+			armor_penetration = 0.95
+		}
+
+		graphics = {
+			area_effect = {
+				entity = "circle_area_entity"
+				dynamic_scale = yes
+			}
+		}
+	}
+
+	prerequisites = { "tech_Axis" } #Generic Beam Sword for use on all units
+
+	component_set = "axis_melee_aura"
+	upgrades_to = "axis_melee_aura_3"
+
+	ai_weight = {
+		weight = 2
+	}
+}
+
+utility_component_template = {
+	key = "axis_melee_aura_2" #Tri-Blade for use on Dreissen only
+	size = small
+	icon = "zeon_melee_15"
+	icon_frame = 1
+	power = 0
+	resources = {
+		category = ship_components
+		cost = {
+			alloys = 15
+		}
+	}
+
+	hostile_aura = {
+		name = "axis_melee_2"
+		radius = 10 #throwing weapon, so longer range
+		apply_on = ships
+
+		stack_info = {			#A ship can only be affected by one aura of a certain id. If multiple auras have the same ID the one with the highest priority will be applied.
+			id = axis_melee_001
+			priority = 2
+		}
+
+		damage_per_day = {
+			accuracy = 0.25
+			damage = { min = 9 max = 18 }
+			shield_damage = 0.2
+			armor_penetration = 0.95
+		}
+
+		graphics = {
+			area_effect = {
+				entity = "circle_area_entity"
+				dynamic_scale = yes
+			}
+		}
+	}
+
+	prerequisites = { "tech_AMX_009" }
+
+	component_set = "tri_blade_aura"
+
+	ai_weight = {
+		weight = 1
+	}
+}
+
+utility_component_template = {
+	key = "axis_melee_aura_3"
+	size = small
+	icon = "zeon_melee_16"
+	icon_frame = 1
+	power = 0
+	resources = {
+		category = ship_components
+		cost = {
+			alloys = 20
+		}
+	}
+
+	hostile_aura = {
+		name = "axis_melee_3"
+		radius = 5
+		apply_on = ships
+
+		stack_info = {			#A ship can only be affected by one aura of a certain id. If multiple auras have the same ID the one with the highest priority will be applied.
+			id = axis_melee_003
+			priority = 2
+		}
+
+		damage_per_day = {
+			accuracy = 0.2
+			damage = { min = 34 max = 68 }
+			shield_damage = 0.2
+			armor_penetration = 0.95
+		}
+
+		graphics = {
+			area_effect = {
+				entity = "circle_area_entity"
+				dynamic_scale = yes
+			}
+		}
+	}
+
+	prerequisites = { "tech_AMX_009" }
+
+	component_set = "axis_melee_aura"
+	upgrades_to = "axis_melee_aura_4"
+
+	ai_weight = {
+		weight = 3
+	}
+}
+
+utility_component_template = {
+	key = "axis_melee_aura_4"
+	size = small
+	icon = "zeon_melee_17"
+	icon_frame = 1
+	power = 0
+	resources = {
+		category = ship_components
+		cost = {
+			alloys = 25
+		}
+	}
+
+	hostile_aura = {
+		name = "axis_melee_4"
+		radius = 5
+		apply_on = ships
+
+		stack_info = {			#A ship can only be affected by one aura of a certain id. If multiple auras have the same ID the one with the highest priority will be applied.
+			id = axis_melee_004
+			priority = 2
+		}
+
+		damage_per_day = {
+			accuracy = 0.15
+			damage = { min = 41 max = 82 } #1.2x base beam sabre
+			shield_damage = 0.2
+			armor_penetration = 0.95
+		}
+
+		graphics = {
+			area_effect = {
+				entity = "circle_area_entity"
+				dynamic_scale = yes
+			}
+		}
+	}
+
+	prerequisites = { "tech_AMX_009" }
+
+	component_set = "axis_melee_aura"
+
+	ai_weight = {
+		weight = 4
+	}
+}
+
+utility_component_template = {
+	key = "axis_melee_aura_5" #Queen Mansa Beam Saber
+	size = small
+	icon = "zeon_melee_18"
+	icon_frame = 1
+	power = 0
+	resources = {
+		category = ship_components
+		cost = {
+			alloys = 30
+		}
+	}
+
+	hostile_aura = {
+		name = "axis_melee_5"
+		radius = 5
+		apply_on = ships
+
+		stack_info = {			#A ship can only be affected by one aura of a certain id. If multiple auras have the same ID the one with the highest priority will be applied.
+			id = axis_melee_001
+			priority = 2
+		}
+
+		damage_per_day = {
+			accuracy = 0.2
+			damage = { min = 34 max = 136 }
+			shield_damage = 0.2
+			armor_penetration = 0.95
+		}
+
+		graphics = {
+			area_effect = {
+				entity = "circle_area_entity"
+				dynamic_scale = yes
+			}
+		}
+	}
+
+	prerequisites = { "tech_NZ_000" } #Generic Beam Sword for use on all units
+
+	component_set = "nz_000_melee_aura"
+	#upgrades_to = "axis_melee_aura_3"
+
+	ai_weight = {
+		weight = 1
+	}
+}

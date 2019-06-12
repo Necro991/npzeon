@@ -71,6 +71,11 @@ spriteTypes = {
 	}
 
 	spriteType = {
+		name = "OYW_ZEON_880MM"
+		texturefile = "gfx/interface/icons/ship_parts/zeon_880.dds"
+	}
+
+	spriteType = {
 		name = "OYW_ZEON_SHOTGUN"
 		texturefile = "gfx/interface/icons/ship_parts/zeon_shotgun.dds"
 	}

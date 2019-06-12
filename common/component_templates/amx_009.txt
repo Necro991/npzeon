@@ -1,0 +1,41 @@
+#Armor, Thrusters, Grenades, Melee
+
+utility_component_template = {
+	key = "amx_009_armor_1"
+	size = small
+	icon = "GFX_ship_part_armor_1"
+	icon_frame = 1
+	power = 0
+
+	modifier = {
+		ship_armor_add = 618
+	}
+
+	prerequisites = { "tech_AMX_009" }
+
+	component_set = "amx_009_armor"
+
+	ai_weight = {
+		weight = 1
+	}
+}
+
+utility_component_template = {
+	key = "amx_009_thrusters_1"
+	size = small
+	icon = "GFX_ship_part_thruster_1"
+	icon_frame = 1
+	power = 0
+
+	modifier = {
+		ship_evasion_add = 70
+	}
+
+	prerequisites = { "tech_AMX_009" }
+
+	component_set = "amx_009_thrusters"
+
+	ai_weight = {
+		weight = 1
+	}
+}

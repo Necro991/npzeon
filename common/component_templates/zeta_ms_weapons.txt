@@ -1,4 +1,100 @@
 weapon_component_template = {
+	key = "ZETA_GAZA_C_KNUCKLE_BUSTER"
+	size = point_defence
+	entity = "Zeon_Machine_Gun_01_Entity"
+	damage = { min = 34.4 max = 68.8 }
+	total_fire_time = 10
+	range = 45.0
+	accuracy = 0.75
+	tracking  = 0.3
+	type = point_defence
+	shield_damage = 0.2
+	armor_penetration = 0.95
+
+	icon = "ZETA_GAZA_C_KNUCKLE_BUSTER"
+	icon_frame = 1
+
+	power = -3000
+	resources = {
+		category = ship_components
+		cost = {
+			alloys = 44
+		}
+	}
+	size_restriction = { AMX_003 }
+	prerequisites = { "tech_AMX_003C" }
+	component_set = "ZETA_GAZA_C_KNUCKLE_BUSTER"
+	projectile_gfx = "MPC2"
+	tags = { weapon_type_energy }
+	ai_tags = { weapon_role_anti_armor }
+	#upgrades_to = "ZETA_GM_III_BEAM_RIFLE"
+}
+
+weapon_component_template = {
+	key = "ZETA_3_BARREL_CANNON"
+	size = extra_large
+	entity = "Zeon_Machine_Gun_01_Entity"
+	damage = { min = 18.6 max = 112 }
+	total_fire_time = 5
+	range = 30.0
+	accuracy = 0.5
+	tracking  = 0.25
+	type = point_defence
+	shield_damage = 0.2
+	armor_penetration = 0.95
+
+	icon = "ZETA_3_BARREL_CANNON"
+	icon_frame = 1
+
+	power = -3000
+	resources = {
+		category = ship_components
+		cost = {
+			alloys = 44
+		}
+	}
+	size_restriction = { AMX_009 }
+	prerequisites = { "tech_AMX_009" }
+	component_set = "ZETA_3_BARREL_CANNON"
+	projectile_gfx = "MPC2"
+	tags = { weapon_type_energy }
+	ai_tags = { weapon_role_anti_armor }
+	#upgrades_to = "ZETA_GM_III_BEAM_RIFLE"
+}
+
+weapon_component_template = {
+	key = "ZETA_DREISSEN_BEAM_RIFLE" #Same model as Bawoo, but Bawoo has higher damage
+	size = point_defence
+	entity = "Zeon_Machine_Gun_01_Entity"
+	damage = { min = 47.6 max = 95.2 }
+	total_fire_time = 10
+	range = 45.0
+	accuracy = 0.75
+	tracking  = 0.3
+	type = point_defence
+	shield_damage = 0.2
+	armor_penetration = 0.95
+
+	icon = "ZETA_DREISSEN_BEAM_RIFLE"
+	icon_frame = 1
+
+	power = -3000
+	resources = {
+		category = ship_components
+		cost = {
+			alloys = 44
+		}
+	}
+	size_restriction = { AMX_009 }
+	prerequisites = { "tech_AMX_009" }
+	component_set = "ZETA_DREISSEN_BEAM_RIFLE"
+	projectile_gfx = "MPC2"
+	tags = { weapon_type_energy }
+	ai_tags = { weapon_role_anti_armor }
+	#upgrades_to = "ZETA_GM_III_BEAM_RIFLE"
+}
+
+weapon_component_template = {
 	key = "ZETA_GM_II_BEAM_RIFLE"
 	size = point_defence
 	entity = "Zeon_Machine_Gun_01_Entity"

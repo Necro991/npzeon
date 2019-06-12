@@ -1,0 +1,23 @@
+component_set = {
+	key = "axis_melee_aura"
+
+	required_component_set = yes
+	icon = "zeon_melee_14"
+	icon_frame = 1
+}
+
+component_set = {
+	key = "tri_blade_aura"
+
+	required_component_set = yes
+	icon = "zeon_melee_15"
+	icon_frame = 1
+}
+
+component_set = {
+	key = "nz_000_melee_aura"
+
+	required_component_set = yes
+	icon = "zeon_melee_18"
+	icon_frame = 1
+}

@@ -1,0 +1,43 @@
+#Armor, Thrusters, Grenades, Melee
+
+utility_component_template = {
+	key = "nz_000_armor_1"
+	size = small
+	icon = "GFX_ship_part_armor_1"
+	icon_frame = 1
+	power = 0
+
+	modifier = {
+		ship_armor_add = 1018
+	}
+
+	prerequisites = { "tech_NZ_000" }
+
+	component_set = "nz_000_armor"
+	#upgrades_to = "amx_003_armor_2"
+
+	ai_weight = {
+		weight = 1
+	}
+}
+
+utility_component_template = {
+	key = "nz_000_thrusters_1"
+	size = small
+	icon = "GFX_ship_part_thruster_1"
+	icon_frame = 1
+	power = 0
+
+	modifier = {
+		ship_evasion_add = 70
+	}
+
+	prerequisites = { "tech_NZ_000" }
+
+	component_set = "nz_000_thrusters"
+	#upgrades_to = "amx_003_thrusters_2"
+
+	ai_weight = {
+		weight = 1
+	}
+}

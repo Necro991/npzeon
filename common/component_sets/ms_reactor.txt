@@ -214,3 +214,20 @@ component_set = {
 	icon = "GFX_ship_part_ms_reactor"
 	icon_frame = 1
 }
+
+component_set = {
+	key = "nz_000_reactor"
+
+
+	required_component_set = yes
+	icon = "GFX_ship_part_ms_reactor"
+	icon_frame = 1
+}
+
+component_set = {
+	key = "nz_000_i_field"
+
+	required_component_set = yes
+	icon = "GFX_ship_part_shield_1"
+	icon_frame = 1
+}

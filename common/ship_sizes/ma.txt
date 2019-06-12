@@ -481,3 +481,57 @@ MAN_08 = { #MAN-08 Elmeth
 		alloys = 2
 	}
 }
+
+NZ_000 = { #NZ-000 Queen Mansa
+	formation_priority = @corvette_formation_priority
+	max_speed = 314.1
+	acceleration = 0.5
+	rotation_speed = 0.455
+	collision_radius = 1
+	max_hitpoints = 407
+	modifier = {
+		ship_piracy_suppression_add = 8
+	}
+	size_multiplier = 4
+	fleet_slot_size = 16
+	section_slots = { "mid" = { locator = "part1" } }
+	num_target_locators = 12
+	is_space_station = no
+	icon_frame = 2
+	base_buildtime = 180
+	can_have_federation_design = yes
+	enable_default_design = no	#if yes, countries will have an auto-generated design at start
+
+	prerequisites = { "tech_NZ_000" }
+
+	combat_disengage_chance = 1.75
+
+	class = shipclass_military
+	construction_type = starbase_shipyard
+	required_component_set = "ftl_components"
+	required_component_set = "oyw_zeon_pilot_ncn"
+	required_component_set = "nz_000_bit_aura"
+	required_component_set = "nz_000_melee_aura"
+	required_component_set = "nz_000_reactor"
+	required_component_set = "nz_000_armor"
+	required_component_set = "nz_000_thrusters"
+	required_component_set = "nz_000_i_field"
+	required_component_set = "sensor_components"
+
+	empire_limit = {
+		base = 1
+		max = 1
+		naval_cap_div = 1
+	}
+
+	resources = {
+		category = ships
+		upkeep = {
+			energy = @destroyer_upkeep_energy
+			alloys = @destroyer_upkeep_alloys
+		}
+	}
+	min_upgrade_cost = {
+		alloys = 2
+	}
+}

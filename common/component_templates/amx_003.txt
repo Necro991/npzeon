@@ -1,21 +1,21 @@
 #Armor, Thrusters, Grenades, Melee
 
 utility_component_template = {
-	key = "ms_17_armor_1"
+	key = "amx_003_armor_1"
 	size = small
-	icon = "ms_17_armor_1"
+	icon = "GFX_ship_part_armor_1"
 	icon_frame = 1
 	power = 0
 
 	modifier = {
-		ship_armor_add = 168
-		ship_hull_mult = 0.13
+		ship_armor_add = 672
+		ship_hull_mult = 0.12
 	}
 
-	prerequisites = { "tech_MS_17" }
+	prerequisites = { "tech_AMX_003C" }
 
-	component_set = "ms_17_armor"
-	upgrades_to = "ms_17_armor_2"
+	component_set = "amx_003_armor"
+	upgrades_to = "amx_003_armor_2"
 
 	ai_weight = {
 		weight = 1
@@ -23,48 +23,47 @@ utility_component_template = {
 }
 
 utility_component_template = {
-	key = "ms_17_armor_2"
+	key = "amx_003_armor_2"
 	size = small
-	icon = "ms_17_armor_2"
+	icon = "GFX_ship_part_armor_2"
 	icon_frame = 1
 	power = 0
 	resources = {
 		category = ship_components
 		cost = {
-			alloys = 15
+			alloys = 3
 		}
 	}
 
 	modifier = {
-		ship_armor_add = 189
-		ship_hull_mult = 0.25
+		ship_armor_add = 696
+		ship_hull_mult = 0.16
 	}
 
-	prerequisites = { "tech_MS_17R" }
+	prerequisites = { "tech_AMX_003S" }
 
-	component_set = "ms_17_armor"
+	component_set = "amx_003_armor"
 
 	ai_weight = {
-		weight = 2
+		weight = 1
 	}
 }
 
 utility_component_template = {
-	key = "ms_17_thrusters_1"
+	key = "amx_003_thrusters_1"
 	size = small
 	icon = "GFX_ship_part_thruster_1"
 	icon_frame = 1
 	power = 0
 
 	modifier = {
-		ship_evasion_add = 55
-		ship_speed_mult = 0.425
+		ship_evasion_add = 60
 	}
 
-	prerequisites = { "tech_MS_17" }
+	prerequisites = { "tech_AMX_003C" }
 
-	component_set = "ms_17_thrusters"
-	upgrades_to = "ms_17_thrusters_2"
+	component_set = "amx_003_thrusters"
+	upgrades_to = "amx_003_thrusters_2"
 
 	ai_weight = {
 		weight = 1
@@ -72,7 +71,7 @@ utility_component_template = {
 }
 
 utility_component_template = {
-	key = "ms_17_thrusters_2"
+	key = "amx_003_thrusters_2"
 	size = small
 	icon = "GFX_ship_part_thruster_2"
 	icon_frame = 1
@@ -85,15 +84,14 @@ utility_component_template = {
 	}
 
 	modifier = {
-		ship_evasion_add = 60
-		ship_speed_mult = 0.775
+		ship_evasion_add = 63
 	}
 
-	prerequisites = { "tech_MS_17R" }
+	prerequisites = { "tech_AMX_003S" }
 
-	component_set = "ms_17_thrusters"
+	component_set = "amx_003_thrusters"
 
 	ai_weight = {
-		weight = 2
+		weight = 1
 	}
 }

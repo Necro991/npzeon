@@ -1,0 +1,28 @@
+spriteTypes = {
+
+	spriteType = {
+		name = "ZETA_GAZA_C_KNUCKLE_BUSTER"
+		texturefile = "gfx/interface/icons/ship_parts/zeon_beam_rifle_3.dds"
+	}
+
+	spriteType = {
+		name = "ZETA_3_BARREL_CANNON"
+		texturefile = "gfx/interface/icons/ship_parts/zeon_three_barrel_cannon.dds"
+	}
+
+	spriteType = {
+		name = "ZETA_DREISSEN_BEAM_RIFLE"
+		texturefile = "gfx/interface/icons/ship_parts/zeon_beam_rifle_4.dds"
+	}
+
+	spriteType = {
+		name = "ZETA_QUEEN_MANSA_MPC"
+		texturefile = "gfx/interface/icons/ship_parts/nz_000_mpc.dds"
+	}
+
+	spriteType = {
+		name = "ZETA_QUEEN_MANSA_MPC_PD"
+		texturefile = "gfx/interface/icons/ship_parts/nz_000_mpc_small.dds"
+	}
+
+}

@@ -1,0 +1,13 @@
+component_set = {
+	key = "ZETA_QUEEN_MANSA_MPC"
+
+	icon = "ZETA_QUEEN_MANSA_MPC"
+	icon_frame = 1
+}
+
+component_set = {
+	key = "ZETA_QUEEN_MANSA_MPC_PD"
+
+	icon = "ZETA_QUEEN_MANSA_MPC_PD"
+	icon_frame = 1
+}

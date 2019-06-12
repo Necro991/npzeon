@@ -695,8 +695,47 @@ objectTypes = {
 	}
 
 	pdxmesh = {
+			name = "Gaza_C_Trio_mesh" #Gaza-C Trio
+			file = "gfx/models/ships/zeon_01/Gaza_C_Triple.mesh"
+
+			scale = 1.0
+			meshsettings = {
+				texture_diffuse = "Gaza_C_Diffuse.dds"
+				texture_normal = "zakuII_normal.dds"
+				texture_specular = "Zaku_Specular.dds"
+				shader = "PdxMeshShip"
+		}
+	}
+
+	pdxmesh = {
+			name = "Gaza_C_Haman_Trio_mesh" #Gaza-C Haman Trio
+			file = "gfx/models/ships/zeon_01/Gaza_C_Haman_Triple.mesh"
+
+			scale = 1.0
+			meshsettings = {
+				texture_diffuse = "Gaza_C_Diffuse.dds"
+				texture_normal = "zakuII_normal.dds"
+				texture_specular = "Zaku_Specular.dds"
+				shader = "PdxMeshShip"
+		}
+	}
+
+	pdxmesh = {
 			name = "Dreissen_mesh" #Dreissen Single
 			file = "gfx/models/ships/zeon_01/Dreissen.mesh"
+
+			scale = 1.0
+			meshsettings = {
+				texture_diffuse = "Dreissen_Diffuse.dds"
+				texture_normal = "zakuII_normal.dds"
+				texture_specular = "Zaku_Specular.dds"
+				shader = "PdxMeshShip"
+		}
+	}
+
+	pdxmesh = {
+			name = "Dreissen_Trio_mesh" #Dreissen Trio
+			file = "gfx/models/ships/zeon_01/Dreissen_Triple.mesh"
 
 			scale = 1.0
 			meshsettings = {
@@ -1022,19 +1061,6 @@ objectTypes = {
 			scale = 1.0
 			meshsettings = {
 				texture_diffuse = "Gelgoog_Cannon_Diffuse.dds"
-				texture_normal = "zakuII_normal.dds"
-				texture_specular = "Zaku_Specular.dds"
-				shader = "PdxMeshShip"
-		}
-	}
-
-	pdxmesh = {
-			name = "Gaza_C_Trio_mesh" #Gaza-C Trio
-			file = "gfx/models/ships/zeon_01/Gaza_C_Trio.mesh"
-
-			scale = 1.0
-			meshsettings = {
-				texture_diffuse = "Gaza_C_Diffuse.dds"
 				texture_normal = "zakuII_normal.dds"
 				texture_specular = "Zaku_Specular.dds"
 				shader = "PdxMeshShip"

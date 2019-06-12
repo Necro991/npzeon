@@ -81,6 +81,31 @@ spriteTypes = {
 	}
 
 	spriteType = {
+		name = "zeon_melee_14"
+		texturefile = "gfx/interface/icons/ship_parts/zeon_melee_14.dds"
+	}
+
+	spriteType = {
+		name = "zeon_melee_15"
+		texturefile = "gfx/interface/icons/ship_parts/zeon_melee_15.dds"
+	}
+
+	spriteType = {
+		name = "zeon_melee_16"
+		texturefile = "gfx/interface/icons/ship_parts/zeon_melee_16.dds"
+	}
+
+	spriteType = {
+		name = "zeon_melee_17"
+		texturefile = "gfx/interface/icons/ship_parts/zeon_melee_17.dds"
+	}
+
+	spriteType = {
+		name = "zeon_melee_18"
+		texturefile = "gfx/interface/icons/ship_parts/zeon_melee_18.dds"
+	}
+
+	spriteType = {
 		name = "zeon_grenade_01"
 		texturefile = "gfx/interface/icons/ship_parts/zeon_grenade_01.dds"
 	}

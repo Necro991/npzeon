@@ -27,7 +27,7 @@ weapon_component_template = {
 			alloys = 8
 		}
 	}
-	size_restriction = { MS_05B MS_05S MS_06 MS_06S zeon_MS_P MS_06K MS_09 MS_09S MS_09K MS_18E MS_11 MS_11S MS_14 MS_14S MS_14C MS_17 MS_17S MP_02A EMS_10 EMS_10S }
+	size_restriction = { MS_05B MS_05S MS_06 MS_06S zeon_MS_P MS_06K MS_09 MS_09S MS_09K MS_18E MS_11 MS_11S MS_14 MS_14S MS_14C MS_17 MS_17S MP_02A EMS_10 EMS_10S AMX_003 AMX_009 }
 	prerequisites = { "tech_MS_05B" }
 	component_set = "OYW_ZEON_100MM"
 	projectile_gfx = "auto_cannons_s"
@@ -59,7 +59,7 @@ weapon_component_template = {
 			alloys = 10
 		}
 	}
-	size_restriction = { MS_05B MS_05S MS_06 MS_06S zeon_MS_P MS_06K MS_09 MS_09S MS_09K MS_18E MS_11 MS_11S MS_14 MS_14S MS_14C MS_17 MS_17S MP_02A EMS_10 EMS_10S }
+	size_restriction = { MS_05B MS_05S MS_06 MS_06S zeon_MS_P MS_06K MS_09 MS_09S MS_09K MS_18E MS_11 MS_11S MS_14 MS_14S MS_14C MS_17 MS_17S MP_02A EMS_10 EMS_10S AMX_003 AMX_009 }
 	prerequisites = { "tech_MS_06A" }
 	component_set = "OYW_ZEON_105MM"
 	projectile_gfx = "auto_cannons_s"
@@ -91,7 +91,7 @@ weapon_component_template = {
 			alloys = 13
 		}
 	}
-	size_restriction = { MS_05B MS_05S MS_06 MS_06S zeon_MS_P MS_06K MS_09 MS_09S MS_09K MS_18E MS_11 MS_11S MS_14 MS_14S MS_14C MS_17 MS_17S MP_02A EMS_10 EMS_10S }
+	size_restriction = { MS_05B MS_05S MS_06 MS_06S zeon_MS_P MS_06K MS_09 MS_09S MS_09K MS_18E MS_11 MS_11S MS_14 MS_14S MS_14C MS_17 MS_17S MP_02A EMS_10 EMS_10S AMX_003 AMX_009 }
 	prerequisites = { "tech_MS_06A" }
 	component_set = "OYW_ZEON_120MM"
 	projectile_gfx = "auto_cannons_s"
@@ -123,7 +123,7 @@ weapon_component_template = {
 			alloys = 10
 		}
 	}
-	size_restriction = { MS_05B MS_05S MS_06 MS_06S zeon_MS_P MS_06K MS_09 MS_09S MS_09K MS_18E MS_11 MS_11S MS_14 MS_14S MS_14C MS_17 MS_17S MP_02A EMS_10 EMS_10S }
+	size_restriction = { MS_05B MS_05S MS_06 MS_06S zeon_MS_P MS_06K MS_09 MS_09S MS_09K MS_18E MS_11 MS_11S MS_14 MS_14S MS_14C MS_17 MS_17S MP_02A EMS_10 EMS_10S AMX_003 AMX_009 }
 	prerequisites = { "tech_MS_06FZ" }
 	component_set = "OYW_ZEON_120MM_UMP"
 	projectile_gfx = "auto_cannons_s"
@@ -155,7 +155,7 @@ weapon_component_template = {
 			alloys = 8
 		}
 	}
-	size_restriction = { MS_05B MS_05S MS_06 MS_06S zeon_MS_P MS_06K MS_09 MS_09S MS_09K MS_18E MS_11 MS_11S MS_14 MS_14S MS_14C MS_17 MS_17S MP_02A EMS_10 EMS_10S }
+	size_restriction = { MS_05B MS_05S MS_06 MS_06S zeon_MS_P MS_06K MS_09 MS_09S MS_09K MS_18E MS_11 MS_11S MS_14 MS_14S MS_14C MS_17 MS_17S MP_02A EMS_10 EMS_10S AMX_003 AMX_009 }
 	prerequisites = { "tech_MS_06FZ" }
 	component_set = "OYW_ZEON_90MM"
 	projectile_gfx = "auto_cannons_s"
@@ -219,7 +219,7 @@ weapon_component_template = {
 			alloys = 13
 		}
 	}
-	size_restriction = { MS_05B MS_05S MS_06 MS_06S zeon_MS_P MS_06K MS_09 MS_09S MS_09K MS_18E MS_11 MS_11S MS_14 MS_14S MS_14C MS_17 MS_17S MP_02A EMS_10 EMS_10S }
+	size_restriction = { MS_05B MS_05S MS_06 MS_06S zeon_MS_P MS_06K MS_09 MS_09S MS_09K MS_18E MS_11 MS_11S MS_14 MS_14S MS_14C MS_17 MS_17S MP_02A EMS_10 EMS_10S AMX_003 AMX_009 }
 	prerequisites = { "tech_MS_18E" }
 	component_set = "OYW_ZEON_SHOTGUN"
 	projectile_gfx = "auto_cannons_s"
@@ -380,7 +380,7 @@ weapon_component_template = {
 			alloys = 10
 		}
 	}
-	size_restriction = { MS_05B MS_05S MS_06 MS_06S zeon_MS_P MS_06K MS_09 MS_09S MS_09K MS_18E MS_11 MS_11S MS_14 MS_14S MS_14C MS_17 MS_17S MP_02A EMS_10 EMS_10S }
+	size_restriction = { MS_05B MS_05S MS_06 MS_06S zeon_MS_P MS_06K MS_09 MS_09S MS_09K MS_18E MS_11 MS_11S MS_14 MS_14S MS_14C MS_17 MS_17S MP_02A EMS_10 EMS_10S AMX_003 AMX_009 }
 	prerequisites = { "tech_MS_05B" }
 	component_set = "OYW_ZEON_STURMFAUST"
 	projectile_gfx = "gundam_missile"
@@ -444,7 +444,7 @@ weapon_component_template = {
 			alloys = 13
 		}
 	}
-	size_restriction = { MS_05B MS_05S MS_06 MS_06S zeon_MS_P MS_06K MS_09 MS_09S MS_09K MS_18E MS_11 MS_11S MS_14 MS_14S MS_14C MS_17 MS_17S MP_02A EMS_10 EMS_10S }
+	size_restriction = { MS_05B MS_05S MS_06 MS_06S zeon_MS_P MS_06K MS_09 MS_09S MS_09K MS_18E MS_11 MS_11S MS_14 MS_14S MS_14C MS_17 MS_17S MP_02A EMS_10 EMS_10S AMX_003 AMX_009 }
 	prerequisites = { "tech_MS_06C" }
 	component_set = "OYW_ZEON_280MM_2"
 	projectile_gfx = "gundam_missile"
@@ -476,7 +476,7 @@ weapon_component_template = {
 			alloys = 17
 		}
 	}
-	size_restriction = { MS_05B MS_05S MS_06 MS_06S zeon_MS_P MS_06K MS_09 MS_09S MS_09K MS_18E MS_11 MS_11S MS_14 MS_14S MS_14C MS_17 MS_17S MP_02A EMS_10 EMS_10S }
+	size_restriction = { MS_05B MS_05S MS_06 MS_06S zeon_MS_P MS_06K MS_09 MS_09S MS_09K MS_18E MS_11 MS_11S MS_14 MS_14S MS_14C MS_17 MS_17S MP_02A EMS_10 EMS_10S AMX_003 AMX_009 }
 	prerequisites = { "tech_MS_09R" }
 	component_set = "OYW_ZEON_360MM_1"
 	projectile_gfx = "gundam_missile"
@@ -508,7 +508,7 @@ weapon_component_template = {
 			alloys = 17
 		}
 	}
-	size_restriction = { MS_05B MS_05S MS_06 MS_06S zeon_MS_P MS_06K MS_09 MS_09S MS_09K MS_18E MS_11 MS_11S MS_14 MS_14S MS_14C MS_17 MS_17S MP_02A EMS_10 EMS_10S }
+	size_restriction = { MS_05B MS_05S MS_06 MS_06S zeon_MS_P MS_06K MS_09 MS_09S MS_09K MS_18E MS_11 MS_11S MS_14 MS_14S MS_14C MS_17 MS_17S MP_02A EMS_10 EMS_10S AMX_003 AMX_009 }
 	prerequisites = { "tech_MS_09R_2" }
 	component_set = "OYW_ZEON_360MM_2"
 	projectile_gfx = "gundam_missile"
@@ -540,9 +540,41 @@ weapon_component_template = {
 			alloys = 22
 		}
 	}
-	size_restriction = { MS_05B MS_05S MS_06 MS_06S zeon_MS_P MS_06K MS_09 MS_09S MS_09K MS_18E MS_11 MS_11S MS_14 MS_14S MS_14C MS_17 MS_17S MP_02A EMS_10 EMS_10S }
+	size_restriction = { MS_05B MS_05S MS_06 MS_06S zeon_MS_P MS_06K MS_09 MS_09S MS_09K MS_18E MS_11 MS_11S MS_14 MS_14S MS_14C MS_17 MS_17S MP_02A EMS_10 EMS_10S AMX_003 AMX_009 }
 	prerequisites = { "tech_MS_17" }
 	component_set = "OYW_ZEON_420MM"
+	projectile_gfx = "gundam_missile"
+	tags = { weapon_type_explosive }
+	ai_tags = { weapon_role_anti_shield }
+	upgrades_to = "OYW_ZEON_880MM"
+}
+
+weapon_component_template = {
+	key = "OYW_ZEON_880MM"
+	size = point_defence
+	entity = "Zeon_Machine_Gun_01_Entity"
+	damage = { min = 8.0 max = 21.0 }
+	total_fire_time = 5
+	range = 60.0
+	accuracy = 1.0
+	tracking  = 0.25
+	type = point_defence
+	hull_damage = 1.25
+	shield_penetration = 1.0
+
+	icon = "OYW_ZEON_880MM"
+	icon_frame = 1
+
+	power = -3000
+	resources = {
+		category = ship_components
+		cost = {
+			alloys = 33
+		}
+	}
+	size_restriction = { MS_05B MS_05S MS_06 MS_06S zeon_MS_P MS_06K MS_09 MS_09S MS_09K MS_18E MS_11 MS_11S MS_14 MS_14S MS_14C MS_17 MS_17S MP_02A EMS_10 EMS_10S AMX_003 AMX_009 }
+	prerequisites = { "tech_MS_09R_2" }
+	component_set = "OYW_ZEON_880MM"
 	projectile_gfx = "gundam_missile"
 	tags = { weapon_type_explosive }
 	ai_tags = { weapon_role_anti_shield }
@@ -572,7 +604,7 @@ weapon_component_template = {
 			alloys = 22
 		}
 	}
-	size_restriction = { MS_05B MS_05S MS_06 MS_06S MS_09 MS_09S MS_11 MS_11S MS_14 MS_14S MS_17 MS_17S EMS_10 EMS_10S }
+	size_restriction = { MS_05B MS_05S MS_06 MS_06S MS_09 MS_09S MS_11 MS_11S MS_14 MS_14S MS_17 MS_17S EMS_10 EMS_10S AMX_003 AMX_009 }
 	prerequisites = { "tech_EMS_10F" }
 	component_set = "OYW_ZEON_135MM"
 	projectile_gfx = "mass_driver_s"
@@ -603,7 +635,7 @@ weapon_component_template = {
 			alloys = 13
 		}
 	}
-	size_restriction = { MS_05B MS_05S MS_06 MS_06S zeon_MS_P MS_06K MS_09 MS_09S MS_09K MS_18E MS_11 MS_11S MS_14 MS_14S MS_14C MS_17 MS_17S MP_02A EMS_10 EMS_10S }
+	size_restriction = { MS_05B MS_05S MS_06 MS_06S zeon_MS_P MS_06K MS_09 MS_09S MS_09K MS_18E MS_11 MS_11S MS_14 MS_14S MS_14C MS_17 MS_17S MP_02A EMS_10 EMS_10S AMX_003 AMX_009 }
 	prerequisites = { "tech_MS_06F" }
 	component_set = "OYW_ZEON_175MM"
 	projectile_gfx = "mass_driver_s"

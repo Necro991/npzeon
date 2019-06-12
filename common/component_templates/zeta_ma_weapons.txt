@@ -1,0 +1,63 @@
+weapon_component_template = {
+	key = "ZETA_QUEEN_MANSA_MPC"
+	size = extra_large
+	entity = "Zeon_Machine_Gun_01_Entity"
+	damage = { min = 272.0 max = 44.0 }
+	total_fire_time = 30
+	range = 90.0
+	accuracy = 0.75
+	tracking  = 0.0
+	type = point_defence
+	shield_damage = 0.2
+	armor_penetration = 0.95
+
+	icon = "ZETA_QUEEN_MANSA_MPC"
+	icon_frame = 1
+
+	power = -3000
+	resources = {
+		category = ship_components
+		cost = {
+			alloys = 66
+		}
+	}
+	size_restriction = { NZ_000 }
+	prerequisites = { "tech_NZ_000" }
+	component_set = "ZETA_QUEEN_MANSA_MPC"
+	projectile_gfx = "MPC2"
+	tags = { weapon_type_energy }
+	ai_tags = { weapon_role_anti_armor }
+	#upgrades_to = "ZETA_GM_III_BEAM_RIFLE"
+}
+
+weapon_component_template = {
+	key = "ZETA_QUEEN_MANSA_MPC_PD"
+	size = point_defence
+	entity = "Zeon_Machine_Gun_01_Entity"
+	damage = { min = 34.4 max = 68.8 }
+	total_fire_time = 10
+	range = 45.0
+	accuracy = 0.75
+	tracking  = 0.3
+	type = point_defence
+	shield_damage = 0.2
+	armor_penetration = 0.95
+
+	icon = "ZETA_QUEEN_MANSA_MPC_PD"
+	icon_frame = 1
+
+	power = -3000
+	resources = {
+		category = ship_components
+		cost = {
+			alloys = 33
+		}
+	}
+	size_restriction = { NZ_000 }
+	prerequisites = { "tech_NZ_000" }
+	component_set = "ZETA_QUEEN_MANSA_MPC_PD"
+	projectile_gfx = "MPC2"
+	tags = { weapon_type_energy }
+	ai_tags = { weapon_role_anti_armor }
+	#upgrades_to = "ZETA_GM_III_BEAM_RIFLE"
+}

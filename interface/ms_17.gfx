@@ -1,0 +1,18 @@
+spriteTypes = {
+
+spriteType = {
+	name = "ms_17_armor_1"
+	texturefile = "gfx/interface/icons/ship_parts/ms_17_armor_1.dds"
+}
+
+spriteType = {
+	name = "ms_17_armor_2"
+	texturefile = "gfx/interface/icons/ship_parts/ms_17_armor_2.dds"
+}
+
+	#spriteType = {
+	#	name = "ms_06_thrusters_1"
+	#	texturefile = "gfx/interface/icons/ship_parts/ship_part_armor_radiation_2.dds"
+	#}
+
+}

@@ -1,0 +1,40 @@
+utility_component_template = { #NZ-000 Queen Mansa Bits
+	key = "nz_000_bit_aura_1"
+	size = small
+	icon = "nz_000_bit"
+	icon_frame = 1
+	power = 0
+
+	hostile_aura = {
+		name = "zeon_bit_2"
+		radius = 20
+		apply_on = ships
+
+		stack_info = {			#A ship can only be affected by one aura of a certain id. If multiple auras have the same ID the one with the highest priority will be applied.
+			id = zeon_bit_001
+			priority = 2
+		}
+
+		damage_per_day = { #Double maximum damage and increased range by 0.2 to reflect improvements in tech
+			accuracy = 0.7
+			damage = { min = 10 max = 40 }
+			shield_damage = 0.2
+			armor_penetration = 0.95
+		}
+
+		graphics = {
+			area_effect = {
+				entity = "circle_area_entity"
+				dynamic_scale = yes
+			}
+		}
+	}
+
+	prerequisites = { "tech_NZ_000" }
+
+	component_set = "nz_000_bit_aura"
+
+	ai_weight = {
+		weight = 1
+	}
+}
