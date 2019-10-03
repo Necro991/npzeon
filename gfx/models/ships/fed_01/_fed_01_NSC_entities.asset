@@ -3,7 +3,7 @@
 @cruiser_scale = 10.0
 @battleship_scale = 15.0
 @Battlecruiser_scale = 13.0
-@LightCarrier_scale = 15.0
+@escortcarrier_scale = 15.0
 @Carrier_scale = 17.0
 @military_station_large = 20.0
 @Dreadnought_scale = 20.0
@@ -1062,7 +1062,7 @@ entity = {
 
 #FRAME
 entity = {
-	name = "fed_01_LightCarrier_entity"
+	name = "fed_01_escortcarrier_entity"
 	pdxmesh = "Nelson_mesh"
 
 	#locator = { name = "part1"	position = { 0 -0.4 -6.4 } rotation = { 0 0 0 } }
@@ -1090,13 +1090,13 @@ entity = {
 	scale = 1.1
 
 	game_data = {
-		size = @LightCarrier_scale
+		size = @escortcarrier_scale
 	}
 }
 
 # BOW
 entity = {
-	name = "fed_01_LightCarrier_bow_L1_entity"
+	name = "fed_01_escortcarrier_bow_L1_entity"
 	pdxmesh = "fed_01_cruiser_bow_L1_mesh"
 
 	locator = { name = "large_gun_01" 			position = { 0.0 	0.4 	-5.0	} 	scale = 1.0} #X,Up/Down,Forward/Back
@@ -1127,7 +1127,7 @@ entity = {
 }
 
 entity = {
-	name = "fed_01_LightCarrier_bow_M1S2_entity"
+	name = "fed_01_escortcarrier_bow_M1S2_entity"
 	pdxmesh = "fed_01_cruiser_bow_M1S2_mesh"
 
 	locator = { name = "medium_gun_01" 			position = {  0.0 	0.0 	-5.0	} 	scale = 0.0} #X,Up/Down,Forward/Back
@@ -1166,7 +1166,7 @@ entity = {
 }
 
 entity = {
-	name = "fed_01_LightCarrier_bow_M2_entity"
+	name = "fed_01_escortcarrier_bow_M2_entity"
 	pdxmesh = "fed_01_cruiser_bow_M2_mesh"
 
 	locator = { name = "medium_gun_01" 			position = { 0.7 	-0.15 	-3.8	}	rotation = { 0 0 270 } 	scale = 1.0} #X,Up/Down,Forward/Back
@@ -1206,7 +1206,7 @@ entity = {
 # MID1
 
 entity = {
-	name = "fed_01_LightCarrier_mid1_S2HB_entity"
+	name = "fed_01_escortcarrier_mid1_S2HB_entity"
 	pdxmesh = "fed_01_cruiser_mid_S2HB_mesh"
 
 	locator = { name = "small_gun_01" 			position = { 0.5 	0.8 	-1.0	} 	scale = 1.0} #X,Up/Down,Forward/Back
@@ -1258,7 +1258,7 @@ entity = {
 }
 
 entity = {
-	name = "fed_01_LightCarrier_mid1_L1M1_entity"
+	name = "fed_01_escortcarrier_mid1_L1M1_entity"
 	pdxmesh = "fed_01_cruiser_mid_L1M1_mesh"
 
 	locator = { name = "large_gun_01" 			position = { 0.0 	0.75 	1.6	} 	scale = 1.0} #X,Up/Down,Forward/Back
@@ -1291,7 +1291,7 @@ entity = {
 }
 
 entity = {
-	name = "fed_01_LightCarrier_mid1_M3_entity"
+	name = "fed_01_escortcarrier_mid1_M3_entity"
 	pdxmesh = "fed_01_cruiser_mid_M3_mesh"
 
 	locator = { name = "medium_gun_01" 			position = { 0.0 	0.4 	-2.0	} 	scale = 1.0} #X,Up/Down,Forward/Back
@@ -1338,7 +1338,7 @@ entity = {
 }
 
 entity = {
-	name = "fed_01_LightCarrier_mid1_M2S2_entity"
+	name = "fed_01_escortcarrier_mid1_M2S2_entity"
 	pdxmesh = "fed_01_cruiser_mid_M2S2_mesh"
 
 	locator = { name = "medium_gun_01" 			position = { 0.0 	0.0 	0.0	} 	scale = 0.0} #X,Up/Down,Forward/Back
@@ -1375,7 +1375,7 @@ entity = {
 # MID2
 
 entity = {
-	name = "fed_01_LightCarrier_mid2_S2HB_entity"
+	name = "fed_01_escortcarrier_mid2_S2HB_entity"
 	pdxmesh = "fed_01_cruiser_mid_S2HB_mesh"
 
 	locator = { name = "small_gun_01" 			position = { 0.5 	0.8 	-1.0	} 	scale = 1.0} #X,Up/Down,Forward/Back
@@ -1427,7 +1427,7 @@ entity = {
 }
 
 entity = {
-	name = "fed_01_LightCarrier_mid2_L1M1_entity"
+	name = "fed_01_escortcarrier_mid2_L1M1_entity"
 	pdxmesh = "fed_01_cruiser_mid_L1M1_mesh"
 
 	locator = { name = "large_gun_01" 			position = { 0.0 	0.75 	1.6	} 	scale = 1.0} #X,Up/Down,Forward/Back
@@ -1460,7 +1460,7 @@ entity = {
 }
 
 entity = {
-	name = "fed_01_LightCarrier_mid2_M3_entity"
+	name = "fed_01_escortcarrier_mid2_M3_entity"
 	pdxmesh = "fed_01_cruiser_mid_M3_mesh"
 
 	locator = { name = "medium_gun_01" 			position = { 0.0 	0.4 	-2.0	} 	scale = 1.0} #X,Up/Down,Forward/Back
@@ -1507,7 +1507,7 @@ entity = {
 }
 
 entity = {
-	name = "fed_01_LightCarrier_mid2_M2S2_entity"
+	name = "fed_01_escortcarrier_mid2_M2S2_entity"
 	pdxmesh = "fed_01_cruiser_mid_M2S2_mesh"
 
 	locator = { name = "medium_gun_01" 			position = { 0.0 	0.0 	0.0	} 	scale = 0.0} #X,Up/Down,Forward/Back
@@ -1543,7 +1543,7 @@ entity = {
 
 # STERN
 entity = {
-	name = "fed_01_LightCarrier_stern_M1_entity"
+	name = "fed_01_escortcarrier_stern_M1_entity"
 	pdxmesh = "fed_01_cruiser_stern_M1_mesh"
 
 	locator = { name = "medium_gun_01" 			rotation = {	0	180		180	}	position = { 0.0 	0.8 	6.0	} 	scale = 1.0} #X,Up/Down,Forward/Back
@@ -1596,7 +1596,7 @@ entity = {
 }
 
 entity = {
-	name = "fed_01_LightCarrier_stern_S2_entity"
+	name = "fed_01_escortcarrier_stern_S2_entity"
 	pdxmesh = "fed_01_cruiser_stern_S2_mesh"
 
 	locator = { name = "small_gun_01" 			position = { 1.1 	0.5	3.1	} 	scale = 1.0} #X,Up/Down,Forward/Back

@@ -300,3 +300,51 @@ utility_component_template = {
 		weight = 1
 	}
 }
+
+utility_component_template = {
+	key = "msn_00100_melee" #Hyaku Shiki Beam Sabre
+	size = small
+	icon = "msn_00100_melee"
+	icon_frame = 1
+	power = 0
+	resources = {
+		category = ship_components
+		cost = {
+			alloys = 30
+		}
+	}
+
+	hostile_aura = {
+		name = "msn_00100_melee"
+		radius = 5
+		apply_on = ships
+
+		stack_info = {			#A ship can only be affected by one aura of a certain id. If multiple auras have the same ID the one with the highest priority will be applied.
+			id = axis_melee_001
+			priority = 2
+		}
+
+		damage_per_day = {
+			accuracy = 0.2
+			damage = { min = 34 max = 68 }
+			shield_damage = 0.2
+			armor_penetration = 0.95
+		}
+
+		graphics = {
+			area_effect = {
+				entity = "circle_area_entity"
+				dynamic_scale = yes
+			}
+		}
+	}
+
+	prerequisites = { "tech_MSN_00100" } #Generic Beam Sword for use on all units
+
+	component_set = "msn_00100_melee_aura"
+	#upgrades_to = "axis_melee_aura_3"
+
+	ai_weight = {
+		weight = 1
+	}
+}

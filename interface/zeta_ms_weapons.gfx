@@ -11,6 +11,11 @@ spriteTypes = {
 	}
 
 	spriteType = {
+		name = "ZETA_REGELGU_BEAM_RIFLE"
+		texturefile = "gfx/interface/icons/ship_parts/zeon_beam_rifle_5.dds"
+	}
+
+	spriteType = {
 		name = "ZETA_DREISSEN_BEAM_RIFLE"
 		texturefile = "gfx/interface/icons/ship_parts/zeon_beam_rifle_4.dds"
 	}
@@ -23,6 +28,21 @@ spriteTypes = {
 	spriteType = {
 		name = "ZETA_QUEEN_MANSA_MPC_PD"
 		texturefile = "gfx/interface/icons/ship_parts/nz_000_mpc_small.dds"
+	}
+
+	spriteType = {
+		name = "ZETA_HYAKU_SHIKI_BEAM_RIFLE"
+		texturefile = "gfx/interface/icons/ship_parts/efsf_hyaku_shiki_br.dds"
+	}
+
+	spriteType = {
+		name = "ZETA_HYAKU_SHIKI_MEGA_BAZOOKA_LAUNCHER"
+		texturefile = "gfx/interface/icons/ship_parts/efsf_mega_bazooka_launcher.dds"
+	}
+
+	spriteType = {
+		name = "ZETA_CLAY_BAZOOKA"
+		texturefile = "gfx/interface/icons/ship_parts/efsf_clay_bazooka.dds"
 	}
 
 }

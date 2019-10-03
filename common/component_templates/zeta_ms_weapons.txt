@@ -1,4 +1,36 @@
 weapon_component_template = {
+	key = "ZETA_REGELGU_BEAM_RIFLE"
+	size = point_defence
+	entity = "Zeon_Machine_Gun_01_Entity"
+	damage = { min = 37.8 max = 75.6 }
+	total_fire_time = 10
+	range = 45.0
+	accuracy = 0.75
+	tracking  = 0.3
+	type = point_defence
+	shield_damage = 0.2
+	armor_penetration = 0.95
+
+	icon = "ZETA_DREISSEN_BEAM_RIFLE"
+	icon_frame = 1
+
+	power = -3000
+	resources = {
+		category = ship_components
+		cost = {
+			alloys = 44
+		}
+	}
+	size_restriction = { MS_14 MS_14S }
+	prerequisites = { "tech_MS_14J" }
+	component_set = "ZETA_REGELGU_BEAM_RIFLE"
+	projectile_gfx = "MPC2"
+	tags = { weapon_type_energy }
+	ai_tags = { weapon_role_anti_armor }
+	#upgrades_to = "ZETA_GM_III_BEAM_RIFLE"
+}
+
+weapon_component_template = {
 	key = "ZETA_GAZA_C_KNUCKLE_BUSTER"
 	size = point_defence
 	entity = "Zeon_Machine_Gun_01_Entity"
@@ -159,6 +191,70 @@ weapon_component_template = {
 }
 
 weapon_component_template = {
+	key = "ZETA_HYAKU_SHIKI_BEAM_RIFLE"
+	size = point_defence
+	entity = "Zeon_Machine_Gun_01_Entity"
+	damage = { min = 37.0 max = 74.0 }
+	total_fire_time = 10
+	range = 45.0
+	accuracy = 0.75
+	tracking  = 0.3
+	type = point_defence
+	shield_damage = 0.2
+	armor_penetration = 0.95
+
+	icon = "ZETA_HYAKU_SHIKI_BEAM_RIFLE"
+	icon_frame = 1
+
+	power = -3000
+	resources = {
+		category = ship_components
+		cost = {
+			alloys = 44
+		}
+	}
+	size_restriction = { MSN_00100 }
+	prerequisites = { "tech_MSN_00100" }
+	component_set = "ZETA_HYAKU_SHIKI_BEAM_RIFLE"
+	projectile_gfx = "MPC1"
+	tags = { weapon_type_energy }
+	ai_tags = { weapon_role_anti_armor }
+	#upgrades_to = "SMALL_BEAMC_2"
+}
+
+weapon_component_template = {
+	key = "ZETA_HYAKU_SHIKI_MEGA_BAZOOKA_LAUNCHER"
+	size = extra_large
+	entity = "Zeon_Machine_Gun_01_Entity"
+	damage = { min = 315.0 max = 630.0 }
+	total_fire_time = 80
+	range = 90.0
+	accuracy = 0.85
+	tracking  = 0.0
+	type = point_defence
+	shield_damage = 0.2
+	armor_penetration = 0.95
+
+	icon = "ZETA_HYAKU_SHIKI_MEGA_BAZOOKA_LAUNCHER"
+	icon_frame = 1
+
+	power = -3000
+	resources = {
+		category = ship_components
+		cost = {
+			alloys = 88
+		}
+	}
+	size_restriction = { MSN_00100 }
+	prerequisites = { "tech_RX_78_4" }
+	component_set = "ZETA_HYAKU_SHIKI_MEGA_BAZOOKA_LAUNCHER"
+	projectile_gfx = "MPC1"
+	tags = { weapon_type_energy }
+	ai_tags = { weapon_role_anti_armor }
+	#upgrades_to = "SMALL_BEAMC_2"
+}
+
+weapon_component_template = {
 	key = "ZETA_EFSF_380MM"
 	size = point_defence
 	entity = "Zeon_Machine_Gun_01_Entity"
@@ -181,9 +277,42 @@ weapon_component_template = {
 			alloys = 33
 		}
 	}
-	size_restriction = { RX_77 RX_78 FA_78 FA_78_2 HFA_78 RX_81 RX_81FC RGM_79 RGM_79S RGM_79FP RGM_79FC RGC_80 RX_78GP01_Fb RX_78GP03S RX_78GP04G }
+	size_restriction = { RX_77 RX_78 FA_78 FA_78_2 HFA_78 RX_81 RX_81FC RGM_79 RGM_79S RGM_79FP RGM_79FC RGC_80 RX_78GP01_Fb RX_78GP03S RX_78GP04G MSN_00100 }
 	prerequisites = { "tech_RMS_179" }
 	component_set = "ZETA_EFSF_380MM"
+	projectile_gfx = "gundam_missile"
+	tags = { weapon_type_explosive }
+	ai_tags = { weapon_role_anti_shield }
+	#upgrades_to = "SMALL_BEAMC_2"
+}
+
+weapon_component_template = {
+	key = "ZETA_CLAY_BAZOOKA"
+	size = point_defence
+	entity = "Zeon_Machine_Gun_01_Entity"
+	damage = { min = 5.0 max = 9.0 }
+	total_fire_time = 3
+	range = 60.0
+	accuracy = 1.0
+	tracking  = 0.25
+	type = point_defence
+	hull_damage = 0.75
+	armor_penetration = 0.75
+	shield_damage = 1.25
+
+	icon = "ZETA_CLAY_BAZOOKA"
+	icon_frame = 1
+
+	power = -3000
+	resources = {
+		category = ship_components
+		cost = {
+			alloys = 33
+		}
+	}
+	size_restriction = { RX_77 RX_78 FA_78 FA_78_2 HFA_78 RX_81 RX_81FC RGM_79 RGM_79S RGM_79FP RGM_79FC RGC_80 RX_78GP01_Fb RX_78GP03S RX_78GP04G MSN_00100 }
+	prerequisites = { "tech_AEUG" }
+	component_set = "ZETA_CLAY_BAZOOKA"
 	projectile_gfx = "gundam_missile"
 	tags = { weapon_type_explosive }
 	ai_tags = { weapon_role_anti_shield }

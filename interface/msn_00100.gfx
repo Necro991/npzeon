@@ -1,0 +1,8 @@
+spriteTypes = {
+
+	spriteType = {
+		name = "msn_00100_melee"
+		texturefile = "gfx/interface/icons/ship_parts/msn_00100_melee.dds"
+	}
+
+}

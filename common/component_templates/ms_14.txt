@@ -106,6 +106,35 @@ utility_component_template = {
 }
 
 utility_component_template = {
+	key = "ms_14_armor_5"
+	size = small
+	icon = "ms_14_armor_4"
+	icon_frame = 1
+	power = 0
+	resources = {
+		category = ship_components
+		cost = {
+			alloys = 18
+		}
+	}
+
+	modifier = {
+		ship_armor_add = 381
+		ship_hull_mult = 0.27
+		ship_evasion_add = 10
+		ship_speed_mult = -0.674
+	}
+
+	prerequisites = { "tech_MS_14J" }
+
+	component_set = "ms_14_armor"
+
+	ai_weight = {
+		weight = 5
+	}
+}
+
+utility_component_template = {
 	key = "ms_14_thrusters_1"
 	size = small
 	icon = "GFX_ship_part_thruster_1"

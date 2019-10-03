@@ -3,7 +3,7 @@
 @cruiser_scale = 10.0
 @battleship_scale = 15.0
 @Battlecruiser_scale = 13.0
-@LightCarrier_scale = 15.0
+@escortcarrier_scale = 15.0
 @Carrier_scale = 17.0
 @military_station_large = 20.0
 @Dreadnought_scale = 20.0
@@ -880,7 +880,7 @@ entity = {
 
 #FRAME
 entity = {
-	name = "zeon_01_LightCarrier_entity"
+	name = "zeon_01_escortcarrier_entity"
 	pdxmesh = "zeon_01_chivvay_kai_mesh" #zeon_01_musai_mesh
 
 	#locator = { name = "part1"	position = { 0 -0.4 -6.4 } rotation = { 0 0 0 } }
@@ -908,13 +908,13 @@ entity = {
 	scale = 1.0
 
 	game_data = {
-		size = @LightCarrier_scale
+		size = @escortcarrier_scale
 	}
 }
 
 # BOW
 entity = {
-	name = "zeon_01_LightCarrier_bow_L1_entity"
+	name = "zeon_01_escortcarrier_bow_L1_entity"
 	pdxmesh = "zeon_01_cruiser_bow_L1_mesh"
 
 	locator = { name = "large_gun_01" 			position = { 0 	1.0 	-5.0 	} scale = 0}
@@ -945,7 +945,7 @@ entity = {
 }
 
 entity = {
-	name = "zeon_01_LightCarrier_bow_M1S2_entity"
+	name = "zeon_01_escortcarrier_bow_M1S2_entity"
 	pdxmesh = "zeon_01_cruiser_bow_M1S2_mesh"
 
 	locator = { name = "medium_gun_01" 			position = { 0 	3.5 	-8.0 	} scale = 2.0}
@@ -984,7 +984,7 @@ entity = {
 }
 
 entity = {
-	name = "zeon_01_LightCarrier_bow_M2_entity"
+	name = "zeon_01_escortcarrier_bow_M2_entity"
 	pdxmesh = "zeon_01_cruiser_bow_M2_mesh"
 
 	locator = { name = "medium_gun_01" 			position = { 1.0 	1.0 	-3.5	} scale = 0}
@@ -1024,7 +1024,7 @@ entity = {
 # MID1
 
 entity = {
-	name = "zeon_01_LightCarrier_mid1_S2HB_entity"
+	name = "zeon_01_escortcarrier_mid1_S2HB_entity"
 	pdxmesh = "zeon_01_cruiser_mid_S2HB_mesh"
 
 	locator = { name = "small_gun_01" 			position = { 1.7 	2.8 	-1.5 	} scale = 0.0}
@@ -1076,7 +1076,7 @@ entity = {
 }
 
 entity = {
-	name = "zeon_01_LightCarrier_mid1_L1M1_entity"
+	name = "zeon_01_escortcarrier_mid1_L1M1_entity"
 	pdxmesh = "zeon_01_cruiser_mid_L1M1_mesh"
 
 	locator = { name = "large_gun_01" 			position = { 0 	3.0 	1.7 	} scale = 0.0}
@@ -1109,7 +1109,7 @@ entity = {
 }
 
 entity = {
-	name = "zeon_01_LightCarrier_mid1_M3_entity"
+	name = "zeon_01_escortcarrier_mid1_M3_entity"
 	pdxmesh = "zeon_01_cruiser_mid_M3_mesh"
 
 	locator = { name = "medium_gun_01" 			position = { 0 	2.0 	0.5	} scale = 0.0}
@@ -1156,7 +1156,7 @@ entity = {
 }
 
 entity = {
-	name = "zeon_01_LightCarrier_mid1_M2S2_entity"
+	name = "zeon_01_escortcarrier_mid1_M2S2_entity"
 	pdxmesh = "zeon_01_cruiser_mid_M2S2_mesh"
 
 	locator = { name = "medium_gun_01" 			position = { 1.5 	2.0 	0.5	} scale = 0.0 }
@@ -1193,7 +1193,7 @@ entity = {
 # MID2
 
 entity = {
-	name = "zeon_01_LightCarrier_mid2_S2HB_entity"
+	name = "zeon_01_escortcarrier_mid2_S2HB_entity"
 	pdxmesh = "zeon_01_cruiser_mid_S2HB_mesh"
 
 	locator = { name = "small_gun_01" 			position = { 1.7 	2.8 	2.0 	} scale = 0.0}
@@ -1245,7 +1245,7 @@ entity = {
 }
 
 entity = {
-	name = "zeon_01_LightCarrier_mid2_L1M1_entity"
+	name = "zeon_01_escortcarrier_mid2_L1M1_entity"
 	pdxmesh = "zeon_01_cruiser_mid_L1M1_mesh"
 
 	locator = { name = "large_gun_01" 			position = { 0 	3.0 	1.7 	} scale = 0.0}
@@ -1278,7 +1278,7 @@ entity = {
 }
 
 entity = {
-	name = "zeon_01_LightCarrier_mid2_M3_entity"
+	name = "zeon_01_escortcarrier_mid2_M3_entity"
 	pdxmesh = "zeon_01_cruiser_mid_M3_mesh"
 
 	locator = { name = "medium_gun_01" 			position = { 0 	2.0 	0.5	} scale = 0.0}
@@ -1325,7 +1325,7 @@ entity = {
 }
 
 entity = {
-	name = "zeon_01_LightCarrier_mid2_M2S2_entity"
+	name = "zeon_01_escortcarrier_mid2_M2S2_entity"
 	pdxmesh = "zeon_01_cruiser_mid_M2S2_mesh"
 
 	locator = { name = "medium_gun_01" 			position = { 0 	2.0 	0.5	} scale = 0.0}
@@ -1361,7 +1361,7 @@ entity = {
 
 # STERN
 entity = {
-	name = "zeon_01_LightCarrier_stern_M1_entity"
+	name = "zeon_01_escortcarrier_stern_M1_entity"
 	pdxmesh = "zeon_01_cruiser_stern_M1_mesh"
 
 	locator = { name = "medium_gun_01"			position = {0	3.7		2.7	} scale = 0.0 }
@@ -1414,7 +1414,7 @@ entity = {
 }
 
 entity = {
-	name = "zeon_01_LightCarrier_stern_S2_entity"
+	name = "zeon_01_escortcarrier_stern_S2_entity"
 	pdxmesh = "zeon_01_cruiser_stern_S2_mesh"
 
 	locator = { name = "small_gun_01" 			position = { 3.0  2.1 	4.8 } rotation = { 180 0 90 } scale = 2.0 }

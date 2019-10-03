@@ -2650,6 +2650,12 @@ entity = {
 	}
 
 	entity = {
+		name = "MSN_00100_entity"
+		pdxmesh = "efsf_locator_mesh"
+		scale = 1.0
+	}
+
+	entity = {
 		name = "white_base_entity"
 		pdxmesh = "efsf_locator_mesh"
 		scale = 1.0
