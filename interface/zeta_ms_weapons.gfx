@@ -31,6 +31,21 @@ spriteTypes = {
 	}
 
 	spriteType = {
+		name = "ZETA_HIZACK_120MM"
+		texturefile = "gfx/interface/icons/ship_parts/efsf_hizack_120.dds"
+	}
+
+	spriteType = {
+		name = "ZETA_HIZACK_BEAM_RIFLE"
+		texturefile = "gfx/interface/icons/ship_parts/efsf_hizack_br.dds"
+	}
+
+	spriteType = {
+		name = "ZETA_SNIPER_BEAM_LAUNCHER"
+		texturefile = "gfx/interface/icons/ship_parts/efsf_sniper_beam_launcher.dds"
+	}
+
+	spriteType = {
 		name = "ZETA_HYAKU_SHIKI_BEAM_RIFLE"
 		texturefile = "gfx/interface/icons/ship_parts/efsf_hyaku_shiki_br.dds"
 	}

@@ -16,13 +16,23 @@
 @battleship_power_4 = 1250
 @battleship_power_5 = 1550
 @battleship_power_6 = 2000
+@battleship_power_7 = 2450
+@battleship_power_8 = 2900
+@battleship_power_9 = 3350
+@battleship_power_10 = 3800
+@battleship_power_11 = 4250
 
-@battleship_cost_1 = 200
-@battleship_cost_2 = 260
-@battleship_cost_3 = 320
-@battleship_cost_4 = 380
-@battleship_cost_5 = 440
-@battleship_cost_6 = 500
+@battleship_cost_1 = 80
+@battleship_cost_2 = 104
+@battleship_cost_3 = 136
+@battleship_cost_4 = 176
+@battleship_cost_5 = 224
+@battleship_cost_6 = 296
+@battleship_cost_7 = 376
+@battleship_cost_8 = 464
+@battleship_cost_9 = 560
+@battleship_cost_10 = 664
+@battleship_cost_11 = 776
 
 @battleship_cost1 = 24
 @battleship_cost2 = 48
@@ -531,6 +541,141 @@ utility_component_template = {
 
 	ai_weight = {
 		weight = 6
+	}
+}
+
+utility_component_template = {
+	key = "AC_GRAVITON_REACTOR"
+	size = small
+	icon = "GFX_ship_part_reactor_6_NSC"
+	icon_frame = 1
+	power = @battleship_power_7
+	resources = {
+		category = ship_components
+		cost = {
+			alloys = @battleship_cost_7
+		}
+		upkeep = {
+			energy = 3.67
+			alloys = 0.367
+		}
+	}
+
+	prerequisites = { "tech_graviton_power" }
+	component_set = "power_core"
+	size_restriction = { white_base zanzibar }
+	upgrades_to = "AC_NAQUADRIA_REACTOR"
+
+	ai_weight = {
+		weight = 7
+	}
+}
+
+utility_component_template = {
+	key = "AC_NAQUADRIA_REACTOR"
+	size = small
+	icon = "GFX_ship_part_reactor_7_NSC"
+	icon_frame = 1
+	power = @battleship_power_8
+	resources = {
+		category = ship_components
+		cost = {
+			alloys = @battleship_cost_8
+		}
+		upkeep = {
+			energy = 6.65
+			alloys = 0.665
+		}
+	}
+
+	prerequisites = { "tech_naquadria_power" }
+	component_set = "power_core"
+	size_restriction = { white_base zanzibar }
+	upgrades_to = "AC_SINGULARITY_REACTOR"
+
+	ai_weight = {
+		weight = 8
+	}
+}
+
+utility_component_template = {
+	key = "AC_SINGULARITY_REACTOR"
+	size = small
+	icon = "GFX_ship_part_reactor_8_NSC"
+	icon_frame = 1
+	power = @battleship_power_9
+	resources = {
+		category = ship_components
+		cost = {
+			alloys = @battleship_cost_9
+		}
+		upkeep = {
+			energy = 9.63
+			alloys = 0.963
+		}
+	}
+
+	prerequisites = { "tech_singularity_power" }
+	component_set = "power_core"
+	size_restriction = { white_base zanzibar }
+	upgrades_to = "AC_MULTIDIMENSIONAL_REACTOR"
+
+	ai_weight = {
+		weight = 9
+	}
+}
+
+utility_component_template = {
+	key = "AC_MULTIDIMENSIONAL_REACTOR"
+	size = small
+	icon = "GFX_ship_part_reactor_9_NSC"
+	icon_frame = 1
+	power = @battleship_power_10
+	resources = {
+		category = ship_components
+		cost = {
+			alloys = @battleship_cost_10
+		}
+		upkeep = {
+			energy = 12.61
+			alloys = 0.1261
+		}
+	}
+
+	prerequisites = { "tech_multidimensional_power" }
+	component_set = "power_core"
+	size_restriction = { white_base zanzibar }
+	upgrades_to = "AC_OPTIMIZED_ENIGMATIC_REACTOR"
+
+	ai_weight = {
+		weight = 10
+	}
+}
+
+utility_component_template = {
+	key = "AC_OPTIMIZED_ENIGMATIC_REACTOR"
+	size = small
+	icon = "GFX_ship_part_reactor_11_enigmatic_NSC"
+	icon_frame = 1
+	power = @battleship_power_11
+	resources = {
+		category = ship_components
+		cost = {
+			alloys = @battleship_cost_11
+			sr_dark_matter = 6
+		}
+		upkeep = {
+			energy = 15.59
+			alloys = 0.1559
+		}
+	}
+
+	prerequisites = { "tech_optimized_enigmatic_power" }
+	component_set = "power_core"
+	size_restriction = { white_base zanzibar }
+
+	ai_weight = {
+		weight = 11
 	}
 }
 

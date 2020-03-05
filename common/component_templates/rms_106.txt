@@ -1,0 +1,98 @@
+#Armor, Thrusters, Grenades, Melee
+
+utility_component_template = {
+	key = "rms_106_armor_1"
+	size = small
+	icon = "GFX_ship_part_armor_1"
+	icon_frame = 1
+	power = 0
+
+	modifier = {
+		ship_armor_add = 276
+		ship_hull_mult = -0.08
+	}
+
+	prerequisites = { "tech_RMS_106" }
+
+	component_set = "rms_106_armor"
+
+	ai_weight = {
+		weight = 1
+	}
+}
+
+utility_component_template = {
+	key = "rms_106_armor_2"
+	size = small
+	icon = "GFX_ship_part_armor_2"
+	icon_frame = 1
+	power = 0
+	resources = {
+		category = ship_components
+		cost = {
+			alloys = 18
+			luna_titanium = 3
+		}
+	}
+
+	modifier = {
+		ship_armor_add = 558
+		ship_hull_mult = -0.07
+	}
+
+	prerequisites = { "tech_RMS_106CS" }
+
+	component_set = "rms_106_armor"
+
+	ai_weight = {
+		weight = 2
+	}
+}
+
+utility_component_template = {
+	key = "rms_106_thrusters_1"
+	size = small
+	icon = "GFX_ship_part_thruster_1"
+	icon_frame = 1
+	power = 0
+
+	modifier = {
+		ship_evasion_add = 60
+		ship_speed_mult = 0.85
+	}
+
+	prerequisites = { "tech_RMS_106" }
+
+	component_set = "rms_106_thrusters"
+
+	ai_weight = {
+		weight = 1
+	}
+}
+
+utility_component_template = {
+	key = "rms_106_thrusters_2"
+	size = small
+	icon = "GFX_ship_part_thruster_2"
+	icon_frame = 1
+	power = 0
+	resources = {
+		category = ship_components
+		cost = {
+			alloys = 5
+		}
+	}
+
+	modifier = {
+		ship_evasion_add = 60
+		ship_speed_mult = 1.07
+	}
+
+	prerequisites = { "tech_RMS_106CS" }
+
+	component_set = "rms_106_thrusters"
+
+	ai_weight = {
+		weight = 2
+	}
+}

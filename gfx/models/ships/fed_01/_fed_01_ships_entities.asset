@@ -2650,6 +2650,12 @@ entity = {
 	}
 
 	entity = {
+		name = "RMS_106_entity"
+		pdxmesh = "efsf_locator_mesh"
+		scale = 1.0
+	}
+
+	entity = {
 		name = "MSN_00100_entity"
 		pdxmesh = "efsf_locator_mesh"
 		scale = 1.0
@@ -3159,6 +3165,12 @@ entity = {
 	entity = {
 		name = "Hizack_entity" #Green Hizack Single
 		pdxmesh = "Hizack_mesh"
+		scale = 1.0
+	}
+
+	entity = {
+		name = "Hizack_Trio_entity" #Green Hizack Triple
+		pdxmesh = "Hizack_Trio_mesh"
 		scale = 1.0
 	}
 

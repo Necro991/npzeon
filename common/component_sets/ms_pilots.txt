@@ -102,3 +102,27 @@ component_set = {
 	icon = "oyw_efsf_pilot_veteran"
 	icon_frame = 1
 }
+
+component_set = {
+	key = "zeta_titans_pilot_single"
+
+	required_component_set = yes
+	icon = "zeta_titans_pilot_newtype"
+	icon_frame = 1
+}
+
+component_set = {
+	key = "zeta_titans_pilot_trio"
+
+	required_component_set = yes
+	icon = "zeta_titans_pilot_newtype"
+	icon_frame = 1
+}
+
+component_set = {
+	key = "zeta_titans_pilot_ncn"
+
+	required_component_set = yes
+	icon = "zeta_titans_pilot_newtype"
+	icon_frame = 1
+}

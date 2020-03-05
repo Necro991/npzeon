@@ -53,7 +53,7 @@ newtype_lab = {
 	}
 
 	ai_weight = {
-		weight = 2
+		weight = 0
 	}
 }
 
@@ -110,6 +110,6 @@ cybernewtype_lab = {
 	}
 
 	ai_weight = {
-		weight = 2
+		weight = 0
 	}
 }

@@ -55,21 +55,21 @@ building_ms_factory_1 = {
 	}
 
 	ai_weight = {
-		weight = 2
-		modifier =
-		{
-			factor = 5
-			owner = {
-				has_monthly_income = {
-					resource = alloys
-					value > 5
-				}
-				has_monthly_income = {
-					resource = minerals
-					value > 6
-				}
-			}
-		}
+		weight = 0
+		#modifier =
+		#{
+		#	factor = 5
+		#	owner = {
+		#		has_monthly_income = {
+		#			resource = alloys
+		#			value > 5
+		#		}
+		#		has_monthly_income = {
+		#			resource = minerals
+		#			value > 6
+		#		}
+		#	}
+		#}
 	}
 }
 
@@ -139,21 +139,21 @@ building_ms_factory_2 = {
 	}
 
 	ai_weight = {
-		weight = 2
-		modifier =
-		{
-			factor = 5
-			owner = {
-				has_monthly_income = {
-					resource = alloys
-					value > 5
-				}
-				has_monthly_income = {
-					resource = minerals
-					value > 6
-				}
-			}
-		}
+		weight = 0
+		#modifier =
+		#{
+		#	factor = 5
+		#	owner = {
+		#		has_monthly_income = {
+		#			resource = alloys
+		#			value > 5
+		#		}
+		#		has_monthly_income = {
+		#			resource = minerals
+		#			value > 6
+		#		}
+		#	}
+		#}
 	}
 }
 
@@ -218,20 +218,20 @@ building_ms_factory_3 = {
 	}
 
 	ai_weight = {
-		weight = 2
-		modifier =
-		{
-			factor = 5
-			owner = {
-				has_monthly_income = {
-					resource = alloys
-					value > 5
-				}
-				has_monthly_income = {
-					resource = minerals
-					value > 6
-				}
-			}
-		}
+		weight = 0
+		#modifier =
+		#{
+		#	factor = 5
+		#	owner = {
+		#		has_monthly_income = {
+		#			resource = alloys
+		#			value > 5
+		#		}
+		#		has_monthly_income = {
+		#			resource = minerals
+		#			value > 6
+		#		}
+		#	}
+		#}
 	}
 }

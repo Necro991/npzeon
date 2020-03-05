@@ -1371,7 +1371,7 @@ weapon_component_template = {
 	size = point_defence
 	entity = "Zeon_Machine_Gun_01_Entity"
 	damage = { min = 1.0 max = 10.0 }
-	total_fire_time = 0.5
+	total_fire_time = 5
 	range = 30.0
 	accuracy = 0.75
 	tracking  = 0.0
@@ -1389,7 +1389,7 @@ weapon_component_template = {
 			alloys = 13
 		}
 	}
-	size_restriction = { RX_78 FA_78_2 HFA_78 RGM_79 RGM_79S RGM_79SC RX_78GP01_Fb RX_78GP03S RX_78GP04G MSN_00100 }
+	size_restriction = { RX_78 FA_78_2 HFA_78 RGM_79 RGM_79S RGM_79SC RX_78GP01_Fb RX_78GP03S RX_78GP04G MSN_00100 RMS_106 }
 	prerequisites = { "tech_RGM_79C" }
 	component_set = "OYW_EFSF_GM_180MM"
 	projectile_gfx = "mass_driver_s"
@@ -1867,7 +1867,7 @@ weapon_component_template = {
 			alloys = 8
 		}
 	}
-	size_restriction = { RX_77 RX_78 FA_78 FA_78_2 HFA_78 RX_81 RX_81FC RGM_79 RGM_79S RGM_79SC RGM_79FP RGM_79FC RGC_80 RX_78GP01_Fb RX_78GP03S RX_78GP04G MSN_00100 }
+	size_restriction = { RX_77 RX_78 FA_78 FA_78_2 HFA_78 RX_81 RX_81FC RGM_79 RGM_79S RGM_79SC RGM_79FP RGM_79FC RGC_80 RX_78GP01_Fb RX_78GP03S RX_78GP04G MSN_00100 RMS_106 }
 	prerequisites = { "tech_RGM_79E" }
 	component_set = "OYW_EFSF_90MM"
 	projectile_gfx = "auto_cannons_s"
@@ -1899,7 +1899,7 @@ weapon_component_template = {
 			alloys = 10
 		}
 	}
-	size_restriction = { RX_77 RX_78 FA_78 FA_78_2 HFA_78 RX_81 RX_81FC RGM_79 RGM_79S RGM_79SC RGM_79FP RGM_79FC RGC_80 RX_78GP01_Fb RX_78GP03S RX_78GP04G MSN_00100 }
+	size_restriction = { RX_77 RX_78 FA_78 FA_78_2 HFA_78 RX_81 RX_81FC RGM_79 RGM_79S RGM_79SC RGM_79FP RGM_79FC RGC_80 RX_78GP01_Fb RX_78GP03S RX_78GP04G MSN_00100 RMS_106 }
 	prerequisites = { "tech_RGM_79" }
 	component_set = "OYW_EFSF_100MM"
 	projectile_gfx = "auto_cannons_s"
@@ -1931,7 +1931,7 @@ weapon_component_template = {
 			alloys = 13
 		}
 	}
-	size_restriction = { RX_77 RX_78 FA_78 FA_78_2 HFA_78 RX_81 RX_81FC RGM_79 RGM_79S RGM_79SC RGM_79FP RGM_79FC RGC_80 RX_78GP01_Fb RX_78GP03S RX_78GP04G MSN_00100 }
+	size_restriction = { RX_77 RX_78 FA_78 FA_78_2 HFA_78 RX_81 RX_81FC RGM_79 RGM_79S RGM_79SC RGM_79FP RGM_79FC RGC_80 RX_78GP01_Fb RX_78GP03S RX_78GP04G MSN_00100 RMS_106 }
 	prerequisites = { "tech_RX_81" }
 	component_set = "OYW_EFSF_SHOTGUN"
 	projectile_gfx = "auto_cannons_s"
@@ -1995,7 +1995,7 @@ weapon_component_template = {
 			alloys = 22
 		}
 	}
-	size_restriction = { RX_77 RX_78 FA_78 FA_78_2 HFA_78 RX_81 RX_81FC RGM_79 RGM_79S RGM_79SC RGM_79FP RGM_79FC RGC_80 RX_78GP01_Fb RX_78GP03S RX_78GP04G MSN_00100 }
+	size_restriction = { RX_77 RX_78 FA_78 FA_78_2 HFA_78 RX_81 RX_81FC RGM_79 RGM_79S RGM_79SC RGM_79FP RGM_79FC RGC_80 RX_78GP01_Fb RX_78GP03S RX_78GP04G MSN_00100 RMS_106 }
 	prerequisites = { "tech_RGM_79" }
 	component_set = "OYW_EFSF_380MM"
 	projectile_gfx = "gundam_missile"

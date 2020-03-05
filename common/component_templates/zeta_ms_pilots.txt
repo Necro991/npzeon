@@ -1,0 +1,443 @@
+utility_component_template = {
+	key = "zeta_titans_pilot_green_single"
+	size = small
+	icon = "zeta_titans_pilot_green"
+	icon_frame = 1
+	power = 0
+	resources = {
+		category = ship_components
+		cost = {
+			#pilots = 15
+		}
+	}
+
+	#ship_modifier = {
+	#	ship_weapon_damage = 0.3
+	#	ship_accuracy_add = 5
+	#	ship_fire_rate_mult = 0.15
+	#}
+
+	prerequisites = { "tech_EF_Titans" }
+
+	component_set = "zeta_titans_pilot_single"
+	ship_behavior = "mobile_suit_behavior"
+	upgrades_to = "zeta_titans_pilot_veteran_single"
+
+	ai_weight = {
+		weight = 1
+	}
+}
+
+utility_component_template = {
+	key = "zeta_titans_pilot_veteran_single"
+	size = small
+	icon = "zeta_titans_pilot_veteran"
+	icon_frame = 1
+	power = 0
+	resources = {
+		category = ship_components
+		cost = {
+			efsf_pilots = 3
+		}
+	}
+
+	ship_modifier = {
+		ship_weapon_damage = 0.1
+		ship_accuracy_add = 5
+		ship_fire_rate_mult = 0.05
+	}
+
+	prerequisites = { "tech_EF_Titans" }
+
+	component_set = "zeta_titans_pilot_single"
+	ship_behavior = "mobile_suit_behavior"
+	upgrades_to = "zeta_titans_pilot_ace_single"
+
+	ai_weight = {
+		weight = 1
+		modifier = {
+			factor = 2.0
+			has_monthly_income = { resource = efsf_pilots value > 0 }
+		}
+
+		modifier = {
+			factor = 0
+			has_monthly_income = { resource = efsf_pilots value <= 0 }
+		}
+	}
+}
+
+utility_component_template = {
+	key = "zeta_titans_pilot_ace_single"
+	size = small
+	icon = "zeta_titans_pilot_ace"
+	icon_frame = 1
+	power = 0
+	resources = {
+		category = ship_components
+		cost = {
+			efsf_ace_pilots = 3
+		}
+	}
+
+	ship_modifier = {
+		ship_weapon_damage = 0.2
+		ship_accuracy_add = 7.5
+		ship_fire_rate_mult = 0.075
+	}
+
+	prerequisites = { "tech_EF_Titans" }
+
+	component_set = "zeta_titans_pilot_single"
+	ship_behavior = "mobile_suit_behavior"
+	#upgrades_to = "zeta_titans_pilot_putv_veteran"
+
+	ai_weight = {
+		weight = 1
+		modifier = {
+			factor = 3.0
+			has_monthly_income = { resource = efsf_ace_pilots value > 0 }
+		}
+
+		modifier = {
+			factor = 0
+			has_monthly_income = { resource = efsf_ace_pilots value <= 0 }
+		}
+	}
+}
+
+utility_component_template = {
+	key = "zeta_titans_pilot_newtype_single"
+	size = small
+	icon = "zeta_titans_pilot_newtype"
+	icon_frame = 1
+	power = 0
+	resources = {
+		category = ship_components
+		cost = {
+			newtypes = 3
+		}
+	}
+	ship_modifier = {
+		ship_weapon_damage = 0.2
+		ship_accuracy_add = 10.0
+		ship_fire_rate_mult = 0.1
+	}
+
+	prerequisites = { "tech_EF_Titans" }
+
+	component_set = "zeta_titans_pilot_single"
+	ship_behavior = "mobile_suit_behavior"
+	#upgrades_to = "zeta_titans_pilot_putv_veteran"
+
+	ai_weight = {
+		weight = 1
+		modifier = {
+			factor = 4.0
+			has_monthly_income = { resource = newtypes value > 0 }
+		}
+
+		modifier = {
+			factor = 0
+			has_monthly_income = { resource = newtypes value <= 0 }
+		}
+	}
+}
+
+utility_component_template = {
+	key = "zeta_titans_pilot_cybernewtype_single"
+	size = small
+	icon = "zeta_titans_pilot_cybernewtype"
+	icon_frame = 1
+	power = 0
+	resources = {
+		category = ship_components
+		cost = {
+			cybernewtypes = 3
+		}
+	}
+
+	ship_modifier = {
+		ship_weapon_damage = 0.25
+		ship_accuracy_add = -10.0
+		ship_fire_rate_mult = 0.15
+	}
+
+	prerequisites = { "tech_EF_Titans" }
+
+	component_set = "zeta_titans_pilot_single"
+	ship_behavior = "mobile_suit_behavior"
+
+	ai_weight = {
+		weight = 1
+		modifier = {
+			factor = 3.5
+			has_monthly_income = { resource = cybernewtypes value > 0 }
+		}
+
+		modifier = {
+			factor = 0
+			has_monthly_income = { resource = cybernewtypes value <= 0 }
+		}
+	}
+}
+
+utility_component_template = {
+	key = "zeta_titans_pilot_green_trio"
+	size = small
+	icon = "zeta_titans_pilot_green"
+	icon_frame = 1
+	power = 0
+	resources = {
+		category = ship_components
+		cost = {
+			#pilots = 15
+		}
+	}
+
+	#ship_modifier = {
+	#	ship_weapon_damage = 0.3
+	#	ship_accuracy_add = 5
+	#	ship_fire_rate_mult = 0.15
+	#}
+
+	prerequisites = { "tech_EF_Titans" }
+
+	component_set = "zeta_titans_pilot_trio"
+	ship_behavior = "mobile_suit_behavior"
+	upgrades_to = "zeta_titans_pilot_veteran_trio"
+
+	ai_weight = {
+		weight = 1
+	}
+}
+
+utility_component_template = {
+	key = "zeta_titans_pilot_veteran_trio"
+	size = small
+	icon = "zeta_titans_pilot_veteran"
+	icon_frame = 1
+	power = 0
+	resources = {
+		category = ship_components
+		cost = {
+			efsf_pilots = 9
+		}
+	}
+
+	ship_modifier = {
+		ship_weapon_damage = 0.1
+		ship_accuracy_add = 5
+		ship_fire_rate_mult = 0.05
+	}
+
+	prerequisites = { "tech_EF_Titans" }
+
+	component_set = "zeta_titans_pilot_trio"
+	ship_behavior = "mobile_suit_behavior"
+	upgrades_to = "zeta_titans_pilot_ace_trio"
+
+	ai_weight = {
+		weight = 1
+		modifier = {
+			factor = 2.0
+			has_monthly_income = { resource = efsf_pilots value > 0 }
+		}
+
+		modifier = {
+			factor = 0
+			has_monthly_income = { resource = efsf_pilots value <= 0 }
+		}
+	}
+}
+
+utility_component_template = {
+	key = "zeta_titans_pilot_ace_trio"
+	size = small
+	icon = "zeta_titans_pilot_ace"
+	icon_frame = 1
+	power = 0
+	resources = {
+		category = ship_components
+		cost = {
+			efsf_ace_pilots = 9
+		}
+	}
+
+	ship_modifier = {
+		ship_weapon_damage = 0.2
+		ship_accuracy_add = 7.5
+		ship_fire_rate_mult = 0.075
+	}
+
+	prerequisites = { "tech_EF_Titans" }
+
+	component_set = "zeta_titans_pilot_trio"
+	ship_behavior = "mobile_suit_behavior"
+	#upgrades_to = "zeta_titans_pilot_putv_veteran"
+
+	ai_weight = {
+		weight = 1
+		modifier = {
+			factor = 3.0
+			has_monthly_income = { resource = efsf_ace_pilots value > 0 }
+		}
+
+		modifier = {
+			factor = 0
+			has_monthly_income = { resource = efsf_ace_pilots value <= 0 }
+		}
+	}
+}
+
+utility_component_template = {
+	key = "zeta_titans_pilot_newtype_trio"
+	size = small
+	icon = "zeta_titans_pilot_newtype"
+	icon_frame = 1
+	power = 0
+	resources = {
+		category = ship_components
+		cost = {
+			newtypes = 9
+		}
+	}
+	ship_modifier = {
+		ship_weapon_damage = 0.2
+		ship_accuracy_add = 10.0
+		ship_fire_rate_mult = 0.1
+	}
+
+	prerequisites = { "tech_EF_Titans" }
+
+	component_set = "zeta_titans_pilot_trio"
+	ship_behavior = "mobile_suit_behavior"
+	#upgrades_to = "zeta_titans_pilot_putv_veteran"
+
+	ai_weight = {
+		weight = 1
+		modifier = {
+			factor = 4.0
+			has_monthly_income = { resource = newtypes value > 0 }
+		}
+
+		modifier = {
+			factor = 0
+			has_monthly_income = { resource = newtypes value <= 0 }
+		}
+	}
+}
+
+utility_component_template = {
+	key = "zeta_titans_pilot_cybernewtype_trio"
+	size = small
+	icon = "zeta_titans_pilot_cybernewtype"
+	icon_frame = 1
+	power = 0
+	resources = {
+		category = ship_components
+		cost = {
+			cybernewtypes = 9
+		}
+	}
+
+	ship_modifier = {
+		ship_weapon_damage = 0.25
+		ship_accuracy_add = -10.0
+		ship_fire_rate_mult = 0.15
+	}
+
+	prerequisites = { "tech_EF_Titans" }
+
+	component_set = "zeta_titans_pilot_trio"
+	ship_behavior = "mobile_suit_behavior"
+
+	ai_weight = {
+		weight = 1
+		modifier = {
+			factor = 3.5
+			has_monthly_income = { resource = cybernewtypes value > 0 }
+		}
+
+		modifier = {
+			factor = 0
+			has_monthly_income = { resource = cybernewtypes value <= 0 }
+		}
+	}
+}
+
+utility_component_template = {
+	key = "zeta_titans_pilot_ncn_newtype"
+	size = small
+	icon = "zeta_titans_pilot_newtype"
+	icon_frame = 1
+	power = 0
+	resources = {
+		category = ship_components
+		cost = {
+			newtypes = 3
+		}
+	}
+	ship_modifier = {
+		ship_weapon_damage = 0.2
+		ship_accuracy_add = 10.0
+		ship_fire_rate_mult = 0.1
+	}
+
+	prerequisites = { "tech_EF_Titans" }
+
+	component_set = "zeta_titans_pilot_ncn"
+	ship_behavior = "mobile_suit_behavior"
+	#upgrades_to = "zeta_titans_pilot_putv_veteran"
+
+	ai_weight = {
+		weight = 1
+		modifier = {
+			factor = 4.0
+			has_monthly_income = { resource = newtypes value > 0 }
+		}
+
+		modifier = {
+			factor = 0
+			has_monthly_income = { resource = newtypes value <= 0 }
+		}
+	}
+}
+
+utility_component_template = {
+	key = "zeta_titans_pilot_ncn_cybernewtype"
+	size = small
+	icon = "zeta_titans_pilot_cybernewtype"
+	icon_frame = 1
+	power = 0
+	resources = {
+		category = ship_components
+		cost = {
+			cybernewtypes = 3
+		}
+	}
+
+	ship_modifier = {
+		ship_weapon_damage = 0.25
+		ship_accuracy_add = -10.0
+		ship_fire_rate_mult = 0.15
+	}
+
+	prerequisites = { "tech_EF_Titans" }
+
+	component_set = "zeta_titans_pilot_ncn"
+	ship_behavior = "mobile_suit_behavior"
+
+	ai_weight = {
+		weight = 1
+		modifier = {
+			factor = 3.5
+			has_monthly_income = { resource = cybernewtypes value > 0 }
+		}
+
+		modifier = {
+			factor = 0
+			has_monthly_income = { resource = cybernewtypes value <= 0 }
+		}
+	}
+}

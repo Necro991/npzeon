@@ -27,6 +27,27 @@ component_set = {
 }
 
 component_set = {
+	key = "ZETA_HIZACK_120MM"
+
+	icon = "ZETA_HIZACK_120MM"
+	icon_frame = 1
+}
+
+component_set = {
+	key = "ZETA_HIZACK_BEAM_RIFLE"
+
+	icon = "ZETA_HIZACK_BEAM_RIFLE"
+	icon_frame = 1
+}
+
+component_set = {
+	key = "ZETA_SNIPER_BEAM_LAUNCHER"
+
+	icon = "ZETA_SNIPER_BEAM_LAUNCHER"
+	icon_frame = 1
+}
+
+component_set = {
 	key = "ZETA_GM_II_BEAM_RIFLE"
 
 	icon = "ZETA_GM_BEAM_RIFLE"

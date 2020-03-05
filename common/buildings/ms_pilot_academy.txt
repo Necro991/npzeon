@@ -195,6 +195,6 @@ ms_pilot_academy = {
 	}
 
 	ai_weight = {
-		weight = 0.5
+		weight = 0
 	}
 }

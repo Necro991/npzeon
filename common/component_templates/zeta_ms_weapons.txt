@@ -127,6 +127,102 @@ weapon_component_template = {
 }
 
 weapon_component_template = {
+	key = "ZETA_HIZACK_120MM"
+	size = point_defence
+	entity = "Zeon_Machine_Gun_01_Entity"
+	damage = { min = 2.0 max = 10.0 }
+	total_fire_time = 5
+	range = 30.0
+	accuracy = 0.8
+	tracking  = 0.6
+	type = point_defence
+	shield_damage = 1.5
+	armor_damage = 0.25
+
+	icon = "ZETA_HIZACK_120MM"
+	icon_frame = 1
+
+	power = -3000
+	resources = {
+		category = ship_components
+		cost = {
+			alloys = 10
+		}
+	}
+	size_restriction = { RX_77 RX_78 FA_78 FA_78_2 HFA_78 RX_81 RX_81FC RGM_79 RGM_79S RGM_79FP RGM_79FC RGC_80 RX_78GP01_Fb RX_78GP03S RX_78GP04G MSN_00100 RMS_106 }
+	prerequisites = { "tech_RMS_106" }
+	component_set = "ZETA_HIZACK_120MM"
+	projectile_gfx = "auto_cannons_s"
+	tags = { weapon_type_kinetic }
+	ai_tags = { weapon_role_anti_shield }
+	#upgrades_to = "SMALL_BEAMC_2"
+}
+
+weapon_component_template = {
+	key = "ZETA_HIZACK_BEAM_RIFLE"
+	size = point_defence
+	entity = "Zeon_Machine_Gun_01_Entity"
+	damage = { min = 28.6 max = 57.2 }
+	total_fire_time = 10
+	range = 45.0
+	accuracy = 0.75
+	tracking  = 0.3
+	type = point_defence
+	shield_damage = 0.2
+	armor_penetration = 0.95
+
+	icon = "ZETA_HIZACK_BEAM_RIFLE"
+	icon_frame = 1
+
+	power = -3000
+	resources = {
+		category = ship_components
+		cost = {
+			alloys = 44
+		}
+	}
+	size_restriction = { RMS_106 }
+	prerequisites = { "tech_RMS_106" }
+	component_set = "ZETA_HIZACK_BEAM_RIFLE"
+	projectile_gfx = "MPC1"
+	tags = { weapon_type_energy }
+	ai_tags = { weapon_role_anti_armor }
+	#upgrades_to = "ZETA_GM_III_BEAM_RIFLE"
+}
+
+weapon_component_template = {
+	key = "ZETA_SNIPER_BEAM_LAUNCHER"
+	size = point_defence
+	entity = "Zeon_Machine_Gun_01_Entity"
+	damage = { min = 59.2 max = 118.4 }
+	total_fire_time = 20
+	range = 90.0
+	accuracy = 0.75
+	tracking  = 0.3
+	type = point_defence
+	shield_damage = 0.2
+	armor_penetration = 0.95
+
+	icon = "ZETA_SNIPER_BEAM_LAUNCHER"
+	icon_frame = 1
+
+	power = -3000
+	resources = {
+		category = ship_components
+		cost = {
+			alloys = 68
+		}
+	}
+	size_restriction = { RMS_106 }
+	prerequisites = { "tech_RMS_106" }
+	component_set = "ZETA_SNIPER_BEAM_LAUNCHER"
+	projectile_gfx = "MPC1"
+	tags = { weapon_type_energy }
+	ai_tags = { weapon_role_anti_armor }
+	#upgrades_to = "ZETA_GM_III_BEAM_RIFLE"
+}
+
+weapon_component_template = {
 	key = "ZETA_GM_II_BEAM_RIFLE"
 	size = point_defence
 	entity = "Zeon_Machine_Gun_01_Entity"
@@ -277,7 +373,7 @@ weapon_component_template = {
 			alloys = 33
 		}
 	}
-	size_restriction = { RX_77 RX_78 FA_78 FA_78_2 HFA_78 RX_81 RX_81FC RGM_79 RGM_79S RGM_79FP RGM_79FC RGC_80 RX_78GP01_Fb RX_78GP03S RX_78GP04G MSN_00100 }
+	size_restriction = { RX_77 RX_78 FA_78 FA_78_2 HFA_78 RX_81 RX_81FC RGM_79 RGM_79S RGM_79FP RGM_79FC RGC_80 RX_78GP01_Fb RX_78GP03S RX_78GP04G MSN_00100 RMS_106 }
 	prerequisites = { "tech_RMS_179" }
 	component_set = "ZETA_EFSF_380MM"
 	projectile_gfx = "gundam_missile"
@@ -310,7 +406,7 @@ weapon_component_template = {
 			alloys = 33
 		}
 	}
-	size_restriction = { RX_77 RX_78 FA_78 FA_78_2 HFA_78 RX_81 RX_81FC RGM_79 RGM_79S RGM_79FP RGM_79FC RGC_80 RX_78GP01_Fb RX_78GP03S RX_78GP04G MSN_00100 }
+	size_restriction = { RX_77 RX_78 FA_78 FA_78_2 HFA_78 RX_81 RX_81FC RGM_79 RGM_79S RGM_79FP RGM_79FC RGC_80 RX_78GP01_Fb RX_78GP03S RX_78GP04G MSN_00100 RMS_106 }
 	prerequisites = { "tech_AEUG" }
 	component_set = "ZETA_CLAY_BAZOOKA"
 	projectile_gfx = "gundam_missile"

@@ -94,4 +94,29 @@ spriteTypes = {
 		name = "0083_efsf_pilot_ace"
 		texturefile = "gfx/interface/icons/ship_parts/0083_efsf_pilot_03.dds"
 	}
+
+	spriteType = {
+		name = "zeta_titans_pilot_green"
+		texturefile = "gfx/interface/icons/ship_parts/zeta_titans_pilot_01.dds"
+	}
+
+	spriteType = {
+		name = "zeta_titans_pilot_veteran"
+		texturefile = "gfx/interface/icons/ship_parts/zeta_titans_pilot_02.dds"
+	}
+
+	spriteType = {
+		name = "zeta_titans_pilot_ace"
+		texturefile = "gfx/interface/icons/ship_parts/zeta_titans_pilot_03.dds"
+	}
+
+	spriteType = {
+		name = "zeta_titans_pilot_newtype"
+		texturefile = "gfx/interface/icons/ship_parts/zeta_titans_pilot_04.dds"
+	}
+
+	spriteType = {
+		name = "zeta_titans_pilot_cybernewtype"
+		texturefile = "gfx/interface/icons/ship_parts/zeta_titans_pilot_05.dds"
+	}
 }
