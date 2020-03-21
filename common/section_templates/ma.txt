@@ -9,15 +9,13 @@ ship_section_template = { #MSN-01 Psycommu Zaku
 
 	component_slot = {
 		name = "EXTRA_LARGE_01"
-		slot_size = extra_large
-		slot_type = weapon
+		template = "invisible_extra_large_fixed"
 		locatorname = "xl_gun_01"
 	}
 
 	component_slot = {
 		name = "EXTRA_LARGE_02"
-		slot_size = extra_large
-		slot_type = weapon
+		template = "invisible_extra_large_fixed"
 		locatorname = "xl_gun_02"
 	}
 
@@ -45,36 +43,31 @@ ship_section_template = { #MSN-02 Zeong
 
 	component_slot = {
 		name = "EXTRA_LARGE_01"
-		slot_size = extra_large
-		slot_type = weapon
+		template = "invisible_extra_large_fixed"
 		locatorname = "xl_gun_01"
 	}
 
 	component_slot = {
 		name = "EXTRA_LARGE_02"
-		slot_size = extra_large
-		slot_type = weapon
+		template = "invisible_extra_large_fixed"
 		locatorname = "xl_gun_02"
 	}
 
 	component_slot = {
 		name = "EXTRA_LARGE_03"
-		slot_size = extra_large
-		slot_type = weapon
+		template = "invisible_extra_large_fixed"
 		locatorname = "xl_gun_03"
 	}
 
 	component_slot = {
 		name = "EXTRA_LARGE_04"
-		slot_size = extra_large
-		slot_type = weapon
+		template = "invisible_extra_large_fixed"
 		locatorname = "xl_gun_04"
 	}
 
 	component_slot = {
 		name = "EXTRA_LARGE_05"
-		slot_size = extra_large
-		slot_type = weapon
+		template = "invisible_extra_large_fixed"
 		locatorname = "xl_gun_05"
 	}
 
@@ -102,22 +95,19 @@ ship_section_template = { #MA-04X Zakrello
 
 	component_slot = {
 		name = "EXTRA_LARGE_01"
-		slot_size = extra_large
-		slot_type = weapon
+		template = "invisible_extra_large_fixed"
 		locatorname = "xl_gun_01"
 	}
 
 	component_slot = {
 		name = "TORPEDO_01"
-		slot_size = torpedo
-		slot_type = weapon
+		template = "invisible_missile_turret"
 		locatorname = "medium_gun_01"
 	}
 
 	component_slot = {
 		name = "TORPEDO_02"
-		slot_size = torpedo
-		slot_type = weapon
+		template = "invisible_missile_turret"
 		locatorname = "medium_gun_02"
 	}
 
@@ -145,22 +135,19 @@ ship_section_template = { #MA-05 Bigro
 
 	component_slot = {
 		name = "EXTRA_LARGE_01"
-		slot_size = extra_large
-		slot_type = weapon
+		template = "invisible_extra_large_fixed"
 		locatorname = "xl_gun_01"
 	}
 
 	component_slot = {
 		name = "TORPEDO_01"
-		slot_size = torpedo
-		slot_type = weapon
+		template = "invisible_missile_turret"
 		locatorname = "medium_gun_01"
 	}
 
 	component_slot = {
 		name = "TORPEDO_02"
-		slot_size = torpedo
-		slot_type = weapon
+		template = "invisible_missile_turret"
 		locatorname = "medium_gun_02"
 	}
 
@@ -188,71 +175,61 @@ ship_section_template = { #MA-05Ad Big Rang
 
 	component_slot = {
 		name = "EXTRA_LARGE_01"
-		slot_size = extra_large
-		slot_type = weapon
+		template = "invisible_extra_large_fixed"
 		locatorname = "xl_gun_01"
 	}
 
 	component_slot = {
 		name = "TORPEDO_01"
-		slot_size = torpedo
-		slot_type = weapon
+		template = "invisible_missile_turret"
 		locatorname = "medium_gun_01"
 	}
 
 	component_slot = {
 		name = "TORPEDO_02"
-		slot_size = torpedo
-		slot_type = weapon
+		template = "invisible_missile_turret"
 		locatorname = "medium_gun_02"
 	}
 
 	component_slot = {
 		name = "TORPEDO_03"
-		slot_size = torpedo
-		slot_type = weapon
+		template = "invisible_missile_turret"
 		locatorname = "medium_gun_03"
 	}
 
 	component_slot = {
 		name = "TORPEDO_04"
-		slot_size = torpedo
-		slot_type = weapon
+		template = "invisible_missile_turret"
 		locatorname = "medium_gun_04"
 	}
 
 	component_slot = {
 		name = "TORPEDO_05"
-		slot_size = torpedo
-		slot_type = weapon
+		template = "invisible_missile_turret"
 		locatorname = "medium_gun_05"
 	}
 
 	component_slot = {
 		name = "TORPEDO_06"
-		slot_size = torpedo
-		slot_type = weapon
+		template = "invisible_missile_turret"
 		locatorname = "medium_gun_06"
 	}
 
 	component_slot = {
 		name = "TORPEDO_07"
-		slot_size = torpedo
-		slot_type = weapon
+		template = "invisible_missile_turret"
 		locatorname = "medium_gun_07"
 	}
 
 	component_slot = {
 		name = "TORPEDO_08"
-		slot_size = torpedo
-		slot_type = weapon
+		template = "invisible_missile_turret"
 		locatorname = "medium_gun_08"
 	}
 
 	component_slot = {
 		name = "SMALL_GUN_01"
-		slot_size = point_defence
-		slot_type = weapon
+		template = "invisible_point_defence_turret"
 		locatorname = "small_gun_01"
 	}
 
@@ -280,64 +257,55 @@ ship_section_template = { #MA-06 Val Varo
 
 	component_slot = {
 		name = "EXTRA_LARGE_01"
-		slot_size = extra_large
-		slot_type = weapon
+		template = "invisible_extra_large_fixed"
 		locatorname = "xl_gun_01"
 	}
 
 	component_slot = {
 		name = "TORPEDO_01"
-		slot_size = torpedo
-		slot_type = weapon
+		template = "invisible_missile_turret"
 		locatorname = "medium_gun_01"
 	}
 
 	component_slot = {
 		name = "TORPEDO_02"
-		slot_size = torpedo
-		slot_type = weapon
+		template = "invisible_missile_turret"
 		locatorname = "medium_gun_02"
 	}
 
 	component_slot = {
 		name = "SMALL_GUN_01"
-		slot_size = point_defence
-		slot_type = weapon
+		template = "invisible_point_defence_turret"
 		locatorname = "small_gun_01"
 	}
 
 	component_slot = {
 		name = "SMALL_GUN_02"
-		slot_size = point_defence
-		slot_type = weapon
+		template = "invisible_point_defence_turret"
 		locatorname = "small_gun_02"
 	}
 
 	component_slot = {
 		name = "SMALL_GUN_03"
-		slot_size = point_defence
-		slot_type = weapon
+		template = "invisible_point_defence_turret"
 		locatorname = "small_gun_03"
 	}
 
 	component_slot = {
 		name = "SMALL_GUN_04"
-		slot_size = point_defence
-		slot_type = weapon
+		template = "invisible_point_defence_turret"
 		locatorname = "small_gun_04"
 	}
 
 	component_slot = {
 		name = "SMALL_GUN_05"
-		slot_size = point_defence
-		slot_type = weapon
+		template = "invisible_point_defence_turret"
 		locatorname = "small_gun_05"
 	}
 
 	component_slot = {
 		name = "SMALL_GUN_06"
-		slot_size = point_defence
-		slot_type = weapon
+		template = "invisible_point_defence_turret"
 		locatorname = "small_gun_06"
 	}
 
@@ -366,92 +334,79 @@ ship_section_template = { #MA-08 Big Zam
 
 	component_slot = {
 		name = "EXTRA_LARGE_01"
-		slot_size = extra_large
-		slot_type = weapon
+		template = "invisible_extra_large_fixed"
 		locatorname = "xl_gun_01"
 	}
 
 	component_slot = {
 		name = "TORPEDO_01"
-		slot_size = torpedo
-		slot_type = weapon
+		template = "invisible_missile_turret"
 		locatorname = "medium_gun_01"
 	}
 
 	component_slot = {
 		name = "TORPEDO_02"
-		slot_size = torpedo
-		slot_type = weapon
+		template = "invisible_missile_turret"
 		locatorname = "medium_gun_02"
 	}
 
 	component_slot = {
 		name = "TORPEDO_03"
-		slot_size = torpedo
-		slot_type = weapon
+		template = "invisible_missile_turret"
 		locatorname = "medium_gun_03"
 	}
 
 	component_slot = {
 		name = "TORPEDO_04"
-		slot_size = torpedo
-		slot_type = weapon
+		template = "invisible_missile_turret"
 		locatorname = "medium_gun_04"
 	}
 
 	component_slot = {
 		name = "TORPEDO_05"
-		slot_size = torpedo
-		slot_type = weapon
+		template = "invisible_missile_turret"
 		locatorname = "medium_gun_05"
 	}
 
 	component_slot = {
 		name = "TORPEDO_06"
-		slot_size = torpedo
-		slot_type = weapon
+		template = "invisible_missile_turret"
 		locatorname = "medium_gun_06"
 	}
 
 	component_slot = {
 		name = "SMALL_GUN_01"
-		slot_size = point_defence
-		slot_type = weapon
+		template = "invisible_point_defence_turret"
 		locatorname = "small_gun_01"
 	}
 
 	component_slot = {
 		name = "SMALL_GUN_02"
-		slot_size = point_defence
-		slot_type = weapon
+		template = "invisible_point_defence_turret"
 		locatorname = "small_gun_02"
 	}
 
 	component_slot = {
 		name = "SMALL_GUN_03"
-		slot_size = point_defence
-		slot_type = weapon
+		template = "invisible_point_defence_turret"
 		locatorname = "small_gun_03"
 	}
 
 	component_slot = {
 		name = "SMALL_GUN_04"
-		slot_size = point_defence
-		slot_type = weapon
+		template = "invisible_point_defence_turret"
 		locatorname = "small_gun_04"
 	}
 
 	component_slot = {
 		name = "SMALL_GUN_05"
-		slot_size = point_defence
-		slot_type = weapon
+		template = "invisible_point_defence_turret"
 		locatorname = "small_gun_05"
 	}
 
 	component_slot = {
 		name = "SMALL_GUN_06"
-		slot_size = point_defence
-		slot_type = weapon
+		template = "invisible_point_defence_turret"
 		locatorname = "small_gun_06"
 	}
 
@@ -479,30 +434,26 @@ ship_section_template = { #MAN-03 Braw Bro
 
 	component_slot = {
 		name = "EXTRA_LARGE_01"
-		slot_size = extra_large
-		slot_type = weapon
+		template = "invisible_extra_large_fixed"
 		locatorname = "xl_gun_01"
 	}
 
 	component_slot = {
 		name = "EXTRA_LARGE_02"
-		slot_size = extra_large
-		slot_type = weapon
+		template = "invisible_extra_large_fixed"
 		locatorname = "xl_gun_02"
 	}
 
 	component_slot = {
 		name = "EXTRA_LARGE_03"
-		slot_size = extra_large
-		slot_type = weapon
+		template = "invisible_extra_large_fixed"
 		locatorname = "xl_gun_03"
 	}
 
 
 	component_slot = {
 		name = "EXTRA_LARGE_04"
-		slot_size = extra_large
-		slot_type = weapon
+		template = "invisible_extra_large_fixed"
 		locatorname = "xl_gun_04"
 	}
 
@@ -531,15 +482,13 @@ ship_section_template = { #MAN-08 Elmeth
 
 	component_slot = {
 		name = "EXTRA_LARGE_01"
-		slot_size = extra_large
-		slot_type = weapon
+		template = "invisible_extra_large_fixed"
 		locatorname = "xl_gun_01"
 	}
 
 	component_slot = {
 		name = "EXTRA_LARGE_02"
-		slot_size = extra_large
-		slot_type = weapon
+		template = "invisible_extra_large_fixed"
 		locatorname = "xl_gun_02"
 	}
 

@@ -9,29 +9,25 @@ ship_section_template = { #RMS-106 Hizack
 
 	component_slot = {
 		name = "SMALL_GUN_01"
-		slot_size = point_defence
-		slot_type = weapon
+		template = "invisible_point_defence_turret"
 		locatorname = "small_gun_01"
 	}
 
 	component_slot = {
 		name = "SMALL_GUN_02"
-		slot_size = point_defence
-		slot_type = weapon
+		template = "invisible_point_defence_turret"
 		locatorname = "small_gun_02"
 	}
 
 	component_slot = {
 		name = "SMALL_GUN_03"
-		slot_size = point_defence
-		slot_type = weapon
+		template = "invisible_point_defence_turret"
 		locatorname = "small_gun_03"
 	}
 
 	component_slot = {
 		name = "TORPEDO_01"
-		slot_size = torpedo
-		slot_type = weapon
+		template = "invisible_missile_turret"
 		locatorname = "medium_gun_01"
 	}
 

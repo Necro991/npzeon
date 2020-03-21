@@ -9,15 +9,13 @@ ship_section_template = { #Gundam
 
 	component_slot = {
 		name = "SMALL_GUN_01"
-		slot_size = point_defence
-		slot_type = weapon
+		template = "invisible_point_defence_turret"
 		locatorname = "small_gun_01"
 	}
 
 	component_slot = {
 		name = "SMALL_GUN_02"
-		slot_size = point_defence
-		slot_type = weapon
+		template = "invisible_point_defence_turret"
 		locatorname = "small_gun_02"
 	}
 
@@ -45,15 +43,13 @@ ship_section_template = { #Gundam
 
 	component_slot = {
 		name = "SMALL_GUN_01"
-		slot_size = point_defence
-		slot_type = weapon
+		template = "invisible_point_defence_turret"
 		locatorname = "small_gun_01"
 	}
 
 	component_slot = {
 		name = "SMALL_GUN_02"
-		slot_size = point_defence
-		slot_type = weapon
+		template = "invisible_point_defence_turret"
 		locatorname = "small_gun_02"
 	}
 
@@ -81,22 +77,19 @@ ship_section_template = { #Gundam
 
 	component_slot = {
 		name = "EXTRA_LARGE_01"
-		slot_size = extra_large
-		slot_type = weapon
+		template = "invisible_extra_large_fixed"
 		locatorname = "xl_gun_01"
 	}
 
 	component_slot = {
 		name = "TORPEDO_01"
-		slot_size = torpedo
-		slot_type = weapon
+		template = "invisible_missile_turret"
 		locatorname = "medium_gun_01"
 	}
 
 	component_slot = {
 		name = "TORPEDO_02"
-		slot_size = torpedo
-		slot_type = weapon
+		template = "invisible_missile_turret"
 		locatorname = "medium_gun_02"
 	}
 
@@ -124,15 +117,13 @@ ship_section_template = { #Gundam
 
 	component_slot = {
 		name = "SMALL_GUN_01"
-		slot_size = point_defence
-		slot_type = weapon
+		template = "invisible_point_defence_turret"
 		locatorname = "small_gun_01"
 	}
 
 	component_slot = {
 		name = "SMALL_GUN_02"
-		slot_size = point_defence
-		slot_type = weapon
+		template = "invisible_point_defence_turret"
 		locatorname = "small_gun_02"
 	}
 
@@ -160,64 +151,55 @@ ship_section_template = { #Gundam
 
 	component_slot = {
 		name = "EXTRA_LARGE_01"
-		slot_size = extra_large
-		slot_type = weapon
+		template = "invisible_extra_large_fixed"
 		locatorname = "xl_gun_01"
 	}
 
 	component_slot = {
 		name = "SMALL_GUN_01"
-		slot_size = point_defence
-		slot_type = weapon
+		template = "invisible_point_defence_turret"
 		locatorname = "small_gun_01"
 	}
 
 	component_slot = {
 		name = "SMALL_GUN_02"
-		slot_size = point_defence
-		slot_type = weapon
+		template = "invisible_point_defence_turret"
 		locatorname = "small_gun_02"
 	}
 
 	component_slot = {
 		name = "TORPEDO_01"
-		slot_size = torpedo
-		slot_type = weapon
+		template = "invisible_missile_turret"
 		locatorname = "medium_gun_01"
 	}
 
 	component_slot = {
 		name = "TORPEDO_02"
-		slot_size = torpedo
-		slot_type = weapon
+		template = "invisible_missile_turret"
 		locatorname = "medium_gun_02"
 	}
 
 	component_slot = {
 		name = "TORPEDO_03"
-		slot_size = torpedo
-		slot_type = weapon
+		template = "invisible_missile_turret"
 		locatorname = "medium_gun_03"
 	}
 
 	component_slot = {
 		name = "TORPEDO_04"
-		slot_size = torpedo
-		slot_type = weapon
+		template = "invisible_missile_turret"
 		locatorname = "medium_gun_04"
 	}
 
 	component_slot = {
 		name = "TORPEDO_05"
-		slot_size = torpedo
-		slot_type = weapon
+		template = "invisible_missile_turret"
 		locatorname = "medium_gun_05"
 	}
 
 	component_slot = {
 		name = "TORPEDO_06"
-		slot_size = torpedo
-		slot_type = weapon
+		template = "invisible_missile_turret"
 		locatorname = "medium_gun_06"
 	}
 
@@ -239,15 +221,13 @@ ship_section_template = { #Gundam
 
 	component_slot = {
 		name = "SMALL_GUN_01"
-		slot_size = point_defence
-		slot_type = weapon
+		template = "invisible_point_defence_turret"
 		locatorname = "small_gun_01"
 	}
 
 	component_slot = {
 		name = "SMALL_GUN_02"
-		slot_size = point_defence
-		slot_type = weapon
+		template = "invisible_point_defence_turret"
 		locatorname = "small_gun_02"
 	}
 

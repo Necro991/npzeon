@@ -9,22 +9,19 @@ ship_section_template = { #G-Line
 
 	component_slot = {
 		name = "SMALL_GUN_01"
-		slot_size = point_defence
-		slot_type = weapon
+		template = "invisible_point_defence_turret"
 		locatorname = "small_gun_01"
 	}
 
 	component_slot = {
 		name = "SMALL_GUN_02"
-		slot_size = point_defence
-		slot_type = weapon
+		template = "invisible_point_defence_turret"
 		locatorname = "small_gun_02"
 	}
 
 	component_slot = {
 		name = "SMALL_GUN_03"
-		slot_size = point_defence
-		slot_type = weapon
+		template = "invisible_point_defence_turret"
 		locatorname = "small_gun_03"
 	}
 
@@ -52,29 +49,25 @@ ship_section_template = { #G-Line FC
 
 	component_slot = {
 		name = "EXTRA_LARGE_01"
-		slot_size = extra_large
-		slot_type = weapon
+		template = "invisible_extra_large_fixed"
 		locatorname = "xl_gun_01"
 	}
 
 	component_slot = {
 		name = "SMALL_GUN_01"
-		slot_size = point_defence
-		slot_type = weapon
+		template = "invisible_point_defence_turret"
 		locatorname = "small_gun_01"
 	}
 
 	component_slot = {
 		name = "SMALL_GUN_02"
-		slot_size = point_defence
-		slot_type = weapon
+		template = "invisible_point_defence_turret"
 		locatorname = "small_gun_02"
 	}
 
 	component_slot = {
 		name = "SMALL_GUN_03"
-		slot_size = point_defence
-		slot_type = weapon
+		template = "invisible_point_defence_turret"
 		locatorname = "small_gun_03"
 	}
 

@@ -7,6 +7,7 @@ tags={
 	"Technologies"
 }
 name="Mobile Suit Gundam: Stellaris"
-path="C:/Users/Xander.IMPERATOR/Documents/Paradox Interactive/Stellaris/mod/npzeon"
 picture="thumbnail.png"
-supported_version="2.5.x"
+supported_version="2.6.x"
+path="C:/Users/Xander.IMPERATOR/Documents/Paradox Interactive/Stellaris/mod/npzeon"
+remote_file_id="717060367"
