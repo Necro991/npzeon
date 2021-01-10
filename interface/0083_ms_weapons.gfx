@@ -20,4 +20,9 @@ spriteTypes = {
 		texturefile = "gfx/interface/icons/ship_parts/gp03_mpc.dds"
 	}
 
+	spriteType = {
+		name = "0083_EFSF_RGC_83_CANNON"
+		texturefile = "gfx/interface/icons/ship_parts/efsf_beam_cannon_3.dds"
+	}
+
 }

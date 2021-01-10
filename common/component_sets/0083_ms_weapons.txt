@@ -53,3 +53,10 @@ component_set = {
 	icon = "0083_EFSF_GP03_MPC"
 	icon_frame = 1
 }
+
+component_set = {
+	key = "0083_EFSF_RGC_83_CANNON"
+
+	icon = "0083_EFSF_RGC_83_CANNON"
+	icon_frame = 1
+}

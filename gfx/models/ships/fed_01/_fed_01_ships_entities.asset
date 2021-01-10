@@ -2850,6 +2850,12 @@ entity = {
 	}
 
 	entity = {
+		name = "GM_Cannon_II_Trio_entity" #GM Cannon II
+		pdxmesh = "fed_01_GM_Cannon_II_Trio_mesh"
+		scale = 1.0
+	}
+
+	entity = {
 		name = "GM_Quel_entity" #GM Quel Rifle
 		pdxmesh = "GM_Quel_mesh"
 		scale = 1.0
@@ -3171,6 +3177,12 @@ entity = {
 	entity = {
 		name = "Hizack_Trio_entity" #Green Hizack Triple
 		pdxmesh = "Hizack_Trio_mesh"
+		scale = 1.0
+	}
+
+	entity = {
+		name = "Hizack_Rossweisse_entity" #Hizack Rossweisse Single
+		pdxmesh = "Hizack_Rossweise_mesh"
 		scale = 1.0
 	}
 

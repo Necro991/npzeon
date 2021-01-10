@@ -8,6 +8,6 @@ tags={
 }
 name="Mobile Suit Gundam: Stellaris"
 picture="thumbnail.png"
-supported_version="2.6.x"
+supported_version="2.8.x"
 path="C:/Users/Xander.IMPERATOR/Documents/Paradox Interactive/Stellaris/mod/npzeon"
 remote_file_id="717060367"

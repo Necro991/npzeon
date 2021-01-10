@@ -1,0 +1,41 @@
+#Armor, Thrusters, Grenades, Melee
+
+utility_component_template = {
+	key = "rgc_83_armor_1" #RGC-83 GM Cannon II
+	size = small
+	icon = "GFX_ship_part_armor_1"
+	icon_frame = 1
+	power = 0
+
+	modifier = {
+		ship_armor_add = 156
+	}
+
+	prerequisites = { "tech_RGC_83" }
+
+	component_set = "rgc_83_armor"
+
+	ai_weight = {
+		weight = 1
+	}
+}
+
+utility_component_template = {
+	key = "rgc_83_thrusters_1"
+	size = small
+	icon = "GFX_ship_part_thruster_1"
+	icon_frame = 1
+	power = 0
+
+	modifier = {
+		ship_evasion_add = 55
+	}
+
+	prerequisites = { "tech_RGC_83" }
+
+	component_set = "rgc_83_thrusters"
+
+	ai_weight = {
+		weight = 1
+	}
+}

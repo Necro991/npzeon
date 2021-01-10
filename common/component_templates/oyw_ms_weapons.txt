@@ -743,7 +743,7 @@ weapon_component_template = {
 	size = extra_large
 	entity = "Zeon_Machine_Gun_01_Entity"
 	damage = { min = 28.8 max = 57.6 }
-	total_fire_time = 10
+	total_fire_time = 20
 	range = 60.0
 	accuracy = 0.75
 	tracking  = 0.0
@@ -1041,7 +1041,7 @@ weapon_component_template = {
 			alloys = 26
 		}
 	}
-	size_restriction = { RX_77 RX_78 FA_78_2 RGC_80 }
+	size_restriction = { RX_77 RX_78 FA_78_2 RGC_80 RGC_83 }
 	prerequisites = { "tech_RX_77_1A" }
 	component_set = "OYW_EFSF_240MM_1"
 	projectile_gfx = "mass_driver_s"
@@ -1072,7 +1072,7 @@ weapon_component_template = {
 			alloys = 22
 		}
 	}
-	size_restriction = { RX_77 RX_78 FA_78_2 RX_81FC RGC_80 }
+	size_restriction = { RX_77 RX_78 FA_78_2 RX_81FC RGC_80 RGC_83 }
 	prerequisites = { "tech_RX_77D" }
 	component_set = "OYW_EFSF_240MM_2"
 	projectile_gfx = "mass_driver_s"
@@ -1103,7 +1103,7 @@ weapon_component_template = {
 			alloys = 34
 		}
 	}
-	size_restriction = { RX_77 RX_78 FA_78_2 RGC_80 }
+	size_restriction = { RX_77 RX_78 FA_78_2 RGC_80 RGC_83 }
 	prerequisites = { "tech_RX_78_6" }
 	component_set = "OYW_EFSF_300MM"
 	projectile_gfx = "mass_driver_s"
@@ -1134,7 +1134,7 @@ weapon_component_template = {
 			alloys = 44
 		}
 	}
-	size_restriction = { RX_77 RX_78 FA_78_2 RGC_80 }
+	size_restriction = { RX_77 RX_78 FA_78_2 RGC_80 RGC_83 }
 	prerequisites = { "tech_RGC_80" }
 	component_set = "OYW_EFSF_360MM_1"
 	projectile_gfx = "mass_driver_s"
@@ -1165,7 +1165,7 @@ weapon_component_template = {
 			alloys = 36
 		}
 	}
-	size_restriction = { RX_77 RX_78 FA_78_2 RGC_80 }
+	size_restriction = { RX_77 RX_78 FA_78_2 RGC_80 RGC_83 }
 	prerequisites = { "tech_RGC_80S" }
 	component_set = "OYW_EFSF_360MM_2"
 	projectile_gfx = "mass_driver_s"
@@ -1867,7 +1867,7 @@ weapon_component_template = {
 			alloys = 8
 		}
 	}
-	size_restriction = { RX_77 RX_78 FA_78 FA_78_2 HFA_78 RX_81 RX_81FC RGM_79 RGM_79S RGM_79SC RGM_79FP RGM_79FC RGC_80 RX_78GP01_Fb RX_78GP03S RX_78GP04G MSN_00100 RMS_106 }
+	size_restriction = { RX_77 RX_78 FA_78 FA_78_2 HFA_78 RX_81 RX_81FC RGM_79 RGM_79S RGM_79SC RGM_79FP RGM_79FC RGC_80 RGC_83 RX_78GP01_Fb RX_78GP03S RX_78GP04G MSN_00100 RMS_106 }
 	prerequisites = { "tech_RGM_79E" }
 	component_set = "OYW_EFSF_90MM"
 	projectile_gfx = "auto_cannons_s"
@@ -1899,7 +1899,7 @@ weapon_component_template = {
 			alloys = 10
 		}
 	}
-	size_restriction = { RX_77 RX_78 FA_78 FA_78_2 HFA_78 RX_81 RX_81FC RGM_79 RGM_79S RGM_79SC RGM_79FP RGM_79FC RGC_80 RX_78GP01_Fb RX_78GP03S RX_78GP04G MSN_00100 RMS_106 }
+	size_restriction = { RX_77 RX_78 FA_78 FA_78_2 HFA_78 RX_81 RX_81FC RGM_79 RGM_79S RGM_79SC RGM_79FP RGM_79FC RGC_80 RGC_83 RX_78GP01_Fb RX_78GP03S RX_78GP04G MSN_00100 RMS_106 }
 	prerequisites = { "tech_RGM_79" }
 	component_set = "OYW_EFSF_100MM"
 	projectile_gfx = "auto_cannons_s"
@@ -1931,7 +1931,7 @@ weapon_component_template = {
 			alloys = 13
 		}
 	}
-	size_restriction = { RX_77 RX_78 FA_78 FA_78_2 HFA_78 RX_81 RX_81FC RGM_79 RGM_79S RGM_79SC RGM_79FP RGM_79FC RGC_80 RX_78GP01_Fb RX_78GP03S RX_78GP04G MSN_00100 RMS_106 }
+	size_restriction = { RX_77 RX_78 FA_78 FA_78_2 HFA_78 RX_81 RX_81FC RGM_79 RGM_79S RGM_79SC RGM_79FP RGM_79FC RGC_80 RGC_83 RX_78GP01_Fb RX_78GP03S RX_78GP04G MSN_00100 RMS_106 }
 	prerequisites = { "tech_RX_81" }
 	component_set = "OYW_EFSF_SHOTGUN"
 	projectile_gfx = "auto_cannons_s"
@@ -1963,7 +1963,7 @@ weapon_component_template = {
 			alloys = 13
 		}
 	}
-	size_restriction = { RGM_79 RGM_79S RGM_79SC RGM_79FP RGM_79FC RGC_80 }
+	size_restriction = { RGM_79 RGM_79S RGM_79SC RGM_79FP RGM_79FC RGC_80 RGC_83 }
 	prerequisites = { "tech_RGM_79" }
 	component_set = "OYW_EFSF_BEAM_SCATTER"
 	projectile_gfx = "MPC1"
@@ -1995,7 +1995,7 @@ weapon_component_template = {
 			alloys = 22
 		}
 	}
-	size_restriction = { RX_77 RX_78 FA_78 FA_78_2 HFA_78 RX_81 RX_81FC RGM_79 RGM_79S RGM_79SC RGM_79FP RGM_79FC RGC_80 RX_78GP01_Fb RX_78GP03S RX_78GP04G MSN_00100 RMS_106 }
+	size_restriction = { RX_77 RX_78 FA_78 FA_78_2 HFA_78 RX_81 RX_81FC RGM_79 RGM_79S RGM_79SC RGM_79FP RGM_79FC RGC_80 RGC_83 RX_78GP01_Fb RX_78GP03S RX_78GP04G MSN_00100 RMS_106 }
 	prerequisites = { "tech_RGM_79" }
 	component_set = "OYW_EFSF_380MM"
 	projectile_gfx = "gundam_missile"

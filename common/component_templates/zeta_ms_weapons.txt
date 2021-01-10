@@ -149,7 +149,7 @@ weapon_component_template = {
 			alloys = 10
 		}
 	}
-	size_restriction = { RX_77 RX_78 FA_78 FA_78_2 HFA_78 RX_81 RX_81FC RGM_79 RGM_79S RGM_79FP RGM_79FC RGC_80 RX_78GP01_Fb RX_78GP03S RX_78GP04G MSN_00100 RMS_106 }
+	size_restriction = { RX_77 RX_78 FA_78 FA_78_2 HFA_78 RX_81 RX_81FC RGM_79 RGM_79S RGM_79FP RGM_79FC RGC_80 RGC_83 RX_78GP01_Fb RX_78GP03S RX_78GP04G MSN_00100 RMS_106 }
 	prerequisites = { "tech_RMS_106" }
 	component_set = "ZETA_HIZACK_120MM"
 	projectile_gfx = "auto_cannons_s"
@@ -373,7 +373,7 @@ weapon_component_template = {
 			alloys = 33
 		}
 	}
-	size_restriction = { RX_77 RX_78 FA_78 FA_78_2 HFA_78 RX_81 RX_81FC RGM_79 RGM_79S RGM_79FP RGM_79FC RGC_80 RX_78GP01_Fb RX_78GP03S RX_78GP04G MSN_00100 RMS_106 }
+	size_restriction = { RX_77 RX_78 FA_78 FA_78_2 HFA_78 RX_81 RX_81FC RGM_79 RGM_79S RGM_79FP RGM_79FC RGC_80 RGC_83 RX_78GP01_Fb RX_78GP03S RX_78GP04G MSN_00100 RMS_106 }
 	prerequisites = { "tech_RMS_179" }
 	component_set = "ZETA_EFSF_380MM"
 	projectile_gfx = "gundam_missile"
@@ -406,7 +406,7 @@ weapon_component_template = {
 			alloys = 33
 		}
 	}
-	size_restriction = { RX_77 RX_78 FA_78 FA_78_2 HFA_78 RX_81 RX_81FC RGM_79 RGM_79S RGM_79FP RGM_79FC RGC_80 RX_78GP01_Fb RX_78GP03S RX_78GP04G MSN_00100 RMS_106 }
+	size_restriction = { RX_77 RX_78 FA_78 FA_78_2 HFA_78 RX_81 RX_81FC RGM_79 RGM_79S RGM_79FP RGM_79FC RGC_80 RGC_83 RX_78GP01_Fb RX_78GP03S RX_78GP04G MSN_00100 RMS_106 }
 	prerequisites = { "tech_AEUG" }
 	component_set = "ZETA_CLAY_BAZOOKA"
 	projectile_gfx = "gundam_missile"

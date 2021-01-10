@@ -577,12 +577,6 @@ objectTypes = {
 	pdxmesh = {
 		name = "fed_01_cruiser_frame_mesh"
 		file = "gfx/models/ships/mammalian_01/mammalian_01_cruiser_frame.mesh"
-				animation = { id = "idle"			type = "fed_01_cruiser_frame_idle_animation" }
-				animation = { id = "death"			type = "fed_01_cruiser_frame_death_animation" }
-				animation = { id = "death2"			type = "fed_01_cruiser_frame_death2_animation" }
-				animation = { id = "death3"			type = "fed_01_cruiser_frame_death3_animation" }
-				animation = { id = "attack"			type = "fed_01_cruiser_frame_idle_animation" }
-				animation = { id = "moving"			type = "fed_01_cruiser_frame_idle_animation" }
 		scale = 1.0
 		meshsettings = {
 			shader = "PdxMeshShip"
@@ -705,11 +699,6 @@ objectTypes = {
 	pdxmesh = {
 		name = "fed_01_battleship_frame_mesh"
 		file = "gfx/models/ships/mammalian_01/mammalian_01_battleship_frame.mesh"
-				animation = { id = "idle"			type = "fed_01_battleship_frame_idle_animation" }
-				animation = { id = "death"			type = "fed_01_battleship_frame_death_animation" }
-				animation = { id = "death2"			type = "fed_01_battleship_frame_death2_animation" }
-				animation = { id = "death3"			type = "fed_01_battleship_frame_death3_animation" }
-		#		animation = { id = "attack"			type = "fed_01_battleship_frame_idle_animation" }
 		scale = 1.0
 		meshsettings = {
 			shader = "PdxMeshShip"
@@ -1513,6 +1502,19 @@ objectTypes = {
 		}
 	}
 
+	pdxmesh = { #GM Cannon II
+		name = "fed_01_GM_Cannon_II_Trio_mesh"
+		file = "gfx/models/ships/fed_01/GM_Cannon_II_Triple.mesh"
+
+		scale = 1.0
+			meshsettings = {
+				texture_diffuse = "GM_Cannon_II_Diffuse.dds"
+				texture_normal = "zakuII_normal.dds"
+				texture_specular = "Zaku_Specular.dds"
+				shader = "PdxMeshShip"
+		}
+	}
+
 	pdxmesh = { #IO FLEMING MURDER MACHINE - FA Thunderbolt Gundam
 		name = "FA_Thunderbolt_Gundam_mesh"
 		file = "gfx/models/ships/fed_01/FA_Thunderbolt_Gundam.mesh"
@@ -2000,6 +2002,19 @@ objectTypes = {
 		scale = 1.0
 			meshsettings = {
 				texture_diffuse = "Hizack_Diffuse.dds"
+				texture_normal = "zakuII_normal.dds"
+				texture_specular = "Zaku_Specular.dds"
+				shader = "PdxMeshShip"
+		}
+	}
+
+	pdxmesh = { #Hizack Rossweisse Single
+		name = "Hizack_Rossweise_mesh"
+		file = "gfx/models/ships/fed_01/Hizack_Rossweisse.mesh"
+
+		scale = 1.0
+			meshsettings = {
+				texture_diffuse = "Hizack_Rossweisse_Diffuse.dds"
 				texture_normal = "zakuII_normal.dds"
 				texture_specular = "Zaku_Specular.dds"
 				shader = "PdxMeshShip"

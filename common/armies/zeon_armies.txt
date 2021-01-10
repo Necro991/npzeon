@@ -49,7 +49,6 @@ efsf_ms_army = {
 	resources = {
 		category = armies
 		cost = {
-			category = armies
 			mobile_suits = 48
 			efsf_pilots = 48
 		}

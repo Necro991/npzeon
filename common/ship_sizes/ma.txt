@@ -235,7 +235,6 @@ MA_05Ad = { #MA-05Ad Big Rang
 	enable_default_design = no	#if yes, countries will have an auto-generated design at start
 
 	prerequisites = { "tech_MA_05Ad" }
-	has_mineral_upkeep = yes
 
 	combat_disengage_chance = 1.00
 

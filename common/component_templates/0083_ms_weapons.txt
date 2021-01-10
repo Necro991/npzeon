@@ -35,7 +35,7 @@ weapon_component_template = {
 	size = point_defence
 	entity = "Zeon_Machine_Gun_01_Entity"
 	damage = { min = 14.2 max = 28.4 } #Half Quel Values
-	total_fire_time = 0.5
+	total_fire_time = 5.0
 	range = 30.0
 	accuracy = 0.75
 	tracking  = 0.5
@@ -250,6 +250,38 @@ weapon_component_template = {
 	prerequisites = { "tech_RX_78GP03S" }
 	component_set = "0083_EFSF_GP03_MPC"
 	projectile_gfx = "MPC1"
+	tags = { weapon_type_energy }
+	ai_tags = { weapon_role_anti_armor }
+	#upgrades_to = "SMALL_BEAMC_2"
+}
+
+weapon_component_template = {
+	key = "0083_EFSF_RGC_83_CANNON"
+	size = extra_large
+	entity = "Zeon_Machine_Gun_01_Entity"
+	damage = { min = 28.4 max = 56.8 }
+	total_fire_time = 20
+	range = 60.0
+	accuracy = 0.75
+	tracking  = 0.0
+	type = point_defence
+	shield_damage = 0.2
+	armor_penetration = 0.95
+
+	icon = "0083_EFSF_RGC_83_CANNON"
+	icon_frame = 1
+
+	power = -3000
+	resources = {
+		category = ship_components
+		cost = {
+			alloys = 22
+		}
+	}
+	size_restriction = { RGC_83 }
+	prerequisites = { "tech_RGC_83" }
+	component_set = "0083_EFSF_RGC_83_CANNON"
+	projectile_gfx = "MPC2"
 	tags = { weapon_type_energy }
 	ai_tags = { weapon_role_anti_armor }
 	#upgrades_to = "SMALL_BEAMC_2"
