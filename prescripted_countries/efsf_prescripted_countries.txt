@@ -29,9 +29,6 @@ EFSF = {
 
 	flags = { EFSF_Start Gundam_Start custom_start_screen efsf }
 
-	weapon = "tech_missiles_1"
-	ftl = warp
-
 	planet_name = "Earth"
 	planet_class = "pc_continental"
 	initializer = "efsf_sol_system_initializer"
@@ -59,9 +56,7 @@ EFSF = {
 		name = "Johann Ibrahim Revil"
 		portrait = "fed_male_78"
 		gender = male
-		#texture = 0
-		#hair = 0
-		#clothes = 4
+		leader_class = ruler
 	}
 }
 
@@ -95,9 +90,6 @@ Titans = {
 
 	flags = { Titan_Start Gundam_Start custom_start_screen titans }
 
-	weapon = "tech_missiles_1"
-	ftl = warp
-
 	planet_name = "Earth"
 	planet_class = "pc_continental"
 	initializer = "gundamu_sol_system_initializer"
@@ -125,9 +117,7 @@ Titans = {
 		name = "Paptimus Scirocco"
 		portrait = "fed_male_50"
 		gender = male
-		#texture = 0
-		#hair = 0
-		#clothes = 4
+		leader_class = ruler
 	}
 }
 
@@ -163,9 +153,6 @@ Anaheim = {
 
 	flags = { EFSF_Start Gundam_Start custom_start_screen efsf }
 
-	weapon = "tech_missiles_1"
-	ftl = warp
-
 	planet_name = "Earth"
 	planet_class = "pc_continental"
 	initializer = "efsf_sol_system_initializer"
@@ -193,8 +180,6 @@ Anaheim = {
 		name = "Tem Ray"
 		portrait = "fed_male_79"
 		gender = male
-		#texture = 0
-		#hair = 0
-		#clothes = 4
+		leader_class = ruler
 	}
 }

@@ -148,10 +148,10 @@ country_event = { #Player has picked Zeon
 			give_technology = { tech = tech_Anaheim }
 		}
 		capital_scope = {
-			surveyed = {
-				set_surveyed = yes
-				surveyor = root
-			}
+			#surveyed = {
+			#	set_surveyed = yes
+			#	surveyor = root
+			#}
 			prevent_anomaly = yes
 			# terraforming_candidate_category
 			if = {
@@ -266,10 +266,6 @@ country_event = { #Player has picked Zeon
 				limit = {
 					 has_planet_flag = planet_earth
 				}
-				#create_spaceport = {
-				#	owner = controller
-				#	initial_module = "missile_weapon"
-				#}
 				set_name = "Earth"
 				create_pop = {
 					species = owner_main_species
@@ -337,10 +333,10 @@ country_event = { #Player has picked Axis
 			give_technology = { tech = tech_Anaheim }
 		}
 		capital_scope = {
-			surveyed = {
-				set_surveyed = yes
-				surveyor = root
-			}
+			#surveyed = {
+			#	set_surveyed = yes
+			#	surveyor = root
+			#}
 			prevent_anomaly = yes
 			# terraforming_candidate_category
 			if = {
@@ -453,10 +449,6 @@ country_event = { #Player has picked Axis
 				limit = {
 					 has_planet_flag = planet_earth
 				}
-				#create_spaceport = {
-				#	owner = controller
-				#	initial_module = "missile_weapon"
-				#}
 				set_name = "Earth"
 				create_pop = {
 					species = owner_main_species
@@ -551,10 +543,10 @@ country_event = { #Player has picked EFSF
 			give_technology = { tech = tech_Anaheim }
 		}
 		capital_scope = {
-			surveyed = {
-				set_surveyed = yes
-				surveyor = root
-			}
+			#surveyed = {
+			#	set_surveyed = yes
+			#	surveyor = root
+			#}
 			prevent_anomaly = yes
 			# terraforming_candidate_category
 			if = {
@@ -666,10 +658,6 @@ country_event = { #Player has picked EFSF
 				limit = {
 					 has_planet_flag = planet_earth
 				}
-				#create_spaceport = {
-				#	owner = controller
-				#	initial_module = "missile_weapon"
-				#}
 				set_name = "Earth"
 				create_pop = {
 					species = owner_main_species
@@ -697,10 +685,6 @@ country_event = { #Player has picked EFSF
 				limit = {
 					 has_planet_flag = side3
 				}
-				#create_spaceport = {
-				#	owner = controller
-				#	initial_module = "missile_weapon"
-				#}
 				set_name = "Side 3"
 				create_pop = {
 					species = owner_main_species
@@ -766,10 +750,10 @@ country_event = { #Player has picked Neo
 			give_technology = { tech = tech_Anaheim }
 		}
 		capital_scope = {
-			surveyed = {
-				set_surveyed = yes
-				surveyor = root
-			}
+			#surveyed = {
+			#	set_surveyed = yes
+			#	surveyor = root
+			#}
 			prevent_anomaly = yes
 			# terraforming_candidate_category
 			if = {
@@ -885,10 +869,6 @@ country_event = { #Player has picked Neo
 				limit = {
 					 has_planet_flag = side3
 				}
-				#create_spaceport = {
-				#	owner = controller
-				#	initial_module = "missile_weapon"
-				#}
 				set_name = "Side 3"
 				create_pop = {
 					species = owner_main_species
@@ -944,10 +924,10 @@ country_event = { #Player has picked Gundamu
 			give_technology = { tech = tech_Anaheim }
 		}
 		capital_scope = {
-			surveyed = {
-				set_surveyed = yes
-				surveyor = root
-			}
+			#surveyed = {
+			#	set_surveyed = yes
+			#	surveyor = root
+			#}
 			prevent_anomaly = yes
 			# terraforming_candidate_category
 			if = {
@@ -1063,10 +1043,6 @@ country_event = { #Player has picked Gundamu
 				limit = {
 					 has_planet_flag = planet_earth
 				}
-				#create_spaceport = {
-				#	owner = controller
-				#	initial_module = "missile_weapon"
-				#}
 				set_name = "Earth"
 				create_pop = {
 					species = owner_main_species
@@ -1094,10 +1070,6 @@ country_event = { #Player has picked Gundamu
 				limit = {
 					 has_planet_flag = side3
 				}
-				#create_spaceport = {
-				#	owner = controller
-				#	initial_module = "missile_weapon"
-				#}
 				set_name = "Side 3"
 				create_pop = {
 					species = owner_main_species

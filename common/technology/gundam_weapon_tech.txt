@@ -47,9 +47,9 @@ tech_BEAMC_1 = {
 	tier = 1
 	category = { particles }
 	ai_update_type = military
-	prerequisites = { "tech_BEAMC_3" }
+	prerequisites = { "tech_BEAMC_1" }
 	weight = @tier2weight1
-	
+
 	weight_modifier = {
 		modifier = {
 			factor = 0.65
@@ -79,14 +79,14 @@ tech_BEAMC_1 = {
 			NOT = {
 				has_technology = "tech_lasers_1"
 			}
-		}	
+		}
 	}
-	
+
 	ai_weight = {
 		factor = 2		#weapons are good
 		modifier = {
 			factor = 1
-			has_country_flag = Gundam_Start 
+			has_country_flag = Gundam_Start
 		}
 		modifier = {
 			factor = 0
@@ -100,10 +100,10 @@ tech_BEAMC_2 = {
 	cost = @tier2cost4
 	tier = 2
 	category = { particles }
-	ai_update_type = military	
+	ai_update_type = military
 	prerequisites = { "tech_BEAMC_1" }
 	weight = @tier2weight4
-	
+
 	weight_modifier = {
 		modifier = {
 			factor = 0.65
@@ -127,14 +127,14 @@ tech_BEAMC_2 = {
 				area = physics
 				has_trait = "leader_trait_expertise_particles"
 			}
-		}	
+		}
 	}
-	
+
 	ai_weight = {
 		factor = 2		#weapons are good
 		modifier = {
 			factor = 1
-			has_country_flag = Gundam_Start 
+			has_country_flag = Gundam_Start
 		}
 		modifier = {
 			factor = 0
@@ -148,10 +148,10 @@ tech_BEAMC_3 = {
 	cost = @tier3cost4
 	tier = 3
 	category = { particles }
-	ai_update_type = military	
+	ai_update_type = military
 	prerequisites = { "tech_BEAMC_2" }
 	weight = @tier3weight4
-	
+
 	weight_modifier = {
 		modifier = {
 			factor = 0.65
@@ -175,14 +175,14 @@ tech_BEAMC_3 = {
 				area = physics
 				has_trait = "leader_trait_expertise_particles"
 			}
-		}	
+		}
 	}
-	
+
 	ai_weight = {
 		factor = 2		#weapons are good
 		modifier = {
 			factor = 1
-			has_country_flag = Gundam_Start 
+			has_country_flag = Gundam_Start
 		}
 		modifier = {
 			factor = 0
@@ -197,9 +197,9 @@ tech_EFSF_BEAMC_1 = {
 	tier = 1
 	category = { particles }
 	ai_update_type = military
-	prerequisites = { "tech_EFSF_BEAMC_3" }
+	prerequisites = { "tech_EFSF_BEAMC_1" }
 	weight = @tier2weight1
-	
+
 	weight_modifier = {
 		modifier = {
 			factor = 0.65
@@ -224,19 +224,13 @@ tech_EFSF_BEAMC_1 = {
 				has_trait = "leader_trait_expertise_particles"
 			}
 		}
-		modifier = {
-			factor = 0.5
-			NOT = {
-				has_technology = "tech_EFSF_lasers_1"
-			}
-		}	
 	}
-	
+
 	ai_weight = {
 		factor = 2		#weapons are good
 		modifier = {
 			factor = 1
-			has_country_flag = Gundam_Start 
+			has_country_flag = Gundam_Start
 		}
 		modifier = {
 			factor = 0
@@ -250,10 +244,10 @@ tech_EFSF_BEAMC_2 = {
 	cost = @tier2cost4
 	tier = 2
 	category = { particles }
-	ai_update_type = military	
+	ai_update_type = military
 	prerequisites = { "tech_EFSF_BEAMC_1" }
 	weight = @tier2weight4
-	
+
 	weight_modifier = {
 		modifier = {
 			factor = 0.65
@@ -277,14 +271,14 @@ tech_EFSF_BEAMC_2 = {
 				area = physics
 				has_trait = "leader_trait_expertise_particles"
 			}
-		}	
+		}
 	}
-	
+
 	ai_weight = {
 		factor = 2		#weapons are good
 		modifier = {
 			factor = 1
-			has_country_flag = Gundam_Start 
+			has_country_flag = Gundam_Start
 		}
 		modifier = {
 			factor = 0
@@ -298,10 +292,10 @@ tech_EFSF_BEAMC_3 = {
 	cost = @tier3cost4
 	tier = 3
 	category = { particles }
-	ai_update_type = military	
+	ai_update_type = military
 	prerequisites = { "tech_EFSF_BEAMC_2" }
 	weight = @tier3weight4
-	
+
 	weight_modifier = {
 		modifier = {
 			factor = 0.65
@@ -325,14 +319,14 @@ tech_EFSF_BEAMC_3 = {
 				area = physics
 				has_trait = "leader_trait_expertise_particles"
 			}
-		}	
+		}
 	}
-	
+
 	ai_weight = {
 		factor = 2		#weapons are good
 		modifier = {
 			factor = 1
-			has_country_flag = Gundam_Start 
+			has_country_flag = Gundam_Start
 		}
 		modifier = {
 			factor = 0

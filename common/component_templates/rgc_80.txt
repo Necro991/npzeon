@@ -43,7 +43,7 @@ utility_component_template = {
 	prerequisites = { "tech_RGC_80S" }
 
 	component_set = "rgc_80_armor"
-	upgrades_to = "rgc_80_armor_3"
+	#upgrades_to = "rgc_80_armor_3"
 
 	ai_weight = {
 		weight = 2
