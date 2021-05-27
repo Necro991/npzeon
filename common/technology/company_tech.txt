@@ -48,6 +48,7 @@ tech_Principality = {
 	tier = 1
 	category = { industry }
 	ai_update_type = military
+	potential = { always = no }
 	prerequisites = { "tech_Principality" }
 	weight = @tier1weight1
 
@@ -63,6 +64,7 @@ tech_EFSF = {
 	tier = 1
 	category = { industry }
 	ai_update_type = military
+	potential = { always = no }
 	prerequisites = { "tech_EFSF" }
 	weight = @tier1weight1
 
@@ -123,6 +125,7 @@ tech_SNRI = {
 	tier = 1
 	category = { industry }
 	ai_update_type = military
+	potential = { always = no }
 	prerequisites = { "tech_SNRI" } #Needs to come from RGM-89J Jegan Normal Type
 	weight = @tier1weight1
 
@@ -138,6 +141,7 @@ tech_Zeonic = {
 	tier = 1
 	category = { industry }
 	ai_update_type = military
+	potential = { always = no }
 	prerequisites = { "tech_Zeonic" }
 	weight = @tier1weight1
 
@@ -153,6 +157,7 @@ tech_Zimmad = {
 	tier = 1
 	category = { industry }
 	ai_update_type = military
+	potential = { always = no }
 	prerequisites = { "tech_Zimmad" }
 	weight = @tier1weight1
 
@@ -168,6 +173,7 @@ tech_MIP = {
 	tier = 1
 	category = { industry }
 	ai_update_type = military
+	potential = { always = no }
 	prerequisites = { "tech_MIP" }
 	weight = @tier1weight1
 
@@ -183,6 +189,7 @@ tech_Anaheim = {
 	tier = 1
 	category = { industry }
 	ai_update_type = military
+	potential = { always = no }
 	prerequisites = { "tech_Anaheim" }
 	weight = @tier1weight1
 
@@ -198,6 +205,7 @@ tech_Buch_Concern = {
 	tier = 1
 	category = { industry }
 	ai_update_type = military
+	potential = { always = no }
 	prerequisites = { "tech_Buch_Concern" }
 	weight = @tier1weight1
 
@@ -213,6 +221,7 @@ tech_Hervic = {
 	tier = 1
 	category = { industry }
 	ai_update_type = military
+	potential = { always = no }
 	prerequisites = { "tech_Hervic" }
 	weight = @tier1weight1
 
@@ -273,6 +282,7 @@ tech_Mars_Zeon = {
 	tier = 1
 	category = { industry }
 	ai_update_type = military
+	potential = { always = no }
 	prerequisites = { "tech_Mars_Zeon" }
 	weight = @tier1weight1
 
@@ -288,6 +298,7 @@ tech_Oldsmobile = {
 	tier = 1
 	category = { industry }
 	ai_update_type = military
+	potential = { always = no }
 	prerequisites = { "tech_Oldsmobile" }
 	weight = @tier1weight1
 
@@ -303,6 +314,7 @@ tech_Cosmo_Babylonia = {
 	tier = 1
 	category = { industry }
 	ai_update_type = military
+	potential = { always = no }
 	prerequisites = { "tech_Cosmo_Babylonia" }
 	weight = @tier1weight1
 
@@ -318,6 +330,7 @@ tech_Zanscare = {
 	tier = 1
 	category = { industry }
 	ai_update_type = military
+	potential = { always = no }
 	prerequisites = { "tech_Zanscare" }
 	weight = @tier1weight1
 
@@ -333,6 +346,7 @@ tech_Crossbone_Vanguard = {
 	tier = 1
 	category = { industry }
 	ai_update_type = military
+	potential = { always = no }
 	prerequisites = { "tech_Crossbone_Vanguard" }
 	weight = @tier1weight1
 

@@ -47,6 +47,7 @@ tech_BEAMC_1 = {
 	tier = 1
 	category = { particles }
 	ai_update_type = military
+	potential = { always = no }
 	prerequisites = { "tech_BEAMC_1" }
 	weight = @tier2weight1
 
@@ -197,6 +198,7 @@ tech_EFSF_BEAMC_1 = {
 	tier = 1
 	category = { particles }
 	ai_update_type = military
+	potential = { always = no }
 	prerequisites = { "tech_EFSF_BEAMC_1" }
 	weight = @tier2weight1
 
