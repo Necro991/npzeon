@@ -47,7 +47,12 @@ tech_MS_05B = {
 	tier = 1
 	category = { materials }
 	ai_update_type = military
-	potential = { always = no }
+	potential = {
+		OR = {
+			has_country_flag = zeon_tech
+			has_country_flag = zeon_eff_tech
+		}
+	}
 	prerequisites = { "tech_MS_05B" }
 	weight = @tier1weight1
 

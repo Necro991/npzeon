@@ -23,6 +23,7 @@ country_event = {
 
 	option = {
 		name = zeontech_dialogue_1
+		set_country_flag = zeon_tech
 		give_technology = { tech = tech_BEAMC_1 }
 		give_technology = { tech = tech_MS_05B }
 		give_technology = { tech = tech_Zeonic }
@@ -47,6 +48,7 @@ country_event = {
 
 	option = {
 		name = zeontech_dialogue_2
+		set_country_flag = eff_tech
 		give_technology = { tech = tech_EFSF_BEAMC_1 }
 		give_technology = { tech = tech_RB_79 }
 		give_technology = { tech = tech_Zeonic }
@@ -71,6 +73,7 @@ country_event = {
 
 	option = {
 		name = zeontech_dialogue_3
+		set_country_flag = zeon_eff_tech
 		give_technology = { tech = tech_BEAMC_1 }
 		give_technology = { tech = tech_EFSF_BEAMC_1 }
 		give_technology = { tech = tech_MS_05B }

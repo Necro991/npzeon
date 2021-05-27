@@ -48,7 +48,12 @@ tech_Principality = {
 	tier = 1
 	category = { industry }
 	ai_update_type = military
-	potential = { always = no }
+	potential = {
+		OR = {
+			has_country_flag = zeon_tech
+			has_country_flag = zeon_eff_tech
+		}
+	}
 	prerequisites = { "tech_Principality" }
 	weight = @tier1weight1
 
@@ -64,7 +69,12 @@ tech_EFSF = {
 	tier = 1
 	category = { industry }
 	ai_update_type = military
-	potential = { always = no }
+	potential = {
+		OR = {
+			has_country_flag = eff_tech
+			has_country_flag = zeon_eff_tech
+		}
+	}
 	prerequisites = { "tech_EFSF" }
 	weight = @tier1weight1
 
@@ -141,7 +151,12 @@ tech_Zeonic = {
 	tier = 1
 	category = { industry }
 	ai_update_type = military
-	potential = { always = no }
+	potential = {
+		OR = {
+			has_country_flag = zeon_tech
+			has_country_flag = zeon_eff_tech
+		}
+	}
 	prerequisites = { "tech_Zeonic" }
 	weight = @tier1weight1
 
@@ -157,7 +172,12 @@ tech_Zimmad = {
 	tier = 1
 	category = { industry }
 	ai_update_type = military
-	potential = { always = no }
+	potential = {
+		OR = {
+			has_country_flag = zeon_tech
+			has_country_flag = zeon_eff_tech
+		}
+	}
 	prerequisites = { "tech_Zimmad" }
 	weight = @tier1weight1
 
@@ -173,7 +193,12 @@ tech_MIP = {
 	tier = 1
 	category = { industry }
 	ai_update_type = military
-	potential = { always = no }
+	potential = {
+		OR = {
+			has_country_flag = zeon_tech
+			has_country_flag = zeon_eff_tech
+		}
+	}
 	prerequisites = { "tech_MIP" }
 	weight = @tier1weight1
 
